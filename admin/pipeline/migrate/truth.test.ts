@@ -22,7 +22,7 @@ it('the committed truth tree passes every truth check', async () => {
 	// A floor, not the count: fails if the glob silently stops matching,
 	// without breaking when an entry is added.
 	expect(files.length).toBeGreaterThan(32_000);
-	problems.push(...validateTruth(files, await loadPageIndex()));
+	problems.push(...(await validateTruth(files, await loadPageIndex())));
 	expect({ count: problems.length, first: problems.slice(0, 20) }).toEqual({
 		count: 0,
 		first: [],

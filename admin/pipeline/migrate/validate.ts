@@ -7,9 +7,9 @@
  * page index, so they are the only checks a hand edit ever meets.
  * `truth.test.ts` runs them over the committed tree in `bun qa:test`.
  */
+import type { ValidateFunction } from 'ajv';
 import Ajv2020 from 'ajv/dist/2020';
-import { ENTRIES_DIR as TRUTH_DIR } from '../paths.ts';
-import entrySchema from '../schema/entry.schema.json' with { type: 'json' };
+import { SCHEMA_PATH, ENTRIES_DIR as TRUTH_DIR } from '../paths.ts';
 import { tokenize } from '../transform/html.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
 import { nameCollisions } from './names.ts';
@@ -35,10 +35,22 @@ const CLOSE = /^<\/([a-z]+)>$/u;
 const RID = /^[A-Z]\d{5}$/u;
 const MARKUP_CHAR = /[<>]/u;
 
-const validateEntry = new Ajv2020({
-	allErrors: true,
-	strict: true,
-}).compile<TruthEntry>(entrySchema);
+/** Ajv, compiled once against the schema `paths.ts` names.
+ *
+ * A runtime read rather than a compile-time import: the module does
+ * not own the entry contract, it is handed one, and a different
+ * project points `paths.ts` at theirs. The cost is that TypeScript no
+ * longer checks the schema literal at build — `schema.test.ts` and
+ * Ajv's own `strict: true` carry that instead. */
+let compiled: ValidateFunction<TruthEntry> | undefined;
+
+async function entryValidator(): Promise<ValidateFunction<TruthEntry>> {
+	compiled ??= new Ajv2020({
+		allErrors: true,
+		strict: true,
+	}).compile<TruthEntry>(await Bun.file(SCHEMA_PATH).json());
+	return compiled;
+}
 
 /** One truth file as read: its path relative to `data/entries/`
  * (`A/A00013.json`) and its parsed, not-yet-validated content. */
@@ -203,10 +215,11 @@ function* plainFields(entry: TruthEntry): Generator<[string, string]> {
 
 /** Schema, and a file lives at `<first letter>/<id>.json`. Returns the
  * entries that passed, for the corpus-level checks. */
-function checkFiles(
+async function checkFiles(
 	files: readonly TruthFile[],
 	problems: string[],
-): TruthEntry[] {
+): Promise<TruthEntry[]> {
+	const validateEntry = await entryValidator();
 	const entries: TruthEntry[] = [];
 	for (const { entry, path } of files) {
 		if (!validateEntry(entry)) {
@@ -326,12 +339,12 @@ function checkHeadwordShape(entry: TruthEntry, problems: string[]): void {
 }
 
 /** Every truth check over one tree; an empty list is a valid tree. */
-function validateTruth(
+async function validateTruth(
 	files: readonly TruthFile[],
 	pages: ReadonlyMap<string, PagePlacement>,
-): string[] {
+): Promise<string[]> {
 	const problems: string[] = [];
-	const entries = checkFiles(files, problems);
+	const entries = await checkFiles(files, problems);
 	checkNames(entries, problems);
 	checkSefariaHeadwords(entries, problems);
 	const ids = new Set(entries.map((e) => e.id));

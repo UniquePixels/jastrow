@@ -75,8 +75,7 @@ import {
 	stalePins,
 } from './patch/apply.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
-import { ENTRIES_DIR as OUT_DIR } from './paths.ts';
-import entrySchema from './schema/entry.schema.json' with { type: 'json' };
+import { ENTRIES_DIR as OUT_DIR, SCHEMA_PATH } from './paths.ts';
 import { RULES } from './transform/registry.ts';
 import type { BodyEntry, SourceEntry } from './types.ts';
 
@@ -584,10 +583,14 @@ async function main(): Promise<void> {
 		// are already on disk.
 		biomeBinary();
 	}
+	// A runtime read rather than a compile-time import: the module does
+	// not own the entry contract, it is handed one through paths.ts.
+	// `main` already runs as one long async call, so a direct await
+	// here needs no memo and no signature changes downstream.
 	const validate: ValidateFunction = new Ajv2020({
 		allErrors: true,
 		strict: true,
-	}).compile(entrySchema);
+	}).compile(await Bun.file(SCHEMA_PATH).json());
 	const report = createReport();
 	const composed = await composeAll(report, options);
 	checkOrphanRefs(composed, report);

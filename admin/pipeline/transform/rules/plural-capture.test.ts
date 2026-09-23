@@ -32,9 +32,7 @@ const TIMEOUT = 120_000;
 it(
 	'has no v2 destination to be repaired into',
 	async () => {
-		const schema = (await Bun.file(
-			'admin/pipeline/schema/entry.schema.json',
-		).json()) as {
+		const schema = (await Bun.file('data/schema/entry.schema.json').json()) as {
 			additionalProperties: boolean;
 			properties: Record<string, unknown>;
 		};

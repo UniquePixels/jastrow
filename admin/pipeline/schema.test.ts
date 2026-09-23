@@ -1,9 +1,12 @@
 import { describe, expect, it } from 'bun:test';
 import Ajv2020 from 'ajv/dist/2020';
-import entrySchema from './entry.schema.json' with { type: 'json' };
+import { SCHEMA_PATH } from './paths.ts';
 
+// A runtime read, like the module's own two load sites: the schema
+// is handed to the module through paths.ts, not compiled in, so this
+// is the one place a change to its shape is checked at all.
 const ajv = new Ajv2020({ allErrors: true, strict: true });
-const validate = ajv.compile(entrySchema);
+const validate = ajv.compile(await Bun.file(SCHEMA_PATH).json());
 
 function errorPaths(): string[] {
 	return (validate.errors ?? []).map((error) => error.instancePath || '/');
