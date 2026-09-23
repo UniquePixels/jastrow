@@ -19,7 +19,7 @@ members) is a head and ships. Paren RESIDUE at the run's own edge
 of an enclosing etymology bracket and is refused. §5.
 
 Batch 6b's report is the immediate ancestor:
-[`transform-batch-6b.md`](../archive/transform-batch-6b.md), and its spec —
+[`transform-batch-6b.md`](../transform-batch-6b.md), and its spec —
 [`2026-08-28-structural-repairs-design.md`](2026-08-28-structural-repairs-design.md)
 — is where the phase and the loss gate this batch relies on were built.
 The transform contract itself is

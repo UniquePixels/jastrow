@@ -1,9 +1,13 @@
 # Entry Body Model
 
 The toolkit that turns each source entry's free-text `content.senses`
-into the structured `BodyEntry` shape the app renders, per the
+into the structured `BodyEntry` shape the app renders, per
+[`DESIGN.md`](../DESIGN.md) §2 — the current design, which replaced the
+original
 [design doc](../../../docs/archive/specs/2026-07-11-entry-body-model-design.md)
-and its [implementation plan](../../../docs/archive/plans/2026-07-11-entry-body-model.md).
+and its
+[implementation plan](../../../docs/archive/plans/2026-07-11-entry-body-model.md),
+both kept archived as historical record.
 Not part of [the pipeline](../README.md) proper — this is prep work
 feeding Stage 2 (import).
 

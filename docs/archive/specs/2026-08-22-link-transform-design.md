@@ -52,7 +52,7 @@ batch 2 ships the twelve entry-local rows, 1,794 instances.
 to `judgment` on audit — §6 predicted both as candidates and §4's table
 below records the outcome per row. The module spec's §7 table has been
 amended accordingly. Full report:
-[docs/archive/transform-batch-2.md](../archive/transform-batch-2.md).
+[docs/archive/transform-batch-2.md](../transform-batch-2.md).
 
 ## 2. The unlink ruling
 
@@ -100,7 +100,7 @@ declines to edit any anchor whose tag `opensScope` reports malformed.
 The text gate strips tags before comparing, and says so in its own
 header: *"a rule that merely adds an `<a href>` would read as inventing
 text. This gate strips tags first"*
-([no-new-text.ts:16](../../admin/pipeline/transform/no-new-text.ts)).
+([no-new-text.ts:16](../../../admin/pipeline/transform/no-new-text.ts)).
 The markup gate compares a well-formedness **delta**, so an anchor
 whose target changed from a right address to a wrong one is well-formed
 before and after and passes clean.

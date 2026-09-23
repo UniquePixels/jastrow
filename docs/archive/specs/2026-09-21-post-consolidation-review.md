@@ -5,7 +5,7 @@ Reviewed at `v2` = `12a40a30` (PR #114). Five independent review
 passes — code, structure, data schema, pipeline, open issues — each ran
 its own scripts; every count below comes from a command that was run,
 and the five full reports with their evidence sit in
-[`docs/archive/review-2026-09-21/`](../archive/review-2026-09-21/).
+[`docs/archive/review-2026-09-21/`](../review-2026-09-21/).
 Nothing in the tree was changed by the review.
 
 ## 1. Verdict against the bar
@@ -41,7 +41,7 @@ fix-after-go-live, and a list of corrections for Sefaria.
 
 ## 3. Code
 
-Full report: [`report-code.md`](../archive/review-2026-09-21/report-code.md).
+Full report: [`report-code.md`](../review-2026-09-21/report-code.md).
 
 | Area | Measured | Verdict |
 |---|---|---|
@@ -62,7 +62,7 @@ the contracts and un-export the dead 101.
 
 ## 4. Structure and repo
 
-Full report: [`report-architecture.md`](../archive/review-2026-09-21/report-architecture.md).
+Full report: [`report-architecture.md`](../review-2026-09-21/report-architecture.md).
 
 **Layout.** Nothing junk is tracked. The three-bucket model (R4: rules /
 patches / review detectors) is not visible in the tree: `body/types.ts`
@@ -96,7 +96,7 @@ superseded. The flow SVG omits `data/slug-index/`.
 
 ## 5. Data schema
 
-Full report: [`report-schema.md`](../archive/review-2026-09-21/report-schema.md).
+Full report: [`report-schema.md`](../review-2026-09-21/report-schema.md).
 
 **Hard violations: 0.** ajv passes all 32,512; markup uses 6 tags and 1
 attribute, all in the vocabulary; every internal ref, slug row, alias,
@@ -130,7 +130,7 @@ on ~600 unresolved escalations and verifies nothing.
 
 ## 6. Pipeline
 
-Full report: [`report-pipeline.md`](../archive/review-2026-09-21/report-pipeline.md).
+Full report: [`report-pipeline.md`](../review-2026-09-21/report-pipeline.md).
 
 **Reproducible:** dry run 100.6 s, nine gates green, tree clean
 afterwards (blessing doc and review report byte-identical). Rebuild in
@@ -152,7 +152,7 @@ full 100 s dry run (`options.ts` ignores unknown flags); README omits
 
 ## 7. Open issues
 
-Full report with draft `gh` commands: [`report-issues.md`](../archive/review-2026-09-21/report-issues.md).
+Full report with draft `gh` commands: [`report-issues.md`](../review-2026-09-21/report-issues.md).
 18 open; 17 filed under Brian's account by AI sessions, 1 by Renovate;
 only #97 came through the data-correction form. Every claim in
 #102–#113 re-verified true today; the problem is ten issues for one job
@@ -223,7 +223,7 @@ Smallest set before `compile.ts` starts, then the rest.
 
 Each with a default; silence means the default.
 
-1. **Headword shape before compile.** Ruled 2026-09-21: adopt headword-design §2 now (`headwords[]`, `display` optional, `partial`, per-form `gender`, `schemaVersion: 2`); costs, drops and deferrals are in the RULING block at the top of [headword-design.md §2](../v2/headword-design.md). Q10 resolves with it.
+1. **Headword shape before compile.** Ruled 2026-09-21: adopt headword-design §2 now (`headwords[]`, `display` optional, `partial`, per-form `gender`, `schemaVersion: 2`); costs, drops and deferrals are in the RULING block at the top of [headword-design.md §2](../headword-design.md). Q10 resolves with it.
 2. **The five blocking classes.** Under your reader-sees ruling they block; under the "correctable post-go-live without moving a URL" bar all five defer. Which bar? *Default: they `defer` — none moves a URL — but the report must detect and show them either way.*
 3. **`grammar.pos`.** Drop until produced, or seed a closed enum from the `pr. n.*` markers (1,195 entries)? *Default: seed it.*
 4. **Enum tightening.** Remove `gender:"c"`, `number:"du"`; require `page`, `column`, `units`. *Default: yes.*
@@ -233,7 +233,7 @@ Each with a default; silence means the default.
 8. **Branch/tag collision** `archive/v2-research-2026-09`. *Default: delete the branch; every citation uses `refs/tags/`.*
 9. **Code moves** (behaviour-neutral, separate PRs, invariants first): `body/types.ts` and `body/compose.ts` to the pipeline root; extract `buildTrace`, archive the dry-run trio and `page-index/verify.ts`; move `headword-issues.ts` out of the root; group review detectors under `migrate/detectors/`. *Default: yes, after PR 5.*
 10. **`phrase-alt-headword-stub`.** Unregister now (moves gates, re-bless) or with the headword work? *Default: with PR 5.*
-11. **Research backlog → tracker.** *Ruled 2026-09-21 (maintainer): option C.* Three umbrella issues stand in for the hand-written backlog until the admin tool's import exists — one for sense structure (Group D + the 21 implied-`1)` rids + the #18/#42 shape row), one for the 16 deferred judgment classes (Groups B and E, one checkbox per class), one for the 588 sweep escalations (lists 1–2). Each links the backlog section and carries no rid table. Headword print work needs no new issue (the triage's consolidated issue B and retitled #113 cover it); the 298 low-confidence page placements get none, per the "fix as found, never schedule" ruling. Filing rule recorded in `CONTRIBUTING.md` § Issues and `.claude/CLAUDE.md`: an issue is one defect class or one decision, never a rid list, and an AI session files or closes none without the maintainer's go in that session. Later import: `(rid, kind)` rows parent under the umbrella by kind, so no key collides. Drafts: [issues-to-file.md](../archive/review-2026-09-21/issues-to-file.md). Considered: A (20 class issues now, ~60 if applied consistently) rebuilt the burst behind #102–#111; B (doc only) left the work with no findable home for an open-ended wait, and the `(rid, kind)` import covers report rows only, so the backlog would have needed its own importer anyway.
+11. **Research backlog → tracker.** *Ruled 2026-09-21 (maintainer): option C.* Three umbrella issues stand in for the hand-written backlog until the admin tool's import exists — one for sense structure (Group D + the 21 implied-`1)` rids + the #18/#42 shape row), one for the 16 deferred judgment classes (Groups B and E, one checkbox per class), one for the 588 sweep escalations (lists 1–2). Each links the backlog section and carries no rid table. Headword print work needs no new issue (the triage's consolidated issue B and retitled #113 cover it); the 298 low-confidence page placements get none, per the "fix as found, never schedule" ruling. Filing rule recorded in `CONTRIBUTING.md` § Issues and `.claude/CLAUDE.md`: an issue is one defect class or one decision, never a rid list, and an AI session files or closes none without the maintainer's go in that session. Later import: `(rid, kind)` rows parent under the umbrella by kind, so no key collides. Drafts: [issues-to-file.md](../review-2026-09-21/issues-to-file.md). Considered: A (20 class issues now, ~60 if applied consistently) rebuilt the burst behind #102–#111; B (doc only) left the work with no findable home for an open-ended wait, and the `(rid, kind)` import covers report rows only, so the backlog would have needed its own importer anyway.
 12. **Lint severity.** Raise length/complexity rules to `warn` (149 findings surface) or drop them? *Default: warn.*
 
 ## 11. Amendment — URL names spec (2026-09-21, PR #115)

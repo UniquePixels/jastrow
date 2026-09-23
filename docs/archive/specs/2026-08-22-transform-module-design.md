@@ -1,12 +1,12 @@
 # Transform Module — Phase 2 Automation
 
 - **Status:** approved 2026-08-22 (maintainer)
-- **Parent:** [sweep tiering §4 Phase 2](../archive/specs/2026-08-17-sweep-tiering-design.md)
-- **Worklist:** [Phase 2 triage](../archive/phase-2-triage.md) — 80 transform
+- **Parent:** [sweep tiering §4 Phase 2](2026-08-17-sweep-tiering-design.md)
+- **Worklist:** [Phase 2 triage](../phase-2-triage.md) — 80 transform
   rows, 22,619 instances
 - **Consumes:** the entry body model
   ([§6.0](2026-07-11-entry-body-model-design.md)), the committed ordered
-  phase manifest ([research process §5 step 2](../archive/specs/2026-08-10-research-process-design.md),
+  phase manifest ([research process §5 step 2](2026-08-10-research-process-design.md),
   implemented at `admin/pipeline/patch/apply.ts:55`)
 
 ## 1. Context & Problem
@@ -430,7 +430,7 @@ corrected from 41), `shuruk-as-yod-display-corruption` (12),
 `sifre-ib-resolves-to-yalkut` (6, corrected from 5). Six repair by
 UNLINK, three by retarget, one by a display-text edit; the batch
 creates no links. Full report:
-[docs/archive/transform-batch-2.md](../archive/transform-batch-2.md).
+[docs/archive/transform-batch-2.md](../transform-batch-2.md).
 
 **What batch 2 did NOT take, and why each is deferred rather than
 missed:**

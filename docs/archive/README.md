@@ -40,29 +40,28 @@ document set was cut to six and everything else moved here.
 `sefaria-report.md` and `upstream-issues.md` stayed live and are in
 `docs/`.
 
-## Why the links in here are dead, and stay dead
+## Why the links in `decisions-2026-09-22.md` are dead, and stay dead
 
-**Do not repair relative links under `docs/archive/`.** An archived
-document's links resolve from where it used to live, not from here, so
-a link checker run over the whole tree will report them by the dozen.
-That is the intended state, for two reasons.
+**Do not repair relative links in
+[`decisions-2026-09-22.md`](decisions-2026-09-22.md).** It is a
+byte-verbatim copy of `docs/decisions.md` as it stood before the
+2026-09-22 cut. It holds 56 relative links, written to resolve from
+`docs/`; 36 of them do not resolve from here, and that is the intended
+state. Its whole value is being diffable against the live ledger, and
+rewriting one link in it destroys that.
 
-A document moved here keeps whatever it said at the time — that is what
-makes it a record rather than a stale copy. And
-[`decisions-2026-09-22.md`](decisions-2026-09-22.md) is a byte-verbatim
-copy of `docs/decisions.md` as it stood before the 2026-09-22 cut. It
-holds 56 relative links, written to resolve from `docs/`; 36 of them do
-not resolve from here, and that is the intended state. Its whole value
-is being diffable against the live ledger, and rewriting one link in it
-destroys that.
-
-So any link check over this repo must **exempt `docs/archive/`
-explicitly** rather than skipping it by accident. This is the check:
+Every OTHER document under `docs/archive/` is expected to have working
+relative links, rebased to its new location when it moved here. The
+whole-directory exemption this check used to carry was too broad: it
+is exactly why 43 links across 14 of those other documents, broken by
+the 2026-09-23 module-boundary move, went unnoticed instead of failing
+a check. So the exemption now names the one file whose dead links are
+deliberate, not the directory:
 
 ```sh
-# Every tracked markdown file OUTSIDE docs/archive/, which is exempt
-# BY DESIGN — see the section above.
-git ls-files '*.md' | grep -v '^docs/archive/' | while read -r f; do
+# Every tracked markdown file except decisions-2026-09-22.md, which is
+# exempt BY DESIGN — see the section above.
+git ls-files '*.md' | grep -v '^docs/archive/decisions-2026-09-22\.md$' | while read -r f; do
   grep -oE '\]\([^)#][^)]*\)' "$f" | tr -d '()]' | while read -r l; do
     case "$l" in http*|mailto:*) continue;; esac
     t=${l%%#*}                       # strip the fragment
@@ -86,8 +85,11 @@ version of this check got each of them wrong:
   a link with the wrong number of `../` resolve anyway, which is a
   second way a move can test clean.
 
-When it reports something under `docs/archive/`, the answer is to check
-why the exemption was bypassed — not to repair what it found.
+When it reports something under `docs/archive/`, the answer is now to
+repair the link — rebase it to the document's current location, the
+way finding 5 of the 2026-09-23 module-boundary review did. Only a
+report naming `decisions-2026-09-22.md` itself means the exemption was
+bypassed; that file's dead links are deliberate and stay dead.
 
 ## Renamed on the way in
 

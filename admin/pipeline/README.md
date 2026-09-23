@@ -1,9 +1,10 @@
 # The Data Pipeline
 
 The auditable, reproducible path from the Sefaria source to the data
-the app serves. Read top to bottom, this is how the dictionary is
+the app will serve. Read top to bottom, this is how the dictionary is
 built from scratch: fetch the source, run it through import into
-entry data, compile entry data into compiled data on every deploy.
+entry data, then — **UNBUILT**, `compile.ts` does not exist yet — compile
+entry data into compiled data on every deploy.
 `migrate.ts` is permanent and re-runnable — a run regenerates a
 candidate tree and a report; it never silently overwrites edited
 entry data. The design behind every stage, including why it works

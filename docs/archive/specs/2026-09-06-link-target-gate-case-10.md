@@ -17,7 +17,7 @@ existing cases are unchanged; nothing here loosens one.
 
 ## 1. Why this exists
 
-[Sizing the unlinked `Ib.` predicate](../archive/phase-2-unlinked-ib.md)
+[Sizing the unlinked `Ib.` predicate](../phase-2-unlinked-ib.md)
 found 2,819 bare anaphors standing as plain text, 2,118 of them
 resolvable by the walk `ibAnaphora` already ships, and the walk
 validated at 99.9% place-accuracy against an 1,859-case control.
@@ -323,7 +323,7 @@ entries after `applyRepairs` — using the production `tokenize`,
 `anchors`, `fieldsOf`, `gapBetween`, `INTERVENING_CITATION` and
 `isCitation`, never a reimplementation. The population and the control
 carry their own provenance in
-[phase-2-unlinked-ib.md](../archive/phase-2-unlinked-ib.md) §6, including
+[phase-2-unlinked-ib.md](../phase-2-unlinked-ib.md) §6, including
 why `report-batch-06.md`'s 3,256 / 5,795 is not used.
 
 ## 9. Decision log

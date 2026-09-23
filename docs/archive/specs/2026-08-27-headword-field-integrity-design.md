@@ -120,7 +120,7 @@ are recorded here so no later reader re-derives them:
   numeral (`"אֲמוּ׳ II"`), which the parent audit already classified as
   job 1: *"175 carrying a Roman homograph numeral any expansion must
   preserve"*
-  ([abbrev-in-alt-headwords.md:47](../archive/catalogue-audit/abbrev-in-alt-headwords.md)).
+  ([abbrev-in-alt-headwords.md:47](../catalogue-audit/abbrev-in-alt-headwords.md)).
   Dropping token shapes matching `^[IVXLC]+$` recovers **236 / 244
   exactly**; the excluded shapes are `I` 92, `II` 77, `III` 5, `IV` 1.
 - **The headword-stub row's predicate must exclude the alphabet
@@ -194,7 +194,7 @@ The pairing is total for 69 of 84 opens; the residue is §3.4's orphans.
 
 **Ruling (Brian, 2026-08-27): strip the delimiters, add no new form-object
 mark.** *Reversed in intent 2026-09-20 —
-[`docs/v2/headword-design.md` §4](../v2/headword-design.md) keeps the
+[`docs/v2/headword-design.md` §4](../headword-design.md) keeps the
 grouping as structure in `display`, never inside `text`.*
 
 The parens are print's grouping punctuation around a run of variant
@@ -308,7 +308,7 @@ audit that moved it found no deterministic expansion:
 
 > the simplest anchor rule (locate the stub's final consonant in the
 > headword) is unique for only 1,468 of 2,241 stubs (65.5%)
-> — [abbrev-in-alt-headwords.md:69](../archive/catalogue-audit/abbrev-in-alt-headwords.md)
+> — [abbrev-in-alt-headwords.md:69](../catalogue-audit/abbrev-in-alt-headwords.md)
 
 `abbrev-headword-stub` is the same operation on the same shape in a
 different field. **The expectation is that it withdraws to `judgment`
@@ -457,7 +457,7 @@ delimiters from the wrong 654 items would pass all six.
 
 1. **SETTLED 2026-08-27 (Brian):** parens are stripped, no new
    form-object mark, no schema change (§3.2). *Reversed in intent
-   2026-09-20 — [`docs/v2/headword-design.md` §4](../v2/headword-design.md).*
+   2026-09-20 — [`docs/v2/headword-design.md` §4](../headword-design.md).*
 2. **OPEN — A02002.** Its shape is a phrase stub in the `headword`
    field (§4.1). Expand it with rule 2's mechanism, or refuse it and
    route it to `judgment` with the row's `reason` corrected? Default if
@@ -469,7 +469,7 @@ delimiters from the wrong 654 items would pass all six.
    the batch invents no text.
 4. **SETTLED 2026-08-28 (Brian): `abbrev-headword-stub` WITHDRAWN to
    `judgment`** (§4.2), on the Task 1 audit
-   [`abbrev-headword-stub.md`](../archive/catalogue-audit/abbrev-headword-stub.md).
+   [`abbrev-headword-stub.md`](../catalogue-audit/abbrev-headword-stub.md).
    At most 4 of 34 hold any source for the elided tail against the
    parent row's 65.5%, and the shortfall is structural: the stub IS the
    headword, so no fuller spelling of the lexeme exists in the entry by

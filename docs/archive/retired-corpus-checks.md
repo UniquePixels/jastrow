@@ -1,7 +1,7 @@
 # Retired corpus checks
 
 Every test deleted from the corpus tier by consolidation step 5 (spec
-[§5.1](../specs/2026-09-13-pipeline-consolidation-design.md), §11 step 5).
+[§5.1](specs/2026-09-13-pipeline-consolidation-design.md), §11 step 5).
 Each link opens the test as it stood at `03167f0d`, the last commit
 that ran it. Nothing here runs. All 191 permalinks resolve against
 `v2` history; if that history is ever rewritten, this table's names

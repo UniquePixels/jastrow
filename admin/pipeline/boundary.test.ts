@@ -29,8 +29,51 @@ import { describe, expect, it } from 'bun:test';
 const MODULE_DIR = 'admin/pipeline';
 const PATHS_FILE = `${MODULE_DIR}/paths.ts`;
 
-/** A relative import climbing above the module root. */
-const ESCAPES = /from\s+'((?:\.\.\/)+)([^']*)'/gu;
+/** `dirname`, posix-style, for a forward-slash repo-relative path. */
+function dirOf(path: string): string {
+	const i = path.lastIndexOf('/');
+	return i === -1 ? '.' : path.slice(0, i);
+}
+
+/**
+ * Joins `fromDir` and `spec`, collapsing `.` and `..` segments —
+ * `node:path`'s `join`/`resolve`/`normalize` would do this directly,
+ * but this module's own lint config (`biome.json`) forbids Node
+ * built-ins in `*.test.ts` files specifically, so it's hand-rolled
+ * here rather than imported.
+ */
+function resolveSpec(fromDir: string, spec: string): string {
+	const out: string[] = [];
+	for (const part of `${fromDir}/${spec}`.split('/')) {
+		if (part === '' || part === '.') {
+			continue;
+		}
+		if (part === '..') {
+			out.pop();
+			continue;
+		}
+		out.push(part);
+	}
+	return out.join('/');
+}
+
+/** Any single-quoted `from '...'` import specifier, whatever shape. */
+const IMPORT_SPECIFIER = /from\s+'([^']*)'/gu;
+
+/**
+ * True for a specifier that can climb out of its directory: one that
+ * starts with `.` (`./x`, `../x`) or that carries a bare `..` path
+ * segment anywhere (`a/../../../x`). Counting a leading `../` run
+ * against the importing file's depth used to be how this was
+ * checked, but that only sees a specifier that BEGINS with `../`:
+ * `'./../../x'` climbs out from behind a leading `./`, and
+ * `'a/../../../x'` climbs out with no leading run at all. A bare
+ * package specifier (`bun:test`, `zod`) never contains a `..`
+ * segment, so this doesn't false-positive on one.
+ */
+function isTraversal(spec: string): boolean {
+	return spec.startsWith('.') || spec.split('/').includes('..');
+}
 
 /**
  * A repo-root path literal — `data/…`, `docs/…` or `app/…` — inside a
@@ -51,8 +94,55 @@ const ROOT_PATH =
  * continuation lines. */
 const COMMENT_LINE = /^(?:\/\*|\*|\/\/)/u;
 
-/** Opt-out for one line, explained above. */
-const BOUNDARY_IGNORE = '// boundary-ignore:';
+/**
+ * Opt-out for one line, explained above. Must be a TRAILING `//
+ * boundary-ignore: <reason>` COMMENT with a non-empty reason —
+ * matching `line.includes('// boundary-ignore:')` anywhere in the
+ * line let the marker silence a line from *inside* a policed string:
+ * rendered prose that happens to quote the marker's own text can
+ * carry a real `data/`/`docs/`/`app/` path right past it, on the very
+ * line it then silences. Requiring `$` at the end rules out a marker
+ * that isn't the last thing on the line, but not one sitting inside
+ * an open quote — `isBoundaryIgnoreComment` below rules that out too.
+ */
+const BOUNDARY_IGNORE = /\/\/\s*boundary-ignore:\s*\S.*$/u;
+
+/**
+ * True if position `index` of `line` sits inside an open `'`, `"` or
+ * backtick string, scanning from the start of the line. Escaped
+ * quotes are skipped. A template literal's `${…}` isn't modeled —
+ * irrelevant here, since a trailing comment never follows one.
+ */
+function isQuotedAt(line: string, index: number): boolean {
+	let single = false;
+	let double = false;
+	let template = false;
+	for (let i = 0; i < index; i++) {
+		const c = line[i];
+		if (c === '\\') {
+			i++;
+			continue;
+		}
+		if (!double && !template && c === "'") {
+			single = !single;
+		} else if (!single && !template && c === '"') {
+			double = !double;
+		} else if (!single && !double && c === '`') {
+			template = !template;
+		}
+	}
+	return single || double || template;
+}
+
+/**
+ * True when `line` carries a genuine trailing `// boundary-ignore:
+ * <reason>` comment — the marker text, with a reason, ending the
+ * line, and NOT sitting inside a quoted string.
+ */
+function isBoundaryIgnoreComment(line: string): boolean {
+	const m = BOUNDARY_IGNORE.exec(line);
+	return m !== null && !isQuotedAt(line, m.index);
+}
 
 /**
  * An import naming `paths.ts` (any relative depth), capturing its
@@ -120,7 +210,7 @@ async function suffixOffenders(): Promise<string[]> {
 			const trimmed = line.trimStart();
 			if (
 				!COMMENT_LINE.test(trimmed) &&
-				!line.includes(BOUNDARY_IGNORE) &&
+				!isBoundaryIgnoreComment(line) &&
 				suffixPattern.test(line)
 			) {
 				offenders.push(`${file}:${i + 1}: ${line.trim()}`);
@@ -147,11 +237,14 @@ describe('the module imports nothing above itself', () => {
 	it('every relative import stays inside admin/pipeline/', async () => {
 		const offenders: string[] = [];
 		for (const file of await moduleFiles()) {
-			// Depth of this file below the module root.
-			const depth = file.slice(MODULE_DIR.length + 1).split('/').length - 1;
 			const text = await Bun.file(file).text();
-			for (const m of text.matchAll(ESCAPES)) {
-				if ((m[1]?.length ?? 0) / 3 > depth) {
+			for (const m of text.matchAll(IMPORT_SPECIFIER)) {
+				const spec = m[1] ?? '';
+				if (!isTraversal(spec)) {
+					continue;
+				}
+				const resolved = resolveSpec(dirOf(file), spec);
+				if (resolved !== MODULE_DIR && !resolved.startsWith(`${MODULE_DIR}/`)) {
 					offenders.push(`${file}: ${m[0]}`);
 				}
 			}
@@ -187,7 +280,7 @@ describe('the boundary is declared in one place', () => {
 				const trimmed = line.trimStart();
 				if (
 					!COMMENT_LINE.test(trimmed) &&
-					!line.includes(BOUNDARY_IGNORE) &&
+					!isBoundaryIgnoreComment(line) &&
 					ROOT_PATH.test(line)
 				) {
 					offenders.push(`${file}: ${line.trim()}`);

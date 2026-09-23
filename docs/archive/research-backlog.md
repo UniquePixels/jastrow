@@ -7,7 +7,7 @@ archived with the rest of the research (maintainer, 2026-09-18). Every
 review row the pipeline itself emits — headwords that don't parse,
 low-confidence page placements, carried markup, deferred repairs — is
 generated on each `bun data:import` run into
-[review-report.md](review-report.md), not here.
+[review-report.md](../reports/review-report.md), not here.
 
 Measured 2026-09-18 on `v2` at `08b607af`, over the committed source
 snapshot (2026-07-04, 32,512 entries). Each list names its source so a
@@ -53,7 +53,7 @@ The latest sweep of each rid across the seven residue manifests
 account for 478 of the 487. The class analysis is
 [phase-2-class-report.md](../archive/phase-2-class-report.md). The
 2026-08-15 triage default applies: every escalation is post-go-live
-work in the admin tool ([`data/patches/reviewed/README.md`](../../data/patches/reviewed/README.md),
+work in the admin tool ([`data/patches/reviewed/README.md`](../../admin/pipeline/patch/records/reviewed/README.md),
 "Rulings still in force").
 
 Four of these entries (`A00913`, `A03277`, `C00062`, `C00244`) also
@@ -305,7 +305,7 @@ sense*, and today nothing does — by decision, not by luck:
 > **D8 — No deeper-than-entry addressing (for now).** … `<cite>` carries
 > no sense attribute; the vocabulary is additive, so one can be
 > introduced the day an editor needs it.
-> — [data-architecture §2.3](../specs/2026-07-08-v2-data-architecture-design.md)
+> — [data-architecture §2.3](specs/2026-07-08-v2-data-architecture-design.md)
 
 So deleting a bogus lead sense today costs nothing: nothing anywhere
 names sense 2. The cost appears at one of two future events, and that is

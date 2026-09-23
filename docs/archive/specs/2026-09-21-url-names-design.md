@@ -8,7 +8,7 @@
   §7 (slugs) and R10 as worded; the slug bullet of
   [data-architecture](2026-07-08-v2-data-architecture-design.md) D12
   (§4); [migrate](2026-09-06-migrate-design.md) §2.4; and
-  [url-routes.md](../v2/url-routes.md), whose two routes are folded in
+  [url-routes.md](../url-routes.md), whose two routes are folded in
   here.
 - **Does not change:** rid identity, ordering (D13), the page index,
   rid permalinks (`/A00015`).
