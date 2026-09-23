@@ -23,12 +23,19 @@ deploy.
 - [`docs/specs/`](docs/specs/) — the design specs; the overhaul plan is
   [2026-07-03](docs/specs/2026-07-03-v2-overhaul-design.md)
 
-## License
+## Licence
 
-Code is licensed under [MIT](LICENSE).
+**Everything under `data/` is public domain. Everything else is MIT**
+(see [LICENSE](LICENSE)).
 
-Dictionary data under `data/` derives from Sefaria's Jastrow text and
-is subject to Sefaria's CC-BY-NC license.
+Jastrow's *Dictionary of the Targumim…* (1903) is out of copyright.
+Nothing below compels attribution; it is owed regardless, and each
+directory under `data/` carries a README naming its source.
+
+| What | Credit |
+|---|---|
+| The dictionary text | digitized by [Sefaria](https://www.sefaria.org), who declare the 1903 edition public domain |
+| The page scans | scanned 2009 by the University of Toronto's Robarts Library, sponsored by the Ontario Council of University Libraries, hosted by the Internet Archive |
 
 ## Contributing
 
