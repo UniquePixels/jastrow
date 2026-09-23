@@ -1,6 +1,7 @@
 # Print
 
-Scans of the two printed volumes that `data/page-index/` is pinned to.
+The OCR of the two printed volumes that `data/page-index/` is pinned
+to.
 
 The only thing here today is `hocr/` — the raw OCR of both scans, kept
 byte-exact so the page index can always be re-checked against what it

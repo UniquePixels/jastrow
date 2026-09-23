@@ -4,32 +4,20 @@ The first headword beginning in each printed column of Marcus Jastrow's
 *Dictionary of the Targumim…* (London: Luzac, 1903), plus the page and column
 of every one of the 32,512 headwords.
 
-## How it was built
-
-A deterministic script chain — no model was involved at any stage.
-
-Both volumes' hOCR are read as one continuous book, so the alignment
-against the source spine is globally monotonic. Every headword is
-placed at a token offset by weighted anchor alignment, nearer anchors
-weighing more (`1/(1+distance)`); positions the page layout fixes
-outright are pinned at `1e6`; the result is forced monotonic by
-isotonic regression. The deliverable is the inverse of that map: for
-each printed column, the first headword that begins in it.
-
-The fourteen files that did this — `build.ts`, `align.ts`, `bands.ts`,
-`columns.ts`, `spine.ts`, `layout.ts`, `monotonic.ts`, `emit.ts`,
-`hocr.ts`, `verify.ts`, and the four of those with their own tests
-(`align.test.ts`, `bands.test.ts`, `columns.test.ts`,
-`monotonic.test.ts`) — were a one-time build and live at
-`refs/tags/archive/v2-research-2026-09` (on the remote, not only
-locally). `hebrew.ts` and its test are the only files that remain in
-the live tree, because the import still needs them.
-
 Built by `admin/pipeline/page-index/build.ts` (a one-time build;
 archived at `refs/tags/archive/v2-research-2026-09`). Its checker,
 `page-index/verify.ts`, was archived to the same tag on 2026-09-22: it
 compared a build against v1 `--prior` data that the v2 tree no longer
 holds.
+
+Fourteen files left for that tag: `build.ts`, `align.ts`, `bands.ts`,
+`columns.ts`, `spine.ts`, `layout.ts`, `monotonic.ts`, `emit.ts`,
+`hocr.ts`, `verify.ts`, and the four of those with their own tests
+(`align.test.ts`, `bands.test.ts`, `columns.test.ts`,
+`monotonic.test.ts`). `hebrew.ts` and its test remain in the live
+tree, because the import still needs them — even though `hebrew.ts`
+was itself part of the build, imported by both `spine.ts` and
+`verify.ts`.
 
 ## Files
 
@@ -112,6 +100,7 @@ The hOCR both scans were read from is kept, byte-exact, in
 
 ## Method
 
+A deterministic script chain — no model was involved at any stage.
 Tesseract cannot read Jastrow's small pointed Hebrew reliably, so the build does
 not try to *recognise* headwords. Instead it *aligns*:
 
@@ -184,3 +173,11 @@ The effect on the comparison is stark: volume 1 entries agree with the shipped
 
 The shipped `col` field covers only pp. 1–235 and is `?` for the other 83% of
 entries.
+
+## Rights
+
+Derived from the scans in [`../print/hocr/`](../print/hocr/README.md) —
+public domain, with everything else under `data/`. Credit for the
+scans is owed upstream: the University of Toronto's Robarts Library,
+sponsored by the Ontario Council of University Libraries, hosted by
+the Internet Archive. See that README for the full provenance.

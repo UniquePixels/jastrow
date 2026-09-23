@@ -34,7 +34,7 @@ directory under `data/` carries a README naming its source.
 
 | What | Credit |
 |---|---|
-| The dictionary text | digitized by [Sefaria](https://www.sefaria.org), who declare the 1903 edition public domain |
+| The dictionary text | digitized by [Sefaria](https://www.sefaria.org), who declare their `Jastrow` text index public domain — the export this project reads (`lexicon_entry`) declares no licence of its own |
 | The page scans | scanned 2009 by the University of Toronto's Robarts Library, sponsored by the Ontario Council of University Libraries, hosted by the Internet Archive |
 
 ## Contributing
