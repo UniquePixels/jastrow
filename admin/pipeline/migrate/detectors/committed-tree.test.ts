@@ -13,7 +13,7 @@
  * Floors, not counts, in the shape `truth.test.ts` uses: the committed
  * tree is regenerated and an entry moving in or out must not fail
  * this. The exact figures of a run are the header of
- * `docs/v2/review-report.md`. Like `truth.test.ts` this reads
+ * `docs/reports/review-report.md`. Like `truth.test.ts` this reads
  * `data/entries/` and never the source snapshot, so it belongs to the
  * unit tier (consolidation spec R9).
  */

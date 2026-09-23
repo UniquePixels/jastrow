@@ -93,11 +93,10 @@ export const QUARANTINE_PATH = 'data/quarantine/internal-targets.json';
  * downstream may treat it as entry data. */
 export const MIGRATION_REPORT_PATH = `${SOURCE_DIR}/migration-report.json`;
 
-/** Generated markdown a person reads.
- *
- * Points at the CURRENT location. Task 4 of this plan moves the
- * directory to `docs/reports/` and flips this constant to match. */
-export const REPORTS_DIR = 'docs/v2';
+/** Generated markdown a person reads. Kept out of `docs/v2/` — a
+ * module that writes into the project's own doc tree is not one you
+ * can lift out — so it gets its own directory instead. */
+export const REPORTS_DIR = 'docs/reports';
 
 /** The evidence document the maintainer reads and blesses (migrate
  * spec §4.2). `MIGRATION_REPORT_PATH` is the machine's account of a
@@ -117,6 +116,8 @@ export const HEADWORD_ISSUES_CSV = `${REPORTS_DIR}/headword-issues.csv`;
 /** Where the pipeline's own design is written down, cited by the
  * headword report so a reader can reach the rules behind a row.
  *
- * Points at the CURRENT location. Task 6 of this plan moves the file
- * to `admin/pipeline/DESIGN.md` and flips this constant to match. */
-export const DESIGN_PATH = `${REPORTS_DIR}/headword-design.md`;
+ * Deliberately its own literal, not derived from `REPORTS_DIR`:
+ * `headword-design.md` is not a generated report and does not move
+ * with the group in Task 4. It stays here until Task 6 of this plan
+ * writes `admin/pipeline/DESIGN.md` and flips this constant to match. */
+export const DESIGN_PATH = 'docs/v2/headword-design.md';
