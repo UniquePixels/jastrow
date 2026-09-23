@@ -46,9 +46,9 @@ inverse substitution.
 dependencies.
 
 **Global Constraints:**
-- Read [the batch-3a spec](../../specs/2026-08-24-gershayim-transform-design.md)
-  before Task 0, and [the module spec](../../specs/2026-08-22-transform-module-design.md)
-  §3–§6 plus [the batch-2 link spec](../../specs/2026-08-22-link-transform-design.md)
+- Read [the batch-3a spec](../specs/2026-08-24-gershayim-transform-design.md)
+  before Task 0, and [the module spec](../specs/2026-08-22-transform-module-design.md)
+  §3–§6 plus [the batch-2 link spec](../specs/2026-08-22-link-transform-design.md)
   §3.2 before Task 1. This plan implements their contracts; it does
   not restate them.
 - **The substitution is `"` → `״` in place. Nothing moves.** No

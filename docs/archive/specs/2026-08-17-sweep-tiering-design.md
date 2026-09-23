@@ -3,7 +3,7 @@
 > **Archived 2026-09-21 — mostly historical.** The gated sweep it
 > tiers is over, and its §2 / Phase 3.2 golden render-diff gate was
 > struck on 2026-09-06 by the
-> [migrate design §1](../../specs/2026-09-06-migrate-design.md): the v1
+> [migrate design §1](2026-09-06-migrate-design.md): the v1
 > renderer no longer exists on `v2`, so that spec's §4 text-level gates
 > stand in for it. **Its §3 decisions T5 and T6 are still live** —
 > `admin/pipeline/patch/patterns.ts` cites both as the definitions of
@@ -13,7 +13,7 @@
 - **Supersedes:** the exhaustive-sweep cadence in
   [research-process design §4.5](2026-08-10-research-process-design.md)
   and the per-batch miss-rate gate in `data/patches/RUNBOOK.md`
-- **Parent:** [v2 overhaul](../../specs/2026-07-03-v2-overhaul-design.md)
+- **Parent:** [v2 overhaul](2026-07-03-v2-overhaul-design.md)
 
 ## 1. Context & Problem
 

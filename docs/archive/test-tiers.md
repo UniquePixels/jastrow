@@ -1,10 +1,10 @@
 # The two test tiers
 
 > **Superseded 2026-09-15 by consolidation step 5**
-> ([spec §5](../specs/2026-09-13-pipeline-consolidation-design.md)).
+> ([spec §5](specs/2026-09-13-pipeline-consolidation-design.md)).
 > The corpus tier is no longer CI work. Its 193 tests that do not need
 > the source data moved to the unit tier; the 191 that do were deleted
-> and are listed in [`retired-corpus-checks.md`](../v2/retired-corpus-checks.md);
+> and are listed in [`retired-corpus-checks.md`](retired-corpus-checks.md);
 > the two invariant checks run locally with `bun run transform:invariants`.
 > What follows is the 2026-08-31 record, kept as history.
 

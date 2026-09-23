@@ -1,8 +1,8 @@
 # Transform batch 3a — gershayim
 
 **Closed 2026-08-24** on `impl/phase-2-batch-3a`. Design:
-[2026-08-24-gershayim-transform-design.md](../specs/2026-08-24-gershayim-transform-design.md).
-Module contract: [2026-08-22-transform-module-design.md](../specs/2026-08-22-transform-module-design.md).
+[2026-08-24-gershayim-transform-design.md](specs/2026-08-24-gershayim-transform-design.md).
+Module contract: [2026-08-22-transform-module-design.md](specs/2026-08-22-transform-module-design.md).
 
 **Two rows, one defect, 2,305 occurrences repaired across 1,392
 entries.** Jastrow's print sets Hebrew abbreviations with a gershayim

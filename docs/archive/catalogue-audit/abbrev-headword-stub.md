@@ -7,7 +7,7 @@ elided tail, and the parent row this one is modelled on was itself
 withdrawn from `transform` at 65.5%.
 
 Written up as Task 1 of Phase 2 batch 5, spec
-[`2026-08-27-headword-field-integrity-design.md`](../../../docs/specs/2026-08-27-headword-field-integrity-design.md)
+[`2026-08-27-headword-field-integrity-design.md`](../specs/2026-08-27-headword-field-integrity-design.md)
 §4.2.
 
 ## The row's own precondition was never met

@@ -2,7 +2,7 @@
 
 **2026-08-29.** One row, one rule, one new row, and a gate blind spot
 the rule uncovered. Spec:
-[`2026-08-29-stranded-stem-head-design.md`](../specs/2026-08-29-stranded-stem-head-design.md).
+[`2026-08-29-stranded-stem-head-design.md`](specs/2026-08-29-stranded-stem-head-design.md).
 Audit: [`stranded-stem-head.md`](../../data/patches/catalogue-audit/stranded-stem-head.md).
 Ancestor: [`transform-batch-6b.md`](transform-batch-6b.md).
 

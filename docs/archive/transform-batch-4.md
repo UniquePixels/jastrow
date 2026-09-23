@@ -10,7 +10,7 @@ by one and are not interchangeable. `PENDING` holds the other **38**
 held by a third list — `COVERED` — because it has a repair but will
 never have a rule of its own.
 
-Spec: [`2026-08-26-anchor-paren-integrity-design.md`](../specs/2026-08-26-anchor-paren-integrity-design.md).
+Spec: [`2026-08-26-anchor-paren-integrity-design.md`](specs/2026-08-26-anchor-paren-integrity-design.md).
 Withdrawal working: `data/patches/catalogue-audit/post-anchor-numeral-duplication.md`
 and `data/patches/catalogue-audit/superscript-subsection-stranded.md`.
 

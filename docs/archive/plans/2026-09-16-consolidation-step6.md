@@ -15,7 +15,7 @@ commentary and research data move to `docs/archive/` on `v2`.
 
 **Tech Stack:** Bun, TypeScript, Biome, git.
 
-**Spec:** [`docs/specs/2026-09-13-pipeline-consolidation-design.md`](../../specs/2026-09-13-pipeline-consolidation-design.md)
+**Spec:** [`docs/specs/2026-09-13-pipeline-consolidation-design.md`](../specs/2026-09-13-pipeline-consolidation-design.md)
 — §8 (archive), §4.1 (where current code goes), §11 step 6.
 
 ## Global Constraints

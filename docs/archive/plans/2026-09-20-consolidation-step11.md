@@ -21,7 +21,7 @@ data edit to `data/patches/patterns.jsonl` plus prose.
 disk); Bun/Biome/`tsc` for the quality gate; draw.io SVG for the flow
 diagram carry-in.
 
-**Spec:** [`docs/specs/2026-09-13-pipeline-consolidation-design.md`](../../specs/2026-09-13-pipeline-consolidation-design.md)
+**Spec:** [`docs/specs/2026-09-13-pipeline-consolidation-design.md`](../specs/2026-09-13-pipeline-consolidation-design.md)
 §11 step 11, against T6 of
 [`docs/specs/2026-08-17-sweep-tiering-design.md`](../specs/2026-08-17-sweep-tiering-design.md).
 

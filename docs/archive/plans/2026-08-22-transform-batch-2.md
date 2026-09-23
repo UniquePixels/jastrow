@@ -16,8 +16,8 @@ already holds.
 dependencies.
 
 **Global Constraints:**
-- Read [the batch-2 spec](../../specs/2026-08-22-link-transform-design.md)
-  before Task 0 and [the module spec](../../specs/2026-08-22-transform-module-design.md)
+- Read [the batch-2 spec](../specs/2026-08-22-link-transform-design.md)
+  before Task 0 and [the module spec](../specs/2026-08-22-transform-module-design.md)
   §3–§6 before writing any rule. This plan does not restate their
   contracts; it implements them.
 - A `Rule` never carries an expected count. Counts live in

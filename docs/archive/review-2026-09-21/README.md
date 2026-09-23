@@ -1,7 +1,7 @@
 # Review evidence — 2026-09-21
 
 The five independent review passes behind
-[`docs/specs/2026-09-21-post-consolidation-review.md`](../../specs/2026-09-21-post-consolidation-review.md),
+[`docs/specs/2026-09-21-post-consolidation-review.md`](../specs/2026-09-21-post-consolidation-review.md),
 each with the commands and counts it ran at `v2` = `12a40a30`.
 
 | File | Pass |
