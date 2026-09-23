@@ -50,13 +50,8 @@ export const SCHEMA_PATH = 'data/schema/entry.schema.json';
 
 // --------------------------------------------------- read and written
 
-/** Patch records — import definition, not data (spec M9).
- *
- * Points at the CURRENT location. Task 3 of this plan moves the
- * directory to `admin/pipeline/patch/records/` and flips this
- * constant to match — declaring the post-move path here now would
- * make this task's own import apply zero patches. */
-export const PATCH_DIR = 'data/patches';
+/** Patch records — import definition, not data (spec M9). */
+export const PATCH_DIR = 'admin/pipeline/patch/records';
 
 /** The committed patch corpus (spec §4.4): every ingested tranche's
  * files. Absent files mean an empty corpus.

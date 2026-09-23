@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'bun:test';
+import { PATTERNS_PATH } from '../paths.ts';
 import {
 	addPattern,
 	blockingWork,
@@ -68,7 +69,7 @@ describe('parsePatterns', () => {
 	// The shipped catalogue must keep parsing — the check is a guard on
 	// future edits, not a claim that the current file is broken.
 	it('accepts the live catalogue', async () => {
-		const text = await Bun.file('data/patches/patterns.jsonl').text();
+		const text = await Bun.file(PATTERNS_PATH).text();
 		expect(parsePatterns(text).length).toBeGreaterThan(0);
 	});
 });

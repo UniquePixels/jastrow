@@ -518,7 +518,7 @@ interface Rule {
 	 *   the mutating call instead of silently corrupting later
 	 *   results. */
 	apply(entry: SourceEntry): TransformResult;
-	/** Must match an `id` in data/patches/patterns.jsonl. */
+	/** Must match an `id` in admin/pipeline/patch/records/patterns.jsonl. */
 	id: string;
 	phase: TransformPhase;
 }

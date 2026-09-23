@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'bun:test';
 import { parsePatterns } from '../patch/patterns.ts';
+import { PATTERNS_PATH } from '../paths.ts';
 import { nonCommutingPairs, type PairStats } from './commutation.ts';
 import { ORDERED, RULES } from './registry.ts';
 import { sourceEntries } from './rules/corpus-fixture.ts';
@@ -37,9 +38,7 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// never writes to it, which is the fixture's contract.
 		const corpus = await sourceEntries();
 
-		const rows = await parsePatterns(
-			await Bun.file('data/patches/patterns.jsonl').text(),
-		);
+		const rows = await parsePatterns(await Bun.file(PATTERNS_PATH).text());
 		const edges = new Map(
 			rows.map((r) => [r.id, new Set(r.entangledWith ?? [])]),
 		);

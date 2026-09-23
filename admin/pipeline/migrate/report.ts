@@ -115,7 +115,7 @@ interface Report {
 		 * spec §4.2: silent skipping is never allowed). Each also gets a
 		 * `patch-consolidated-away` row. */
 		consolidatedAway: number;
-		/** Human-authored patches loaded from `data/patches/reviewed/`
+		/** Human-authored patches loaded from `admin/pipeline/patch/records/reviewed/`
 		 * (consolidation spec §4.2, step 8) — applied before `accepted`,
 		 * counted separately since Ruling C keeps one manifest row per
 		 * rid and a reviewed rid may also have an agent record. */

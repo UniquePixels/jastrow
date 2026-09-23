@@ -151,7 +151,7 @@ import {
 	usable,
 } from './anaphora.ts';
 
-/** Must match an `id` in data/patches/patterns.jsonl, and an entry in
+/** Must match an `id` in admin/pipeline/patch/records/patterns.jsonl, and an entry in
  * `link-target.ts`'s `MINT_DECLARERS`. */
 const RULE_ID = 'unlinked-bare-anaphor';
 

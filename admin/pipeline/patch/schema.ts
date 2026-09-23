@@ -125,7 +125,7 @@ type UnrefPayload = Record<string, never>;
  * where they put it. Omitted, the parser decides as usual.
  *
  * Every other op is byte-conserving within `content`; this one is not
- * bounded that way, so a `reform` belongs in `data/patches/reviewed/`
+ * bounded that way, so a `reform` belongs in `admin/pipeline/patch/records/reviewed/`
  * where a person wrote it from the print — the print, not
  * concatenation, is what settles a form whose pointing the source
  * lost. */
@@ -172,7 +172,7 @@ interface ReplacePayload {
 
 interface PatchBase {
 	/** Set only by the loader, from the directory a patch was read from:
-	 * `data/patches/reviewed/` holds patches a person wrote from a print
+	 * `admin/pipeline/patch/records/reviewed/` holds patches a person wrote from a print
 	 * check, and they may add bytes. A record never carries it. */
 	author?: 'human';
 	confidence: Confidence;
@@ -732,7 +732,7 @@ function occurrenceReasons(raw: Record<string, unknown>): string[] {
  * **TRANSITIONAL.** `reform` shipped on 2026-09-20 with a payload of
  * `headword` plus `alt_headwords`; headword design §2 made the line a
  * single `forms[]` on 2026-09-21, and the 15 records already in
- * `data/patches/reviewed/` were written under the old spelling. A
+ * `admin/pipeline/patch/records/reviewed/` were written under the old spelling. A
  * patch corpus is EVIDENCE — a person wrote each record from the
  * print — so it is read forward rather than rewritten under the
  * author's name, the same way `truth.test.ts` reads the committed

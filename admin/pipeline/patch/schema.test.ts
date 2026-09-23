@@ -625,7 +625,7 @@ describe('reform', () => {
 
 	it('reads the pre-§2 headword/alt_headwords payload forward', () => {
 		// TRANSITIONAL: the 15 records already in
-		// `data/patches/reviewed/` were written under the 2026-09-20
+		// `admin/pipeline/patch/records/reviewed/` were written under the 2026-09-20
 		// spelling. A patch corpus is evidence a person wrote from the
 		// print, so it is read forward rather than rewritten under their
 		// name. Both spellings are pinned here so neither can drift.

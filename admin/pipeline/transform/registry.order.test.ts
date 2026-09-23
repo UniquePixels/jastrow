@@ -120,10 +120,11 @@
  *
  * The sets themselves live in `registry-classes.ts`, shared with that
  * corpus file. Everything here reads only `RULES` and
- * `data/patches/patterns.jsonl`, so it runs on every `bun qa`.
+ * `PATTERNS_PATH` (`paths.ts`), so it runs on every `bun qa`.
  */
 import { describe, expect, it } from 'bun:test';
 import { parsePatterns } from '../patch/patterns.ts';
+import { PATTERNS_PATH } from '../paths.ts';
 import type { SourceEntry } from '../types.ts';
 import { textOf } from './no-new-text.ts';
 import {
@@ -142,9 +143,7 @@ import {
 	WRAP,
 } from './registry-classes.ts';
 
-const catalogue = parsePatterns(
-	await Bun.file('data/patches/patterns.jsonl').text(),
-);
+const catalogue = parsePatterns(await Bun.file(PATTERNS_PATH).text());
 
 const ids = RULES.map((rule) => rule.id);
 

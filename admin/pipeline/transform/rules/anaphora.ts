@@ -353,15 +353,15 @@ const SINK = 'Yoma 2a';
 /** A dictionary cross-reference rather than a citation. */
 const LEXICAL = 'Jastrow, ';
 
-/** Must match an `id` in data/patches/patterns.jsonl. Named here
+/** Must match an `id` in admin/pipeline/patch/records/patterns.jsonl. Named here
  * rather than read off `ibAnaphora.id` so the walk below does not
  * reference the rule object it is a part of. */
 const RULE_ID = 'ib-yoma-2a';
 
-/** Must match an `id` in data/patches/patterns.jsonl. */
+/** Must match an `id` in admin/pipeline/patch/records/patterns.jsonl. */
 const SIFRE_RULE_ID = 'sifre-ib-resolves-to-yalkut';
 
-/** Must match an `id` in data/patches/patterns.jsonl. */
+/** Must match an `id` in admin/pipeline/patch/records/patterns.jsonl. */
 const TARGUM_RULE_ID = 'ib-targum-work-loss';
 
 /**
