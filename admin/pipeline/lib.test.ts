@@ -91,6 +91,20 @@ describe('extractTargets', () => {
 		expect(new Uint8Array(await Bun.file(dest).arrayBuffer())).toEqual(wanted);
 	});
 
+	it('replaces a longer existing destination instead of overlaying it', async () => {
+		const wanted = new TextEncoder().encode('short');
+		const archive = new Uint8Array([
+			...tarMember('dump/sefaria/keep.bson', wanted),
+			...new Uint8Array(1024),
+		]);
+		const dest = `${TEST_DIR}/stale.bson`;
+		await Bun.write(dest, 'a much longer stale file from an older dump');
+		const targets = new Map([['dump/sefaria/keep.bson', dest]]);
+		const reader = new ChunkReader(chunks([archive]));
+		await extractTargets(reader, targets, () => undefined);
+		expect(new Uint8Array(await Bun.file(dest).arrayBuffer())).toEqual(wanted);
+	});
+
 	it('throws on an unparseable member size instead of desyncing', async () => {
 		const header = tarHeader('dump/sefaria/bad.bson', 0);
 		header[124] = 0x80; // GNU base-256 size marker — not octal

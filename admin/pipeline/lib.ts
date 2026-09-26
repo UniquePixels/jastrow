@@ -91,6 +91,16 @@ class ChunkReader {
 	}
 }
 
+/**
+ * A streaming writer that replaces the file at path. Bun's
+ * `Bun.file(path).writer()` opens without truncating, so a shorter
+ * write leaves the old file's tail in place; empty it first.
+ */
+async function freshWriter(path: string): Promise<Bun.FileSink> {
+	await Bun.write(path, '');
+	return Bun.file(path).writer();
+}
+
 /** Decode a NUL-terminated string field from a tar header. */
 function tarString(header: Uint8Array, start: number, length: number): string {
 	const field = header.subarray(start, start + length);
@@ -150,7 +160,7 @@ async function extractTargets(
 		const dest = targets.get(name);
 		if (isFile && dest !== undefined && remaining.has(name)) {
 			progress(`extracting ${name} (${(size / 1e6).toFixed(1)} MB)`);
-			const writer = Bun.file(dest).writer();
+			const writer = await freshWriter(dest);
 			await reader.consume(size, (chunk) => writer.write(chunk));
 			await writer.end();
 			await reader.consume(padded - size);
@@ -196,4 +206,11 @@ async function sha256(path: string): Promise<string> {
 	return hash.digest('hex');
 }
 
-export { bsonDocuments, ChunkReader, extractTargets, sha256, tarString };
+export {
+	bsonDocuments,
+	ChunkReader,
+	extractTargets,
+	freshWriter,
+	sha256,
+	tarString,
+};
