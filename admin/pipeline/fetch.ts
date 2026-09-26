@@ -15,7 +15,13 @@
  */
 import { mkdir } from 'node:fs/promises';
 import { type Document, EJSON } from 'bson';
-import { bsonDocuments, ChunkReader, extractTargets, sha256 } from './lib.ts';
+import {
+	bsonDocuments,
+	ChunkReader,
+	extractTargets,
+	freshWriter,
+	sha256,
+} from './lib.ts';
 import {
 	LEXICONS_PATH,
 	MANIFEST_PATH,
@@ -139,10 +145,12 @@ async function emitEntries(
 ): Promise<Map<string, number>> {
 	const counts = new Map<string, number>();
 	const writers = new Map(
-		[...JASTROW_LEXICONS].map(([lexicon, path]) => {
-			counts.set(lexicon, 0);
-			return [lexicon, Bun.file(path).writer()];
-		}),
+		await Promise.all(
+			[...JASTROW_LEXICONS].map(async ([lexicon, path]) => {
+				counts.set(lexicon, 0);
+				return [lexicon, await freshWriter(path)] as const;
+			}),
+		),
 	);
 	for await (const doc of bsonDocuments(
 		TARGETS.get('dump/sefaria/lexicon_entry.bson') as string,
