@@ -46,19 +46,21 @@ with [mise](https://mise.jdx.dev) installed, `mise install` then
 The normal run is `data:fetch` then `data:import`: pull the current
 export, process it, read the report.
 
-`data:import` is **dry by default** and writes no entry data. Every
-run produces three documents, dry or not:
+`data:import` writes entry data; `data:import:dry` runs every stage
+and gate but writes no entry data. Every run produces four documents,
+dry or not:
 
 | Document | What it is |
 |---|---|
 | `data/source/migration-report.json` | the machine-readable report (gitignored) |
 | [`docs/reports/migration-blessing.md`](../../docs/reports/migration-blessing.md) | the evidence a person reads before accepting a run |
 | [`docs/reports/review-report.md`](../../docs/reports/review-report.md) | one row per item a person must judge |
+| [`docs/reports/headword-issues.md`](../../docs/reports/headword-issues.md) (+ `.csv`) | every headword shape a headword rule has to rule on |
 
 Two flags change what a run will refuse:
 
-- `--write` writes `data/entries/`, and refuses unless that directory
-  is **empty** — a stand-in for the update run this module does not
+- `--write` (which `data:import` passes for you) writes
+  `data/entries/`, and refuses unless that directory is **empty** — a stand-in for the update run this module does not
   yet have. See [`DESIGN.md`](DESIGN.md) §11.
 - `--strict` promotes a stale snapshot pin and a drifted patch
   precondition from report rows to refusals. See
@@ -127,8 +129,8 @@ yet emitted.
 ## Stage 2 — Import (`migrate.ts`)
 
 ```bash
-bun data:import           # dry run: report + docs/reports/migration-blessing.md
-bun data:import --write   # after blessing: writes data/entries/
+bun data:import:dry   # dry run: the reports, no entry data
+bun data:import       # writes data/entries/ (refuses unless it is empty)
 ```
 
 Transforms the source snapshot into entry data, one JSON file per

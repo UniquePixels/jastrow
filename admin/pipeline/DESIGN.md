@@ -74,10 +74,14 @@ link.
 ### Commands
 
 - `bun data:fetch` — source acquisition (§3).
-- `bun data:import` — the import run. **Dry by default**; `--write`
-  writes entry data, `--strict` promotes a stale snapshot pin and a
-  drifted patch precondition from report rows to refusals.
-- `bun headword:issues` — the headword-issues report.
+- `bun data:import` — the import run; writes entry data (it passes
+  `--write`, which refuses unless `data/entries/` is empty) and runs
+  `biome format` over it as its last step.
+- `bun data:import:dry` — the same run without `--write`: every gate
+  and all four reports (report JSON, blessing, review report,
+  headword issues), no entry data. `--strict` works on either and
+  promotes a stale snapshot pin and a drifted patch precondition from
+  report rows to refusals.
 - `bun qa` — format, lint, unit tests, `tsc`.
 - `bun run transform:invariants` — the two corpus-tier invariant
   tests (§4).

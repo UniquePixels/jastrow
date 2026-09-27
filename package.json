@@ -5,8 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"data:fetch": "bun admin/pipeline/fetch.ts",
-		"data:import": "bun admin/pipeline/migrate.ts",
-		"headword:issues": "bun admin/pipeline/report/headword-issues.ts",
+		"data:import": "bun admin/pipeline/migrate.ts --write",
+		"data:import:dry": "bun admin/pipeline/migrate.ts",
 		"qa": "bun qa:format && bun qa:lint && bun qa:test && bun qa:tsc",
 		"qa:ci": "biome ci --error-on-warnings",
 		"qa:format": "biome format --write",
