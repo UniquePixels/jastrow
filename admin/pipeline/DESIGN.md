@@ -74,10 +74,14 @@ link.
 ### Commands
 
 - `bun data:fetch` — source acquisition (§3).
-- `bun data:import` — the import run. **Dry by default**; `--write`
-  writes entry data, `--strict` promotes a stale snapshot pin and a
-  drifted patch precondition from report rows to refusals.
-- `bun headword:issues` — the headword-issues report.
+- `bun data:import` — the import run; writes entry data (it passes
+  `--write`, which refuses unless `data/entries/` is empty) and runs
+  `biome format` over it as its last step.
+- `bun data:import:dry` — the same run without `--write`: every gate
+  and all four reports (report JSON, blessing, review report,
+  headword issues), no entry data. `--strict` works on either and
+  promotes a stale snapshot pin and a drifted patch precondition from
+  report rows to refusals.
 - `bun qa` — format, lint, unit tests, `tsc`.
 - `bun run transform:invariants` — the two corpus-tier invariant
   tests (§4).
@@ -121,10 +125,12 @@ cannot be known one entry at a time.
 6. **Names gate** (gate 7) and **quarantine gate** (gate 6), after
    pass 2.
 7. **Report and classify** — the machine report, the blessing doc, the
-   review doc, every run, dry included.
-8. **Write** (`--write` only): `normalizeForWrite` over every entry,
-   then the files, then `biome format --write`, then the report again
-   so its `written` count is accurate.
+   review doc, then `normalizeForWrite` over every entry and the
+   headword-issues report over those normalized entries — every run,
+   dry included, and before the red-gate refusal.
+8. **Write** (`--write` only): the already-normalized files, then
+   `biome format --write`, then the report again so its `written`
+   count is accurate.
 
 `PHASE_MANIFEST` (§5) orders the *phases inside one entry's
 composition*; the list above orders the *run*. They are different

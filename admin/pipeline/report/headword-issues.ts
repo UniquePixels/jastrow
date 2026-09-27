@@ -5,33 +5,26 @@
  * so the shapes can be decided one at a time (`admin/pipeline/DESIGN.md`
  * §2).
  *
- * Two inputs, deliberately:
+ * Built by `bun data:import` on every run, dry or not, from two inputs
+ * the run already holds:
  *
- * - `data/source/migration-report.json`, for what the CURRENT processor
- *   already flags (every `isHeadwordReviewKind` row). Run
- *   `bun data:import` first if it is stale.
- * - `data/entries/`, walked independently. The processor's review list
- *   is not the defect list: a form can round-trip through the grammar
- *   and still be wrong (a lost letter, a Sefaria split), and those rows
- *   exist only because this file looks for them.
+ * - the run's report rows, for what the CURRENT processor already
+ *   flags (every `isHeadwordReviewKind` row).
+ * - the finished entries, walked independently. The processor's
+ *   review list is not the defect list: a form can round-trip through
+ *   the grammar and still be wrong (a lost letter, a Sefaria split),
+ *   and those rows exist only because this file looks for them.
  *
- * Writes `docs/reports/headword-issues.md` (read by eye, one section
- * per shape, every rid linked to the live app) and
- * `docs/reports/headword-issues.csv` (the same rows, for sorting).
- *
- * Run: bun run headword:issues
+ * `migrate.ts` writes the result to `docs/reports/headword-issues.md`
+ * (read by eye, one section per shape, every rid linked to the live
+ * app) and `docs/reports/headword-issues.csv` (the same rows, for
+ * sorting).
  */
 import { dirname, relative } from 'node:path';
 import { isHeadwordReviewKind } from '../migrate/headwords.ts';
 import { nameOf } from '../migrate/names.ts';
 import type { FormObject, TruthEntry } from '../migrate/types.ts';
-import {
-	DESIGN_PATH,
-	ENTRIES_DIR,
-	HEADWORD_ISSUES_CSV,
-	HEADWORD_ISSUES_DOC,
-	MIGRATION_REPORT_PATH,
-} from '../paths.ts';
+import { DESIGN_PATH, HEADWORD_ISSUES_DOC } from '../paths.ts';
 
 const APP_URL = 'https://jastrow.app/#rid:';
 
@@ -61,10 +54,6 @@ interface ReportRow {
 	detail: string;
 	kind: string;
 	rid: string;
-}
-
-interface MigrationReport {
-	rows: ReportRow[];
 }
 
 /** One row of the issue report: a shape, the form it was seen on, and
@@ -329,57 +318,27 @@ function classifyEveryShape(): void {
 	}
 }
 
-/** The pre-rewrite entry shape, folded forward into `headwords[]`.
- *
- * TRANSITIONAL, and the same fold `migrate/truth.test.ts` documents:
- * the maintainer has ruled ONE batched rewrite of all 32,512 files
- * and it has not happened, so this report — which reads the committed
- * tree, not a run — still meets `headword`/`altHeadwords`. An entry
- * already in the new shape is handed on whole. */
-function foldHeadwords(raw: unknown): TruthEntry {
-	const entry = raw as TruthEntry & {
-		altHeadwords?: FormObject[];
-		headword?: FormObject;
-	};
-	if (entry.headwords !== undefined || entry.headword === undefined) {
-		return entry;
-	}
-	return {
-		...entry,
-		headwords: [entry.headword, ...(entry.altHeadwords ?? [])],
-	};
-}
-
-/** Read every truth entry, keyed by rid. */
-async function loadEntries(): Promise<Map<string, TruthEntry>> {
-	const paths = await Array.fromAsync(
-		new Bun.Glob('*/*.json').scan(ENTRIES_DIR),
-	);
-	const entries = new Map<string, TruthEntry>();
-	for (const path of paths.toSorted((a, b) => a.localeCompare(b))) {
-		const entry = foldHeadwords(
-			await Bun.file(`${ENTRIES_DIR}/${path}`).json(),
-		);
-		entries.set(entry.id, entry);
-	}
-	return entries;
-}
-
 /** The `rid`/`text` pairs the current processor put on its headword
  * review list, so each row can say whether it is already visible.
  * EVERY headword kind counts as visible: they are one parser's several
  * verdicts on one line, split so the review report can class them
- * apart, and a row flagged under any of them has been seen. */
-function flaggedForms(report: MigrationReport): Map<string, Set<string>> {
+ * apart, and a row flagged under any of them has been seen.
+ *
+ * Keyed in NFC: the rows carry the pre-write spelling while the
+ * entries this report walks are the NFC-normalized ones `writeAll`
+ * puts on disk, and combining-mark order varies between the two. */
+function flaggedForms(
+	reportRows: readonly ReportRow[],
+): Map<string, Set<string>> {
 	const flagged = new Map<string, Set<string>>();
-	for (const row of report.rows) {
+	for (const row of reportRows) {
 		if (!isHeadwordReviewKind(row.kind)) {
 			continue;
 		}
 		const marked = UNPARSED_DETAIL.exec(row.detail)?.groups?.['form'];
 		if (marked !== undefined) {
 			const forms = flagged.get(row.rid) ?? new Set<string>();
-			forms.add(marked);
+			forms.add(marked.normalize('NFC'));
 			flagged.set(row.rid, forms);
 		}
 	}
@@ -433,7 +392,8 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 	const rid = entry.id;
 	const marked = form.reconstructed === true ? `*${text}` : text;
 	const seen = flagged.get(rid) ?? new Set<string>();
-	const isFlagged = seen.has(text) || seen.has(marked);
+	const isFlagged =
+		seen.has(text.normalize('NFC')) || seen.has(marked.normalize('NFC'));
 	const rows: IssueRow[] = [];
 	for (const issue of issuesOf(text)) {
 		const shape = shapeFor(issue);
@@ -574,9 +534,9 @@ function render(rows: IssueRow[]): string {
 	const lines = [
 		'# Headword issues — every row by shape',
 		'',
-		`Generated by \`bun run headword:issues\` from \`${MIGRATION_REPORT_PATH}\` and`,
-		`\`${ENTRIES_DIR}/\`. The headword shape these rows are judged`,
-		`against, and the rules behind each one, are in [DESIGN.md](${designLink}) §2.`,
+		"Generated by `bun data:import` from the run's report rows and its",
+		'finished entries. The headword shape these rows are judged against,',
+		`and the rules behind each one, are in [DESIGN.md](${designLink}) §2.`,
 		'',
 		'| Shape | Rows | Main | Alt | Flagged by the processor |',
 		'|---|---|---|---|---|',
@@ -634,17 +594,26 @@ function renderCsv(rows: IssueRow[]): string {
 	return `${lines.join('\n')}\n`;
 }
 
-async function main(): Promise<void> {
+/** The two rendered documents and the counts `migrate.ts` prints. */
+interface HeadwordIssues {
+	csv: string;
+	doc: string;
+	rows: number;
+	shapes: number;
+}
+
+/** Every issue row over the run's finished entries, rendered. Pure:
+ * the caller owns the write, so a dry run and `--write` produce the
+ * same documents from the same in-memory state. */
+function buildHeadwordIssues(
+	truths: readonly TruthEntry[],
+	reportRows: readonly ReportRow[],
+): HeadwordIssues {
 	classifyEveryShape();
-	const report = (await Bun.file(
-		MIGRATION_REPORT_PATH,
-	).json()) as MigrationReport;
-	const entries = await loadEntries();
-	const flagged = flaggedForms(report);
+	const flagged = flaggedForms(reportRows);
+	const inRidOrder = [...truths].sort((a, b) => a.id.localeCompare(b.id));
+	const entries = new Map(inRidOrder.map((entry) => [entry.id, entry]));
 	const rows: IssueRow[] = [];
-	const inRidOrder = [...entries.values()].sort((a, b) =>
-		a.id.localeCompare(b.id),
-	);
 	for (const entry of inRidOrder) {
 		for (const [i, form] of entry.headwords.entries()) {
 			rows.push(
@@ -658,13 +627,13 @@ async function main(): Promise<void> {
 		}
 	}
 	rows.push(...homographGapRows(entries));
-	await Bun.write(HEADWORD_ISSUES_DOC, render(rows));
-	await Bun.write(HEADWORD_ISSUES_CSV, renderCsv(rows));
-	const shapes = new Set(rows.map((r) => r.shape)).size;
-	console.log(`${rows.length} rows across ${shapes} shapes`);
-	console.log(
-		`written to ${HEADWORD_ISSUES_DOC}, ${HEADWORD_ISSUES_CSV}; design in ${DESIGN_PATH}`,
-	);
+	return {
+		csv: renderCsv(rows),
+		doc: render(rows),
+		rows: rows.length,
+		shapes: new Set(rows.map((r) => r.shape)).size,
+	};
 }
 
-await main();
+export type { HeadwordIssues };
+export { buildHeadwordIssues };

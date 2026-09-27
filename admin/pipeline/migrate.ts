@@ -2,10 +2,11 @@
 /**
  * Migration — source snapshot to truth files (spec 2026-09-06 §3–4).
  * Two passes: compose every entry and build the corpus-level indexes,
- * then finish and gate every entry. Dry by default; `--write` reruns
- * every gate and refuses on any red one, or on an output tree that
- * already holds truth files.
- * Run: bun data:import [--write] [--strict]
+ * then finish and gate every entry. Dry without `--write`; `--write`
+ * reruns every gate and refuses on any red one, or on an output tree
+ * that already holds truth files.
+ * Run: bun data:import [--strict]      (writes: passes --write)
+ *      bun data:import:dry [--strict]  (dry run)
  *
  * A stale snapshot pin is one count in the report header; a patch whose
  * precondition no longer holds is a report row. `--strict` makes either
@@ -75,7 +76,13 @@ import {
 	stalePins,
 } from './patch/apply.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
-import { ENTRIES_DIR as OUT_DIR, SCHEMA_PATH } from './paths.ts';
+import {
+	HEADWORD_ISSUES_CSV,
+	HEADWORD_ISSUES_DOC,
+	ENTRIES_DIR as OUT_DIR,
+	SCHEMA_PATH,
+} from './paths.ts';
+import { buildHeadwordIssues } from './report/headword-issues.ts';
 import { RULES } from './transform/registry.ts';
 import type { BodyEntry, SourceEntry } from './types.ts';
 
@@ -468,7 +475,9 @@ async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
  * retires it when that merge ships. */
 async function refuseUnlessEmpty(dir: string = OUT_DIR): Promise<void> {
 	if (!(await outputTreeIsEmpty(dir))) {
-		throw new Error(`${dir} already holds truth files; migration writes once`);
+		throw new Error(
+			`${dir} already holds truth files; migration writes once. Delete them to re-import, or run \`bun data:import:dry\` for the reports alone`,
+		);
 	}
 }
 
@@ -490,36 +499,43 @@ function formatTruth(): void {
 	}
 }
 
-/** The one write of the whole pipeline: 32,512 files, formatted, then
- * the report again so its `written` count is on disk.
+/** The entries as they will reach disk, and how much NFC changed. */
+interface Normalized {
+	entries: TruthEntry[];
+	files: number;
+	strings: number;
+}
+
+/** Every entry through `normalizeForWrite` (#110): this is the ONE
+ * place stored text is rewritten, and it is rewritten only into its
+ * own NFC spelling, under an assertion that the rewrite is lossless.
+ * It runs after the gates have read the in-memory truth, so no gate is
+ * reading a value this step produced — and before the headword-issues
+ * report, which describes the entries as written (its X4 "not NFC"
+ * shape would otherwise flag spellings the write is about to fix).
  *
- * Every entry passes through `normalizeForWrite` on the way to disk
- * (#110): this is the ONE place stored text is rewritten, and it is
- * rewritten only into its own NFC spelling, under an assertion that
- * the rewrite is lossless. It runs here, after the gates have read
- * the in-memory truth, so no gate is reading a value this step
- * produced. */
-async function writeAll(
-	truths: readonly TruthEntry[],
-	report: Report,
-): Promise<void> {
-	let normalizedStrings = 0;
-	let normalizedFiles = 0;
-	// Every entry is normalized BEFORE the first file is written. A
-	// refusal has to refuse the whole write, and normalizing inside the
-	// write loop would instead leave the entries before the offending
-	// one on disk, unformatted, with `refuseUnlessEmpty` blocking the
-	// re-run — the same failure `biomeBinary` is resolved early to
-	// avoid.
-	const normalized = truths.map((truth) => {
+ * Every entry is normalized BEFORE the first file is written. A
+ * refusal has to refuse the whole write, and normalizing inside the
+ * write loop would instead leave the entries before the offending one
+ * on disk, unformatted, with `refuseUnlessEmpty` blocking the re-run —
+ * the same failure `biomeBinary` is resolved early to avoid. */
+function normalizeAll(truths: readonly TruthEntry[]): Normalized {
+	const normalized: Normalized = { entries: [], files: 0, strings: 0 };
+	for (const truth of truths) {
 		const [value, changed] = normalizeForWrite(truth, truth.id);
 		if (changed > 0) {
-			normalizedStrings += changed;
-			normalizedFiles++;
+			normalized.strings += changed;
+			normalized.files++;
 		}
-		return value;
-	});
-	for (const truth of normalized) {
+		normalized.entries.push(value);
+	}
+	return normalized;
+}
+
+/** The one write of the whole pipeline: 32,512 files, formatted, then
+ * the report again so its `written` count is on disk. */
+async function writeAll(normalized: Normalized, report: Report): Promise<void> {
+	for (const truth of normalized.entries) {
 		await Bun.write(
 			`${OUT_DIR}/${letterDir(truth.id)}/${truth.id}.json`,
 			`${JSON.stringify(truth, null, '\t')}\n`,
@@ -530,7 +546,7 @@ async function writeAll(
 	await writeReport(report);
 	console.log(`wrote ${report.written} truth files under ${OUT_DIR}`);
 	console.log(
-		`NFC on write: ${normalizedStrings} string(s) normalized in ${normalizedFiles} file(s)`,
+		`NFC on write: ${normalized.strings} string(s) normalized in ${normalized.files} file(s)`,
 	);
 }
 
@@ -558,16 +574,34 @@ function printGates(report: Report): void {
 		`stalePins=${report.snapshot.stalePins} upstreamFixed=${report.patches.upstreamFixed} upstreamChanged=${report.patches.upstreamChanged}`,
 	);
 	console.log(
-		`report written to ${MIGRATION_REPORT_PATH}; evidence to ${BLESSING_PATH}; review to ${REVIEW_REPORT_PATH}`,
+		`report written to ${MIGRATION_REPORT_PATH}; evidence to ${BLESSING_PATH}; review to ${REVIEW_REPORT_PATH}; headword issues to ${HEADWORD_ISSUES_DOC}, ${HEADWORD_ISSUES_CSV}`,
+	);
+}
+
+/** The headword-issues report, over the finished entries in memory.
+ * Written on every run, like the blessing and the review report, so
+ * it can never describe a tree other than the one the run produced.
+ * It reads the NORMALIZED entries — exactly what `writeAll` puts on
+ * disk — rather than the pre-NFC truths the gates read. */
+async function writeHeadwordIssues(
+	truths: readonly TruthEntry[],
+	report: Report,
+): Promise<void> {
+	const issues = buildHeadwordIssues(truths, report.rows);
+	await Bun.write(HEADWORD_ISSUES_DOC, issues.doc);
+	await Bun.write(HEADWORD_ISSUES_CSV, issues.csv);
+	console.log(
+		`headword issues: ${issues.rows} rows across ${issues.shapes} shapes`,
 	);
 }
 
 /** The migrate CLI, and the pipeline's only entry point to a write.
  *
+ * `bun data:import` passes `--write`; `bun data:import:dry` does not.
  * Without `--write` it is a dry run: every entry is composed, gated
- * and reported, and nothing reaches `data/entries/`. The dry run is
- * the normal way to use it — the three generated documents come back
- * either way, so a change is measured before it is committed.
+ * and reported, and nothing reaches `data/entries/`. The four
+ * generated documents come back either way, so a change is measured
+ * before it is committed.
  *
  * `--write` adds the empty-tree guard (`refuseUnlessEmpty`) and
  * re-runs every gate, refusing on any red one. `--strict` promotes a
@@ -612,12 +646,14 @@ async function main(): Promise<void> {
 		REVIEW_REPORT_PATH,
 		`${renderReviewReport(report, catalogued)}\n`,
 	);
+	const normalized = normalizeAll(truths);
+	await writeHeadwordIssues(normalized.entries, report);
 	printGates(report);
 	if (!isGreen(report)) {
 		throw new Error('at least one gate is red; see the report');
 	}
 	if (options.write) {
-		await writeAll(truths, report);
+		await writeAll(normalized, report);
 	}
 }
 

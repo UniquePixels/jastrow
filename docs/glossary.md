@@ -43,23 +43,25 @@ date, and what it drops — see [`decisions.md`](decisions.md).
 |---|---|
 | **fetch** (`data:fetch`) | downloads the current Sefaria export into `data/source/` |
 | **import** (`data:import`) | turns source data, reference data and correction data into entry data, checks it, and writes a report |
+| **dry import** (`data:import:dry`) | the same run with no entry data written: every check and every report, nothing in `data/entries/` |
 | **compile** (`data:compile`) | turns entry data into compiled data. Not built |
 
 The `data:` prefix groups the commands that move data from one form to
 the next, and only those. Step 10 gave it to `fetch` and `import` and
 reserved it for `compile`; no other script took it. Every other script
-keeps a prefix naming the module it runs — `headword:issues`,
-`transform:count`, `transform:invariants` — or checks the repo (`qa`,
+keeps a prefix naming the module it runs — `transform:count`,
+`transform:invariants` — or checks the repo (`qa`,
 `qa:*`). `body:dry-run` and `pageindex:verify` left with the one-shot
 tools they ran (2026-09-22); `patch:replay` left with `patch/apply-cli.ts`
-the same day (Brian's ruling — see the retired terms below).
+the same day (Brian's ruling — see the retired terms below). `headword:issues` folded into the import on 2026-09-27: every run
+now writes the headword-issues report beside the others.
 
 ## The import run
 
 | Term | Meaning |
 |---|---|
-| **dry run** | the default import: checks and reports, and writes no entry data. It does rewrite the import report and the blessing doc |
-| **write run** | an import with `--write`: writes entry data, then formats it with Biome. Refuses unless `data/entries/` is empty, and refuses if any gate is red |
+| **dry run** | `bun data:import:dry`: checks and reports, and writes no entry data. It does rewrite the import report, the blessing doc, the review doc and the headword-issues report |
+| **write run** | `bun data:import` (which passes `--write`): writes entry data, then formats it with Biome. Refuses unless `data/entries/` is empty, and refuses if any gate is red |
 | **`--strict`** | makes a run refuse on a stale pin or a patch whose precondition no longer holds, instead of reporting them. Right for the committed snapshot, wrong for a new export |
 | **gate** | one of nine pass/total tallies import checks on every run: `bodyRoundTrips`, `headwordRoundTrip`, `textConservation`, `schema`, `chain`, `internalTargets`, `names`, `pages`, `composition` |
 | **import report** | the structured result of a run: gate tallies, rule counts, patch outcomes, report rows. Not committed (`data/source/migration-report.json`) |
