@@ -60,8 +60,8 @@ now writes the headword-issues report beside the others.
 
 | Term | Meaning |
 |---|---|
-| **dry run** | the default import: checks and reports, and writes no entry data. It does rewrite the import report and the blessing doc |
-| **write run** | an import with `--write`: writes entry data, then formats it with Biome. Refuses unless `data/entries/` is empty, and refuses if any gate is red |
+| **dry run** | `bun data:import:dry`: checks and reports, and writes no entry data. It does rewrite the import report, the blessing doc, the review doc and the headword-issues report |
+| **write run** | `bun data:import` (which passes `--write`): writes entry data, then formats it with Biome. Refuses unless `data/entries/` is empty, and refuses if any gate is red |
 | **`--strict`** | makes a run refuse on a stale pin or a patch whose precondition no longer holds, instead of reporting them. Right for the committed snapshot, wrong for a new export |
 | **gate** | one of nine pass/total tallies import checks on every run: `bodyRoundTrips`, `headwordRoundTrip`, `textConservation`, `schema`, `chain`, `internalTargets`, `names`, `pages`, `composition` |
 | **import report** | the structured result of a run: gate tallies, rule counts, patch outcomes, report rows. Not committed (`data/source/migration-report.json`) |

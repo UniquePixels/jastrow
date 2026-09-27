@@ -322,7 +322,11 @@ function classifyEveryShape(): void {
  * review list, so each row can say whether it is already visible.
  * EVERY headword kind counts as visible: they are one parser's several
  * verdicts on one line, split so the review report can class them
- * apart, and a row flagged under any of them has been seen. */
+ * apart, and a row flagged under any of them has been seen.
+ *
+ * Keyed in NFC: the rows carry the pre-write spelling while the
+ * entries this report walks are the NFC-normalized ones `writeAll`
+ * puts on disk, and combining-mark order varies between the two. */
 function flaggedForms(
 	reportRows: readonly ReportRow[],
 ): Map<string, Set<string>> {
@@ -334,7 +338,7 @@ function flaggedForms(
 		const marked = UNPARSED_DETAIL.exec(row.detail)?.groups?.['form'];
 		if (marked !== undefined) {
 			const forms = flagged.get(row.rid) ?? new Set<string>();
-			forms.add(marked);
+			forms.add(marked.normalize('NFC'));
 			flagged.set(row.rid, forms);
 		}
 	}
@@ -388,7 +392,8 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 	const rid = entry.id;
 	const marked = form.reconstructed === true ? `*${text}` : text;
 	const seen = flagged.get(rid) ?? new Set<string>();
-	const isFlagged = seen.has(text) || seen.has(marked);
+	const isFlagged =
+		seen.has(text.normalize('NFC')) || seen.has(marked.normalize('NFC'));
 	const rows: IssueRow[] = [];
 	for (const issue of issuesOf(text)) {
 		const shape = shapeFor(issue);

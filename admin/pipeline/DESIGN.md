@@ -125,10 +125,12 @@ cannot be known one entry at a time.
 6. **Names gate** (gate 7) and **quarantine gate** (gate 6), after
    pass 2.
 7. **Report and classify** — the machine report, the blessing doc, the
-   review doc, every run, dry included.
-8. **Write** (`--write` only): `normalizeForWrite` over every entry,
-   then the files, then `biome format --write`, then the report again
-   so its `written` count is accurate.
+   review doc, then `normalizeForWrite` over every entry and the
+   headword-issues report over those normalized entries — every run,
+   dry included, and before the red-gate refusal.
+8. **Write** (`--write` only): the already-normalized files, then
+   `biome format --write`, then the report again so its `written`
+   count is accurate.
 
 `PHASE_MANIFEST` (§5) orders the *phases inside one entry's
 composition*; the list above orders the *run*. They are different
