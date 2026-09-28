@@ -24,10 +24,13 @@
  * A01345, whose line was `X = Y`; reviewed patches P000309 and P000310
  * (#113) lift `= Y` into the gloss with `reform`'s `gloss` field.
  *
- * The parser still files such a line as a `headword-unparsed` row, so
- * a NEW one from upstream is named in the report, and `textDefects`
- * is the validate-side arm that makes the run fail on it — the only
- * thing a HAND EDIT to a committed file would ever meet.
+ * The halt lives in `validateTruth`, which the IMPORT does not call:
+ * `bun data:import` still writes such a line, and the parser files it
+ * as a `headword-unparsed` `blocks` row, so a NEW one from upstream is
+ * named in the report. The failure comes after, when the committed-
+ * tree tests (`truth.test.ts`, `committed-tree.test.ts`) run
+ * `textDefects` over the written files and CI's Test job goes red —
+ * the same check a HAND EDIT to a committed file meets.
  * `HALT_ON_TEXT_DEFECT` is the switch that holds it back to a report.
  */
 import { isLexical, PLACEHOLDER } from './headwords.ts';

@@ -239,14 +239,12 @@ const SHAPES: Readonly<Record<string, string>> = {
  * state.
  *
  * **They are still REPORTED, under the ruling that settled them.**
- * §3.1 rule 4 keeps this notation out of a form's `text`, so after the
- * batched rewrite of the 32,512 entry files a row here really will be
- * a parser bug rather than a shape awaiting a decision. But this
- * script reads the COMMITTED tree, which the rewrite has not reached —
- * `foldHeadwords` below exists for exactly that reason — and A00077
- * still holds `?אִיבּוּס` and S00099 still holds `(קְבַרְיָא)`. Dropping their sections would stop the report carrying
- * rows that are still on disk. So the ruling goes in the heading and
- * the rows stay. */
+ * §3.1 rule 4 keeps this notation out of a form's `text`, and the
+ * committed tree no longer holds any of it, so a row here is a parser
+ * bug or a new line from upstream rather than a shape awaiting a
+ * decision. Dropping the sections would make such a row fall out of
+ * the report as silently as an unmapped shape did. So the ruling goes
+ * in the heading and any row that appears stays visible. */
 const SETTLED: Readonly<Record<string, { by: string; section: string }>> = {
 	'shape:comma-list': {
 		by: 'HW-commas — never stored in a headword',

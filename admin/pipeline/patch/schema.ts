@@ -777,6 +777,13 @@ function readLegacyReform(raw: Record<string, unknown>): void {
 	if (!nonEmptyString(p['headword']) || !Array.isArray(p['alt_headwords'])) {
 		return;
 	}
+	// The legacy spelling predates `display` and `gloss`, and the
+	// rebuild below keeps only the forms. A record mixing the two would
+	// lose them without a word — for a `gloss`, the cross-reference the
+	// line gave up — so it is left alone and refused by name instead.
+	if ('display' in p || 'gloss' in p) {
+		return;
+	}
 	raw['payload'] = { forms: [p['headword'], ...p['alt_headwords']] };
 }
 

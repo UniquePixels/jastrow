@@ -686,6 +686,16 @@ describe('reform', () => {
 		);
 	});
 
+	it('refuses a legacy payload carrying a gloss or display', () => {
+		// The rebuild keeps only the forms, so either field would be
+		// dropped without a word — a gloss is the cross-reference itself.
+		for (const extra of [{ gloss: ' = y' }, { display: '{0}' }]) {
+			expect(() =>
+				reform({ alt_headwords: [], headword: 'a', ...extra }),
+			).toThrow('non-empty array');
+		}
+	});
+
 	it('keeps a supplied display OUT of the pool', () => {
 		// A template is not text: `({0}, {1})` contributes braces and
 		// slot digits no entry holds, so pooling it would report every

@@ -553,7 +553,8 @@ async function loadAcceptedCorpus(): Promise<AcceptedCorpus> {
 	};
 }
 
-/** A `reform` that changed only the entry's `display`.
+/** A `reform` that changed the entry's `display` or added its gloss,
+ * leaving the forms as they were.
  *
  * `reform`'s target is the forms block, so the assertion below reads
  * "the apply changed its target" as "the block no longer hashes to
@@ -565,23 +566,32 @@ async function loadAcceptedCorpus(): Promise<AcceptedCorpus> {
  * print's `({0}) {1} I` is supplied by a reviewed patch while the
  * forms stay as the source has them.
  *
+ * The `gloss` half (#113) is the same case again: a reform may lift
+ * text into the first sense of a line whose forms need no change.
+ *
  * So the question the assertion asks is "did the apply change
- * anything?", and for such a patch the answer is `display`. A reform
- * that changes NEITHER still fails, which is the case the assertion
- * was written for. */
-function reformSetDisplayOnly(
+ * anything?", and for such a patch the answer is `display` or the
+ * senses. A reform that changes none of them still fails, which is the
+ * case the assertion was written for. */
+function reformChangedBesideForms(
 	before: SourceEntry,
 	after: SourceEntry,
 	patch: SemanticPatch,
 ): boolean {
-	if (patch.op !== 'reform' || before.display === after.display) {
+	if (patch.op !== 'reform') {
+		return false;
+	}
+	const sensesChanged =
+		JSON.stringify(before.content.senses) !==
+		JSON.stringify(after.content.senses);
+	if (before.display === after.display && !sensesChanged) {
 		return false;
 	}
 	// The forms half must really be unchanged, which is what makes the
 	// skipped assertion safe. Without this clause the exemption would
-	// read "a reform that set a display", and a payload whose `forms`
-	// silently repeat the current ones would ship whenever it also
-	// carried a template — the exact no-op the assertion exists to
+	// read "a reform that set a display or a gloss", and a payload
+	// whose `forms` silently repeat the current ones would ship whenever
+	// it also carried one — the exact no-op the assertion exists to
 	// catch, wearing a display as a pass.
 	return countTarget(after, patch) === countTarget(before, patch);
 }
@@ -589,7 +599,7 @@ function reformSetDisplayOnly(
 /** Round-trip re-parse assertion (spec §4.3): the patched entry must
  * survive JSON serialization unchanged, and the apply must have
  * changed something — its pre-state target no longer resolving to its
- * old count, or (see `reformSetDisplayOnly`) the line's layout. An
+ * old count, or (see `reformChangedBesideForms`) the line's layout or gloss. An
  * apply that left the entry byte-identical repaired nothing. */
 function postApplyAssertions(
 	before: SourceEntry,
@@ -606,7 +616,7 @@ function postApplyAssertions(
 	const stale = countTarget(after, patch);
 	if (
 		stale !== patch.expected_occurrences - 1 &&
-		!reformSetDisplayOnly(before, after, patch)
+		!reformChangedBesideForms(before, after, patch)
 	) {
 		throw new PatchApplyError(
 			patch.id,
