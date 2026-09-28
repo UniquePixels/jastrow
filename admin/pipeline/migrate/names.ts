@@ -26,9 +26,11 @@ import type { FormObject, TruthEntry } from './types.ts';
  * — and both are wanted. Without it the 23 `*`/plain pairs
  * (`*טְפֵי` / `טְפֵי`) collide.
  *
- * `=` is NOT here either: it marks a cross-reference the headword
- * itself still owes, and the odd name keeps that visible until the
- * headword work resolves A01175 and A01345 (spec §4). */
+ * `=` is NOT here either: it marks a cross-reference that belongs in
+ * the gloss, and rule 4 (`headword-rules.ts`) halts on one in a form's
+ * text, so stripping it here would only hide a line the run refuses
+ * anyway. A01175 and A01345, the last two, were repaired by patch
+ * (#113). */
 const NOTATION = /[()?,]/gu;
 /** Runs of whitespace collapse to one space, and the ends are
  * trimmed: stripping notation can leave a gap or an edge space where

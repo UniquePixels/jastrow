@@ -124,10 +124,16 @@ function classifyDrift(
 	}
 	if (patch.op === 'reform') {
 		// The headword block moved. Upstream FIXED it only if the block
-		// now reads exactly as this patch would have written it;
-		// anything else is a change we have not seen.
-		const written = patch.payload.forms.join('\n');
-		return formsBlock(entry) === written
+		// now reads exactly as this patch would have written it — and,
+		// for a patch that also lifts text into the gloss, only if that
+		// text arrived too: a line fixed upstream by DROPPING `= Y`
+		// lost the cross-reference, which is not the fix. Anything
+		// else is a change we have not seen.
+		const { forms, gloss } = patch.payload;
+		const glossLanded =
+			gloss === undefined ||
+			[...walkSenses(entry)].some(({ sense }) => sense.definition === gloss);
+		return formsBlock(entry) === forms.join('\n') && glossLanded
 			? 'upstream-fixed'
 			: 'upstream-changed';
 	}

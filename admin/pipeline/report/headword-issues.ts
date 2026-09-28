@@ -224,9 +224,9 @@ const SHAPES: Readonly<Record<string, string>> = {
 	maqaf: 'X5 maqaf fragment',
 	'nonfinal-letter-at-end': 'X3 non-final letter at word end',
 	'not-NFC': 'X4 not NFC',
-	// H4 is the one H row still live: §4 moves `= Y` into the gloss,
-	// and the op that does it does not exist yet (#113), so A01175 and
-	// A01345 still carry a `=` in their text.
+	// H4: §4 moves `= Y` into the gloss. Its two rows, A01175 and
+	// A01345, were repaired by reviewed patch (#113); the shape stays
+	// mapped so a new `= Y` line from upstream is named, not dropped.
 	'shape:equals-variant': 'H4 "=" variant pair',
 	'shape:multi-word': 'H6 multi-word',
 };
@@ -244,8 +244,7 @@ const SHAPES: Readonly<Record<string, string>> = {
  * a parser bug rather than a shape awaiting a decision. But this
  * script reads the COMMITTED tree, which the rewrite has not reached —
  * `foldHeadwords` below exists for exactly that reason — and A00077
- * still holds `?אִיבּוּס`, S00099 still holds `(קְבַרְיָא)`, A01175 still
- * holds a `=`. Dropping their sections would stop the report carrying
+ * still holds `?אִיבּוּס` and S00099 still holds `(קְבַרְיָא)`. Dropping their sections would stop the report carrying
  * rows that are still on disk. So the ruling goes in the heading and
  * the rows stay. */
 const SETTLED: Readonly<Record<string, { by: string; section: string }>> = {

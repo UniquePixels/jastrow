@@ -18,31 +18,25 @@
  *    whole entry file (`normalizeForWrite`, #110 — §3.1 rule 6 names
  *    it as the one exception). Nothing in THIS file rewrites anything.
  *
- * **Rule 4 is ARMED AND HELD, and that is a ruling, not an oversight.**
- * §3 makes a text defect a halt, so the natural home for rule 4 is a
- * validation error beside the other five. Two entries in the corpus
- * still trip it — A01175 and A01345, whose headword line is
- * `X = Y` and whose repair (§4's H4 row: move `= Y` into the gloss)
- * needs a patch op that does not exist yet ([#113]). Turning the halt
- * on would therefore make every run red over a defect already
- * catalogued, already flagged and already ticketed.
+ * **Rule 4 halts.** §3 makes a text defect a halt, so rule 4 is a
+ * validation error beside the other five. It was held at a report
+ * until the last two entries tripping it were repaired — A01175 and
+ * A01345, whose line was `X = Y`; reviewed patches P000309 and P000310
+ * (#113) lift `= Y` into the gloss with `reform`'s `gloss` field.
  *
- * So the defect is REPORTED rather than refused: the parser files the
- * same two lines as `headword-unparsed` `blocks` rows, which is what a
- * reader acts on, and `textDefects` is the validate-side arm — the
- * only thing a HAND EDIT to a committed file would ever meet.
- * `HALT_ON_TEXT_DEFECT` is the one switch that promotes it to an
- * error, and the maintainer flips it when those two lines are
- * repaired.
+ * The parser still files such a line as a `headword-unparsed` row, so
+ * a NEW one from upstream is named in the report, and `textDefects`
+ * is the validate-side arm that makes the run fail on it — the only
+ * thing a HAND EDIT to a committed file would ever meet.
+ * `HALT_ON_TEXT_DEFECT` is the switch that holds it back to a report.
  */
 import { isLexical, PLACEHOLDER } from './headwords.ts';
 import type { FormObject, TruthEntry } from './types.ts';
 
 /** Whether rule 4 refuses an entry outright (a validation error) or
- * reports it (a `headword-unparsed` review row). Held at `false`
- * while A01175 and A01345 still carry a `=` in their text; see the
- * module docstring. */
-const HALT_ON_TEXT_DEFECT: boolean = false;
+ * only reports it (a `headword-unparsed` review row). `true` since
+ * A01175 and A01345 were repaired; see the module docstring. */
+const HALT_ON_TEXT_DEFECT: boolean = true;
 
 /** The notation rule 4 keeps OUT of a form's text. Each one has a home
  * in `display` instead: the grouping delimiters and the query mark are

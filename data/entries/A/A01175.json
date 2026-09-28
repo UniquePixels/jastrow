@@ -4,16 +4,17 @@
 	"sefariaHeadword": "אִידְרְעָא = אֶדְרְעָא",
 	"headwords": [
 		{
-			"text": "אִידְרְעָא = אֶדְרְעָא"
+			"text": "אִידְרְעָא"
 		}
 	],
+	"display": "{0}",
 	"page": {
 		"number": 45,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": "",
+			"gloss": " = <he>אֶדְרְעָא</he>",
 			"units": []
 		}
 	]
