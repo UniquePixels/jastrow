@@ -127,12 +127,16 @@ function classifyDrift(
 		// now reads exactly as this patch would have written it — and,
 		// for a patch that also lifts text into the gloss, only if that
 		// text arrived too: a line fixed upstream by DROPPING `= Y`
-		// lost the cross-reference, which is not the fix. Anything
-		// else is a change we have not seen.
+		// lost the cross-reference, which is not the fix. The gloss
+		// must be the SOLE sense, as `applyReform` leaves it: the same
+		// text beside other senses is an entry upstream rewrote, and
+		// skipping the patch there would hide that. Anything else is a
+		// change we have not seen.
 		const { forms, gloss } = patch.payload;
 		const glossLanded =
 			gloss === undefined ||
-			[...walkSenses(entry)].some(({ sense }) => sense.definition === gloss);
+			(entry.content.senses.length === 1 &&
+				entry.content.senses[0]?.definition === gloss);
 		return formsBlock(entry) === forms.join('\n') && glossLanded
 			? 'upstream-fixed'
 			: 'upstream-changed';

@@ -230,7 +230,13 @@ describe('classifyDrift on a reform', () => {
 			headword: 'x',
 			rid: 'D00436',
 		};
+		const extended: SourceEntry = {
+			...fixed,
+			content: { senses: [{ definition: ' = y' }, { definition: 'more' }] },
+		};
 		expect(classifyDrift(fixed, lifting)).toBe('upstream-fixed');
 		expect(classifyDrift(dropped, lifting)).toBe('upstream-changed');
+		// The gloss beside other senses is not the state the patch leaves.
+		expect(classifyDrift(extended, lifting)).toBe('upstream-changed');
 	});
 });
