@@ -212,4 +212,31 @@ describe('classifyDrift on a reform', () => {
 			'upstream-changed',
 		);
 	});
+	it('is upstream-fixed for a gloss reform only when the gloss arrived too', () => {
+		// A line fixed upstream by DROPPING `= Y` lost the reference.
+		const lifting = patch({
+			expected_before: 'x = y',
+			op: 'reform',
+			payload: { forms: ['x'], gloss: ' = y' },
+			target: `forms:${contentAnchor('x = y')}`,
+		} as Partial<SemanticPatch>);
+		const fixed: SourceEntry = {
+			content: { senses: [{ definition: ' = y' }] },
+			headword: 'x',
+			rid: 'D00436',
+		};
+		const dropped: SourceEntry = {
+			content: { senses: [] },
+			headword: 'x',
+			rid: 'D00436',
+		};
+		const extended: SourceEntry = {
+			...fixed,
+			content: { senses: [{ definition: ' = y' }, { definition: 'more' }] },
+		};
+		expect(classifyDrift(fixed, lifting)).toBe('upstream-fixed');
+		expect(classifyDrift(dropped, lifting)).toBe('upstream-changed');
+		// The gloss beside other senses is not the state the patch leaves.
+		expect(classifyDrift(extended, lifting)).toBe('upstream-changed');
+	});
 });

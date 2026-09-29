@@ -602,6 +602,36 @@ describe('reform', () => {
 		);
 	});
 
+	it('lifts `= Y` off the line into the first sense of a senseless entry', () => {
+		// A01175's shape (#113): the line is `X = Y` and the entry has no
+		// sense for the cross-reference to move into.
+		const bare: SourceEntry = {
+			content: { senses: [] },
+			headword: 'x = y',
+			rid: 'T00001',
+		};
+		const after = applyPatch(
+			bare,
+			reform({ forms: ['x'], gloss: ' = y' }, 'x = y'),
+		);
+		expect(after.headword).toBe('x');
+		expect(after.content.senses).toEqual([{ definition: ' = y' }]);
+		expect(bare.content.senses).toEqual([]);
+	});
+
+	it('refuses a gloss on an entry that already has a sense', () => {
+		// The field adds the first sense; it never overwrites one.
+		expect(() =>
+			applyPatch(entry, reform({ forms: ['a'], gloss: ' = y' })),
+		).toThrow('the entry already has 1');
+	});
+
+	it('refuses an empty gloss', () => {
+		expect(() => reform({ forms: ['a'], gloss: '' })).toThrow(
+			'reform gloss must be a non-empty string',
+		);
+	});
+
 	it('refuses a reform that claims more than one headword block', () => {
 		// An entry has exactly one block; a count of 2 would parse, pass
 		// expected_before, and rewrite a copy no caller checks.
@@ -654,6 +684,16 @@ describe('reform', () => {
 		expect(() => reform({ alt_headwords: 'b', headword: 'a' })).toThrow(
 			'non-empty array',
 		);
+	});
+
+	it('refuses a legacy payload carrying a gloss or display', () => {
+		// The rebuild keeps only the forms, so either field would be
+		// dropped without a word — a gloss is the cross-reference itself.
+		for (const extra of [{ gloss: ' = y' }, { display: '{0}' }]) {
+			expect(() =>
+				reform({ alt_headwords: [], headword: 'a', ...extra }),
+			).toThrow('non-empty array');
+		}
 	});
 
 	it('keeps a supplied display OUT of the pool', () => {

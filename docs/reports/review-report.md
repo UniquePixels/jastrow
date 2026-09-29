@@ -6,19 +6,14 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 
 | Publication | Rows |
 |---|---|
-| blocks | 2 |
+| blocks | 0 |
 | defer | 2811 |
 | note | 1597 |
 | catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
-## Before publication (2)
+## Before publication (0)
 
-### headword-unparsed (2)
-
-**What to do:** Correct the headword text at source or by patch so the line parses; the reader sees the raw string until then.
-
-- A01175: אִידְרְעָא = אֶדְרְעָא — the line holds `=`, which introduces a gloss reference
-- A01345: אִימְנוֹן = הִמְנוֹן — the line holds `=`, which introduces a gloss reference
+_none_
 
 ## Deferred (2811)
 

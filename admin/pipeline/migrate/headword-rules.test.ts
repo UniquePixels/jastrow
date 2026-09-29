@@ -1,8 +1,8 @@
 /**
  * Controls for the §3.1 rules. `validate.test.ts` plants one defect
  * per rule through the whole tree check; these read the rules
- * directly, and cover the two things that check cannot see — rule 4,
- * which is armed and HELD, and the shapes rules 1–3 must ACCEPT.
+ * directly, and cover the two things that check cannot see — rule 4's
+ * switch, and the shapes rules 1–3 must ACCEPT.
  */
 import { describe, expect, it } from 'bun:test';
 import {
@@ -25,14 +25,14 @@ function shaped(
 	};
 }
 
-describe('rule 4 — armed and held', () => {
-	it('is HELD: a text defect is reported, never an error', () => {
-		// The switch's own control. When the maintainer flips it after
-		// A01175 and A01345 are repaired, this case fails and says so.
-		expect(textDefectsHalt()).toBe(false);
-		expect(headwordShapeProblems(shaped([{ text: 'אִידְרְעָא = אֶדְרְעָא' }]))).toEqual(
-			[],
-		);
+describe('rule 4 — armed', () => {
+	it('HALTS: a text defect is an error', () => {
+		// The switch's own control. It was held until A01175 and A01345
+		// were repaired (#113); a change back to holding fails here.
+		expect(textDefectsHalt()).toBe(true);
+		expect(
+			headwordShapeProblems(shaped([{ text: 'אִידְרְעָא = אֶדְרְעָא' }])),
+		).toHaveLength(1);
 	});
 
 	it('names every character §3.1 keeps out of a form text', () => {

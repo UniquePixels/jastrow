@@ -128,10 +128,21 @@ type UnrefPayload = Record<string, never>;
  * bounded that way, so a `reform` belongs in `admin/pipeline/patch/records/reviewed/`
  * where a person wrote it from the print — the print, not
  * concatenation, is what settles a form whose pointing the source
- * lost. */
+ * lost.
+ *
+ * **`gloss` is the text a repair lifts OFF the line.** Headword design
+ * §4's H4 row reads `X = Y` as headword `X` and the cross-reference
+ * `= Y`, which belongs in the gloss — and the entries that hold such a
+ * line have no sense for it to move into (A01175, A01345: #113). So
+ * the reform that takes `= Y` off the line is the one that puts it
+ * down, in one record, and the text cannot go missing between two
+ * patches. It is refused on an entry that already has a sense: the
+ * field ADDS the first sense, it never addresses or overwrites one —
+ * an edit to existing sense text is a sense op's job. */
 interface ReformPayload {
 	display?: string;
 	forms: string[];
+	gloss?: string;
 }
 
 /** Set (or add) the target sense's `number` field. The new token must
@@ -504,6 +515,9 @@ function reformPayloadReasons(p: Record<string, unknown>): string[] {
 		}
 	}
 	reasons.push(...reformDisplayReasons(p['display'], forms));
+	if (p['gloss'] !== undefined && !nonEmptyString(p['gloss'])) {
+		reasons.push('reform gloss must be a non-empty string when present');
+	}
 	return reasons;
 }
 
@@ -763,6 +777,13 @@ function readLegacyReform(raw: Record<string, unknown>): void {
 	if (!nonEmptyString(p['headword']) || !Array.isArray(p['alt_headwords'])) {
 		return;
 	}
+	// The legacy spelling predates `display` and `gloss`, and the
+	// rebuild below keeps only the forms. A record mixing the two would
+	// lose them without a word — for a `gloss`, the cross-reference the
+	// line gave up — so it is left alone and refused by name instead.
+	if ('display' in p || 'gloss' in p) {
+		return;
+	}
 	raw['payload'] = { forms: [p['headword'], ...p['alt_headwords']] };
 }
 
@@ -943,7 +964,8 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
  * asserting that the block still reads exactly as `expected_before`.
  * A single-form payload removes `alt_headwords` rather than writing
  * `[]`, so an entry with no alternates looks the way the rest of the
- * corpus does. */
+ * corpus does. A `gloss` becomes the entry's only sense, and only on
+ * an entry that has none (see `ReformPayload`). */
 function applyReform(entry: SourceEntry, patch: ReformPatch): SourceEntry {
 	const before = formsBlock(entry);
 	if (before !== patch.expected_before) {
@@ -952,7 +974,17 @@ function applyReform(entry: SourceEntry, patch: ReformPatch): SourceEntry {
 			'expected_before does not match the headword block — the source moved under the patch (maintenance track, spec §6)',
 		);
 	}
+	const { gloss } = patch.payload;
+	if (gloss !== undefined && entry.content.senses.length > 0) {
+		throw new PatchApplyError(
+			patch.id,
+			`reform gloss adds the first sense, and the entry already has ${entry.content.senses.length}`,
+		);
+	}
 	const copy = structuredClone(entry);
+	if (gloss !== undefined) {
+		copy.content.senses = [{ definition: gloss }];
+	}
 	const [headword = '', ...alts] = patch.payload.forms;
 	copy.headword = headword;
 	if (alts.length > 0) {

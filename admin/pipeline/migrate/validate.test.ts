@@ -110,8 +110,13 @@ describe('validateTruth', () => {
 			'a name that collides only once the notation is stripped',
 			// §4 drops `( ) ? ,` from the name: `(אב)` and `אב` are two
 			// headwords and one URL, which nothing but this check sees.
+			// Rule 4 refuses the same parenthesis: the notation the name
+			// strips is exactly what a form's text may not hold.
 			tree(A(), { ...B(), headwords: [{ text: '(אב)' }] }),
-			'A00002: name אב taken by A00001',
+			[
+				'A00002: name אב taken by A00001',
+				'A00002: headwords[0].text carries "(", which belongs in display or the gloss (§3.1 rule 4)',
+			],
 		],
 		[
 			'a duplicate sefariaHeadword',
@@ -120,8 +125,12 @@ describe('validateTruth', () => {
 		],
 		[
 			'markup in the headword',
+			// A tag is Latin letters, which rule 4 also refuses.
 			tree({ ...A(), headwords: [{ text: '<i>אב</i>' }] }, B()),
-			'A00001: headwords[0].text: markup in a plain-text field',
+			[
+				'A00001: headwords[0].text carries "i", which belongs in display or the gloss (§3.1 rule 4)',
+				'A00001: headwords[0].text: markup in a plain-text field',
+			],
 		],
 		[
 			'markup in an alt headword',
@@ -133,7 +142,10 @@ describe('validateTruth', () => {
 				},
 				B(),
 			),
-			'A00001: headwords[1].text: markup in a plain-text field',
+			[
+				'A00001: headwords[1].text carries "h", which belongs in display or the gloss (§3.1 rule 4)',
+				'A00001: headwords[1].text: markup in a plain-text field',
+			],
 		],
 		[
 			'markup in sefariaHeadword',
@@ -241,9 +253,9 @@ describe('validateTruth', () => {
 			'A00002: headwords[1] is partial with no full sibling, so the entry has no lookup key (§3.1 rule 5)',
 		],
 	])('reports %s', async (_name, files, expected) => {
-		expect(await validateTruth(files, pagesFor('A00001', 'A00002'))).toEqual([
-			expected,
-		]);
+		expect(await validateTruth(files, pagesFor('A00001', 'A00002'))).toEqual(
+			[expected].flat(),
+		);
 	});
 
 	it('reads files at every depth, so a misplaced one is reported', async () => {

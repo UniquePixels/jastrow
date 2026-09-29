@@ -399,6 +399,15 @@ describe('postApplyAssertions', () => {
 		).not.toThrow();
 	});
 
+	it('accepts a reform that only lifted text into the gloss', () => {
+		// #113: the forms may already be right while the gloss is empty.
+		const before = { ...makeEntry(), content: { senses: [] } };
+		const after = { ...before, content: { senses: [{ definition: ' = y' }] } };
+		expect(() =>
+			postApplyAssertions(before, after, displayOnlyReform()),
+		).not.toThrow();
+	});
+
 	it('still rejects a reform that changed nothing at all', () => {
 		const before = makeEntry();
 		expect(() =>

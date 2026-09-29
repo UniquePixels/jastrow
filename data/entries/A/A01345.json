@@ -4,16 +4,17 @@
 	"sefariaHeadword": "אִימְנוֹן = הִמְנוֹן",
 	"headwords": [
 		{
-			"text": "אִימְנוֹן = הִמְנוֹן"
+			"text": "אִימְנוֹן"
 		}
 	],
+	"display": "{0}",
 	"page": {
 		"number": 51,
 		"column": "a"
 	},
 	"senses": [
 		{
-			"gloss": "",
+			"gloss": " = <he>הִמְנוֹן</he>",
 			"units": []
 		}
 	]

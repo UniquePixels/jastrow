@@ -6,7 +6,6 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 
 | Shape | Rows | Main | Alt | Flagged by the processor |
 |---|---|---|---|---|
-| H4 "=" variant pair | 2 | 2 | 0 | 2 |
 | H6 multi-word | 271 | 6 | 265 | 0 |
 | X1 starts with a vowel/dagesh mark | 5 | 2 | 3 | 0 |
 | X3 non-final letter at word end | 1 | 0 | 1 | 0 |
@@ -14,13 +13,6 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | X6 abbreviated alt (ends ׳) | 2240 | 0 | 2240 | 0 |
 | X7 abbreviation headword (׳/״) | 134 | 123 | 11 | 0 |
 | X8 homograph numbering gap | 177 | 136 | 41 | 0 |
-
-## H4 "=" variant pair (2)
-
-| rid | role | text | name | note | flagged |
-|---|---|---|---|---|---|
-| [A01175](https://jastrow.app/#rid:A01175) | headword | אִידְרְעָא = אֶדְרְעָא | אִידְרְעָא = אֶדְרְעָא |  | yes |
-| [A01345](https://jastrow.app/#rid:A01345) | headword | אִימְנוֹן = הִמְנוֹן | אִימְנוֹן = הִמְנוֹן |  | yes |
 
 ## H6 multi-word (271)
 
