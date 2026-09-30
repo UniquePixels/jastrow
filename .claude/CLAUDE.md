@@ -40,8 +40,9 @@ unit test tier, and `tsc`. CI's Lint job runs `bun qa:ci`
 
 ## Test Tiers
 
-`bun test` is split by filename, and the split is enforced by
-`admin/pipeline/test-tiers.test.ts`.
+`bun test` is split by filename. The split is a convention, not a
+test: a corpus read left in a `*.test.ts` shows up as a slow CI
+`Test` job.
 
 | Tier | Files | Command | Where | Cost |
 |---|---|---|---|---|

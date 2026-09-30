@@ -4,17 +4,14 @@
  * This file used to call `computeSnapshot` with no argument four
  * times. That defaults to the module's fixed snapshot file list and
  * so read the 41 MB pinned corpus from the unit tier — the tier that
- * consolidation spec R9 says never reads `data/source/`, and that
- * `test-tiers.test.ts` claimed to police (review 2026-09-21,
- * report-code §6). The function takes its paths, so the two tiny
- * fixtures beside this file exercise the same code with known bytes
- * and a pinned hash — a stronger assertion than "deterministic across
- * two runs", which a function returning a constant would also pass.
+ * consolidation spec R9 says never reads `data/source/` (review
+ * 2026-09-21, report-code §6). The function takes its paths, so the two
+ * tiny fixtures beside this file exercise the same code with known
+ * bytes and a pinned hash — a stronger assertion than "deterministic
+ * across two runs", which a function returning a constant would also
+ * pass.
  *
- * `test-tiers.test.ts` now carries both of those no-argument shapes as
- * tier signals, so the old form cannot come back quietly. (It matches
- * on file TEXT, which is why this note spells neither of them the way
- * the code would.) What left with the corpus read is the "working
+ * What left with the corpus read is the "working
  * tree = pinned snapshot" assertion, which genuinely needs it: that
  * one lives on the `snapshot.ts` CLI and on migrate's own preflight,
  * where `preparePatches` pins every patch against a freshly computed

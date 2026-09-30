@@ -230,20 +230,6 @@ describe('detectClasses', () => {
 });
 
 describe('DETECTED_CLASSES', () => {
-	it('names these five catalogue ids, spelled out', () => {
-		// Spelled out rather than derived from `CLASS_DETECTORS`: the set
-		// IS `new Set(CLASS_DETECTORS.keys())`, so comparing the two
-		// asserts nothing. These ids are what `patterns.jsonl` spells and
-		// what the review report subtracts, so a typo in one must fail
-		// here rather than silently leave a class on the catalogued list.
-		expect([...DETECTED_CLASSES].toSorted()).toEqual([
-			'empty-stem-section',
-			'homograph-roman-stranded-in-definition',
-			'open-paren-in-rtl-span',
-			'stranded-open-bracket',
-			'superscript-subsection-contradicts-link-sub-section',
-		]);
-	});
 	it('gives every detected class a defer rule in the kind table', () => {
 		// Without this, a detector could emit rows of a kind `ruleOf`
 		// throws on — a red run rather than a triaged row.

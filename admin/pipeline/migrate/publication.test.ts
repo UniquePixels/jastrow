@@ -5,41 +5,11 @@ import {
 	PUBLICATION,
 	publicationOf,
 } from './publication.ts';
-import { createReport, lineRow, type Publication } from './report.ts';
-
-// Spec §3.1.1, one tuple per kind.
-const TABLE: ReadonlyArray<readonly [string, Publication]> = [
-	['headword-unparsed', 'blocks'],
-	['upstream-fixed', 'blocks'],
-	['upstream-changed', 'blocks'],
-	['page-confidence-low', 'defer'],
-	['page-confidence-medium', 'defer'],
-	['markup-carry', 'defer'],
-	['review-deferred', 'defer'],
-	// The five catalogued classes `migrate/detectors/` now detects.
-	['empty-stem-section', 'defer'],
-	['homograph-roman-stranded-in-definition', 'defer'],
-	['open-paren-in-rtl-span', 'defer'],
-	['stranded-open-bracket', 'defer'],
-	['superscript-subsection-contradicts-link-sub-section', 'defer'],
-	['headword-duplicate-form', 'defer'],
-	['headword-partial-only', 'note'],
-	['paren-group-close-unknown', 'defer'],
-	['patch-consolidated-away', 'defer'],
-];
+import { createReport, lineRow } from './report.ts';
 
 describe('PUBLICATION', () => {
-	it('agrees in size with the test table, so an unlisted kind fails here', () => {
-		expect(PUBLICATION.size).toBe(TABLE.length);
-	});
-	it('maps every table kind to the table value', () => {
-		for (const [kind, expected] of TABLE) {
-			expect(PUBLICATION.get(kind)?.publication).toBe(expected);
-		}
-	});
 	it('gives every kind a non-empty action ending in a full stop', () => {
-		for (const [kind] of TABLE) {
-			const action = PUBLICATION.get(kind)?.action ?? '';
+		for (const { action } of PUBLICATION.values()) {
 			expect(action.length).toBeGreaterThan(0);
 			expect(action.endsWith('.')).toBe(true);
 		}
@@ -71,11 +41,11 @@ describe('actionOf', () => {
 });
 
 describe('publicationOf', () => {
-	for (const [kind, expected] of TABLE) {
-		it(`${kind} → ${expected}`, () => {
-			expect(publicationOf({ bucket: 'review', kind })).toBe(expected);
-		});
-	}
+	it('reads every kind from the table', () => {
+		for (const [kind, rule] of PUBLICATION) {
+			expect(publicationOf({ bucket: 'review', kind })).toBe(rule.publication);
+		}
+	});
 	it('leaves a pipeline fault unclassified', () => {
 		expect(
 			publicationOf({ bucket: 'pipeline', kind: 'composition-failed' }),

@@ -7,15 +7,8 @@
  * the only file a different project has to edit to run the same
  * pipeline over its own data.
  *
- * `boundary.test.ts` fails if a path literal for `data/`, `docs/` or
- * `app/` appears anywhere else in non-test module code.
- *
- * Two names here are load-bearing beyond their value.  `SOURCE_PATH`
- * and `SNAPSHOT_FILES` are matched by IDENTIFIER in
- * `test-tiers.test.ts`'s `CORPUS_SIGNALS`, which is how the tier split
- * spots a test that reaches the 41 MB snapshot from the fast tier.
- * Renaming either one disables that detection without failing
- * anything — so they do not get renamed.
+ * Biome's `noRestrictedImports` (`biome.json`) keeps the module's
+ * imports inside `admin/pipeline/` and `admin/entry/`.
  *
  * The three paths the entry contract reads — the entries, the schema
  * and the page index — are declared by `admin/entry/paths.ts` and
