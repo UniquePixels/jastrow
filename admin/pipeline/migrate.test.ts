@@ -70,16 +70,12 @@ describe('the --write guard (spec R1, permanent)', () => {
 });
 
 /** A report that would pass: one entry, every gate marked once and
- * passing. `internalTargets` is left at 0/0 deliberately — an empty
- * quarantine list is the green state for that one gate, and
- * `isGreen` exempts it by name. */
+ * passing. */
 function greenReport(): Report {
 	const report = createReport();
 	report.entries = 1;
 	for (const name of GATE_NAMES) {
-		if (name !== 'internalTargets') {
-			mark(report.gates[name], true, '');
-		}
+		mark(report.gates[name], true, '');
 	}
 	return report;
 }
@@ -108,20 +104,14 @@ describe('isGreen refuses a red run before anything is written', () => {
 
 	// A gate the run never reached reads 0/0, which is `pass === total`
 	// and an empty failure list — green by arithmetic and meaningless
-	// in fact. `internalTargets` is the ONE name allowed to be 0/0.
+	// in fact.
 	for (const name of GATE_NAMES) {
 		it(`refuses an unreached ${name}`, () => {
 			const report = greenReport();
 			report.gates[name] = { failures: [], pass: 0, total: 0 };
-			expect(isGreen(report)).toBe(name === 'internalTargets');
+			expect(isGreen(report)).toBe(false);
 		});
 	}
-
-	it('refuses internalTargets when it reports a failure at 0/0', () => {
-		const report = greenReport();
-		report.gates.internalTargets.failures.push('unlisted: A00001 → x');
-		expect(isGreen(report)).toBe(false);
-	});
 });
 
 function row(kind: string, bucket: ReportRow['bucket']): ReportRow {

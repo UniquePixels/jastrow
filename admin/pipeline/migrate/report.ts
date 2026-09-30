@@ -2,7 +2,7 @@
 /** The migration report (migrate spec §4.2; consolidation spec §3.1): every gate as a tally, structured rows, rule counts, patch outcomes, and the evidence doc the maintainer blesses. */
 import type { DriftOutcome } from '../patch/drift.ts';
 import { BLESSING_PATH, MIGRATION_REPORT_PATH } from '../paths.ts';
-import type { QuarantineRow, Unresolved } from './cite.ts';
+import type { Unresolved } from './cite.ts';
 import { tally } from './gates.ts';
 import { isHeadwordReviewKind } from './headwords.ts';
 import type { Tally, TruthEntry } from './types.ts';
@@ -124,7 +124,6 @@ interface Report {
 		upstreamFixed: number;
 	};
 	patchOutcomes: PatchOutcomeRow[];
-	quarantine: QuarantineRow[];
 	rows: ReportRow[];
 	rules: RuleCount[];
 	/** The snapshot this run read, and how many patches pin another one.
@@ -167,7 +166,6 @@ function createReport(): Report {
 			upstreamChanged: 0,
 			upstreamFixed: 0,
 		},
-		quarantine: [],
 		rows: [],
 		rules: [],
 		snapshot: { pin: '', stalePins: 0 },
@@ -240,17 +238,14 @@ function ruleRows(report: Report): string[] {
 
 /** Whether `--write` may proceed. A gate must have been REACHED, not
  * merely free of failures: an empty tally is a gate that never ran,
- * which is not evidence of anything. `internalTargets` is the one
- * exemption — a corpus with nothing quarantined leaves it legitimately
- * 0/0 — so its failure list is all that guards it. */
+ * which is not evidence of anything. */
 function isGreen(report: Report): boolean {
 	if (report.entries === 0) {
 		return false;
 	}
 	return GATE_NAMES.every((name) => {
 		const t = report.gates[name];
-		const reached = name === 'internalTargets' || t.total > 0;
-		return reached && t.pass === t.total && t.failures.length === 0;
+		return t.total > 0 && t.pass === t.total && t.failures.length === 0;
 	});
 }
 
@@ -385,13 +380,6 @@ function blessingCounts(report: Report, samples: readonly Sample[]): string[] {
 		'| rule | fired | entries |',
 		'|---|---|---|',
 		...ruleRows(report),
-		'',
-		'## Quarantined internal targets',
-		'',
-		list(
-			report.quarantine.map((q) => `${q.rid} → \`${q.target}\` — ${q.note}`),
-			'none',
-		),
 		'',
 		'## Samples',
 		'',

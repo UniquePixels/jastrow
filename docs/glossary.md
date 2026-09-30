@@ -34,7 +34,7 @@ date, and what it drops — see [`decisions.md`](decisions.md).
 | **entry data** | one JSON file per dictionary entry. `data:import` makes it; people and the admin tool then edit it | `data/entries/<letter>/<rid>.json` |
 | **compiled data** | entry data built into the files the web app loads | not built yet |
 | **reference data** | our own lookup inputs that import reads alongside the source data: the print page and column index. May grow | `data/page-index/` |
-| **correction data** | our own per-entry fixes that import applies: patches and quarantine. The patch records moved inside the module on 2026-09-22; quarantine is still entry-adjacent data | `admin/pipeline/patch/records/`, `data/quarantine/` |
+| **correction data** | our own per-entry fixes that import applies: patches. The patch records moved inside the module on 2026-09-22 | `admin/pipeline/patch/records/` |
 | **report** | evidence a run produces, not data: the import report, the blessing doc, build reports | see [The import run](#the-import-run) |
 
 ## Commands
@@ -104,7 +104,6 @@ Everything import runs is one of three **buckets**:
 | **accepted patch** | a `healed`-stage patch, the latest per entry |
 | **carry-over patch** | a `pre-patch`-stage patch from `pilot/` or `tranche-01`. Applied after the accepted patches, unless an accepted patch already covers the same entry and target |
 | **pin** | the snapshot hash a patch was written against. A **stale pin** names a different snapshot; it is counted in the report header, not refused (except under `--strict`) |
-| **quarantine** | internal link targets that could not be resolved, listed for review rather than silently dropped. Empty today (`data/quarantine/internal-targets.json`) |
 
 What a run reports for each patch:
 

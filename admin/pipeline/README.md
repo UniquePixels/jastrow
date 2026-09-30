@@ -35,7 +35,6 @@ original sketch it was derived from was archived 2026-09-21 as
 |---|---|---|---|
 | `data/source/` | Sefaria snapshot | yes | `fetch.ts` |
 | `data/page-index/` | print locators (page/column) — reference data | yes | `page-index/build.ts` (archived at `refs/tags/archive/v2-research-2026-09`); admin tool corrects |
-| `data/quarantine/` | unresolved citation targets | yes | reviewed by hand |
 
 ### Running it
 

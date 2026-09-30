@@ -50,7 +50,7 @@ describe('data/ carries its attribution', () => {
 		const dirs = await subdirectories();
 		// A positive control: a glob that stopped matching would make
 		// the assertion below vacuously true.
-		expect(dirs.length).toBeGreaterThanOrEqual(6);
+		expect(dirs.length).toBeGreaterThanOrEqual(5);
 		const missing: string[] = [];
 		for (const d of dirs) {
 			if (!(await Bun.file(`${DATA_DIR}/${d}/README.md`).exists())) {

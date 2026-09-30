@@ -1,11 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import {
-	buildHeadwordMap,
-	checkQuarantine,
-	createResolver,
-	internalTarget,
-	loadQuarantine,
-} from './cite.ts';
+import { buildHeadwordMap, createResolver, internalTarget } from './cite.ts';
 
 const MAP = buildHeadwordMap([
 	{ headword: 'אָב I', rid: 'A00013' },
@@ -61,42 +55,6 @@ describe('createResolver', () => {
 		expect(resolve({ dataRef: '', href: '/Shabbat.104a' })).toBe(
 			'/Shabbat.104a',
 		);
-	});
-});
-
-describe('quarantine', () => {
-	it('loads an empty list when the file is absent', async () => {
-		expect(
-			await loadQuarantine(`${import.meta.dir}/no-such-file.json`),
-		).toEqual([]);
-	});
-	it('names unlisted and stale rows', () => {
-		const result = checkQuarantine(
-			[{ rid: 'A00001', target: 'x' }],
-			[
-				{
-					note: 'a Greek loanword with no headword of its own',
-					reviewed: '2026-09-09',
-					rid: 'A00002',
-					target: 'y',
-				},
-			],
-		);
-		expect(result.unlisted).toEqual(['A00001\tx']);
-		expect(result.stale).toEqual(['A00002\ty']);
-		expect(result.unreviewed).toEqual([]);
-	});
-	it('names a listed row nobody has reviewed', () => {
-		// A seeded row matches on rid and target like any other, so this
-		// is the only thing standing between an unread list and a green
-		// gate 6.
-		const result = checkQuarantine(
-			[{ rid: 'A00001', target: 'x' }],
-			[{ note: 'seeded; not yet reviewed', rid: 'A00001', target: 'x' }],
-		);
-		expect(result.unlisted).toEqual([]);
-		expect(result.stale).toEqual([]);
-		expect(result.unreviewed).toEqual(['A00001\tx']);
 	});
 });
 
