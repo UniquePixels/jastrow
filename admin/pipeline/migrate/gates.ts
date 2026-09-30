@@ -7,11 +7,7 @@ import { tokenize } from '../../entry/html.ts';
 import { nameCollisions } from '../../entry/names.ts';
 import type { PagePlacement } from '../../entry/page.ts';
 import type { TruthEntry } from '../../entry/types.ts';
-import {
-	schemaValidator,
-	validateCorpus,
-	validateEntry,
-} from '../../entry/validate.ts';
+import { checkEntry, validateCorpus } from '../../entry/validate.ts';
 import type { BodyEntry, SourceEntry } from '../types.ts';
 
 /** A gate result: a count against a fixed total, plus the failing
@@ -542,17 +538,15 @@ async function checkContract(
 	pathOf: (rid: string) => string,
 ): Promise<Tally> {
 	const t = tally();
+	const valid: TruthEntry[] = [];
 	for (const entry of entries) {
-		const problems = await validateEntry(entry, pathOf(entry.id));
+		const [shaped, problems] = await checkEntry(entry, pathOf(entry.id));
 		mark(t, problems.length === 0, problems.join('; '));
+		if (shaped !== undefined) {
+			valid.push(shaped);
+		}
 	}
-	const schema = await schemaValidator();
-	t.failures.push(
-		...validateCorpus(
-			entries.filter((entry) => schema(entry)),
-			pages,
-		),
-	);
+	t.failures.push(...validateCorpus(valid, pages));
 	return t;
 }
 

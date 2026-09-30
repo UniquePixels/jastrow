@@ -21,7 +21,7 @@ import {
  * spelling is not its own NFC form while looking identical to it — the
  * shape a paste from another editor arrives in. Built from escapes,
  * never a pasted literal, which an editor may normalize silently. */
-const NOT_NFC = 'שָׁ';
+const NOT_NFC = '\u05E9\u05C1\u05B8';
 const NFC = NOT_NFC.normalize('NFC');
 
 /** `headword` and `sefariaHeadword` are both the given word, so a
@@ -230,10 +230,10 @@ describe('validateTruth', () => {
 			tree(A(), { ...B(), page: { number: 2, column: 'b' } }),
 			'A00002: page p2b but the page index says p1a',
 		],
-		// The §3.1 rules, one planted defect each. Rule 4 is armed and
-		// HELD (`headword-rules.ts`), so it has no case here — its
-		// controls live in `headword-rules.test.ts`, where the switch can
-		// be read on both settings.
+		// The §3.1 rules, one planted defect each. Rule 4 halts
+		// (`HALT_ON_TEXT_DEFECT` is true); its findings appear in the
+		// notation and markup cases above, and the switch's own controls
+		// live in `headword-rules.test.ts`.
 		[
 			'a display that names the wrong slots (rule 1)',
 			tree(A(), {

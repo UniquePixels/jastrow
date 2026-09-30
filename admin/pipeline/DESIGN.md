@@ -1186,8 +1186,8 @@ so cannot be inferred from reading the code that is there.
     (`admin/entry/headword-rules.ts:212-235`).
 34. **`display` may hold no Hebrew**, and a form's `text` may hold no
     comma, parenthesis, `?`, `=`, `…` or Latin letter — both checked by
-    `headwordShapeProblems`, though the second currently reports rather
-    than halts (§2).
+    `headwordShapeProblems`, and both halt — in the entry contract,
+    so in gate 10 and in CI's Validate job (§2).
 35. **No vowel is inferred from OCR.** All marks are stripped before an
     OCR'd running head is matched against a headword, because Tesseract
     drops and invents niqqud freely; the page index never carries an

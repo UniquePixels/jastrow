@@ -52,6 +52,9 @@ const CLOSE = /^<\/([a-z]+)>$/u;
 const RID = /^[A-Z]\d{5}$/u;
 const MARKUP_CHAR = /[<>]/u;
 
+/** The compiled validator, memoised by `schemaValidator`. */
+let compiled: ValidateFunction<TruthEntry> | undefined;
+
 /** Ajv, compiled once against the schema `paths.ts` names.
  *
  * A runtime read rather than a compile-time import: the schema is the
@@ -62,8 +65,6 @@ const MARKUP_CHAR = /[<>]/u;
  *
  * Exported so the import's schema gate compiles this validator rather
  * than a second copy of it. */
-let compiled: ValidateFunction<TruthEntry> | undefined;
-
 async function schemaValidator(): Promise<ValidateFunction<TruthEntry>> {
 	compiled ??= new Ajv2020({
 		allErrors: true,
@@ -458,6 +459,7 @@ async function validateTruth(
 
 export type { TruthFile };
 export {
+	checkEntry,
 	homePath,
 	loadTruthFiles,
 	markupProblems,

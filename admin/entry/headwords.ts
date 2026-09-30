@@ -84,8 +84,8 @@ const STAR_RUN = /\*/u;
  *
  * - `headword-unparsed` — a form `text` the grammar cannot account
  *   for. This is §3's halt: the text is a lookup key, a slug and a
- *   link target, so a wrong one cannot be published. Armed in
- *   `validate.ts` and held while the corpus still trips it.
+ *   link target, so a wrong one cannot be published. It halts in
+ *   `validate.ts` (rule 4, `headword-rules.ts`).
  * - `paren-group-close-unknown` — the line's parentheses do not
  *   balance, so `display` cannot be settled without the print (§4's
  *   H2 rows and A01394). The forms are clean and are written.
