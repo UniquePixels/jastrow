@@ -13,9 +13,10 @@
  * The classes live here rather than in either test so the order
  * assertions run on every `bun qa` without reading the source data.
  */
+
+import type { TagToken } from '../../entry/html.ts';
+import { DIR_RTL, opensScope, tokenize } from '../../entry/html.ts';
 import type { SourceEntry } from '../types.ts';
-import type { TagToken } from './html.ts';
-import { DIR_RTL, opensScope, tokenize } from './html.ts';
 import { fieldsOf } from './no-new-text.ts';
 
 /** Rules that REMOVE an anchor, keeping its display text (link spec

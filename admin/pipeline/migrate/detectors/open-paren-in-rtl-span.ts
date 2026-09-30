@@ -13,7 +13,7 @@
  * `route: blocked` in the catalogue precisely because no rule has
  * pinned the wider question, and a detector does not pin it either.
  */
-import type { TruthEntry } from '../types.ts';
+import type { TruthEntry } from '../../../entry/types.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { markupFields } from './senses.ts';
 

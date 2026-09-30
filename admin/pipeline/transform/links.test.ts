@@ -1,5 +1,5 @@
 import { expect, it } from 'bun:test';
-import { serialize, type Token, tokenize } from './html.ts';
+import { serialize, type Token, tokenize } from '../../entry/html.ts';
 import { type Anchor, anchors, retarget, unlink } from './links.ts';
 
 /** `anchors()[0]` narrowed for the tests below. Every fixture here is

@@ -15,8 +15,9 @@
  * stray characters would silently discard that marking. A repair must
  * rejoin the span, and only the print page says how far it reaches.
  */
+
+import type { TruthEntry } from '../../../entry/types.ts';
 import { textOf } from '../gates.ts';
-import type { TruthEntry } from '../types.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { fieldsOf, type SenseAt, walkSenses } from './senses.ts';
 

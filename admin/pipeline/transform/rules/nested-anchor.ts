@@ -56,8 +56,9 @@
  * and the removal itself goes through `links.ts`'s `unlink`, whose
  * `assertUsable` is the one gate both editors share.
  */
+
+import { serialize, type Token, tokenize } from '../../../entry/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
-import { serialize, type Token, tokenize } from '../html.ts';
 import { type Anchor, anchors, unlink } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 

@@ -2,7 +2,7 @@
 /**
  * The headword LINE — Sefaria's `headword` followed by its
  * `alt_headwords`, read back as the one line print sets
- * (`admin/pipeline/DESIGN.md` §2, ruled 2026-09-21).
+ * (the pipeline's `DESIGN.md` §2, ruled 2026-09-21).
  *
  * The old `decomposeForm` read one ITEM at a time and could only keep
  * what fitted `*text ROMAN SUP`; everything print sets BETWEEN the
@@ -184,7 +184,7 @@ function supToInt(s: string): number {
  *
  * Tested by CODE POINT rather than by a character class: a combining
  * mark written into a class attaches to its neighbour and silently
- * widens the range (the hazard `transform/html.ts` documents), and
+ * widens the range (the hazard `html.ts` documents), and
  * biome's `noMisleadingCharacterClass` rejects the escape sitting
  * beside a base-character range in one class. Numbers cannot be
  * misread either way.

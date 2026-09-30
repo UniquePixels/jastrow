@@ -326,8 +326,9 @@
  * Follow-up for whoever opens the next retarget work — do it BEFORE
  * adding a fourth arm, not after.
  */
+
+import { serialize, type Token, tokenize } from '../../../entry/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
-import { serialize, type Token, tokenize } from '../html.ts';
 import { type Anchor, anchors, retarget, type Target } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 

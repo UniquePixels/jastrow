@@ -47,9 +47,10 @@
  * does that today, and the measurement says so rather
  * than the grep: with the tiers split, no unit-tier file exceeds
  * 0.11 s, which a 41 MB read cannot fit under — except
- * `migrate/truth.test.ts` (~1.3 s), which reads the 32,512 committed
- * TRUTH files, never the snapshot, and belongs in this tier because a
- * hand edit to truth must meet it in `bun qa`.
+ * `migrate/detectors/committed-tree.test.ts` (~1.2 s), which reads the
+ * 32,512 committed entry files, never the snapshot. (The entry
+ * contract's own pass over those files was `migrate/truth.test.ts`
+ * until 2026-09-30; it is CI's Validate job, `bun data:validate`, now.)
  * If that ever stops being true the symptom is a slow unit tier, not a
  * failure here.
  *

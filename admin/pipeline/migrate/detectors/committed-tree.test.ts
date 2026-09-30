@@ -10,16 +10,15 @@
  * no catalogue line either, reading exactly as though it had been
  * resolved. Nothing else in the unit tier would notice.
  *
- * Floors, not counts, in the shape `truth.test.ts` uses: the committed
- * tree is regenerated and an entry moving in or out must not fail
- * this. The exact figures of a run are the header of
- * `docs/reports/review-report.md`. Like `truth.test.ts` this reads
+ * Floors, not counts: the committed tree is regenerated and an entry
+ * moving in or out must not fail this. The exact figures of a run are
+ * the header of `docs/reports/review-report.md`. It reads
  * `data/entries/` and never the source snapshot, so it belongs to the
  * unit tier (consolidation spec R9).
  */
 import { expect, it } from 'bun:test';
-import type { TruthEntry } from '../types.ts';
-import { loadTruthFiles } from '../validate.ts';
+import type { TruthEntry } from '../../../entry/types.ts';
+import { loadTruthFiles } from '../../../entry/validate.ts';
 import { DETECTED_CLASSES, detectClasses } from './classes.ts';
 
 /** Well under each class's catalogued `corpusCount` (342, 89, 85, 33,
@@ -32,11 +31,11 @@ const FLOOR: ReadonlyMap<string, number> = new Map([
 	['superscript-subsection-contradicts-link-sub-section', 25],
 ]);
 
-/** The committed tree is still the PRE-REWRITE shape — see
- * `truth.test.ts`'s docstring for the one batched rewrite that ends
- * it. The detectors read `headwords[]`, so the old pair is folded here
- * exactly as that shim folds it. Nothing else about the entry is
- * touched, and an entry already in the new shape is handed on whole. */
+/** Written while the committed tree was the PRE-REWRITE shape; the
+ * batched rewrite of 2026-09-22 ended that, so every committed entry
+ * now carries `headwords` and is handed on whole. The detectors read
+ * `headwords[]`, so an old `headword`/`altHeadwords` pair is folded
+ * into it. Nothing else about the entry is touched. */
 function asHeadwords(raw: unknown): TruthEntry {
 	const entry = raw as TruthEntry & {
 		altHeadwords?: TruthEntry['headwords'];

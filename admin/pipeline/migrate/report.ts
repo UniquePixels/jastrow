@@ -1,13 +1,15 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: the report shape and its two renderings; splitting them lets a field drift from the document that shows it.
 /** The migration report (migrate spec §4.2; consolidation spec §3.1): every gate as a tally, structured rows, rule counts, patch outcomes, and the evidence doc the maintainer blesses. */
+
+import { isHeadwordReviewKind } from '../../entry/headwords.ts';
+import type { TruthEntry } from '../../entry/types.ts';
 import type { DriftOutcome } from '../patch/drift.ts';
 import { BLESSING_PATH, MIGRATION_REPORT_PATH } from '../paths.ts';
 import type { Unresolved } from './cite.ts';
-import { tally } from './gates.ts';
-import { isHeadwordReviewKind } from './headwords.ts';
-import type { Tally, TruthEntry } from './types.ts';
+import { type Tally, tally } from './gates.ts';
 
-/** The nine blessing gates, in report order (migrate spec §4.1). The
+/** The ten blessing gates, in report order (migrate spec §4.1; gate
+ * 10, `contract`, is ruling `09-30 entry contract`). The
  * list is the single definition: `GateName` derives from it, and
  * `createReport` seeds a tally for every member up front, so a gate the
  * run never reached shows as 0/0 instead of going missing. A red gate
@@ -22,6 +24,7 @@ const GATE_NAMES = [
 	'names',
 	'pages',
 	'composition',
+	'contract',
 ] as const;
 
 /** One gate's name. Derived from `GATE_NAMES` rather than written out,
@@ -310,7 +313,7 @@ function blessingHeader(report: Report): string[] {
 	];
 }
 
-/** The nine gates as a table. */
+/** The gates as a table. */
 function blessingGates(report: Report): string[] {
 	return [
 		'## Gates',

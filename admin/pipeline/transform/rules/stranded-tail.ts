@@ -126,9 +126,10 @@
  * matching the occurrence total above. Quote the unit with the
  * figure: definition-level and entry-level counts differ here.
  */
+
+import type { Token } from '../../../entry/html.ts';
+import { serialize, tokenize } from '../../../entry/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
-import type { Token } from '../html.ts';
-import { serialize, tokenize } from '../html.ts';
 import type { Anchor } from '../links.ts';
 import { anchors } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';

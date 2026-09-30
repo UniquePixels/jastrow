@@ -17,8 +17,9 @@
  * (`homograph-numbering-schism`) is itself judgment — so the entry
  * side cannot be repaired alone without making the corpus worse.
  */
+
+import type { TruthEntry } from '../../../entry/types.ts';
 import { textOf } from '../gates.ts';
-import type { TruthEntry } from '../types.ts';
 import { type ClassRow, entryRow } from './row.ts';
 
 /** Catalogue id and report `kind` for a lead gloss opening with the

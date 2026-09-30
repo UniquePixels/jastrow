@@ -130,9 +130,10 @@
  * set, so case 1/2 licenses the repair outright and it needs no
  * declaration at all.
  */
+
+import { opensScope, tokenize } from '../../../entry/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
-import { opensScope, tokenize } from '../html.ts';
 import { type Anchor, anchors } from '../links.ts';
 import { fieldsOf } from '../no-new-text.ts';
 import type { Rule, TransformResult } from '../types.ts';

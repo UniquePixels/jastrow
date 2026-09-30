@@ -446,8 +446,9 @@
  *   by definition. This gate inherits that boundary rather than
  *   redrawing it, and the `untouched` fast path inherits it too.
  */
+
+import { type Token, tokenize } from '../../entry/html.ts';
 import type { SourceEntry } from '../types.ts';
-import { type Token, tokenize } from './html.ts';
 import { type Anchor, anchors } from './links.ts';
 import { fieldsOf } from './no-new-text.ts';
 import { byCodeUnit } from './rules/point-claims.ts';

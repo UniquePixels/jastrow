@@ -749,8 +749,8 @@ function occurrenceReasons(raw: Record<string, unknown>): string[] {
  * `admin/pipeline/patch/records/reviewed/` were written under the old spelling. A
  * patch corpus is EVIDENCE — a person wrote each record from the
  * print — so it is read forward rather than rewritten under the
- * author's name, the same way `truth.test.ts` reads the committed
- * entry tree forward until its own batched rewrite.
+ * author's name, the same way the entry validator read the committed
+ * entry tree forward until that tree's own batched rewrite.
  *
  * The normalization is total and lossless: `[headword, ...alts]` IS
  * the line, in order. It retires when the records are restated, and

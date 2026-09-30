@@ -3,12 +3,20 @@
  * entry and its body: form objects, translated markup, citation refs,
  * `sefariaHeadword` and page, assembled in schema key order.
  */
+
+import {
+	type HeadwordReviewKind,
+	parseHeadwordLine,
+} from '../../entry/headwords.ts';
+import type { PagePlacement } from '../../entry/page.ts';
+import {
+	SCHEMA_VERSION,
+	type TruthEntry,
+	type TruthSense,
+} from '../../entry/types.ts';
 import type { BodyEntry, BodySense, SourceEntry } from '../types.ts';
 import { createResolver, type Unresolved } from './cite.ts';
-import { type HeadwordReviewKind, parseHeadwordLine } from './headwords.ts';
 import { type TagCarry, translateMarkup } from './markup.ts';
-import type { PagePlacement } from './page.ts';
-import { SCHEMA_VERSION, type TruthEntry, type TruthSense } from './types.ts';
 
 /** The corpus-wide lookups a single entry's finishing needs. Each is
  * built once over the whole snapshot and passed in, because every one

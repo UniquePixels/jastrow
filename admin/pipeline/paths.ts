@@ -16,7 +16,20 @@
  * spots a test that reaches the 41 MB snapshot from the fast tier.
  * Renaming either one disables that detection without failing
  * anything — so they do not get renamed.
+ *
+ * The three paths the entry contract reads — the entries, the schema
+ * and the page index — are declared by `admin/entry/paths.ts` and
+ * re-exported here, not re-spelled: `admin/entry/` is the one module
+ * this one depends on, and a second literal is how two modules start
+ * reading different trees.
  */
+
+// biome-ignore lint/performance/noBarrelFile: three constants the entry contract owns, re-exported so the pipeline names each path once; this file declares its own paths and is not a barrel.
+export {
+	ENTRIES_DIR,
+	PAGE_INDEX_PATH,
+	SCHEMA_PATH,
+} from '../entry/paths.ts';
 
 // ---------------------------------------------------------------- read
 
@@ -45,14 +58,6 @@ export const SNAPSHOT_FILES = [SOURCE_PATH, LEXICONS_PATH] as const;
 
 /** The closed grammar vocabulary census `body/grammar.ts` cites. */
 export const BODY_CENSUS_PATH = `${SOURCE_DIR}/body-census-report.json`;
-
-/** Page and column for every headword, built from the print hOCR: one
- * JSON row per rid, carrying its page, column and confidence. */
-export const PAGE_INDEX_PATH = 'data/page-index/entries.jsonl';
-
-/** The entry contract. Read at run time, not imported: the module does
- * not own the schema, it is handed one (spec §4.1). */
-export const SCHEMA_PATH = 'data/schema/entry.schema.json';
 
 // --------------------------------------------------- read and written
 
@@ -86,9 +91,6 @@ export const PATTERNS_PATH = `${PATCH_DIR}/patterns.jsonl`;
 export const LOCK_PATH = `${PATCH_DIR}/snapshot.lock`;
 
 // ------------------------------------------------------------- written
-
-/** Where the import writes truth. */
-export const ENTRIES_DIR = 'data/entries';
 
 /** The machine-readable account of one run. Under `data/source/`
  * because it describes one import of that snapshot, not the

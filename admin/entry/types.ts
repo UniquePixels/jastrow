@@ -1,8 +1,10 @@
 /**
- * Truth-layer shapes shared by the migrate finishing stages: the entry
- * and its nested sense/stem/form pieces (data-architecture spec §2.2,
- * migrate spec §2.6, headword design §2), plus the gate tally every
- * stage's checks report through (migrate spec §4.1).
+ * The entry shapes: the entry and its nested sense/stem/form pieces
+ * (data-architecture spec §2.2, migrate spec §2.6, headword design §2)
+ * — what a file under `data/entries/` holds, whoever wrote it. The
+ * schema (`paths.ts` `SCHEMA_PATH`) is the same contract for a reader
+ * that is not TypeScript; `validate.ts` holds a file to the schema and
+ * to the rules neither can express.
  */
 
 /** The entry-file format this pipeline writes. Version 2 is the
@@ -12,6 +14,19 @@
  * admin tool, a later migration — can tell the two apart without
  * guessing from which keys are present. */
 const SCHEMA_VERSION = 2;
+
+/** Fields that are copied from elsewhere VERBATIM and must keep the
+ * bytes they were copied from, whatever spelling those are.
+ *
+ * `sefariaHeadword` is Sefaria's own headword, stored so the Sefaria
+ * URL route keeps working after our headword is corrected (URL names
+ * spec §5.1, U3). It is a foreign key, not our text: normalizing it
+ * would make it a spelling Sefaria does not use. So the import's NFC
+ * write (`normalizeForWrite`) leaves it alone, and the contract's NFC
+ * check (`validate.ts`) does not ask it to be NFC. One list, read by
+ * both, so the writer and the check cannot disagree about which field
+ * is exempt. */
+const VERBATIM_FIELDS: ReadonlySet<string> = new Set(['sefariaHeadword']);
 
 /** One headword form. It holds only MEANING: `text` is clean Hebrew
  * and everything print sets AROUND the forms lives in the entry's
@@ -94,12 +109,5 @@ interface TruthEntry {
 	stems?: TruthStem[];
 }
 
-/** A gate result: a count against a fixed total, plus the failing lines. */
-interface Tally {
-	failures: string[];
-	pass: number;
-	total: number;
-}
-
-export type { FormObject, Tally, TruthEntry, TruthSense, TruthStem };
-export { SCHEMA_VERSION };
+export type { FormObject, TruthEntry, TruthSense, TruthStem };
+export { SCHEMA_VERSION, VERBATIM_FIELDS };

@@ -40,8 +40,9 @@
  *   changes — documented here so rule authors see the blast radius
  *   before reaching for `allows` on a multi-character token.
  */
+
+import { serialize, tokenize } from '../../entry/html.ts';
 import type { SourceEntry, SourceSense } from '../types.ts';
-import { serialize, tokenize } from './html.ts';
 
 /** Joins `textOf`'s parts. NUL cannot occur in the corpus's text, so
  * it marks a seam between two fields (or two array elements, or two

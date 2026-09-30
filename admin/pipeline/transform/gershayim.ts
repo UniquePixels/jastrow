@@ -37,7 +37,7 @@
  * every entry through `checkLinkTargets` so that tail cannot take a
  * silent edit.
  */
-import { HEBREW, HEBREW_ATOM, mapTagsAndText } from './html.ts';
+import { HEBREW, HEBREW_ATOM, mapTagsAndText } from '../../entry/html.ts';
 
 /** U+05F4 HEBREW PUNCTUATION GERSHAYIM — the mark the corpus should
  * have written and the ONLY character this module ever produces. */

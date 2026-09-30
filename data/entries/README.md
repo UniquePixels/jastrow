@@ -11,8 +11,8 @@ edits are not re-recorded as pipeline inputs (ruling R2,
 a run never silently overwrites edited truth (ruling R1). A hand edit
 is meant to survive a later rebuild through the update run's per-entry
 three-way merge (design spec §3.2), not by being turned into a patch
-record. `migrate/truth.test.ts` validates whatever is committed,
-either way.
+record. Either way, whatever is committed meets the entry contract
+(`admin/entry/`): `bun data:validate`, CI's Validate job.
 
 The shape is `data/schema/entry.schema.json`.
 

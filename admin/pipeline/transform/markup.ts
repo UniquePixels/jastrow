@@ -98,8 +98,9 @@
  * its own structural assertions — this gate will not carry them for
  * it.
  */
+
+import { attributeInterior, opensScope, tokenize } from '../../entry/html.ts';
 import type { SourceEntry } from '../types.ts';
-import { attributeInterior, opensScope, tokenize } from './html.ts';
 import { fieldsOf } from './no-new-text.ts';
 
 /** How ill-formed one field's markup is, on the two axes a rule can

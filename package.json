@@ -7,6 +7,7 @@
 		"data:fetch": "bun admin/pipeline/fetch.ts",
 		"data:import": "bun admin/pipeline/migrate.ts --write",
 		"data:import:dry": "bun admin/pipeline/migrate.ts",
+		"data:validate": "bun admin/entry/validate-cli.ts",
 		"qa": "bun qa:format && bun qa:lint && bun qa:test && bun qa:tsc",
 		"qa:ci": "biome ci --error-on-warnings",
 		"qa:format": "biome format --write",
