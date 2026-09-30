@@ -14,16 +14,17 @@
  *
  * Run: bun data:validate [data/entries/A/A00001.json ...]
  */
+import { relative, resolve } from 'node:path';
 import process from 'node:process';
 import { loadPageIndex } from './page.ts';
 import { ENTRIES_DIR } from './paths.ts';
 import { loadTruthFiles, validateEntry, validateTruth } from './validate.ts';
 
 /** A file argument as `validateEntry` wants its path: relative to
- * `data/entries/`, so the home-path check compares like with like. */
+ * `data/entries/`, so the home-path check compares like with like.
+ * Resolved first, so `./data/entries/…` and absolute paths work too. */
 function entryRelative(file: string): string {
-	const prefix = `${ENTRIES_DIR}/`;
-	return file.startsWith(prefix) ? file.slice(prefix.length) : file;
+	return relative(resolve(ENTRIES_DIR), resolve(file));
 }
 
 /** Each named file's own checks. A file that does not parse is a

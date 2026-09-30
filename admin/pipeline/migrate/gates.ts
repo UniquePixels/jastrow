@@ -523,10 +523,11 @@ function checkPages(
 
 /** Gate 10: the entry contract (`admin/entry/`) over exactly what the
  * run is about to write — the NORMALIZED entries, each at the path
- * `pathOf` will write it to. One mark per entry for its own checks;
- * the corpus checks (names, `sefariaHeadword`, cite targets, the page
- * index both ways) are failures without a mark, so the gate reads
- * 32,512/32,512 on a clean run and still refuses on a corpus problem.
+ * `pathOf` will write it to. One mark per entry for its own checks,
+ * plus ONE mark for the corpus checks (names, `sefariaHeadword`, cite
+ * targets, the page index both ways), each of whose problems is listed
+ * as its own failure. A clean run reads 32,513/32,513; a corpus
+ * problem shows as a missing pass, never as `N/N` beside a failure.
  *
  * This is the same contract a hand edit meets in CI's Validate job,
  * so the import cannot write a tree that job would refuse. The corpus
@@ -546,7 +547,12 @@ async function checkContract(
 			valid.push(shaped);
 		}
 	}
-	t.failures.push(...validateCorpus(valid, pages));
+	const corpus = validateCorpus(valid, pages);
+	t.total++;
+	if (corpus.length === 0) {
+		t.pass++;
+	}
+	t.failures.push(...corpus);
 	return t;
 }
 

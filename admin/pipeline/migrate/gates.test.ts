@@ -581,13 +581,13 @@ describe('checkContract (gate 10)', () => {
 	]);
 	const home = (rid: string): string => `${rid.charAt(0)}/${rid}.json`;
 
-	it('marks each entry once and is green on a valid tree', async () => {
+	it('marks each entry and the corpus once, green on a valid tree', async () => {
 		const t = await checkContract(
 			[contractEntry('A00001', 'אב'), contractEntry('A00002', 'אבא')],
 			pages,
 			home,
 		);
-		expect(t).toEqual({ failures: [], pass: 2, total: 2 });
+		expect(t).toEqual({ failures: [], pass: 3, total: 3 });
 	});
 
 	it("reds an entry's own mark on a file problem", async () => {
@@ -603,8 +603,8 @@ describe('checkContract (gate 10)', () => {
 		);
 		expect(t).toEqual({
 			failures: ['A00002: senses[0].gloss: not NFC'],
-			pass: 1,
-			total: 2,
+			pass: 2,
+			total: 3,
 		});
 	});
 
@@ -614,20 +614,20 @@ describe('checkContract (gate 10)', () => {
 			pages,
 			(rid) => `x/${rid}.json`,
 		);
-		expect(t.pass).toBe(0);
+		expect(t.pass).toBe(1);
 		expect(t.failures[0]).toBe(
 			'x/A00001.json: id A00001 belongs at A/A00001.json',
 		);
 	});
 
-	it('adds a corpus problem as a failure without a mark', async () => {
+	it('reds the corpus mark and lists each corpus problem', async () => {
 		const t = await checkContract(
 			[contractEntry('A00001', 'אב'), contractEntry('A00002', 'אב')],
 			pages,
 			home,
 		);
 		expect(t.pass).toBe(2);
-		expect(t.total).toBe(2);
+		expect(t.total).toBe(3);
 		expect(t.failures).toEqual([
 			'A00002: name אב taken by A00001',
 			'A00002: sefariaHeadword אב taken by A00001',

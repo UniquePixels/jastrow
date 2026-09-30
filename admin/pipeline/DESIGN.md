@@ -902,11 +902,11 @@ each at the path `writeAll` would give it). The entry contract
 (`admin/entry/validate.ts`, ruling `09-30 entry contract`): one mark
 per entry for `validateEntry` — schema, home path, the six headword
 rules, the closed tag vocabulary and balance per field, no markup in a
-plain field, every stored string in NFC — plus `validateCorpus`'s
-findings as failures without a mark: current-name and
-`sefariaHeadword` uniqueness, every rid-shaped cite ref names an
-entry, and page agreeing with the page-index row both ways. A clean
-run reads 32,512/32,512.
+plain field, every stored string in NFC — plus one mark for
+`validateCorpus`, each of whose findings is listed as a failure:
+current-name and `sefariaHeadword` uniqueness, every rid-shaped cite
+ref names an entry, and page agreeing with the page-index row both
+ways. A clean run reads 32,513/32,513.
 *Proves:* the import cannot write a tree CI's Validate job would
 refuse — the two run one validator, so they cannot disagree.
 *Cannot see:* anything about the source: every clause checks an entry
