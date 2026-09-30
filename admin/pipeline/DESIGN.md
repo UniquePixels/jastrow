@@ -34,7 +34,6 @@ it does not own, plus reports about what it did.
 | `data/source/manifest.json` | provenance about the fetch — dump URL, ETag, Last-Modified, fetch time, sha256 and entry count per output. Not snapshot content, so not hashed into the pin |
 | `data/page-index/entries.jsonl` | page, column and confidence per rid, built from the print hOCR |
 | [`data/schema/entry.schema.json`](../../data/schema/entry.schema.json) | the entry contract, read at run time |
-| `data/quarantine/internal-targets.json` | reviewed unresolved citation targets |
 
 **Import definition** (inside the module, read and written):
 `admin/pipeline/patch/records/` — tranches, reviewed patches, the
@@ -122,8 +121,7 @@ cannot be known one entry at a time.
    headword-line decomposition, markup translation, citation-target
    resolution, page attachment, catalogued-class detection, and the
    per-entry gates 2, 3 and 4.
-6. **Names gate** (gate 7) and **quarantine gate** (gate 6), after
-   pass 2.
+6. **Names gate** (gate 7), after pass 2.
 7. **Report and classify** — the machine report, the blessing doc, the
    review doc, then `normalizeForWrite` over every entry and the
    headword-issues report over those normalized entries — every run,
@@ -269,8 +267,7 @@ from `data-ref` verbatim, falling back to `href` only when `data-ref`
 is empty. Sefaria's two ref spellings are not canonicalized. Internal
 targets resolve through an NFC-keyed headword → rid map built from all
 32,512 composed headwords; an unresolved internal target stays
-byte-preserving in the text and must be on the reviewed quarantine
-list.
+byte-preserving in the text and fails gate 6; the fix is a patch.
 
 There is no link-kind (`k`) field. The markers stay in the text.
 
@@ -848,13 +845,12 @@ cycle and a dangling trailing link. Walked on **source** spellings,
 because the chain is a source artefact.
 *Cannot see:* anything about composed or transformed text.
 
-**6. `internalTargets`** (`migrate.ts`'s `gateQuarantine`).
-*Proves:* every unresolved internal cite target is on the quarantine
-list, every listed pair is still unresolved, and every listed pair has
-been reviewed.
-*Cannot see:* **anything at all when the quarantine is empty.** It
-legitimately reads 0/0, and it is the one gate `isGreen` exempts from
-the reached test. It reads 0/0 today.
+**6. `internalTargets`** (one mark per entry, in `finishAll`).
+*Proves:* every internal `<cite>` target in the entry resolves to a
+rid. There is no excuse list: an unresolved target is a broken link,
+and the fix is a patch.
+*Cannot see:* whether a target that DOES resolve names the right
+entry.
 
 **7. `names`** (`migrate/gates.ts`, `checkNames`, two marks per entry
 over the **finished** entries).

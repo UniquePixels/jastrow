@@ -1,5 +1,4 @@
 import { describe, expect, it } from 'bun:test';
-import type { QuarantineRow } from './cite.ts';
 import type { GateName, Report, Sample } from './report.ts';
 import {
 	createReport,
@@ -17,16 +16,10 @@ function greenTally(): Tally {
 	return { failures: [], pass: 1, total: 1 };
 }
 
-/** A report where entries = 1 and every gate is 1/1, except
- * `internalTargets`, which is legitimately 0/0 (no quarantine rows). */
+/** A report where entries = 1 and every gate is 1/1. */
 function greenReport(): Report {
 	const gates = Object.fromEntries(
-		GATE_NAMES.map((name) => [
-			name,
-			name === 'internalTargets'
-				? { failures: [], pass: 0, total: 0 }
-				: greenTally(),
-		]),
+		GATE_NAMES.map((name) => [name, greenTally()]),
 	) as Record<GateName, Tally>;
 	return {
 		entries: 1,
@@ -42,7 +35,6 @@ function greenReport(): Report {
 			upstreamChanged: 0,
 			upstreamFixed: 0,
 		},
-		quarantine: [],
 		rows: [],
 		rules: [],
 		snapshot: { pin: `sha256:${'a'.repeat(64)}`, stalePins: 0 },
@@ -66,7 +58,7 @@ describe('createReport', () => {
 });
 
 describe('isGreen', () => {
-	it('is true for entries = 1 with every gate 1/1 (internalTargets 0/0)', () => {
+	it('is true for entries = 1 with every gate 1/1', () => {
 		expect(isGreen(greenReport())).toBe(true);
 	});
 
@@ -76,22 +68,9 @@ describe('isGreen', () => {
 		expect(isGreen(report)).toBe(false);
 	});
 
-	it('is false when a gate other than internalTargets never reached (total 0)', () => {
+	it('is false when a gate never reached (total 0)', () => {
 		const report = greenReport();
 		report.gates.schema = { failures: [], pass: 0, total: 0 };
-		expect(isGreen(report)).toBe(false);
-	});
-
-	it('is false when internalTargets is 0/0 but lists a failure', () => {
-		// internalTargets is the one gate exempt from the total > 0
-		// check, so its failure list is the ONLY thing standing between
-		// a quarantine mismatch and a green --write.
-		const report = greenReport();
-		report.gates.internalTargets = {
-			failures: ['unlisted: A00349|אַנְגַּרְמוֹס'],
-			pass: 0,
-			total: 0,
-		};
 		expect(isGreen(report)).toBe(false);
 	});
 });
@@ -161,10 +140,6 @@ describe('renderBlessing', () => {
 		];
 		report.rules = [{ entries: 2, fired: 3, rule: 'bare-rtl-hebrew' }];
 		report.snapshot.stalePins = 4;
-		const quarantine: QuarantineRow[] = [
-			{ note: 'no match', rid: 'A00004', target: 'שלום' },
-		];
-		report.quarantine = quarantine;
 		const sample: Sample = {
 			rid: 'A00013',
 			source: { headword: 'אָב I', rid: 'A00013' },
@@ -200,7 +175,6 @@ describe('renderBlessing', () => {
 		);
 		expect(section('Rule counts')).toContain('| bare-rtl-hebrew | 3 | 2 |');
 		expect(doc).not.toContain('Slug collisions');
-		expect(doc).toContain('## Quarantined internal targets');
 		expect(doc).toContain('### A00013');
 	});
 

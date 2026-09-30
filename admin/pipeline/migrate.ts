@@ -22,11 +22,7 @@ import { readSourceEntries } from './body/source.ts';
 import { buildTrace } from './body/trace.ts';
 import { composeEntry, TransformFailure } from './compose.ts';
 import { biomeBinary } from './migrate/biome.ts';
-import {
-	buildHeadwordMap,
-	checkQuarantine,
-	loadQuarantine,
-} from './migrate/cite.ts';
+import { buildHeadwordMap } from './migrate/cite.ts';
 import { detectClasses } from './migrate/detectors/classes.ts';
 import { finishEntry } from './migrate/finish.ts';
 import {
@@ -380,6 +376,13 @@ function finishAll(
 			),
 		);
 		report.unresolved.push(...finished.unresolved);
+		// Gate 6: an internal target no entry owns is a broken link, and
+		// the fix is a patch — there is no list that can excuse one.
+		mark(
+			report.gates.internalTargets,
+			finished.unresolved.length === 0,
+			finished.unresolved.map((u) => `${u.rid} → ${u.target}`).join('; '),
+		);
 		mark(
 			report.gates.composition,
 			finished.problems.length === 0,
@@ -416,33 +419,6 @@ function finishAll(
 		}
 	}
 	return { samples, truths };
-}
-
-/** Gate 6: every unresolved internal target is on the quarantine
- * list, every listed pair is still unresolved, and every listed pair
- * has been REVIEWED. A row can fail on more than one count, so the
- * failing keys are unioned before they are subtracted — counting them
- * twice would drive `pass` below zero. */
-async function gateQuarantine(report: Report): Promise<void> {
-	report.quarantine = await loadQuarantine();
-	const { stale, unlisted, unreviewed } = checkQuarantine(
-		report.unresolved,
-		report.quarantine,
-	);
-	const failing = new Set([...stale, ...unreviewed]);
-	// `unlisted` is an unresolved pair that is on NO quarantine row, so
-	// it cannot be subtracted from the list's own length — it has to
-	// widen `total` instead. Counting it in `failures` alone let the
-	// gate print `N/N` beside a non-empty failure list; `isGreen` still
-	// refused the run, but the line a reader checks said it passed.
-	report.gates.internalTargets.total =
-		report.quarantine.length + unlisted.length;
-	report.gates.internalTargets.pass = report.quarantine.length - failing.size;
-	report.gates.internalTargets.failures.push(
-		...unlisted.map((u) => `unlisted: ${u}`),
-		...stale.map((s) => `stale: ${s}`),
-		...unreviewed.map((u) => `unreviewed: ${u}`),
-	);
 }
 
 /** The output subdirectory for a rid: its leading letter, so 32,512
@@ -633,7 +609,6 @@ async function main(): Promise<void> {
 	// Gate 7 reads the FINISHED entries, so it runs after pass 2 and
 	// against a fresh read of the snapshot (URL names spec §5.2).
 	report.gates.names = checkNames(truths, await loadSourceHeadwords());
-	await gateQuarantine(report);
 	classifyRows(report);
 	await writeReport(report);
 	await Bun.write(BLESSING_PATH, `${renderBlessing(report, samples)}\n`);

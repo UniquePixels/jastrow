@@ -54,10 +54,6 @@ export const PAGE_INDEX_PATH = 'data/page-index/entries.jsonl';
  * not own the schema, it is handed one (spec §4.1). */
 export const SCHEMA_PATH = 'data/schema/entry.schema.json';
 
-/** Reviewed unresolved citation targets. Read, never written: a row is
- * added by a person, not by a run (`data/quarantine/README.md`). */
-export const QUARANTINE_PATH = 'data/quarantine/internal-targets.json';
-
 // --------------------------------------------------- read and written
 
 /** Patch records — import definition, not data (spec M9). */

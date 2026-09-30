@@ -15,7 +15,7 @@ Patch corpus: 116 reviewed, 113 accepted, 234 applied, 0 carry-over absorbed, 5 
 | textConservation | 232579 / 232579 | 0 |
 | schema | 32512 / 32512 | 0 |
 | chain | 32514 / 32514 | 0 |
-| internalTargets | 0 / 0 | 0 |
+| internalTargets | 32512 / 32512 | 0 |
 | names | 65024 / 65024 | 0 |
 | pages | 32512 / 32512 | 0 |
 | composition | 65024 / 65024 | 0 |
@@ -3932,10 +3932,6 @@ Composed counts: each rule sees the text the rules before it left.
 | trailing-em-dash-tail | 101 | 99 |
 | continuation-marker-em-dash-loss | 14 | 14 |
 | repairs:binyan-cleanup | 938 | 751 |
-
-## Quarantined internal targets
-
-_none_
 
 ## Samples
 
