@@ -423,7 +423,7 @@
 							"options": {
 								"patterns": [
 									{
-										"group": ["../**", "./**/../**"],
+										"group": ["../**", "./**/../**", "../**/../**"],
 										"message": "admin/entry/ may import only itself: the admin tool and CI run it without the pipeline."
 									}
 								]
@@ -443,7 +443,7 @@
 							"options": {
 								"patterns": [
 									{
-										"group": ["../../**", "./**/../**"],
+										"group": ["../../**", "./**/../**", "../**/../**"],
 										"message": "admin/entry/ may import only itself: the admin tool and CI run it without the pipeline."
 									}
 								]
