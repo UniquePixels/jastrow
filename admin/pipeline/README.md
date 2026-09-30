@@ -141,16 +141,18 @@ resolution, `sefariaHeadword` (Sefaria's own headword, verbatim, the
 field the URL routes key on), and the print-locator (`page`/`column`)
 enrichment. Its code is one of three buckets — rules (detect + fix,
 general), patches (one entry's judged fix), or review detectors
-(detect only) — per [`DESIGN.md`](DESIGN.md) §6. Gated by the nine
+(detect only) — per [`DESIGN.md`](DESIGN.md) §6. Gated by the ten
 blessing gates of [`DESIGN.md`](DESIGN.md) §9; a red gate refuses to
-write. `migrate.ts` is re-runnable: it never chokes on the data it is
+write. Gate 10 holds what the run would write to the entry contract
+in [`admin/entry/`](../entry/README.md) — the same check
+`bun data:validate` runs over the committed tree in CI. `migrate.ts` is re-runnable: it never chokes on the data it is
 given, and it never silently overwrites hand edits in entry data.
 
 Every run ends in a report a person reads before the output ships —
 the import report `data/source/migration-report.json`, rendered as
 the blessing doc
 [`docs/reports/migration-blessing.md`](../../docs/reports/migration-blessing.md).
-The report holds the nine gate tallies, one row per review item, patch
+The report holds the ten gate tallies, one row per review item, patch
 re-judgment or pipeline fault, and a composed count per rule, plus an
 outcome per patch — see [`DESIGN.md`](DESIGN.md) §5 for the four
 outcome values and what each means. `bun data:import --strict`

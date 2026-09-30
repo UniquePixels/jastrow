@@ -44,11 +44,15 @@ date, and what it drops — see [`decisions.md`](decisions.md).
 | **fetch** (`data:fetch`) | downloads the current Sefaria export into `data/source/` |
 | **import** (`data:import`) | turns source data, reference data and correction data into entry data, checks it, and writes a report |
 | **dry import** (`data:import:dry`) | the same run with no entry data written: every check and every report, nothing in `data/entries/` |
+| **validate** (`data:validate`) | holds entry data to the entry contract (`admin/entry/`): every file under `data/entries/` and the page index, or only the named files' own checks. CI's Validate job; writes nothing |
 | **compile** (`data:compile`) | turns entry data into compiled data. Not built |
 
 The `data:` prefix groups the commands that move data from one form to
-the next, and only those. Step 10 gave it to `fetch` and `import` and
-reserved it for `compile`; no other script took it. Every other script
+the next, plus the one that checks entry data where it lies. Step 10
+gave it to `fetch` and `import` and reserved it for `compile`;
+`data:validate` took it on 2026-09-30 (ruling `09-30 entry contract`),
+named for the data it reads rather than a module, because the entry
+contract belongs to every writer, not to the pipeline. Every other script
 keeps a prefix naming the module it runs — `transform:count`,
 `transform:invariants` — or checks the repo (`qa`,
 `qa:*`). `body:dry-run` and `pageindex:verify` left with the one-shot
