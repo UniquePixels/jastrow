@@ -12,7 +12,8 @@
  * precondition no longer holds is a report row. `--strict` makes either
  * refuse the run (consolidation spec §4.2).
  */
-import { existsSync } from 'node:fs';
+import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { dirname } from 'node:path';
 import process from 'node:process';
 import type { ValidateFunction } from 'ajv';
 import { loadPageIndex, type PagePlacement } from '../entry/page.ts';
@@ -522,11 +523,13 @@ function normalizeAll(truths: readonly TruthEntry[]): Normalized {
 /** The one write of the whole pipeline: 32,512 files, formatted, then
  * the report again so its `written` count is on disk. */
 async function writeAll(normalized: Normalized, report: Report): Promise<void> {
+	// Synchronous and in rid order: 32,512 small files, one at a time,
+	// with nothing to overlap them with and no reason to hold 32,512
+	// handles open at once.
 	for (const truth of normalized.entries) {
-		await Bun.write(
-			`${OUT_DIR}/${entryFile(truth.id)}`,
-			`${JSON.stringify(truth, null, '\t')}\n`,
-		);
+		const file = `${OUT_DIR}/${entryFile(truth.id)}`;
+		mkdirSync(dirname(file), { recursive: true });
+		writeFileSync(file, `${JSON.stringify(truth, null, '\t')}\n`);
 		report.written++;
 	}
 	formatTruth();

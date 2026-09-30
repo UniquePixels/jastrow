@@ -30,19 +30,19 @@ function entryRelative(file: string): string {
 /** Each named file's own checks. A file that does not parse is a
  * problem, not a thrown error, so one bad file does not hide the rest. */
 async function validateFiles(files: readonly string[]): Promise<string[]> {
-	const problems: string[] = [];
-	for (const file of files) {
-		const path = entryRelative(file);
-		let entry: unknown;
-		try {
-			entry = await Bun.file(file).json();
-		} catch (error) {
-			problems.push(`${path}: does not parse: ${String(error)}`);
-			continue;
-		}
-		problems.push(...(await validateEntry(entry, path)));
-	}
-	return problems;
+	const perFile = await Promise.all(
+		files.map(async (file): Promise<string[]> => {
+			const path = entryRelative(file);
+			let entry: unknown;
+			try {
+				entry = await Bun.file(file).json();
+			} catch (error) {
+				return [`${path}: does not parse: ${String(error)}`];
+			}
+			return validateEntry(entry, path);
+		}),
+	);
+	return perFile.flat();
 }
 
 /** The whole tree: every file's own checks, then the corpus checks. */

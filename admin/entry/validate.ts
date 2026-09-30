@@ -389,15 +389,17 @@ function checkHeadwordShape(entry: TruthEntry, problems: string[]): void {
 	problems.push(...headwordShapeProblems(entry));
 }
 
-/** One file's own checks. Returns the entry when it passed the schema
- * — the corpus checks read only entries whose shape they can trust —
+/** One file's own checks against an already compiled `schema`
+ * (`schemaValidator`). Returns the entry when it passed the schema —
+ * the corpus checks read only entries whose shape they can trust —
  * beside every problem found. A schema failure stops here: the checks
- * after it assume the shape. */
-async function checkEntry(
+ * after it assume the shape. Synchronous, so a caller walking 32,512
+ * entries compiles once and awaits nothing per entry. */
+function checkEntry(
+	schema: ValidateFunction<TruthEntry>,
 	entry: unknown,
 	path: string,
-): Promise<[TruthEntry | undefined, string[]]> {
-	const schema = await schemaValidator();
+): [TruthEntry | undefined, string[]] {
 	if (!schema(entry)) {
 		return [undefined, [`${path}: schema: ${JSON.stringify(schema.errors)}`]];
 	}
@@ -416,7 +418,7 @@ async function checkEntry(
  * a valid file. `path` is where the file sits relative to
  * `data/entries/` (`A/A00013.json`). */
 async function validateEntry(entry: unknown, path: string): Promise<string[]> {
-	const [, problems] = await checkEntry(entry, path);
+	const [, problems] = checkEntry(await schemaValidator(), entry, path);
 	return problems;
 }
 
@@ -446,8 +448,9 @@ async function validateTruth(
 ): Promise<string[]> {
 	const problems: string[] = [];
 	const entries: TruthEntry[] = [];
+	const schema = await schemaValidator();
 	for (const { entry, path } of files) {
-		const [valid, found] = await checkEntry(entry, path);
+		const [valid, found] = checkEntry(schema, entry, path);
 		problems.push(...found);
 		if (valid !== undefined) {
 			entries.push(valid);
