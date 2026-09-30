@@ -266,10 +266,10 @@ here.)
 | T*n* | sweep tiering, 2026-08-17 | 2 | 5 |
 | dated `RULING (Brian, …)` | transform era, 2026-08-11 → 2026-09-20 | 32 | 4 |
 | Ruling A–F | patch corpus, 2026-09-09 | 4 | 1 (the archived row is the one recording that A and B do not exist; the scheme begins at C) |
-| R*n* | pipeline consolidation, 2026-09-12 → 09-21 | 12 | 2 (the two 09-21 rulings are recorded as changelog rows, not given R numbers) |
+| R*n* | pipeline consolidation, 2026-09-12 → 09-30 | 13 | 2 (the dated 09-21, 09-22 and 09-30 rows carry no R number) |
 | HW-* | headword design, 2026-09-20 / 09-22 | 32 | 6 |
 | U*n* | URL names, 2026-09-21 | 6 | 2 |
-| | **total rows** | **113** | **47** |
+| | **total rows** | **114** | **47** |
 
 The count is of **rows**, not of rulings: the `B2/B3` row holds two
 ids taken together.
