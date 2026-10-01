@@ -74,6 +74,8 @@ describe('markupProblems', () => {
 		['<i>x</b>', ['</b> closes <i>']],
 		['x</i>', ['</i> closes nothing']],
 		['<he>x', ['unclosed: he']],
+		['x <i', ['stray angle bracket in text: x <i']],
+		['<i>a</i> b>', ['stray angle bracket in text:  b>']],
 	])('%s', (html, expected) => {
 		expect(markupProblems(html).problems).toEqual(expected);
 	});

@@ -115,6 +115,9 @@ function byCodeUnit(a: string, b: string): number {
 	return a < b ? -1 : 1;
 }
 
+/** A `<` or `>` outside a tag. Hoisted per useTopLevelRegex. */
+const STRAY_ANGLE = /[<>]/u;
+
 /** What one markup field yields: its problems and its cite refs. */
 interface MarkupFindings {
 	problems: string[];
@@ -151,12 +154,20 @@ function checkCloseTag(
 /** One HTML field against the vocabulary: every open tag is in it with
  * the right attributes, every close matches the innermost open, and
  * nothing is left open. Off-vocabulary opens still go on the stack so
- * their own close is not reported a second time. */
+ * their own close is not reported a second time.
+ *
+ * A `<` or `>` in TEXT is a problem too: the tokenizer reads a tag
+ * fragment with no closing `>` (`<i`) as text, so without this a
+ * truncated tag would pass. No stored text holds either character as
+ * prose — the committed tree has none — so neither can be a reading. */
 function markupProblems(html: string): MarkupFindings {
 	const found: MarkupFindings = { problems: [], refs: [] };
 	const open: string[] = [];
 	for (const token of tokenize(html)) {
 		if (token.kind === 'text') {
+			if (STRAY_ANGLE.test(token.value)) {
+				found.problems.push(`stray angle bracket in text: ${token.value}`);
+			}
 			continue;
 		}
 		if (token.close) {
