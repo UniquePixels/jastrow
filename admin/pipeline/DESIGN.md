@@ -54,10 +54,8 @@ under `data/`.
 
 `paths.ts` is the only file in the module that names anything outside
 `admin/pipeline/`. Every constant above is declared there once, with
-the reason for its placement in its docstring. `boundary.test.ts`
-fails if a path literal for `data/`, `docs/` or `app/` appears
-anywhere else in non-test module code. A different project runs the
-same pipeline over its own data by editing that one file.
+the reason for its placement in its docstring. A different project
+runs the same pipeline over its own data by editing that one file.
 
 **One outward dependency: `admin/entry/`.** The entry contract — the
 entry types, the headword parser and its six rules, names, the
@@ -65,16 +63,14 @@ page-index loader, the HTML tokenizer and the validator — is its own
 module beside this one (ruling `09-30 entry contract`), because the
 import is only one of its callers: CI runs it over the committed tree,
 and the admin tool will run it on save. The import may depend on it;
-it may depend on nothing here. `boundary.test.ts` asserts both
-directions, and `admin/entry/paths.ts` declares the three paths it
+it may depend on nothing here. Biome's `noRestrictedImports` enforces
+both directions (the per-depth overrides at the end of `biome.json`):
+import specifiers are matched as written, not resolved, so each
+directory depth spells its own climb out of the module. A file one
+level deeper than any override today fails loudly rather than slipping
+through. `admin/entry/paths.ts` declares the three paths the contract
 reads (`ENTRIES_DIR`, `SCHEMA_PATH`, `PAGE_INDEX_PATH`), which this
 module's `paths.ts` re-exports rather than spelling again.
-
-Two identifiers in `paths.ts` are load-bearing beyond their values.
-`SOURCE_PATH` and `SNAPSHOT_FILES` are matched **by identifier** in
-`test-tiers.test.ts`'s corpus signals, which is how the test-tier
-split spots a fast-tier test reaching the 41 MB snapshot. Renaming
-either disables that detection without failing anything.
 
 `DESIGN_PATH` points at this file. `report/headword-issues.ts`
 computes a relative link to it from the report's own directory rather
@@ -163,8 +159,9 @@ document says "truth entry" it means an entry-data file.
 
 ### Test tiers
 
-`bun test` splits by filename, and `test-tiers.test.ts` asserts the
-split in both directions. The unit tier is `*.test.ts` and runs in
+`bun test` splits by filename, and the split is a convention: a
+corpus-reading test left named `*.test.ts` shows up as a slow `Test`
+job, not as a failure. The unit tier is `*.test.ts` and runs in
 `bun qa` and in CI. The committed entry data is not a unit test: CI's
 Validate job runs `bun data:validate` over it. The invariant tier is
 `transform/commutation.corpus.test.ts` and

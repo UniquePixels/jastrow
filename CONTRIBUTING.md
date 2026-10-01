@@ -97,8 +97,8 @@ order (commutation) and that each rule's class is earned over the data
 A test that reads the source snapshot MUST be named `*.corpus.test.ts`,
 MUST take its entries from
 `admin/pipeline/transform/rules/corpus-fixture.ts`, and MUST be added to
-`transform:invariants`; `admin/pipeline/test-tiers.test.ts` fails the
-build otherwise. An example built from real entries belongs in a
+`transform:invariants`. Nothing checks this; a corpus read left in a
+`*.test.ts` just makes CI's `Test` job slow. An example built from real entries belongs in a
 `*.test.ts` with the entries in a committed fixture file.
 
 ## Accessibility

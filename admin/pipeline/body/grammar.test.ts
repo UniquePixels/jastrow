@@ -54,27 +54,3 @@ describe('parseMarker unknown values', () => {
 		expect(() => parseMarker('')).not.toThrow();
 	});
 });
-
-const REPORT_PATH = 'data/source/body-census-report.json';
-
-// Gitignored machine artifact (data architecture spec D2). `body:census`
-// (the tool that generated it) was archived at
-// `refs/tags/archive/v2-research-2026-09` in the 2026-09 pipeline
-// consolidation, so this file can no longer be regenerated. The suite
-// still runs when it is present (as it is expected to be for anyone
-// verifying this task).
-const hasReport: boolean = await Bun.file(REPORT_PATH).exists();
-
-describe.skipIf(!hasReport)('parseMarker census coverage', () => {
-	it('parses every observed marker value without {unknown}', async () => {
-		const report = (await Bun.file(REPORT_PATH).json()) as {
-			markers: Record<string, number>;
-		};
-		const markers = Object.keys(report.markers);
-		expect(markers.length).toBeGreaterThan(0);
-		for (const marker of markers) {
-			const parsed = parseMarker(marker);
-			expect(parsed).not.toHaveProperty('unknown');
-		}
-	});
-});

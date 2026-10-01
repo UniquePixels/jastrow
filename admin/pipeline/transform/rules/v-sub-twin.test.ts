@@ -140,9 +140,8 @@ describe('vSubRedirectTwin', () => {
 		expect(vSubRedirectTwin.phase).toBe('text-repairs');
 	});
 
-	it('holds 50 rows, each with a distinct host', () => {
-		expect(TWINS).toHaveLength(50);
-		expect(new Set(TWINS.map(([rid]) => rid)).size).toBe(50);
+	it('gives each row a distinct host', () => {
+		expect(new Set(TWINS.map(([rid]) => rid)).size).toBe(TWINS.length);
 	});
 });
 

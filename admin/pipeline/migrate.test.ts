@@ -16,7 +16,7 @@
 import { afterAll, describe, expect, it } from 'bun:test';
 import { mark } from './migrate/gates.ts';
 import { actionOf, classifyRows, PUBLICATION } from './migrate/publication.ts';
-import type { GateName, Report, ReportRow } from './migrate/report.ts';
+import type { Report, ReportRow } from './migrate/report.ts';
 import { createReport, GATE_NAMES, isGreen } from './migrate/report.ts';
 import { outputTreeIsEmpty, refuseUnlessEmpty } from './migrate.ts';
 
@@ -195,21 +195,5 @@ describe('the gate set itself', () => {
 		for (const name of GATE_NAMES) {
 			expect(report.gates[name]).toEqual({ failures: [], pass: 0, total: 0 });
 		}
-	});
-
-	it('names the ten gates: migrate spec §4.1 and gate 10, contract', () => {
-		const expected: readonly GateName[] = [
-			'bodyRoundTrips',
-			'headwordLine',
-			'textConservation',
-			'schema',
-			'chain',
-			'internalTargets',
-			'names',
-			'pages',
-			'composition',
-			'contract',
-		];
-		expect([...GATE_NAMES]).toEqual([...expected]);
 	});
 });

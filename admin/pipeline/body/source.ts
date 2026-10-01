@@ -52,6 +52,4 @@ async function* readSourceEntries(
 	}
 }
 
-// Re-exported under its own name (imported from `paths.ts`) so
-// `test-tiers.test.ts`'s identifier match keeps working.
-export { linesOf, parseSourceEntry, readSourceEntries, SOURCE_PATH };
+export { linesOf, parseSourceEntry, readSourceEntries };

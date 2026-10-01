@@ -312,6 +312,150 @@
 					}
 				}
 			}
+		},
+		{
+			"includes": ["admin/pipeline/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../**",
+											"!../entry/**",
+											"../entry/**/../**",
+											"./**/../**",
+											"**/../**/../**"
+										],
+										"message": "admin/pipeline/ may import only itself and admin/entry/ (admin/pipeline/DESIGN.md, the boundary)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["admin/pipeline/*/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../../**",
+											"!../../entry/**",
+											"../../entry/**/../**",
+											"./**/../**",
+											"**/../**/../**/../**"
+										],
+										"message": "admin/pipeline/ may import only itself and admin/entry/ (admin/pipeline/DESIGN.md, the boundary)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["admin/pipeline/*/*/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../../../**",
+											"!../../../entry/**",
+											"../../../entry/**/../**",
+											"./**/../**",
+											"**/../**/../**/../**/../**"
+										],
+										"message": "admin/pipeline/ may import only itself and admin/entry/ (admin/pipeline/DESIGN.md, the boundary)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["admin/pipeline/*/*/*/**/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../../../../**",
+											"!../../../../entry/**",
+											"../../../../entry/**/../**",
+											"./**/../**",
+											"**/../**/../**/../**/../**/../**"
+										],
+										"message": "admin/pipeline/ may import only itself and admin/entry/ (admin/pipeline/DESIGN.md, the boundary)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["admin/entry/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": ["../**", "./**/../**", "../**/../**"],
+										"message": "admin/entry/ may import only itself: the admin tool and CI run it without the pipeline."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["admin/entry/*/**/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": ["../../**", "./**/../**", "../**/../**"],
+										"message": "admin/entry/ may import only itself: the admin tool and CI run it without the pipeline."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
 		}
 	],
 	"javascript": {

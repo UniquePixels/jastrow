@@ -7,10 +7,6 @@
  * The pipeline's `paths.ts` re-exports them rather than spelling them
  * a second time, so the import and the contract cannot disagree about
  * where the entries, the schema or the page index live.
- *
- * The pipeline's `boundary.test.ts` fails if a path literal for
- * `data/`, `docs/` or `app/` appears anywhere else in non-test
- * contract code.
  */
 
 /** The entry schema. Read at run time, not imported: a JSON Schema is
