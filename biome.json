@@ -327,7 +327,8 @@
 											"../**",
 											"!../entry/**",
 											"../entry/**/../**",
-											"./**/../**"
+											"./**/../**",
+											"**/../**/../**"
 										],
 										"message": "admin/pipeline/ may import only itself and admin/entry/ (admin/pipeline/DESIGN.md, the boundary)."
 									}
@@ -352,7 +353,8 @@
 											"../../**",
 											"!../../entry/**",
 											"../../entry/**/../**",
-											"./**/../**"
+											"./**/../**",
+											"**/../**/../**/../**"
 										],
 										"message": "admin/pipeline/ may import only itself and admin/entry/ (admin/pipeline/DESIGN.md, the boundary)."
 									}
@@ -377,7 +379,8 @@
 											"../../../**",
 											"!../../../entry/**",
 											"../../../entry/**/../**",
-											"./**/../**"
+											"./**/../**",
+											"**/../**/../**/../**/../**"
 										],
 										"message": "admin/pipeline/ may import only itself and admin/entry/ (admin/pipeline/DESIGN.md, the boundary)."
 									}
@@ -402,7 +405,8 @@
 											"../../../../**",
 											"!../../../../entry/**",
 											"../../../../entry/**/../**",
-											"./**/../**"
+											"./**/../**",
+											"**/../**/../**/../**/../**/../**"
 										],
 										"message": "admin/pipeline/ may import only itself and admin/entry/ (admin/pipeline/DESIGN.md, the boundary)."
 									}
