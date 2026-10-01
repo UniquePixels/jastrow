@@ -197,7 +197,7 @@ describe('the gate set itself', () => {
 		}
 	});
 
-	it('names the nine gates of migrate spec §4.1', () => {
+	it('names the ten gates: migrate spec §4.1 and gate 10, contract', () => {
 		const expected: readonly GateName[] = [
 			'bodyRoundTrips',
 			'headwordLine',
@@ -208,6 +208,7 @@ describe('the gate set itself', () => {
 			'names',
 			'pages',
 			'composition',
+			'contract',
 		];
 		expect([...GATE_NAMES]).toEqual([...expected]);
 	});

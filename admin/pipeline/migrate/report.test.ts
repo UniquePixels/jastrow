@@ -1,4 +1,6 @@
 import { describe, expect, it } from 'bun:test';
+import { SCHEMA_VERSION, type TruthEntry } from '../../entry/types.ts';
+import type { Tally } from './gates.ts';
 import type { GateName, Report, Sample } from './report.ts';
 import {
 	createReport,
@@ -9,7 +11,6 @@ import {
 	renderBlessing,
 	writeReport,
 } from './report.ts';
-import { SCHEMA_VERSION, type Tally, type TruthEntry } from './types.ts';
 
 /** A gate that ran once and passed. */
 function greenTally(): Tally {
@@ -48,7 +49,7 @@ describe('createReport', () => {
 		expect(isGreen(createReport())).toBe(false);
 	});
 
-	it('zeroes all nine gates', () => {
+	it('zeroes every gate', () => {
 		const report = createReport();
 		expect(Object.keys(report.gates).sort()).toEqual([...GATE_NAMES].sort());
 		for (const name of GATE_NAMES) {

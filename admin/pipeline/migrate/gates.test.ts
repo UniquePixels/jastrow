@@ -1,19 +1,20 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
+import {
+	type FormObject,
+	SCHEMA_VERSION,
+	type TruthEntry,
+} from '../../entry/types.ts';
 import type { BodyEntry, SourceEntry } from '../types.ts';
 import {
 	checkChain,
+	checkContract,
 	checkHeadwordLine,
 	checkNames,
 	checkPages,
 	checkTextConservation,
-} from './gates.ts';
-import {
-	type FormObject,
-	SCHEMA_VERSION,
 	type Tally,
-	type TruthEntry,
-} from './types.ts';
+} from './gates.ts';
 
 /** A 3-entry chain, in rid order, with `next_hw`/`prev_hw` naming the
  * neighbour's headword string (as the composed corpus does). */
@@ -555,5 +556,81 @@ describe('checkPages', () => {
 		expect(t.failures).toEqual(['A00002: no page']);
 		expect(t.pass).toBe(2);
 		expect(t.total).toBe(3);
+	});
+});
+
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per gate; its cases share the entry builder and read as a single table.
+describe('checkContract (gate 10)', () => {
+	const contractEntry = (
+		id: string,
+		text: string,
+		gloss = 'g',
+	): TruthEntry => ({
+		schemaVersion: SCHEMA_VERSION,
+		id,
+		sefariaHeadword: text,
+		headwords: [{ text }],
+		display: '{0}',
+		page: { number: 1, column: 'a' },
+		senses: [{ gloss, units: [] }],
+	});
+	const high = { column: 'a', confidence: 'high', number: 1 } as const;
+	const pages = new Map([
+		['A00001', high],
+		['A00002', high],
+	]);
+	const home = (rid: string): string => `${rid.charAt(0)}/${rid}.json`;
+
+	it('marks each entry and the corpus once, green on a valid tree', async () => {
+		const t = await checkContract(
+			[contractEntry('A00001', 'אב'), contractEntry('A00002', 'אבא')],
+			pages,
+			home,
+		);
+		expect(t).toEqual({ failures: [], pass: 3, total: 3 });
+	});
+
+	it("reds an entry's own mark on a file problem", async () => {
+		const t = await checkContract(
+			[
+				contractEntry('A00001', 'אב'),
+				// Decomposed: shin dot before qamats, the reverse of
+				// canonical order.
+				contractEntry('A00002', 'אבא', 'ש\u05C1\u05B8'),
+			],
+			pages,
+			home,
+		);
+		expect(t).toEqual({
+			failures: ['A00002: senses[0].gloss: not NFC'],
+			pass: 2,
+			total: 3,
+		});
+	});
+
+	it('reds the entry when the write path is not its home', async () => {
+		const t = await checkContract(
+			[contractEntry('A00001', 'אב'), contractEntry('A00002', 'אבא')],
+			pages,
+			(rid) => `x/${rid}.json`,
+		);
+		expect(t.pass).toBe(1);
+		expect(t.failures[0]).toBe(
+			'x/A00001.json: id A00001 belongs at A/A00001.json',
+		);
+	});
+
+	it('reds the corpus mark and lists each corpus problem', async () => {
+		const t = await checkContract(
+			[contractEntry('A00001', 'אב'), contractEntry('A00002', 'אב')],
+			pages,
+			home,
+		);
+		expect(t.pass).toBe(2);
+		expect(t.total).toBe(3);
+		expect(t.failures).toEqual([
+			'A00002: name אב taken by A00001',
+			'A00002: sefariaHeadword אב taken by A00001',
+		]);
 	});
 });

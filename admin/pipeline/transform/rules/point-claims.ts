@@ -8,8 +8,9 @@
  * level up — a rule reading a field set the gate does not is invisible
  * to it.
  */
+
+import { tokenize } from '../../../entry/html.ts';
 import type { SourceEntry } from '../../types.ts';
-import { tokenize } from '../html.ts';
 import { anchors } from '../links.ts';
 import { fieldsOf } from '../no-new-text.ts';
 

@@ -4,8 +4,9 @@
  * The `bucket` is added once, by `classes.ts`, so no detector can file
  * itself as a pipeline fault.
  */
+
+import type { TruthEntry } from '../../../entry/types.ts';
 import type { ReportRow } from '../report.ts';
-import type { TruthEntry } from '../types.ts';
 
 /** A review row before its bucket: `{rid, kind, severity, detail}`. */
 type ClassRow = Omit<ReportRow, 'bucket' | 'publication'>;

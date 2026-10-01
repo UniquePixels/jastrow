@@ -13,8 +13,9 @@
  * reads: the detector owns the sentence a reader acts on, so the
  * table keeps one row per class instead of a paragraph.
  */
+
+import type { TruthEntry } from '../../../entry/types.ts';
 import type { ReportRow } from '../report.ts';
-import type { TruthEntry } from '../types.ts';
 import {
 	detectEmptyStemSection,
 	EMPTY_STEM_SECTION,

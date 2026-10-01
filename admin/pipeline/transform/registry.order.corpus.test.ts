@@ -14,8 +14,8 @@
  * registers, reclassifies or reorders a rule.
  */
 import { describe, expect, it } from 'bun:test';
+import { tokenize } from '../../entry/html.ts';
 import type { SourceEntry } from '../types.ts';
-import { tokenize } from './html.ts';
 import { anchors } from './links.ts';
 import { fieldsOf, textOf } from './no-new-text.ts';
 import { RULES } from './registry.ts';

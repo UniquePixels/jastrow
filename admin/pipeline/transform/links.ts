@@ -41,7 +41,7 @@ import {
 	opensScope,
 	type TagToken,
 	type Token,
-} from './html.ts';
+} from '../../entry/html.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex. The `d` flag records
 // each group's [start, end) span so `retarget` can splice the VALUE

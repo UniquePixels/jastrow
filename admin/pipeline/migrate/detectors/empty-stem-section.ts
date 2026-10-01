@@ -11,8 +11,9 @@
  * 2026-08-28). The row records the blank heading a reader meets; the
  * fix is a rendering one (Phase 4), not a data one.
  */
+
+import type { TruthEntry, TruthStem } from '../../../entry/types.ts';
 import { textOf } from '../gates.ts';
-import type { TruthEntry, TruthStem } from '../types.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { fieldsOf, walkSequence } from './senses.ts';
 

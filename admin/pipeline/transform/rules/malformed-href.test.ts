@@ -20,8 +20,8 @@
  * file past its line budget.
  */
 import { describe, expect, it } from 'bun:test';
+import { tokenize } from '../../../entry/html.ts';
 import type { SourceEntry } from '../../types.ts';
-import { tokenize } from '../html.ts';
 import { type Anchor, anchors } from '../links.ts';
 import { textOf } from '../no-new-text.ts';
 import { unterminatedHref } from './malformed-href.ts';

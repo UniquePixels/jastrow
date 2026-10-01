@@ -8,6 +8,14 @@
  * because this repository carries zero runtime dependencies.
  *
  * The contract every rule relies on: `serialize(tokenize(s)) === s`.
+ *
+ * It lives in `admin/entry/` rather than beside the transforms because
+ * it is also how the entry contract reads a stored markup field
+ * (`validate.ts`). The transforms that write markup and the check that
+ * holds a file to the vocabulary tokenize with ONE definition of a
+ * tag; a second, smaller scanner here would be free to disagree with
+ * this one about a malformed tag, and the disagreement would be
+ * invisible to both.
  */
 
 // Hoisted per lint/performance/useTopLevelRegex.

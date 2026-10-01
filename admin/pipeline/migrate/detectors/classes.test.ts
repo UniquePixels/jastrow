@@ -1,6 +1,10 @@
 import { describe, expect, it } from 'bun:test';
+import {
+	SCHEMA_VERSION,
+	type TruthEntry,
+	type TruthSense,
+} from '../../../entry/types.ts';
 import { PUBLICATION } from '../publication.ts';
-import { SCHEMA_VERSION, type TruthEntry, type TruthSense } from '../types.ts';
 import { DETECTED_CLASSES, detectClasses } from './classes.ts';
 import { detectEmptyStemSection } from './empty-stem-section.ts';
 import { detectHomographRomanStranded } from './homograph-roman-stranded-in-definition.ts';

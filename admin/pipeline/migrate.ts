@@ -12,10 +12,13 @@
  * precondition no longer holds is a report row. `--strict` makes either
  * refuse the run (consolidation spec §4.2).
  */
-import { existsSync } from 'node:fs';
+import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { dirname } from 'node:path';
 import process from 'node:process';
 import type { ValidateFunction } from 'ajv';
-import Ajv2020 from 'ajv/dist/2020';
+import { loadPageIndex, type PagePlacement } from '../entry/page.ts';
+import type { TruthEntry } from '../entry/types.ts';
+import { schemaValidator } from '../entry/validate.ts';
 import type { PassName } from './body/repairs.ts';
 import { evaluateRoundTrip } from './body/round-trip.ts';
 import { readSourceEntries } from './body/source.ts';
@@ -27,6 +30,7 @@ import { detectClasses } from './migrate/detectors/classes.ts';
 import { finishEntry } from './migrate/finish.ts';
 import {
 	checkChain,
+	checkContract,
 	checkHeadwordLine,
 	checkNames,
 	checkPages,
@@ -36,7 +40,6 @@ import {
 import { normalizeForWrite } from './migrate/normalize.ts';
 import { type RunOptions, runOptions } from './migrate/options.ts';
 import { unbasedOrphans } from './migrate/orphan-refs.ts';
-import { loadPageIndex, type PagePlacement } from './migrate/page.ts';
 import {
 	markMissingTargets,
 	type PatchGroups,
@@ -62,7 +65,6 @@ import {
 	REVIEW_REPORT_PATH,
 	renderReviewReport,
 } from './migrate/review-report.ts';
-import type { TruthEntry } from './migrate/types.ts';
 import {
 	corpusPreflight,
 	loadAcceptedCorpus,
@@ -76,7 +78,6 @@ import {
 	HEADWORD_ISSUES_CSV,
 	HEADWORD_ISSUES_DOC,
 	ENTRIES_DIR as OUT_DIR,
-	SCHEMA_PATH,
 } from './paths.ts';
 import { buildHeadwordIssues } from './report/headword-issues.ts';
 import { RULES } from './transform/registry.ts';
@@ -427,6 +428,14 @@ function letterDir(rid: string): string {
 	return rid.charAt(0);
 }
 
+/** Where `writeAll` puts a rid's file, relative to the output tree.
+ * Gate 10 hands the same function to the entry contract, so the
+ * contract's home-path rule is checked against the path the write
+ * actually uses rather than a copy of it. */
+function entryFile(rid: string): string {
+	return `${letterDir(rid)}/${rid}.json`;
+}
+
 /** `--write`'s refusal check. A single sentinel (e.g. A/A00000.json)
  * misses a partial prior write that stopped before reaching it, or any
  * output tree that simply doesn't start at A00000 — either lets
@@ -485,10 +494,13 @@ interface Normalized {
 /** Every entry through `normalizeForWrite` (#110): this is the ONE
  * place stored text is rewritten, and it is rewritten only into its
  * own NFC spelling, under an assertion that the rewrite is lossless.
- * It runs after the gates have read the in-memory truth, so no gate is
- * reading a value this step produced — and before the headword-issues
- * report, which describes the entries as written (its X4 "not NFC"
- * shape would otherwise flag spellings the write is about to fix).
+ * It runs after the source gates have read the in-memory truth, so
+ * none of them reads a value this step produced. Gate 10 (`contract`)
+ * is the one that does, on purpose: it holds exactly what will be
+ * written to the entry contract. The headword-issues report reads the
+ * normalized entries too, since it describes the entries as written
+ * (its X4 "not NFC" shape would otherwise flag spellings the write is
+ * about to fix).
  *
  * Every entry is normalized BEFORE the first file is written. A
  * refusal has to refuse the whole write, and normalizing inside the
@@ -511,11 +523,13 @@ function normalizeAll(truths: readonly TruthEntry[]): Normalized {
 /** The one write of the whole pipeline: 32,512 files, formatted, then
  * the report again so its `written` count is on disk. */
 async function writeAll(normalized: Normalized, report: Report): Promise<void> {
+	// Synchronous and in rid order: 32,512 small files, one at a time,
+	// with nothing to overlap them with and no reason to hold 32,512
+	// handles open at once.
 	for (const truth of normalized.entries) {
-		await Bun.write(
-			`${OUT_DIR}/${letterDir(truth.id)}/${truth.id}.json`,
-			`${JSON.stringify(truth, null, '\t')}\n`,
-		);
+		const file = `${OUT_DIR}/${entryFile(truth.id)}`;
+		mkdirSync(dirname(file), { recursive: true });
+		writeFileSync(file, `${JSON.stringify(truth, null, '\t')}\n`);
 		report.written++;
 	}
 	formatTruth();
@@ -593,14 +607,9 @@ async function main(): Promise<void> {
 		// are already on disk.
 		biomeBinary();
 	}
-	// A runtime read rather than a compile-time import: the module does
-	// not own the entry contract, it is handed one through paths.ts.
-	// `main` already runs as one long async call, so a direct await
-	// here needs no memo and no signature changes downstream.
-	const validate: ValidateFunction = new Ajv2020({
-		allErrors: true,
-		strict: true,
-	}).compile(await Bun.file(SCHEMA_PATH).json());
+	// The entry contract's own compiled schema, not a second copy of
+	// it: gate 4 and gate 10 cannot disagree about what the schema is.
+	const validate: ValidateFunction = await schemaValidator();
 	const report = createReport();
 	const composed = await composeAll(report, options);
 	checkOrphanRefs(composed, report);
@@ -609,6 +618,14 @@ async function main(): Promise<void> {
 	// Gate 7 reads the FINISHED entries, so it runs after pass 2 and
 	// against a fresh read of the snapshot (URL names spec §5.2).
 	report.gates.names = checkNames(truths, await loadSourceHeadwords());
+	const normalized = normalizeAll(truths);
+	// Gate 10 reads what `writeAll` would write: the normalized entries,
+	// at the paths it would write them to.
+	report.gates.contract = await checkContract(
+		normalized.entries,
+		indexes.pages,
+		entryFile,
+	);
 	classifyRows(report);
 	await writeReport(report);
 	await Bun.write(BLESSING_PATH, `${renderBlessing(report, samples)}\n`);
@@ -621,7 +638,6 @@ async function main(): Promise<void> {
 		REVIEW_REPORT_PATH,
 		`${renderReviewReport(report, catalogued)}\n`,
 	);
-	const normalized = normalizeAll(truths);
 	await writeHeadwordIssues(normalized.entries, report);
 	printGates(report);
 	if (!isGreen(report)) {

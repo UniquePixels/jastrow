@@ -1,9 +1,10 @@
 /**
- * The six rules the pipeline halts on (`admin/pipeline/DESIGN.md`
+ * The six rules the pipeline halts on (the pipeline's `DESIGN.md`
  * §2), as checks over a FINISHED entry. They hold however the entry
  * got there — the pipeline's write or a hand edit — so they live here
- * rather than inside the parser, and `validate.ts` runs them over the
- * committed tree in `bun qa`.
+ * rather than inside the parser, and `validate.ts` runs them over
+ * every entry: the import's `contract` gate before it writes, and
+ * `bun data:validate` (CI's Validate job) over the committed tree.
  *
  * 1. Every form index appears in `display` exactly once.
  * 2. `display` holds no Hebrew letters or points.
@@ -24,13 +25,11 @@
  * A01345, whose line was `X = Y`; reviewed patches P000309 and P000310
  * (#113) lift `= Y` into the gloss with `reform`'s `gloss` field.
  *
- * The halt lives in `validateTruth`, which the IMPORT does not call:
- * `bun data:import` still writes such a line, and the parser files it
- * as a `headword-unparsed` `blocks` row, so a NEW one from upstream is
- * named in the report. The failure comes after, when the committed-
- * tree tests (`truth.test.ts`, `committed-tree.test.ts`) run
- * `textDefects` over the written files and CI's Test job goes red —
- * the same check a HAND EDIT to a committed file meets.
+ * The halt lives in `validateEntry`. The parser files such a line as
+ * a `headword-unparsed` `blocks` row, so a NEW one from upstream is
+ * named in the report, and the import's `contract` gate then refuses
+ * the write — the same check a HAND EDIT to a committed file meets in
+ * CI's Validate job.
  * `HALT_ON_TEXT_DEFECT` is the switch that holds it back to a report.
  */
 import { isLexical, PLACEHOLDER } from './headwords.ts';

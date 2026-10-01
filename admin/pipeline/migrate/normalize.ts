@@ -9,14 +9,19 @@
  * one-off script the next run undoes.
  *
  * **Where it sits, and why that matters.** It runs in the migrate
- * write step, on the way to disk, AFTER every gate has read the
- * in-memory truth. So it cannot move a gate: gate 3
+ * write step, on the way to disk, AFTER every source gate has read
+ * the in-memory truth. So it cannot move one: gate 3
  * (`checkTextConservation`) compares the composed body against that
  * same in-memory truth, string for string, and never sees a
  * normalized value. A green gate 3 on the rewritten tree is therefore
  * evidence about the transforms, not about this function — which is
  * the right division, because what makes THIS step safe is its own
  * assertion, not a gate downstream of it.
+ *
+ * The one gate that reads its OUTPUT is gate 10, `contract`: the
+ * entry contract (`admin/entry/`) over exactly what is about to be
+ * written. Its NFC clause is the other half of this module — it holds
+ * a file this step never saw, a hand edit, to the same property.
  *
  * **What makes it provably lossless.** Every rewritten string must
  * satisfy `NFD(before) === NFD(after)`: the two spellings decompose
@@ -40,6 +45,8 @@
  *
  * Idempotent: NFC is a fixed point, so a second run rewrites nothing.
  */
+
+import { VERBATIM_FIELDS } from '../../entry/types.ts';
 
 /** A string whose NFC form does not decompose back to the original —
  * normalizing it would be a text edit, not a spelling change. */
@@ -83,20 +90,13 @@ function normalizeString(
 	return normalized;
 }
 
-/** Fields that are copied from elsewhere VERBATIM and must keep the
- * bytes they were copied from, whatever spelling those are.
- *
- * `sefariaHeadword` is Sefaria's own headword, stored so the Sefaria
- * URL route keeps working after our headword is corrected (URL names
- * spec §5.1, U3). It is a foreign key, not our text: normalizing it
- * would make it a spelling Sefaria does not use, and gate 7 asserts
- * it byte for byte against the snapshot BEFORE this step runs, so
- * nothing downstream would catch the drift. The snapshot holds no
- * non-NFC headword today, which is why this is a guard rather than a
- * repair — the next refresh that carries one is what it is for. */
-const VERBATIM_FIELDS: ReadonlySet<string> = new Set(['sefariaHeadword']);
-
-/** Walk any JSON value, normalizing every string it holds.
+/** Walk any JSON value, normalizing every string it holds — except
+ * under `VERBATIM_FIELDS` (the entry contract's list, `admin/entry/
+ * types.ts`). Gate 7 asserts `sefariaHeadword` byte for byte against
+ * the snapshot BEFORE this step runs, so nothing downstream would
+ * catch a normalization of it. The snapshot holds no non-NFC headword
+ * today, which is why this is a guard rather than a repair — the next
+ * refresh that carries one is what it is for.
  *
  * Object KEYS are left alone and are not counted: they are the
  * schema's field names, which `validate.ts` holds to a fixed ASCII

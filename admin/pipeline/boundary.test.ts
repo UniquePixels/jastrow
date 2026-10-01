@@ -1,16 +1,25 @@
 /**
- * The module boundary, asserted rather than trusted.
+ * The module boundaries, asserted rather than trusted.
  *
- * `admin/pipeline/` is an import module. Two things make that true
- * rather than aspirational, and both are checked here.
+ * `admin/pipeline/` is an import module and `admin/entry/` is the
+ * entry contract it writes to (ruling `09-30 entry contract`). Two
+ * things make each a module rather than a directory, and both are
+ * checked here, for both.
  *
- * FIRST: nothing it imports resolves outside it. A module that reaches
- * up into the project for code is not one you can lift out.
+ * FIRST: nothing it imports resolves outside what it may depend on.
+ * The pipeline may depend on itself and on `admin/entry/` — exactly
+ * one outward dependency, because the contract is what the import
+ * writes to. The contract may depend on nothing but itself: the admin
+ * tool and CI run it without the pipeline, so it must not reach into
+ * one. A module that reaches up into the project for code is not one
+ * you can lift out.
  *
  * SECOND: no path literal for `data/`, `docs/` or `app/` appears in
- * non-test module code outside `paths.ts`. This is the check that
- * keeps `paths.ts` honest: a second spelling of `data/entries` is how
- * the boundary quietly stops being one place.
+ * non-test module code outside that module's `paths.ts`. This is the
+ * check that keeps `paths.ts` honest: a second spelling of
+ * `data/entries` is how the boundary quietly stops being one place.
+ * The pipeline's `paths.ts` re-exports the contract's three paths
+ * rather than spelling them again.
  *
  * Test files are exempt from the second check. A test may name a path
  * as a FIXTURE — `patch/snapshot.test.ts` names
@@ -26,8 +35,40 @@
  */
 import { describe, expect, it } from 'bun:test';
 
-const MODULE_DIR = 'admin/pipeline';
-const PATHS_FILE = `${MODULE_DIR}/paths.ts`;
+/** One module's boundary: its directory, the one file that may name a
+ * repo-root path, the directories its imports may resolve into, and a
+ * floor on its file counts for the positive controls. */
+interface Module {
+	dir: string;
+	/** Directories an import may resolve into, the module's own first. */
+	mayImport: readonly string[];
+	minFiles: number;
+	minNonTest: number;
+	paths: string;
+}
+
+const PIPELINE: Module = {
+	dir: 'admin/pipeline',
+	mayImport: ['admin/pipeline', 'admin/entry'],
+	// As of this test admin/pipeline/ holds ~180 .ts files, ~95 of them
+	// non-test. Loose on purpose so ordinary file churn doesn't need to
+	// touch it — only the glob going (near) empty should trip it.
+	minFiles: 50,
+	minNonTest: 50,
+	paths: 'admin/pipeline/paths.ts',
+};
+
+const ENTRY: Module = {
+	dir: 'admin/entry',
+	mayImport: ['admin/entry'],
+	// 15 .ts files, 9 non-test, when the module was cut (2026-09-30).
+	minFiles: 10,
+	minNonTest: 5,
+	paths: 'admin/entry/paths.ts',
+};
+
+// Mutable because `describe.each` types its object-table overload so.
+const MODULES: Module[] = [PIPELINE, ENTRY];
 
 /** `dirname`, posix-style, for a forward-slash repo-relative path. */
 function dirOf(path: string): string {
@@ -170,15 +211,41 @@ function pathsIdentifiers(text: string): string[] {
 	return names;
 }
 
-async function moduleFiles(): Promise<string[]> {
+async function moduleFiles(dir: string): Promise<string[]> {
 	const out: string[] = [];
 	for await (const p of new Bun.Glob('**/*.ts').scan({
-		cwd: MODULE_DIR,
+		cwd: dir,
 		onlyFiles: true,
 	})) {
-		out.push(`${MODULE_DIR}/${p}`);
+		out.push(`${dir}/${p}`);
 	}
 	return out.sort();
+}
+
+/** Every relative import of `module`'s files, resolved repo-relative. */
+async function resolvedImports(
+	module: Module,
+): Promise<Array<{ file: string; resolved: string; statement: string }>> {
+	const out: Array<{ file: string; resolved: string; statement: string }> = [];
+	for (const file of await moduleFiles(module.dir)) {
+		const text = await Bun.file(file).text();
+		for (const m of text.matchAll(IMPORT_SPECIFIER)) {
+			const spec = m[1] ?? '';
+			if (isTraversal(spec)) {
+				out.push({
+					file,
+					resolved: resolveSpec(dirOf(file), spec),
+					statement: m[0],
+				});
+			}
+		}
+	}
+	return out;
+}
+
+/** Whether `resolved` sits in `dir` or below it. */
+function isUnder(resolved: string, dir: string): boolean {
+	return resolved === dir || resolved.startsWith(`${dir}/`);
 }
 
 /**
@@ -191,10 +258,10 @@ async function moduleFiles(): Promise<string[]> {
  * corpus signals — naming them here in prose would misclassify this
  * file's own tier.)
  */
-async function suffixOffenders(): Promise<string[]> {
+async function suffixOffenders(module: Module): Promise<string[]> {
 	const offenders: string[] = [];
-	for (const file of await moduleFiles()) {
-		if (file === PATHS_FILE || file.includes('.test.ts')) {
+	for (const file of await moduleFiles(module.dir)) {
+		if (file === module.paths || file.includes('.test.ts')) {
 			continue;
 		}
 		const text = await Bun.file(file).text();
@@ -221,57 +288,55 @@ async function suffixOffenders(): Promise<string[]> {
 	return offenders;
 }
 
-describe('the module imports nothing above itself', () => {
+describe.each(MODULES)('$dir imports only what it may', (module) => {
 	it('moduleFiles() finds real files — positive control', async () => {
 		// Without this, a glob that silently stopped matching (a
-		// typo'd cwd, a broken pattern, a renamed MODULE_DIR) would make
+		// typo'd cwd, a broken pattern, a renamed directory) would make
 		// the check below iterate zero files and pass vacuously no
-		// matter what the code actually imports. As of this test,
-		// admin/pipeline/ holds 194 .ts files; the bound is loose on
-		// purpose so ordinary file churn doesn't need to touch it —
-		// only the glob going (near) empty should ever trip it.
-		const files = await moduleFiles();
-		expect(files.length).toBeGreaterThan(50);
+		// matter what the code actually imports.
+		const files = await moduleFiles(module.dir);
+		expect(files.length).toBeGreaterThan(module.minFiles);
 	});
 
-	it('every relative import stays inside admin/pipeline/', async () => {
-		const offenders: string[] = [];
-		for (const file of await moduleFiles()) {
-			const text = await Bun.file(file).text();
-			for (const m of text.matchAll(IMPORT_SPECIFIER)) {
-				const spec = m[1] ?? '';
-				if (!isTraversal(spec)) {
-					continue;
-				}
-				const resolved = resolveSpec(dirOf(file), spec);
-				if (resolved !== MODULE_DIR && !resolved.startsWith(`${MODULE_DIR}/`)) {
-					offenders.push(`${file}: ${m[0]}`);
-				}
-			}
-		}
+	it('every relative import resolves inside what it may depend on', async () => {
+		const offenders = (await resolvedImports(module))
+			.filter(({ resolved }) =>
+				module.mayImport.every((dir) => !isUnder(resolved, dir)),
+			)
+			.map(({ file, statement }) => `${file}: ${statement}`);
 		expect(offenders).toEqual([]);
 	});
 });
 
-describe('the boundary is declared in one place', () => {
+describe('the one outward dependency is live', () => {
+	it('admin/pipeline/ does import admin/entry/ — the allowance is not dead', async () => {
+		// A positive control on the allowance itself: if no pipeline
+		// file resolved into admin/entry/, the allowance would be a door
+		// nobody uses, and the entry module could drift from what the
+		// pipeline writes without either boundary noticing.
+		const into = (await resolvedImports(PIPELINE)).filter(({ resolved }) =>
+			isUnder(resolved, ENTRY.dir),
+		);
+		expect(into.length).toBeGreaterThan(0);
+	});
+});
+
+describe.each(MODULES)('$dir declares its boundary in one place', (module) => {
 	it('moduleFiles() finds real non-test files — positive control', async () => {
 		// Witnesses the artifact the check below claims to scan: if the
 		// glob silently stopped matching, "no offenders" would be true
-		// vacuously regardless of what admin/pipeline/ actually
-		// contains. As of this test, 101 of the 194 files are
-		// non-test — again a loose bound, tripped only by the glob
-		// going (near) empty, not by ordinary file churn.
-		const files = await moduleFiles();
+		// vacuously regardless of what the module actually contains.
+		const files = await moduleFiles(module.dir);
 		const nonTest = files.filter(
-			(f) => f !== PATHS_FILE && !f.includes('.test.ts'),
+			(f) => f !== module.paths && !f.includes('.test.ts'),
 		);
-		expect(nonTest.length).toBeGreaterThan(50);
+		expect(nonTest.length).toBeGreaterThan(module.minNonTest);
 	});
 
 	it('no non-test file outside paths.ts names a repo-root path', async () => {
 		const offenders: string[] = [];
-		for (const file of await moduleFiles()) {
-			if (file === PATHS_FILE || file.includes('.test.ts')) {
+		for (const file of await moduleFiles(module.dir)) {
+			if (file === module.paths || file.includes('.test.ts')) {
 				continue;
 			}
 			const text = await Bun.file(file).text();
@@ -297,14 +362,14 @@ describe('the boundary is declared in one place', () => {
 		// already declares (see `suffixOffenders` above). The bare
 		// basename carries no `data/`/`docs/`/`app/` segment, so
 		// ROOT_PATH above never sees it.
-		expect(await suffixOffenders()).toEqual([]);
+		expect(await suffixOffenders(module)).toEqual([]);
 	});
 
 	it('paths.ts itself still declares some', async () => {
 		// A positive control on the regex itself. Without it, a pattern
 		// that stopped matching anything would make the check above
 		// pass vacuously too.
-		const text = await Bun.file(PATHS_FILE).text();
+		const text = await Bun.file(module.paths).text();
 		expect(ROOT_PATH.test(text)).toBe(true);
 	});
 });

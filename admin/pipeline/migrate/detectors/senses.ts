@@ -8,7 +8,7 @@
  * a predicate written against "a sense's text" reads exactly that one
  * sense. Walk the children separately when a predicate wants them.
  */
-import type { TruthEntry, TruthSense } from '../types.ts';
+import type { TruthEntry, TruthSense } from '../../../entry/types.ts';
 
 /** One sense and the path that names it, e.g. `stems[1].senses[0]`. */
 interface SenseAt {

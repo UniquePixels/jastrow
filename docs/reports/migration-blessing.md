@@ -19,6 +19,7 @@ Patch corpus: 116 reviewed, 113 accepted, 234 applied, 0 carry-over absorbed, 5 
 | names | 65024 / 65024 | 0 |
 | pages | 32512 / 32512 | 0 |
 | composition | 65024 / 65024 | 0 |
+| contract | 32513 / 32513 | 0 |
 
 ## Pipeline faults
 

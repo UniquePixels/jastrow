@@ -10,8 +10,9 @@
  * The markup-delta gate reads a dropped tag pair as an improvement, so
  * that count is the only check that the rule dropped what it meant to.
  */
+
+import { serialize, type Token, tokenize } from '../../../entry/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
-import { serialize, type Token, tokenize } from '../html.ts';
 import { type Anchor, anchors, unlink } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 

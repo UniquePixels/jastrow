@@ -9,8 +9,8 @@
  * `docs/archive/retired-corpus-checks.md`.
  */
 import { describe, expect, it } from 'bun:test';
+import { tokenize } from '../../../entry/html.ts';
 import type { SourceEntry } from '../../types.ts';
-import { tokenize } from '../html.ts';
 import { anchors } from '../links.ts';
 import { checkMarkup } from '../markup.ts';
 import { fieldsOf } from '../no-new-text.ts';

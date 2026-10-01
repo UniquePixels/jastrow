@@ -17,8 +17,8 @@
  * strict sub-multiset of their input under the no-new-text gate. A gate
  * trip here is a bug in the rule, never a reason for an allowance.
  */
-import type { SourceEntry, SourceSense } from '../../types.ts';
-import type { Token } from '../html.ts';
+
+import type { Token } from '../../../entry/html.ts';
 import {
 	attributeInterior,
 	DIR_RTL,
@@ -27,7 +27,8 @@ import {
 	opensScope,
 	serialize,
 	tokenize,
-} from '../html.ts';
+} from '../../../entry/html.ts';
+import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex.

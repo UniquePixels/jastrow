@@ -44,11 +44,15 @@ date, and what it drops — see [`decisions.md`](decisions.md).
 | **fetch** (`data:fetch`) | downloads the current Sefaria export into `data/source/` |
 | **import** (`data:import`) | turns source data, reference data and correction data into entry data, checks it, and writes a report |
 | **dry import** (`data:import:dry`) | the same run with no entry data written: every check and every report, nothing in `data/entries/` |
+| **validate** (`data:validate`) | holds entry data to the entry contract (`admin/entry/`): every file under `data/entries/` and the page index, or only the named files' own checks. CI's Validate job; writes nothing |
 | **compile** (`data:compile`) | turns entry data into compiled data. Not built |
 
 The `data:` prefix groups the commands that move data from one form to
-the next, and only those. Step 10 gave it to `fetch` and `import` and
-reserved it for `compile`; no other script took it. Every other script
+the next, plus the one that checks entry data where it lies. Step 10
+gave it to `fetch` and `import` and reserved it for `compile`;
+`data:validate` took it on 2026-09-30 (ruling `09-30 entry contract`),
+named for the data it reads rather than a module, because the entry
+contract belongs to every writer, not to the pipeline. Every other script
 keeps a prefix naming the module it runs — `transform:count`,
 `transform:invariants` — or checks the repo (`qa`,
 `qa:*`). `body:dry-run` and `pageindex:verify` left with the one-shot
@@ -63,7 +67,7 @@ now writes the headword-issues report beside the others.
 | **dry run** | `bun data:import:dry`: checks and reports, and writes no entry data. It does rewrite the import report, the blessing doc, the review doc and the headword-issues report |
 | **write run** | `bun data:import` (which passes `--write`): writes entry data, then formats it with Biome. Refuses unless `data/entries/` is empty, and refuses if any gate is red |
 | **`--strict`** | makes a run refuse on a stale pin or a patch whose precondition no longer holds, instead of reporting them. Right for the committed snapshot, wrong for a new export |
-| **gate** | one of nine pass/total tallies import checks on every run: `bodyRoundTrips`, `headwordRoundTrip`, `textConservation`, `schema`, `chain`, `internalTargets`, `names`, `pages`, `composition` |
+| **gate** | one of ten pass/total tallies import checks on every run: `bodyRoundTrips`, `headwordLine`, `textConservation`, `schema`, `chain`, `internalTargets`, `names`, `pages`, `composition`, `contract` |
 | **import report** | the structured result of a run: gate tallies, rule counts, patch outcomes, report rows. Not committed (`data/source/migration-report.json`) |
 | **blessing doc** | the import report rendered for a person to read before accepting a run. Committed with the entry data it describes (`docs/reports/migration-blessing.md`) |
 | **report row** | one finding in the report, shaped `{ rid, bucket, kind, severity, detail }`. `bucket` is `review` (a data judgment), `patch` (a patch to re-judge) or `pipeline` (a code fault) |
@@ -136,9 +140,9 @@ What a run reports for each patch:
 
 | Term | Meaning |
 |---|---|
-| **unit tier** | every `*.test.ts`: fast (~2 s), run by `bun qa` and CI's **Test** job |
+| **unit tier** | every `*.test.ts`: fast (~2 s), run by `bun qa` and CI's **Test** job. The committed entry data is not in it: CI's **Validate** job (`bun data:validate`) checks that |
 | **hand-written example test** | a test that feeds a rule a small fixed input and checks its output. Never reads the source data |
-| **entry data validation** | the safeguard over every entry file: schema, file path, allowed tags, balanced markup, no markup in plain-text fields, unique current names and unique `sefariaHeadword` ([URL names spec](archive/specs/2026-09-21-url-names-design.md) §5.2), internal link targets, page matches the page index both ways. Runs in the unit tier |
+| **entry data validation** | the safeguard over every entry file: schema, file path, allowed tags, balanced markup, no markup in plain-text fields, unique current names and unique `sefariaHeadword` ([URL names spec](archive/specs/2026-09-21-url-names-design.md) §5.2), internal link targets, page matches the page index both ways, every stored string in NFC (except `sefariaHeadword`). The entry contract, `admin/entry/`: runs in CI's **Validate** job (`bun data:validate`) and as import's gate 10, `contract` — not in the unit tier |
 | **invariant check** | a test of rule *code* that needs the whole snapshot: commutation, and registry order's classes earned over the data. Run locally with `bun run transform:invariants` before rule-code PRs; not CI. Registry order's static assertions run in `bun qa` |
 | **corpus tier** | retired by the consolidation spec's step 5. The only files still named `*.corpus.test.ts` are the two invariant checks, `transform/commutation.corpus.test.ts` and `transform/registry.order.corpus.test.ts` |
 

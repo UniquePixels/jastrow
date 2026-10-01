@@ -59,6 +59,17 @@ fails if a path literal for `data/`, `docs/` or `app/` appears
 anywhere else in non-test module code. A different project runs the
 same pipeline over its own data by editing that one file.
 
+**One outward dependency: `admin/entry/`.** The entry contract — the
+entry types, the headword parser and its six rules, names, the
+page-index loader, the HTML tokenizer and the validator — is its own
+module beside this one (ruling `09-30 entry contract`), because the
+import is only one of its callers: CI runs it over the committed tree,
+and the admin tool will run it on save. The import may depend on it;
+it may depend on nothing here. `boundary.test.ts` asserts both
+directions, and `admin/entry/paths.ts` declares the three paths it
+reads (`ENTRIES_DIR`, `SCHEMA_PATH`, `PAGE_INDEX_PATH`), which this
+module's `paths.ts` re-exports rather than spelling again.
+
 Two identifiers in `paths.ts` are load-bearing beyond their values.
 `SOURCE_PATH` and `SNAPSHOT_FILES` are matched **by identifier** in
 `test-tiers.test.ts`'s corpus signals, which is how the test-tier
@@ -81,6 +92,10 @@ link.
   headword issues), no entry data. `--strict` works on either and
   promotes a stale snapshot pin and a drifted patch precondition from
   report rows to refusals.
+- `bun data:validate` — the entry contract (`admin/entry/`) over every
+  file under `data/entries/` and the page index; with file arguments,
+  each named file's own checks only. CI's Validate job. Exits non-zero
+  on any problem.
 - `bun qa` — format, lint, unit tests, `tsc`.
 - `bun run transform:invariants` — the two corpus-tier invariant
   tests (§4).
@@ -122,11 +137,13 @@ cannot be known one entry at a time.
    resolution, page attachment, catalogued-class detection, and the
    per-entry gates 2, 3 and 4.
 6. **Names gate** (gate 7), after pass 2.
-7. **Report and classify** — the machine report, the blessing doc, the
-   review doc, then `normalizeForWrite` over every entry and the
-   headword-issues report over those normalized entries — every run,
-   dry included, and before the red-gate refusal.
-8. **Write** (`--write` only): the already-normalized files, then
+7. **Normalize, then the contract gate** — `normalizeForWrite` over
+   every entry, then gate 10 (`contract`) over exactly those normalized
+   entries, each at the path the write would give it.
+8. **Report and classify** — the machine report, the blessing doc, the
+   review doc, and the headword-issues report over the normalized
+   entries — every run, dry included, and before the red-gate refusal.
+9. **Write** (`--write` only): the already-normalized files, then
    `biome format --write`, then the report again so its `written`
    count is accurate.
 
@@ -148,7 +165,8 @@ document says "truth entry" it means an entry-data file.
 
 `bun test` splits by filename, and `test-tiers.test.ts` asserts the
 split in both directions. The unit tier is `*.test.ts` and runs in
-`bun qa` and in CI. The invariant tier is
+`bun qa` and in CI. The committed entry data is not a unit test: CI's
+Validate job runs `bun data:validate` over it. The invariant tier is
 `transform/commutation.corpus.test.ts` and
 `transform/registry.order.corpus.test.ts`, run locally before
 rule-code changes; `bun qa` cannot see them. Per-PR CI never reads
@@ -180,13 +198,13 @@ separators. It is **optional and never defaulted**: where the source
 cannot settle the layout the key is absent and the row is flagged.
 
 One parser reads the whole headword line in a single pass
-(`migrate/headwords.ts`, `parseHeadwordLine`). There is no per-item
+(`admin/entry/headwords.ts`, `parseHeadwordLine`). There is no per-item
 regex decomposition and no byte-exact regeneration of Sefaria's split
 items; the shape no longer corresponds 1:1 to the source's split
 strings, so gate 2 was redefined instead (§9).
 
 Six shape rules are checked by `headwordShapeProblems`
-(`migrate/headword-rules.ts`, wired into `migrate/validate.ts`):
+(`admin/entry/headword-rules.ts`, wired into `admin/entry/validate.ts`):
 
 1. every form index appears in `display` exactly once (`checkSlots`);
 2. `display` holds no Hebrew (`checkNoHebrew`);
@@ -197,11 +215,11 @@ Six shape rules are checked by `headwordShapeProblems`
    is the entry's only name (`checkPartial`);
 6. every comparison normalizes to NFC first.
 
-Rule 4 is **implemented but reported, not halted on**:
-`HALT_ON_TEXT_DEFECT` is `false` in `migrate/headword-rules.ts`,
-because two entries still carry a literal `=` in `headwords[].text`
-and no patch op expresses the repair. A reader should not assume rule
-4 halts.
+Rule 4 **halts**: `HALT_ON_TEXT_DEFECT` is `true` in
+`admin/entry/headword-rules.ts` since the last two entries carrying a
+literal `=` in `headwords[].text` (A01175, A01345) were repaired by
+reviewed patches. A new one from upstream is a `headword-unparsed`
+row and a red gate 10.
 
 `gender` on a form and `grammar.gender` on the entry are mutually
 exclusive, and neither is inherited. The schema states the rule in
@@ -255,7 +273,7 @@ producer, and is absent from every entry. **UNBUILT.**
 ### The markup vocabulary
 
 Stored markup is six tags and nothing else: `b`, `cite`, `he`, `i`,
-`sub`, `sup` (`migrate/validate.ts`'s `VOCABULARY`). `markup.ts` keeps
+`sub`, `sup` (`admin/entry/validate.ts`'s `VOCABULARY`). `markup.ts` keeps
 four of the source's six tags and translates the other two —
 `span[dir=rtl]` becomes `<he>`, `a` becomes `<cite ref="…">`. Text
 bytes are never touched by the translation. A `cite` carries exactly
@@ -702,7 +720,7 @@ and the direction is the whole point of the pairing.
 
 **The name is not stored.** There is no `name` field and no `slug`
 field; there is no slug index. The name is computed from
-`headwords[0]` every time it is needed (`migrate/names.ts`), so it
+`headwords[0]` every time it is needed (`admin/entry/names.ts`), so it
 cannot drift the way a stored slug could.
 
 ```
@@ -734,9 +752,9 @@ a maintainer-supplied `disambiguator` on the form — the same tool
 Sefaria uses.
 
 `nameCollisions` is one function backing **both** the import gate
-(`migrate/gates.ts`'s `checkNames`) and the `bun qa` check
-(`migrate/validate.ts`'s `checkNames`), so a hand edit and a run cannot
-disagree about what a collision is.
+(`migrate/gates.ts`'s `checkNames`) and the entry contract
+(`admin/entry/validate.ts`'s `checkNames`), so a hand edit and a run
+cannot disagree about what a collision is.
 
 `formerNames` is declared in the schema and in `TruthEntry`, is
 optional, and **nothing writes it**. The two publication-time gates
@@ -758,8 +776,8 @@ column and a confidence value. It was built once from the print hOCR;
 the build tool is archived, and entry-level corrections are made by
 hand thereafter.
 
-`migrate/page.ts` copies `page: { number, column }` onto the entry by
-rid. All 32,512 rids are present; a duplicate rid throws.
+`admin/entry/page.ts` loads the index; `finishEntry` copies
+`page: { number, column }` onto the entry by rid. All 32,512 rids are present; a duplicate rid throws.
 
 **Confidence is read and never written onto the entry.** `high`,
 `medium` and `low` become `page-confidence-*` review rows and nothing
@@ -780,7 +798,7 @@ often enough to be worth carrying. The page index therefore never
 carries an inferred point.
 
 Entry data and the page index must agree **both ways**:
-`migrate/validate.ts`'s `checkPages` is the one check a hand edit
+`admin/entry/validate.ts`'s `checkPages` is the one check a hand edit
 meets, and an edit that changes a page must also update the index. The
 tool obliged to do that does not exist. **UNBUILT.**
 
@@ -788,7 +806,7 @@ tool obliged to do that does not exist. **UNBUILT.**
 
 ## 9. The gates
 
-Nine gates, defined as one list — `GATE_NAMES` in
+Ten gates, defined as one list — `GATE_NAMES` in
 `migrate/report.ts` — from which `GateName` derives and from which
 `createReport` seeds a tally each, so a gate cannot silently go
 missing. `isGreen` requires each gate to have been **reached**
@@ -832,10 +850,12 @@ composed-against-finished, never a rule against its own input, which
 is why `transform/no-lost-text.ts` exists.
 
 **4. `schema`** (Ajv 2020, `strict: true`, `allErrors: true`, compiled
-at run time from `data/schema/entry.schema.json`).
-*Proves:* every finished entry satisfies the contract.
+at run time from `data/schema/entry.schema.json` by the entry
+contract's `schemaValidator` — the same compiled validator gate 10
+uses).
+*Proves:* every finished entry satisfies the schema.
 *Cannot see:* anything the schema does not constrain. The module does
-not own the contract, it is handed one.
+not own the contract, it is handed one; gate 10 holds the rest of it.
 
 **5. `chain`** (`migrate/gates.ts`, `checkChain`).
 *Proves:* exactly one entry has no `prev_hw`; following `next_hw` from
@@ -876,10 +896,31 @@ the write.
 *Cannot see:* anything the composer handled without throwing or
 recording a problem.
 
+**10. `contract`** (`migrate/gates.ts`, `checkContract`, over the
+**normalized** entries — exactly what the write would put on disk —
+each at the path `writeAll` would give it). The entry contract
+(`admin/entry/validate.ts`, ruling `09-30 entry contract`): one mark
+per entry for `validateEntry` — schema, home path, the six headword
+rules, the closed tag vocabulary and balance per field, no markup in a
+plain field, every stored string in NFC — plus one mark for
+`validateCorpus`, each of whose findings is listed as a failure:
+current-name and `sefariaHeadword` uniqueness, every rid-shaped cite
+ref names an entry, and page agreeing with the page-index row both
+ways. A clean run reads 32,513/32,513.
+*Proves:* the import cannot write a tree CI's Validate job would
+refuse — the two run one validator, so they cannot disagree.
+*Cannot see:* anything about the source: every clause checks an entry
+against itself, the tree and the page index, so a faithful-looking
+entry that lost text upstream passes. It also cannot see whether
+`sefariaHeadword` is NFC — it is Sefaria's bytes (`VERBATIM_FIELDS`),
+exempt on purpose. Its name and `sefariaHeadword` clauses overlap gate
+7 and its page clause overlaps gate 8; the overlap is the point, since
+this is the half a hand edit meets without the snapshot.
+
 ### What no gate sees
 
 Collected, because this is the list a future reader needs and will not
-assemble from the nine entries above:
+assemble from the ten entries above:
 
 - **Text relocated across fields.** Two senses swapping definitions, or
   headword text moved into a definition, is invisible to all three
@@ -888,7 +929,9 @@ assemble from the nine entries above:
   still there.
 - **Crossed nesting, tag-name mismatch, and attribute-value corruption
   inside an otherwise well-formed tag** all pass the markup gate's two
-  axes untouched.
+  axes untouched. Gate 10 catches the first two on the written
+  vocabulary (a close must match the innermost open), but not a
+  corrupted `cite ref` value that still names an existing entry.
 - **Marks reattaching to a different base.** The text gate counts
   codepoints, not graphemes.
 - **An unrecorded entanglement.** `checkAdjacency` proves that no
@@ -910,7 +953,9 @@ assemble from the nine entries above:
   gates.
 - **A data regression in CI.** Per-PR CI never reads `data/source/` and
   never runs import, so it cannot see one. That is a deliberate,
-  stated cost.
+  stated cost. What CI does see is the committed tree against the entry
+  contract (`bun data:validate`) — gate 10's clauses, never a
+  source gate's.
 
 ---
 
@@ -974,13 +1019,23 @@ checks and never rewrites.
 
 ### What a hand edit meets
 
-Entry-data validation (`migrate/validate.ts`, run over the committed
-tree by `migrate/truth.test.ts`) is the only check a hand edit meets:
-schema; file at `<letter>/<id>.json`; current-name uniqueness in NFC;
-`sefariaHeadword` uniqueness; the six headword shape rules; the closed
-tag vocabulary and balanced markup per field; no markup in plain
-identifier fields; every rid-shaped cite ref names an existing entry;
-and page agreeing with the page-index row both ways.
+The entry contract (`admin/entry/validate.ts`) is the only check a
+hand edit meets — and the import meets the same one, as gate 10, so a
+file cannot pass one and fail the other. CI's Validate job runs it
+(`bun data:validate`) over the committed tree; the admin tool, when it
+is written, runs it on save.
+
+Per file (`validateEntry`): schema; file at `<letter>/<id>.json`; the
+six headword shape rules; the closed tag vocabulary and balanced
+markup per field; no markup in plain identifier fields; and every
+stored string in NFC, except `sefariaHeadword`, which keeps Sefaria's
+bytes. Across the tree (`validateCorpus`): current-name uniqueness in
+NFC; `sefariaHeadword` uniqueness; every rid-shaped cite ref names an
+existing entry; and page agreeing with the page-index row both ways.
+
+What a hand edit does **not** meet is anything that needs the source:
+gates 1–3, 5 and 9, and gate 7's clause that `sefariaHeadword` still
+equals Sefaria's. Those run only in an import.
 
 ---
 
@@ -1109,30 +1164,30 @@ so cannot be inferred from reading the code that is there.
     place.** A line whose grammar does not read is kept whole per item
     and flagged `headword-unparsed`, never partially parsed — *a line
     that is wrong in one place gives no ground to trust the rest of
-    it* (`migrate/headwords.ts:592-617`).
+    it* (`admin/entry/headwords.ts:592-617`).
 29. **No `display` template is ever invented.** A line the source
     cannot settle is written with `display` unset and the row flagged.
     A flagged row is a ticket, not a guess
-    (`migrate/headword-rules.ts:263-268`; `migrate/publication.ts:80`).
+    (`admin/entry/headword-rules.ts:262-267`; `migrate/publication.ts:80`).
     A reviewed patch may correct a **placement** but not the notation
     (`migrate/gates.ts:244-260`).
 30. **Parenthesis placement is never corrected by the parser.** Only
     what the source shows is recorded
-    (`migrate/headwords.ts:28-34`).
+    (`admin/entry/headwords.ts:28-34`).
 31. **Roman numerals are never moved** off the form they are attached
-    to in the source (`migrate/headwords.ts:396-460`).
+    to in the source (`admin/entry/headwords.ts:396-460`).
 32. **`partial` forms are never expanded or joined.** Joining an
     ellipsis ending would require assuming the letters before the seam
     keep the base form's vowels, which prohibition 23 forbids. The
-    marking is at `migrate/headwords.ts:462-484`; the rationale is the
+    marking is at `admin/entry/headwords.ts:462-484`; the rationale is the
     no-vowel-inference ruling, not a comment there.
 33. **A `partial` form is never a lookup key**, except at index 0 when
     it is the entry's only name
-    (`migrate/headword-rules.ts:213-236`).
+    (`admin/entry/headword-rules.ts:212-235`).
 34. **`display` may hold no Hebrew**, and a form's `text` may hold no
     comma, parenthesis, `?`, `=`, `…` or Latin letter — both checked by
-    `headwordShapeProblems`, though the second currently reports rather
-    than halts (§2).
+    `headwordShapeProblems`, and both halt — in the entry contract,
+    so in gate 10 and in CI's Validate job (§2).
 35. **No vowel is inferred from OCR.** All marks are stripped before an
     OCR'd running head is matched against a headword, because Tesseract
     drops and invents niqqud freely; the page index never carries an

@@ -250,7 +250,12 @@
 			}
 		},
 		{
-			"includes": ["admin/pipeline/**/*.ts", "!admin/pipeline/**/*.test.ts"],
+			"includes": [
+				"admin/pipeline/**/*.ts",
+				"!admin/pipeline/**/*.test.ts",
+				"admin/entry/**/*.ts",
+				"!admin/entry/**/*.test.ts"
+			],
 			"linter": {
 				"rules": {
 					"correctness": {

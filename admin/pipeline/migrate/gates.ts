@@ -1,13 +1,27 @@
-// biome-ignore-all lint/style/noExcessiveLinesPerFile: the nine blessing gates in one place, so the set a run checks is readable at a glance.
-/** Gates 2, 3, 5, 6, 7, 8 of migrate spec §4.1, each a tally. Gate 1
- * (body round-trips), 4 (schema) and 9 (composition failures) live
- * with the composer and the CLI. */
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: the blessing gates in one place, so the set a run checks is readable at a glance.
+/** Gates 2, 3, 5, 6, 7, 8 of migrate spec §4.1 and gate 10, each a
+ * tally. Gate 1 (body round-trips), 4 (schema) and 9 (composition
+ * failures) live with the composer and the CLI. */
 
-import { tokenize } from '../transform/html.ts';
+import { tokenize } from '../../entry/html.ts';
+import { nameCollisions } from '../../entry/names.ts';
+import type { PagePlacement } from '../../entry/page.ts';
+import type { TruthEntry } from '../../entry/types.ts';
+import {
+	checkEntry,
+	schemaValidator,
+	validateCorpus,
+} from '../../entry/validate.ts';
 import type { BodyEntry, SourceEntry } from '../types.ts';
-import { nameCollisions } from './names.ts';
-import type { PagePlacement } from './page.ts';
-import type { Tally, TruthEntry } from './types.ts';
+
+/** A gate result: a count against a fixed total, plus the failing
+ * lines. An import concept, not an entry one — it stayed here when the
+ * entry shapes moved to `admin/entry/types.ts`. */
+interface Tally {
+	failures: string[];
+	pass: number;
+	total: number;
+}
 
 /** An empty tally: no marks, no failures. */
 function tally(): Tally {
@@ -511,8 +525,46 @@ function checkPages(
 	return t;
 }
 
+/** Gate 10: the entry contract (`admin/entry/`) over exactly what the
+ * run is about to write — the NORMALIZED entries, each at the path
+ * `pathOf` will write it to. One mark per entry for its own checks,
+ * plus ONE mark for the corpus checks (names, `sefariaHeadword`, cite
+ * targets, the page index both ways), each of whose problems is listed
+ * as its own failure. A clean run reads 32,513/32,513; a corpus
+ * problem shows as a missing pass, never as `N/N` beside a failure.
+ *
+ * This is the same contract a hand edit meets in CI's Validate job,
+ * so the import cannot write a tree that job would refuse. The corpus
+ * half reads only entries that passed the schema: the checks after it
+ * assume the shape, and a schema failure is already a red mark. */
+async function checkContract(
+	entries: readonly TruthEntry[],
+	pages: ReadonlyMap<string, PagePlacement>,
+	pathOf: (rid: string) => string,
+): Promise<Tally> {
+	const t = tally();
+	const valid: TruthEntry[] = [];
+	const schema = await schemaValidator();
+	for (const entry of entries) {
+		const [shaped, problems] = checkEntry(schema, entry, pathOf(entry.id));
+		mark(t, problems.length === 0, problems.join('; '));
+		if (shaped !== undefined) {
+			valid.push(shaped);
+		}
+	}
+	const corpus = validateCorpus(valid, pages);
+	t.total++;
+	if (corpus.length === 0) {
+		t.pass++;
+	}
+	t.failures.push(...corpus);
+	return t;
+}
+
+export type { Tally };
 export {
 	checkChain,
+	checkContract,
 	checkHeadwordLine,
 	checkNames,
 	checkPages,

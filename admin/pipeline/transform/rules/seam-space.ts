@@ -145,10 +145,11 @@
  * measured criterion — see the parent brief's ruling against tuning a
  * predicate to hit a number.
  */
+
+import { serialize, tokenize } from '../../../entry/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { ABBREVIATIONS } from '../abbrev-vocab.ts';
 import { mapFields } from '../fields.ts';
-import { serialize, tokenize } from '../html.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex.

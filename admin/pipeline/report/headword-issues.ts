@@ -21,9 +21,9 @@
  * sorting).
  */
 import { dirname, relative } from 'node:path';
-import { isHeadwordReviewKind } from '../migrate/headwords.ts';
-import { nameOf } from '../migrate/names.ts';
-import type { FormObject, TruthEntry } from '../migrate/types.ts';
+import { isHeadwordReviewKind } from '../../entry/headwords.ts';
+import { nameOf } from '../../entry/names.ts';
+import type { FormObject, TruthEntry } from '../../entry/types.ts';
 import { DESIGN_PATH, HEADWORD_ISSUES_DOC } from '../paths.ts';
 
 const APP_URL = 'https://jastrow.app/#rid:';

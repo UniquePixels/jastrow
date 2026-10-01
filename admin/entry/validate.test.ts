@@ -1,7 +1,8 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the builders they share read as one unit.
 /**
- * Controls for `validate.ts`. `truth.test.ts` passing on the committed
- * tree is a null result; these show each check CAN fire, one planted
- * defect at a time, and that it names the defect it found.
+ * Controls for `validate.ts`. `bun data:validate` passing on the
+ * committed tree is a null result; these show each check CAN fire, one
+ * planted defect at a time, and that it names the defect it found.
  */
 import { describe, expect, it } from 'bun:test';
 import type { PagePlacement } from './page.ts';
@@ -10,8 +11,18 @@ import {
 	loadTruthFiles,
 	markupProblems,
 	type TruthFile,
+	validateCorpus,
+	validateEntry,
 	validateTruth,
 } from './validate.ts';
+
+/** Shin with qamats and shin dot, marks in the wrong order: canonical
+ * order puts qamats (class 18) before the shin dot (class 24), so this
+ * spelling is not its own NFC form while looking identical to it — the
+ * shape a paste from another editor arrives in. Built from escapes,
+ * never a pasted literal, which an editor may normalize silently. */
+const NOT_NFC = '\u05E9\u05C1\u05B8';
+const NFC = NOT_NFC.normalize('NFC');
 
 /** `headword` and `sefariaHeadword` are both the given word, so a
  * planted defect in either is the only thing the tree disagrees on. */
@@ -63,6 +74,8 @@ describe('markupProblems', () => {
 		['<i>x</b>', ['</b> closes <i>']],
 		['x</i>', ['</i> closes nothing']],
 		['<he>x', ['unclosed: he']],
+		['x <i', ['stray angle bracket in text: x <i']],
+		['<i>a</i> b>', ['stray angle bracket in text:  b>']],
 	])('%s', (html, expected) => {
 		expect(markupProblems(html).problems).toEqual(expected);
 	});
@@ -111,11 +124,13 @@ describe('validateTruth', () => {
 			// §4 drops `( ) ? ,` from the name: `(אב)` and `אב` are two
 			// headwords and one URL, which nothing but this check sees.
 			// Rule 4 refuses the same parenthesis: the notation the name
-			// strips is exactly what a form's text may not hold.
+			// strips is exactly what a form's text may not hold. The file's
+			// own finding comes first: `validateTruth` runs every file
+			// before the corpus.
 			tree(A(), { ...B(), headwords: [{ text: '(אב)' }] }),
 			[
-				'A00002: name אב taken by A00001',
 				'A00002: headwords[0].text carries "(", which belongs in display or the gloss (§3.1 rule 4)',
+				'A00002: name אב taken by A00001',
 			],
 		],
 		[
@@ -217,10 +232,10 @@ describe('validateTruth', () => {
 			tree(A(), { ...B(), page: { number: 2, column: 'b' } }),
 			'A00002: page p2b but the page index says p1a',
 		],
-		// The §3.1 rules, one planted defect each. Rule 4 is armed and
-		// HELD (`headword-rules.ts`), so it has no case here — its
-		// controls live in `headword-rules.test.ts`, where the switch can
-		// be read on both settings.
+		// The §3.1 rules, one planted defect each. Rule 4 halts
+		// (`HALT_ON_TEXT_DEFECT` is true); its findings appear in the
+		// notation and markup cases above, and the switch's own controls
+		// live in `headword-rules.test.ts`.
 		[
 			'a display that names the wrong slots (rule 1)',
 			tree(A(), {
@@ -260,7 +275,7 @@ describe('validateTruth', () => {
 
 	it('reads files at every depth, so a misplaced one is reported', async () => {
 		const { files, problems } = await loadTruthFiles(
-			'admin/pipeline/migrate/fixtures/truth-tree',
+			`${import.meta.dir}/fixtures/truth-tree`,
 		);
 		expect(problems).toEqual([]);
 		expect(files.map((f) => f.path)).toEqual([
@@ -283,5 +298,94 @@ describe('validateTruth', () => {
 			'A00002: no page-index row (truth has p1a)',
 			'page-index row A00003 has no entry',
 		]);
+	});
+});
+
+describe('the NFC clause', () => {
+	it('the planted spelling is a real NFC defect — positive control', () => {
+		// Without this, a constant that an editor had normalized would
+		// make every case below pass for the wrong reason.
+		expect(NOT_NFC).not.toBe(NFC);
+		expect(NOT_NFC.normalize('NFD')).toBe(NFC.normalize('NFD'));
+	});
+
+	it('passes the same word in NFC', async () => {
+		expect(
+			await validateEntry(
+				entry('A00001', 'אב', `gloss ${NFC}`),
+				'A/A00001.json',
+			),
+		).toEqual([]);
+	});
+
+	it.each([
+		[
+			'a gloss',
+			{ ...A(), senses: [{ gloss: NOT_NFC, units: [] }] },
+			'senses[0].gloss',
+		],
+		[
+			'a nested stem sense unit',
+			{
+				...A(),
+				stems: [
+					{
+						stem: 'Pi.',
+						forms: [],
+						senses: [
+							{
+								gloss: 'g',
+								units: [],
+								senses: [{ gloss: 'n', units: ['x', NOT_NFC] }],
+							},
+						],
+					},
+				],
+			},
+			'stems[0].senses[0].senses[0].units[1]',
+		],
+		[
+			'a headword form',
+			{ ...A(), headwords: [{ text: `אב${NOT_NFC}` }] },
+			'headwords[0].text',
+		],
+	])('fires on a decomposed spelling in %s, naming the field', async (_name, planted, field) => {
+		expect(await validateEntry(planted, 'A/A00001.json')).toEqual([
+			`A00001: ${field}: not NFC`,
+		]);
+	});
+
+	it('does not ask sefariaHeadword to be NFC — it is Sefaria’s bytes', async () => {
+		// `VERBATIM_FIELDS`: the import's NFC write leaves this field
+		// alone, so the contract must not refuse what the import writes.
+		expect(
+			await validateEntry(
+				{ ...A(), sefariaHeadword: NOT_NFC },
+				'A/A00001.json',
+			),
+		).toEqual([]);
+	});
+});
+
+describe('the two halves', () => {
+	it('validateEntry answers only what one file can: a dangling cite is not its finding', async () => {
+		const dangling = entry('A00002', 'אבא', '<cite ref="A09999">x</cite>');
+		expect(await validateEntry(dangling, 'A/A00002.json')).toEqual([]);
+		expect(
+			validateCorpus([A(), dangling], pagesFor('A00001', 'A00002')),
+		).toEqual(['A00002: senses[0].gloss: cite ref A09999 names no entry']);
+	});
+
+	it('validateCorpus answers only what the tree can: markup is not its finding', () => {
+		const bad = { ...B(), senses: [{ gloss: '<he>x', units: [] }] };
+		expect(validateCorpus([A(), bad], pagesFor('A00001', 'A00002'))).toEqual(
+			[],
+		);
+	});
+
+	it('validateEntry reports a schema failure by path and stops there', async () => {
+		const problems = await validateEntry({ id: 'A00001' }, 'A/A00001.json');
+		expect(problems).toHaveLength(1);
+		expect(problems[0]).toStartWith('A/A00001.json: schema: ');
 	});
 });
