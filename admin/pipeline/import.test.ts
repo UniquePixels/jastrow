@@ -14,11 +14,11 @@
  * hand-built. The unit tier stays a fast tier.
  */
 import { afterAll, describe, expect, it } from 'bun:test';
-import { mark } from './migrate/gates.ts';
-import { actionOf, classifyRows, PUBLICATION } from './migrate/publication.ts';
-import type { Report, ReportRow } from './migrate/report.ts';
-import { createReport, GATE_NAMES, isGreen } from './migrate/report.ts';
-import { outputTreeIsEmpty, refuseUnlessEmpty } from './migrate.ts';
+import { mark } from './import/gates.ts';
+import { actionOf, classifyRows, PUBLICATION } from './import/publication.ts';
+import type { Report, ReportRow } from './import/report.ts';
+import { createReport, GATE_NAMES, isGreen } from './import/report.ts';
+import { outputTreeIsEmpty, refuseUnlessEmpty } from './import.ts';
 
 /** A scratch tree under the runner's own temp directory. Never
  * `data/entries`: the point of the guard is that it refuses a

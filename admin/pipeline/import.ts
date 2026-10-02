@@ -24,10 +24,10 @@ import { evaluateRoundTrip } from './body/round-trip.ts';
 import { readSourceEntries } from './body/source.ts';
 import { buildTrace } from './body/trace.ts';
 import { composeEntry, TransformFailure } from './compose.ts';
-import { biomeBinary } from './migrate/biome.ts';
-import { buildHeadwordMap } from './migrate/cite.ts';
-import { detectClasses } from './migrate/detectors/classes.ts';
-import { finishEntry } from './migrate/finish.ts';
+import { biomeBinary } from './import/biome.ts';
+import { buildHeadwordMap } from './import/cite.ts';
+import { detectClasses } from './import/detectors/classes.ts';
+import { finishEntry } from './import/finish.ts';
 import {
 	checkChain,
 	checkContract,
@@ -36,17 +36,17 @@ import {
 	checkPages,
 	checkTextConservation,
 	mark,
-} from './migrate/gates.ts';
-import { normalizeForWrite } from './migrate/normalize.ts';
-import { type RunOptions, runOptions } from './migrate/options.ts';
-import { unbasedOrphans } from './migrate/orphan-refs.ts';
+} from './import/gates.ts';
+import { normalizeForWrite } from './import/normalize.ts';
+import { type RunOptions, runOptions } from './import/options.ts';
+import { unbasedOrphans } from './import/orphan-refs.ts';
 import {
 	markMissingTargets,
 	type PatchGroups,
 	recordConsolidatedAway,
 	recordPatchOutcomes,
-} from './migrate/patches.ts';
-import { classifyRows } from './migrate/publication.ts';
+} from './import/patches.ts';
+import { classifyRows } from './import/publication.ts';
 import {
 	BLESSING_PATH,
 	createReport,
@@ -59,12 +59,12 @@ import {
 	renderBlessing,
 	type Sample,
 	writeReport,
-} from './migrate/report.ts';
+} from './import/report.ts';
 import {
 	loadUndetectedClasses,
 	REVIEW_REPORT_PATH,
 	renderReviewReport,
-} from './migrate/review-report.ts';
+} from './import/review-report.ts';
 import {
 	corpusPreflight,
 	loadAcceptedCorpus,
