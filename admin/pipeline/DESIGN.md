@@ -46,8 +46,8 @@ under `data/`.
 | Path | What it is |
 |---|---|
 | `data/entries/<L>/<rid>.json` | one file per entry, `<L>` the rid's first letter |
-| `data/source/migration-report.json` | the machine-readable account of one run |
-| [`docs/reports/migration-blessing.md`](../../docs/reports/migration-blessing.md) | the evidence a person reads before accepting a run |
+| `data/source/import-report.json` | the machine-readable account of one run |
+| [`docs/reports/import-blessing.md`](../../docs/reports/import-blessing.md) | the evidence a person reads before accepting a run |
 | [`docs/reports/review-report.md`](../../docs/reports/review-report.md) | one row per item a person must judge |
 
 ### The boundary, and `paths.ts`
@@ -150,11 +150,14 @@ things and are asserted separately.
 ### The names the code kept
 
 The data terms are **source**, **entry**, **compiled**, **reference**
-and **correction** data, and the command is `data:import`. The code
-identifiers deliberately kept the older words: `migrate.ts`,
-`migrate/`, `TruthEntry`, `TruthFile`, `TruthSense`, `validateTruth`,
-`loadTruthFiles`, `formatTruth`. A rename would have touched every
-file to no benefit, so prose and code disagree on purpose. Where this
+and **correction** data, and the command is `data:import`. The
+`migrate` names in code followed on 2026-10-02 (R8): the entry point,
+its directory, the report path and the blessing doc are now
+`import.ts`, `import/`, `IMPORT_REPORT_PATH` and `import-blessing.md`.
+The `Truth*` identifiers still keep the older word: `TruthEntry`,
+`TruthFile`, `TruthSense`, `validateTruth`, `loadTruthFiles`,
+`formatTruth`. Their rename is the other half of R8, a change of its
+own, so until then prose and code disagree on purpose. Where this
 document says "truth entry" it means an entry-data file.
 
 ### Test tiers
@@ -480,17 +483,17 @@ them in patch-id order after the rid's accepted patches:
 
 **Patch outcomes.** Every patch offered to an entry — reviewed,
 accepted or carry-over alike — resolves to exactly one of four values
-in the report's `patchOutcomes` (`PatchOutcome`, `migrate/report.ts:81`):
+in the report's `patchOutcomes` (`PatchOutcome`, `import/report.ts:81`):
 `applied`, `superseded`, `upstream-fixed` or `upstream-changed` (the
 last two are `DriftOutcome`). `recordPatchOutcomes`
-(`migrate/patches.ts:31`) assigns it: a drifted patch takes its drift
+(`import/patches.ts:31`) assigns it: a drifted patch takes its drift
 outcome; an absorbed carry-over patch is `superseded` **by
 construction** — absorption decided it, not `classifyDrift`, so it is
 never drift-classified even though it never applied; everything else
 that didn't fail its apply gate is `applied`, carried carry-over
 included. A patch that fails its apply gate gets **no outcome at
 all** — it is skipped in that count and instead becomes a `kind:
-'patch-failed'`, `severity: 'fault'` row (`migrate.ts:201-208`).
+'patch-failed'`, `severity: 'fault'` row (`import.ts:201-208`).
 
 **Manifests.** One JSONL record per input rid, exactly one disposition:
 `clean`, `repaired`, `needs_print_check`, `needs_human_judgment`.
@@ -535,7 +538,7 @@ corpus-wide pass that drops a trailing empty `binyan_form` slot before
 any transform runs. Rid-keyed literal edits are not in this file; a
 per-entry judged fix is a reviewed patch.
 
-**Review detectors** (`migrate/detectors/`) are `(entry) => ClassRow[]`
+**Review detectors** (`import/detectors/`) are `(entry) => ClassRow[]`
 with no repair. `detectors/classes.ts` stamps `bucket: 'review'` in
 one place so no detector can file itself as a pipeline fault.
 Detectors run on the **finished** entry: a predicate written against
@@ -749,7 +752,7 @@ a maintainer-supplied `disambiguator` on the form — the same tool
 Sefaria uses.
 
 `nameCollisions` is one function backing **both** the import gate
-(`migrate/gates.ts`'s `checkNames`) and the entry contract
+(`import/gates.ts`'s `checkNames`) and the entry contract
 (`admin/entry/validate.ts`'s `checkNames`), so a hand edit and a run
 cannot disagree about what a collision is.
 
@@ -804,7 +807,7 @@ tool obliged to do that does not exist. **UNBUILT.**
 ## 9. The gates
 
 Ten gates, defined as one list — `GATE_NAMES` in
-`migrate/report.ts` — from which `GateName` derives and from which
+`import/report.ts` — from which `GateName` derives and from which
 `createReport` seeds a tally each, so a gate cannot silently go
 missing. `isGreen` requires each gate to have been **reached**
 (`total > 0`) as well as failure-free, and refuses on `entries === 0`.
@@ -819,7 +822,7 @@ properties intact — rejoin, units, lettered, form-section.
 *Cannot see:* anything the body model does not represent. It is a
 round-trip of that model, not a comparison against the source bytes.
 
-**2. `headwordLine`** (`migrate/gates.ts`, `checkHeadwordLine`).
+**2. `headwordLine`** (`import/gates.ts`, `checkHeadwordLine`).
 Three marks per entry, each comparing the composed **source** line
 against the written entry — never against the parser that produced it:
 (a) every Hebrew character of the line reaches a form, in order, and no
@@ -836,7 +839,7 @@ not keep them; an unsettleable line's notation; and which form a mark
 belongs to beyond the multiset. Mark (b) is therefore the only thing
 standing between a placement correction and invented notation.
 
-**3. `textConservation`** (`migrate/gates.ts`).
+**3. `textConservation`** (`import/gates.ts`).
 *Proves:* tag-stripped text agrees field by field between the composed
 body and the finished entry, with `pairs()` walking to the **longer**
 of the two sides at every depth and emitting an array-length pair at
@@ -854,7 +857,7 @@ uses).
 *Cannot see:* anything the schema does not constrain. The module does
 not own the contract, it is handed one; gate 10 holds the rest of it.
 
-**5. `chain`** (`migrate/gates.ts`, `checkChain`).
+**5. `chain`** (`import/gates.ts`, `checkChain`).
 *Proves:* exactly one entry has no `prev_hw`; following `next_hw` from
 it visits every rid in rid order; a `next_hw` naming no headword or a
 rid outside the corpus fails; the walk terminates, rejecting both a
@@ -869,7 +872,7 @@ and the fix is a patch.
 *Cannot see:* whether a target that DOES resolve names the right
 entry.
 
-**7. `names`** (`migrate/gates.ts`, `checkNames`, two marks per entry
+**7. `names`** (`import/gates.ts`, `checkNames`, two marks per entry
 over the **finished** entries).
 *Proves:* the current name is unique in NFC and non-empty; and
 `sefariaHeadword` equals the snapshot's headword for that rid, compared
@@ -880,7 +883,7 @@ unnoticed.
 equals Sefaria's. Outside an import run nothing can ask, because
 per-PR CI never reads `data/source/`.
 
-**8. `pages`** (`migrate/gates.ts`).
+**8. `pages`** (`import/gates.ts`).
 *Proves:* every entry has a page-index row with an a/b column.
 *Cannot see:* whether the placement is correct. Confidence is a review
 row, never a gate failure.
@@ -893,7 +896,7 @@ the write.
 *Cannot see:* anything the composer handled without throwing or
 recording a problem.
 
-**10. `contract`** (`migrate/gates.ts`, `checkContract`, over the
+**10. `contract`** (`import/gates.ts`, `checkContract`, over the
 **normalized** entries — exactly what the write would put on disk —
 each at the path `writeAll` would give it). The entry contract
 (`admin/entry/validate.ts`, ruling `09-30 entry contract`): one mark
@@ -965,7 +968,7 @@ silent.
 
 `publication` takes three values — `blocks`, `defer`, `note` — fixed
 per row **kind**, never per row. `KIND_RULES` and `CLASS_KINDS` in
-`migrate/publication.ts` are one line per kind, each carrying the
+`import/publication.ts` are one line per kind, each carrying the
 publication value **and** the one imperative sentence the report prints
 at the head of that kind's section.
 
@@ -994,7 +997,7 @@ publish while `blocks` rows exist.
 
 ### The report
 
-One run's complete account of itself (`migrate/report.ts`). It is the
+One run's complete account of itself (`import/report.ts`). It is the
 pipeline's only witness: a class not represented on the report object
 is one no reviewer can be shown. Two runs are diffable row by row.
 
@@ -1140,7 +1143,7 @@ so cannot be inferred from reading the code that is there.
     (`transform/rules/gershayim.ts:45`,
     `transform/rules/geresh-apostrophe.ts:77`).
 24. **No count is ever a gate.** A rule count of 0 is information, not
-    a failure (`migrate/report.ts:200-204`), and there is no second
+    a failure (`import/report.ts:200-204`), and there is no second
     copy of the counts: per-rule count pins and an expected-counts file
     were withdrawn and never built.
 
@@ -1165,9 +1168,9 @@ so cannot be inferred from reading the code that is there.
 29. **No `display` template is ever invented.** A line the source
     cannot settle is written with `display` unset and the row flagged.
     A flagged row is a ticket, not a guess
-    (`admin/entry/headword-rules.ts:262-267`; `migrate/publication.ts:80`).
+    (`admin/entry/headword-rules.ts:262-267`; `import/publication.ts:80`).
     A reviewed patch may correct a **placement** but not the notation
-    (`migrate/gates.ts:244-260`).
+    (`import/gates.ts:244-260`).
 30. **Parenthesis placement is never corrected by the parser.** Only
     what the source shows is recorded
     (`admin/entry/headwords.ts:28-34`).
@@ -1222,8 +1225,8 @@ so cannot be inferred from reading the code that is there.
     appeared (fault row **and** red gate 9), and a carry-over resolving
     an unexpected non-zero count.
 43. **No review row reaches the report unclassified**
-    (`migrate/publication.ts:147` throws on an unknown kind;
-    `migrate/review-report.ts:126` throws on an unstamped row).
+    (`import/publication.ts:147` throws on an unknown kind;
+    `import/review-report.ts:126` throws on an unstamped row).
 44. **No detector may repair, and none may file itself as a fault.**
 45. **The write does not begin until every gate has passed, and it is
     not interactive.** The biome binary is resolved before anything is

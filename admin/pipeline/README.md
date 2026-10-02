@@ -5,7 +5,7 @@ the app will serve. Read top to bottom, this is how the dictionary is
 built from scratch: fetch the source, run it through import into
 entry data, then — **UNBUILT**, `compile.ts` does not exist yet — compile
 entry data into compiled data on every deploy.
-`migrate.ts` is permanent and re-runnable — a run regenerates a
+`import.ts` is permanent and re-runnable — a run regenerates a
 candidate tree and a report; it never silently overwrites edited
 entry data. The design behind every stage, including why it works
 this way, is [`DESIGN.md`](DESIGN.md).
@@ -14,7 +14,7 @@ this way, is [`DESIGN.md`](DESIGN.md).
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
 | Print locator index | `page-index/build.ts` | built 2026-08-17, data committed; tool archived at `refs/tags/archive/v2-research-2026-09` | none — one-time build; admin tool corrects entries afterward |
-| Import (source data → entry data) | `migrate.ts` | working; complete as of 2026-09-22, last run the same day | on demand, re-runnable |
+| Import (source data → entry data) | `import.ts` | working; complete as of 2026-09-22, last run the same day | on demand, re-runnable |
 | Compile (entry data → compiled data) | `compile.ts` | designed, **not built — next** | every deploy |
 
 Every ruling behind the module, with what it drops, is indexed in
@@ -51,8 +51,8 @@ dry or not:
 
 | Document | What it is |
 |---|---|
-| `data/source/migration-report.json` | the machine-readable report (gitignored) |
-| [`docs/reports/migration-blessing.md`](../../docs/reports/migration-blessing.md) | the evidence a person reads before accepting a run |
+| `data/source/import-report.json` | the machine-readable report (gitignored) |
+| [`docs/reports/import-blessing.md`](../../docs/reports/import-blessing.md) | the evidence a person reads before accepting a run |
 | [`docs/reports/review-report.md`](../../docs/reports/review-report.md) | one row per item a person must judge |
 | [`docs/reports/headword-issues.md`](../../docs/reports/headword-issues.md) (+ `.csv`) | every headword shape a headword rule has to rule on |
 
@@ -125,7 +125,7 @@ this stage, so `data/source/` is a faithful snapshot of the source.
 `word_form.bson` is cached for later use (search word forms) but not
 yet emitted.
 
-## Stage 2 — Import (`migrate.ts`)
+## Stage 2 — Import (`import.ts`)
 
 ```bash
 bun data:import:dry   # dry run: the reports, no entry data
@@ -145,13 +145,13 @@ general), patches (one entry's judged fix), or review detectors
 blessing gates of [`DESIGN.md`](DESIGN.md) §9; a red gate refuses to
 write. Gate 10 holds what the run would write to the entry contract
 in [`admin/entry/`](../entry/README.md) — the same check
-`bun data:validate` runs over the committed tree in CI. `migrate.ts` is re-runnable: it never chokes on the data it is
+`bun data:validate` runs over the committed tree in CI. `import.ts` is re-runnable: it never chokes on the data it is
 given, and it never silently overwrites hand edits in entry data.
 
 Every run ends in a report a person reads before the output ships —
-the import report `data/source/migration-report.json`, rendered as
+the import report `data/source/import-report.json`, rendered as
 the blessing doc
-[`docs/reports/migration-blessing.md`](../../docs/reports/migration-blessing.md).
+[`docs/reports/import-blessing.md`](../../docs/reports/import-blessing.md).
 The report holds the ten gate tallies, one row per review item, patch
 re-judgment or pipeline fault, and a composed count per rule, plus an
 outcome per patch — see [`DESIGN.md`](DESIGN.md) §5 for the four
