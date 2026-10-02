@@ -16,7 +16,7 @@
  * rejoin the span, and only the print page says how far it reaches.
  */
 
-import type { TruthEntry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/types.ts';
 import { textOf } from '../gates.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { fieldsOf, type SenseAt, walkSenses } from './senses.ts';
@@ -37,7 +37,7 @@ function ownText(at: SenseAt): string {
 }
 
 /** One row per entry naming every sense whose text ends with `[`. */
-function detectStrandedOpenBracket(entry: TruthEntry): ClassRow[] {
+function detectStrandedOpenBracket(entry: Entry): ClassRow[] {
 	const sites = [...walkSenses(entry)]
 		.filter((at) => ownText(at).trimEnd().endsWith('['))
 		.map((at) => `${at.path}: text ends with a bare "["`);

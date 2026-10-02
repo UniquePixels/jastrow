@@ -5,14 +5,14 @@
  * itself as a pipeline fault.
  */
 
-import type { TruthEntry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/types.ts';
 import type { ReportRow } from '../report.ts';
 
 /** A review row before its bucket: `{rid, kind, severity, detail}`. */
 type ClassRow = Omit<ReportRow, 'bucket' | 'publication'>;
 
-/** A catalogued class's detector over one finished truth entry. */
-type ClassDetector = (entry: TruthEntry) => ClassRow[];
+/** A catalogued class's detector over one finished entry. */
+type ClassDetector = (entry: Entry) => ClassRow[];
 
 /** The one row an entry contributes to a class, or none when it holds
  * no site.
@@ -23,7 +23,7 @@ type ClassDetector = (entry: TruthEntry) => ClassRow[];
  * would report a figure the catalogue cannot be read against. Each
  * site is named in `detail` instead, and none is lost. */
 function entryRow(
-	entry: TruthEntry,
+	entry: Entry,
 	kind: string,
 	sites: readonly string[],
 ): ClassRow[] {

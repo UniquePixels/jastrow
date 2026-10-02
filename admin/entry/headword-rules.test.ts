@@ -11,13 +11,13 @@ import {
 	textDefectsHalt,
 } from './headword-rules.ts';
 import { parseHeadwordLine } from './headwords.ts';
-import type { TruthEntry } from './types.ts';
+import type { Entry } from './types.ts';
 
 /** An entry as the rules read it: the id, the forms and the template. */
 function shaped(
-	headwords: TruthEntry['headwords'],
+	headwords: Entry['headwords'],
 	display?: string,
-): Pick<TruthEntry, 'display' | 'headwords' | 'id'> {
+): Pick<Entry, 'display' | 'headwords' | 'id'> {
 	return {
 		headwords,
 		id: 'A00001',

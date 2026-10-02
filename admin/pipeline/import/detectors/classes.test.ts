@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'bun:test';
 import {
+	type Entry,
 	SCHEMA_VERSION,
-	type TruthEntry,
-	type TruthSense,
+	type Sense,
 } from '../../../entry/types.ts';
 import { PUBLICATION } from '../publication.ts';
 import { DETECTED_CLASSES, detectClasses } from './classes.ts';
@@ -14,12 +14,12 @@ import { detectSuperscriptSubsectionContradicts } from './superscript-subsection
 
 /** One sense; `units` defaults to none so a fixture states only the
  * field its class turns on. */
-function sense(over: Partial<TruthSense> = {}): TruthSense {
+function sense(over: Partial<Sense> = {}): Sense {
 	return { gloss: '', units: [], ...over };
 }
 
-/** A minimal valid truth entry, overridden per fixture. */
-function entry(over: Partial<TruthEntry> = {}): TruthEntry {
+/** A minimal valid entry, overridden per fixture. */
+function entry(over: Partial<Entry> = {}): Entry {
 	return {
 		headwords: [{ text: 'אבג' }],
 		id: 'A00001',

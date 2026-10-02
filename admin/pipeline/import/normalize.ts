@@ -10,9 +10,9 @@
  *
  * **Where it sits, and why that matters.** It runs in the import
  * write step, on the way to disk, AFTER every source gate has read
- * the in-memory truth. So it cannot move one: gate 3
+ * the in-memory entries. So it cannot move one: gate 3
  * (`checkTextConservation`) compares the composed body against that
- * same in-memory truth, string for string, and never sees a
+ * same in-memory entries, string for string, and never sees a
  * normalized value. A green gate 3 on the rewritten tree is therefore
  * evidence about the transforms, not about this function — which is
  * the right division, because what makes THIS step safe is its own

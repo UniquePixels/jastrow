@@ -5,7 +5,7 @@
  * §6). `gates.ts` knows whether one tally is sound; `publication.ts`
  * knows what one row's class is; neither knows whether the CLI asks
  * them in the right order, whether it refuses a red run before it
- * writes, or whether it would overwrite a half-written truth tree.
+ * writes, or whether it would overwrite a half-written entry tree.
  * That is what is asserted here.
  *
  * Nothing in this file reads `data/source/` (consolidation spec R9) or

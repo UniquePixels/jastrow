@@ -1,5 +1,5 @@
 /**
- * The walk the class detectors share: every sense of a finished truth
+ * The walk the class detectors share: every sense of a finished
  * entry in document order — a top-level sense, then its children, then
  * the next sibling, and finally each stem's sequence the same way —
  * with the path a report row names, and one sense's OWN markup fields.
@@ -8,17 +8,17 @@
  * a predicate written against "a sense's text" reads exactly that one
  * sense. Walk the children separately when a predicate wants them.
  */
-import type { TruthEntry, TruthSense } from '../../../entry/types.ts';
+import type { Entry, Sense } from '../../../entry/types.ts';
 
 /** One sense and the path that names it, e.g. `stems[1].senses[0]`. */
 interface SenseAt {
 	path: string;
-	sense: TruthSense;
+	sense: Sense;
 }
 
 /** One sense sequence and everything under it, in document order. */
 function* walkSequence(
-	senses: readonly TruthSense[],
+	senses: readonly Sense[],
 	at: string,
 ): Generator<SenseAt> {
 	for (const [i, sense] of senses.entries()) {
@@ -29,7 +29,7 @@ function* walkSequence(
 }
 
 /** Every sense of the entry: the top-level tree, then each stem's. */
-function* walkSenses(entry: TruthEntry): Generator<SenseAt> {
+function* walkSenses(entry: Entry): Generator<SenseAt> {
 	yield* walkSequence(entry.senses, 'senses');
 	for (const [i, stem] of (entry.stems ?? []).entries()) {
 		yield* walkSequence(stem.senses, `stems[${i}].senses`);
@@ -50,7 +50,7 @@ function* fieldsOf({ path, sense }: SenseAt): Generator<[string, string]> {
 }
 
 /** Every markup field of the entry, in document order. */
-function* markupFields(entry: TruthEntry): Generator<[string, string]> {
+function* markupFields(entry: Entry): Generator<[string, string]> {
 	for (const at of walkSenses(entry)) {
 		yield* fieldsOf(at);
 	}

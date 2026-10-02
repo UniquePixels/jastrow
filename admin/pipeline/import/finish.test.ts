@@ -36,7 +36,7 @@ const context = {
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('finishEntry', () => {
-	it('assembles the truth entry in schema key order', () => {
+	it('assembles the entry in schema key order', () => {
 		const { entry, problems, unresolved } = finishEntry(source, body, context);
 		expect(problems).toEqual([]);
 		expect(unresolved).toEqual([]);

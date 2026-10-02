@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { SCHEMA_VERSION, type TruthEntry } from '../../entry/types.ts';
+import { type Entry, SCHEMA_VERSION } from '../../entry/types.ts';
 import type { Tally } from './gates.ts';
 import type { GateName, Report, Sample } from './report.ts';
 import {
@@ -144,13 +144,13 @@ describe('renderBlessing', () => {
 		const sample: Sample = {
 			rid: 'A00013',
 			source: { headword: 'אָב I', rid: 'A00013' },
-			truth: {
+			entry: {
 				headwords: [{ text: 'אָב I' }],
 				id: 'A00013',
 				schemaVersion: SCHEMA_VERSION,
 				sefariaHeadword: 'אָב I',
 				senses: [],
-			} satisfies TruthEntry,
+			} satisfies Entry,
 		};
 		const doc = renderBlessing(report, [sample]);
 		const section = (heading: string): string => {

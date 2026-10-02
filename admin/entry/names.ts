@@ -13,7 +13,7 @@
  * rename reached only `nameOf` — which is the point of the split.
  */
 import { intToRoman, intToSup } from './headwords.ts';
-import type { FormObject, TruthEntry } from './types.ts';
+import type { Entry, FormObject } from './types.ts';
 
 /** Print notation that is ABOUT the word rather than part of it, and
  * so is dropped from the name alone (spec §4): `(`, `)`, `?` and `,`.
@@ -78,7 +78,7 @@ function nameKey(name: string): string {
  * `nameCollisions` reports an empty name as its own problem, which is
  * the reading a caller wants from a file that got past the schema by a
  * hand edit. */
-function nameOf(entry: Pick<TruthEntry, 'headwords'>): string {
+function nameOf(entry: Pick<Entry, 'headwords'>): string {
 	const primary = entry.headwords[0];
 	return primary === undefined ? '' : deriveName(primary);
 }
@@ -114,7 +114,7 @@ interface NameProblem {
  * `formerNames` is in the schema and absent from every entry until
  * then. */
 function nameCollisions(
-	entries: readonly Pick<TruthEntry, 'headwords' | 'id'>[],
+	entries: readonly Pick<Entry, 'headwords' | 'id'>[],
 ): NameProblem[] {
 	const owners = new Map<string, string>();
 	const problems: NameProblem[] = [];

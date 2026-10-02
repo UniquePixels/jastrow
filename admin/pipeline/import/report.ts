@@ -2,7 +2,7 @@
 /** The import report (migrate spec §4.2; consolidation spec §3.1): every gate as a tally, structured rows, rule counts, patch outcomes, and the evidence doc the maintainer blesses. */
 
 import { isHeadwordReviewKind } from '../../entry/headwords.ts';
-import type { TruthEntry } from '../../entry/types.ts';
+import type { Entry } from '../../entry/types.ts';
 import type { DriftOutcome } from '../patch/drift.ts';
 import { IMPORT_REPORT_PATH } from '../paths.ts';
 import type { Unresolved } from './cite.ts';
@@ -138,14 +138,14 @@ interface Report {
 }
 
 /** One entry carried through the run intact — its rid, the source
- * record as read and the truth entry written — kept so the blessing
+ * record as read and the entry written — kept so the blessing
  * document can show a worked example rather than only totals. A
  * reviewer checking a tally against the thing it counts needs the
  * before and the after side by side. */
 interface Sample {
+	entry: Entry;
 	rid: string;
 	source: unknown;
-	truth: TruthEntry;
 }
 
 /** A report with every gate present and empty. Gates are created up
@@ -281,7 +281,7 @@ function gateRows(report: Report): string[] {
 	);
 }
 
-/** A source/truth pair per sample, for eyeballing the import
+/** A source/entry pair per sample, for eyeballing the import
  * against its input without leaving the blessing document. */
 function sampleSections(samples: readonly Sample[]): string[] {
 	return samples.flatMap((s) => [
@@ -291,9 +291,9 @@ function sampleSections(samples: readonly Sample[]): string[] {
 		'',
 		fence(s.source),
 		'',
-		'Truth:',
+		'Entry:',
 		'',
-		fence(s.truth),
+		fence(s.entry),
 		'',
 	]);
 }

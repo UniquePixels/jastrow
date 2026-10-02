@@ -6,7 +6,7 @@
 import { tokenize } from '../../entry/html.ts';
 import { nameCollisions } from '../../entry/names.ts';
 import type { PagePlacement } from '../../entry/page.ts';
-import type { TruthEntry } from '../../entry/types.ts';
+import type { Entry } from '../../entry/types.ts';
 import {
 	checkEntry,
 	schemaValidator,
@@ -113,11 +113,11 @@ function notationOf(line: string): Map<string, number> {
 	for (const ch of line.replace(LATIN_RUN, '')) {
 		const c = ch.codePointAt(0) ?? 0;
 		const hebrew =
-			(c >= 0x05d0 && c <= 0x05ea) ||
-			(c >= 0x0591 && c <= 0x05c7) ||
-			c === 0x05f3 ||
-			c === 0x05f4 ||
-			c === 0x0307;
+			(c >= 0x05_d0 && c <= 0x05_ea) ||
+			(c >= 0x05_91 && c <= 0x05_c7) ||
+			c === 0x05_f3 ||
+			c === 0x05_f4 ||
+			c === 0x03_07;
 		if (!(hebrew || ch === ',' || ch.trim() === '')) {
 			bump(ch);
 		}
@@ -205,12 +205,12 @@ function lineIsUnsettleable(line: string): boolean {
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: gate 2's three marks in one place; each is only meaningful against the other two.
 function checkHeadwordLine(
 	composed: SourceEntry,
-	truth: TruthEntry,
+	entry: Entry,
 	t: Tally,
 ): void {
 	const line = headwordLine(composed);
 	const before = lexicalOf(line);
-	const after = lexicalOf(truth.headwords.map((f) => f.text).join(' '));
+	const after = lexicalOf(entry.headwords.map((f) => f.text).join(' '));
 	mark(
 		t,
 		before === after,
@@ -222,21 +222,21 @@ function checkHeadwordLine(
 	const unsettleable = cannotSettle && composed.display === undefined;
 	mark(
 		t,
-		unsettleable === (truth.display === undefined),
-		`${composed.rid}: display is ${truth.display === undefined ? 'unset' : JSON.stringify(truth.display)} for a line that is ${unsettleable ? '' : 'not '}unsettleable`,
+		unsettleable === (entry.display === undefined),
+		`${composed.rid}: display is ${entry.display === undefined ? 'unset' : JSON.stringify(entry.display)} for a line that is ${unsettleable ? '' : 'not '}unsettleable`,
 	);
-	if (truth.display === undefined) {
+	if (entry.display === undefined) {
 		return;
 	}
 	const source = notationOf(line);
-	const written = notationOf(truth.display.replace(SLOT, ''));
+	const written = notationOf(entry.display.replace(SLOT, ''));
 	if (composed.display !== undefined) {
 		// What could actually go wrong with a supplied template is that
 		// the run failed to carry it through to the entry.
 		mark(
 			t,
-			truth.display === composed.display,
-			`${composed.rid}: the patch supplied ${JSON.stringify(composed.display)} but the entry carries ${JSON.stringify(truth.display)}`,
+			entry.display === composed.display,
+			`${composed.rid}: the patch supplied ${JSON.stringify(composed.display)} but the entry carries ${JSON.stringify(entry.display)}`,
 		);
 		// The slots read in FORM ORDER. §3.1 rule 1 sorts them before
 		// counting, so it sees a set and a permutation passes it; the
@@ -247,7 +247,7 @@ function checkHeadwordLine(
 		// own templates are always in order, because the forms are
 		// flattened in the line's order, so this binds a supplied
 		// template to the same shape.
-		const slots = [...truth.display.matchAll(SLOT)].map((m) =>
+		const slots = [...entry.display.matchAll(SLOT)].map((m) =>
 			Number(m[1] ?? Number.NaN),
 		);
 		mark(
@@ -281,7 +281,7 @@ function checkHeadwordLine(
 	);
 }
 
-/** The three fields `pairs` reads. `BodySense` and `TruthSense` both
+/** The three fields `pairs` reads. `BodySense` and `Sense` both
  * satisfy it, so one neutral value can stand in for either side. */
 interface WalkedSense {
 	gloss: string;
@@ -294,10 +294,10 @@ interface WalkedSense {
 const ABSENT: WalkedSense = { gloss: '', senses: [], units: [] };
 
 /** Every comparable text field of two sense trees, as
- * `[where, body, truth]` triples the caller marks one by one. */
+ * `[where, body, entry]` triples the caller marks one by one. */
 function* pairs(
 	body: readonly WalkedSense[],
-	truth: readonly WalkedSense[],
+	entry: readonly WalkedSense[],
 	path: string,
 ): Generator<[string, string, string]> {
 	// A length pair at EVERY depth, not only the two the caller marks.
@@ -306,15 +306,15 @@ function* pairs(
 	// gloss ALONE for a surplus or missing element, so `['', '']`
 	// passed while that element's `units` and child `senses` — which
 	// is where its text actually lives — were never read at all.
-	yield [`${path} length`, String(body.length), String(truth.length)];
+	yield [`${path} length`, String(body.length), String(entry.length)];
 	// Walked to the LONGER of the two: iterating body.entries() alone
-	// only ever visits truth[0..body.length), so a sense or unit added
-	// to truth with no body counterpart — output-only text — would
+	// only ever visits entry[0..body.length), so a sense or unit added
+	// to entry with no body counterpart — output-only text — would
 	// never reach a mark() and gate 3 would pass with it in place.
-	const length = Math.max(body.length, truth.length);
+	const length = Math.max(body.length, entry.length);
 	for (let i = 0; i < length; i++) {
 		const b = body[i] ?? ABSENT;
-		const t = truth[i] ?? ABSENT;
+		const t = entry[i] ?? ABSENT;
 		const at = `${path}[${i}]`;
 		yield [`${at}.gloss`, b.gloss, t.gloss];
 		const unitLength = Math.max(b.units.length, t.units.length);
@@ -332,40 +332,36 @@ function* pairs(
  * the tally. `pairs()` emits its own length pair per sense array, at
  * every depth, so only `stems` — which `pairs()` does not walk — is
  * counted here. */
-function checkTextConservation(
-	body: BodyEntry,
-	truth: TruthEntry,
-	t: Tally,
-): void {
+function checkTextConservation(body: BodyEntry, entry: Entry, t: Tally): void {
 	for (const [where, before, after] of pairs(
 		body.senses,
-		truth.senses,
+		entry.senses,
 		'senses',
 	)) {
-		mark(t, textOf(before) === textOf(after), `${truth.id}: ${where}`);
+		mark(t, textOf(before) === textOf(after), `${entry.id}: ${where}`);
 	}
 	// Walked to the LONGER of the two, same reason `pairs` is: iterating
 	// `body.stems` alone would never visit a stem present only in
-	// `truth`, and gate 3 would pass with output-only text in it.
+	// `entry`, and gate 3 would pass with output-only text in it.
 	const stemsBody = body.stems ?? [];
-	const stemsTruth = truth.stems ?? [];
+	const stemsEntry = entry.stems ?? [];
 	mark(
 		t,
-		stemsBody.length === stemsTruth.length,
-		`${truth.id}: stems ${stemsBody.length} → ${stemsTruth.length}`,
+		stemsBody.length === stemsEntry.length,
+		`${entry.id}: stems ${stemsBody.length} → ${stemsEntry.length}`,
 	);
-	const stemCount = Math.max(stemsBody.length, stemsTruth.length);
+	const stemCount = Math.max(stemsBody.length, stemsEntry.length);
 	for (let i = 0; i < stemCount; i++) {
 		const stem = stemsBody[i];
-		const target = stemsTruth[i];
+		const target = stemsEntry[i];
 		const stemSensesBody = stem?.senses ?? [];
-		const stemSensesTruth = target?.senses ?? [];
+		const stemSensesEntry = target?.senses ?? [];
 		for (const [where, before, after] of pairs(
 			stemSensesBody,
-			stemSensesTruth,
+			stemSensesEntry,
 			`stems[${i}].senses`,
 		)) {
-			mark(t, textOf(before) === textOf(after), `${truth.id}: ${where}`);
+			mark(t, textOf(before) === textOf(after), `${entry.id}: ${where}`);
 		}
 	}
 }
@@ -495,19 +491,19 @@ function checkChain(
  * `sourceHeadwords` is rid → the pristine `headword` string, so a
  * missing rid fails rather than passing against `undefined`. */
 function checkNames(
-	truths: readonly TruthEntry[],
+	entries: readonly Entry[],
 	sourceHeadwords: ReadonlyMap<string, string>,
 ): Tally {
 	const t = tally();
-	const collided = new Map(nameCollisions(truths).map((p) => [p.rid, p.line]));
-	for (const truth of truths) {
-		const collision = collided.get(truth.id);
+	const collided = new Map(nameCollisions(entries).map((p) => [p.rid, p.line]));
+	for (const entry of entries) {
+		const collision = collided.get(entry.id);
 		mark(t, collision === undefined, collision ?? '');
-		const source = sourceHeadwords.get(truth.id);
+		const source = sourceHeadwords.get(entry.id);
 		mark(
 			t,
-			source !== undefined && truth.sefariaHeadword === source,
-			`${truth.id}: sefariaHeadword ${JSON.stringify(truth.sefariaHeadword)} but the source says ${JSON.stringify(source ?? null)}`,
+			source !== undefined && entry.sefariaHeadword === source,
+			`${entry.id}: sefariaHeadword ${JSON.stringify(entry.sefariaHeadword)} but the source says ${JSON.stringify(source ?? null)}`,
 		);
 	}
 	return t;
@@ -538,12 +534,12 @@ function checkPages(
  * half reads only entries that passed the schema: the checks after it
  * assume the shape, and a schema failure is already a red mark. */
 async function checkContract(
-	entries: readonly TruthEntry[],
+	entries: readonly Entry[],
 	pages: ReadonlyMap<string, PagePlacement>,
 	pathOf: (rid: string) => string,
 ): Promise<Tally> {
 	const t = tally();
-	const valid: TruthEntry[] = [];
+	const valid: Entry[] = [];
 	const schema = await schemaValidator();
 	for (const entry of entries) {
 		const [shaped, problems] = checkEntry(schema, entry, pathOf(entry.id));

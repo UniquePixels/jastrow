@@ -53,19 +53,19 @@ interface FormObject {
  * sense — a reader that drops an empty lead consumes sense 1. The
  * distinction is invisible to a text-conservation check, because the
  * bytes survive either way. */
-interface TruthSense {
+interface Sense {
 	gloss: string;
 	label?: string;
-	senses?: TruthSense[];
+	senses?: Sense[];
 	units: string[];
 }
 
 /** A binyan section of a written entry: the stem label print gives,
  * the headword forms it governs, and its senses. Sibling to the
  * entry's own `senses`, so both can be present on one entry. */
-interface TruthStem {
+interface Stem {
 	forms: string[];
-	senses: TruthSense[];
+	senses: Sense[];
 	stem: string;
 }
 
@@ -77,7 +77,7 @@ interface TruthStem {
  * The entry is addressed by `id` (the rid). Its NAME is not stored —
  * it is derived from `headwords[0]` on demand, so it cannot drift from
  * the headword the way a stored slug could (URL names spec §5.1). */
-interface TruthEntry {
+interface Entry {
 	/** How print laid the headword line out: a template whose `{n}`
 	 * inserts `headwords[n].text` and whose every other character is
 	 * literal notation, never Hebrew (headword design §2, §3.1).
@@ -105,9 +105,9 @@ interface TruthEntry {
 	 * it. It keeps the Sefaria URL route (§3.3) working after our own
 	 * headword is corrected. */
 	sefariaHeadword: string;
-	senses: TruthSense[];
-	stems?: TruthStem[];
+	senses: Sense[];
+	stems?: Stem[];
 }
 
-export type { FormObject, TruthEntry, TruthSense, TruthStem };
+export type { Entry, FormObject, Sense, Stem };
 export { SCHEMA_VERSION, VERBATIM_FIELDS };

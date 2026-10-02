@@ -85,7 +85,7 @@ function stripTags(html: string): string {
  * `SourceGrammar` by construction. **Two fields are excluded, both
  * deliberately:**
  *
- * - `refs[]` is dropped from truth (body model spec §5, B7) and holds
+ * - `refs[]` is dropped from entry data (body model spec §5, B7) and holds
  *   machine identifiers — Sefaria ref strings — not text a rule could
  *   be said to invent or preserve.
  * - `rid` is the entry's primary key. It is an identifier, not text,
