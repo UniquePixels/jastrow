@@ -483,17 +483,17 @@ them in patch-id order after the rid's accepted patches:
 
 **Patch outcomes.** Every patch offered to an entry — reviewed,
 accepted or carry-over alike — resolves to exactly one of four values
-in the report's `patchOutcomes` (`PatchOutcome`, `import/report.ts:81`):
+in the report's `patchOutcomes` (`PatchOutcome`, `import/report.ts`):
 `applied`, `superseded`, `upstream-fixed` or `upstream-changed` (the
 last two are `DriftOutcome`). `recordPatchOutcomes`
-(`import/patches.ts:31`) assigns it: a drifted patch takes its drift
+(`import/patches.ts`) assigns it: a drifted patch takes its drift
 outcome; an absorbed carry-over patch is `superseded` **by
 construction** — absorption decided it, not `classifyDrift`, so it is
 never drift-classified even though it never applied; everything else
 that didn't fail its apply gate is `applied`, carried carry-over
 included. A patch that fails its apply gate gets **no outcome at
 all** — it is skipped in that count and instead becomes a `kind:
-'patch-failed'`, `severity: 'fault'` row (`import.ts:201-208`).
+'patch-failed'`, `severity: 'fault'` row (the `patchProblems` loop in `import.ts`'s `composeOne`).
 
 **Manifests.** One JSONL record per input rid, exactly one disposition:
 `clean`, `repaired`, `needs_print_check`, `needs_human_judgment`.
