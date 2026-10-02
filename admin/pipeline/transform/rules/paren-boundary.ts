@@ -125,7 +125,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  *
  * Widening case 4 (or adding a sixth case) is a ruling on a SHARED
  * gate, not an implementation choice inside one rule module, and
- * registering a rule the gate refuses would halt the migration rather
+ * registering a rule the gate refuses would halt the import rather
  * than repair anything. The population is pinned in
  * `paren-boundary.test.ts`.
  *
@@ -215,7 +215,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  *
  * That failure is invisible to every check this module has.
  * `count.ts` measures each rule ALONE against the pinned snapshot, so
- * it would keep reporting 414 while the composed migration repaired
+ * it would keep reporting 414 while the composed import repaired
  * nothing — green everywhere, nothing done, which is the worst shape
  * a defect can take here. The commutation gate reports the
  * pair as non-commuting, which is expected and must be declared; what
@@ -662,7 +662,7 @@ type Corroborate = NonNullable<TransformResult['corroborated']>[number];
  *    `.<halakha>`. 414 of 414. Without it a differently-shaped href
  *    would be handed a suffix that belongs nowhere, and the gate would
  *    refuse the result — which, since `run.ts` THROWS on a gate
- *    problem, halts the migration rather than skipping one entry. Every
+ *    problem, halts the import rather than skipping one entry. Every
  *    guard in this module is written that way round for that reason.
  *
  * Condition 4 also proves both attributes parse and are non-empty,

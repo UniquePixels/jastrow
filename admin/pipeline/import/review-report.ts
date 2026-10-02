@@ -110,7 +110,7 @@ function cataloguedSection(classes: readonly Pattern[]): string[] {
 		'',
 		'They are `defer` for publication: none moves a URL (post-consolidation review §10, decision 2). The catalogue keeps `blocking: true` on each — that flag gates the CUTOVER, which is a separate question from what a reader can correct after go-live.',
 		'',
-		'**What to do:** write the detector under `admin/pipeline/migrate/detectors/` and register it; the class then leaves this list and its rows are triaged above under its own kind.',
+		'**What to do:** write the detector under `admin/pipeline/import/detectors/` and register it; the class then leaves this list and its rows are triaged above under its own kind.',
 		'',
 		...(classes.length === 0
 			? ['_none_']
@@ -119,7 +119,7 @@ function cataloguedSection(classes: readonly Pattern[]): string[] {
 }
 
 /** Every non-pipeline row must carry a `publication` stamp before the
- * report renders. `classifyRows` runs once in `migrate.ts`, so a row
+ * report renders. `classifyRows` runs once in `import.ts`, so a row
  * pushed after that call would land in no section at all and vanish
  * from the document without changing a single count. This turns that
  * into a failed run naming the kind. */

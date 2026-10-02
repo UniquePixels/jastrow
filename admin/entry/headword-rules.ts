@@ -15,7 +15,7 @@
  *    or a Latin letter.
  * 5. A `partial` form is never a lookup key.
  * 6. Every comparison normalizes to NFC first. No stage rewrites
- *    stored text except the migrate WRITE step, which normalizes the
+ *    stored text except the import WRITE step, which normalizes the
  *    whole entry file (`normalizeForWrite`, #110 — §3.1 rule 6 names
  *    it as the one exception). Nothing in THIS file rewrites anything.
  *
@@ -71,7 +71,7 @@ function textDefects(entry: Pick<TruthEntry, 'headwords' | 'id'>): string[] {
 }
 
 /** Whether rule 4's findings are errors this run. Exported so the two
- * readers — `validate.ts` and the migrate CLI — cannot disagree about
+ * readers — `validate.ts` and the import CLI — cannot disagree about
  * which side of the switch they are on. */
 function textDefectsHalt(): boolean {
 	return HALT_ON_TEXT_DEFECT;

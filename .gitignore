@@ -26,12 +26,15 @@ node_modules/
 #   - data/source/body-migration-report.json (`migrate-dry.ts`)
 #   - .usage-mark (`admin/pipeline/research/usage-report.ts --mark`)
 #   - .work/ (the page-index build tool)
+# data/source/migration-report.json is ignored for the same reason: it
+# is the import report's name before the R8 rename (2026-10-02).
 data/source/edit-replay.jsonl
 data/source/baseline-audit-report.json
 data/source/body-census-report.json
 data/source/body-dryrun-report.json
 data/source/body-migration-report.json
 data/source/migration-report.json
+data/source/import-report.json
 
 # The same orphans after the 2026-09-22 module-boundary sweep moved
 # them out of the pipeline's input directory. Kept on disk for the

@@ -1,6 +1,6 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: the run's stages in committed order; a split would hide the sequence the report depends on.
 /**
- * Migration — source snapshot to truth files (spec 2026-09-06 §3–4).
+ * Import — source snapshot to truth files (spec 2026-09-06 §3–4).
  * Two passes: compose every entry and build the corpus-level indexes,
  * then finish and gate every entry. Dry without `--write`; `--write`
  * reruns every gate and refuses on any red one, or on an output tree
@@ -51,9 +51,9 @@ import {
 	BLESSING_PATH,
 	createReport,
 	createRuleCounter,
+	IMPORT_REPORT_PATH,
 	isGreen,
 	lineRow,
-	MIGRATION_REPORT_PATH,
 	type Report,
 	type RuleCounter,
 	renderBlessing,
@@ -452,7 +452,7 @@ async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
 /** The empty-tree guard, as its own step so a test can reach it:
  * `--write` refuses outright unless the entry tree is empty.
  *
- * NOT because the migration is a one-shot — R1 withdrew that, and this
+ * NOT because the import is a one-shot — R1 withdrew that, and this
  * command is permanent and re-runnable. The guard stands in for the
  * update run: until §3.2's three-way merge exists, a second `--write`
  * over a populated tree would overwrite hand edits blindly. R11 calls
@@ -461,7 +461,7 @@ async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
 async function refuseUnlessEmpty(dir: string = OUT_DIR): Promise<void> {
 	if (!(await outputTreeIsEmpty(dir))) {
 		throw new Error(
-			`${dir} already holds truth files; migration writes once. Delete them to re-import, or run \`bun data:import:dry\` for the reports alone`,
+			`${dir} already holds truth files; import writes once. Delete them to re-import, or run \`bun data:import:dry\` for the reports alone`,
 		);
 	}
 }
@@ -564,7 +564,7 @@ function printGates(report: Report): void {
 		`stalePins=${report.snapshot.stalePins} upstreamFixed=${report.patches.upstreamFixed} upstreamChanged=${report.patches.upstreamChanged}`,
 	);
 	console.log(
-		`report written to ${MIGRATION_REPORT_PATH}; evidence to ${BLESSING_PATH}; review to ${REVIEW_REPORT_PATH}; headword issues to ${HEADWORD_ISSUES_DOC}, ${HEADWORD_ISSUES_CSV}`,
+		`report written to ${IMPORT_REPORT_PATH}; evidence to ${BLESSING_PATH}; review to ${REVIEW_REPORT_PATH}; headword issues to ${HEADWORD_ISSUES_DOC}, ${HEADWORD_ISSUES_CSV}`,
 	);
 }
 
@@ -585,7 +585,7 @@ async function writeHeadwordIssues(
 	);
 }
 
-/** The migrate CLI, and the pipeline's only entry point to a write.
+/** The import CLI, and the pipeline's only entry point to a write.
  *
  * `bun data:import` passes `--write`; `bun data:import:dry` does not.
  * Without `--write` it is a dry run: every entry is composed, gated

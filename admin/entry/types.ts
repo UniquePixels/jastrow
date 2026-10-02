@@ -11,7 +11,7 @@
  * headword-design §2 shape: `headwords[]` and an optional `display`
  * in place of `headword`/`altHeadwords`, and `sefariaHeadword` in
  * place of `slug`. Stamped on every file so a reader — the app, the
- * admin tool, a later migration — can tell the two apart without
+ * admin tool, a later import — can tell the two apart without
  * guessing from which keys are present. */
 const SCHEMA_VERSION = 2;
 

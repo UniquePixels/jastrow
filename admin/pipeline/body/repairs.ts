@@ -1,5 +1,5 @@
 /**
- * The general migration repairs, approved by the maintainer body
+ * The general import repairs, approved by the maintainer body
  * review (`docs/archive/body-review/01–06`). Pure: takes a
  * `SourceEntry`, returns a repaired copy plus a record of every
  * change. `compose.ts` runs it first in the `text-repairs` phase.
@@ -7,7 +7,7 @@
  * CORPUS-WIDE REPAIRS ONLY. A repair keyed on a rid belongs in
  * `admin/pipeline/patch/records/reviewed/` instead (spec §4.1), where its `rationale`
  * field carries the reasoning a table here could not. `walkSensesDeep`
- * lives here and is shared with `migrate/orphan-refs.ts`.
+ * lives here and is shared with `import/orphan-refs.ts`.
  */
 import type { SourceEntry, SourceSense } from '../types.ts';
 

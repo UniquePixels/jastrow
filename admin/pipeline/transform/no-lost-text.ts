@@ -24,7 +24,7 @@
  * `structural-repairs` alone until 2026-09-21, and the review that
  * closed that hole put it plainly: a `text-repairs` rule that deleted
  * text passed all four gates and every test, because the other three
- * are blind to deletion by construction and `migrate`'s
+ * are blind to deletion by construction and `import`'s
  * `checkTextConservation` compares the composed body against the
  * finished entry, not one rule against its own input.
  *

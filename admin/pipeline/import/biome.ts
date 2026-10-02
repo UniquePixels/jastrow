@@ -1,7 +1,8 @@
 /**
  * Where to spawn biome from for the entry-data format step.
- * `migrate.ts` used to name `node_modules/.bin/biome` literally, which
- * resolves only when the process CWD is the repo root and only when
+ * `import.ts` (then `migrate.ts`) used to name
+ * `node_modules/.bin/biome` literally, which resolves only when the
+ * process CWD is the repo root and only when
  * this checkout has installed its dependencies — a freshly created git
  * worktree has no `node_modules` of its own. Formatting is the LAST
  * step of a `--write` run, so that literal turned a missing binary into

@@ -1,4 +1,4 @@
-/** Patch accounting for the migrate CLI (consolidation spec §3.3,
+/** Patch accounting for the import CLI (consolidation spec §3.3,
  * §4.2): the per-entry outcome rows a run's offered patches resolve
  * to, and the fault rows for a patch whose rid never streamed past. */
 import type { ComposeResult } from '../compose.ts';
@@ -86,7 +86,7 @@ function keptLabel(
  * `kind: 'patch-consolidated-away'`, naming the later record that won
  * instead; `report.patches.consolidatedAway` is the header count
  * beside `absorbed` / `carried`. Call once `loadAcceptedCorpus` has
- * run (`migrate.ts`'s `preparePatches`). */
+ * run (`import.ts`'s `preparePatches`). */
 function recordConsolidatedAway(
 	accepted: AcceptedCorpus,
 	report: Report,

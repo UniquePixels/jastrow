@@ -1,5 +1,5 @@
 /**
- * The corpus-count audit (spec §4). TEST-TIER — `migrate.ts` never
+ * The corpus-count audit (spec §4). TEST-TIER — `import.ts` never
  * calls this and never reads a catalogue count.
  *
  * Each rule runs ALONE against the pinned snapshot. Composed counts

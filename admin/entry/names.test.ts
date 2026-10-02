@@ -63,7 +63,7 @@ describe('deriveName', () => {
 		// The name of a decomposed form comes back decomposed: name
 		// derivation is a READ, and normalising here would make it lossy
 		// against the `text` it read. The entry file is put into NFC by
-		// the migrate write step instead (`normalizeForWrite`, #110),
+		// the import write step instead (`normalizeForWrite`, #110),
 		// which is the one place stored text is rewritten.
 		const decomposed = 'אָב'.normalize('NFD');
 		expect(deriveName({ text: decomposed })).toBe(decomposed);

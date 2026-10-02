@@ -2,7 +2,7 @@
  * The §6.0 body composition: `buildTrace` wires the rejoin, lettered,
  * units, labels and grammar modules into one `BodyEntry`, and
  * `buildBody` is the same walk with the trace's working detail
- * dropped. `migrate.ts` imports both — this is import-path code, not a
+ * dropped. `import.ts` imports both — this is import-path code, not a
  * research tool.
  *
  * It was extracted from `body/dry-run.ts`, whose other half was the
@@ -10,7 +10,7 @@
  * accumulator (`dry-run-report.ts`) and the `body:dry-run` script were
  * archived with the rest of the one-time research code at
  * `refs/tags/archive/v2-research-2026-09`; the round-trip verifier
- * they shared stayed, as `round-trip.ts`, because the migrate gate
+ * they shared stayed, as `round-trip.ts`, because the import gate
  * calls it.
  */
 
@@ -32,7 +32,7 @@ import { segmentUnits } from './units.ts';
  * text, the rid it came from, and which rule quarantined it. Recording
  * the raw value and carrying on is the deliberate alternative to
  * guessing at it or dropping it — `buildBody` hands these back so a
- * caller (migrate, or eyes-on review) can see what was left
+ * caller (import, or eyes-on review) can see what was left
  * unparsed. */
 interface Problem {
 	detail: string;

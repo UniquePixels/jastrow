@@ -2,7 +2,7 @@
  * Gate: every obligated orphan-refs item still has an inline citation
  * basis in its entry's composed body (consolidation spec §4.1, step
  * 8). `REPAIRED_ORPHAN_ITEMS` used to be checked by the archived
- * `migrate-dry.ts`; this module is `migrate.ts`'s replacement check,
+ * `migrate-dry.ts`; this module is `import.ts`'s replacement check,
  * run on the COMPOSED entries after `composeAll` so it sees whatever
  * transforms and reviewed patches left behind.
  */

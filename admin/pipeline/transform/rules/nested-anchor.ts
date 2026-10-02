@@ -153,7 +153,7 @@ function firstDuplicatePair(
  *
  * Carried onto `TransformRecord.detail` so the trapped-mark census is
  * read straight off the records rather than re-derived by whoever
- * reads the migration report: `)` 702 / `.` 52 / `,` 1 in
+ * reads the import report: `)` 702 / `.` 52 / `,` 1 in
  * `language_reference`, `.` 387 / `)` 68 / nothing 20 in `definition`,
  * measured on the export by a corpus check retired in
  * a retired corpus check. The empty

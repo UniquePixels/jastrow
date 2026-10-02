@@ -111,7 +111,7 @@ const LINKED_HEADWORDS: ReadonlySet<string> = new Set([
  * and compares against `headword` AS A STRING. The gershayim work left 68
  * entries diverging that way; this rule rewrites 4 more headwords and
  * leaves every neighbour's pointer untouched. Whoever writes
- * `migrate.ts` must walk the SOURCE chain or de-map both sides. The
+ * `import.ts` must walk the SOURCE chain or de-map both sides. The
  * exact divergence count was asserted by a corpus check retired in
  * a retired corpus check.
  */
