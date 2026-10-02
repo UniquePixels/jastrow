@@ -48,7 +48,6 @@ import {
 } from './import/patches.ts';
 import { classifyRows } from './import/publication.ts';
 import {
-	BLESSING_PATH,
 	createReport,
 	createRuleCounter,
 	IMPORT_REPORT_PATH,
@@ -62,7 +61,6 @@ import {
 } from './import/report.ts';
 import {
 	loadUndetectedClasses,
-	REVIEW_REPORT_PATH,
 	renderReviewReport,
 } from './import/review-report.ts';
 import {
@@ -75,9 +73,11 @@ import {
 } from './patch/apply.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
 import {
+	BLESSING_PATH,
 	HEADWORD_ISSUES_CSV,
 	HEADWORD_ISSUES_DOC,
 	ENTRIES_DIR as OUT_DIR,
+	REVIEW_REPORT_PATH,
 } from './paths.ts';
 import { buildHeadwordIssues } from './report/headword-issues.ts';
 import { RULES } from './transform/registry.ts';

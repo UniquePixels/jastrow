@@ -139,7 +139,7 @@ describe('loadUndetectedClasses', () => {
 			PATTERNS_PATH,
 			new Set(),
 		);
-		expect(stillCatalogued.length).toBe(5);
+		expect(stillCatalogued).toHaveLength(5);
 		expect(stillCatalogued.map((c) => c.id)).toContain('empty-stem-section');
 		for (const c of stillCatalogued) {
 			expect(c.blocking).toBe(true);

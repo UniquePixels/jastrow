@@ -4,7 +4,7 @@
  * emit a row. The admin tool's tracker integration reads the deferred
  * rows. */
 import { type Pattern, parsePatterns } from '../patch/patterns.ts';
-import { PATTERNS_PATH, REVIEW_REPORT_PATH } from '../paths.ts';
+import { PATTERNS_PATH } from '../paths.ts';
 import { DETECTED_CLASSES } from './detectors/classes.ts';
 import { actionOf } from './publication.ts';
 import type { Publication, Report, ReportRow } from './report.ts';
@@ -170,7 +170,6 @@ function renderReviewReport(
 export {
 	loadUndetectedClasses,
 	PATTERNS_PATH,
-	REVIEW_REPORT_PATH,
 	renderReviewReport,
 	undetectedClasses,
 };

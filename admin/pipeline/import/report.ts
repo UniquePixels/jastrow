@@ -4,7 +4,7 @@
 import { isHeadwordReviewKind } from '../../entry/headwords.ts';
 import type { TruthEntry } from '../../entry/types.ts';
 import type { DriftOutcome } from '../patch/drift.ts';
-import { BLESSING_PATH, IMPORT_REPORT_PATH } from '../paths.ts';
+import { IMPORT_REPORT_PATH } from '../paths.ts';
 import type { Unresolved } from './cite.ts';
 import { type Tally, tally } from './gates.ts';
 
@@ -416,7 +416,6 @@ export type {
 	Sample,
 };
 export {
-	BLESSING_PATH,
 	createReport,
 	createRuleCounter,
 	GATE_NAMES,

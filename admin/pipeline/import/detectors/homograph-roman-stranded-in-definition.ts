@@ -34,8 +34,10 @@ const HOMOGRAPH_ROMAN_STRANDED_ACTION =
 	'Leave it until the anchor side is settled: moving the numeral into the headword alone would dangle 37 live anchors against the 3 that mis-resolve today.';
 
 /** A leading Roman numeral, optionally after a comma, refused before
- * a lower-case letter or an apostrophe. */
-const LEADING_ROMAN = /^\s*,?\s*(?<numeral>[IVXLC]+)(?![\p{Ll}'’])/u;
+ * a lower-case letter or an apostrophe. The lookahead also refuses a
+ * further numeral letter, so `[IVXLC]+` cannot give back a letter to
+ * match a shorter numeral inside a word (`IIa` is not `I`). */
+const LEADING_ROMAN = /^\s*(?:,\s*)?(?<numeral>[IVXLC]+)(?![IVXLC\p{Ll}'’])/u;
 
 /** One row per entry whose lead gloss opens with a numeral its
  * headword does not carry. */
