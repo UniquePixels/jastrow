@@ -54,7 +54,7 @@ class TransformFailure extends Error {}
  * `report.transformRecords` directly since `RunResult` and
  * `RepairRecord` don't share a shape the caller could merge
  * generically. `report` only needs a `transformRecords` sink — not
- * the full migration `Report` — so callers pass any object with one. */
+ * the full import `Report` — so callers pass any object with one. */
 function healAndTransform(
 	source: SourceEntry,
 	report: { transformRecords: TransformRecord[] },

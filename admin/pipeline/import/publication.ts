@@ -16,7 +16,7 @@ interface KindRule {
 	publication: Publication;
 }
 
-/** The catalogued blocking classes `migrate/detectors/` detects, all
+/** The catalogued blocking classes `import/detectors/` detects, all
  * `defer` and stated once rather than a row each: `blocking: true` in
  * the catalogue gates the CUTOVER, while this table answers the
  * separate question of what a reader can correct after go-live, and
@@ -119,7 +119,7 @@ const KIND_RULES: ReadonlyArray<readonly [string, Publication, string]> = [
 	// until this row. A dropped agent patch is an un-reviewed judgement,
 	// same as `upstream-changed` / `upstream-fixed`, so it defers to a
 	// post-go-live look rather than a note (`patch/apply.ts`'s
-	// `AcceptedCorpus.dropped` / `droppedCarryOver`, `migrate/patches.ts`'s
+	// `AcceptedCorpus.dropped` / `droppedCarryOver`, `import/patches.ts`'s
 	// `recordConsolidatedAway`).
 	[
 		'patch-consolidated-away',

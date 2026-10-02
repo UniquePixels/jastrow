@@ -222,7 +222,7 @@ describe('detectClasses', () => {
 				],
 			}),
 		);
-		expect(rows.length).toBe(1);
+		expect(rows).toHaveLength(1);
 		expect(rows[0]?.detail).toBe(
 			'stems[0] "Ithpa." carries no sense text; stems[1] "Ithpe." carries no sense text',
 		);

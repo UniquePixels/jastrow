@@ -4493,6 +4493,6 @@ No detector on the import path can see a class listed here, so it produces no ro
 
 They are `defer` for publication: none moves a URL (post-consolidation review §10, decision 2). The catalogue keeps `blocking: true` on each — that flag gates the CUTOVER, which is a separate question from what a reader can correct after go-live.
 
-**What to do:** write the detector under `admin/pipeline/migrate/detectors/` and register it; the class then leaves this list and its rows are triaged above under its own kind.
+**What to do:** write the detector under `admin/pipeline/import/detectors/` and register it; the class then leaves this list and its rows are triaged above under its own kind.
 
 _none_

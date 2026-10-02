@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import { type RunOptions, runOptions } from './options.ts';
 
-const RUNTIME = ['bun', 'admin/pipeline/migrate.ts'];
+const RUNTIME = ['bun', 'admin/pipeline/import.ts'];
 
 describe('runOptions', () => {
 	it('is a non-strict dry run by default: pins counted, drift reported', () => {

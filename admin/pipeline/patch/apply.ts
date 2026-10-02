@@ -17,7 +17,7 @@
  * consumer-facing output. `createPhaseTracker` asserts that order at
  * runtime; a violated assertion aborts the run (`PhaseViolation`).
  *
- * `bun data:import`'s `preparePatches` (`migrate.ts`) is the one
+ * `bun data:import`'s `preparePatches` (`import.ts`) is the one
  * consumer of the corpus split and preflight built here. The dry,
  * read-only replay that used to exercise this module on its own —
  * `bun patch:replay`, `patch/apply-cli.ts` — was deleted 2026-09-22
@@ -89,7 +89,7 @@ async function loadReviewedCorpus(dir = REVIEWED_DIR): Promise<ReviewedCorpus> {
  * patch listed exactly once, under its own rid, and every listed id
  * present. A reviewed patch applies first and may add bytes, so one
  * that no record accounts for must not apply unflagged. Shared by
- * `migrate.ts` and `apply-cli.ts` preflight. */
+ * `import.ts` and `apply-cli.ts` preflight. */
 function reviewedManifestProblems(corpus: ReviewedCorpus): ApplyProblem[] {
 	return reconcilePatches(corpus.records, corpus.patches).map((problem) => ({
 		reason: `reviewed manifest: ${problem.reason}`,
@@ -106,7 +106,7 @@ function reviewedManifestProblems(corpus: ReviewedCorpus): ApplyProblem[] {
 type CorpusStage = 'healed' | 'pre-patch';
 
 /** Ingest order of the committed tranches, with the corpus stage each
- * was swept at. MIGRATION ACCEPTS HEALED TRANCHES ONLY — `loadCorpus`
+ * was swept at. IMPORT ACCEPTS HEALED TRANCHES ONLY — `loadCorpus`
  * and `loadManifest` stay raw for the research tools, which need every
  * stage. Directory names do not sort chronologically
  * (`calibration-2026-09-04` ran before `batch-01-2026-09-04`), so the
@@ -177,7 +177,7 @@ interface PhaseTracker {
 /** Runtime enforcement of the phase manifest: each `run` asserts its
  * phase exists, follows the last one in manifest order, and has every
  * prerequisite completed. One tracker per unit of work (per entry in
- * the migration walk). */
+ * the import walk). */
 function createPhaseTracker(
 	manifest: typeof PHASE_MANIFEST = PHASE_MANIFEST,
 ): PhaseTracker {
@@ -233,7 +233,7 @@ interface PatchDrift {
 
 /** Patches pinned to a snapshot other than `currentPin`. Every patch
  * pins one hash over the whole export, so a new export makes this every
- * patch at once — which is why migrate reports it as a count and judges
+ * patch at once — which is why import reports it as a count and judges
  * each patch by its own `expected_before` instead. */
 function stalePins(
 	patches: readonly SemanticPatch[],
@@ -344,11 +344,11 @@ async function loadManifest(
 /** Preflight policy. `block` (default): unresolved `needs_*` rows are
  * problems, which is the research track's contract. `defer`: they are
  * not — every escalation is deferred to post-go-live (migrate spec
- * §8) and migration proceeds without them. */
+ * §8) and the import proceeds without them. */
 interface PreflightOptions {
 	escalations: 'block' | 'defer';
 	/** `block` (default): a stale snapshot pin is a problem. `skip`: it
-	 * is not checked here — migrate counts it with `stalePins` and
+	 * is not checked here — import counts it with `stalePins` and
 	 * judges each patch by its precondition (consolidation spec §4.2). */
 	pins?: 'block' | 'skip';
 	/** Subset of `patches` the manifest must reconcile against.
@@ -415,11 +415,11 @@ function corpusPreflight(
 	return problems;
 }
 
-/** The corpus migration applies: every HEALED-stage record and patch
+/** The corpus the import applies: every HEALED-stage record and patch
  * — pre-patch tranches are EXCLUDED from `patches` rather than
  * consolidated away — reduced to one record per rid, the latest
  * winning, plus `carryOver`: the excluded pre-patch patches whose
- * defect no accepted patch covers. Applying the migration means
+ * defect no accepted patch covers. Applying it means
  * applying `patches` then, per rid, `carryOver`. */
 interface AcceptedCorpus {
 	/** Pre-patch-stage patches whose `${rid} ${target}` is not already
@@ -430,7 +430,7 @@ interface AcceptedCorpus {
 	carryOver: SemanticPatch[];
 	/** Every healed-stage manifest record `consolidate` superseded
 	 * (Ruling C), in ingest order — the gap consolidation spec §4.2
-	 * closes: silent skipping is never allowed. `migrate/patches.ts`
+	 * closes: silent skipping is never allowed. `import/patches.ts`
 	 * turns each into a `patch-consolidated-away` report row. */
 	dropped: EntryResult[];
 	/** Pre-patch-stage patches EXCLUDED from `carryOver` because an

@@ -64,7 +64,7 @@ where a reader can check.
 | Patches | The carry-over zero-match gap | On a new export, an upstream rewrite of a carry-over target reads as 0 resolutions exactly like an already-absorbed one — the two cases can't be told apart. |
 | Patches | Rid renumbering safety | If Sefaria renumbers rids in a future export, the (still unbuilt) update run needs a check that refuses a bulk rid → headword shift. |
 | Process | The maintenance dry run's trigger | A scheduled run would execute import in automation, conflicting with R9 (CI never runs import). No such scheduled run exists yet. |
-| Process | The maintenance dry run's baseline | Which committed artifact a result compares against — the candidate set has grown now that `migration-blessing.md` and `review-report.md` are both committed. |
+| Process | The maintenance dry run's baseline | Which committed artifact a result compares against — the candidate set has grown now that `import-blessing.md` and `review-report.md` are both committed. |
 | Process | Should the publication gate be code, not process? | `admin/pipeline/DESIGN.md` still calls it a process rule that nothing in code checks — confirmed 2026-09-22. |
 | Out of pipeline scope | Bare-letter route: alternate headword or only primary? | An app/compile question; no code answers it today. |
 | Out of pipeline scope | Does a Sefaria-URL route keep serving an old name after a rename? | Stated default is no; not implemented either way. |
@@ -74,6 +74,6 @@ where a reader can check.
 | Decided, unbuilt | Compile decides everything | Every link, abbreviation and ordering decision made once at compile and tested in CI; the client never decides. Needs `compile.ts`. |
 | Decided, unbuilt | Browse ordering at compile | Alt rows placed by a collation rule at compile, never a client sort. |
 | Decided, unbuilt | Abbreviation detection at compile | Abbreviations stay untagged in entry data; detection runs at compile against an abbreviation list, with override tags where the detector is provably wrong. |
-| Decided, unbuilt | The source-byte fallback | A failing entry is emitted from source bytes with a review row rather than dropped, instead of the import halting. No emit path exists in `migrate.ts` today. |
+| Decided, unbuilt | The source-byte fallback | A failing entry is emitted from source bytes with a review row rather than dropped, instead of the import halting. No emit path exists in `import.ts` today. |
 | Decided, unbuilt | Close the three `DEFERRED` rids | D00470, K00081 and R00519 are still `needs_human_judgment` in `admin/pipeline/patch/records/reviewed/manifest.jsonl`. |
 | Decided, unbuilt | URL routes, the rename flow and the published-names ledger | Three routes (bare letters, our name, a Sefaria URL), the admin tool's rename flow, compile's route map, and a published-names ledger with its own gates. `formerNames` is in the schema and nothing writes it. Large scope; candidate for its own issue rather than one row. |

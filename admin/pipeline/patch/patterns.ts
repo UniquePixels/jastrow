@@ -20,7 +20,7 @@ type PatternRoute = 'blocked' | 'judgment' | 'transform';
 /** One systemic pattern class. */
 interface Pattern {
 	/** Holds up the v2 cutover (sweep-tiering spec T6): breaks the
-	 * render, or would be baked in by the migration.
+	 * render, or would be baked in by the import.
 	 *
 	 * This gates the CUTOVER, not the work. A non-blocking row may still
 	 * be fixed now — see `transformQueue` — and false is only a promise

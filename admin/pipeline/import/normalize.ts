@@ -8,7 +8,7 @@
  * write side, so the property holds by construction rather than by a
  * one-off script the next run undoes.
  *
- * **Where it sits, and why that matters.** It runs in the migrate
+ * **Where it sits, and why that matters.** It runs in the import
  * write step, on the way to disk, AFTER every source gate has read
  * the in-memory truth. So it cannot move one: gate 3
  * (`checkTextConservation`) compares the composed body against that

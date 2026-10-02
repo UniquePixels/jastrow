@@ -283,7 +283,7 @@ function replaceAttrValue(
  * both `href` and `data-ref`, 2 carry `href` alone, 0 carry `data-ref`
  * alone.** No shipped rule reaches those 2 — a composed pass over all
  * 32,512 entries throws 0 times — but a throw inside a rule is a
- * migration failure rather than a soft error, and "no rule reaches it
+ * import failure rather than a soft error, and "no rule reaches it
  * today" is an argument that has preceded latent bugs here before.
  *
  * `ATTR`'s value class MUST admit an apostrophe. With `[^"']*`, 452

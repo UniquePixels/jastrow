@@ -324,7 +324,7 @@ interface MoveContext {
 	/** The record's `detail` — a fixed, short description of what this
 	 * rule did, the shape `paren-boundary.ts`'s `applyBoundary` already
 	 * threads through. It is NOT the rewritten text: passing that
-	 * repeated an entire definition into the migration manifest once per
+	 * repeated an entire definition into the import manifest once per
 	 * occurrence. */
 	detail: string;
 	moveAt: (tokens: readonly Token[], anchor: Anchor) => Token[] | undefined;

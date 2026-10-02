@@ -429,7 +429,7 @@ describe('toseftaPrimaryHalakha', () => {
 	// Condition 4. An href that does not end where the halakha is
 	// appended would be handed a suffix belonging nowhere, and the gate
 	// would REFUSE the result — which, since `run.ts` throws on a gate
-	// problem, halts the migration rather than skipping an entry.
+	// problem, halts the import rather than skipping an entry.
 	it('declines a primary whose href does not end in its chapter', () => {
 		const odd = def(
 			SPLIT.replace('/Tosefta_Shabbat.16', '/Tosefta_Shabbat.16a'),

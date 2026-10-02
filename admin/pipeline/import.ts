@@ -1,6 +1,6 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: the run's stages in committed order; a split would hide the sequence the report depends on.
 /**
- * Migration — source snapshot to truth files (spec 2026-09-06 §3–4).
+ * Import — source snapshot to truth files (spec 2026-09-06 §3–4).
  * Two passes: compose every entry and build the corpus-level indexes,
  * then finish and gate every entry. Dry without `--write`; `--write`
  * reruns every gate and refuses on any red one, or on an output tree
@@ -24,10 +24,10 @@ import { evaluateRoundTrip } from './body/round-trip.ts';
 import { readSourceEntries } from './body/source.ts';
 import { buildTrace } from './body/trace.ts';
 import { composeEntry, TransformFailure } from './compose.ts';
-import { biomeBinary } from './migrate/biome.ts';
-import { buildHeadwordMap } from './migrate/cite.ts';
-import { detectClasses } from './migrate/detectors/classes.ts';
-import { finishEntry } from './migrate/finish.ts';
+import { biomeBinary } from './import/biome.ts';
+import { buildHeadwordMap } from './import/cite.ts';
+import { detectClasses } from './import/detectors/classes.ts';
+import { finishEntry } from './import/finish.ts';
 import {
 	checkChain,
 	checkContract,
@@ -36,35 +36,33 @@ import {
 	checkPages,
 	checkTextConservation,
 	mark,
-} from './migrate/gates.ts';
-import { normalizeForWrite } from './migrate/normalize.ts';
-import { type RunOptions, runOptions } from './migrate/options.ts';
-import { unbasedOrphans } from './migrate/orphan-refs.ts';
+} from './import/gates.ts';
+import { normalizeForWrite } from './import/normalize.ts';
+import { type RunOptions, runOptions } from './import/options.ts';
+import { unbasedOrphans } from './import/orphan-refs.ts';
 import {
 	markMissingTargets,
 	type PatchGroups,
 	recordConsolidatedAway,
 	recordPatchOutcomes,
-} from './migrate/patches.ts';
-import { classifyRows } from './migrate/publication.ts';
+} from './import/patches.ts';
+import { classifyRows } from './import/publication.ts';
 import {
-	BLESSING_PATH,
 	createReport,
 	createRuleCounter,
+	IMPORT_REPORT_PATH,
 	isGreen,
 	lineRow,
-	MIGRATION_REPORT_PATH,
 	type Report,
 	type RuleCounter,
 	renderBlessing,
 	type Sample,
 	writeReport,
-} from './migrate/report.ts';
+} from './import/report.ts';
 import {
 	loadUndetectedClasses,
-	REVIEW_REPORT_PATH,
 	renderReviewReport,
-} from './migrate/review-report.ts';
+} from './import/review-report.ts';
 import {
 	corpusPreflight,
 	loadAcceptedCorpus,
@@ -75,9 +73,11 @@ import {
 } from './patch/apply.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
 import {
+	BLESSING_PATH,
 	HEADWORD_ISSUES_CSV,
 	HEADWORD_ISSUES_DOC,
 	ENTRIES_DIR as OUT_DIR,
+	REVIEW_REPORT_PATH,
 } from './paths.ts';
 import { buildHeadwordIssues } from './report/headword-issues.ts';
 import { RULES } from './transform/registry.ts';
@@ -452,7 +452,7 @@ async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
 /** The empty-tree guard, as its own step so a test can reach it:
  * `--write` refuses outright unless the entry tree is empty.
  *
- * NOT because the migration is a one-shot — R1 withdrew that, and this
+ * NOT because the import is a one-shot — R1 withdrew that, and this
  * command is permanent and re-runnable. The guard stands in for the
  * update run: until §3.2's three-way merge exists, a second `--write`
  * over a populated tree would overwrite hand edits blindly. R11 calls
@@ -461,7 +461,7 @@ async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
 async function refuseUnlessEmpty(dir: string = OUT_DIR): Promise<void> {
 	if (!(await outputTreeIsEmpty(dir))) {
 		throw new Error(
-			`${dir} already holds truth files; migration writes once. Delete them to re-import, or run \`bun data:import:dry\` for the reports alone`,
+			`${dir} already holds truth files; import writes once. Delete them to re-import, or run \`bun data:import:dry\` for the reports alone`,
 		);
 	}
 }
@@ -564,7 +564,7 @@ function printGates(report: Report): void {
 		`stalePins=${report.snapshot.stalePins} upstreamFixed=${report.patches.upstreamFixed} upstreamChanged=${report.patches.upstreamChanged}`,
 	);
 	console.log(
-		`report written to ${MIGRATION_REPORT_PATH}; evidence to ${BLESSING_PATH}; review to ${REVIEW_REPORT_PATH}; headword issues to ${HEADWORD_ISSUES_DOC}, ${HEADWORD_ISSUES_CSV}`,
+		`report written to ${IMPORT_REPORT_PATH}; evidence to ${BLESSING_PATH}; review to ${REVIEW_REPORT_PATH}; headword issues to ${HEADWORD_ISSUES_DOC}, ${HEADWORD_ISSUES_CSV}`,
 	);
 }
 
@@ -585,7 +585,7 @@ async function writeHeadwordIssues(
 	);
 }
 
-/** The migrate CLI, and the pipeline's only entry point to a write.
+/** The import CLI, and the pipeline's only entry point to a write.
  *
  * `bun data:import` passes `--write`; `bun data:import:dry` does not.
  * Without `--write` it is a dry run: every entry is composed, gated

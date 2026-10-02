@@ -89,7 +89,7 @@ export const LOCK_PATH = `${PATCH_DIR}/snapshot.lock`;
  * because it describes one import of that snapshot, not the
  * dictionary: it is regenerated wholesale every run and nothing
  * downstream may treat it as entry data. */
-export const MIGRATION_REPORT_PATH = `${SOURCE_DIR}/migration-report.json`;
+export const IMPORT_REPORT_PATH = `${SOURCE_DIR}/import-report.json`;
 
 /** Generated markdown a person reads. The module writes it to a path
  * it declares here, in a directory of its own, rather than into
@@ -99,11 +99,11 @@ export const MIGRATION_REPORT_PATH = `${SOURCE_DIR}/migration-report.json`;
 export const REPORTS_DIR = 'docs/reports';
 
 /** The evidence document the maintainer reads and blesses (migrate
- * spec §4.2). `MIGRATION_REPORT_PATH` is the machine's account of a
+ * spec §4.2). `IMPORT_REPORT_PATH` is the machine's account of a
  * run; this is the human-facing one, and the two are generated
  * together so a blessing can never be given against numbers that have
  * moved. */
-export const BLESSING_PATH = `${REPORTS_DIR}/migration-blessing.md`;
+export const BLESSING_PATH = `${REPORTS_DIR}/import-blessing.md`;
 
 /** Every review and patch row of a run, split by whether it blocks v2
  * publication (consolidation spec §3.1.1). The document is committed,

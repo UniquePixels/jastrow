@@ -40,7 +40,7 @@ const CATALOGUED: readonly Pattern[] = [
 	},
 ];
 
-/** The catalogue as `migrate.ts` hands it to the renderer. */
+/** The catalogue as `import.ts` hands it to the renderer. */
 const SORTED = undetectedClasses(CATALOGUED);
 
 function sample(): Report {
@@ -139,7 +139,7 @@ describe('loadUndetectedClasses', () => {
 			PATTERNS_PATH,
 			new Set(),
 		);
-		expect(stillCatalogued.length).toBe(5);
+		expect(stillCatalogued).toHaveLength(5);
 		expect(stillCatalogued.map((c) => c.id)).toContain('empty-stem-section');
 		for (const c of stillCatalogued) {
 			expect(c.blocking).toBe(true);
@@ -201,7 +201,7 @@ describe('renderReviewReport', () => {
 				'',
 				'They are `defer` for publication: none moves a URL (post-consolidation review §10, decision 2). The catalogue keeps `blocking: true` on each — that flag gates the CUTOVER, which is a separate question from what a reader can correct after go-live.',
 				'',
-				'**What to do:** write the detector under `admin/pipeline/migrate/detectors/` and register it; the class then leaves this list and its rows are triaged above under its own kind.',
+				'**What to do:** write the detector under `admin/pipeline/import/detectors/` and register it; the class then leaves this list and its rows are triaged above under its own kind.',
 				'',
 				'- etymology-head-pseudo-sense — 342 entries — defer',
 				'- verse-paren-false-sense-split — 33 entries — defer',

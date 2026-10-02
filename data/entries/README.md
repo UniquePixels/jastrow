@@ -1,7 +1,7 @@
 # Entries — the imported dictionary
 
 32,512 JSON files, one per entry, written by the first `bun
-data:import` (`admin/pipeline/migrate.ts`) from `data/source/`.
+data:import` (`admin/pipeline/import.ts`) from `data/source/`.
 Sharded by first letter of the rid: `A/A00013.json`.
 
 **Generated once, then it is the edited layer.** After that first

@@ -13,7 +13,7 @@
  *
  * What left with the corpus read is the "working
  * tree = pinned snapshot" assertion, which genuinely needs it: that
- * one lives on the `snapshot.ts` CLI and on migrate's own preflight,
+ * one lives on the `snapshot.ts` CLI and on import's own preflight,
  * where `preparePatches` pins every patch against a freshly computed
  * hash. What stays here is the lock's INTERNAL consistency, which
  * needs only the lock.

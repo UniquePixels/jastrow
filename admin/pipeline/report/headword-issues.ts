@@ -15,7 +15,7 @@
  *   the grammar and still be wrong (a lost letter, a Sefaria split),
  *   and those rows exist only because this file looks for them.
  *
- * `migrate.ts` writes the result to `docs/reports/headword-issues.md`
+ * `import.ts` writes the result to `docs/reports/headword-issues.md`
  * (read by eye, one section per shape, every rid linked to the live
  * app) and `docs/reports/headword-issues.csv` (the same rows, for
  * sorting).
@@ -32,7 +32,7 @@ const APP_URL = 'https://jastrow.app/#rid:';
 // attaches to its neighbour and the range silently widens. U+0307, the
 // combining dot above, is its own alternative because biome's
 // noMisleadingCharacterClass rejects a mark escape beside a base
-// escape in one class (see `migrate/headword.ts`).
+// escape in one class (see `admin/entry/headwords.ts`).
 const MARKS = /[\u0591-\u05C7]|\u0307/gu;
 const LETTERS = /[\u05D0-\u05EA]+/gu;
 const LEADING_MARK = /^(?:[\u0591-\u05C7]|\u0307)/u;
@@ -60,7 +60,7 @@ interface ReportRow {
  * whether the current processor already flags it. */
 interface IssueRow {
 	flagged: boolean;
-	/** The entry's current URL name (`migrate/names.ts`), for context
+	/** The entry's current URL name (`admin/entry/names.ts`), for context
 	 * beside the form the row is about. Derived, never stored — this
 	 * file does not re-implement the derivation the way it once
 	 * re-implemented slug-stem stripping. */
@@ -591,7 +591,7 @@ function renderCsv(rows: IssueRow[]): string {
 	return `${lines.join('\n')}\n`;
 }
 
-/** The two rendered documents and the counts `migrate.ts` prints. */
+/** The two rendered documents and the counts `import.ts` prints. */
 interface HeadwordIssues {
 	csv: string;
 	doc: string;

@@ -12,7 +12,7 @@ import type { SourceEntry } from '../types.ts';
  * (`PHASE_MANIFEST` in `admin/pipeline/patch/apply.ts`). */
 type TransformPhase = 'structural-repairs' | 'text-repairs';
 
-/** One instance a rule changed, for the migration report. */
+/** One instance a rule changed, for the import report. */
 interface TransformRecord {
 	detail: string;
 	rid: string;

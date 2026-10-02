@@ -45,7 +45,7 @@ const WHITESPACE = /\s+/gu;
  *
  * Returns the name in the form's OWN normalization; `nameKey` is what
  * comparison uses. Nothing here rewrites stored text — the one step
- * that does is the migrate WRITE (`normalizeForWrite`, #110), which
+ * that does is the import WRITE (`normalizeForWrite`, #110), which
  * runs long after this and puts the file into NFC. */
 function deriveName(form: FormObject): string {
 	const word = form.text.replace(NOTATION, '').replace(WHITESPACE, ' ').trim();

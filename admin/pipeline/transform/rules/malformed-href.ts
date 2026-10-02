@@ -30,7 +30,7 @@
  * DECLARES the pair through `TransformResult.restored`. Without case
  * 6 the gate refuses D00478 (see the BLOCKING FINDING section below)
  * and `run.ts` throws, so registering the rule would halt the
- * migration on the first pass over that entry rather than repair
+ * import on the first pass over that entry rather than repair
  * anything.
  *
  * ## Two shapes, one defect

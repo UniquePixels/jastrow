@@ -13,12 +13,13 @@ date, and what it drops — see [`decisions.md`](decisions.md).
   Swept through the living documents and `package.json` in step 10
   (2026-09-19), and re-scoped to the import module on 2026-09-22 when
   `admin/pipeline/` became self-contained.
-- **What still says the old words.** Code identifiers do: the entry
-  point `admin/pipeline/migrate.ts`, the directory
-  `admin/pipeline/migrate/`, the types `TruthEntry`, `TruthFile`,
-  `TruthSense`, the helpers `validateTruth` and `loadTruthFiles`, and
-  the generated `docs/reports/migration-blessing.md`. Renaming them is
-  a change of its own, deliberately not folded into the terms sweep.
+- **What still says the old words.** Code identifiers do: the types
+  `TruthEntry`, `TruthFile`, `TruthSense` and the helpers
+  `validateTruth` and `loadTruthFiles`. Renaming them is a change of
+  its own, deliberately not folded into the terms sweep. The `migrate`
+  identifiers went first, on 2026-10-02: the entry point is
+  `admin/pipeline/import.ts`, the directory `admin/pipeline/import/`,
+  and the generated blessing doc `docs/reports/import-blessing.md`.
   `docs/archive/` — which took in the plans on 2026-09-21 and the
   dated design specs, the research documents and the retired patch
   records on 2026-09-22 — holds records of work as it happened, and
@@ -68,8 +69,8 @@ now writes the headword-issues report beside the others.
 | **write run** | `bun data:import` (which passes `--write`): writes entry data, then formats it with Biome. Refuses unless `data/entries/` is empty, and refuses if any gate is red |
 | **`--strict`** | makes a run refuse on a stale pin or a patch whose precondition no longer holds, instead of reporting them. Right for the committed snapshot, wrong for a new export |
 | **gate** | one of ten pass/total tallies import checks on every run: `bodyRoundTrips`, `headwordLine`, `textConservation`, `schema`, `chain`, `internalTargets`, `names`, `pages`, `composition`, `contract` |
-| **import report** | the structured result of a run: gate tallies, rule counts, patch outcomes, report rows. Not committed (`data/source/migration-report.json`) |
-| **blessing doc** | the import report rendered for a person to read before accepting a run. Committed with the entry data it describes (`docs/reports/migration-blessing.md`) |
+| **import report** | the structured result of a run: gate tallies, rule counts, patch outcomes, report rows. Not committed (`data/source/import-report.json`) |
+| **blessing doc** | the import report rendered for a person to read before accepting a run. Committed with the entry data it describes (`docs/reports/import-blessing.md`) |
 | **report row** | one finding in the report, shaped `{ rid, bucket, kind, severity, detail }`. `bucket` is `review` (a data judgment), `patch` (a patch to re-judge) or `pipeline` (a code fault) |
 | **rule count** | how often one rule fired in a run, and on how many entries. *Composed*: each rule sees the text the rules before it left, so it can differ from the rule run alone |
 | **fresh run** | an import where no hand edits exist in entry data yet, e.g. a new fork |
@@ -86,7 +87,7 @@ Everything import runs is one of three **buckets**:
 |---|---|---|
 | **rule** | general code that detects a defect and fixes it wherever it occurs | `admin/pipeline/transform/rules/` |
 | **patch** | one entry's judged fix, applied only when its precondition holds | `admin/pipeline/patch/records/` |
-| **review detector** | code that detects something a person must judge and emits a report row; fixes nothing | `admin/pipeline/migrate/detectors/`, registered in `detectors/classes.ts` |
+| **review detector** | code that detects something a person must judge and emits a report row; fixes nothing | `admin/pipeline/import/detectors/`, registered in `detectors/classes.ts` |
 
 | Term | Meaning |
 |---|---|
@@ -155,14 +156,15 @@ What a run reports for each patch:
 | `headword-multiword` (review kind) | nothing: the line parser keeps a multi-word form as one form and says nothing about it ([`archive/headword-design.md`](archive/headword-design.md) §4) |
 | truth, truth tree | entry data |
 | migrate, migration (the command and the run) | import |
+| `admin/pipeline/migrate.ts`, `admin/pipeline/migrate/`, `MIGRATION_REPORT_PATH`, `data/source/migration-report.json` | **`admin/pipeline/import.ts`**, **`admin/pipeline/import/`**, **`IMPORT_REPORT_PATH`**, **`data/source/import-report.json`** — renamed 2026-10-02 (R8's identifier half; the `Truth*` names remain) |
 | `pipeline:fetch` / `pipeline:migrate` / `pipeline:compile` | `data:fetch` / `data:import` / `data:compile` |
 | `research:apply`, then `pipeline:patches`, then `patch:replay` | nothing: deleted 2026-09-22 (Brian's ruling) — redundant with import's own patch preflight, and could not complete on the corpus, blocking on the ~600 `needs_*` escalations import deliberately defers |
-| `body:dry-run`, `body/dry-run.ts` | **`body/trace.ts`** (the composition `migrate.ts` imports) and **`body/round-trip.ts`** (the verifier the gate calls) — the full-corpus CLI and `dry-run-report.ts` were archived at `refs/tags/archive/v2-research-2026-09` on 2026-09-22 |
+| `body:dry-run`, `body/dry-run.ts` | **`body/trace.ts`** (the composition `import.ts` imports) and **`body/round-trip.ts`** (the verifier the gate calls) — the full-corpus CLI and `dry-run-report.ts` were archived at `refs/tags/archive/v2-research-2026-09` on 2026-09-22 |
 | `pageindex:verify`, `page-index/verify.ts` | nothing: archived to the same tag on 2026-09-22; it compared a build against v1 `--prior` data the v2 tree no longer holds |
 | `body/types.ts`, `body/compose.ts` | **`admin/pipeline/types.ts`** and **`admin/pipeline/compose.ts`** — the shared model and the orchestrator are not body-specific (2026-09-22, review Q9) |
 | migration report | import report |
 | truth file, truth tree entry | entry file |
-| migration blessing | blessing doc (the file keeps the name `docs/reports/migration-blessing.md`, and its heading still reads "Migration blessing", until the code sweep: both are emitted by `migrate/report.ts`) |
+| migration blessing, `docs/reports/migration-blessing.md` | blessing doc, **`docs/reports/import-blessing.md`** (file and heading renamed 2026-10-02; both are emitted by `import/report.ts`) |
 | serving artifacts | compiled data |
 | corpus (meaning the committed export) | snapshot |
 | Rebuild CI job, Corpus Audit CI job | withdrawn 2026-09-15 (consolidation spec R9); removed from CI in its step 5 |
