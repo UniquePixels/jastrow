@@ -388,3 +388,65 @@ describe('the two halves', () => {
 		expect(problems[0]).toStartWith('A/A00001.json: schema: ');
 	});
 });
+
+// Ruling HW-gender (headword design §4): an entry's gender lives in
+// `grammar.gender` OR in a `gender` on every headword — never both, and
+// neither is inherited. The committed tree carries no form gender at
+// all (the parser never mints one), so `bun data:validate` passing is
+// a null result for this rule; these are its controls.
+describe('gender exclusivity (HW-gender)', () => {
+	/** Two forms, each slot followed by `after[n]` in the display. */
+	const pair = (
+		genders: [('f' | 'm')?, ('f' | 'm')?],
+		after: [string, string],
+	): Entry => ({
+		...A(),
+		display: `{0}${after[0]}, {1}${after[1]}`,
+		headwords: [
+			{ text: 'אב', ...(genders[0] && { gender: genders[0] }) },
+			{ text: 'אבה', ...(genders[1] && { gender: genders[1] }) },
+		],
+	});
+
+	it.each([
+		['neither', pair([], ['', ''])],
+		[
+			'grammar.gender alone',
+			{ ...pair([], ['', '']), grammar: { gender: 'm' } },
+		],
+		['a gender on every headword', pair(['m', 'f'], [' m.', ' f.'])],
+	] as [string, Entry][])('passes %s', async (_name, planted) => {
+		expect(await validateEntry(planted, 'A/A00001.json')).toEqual([]);
+	});
+
+	it.each([
+		[
+			'grammar.gender beside a gender on every headword',
+			{ ...pair(['m', 'f'], [' m.', ' f.']), grammar: { gender: 'm' } },
+			[
+				'A00001: grammar.gender beside a form gender on headwords [0,1]; an entry carries one or the other, never both (HW-gender)',
+			],
+		],
+		[
+			'a gender on some headwords but not every one',
+			pair(['m'], [' m.', '']),
+			[
+				'A00001: a form gender on headwords [0] but none on [1]; it goes on every headword or none (HW-gender)',
+			],
+		],
+		[
+			'both at once',
+			{ ...pair(['m'], [' m.', '']), grammar: { gender: 'm' } },
+			[
+				'A00001: grammar.gender beside a form gender on headwords [0]; an entry carries one or the other, never both (HW-gender)',
+				'A00001: a form gender on headwords [0] but none on [1]; it goes on every headword or none (HW-gender)',
+			],
+		],
+	] as [
+		string,
+		Entry,
+		string[],
+	][])('refuses %s', async (_name, planted, expected) => {
+		expect(await validateEntry(planted, 'A/A00001.json')).toEqual(expected);
+	});
+});

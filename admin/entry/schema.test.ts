@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import Ajv2020 from 'ajv/dist/2020';
 import { SCHEMA_PATH } from './paths.ts';
+import { validateEntry } from './validate.ts';
 
 // A runtime read, like the module's own two load sites: the schema
 // is handed to the module through paths.ts, not compiled in, so this
@@ -24,13 +25,16 @@ const minimalEntry: Fixture = {
 
 const fullEntry: Fixture = {
 	...minimalEntry,
+	// A gender on every headword and none on `grammar` (HW-gender): the
+	// schema cannot hold a file to that rule, so this fixture keeps it
+	// rather than leaning on the schema's silence.
 	headwords: [
 		{ text: 'אָב', homograph: 2, gender: 'm' },
-		{ text: 'אבא', reconstructed: true, partial: true },
+		{ text: 'אבא', reconstructed: true, partial: true, gender: 'f' },
 	],
-	display: '{0} II m., ({1})',
+	display: '{0} II m., *({1}) f.',
 	page: { number: 2, column: 'a' },
-	grammar: { gender: 'm', number: 'pl', pos: 'noun' },
+	grammar: { number: 'pl', pos: 'noun' },
 	senses: [
 		{
 			gloss: 'm. (b. h.), const. <cite ref="A00013">אֲבִי</cite>, father.',
@@ -77,6 +81,19 @@ describe('entry.schema.json valid entries', () => {
 
 	it('accepts a full-featured entry', () => {
 		expect(validate(fullEntry), JSON.stringify(validate.errors)).toBe(true);
+	});
+
+	it('accepts an entry carrying both genders, which only validateEntry refuses (HW-gender)', async () => {
+		const both = {
+			...minimalEntry,
+			headwords: [{ text: 'אָב', gender: 'm' }],
+			display: '{0} m.',
+			grammar: { gender: 'm' },
+		};
+		expect(validate(both), JSON.stringify(validate.errors)).toBe(true);
+		expect(await validateEntry(both, 'A/A00014.json')).toEqual([
+			'A00014: grammar.gender beside a form gender on headwords [0]; an entry carries one or the other, never both (HW-gender)',
+		]);
 	});
 
 	it('accepts a sense nested two levels deep', () => {

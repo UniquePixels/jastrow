@@ -124,7 +124,7 @@
 					"const": true
 				},
 				"gender": {
-					"description": "This form's gender label, as print sets it beside the form (headword design §4). An entry carries at most one of a per-form gender on EVERY headword or a grammar.gender, never both, and neither is inherited.",
+					"description": "This form's gender label, as print sets it beside the form (headword design §4). An entry carries at most one of a per-form gender on EVERY headword or a grammar.gender, never both, and neither is inherited (ruling HW-gender). This schema cannot express it; admin/entry/validate.ts enforces it.",
 					"type": "string",
 					"enum": ["m", "f"]
 				},

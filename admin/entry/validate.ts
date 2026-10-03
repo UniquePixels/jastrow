@@ -11,8 +11,9 @@
  * the tree need different things:
  *
  * - `validateEntry(entry, path)` — one file on its own: schema, home
- *   path, the §3.1 headword rules, markup vocabulary and balance, no
- *   markup in a plain field, and every stored string in NFC.
+ *   path, the §3.1 headword rules, gender in one place (HW-gender),
+ *   markup vocabulary and balance, no markup in a plain field, and
+ *   every stored string in NFC.
  * - `validateCorpus(entries, pages)` — what only the whole tree can
  *   answer: names and `sefariaHeadword` are unique, every rid-shaped
  *   cite names an entry, and each entry's page is its page-index row,
@@ -407,6 +408,33 @@ function checkHeadwordShape(entry: Entry, problems: string[]): void {
 	problems.push(...headwordShapeProblems(entry));
 }
 
+/** Ruling HW-gender (headword design §4): an entry's gender lives in
+ * ONE place — the entry's `grammar.gender`, or a `gender` on EVERY
+ * headword. Never both, and neither is inherited.
+ *
+ * "Every headword" is a clause of its own: a gender on some forms and
+ * not the rest is refused even with no `grammar.gender`, since the
+ * ruling's stated drop is exactly that shape ("per-form gender where
+ * only some forms carry a label"). The schema states the rule in its
+ * description and cannot hold a file to it; this does. */
+function checkGender(entry: Entry, problems: string[]): void {
+	const gendered: number[] = [];
+	const bare: number[] = [];
+	for (const [i, form] of entry.headwords.entries()) {
+		(form.gender === undefined ? bare : gendered).push(i);
+	}
+	if (gendered.length > 0 && entry.grammar?.gender !== undefined) {
+		problems.push(
+			`${entry.id}: grammar.gender beside a form gender on headwords [${gendered.join(',')}]; an entry carries one or the other, never both (HW-gender)`,
+		);
+	}
+	if (gendered.length > 0 && bare.length > 0) {
+		problems.push(
+			`${entry.id}: a form gender on headwords [${gendered.join(',')}] but none on [${bare.join(',')}]; it goes on every headword or none (HW-gender)`,
+		);
+	}
+}
+
 /** One file's own checks against an already compiled `schema`
  * (`schemaValidator`). Returns the entry when it passed the schema —
  * the corpus checks read only entries whose shape they can trust —
@@ -427,6 +455,7 @@ function checkEntry(
 		problems.push(`${path}: id ${entry.id} belongs at ${home}`);
 	}
 	checkHeadwordShape(entry, problems);
+	checkGender(entry, problems);
 	checkMarkup(entry, problems);
 	checkNfc(entry, problems);
 	return [entry, problems];

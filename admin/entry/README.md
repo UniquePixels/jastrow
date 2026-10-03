@@ -28,7 +28,9 @@ which are required, and every literal-valued field's values.
 ### What it checks
 
 Per file (`validateEntry`): the schema; the file sits at
-`<first letter>/<id>.json`; the six headword shape rules; markup in
+`<first letter>/<id>.json`; the six headword shape rules; gender in
+one place, `grammar.gender` or a `gender` on every headword (ruling
+HW-gender); markup in
 the closed vocabulary and balanced per field; no markup in a plain
 identifier field; every stored string in NFC, except
 `sefariaHeadword`, which keeps Sefaria's bytes.
