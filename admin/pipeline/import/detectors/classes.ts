@@ -2,9 +2,10 @@
  * The class-detector bucket (consolidation spec §4 "review detector",
  * §10 "port judgment-class detectors"): the catalogued classes the
  * maintainer ruled blocking that the import path can now see for
- * itself. Each detects only and emits rows; none repairs anything,
- * and all five are `defer` for publication (post-consolidation review
- * §10, decision 2).
+ * itself, plus `empty-body`, which no catalogue row matches exactly
+ * (see its file). Each detects only and emits rows; none repairs
+ * anything, and all six are `defer` for publication (post-consolidation
+ * review §10, decision 2; `empty-body` by the review ledger's L08).
  *
  * `DETECTED_CLASSES` is what the review report subtracts from the
  * catalogue, so a class leaves the "Catalogued, not yet detected"
@@ -17,6 +18,11 @@
 import type { Entry } from '../../../entry/types.ts';
 import { mark } from '../gates.ts';
 import type { Report, ReportRow } from '../report.ts';
+import {
+	detectEmptyBody,
+	EMPTY_BODY,
+	EMPTY_BODY_ACTION,
+} from './empty-body.ts';
 import {
 	detectEmptyStemSection,
 	EMPTY_STEM_SECTION,
@@ -46,13 +52,16 @@ import {
 
 /** One registered class: what finds it, and what to do about a row.
  * The catalogue id is the map key and the report `kind`, so the run's
- * row count for a kind reads directly against `corpusCount`. */
+ * row count for a kind reads directly against `corpusCount`. The one
+ * key that is not a catalogue id, `empty-body`, is subtracted from the
+ * catalogue harmlessly: no row carries it. */
 interface ClassRule {
 	action: string;
 	detect: ClassDetector;
 }
 
 const CLASS_RULES: ReadonlyMap<string, ClassRule> = new Map([
+	[EMPTY_BODY, { action: EMPTY_BODY_ACTION, detect: detectEmptyBody }],
 	[
 		EMPTY_STEM_SECTION,
 		{ action: EMPTY_STEM_SECTION_ACTION, detect: detectEmptyStemSection },
