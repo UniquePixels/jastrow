@@ -496,7 +496,7 @@ interface Normalized {
 
 /** Every entry through `normalizeForWrite` (#110): this is the ONE
  * place stored text is rewritten, and it is rewritten only into its
- * own NFC spelling, under an assertion that the rewrite is lossless.
+ * own NFC spelling, which is canonically the same text.
  * It runs after the source gates have read the in-memory entries, so
  * none of them reads a value this step produced. Gate 10 (`contract`)
  * is the one that does, on purpose: it holds exactly what will be
@@ -505,15 +505,16 @@ interface Normalized {
  * (its X4 "not NFC" shape would otherwise flag spellings the write is
  * about to fix).
  *
- * Every entry is normalized BEFORE the first file is written. A
- * refusal has to refuse the whole write, and normalizing inside the
- * write loop would instead leave the entries before the offending one
- * on disk, unformatted, with `refuseUnlessEmpty` blocking the re-run —
- * the same failure `biomeBinary` is resolved early to avoid. */
+ * Every entry is normalized BEFORE the first file is written, because
+ * gate 10 reads the normalized entries and a red gate has to refuse
+ * the whole write. Normalizing inside the write loop would leave gate
+ * 10 nothing to read until files were already on disk, with
+ * `refuseUnlessEmpty` blocking the re-run — the same failure
+ * `biomeBinary` is resolved early to avoid. */
 function normalizeAll(entries: readonly Entry[]): Normalized {
 	const normalized: Normalized = { entries: [], files: 0, strings: 0 };
 	for (const entry of entries) {
-		const [value, changed] = normalizeForWrite(entry, entry.id);
+		const [value, changed] = normalizeForWrite(entry);
 		if (changed > 0) {
 			normalized.strings += changed;
 			normalized.files++;

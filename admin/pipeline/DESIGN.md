@@ -1260,10 +1260,11 @@ so cannot be inferred from reading the code that is there.
 
 50. **Stored text is rewritten in exactly one place, and only into its
     own NFC spelling.** `normalizeForWrite` runs after every gate has
-    read the in-memory entries and before the first file is written,
-    under an `NFD(before) == NFD(after)` assertion, so a normalization
-    that would not be lossless refuses the write. `data/source/` is
-    never touched.
+    read the in-memory entries and before the first file is written.
+    NFC only ever produces a canonically equivalent string, so no
+    assertion guards it: the `NFD(before) == NFD(after)` check it once
+    carried is that equivalence restated and could not fire (review
+    ledger L10). `data/source/` is never touched.
 51. **No canonicalization of stored text at lookup time.** NFC is a
     *comparison* key in `names.ts` and `cite.ts`; nothing stored is
     rewritten by those steps.
