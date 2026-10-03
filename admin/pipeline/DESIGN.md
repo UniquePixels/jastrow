@@ -228,7 +228,8 @@ shape.
 
 ### Senses, stems, the gloss head
 
-`senses[]` is a tree of `{ label?, gloss, units[], senses[] }`.
+`senses[]` is a tree of `{ label?, gloss, units[], senses? }`, where a
+nested `senses` holds the same shape.
 
 `senses[0]`'s gloss **is the gloss head** — not a first sense. The
 gloss head is a pure concatenation of `content.morphology` +

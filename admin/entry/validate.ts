@@ -61,7 +61,9 @@ let compiled: ValidateFunction<Entry> | undefined;
  * language-neutral half of the contract, and `paths.ts` is the one
  * place that says where it is. The cost is that TypeScript no longer
  * checks the schema literal at build — `schema.test.ts` and Ajv's own
- * `strict: true` carry that instead.
+ * `strict: true` carry that instead. The `Entry` type parameter is a
+ * claim that a file the schema passes IS an `Entry`;
+ * `schema-parity.test.ts` is what holds the two to it.
  *
  * Exported so the import's schema gate compiles this validator rather
  * than a second copy of it. */

@@ -21,6 +21,9 @@ pipeline (ruling `09-30 entry contract`,
 
 The schema itself is `data/schema/entry.schema.json`, read at run
 time so a reader that is not TypeScript can hold a file to it too.
+It and `types.ts` are one contract written twice, and
+`schema-parity.test.ts` keeps them agreeing: every object's keys,
+which are required, and every literal-valued field's values.
 
 ### What it checks
 

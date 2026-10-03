@@ -12,17 +12,17 @@ function errorPaths(): string[] {
 	return (validate.errors ?? []).map((error) => error.instancePath || '/');
 }
 
-type Entry = Record<string, unknown>;
+type Fixture = Record<string, unknown>;
 
-const minimalEntry: Entry = {
+const minimalEntry: Fixture = {
 	schemaVersion: 2,
 	id: 'A00014',
 	sefariaHeadword: 'אָב II',
 	headwords: [{ text: 'אָב' }],
-	senses: [{ gloss: 'father' }],
+	senses: [{ gloss: 'father', units: [] }],
 };
 
-const fullEntry: Entry = {
+const fullEntry: Fixture = {
 	...minimalEntry,
 	headwords: [
 		{ text: 'אָב', homograph: 2, gender: 'm' },
@@ -41,7 +41,7 @@ const fullEntry: Entry = {
 			label: '2',
 			gloss: 'second sense',
 			units: ['unit text'],
-			senses: [{ label: 'a', gloss: 'nested sense' }],
+			senses: [{ label: 'a', gloss: 'nested sense', units: [] }],
 		},
 	],
 	stems: [
@@ -53,15 +53,17 @@ const fullEntry: Entry = {
 	],
 };
 
-const deepRecursionEntry: Entry = {
+const deepRecursionEntry: Fixture = {
 	...minimalEntry,
 	senses: [
 		{
 			gloss: 'top',
+			units: [],
 			senses: [
 				{
 					gloss: 'mid',
-					senses: [{ gloss: 'bottom' }],
+					units: [],
+					senses: [{ gloss: 'bottom', units: [] }],
 				},
 			],
 		},
@@ -92,7 +94,12 @@ const invalidCases: { name: string; entry: unknown; errorPath: string }[] = [
 	},
 	{
 		name: 'a sense missing gloss',
-		entry: { ...minimalEntry, senses: [{ label: '1' }] },
+		entry: { ...minimalEntry, senses: [{ label: '1', units: [] }] },
+		errorPath: '/senses/0',
+	},
+	{
+		name: 'a sense missing units',
+		entry: { ...minimalEntry, senses: [{ gloss: 'g' }] },
 		errorPath: '/senses/0',
 	},
 	{
@@ -114,13 +121,15 @@ const invalidCases: { name: string; entry: unknown; errorPath: string }[] = [
 		name: 'a stems item missing forms',
 		entry: {
 			...minimalEntry,
-			stems: [{ stem: 'Nif.', senses: [{ gloss: 'passive sense' }] }],
+			stems: [
+				{ stem: 'Nif.', senses: [{ gloss: 'passive sense', units: [] }] },
+			],
 		},
 		errorPath: '/stems/0',
 	},
 	{
 		name: 'a sense with an unknown extra property',
-		entry: { ...minimalEntry, senses: [{ gloss: 'g', bogus: 1 }] },
+		entry: { ...minimalEntry, senses: [{ gloss: 'g', units: [], bogus: 1 }] },
 		errorPath: '/senses/0',
 	},
 	{
@@ -173,6 +182,14 @@ const invalidCases: { name: string; entry: unknown; errorPath: string }[] = [
 		errorPath: '/headwords/0/partial',
 	},
 	{
+		name: 'a reconstructed that is false rather than absent',
+		entry: {
+			...minimalEntry,
+			headwords: [{ text: 'x', reconstructed: false }],
+		},
+		errorPath: '/headwords/0/reconstructed',
+	},
+	{
 		name: 'a gender outside m/f on a form',
 		entry: { ...minimalEntry, headwords: [{ text: 'x', gender: 'c' }] },
 		errorPath: '/headwords/0/gender',
@@ -187,7 +204,11 @@ const invalidCases: { name: string; entry: unknown; errorPath: string }[] = [
 		entry: {
 			...minimalEntry,
 			stems: [
-				{ stem: 'Nif.', forms: [''], senses: [{ gloss: 'passive sense' }] },
+				{
+					stem: 'Nif.',
+					forms: [''],
+					senses: [{ gloss: 'passive sense', units: [] }],
+				},
 			],
 		},
 		errorPath: '/stems/0/forms/0',
