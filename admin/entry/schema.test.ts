@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import Ajv2020 from 'ajv/dist/2020';
 import { SCHEMA_PATH } from './paths.ts';
+import { validateEntry } from './validate.ts';
 
 // A runtime read, like the module's own two load sites: the schema
 // is handed to the module through paths.ts, not compiled in, so this
@@ -12,25 +13,28 @@ function errorPaths(): string[] {
 	return (validate.errors ?? []).map((error) => error.instancePath || '/');
 }
 
-type Entry = Record<string, unknown>;
+type Fixture = Record<string, unknown>;
 
-const minimalEntry: Entry = {
+const minimalEntry: Fixture = {
 	schemaVersion: 2,
 	id: 'A00014',
 	sefariaHeadword: 'אָב II',
 	headwords: [{ text: 'אָב' }],
-	senses: [{ gloss: 'father' }],
+	senses: [{ gloss: 'father', units: [] }],
 };
 
-const fullEntry: Entry = {
+const fullEntry: Fixture = {
 	...minimalEntry,
+	// A gender on every headword and none on `grammar` (HW-gender): the
+	// schema cannot hold a file to that rule, so this fixture keeps it
+	// rather than leaning on the schema's silence.
 	headwords: [
 		{ text: 'אָב', homograph: 2, gender: 'm' },
-		{ text: 'אבא', reconstructed: true, partial: true },
+		{ text: 'אבא', reconstructed: true, partial: true, gender: 'f' },
 	],
-	display: '{0} II m., ({1})',
+	display: '{0} II m., *({1}) f.',
 	page: { number: 2, column: 'a' },
-	grammar: { gender: 'm', number: 'pl', pos: 'noun' },
+	grammar: { number: 'pl', pos: 'noun' },
 	senses: [
 		{
 			gloss: 'm. (b. h.), const. <cite ref="A00013">אֲבִי</cite>, father.',
@@ -41,7 +45,7 @@ const fullEntry: Entry = {
 			label: '2',
 			gloss: 'second sense',
 			units: ['unit text'],
-			senses: [{ label: 'a', gloss: 'nested sense' }],
+			senses: [{ label: 'a', gloss: 'nested sense', units: [] }],
 		},
 	],
 	stems: [
@@ -53,15 +57,17 @@ const fullEntry: Entry = {
 	],
 };
 
-const deepRecursionEntry: Entry = {
+const deepRecursionEntry: Fixture = {
 	...minimalEntry,
 	senses: [
 		{
 			gloss: 'top',
+			units: [],
 			senses: [
 				{
 					gloss: 'mid',
-					senses: [{ gloss: 'bottom' }],
+					units: [],
+					senses: [{ gloss: 'bottom', units: [] }],
 				},
 			],
 		},
@@ -75,6 +81,19 @@ describe('entry.schema.json valid entries', () => {
 
 	it('accepts a full-featured entry', () => {
 		expect(validate(fullEntry), JSON.stringify(validate.errors)).toBe(true);
+	});
+
+	it('accepts an entry carrying both genders, which only validateEntry refuses (HW-gender)', async () => {
+		const both = {
+			...minimalEntry,
+			headwords: [{ text: 'אָב', gender: 'm' }],
+			display: '{0} m.',
+			grammar: { gender: 'm' },
+		};
+		expect(validate(both), JSON.stringify(validate.errors)).toBe(true);
+		expect(await validateEntry(both, 'A/A00014.json')).toEqual([
+			'A00014: grammar.gender beside a form gender on headwords [0]; an entry carries one or the other, never both (HW-gender)',
+		]);
 	});
 
 	it('accepts a sense nested two levels deep', () => {
@@ -92,7 +111,12 @@ const invalidCases: { name: string; entry: unknown; errorPath: string }[] = [
 	},
 	{
 		name: 'a sense missing gloss',
-		entry: { ...minimalEntry, senses: [{ label: '1' }] },
+		entry: { ...minimalEntry, senses: [{ label: '1', units: [] }] },
+		errorPath: '/senses/0',
+	},
+	{
+		name: 'a sense missing units',
+		entry: { ...minimalEntry, senses: [{ gloss: 'g' }] },
 		errorPath: '/senses/0',
 	},
 	{
@@ -114,13 +138,15 @@ const invalidCases: { name: string; entry: unknown; errorPath: string }[] = [
 		name: 'a stems item missing forms',
 		entry: {
 			...minimalEntry,
-			stems: [{ stem: 'Nif.', senses: [{ gloss: 'passive sense' }] }],
+			stems: [
+				{ stem: 'Nif.', senses: [{ gloss: 'passive sense', units: [] }] },
+			],
 		},
 		errorPath: '/stems/0',
 	},
 	{
 		name: 'a sense with an unknown extra property',
-		entry: { ...minimalEntry, senses: [{ gloss: 'g', bogus: 1 }] },
+		entry: { ...minimalEntry, senses: [{ gloss: 'g', units: [], bogus: 1 }] },
 		errorPath: '/senses/0',
 	},
 	{
@@ -173,6 +199,14 @@ const invalidCases: { name: string; entry: unknown; errorPath: string }[] = [
 		errorPath: '/headwords/0/partial',
 	},
 	{
+		name: 'a reconstructed that is false rather than absent',
+		entry: {
+			...minimalEntry,
+			headwords: [{ text: 'x', reconstructed: false }],
+		},
+		errorPath: '/headwords/0/reconstructed',
+	},
+	{
 		name: 'a gender outside m/f on a form',
 		entry: { ...minimalEntry, headwords: [{ text: 'x', gender: 'c' }] },
 		errorPath: '/headwords/0/gender',
@@ -187,7 +221,11 @@ const invalidCases: { name: string; entry: unknown; errorPath: string }[] = [
 		entry: {
 			...minimalEntry,
 			stems: [
-				{ stem: 'Nif.', forms: [''], senses: [{ gloss: 'passive sense' }] },
+				{
+					stem: 'Nif.',
+					forms: [''],
+					senses: [{ gloss: 'passive sense', units: [] }],
+				},
 			],
 		},
 		errorPath: '/stems/0/forms/0',

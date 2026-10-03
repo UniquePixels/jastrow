@@ -92,7 +92,10 @@ interface Entry {
 	 * the pipeline writes it, and the gates that would check it arrive
 	 * with the published-names ledger (§5.2's last row, §9 step 6). */
 	formerNames?: string[];
-	grammar?: { gender?: 'm' | 'f' | 'c'; number?: 'pl' | 'du' };
+	/** `pos` is declared in the schema and has no producer: no entry
+	 * carries it (`docs/ideas.md`, Schema). It is here so the type
+	 * names every key the schema allows. */
+	grammar?: { gender?: 'm' | 'f' | 'c'; number?: 'pl' | 'du'; pos?: string };
 	/** Every form print sets on the headword line, in its order.
 	 * `headwords[0]` is the primary: the name, the search key and every
 	 * link are derived from it (headword design §2). */

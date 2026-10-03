@@ -222,13 +222,14 @@ The switch that once held it to a report is gone. A new one from
 upstream is a `headword-unparsed` row and a red gate 10.
 
 `gender` on a form and `grammar.gender` on the entry are mutually
-exclusive, and neither is inherited. The schema states the rule in
-its description; nothing cross-validates it beyond the schema's own
-shape.
+exclusive, a form gender goes on every headword or none, and neither
+is inherited (ruling HW-gender). The schema states the rule in its
+description; `validateEntry` (`admin/entry/validate.ts`) enforces it.
 
 ### Senses, stems, the gloss head
 
-`senses[]` is a tree of `{ label?, gloss, units[], senses[] }`.
+`senses[]` is a tree of `{ label?, gloss, units[], senses? }`, where a
+nested `senses` holds the same shape.
 
 `senses[0]`'s gloss **is the gloss head** — not a first sense. The
 gloss head is a pure concatenation of `content.morphology` +
