@@ -18,7 +18,7 @@
  * side cannot be repaired alone without making the corpus worse.
  */
 
-import type { TruthEntry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/types.ts';
 import { textOf } from '../gates.ts';
 import { type ClassRow, entryRow } from './row.ts';
 
@@ -42,7 +42,7 @@ const LEADING_ROMAN = /^\s*(?:,\s*)?(?<numeral>[IVXLC]+)(?![IVXLCDM\p{Ll}'’])/
 
 /** One row per entry whose lead gloss opens with a numeral its
  * headword does not carry. */
-function detectHomographRomanStranded(entry: TruthEntry): ClassRow[] {
+function detectHomographRomanStranded(entry: Entry): ClassRow[] {
 	if (entry.headwords[0]?.homograph !== undefined) {
 		return entryRow(entry, HOMOGRAPH_ROMAN_STRANDED, []);
 	}

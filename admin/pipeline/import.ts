@@ -1,10 +1,10 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: the run's stages in committed order; a split would hide the sequence the report depends on.
 /**
- * Import — source snapshot to truth files (spec 2026-09-06 §3–4).
+ * Import — source snapshot to entry files (spec 2026-09-06 §3–4).
  * Two passes: compose every entry and build the corpus-level indexes,
  * then finish and gate every entry. Dry without `--write`; `--write`
  * reruns every gate and refuses on any red one, or on an output tree
- * that already holds truth files.
+ * that already holds entry files.
  * Run: bun data:import [--strict]      (writes: passes --write)
  *      bun data:import:dry [--strict]  (dry run)
  *
@@ -17,7 +17,7 @@ import { dirname } from 'node:path';
 import process from 'node:process';
 import type { ValidateFunction } from 'ajv';
 import { loadPageIndex, type PagePlacement } from '../entry/page.ts';
-import type { TruthEntry } from '../entry/types.ts';
+import type { Entry } from '../entry/types.ts';
 import { schemaValidator } from '../entry/validate.ts';
 import type { PassName } from './body/repairs.ts';
 import { evaluateRoundTrip } from './body/round-trip.ts';
@@ -346,15 +346,15 @@ function finishAll(
 	indexes: Indexes,
 	report: Report,
 	validate: ValidateFunction,
-): { samples: Sample[]; truths: TruthEntry[] } {
-	const truths: TruthEntry[] = [];
+): { samples: Sample[]; entries: Entry[] } {
+	const entries: Entry[] = [];
 	const samples: Sample[] = [];
 	const stride = Math.max(1, Math.floor(composed.length / SAMPLE_COUNT));
 	for (const [i, c] of composed.entries()) {
 		// `c.entry`, not `c.source`: transforms can respell the headword,
 		// and `headwordMap` was built from the COMPOSED one.
 		// `finishEntry` decomposes its first argument's `.headword` into
-		// the truth entry, so the pre-transform source here would write
+		// the finished entry, so the pre-transform source here would write
 		// the old spelling — and `checkHeadwordLine`, which compares
 		// `c.entry` against this same `finished.entry`, would fail on
 		// every respelled headword. `sefariaHeadword` is the one field
@@ -368,7 +368,7 @@ function finishAll(
 			...finished.headwordReview.map((r) => lineRow(r.line, r.kind)),
 			...finished.markupCarries.map((line) => lineRow(line, 'markup-carry')),
 			// Catalogued classes, read off the FINISHED entry: these
-			// predicates are written against the truth shape, not the
+			// predicates are written against the entry shape, not the
 			// snapshot's, so they must run after the transforms and the
 			// markup translation rather than beside them.
 			...detectClasses(finished.entry),
@@ -410,16 +410,16 @@ function finishAll(
 				severity: 'review',
 			});
 		}
-		truths.push(finished.entry);
+		entries.push(finished.entry);
 		if (i % stride === 0 && samples.length < SAMPLE_COUNT) {
 			samples.push({
 				rid: c.source.rid,
 				source: c.entry,
-				truth: finished.entry,
+				entry: finished.entry,
 			});
 		}
 	}
-	return { samples, truths };
+	return { samples, entries };
 }
 
 /** The output subdirectory for a rid: its leading letter, so 32,512
@@ -439,7 +439,7 @@ function entryFile(rid: string): string {
 /** `--write`'s refusal check. A single sentinel (e.g. A/A00000.json)
  * misses a partial prior write that stopped before reaching it, or any
  * output tree that simply doesn't start at A00000 — either lets
- * `--write` mix old and new truth files. Refuse on ANY existing entry
+ * `--write` mix old and new entry files. Refuse on ANY existing entry
  * file instead. */
 async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
 	if (!existsSync(dir)) {
@@ -461,12 +461,12 @@ async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
 async function refuseUnlessEmpty(dir: string = OUT_DIR): Promise<void> {
 	if (!(await outputTreeIsEmpty(dir))) {
 		throw new Error(
-			`${dir} already holds truth files; import writes once. Delete them to re-import, or run \`bun data:import:dry\` for the reports alone`,
+			`${dir} already holds entry files; import writes once. Delete them to re-import, or run \`bun data:import:dry\` for the reports alone`,
 		);
 	}
 }
 
-/** Biome is the one formatter for truth (consolidation spec R5), so
+/** Biome is the one formatter for entry data (consolidation spec R5), so
  * formatting is the write's last step. It runs here rather than as a
  * second command in the `data:import` script: `bun run` appends
  * extra arguments to the LAST command, so `bun data:import
@@ -474,7 +474,7 @@ async function refuseUnlessEmpty(dir: string = OUT_DIR): Promise<void> {
  * Which biome is `biomeBinary`'s question, not a literal path's:
  * `main` has already resolved one, so this spawn cannot be the step
  * that discovers there is none. */
-function formatTruth(): void {
+function formatEntries(): void {
 	const result = Bun.spawnSync([biomeBinary(), 'format', '--write', OUT_DIR], {
 		stderr: 'inherit',
 		stdout: 'inherit',
@@ -486,7 +486,7 @@ function formatTruth(): void {
 
 /** The entries as they will reach disk, and how much NFC changed. */
 interface Normalized {
-	entries: TruthEntry[];
+	entries: Entry[];
 	files: number;
 	strings: number;
 }
@@ -494,7 +494,7 @@ interface Normalized {
 /** Every entry through `normalizeForWrite` (#110): this is the ONE
  * place stored text is rewritten, and it is rewritten only into its
  * own NFC spelling, under an assertion that the rewrite is lossless.
- * It runs after the source gates have read the in-memory truth, so
+ * It runs after the source gates have read the in-memory entries, so
  * none of them reads a value this step produced. Gate 10 (`contract`)
  * is the one that does, on purpose: it holds exactly what will be
  * written to the entry contract. The headword-issues report reads the
@@ -507,10 +507,10 @@ interface Normalized {
  * write loop would instead leave the entries before the offending one
  * on disk, unformatted, with `refuseUnlessEmpty` blocking the re-run —
  * the same failure `biomeBinary` is resolved early to avoid. */
-function normalizeAll(truths: readonly TruthEntry[]): Normalized {
+function normalizeAll(entries: readonly Entry[]): Normalized {
 	const normalized: Normalized = { entries: [], files: 0, strings: 0 };
-	for (const truth of truths) {
-		const [value, changed] = normalizeForWrite(truth, truth.id);
+	for (const entry of entries) {
+		const [value, changed] = normalizeForWrite(entry, entry.id);
 		if (changed > 0) {
 			normalized.strings += changed;
 			normalized.files++;
@@ -526,15 +526,15 @@ async function writeAll(normalized: Normalized, report: Report): Promise<void> {
 	// Synchronous and in rid order: 32,512 small files, one at a time,
 	// with nothing to overlap them with and no reason to hold 32,512
 	// handles open at once.
-	for (const truth of normalized.entries) {
-		const file = `${OUT_DIR}/${entryFile(truth.id)}`;
+	for (const entry of normalized.entries) {
+		const file = `${OUT_DIR}/${entryFile(entry.id)}`;
 		mkdirSync(dirname(file), { recursive: true });
-		writeFileSync(file, `${JSON.stringify(truth, null, '\t')}\n`);
+		writeFileSync(file, `${JSON.stringify(entry, null, '\t')}\n`);
 		report.written++;
 	}
-	formatTruth();
+	formatEntries();
 	await writeReport(report);
-	console.log(`wrote ${report.written} truth files under ${OUT_DIR}`);
+	console.log(`wrote ${report.written} entry files under ${OUT_DIR}`);
 	console.log(
 		`NFC on write: ${normalized.strings} string(s) normalized in ${normalized.files} file(s)`,
 	);
@@ -572,12 +572,12 @@ function printGates(report: Report): void {
  * Written on every run, like the blessing and the review report, so
  * it can never describe a tree other than the one the run produced.
  * It reads the NORMALIZED entries — exactly what `writeAll` puts on
- * disk — rather than the pre-NFC truths the gates read. */
+ * disk — rather than the pre-NFC entries the gates read. */
 async function writeHeadwordIssues(
-	truths: readonly TruthEntry[],
+	entries: readonly Entry[],
 	report: Report,
 ): Promise<void> {
-	const issues = buildHeadwordIssues(truths, report.rows);
+	const issues = buildHeadwordIssues(entries, report.rows);
 	await Bun.write(HEADWORD_ISSUES_DOC, issues.doc);
 	await Bun.write(HEADWORD_ISSUES_CSV, issues.csv);
 	console.log(
@@ -602,7 +602,7 @@ async function main(): Promise<void> {
 	if (options.write) {
 		await refuseUnlessEmpty();
 		// Resolved before anything is composed, though it is not used
-		// until `formatTruth` at the very end: a run that cannot find a
+		// until `formatEntries` at the very end: a run that cannot find a
 		// biome refuses here, rather than after 32,512 unformatted files
 		// are already on disk.
 		biomeBinary();
@@ -614,11 +614,11 @@ async function main(): Promise<void> {
 	const composed = await composeAll(report, options);
 	checkOrphanRefs(composed, report);
 	const indexes = await buildIndexes(composed, report);
-	const { samples, truths } = finishAll(composed, indexes, report, validate);
+	const { samples, entries } = finishAll(composed, indexes, report, validate);
 	// Gate 7 reads the FINISHED entries, so it runs after pass 2 and
 	// against a fresh read of the snapshot (URL names spec §5.2).
-	report.gates.names = checkNames(truths, await loadSourceHeadwords());
-	const normalized = normalizeAll(truths);
+	report.gates.names = checkNames(entries, await loadSourceHeadwords());
+	const normalized = normalizeAll(entries);
 	// Gate 10 reads what `writeAll` would write: the normalized entries,
 	// at the paths it would write them to.
 	report.gates.contract = await checkContract(

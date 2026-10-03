@@ -18,7 +18,7 @@ import { relative, resolve } from 'node:path';
 import process from 'node:process';
 import { loadPageIndex } from './page.ts';
 import { ENTRIES_DIR } from './paths.ts';
-import { loadTruthFiles, validateEntry, validateTruth } from './validate.ts';
+import { loadEntryFiles, validateEntries, validateEntry } from './validate.ts';
 
 /** A file argument as `validateEntry` wants its path: relative to
  * `data/entries/`, so the home-path check compares like with like.
@@ -50,8 +50,8 @@ async function validateTree(): Promise<{
 	checked: number;
 	problems: string[];
 }> {
-	const { files, problems } = await loadTruthFiles();
-	problems.push(...(await validateTruth(files, await loadPageIndex())));
+	const { files, problems } = await loadEntryFiles();
+	problems.push(...(await validateEntries(files, await loadPageIndex())));
 	return { checked: files.length, problems };
 }
 

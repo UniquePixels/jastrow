@@ -5,7 +5,7 @@
  */
 import { describe, expect, it } from 'bun:test';
 import { deriveName, nameCollisions, nameKey, nameOf } from './names.ts';
-import { type FormObject, SCHEMA_VERSION, type TruthEntry } from './types.ts';
+import { type Entry, type FormObject, SCHEMA_VERSION } from './types.ts';
 
 /** The `line` of each problem, in order — what every caller renders. */
 function lines(problems: ReadonlyArray<{ line: string }>): string[] {
@@ -77,7 +77,7 @@ describe('nameKey', () => {
 });
 
 /** The smallest entry `nameOf`/`nameCollisions` read. */
-function at(id: string, form: FormObject): TruthEntry {
+function at(id: string, form: FormObject): Entry {
 	return {
 		headwords: [form],
 		id,

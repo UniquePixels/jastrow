@@ -1,6 +1,6 @@
 /**
  * Markup translation (migrate spec §2.2): the source's six tags into
- * the truth vocabulary, over `transform/html.ts` tokens so text bytes
+ * the entry vocabulary, over `transform/html.ts` tokens so text bytes
  * are never touched. Anchors become `<cite ref>`; what `ref` holds is
  * the resolver's decision (`cite.ts`), not this module's.
  */
@@ -218,7 +218,7 @@ function finishOpen(e: Emit, carry: TagCarry | undefined): number {
 	return e.open.length;
 }
 
-/** One HTML field into the truth vocabulary. Text bytes are never
+/** One HTML field into the entry vocabulary. Text bytes are never
  * touched; only tags are rewritten, passed through, or reported. Pass
  * a `carry` to share one tag stack across the fields of a document
  * flow, so a run opened in one field and closed in the next survives

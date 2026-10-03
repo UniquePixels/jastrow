@@ -5,7 +5,7 @@
  * printed sub-section disagreeing with the one the link lands on
  * (`T00292`: `Num. R. s. 14⁷` against `Bamidbar Rabbah 14:12`).
  *
- * The PREDICATE IS WRITTEN AGAINST THE TRUTH SHAPE, deliberately: the
+ * The PREDICATE IS WRITTEN AGAINST THE ENTRY SHAPE, deliberately: the
  * source spells this `</a><sup>N</sup>` and `superscriptInsideAnchor`
  * moves the superscript inside before the entry is finished, so a
  * predicate written for the snapshot would measure zero here.
@@ -16,7 +16,7 @@
  * chapter never disagrees; only the second component is ever in
  * dispute.
  */
-import type { TruthEntry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/types.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { markupFields } from './senses.ts';
 
@@ -52,7 +52,7 @@ function contradictions(path: string, html: string): string[] {
 
 /** One row per entry naming every anchor whose superscript and ref
  * disagree about the sub-section. */
-function detectSuperscriptSubsectionContradicts(entry: TruthEntry): ClassRow[] {
+function detectSuperscriptSubsectionContradicts(entry: Entry): ClassRow[] {
 	const sites = [...markupFields(entry)].flatMap(([path, html]) =>
 		contradictions(path, html),
 	);

@@ -23,7 +23,7 @@
 import { dirname, relative } from 'node:path';
 import { isHeadwordReviewKind } from '../../entry/headwords.ts';
 import { nameOf } from '../../entry/names.ts';
-import type { FormObject, TruthEntry } from '../../entry/types.ts';
+import type { Entry, FormObject } from '../../entry/types.ts';
 import { DESIGN_PATH, HEADWORD_ISSUES_DOC } from '../paths.ts';
 
 const APP_URL = 'https://jastrow.app/#rid:';
@@ -376,7 +376,7 @@ function noteFor(
 
 /** One form in its entry, with the processor's review list alongside. */
 interface FormContext {
-	entry: TruthEntry;
+	entry: Entry;
 	flagged: Map<string, Set<string>>;
 	form: FormObject;
 	role: 'alt' | 'headword';
@@ -444,7 +444,7 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
  * are missing and how many unnumbered siblings could be carrying them,
  * so the print can settle it. */
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one pass over the homograph families; the gap test needs the whole family in scope.
-function homographGapRows(entries: Map<string, TruthEntry>): IssueRow[] {
+function homographGapRows(entries: Map<string, Entry>): IssueRow[] {
 	const families = new Map<
 		string,
 		Array<{ homograph: number | undefined; rid: string }>
@@ -603,12 +603,12 @@ interface HeadwordIssues {
  * the caller owns the write, so a dry run and `--write` produce the
  * same documents from the same in-memory state. */
 function buildHeadwordIssues(
-	truths: readonly TruthEntry[],
+	finished: readonly Entry[],
 	reportRows: readonly ReportRow[],
 ): HeadwordIssues {
 	classifyEveryShape();
 	const flagged = flaggedForms(reportRows);
-	const inRidOrder = [...truths].sort((a, b) => a.id.localeCompare(b.id));
+	const inRidOrder = [...finished].sort((a, b) => a.id.localeCompare(b.id));
 	const entries = new Map(inRidOrder.map((entry) => [entry.id, entry]));
 	const rows: IssueRow[] = [];
 	for (const entry of inRidOrder) {

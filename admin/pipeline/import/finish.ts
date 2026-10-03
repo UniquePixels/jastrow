@@ -9,11 +9,7 @@ import {
 	parseHeadwordLine,
 } from '../../entry/headwords.ts';
 import type { PagePlacement } from '../../entry/page.ts';
-import {
-	SCHEMA_VERSION,
-	type TruthEntry,
-	type TruthSense,
-} from '../../entry/types.ts';
+import { type Entry, SCHEMA_VERSION, type Sense } from '../../entry/types.ts';
 import type { BodyEntry, BodySense, SourceEntry } from '../types.ts';
 import { createResolver, type Unresolved } from './cite.ts';
 import { type TagCarry, translateMarkup } from './markup.ts';
@@ -50,7 +46,7 @@ interface HeadwordReviewRow {
  * of them into the file would make a report row indistinguishable from
  * a fact about the dictionary. */
 interface Finished {
-	entry: TruthEntry;
+	entry: Entry;
 	/** Headword review rows, each already carrying its report kind. */
 	headwordReview: HeadwordReviewRow[];
 	/** `rid: path: …` lines noting an inline tag run that crossed a
@@ -62,7 +58,7 @@ interface Finished {
 	unresolved: Unresolved[];
 }
 
-/** One source entry plus its composed body into a truth entry, with
+/** One source entry plus its composed body into an entry, with
  * everything a human or a gate needs to judge the result: the
  * problems that block a write, the headwords wanting review, the
  * unresolved citation targets, and the tag runs that crossed a field
@@ -100,10 +96,10 @@ function finishEntry(
 		sequence: readonly BodySense[],
 		path: string,
 		fields: Field[],
-	): TruthSense[] {
+	): Sense[] {
 		return sequence.map((s, i) => {
 			const sensePath = `${path}[${i}]`;
-			const out: TruthSense = { gloss: '', units: new Array(s.units.length) };
+			const out: Sense = { gloss: '', units: new Array(s.units.length) };
 			fields.push({
 				assign: (value: string): void => {
 					out.gloss = value;
@@ -159,7 +155,7 @@ function finishEntry(
 	function translateSequence(
 		sequence: readonly BodySense[],
 		path: string,
-	): TruthSense[] {
+	): Sense[] {
 		const fields: Field[] = [];
 		const out = buildSenseTree(sequence, path, fields);
 		runFlow(fields);
@@ -213,7 +209,7 @@ function finishEntry(
 		senses: translateSequence(st.senses, `stems[${i}].senses`),
 		stem: st.stem,
 	}));
-	const entry: TruthEntry = {
+	const entry: Entry = {
 		schemaVersion: SCHEMA_VERSION,
 		id: source.rid,
 		sefariaHeadword: sefariaHeadword ?? '',

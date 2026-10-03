@@ -12,7 +12,7 @@
  * fix is a rendering one (Phase 4), not a data one.
  */
 
-import type { TruthEntry, TruthStem } from '../../../entry/types.ts';
+import type { Entry, Stem } from '../../../entry/types.ts';
 import { textOf } from '../gates.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { fieldsOf, walkSequence } from './senses.ts';
@@ -30,7 +30,7 @@ const EMPTY_STEM_SECTION_ACTION =
  * An empty `senses` array satisfies it vacuously, which is the shape
  * all 347 sections take; the walk is written over the whole sequence
  * anyway so a stem whose only sense is blank is not missed. */
-function carriesNoText(stem: TruthStem): boolean {
+function carriesNoText(stem: Stem): boolean {
 	for (const at of walkSequence(stem.senses, 'senses')) {
 		for (const [, html] of fieldsOf(at)) {
 			if (textOf(html).trim() !== '') {
@@ -42,7 +42,7 @@ function carriesNoText(stem: TruthStem): boolean {
 }
 
 /** One row per entry naming every senseless stem block it carries. */
-function detectEmptyStemSection(entry: TruthEntry): ClassRow[] {
+function detectEmptyStemSection(entry: Entry): ClassRow[] {
 	const sites = (entry.stems ?? [])
 		.map((stem, i) => ({ i, stem }))
 		.filter(({ stem }) => carriesNoText(stem))

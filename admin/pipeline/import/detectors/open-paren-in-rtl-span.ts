@@ -13,7 +13,7 @@
  * `route: blocked` in the catalogue precisely because no rule has
  * pinned the wider question, and a detector does not pin it either.
  */
-import type { TruthEntry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/types.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { markupFields } from './senses.ts';
 
@@ -49,7 +49,7 @@ function unbalanced(path: string, html: string): string[] {
 }
 
 /** One row per entry naming every unbalanced Hebrew span. */
-function detectOpenParenInRtlSpan(entry: TruthEntry): ClassRow[] {
+function detectOpenParenInRtlSpan(entry: Entry): ClassRow[] {
 	const sites = [...markupFields(entry)].flatMap(([path, html]) =>
 		unbalanced(path, html),
 	);

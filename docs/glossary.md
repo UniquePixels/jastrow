@@ -13,13 +13,17 @@ date, and what it drops — see [`decisions.md`](decisions.md).
   Swept through the living documents and `package.json` in step 10
   (2026-09-19), and re-scoped to the import module on 2026-09-22 when
   `admin/pipeline/` became self-contained.
-- **What still says the old words.** Code identifiers do: the types
-  `TruthEntry`, `TruthFile`, `TruthSense` and the helpers
-  `validateTruth` and `loadTruthFiles`. Renaming them is a change of
-  its own, deliberately not folded into the terms sweep. The `migrate`
-  identifiers went first, on 2026-10-02: the entry point is
-  `admin/pipeline/import.ts`, the directory `admin/pipeline/import/`,
-  and the generated blessing doc `docs/reports/import-blessing.md`.
+- **What still says the old words.** Nothing uses them as current
+  terminology. They survive only where history is the point: the
+  retired-terms table below, and the wording of dated rulings.
+  The code identifiers were renamed separately from the terms sweep,
+  in two halves, both on 2026-10-02. The `migrate` identifiers went
+  first: the entry point is `admin/pipeline/import.ts`, the directory
+  `admin/pipeline/import/`, and the generated blessing doc
+  `docs/reports/import-blessing.md`. The `Truth*` identifiers
+  followed: the types are `Entry`, `EntryFile`, `Sense` and `Stem`,
+  and the helpers `validateEntries`, `loadEntryFiles` and
+  `formatEntries`.
   `docs/archive/` — which took in the plans on 2026-09-21 and the
   dated design specs, the research documents and the retired patch
   records on 2026-09-22 — holds records of work as it happened, and
@@ -156,7 +160,8 @@ What a run reports for each patch:
 | `headword-multiword` (review kind) | nothing: the line parser keeps a multi-word form as one form and says nothing about it ([`archive/headword-design.md`](archive/headword-design.md) §4) |
 | truth, truth tree | entry data |
 | migrate, migration (the command and the run) | import |
-| `admin/pipeline/migrate.ts`, `admin/pipeline/migrate/`, `MIGRATION_REPORT_PATH`, `data/source/migration-report.json` | **`admin/pipeline/import.ts`**, **`admin/pipeline/import/`**, **`IMPORT_REPORT_PATH`**, **`data/source/import-report.json`** — renamed 2026-10-02 (R8's identifier half; the `Truth*` names remain) |
+| `admin/pipeline/migrate.ts`, `admin/pipeline/migrate/`, `MIGRATION_REPORT_PATH`, `data/source/migration-report.json` | **`admin/pipeline/import.ts`**, **`admin/pipeline/import/`**, **`IMPORT_REPORT_PATH`**, **`data/source/import-report.json`** — renamed 2026-10-02 (R8's identifier half, with the `Truth*` row below) |
+| `TruthEntry`, `TruthFile`, `TruthSense`, `TruthStem`, `validateTruth`, `loadTruthFiles`, `formatTruth`, `admin/entry/fixtures/truth-tree/` | **`Entry`**, **`EntryFile`**, **`Sense`**, **`Stem`**, **`validateEntries`**, **`loadEntryFiles`**, **`formatEntries`**, **`admin/entry/fixtures/entry-tree/`** — renamed 2026-10-02 (R8's identifier half, with the `migrate` row above) |
 | `pipeline:fetch` / `pipeline:migrate` / `pipeline:compile` | `data:fetch` / `data:import` / `data:compile` |
 | `research:apply`, then `pipeline:patches`, then `patch:replay` | nothing: deleted 2026-09-22 (Brian's ruling) — redundant with import's own patch preflight, and could not complete on the corpus, blocking on the ~600 `needs_*` escalations import deliberately defers |
 | `body:dry-run`, `body/dry-run.ts` | **`body/trace.ts`** (the composition `import.ts` imports) and **`body/round-trip.ts`** (the verifier the gate calls) — the full-corpus CLI and `dry-run-report.ts` were archived at `refs/tags/archive/v2-research-2026-09` on 2026-09-22 |

@@ -10,8 +10,8 @@ pipeline (ruling `09-30 entry contract`,
 
 | File | What it holds |
 |---|---|
-| `types.ts` | the entry shapes (`TruthEntry` and its parts), `SCHEMA_VERSION`, `VERBATIM_FIELDS` |
-| `validate.ts` | the validator: `validateEntry`, `validateCorpus`, and `validateTruth` over a loaded tree |
+| `types.ts` | the entry shapes (`Entry` and its parts), `SCHEMA_VERSION`, `VERBATIM_FIELDS` |
+| `validate.ts` | the validator: `validateEntry`, `validateCorpus`, and `validateEntries` over a loaded tree |
 | `validate-cli.ts` | `bun data:validate` |
 | `headwords.ts`, `headword-rules.ts` | the headword-line parser and the six shape rules |
 | `names.ts` | an entry's name, derived from `headwords[0]`, and name collisions |

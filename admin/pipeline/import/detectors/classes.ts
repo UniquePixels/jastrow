@@ -14,7 +14,7 @@
  * table keeps one row per class instead of a paragraph.
  */
 
-import type { TruthEntry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/types.ts';
 import type { ReportRow } from '../report.ts';
 import {
 	detectEmptyStemSection,
@@ -93,7 +93,7 @@ const CLASS_ACTIONS: ReadonlyMap<string, string> = new Map(
 /** Every class row one finished entry contributes, bucketed. The
  * `bucket` is stamped here and nowhere else, so no detector can file
  * itself as a pipeline fault and skip publication classification. */
-function detectClasses(entry: TruthEntry): ReportRow[] {
+function detectClasses(entry: Entry): ReportRow[] {
 	return [...CLASS_RULES.values()].flatMap((rule) =>
 		rule.detect(entry).map((row) => ({ ...row, bucket: 'review' as const })),
 	);

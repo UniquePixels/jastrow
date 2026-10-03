@@ -18,9 +18,9 @@
  *   cite names an entry, and each entry's page is its page-index row,
  *   both ways.
  *
- * `validateTruth` runs both over a loaded tree. The import's
+ * `validateEntries` runs both over a loaded tree. The import's
  * `contract` gate runs both halves before it writes; `bun
- * data:validate` (CI's Validate job) runs `validateTruth` over the
+ * data:validate` (CI's Validate job) runs `validateEntries` over the
  * committed tree; the admin tool, when it is written, is the third
  * caller.
  */
@@ -30,10 +30,10 @@ import { headwordShapeProblems } from './headword-rules.ts';
 import { tokenize } from './html.ts';
 import { nameCollisions } from './names.ts';
 import type { PagePlacement } from './page.ts';
-import { SCHEMA_PATH, ENTRIES_DIR as TRUTH_DIR } from './paths.ts';
-import { type TruthEntry, type TruthSense, VERBATIM_FIELDS } from './types.ts';
+import { ENTRIES_DIR, SCHEMA_PATH } from './paths.ts';
+import { type Entry, type Sense, VERBATIM_FIELDS } from './types.ts';
 
-/** The truth markup vocabulary (migrate spec §2.2): `markup.ts` keeps
+/** The entry markup vocabulary (migrate spec §2.2): `markup.ts` keeps
  * four source tags and translates the other two into `he` and `cite`. */
 const VOCABULARY: ReadonlySet<string> = new Set([
 	'b',
@@ -53,7 +53,7 @@ const RID = /^[A-Z]\d{5}$/u;
 const MARKUP_CHAR = /[<>]/u;
 
 /** The compiled validator, memoised by `schemaValidator`. */
-let compiled: ValidateFunction<TruthEntry> | undefined;
+let compiled: ValidateFunction<Entry> | undefined;
 
 /** Ajv, compiled once against the schema `paths.ts` names.
  *
@@ -65,17 +65,17 @@ let compiled: ValidateFunction<TruthEntry> | undefined;
  *
  * Exported so the import's schema gate compiles this validator rather
  * than a second copy of it. */
-async function schemaValidator(): Promise<ValidateFunction<TruthEntry>> {
+async function schemaValidator(): Promise<ValidateFunction<Entry>> {
 	compiled ??= new Ajv2020({
 		allErrors: true,
 		strict: true,
-	}).compile<TruthEntry>(await Bun.file(SCHEMA_PATH).json());
+	}).compile<Entry>(await Bun.file(SCHEMA_PATH).json());
 	return compiled;
 }
 
-/** One truth file as read: its path relative to `data/entries/`
+/** One entry file as read: its path relative to `data/entries/`
  * (`A/A00013.json`) and its parsed, not-yet-validated content. */
-interface TruthFile {
+interface EntryFile {
 	entry: unknown;
 	path: string;
 }
@@ -85,11 +85,11 @@ interface TruthFile {
  * deep is still read and reported away from its home. A file that does
  * not parse is a problem, not a thrown error, so one bad hand edit does
  * not hide every other finding. */
-async function loadTruthFiles(
-	dir = TRUTH_DIR,
-): Promise<{ files: TruthFile[]; problems: string[] }> {
+async function loadEntryFiles(
+	dir = ENTRIES_DIR,
+): Promise<{ files: EntryFile[]; problems: string[] }> {
 	const paths = await Array.fromAsync(new Bun.Glob('**/*.json').scan(dir));
-	const files: TruthFile[] = [];
+	const files: EntryFile[] = [];
 	const problems: string[] = [];
 	await Promise.all(
 		paths.map(async (path): Promise<void> => {
@@ -187,7 +187,7 @@ function markupProblems(html: string): MarkupFindings {
 
 /** The HTML fields of a sense tree, with a readable path to each. */
 function* senseTexts(
-	senses: readonly TruthSense[],
+	senses: readonly Sense[],
 	at: string,
 ): Generator<[string, string]> {
 	for (const [i, sense] of senses.entries()) {
@@ -200,7 +200,7 @@ function* senseTexts(
 }
 
 /** Every field that may carry markup. */
-function* markupFields(entry: TruthEntry): Generator<[string, string]> {
+function* markupFields(entry: Entry): Generator<[string, string]> {
 	yield* senseTexts(entry.senses, 'senses');
 	for (const [i, stem] of (entry.stems ?? []).entries()) {
 		yield [`stems[${i}].stem`, stem.stem];
@@ -213,7 +213,7 @@ function* markupFields(entry: TruthEntry): Generator<[string, string]> {
 
 /** The sense labels of a sense tree (`1`, `a`, …), with their paths. */
 function* senseLabels(
-	senses: readonly TruthSense[],
+	senses: readonly Sense[],
 	at: string,
 ): Generator<[string, string]> {
 	for (const [i, sense] of senses.entries()) {
@@ -228,7 +228,7 @@ function* senseLabels(
  * template, `sefariaHeadword` and any `formerNames` are identifiers
  * that `names.ts` and the compiler read as text; sense labels are
  * numbering. */
-function* plainFields(entry: TruthEntry): Generator<[string, string]> {
+function* plainFields(entry: Entry): Generator<[string, string]> {
 	yield ['sefariaHeadword', entry.sefariaHeadword];
 	for (const [i, form] of entry.headwords.entries()) {
 		yield [`headwords[${i}].text`, form.text];
@@ -283,7 +283,7 @@ function* storedStrings(
  * half that holds for a file the import did not write, so a hand edit
  * pasted in decomposed spelling is refused rather than committed as a
  * word that compares unequal to its own composed spelling. */
-function checkNfc(entry: TruthEntry, problems: string[]): void {
+function checkNfc(entry: Entry, problems: string[]): void {
 	for (const [field, text] of storedStrings(entry, '')) {
 		if (text !== text.normalize('NFC')) {
 			problems.push(`${entry.id}: ${field}: not NFC`);
@@ -299,7 +299,7 @@ function checkNfc(entry: TruthEntry, problems: string[]): void {
  * Ids need no check of their own: glob paths are unique and
  * `checkEntry` allows each id one path, so a second file for an id is
  * already reported as away from its home. */
-function checkNames(entries: readonly TruthEntry[], problems: string[]): void {
+function checkNames(entries: readonly Entry[], problems: string[]): void {
 	problems.push(...nameCollisions(entries).map((p) => p.line));
 }
 
@@ -312,7 +312,7 @@ function checkNames(entries: readonly TruthEntry[], problems: string[]): void {
  * it is import's gate 7. This check is the half a hand edit can be
  * caught by without the snapshot. */
 function checkSefariaHeadwords(
-	entries: readonly TruthEntry[],
+	entries: readonly Entry[],
 	problems: string[],
 ): void {
 	const owners = new Map<string, string>();
@@ -331,7 +331,7 @@ function checkSefariaHeadwords(
 
 /** Markup is in the vocabulary and balanced per field, and
  * identifiers carry none. */
-function checkMarkup(entry: TruthEntry, problems: string[]): void {
+function checkMarkup(entry: Entry, problems: string[]): void {
 	for (const [field, text] of plainFields(entry)) {
 		if (MARKUP_CHAR.test(text)) {
 			problems.push(`${entry.id}: ${field}: markup in a plain-text field`);
@@ -347,7 +347,7 @@ function checkMarkup(entry: TruthEntry, problems: string[]): void {
 /** Every rid-shaped cite names an entry that exists. A corpus check:
  * one file cannot know which rids the tree holds. */
 function checkCiteTargets(
-	entry: TruthEntry,
+	entry: Entry,
 	ids: ReadonlySet<string>,
 	problems: string[],
 ): void {
@@ -360,10 +360,10 @@ function checkCiteTargets(
 	}
 }
 
-/** Truth's page is the page index's row, both ways (R2: the index is
- * the input a rebuild reads, so a page edited in truth alone is lost). */
+/** An entry's page is the page index's row, both ways (R2: the index is
+ * the input a rebuild reads, so a page edited in the entry alone is lost). */
 function checkPages(
-	entries: readonly TruthEntry[],
+	entries: readonly Entry[],
 	ids: ReadonlySet<string>,
 	pages: ReadonlyMap<string, PagePlacement>,
 	problems: string[],
@@ -373,7 +373,7 @@ function checkPages(
 		const has =
 			page === undefined ? 'none' : `p${page.number}${page.column ?? ''}`;
 		if (row === undefined) {
-			problems.push(`${id}: no page-index row (truth has ${has})`);
+			problems.push(`${id}: no page-index row (entry has ${has})`);
 		} else if (page?.number !== row.number || page.column !== row.column) {
 			problems.push(
 				`${id}: page ${has} but the page index says p${row.number}${row.column}`,
@@ -396,7 +396,7 @@ function checkPages(
  * `headword-rules.ts` docstring. It is reached through
  * `headwordShapeProblems` like the rest, so this file has no second
  * door onto it. */
-function checkHeadwordShape(entry: TruthEntry, problems: string[]): void {
+function checkHeadwordShape(entry: Entry, problems: string[]): void {
 	problems.push(...headwordShapeProblems(entry));
 }
 
@@ -407,10 +407,10 @@ function checkHeadwordShape(entry: TruthEntry, problems: string[]): void {
  * after it assume the shape. Synchronous, so a caller walking 32,512
  * entries compiles once and awaits nothing per entry. */
 function checkEntry(
-	schema: ValidateFunction<TruthEntry>,
+	schema: ValidateFunction<Entry>,
 	entry: unknown,
 	path: string,
-): [TruthEntry | undefined, string[]] {
+): [Entry | undefined, string[]] {
 	if (!schema(entry)) {
 		return [undefined, [`${path}: schema: ${JSON.stringify(schema.errors)}`]];
 	}
@@ -436,7 +436,7 @@ async function validateEntry(entry: unknown, path: string): Promise<string[]> {
 /** Every check that needs the whole tree, over entries that already
  * passed the schema; an empty list is a consistent tree. */
 function validateCorpus(
-	entries: readonly TruthEntry[],
+	entries: readonly Entry[],
 	pages: ReadonlyMap<string, PagePlacement>,
 ): string[] {
 	const problems: string[] = [];
@@ -453,12 +453,12 @@ function validateCorpus(
 /** Both halves over one loaded tree: each file's own checks, then the
  * corpus checks over the files that passed the schema. An empty list
  * is a valid tree. */
-async function validateTruth(
-	files: readonly TruthFile[],
+async function validateEntries(
+	files: readonly EntryFile[],
 	pages: ReadonlyMap<string, PagePlacement>,
 ): Promise<string[]> {
 	const problems: string[] = [];
-	const entries: TruthEntry[] = [];
+	const entries: Entry[] = [];
 	const schema = await schemaValidator();
 	for (const { entry, path } of files) {
 		const [valid, found] = checkEntry(schema, entry, path);
@@ -471,15 +471,15 @@ async function validateTruth(
 	return problems;
 }
 
-export type { TruthFile };
+export type { EntryFile };
 export {
 	checkEntry,
 	homePath,
-	loadTruthFiles,
+	loadEntryFiles,
 	markupProblems,
 	schemaValidator,
 	VOCABULARY,
 	validateCorpus,
+	validateEntries,
 	validateEntry,
-	validateTruth,
 };

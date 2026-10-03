@@ -6,14 +6,14 @@
  */
 import { describe, expect, it } from 'bun:test';
 import type { PagePlacement } from './page.ts';
-import { SCHEMA_VERSION, type TruthEntry } from './types.ts';
+import { type Entry, SCHEMA_VERSION } from './types.ts';
 import {
-	loadTruthFiles,
+	type EntryFile,
+	loadEntryFiles,
 	markupProblems,
-	type TruthFile,
 	validateCorpus,
+	validateEntries,
 	validateEntry,
-	validateTruth,
 } from './validate.ts';
 
 /** Shin with qamats and shin dot, marks in the wrong order: canonical
@@ -26,7 +26,7 @@ const NFC = NOT_NFC.normalize('NFC');
 
 /** `headword` and `sefariaHeadword` are both the given word, so a
  * planted defect in either is the only thing the tree disagrees on. */
-function entry(id: string, headword: string, gloss: string): TruthEntry {
+function entry(id: string, headword: string, gloss: string): Entry {
 	return {
 		schemaVersion: SCHEMA_VERSION,
 		id,
@@ -38,7 +38,7 @@ function entry(id: string, headword: string, gloss: string): TruthEntry {
 	};
 }
 
-function tree(...entries: TruthEntry[]): TruthFile[] {
+function tree(...entries: Entry[]): EntryFile[] {
 	return entries.map((e) => ({
 		entry: e,
 		path: `${e.id.charAt(0)}/${e.id}.json`,
@@ -51,9 +51,9 @@ function pagesFor(...ids: string[]): Map<string, PagePlacement> {
 	);
 }
 
-const A = (): TruthEntry =>
+const A = (): Entry =>
 	entry('A00001', 'אב', 'father, <cite ref="A00002">אבא</cite> <i>x</i>');
-const B = (): TruthEntry =>
+const B = (): Entry =>
 	entry(
 		'A00002',
 		'אבא',
@@ -89,20 +89,20 @@ describe('markupProblems', () => {
 });
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
-describe('validateTruth', () => {
+describe('validateEntries', () => {
 	it('a valid tree has no problems', async () => {
 		const files = tree(A(), B());
-		expect(await validateTruth(files, pagesFor('A00001', 'A00002'))).toEqual(
+		expect(await validateEntries(files, pagesFor('A00001', 'A00002'))).toEqual(
 			[],
 		);
 	});
 
 	it('reports a schema failure by path and drops the entry from the corpus checks', async () => {
-		const files: TruthFile[] = [
+		const files: EntryFile[] = [
 			{ entry: { id: 'A00001' }, path: 'A/A00001.json' },
 			...tree(B()),
 		];
-		const problems = await validateTruth(files, pagesFor('A00001', 'A00002'));
+		const problems = await validateEntries(files, pagesFor('A00001', 'A00002'));
 		expect(problems).toHaveLength(2);
 		expect(problems[0]).toStartWith('A/A00001.json: schema: ');
 		expect(problems[1]).toBe('page-index row A00001 has no entry');
@@ -125,7 +125,7 @@ describe('validateTruth', () => {
 			// headwords and one URL, which nothing but this check sees.
 			// Rule 4 refuses the same parenthesis: the notation the name
 			// strips is exactly what a form's text may not hold. The file's
-			// own finding comes first: `validateTruth` runs every file
+			// own finding comes first: `validateEntries` runs every file
 			// before the corpus.
 			tree(A(), { ...B(), headwords: [{ text: '(אב)' }] }),
 			[
@@ -228,7 +228,7 @@ describe('validateTruth', () => {
 			'A00002: stems[0].forms[0]: unclosed: he',
 		],
 		[
-			'a page edited in truth alone',
+			'a page edited in the entry alone',
 			tree(A(), { ...B(), page: { number: 2, column: 'b' } }),
 			'A00002: page p2b but the page index says p1a',
 		],
@@ -268,14 +268,14 @@ describe('validateTruth', () => {
 			'A00002: headwords[1] is partial with no full sibling, so the entry has no lookup key (§3.1 rule 5)',
 		],
 	])('reports %s', async (_name, files, expected) => {
-		expect(await validateTruth(files, pagesFor('A00001', 'A00002'))).toEqual(
+		expect(await validateEntries(files, pagesFor('A00001', 'A00002'))).toEqual(
 			[expected].flat(),
 		);
 	});
 
 	it('reads files at every depth, so a misplaced one is reported', async () => {
-		const { files, problems } = await loadTruthFiles(
-			`${import.meta.dir}/fixtures/truth-tree`,
+		const { files, problems } = await loadEntryFiles(
+			`${import.meta.dir}/fixtures/entry-tree`,
 		);
 		expect(problems).toEqual([]);
 		expect(files.map((f) => f.path)).toEqual([
@@ -284,7 +284,7 @@ describe('validateTruth', () => {
 			'A00002.json',
 		]);
 		expect(
-			await validateTruth(files, pagesFor('A00001', 'A00002', 'A00003')),
+			await validateEntries(files, pagesFor('A00001', 'A00002', 'A00003')),
 		).toEqual([
 			'A/old/A00003.json: id A00003 belongs at A/A00003.json',
 			'A00002.json: id A00002 belongs at A/A00002.json',
@@ -293,9 +293,9 @@ describe('validateTruth', () => {
 
 	it('reports page-index coverage both ways', async () => {
 		expect(
-			await validateTruth(tree(A(), B()), pagesFor('A00001', 'A00003')),
+			await validateEntries(tree(A(), B()), pagesFor('A00001', 'A00003')),
 		).toEqual([
-			'A00002: no page-index row (truth has p1a)',
+			'A00002: no page-index row (entry has p1a)',
 			'page-index row A00003 has no entry',
 		]);
 	});

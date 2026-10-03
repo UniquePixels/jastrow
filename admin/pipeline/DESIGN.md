@@ -154,11 +154,10 @@ and **correction** data, and the command is `data:import`. The
 `migrate` names in code followed on 2026-10-02 (R8): the entry point,
 its directory, the report path and the blessing doc are now
 `import.ts`, `import/`, `IMPORT_REPORT_PATH` and `import-blessing.md`.
-The `Truth*` identifiers still keep the older word: `TruthEntry`,
-`TruthFile`, `TruthSense`, `validateTruth`, `loadTruthFiles`,
-`formatTruth`. Their rename is the other half of R8, a change of its
-own, so until then prose and code disagree on purpose. Where this
-document says "truth entry" it means an entry-data file.
+The `Truth*` identifiers followed the same day, the other half of R8:
+the types are `Entry`, `EntryFile`, `Sense` and `Stem`, and the
+helpers `validateEntries`, `loadEntryFiles` and `formatEntries`. Prose
+and code now use the same words.
 
 ### Test tiers
 
@@ -386,7 +385,7 @@ rather than a comment claiming it. A second, drifting walk is exactly
 the shape of the failure the parity test closes: a rule writing a
 field `fieldsOf` does not read is invisible to the text gate.
 `fieldsOf` has two deliberate exclusions — `refs[]` (dropped from
-truth, machine identifiers) and `rid` (an identifier, needing an
+entry data, machine identifiers) and `rid` (an identifier, needing an
 identity assertion rather than a sub-multiset one).
 
 ### Ordering, coverage, commutation
@@ -756,7 +755,7 @@ Sefaria uses.
 (`admin/entry/validate.ts`'s `checkNames`), so a hand edit and a run
 cannot disagree about what a collision is.
 
-`formerNames` is declared in the schema and in `TruthEntry`, is
+`formerNames` is declared in the schema and in `Entry`, is
 optional, and **nothing writes it**. The two publication-time gates
 that would read it — no current name equals another entry's former
 name, every former name appears on exactly one entry — do not exist,
@@ -1010,7 +1009,7 @@ the report and nothing in it is hand-written; every list renders
 
 Entry data has exactly one formatter, and it is the project's: Biome
 formats `data/entries/`, and the pipeline formats **last**, as the
-write's final step (`formatTruth`). `biome.json` therefore carries
+write's final step (`formatEntries`). `biome.json` therefore carries
 `data/entries/**/*.json` in `files.includes` deliberately — the rest of
 `data/` is excluded — with an override that disables the **linter**
 there, because the files are data and not code. Contributors run
@@ -1244,7 +1243,7 @@ so cannot be inferred from reading the code that is there.
     enforced by refusal, not by merge (see 46).
 48. **CI never reads the source data and never runs import**, and CI
     never rewrites or commits. The module's single write of anything
-    outside `data/entries/` content is `formatTruth`, and the tier
+    outside `data/entries/` content is `formatEntries`, and the tier
     boundary is asserted by filename in both directions.
 49. **A failing entry is dropped, not emitted from source bytes.**
     `composeOne` catches, reds gate 9, files a `composition-failed`
@@ -1256,7 +1255,7 @@ so cannot be inferred from reading the code that is there.
 
 50. **Stored text is rewritten in exactly one place, and only into its
     own NFC spelling.** `normalizeForWrite` runs after every gate has
-    read the in-memory truth and before the first file is written,
+    read the in-memory entries and before the first file is written,
     under an `NFD(before) == NFD(after)` assertion, so a normalization
     that would not be lossless refuses the write. `data/source/` is
     never touched.

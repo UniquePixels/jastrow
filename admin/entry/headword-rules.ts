@@ -33,7 +33,7 @@
  * `HALT_ON_TEXT_DEFECT` is the switch that holds it back to a report.
  */
 import { isLexical, PLACEHOLDER } from './headwords.ts';
-import type { FormObject, TruthEntry } from './types.ts';
+import type { Entry, FormObject } from './types.ts';
 
 /** Whether rule 4 refuses an entry outright (a validation error) or
  * only reports it (a `headword-unparsed` review row). `true` since
@@ -57,7 +57,7 @@ const STAR_REACHES = /\*[\s()?]*$/u;
 /** Rule 4: the forms whose `text` carries notation it must not — the
  * §3 halt, measured rather than assumed. Returns one line per
  * offending form, empty when the entry is clean. */
-function textDefects(entry: Pick<TruthEntry, 'headwords' | 'id'>): string[] {
+function textDefects(entry: Pick<Entry, 'headwords' | 'id'>): string[] {
 	const problems: string[] = [];
 	for (const [i, form] of entry.headwords.entries()) {
 		const found = FORBIDDEN_IN_TEXT.exec(form.text);
@@ -248,7 +248,7 @@ function checkPartial(
  * §3 or §4 rules on that shape. It is reported to the maintainer
  * instead of halted on. */
 function headwordShapeProblems(
-	entry: Pick<TruthEntry, 'display' | 'headwords' | 'id'>,
+	entry: Pick<Entry, 'display' | 'headwords' | 'id'>,
 ): string[] {
 	const problems: string[] = [];
 	checkPartial(entry.id, entry.headwords, problems);
