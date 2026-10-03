@@ -9,8 +9,10 @@ import type { PagePlacement } from './page.ts';
 import { type Entry, SCHEMA_VERSION } from './types.ts';
 import {
 	type EntryFile,
+	entryFields,
 	loadEntryFiles,
 	markupProblems,
+	RID,
 	validateCorpus,
 	validateEntries,
 	validateEntry,
@@ -448,5 +450,120 @@ describe('gender exclusivity (HW-gender)', () => {
 		string[],
 	][])('refuses %s', async (_name, planted, expected) => {
 		expect(await validateEntry(planted, 'A/A00001.json')).toEqual(expected);
+	});
+});
+
+/** One entry with every text field filled, two levels of senses
+ * under the entry and under a stem. */
+const FULL: Entry = {
+	...A(),
+	display: '{0}, {1}',
+	formerNames: ['אבו'],
+	grammar: { gender: 'm', number: 'pl' },
+	headwords: [{ text: 'אב' }, { text: 'אבה' }],
+	senses: [
+		{
+			gloss: 'head',
+			units: ['u0', 'u1'],
+			senses: [
+				{
+					label: '1',
+					gloss: 'one',
+					units: [],
+					senses: [{ label: 'a', gloss: 'deep', units: ['d0'] }],
+				},
+			],
+		},
+	],
+	stems: [
+		{
+			stem: 'Pi.',
+			forms: ['f0', 'f1'],
+			senses: [
+				{
+					label: '1',
+					gloss: 'pi',
+					units: ['p0'],
+					senses: [{ label: 'a', gloss: 'pi-a', units: ['pa0'] }],
+				},
+			],
+		},
+	],
+};
+
+/** Every string `value` holds, by the walker's path spelling. */
+function* stringPaths(value: unknown, at: string): Generator<string> {
+	if (typeof value === 'string') {
+		yield at;
+		return;
+	}
+	if (typeof value !== 'object' || value === null) {
+		return;
+	}
+	const array = Array.isArray(value);
+	for (const [key, item] of Object.entries(value)) {
+		yield* stringPaths(item, childPath(at, key, array));
+	}
+}
+
+function childPath(at: string, key: string, array: boolean): string {
+	if (array) {
+		return `${at}[${key}]`;
+	}
+	return at === '' ? key : `${at}.${key}`;
+}
+
+/** Strings that are codes or keys, not text: the rid, the schema's
+ * enums and the page column. */
+const NOT_TEXT = /^(id|grammar\..*|page\..*|headwords\[\d+\]\.gender)$/u;
+
+// The walker compile will read every text field through (review ledger
+// L04). The expected set is computed by a generic JSON walk written
+// here, not by the walker's own helpers, so a field the walker skips
+// shows up as a difference rather than agreeing with itself.
+describe('entryFields', () => {
+	it('visits every text field, nested senses and stems included', () => {
+		const expected = [...stringPaths(FULL, '')].filter(
+			(p) => !NOT_TEXT.test(p),
+		);
+		expect(expected).toContain('stems[0].senses[0].senses[0].units[0]');
+		expect([...entryFields(FULL)].map((f) => f.path).toSorted()).toEqual(
+			expected.toSorted(),
+		);
+	});
+
+	it('marks the identifier and label fields plain, the rest markup', () => {
+		expect(
+			[...entryFields(FULL)].filter((f) => !f.markup).map((f) => f.path),
+		).toEqual([
+			'sefariaHeadword',
+			'headwords[0].text',
+			'headwords[1].text',
+			'display',
+			'formerNames[0]',
+			'senses[0].senses[0].label',
+			'senses[0].senses[0].senses[0].label',
+			'stems[0].senses[0].label',
+			'stems[0].senses[0].senses[0].label',
+		]);
+	});
+
+	it('hands back the text of each field', () => {
+		const byPath = new Map([...entryFields(FULL)].map((f) => [f.path, f.text]));
+		expect(byPath.get('stems[0].forms[1]')).toBe('f1');
+		expect(byPath.get('senses[0].senses[0].senses[0].gloss')).toBe('deep');
+	});
+});
+
+describe('RID', () => {
+	it.each([
+		['A00001', true],
+		['Z99999', true],
+		['A0001', false],
+		['a00001', false],
+		['A000011', false],
+		['Shabbat 104a', false],
+	])('%s → %p', (ref, expected) => {
+		expect(RID.test(ref)).toBe(expected);
 	});
 });

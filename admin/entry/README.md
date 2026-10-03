@@ -11,7 +11,7 @@ pipeline (ruling `09-30 entry contract`,
 | File | What it holds |
 |---|---|
 | `types.ts` | the entry shapes (`Entry` and its parts), `SCHEMA_VERSION`, `VERBATIM_FIELDS` |
-| `validate.ts` | the validator: `validateEntry`, `validateCorpus`, and `validateEntries` over a loaded tree |
+| `validate.ts` | the validator: `validateEntry`, `validateCorpus`, and `validateEntries` over a loaded tree; also `entryFields`, the walker over every text field of an entry (path, text, whether it may carry markup), and `RID`, the rid predicate |
 | `validate-cli.ts` | `bun data:validate` |
 | `headwords.ts`, `headword-rules.ts` | the headword-line parser and the six shape rules |
 | `names.ts` | an entry's name, derived from `headwords[0]`, and name collisions |
