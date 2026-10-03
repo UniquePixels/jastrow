@@ -44,14 +44,12 @@ const GERESH = /[\u05F3\u05F4'"]/u;
 const MAQAF = '\u05BE';
 const DOT_ABOVE = '\u0307';
 const DOUBLE_SPACE = '  ';
-const UNPARSED_DETAIL = /^(?<form>.*) — (?<reason>.*)$/u;
 /** A final letter, which may not stand mid-word (`\u05DA` in
  * F00009's `\u05D5\u05B7\u05D0\u05E8\u05B0\u05DA\u05BC\u05D5\u05BC\u05E0\u05B0\u05D9\u05B8\u05D0`), and the plain forms that may not end one. */
 const FINAL_LETTER = /[\u05DA\u05DD\u05DF\u05E3\u05E5]/u;
 const NON_FINAL_LETTERS = '\u05DB\u05DE\u05E0\u05E4\u05E6';
 
 interface ReportRow {
-	detail: string;
 	kind: string;
 	rid: string;
 }
@@ -315,31 +313,24 @@ function classifyEveryShape(): void {
 	}
 }
 
-/** The `rid`/`text` pairs the current processor put on its headword
+/** The rids whose headword LINE the current processor put on its
  * review list, so each row can say whether it is already visible.
- * EVERY headword kind counts as visible: they are one parser's several
- * verdicts on one line, split so the review report can class them
- * apart, and a row flagged under any of them has been seen.
  *
- * Keyed in NFC: the rows carry the pre-write spelling while the
- * entries this report walks are the NFC-normalized ones `writeAll`
- * puts on disk, and combining-mark order varies between the two. */
-function flaggedForms(
-	reportRows: readonly ReportRow[],
-): Map<string, Set<string>> {
-	const flagged = new Map<string, Set<string>>();
-	for (const row of reportRows) {
-		if (!isHeadwordReviewKind(row.kind)) {
-			continue;
-		}
-		const marked = UNPARSED_DETAIL.exec(row.detail)?.groups?.['form'];
-		if (marked !== undefined) {
-			const forms = flagged.get(row.rid) ?? new Set<string>();
-			forms.add(marked.normalize('NFC'));
-			flagged.set(row.rid, forms);
-		}
-	}
-	return flagged;
+ * Keyed on the rid, not on a form's text: every headword review kind
+ * is a verdict on the whole line (`parseHeadwordLine` in
+ * `admin/entry/headwords.ts`), and its row's detail is that line
+ * joined with `, ` and followed by the reason. A reviewer reading the
+ * row sees every form on it, so every form of a reviewed line has been
+ * seen. EVERY headword kind counts: they are one parser's several
+ * verdicts on one line, split so the review report can class them
+ * apart. Matching a form's text against the detail could never fire —
+ * the detail is the line, not a form. */
+function flaggedRids(reportRows: readonly ReportRow[]): Set<string> {
+	return new Set(
+		reportRows
+			.filter((row) => isHeadwordReviewKind(row.kind))
+			.map((r) => r.rid),
+	);
 }
 
 /** Which H1 sub-shape a form is. Two or more numerals is a
@@ -377,7 +368,7 @@ function noteFor(
 /** One form in its entry, with the processor's review list alongside. */
 interface FormContext {
 	entry: Entry;
-	flagged: Map<string, Set<string>>;
+	flagged: ReadonlySet<string>;
 	form: FormObject;
 	role: 'alt' | 'headword';
 }
@@ -387,10 +378,7 @@ interface FormContext {
 function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 	const { text } = form;
 	const rid = entry.id;
-	const marked = form.reconstructed === true ? `*${text}` : text;
-	const seen = flagged.get(rid) ?? new Set<string>();
-	const isFlagged =
-		seen.has(text.normalize('NFC')) || seen.has(marked.normalize('NFC'));
+	const isFlagged = flagged.has(rid);
 	const rows: IssueRow[] = [];
 	for (const issue of issuesOf(text)) {
 		const shape = shapeFor(issue);
@@ -607,7 +595,7 @@ function buildHeadwordIssues(
 	reportRows: readonly ReportRow[],
 ): HeadwordIssues {
 	classifyEveryShape();
-	const flagged = flaggedForms(reportRows);
+	const flagged = flaggedRids(reportRows);
 	const inRidOrder = [...finished].sort((a, b) => a.id.localeCompare(b.id));
 	const entries = new Map(inRidOrder.map((entry) => [entry.id, entry]));
 	const rows: IssueRow[] = [];
