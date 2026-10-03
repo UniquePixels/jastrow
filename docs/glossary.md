@@ -13,7 +13,9 @@ date, and what it drops — see [`decisions.md`](decisions.md).
   Swept through the living documents and `package.json` in step 10
   (2026-09-19), and re-scoped to the import module on 2026-09-22 when
   `admin/pipeline/` became self-contained.
-- **What still says the old words.** No live code or document does.
+- **What still says the old words.** Nothing uses them as current
+  terminology. They survive only where history is the point: the
+  retired-terms table below, and the wording of dated rulings.
   The code identifiers were renamed separately from the terms sweep,
   in two halves, both on 2026-10-02. The `migrate` identifiers went
   first: the entry point is `admin/pipeline/import.ts`, the directory
