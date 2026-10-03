@@ -26,7 +26,10 @@ import { buildTrace } from './body/trace.ts';
 import { composeEntry, TransformFailure } from './compose.ts';
 import { biomeBinary } from './import/biome.ts';
 import { buildHeadwordMap } from './import/cite.ts';
-import { detectClasses } from './import/detectors/classes.ts';
+import {
+	checkSilentClasses,
+	detectClasses,
+} from './import/detectors/classes.ts';
 import { finishEntry } from './import/finish.ts';
 import {
 	checkChain,
@@ -615,6 +618,9 @@ async function main(): Promise<void> {
 	checkOrphanRefs(composed, report);
 	const indexes = await buildIndexes(composed, report);
 	const { samples, entries } = finishAll(composed, indexes, report, validate);
+	// After pass 2, which pushed the last class row: a registered class
+	// with no row is a fault on gate 9, never a quiet absence.
+	checkSilentClasses(report);
 	// Gate 7 reads the FINISHED entries, so it runs after pass 2 and
 	// against a fresh read of the snapshot (URL names spec §5.2).
 	report.gates.names = checkNames(entries, await loadSourceHeadwords());

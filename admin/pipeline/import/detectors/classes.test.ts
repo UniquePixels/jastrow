@@ -5,7 +5,12 @@ import {
 	type Sense,
 } from '../../../entry/types.ts';
 import { PUBLICATION } from '../publication.ts';
-import { DETECTED_CLASSES, detectClasses } from './classes.ts';
+import { createReport, type Report } from '../report.ts';
+import {
+	checkSilentClasses,
+	DETECTED_CLASSES,
+	detectClasses,
+} from './classes.ts';
 import { detectEmptyStemSection } from './empty-stem-section.ts';
 import { detectHomographRomanStranded } from './homograph-roman-stranded-in-definition.ts';
 import { detectOpenParenInRtlSpan } from './open-paren-in-rtl-span.ts';
@@ -236,5 +241,48 @@ describe('DETECTED_CLASSES', () => {
 		for (const id of DETECTED_CLASSES) {
 			expect(PUBLICATION.get(id)?.publication).toBe('defer');
 		}
+	});
+});
+
+describe('checkSilentClasses', () => {
+	/** A report holding one review row of each kind named. */
+	function reportWith(kinds: readonly string[]): Report {
+		const report = createReport();
+		report.rows.push(
+			...kinds.map((kind) => ({
+				bucket: 'review' as const,
+				detail: 'x',
+				kind,
+				rid: 'A00001',
+				severity: 'review' as const,
+			})),
+		);
+		return report;
+	}
+
+	it('faults a detected class that produced no rows, and reds gate 9', () => {
+		const report = reportWith(['class-a']);
+		checkSilentClasses(report, new Set(['class-a', 'class-b']));
+		const faults = report.rows.filter((r) => r.severity === 'fault');
+		expect(faults.map((r) => [r.bucket, r.kind, r.detail])).toEqual([
+			[
+				'pipeline',
+				'class-detector-silent',
+				'class-b: the detector produced 0 rows on this run',
+			],
+		]);
+		expect(report.gates.composition.failures).toHaveLength(1);
+		expect(report.gates.composition.total).toBe(2);
+	});
+
+	it('is silent when every detected class produced a row', () => {
+		const report = reportWith(['class-a', 'class-b', 'class-b']);
+		checkSilentClasses(report, new Set(['class-a', 'class-b']));
+		expect(report.rows.filter((r) => r.severity === 'fault')).toEqual([]);
+		expect(report.gates.composition).toEqual({
+			failures: [],
+			pass: 2,
+			total: 2,
+		});
 	});
 });

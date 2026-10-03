@@ -887,9 +887,11 @@ per-PR CI never reads `data/source/`.
 *Cannot see:* whether the placement is correct. Confidence is a review
 row, never a gate failure.
 
-**9. `composition`** — the fault gate, marked from five sites: patch
+**9. `composition`** — the fault gate, marked from six sites: patch
 apply problems, a composer throw, unbased orphan-ref obligations,
-finish problems, and a patch whose rid never streamed past.
+finish problems, a patch whose rid never streamed past, and a
+registered class detector that produced no rows
+(`checkSilentClasses`).
 *Proves:* every pipeline fault also reds gate 9, so any fault refuses
 the write.
 *Cannot see:* anything the composer handled without throwing or
@@ -989,7 +991,10 @@ row reached the report unstamped. **Pipeline faults carry no
 
 "Catalogued, not yet detected" is rendered from `patterns.jsonl` and
 counted apart from the row totals, because those classes have no rid. A
-class leaves the list the moment its detector is registered.
+class leaves the list the moment its detector is registered — so a
+registered detector that produces no rows is a `class-detector-silent`
+fault on gate 9, since otherwise a dead predicate would erase its class
+from the rows and the list alike.
 
 **The publication gate is a process rule.** Nothing in code refuses a
 publish while `blocks` rows exist.

@@ -15,7 +15,8 @@
  */
 
 import type { Entry } from '../../../entry/types.ts';
-import type { ReportRow } from '../report.ts';
+import { mark } from '../gates.ts';
+import type { Report, ReportRow } from '../report.ts';
 import {
 	detectEmptyStemSection,
 	EMPTY_STEM_SECTION,
@@ -99,5 +100,48 @@ function detectClasses(entry: Entry): ReportRow[] {
 	);
 }
 
+/** The kind of the fault `checkSilentClasses` files. */
+const CLASS_DETECTOR_SILENT = 'class-detector-silent';
+
+/** The floor under `DETECTED_CLASSES`: every registered class must
+ * produce at least one row on the run, or the run faults.
+ *
+ * Registration alone is what takes a class off the review report's
+ * "Catalogued, not yet detected" list, so a detector whose predicate
+ * quietly stops matching — a transform reordered ahead of it, a tag
+ * renamed — would erase the class in BOTH places at once: no rows
+ * under its kind and no catalogue line either, reading exactly as
+ * though it had been resolved, with every gate green.
+ *
+ * A fault and not a review row, and so a red gate 9 like every other
+ * fault (DESIGN §9): a fault that did not refuse the write would be
+ * the one fault a run could ship past. A class that truly reached zero
+ * (Sefaria fixed every instance) is retired deliberately — its
+ * detector unregistered and its catalogue row resolved — rather than
+ * by a silence nobody chose. One mark per class, so gate 9's total
+ * counts the classes checked.
+ *
+ * Run after the last `detectClasses` row is pushed. `detected` is a
+ * parameter only so a test can hand in a set of its own. */
+function checkSilentClasses(
+	report: Report,
+	detected: ReadonlySet<string> = DETECTED_CLASSES,
+): void {
+	const seen = new Set(report.rows.map((row) => row.kind));
+	for (const kind of detected) {
+		const detail = `${kind}: the detector produced 0 rows on this run`;
+		mark(report.gates.composition, seen.has(kind), detail);
+		if (!seen.has(kind)) {
+			report.rows.push({
+				bucket: 'pipeline',
+				detail,
+				kind: CLASS_DETECTOR_SILENT,
+				rid: 'corpus',
+				severity: 'fault',
+			});
+		}
+	}
+}
+
 export type { ClassRule };
-export { CLASS_ACTIONS, DETECTED_CLASSES, detectClasses };
+export { CLASS_ACTIONS, checkSilentClasses, DETECTED_CLASSES, detectClasses };
