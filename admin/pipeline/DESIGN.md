@@ -214,11 +214,12 @@ Six shape rules are checked by `headwordShapeProblems`
    is the entry's only name (`checkPartial`);
 6. every comparison normalizes to NFC first.
 
-Rule 4 **halts**: `HALT_ON_TEXT_DEFECT` is `true` in
-`admin/entry/headword-rules.ts` since the last two entries carrying a
-literal `=` in `headwords[].text` (A01175, A01345) were repaired by
-reviewed patches. A new one from upstream is a `headword-unparsed`
-row and a red gate 10.
+Rule 4 **halts**: `headwordShapeProblems` in
+`admin/entry/headword-rules.ts` reports every `textDefects` finding as
+an error, since the last two entries carrying a literal `=` in
+`headwords[].text` (A01175, A01345) were repaired by reviewed patches.
+The switch that once held it to a report is gone. A new one from
+upstream is a `headword-unparsed` row and a red gate 10.
 
 `gender` on a form and `grammar.gender` on the entry are mutually
 exclusive, and neither is inherited. The schema states the rule in

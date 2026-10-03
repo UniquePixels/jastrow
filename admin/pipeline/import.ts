@@ -661,13 +661,10 @@ if (import.meta.main) {
 	await main();
 }
 
-export type { Composed, Indexes };
+export type { Composed };
 export {
-	buildIndexes,
 	composeAll,
 	composeOne,
-	finishAll,
-	letterDir,
 	outputTreeIsEmpty,
 	preparePatches,
 	refuseUnlessEmpty,

@@ -256,4 +256,4 @@ function composeEntry(
 }
 
 export type { ComposePatches, ComposeResult, PhaseTracker };
-export { composeEntry, healAndTransform, TransformFailure };
+export { composeEntry, TransformFailure };

@@ -480,7 +480,6 @@ export type { EntryFile };
 export {
 	checkEntry,
 	ENTRY_FILE_GLOB,
-	homePath,
 	loadEntryFiles,
 	markupProblems,
 	schemaValidator,

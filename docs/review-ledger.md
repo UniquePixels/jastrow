@@ -37,13 +37,13 @@ brackets.
 
 ### 1. Pipeline bugs — one PR, agent work
 
-- [ ] Fix the headword report's "flagged" column; add a test [L06]
-- [ ] Fault row when a detected class returns 0 rows [L07]
-- [ ] Detector for an entry with no body text; P01112, U00622 [L08]
-- [ ] Drop the lossless-NFC guard that cannot fire, or make it real [L10]
-- [ ] NFC the `next_hw` lookup in gate 5 [L11]
-- [ ] Make the empty-tree glob match the validator's [L12]
-- [ ] Remove dead exports [L13]
+- [x] Fix the headword report's "flagged" column; add a test [L06]
+- [x] Fault row when a detected class returns 0 rows [L07]
+- [x] Detector for an entry with no body text; P01112, U00622 [L08]
+- [x] Drop the lossless-NFC guard that cannot fire, or make it real [L10]
+- [x] NFC the `next_hw` lookup in gate 5 [L11]
+- [x] Make the empty-tree glob match the validator's [L12]
+- [x] Remove dead exports [L13]
 
 ### 2. Entry contract — one PR, agent work
 
@@ -137,14 +137,14 @@ architecture, data, docs; every row confirmed by the controller).
 | L03 | Update run and atomic write unbuilt; `--write` refuses a populated tree; R11 "live, not in code" | `admin/pipeline/import.ts:461` | post-release | ruled low priority (maintainer, 2026-10-02) |
 | L04 | Helpers compile will need live only in the pipeline: `page-index/hebrew.ts` keys, `transform/abbrev-vocab.ts`, three field walkers, unexported `RID` | listed | contract | open |
 | L05 | One-way doors: `senses[0]` is the gloss head with no field (467 whitespace-only); sense-label `*`/`—` dropped on write (`*2)` → `"2"`, A01249; 107 `*N)`, ~5,440 `—N)` in source); gloss-head offsets computed in `body/rejoin.ts`, never stored | `admin/pipeline/body/trace.ts:85-98` | ruling | open |
-| L06 | "Flagged by the processor" column can never fire: regex takes the whole headword line as `form`, compared to one form's text; 1,601 rids on both lists, 0 flagged; no test | `admin/pipeline/report/headword-issues.ts:47,327-343` | bug | open |
-| L07 | #142 removed the detector-floor control; `DETECTED_CLASSES` is static, so a dead predicate erases its class from rows and catalogue alike, gates green | `admin/pipeline/import/review-report.ts:60-67` | bug | open |
-| L08 | Two entries with no body text and no row: P01112, U00622 (`senses:[{gloss:"",units:[]}]`; source empty too) | `data/entries/P/P01112.json`, `U/U00622.json` | bug (detector) | open |
+| L06 | "Flagged by the processor" column can never fire: regex takes the whole headword line as `form`, compared to one form's text; 1,601 rids on both lists, 0 flagged; no test | `admin/pipeline/report/headword-issues.ts:47,327-343` | bug | PR |
+| L07 | #142 removed the detector-floor control; `DETECTED_CLASSES` is static, so a dead predicate erases its class from rows and catalogue alike, gates green | `admin/pipeline/import/review-report.ts:60-67` | bug | PR |
+| L08 | Two entries with no body text and no row: P01112, U00622 (`senses:[{gloss:"",units:[]}]`; source empty too) | `data/entries/P/P01112.json`, `U/U00622.json` | bug (detector) | PR |
 | L09 | Primary-headword rows in headword-issues are pre-publication because `headwords[0]` is the URL name; 382 rows (H6 6, X1 2, X5 115, X7 123, X8 136); #113's five rids are among them | `docs/reports/headword-issues.md` | data | open |
-| L10 | Lossless-NFC guard compares `NFD(NFC(x))` to `NFD(x)`, equal by Unicode guarantee; singletons pass; test reaches it only by monkey-patching | `admin/pipeline/import/normalize.ts:85` | bug | open |
-| L11 | `headwordMap.get(next)` with raw `next_hw`; keys are NFC; latent (0 non-NFC in source), fails loudly | `admin/pipeline/import/gates.ts:399` | bug | open |
-| L12 | Empty-tree check globs `*/*.json`; validator globs `**/*.json` | `admin/pipeline/import.ts:448` | bug | open |
-| L13 | Dead exports: `healAndTransform`, `BODY_CENSUS_PATH`, `buildIndexes`/`finishAll`/`letterDir`/`Indexes`, `homePath`; `HALT_ON_TEXT_DEFECT` false branch | various | hygiene | open |
+| L10 | Lossless-NFC guard compares `NFD(NFC(x))` to `NFD(x)`, equal by Unicode guarantee; singletons pass; test reaches it only by monkey-patching | `admin/pipeline/import/normalize.ts:85` | bug | PR |
+| L11 | `headwordMap.get(next)` with raw `next_hw`; keys are NFC; latent (0 non-NFC in source), fails loudly | `admin/pipeline/import/gates.ts:399` | bug | PR |
+| L12 | Empty-tree check globs `*/*.json`; validator globs `**/*.json` | `admin/pipeline/import.ts:448` | bug | PR |
+| L13 | Dead exports: `healAndTransform`, `BODY_CENSUS_PATH`, `buildIndexes`/`finishAll`/`letterDir`/`Indexes`, `homePath`; `HALT_ON_TEXT_DEFECT` false branch | various | hygiene | PR |
 | L14 | Ledger behind #139: HW-halt says "ARMED AND HELD, reports rather than refuses" (code: `HALT_ON_TEXT_DEFECT = true`); HW-equals/RP5/09-21 list A01175, A01345 as waiting (fixed, P000309/P000310); `reform.gloss` added against 09-21 with no row; no row for #142's rule | `docs/decisions.md:105,191,205-206,216` | doc | open |
 | L15 | Rows 218/222–224 cite the retired `headword-multiword` kind; HW-gender claims "live as the schema and validate.ts rule" (nothing enforces it; `ideas.md:50` is right) | `docs/decisions.md:210,218-224` | doc | open |
 | L16 | "complete as of 2026-09-22 (#116–#131)" predates #136–#144; `admin/entry/` and `bun data:validate` unmentioned; "Feature branches off `main`" while v2 work targets `v2` | `.claude/CLAUDE.md:12,61` | doc | open |
