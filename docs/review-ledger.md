@@ -47,12 +47,13 @@ brackets.
 
 ### 2. Entry contract — one PR, agent work
 
-- [ ] Make `Entry` and `entry.schema.json` agree; add a parity test;
+- [x] Make `Entry` and `entry.schema.json` agree; add a parity test;
       move `schema.test.ts` into `admin/entry/` [L01]
-- [ ] Gender exclusivity in `validateEntry` [L20]
+- [x] Gender exclusivity in `validateEntry` [L20]
 - [ ] Export `RID`, one field walker, the Hebrew key helpers and
       `ABBREVIATIONS` from `admin/entry/` [L04]
       (can also wait until compile first needs each one)
+      (exports done in #147; the two moves wait on L02)
 
 ### 3. Doc sync — one PR, agent work
 
@@ -132,26 +133,26 @@ architecture, data, docs; every row confirmed by the controller).
 
 | Id | Finding | Where | Class | Status |
 |---|---|---|---|---|
-| L01 | `Sense.units` required in TS, optional in schema; schema allows `grammar.pos` (not in type) and `reconstructed:false` (type says `true`); `validate.ts:66` casts the guard | `admin/entry/types.ts:56-61`, `data/schema/entry.schema.json` | contract | open |
+| L01 | `Sense.units` required in TS, optional in schema; schema allows `grammar.pos` (not in type) and `reconstructed:false` (type says `true`); `validate.ts:66` casts the guard | `admin/entry/types.ts:56-61`, `data/schema/entry.schema.json` | contract | PR #147 |
 | L02 | Nothing stops `app/` or a future compile module importing `admin/pipeline/`; biome guards one direction; compile's home unsettled (README: Stage 3; CLAUDE.md: separate) | `biome.json` | ruling | open |
 | L03 | Update run and atomic write unbuilt; `--write` refuses a populated tree; R11 "live, not in code" | `admin/pipeline/import.ts:461` | post-release | ruled low priority (maintainer, 2026-10-02) |
-| L04 | Helpers compile will need live only in the pipeline: `page-index/hebrew.ts` keys, `transform/abbrev-vocab.ts`, three field walkers, unexported `RID` | listed | contract | open |
+| L04 | Helpers compile will need live only in the pipeline: `page-index/hebrew.ts` keys, `transform/abbrev-vocab.ts`, three field walkers, unexported `RID` | listed | contract | PR #147 (exports); moves wait on L02 |
 | L05 | One-way doors: `senses[0]` is the gloss head with no field (467 whitespace-only); sense-label `*`/`—` dropped on write (`*2)` → `"2"`, A01249; 107 `*N)`, ~5,440 `—N)` in source); gloss-head offsets computed in `body/rejoin.ts`, never stored | `admin/pipeline/body/trace.ts:85-98` | ruling | open |
-| L06 | "Flagged by the processor" column can never fire: regex takes the whole headword line as `form`, compared to one form's text; 1,601 rids on both lists, 0 flagged; no test | `admin/pipeline/report/headword-issues.ts:47,327-343` | bug | PR #146 |
-| L07 | #142 removed the detector-floor control; `DETECTED_CLASSES` is static, so a dead predicate erases its class from rows and catalogue alike, gates green | `admin/pipeline/import/review-report.ts:60-67` | bug | PR #146 |
-| L08 | Two entries with no body text and no row: P01112, U00622 (`senses:[{gloss:"",units:[]}]`; source empty too) | `data/entries/P/P01112.json`, `U/U00622.json` | bug (detector) | PR #146 |
+| L06 | "Flagged by the processor" column can never fire: regex takes the whole headword line as `form`, compared to one form's text; 1,601 rids on both lists, 0 flagged; no test | `admin/pipeline/report/headword-issues.ts:47,327-343` | bug | closed #146 |
+| L07 | #142 removed the detector-floor control; `DETECTED_CLASSES` is static, so a dead predicate erases its class from rows and catalogue alike, gates green | `admin/pipeline/import/review-report.ts:60-67` | bug | closed #146 |
+| L08 | Two entries with no body text and no row: P01112, U00622 (`senses:[{gloss:"",units:[]}]`; source empty too) | `data/entries/P/P01112.json`, `U/U00622.json` | bug (detector) | closed #146 |
 | L09 | Primary-headword rows in headword-issues are pre-publication because `headwords[0]` is the URL name; 382 rows (H6 6, X1 2, X5 115, X7 123, X8 136); #113's five rids are among them | `docs/reports/headword-issues.md` | data | open |
-| L10 | Lossless-NFC guard compares `NFD(NFC(x))` to `NFD(x)`, equal by Unicode guarantee; singletons pass; test reaches it only by monkey-patching | `admin/pipeline/import/normalize.ts:85` | bug | PR #146 |
-| L11 | `headwordMap.get(next)` with raw `next_hw`; keys are NFC; latent (0 non-NFC in source), fails loudly | `admin/pipeline/import/gates.ts:399` | bug | PR #146 |
-| L12 | Empty-tree check globs `*/*.json`; validator globs `**/*.json` | `admin/pipeline/import.ts:448` | bug | PR #146 |
-| L13 | Dead exports: `healAndTransform`, `BODY_CENSUS_PATH`, `buildIndexes`/`finishAll`/`letterDir`/`Indexes`, `homePath`; `HALT_ON_TEXT_DEFECT` false branch | various | hygiene | PR #146 |
+| L10 | Lossless-NFC guard compares `NFD(NFC(x))` to `NFD(x)`, equal by Unicode guarantee; singletons pass; test reaches it only by monkey-patching | `admin/pipeline/import/normalize.ts:85` | bug | closed #146 |
+| L11 | `headwordMap.get(next)` with raw `next_hw`; keys are NFC; latent (0 non-NFC in source), fails loudly | `admin/pipeline/import/gates.ts:399` | bug | closed #146 |
+| L12 | Empty-tree check globs `*/*.json`; validator globs `**/*.json` | `admin/pipeline/import.ts:448` | bug | closed #146 |
+| L13 | Dead exports: `healAndTransform`, `BODY_CENSUS_PATH`, `buildIndexes`/`finishAll`/`letterDir`/`Indexes`, `homePath`; `HALT_ON_TEXT_DEFECT` false branch | various | hygiene | closed #146 |
 | L14 | Ledger behind #139: HW-halt says "ARMED AND HELD, reports rather than refuses" (code: `HALT_ON_TEXT_DEFECT = true`); HW-equals/RP5/09-21 list A01175, A01345 as waiting (fixed, P000309/P000310); `reform.gloss` added against 09-21 with no row; no row for #142's rule | `docs/decisions.md:105,191,205-206,216` | doc | open |
 | L15 | Rows 218/222–224 cite the retired `headword-multiword` kind; HW-gender claims "live as the schema and validate.ts rule" (nothing enforces it; `ideas.md:50` is right) | `docs/decisions.md:210,218-224` | doc | open |
 | L16 | "complete as of 2026-09-22 (#116–#131)" predates #136–#144; `admin/entry/` and `bun data:validate` unmentioned; "Feature branches off `main`" while v2 work targets `v2` | `.claude/CLAUDE.md:12,61` | doc | open |
 | L17 | "validating every entry data file" in `bun qa` (false since #141); CI list omits Validate; "not hand-edited" contradicts R2 and `data/entries/README.md` | `CONTRIBUTING.md:14-18,80-82,130`, `.github/PULL_REQUEST_TEMPLATE.md:20` | doc | open |
 | L18 | DESIGN §11.48 tier test deleted in #142; §2 says `units[]` required and stem children have no nested senses (38 do, P00790); patch-ops table omits `reform.gloss`; outputs omit headword-issues. Pipeline README: nine gates, last run 2026-09-22, "names nothing outside itself except paths.ts" (25 files import `admin/entry/`). `data/schema/README.md` names the old reader. drawio says nine gates | listed | doc | open |
 | L19 | Schema title "truth entry"; "slug" in `import/gates.ts:189`, `entry/headwords.ts:86`, `entry/headword-rules.ts:217`; `patch/apply.ts:92` names deleted `apply-cli.ts`; five "still PENDING" comments where `PENDING = []`; `.gitignore:36` lists `migration-report.json`; `fetch.ts:217` top-level `await main()` | various | nit | open |
-| L20 | Gender exclusivity (form gender vs `grammar.gender`) unchecked; `schema.test.ts:26-33` asserts an entry carrying both as valid | `admin/entry/validate.ts` | contract | open |
+| L20 | Gender exclusivity (form gender vs `grammar.gender`) unchecked; `schema.test.ts:26-33` asserts an entry carrying both as valid | `admin/entry/validate.ts` | contract | PR #147 |
 | L21 | Which corrections go upstream to Sefaria, and how | — | ruling | open (maintainer raised 2026-10-02) |
 | L22 | Nine Group D sense-structure classes to examine before anchors or hand edits | #123 | data | open |
 | L23 | `formerNames` ledger unbuilt; needed before the first post-publication `headwords[0]` change | — | post-release | open |
