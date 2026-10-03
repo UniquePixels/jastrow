@@ -214,11 +214,12 @@ Six shape rules are checked by `headwordShapeProblems`
    is the entry's only name (`checkPartial`);
 6. every comparison normalizes to NFC first.
 
-Rule 4 **halts**: `HALT_ON_TEXT_DEFECT` is `true` in
-`admin/entry/headword-rules.ts` since the last two entries carrying a
-literal `=` in `headwords[].text` (A01175, A01345) were repaired by
-reviewed patches. A new one from upstream is a `headword-unparsed`
-row and a red gate 10.
+Rule 4 **halts**: `headwordShapeProblems` in
+`admin/entry/headword-rules.ts` reports every `textDefects` finding as
+an error, since the last two entries carrying a literal `=` in
+`headwords[].text` (A01175, A01345) were repaired by reviewed patches.
+The switch that once held it to a report is gone. A new one from
+upstream is a `headword-unparsed` row and a red gate 10.
 
 `gender` on a form and `grammar.gender` on the entry are mutually
 exclusive, and neither is inherited. The schema states the rule in
@@ -887,9 +888,11 @@ per-PR CI never reads `data/source/`.
 *Cannot see:* whether the placement is correct. Confidence is a review
 row, never a gate failure.
 
-**9. `composition`** — the fault gate, marked from five sites: patch
+**9. `composition`** — the fault gate, marked from six sites: patch
 apply problems, a composer throw, unbased orphan-ref obligations,
-finish problems, and a patch whose rid never streamed past.
+finish problems, a patch whose rid never streamed past, and a
+registered class detector that produced no rows
+(`checkSilentClasses`).
 *Proves:* every pipeline fault also reds gate 9, so any fault refuses
 the write.
 *Cannot see:* anything the composer handled without throwing or
@@ -978,8 +981,8 @@ corrected in the admin tool after go-live.* It is stated in
 - `blocks` — `headword-unparsed`, `upstream-changed`, `upstream-fixed`.
 - `defer` — `headword-duplicate-form`, `paren-group-close-unknown`,
   `markup-carry`, `page-confidence-low`, `page-confidence-medium`,
-  `review-deferred`, `patch-consolidated-away`, plus the five detected
-  classes.
+  `review-deferred`, `patch-consolidated-away`, plus the six detected
+  classes (`empty-body` and the five catalogued blocking classes).
 - `note` — `headword-partial-only`.
 
 A kind the table does not name **throws** (`ruleOf`), so a new kind
@@ -989,7 +992,10 @@ row reached the report unstamped. **Pipeline faults carry no
 
 "Catalogued, not yet detected" is rendered from `patterns.jsonl` and
 counted apart from the row totals, because those classes have no rid. A
-class leaves the list the moment its detector is registered.
+class leaves the list the moment its detector is registered — so a
+registered detector that produces no rows is a `class-detector-silent`
+fault on gate 9, since otherwise a dead predicate would erase its class
+from the rows and the list alike.
 
 **The publication gate is a process rule.** Nothing in code refuses a
 publish while `blocks` rows exist.
@@ -1254,11 +1260,13 @@ so cannot be inferred from reading the code that is there.
 ### What is never stored, and where text is rewritten
 
 50. **Stored text is rewritten in exactly one place, and only into its
-    own NFC spelling.** `normalizeForWrite` runs after every gate has
-    read the in-memory entries and before the first file is written,
-    under an `NFD(before) == NFD(after)` assertion, so a normalization
-    that would not be lossless refuses the write. `data/source/` is
-    never touched.
+    own NFC spelling.** `normalizeForWrite` runs after gates 1–9 have
+    read the in-memory entries, before gate 10 reads what will be
+    written, and before the first file is written.
+    NFC only ever produces a canonically equivalent string, so no
+    assertion guards it: the `NFD(before) == NFD(after)` check it once
+    carried is that equivalence restated and could not fire (review
+    ledger L10). `data/source/` is never touched.
 51. **No canonicalization of stored text at lookup time.** NFC is a
     *comparison* key in `names.ts` and `cite.ts`; nothing stored is
     rewritten by those steps.

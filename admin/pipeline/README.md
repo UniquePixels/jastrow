@@ -163,9 +163,8 @@ refuses on a stale snapshot pin or a drifted patch. See
 lookup, the duplicate-form check — normalizes to NFC first, because
 combining-mark order varies in the source and a byte-exact match on
 Hebrew is a bug. The write step is also the one place stored text is
-rewritten, under an assertion that a lossy normalization refuses the
-write rather than silently corrupts it; `data/source/` is never
-touched. See [`DESIGN.md`](DESIGN.md) §11, "What is never stored, and
+rewritten, and only into its NFC spelling, which is canonically the
+same text; `data/source/` is never touched. See [`DESIGN.md`](DESIGN.md) §11, "What is never stored, and
 where text is rewritten".
 
 **Last run 2026-09-22 with all nine gates green**, `--write`: the

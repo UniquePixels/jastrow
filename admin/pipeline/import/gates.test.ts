@@ -49,6 +49,37 @@ describe('checkChain', () => {
 		expect(t.total).toBe(5);
 	});
 
+	it('resolves a next_hw whose marks are out of NFC order', () => {
+		// The headword map is keyed in NFC (`buildHeadwordMap`), and the
+		// source's mark order varies: DAGESH (U+05BC) before HIRIQ
+		// (U+05B4) is the order NFC swaps. Escapes, so a formatter cannot
+		// turn the two spellings into one.
+		const nfc = '\u05D1\u05B4\u05BC';
+		const unordered = '\u05D1\u05BC\u05B4';
+		expect(unordered).not.toBe(nfc);
+		const entries: SourceEntry[] = [
+			{
+				content: { senses: [] },
+				headword: 'א',
+				next_hw: unordered,
+				rid: 'A00001',
+			},
+			{
+				content: { senses: [] },
+				headword: unordered,
+				prev_hw: 'א',
+				rid: 'A00002',
+			},
+		];
+		const map = new Map([
+			['א', 'A00001'],
+			[nfc, 'A00002'],
+		]);
+		const t = checkChain(entries, map);
+		expect(t.failures).toEqual([]);
+		expect(t.pass).toBe(t.total);
+	});
+
 	it('fails a chain with a swapped next_hw', () => {
 		// A00001 and A00002's next_hw values are swapped relative to the
 		// ordered fixture, so the chain jumps straight to A00003.

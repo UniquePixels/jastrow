@@ -49,13 +49,10 @@ export const MANIFEST_PATH = `${SOURCE_DIR}/manifest.json`;
  * snapshot content, so none of them are hashed. */
 export const SNAPSHOT_FILES = [SOURCE_PATH, LEXICONS_PATH] as const;
 
-/** The closed grammar vocabulary census `body/grammar.ts` cites. */
-export const BODY_CENSUS_PATH = `${SOURCE_DIR}/body-census-report.json`;
-
 // --------------------------------------------------- read and written
 
 /** Patch records — import definition, not data (spec M9). */
-export const PATCH_DIR = 'admin/pipeline/patch/records';
+const PATCH_DIR = 'admin/pipeline/patch/records';
 
 /** The committed patch corpus (spec §4.4): every ingested tranche's
  * files. Absent files mean an empty corpus.
@@ -96,7 +93,7 @@ export const IMPORT_REPORT_PATH = `${SOURCE_DIR}/import-report.json`;
  * whatever doc tree the project happens to keep — a module that
  * scatters its output through the project's documents is not one you
  * can lift out. */
-export const REPORTS_DIR = 'docs/reports';
+const REPORTS_DIR = 'docs/reports';
 
 /** The evidence document the maintainer reads and blesses (migrate
  * spec §4.2). `IMPORT_REPORT_PATH` is the machine's account of a

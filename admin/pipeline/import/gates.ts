@@ -396,7 +396,9 @@ function resolveNext(
 	if (next === undefined) {
 		return;
 	}
-	const rid = headwordMap.get(next);
+	// The map is keyed in NFC (`buildHeadwordMap`); the source's mark
+	// order varies, so the raw link would miss a canonically equal key.
+	const rid = headwordMap.get(next.normalize('NFC'));
 	if (rid === undefined) {
 		mark(t, false, `${link.rid}: next_hw "${next}" names no headword`);
 		return;

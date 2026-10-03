@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { NormalizeError, normalizeForWrite } from './normalize.ts';
+import { normalizeForWrite } from './normalize.ts';
 
 /**
  * Every fixture here is written as `\uXXXX` escapes ON PURPOSE. The
@@ -21,24 +21,6 @@ const MARKS_IN_NFC_ORDER = '\u05D1\u05B4\u05BC';
  * COMPOSES, to U+1E24 — the case a code-point count would misread. */
 const LATIN_DECOMPOSED = 'H\u0323';
 const LATIN_COMPOSED = '\u1E24';
-
-/** Runs `body` with `String.prototype.normalize` lying about NFC.
- *
- * The refusal branch cannot be reached through real text — NFC is
- * lossless on every string Unicode defines it for — so the only way
- * to prove the assertion fires is to break it deliberately. Without
- * this the branch would be code no test has ever run. */
-function withBrokenNFC(body: () => void): void {
-	const original = String.prototype.normalize;
-	String.prototype.normalize = function (form?: string): string {
-		return form === 'NFC' ? 'X' : (original.call(this, form) as string);
-	};
-	try {
-		body();
-	} finally {
-		String.prototype.normalize = original;
-	}
-}
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('normalizeForWrite', () => {
@@ -66,9 +48,8 @@ describe('normalizeForWrite', () => {
 		const [value, changed] = normalizeForWrite({ gloss: LATIN_DECOMPOSED });
 		expect(value.gloss).toBe(LATIN_COMPOSED);
 		expect(changed).toBe(1);
-		// The composed form is ONE code point where the input was two:
-		// this is why losslessness is asserted through NFD rather than
-		// through a character count.
+		// The composed form is ONE code point where the input was two,
+		// and canonically the same text: both decompose to the input.
 		expect([...value.gloss]).toHaveLength(1);
 		expect(value.gloss.normalize('NFD')).toBe(LATIN_DECOMPOSED);
 	});
@@ -146,19 +127,13 @@ describe('normalizeForWrite', () => {
 		expect(changed).toBe(0);
 	});
 
-	it('refuses the write when NFC would not be lossless', () => {
-		withBrokenNFC(() => {
-			expect(() => normalizeForWrite({ text: '\u05D0' }, 'A00001')).toThrow(
-				NormalizeError,
-			);
-		});
-	});
-
-	it('names the offending field in the refusal', () => {
-		withBrokenNFC(() => {
-			expect(() => normalizeForWrite({ text: '\u05D0' }, 'A00001')).toThrow(
-				'A00001.text',
-			);
-		});
+	it('rewrites a singleton to its canonical equivalent rather than refusing', () => {
+		// U+212A KELVIN SIGN, whose canonical decomposition is `K`. The
+		// removed `NFD(before) === NFD(after)` guard passed this too:
+		// that comparison is canonical equivalence itself, so no input
+		// could fail it (review ledger L10).
+		const [value, changed] = normalizeForWrite({ text: '\u212A' });
+		expect(value.text).toBe('K');
+		expect(changed).toBe(1);
 	});
 });

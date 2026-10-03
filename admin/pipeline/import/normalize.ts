@@ -15,28 +15,31 @@
  * same in-memory entries, string for string, and never sees a
  * normalized value. A green gate 3 on the rewritten tree is therefore
  * evidence about the transforms, not about this function — which is
- * the right division, because what makes THIS step safe is its own
- * assertion, not a gate downstream of it.
+ * the right division, because what makes THIS step safe is what NFC
+ * is (below), not a gate downstream of it.
  *
  * The one gate that reads its OUTPUT is gate 10, `contract`: the
  * entry contract (`admin/entry/`) over exactly what is about to be
  * written. Its NFC clause is the other half of this module — it holds
  * a file this step never saw, a hand edit, to the same property.
  *
- * **What makes it provably lossless.** Every rewritten string must
- * satisfy `NFD(before) === NFD(after)`: the two spellings decompose
- * to the same sequence, so nothing was added, dropped or exchanged —
- * only reordered or composed. A string that fails REFUSES the write
- * rather than being written normalized, because a normalization that
- * is not lossless is a text edit, and this module has no mandate to
- * edit text. Measured 2026-09-20, all 164 non-NFC strings in
- * `data/entries/` satisfy it.
+ * **Why it needs no guard of its own.** NFC changes a string only
+ * into a canonically equivalent one — Unicode defines it that way —
+ * so it cannot add, drop or exchange text a reader can see. This
+ * module once asserted `NFD(before) === NFD(after)` on every rewrite
+ * and refused the write on a mismatch. That comparison IS the
+ * definition of canonical equivalence, so it could not fail on any
+ * input; its one test reached the refusal only by monkey-patching
+ * `String.prototype.normalize` (review ledger L10). A singleton such
+ * as U+212A KELVIN SIGN → `K` passed it too, since both sides
+ * decompose to `K`. It was removed rather than kept as a check that
+ * reads as protection and is not.
  *
  * On Hebrew this only ever reorders: no Hebrew letter+point sequence
  * composes to a presentation form, since those are on Unicode's
  * composition-exclusion list. Latin and Greek diacritics (`Ḥ`, `ḳ`,
  * `ḫ`, `ṇ`, `Ἀ`, `ά`) do compose, which changes the code point count
- * — the NFD assertion is what covers that case rather than a count.
+ * and nothing a reader sees.
  *
  * **`data/source/` is never touched.** The snapshot is pinned by
  * sha256 and belongs upstream; its own 201 non-NFC strings are
@@ -48,45 +51,18 @@
 
 import { VERBATIM_FIELDS } from '../../entry/types.ts';
 
-/** A string whose NFC form does not decompose back to the original —
- * normalizing it would be a text edit, not a spelling change. */
-class NormalizeError extends Error {
-	readonly path: string;
-
-	constructor(path: string, before: string, after: string) {
-		super(
-			`${path}: NFC is not lossless here — ${JSON.stringify(before)} → ${JSON.stringify(after)} (NFD differs); refusing the write`,
-		);
-		this.name = 'NormalizeError';
-		this.path = path;
-	}
-}
-
 /** What one normalization pass changed. `strings` counts the values
  * rewritten, not the values visited. */
 interface NormalizeCount {
 	strings: number;
 }
 
-/** One string, normalized, with the losslessness assertion.
- *
- * The assertion is made on a string the pass actually REWRITES. An
- * unchanged string is its own NFC form, so `NFD(before)` and
- * `NFD(after)` are decompositions of one string and the comparison
- * could not fail — checking it would be a mark that cannot fire. */
-function normalizeString(
-	value: string,
-	path: string,
-	count: NormalizeCount,
-): string {
+/** One string, normalized, counted when the pass rewrote it. */
+function normalizeString(value: string, count: NormalizeCount): string {
 	const normalized = value.normalize('NFC');
-	if (normalized === value) {
-		return value;
+	if (normalized !== value) {
+		count.strings++;
 	}
-	if (normalized.normalize('NFD') !== value.normalize('NFD')) {
-		throw new NormalizeError(path, value, normalized);
-	}
-	count.strings++;
 	return normalized;
 }
 
@@ -103,19 +79,17 @@ function normalizeString(
  * vocabulary. A key outside it is a schema error and is refused
  * there, where the message can say so — silently renaming one here
  * would hide it. */
-function walk(value: unknown, path: string, count: NormalizeCount): unknown {
+function walk(value: unknown, count: NormalizeCount): unknown {
 	if (typeof value === 'string') {
-		return normalizeString(value, path, count);
+		return normalizeString(value, count);
 	}
 	if (Array.isArray(value)) {
-		return value.map((item, i) => walk(item, `${path}[${i}]`, count));
+		return value.map((item) => walk(item, count));
 	}
 	if (typeof value === 'object' && value !== null) {
 		const out: Record<string, unknown> = {};
 		for (const [key, item] of Object.entries(value)) {
-			out[key] = VERBATIM_FIELDS.has(key)
-				? item
-				: walk(item, `${path}.${key}`, count);
+			out[key] = VERBATIM_FIELDS.has(key) ? item : walk(item, count);
 		}
 		return out;
 	}
@@ -125,14 +99,11 @@ function walk(value: unknown, path: string, count: NormalizeCount): unknown {
 /** Every string field of `entry`, NFC-normalized, as a deep copy —
  * the input is never mutated. Returns the copy beside the number of
  * strings it rewrote, so the write step can report how much of the
- * tree this touched (164 strings in 150 files when #110 measured it).
- *
- * Throws `NormalizeError` on the first string NFC would not carry
- * losslessly, which refuses the whole write. */
-function normalizeForWrite<T>(entry: T, path = 'entry'): [T, number] {
+ * tree this touched (164 strings in 150 files when #110 measured it). */
+function normalizeForWrite<T>(entry: T): [T, number] {
 	const count: NormalizeCount = { strings: 0 };
-	const value = walk(entry, path, count) as T;
+	const value = walk(entry, count) as T;
 	return [value, count.strings];
 }
 
-export { NormalizeError, normalizeForWrite };
+export { normalizeForWrite };

@@ -2,9 +2,10 @@
  * The class-detector bucket (consolidation spec §4 "review detector",
  * §10 "port judgment-class detectors"): the catalogued classes the
  * maintainer ruled blocking that the import path can now see for
- * itself. Each detects only and emits rows; none repairs anything,
- * and all five are `defer` for publication (post-consolidation review
- * §10, decision 2).
+ * itself, plus `empty-body`, which no catalogue row matches exactly
+ * (see its file). Each detects only and emits rows; none repairs
+ * anything, and all six are `defer` for publication (post-consolidation
+ * review §10, decision 2; `empty-body` by the review ledger's L08).
  *
  * `DETECTED_CLASSES` is what the review report subtracts from the
  * catalogue, so a class leaves the "Catalogued, not yet detected"
@@ -15,7 +16,13 @@
  */
 
 import type { Entry } from '../../../entry/types.ts';
-import type { ReportRow } from '../report.ts';
+import { mark } from '../gates.ts';
+import type { Report, ReportRow } from '../report.ts';
+import {
+	detectEmptyBody,
+	EMPTY_BODY,
+	EMPTY_BODY_ACTION,
+} from './empty-body.ts';
 import {
 	detectEmptyStemSection,
 	EMPTY_STEM_SECTION,
@@ -45,13 +52,16 @@ import {
 
 /** One registered class: what finds it, and what to do about a row.
  * The catalogue id is the map key and the report `kind`, so the run's
- * row count for a kind reads directly against `corpusCount`. */
+ * row count for a kind reads directly against `corpusCount`. The one
+ * key that is not a catalogue id, `empty-body`, is subtracted from the
+ * catalogue harmlessly: no row carries it. */
 interface ClassRule {
 	action: string;
 	detect: ClassDetector;
 }
 
 const CLASS_RULES: ReadonlyMap<string, ClassRule> = new Map([
+	[EMPTY_BODY, { action: EMPTY_BODY_ACTION, detect: detectEmptyBody }],
 	[
 		EMPTY_STEM_SECTION,
 		{ action: EMPTY_STEM_SECTION_ACTION, detect: detectEmptyStemSection },
@@ -99,5 +109,48 @@ function detectClasses(entry: Entry): ReportRow[] {
 	);
 }
 
+/** The kind of the fault `checkSilentClasses` files. */
+const CLASS_DETECTOR_SILENT = 'class-detector-silent';
+
+/** The floor under `DETECTED_CLASSES`: every registered class must
+ * produce at least one row on the run, or the run faults.
+ *
+ * Registration alone is what takes a class off the review report's
+ * "Catalogued, not yet detected" list, so a detector whose predicate
+ * quietly stops matching — a transform reordered ahead of it, a tag
+ * renamed — would erase the class in BOTH places at once: no rows
+ * under its kind and no catalogue line either, reading exactly as
+ * though it had been resolved, with every gate green.
+ *
+ * A fault and not a review row, and so a red gate 9 like every other
+ * fault (DESIGN §9): a fault that did not refuse the write would be
+ * the one fault a run could ship past. A class that truly reached zero
+ * (Sefaria fixed every instance) is retired deliberately — its
+ * detector unregistered and its catalogue row resolved — rather than
+ * by a silence nobody chose. One mark per class, so gate 9's total
+ * counts the classes checked.
+ *
+ * Run after the last `detectClasses` row is pushed. `detected` is a
+ * parameter only so a test can hand in a set of its own. */
+function checkSilentClasses(
+	report: Report,
+	detected: ReadonlySet<string> = DETECTED_CLASSES,
+): void {
+	const seen = new Set(report.rows.map((row) => row.kind));
+	for (const kind of detected) {
+		const detail = `${kind}: the detector produced 0 rows on this run`;
+		mark(report.gates.composition, seen.has(kind), detail);
+		if (!seen.has(kind)) {
+			report.rows.push({
+				bucket: 'pipeline',
+				detail,
+				kind: CLASS_DETECTOR_SILENT,
+				rid: 'corpus',
+				severity: 'fault',
+			});
+		}
+	}
+}
+
 export type { ClassRule };
-export { CLASS_ACTIONS, DETECTED_CLASSES, detectClasses };
+export { CLASS_ACTIONS, checkSilentClasses, DETECTED_CLASSES, detectClasses };

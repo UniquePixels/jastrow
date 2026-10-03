@@ -7,7 +7,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 | Publication | Rows |
 |---|---|
 | blocks | 0 |
-| defer | 2811 |
+| defer | 2813 |
 | note | 1597 |
 | catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
@@ -15,7 +15,14 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 
 _none_
 
-## Deferred (2811)
+## Deferred (2813)
+
+### empty-body (2)
+
+**What to do:** Read the printed entry and supply its body in the admin tool; the Sefaria source is empty too, and the app shows the headword alone meanwhile.
+
+- P01112: senses and stems carry no text
+- U00622: senses and stems carry no text
 
 ### empty-stem-section (342)
 

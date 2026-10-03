@@ -18,7 +18,7 @@ import process from 'node:process';
 import type { ValidateFunction } from 'ajv';
 import { loadPageIndex, type PagePlacement } from '../entry/page.ts';
 import type { Entry } from '../entry/types.ts';
-import { schemaValidator } from '../entry/validate.ts';
+import { ENTRY_FILE_GLOB, schemaValidator } from '../entry/validate.ts';
 import type { PassName } from './body/repairs.ts';
 import { evaluateRoundTrip } from './body/round-trip.ts';
 import { readSourceEntries } from './body/source.ts';
@@ -26,7 +26,10 @@ import { buildTrace } from './body/trace.ts';
 import { composeEntry, TransformFailure } from './compose.ts';
 import { biomeBinary } from './import/biome.ts';
 import { buildHeadwordMap } from './import/cite.ts';
-import { detectClasses } from './import/detectors/classes.ts';
+import {
+	checkSilentClasses,
+	detectClasses,
+} from './import/detectors/classes.ts';
 import { finishEntry } from './import/finish.ts';
 import {
 	checkChain,
@@ -440,12 +443,14 @@ function entryFile(rid: string): string {
  * misses a partial prior write that stopped before reaching it, or any
  * output tree that simply doesn't start at A00000 — either lets
  * `--write` mix old and new entry files. Refuse on ANY existing entry
- * file instead. */
+ * file instead, by the entry contract's own glob: a file at the root
+ * or a level too deep is one `bun data:validate` reads, so it is one
+ * this guard must see. */
 async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
 	if (!existsSync(dir)) {
 		return true;
 	}
-	const scan = new Bun.Glob('*/*.json').scan(dir);
+	const scan = new Bun.Glob(ENTRY_FILE_GLOB).scan(dir);
 	return (await scan.next()).done === true;
 }
 
@@ -493,7 +498,7 @@ interface Normalized {
 
 /** Every entry through `normalizeForWrite` (#110): this is the ONE
  * place stored text is rewritten, and it is rewritten only into its
- * own NFC spelling, under an assertion that the rewrite is lossless.
+ * own NFC spelling, which is canonically the same text.
  * It runs after the source gates have read the in-memory entries, so
  * none of them reads a value this step produced. Gate 10 (`contract`)
  * is the one that does, on purpose: it holds exactly what will be
@@ -502,15 +507,16 @@ interface Normalized {
  * (its X4 "not NFC" shape would otherwise flag spellings the write is
  * about to fix).
  *
- * Every entry is normalized BEFORE the first file is written. A
- * refusal has to refuse the whole write, and normalizing inside the
- * write loop would instead leave the entries before the offending one
- * on disk, unformatted, with `refuseUnlessEmpty` blocking the re-run —
- * the same failure `biomeBinary` is resolved early to avoid. */
+ * Every entry is normalized BEFORE the first file is written, because
+ * gate 10 reads the normalized entries and a red gate has to refuse
+ * the whole write. Normalizing inside the write loop would leave gate
+ * 10 nothing to read until files were already on disk, with
+ * `refuseUnlessEmpty` blocking the re-run — the same failure
+ * `biomeBinary` is resolved early to avoid. */
 function normalizeAll(entries: readonly Entry[]): Normalized {
 	const normalized: Normalized = { entries: [], files: 0, strings: 0 };
 	for (const entry of entries) {
-		const [value, changed] = normalizeForWrite(entry, entry.id);
+		const [value, changed] = normalizeForWrite(entry);
 		if (changed > 0) {
 			normalized.strings += changed;
 			normalized.files++;
@@ -615,6 +621,9 @@ async function main(): Promise<void> {
 	checkOrphanRefs(composed, report);
 	const indexes = await buildIndexes(composed, report);
 	const { samples, entries } = finishAll(composed, indexes, report, validate);
+	// After pass 2, which pushed the last class row: a registered class
+	// with no row is a fault on gate 9, never a quiet absence.
+	checkSilentClasses(report);
 	// Gate 7 reads the FINISHED entries, so it runs after pass 2 and
 	// against a fresh read of the snapshot (URL names spec §5.2).
 	report.gates.names = checkNames(entries, await loadSourceHeadwords());
@@ -652,13 +661,10 @@ if (import.meta.main) {
 	await main();
 }
 
-export type { Composed, Indexes };
+export type { Composed };
 export {
-	buildIndexes,
 	composeAll,
 	composeOne,
-	finishAll,
-	letterDir,
 	outputTreeIsEmpty,
 	preparePatches,
 	refuseUnlessEmpty,

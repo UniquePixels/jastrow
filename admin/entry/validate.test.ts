@@ -232,10 +232,9 @@ describe('validateEntries', () => {
 			tree(A(), { ...B(), page: { number: 2, column: 'b' } }),
 			'A00002: page p2b but the page index says p1a',
 		],
-		// The §3.1 rules, one planted defect each. Rule 4 halts
-		// (`HALT_ON_TEXT_DEFECT` is true); its findings appear in the
-		// notation and markup cases above, and the switch's own controls
-		// live in `headword-rules.test.ts`.
+		// The §3.1 rules, one planted defect each. Rule 4 halts; its
+		// findings appear in the notation and markup cases above, and
+		// its own controls live in `headword-rules.test.ts`.
 		[
 			'a display that names the wrong slots (rule 1)',
 			tree(A(), {

@@ -29,16 +29,12 @@
  * a `headword-unparsed` `blocks` row, so a NEW one from upstream is
  * named in the report, and the import's `contract` gate then refuses
  * the write — the same check a HAND EDIT to a committed file meets in
- * CI's Validate job.
- * `HALT_ON_TEXT_DEFECT` is the switch that holds it back to a report.
+ * CI's Validate job. There is no switch back to a report: the one
+ * that held it (`HALT_ON_TEXT_DEFECT`) was removed once armed, since
+ * its other branch was dead (review ledger L13).
  */
 import { isLexical, PLACEHOLDER } from './headwords.ts';
 import type { Entry, FormObject } from './types.ts';
-
-/** Whether rule 4 refuses an entry outright (a validation error) or
- * only reports it (a `headword-unparsed` review row). `true` since
- * A01175 and A01345 were repaired; see the module docstring. */
-const HALT_ON_TEXT_DEFECT: boolean = true;
 
 /** The notation rule 4 keeps OUT of a form's text. Each one has a home
  * in `display` instead: the grouping delimiters and the query mark are
@@ -68,13 +64,6 @@ function textDefects(entry: Pick<Entry, 'headwords' | 'id'>): string[] {
 		}
 	}
 	return problems;
-}
-
-/** Whether rule 4's findings are errors this run. Exported so the two
- * readers — `validate.ts` and the import CLI — cannot disagree about
- * which side of the switch they are on. */
-function textDefectsHalt(): boolean {
-	return HALT_ON_TEXT_DEFECT;
 }
 
 /** The display template split at its placeholders: `slots[i]` is the
@@ -252,9 +241,7 @@ function headwordShapeProblems(
 ): string[] {
 	const problems: string[] = [];
 	checkPartial(entry.id, entry.headwords, problems);
-	if (HALT_ON_TEXT_DEFECT) {
-		problems.push(...textDefects(entry));
-	}
+	problems.push(...textDefects(entry));
 	const { display } = entry;
 	if (display === undefined) {
 		// §3: a line the source cannot settle is written WITHOUT a
@@ -283,4 +270,4 @@ function headwordShapeProblems(
 	return problems;
 }
 
-export { headwordShapeProblems, textDefects, textDefectsHalt };
+export { headwordShapeProblems, textDefects };
