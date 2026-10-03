@@ -18,7 +18,7 @@ import process from 'node:process';
 import type { ValidateFunction } from 'ajv';
 import { loadPageIndex, type PagePlacement } from '../entry/page.ts';
 import type { Entry } from '../entry/types.ts';
-import { schemaValidator } from '../entry/validate.ts';
+import { ENTRY_FILE_GLOB, schemaValidator } from '../entry/validate.ts';
 import type { PassName } from './body/repairs.ts';
 import { evaluateRoundTrip } from './body/round-trip.ts';
 import { readSourceEntries } from './body/source.ts';
@@ -443,12 +443,14 @@ function entryFile(rid: string): string {
  * misses a partial prior write that stopped before reaching it, or any
  * output tree that simply doesn't start at A00000 — either lets
  * `--write` mix old and new entry files. Refuse on ANY existing entry
- * file instead. */
+ * file instead, by the entry contract's own glob: a file at the root
+ * or a level too deep is one `bun data:validate` reads, so it is one
+ * this guard must see. */
 async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
 	if (!existsSync(dir)) {
 		return true;
 	}
-	const scan = new Bun.Glob('*/*.json').scan(dir);
+	const scan = new Bun.Glob(ENTRY_FILE_GLOB).scan(dir);
 	return (await scan.next()).done === true;
 }
 

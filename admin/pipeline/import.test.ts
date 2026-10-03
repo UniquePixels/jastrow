@@ -14,6 +14,7 @@
  * hand-built. The unit tier stays a fast tier.
  */
 import { afterAll, describe, expect, it } from 'bun:test';
+import { loadEntryFiles } from '../entry/validate.ts';
 import { mark } from './import/gates.ts';
 import { actionOf, classifyRows, PUBLICATION } from './import/publication.ts';
 import type { Report, ReportRow } from './import/report.ts';
@@ -60,6 +61,23 @@ describe('the --write guard (spec R1, permanent)', () => {
 		// case ends before the assertion runs and passes whatever the
 		// guard did (Sonar S8780).
 		await expect(refuseUnlessEmpty(dir)).rejects.toThrow(/writes once/u);
+	});
+
+	// The guard must see every file the entry contract's loader reads
+	// (`loadEntryFiles`, `**/*.json`), or a file the validator would
+	// report survives a `--write` mixed in with the new tree.
+	it('refuses a tree whose only entry file sits at its root', async () => {
+		const dir = `${TMP}/root-file`;
+		await Bun.write(`${dir}/A00001.json`, '{}\n');
+		expect((await loadEntryFiles(dir)).files).toHaveLength(1);
+		expect(await outputTreeIsEmpty(dir)).toBe(false);
+	});
+
+	it('refuses a tree whose only entry file sits a level too deep', async () => {
+		const dir = `${TMP}/deep-file`;
+		await Bun.write(`${dir}/A/old/A00003.json`, '{}\n');
+		expect((await loadEntryFiles(dir)).files).toHaveLength(1);
+		expect(await outputTreeIsEmpty(dir)).toBe(false);
 	});
 
 	it('names the directory it refused', async () => {

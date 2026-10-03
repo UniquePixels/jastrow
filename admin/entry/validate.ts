@@ -80,6 +80,11 @@ interface EntryFile {
 	path: string;
 }
 
+/** Which files under an entry tree are entry files: every JSON file at
+ * any depth. One constant, so the import's empty-tree guard
+ * (`outputTreeIsEmpty`) sees exactly the files this loader reads. */
+const ENTRY_FILE_GLOB = '**/*.json';
+
 /** Every JSON file at any depth under `dir`, in path order — not just
  * `<letter>/<file>`, so a file misplaced at the root or one level too
  * deep is still read and reported away from its home. A file that does
@@ -88,7 +93,7 @@ interface EntryFile {
 async function loadEntryFiles(
 	dir = ENTRIES_DIR,
 ): Promise<{ files: EntryFile[]; problems: string[] }> {
-	const paths = await Array.fromAsync(new Bun.Glob('**/*.json').scan(dir));
+	const paths = await Array.fromAsync(new Bun.Glob(ENTRY_FILE_GLOB).scan(dir));
 	const files: EntryFile[] = [];
 	const problems: string[] = [];
 	await Promise.all(
@@ -474,6 +479,7 @@ async function validateEntries(
 export type { EntryFile };
 export {
 	checkEntry,
+	ENTRY_FILE_GLOB,
 	homePath,
 	loadEntryFiles,
 	markupProblems,
