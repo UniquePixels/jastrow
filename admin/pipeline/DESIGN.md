@@ -1260,8 +1260,9 @@ so cannot be inferred from reading the code that is there.
 ### What is never stored, and where text is rewritten
 
 50. **Stored text is rewritten in exactly one place, and only into its
-    own NFC spelling.** `normalizeForWrite` runs after every gate has
-    read the in-memory entries and before the first file is written.
+    own NFC spelling.** `normalizeForWrite` runs after gates 1–9 have
+    read the in-memory entries, before gate 10 reads what will be
+    written, and before the first file is written.
     NFC only ever produces a canonically equivalent string, so no
     assertion guards it: the `NFD(before) == NFD(after)` check it once
     carried is that equivalence restated and could not fire (review
