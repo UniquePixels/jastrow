@@ -64,6 +64,7 @@ brackets.
 - [ ] `CONTRIBUTING.md` and PR template [L17]
 - [ ] `DESIGN.md`, pipeline README, schema README, drawio [L18]
 - [ ] Comment nits [L19]
+- [ ] `ideas.md`: drop the stale display-slot clause [L28]
 
 ### 4. Rulings — maintainer, rows in `decisions.md`
 
@@ -160,6 +161,7 @@ architecture, data, docs; every row confirmed by the controller).
 | L25 | **struck.** The same verdict split "ready for compile" from "ready for the admin tool". Readiness is one property; the contract rows (L01, L04, L20) are code tidiness, not data readiness | — | struck | struck |
 | L26 | Dependencies behind: `@biomejs/biome` 2.5.2 (latest 2.5.15), `@types/bun` 1.3.14 (1.4.2), `bson` 6.10.4 (7.3.3), `typescript` 6.0.3 (7.0.2). Bun and Biome are also pinned in `.mise.toml` and `.claude/CLAUDE.md` and installed locally through mise; the TS major needs a `tsconfig.json` review; Biome goes alone | `package.json`, `.mise.toml`, `tsconfig.json` | chore | open (maintainer, 2026-10-02) |
 | L27 | `docs/sefaria-report.md` needs review and cleanup, strong actionable rows, and a format that records what was submitted and when versus what is new | `docs/sefaria-report.md` | process | open (maintainer, 2026-10-02) |
+| L28 | `ideas.md` "Two unenforced entry-schema invariants" still says `display` token indices are not bounds-checked against the headword count; `checkSlots` (rule 1) checks them. Found by the group 2 agent | `docs/ideas.md`, `admin/entry/headword-rules.ts:97` | doc | open |
 
 Shapes compile must handle, not defects: 10,744 gloss heads begin with
 `,`; 33 entries have no `display`; 467 have an empty gloss head
