@@ -23,7 +23,10 @@ reports a finding, grep this file for it.
   ready for the app and the admin tool.
 - **Pre-publication**: a defect whose fix after go-live changes something
   published. Today that is one field: `headwords[0]`, because the URL
-  name is computed from it and a published name never changes (R10).
+  name is computed from it. Under U6 a published name may change, but
+  the old one must redirect forever, and the `formerNames` ledger that
+  would carry the redirect is unbuilt (L23). So these are cheapest
+  fixed before go-live, and each one left costs a permanent redirect.
 - **Deferrable defect**: everything else. Fixed in the admin tool, before
   or after go-live, as time allows.
 - **Post-release by ruling**: the update run and atomic write (R11). The
@@ -191,7 +194,7 @@ architecture, data, docs; every row confirmed by the controller).
 | L37 | Two headword rulings no longer say what they rule. HW-truncated (34 truncated primaries stay lookup keys as printed) was moved to the archive by the 2026-09-22 prune, though it governs 34 live primaries. HW-prefix's prose names prefix and ending entries, but its count, 115 headwords, is all of X5: 76 are bound forms (`חֲבֵיר־, v. חָבֵר`) and one is a maqaf compound (B00761). Found by the group 5 triage | `docs/decisions.md` (HW-prefix), `docs/archive/decisions-2026-09-22.md` (HW-truncated) | doc | open |
 | L38 | X8 keys a family on its exact spelling, which has two blind spots. Two spellings one mark or one vowel apart split a family and show a gap that may be a pointing slip instead (29 of the worklist's 77 X8 C rows). An entry whose printed numeral Sefaria dropped is invisible when no same-spelling sibling is numbered. A volume-2 hOCR sweep of 15,993 entries with no stored numeral found 9,874 lines and read a numeral on 153; most are a letter misread as `I`, but some look real: T00128 `רָבַע` I, T00549 `רָטַב` I, U01884 `שִׁקְפָא` II. Each would be a name defect outside the 382. Found by the group 5 triage | `admin/pipeline/report/headword-issues.ts` (`homographGapRows`) | detector | open |
 | L39 | U00489's primary is the single letter `ש`, a name defect (#113: it rejoins as `שׁוּף`), but the headword report flags only its alternate `ׁוּף` (X1, role `alt`), so the role = headword filter behind L09 misses it. Nothing flags a one-letter primary that is not a letter entry. The worklist carries it. Found by the group 5 triage | `admin/pipeline/report/headword-issues.ts` | detector | open |
-| L40 | Definitions cite R10 ("a published name never changes"). `decisions.md` §11 says U6 replaced R10: a name may change, and the old one redirects through the unbuilt `formerNames` ledger (L23). The pre-publication rule still holds in practice; the citation is stale. Found by the group 5 triage | `docs/review-ledger.md` § Definitions | doc | open |
+| L40 | Definitions cite R10 ("a published name never changes"). `decisions.md` §11 says U6 replaced R10: a name may change, and the old one redirects through the unbuilt `formerNames` ledger (L23). The pre-publication rule still holds in practice; the citation is stale. Found by the group 5 triage | `docs/review-ledger.md` § Definitions | doc | PR #151 |
 
 Shapes compile must handle, not defects: 10,744 gloss heads begin with
 `,`; 33 entries have no `display`; 467 have an empty gloss head
