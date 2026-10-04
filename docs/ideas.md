@@ -70,7 +70,6 @@ where a reader can check.
 | Out of pipeline scope | Does a Sefaria-URL route keep serving an old name after a rename? | Stated default is no; not implemented either way. |
 | Out of pipeline scope | G00740/G00741 page placement | Flagged "print check when convenient, not scheduled." Still unresolved. |
 | Decided, unbuilt | Pointer entries | Curated finding aids at `data/pointers/<id>.json`; alt headwords get no pointer, their browse position derives at compile. Needs `compile.ts`. |
-| Decided, unbuilt | A CI schema gate | A committed JSON Schema enforced by `bun validate` on every PR. Today entry validation runs only in the unit tier, not as a CI gate. |
 | Decided, unbuilt | Compile decides everything | Every link, abbreviation and ordering decision made once at compile and tested in CI; the client never decides. Needs `compile.ts`. |
 | Decided, unbuilt | Browse ordering at compile | Alt rows placed by a collation rule at compile, never a client sort. |
 | Decided, unbuilt | Abbreviation detection at compile | Abbreviations stay untagged in entry data; detection runs at compile against an abbreviation list, with override tags where the detector is provably wrong. |
