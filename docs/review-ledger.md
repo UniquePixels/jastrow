@@ -127,6 +127,11 @@ brackets.
       when, so new findings from later work are distinguishable from
       what Sefaria already has [L27]
 
+### 11. Leftovers — small, fold into any PR that is nearby
+
+- [ ] `import.meta.main` guard in `transform/count.ts` [L33]
+- [ ] Flow diagram's dry-run box names the headword-issues report [L34]
+
 ## Ledger
 
 Review of 2026-10-02 at `c3074e5d9` (four read-only agents: code,
