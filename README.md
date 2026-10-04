@@ -9,11 +9,15 @@ browse.
 ## What is here
 
 This branch (`v2`) is the overhaul. It began by removing the v1 app,
-and one module has been written since: the **import pipeline** under
-[`admin/pipeline/`](admin/pipeline/README.md). That is the auditable
-path from Sefaria's export to the 32,512 entry files under
-`data/entries/` — it reads data, writes data in a schema it does not
-own, and knows nothing about the rest of the repo.
+and two modules have been written since. The **import pipeline** under
+[`admin/pipeline/`](admin/pipeline/README.md) is the auditable path
+from Sefaria's export to the 32,512 entry files under `data/entries/`
+— it reads data, writes data in a schema it does not own, and knows
+nothing about the rest of the repo but the second module. The **entry
+contract** under [`admin/entry/`](admin/entry/README.md) is the check
+every entry file meets, however it was written: the import runs it
+before writing, and CI runs it over the committed tree
+(`bun data:validate`).
 
 The **web app** and the **admin tool** are not written yet. When they
 are, they arrive as siblings of the pipeline: separate modules over
@@ -29,6 +33,7 @@ build has something to publish. It is not a piece of the app to come.
 | this file | what the repo is, and the licence |
 | [`admin/pipeline/README.md`](admin/pipeline/README.md) | how to run the pipeline: inputs, outputs, commands, gates |
 | [`admin/pipeline/DESIGN.md`](admin/pipeline/DESIGN.md) | its design as it stands today: the entry model, the rules, what each gate proves, and what the pipeline refuses to do |
+| [`admin/entry/README.md`](admin/entry/README.md) | the entry contract: what every file under `data/entries/` must meet |
 | [`docs/decisions.md`](docs/decisions.md) | every ruling that still binds, with its date and what it drops |
 | [`docs/glossary.md`](docs/glossary.md) | the words this repo uses for its own parts, and which ones are retired |
 | [`docs/ideas.md`](docs/ideas.md) | things worth considering later; nothing in it is committed to |
