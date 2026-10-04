@@ -220,8 +220,9 @@ function checkPartial(
 	}
 }
 
-/** Every §3.1 rule over one entry, rule 4 included only when the halt
- * is armed. Returns the problems; an empty list is a valid entry.
+/** Every §3.1 rule over one entry, rule 4 included: it halts, as the
+ * file header says. Returns the problems; an empty list is a valid
+ * entry.
  *
  * **Rule 6 is not a check of its own, and that is deliberate.** It
  * says every comparison normalizes to NFC FIRST — an obligation on
