@@ -506,6 +506,8 @@ function* stringPaths(value: unknown, at: string): Generator<string> {
 	}
 }
 
+/** The path of `key` under `at`, spelled as `entryFields` spells one:
+ * `[i]` for an array index, a dot before an object key. */
 function childPath(at: string, key: string, array: boolean): string {
 	if (array) {
 		return `${at}[${key}]`;

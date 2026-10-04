@@ -118,11 +118,16 @@ const OBJECTS: [string, SchemaNode | undefined, Record<string, string>][] = [
  * `true` into `'true'` and `2` into `'2'`, so one record shape pins a
  * string enum, a boolean and a number const alike. `satisfies` holds a
  * pin to the TS union both ways — a missing member and an extra one
- * are compile errors. */
-type Literal<T extends boolean | number | string | undefined> = Record<
-	`${NonNullable<T>}`,
-	true
->;
+ * are compile errors. A field widened to bare `string`, `number` or
+ * `boolean` resolves to `never`, so its pin stops compiling instead of
+ * passing as a record of any key. */
+type Literal<T extends boolean | number | string | undefined> = string extends T
+	? never
+	: number extends T
+		? never
+		: boolean extends T
+			? never
+			: Record<`${NonNullable<T>}`, true>;
 
 const form: Record<string, SchemaNode> | undefined =
 	schema.$defs?.['formObject']?.properties;

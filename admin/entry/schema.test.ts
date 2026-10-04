@@ -9,6 +9,8 @@ import { validateEntry } from './validate.ts';
 const ajv = new Ajv2020({ allErrors: true, strict: true });
 const validate = ajv.compile(await Bun.file(SCHEMA_PATH).json());
 
+/** Where the last `validate` call failed, one instance path per
+ * error; `/` stands for the entry itself. */
 function errorPaths(): string[] {
 	return (validate.errors ?? []).map((error) => error.instancePath || '/');
 }
