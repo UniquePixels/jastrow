@@ -74,16 +74,19 @@ brackets.
 - [x] Keep or drop, each a yes/no: sense-label `*`/`—` marks;
       gloss-head offsets; a named gloss-head field instead of
       `senses[0]` [L05]
-- [ ] Upstream: which corrections go back to Sefaria, and how [L21]
+
+Group 4 is complete. The Sefaria question (L21) is group 10's.
 
 ### 5. Data before go-live — maintainer, manual, against the 1903 print
 
-- [ ] The 382 headword-issues rows whose role is `headword`
-      (H6 6, X1 2, X5 115, X7 123, X8 136). Each is a URL name.
-      Not every row is a defect (an X7 abbreviation can be a real
-      entry); each needs a look. The worklist is
-      `docs/reports/headword-issues.md`, filtered to role = headword.
-      Issues #113 (5 rids) and #122 are inside this set. [L09]
+The 382 primary-headword rows (L09) are triaged in
+`docs/headword-worklist.md`. 288 are ruled legitimate (pile A) and 4
+change no name (pile D); neither needs anything. Two piles do:
+
+- [ ] Pile C: 79 rows that need a print read, each with its hOCR line
+      and scan leaf. U00489 (#113) is with them [L09]
+- [ ] Pile B: 11 numerals Sefaria dropped that the hOCR shows; confirm
+      each on the scan, then patch [L09]
 
 ### 6. Before the admin tool opens hand editing — maintainer ruling in #123
 
@@ -134,6 +137,13 @@ brackets.
 - [ ] Flow diagram's dry-run box names the headword-issues report [L34]
 - [ ] `hebrew.ts` confusion groups `גנ` and `ףפ` never fire [L35]
 - [ ] Three starred senses unsplit inside a definition [L36]
+- [ ] HW-truncated back into `decisions.md`; HW-prefix's wording to
+      cover bound forms [L37]
+- [ ] X8 blind spots: families split by a pointing slip; numerals
+      Sefaria dropped where no sibling is numbered [L38]
+- [ ] U00489's primary `ש` is flagged only on its alternate [L39]
+- [ ] Definitions: cite U6 and L23 for the pre-publication rule, not
+      R10 [L40]
 
 ## Ledger
 
@@ -146,11 +156,11 @@ architecture, data, docs; every row confirmed by the controller).
 | L02 | Nothing stops `app/` or a future compile module importing `admin/pipeline/`; biome guards one direction; compile's home unsettled (README: Stage 3; CLAUDE.md: separate) | `biome.json` | ruling | ruled (decisions.md row `10-04 compile home`); closed #149 |
 | L03 | Update run and atomic write unbuilt; `--write` refuses a populated tree; R11 "live, not in code" | `admin/pipeline/import.ts:461` | post-release | ruled low priority (maintainer, 2026-10-02) |
 | L04 | Helpers compile will need live only in the pipeline: `page-index/hebrew.ts` keys, `transform/abbrev-vocab.ts`, three field walkers, unexported `RID` | listed | contract | closed #147 (exports), #149 (`hebrew.ts`); `abbrev-vocab.ts` cannot move (`10-04 compile home`) |
-| L05 | One-way doors: `senses[0]` is the gloss head with no field (467 whitespace-only); sense-label `*`/`—` dropped on write (`*2)` → `"2"`, A01249; 107 `*N)`, ~5,440 `—N)` in source); gloss-head offsets computed in `body/rejoin.ts`, never stored | `admin/pipeline/body/trace.ts:85-98` | ruling | ruled (decisions.md rows `10-04 sense star`, `10-04 lead text`); PR #150. The star is kept as `reconstructed`, the dash dropped. Parts b and c (offsets, a named head field) were measured and the review overstated them: `senses[0]` is the only sense in 29,209 entries, sense `1)` itself in 1,030, and an unlabelled lead in only 2,311 (467 whitespace-only); every label in an entry file is explicit, so dropping an empty lead consumes nothing there, the trap is in the import's source walk; stored offsets would go stale on any hand edit, and the source snapshot keeps the pieces by rid |
+| L05 | One-way doors: `senses[0]` is the gloss head with no field (467 whitespace-only); sense-label `*`/`—` dropped on write (`*2)` → `"2"`, A01249; 107 `*N)`, ~5,440 `—N)` in source); gloss-head offsets computed in `body/rejoin.ts`, never stored | `admin/pipeline/body/trace.ts:85-98` | ruling | ruled (decisions.md rows `10-04 sense star`, `10-04 lead text`); closed #150. The star is kept as `reconstructed`, the dash dropped. Parts b and c (offsets, a named head field) were measured and the review overstated them: `senses[0]` is the only sense in 29,209 entries, sense `1)` itself in 1,030, and an unlabelled lead in only 2,311 (467 whitespace-only); every label in an entry file is explicit, so dropping an empty lead consumes nothing there, the trap is in the import's source walk; stored offsets would go stale on any hand edit, and the source snapshot keeps the pieces by rid |
 | L06 | "Flagged by the processor" column can never fire: regex takes the whole headword line as `form`, compared to one form's text; 1,601 rids on both lists, 0 flagged; no test | `admin/pipeline/report/headword-issues.ts:47,327-343` | bug | closed #146 |
 | L07 | #142 removed the detector-floor control; `DETECTED_CLASSES` is static, so a dead predicate erases its class from rows and catalogue alike, gates green | `admin/pipeline/import/review-report.ts:60-67` | bug | closed #146 |
 | L08 | Two entries with no body text and no row: P01112, U00622 (`senses:[{gloss:"",units:[]}]`; source empty too) | `data/entries/P/P01112.json`, `U/U00622.json` | bug (detector) | closed #146 |
-| L09 | Primary-headword rows in headword-issues are pre-publication because `headwords[0]` is the URL name; 382 rows (H6 6, X1 2, X5 115, X7 123, X8 136); #113's five rids are among them | `docs/reports/headword-issues.md` | data | open |
+| L09 | Primary-headword rows in headword-issues are pre-publication because `headwords[0]` is the URL name. The 382 (H6 6, X1 2, X5 115, X7 123, X8 136) are triaged in `docs/headword-worklist.md`, measured, not assumed all defects: A 288 ruled legitimate or confirmed by the print hOCR, D 4 that change no name, B 11 numerals Sefaria dropped that the hOCR shows, C 79 that need a print read. #113's three open rids are not among the 382, which were said to hold them: V00518 and S01780 are flagged on alternates only and change no name (D); U00489's primary `ש` is flagged only on its alternate (L39) and sits with C. #122 calls X8 "no slug impact", stale since U2: the numeral is part of the name | `docs/headword-worklist.md` | data | open |
 | L10 | Lossless-NFC guard compares `NFD(NFC(x))` to `NFD(x)`, equal by Unicode guarantee; singletons pass; test reaches it only by monkey-patching | `admin/pipeline/import/normalize.ts:85` | bug | closed #146 |
 | L11 | `headwordMap.get(next)` with raw `next_hw`; keys are NFC; latent (0 non-NFC in source), fails loudly | `admin/pipeline/import/gates.ts:399` | bug | closed #146 |
 | L12 | Empty-tree check globs `*/*.json`; validator globs `**/*.json` | `admin/pipeline/import.ts:448` | bug | closed #146 |
@@ -178,6 +188,10 @@ architecture, data, docs; every row confirmed by the controller).
 | L34 | The flow diagram's dry-run box says a run writes `import-blessing.md` and `review-report.md`; it also writes the headword-issues report (`.md` and `.csv`). Found by the group 3 agent | `docs/pipeline-flow.drawio.svg` | doc | open |
 | L35 | `hebrew.ts` maps each letter to its FIRST confusion group only, and נ and פ sit in earlier groups, so the `גנ` and `ףפ` groups never pair and `ocrSimilarity` charges 1, not 0.5, for those slips. Latent: nothing live calls it since the page-index build was archived. Found by local CodeRabbit on #149 (a byte-identical move) | `admin/entry/hebrew.ts:140-171` | bug (latent) | open |
 | L36 | Three source definitions hold a whole starred sense marker, `—*2)`, inside their prose: upstream never split the sense, so the starred meaning is no sense of its own and carries no label and no `reconstructed` flag. Not among the 107 `*N)` `sense.number` values. Found by the L05 agent | `data/entries/A/A02547.json`, `L/L00099.json`, `M/M00491.json` | data | open |
+| L37 | Two headword rulings no longer say what they rule. HW-truncated (34 truncated primaries stay lookup keys as printed) was moved to the archive by the 2026-09-22 prune, though it governs 34 live primaries. HW-prefix's prose names prefix and ending entries, but its count, 115 headwords, is all of X5: 76 are bound forms (`חֲבֵיר־, v. חָבֵר`) and one is a maqaf compound (B00761). Found by the group 5 triage | `docs/decisions.md` (HW-prefix), `docs/archive/decisions-2026-09-22.md` (HW-truncated) | doc | open |
+| L38 | X8 keys a family on its exact spelling, which has two blind spots. Two spellings one mark or one vowel apart split a family and show a gap that may be a pointing slip instead (29 of the worklist's 77 X8 C rows). An entry whose printed numeral Sefaria dropped is invisible when no same-spelling sibling is numbered. A volume-2 hOCR sweep of 15,993 entries with no stored numeral found 9,874 lines and read a numeral on 153; most are a letter misread as `I`, but some look real: T00128 `רָבַע` I, T00549 `רָטַב` I, U01884 `שִׁקְפָא` II. Each would be a name defect outside the 382. Found by the group 5 triage | `admin/pipeline/report/headword-issues.ts` (`homographGapRows`) | detector | open |
+| L39 | U00489's primary is the single letter `ש`, a name defect (#113: it rejoins as `שׁוּף`), but the headword report flags only its alternate `ׁוּף` (X1, role `alt`), so the role = headword filter behind L09 misses it. Nothing flags a one-letter primary that is not a letter entry. The worklist carries it. Found by the group 5 triage | `admin/pipeline/report/headword-issues.ts` | detector | open |
+| L40 | Definitions cite R10 ("a published name never changes"). `decisions.md` §11 says U6 replaced R10: a name may change, and the old one redirects through the unbuilt `formerNames` ledger (L23). The pre-publication rule still holds in practice; the citation is stale. Found by the group 5 triage | `docs/review-ledger.md` § Definitions | doc | open |
 
 Shapes compile must handle, not defects: 10,744 gloss heads begin with
 `,`; 33 entries have no `display`; 467 have an empty gloss head
