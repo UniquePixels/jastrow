@@ -45,6 +45,7 @@ const fullEntry: Fixture = {
 		{ label: '1', gloss: 'first sense', units: ['unit text'] },
 		{
 			label: '2',
+			reconstructed: true,
 			gloss: 'second sense',
 			units: ['unit text'],
 			senses: [{ label: 'a', gloss: 'nested sense', units: [] }],
@@ -207,6 +208,22 @@ const invalidCases: { name: string; entry: unknown; errorPath: string }[] = [
 			headwords: [{ text: 'x', reconstructed: false }],
 		},
 		errorPath: '/headwords/0/reconstructed',
+	},
+	{
+		name: 'a sense reconstructed that is false rather than absent',
+		entry: {
+			...minimalEntry,
+			senses: [{ label: '2', reconstructed: false, gloss: 'g', units: [] }],
+		},
+		errorPath: '/senses/0/reconstructed',
+	},
+	{
+		name: 'a starred sense with no label to star',
+		entry: {
+			...minimalEntry,
+			senses: [{ reconstructed: true, gloss: 'g', units: [] }],
+		},
+		errorPath: '/senses/0',
 	},
 	{
 		name: 'a gender outside m/f on a form',

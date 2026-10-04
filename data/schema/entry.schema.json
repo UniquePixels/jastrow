@@ -138,13 +138,14 @@
 			"type": "object",
 			"additionalProperties": false,
 			"required": ["gloss", "units"],
+			"dependentRequired": { "reconstructed": ["label"] },
 			"properties": {
 				"label": {
 					"type": "string",
 					"minLength": 1
 				},
 				"reconstructed": {
-					"description": "Print stars this sense's number (*2)), as it stars a reconstructed headword form (ruling 10-04 sense star). Only ever true. The dash print sets before a later sense is not stored.",
+					"description": "Print stars this sense's number (*2)), as it stars a reconstructed headword form (ruling 10-04 sense star). Only ever true, and only beside a label. The dash print sets before a later sense is not stored.",
 					"const": true
 				},
 				"gloss": { "type": "string" },
