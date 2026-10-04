@@ -38,14 +38,16 @@
 		{
 			"gloss": "<i>oh that!</i> <cite ref=\"Bamidbar Rabbah 2:1\">Num. R. s. 2</cite>, beg. <he>א׳ הוא מדגיל וכ׳</he> oh that He would allow His love to be a banner over me! [<cite ref=\"A01796\"><he>אלואי</he></cite> as in preceding lines?]",
 			"units": [],
-			"label": "3"
+			"label": "3",
+			"reconstructed": true
 		},
 		{
 			"gloss": "<i>whether</i>. ",
 			"units": [
 				"<cite ref=\"Aramaic Targum to Song of Songs 6:11\">Targ. Cant. VI, 11</cite> <he>א׳ פשן וכ׳</he> whether the sages among them increase &c."
 			],
-			"label": "4"
+			"label": "4",
+			"reconstructed": true
 		}
 	]
 }
