@@ -71,7 +71,7 @@ brackets.
 
 - [x] Where `compile.ts` lives, and the biome rule that keeps consumers
       out of `admin/pipeline/` [L02]
-- [ ] Keep or drop, each a yes/no: sense-label `*`/`—` marks;
+- [x] Keep or drop, each a yes/no: sense-label `*`/`—` marks;
       gloss-head offsets; a named gloss-head field instead of
       `senses[0]` [L05]
 - [ ] Upstream: which corrections go back to Sefaria, and how [L21]
@@ -133,6 +133,7 @@ brackets.
 - [ ] `import.meta.main` guard in `transform/count.ts` [L33]
 - [ ] Flow diagram's dry-run box names the headword-issues report [L34]
 - [ ] `hebrew.ts` confusion groups `גנ` and `ףפ` never fire [L35]
+- [ ] Three starred senses unsplit inside a definition [L36]
 
 ## Ledger
 
@@ -142,10 +143,10 @@ architecture, data, docs; every row confirmed by the controller).
 | Id | Finding | Where | Class | Status |
 |---|---|---|---|---|
 | L01 | `Sense.units` required in TS, optional in schema; schema allows `grammar.pos` (not in type) and `reconstructed:false` (type says `true`); `validate.ts:66` casts the guard | `admin/entry/types.ts:56-61`, `data/schema/entry.schema.json` | contract | closed #147 |
-| L02 | Nothing stops `app/` or a future compile module importing `admin/pipeline/`; biome guards one direction; compile's home unsettled (README: Stage 3; CLAUDE.md: separate) | `biome.json` | ruling | ruled (decisions.md row `10-04 compile home`); PR #149 |
+| L02 | Nothing stops `app/` or a future compile module importing `admin/pipeline/`; biome guards one direction; compile's home unsettled (README: Stage 3; CLAUDE.md: separate) | `biome.json` | ruling | ruled (decisions.md row `10-04 compile home`); closed #149 |
 | L03 | Update run and atomic write unbuilt; `--write` refuses a populated tree; R11 "live, not in code" | `admin/pipeline/import.ts:461` | post-release | ruled low priority (maintainer, 2026-10-02) |
-| L04 | Helpers compile will need live only in the pipeline: `page-index/hebrew.ts` keys, `transform/abbrev-vocab.ts`, three field walkers, unexported `RID` | listed | contract | PR #149 (the moves; exports closed #147). `abbrev-vocab.ts` cannot move: it imports pipeline `types.ts` and `transform/no-new-text.ts` |
-| L05 | One-way doors: `senses[0]` is the gloss head with no field (467 whitespace-only); sense-label `*`/`—` dropped on write (`*2)` → `"2"`, A01249; 107 `*N)`, ~5,440 `—N)` in source); gloss-head offsets computed in `body/rejoin.ts`, never stored | `admin/pipeline/body/trace.ts:85-98` | ruling | open |
+| L04 | Helpers compile will need live only in the pipeline: `page-index/hebrew.ts` keys, `transform/abbrev-vocab.ts`, three field walkers, unexported `RID` | listed | contract | closed #147 (exports), #149 (`hebrew.ts`); `abbrev-vocab.ts` cannot move (`10-04 compile home`) |
+| L05 | One-way doors: `senses[0]` is the gloss head with no field (467 whitespace-only); sense-label `*`/`—` dropped on write (`*2)` → `"2"`, A01249; 107 `*N)`, ~5,440 `—N)` in source); gloss-head offsets computed in `body/rejoin.ts`, never stored | `admin/pipeline/body/trace.ts:85-98` | ruling | ruled (decisions.md rows `10-04 sense star`, `10-04 lead text`); PR #150. The star is kept as `reconstructed`, the dash dropped. Parts b and c (offsets, a named head field) were measured and the review overstated them: `senses[0]` is the only sense in 29,209 entries, sense `1)` itself in 1,030, and an unlabelled lead in only 2,311 (467 whitespace-only); every label in an entry file is explicit, so dropping an empty lead consumes nothing there, the trap is in the import's source walk; stored offsets would go stale on any hand edit, and the source snapshot keeps the pieces by rid |
 | L06 | "Flagged by the processor" column can never fire: regex takes the whole headword line as `form`, compared to one form's text; 1,601 rids on both lists, 0 flagged; no test | `admin/pipeline/report/headword-issues.ts:47,327-343` | bug | closed #146 |
 | L07 | #142 removed the detector-floor control; `DETECTED_CLASSES` is static, so a dead predicate erases its class from rows and catalogue alike, gates green | `admin/pipeline/import/review-report.ts:60-67` | bug | closed #146 |
 | L08 | Two entries with no body text and no row: P01112, U00622 (`senses:[{gloss:"",units:[]}]`; source empty too) | `data/entries/P/P01112.json`, `U/U00622.json` | bug (detector) | closed #146 |
@@ -176,6 +177,7 @@ architecture, data, docs; every row confirmed by the controller).
 | L33 | `transform/count.ts` calls `await main()` at top level with no `import.meta.main` guard, the shape L19 fixed in `fetch.ts`. Found by the group 3 agent | `admin/pipeline/transform/count.ts:145` | nit | open |
 | L34 | The flow diagram's dry-run box says a run writes `import-blessing.md` and `review-report.md`; it also writes the headword-issues report (`.md` and `.csv`). Found by the group 3 agent | `docs/pipeline-flow.drawio.svg` | doc | open |
 | L35 | `hebrew.ts` maps each letter to its FIRST confusion group only, and נ and פ sit in earlier groups, so the `גנ` and `ףפ` groups never pair and `ocrSimilarity` charges 1, not 0.5, for those slips. Latent: nothing live calls it since the page-index build was archived. Found by local CodeRabbit on #149 (a byte-identical move) | `admin/entry/hebrew.ts:140-171` | bug (latent) | open |
+| L36 | Three source definitions hold a whole starred sense marker, `—*2)`, inside their prose: upstream never split the sense, so the starred meaning is no sense of its own and carries no label and no `reconstructed` flag. Not among the 107 `*N)` `sense.number` values. Found by the L05 agent | `data/entries/A/A02547.json`, `L/L00099.json`, `M/M00491.json` | data | open |
 
 Shapes compile must handle, not defects: 10,744 gloss heads begin with
 `,`; 33 entries have no `display`; 467 have an empty gloss head

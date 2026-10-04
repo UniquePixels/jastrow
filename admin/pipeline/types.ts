@@ -58,10 +58,12 @@ interface SourceEntry {
 
 /** Target shapes (design doc §2,
  * docs/archive/specs/2026-07-11-entry-body-model-design.md). What the model
- * builds from `SourceEntry`. */
+ * builds from `SourceEntry`. `reconstructed` is set only where print
+ * stars the sense's number (`*2)`; ruling 10-04 sense star). */
 interface BodySense {
 	gloss: string;
 	label?: string;
+	reconstructed?: true;
 	senses?: BodySense[];
 	units: string[];
 }

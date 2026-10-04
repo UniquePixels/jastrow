@@ -1,6 +1,6 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
-import type { SourceEntry } from '../types.ts';
+import type { BodySense, SourceEntry } from '../types.ts';
 import { rejoinGlossHead, splitGlossHead } from './rejoin.ts';
 import { evaluateRoundTrip } from './round-trip.ts';
 import { readSourceEntries } from './source.ts';
@@ -325,5 +325,91 @@ describe('evaluateRoundTrip canary: rejoin reconstruction flips false on a stale
 		const corruptedJoined = `${joined.slice(0, spliceAt)}X${joined.slice(spliceAt)}`;
 		const corrupted = splitGlossHead(corruptedJoined, offsets);
 		expect(corrupted.senseHead).not.toBe(senseHead);
+	});
+});
+
+/** Where a test puts the raw `number`: on the entry's first sense (the
+ * intro, which takes the rejoined lead), on a later top-level sense,
+ * or on a binyan stem's child. */
+type Slot = 'intro' | 'later' | 'stem';
+
+/** A minimal source entry carrying `number` at `slot`, and the built
+ * sense that number labels — so one table row reads one placement. */
+function senseAt(number: string, slot: Slot): BodySense | undefined {
+	const numbered = { definition: '<i>he who</i>. ', number };
+	const plain = { definition: 'lead. ' };
+	const senses = {
+		intro: [numbered],
+		later: [plain, numbered],
+		stem: [plain, { grammar: { verbal_stem: 'Pa.' }, senses: [numbered] }],
+	}[slot];
+	const { body } = buildBody({
+		content: { senses },
+		headword: 'א',
+		rid: 'A01249',
+	});
+	return slot === 'stem' ? body.stems?.[0]?.senses[0] : body.senses.at(-1);
+}
+
+// Ruling 10-04 sense star: the star survives as `reconstructed: true`,
+// the dash does not survive at all, and an unstarred label carries no
+// flag (never `false`). `—*2)` is the shape `trailing-em-dash-tail`
+// hands the body for 101 of the 107 starred markers.
+const STARS: [string, Slot, string, true | undefined][] = [
+	['*2)', 'later', '2', true],
+	['—*2)', 'later', '2', true],
+	['—2)', 'later', '2', undefined],
+	['2)', 'later', '2', undefined],
+	['*1)', 'intro', '1', true],
+	['1)', 'intro', '1', undefined],
+	['*2)', 'stem', '2', true],
+	['—*3)', 'stem', '3', true],
+	['—2)', 'stem', '2', undefined],
+	['[1)', 'later', '[1)', undefined],
+];
+
+describe('buildBody: a starred sense label keeps its star (10-04 sense star)', () => {
+	it.each(
+		STARS,
+	)('%s on the %s sense: label %s, reconstructed %p', (number, slot, label, flag) => {
+		const sense = senseAt(number, slot);
+		expect(sense?.label).toBe(label);
+		expect(sense?.reconstructed).toBe(flag);
+		expect(sense !== undefined && 'reconstructed' in sense).toBe(flag === true);
+	});
+});
+
+describe('buildBody: the star stays on the host a split carves', () => {
+	it('flags the starred host only, never a lettered child or a form-section sibling', () => {
+		const flagged = (definition: string): (true | undefined)[] => {
+			const { body } = buildBody({
+				content: {
+					senses: [{ definition: 'lead. ' }, { definition, number: '*2)' }],
+				},
+				headword: 'א',
+				rid: 'A01249',
+			});
+			const [, host, ...rest] = body.senses;
+			const all = [
+				host,
+				...(host?.senses ?? []),
+				...rest,
+				...rest.flatMap((s) => s.senses ?? []),
+			];
+			return all.map((s) => s?.reconstructed);
+		};
+		// Host, child a), child b).
+		expect(flagged('to go; a) on foot; b) by ship.')).toEqual([
+			true,
+			undefined,
+			undefined,
+		]);
+		// Host, the —Pl. sibling, its restarted 1) and 2).
+		expect(flagged('to go. —Pl. <span>x</span> 1) one. 2) two.')).toEqual([
+			true,
+			undefined,
+			undefined,
+			undefined,
+		]);
 	});
 });

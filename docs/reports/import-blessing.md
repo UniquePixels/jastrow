@@ -12,7 +12,7 @@ Patch corpus: 116 reviewed, 113 accepted, 234 applied, 0 carry-over absorbed, 5 
 |---|---|---|
 | bodyRoundTrips | 32512 / 32512 | 0 |
 | headwordLine | 97505 / 97505 | 0 |
-| textConservation | 232579 / 232579 | 0 |
+| textConservation | 278364 / 278364 | 0 |
 | schema | 32512 / 32512 | 0 |
 | chain | 32514 / 32514 | 0 |
 | internalTargets | 32512 / 32512 | 0 |

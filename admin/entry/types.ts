@@ -49,13 +49,18 @@ interface FormObject {
  * and `units` its numbered or lettered parts; `senses` nests for a
  * sub-sense tree.
  *
- * `senses[0]` of the ENTRY is the gloss head, not a first numbered
- * sense — a reader that drops an empty lead consumes sense 1. The
- * distinction is invisible to a text-conservation check, because the
- * bytes survive either way. */
+ * `senses[0]` of the ENTRY carries the gloss head: the lead text,
+ * joined onto sense `1)` when the first source sense is numbered. It
+ * is usually the whole definition. Every label is an explicit string,
+ * so a reader that drops an empty lead renumbers nothing (ruling
+ * 10-04 lead text). */
 interface Sense {
 	gloss: string;
 	label?: string;
+	/** Print stars this sense's number (`*2)`), as it stars a
+	 * reconstructed headword form; only ever `true` (ruling 10-04 sense
+	 * star). The dash print sets before a later sense is not stored. */
+	reconstructed?: true;
 	senses?: Sense[];
 	units: string[];
 }

@@ -5,7 +5,7 @@ import {
 	type FormObject,
 	SCHEMA_VERSION,
 } from '../../entry/types.ts';
-import type { BodyEntry, SourceEntry } from '../types.ts';
+import type { BodyEntry, BodySense, SourceEntry } from '../types.ts';
 import {
 	checkChain,
 	checkContract,
@@ -307,11 +307,12 @@ describe('checkTextConservation', () => {
 		const t: Tally = { failures: [], pass: 0, total: 0 };
 		checkTextConservation(body, entry, t);
 		expect(t.failures).toEqual(['A00014: senses[0].gloss']);
-		// Four passing structural/text marks around the one failure: the
-		// `senses` length pair, `units[0]`, the length pair for the empty
-		// child `senses` of the one sense, and the stems count.
-		expect(t.pass).toBe(4);
-		expect(t.total).toBe(5);
+		// Five passing structural/text marks around the one failure: the
+		// `senses` length pair, the (empty) label, `units[0]`, the length
+		// pair for the empty child `senses` of the one sense, and the
+		// stems count.
+		expect(t.pass).toBe(5);
+		expect(t.total).toBe(6);
 	});
 
 	it('fails when entry carries a surplus unit', () => {
@@ -326,8 +327,8 @@ describe('checkTextConservation', () => {
 		checkTextConservation(body, entry, t);
 		expect(t.failures).toEqual(['A00014: senses[0].units[1]']);
 		// The same passing marks as above plus `units[0]`.
-		expect(t.pass).toBe(5);
-		expect(t.total).toBe(6);
+		expect(t.pass).toBe(6);
+		expect(t.total).toBe(7);
 	});
 
 	it('fails when an entry-only subsense holds text in units alone', () => {
@@ -379,6 +380,39 @@ describe('checkTextConservation', () => {
 		expect(t.failures).toEqual(['A00014: stems 1 → 2']);
 		expect(t.total).toBeGreaterThan(0);
 		expect(t.pass).toBe(t.total - 1);
+	});
+});
+
+/** A one-sense fixture labelled as print sets the number, dash
+ * aside: `*2` is a starred 2, `2` a plain one. */
+function labelled(printed: string): BodySense {
+	const starred = printed.startsWith('*');
+	return {
+		gloss: 'he who',
+		label: starred ? printed.slice(1) : printed,
+		units: [],
+		...(starred ? { reconstructed: true } : {}),
+	};
+}
+
+// Ruling 10-04 sense star: the star is stored only as `reconstructed`,
+// so an entry that drops or invents it, or changes the label under it,
+// has lost print a reader sees. [body, entry, gate 3's failures].
+const LABELS: [string, string, string[]][] = [
+	['*2', '*2', []],
+	['2', '2', []],
+	['*2', '2', ['A00014: senses[0].label']],
+	['2', '*2', ['A00014: senses[0].label']],
+	['*2', '*3', ['A00014: senses[0].label']],
+];
+
+describe('checkTextConservation: the label and its star', () => {
+	it.each(LABELS)('body %s → entry %s', (before, after, failures) => {
+		const body: BodyEntry = { id: 'A00014', senses: [labelled(before)] };
+		const entry = minimalEntry({ senses: [labelled(after)] });
+		const t: Tally = { failures: [], pass: 0, total: 0 };
+		checkTextConservation(body, entry, t);
+		expect(t.failures).toEqual(failures);
 	});
 });
 

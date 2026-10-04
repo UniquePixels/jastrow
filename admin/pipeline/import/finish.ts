@@ -91,7 +91,9 @@ function finishEntry(
 	 * same source definition as their parent (and consecutive top-level
 	 * senses can share a boundary too), so a tag run open at the end of
 	 * a parent's last field must be able to reopen inside its own first
-	 * child rather than starting that child's translation fresh. */
+	 * child rather than starting that child's translation fresh. A
+	 * sense's `label` and its `reconstructed` star are copied as they
+	 * are; neither is a translated field. */
 	function buildSenseTree(
 		sequence: readonly BodySense[],
 		path: string,
@@ -118,6 +120,9 @@ function finishEntry(
 			});
 			if (s.label !== undefined) {
 				out.label = s.label;
+			}
+			if (s.reconstructed === true) {
+				out.reconstructed = true;
 			}
 			if (s.senses !== undefined && s.senses.length > 0) {
 				out.senses = buildSenseTree(s.senses, `${sensePath}.senses`, fields);
