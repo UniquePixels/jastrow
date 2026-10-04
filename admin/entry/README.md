@@ -17,6 +17,7 @@ pipeline (ruling `09-30 entry contract`,
 | `names.ts` | an entry's name, derived from `headwords[0]`, and name collisions |
 | `page.ts` | the page-index loader |
 | `html.ts` | the tokenizer every markup field is read with — the transforms' too |
+| `hebrew.ts` | Hebrew match keys: `normalizeHeadword` (bare consonants), `looseKey` (finals folded too), and the OCR similarity measures. Moved from the pipeline's `page-index/` so compile can import it (ruling `10-04 compile home`) |
 | `paths.ts` | the three paths the contract reads; the pipeline's `paths.ts` re-exports them |
 
 The schema itself is `data/schema/entry.schema.json`, read at run

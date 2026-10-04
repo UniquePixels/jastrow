@@ -800,7 +800,7 @@ with an a/b column; it cannot prove the placement is *correct*, and a
 low confidence is a review row, never a gate failure.
 
 Matching an OCR'd running head against a headword requires three
-neutralizations (`page-index/hebrew.ts`): **all combining marks are
+neutralizations (`admin/entry/hebrew.ts`): **all combining marks are
 stripped**, because Jastrow sets running heads sometimes vocalised and
 sometimes bare and Tesseract drops or invents niqqud freely;
 disambiguators are removed for matching but preserved on the record;
@@ -1207,7 +1207,7 @@ so cannot be inferred from reading the code that is there.
 35. **No vowel is inferred from OCR.** All marks are stripped before an
     OCR'd running head is matched against a headword, because Tesseract
     drops and invents niqqud freely; the page index never carries an
-    inferred point (`page-index/hebrew.ts:9`).
+    inferred point (`admin/entry/hebrew.ts:9`).
 
 ### What individual repairs refuse
 
