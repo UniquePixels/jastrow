@@ -11,8 +11,9 @@
  * the tree need different things:
  *
  * - `validateEntry(entry, path)` — one file on its own: schema, home
- *   path, the §3.1 headword rules, markup vocabulary and balance, no
- *   markup in a plain field, and every stored string in NFC.
+ *   path, the §3.1 headword rules, gender in one place (HW-gender),
+ *   markup vocabulary and balance, no markup in a plain field, and
+ *   every stored string in NFC.
  * - `validateCorpus(entries, pages)` — what only the whole tree can
  *   answer: names and `sefariaHeadword` are unique, every rid-shaped
  *   cite names an entry, and each entry's page is its page-index row,
@@ -49,6 +50,9 @@ const VOCABULARY: ReadonlySet<string> = new Set([
 const CITE_OPEN = /^<cite ref="([^"<>]+)">$/u;
 const BARE_OPEN = /^<([a-z]+)>$/u;
 const CLOSE = /^<\/([a-z]+)>$/u;
+/** A rid, the id an entry is addressed by (`A00001`): the shape the
+ * schema's `id` pattern holds a file to, and the shape that marks a
+ * cite ref as internal — a ref that is not one names a source text. */
 const RID = /^[A-Z]\d{5}$/u;
 const MARKUP_CHAR = /[<>]/u;
 
@@ -61,7 +65,9 @@ let compiled: ValidateFunction<Entry> | undefined;
  * language-neutral half of the contract, and `paths.ts` is the one
  * place that says where it is. The cost is that TypeScript no longer
  * checks the schema literal at build — `schema.test.ts` and Ajv's own
- * `strict: true` carry that instead.
+ * `strict: true` carry that instead. The `Entry` type parameter is a
+ * claim that a file the schema passes IS an `Entry`;
+ * `schema-parity.test.ts` is what holds the two to it.
  *
  * Exported so the import's schema gate compiles this validator rather
  * than a second copy of it. */
@@ -197,7 +203,7 @@ function* senseTexts(
 ): Generator<[string, string]> {
 	for (const [i, sense] of senses.entries()) {
 		yield [`${at}[${i}].gloss`, sense.gloss];
-		for (const [j, unit] of (sense.units ?? []).entries()) {
+		for (const [j, unit] of sense.units.entries()) {
 			yield [`${at}[${i}].units[${j}]`, unit];
 		}
 		yield* senseTexts(sense.senses ?? [], `${at}[${i}].senses`);
@@ -247,6 +253,32 @@ function* plainFields(entry: Entry): Generator<[string, string]> {
 	yield* senseLabels(entry.senses, 'senses');
 	for (const [i, stem] of (entry.stems ?? []).entries()) {
 		yield* senseLabels(stem.senses, `stems[${i}].senses`);
+	}
+}
+
+/** One text field of an entry: a readable path to it (`senses[0].units[1]`),
+ * its text, and whether it may carry markup. */
+interface EntryField {
+	markup: boolean;
+	path: string;
+	text: string;
+}
+
+/** Every text field of an entry, nested senses and stems included:
+ * the plain identifier and label fields first, then every field that
+ * may carry markup. The validator's markup checks read through this,
+ * so a reader that walks it — compile, when it is written — sees the
+ * same fields the contract checked.
+ *
+ * Codes are not text and are not visited: `id`, `schemaVersion`,
+ * `grammar`, `page` and a form's `gender`, `homograph`,
+ * `disambiguator`, `reconstructed` and `partial`. */
+function* entryFields(entry: Entry): Generator<EntryField> {
+	for (const [path, text] of plainFields(entry)) {
+		yield { markup: false, path, text };
+	}
+	for (const [path, text] of markupFields(entry)) {
+		yield { markup: true, path, text };
 	}
 }
 
@@ -337,14 +369,15 @@ function checkSefariaHeadwords(
 /** Markup is in the vocabulary and balanced per field, and
  * identifiers carry none. */
 function checkMarkup(entry: Entry, problems: string[]): void {
-	for (const [field, text] of plainFields(entry)) {
-		if (MARKUP_CHAR.test(text)) {
-			problems.push(`${entry.id}: ${field}: markup in a plain-text field`);
+	for (const { markup, path, text } of entryFields(entry)) {
+		if (!markup) {
+			if (MARKUP_CHAR.test(text)) {
+				problems.push(`${entry.id}: ${path}: markup in a plain-text field`);
+			}
+			continue;
 		}
-	}
-	for (const [field, text] of markupFields(entry)) {
 		for (const problem of markupProblems(text).problems) {
-			problems.push(`${entry.id}: ${field}: ${problem}`);
+			problems.push(`${entry.id}: ${path}: ${problem}`);
 		}
 	}
 }
@@ -405,6 +438,33 @@ function checkHeadwordShape(entry: Entry, problems: string[]): void {
 	problems.push(...headwordShapeProblems(entry));
 }
 
+/** Ruling HW-gender (headword design §4): an entry's gender lives in
+ * ONE place — the entry's `grammar.gender`, or a `gender` on EVERY
+ * headword. Never both, and neither is inherited.
+ *
+ * "Every headword" is a clause of its own: a gender on some forms and
+ * not the rest is refused even with no `grammar.gender`, since the
+ * ruling's stated drop is exactly that shape ("per-form gender where
+ * only some forms carry a label"). The schema states the rule in its
+ * description and cannot hold a file to it; this does. */
+function checkGender(entry: Entry, problems: string[]): void {
+	const gendered: number[] = [];
+	const bare: number[] = [];
+	for (const [i, form] of entry.headwords.entries()) {
+		(form.gender === undefined ? bare : gendered).push(i);
+	}
+	if (gendered.length > 0 && entry.grammar?.gender !== undefined) {
+		problems.push(
+			`${entry.id}: grammar.gender beside a form gender on headwords [${gendered.join(',')}]; an entry carries one or the other, never both (HW-gender)`,
+		);
+	}
+	if (gendered.length > 0 && bare.length > 0) {
+		problems.push(
+			`${entry.id}: a form gender on headwords [${gendered.join(',')}] but none on [${bare.join(',')}]; it goes on every headword or none (HW-gender)`,
+		);
+	}
+}
+
 /** One file's own checks against an already compiled `schema`
  * (`schemaValidator`). Returns the entry when it passed the schema —
  * the corpus checks read only entries whose shape they can trust —
@@ -425,6 +485,7 @@ function checkEntry(
 		problems.push(`${path}: id ${entry.id} belongs at ${home}`);
 	}
 	checkHeadwordShape(entry, problems);
+	checkGender(entry, problems);
 	checkMarkup(entry, problems);
 	checkNfc(entry, problems);
 	return [entry, problems];
@@ -476,12 +537,14 @@ async function validateEntries(
 	return problems;
 }
 
-export type { EntryFile };
+export type { EntryField, EntryFile };
 export {
 	checkEntry,
 	ENTRY_FILE_GLOB,
+	entryFields,
 	loadEntryFiles,
 	markupProblems,
+	RID,
 	schemaValidator,
 	VOCABULARY,
 	validateCorpus,
