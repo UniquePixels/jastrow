@@ -456,6 +456,210 @@
 					}
 				}
 			}
+		},
+		{
+			"includes": ["admin/compile/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../**",
+											"!../entry/**",
+											"../entry/**/../**",
+											"./**/../**",
+											"**/../**/../**"
+										],
+										"message": "admin/compile/ may import only itself and admin/entry/ (docs/decisions.md, 10-04 compile home)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["admin/compile/*/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../../**",
+											"!../../entry/**",
+											"../../entry/**/../**",
+											"./**/../**",
+											"**/../**/../**/../**"
+										],
+										"message": "admin/compile/ may import only itself and admin/entry/ (docs/decisions.md, 10-04 compile home)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["admin/compile/*/*/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../../../**",
+											"!../../../entry/**",
+											"../../../entry/**/../**",
+											"./**/../**",
+											"**/../**/../**/../**/../**"
+										],
+										"message": "admin/compile/ may import only itself and admin/entry/ (docs/decisions.md, 10-04 compile home)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["admin/compile/*/*/*/**/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../../../../**",
+											"!../../../../entry/**",
+											"../../../../entry/**/../**",
+											"./**/../**",
+											"**/../**/../**/../**/../**/../**"
+										],
+										"message": "admin/compile/ may import only itself and admin/entry/ (docs/decisions.md, 10-04 compile home)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["app/*"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../admin",
+											"../admin/**",
+											"./**/../**",
+											"**/../**/../**"
+										],
+										"message": "app/ may import nothing under admin/: it reads compiled data only (docs/decisions.md, 10-04 compile home)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["app/*/*"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../../admin",
+											"../../admin/**",
+											"./**/../**",
+											"**/../**/../**/../**"
+										],
+										"message": "app/ may import nothing under admin/: it reads compiled data only (docs/decisions.md, 10-04 compile home)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["app/*/*/*"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../../../admin",
+											"../../../admin/**",
+											"./**/../**",
+											"**/../**/../**/../**/../**"
+										],
+										"message": "app/ may import nothing under admin/: it reads compiled data only (docs/decisions.md, 10-04 compile home)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["app/*/*/*/**/*"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../../../../admin",
+											"../../../../admin/**",
+											"./**/../**",
+											"**/../**/../**/../**/../**/../**"
+										],
+										"message": "app/ may import nothing under admin/: it reads compiled data only (docs/decisions.md, 10-04 compile home)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
 		}
 	],
 	"javascript": {

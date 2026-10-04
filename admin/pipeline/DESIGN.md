@@ -60,7 +60,8 @@ runs the same pipeline over its own data by editing that one file.
 
 **One outward dependency: `admin/entry/`.** The entry contract — the
 entry types, the headword parser and its six rules, names, the
-page-index loader, the HTML tokenizer and the validator — is its own
+page-index loader, the HTML tokenizer, the Hebrew match keys and the
+validator — is its own
 module beside this one (ruling `09-30 entry contract`), because the
 import is only one of its callers: CI runs it over the committed tree,
 and the admin tool will run it on save. The import may depend on it;
@@ -102,7 +103,10 @@ link.
 Everything assigned to compile — the route map, the browse index,
 abbreviation detection, reference-index derivation, pointer
 classification, entry shards, search artifacts — is unbuilt, and none
-of it is this module's concern.
+of it is this module's concern. Compile will be its own module,
+`admin/compile/`, which may import only `admin/entry/`; `app/` may
+import nothing under `admin/` (ruling `10-04 compile home`). The same
+per-depth overrides in `biome.json` enforce both.
 
 ### The import run, stage by stage
 
@@ -800,7 +804,7 @@ with an a/b column; it cannot prove the placement is *correct*, and a
 low confidence is a review row, never a gate failure.
 
 Matching an OCR'd running head against a headword requires three
-neutralizations (`page-index/hebrew.ts`): **all combining marks are
+neutralizations (`admin/entry/hebrew.ts`): **all combining marks are
 stripped**, because Jastrow sets running heads sometimes vocalised and
 sometimes bare and Tesseract drops or invents niqqud freely;
 disambiguators are removed for matching but preserved on the record;
@@ -1207,7 +1211,7 @@ so cannot be inferred from reading the code that is there.
 35. **No vowel is inferred from OCR.** All marks are stripped before an
     OCR'd running head is matched against a headword, because Tesseract
     drops and invents niqqud freely; the page index never carries an
-    inferred point (`page-index/hebrew.ts:9`).
+    inferred point (`admin/entry/hebrew.ts:9`).
 
 ### What individual repairs refuse
 

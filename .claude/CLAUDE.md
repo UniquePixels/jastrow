@@ -17,7 +17,9 @@ module, moved the entry contract out to `admin/entry/`, and closed the
 2026-10-02 review's pipeline gaps (`docs/review-ledger.md`).
 `compile.ts`, the admin tool and the app are the next efforts, and each
 is separate work — a change to one is not a change to the pipeline.
-Where `compile.ts` lives is an open ruling (review ledger L02).
+Compile will be its own module, `admin/compile/`, importing only
+`admin/entry/`; `app/` imports nothing under `admin/` (ruling
+`10-04 compile home` in `docs/decisions.md`; Biome enforces both).
 
 Rulings live in `docs/decisions.md`; a new ruling is a row there first.
 

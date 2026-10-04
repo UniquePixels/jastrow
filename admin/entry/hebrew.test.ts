@@ -9,34 +9,40 @@ import {
 } from './hebrew.ts';
 
 describe('normalizeHeadword', () => {
-	it('strips niqqud so vocalised and bare spellings agree', () => {
+	/** One row per spelling the page index must fold: why, the line as
+	 * read, the key it must become. */
+	const CASES: [string, string, string][] = [
+		[
+			'strips niqqud so vocalised and bare spellings agree',
+			'גּוּפְתָּיָיה',
+			'גופתייה',
+		],
+		['drops Roman-numeral homograph markers', 'חָבַב I', 'חבב'],
+		['drops Roman-numeral homograph markers', 'חבב III', 'חבב'],
+		['drops superscript sense markers', 'א ²', 'א'],
+		['drops superscript sense markers', 'א ⁶', 'א'],
+		[
+			'drops the Sefaria asterisk prefix and Hebrew punctuation',
+			'*גִּיוָוטָאֵי',
+			'גיווטאי',
+		],
+		['drops the Sefaria asterisk prefix and Hebrew punctuation', 'אִ־', 'א'],
+		['drops the Sefaria asterisk prefix and Hebrew punctuation', 'ע״ע', 'עע'],
+		[
+			'discards Latin fragments Tesseract mixes into Hebrew lines',
+			'are.‏ .+ ,גורדייתא',
+			'גורדייתא',
+		],
+		['returns empty for a line with no Hebrew at all', 'v. next w.', ''],
+	];
+
+	it.each(CASES)('%s: %s', (_why, line, key) => {
+		expect(normalizeHeadword(line)).toBe(key);
+	});
+
+	it('folds a vocalised and a bare spelling to one key', () => {
 		// The two forms Jastrow prints for the same guide word on p.226/227.
-		expect(normalizeHeadword('גּוּפְתָּיָיה')).toBe('גופתייה');
 		expect(normalizeHeadword('גּוֹרְדַּיְיתָא')).toBe(normalizeHeadword('גורדייתא'));
-	});
-
-	it('drops Roman-numeral homograph markers', () => {
-		expect(normalizeHeadword('חָבַב I')).toBe('חבב');
-		expect(normalizeHeadword('חבב III')).toBe('חבב');
-	});
-
-	it('drops superscript sense markers', () => {
-		expect(normalizeHeadword('א ²')).toBe('א');
-		expect(normalizeHeadword('א ⁶')).toBe('א');
-	});
-
-	it('drops the Sefaria asterisk prefix and Hebrew punctuation', () => {
-		expect(normalizeHeadword('*גִּיוָוטָאֵי')).toBe('גיווטאי');
-		expect(normalizeHeadword('אִ־')).toBe('א');
-		expect(normalizeHeadword('ע״ע')).toBe('עע');
-	});
-
-	it('discards Latin fragments Tesseract mixes into Hebrew lines', () => {
-		expect(normalizeHeadword('are.‏ .+ ,גורדייתא')).toBe('גורדייתא');
-	});
-
-	it('returns empty for a line with no Hebrew at all', () => {
-		expect(normalizeHeadword('v. next w.')).toBe('');
 	});
 });
 

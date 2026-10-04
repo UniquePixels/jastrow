@@ -3,8 +3,8 @@
 The auditable, reproducible path from the Sefaria source to the data
 the app will serve. Read top to bottom, this is how the dictionary is
 built from scratch: fetch the source, run it through import into
-entry data, then — **UNBUILT**, `compile.ts` does not exist yet — compile
-entry data into compiled data on every deploy.
+entry data, then — **UNBUILT**, in its own module `admin/compile/` —
+compile entry data into compiled data on every deploy.
 `import.ts` is permanent and re-runnable — a run regenerates a
 candidate tree and a report; it never silently overwrites edited
 entry data. The design behind every stage, including why it works
@@ -15,7 +15,7 @@ this way, is [`DESIGN.md`](DESIGN.md).
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
 | Print locator index | `page-index/build.ts` | built 2026-08-17, data committed; tool archived at `refs/tags/archive/v2-research-2026-09` | none — one-time build; admin tool corrects entries afterward |
 | Import (source data → entry data) | `import.ts` | working; complete as of 2026-09-22, last `--write` 2026-09-29 (#139) | on demand, re-runnable |
-| Compile (entry data → compiled data) | `compile.ts` | designed, **not built — next**; whether it is a stage of this module is undecided (review ledger L02) | every deploy |
+| Compile (entry data → compiled data) | `admin/compile/` | designed, **not built — next**; its own module beside this one, not a stage of it (ruling `10-04 compile home`) | every deploy |
 
 Every ruling behind the module, with what it drops, is indexed in
 [`docs/decisions.md`](../../docs/decisions.md). One-time examinations
@@ -184,12 +184,14 @@ and A01345; the current blessing doc
 ([`import-blessing.md`](../../docs/reports/import-blessing.md), last
 regenerated 2026-10-03 by #146) shows all ten gates green.
 
-## Stage 3 — Compile (`compile.ts`, not yet built)
+## Compile — not this module (`admin/compile/`, not yet built)
 
-`compile.ts` does not exist yet, and where it will live — as this
-module's third stage or as separate work beside it
-(`.claude/CLAUDE.md`) — is an open ruling (review ledger L02). It will
-consume entry data and, on every deploy, validate, transform and emit
-the serving artifacts — entry shards, browse index, route map, page
-index, search artifacts, version manifest. See [`DESIGN.md`](DESIGN.md)
+Compile is not a stage of this module. It will be its own module,
+`admin/compile/`, beside this one and `admin/entry/`, and may import
+only `admin/entry/` — nothing here (ruling `10-04 compile home`,
+[`docs/decisions.md`](../../docs/decisions.md)), and none of it is
+written yet. It will consume entry data and, on every deploy,
+validate, transform and emit the serving artifacts — entry shards,
+browse index, route map, page index, search artifacts, version
+manifest. See [`DESIGN.md`](DESIGN.md)
 for what of it is designed and what remains open.
