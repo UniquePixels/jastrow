@@ -145,7 +145,7 @@ change no name (pile D); neither needs anything. Two piles do:
 - [ ] X8 blind spots: families split by a pointing slip; numerals
       Sefaria dropped where no sibling is numbered [L38]
 - [ ] U00489's primary `ש` is flagged only on its alternate [L39]
-- [ ] Definitions: cite U6 and L23 for the pre-publication rule, not
+- [x] Definitions: cite U6 and L23 for the pre-publication rule, not
       R10 [L40]
 
 ## Ledger
