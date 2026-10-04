@@ -386,11 +386,12 @@ describe('checkTextConservation', () => {
 /** A one-sense fixture labelled as print sets the number, dash
  * aside: `*2` is a starred 2, `2` a plain one. */
 function labelled(printed: string): BodySense {
+	const starred = printed.startsWith('*');
 	return {
 		gloss: 'he who',
-		label: printed.replace('*', ''),
+		label: starred ? printed.slice(1) : printed,
 		units: [],
-		...(printed.startsWith('*') ? { reconstructed: true } : {}),
+		...(starred ? { reconstructed: true } : {}),
 	};
 }
 
