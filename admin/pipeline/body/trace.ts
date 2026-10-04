@@ -78,24 +78,37 @@ interface BuildAcc {
 	problems: Problem[];
 }
 
+/** What a source `sense.number` leaves on the built sense: the
+ * normalized `label`, and `reconstructed: true` when print stars it
+ * (ruling 10-04 sense star). The dash is print's separator and is not
+ * kept. Absent entirely when the source sense has no number. */
+interface SenseLabel {
+	label: string;
+	reconstructed?: true;
+}
+
 /** Parse `raw` into the normalized label the design doc calls for
  * (§2 `senses` row), quarantining an unparseable value to `problems`
  * while still falling back to storing it verbatim — dry-run visibility,
- * never a silent drop. */
+ * never a silent drop. A starred value (`*2)`, `—*2)`) carries
+ * `reconstructed: true`; nothing else carries the key at all, so a
+ * quarantined raw value is never flagged. */
 function resolveLabel(
 	rid: string,
 	raw: string | undefined,
 	acc: BuildAcc,
-): string | undefined {
+): SenseLabel | undefined {
 	if (raw === undefined) {
 		return;
 	}
 	const parsed = parseLabel(raw);
 	if ('unknown' in parsed) {
 		acc.problems.push({ detail: raw, rid, rule: 'labels' });
-		return raw;
+		return { label: raw };
 	}
-	return parsed.label;
+	return parsed.star
+		? { label: parsed.label, reconstructed: true }
+		: { label: parsed.label };
 }
 
 /** A lettered a)/b)/c) child sense: its own gloss + units, labeled by
@@ -127,8 +140,13 @@ function buildFormSectionChild(item: {
  * the restarted numbered items, each unit-segmented like a lettered
  * child. Returns `[host]` or `[host, form-section sibling]` — this is
  * the one shared text→BodySense[] step every sense in the tree (intro,
- * plain, stem child) goes through. */
-function buildTextSense(text: string, label: string | undefined): BodySense[] {
+ * plain, stem child) goes through. `label` (and its star) lands on the
+ * host only: lettered and form-section children take the letter or
+ * restarted number their own split found, and the sibling none. */
+function buildTextSense(
+	text: string,
+	label: SenseLabel | undefined,
+): BodySense[] {
 	const lettered = splitLettered(text);
 	const head = lettered ? lettered.head : text;
 	const formSection = splitFormSection(head);
@@ -137,7 +155,7 @@ function buildTextSense(text: string, label: string | undefined): BodySense[] {
 	const host: BodySense = {
 		gloss,
 		units,
-		...(label === undefined ? {} : { label }),
+		...label,
 		...(lettered === null
 			? {}
 			: { senses: lettered.items.map(buildLetteredChild) }),
@@ -160,7 +178,7 @@ function buildTextSense(text: string, label: string | undefined): BodySense[] {
 function pushTextSense(
 	acc: BuildAcc,
 	text: string,
-	label: string | undefined,
+	label: SenseLabel | undefined,
 ): BodySense[] {
 	const built = buildTextSense(text, label);
 	const [host, sibling] = built;

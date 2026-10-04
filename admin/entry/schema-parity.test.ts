@@ -83,6 +83,7 @@ const FORM_KEYS: Presence<FormObject> = {
 const SENSE_KEYS: Presence<Sense> = {
 	gloss: 'required',
 	label: 'optional',
+	reconstructed: 'optional',
 	senses: 'optional',
 	units: 'required',
 };
@@ -133,6 +134,8 @@ const form: Record<string, SchemaNode> | undefined =
 	schema.$defs?.['formObject']?.properties;
 const grammar: Record<string, SchemaNode> | undefined =
 	schema.properties?.['grammar']?.properties;
+const sense: Record<string, SchemaNode> | undefined =
+	schema.$defs?.['sense']?.properties;
 
 const LITERALS: [string, SchemaNode | undefined, Record<string, true>][] = [
 	[
@@ -154,6 +157,11 @@ const LITERALS: [string, SchemaNode | undefined, Record<string, true>][] = [
 		'reconstructed',
 		form?.['reconstructed'],
 		{ true: true } satisfies Literal<FormObject['reconstructed']>,
+	],
+	[
+		'sense reconstructed',
+		sense?.['reconstructed'],
+		{ true: true } satisfies Literal<Sense['reconstructed']>,
 	],
 	[
 		'grammar.gender',

@@ -56,6 +56,10 @@ interface FormObject {
 interface Sense {
 	gloss: string;
 	label?: string;
+	/** Print stars this sense's number (`*2)`), as it stars a
+	 * reconstructed headword form; only ever `true` (ruling 10-04 sense
+	 * star). The dash print sets before a later sense is not stored. */
+	reconstructed?: true;
 	senses?: Sense[];
 	units: string[];
 }

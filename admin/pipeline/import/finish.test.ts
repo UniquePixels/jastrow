@@ -184,4 +184,30 @@ describe('finishEntry', () => {
 			'A00014: senses[0].gloss: carried i across a unit boundary',
 		]);
 	});
+	it('writes a starred label as label plus reconstructed, at every depth', () => {
+		// Ruling 10-04 sense star. The flag follows the label onto the
+		// written sense, top-level, nested and in a stem, and an unstarred
+		// sense gains no key.
+		const star = {
+			gloss: 'x',
+			label: '2',
+			reconstructed: true as const,
+			units: [],
+		};
+		const starred: BodyEntry = {
+			...body,
+			senses: [{ gloss: 'y', label: '1', senses: [star], units: [] }, star],
+			stems: [{ forms: [], senses: [star], stem: 'Pa.' }],
+		};
+		const { entry } = finishEntry(source, starred, context);
+		const [first, second] = entry.senses;
+		expect(first).toEqual({
+			gloss: 'y',
+			label: '1',
+			senses: [star],
+			units: [],
+		});
+		expect(second).toEqual(star);
+		expect(entry.stems?.[0]?.senses).toEqual([star]);
+	});
 });

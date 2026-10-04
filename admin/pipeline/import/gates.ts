@@ -281,10 +281,12 @@ function checkHeadwordLine(
 	);
 }
 
-/** The three fields `pairs` reads. `BodySense` and `Sense` both
- * satisfy it, so one neutral value can stand in for either side. */
+/** The fields `pairs` reads. `BodySense` and `Sense` both satisfy
+ * it, so one neutral value can stand in for either side. */
 interface WalkedSense {
 	gloss: string;
+	label?: string;
+	reconstructed?: true;
 	senses?: readonly WalkedSense[];
 	units: readonly string[];
 }
@@ -293,8 +295,18 @@ interface WalkedSense {
  * that DOES have it is still walked field by field. */
 const ABSENT: WalkedSense = { gloss: '', senses: [], units: [] };
 
+/** A sense's label as print sets it, regenerated from the stored
+ * fields alone: `*2` for a starred 2, `2` for a plain one, `''` for
+ * none. Print's dash is not stored (ruling 10-04 sense star), so it is
+ * not part of the label either side can be compared on. */
+function labelOf(sense: WalkedSense): string {
+	return `${sense.reconstructed === true ? '*' : ''}${sense.label ?? ''}`;
+}
+
 /** Every comparable text field of two sense trees, as
- * `[where, body, entry]` triples the caller marks one by one. */
+ * `[where, body, entry]` triples the caller marks one by one. The
+ * label counts as text: a star the body built and the entry lost (or
+ * gained) is print a reader no longer sees. */
 function* pairs(
 	body: readonly WalkedSense[],
 	entry: readonly WalkedSense[],
@@ -317,6 +329,7 @@ function* pairs(
 		const t = entry[i] ?? ABSENT;
 		const at = `${path}[${i}]`;
 		yield [`${at}.gloss`, b.gloss, t.gloss];
+		yield [`${at}.label`, labelOf(b), labelOf(t)];
 		const unitLength = Math.max(b.units.length, t.units.length);
 		for (let j = 0; j < unitLength; j++) {
 			yield [`${at}.units[${j}]`, b.units[j] ?? '', t.units[j] ?? ''];
@@ -325,7 +338,8 @@ function* pairs(
 	}
 }
 
-/** Gate 3: tag-stripped text agrees, field by field. A structural
+/** Gate 3: tag-stripped text agrees, field by field, the sense
+ * label and its star included. A structural
  * count mark guards every array walked: a surplus element whose own
  * content is empty (e.g. a fabricated stem with `senses: []`) yields
  * no text pairs at all, so without a count it would leave no trace in
