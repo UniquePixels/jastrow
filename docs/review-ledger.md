@@ -57,14 +57,14 @@ brackets.
 
 ### 3. Doc sync — one PR, agent work
 
-- [ ] `decisions.md`: rows for #139 and #142; fix HW-halt, HW-equals,
+- [x] `decisions.md`: rows for #139 and #142; fix HW-halt, HW-equals,
       RP5, 09-21, HW-gender, 218/222–224 [L14] [L15]
-- [ ] `.claude/CLAUDE.md`: re-date; name `admin/entry/` and
+- [x] `.claude/CLAUDE.md`: re-date; name `admin/entry/` and
       `bun data:validate`; branch base is `v2` [L16]
-- [ ] `CONTRIBUTING.md` and PR template [L17]
-- [ ] `DESIGN.md`, pipeline README, schema README, drawio [L18]
-- [ ] Comment nits [L19]
-- [ ] `ideas.md`: drop the stale display-slot clause [L28]
+- [x] `CONTRIBUTING.md` and PR template [L17]
+- [x] `DESIGN.md`, pipeline README, schema README, drawio [L18]
+- [x] Comment nits [L19]
+- [x] `ideas.md`: drop the stale display-slot clause [L28]
 
 ### 4. Rulings — maintainer, rows in `decisions.md`
 
@@ -134,10 +134,10 @@ architecture, data, docs; every row confirmed by the controller).
 
 | Id | Finding | Where | Class | Status |
 |---|---|---|---|---|
-| L01 | `Sense.units` required in TS, optional in schema; schema allows `grammar.pos` (not in type) and `reconstructed:false` (type says `true`); `validate.ts:66` casts the guard | `admin/entry/types.ts:56-61`, `data/schema/entry.schema.json` | contract | PR #147 |
+| L01 | `Sense.units` required in TS, optional in schema; schema allows `grammar.pos` (not in type) and `reconstructed:false` (type says `true`); `validate.ts:66` casts the guard | `admin/entry/types.ts:56-61`, `data/schema/entry.schema.json` | contract | closed #147 |
 | L02 | Nothing stops `app/` or a future compile module importing `admin/pipeline/`; biome guards one direction; compile's home unsettled (README: Stage 3; CLAUDE.md: separate) | `biome.json` | ruling | open |
 | L03 | Update run and atomic write unbuilt; `--write` refuses a populated tree; R11 "live, not in code" | `admin/pipeline/import.ts:461` | post-release | ruled low priority (maintainer, 2026-10-02) |
-| L04 | Helpers compile will need live only in the pipeline: `page-index/hebrew.ts` keys, `transform/abbrev-vocab.ts`, three field walkers, unexported `RID` | listed | contract | PR #147 (exports); moves wait on L02 |
+| L04 | Helpers compile will need live only in the pipeline: `page-index/hebrew.ts` keys, `transform/abbrev-vocab.ts`, three field walkers, unexported `RID` | listed | contract | closed #147 (exports); moves wait on L02 |
 | L05 | One-way doors: `senses[0]` is the gloss head with no field (467 whitespace-only); sense-label `*`/`—` dropped on write (`*2)` → `"2"`, A01249; 107 `*N)`, ~5,440 `—N)` in source); gloss-head offsets computed in `body/rejoin.ts`, never stored | `admin/pipeline/body/trace.ts:85-98` | ruling | open |
 | L06 | "Flagged by the processor" column can never fire: regex takes the whole headword line as `form`, compared to one form's text; 1,601 rids on both lists, 0 flagged; no test | `admin/pipeline/report/headword-issues.ts:47,327-343` | bug | closed #146 |
 | L07 | #142 removed the detector-floor control; `DETECTED_CLASSES` is static, so a dead predicate erases its class from rows and catalogue alike, gates green | `admin/pipeline/import/review-report.ts:60-67` | bug | closed #146 |
@@ -153,7 +153,7 @@ architecture, data, docs; every row confirmed by the controller).
 | L17 | "validating every entry data file" in `bun qa` (false since #141); CI list omits Validate; "not hand-edited" contradicts R2 and `data/entries/README.md` | `CONTRIBUTING.md:14-18,80-82,130`, `.github/PULL_REQUEST_TEMPLATE.md:20` | doc | open |
 | L18 | DESIGN §11.48 tier test deleted in #142; §2 says `units[]` required and stem children have no nested senses (38 do, P00790); patch-ops table omits `reform.gloss`; outputs omit headword-issues. Pipeline README: nine gates, last run 2026-09-22, "names nothing outside itself except paths.ts" (25 files import `admin/entry/`). `data/schema/README.md` names the old reader. drawio says nine gates | listed | doc | open |
 | L19 | Schema title "truth entry"; "slug" in `import/gates.ts:189`, `entry/headwords.ts:86`, `entry/headword-rules.ts:217`; `patch/apply.ts:92` names deleted `apply-cli.ts`; five "still PENDING" comments where `PENDING = []`; `.gitignore:36` lists `migration-report.json`; `fetch.ts:217` top-level `await main()` | various | nit | open |
-| L20 | Gender exclusivity (form gender vs `grammar.gender`) unchecked; `schema.test.ts:26-33` asserts an entry carrying both as valid | `admin/entry/validate.ts` | contract | PR #147 |
+| L20 | Gender exclusivity (form gender vs `grammar.gender`) unchecked; `schema.test.ts:26-33` asserts an entry carrying both as valid | `admin/entry/validate.ts` | contract | closed #147 |
 | L21 | Which corrections go upstream to Sefaria, and how | — | ruling | open (maintainer raised 2026-10-02) |
 | L22 | Nine Group D sense-structure classes to examine before anchors or hand edits | #123 | data | open |
 | L23 | `formerNames` ledger unbuilt; needed before the first post-publication `headwords[0]` change | — | post-release | open |
@@ -162,6 +162,12 @@ architecture, data, docs; every row confirmed by the controller).
 | L26 | Dependencies behind: `@biomejs/biome` 2.5.2 (latest 2.5.15), `@types/bun` 1.3.14 (1.4.2), `bson` 6.10.4 (7.3.3), `typescript` 6.0.3 (7.0.2). Bun and Biome are also pinned in `.mise.toml` and `.claude/CLAUDE.md` and installed locally through mise; the TS major needs a `tsconfig.json` review; Biome goes alone | `package.json`, `.mise.toml`, `tsconfig.json` | chore | open (maintainer, 2026-10-02) |
 | L27 | `docs/sefaria-report.md` needs review and cleanup, strong actionable rows, and a format that records what was submitted and when versus what is new | `docs/sefaria-report.md` | process | open (maintainer, 2026-10-02) |
 | L28 | `ideas.md` "Two unenforced entry-schema invariants" still says `display` token indices are not bounds-checked against the headword count; `checkSlots` (rule 1) checks them. Found by the group 2 agent | `docs/ideas.md`, `admin/entry/headword-rules.ts:97` | doc | open |
+| L29 | `names.ts` says rule 4 fails only the committed-tree tests while the import still writes the entry; `headwordShapeProblems` says rule 4 runs "only when the halt is armed". Since #141 gate 10 refuses the write, and #146 removed the switch. Found by the group 3 agent | `admin/entry/names.ts:30-33`, `admin/entry/headword-rules.ts:223` | nit | open |
+| L30 | The Data correction issue form says entry data is "produced by the pipeline, not hand-edited in a PR", the claim L17 corrects in `CONTRIBUTING.md`. Found by the group 3 agent | `.github/ISSUE_TEMPLATE/data-correction.yml:8-11` | doc | open |
+| L31 | `.gitignore` points at a `grammar.test.ts:53-58` census block that #142 removed. (Its `migration-report.json` line, L19, stays: the comment beside it keeps the ignore on purpose, so a leftover local copy is never committed.) Found by the group 3 agent | `.gitignore:24-25` | nit | open |
+| L32 | Root `README.md` says one module has been written on v2 and that the pipeline knows nothing about the rest of the repo; `admin/entry/` is a second module since #141, and its README is not in the documents table. Found by the group 3 agent | `README.md` | doc | open |
+| L33 | `transform/count.ts` calls `await main()` at top level with no `import.meta.main` guard, the shape L19 fixed in `fetch.ts`. Found by the group 3 agent | `admin/pipeline/transform/count.ts:145` | nit | open |
+| L34 | The flow diagram's dry-run box says a run writes `import-blessing.md` and `review-report.md`; it also writes the headword-issues report (`.md` and `.csv`). Found by the group 3 agent | `docs/pipeline-flow.drawio.svg` | doc | open |
 
 Shapes compile must handle, not defects: 10,744 gloss heads begin with
 `,`; 33 entries have no `display`; 467 have an empty gloss head
