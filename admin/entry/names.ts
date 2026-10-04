@@ -28,9 +28,10 @@ import type { Entry, FormObject } from './types.ts';
  *
  * `=` is NOT here either: it marks a cross-reference that belongs in
  * the gloss, and the odd name keeps a new `X = Y` line visible until
- * it is repaired — rule 4 (`headword-rules.ts`) fails the committed-
- * tree tests on one, but the import itself still writes it. A01175 and
- * A01345, the last two, were repaired by patch (#113). */
+ * it is repaired — rule 4 (`headword-rules.ts`) fails such an entry,
+ * so the import's `contract` gate refuses to write it and
+ * `bun data:validate` refuses it in the committed tree. A01175 and
+ * A01345, the last two, were repaired by patch (#113, #139). */
 const NOTATION = /[()?,]/gu;
 /** Runs of whitespace collapse to one space, and the ends are
  * trimmed: stripping notation can leave a gap or an edge space where

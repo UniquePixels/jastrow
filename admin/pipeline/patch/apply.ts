@@ -88,8 +88,8 @@ async function loadReviewedCorpus(dir = REVIEWED_DIR): Promise<ReviewedCorpus> {
 /** Reconcile the reviewed manifest against the reviewed patches: every
  * patch listed exactly once, under its own rid, and every listed id
  * present. A reviewed patch applies first and may add bytes, so one
- * that no record accounts for must not apply unflagged. Shared by
- * `import.ts` and `apply-cli.ts` preflight. */
+ * that no record accounts for must not apply unflagged. Called by
+ * `import.ts`'s preflight. */
 function reviewedManifestProblems(corpus: ReviewedCorpus): ApplyProblem[] {
 	return reconcilePatches(corpus.records, corpus.patches).map((problem) => ({
 		reason: `reviewed manifest: ${problem.reason}`,

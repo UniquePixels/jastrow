@@ -73,7 +73,8 @@
  * row's superseded `corpusCount` of 608 came from, and the LOOSE
  * reading its audit rejected. (The audit's 707/607 is this minus one
  * anchor whose display is `(ח׳`: an open paren swallowed into the
- * display, the pending `open-paren-in-anchor-display` row's shape,
+ * display, the `open-paren-in-anchor-display` row's shape (its rule is
+ * in `paren-boundary.ts`),
  * and not a stub by any reading.) Of those 708, the terminator is
  * U+05F3 HEBREW PUNCTUATION GERESH in all 707 stub-shaped displays
  * and nothing else — no ASCII apostrophe, no U+2019 — so the patterns

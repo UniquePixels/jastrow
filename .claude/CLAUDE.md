@@ -6,12 +6,18 @@ Marcus Jastrow's Dictionary of the Targumim, Talmud Babli, Yerushalmi
 and Midrashic Literature, as a static site on Cloudflare at jastrow.app.
 
 This branch (`v2`) is the overhaul, and what exists on it is the data
-pipeline under `admin/pipeline/`. **Neither the public app nor the
-admin tool has been written for v2 yet** — `app/` is a placeholder.
+pipeline under `admin/pipeline/` and the entry contract under
+`admin/entry/` (the checks every file under `data/entries/` meets).
+**Neither the public app nor the admin tool has been written for v2
+yet** — `app/` is a placeholder.
 
-**The pipeline is complete as of 2026-09-22** (#116–#131). `compile.ts`,
-the admin tool and the app are the next efforts, and each is separate
-work — a change to one is not a change to the pipeline.
+**The pipeline has been complete since 2026-09-22** (#116–#131).
+Since then #132–#147 (to 2026-10-04) made the import a standalone
+module, moved the entry contract out to `admin/entry/`, and closed the
+2026-10-02 review's pipeline gaps (`docs/review-ledger.md`).
+`compile.ts`, the admin tool and the app are the next efforts, and each
+is separate work — a change to one is not a change to the pipeline.
+Where `compile.ts` lives is an open ruling (review ledger L02).
 
 Rulings live in `docs/decisions.md`; a new ruling is a row there first.
 
@@ -38,6 +44,10 @@ unit test tier, and `tsc`. CI's Lint job runs `bun qa:ci`
 (`biome ci --error-on-warnings`), which disagrees with plain
 `biome check .` — use the scripts, not the bare tool.
 
+`bun qa` does not check entry data. Since #141 the committed tree
+under `data/entries/` is checked by `bun data:validate` (the entry
+contract, `admin/entry/`), which is CI's Validate job.
+
 ## Test Tiers
 
 `bun test` is split by filename. The split is a convention, not a
@@ -58,7 +68,8 @@ left with the research code in step 6.
 
 ## Branching & Commits
 
-Feature branches off `main`. Never commit directly to `main`.
+During the v2 overhaul, feature branches come off `v2` and PRs merge
+into `v2`. Never commit directly to `v2` or `main`.
 
 **Commit format:** `<emoji> <type>([scope]): <description>` — 50 char
 max, imperative, lowercase. Types: `new` 🦄 / `improve` 🌈 / `fix` 🦠

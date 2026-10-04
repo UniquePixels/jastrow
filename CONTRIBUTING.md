@@ -11,11 +11,17 @@ and the admin tool have not been written for it yet. Start with
 
 ### Contributing Data
 
-Entry data under `data/entries/` is produced by the import
-(`bun data:import`), not edited by hand in a PR. If you have found an
-error in an entry, open a **Data correction** issue with the source
-citation rather than a pull request — the correction is applied through
-the pipeline so the run stays reproducible.
+Entry data under `data/entries/` was written once by the import
+(`bun data:import`) and is now the edited layer: in the words of ruling
+R2, "hand edits are **not** re-recorded as pipeline inputs", and "the
+admin tool edits the entry file and nothing else" (09-21 admin edits;
+both in [`docs/decisions.md`](docs/decisions.md), and see
+[`data/entries/README.md`](data/entries/README.md)). Whatever is
+committed must pass `bun data:validate`, CI's `Validate` job.
+
+The admin tool is not written yet. If you have found an error in an
+entry, open a **Data correction** issue with the source citation rather
+than a pull request.
 
 Each entry is one dense line of scholarship, so review is careful and
 slow: **one topic per PR**, and for anything larger open an issue first
@@ -77,9 +83,11 @@ All commits must include a sign-off line (`git commit -s`).
 
 ## Tests
 
-`bun qa` runs every unit test (`*.test.ts`) in about two seconds, most
-of it validating every entry data file. CI's `Test` job runs the same
-set, and never reads the source data in `data/source/`.
+`bun qa` runs every unit test (`*.test.ts`) in about two seconds. CI's
+`Test` job runs the same set, and never reads the source data in
+`data/source/`. Neither checks entry data: `bun data:validate` checks
+every file under `data/entries/` against the entry contract
+(`admin/entry/`), and CI's `Validate` job runs it.
 
 Two checks of rule *code* need the whole source snapshot and take
 several minutes, so they run on your machine rather than in CI:
@@ -127,7 +135,8 @@ which automated tools don't catch.
 
 - PRs are reviewed by [CodeRabbit](https://coderabbit.ai/) and a
   maintainer
-- All CI checks must pass before merge (`Lint`, `Type Check`, `Test`)
+- All CI checks must pass before merge (`Lint`, `Type Check`, `Test`,
+  `Validate`)
 - Keep PRs focused — one feature or fix per PR
 
 ## Developer Certificate of Origin

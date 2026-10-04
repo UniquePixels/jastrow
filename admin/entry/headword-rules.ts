@@ -203,8 +203,8 @@ function intToRomanLocal(n: number): string {
  * rules that an abbreviation which is an entry's ONLY name stays a key
  * rather than becoming partial (§4's X7 row). Index 0 is therefore
  * exempt: §4's H6 row marks three PRIMARY headwords partial on
- * purpose (K00107, P00137, A02002), and a slug is still derived from
- * them with the notation stripped. */
+ * purpose (K00107, P00137, A02002), and a URL name is still derived
+ * from them with the notation stripped (`names.ts`). */
 function checkPartial(
 	id: string,
 	headwords: readonly FormObject[],
@@ -220,8 +220,9 @@ function checkPartial(
 	}
 }
 
-/** Every §3.1 rule over one entry, rule 4 included only when the halt
- * is armed. Returns the problems; an empty list is a valid entry.
+/** Every §3.1 rule over one entry, rule 4 included: it halts, as the
+ * file header says. Returns the problems; an empty list is a valid
+ * entry.
  *
  * **Rule 6 is not a check of its own, and that is deliberate.** It
  * says every comparison normalizes to NFC FIRST — an obligation on

@@ -14,8 +14,8 @@ this way, is [`DESIGN.md`](DESIGN.md).
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
 | Print locator index | `page-index/build.ts` | built 2026-08-17, data committed; tool archived at `refs/tags/archive/v2-research-2026-09` | none — one-time build; admin tool corrects entries afterward |
-| Import (source data → entry data) | `import.ts` | working; complete as of 2026-09-22, last run the same day | on demand, re-runnable |
-| Compile (entry data → compiled data) | `compile.ts` | designed, **not built — next** | every deploy |
+| Import (source data → entry data) | `import.ts` | working; complete as of 2026-09-22, last `--write` 2026-09-29 (#139) | on demand, re-runnable |
+| Compile (entry data → compiled data) | `compile.ts` | designed, **not built — next**; whether it is a stage of this module is undecided (review ledger L02) | every deploy |
 
 Every ruling behind the module, with what it drops, is indexed in
 [`docs/decisions.md`](../../docs/decisions.md). One-time examinations
@@ -67,11 +67,13 @@ Two flags change what a run will refuse:
 
 ### Running it on different data
 
-This module names nothing outside itself except through
-[`paths.ts`](paths.ts). To run the same pipeline over another
-lexicon: point those constants at your files, supply an entry schema
-at `SCHEMA_PATH`, and run the two commands above. Nothing in `docs/`
-is needed to run it.
+This module names no path outside itself except through
+[`paths.ts`](paths.ts). Its one code dependency outside itself is the
+entry contract, [`admin/entry/`](../entry/README.md), which its files
+import directly ([`DESIGN.md`](DESIGN.md) §1, "The boundary"). To
+run the same pipeline over another lexicon: point those constants at
+your files, supply an entry schema at `SCHEMA_PATH`, and run the two
+commands above. Nothing in `docs/` is needed to run it.
 
 What will not transfer: the transform rules and the patch records
 under `patch/records/` are corrections to *this* dictionary as Sefaria
@@ -167,21 +169,27 @@ rewritten, and only into its NFC spelling, which is canonically the
 same text; `data/source/` is never touched. See [`DESIGN.md`](DESIGN.md) §11, "What is never stored, and
 where text is rewritten".
 
-**Last run 2026-09-22 with all nine gates green**, `--write`: the
-batched rewrite of all 32,512 files to schema v2 (HW-schema). It is
-the run that carried every code change since 2026-09-09 into
-`data/entries/` — `headwords[]` and `display` for
+**Last full rewrite 2026-09-22, with all nine gates of the time
+green**, `--write`: the batched rewrite of all 32,512 files to schema
+v2 (HW-schema). It is the run that carried every code change since
+2026-09-09 into `data/entries/` — `headwords[]` and `display` for
 `headword`/`altHeadwords`, `sefariaHeadword` for `slug`,
 `"schemaVersion": 2`, the `pr. n. pl.` grammar fix
 ([#117](https://github.com/UniquePixels/jastrow/issues/117), 432
 entries) and NFC on write (164 strings in 150 files). A second dry run
-over the written tree reproduces the same nine tallies and the same
-generated docs, byte for byte.
+over the written tree reproduced the same nine tallies and the same
+generated docs, byte for byte. Gate 10 (`contract`) came with #141.
+The last `--write` was 2026-09-29 (#139), which changed only A01175
+and A01345; the current blessing doc
+([`import-blessing.md`](../../docs/reports/import-blessing.md), last
+regenerated 2026-10-03 by #146) shows all ten gates green.
 
 ## Stage 3 — Compile (`compile.ts`, not yet built)
 
-`compile.ts` does not exist yet. It will consume entry data and, on
-every deploy, validate, transform and emit the serving artifacts —
-entry shards, browse index, route map, page index, search artifacts,
-version manifest. See [`DESIGN.md`](DESIGN.md) for what of it is
-designed and what remains open.
+`compile.ts` does not exist yet, and where it will live — as this
+module's third stage or as separate work beside it
+(`.claude/CLAUDE.md`) — is an open ruling (review ledger L02). It will
+consume entry data and, on every deploy, validate, transform and emit
+the serving artifacts — entry shards, browse index, route map, page
+index, search artifacts, version manifest. See [`DESIGN.md`](DESIGN.md)
+for what of it is designed and what remains open.

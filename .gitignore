@@ -21,8 +21,7 @@ node_modules/
 # ignored anyway (a stale ignore is harmless; untracking them risks
 # committing a leftover local copy):
 #   - data/source/baseline-audit-report.json (baseline-audit tool)
-#   - data/source/body-census-report.json (`body:census`, see
-#     grammar.test.ts:53-58)
+#   - data/source/body-census-report.json (`body:census`)
 #   - data/source/body-migration-report.json (`migrate-dry.ts`)
 #   - .usage-mark (`admin/pipeline/research/usage-report.ts --mark`)
 #   - .work/ (the page-index build tool)

@@ -81,7 +81,8 @@ const DASH = '—';
  * NO WHITESPACE ALLOWANCE, and that is the point: all 101 members end
  * in the dash itself, so admitting trailing space would silently take
  * in a shape nothing has measured and would hand
- * `trailing-whitespace-definition` (10, still `PENDING`) new members —
+ * `trailing-whitespace-definition` (10, its own rule in `edge-trim.ts`)
+ * new members —
  * the sibling-row growth found by hand. The row's PUBLISHED
  * predicate is wider (`/—[ \t]*$/u`); a corpus check, retired in
  * a retired corpus check, measured

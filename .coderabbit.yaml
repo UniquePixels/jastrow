@@ -30,7 +30,7 @@ reviews:
     - path: "**"
       instructions: |
         General project rules:
-        - Repo layout (v2): `app/` public app, `admin/` tooling (incl. `admin/pipeline/`), `data/` data only.
+        - Repo layout (v2): `app/` public app, `admin/` tooling (incl. `admin/pipeline/` and `admin/entry/`), `data/` data only.
         - `app/` is a placeholder: the v2 frontend has not been written yet.
         - Everything running today is Bun tooling under `admin/`.
         - Biome enforces lint and formatting.
@@ -39,6 +39,7 @@ reviews:
       instructions: |
         Maintainer tooling that runs on Bun (not deployed). Includes:
         - `admin/pipeline/` — data pipeline from the Sefaria source (fetch, transform, validate, emit)
+        - `admin/entry/` — the entry contract every file under `data/entries/` meets (`bun data:validate`); imports nothing from `admin/pipeline/`
         - Admin tool v2 (Phase 3) will live here too
         - `console` and sequential awaits over streams are expected here
 

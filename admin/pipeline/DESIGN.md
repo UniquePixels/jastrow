@@ -49,6 +49,7 @@ under `data/`.
 | `data/source/import-report.json` | the machine-readable account of one run |
 | [`docs/reports/import-blessing.md`](../../docs/reports/import-blessing.md) | the evidence a person reads before accepting a run |
 | [`docs/reports/review-report.md`](../../docs/reports/review-report.md) | one row per item a person must judge |
+| [`docs/reports/headword-issues.md`](../../docs/reports/headword-issues.md), `docs/reports/headword-issues.csv` | every headword and alternate form a headword rule would have to rule on, one section per shape (`report/headword-issues.ts`); the CSV holds the same rows |
 
 ### The boundary, and `paths.ts`
 
@@ -257,9 +258,15 @@ All four fail by **under-splitting**, never by inventing a boundary.
 
 `stems[]` holds binyan sections: `{ stem, forms[], senses[] }`, all
 three required, `stem` free text with `minLength: 1`. The stem walk
-reads only `sense.senses` and drops `sense.definition`; the children of
-a stem carry no `grammar` and no nested `senses` (corpus-measured max
-depth 1) — `body/trace.ts`.
+reads only `sense.senses` and drops `sense.definition`. In the source a
+stem's children carry no `grammar` and no nested `senses`
+(corpus-measured max depth 1), so the walk does not recurse —
+`body/trace.ts`. Each child still goes through the same text split as
+any sense, so a stem sense can gain children: in the committed tree 38
+stem senses in 36 entries do, 36 of them a lettered run (P00790
+`stems[1].senses[1]`, `a)`–`h)`) and 2 a form-section sibling. The
+schema allows it: a stem's `senses` are the same recursive `sense`
+shape as the entry's.
 
 `grammar.gender` and `grammar.number` are seeded from a **closed**
 vocabulary of `content.morphology` markers; an unrecognized value is
@@ -522,8 +529,11 @@ does not apply leaves both a row and a header count.
 ### Patch ops
 
 The op grammar is `delete`, `join`, `move`, `replace`, `retag`,
-`split`, `reform`, `unref`. Some entries need text relocated into a
-gloss and no op expresses that shape.
+`split`, `reform`, `unref`. `reform` replaces the headword line, with
+an optional `display` and an optional `gloss`; a `gloss` adds the
+entry's first sense and is refused when the entry already has one
+(#139, ruling `09-29 reform gloss`). Text relocated into an entry that
+already has a sense still has no op (V00518, #113).
 
 ---
 
@@ -1250,8 +1260,10 @@ so cannot be inferred from reading the code that is there.
     enforced by refusal, not by merge (see 46).
 48. **CI never reads the source data and never runs import**, and CI
     never rewrites or commits. The module's single write of anything
-    outside `data/entries/` content is `formatEntries`, and the tier
-    boundary is asserted by filename in both directions.
+    outside `data/entries/` content is `formatEntries`. The tier
+    boundary is a filename convention that nothing asserts: a corpus
+    read left in a `*.test.ts` shows up as a slow `Test` job (§1, Test
+    tiers).
 49. **A failing entry is dropped, not emitted from source bytes.**
     `composeOne` catches, reds gate 9, files a `composition-failed`
     fault row, and the entry never reaches pass 2 — so the run refuses

@@ -9,8 +9,9 @@
  * or after its vowel — two byte strings, one word, and an exact-string
  * map answers `undefined` for the spelling it was not built from. NFC
  * reorders marks into canonical order, which is a comparison detail
- * only: nothing stored is ever normalized, so gate 2's byte-exact
- * headword regeneration sees the source spelling untouched.
+ * only: the map is queried in NFC, and gate 6 reports the spelling the
+ * href carried. The one step that rewrites stored text into NFC is the
+ * write (`normalizeForWrite`), not this lookup.
  */
 import type { SourceEntry } from '../types.ts';
 import type { RefResolver } from './markup.ts';

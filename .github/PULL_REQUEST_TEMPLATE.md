@@ -17,7 +17,7 @@ See CONTRIBUTING.md for the full guidelines.
 
 ## Data changes (delete this section if no `data/**` files changed)
 
-- [ ] Produced by a pipeline run, not hand-edited
+- [ ] `bun data:validate` passes (`bun qa` does not check entry data)
 - [ ] Verified against the source (Jastrow / Sefaria)
 - [ ] Scope is one topic (larger? coordinate via an issue first)
 
