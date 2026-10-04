@@ -16,8 +16,8 @@
  * **The assertion is a DELTA, not an absolute.** The corpus contains
  * genuinely malformed markup that must survive untouched — D00478 and
  * J00597 carry a literal `</a>` inside an `href` value, and the
- * still-pending catalogue row `unterminated-href-swallows-closing-tag`
- * exists to repair exactly those. A gate demanding well-formed output
+ * catalogue row `unterminated-href-swallows-closing-tag` (its rule is
+ * `rules/malformed-href.ts`) exists to repair exactly those. A gate demanding well-formed output
  * would fail on every entry a rule so much as touches near them, and
  * would forbid the repair rule from ever seeing its own input. So the
  * bar is: **the output is no LESS well-formed than the input.** A rule

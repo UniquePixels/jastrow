@@ -194,8 +194,8 @@ function buildAnchor(
  * Measured: 477 nested pairs across 465 entries in `definition` text,
  * both members usable in every pair. `language_reference` carries 757
  * pairs across 756 entries, 755 of them sharing one `data-ref` — the
- * shape the pending `nonsense-dup-anchor` row (route: transform,
- * catalogued 755) targets. The LIFO stack pairs a nested pair
+ * shape the `nonsense-dup-anchor` row (route: transform, catalogued
+ * 755; rule `dupAnchorLanguageRef` in `rules/nested-anchor.ts`) targets. The LIFO stack pairs a nested pair
  * correctly regardless of the claim above being false: the inner
  * `</a>` pops the most recently pushed (innermost) open before the
  * outer `</a>` pops what's left. An opening tag left on the stack when

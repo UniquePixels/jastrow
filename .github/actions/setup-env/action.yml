@@ -10,7 +10,7 @@ runs:
         install: true
     - name: Install dependencies
       # Frozen lockfile keeps CI deterministic. Bun does not run dependency
-      # lifecycle scripts by default, so Playwright's browser download is
-      # skipped (only registry.npmjs.org is needed — see harden-runner egress).
+      # lifecycle scripts by default, so only registry.npmjs.org is needed
+      # (see harden-runner egress).
       shell: bash
       run: bun ci

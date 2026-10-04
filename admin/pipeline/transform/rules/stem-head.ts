@@ -35,7 +35,8 @@
  *
  * One space: the marker's own trailing space, declared through
  * `removes`. Leaving it would end 18 definitions in whitespace and so
- * hand `trailing-whitespace-definition` (10, still `PENDING`) 18 new
+ * hand `trailing-whitespace-definition` (10, its own rule in
+ * `edge-trim.ts`) 18 new
  * members — a rule growing a sibling row's population is the failure
  * found by hand, and the reason this rule states its deletion
  * instead of tidying quietly.

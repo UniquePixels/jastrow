@@ -186,8 +186,8 @@ function lineIsUnsettleable(line: string): boolean {
  *
  * 1. **text conservation** — every Hebrew character of the line
  *    reaches a form, in order, and no form invents one. This is the
- *    half that matters: `text` is the lookup key, the slug and the
- *    link target.
+ *    half that matters: `text` is the lookup key, the source of the
+ *    URL name and the link target.
  * 2. **the notation multiset** — the line's `(`, `)`, `*`, `?`, `…`,
  *    superscripts and Roman numerals are exactly the template's. A
  *    parenthesis dropped, a numeral invented or a star moved onto a
@@ -488,7 +488,8 @@ function checkChain(
  *   map reached the right entry and nothing downstream rewrote the
  *   field. A hand edit to a COMMITTED entry is a different question:
  *   `validate.ts` checks that field's uniqueness over the tree in
- *   `bun qa`, and nothing outside import can compare it to Sefaria.
+ *   `bun data:validate` (CI's Validate job), and nothing outside
+ *   import can compare it to Sefaria.
  *
  * `sourceHeadwords` is rid → the pristine `headword` string, so a
  * missing rid fails rather than passing against `undefined`. */

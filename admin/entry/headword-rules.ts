@@ -203,8 +203,8 @@ function intToRomanLocal(n: number): string {
  * rules that an abbreviation which is an entry's ONLY name stays a key
  * rather than becoming partial (§4's X7 row). Index 0 is therefore
  * exempt: §4's H6 row marks three PRIMARY headwords partial on
- * purpose (K00107, P00137, A02002), and a slug is still derived from
- * them with the notation stripped. */
+ * purpose (K00107, P00137, A02002), and a URL name is still derived
+ * from them with the notation stripped (`names.ts`). */
 function checkPartial(
 	id: string,
 	headwords: readonly FormObject[],

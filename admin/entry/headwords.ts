@@ -83,8 +83,8 @@ const STAR_RUN = /\*/u;
 /** Which review row a headword line becomes.
  *
  * - `headword-unparsed` — a form `text` the grammar cannot account
- *   for. This is §3's halt: the text is a lookup key, a slug and a
- *   link target, so a wrong one cannot be published. It halts in
+ *   for. This is §3's halt: the text is a lookup key, the source of a
+ *   URL name and a link target, so a wrong one cannot be published. It halts in
  *   `validate.ts` (rule 4, `headword-rules.ts`).
  * - `paren-group-close-unknown` — the line's parentheses do not
  *   balance, so `display` cannot be settled without the print (§4's

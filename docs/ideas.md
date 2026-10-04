@@ -15,7 +15,7 @@ issue when it becomes work. Delete a row when it stops mattering.
 | 2026-07-04 | Notification system | Notify users of updates, new features, etc. Likely ties into the service-worker update flow once the app exists. |
 | 2026-07-04 | About system | Basic info about the app and its features. |
 | 2026-07-08 | Search overhaul | v1's search is "not cutting it." Explore client-side vs. enhanced online search; the schema already stores clean typed forms (headwords, alts, pointers, typed cites), so nothing is foreclosed. |
-| 2026-07-04 | Admin tool runs the pipeline | Admin tool as the interface for pipeline runs too (CLI stays fine). `fetch.ts` still has no `import.meta.main` guard or exported `runFetch(options, onProgress)` — checked 2026-09-22, still absent. |
+| 2026-07-04 | Admin tool runs the pipeline | Admin tool as the interface for pipeline runs too (CLI stays fine). `fetch.ts` has an `import.meta.main` guard since review ledger L19 but still no exported `runFetch(options, onProgress)` — checked 2026-10-04. |
 | 2026-08-05 | Notes mechanism for intentional print deviations | A notes field anchored to a text location, shown with an icon and popover, only for deliberate deviations from the printed text (e.g. the 39 implied-1 inserts) — never for import-error repairs. Needs its own schema + admin-tool + renderer design. |
 | 2026-08-05 | Refresh `sefaria-report.md` before filing | Fold in register #16–17, review-doc decisions and regenerated census counts before sending it to Sefaria. |
 | 2026-08-05 | Sefaria search link per headword | Link each headword to Sefaria's search, e.g. `sefaria.org/search?q=<headword>&tab=text&...`; decide later whether to keep the Talmud path filter or search all texts. Pure client-side URL construction. |

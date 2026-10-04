@@ -214,4 +214,6 @@ async function main(): Promise<void> {
 	progress(`wrote ${manifestPath}`);
 }
 
-await main();
+if (import.meta.main) {
+	await main();
+}
