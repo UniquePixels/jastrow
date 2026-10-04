@@ -233,21 +233,35 @@ description; `validateEntry` (`admin/entry/validate.ts`) enforces it.
 
 ### Senses, stems, the gloss head
 
-`senses[]` is a tree of `{ label?, gloss, units[], senses? }`, where a
-nested `senses` holds the same shape.
+`senses[]` is a tree of `{ label?, reconstructed?, gloss, units[],
+senses? }`, where a nested `senses` holds the same shape.
 
-`senses[0]`'s gloss **is the gloss head** — not a first sense. The
-gloss head is a pure concatenation of `content.morphology` +
-`language_code` + `language_reference` + sense-1 text in print order,
-with offsets recorded so the pieces can be sliced apart again
-(`body/rejoin.ts`). Dropping an empty lead therefore consumes sense 1,
-and does so invisibly to both text-level gates.
+`senses[0]`'s gloss carries the **gloss head**: a pure concatenation of
+`content.morphology` + `language_code` + `language_reference` + the
+first source sense's text in print order (`body/rejoin.ts`, whose
+offsets slice the pieces apart again inside the import and are never
+stored). What that makes `senses[0]` depends on the entry. In the
+committed tree it is the entry's only sense, the whole definition, in
+29,209 entries; sense `1)` itself with the lead joined on in 1,030
+(38 of those are also the only sense); and an unlabelled lead before
+further senses in 2,311. 467 entries have a whitespace-only
+`senses[0].gloss`. No field names the head, by ruling 10-04 lead text.
+
+The position trap is inside the import's source walk, not in entry
+files. `body/trace.ts` joins the lead onto source sense 0, so a rule
+that dropped an empty source sense there would join it onto sense 1
+instead, invisibly to both text-level gates. In an entry file every
+label is an explicit string, so deleting an empty lead consumes
+nothing.
 
 The body is derived by four splits, each with a deliberate failure
 direction:
 
-- **Labels.** `"—2)"` → `"2"` and so on, with byte-exact print
-  regeneration or quarantine to `{unknown}` (`body/labels.ts`).
+- **Labels.** `"—2)"` → `"2"` and so on, or quarantine to `{unknown}`
+  (`body/labels.ts`). A star is kept: `"*2)"` → `"2"` with
+  `reconstructed: true`. The dash is dropped, by ruling 10-04 sense
+  star, so a stored label regenerates `N)` and `*N)` byte-exact and
+  never the dash.
 - **Lettered items.** `a) … b) … c)` split into child senses, but only
   a complete ascending run outside parens and anchors splits.
   Everything else stays whole (`body/lettered.ts`).
@@ -858,11 +872,14 @@ standing between a placement correction and invented notation.
 *Proves:* tag-stripped text agrees field by field between the composed
 body and the finished entry, with `pairs()` walking to the **longer**
 of the two sides at every depth and emitting an array-length pair at
-every depth, plus a `stems` length mark.
+every depth, plus a `stems` length mark. Each sense's label counts as
+a field, regenerated with its star from `label` and `reconstructed`
+(`*2`), so a star finishing drops or invents is a failure.
 *Cannot see:* markup — `textOf` strips tags by design, so a
 translation that only rewrites tags conserves text. And it compares
 composed-against-finished, never a rule against its own input, which
-is why `transform/no-lost-text.ts` exists.
+is why `transform/no-lost-text.ts` exists. Nor the source label: a
+star the body never built is equal on both sides.
 
 **4. `schema`** (Ajv 2020, `strict: true`, `allErrors: true`, compiled
 at run time from `data/schema/entry.schema.json` by the entry
@@ -965,9 +982,9 @@ assemble from the ten entries above:
 - **A rule that unlinks one anchor and mints another** nets to zero on
   the anchor-count invariant. Closing that needs anchor *identity*
   reconciliation, which no case does.
-- **A sense dropped at index 0.** `senses[0]` is the gloss head, so
-  dropping an empty lead consumes sense 1 invisibly to both text-level
-  gates.
+- **A source sense dropped at index 0.** The import joins the gloss
+  head onto source sense 0, so dropping an empty one there consumes
+  sense 1 invisibly to both text-level gates (§2).
 - **A data regression in CI.** Per-PR CI never reads `data/source/` and
   never runs import, so it cannot see one. That is a deliberate,
   stated cost. What CI does see is the committed tree against the entry
@@ -1305,8 +1322,9 @@ These four are real constraints and nothing in the module checks them.
 58. **No sense is renumbered while nothing addresses a sense.** The
     measurement behind it: 0 of 71,376 internal refs carry a sense
     pointer. The dangerous half is prohibition-adjacent rather than
-    prohibited — `senses[0]` is the gloss head, so dropping an empty
-    lead consumes sense 1 invisibly to the text gates.
+    prohibited — the import joins the gloss head onto source sense 0,
+    so dropping an empty one there consumes sense 1 invisibly to the
+    text gates (§2).
 59. **The publication gate is a process rule.** Nothing refuses a
     publish while `blocks` rows exist.
 60. **Import is the only writer of `sefariaHeadword`.** The admin tool
