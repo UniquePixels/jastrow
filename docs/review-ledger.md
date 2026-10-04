@@ -50,10 +50,11 @@ brackets.
 - [x] Make `Entry` and `entry.schema.json` agree; add a parity test;
       move `schema.test.ts` into `admin/entry/` [L01]
 - [x] Gender exclusivity in `validateEntry` [L20]
-- [ ] Export `RID`, one field walker, the Hebrew key helpers and
+- [x] Export `RID`, one field walker, the Hebrew key helpers and
       `ABBREVIATIONS` from `admin/entry/` [L04]
       (can also wait until compile first needs each one)
-      (exports done in #147; the two moves wait on L02)
+      (exports done in #147; `hebrew.ts` moved in #149; `abbrev-vocab.ts`
+      stays, it imports pipeline code)
 
 ### 3. Doc sync — one PR, agent work
 
@@ -68,7 +69,7 @@ brackets.
 
 ### 4. Rulings — maintainer, rows in `decisions.md`
 
-- [ ] Where `compile.ts` lives, and the biome rule that keeps consumers
+- [x] Where `compile.ts` lives, and the biome rule that keeps consumers
       out of `admin/pipeline/` [L02]
 - [ ] Keep or drop, each a yes/no: sense-label `*`/`—` marks;
       gloss-head offsets; a named gloss-head field instead of
@@ -131,6 +132,7 @@ brackets.
 
 - [ ] `import.meta.main` guard in `transform/count.ts` [L33]
 - [ ] Flow diagram's dry-run box names the headword-issues report [L34]
+- [ ] `hebrew.ts` confusion groups `גנ` and `ףפ` never fire [L35]
 
 ## Ledger
 
@@ -140,9 +142,9 @@ architecture, data, docs; every row confirmed by the controller).
 | Id | Finding | Where | Class | Status |
 |---|---|---|---|---|
 | L01 | `Sense.units` required in TS, optional in schema; schema allows `grammar.pos` (not in type) and `reconstructed:false` (type says `true`); `validate.ts:66` casts the guard | `admin/entry/types.ts:56-61`, `data/schema/entry.schema.json` | contract | closed #147 |
-| L02 | Nothing stops `app/` or a future compile module importing `admin/pipeline/`; biome guards one direction; compile's home unsettled (README: Stage 3; CLAUDE.md: separate) | `biome.json` | ruling | open |
+| L02 | Nothing stops `app/` or a future compile module importing `admin/pipeline/`; biome guards one direction; compile's home unsettled (README: Stage 3; CLAUDE.md: separate) | `biome.json` | ruling | ruled (decisions.md row `10-04 compile home`); PR #149 |
 | L03 | Update run and atomic write unbuilt; `--write` refuses a populated tree; R11 "live, not in code" | `admin/pipeline/import.ts:461` | post-release | ruled low priority (maintainer, 2026-10-02) |
-| L04 | Helpers compile will need live only in the pipeline: `page-index/hebrew.ts` keys, `transform/abbrev-vocab.ts`, three field walkers, unexported `RID` | listed | contract | closed #147 (exports); moves wait on L02 |
+| L04 | Helpers compile will need live only in the pipeline: `page-index/hebrew.ts` keys, `transform/abbrev-vocab.ts`, three field walkers, unexported `RID` | listed | contract | PR #149 (the moves; exports closed #147). `abbrev-vocab.ts` cannot move: it imports pipeline `types.ts` and `transform/no-new-text.ts` |
 | L05 | One-way doors: `senses[0]` is the gloss head with no field (467 whitespace-only); sense-label `*`/`—` dropped on write (`*2)` → `"2"`, A01249; 107 `*N)`, ~5,440 `—N)` in source); gloss-head offsets computed in `body/rejoin.ts`, never stored | `admin/pipeline/body/trace.ts:85-98` | ruling | open |
 | L06 | "Flagged by the processor" column can never fire: regex takes the whole headword line as `form`, compared to one form's text; 1,601 rids on both lists, 0 flagged; no test | `admin/pipeline/report/headword-issues.ts:47,327-343` | bug | closed #146 |
 | L07 | #142 removed the detector-floor control; `DETECTED_CLASSES` is static, so a dead predicate erases its class from rows and catalogue alike, gates green | `admin/pipeline/import/review-report.ts:60-67` | bug | closed #146 |
@@ -173,6 +175,7 @@ architecture, data, docs; every row confirmed by the controller).
 | L32 | Root `README.md` says one module has been written on v2 and that the pipeline knows nothing about the rest of the repo; `admin/entry/` is a second module since #141, and its README is not in the documents table. Found by the group 3 agent | `README.md` | doc | PR #148 |
 | L33 | `transform/count.ts` calls `await main()` at top level with no `import.meta.main` guard, the shape L19 fixed in `fetch.ts`. Found by the group 3 agent | `admin/pipeline/transform/count.ts:145` | nit | open |
 | L34 | The flow diagram's dry-run box says a run writes `import-blessing.md` and `review-report.md`; it also writes the headword-issues report (`.md` and `.csv`). Found by the group 3 agent | `docs/pipeline-flow.drawio.svg` | doc | open |
+| L35 | `hebrew.ts` maps each letter to its FIRST confusion group only, and נ and פ sit in earlier groups, so the `גנ` and `ףפ` groups never pair and `ocrSimilarity` charges 1, not 0.5, for those slips. Latent: nothing live calls it since the page-index build was archived. Found by local CodeRabbit on #149 (a byte-identical move) | `admin/entry/hebrew.ts:140-171` | bug (latent) | open |
 
 Shapes compile must handle, not defects: 10,744 gloss heads begin with
 `,`; 33 entries have no `display`; 467 have an empty gloss head
