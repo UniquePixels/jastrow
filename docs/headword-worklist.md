@@ -9,7 +9,7 @@ defect is cheapest fixed now. Everything else can wait for the admin
 tool.
 
 `docs/reports/headword-issues.md` lists 382 rows whose role is
-`headword` (H6 6, X1 2, X5 115, X7 123, X8 136). Most are settled by
+`headword` (H6 6, X1 2, X5 115, X7 123, X8 104, X9 32). Most are settled by
 rulings already in [`decisions.md`](decisions.md). This file sorts
 them so only the rows that truly need the print are left for you, with
 the print evidence beside each one. Nothing here changes entry data.
@@ -18,9 +18,9 @@ the print evidence beside each one. Nothing here changes entry data.
 
 | Pile | Rows | What it means | Who acts |
 |---|---|---|---|
-| C | 79 | The evidence is ambiguous or the hOCR is too noisy. One print read each | You tick a box per question; Claude writes the patches |
+| C | 81 | The evidence is ambiguous or the hOCR is too noisy. One print read each | You tick a box per question; Claude writes the patches |
 | B | 11 | The fix is determinable: the hOCR shows a numeral Sefaria dropped | You tick a box per row below; Claude writes the patch |
-| A | 288 | A ruling keeps the shape as printed, or the hOCR confirms the stored numbering | Nobody |
+| A | 286 | A ruling keeps the shape as printed, or the hOCR confirms the stored numbering | Nobody |
 | D | 4 | Not a name problem: no fix would change a URL name | Nobody now |
 
 | Shape | Rows | A | B | C | D |
@@ -29,17 +29,24 @@ the print evidence beside each one. Nothing here changes entry data.
 | X1 leading mark | 2 | 2 | 0 | 0 | 0 |
 | X5 maqaf | 115 | 113 | 0 | 2 | 0 |
 | X7 abbreviation | 123 | 123 | 0 | 0 | 0 |
-| X8 numbering gap | 136 | 44 | 11 | 77 | 4 |
-| **Total** | **382** | **288** | **11** | **79** | **4** |
+| X8 numbering gap | 104 | 42 | 10 | 52 | 0 |
+| X9 pointing in a sequence | 32 | 0 | 1 | 27 | 4 |
+| **Total** | **382** | **286** | **11** | **81** | **4** |
 
 X8 is worked per family: each X8 row is one family of entries spelled
 alike, and its fix often lands on a sibling rid, not the row's own.
+X9 is worked per sequence: each X9 row is one place where a numbered
+sequence changes its pointing ([decisions](decisions.md) 10-05).
+Pile B is untouched, but one of its rows is now X9: U01774, the
+family check for U01772. The sequence rule pairs U01774 `שְׁפַל` II
+with U01771 `שָׁפֵל` I, while the hOCR reads U01772 `שְׁפַל` as I.
+That pairing is the rule's known blind spot; pile B's fix ends it.
 
 Outside the 382: U00489's primary is the single letter `ש`, a name
 defect the report flags only on its alternate. It is in
 [the five X1 and #113 rids](#the-five-x1-and-113-rids) below, in pile C.
 
-## Pile C: needs your print read (79)
+## Pile C: needs your print read (81)
 
 Each row names the scan leaf; the page link opens the Internet Archive image. The hOCR column is the OCR of that print line, copied as it is. Volume 1 (pages 1–676) is Tesseract and garbles Hebrew; volume 2 (677–1704) is ABBYY, which turns Hebrew into Latin noise but reads Roman numerals well. Under each question are answer boxes. Open the scan link, tick ONE box (change `[ ]` to `[x]`), and add a note only if a box asks for one or you saw something else. You never need to type Hebrew: describe it in words ("hataf patah under the alef") and Claude builds the spelling and shows it back to you. Skip any question you like; unticked questions simply stay open. When you stop, tell Claude: it reads the ticks, writes the reviewed patches, re-imports, and opens a PR that shows every change for you to approve. You write no patch and use no tool.
 
@@ -65,45 +72,27 @@ Each row names the scan leaf; the page link opens the Internet Archive image. Th
   - note: correct page is 1376b
 
 
-### X8 Pointing: is one stored spelling a slip? (29)
+### X9 Pointing: a mark is missing on one spelling (15)
 
-The missing numeral sits on a neighbour whose pointing differs from this family's by one mark, or by a vowel. Either the print spells the two differently (then the gap is real) or one stored headword has a slip (then its name changes). No vowel is inferred here; the print decides.
+Each of these was an X8 row while the report keyed a family on its exact spelling. Its numerals run once through a sequence of one consonant skeleton ([decisions](decisions.md) 10-05), so the numbering is complete; the pointing is what is left. One spelling lacks a mark its sequence neighbour has, letter for letter, so one stored headword is likely a slip. On `headwords[0]` the fix changes that entry's URL name. Nothing is inferred: the print decides.
 
-#### `אֲגוֹרָא`: missing I (row [A00279](https://jastrow.app/#rid:A00279))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [A00278](https://jastrow.app/#rid:A00278) | `אֱגוֹרָא I` | `NTUN 1 אִיגורָא ch. same; esp. heathen altar` | [12a · leaf 35](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$36/full/1400,/0/default.jpg) |
-| [A00279](https://jastrow.app/#rid:A00279) | `אֲגוֹרָא II` | `אִגורָא II £.(ay0p4) market-place, court-session, court.` | [12a · leaf 35](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$36/full/1400,/0/default.jpg) |
-
-**Question.** A00278 holds the I as `אֱגוֹרָא`; this family is `אֲגוֹרָא`. They differ only in א: hataf segol vs hataf patah (A00278 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `אֱגוֹרָא` (the way A00278 has it)
-  - [ ] print spells both as `אֲגוֹרָא` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `אִילְפָא`: missing I (row [A01311](https://jastrow.app/#rid:A01311))
+#### `אִילפָא` I, `אִילְפָא` II (row [A01311](https://jastrow.app/#rid:A01311))
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [A01310](https://jastrow.app/#rid:A01310) | `אִילפָא I` | `NONI, NDON +. ,אלף) FD"; Assyr. élippu) ship,` | [50a · leaf 73](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$74/full/1400,/0/default.jpg) |
 | [A01311](https://jastrow.app/#rid:A01311) | `אִילְפָא II` | `אילפא. 11 pr. .ם .גת Ifa, an Amora,` | [50a · leaf 73](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$74/full/1400,/0/default.jpg) |
 
-**Question.** A01310 holds the I as `אִילפָא`; this family is `אִילְפָא`. They differ only in ל: no mark vs sheva (A01310 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
+**Question.** `אִילפָא` (A01310, I) is stored with no mark under ל; its sequence neighbour `אִילְפָא` (A01311, II) has sheva. Is the letter pointed in print?
 
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `אִילפָא` (the way A01310 has it)
-  - [ ] print spells both as `אִילְפָא` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
+  - [ ] print has the mark: the stored `אִילפָא` is missing it
+  - [ ] print has no mark there: `אִילפָא` is right as stored
+  - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 
-#### `אִימָּא`: missing I (row [A01320](https://jastrow.app/#rid:A01320))
+#### `אימָּא` I, `אִימָּא` II (row [A01320](https://jastrow.app/#rid:A01320))
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
@@ -111,17 +100,16 @@ The missing numeral sits on a neighbour whose pointing differs from this family'
 | [A01320](https://jastrow.app/#rid:A01320) | `אִימָּא II` | `1אימא ,אמא TIN f. ch. (=h. 58) 1)` | [50a · leaf 73](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$74/full/1400,/0/default.jpg) |
 | [A01321](https://jastrow.app/#rid:A01321) | `אִימָּא III` | `NON III pr. n. f. [or title; cmp.` | [50b · leaf 73](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$74/full/1400,/0/default.jpg) |
 
-**Question.** A01319 holds the I as `אימָּא`; this family is `אִימָּא`. They differ only in א: no mark vs hiriq (A01319 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
+**Question.** `אימָּא` (A01319, I) is stored with no mark under א; its sequence neighbour `אִימָּא` (A01320, II) has hiriq. Is the letter pointed in print?
 
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `אימָּא` (the way A01319 has it)
-  - [ ] print spells both as `אִימָּא` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
+  - [ ] print has the mark: the stored `אימָּא` is missing it
+  - [ ] print has no mark there: `אימָּא` is right as stored
+  - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 
-#### `אִיסְטְוָוא`: missing I (row [A01420](https://jastrow.app/#rid:A01420))
+#### `אִיסטְוָוא` I, `אִיסְטְוָוא` II (row [A01420](https://jastrow.app/#rid:A01420))
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
@@ -129,119 +117,80 @@ The missing numeral sits on a neighbour whose pointing differs from this family'
 | [A01419](https://jastrow.app/#rid:A01419) | `אִיסטְוָוא I` | not found in the hOCR | [54b · leaf 77](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$78/full/1400,/0/default.jpg) |
 | [A01420](https://jastrow.app/#rid:A01420) | `אִיסְטְוָוא II` | `איסטווא Il, ‘ON (m.?) (Isp. noun of סול` | [54b · leaf 77](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$78/full/1400,/0/default.jpg) |
 
-**Question.** A01419 holds the I as `אִיסטְוָוא`; this family is `אִיסְטְוָוא`. They differ only in ס: no mark vs sheva (A01419 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
+**Question.** `אִיסטְוָוא` (A01419, I) is stored with no mark under ס; its sequence neighbour `אִיסְטְוָוא` (A01420, II) has sheva. Is the letter pointed in print?
 
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `אִיסטְוָוא` (the way A01419 has it)
-  - [ ] print spells both as `אִיסְטְוָוא` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
+  - [ ] print has the mark: the stored `אִיסטְוָוא` is missing it
+  - [ ] print has no mark there: `אִיסטְוָוא` is right as stored
+  - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 
-#### `אֲמָא`: missing I (row [A01965](https://jastrow.app/#rid:A01965))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [A01964](https://jastrow.app/#rid:A01964) | `אְמָא I` | `אמא 1 NON +. pox. Targ. 0. 604,111,` | [74a · leaf 97](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$98/full/1400,/0/default.jpg) |
-| [A01965](https://jastrow.app/#rid:A01965) | `אֲמָא II` | `NONIL Vas, fut. ,רימא imper. NDR ( 1/28` | [74a · leaf 97](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$98/full/1400,/0/default.jpg) |
-
-**Question.** A01964 holds the I as `אְמָא`; this family is `אֲמָא`. They differ only in א: sheva vs hataf patah (A01964 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `אְמָא` (the way A01964 has it)
-  - [ ] print spells both as `אֲמָא` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `גִּיהָא`: missing I (row [C00650](https://jastrow.app/#rid:C00650))
+#### `גִּיהא` I, `גִּיהָא` II (row [C00650](https://jastrow.app/#rid:C00650))
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [C00649](https://jastrow.app/#rid:C00649) | `גִּיהא I` | not found in the hOCR | [235b · leaf 258](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$259/full/1400,/0/default.jpg) |
 | [C00650](https://jastrow.app/#rid:C00650) | `גִּיהָא II` | not found in the hOCR | [235b · leaf 258](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$259/full/1400,/0/default.jpg) |
 
-**Question.** C00649 holds the I as `גִּיהא`; this family is `גִּיהָא`. They differ only in ה: no mark vs qamets (C00649 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
+**Question.** `גִּיהא` (C00649, I) is stored with no mark under ה; its sequence neighbour `גִּיהָא` (C00650, II) has qamats. Is the letter pointed in print?
 
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `גִּיהא` (the way C00649 has it)
-  - [ ] print spells both as `גִּיהָא` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
+  - [ ] print has the mark: the stored `גִּיהא` is missing it
+  - [ ] print has no mark there: `גִּיהא` is right as stored
+  - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 
-#### `דִּיוֹ`: missing I (row [D00501](https://jastrow.app/#rid:D00501))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [D00500](https://jastrow.app/#rid:D00500) | `דְּיוֹ I` | `דיר 1 5 .₪) he; 5) fluid, writing` | [296a · leaf 319](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$320/full/1400,/0/default.jpg) |
-| [D00501](https://jastrow.app/#rid:D00501) | `דִּיוֹ II` | `דייר 11 (ét-) two, double, a Greek prefix,` | [296a · leaf 319](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$320/full/1400,/0/default.jpg) |
-
-**Question.** D00500 holds the I as `דְּיוֹ`; this family is `דִּיוֹ`. They differ only in ד: sheva+dagesh vs hiriq+dagesh (D00500 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `דְּיוֹ` (the way D00500 has it)
-  - [ ] print spells both as `דִּיוֹ` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `הֲקָצָה`: missing I (row [E00802](https://jastrow.app/#rid:E00802))
+#### `הֲקָצה` I, `הֲקָצָה` II (row [E00802](https://jastrow.app/#rid:E00802))
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [E00801](https://jastrow.app/#rid:E00801) | `הֲקָצה I` | `ASP If. (y"P) waking up. Midr. Till. to` | [364b · leaf 387](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$388/full/1400,/0/default.jpg) |
 | [E00802](https://jastrow.app/#rid:E00802) | `הֲקָצָה II` | `הקצה 11 .+ ,קוץ) (קצץ cutting, שפתים- הצת` | [364b · leaf 387](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$388/full/1400,/0/default.jpg) |
 
-**Question.** E00801 holds the I as `הֲקָצה`; this family is `הֲקָצָה`. They differ only in צ: no mark vs qamets (E00801 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
+**Question.** `הֲקָצה` (E00801, I) is stored with no mark under צ; its sequence neighbour `הֲקָצָה` (E00802, II) has qamats. Is the letter pointed in print?
 
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `הֲקָצה` (the way E00801 has it)
-  - [ ] print spells both as `הֲקָצָה` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
+  - [ ] print has the mark: the stored `הֲקָצה` is missing it
+  - [ ] print has no mark there: `הֲקָצה` is right as stored
+  - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 
-#### `הרְהוּן`: missing I (row [E00837](https://jastrow.app/#rid:E00837))
+#### `הִרְהוּן` I, `הרְהוּן` II (row [E00837](https://jastrow.app/#rid:E00837))
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [E00836](https://jastrow.app/#rid:E00836) | `הִרְהוּן I` | not found in the hOCR | [366a · leaf 389](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$390/full/1400,/0/default.jpg) |
 | [E00837](https://jastrow.app/#rid:E00837) | `הרְהוּן II` | `הרתון IT m. wrin-soaked dung, v. ההון a.` | [366a · leaf 389](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$390/full/1400,/0/default.jpg) |
 
-**Question.** E00836 holds the I as `הִרְהוּן`; this family is `הרְהוּן`. They differ only in ה: hiriq vs no mark (E00836 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
+**Question.** `הרְהוּן` (E00837, II) is stored with no mark under ה; its sequence neighbour `הִרְהוּן` (E00836, I) has hiriq. Is the letter pointed in print?
 
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `הִרְהוּן` (the way E00836 has it)
-  - [ ] print spells both as `הרְהוּן` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
+  - [ ] print has the mark: the stored `הרְהוּן` is missing it
+  - [ ] print has no mark there: `הרְהוּן` is right as stored
+  - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 
-#### `חֲבִילָא`: missing I (row [H00067](https://jastrow.app/#rid:H00067))
+#### `חֲבִילא` I, `חֲבִילָא` II (row [H00067](https://jastrow.app/#rid:H00067))
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [H00066](https://jastrow.app/#rid:H00066) | `חֲבִילא I` | not found in the hOCR | [419a · leaf 442](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$443/full/1400,/0/default.jpg) |
 | [H00067](https://jastrow.app/#rid:H00067) | `חֲבִילָא II` | `two nations) is severed —Pl. pian. Lev. BR.` | [419a · leaf 442](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$443/full/1400,/0/default.jpg) |
 
-**Question.** H00066 holds the I as `חֲבִילא`; this family is `חֲבִילָא`. They differ only in ל: no mark vs qamets (H00066 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
+**Question.** `חֲבִילא` (H00066, I) is stored with no mark under ל; its sequence neighbour `חֲבִילָא` (H00067, II) has qamats. Is the letter pointed in print?
 
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `חֲבִילא` (the way H00066 has it)
-  - [ ] print spells both as `חֲבִילָא` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
+  - [ ] print has the mark: the stored `חֲבִילא` is missing it
+  - [ ] print has no mark there: `חֲבִילא` is right as stored
+  - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 
-#### `חַיְּיתָא`: missing I, II (row [H00749](https://jastrow.app/#rid:H00749))
+#### `חַיְיתָא` II, `חַיְּיתָא` III (row [H00749](https://jastrow.app/#rid:H00749))
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
@@ -250,34 +199,232 @@ The missing numeral sits on a neighbour whose pointing differs from this family'
 | [H00749](https://jastrow.app/#rid:H00749) | `חַיְּיתָא III` | `הייפא LTT, היסא + ₪ א ;יח rary,` | [455b · leaf 478](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$479/full/1400,/0/default.jpg) |
 | [H00750](https://jastrow.app/#rid:H00750) | `חַיְּיתָא` | `,חויתא התא 1 .₪ ,חות) 6 נָחַת .₪` | [455b · leaf 478](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$479/full/1400,/0/default.jpg) |
 
-**Question.** H00747 holds the I as `חַיְיתָא`; this family is `חַיְּיתָא`. They differ only in י: sheva vs sheva+dagesh (H00747 first). H00748 holds the II as `חַיְיתָא`; this family is `חַיְּיתָא`. They differ only in י: sheva vs sheva+dagesh (H00748 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I, II. Note the unnumbered H00750 too.
+**Question.** `חַיְיתָא` (H00748, II) is stored with no dagesh on י; its sequence neighbour `חַיְּיתָא` (H00749, III) has it. Is the letter pointed that way in print? Note the unnumbered H00750 too.
 
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `חַיְיתָא` (the way H00747 has it)
-  - [ ] print spells both as `חַיְּיתָא` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
+  - [ ] print has the mark: the stored `חַיְיתָא` is missing it
+  - [ ] print has no mark there: `חַיְיתָא` is right as stored
+  - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 
-#### `חֲלָמָה`: missing I (row [H01089](https://jastrow.app/#rid:H01089))
+#### `טְבִיעה` I, `טְבִיעָה` II (row [I00057](https://jastrow.app/#rid:I00057))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [I00056](https://jastrow.app/#rid:I00056) | `טְבִיעה I` | `‘on מן ‘Tee שהסרתל whom 1 saved from` | [517a · leaf 540](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$541/full/1400,/0/default.jpg) |
+| [I00057](https://jastrow.app/#rid:I00057) | `טְבִיעָה II` | not found in the hOCR | [517a · leaf 540](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$541/full/1400,/0/default.jpg) |
+
+**Question.** `טְבִיעה` (I00056, I) is stored with no mark under ע; its sequence neighbour `טְבִיעָה` (I00057, II) has qamats. Is the letter pointed in print?
+
+  - [ ] print has the mark: the stored `טְבִיעה` is missing it
+  - [ ] print has no mark there: `טְבִיעה` is right as stored
+  - [ ] something else (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `מָצַּר` I, `מָצַר` II (row [M02354](https://jastrow.app/#rid:M02354))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [M02352](https://jastrow.app/#rid:M02352) | `מָצַּר I` | `IIEIZ I (sec. r. of -ns) to twist,` | [827b · leaf 150](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$151/full/1400,/0/default.jpg) |
+| [M02354](https://jastrow.app/#rid:M02354) | `מָצַר II` | `"I22S H (denom. of nsa) to rfe/?7»« the` | [827b · leaf 150](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$151/full/1400,/0/default.jpg) |
+
+**Question.** `מָצַר` (M02354, II) is stored with no dagesh on צ; its sequence neighbour `מָצַּר` (M02352, I) has it. Is the letter pointed that way in print?
+
+  - [ ] print has the mark: the stored `מָצַר` is missing it
+  - [ ] print has no mark there: `מָצַר` is right as stored
+  - [ ] something else (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `מרוּצָה` I, `מְרוּצָה` II (row [M02602](https://jastrow.app/#rid:M02602))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [M02601](https://jastrow.app/#rid:M02601) | `מרוּצָה I` | `M^ID I f. (b. h. ; y!Ti) running.` | [839a · leaf 162](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$163/full/1400,/0/default.jpg) |
+| [M02602](https://jastrow.app/#rid:M02602) | `מְרוּצָה II` | `n^lQ"II f. (b.h.; yin) oppression, arrogance. Ruth` | [839b · leaf 162](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$163/full/1400,/0/default.jpg) |
+
+**Question.** `מרוּצָה` (M02601, I) is stored with no mark under מ; its sequence neighbour `מְרוּצָה` (M02602, II) has sheva. Is the letter pointed in print?
+
+  - [ ] print has the mark: the stored `מרוּצָה` is missing it
+  - [ ] print has no mark there: `מרוּצָה` is right as stored
+  - [ ] something else (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `נָּקִי` I, `נָקִי` II (row [N01196](https://jastrow.app/#rid:N01196))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [N01195](https://jastrow.app/#rid:N01195) | `נָּקִי I` | `"pJ I m. (b.h.; preced.) clean, clear; bare.` | [932b · leaf 255](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$256/full/1400,/0/default.jpg) |
+| [N01196](https://jastrow.app/#rid:N01196) | `נָקִי II` | `"'pO II m. (preced.) a young lamb (v.` | [932b · leaf 255](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$256/full/1400,/0/default.jpg) |
+
+**Question.** `נָקִי` (N01196, II) is stored with no dagesh on נ; its sequence neighbour `נָּקִי` (N01195, I) has it. Is the letter pointed that way in print?
+
+  - [ ] print has the mark: the stored `נָקִי` is missing it
+  - [ ] print has no mark there: `נָקִי` is right as stored
+  - [ ] something else (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `עִוּזָּא` I, `עוּזָּא` II (row [P00219](https://jastrow.app/#rid:P00219))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [P00218](https://jastrow.app/#rid:P00218) | `עִוּזָּא I` | `Sll!? I, Sl> m. (cmp. preced.) name of` | [1049a · leaf 372](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$373/full/1400,/0/default.jpg) |
+| [P00219](https://jastrow.app/#rid:P00219) | `עוּזָּא II` | `#V\V II, nvi'J, 'l" (b. h.) pr. n.` | [1049a · leaf 372](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$373/full/1400,/0/default.jpg) |
+
+**Question.** `עוּזָּא` (P00219, II) is stored with no mark under ע; its sequence neighbour `עִוּזָּא` (P00218, I) has hiriq. Is the letter pointed in print?
+
+  - [ ] print has the mark: the stored `עוּזָּא` is missing it
+  - [ ] print has no mark there: `עוּזָּא` is right as stored
+  - [ ] something else (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `ענָוָה` I, `עֲנָוָה` II (row [P00959](https://jastrow.app/#rid:P00959))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [P00958](https://jastrow.app/#rid:P00958) | `ענָוָה I` | `H13^ I, (fT02) f. (H5S I) dimne response` | [1092a · leaf 415](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$416/full/1400,/0/default.jpg) |
+| [P00959](https://jastrow.app/#rid:P00959) | `עֲנָוָה II` | `niD^ II f. (b.h. ; SiiSH) humility, lowliness,` | [1092a · leaf 415](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$416/full/1400,/0/default.jpg) |
+
+**Question.** `ענָוָה` (P00958, I) is stored with no mark under ע; its sequence neighbour `עֲנָוָה` (P00959, II) has hataf patah. Is the letter pointed in print?
+
+  - [ ] print has the mark: the stored `ענָוָה` is missing it
+  - [ ] print has no mark there: `ענָוָה` is right as stored
+  - [ ] something else (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `קְבַל` III, `קְבל` IV (row [S00064](https://jastrow.app/#rid:S00064))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [S00059](https://jastrow.app/#rid:S00059) | `קָבַל II` | `5Dj> II (cmp. b2M) to feel oppressed; to` | [1309a · leaf 632](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$633/full/1400,/0/default.jpg) |
+| [S00061](https://jastrow.app/#rid:S00061) | `קְבַל III` | `33p III, ^"Gp (cmp. preced.) [to be thick,]` | [1309b · leaf 632](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$633/full/1400,/0/default.jpg) |
+| [S00064](https://jastrow.app/#rid:S00064) | `קְבל IV` | `bnp iv, Stjg, abnj?, &h$>, 'np, ':rp i` | [1309b · leaf 632](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$633/full/1400,/0/default.jpg) |
+
+**Question.** `קְבל` (S00064, IV) is stored with no mark under ב; its sequence neighbour `קְבַל` (S00061, III) has patah. Is the letter pointed in print? The hOCR reads `bnp iv` (lowercase), which the reader does not count. The same sequence changes pointing once more, `קָבַל` II to `קְבַל` III (S00061); that one is in pile D.
+
+  - [ ] print has the mark: the stored `קְבל` is missing it
+  - [ ] print has no mark there: `קְבל` is right as stored
+  - [ ] something else (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+### X9 Pointing: the vowels differ (12)
+
+Here a vowel stands where the sequence neighbour has another one. That is usually deliberate, a Hebrew word beside its Aramaic counterpart or a loan word, but not always: A01964's sheva under the alef looks like a slip. The question is only whether print has both spellings as stored.
+
+#### `אֱגוֹרָא` I, `אֲגוֹרָא` II (row [A00279](https://jastrow.app/#rid:A00279))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [A00278](https://jastrow.app/#rid:A00278) | `אֱגוֹרָא I` | `NTUN 1 אִיגורָא ch. same; esp. heathen altar` | [12a · leaf 35](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$36/full/1400,/0/default.jpg) |
+| [A00279](https://jastrow.app/#rid:A00279) | `אֲגוֹרָא II` | `אִגורָא II £.(ay0p4) market-place, court-session, court.` | [12a · leaf 35](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$36/full/1400,/0/default.jpg) |
+
+**Question.** `אֱגוֹרָא` (A00278, I) and `אֲגוֹרָא` (A00279, II) are pointed differently: א: hataf segol vs hataf patah. Are both printed as stored?
+
+  - [ ] yes, both as stored: nothing to fix
+  - [ ] no, `אֱגוֹרָא` is wrong in print terms (say what you see in the note)
+  - [ ] no, `אֲגוֹרָא` is wrong (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `אָכַל` I, `אֲכַל` II (row [A01698](https://jastrow.app/#rid:A01698))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [A01697](https://jastrow.app/#rid:A01697) | alt `אָכַל I` (of `אֲכַל`) | `1 ch. 1) eame—tet, Se75, מרכול Tare` | [63a · leaf 86](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$87/full/1400,/0/default.jpg) |
+| [A01698](https://jastrow.app/#rid:A01698) | `אֲכַל II` | `SON 11). 1. of (כול fo measure. Ned.` | [63b · leaf 86](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$87/full/1400,/0/default.jpg) |
+
+**Question.** `אָכַל` (A01697, I) and `אֲכַל` (A01698, II) are pointed differently: א: qamats vs hataf patah. Are both printed as stored? This was pile A (HW-roman): Sefaria's line for A01697 is `אֲכַל, אָכַל I`, with the I on the second form, so A01697's primary `אֲכַל` is unnumbered. The page index puts A01697 on 63a; the hOCR line quoted for it is in 63b.
+
+  - [ ] yes, both as stored: nothing to fix
+  - [ ] no, `אָכַל` is wrong in print terms (say what you see in the note)
+  - [ ] no, `אֲכַל` is wrong (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `אְמָא` I, `אֲמָא` II (row [A01965](https://jastrow.app/#rid:A01965))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [A01964](https://jastrow.app/#rid:A01964) | `אְמָא I` | `אמא 1 NON +. pox. Targ. 0. 604,111,` | [74a · leaf 97](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$98/full/1400,/0/default.jpg) |
+| [A01965](https://jastrow.app/#rid:A01965) | `אֲמָא II` | `NONIL Vas, fut. ,רימא imper. NDR ( 1/28` | [74a · leaf 97](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$98/full/1400,/0/default.jpg) |
+
+**Question.** `אְמָא` (A01964, I) and `אֲמָא` (A01965, II) are pointed differently: א: sheva vs hataf patah. Are both printed as stored?
+
+  - [ ] yes, both as stored: nothing to fix
+  - [ ] no, `אְמָא` is wrong in print terms (say what you see in the note)
+  - [ ] no, `אֲמָא` is wrong (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `בָּסַר` II, `בְּסַר` III (row [B01014](https://jastrow.app/#rid:B01014))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [B01010](https://jastrow.app/#rid:B01010) | `בָּסַר I` | `4 (בסס fo tread upom; trnef. .צ) בע` | [179b · leaf 202](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$203/full/1400,/0/default.jpg) |
+| [B01011](https://jastrow.app/#rid:B01011) | `בְּסַר` | `7023 ch. same, Targ. Ps. LXIX, 34; a.` | [180a · leaf 203](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$204/full/1400,/0/default.jpg) |
+| [B01012](https://jastrow.app/#rid:B01012) | `בָּסַר II` | `703 II (7/3, v. (בסם to begin to` | [180a · leaf 203](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$204/full/1400,/0/default.jpg) |
+| [B01013](https://jastrow.app/#rid:B01013) | `בְּסַר²` | `בסר ch. same. 1) Part. "O32 m., NOR` | [180a · leaf 203](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$204/full/1400,/0/default.jpg) |
+| [B01014](https://jastrow.app/#rid:B01014) | `בְּסַר III` | `OA ,זז N TOD flesh, +. iva, בּמְרָא` | [180a · leaf 203](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$204/full/1400,/0/default.jpg) |
+
+**Question.** `בָּסַר` (B01012, II) and `בְּסַר` (B01014, III) are pointed differently: ב: qamats and dagesh vs sheva and dagesh. Are both printed as stored? New in this list: under the exact-spelling key `בְּסַר` III looked complete, because B01369 and B01370 carry a `בְּסַר` I and II for another word. B01011 and B01013 (`בְּסַר²`) are the unnumbered `ch. same` lines between.
+
+  - [ ] yes, both as stored: nothing to fix
+  - [ ] no, `בָּסַר` is wrong in print terms (say what you see in the note)
+  - [ ] no, `בְּסַר` is wrong (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `דְּיוֹ` I, `דִּיוֹ` II (row [D00501](https://jastrow.app/#rid:D00501))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [D00500](https://jastrow.app/#rid:D00500) | `דְּיוֹ I` | `דיר 1 5 .₪) he; 5) fluid, writing` | [296a · leaf 319](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$320/full/1400,/0/default.jpg) |
+| [D00501](https://jastrow.app/#rid:D00501) | `דִּיוֹ II` | `דייר 11 (ét-) two, double, a Greek prefix,` | [296a · leaf 319](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$320/full/1400,/0/default.jpg) |
+
+**Question.** `דְּיוֹ` (D00500, I) and `דִּיוֹ` (D00501, II) are pointed differently: ד: sheva and dagesh vs hiriq and dagesh. Are both printed as stored?
+
+  - [ ] yes, both as stored: nothing to fix
+  - [ ] no, `דְּיוֹ` is wrong in print terms (say what you see in the note)
+  - [ ] no, `דִּיוֹ` is wrong (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `חְלָמָה` I, `חֲלָמָה` II (row [H01089](https://jastrow.app/#rid:H01089))
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [H01088](https://jastrow.app/#rid:H01088) | alt `חְלָמָה I` (of `חֲלָמָא`) | `Set (FIRST T) +. cates 1) 5 sort` | [471a · leaf 494](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$495/full/1400,/0/default.jpg) |
 | [H01089](https://jastrow.app/#rid:H01089) | `חֲלָמָה II` | not found in the hOCR | [471a · leaf 494](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$495/full/1400,/0/default.jpg) |
 
-**Question.** H01088 holds the I as `חְלָמָה`; this family is `חֲלָמָה`. They differ only in ח: sheva vs hataf patah (H01088 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
+**Question.** `חְלָמָה` (H01088, I) and `חֲלָמָה` (H01089, II) are pointed differently: ח: sheva vs hataf patah. Are both printed as stored?
 
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `חְלָמָה` (the way H01088 has it)
-  - [ ] print spells both as `חֲלָמָה` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
+  - [ ] yes, both as stored: nothing to fix
+  - [ ] no, `חְלָמָה` is wrong in print terms (say what you see in the note)
+  - [ ] no, `חֲלָמָה` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 
-#### `חָרֵב`: missing I (row [H01579](https://jastrow.app/#rid:H01579))
+#### `חָרִב` I, `חָרֵב` II (row [H01579](https://jastrow.app/#rid:H01579))
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
@@ -285,32 +432,99 @@ The missing numeral sits on a neighbour whose pointing differs from this family'
 | [H01579](https://jastrow.app/#rid:H01579) | `חָרֵב II` | `חרב 11 ,ו nn, an f. (b. h.;` | [498a · leaf 521](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$522/full/1400,/0/default.jpg) |
 | [H01580](https://jastrow.app/#rid:H01580) | `חָרֵב` | not found in the hOCR | [498a · leaf 521](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$522/full/1400,/0/default.jpg) |
 
-**Question.** H01577 holds the I as `חָרִב`; this family is `חָרֵב`. They differ only in ר: hiriq vs tsere (H01577 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I. Note the unnumbered H01580 too.
+**Question.** `חָרִב` (H01577, I) and `חָרֵב` (H01579, II) are pointed differently: ר: hiriq vs tsere. Are both printed as stored? Note the unnumbered H01580 too.
 
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `חָרִב` (the way H01577 has it)
-  - [ ] print spells both as `חָרֵב` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
+  - [ ] yes, both as stored: nothing to fix
+  - [ ] no, `חָרִב` is wrong in print terms (say what you see in the note)
+  - [ ] no, `חָרֵב` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 
-#### `טְבִיעָה`: missing I (row [I00057](https://jastrow.app/#rid:I00057))
+#### `מָסַר` I, `מְסַר` II (row [M02008](https://jastrow.app/#rid:M02008))
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [I00056](https://jastrow.app/#rid:I00056) | `טְבִיעה I` | `‘on מן ‘Tee שהסרתל whom 1 saved from` | [517a · leaf 540](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$541/full/1400,/0/default.jpg) |
-| [I00057](https://jastrow.app/#rid:I00057) | `טְבִיעָה II` | not found in the hOCR | [517a · leaf 540](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$541/full/1400,/0/default.jpg) |
+| [M02007](https://jastrow.app/#rid:M02007) | alt `מָסַר I` (of `מְסַר`) | `ICE, ("iDC) I ch. same. Targ. Gen. XXXIX,` | [811a · leaf 134](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$135/full/1400,/0/default.jpg) |
+| [M02008](https://jastrow.app/#rid:M02008) | `מְסַר II` | `"1C/Q II, Pa. ")®/2 (denom. of tf-C-a) to` | [811a · leaf 134](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$135/full/1400,/0/default.jpg) |
 
-**Question.** I00056 holds the I as `טְבִיעה`; this family is `טְבִיעָה`. They differ only in ע: no mark vs qamets (I00056 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
+**Question.** `מָסַר` (M02007, I) and `מְסַר` (M02008, II) are pointed differently: מ: qamats vs sheva. Are both printed as stored? This was pile A (HW-roman): Sefaria's line for M02007 is `מְסַר, (מָסַר) I`, with the I on the form in parentheses, so M02007's primary `מְסַר` is unnumbered.
 
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `טְבִיעה` (the way I00056 has it)
-  - [ ] print spells both as `טְבִיעָה` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
+  - [ ] yes, both as stored: nothing to fix
+  - [ ] no, `מָסַר` is wrong in print terms (say what you see in the note)
+  - [ ] no, `מְסַר` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
+
+#### `מַרְעֵיתָא` I, `מַרְעִיתָא` II (row [M02740](https://jastrow.app/#rid:M02740))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [M02739](https://jastrow.app/#rid:M02739) | alt `מַרְעֵיתָא I` (of `מַרְעִית II`) | `rP^"]D IT, Sn"^l2 If. = xnria, evil &c.` | [845b · leaf 168](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$169/full/1400,/0/default.jpg) |
+| [M02740](https://jastrow.app/#rid:M02740) | `מַרְעִיתָא II` | `Sri'*?T3 II f. ch.=h. nr-.a. Targ. I Chr.` | [845b · leaf 168](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$169/full/1400,/0/default.jpg) |
+
+**Question.** `מַרְעֵיתָא` (M02739, I) and `מַרְעִיתָא` (M02740, II) are pointed differently: ע: tsere vs hiriq. Are both printed as stored?
+
+  - [ ] yes, both as stored: nothing to fix
+  - [ ] no, `מַרְעֵיתָא` is wrong in print terms (say what you see in the note)
+  - [ ] no, `מַרְעִיתָא` is wrong (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `עֲטַר` I, `עַטַר` II (row [P00477](https://jastrow.app/#rid:P00477))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [P00476](https://jastrow.app/#rid:P00476) | `עֲטַר I` | `"TE25 I same. Targ. Ps. LXXIII, 6 '31` | [1064b · leaf 387](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$388/full/1400,/0/default.jpg) |
+| [P00477](https://jastrow.app/#rid:P00477) | `עַטַר II` | `Pa. "OB to abolish entirely. Targ. II Chr.` | [1065a · leaf 388](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$389/full/1400,/0/default.jpg) |
+| [P00478](https://jastrow.app/#rid:P00478) | `עֲטַר III` | `~l"^3? III (preced. wds., cmp. lap) [to whirl` | [1065a · leaf 388](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$389/full/1400,/0/default.jpg) |
+
+**Question.** `עֲטַר` (P00476, I) and `עַטַר` (P00477, II) are pointed differently: ע: hataf patah vs patah. Are both printed as stored?
+
+  - [ ] yes, both as stored: nothing to fix
+  - [ ] no, `עֲטַר` is wrong in print terms (say what you see in the note)
+  - [ ] no, `עַטַר` is wrong (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `פִּרְכֵּס` I, `פִּרִכֵּס` II (row [Q01863](https://jastrow.app/#rid:Q01863))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [Q01862](https://jastrow.app/#rid:Q01862) | `פִּרְכֵּס I` | `02PlD I (enlargement of TpB) to rub, scrape.` | [1229b · leaf 552](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$553/full/1400,/0/default.jpg) |
+| [Q01863](https://jastrow.app/#rid:Q01863) | `פִּרִכֵּס II` | `D2T© II (preced.) [to rub, grind,] to move` | [1229b · leaf 552](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$553/full/1400,/0/default.jpg) |
+
+**Question.** `פִּרְכֵּס` (Q01862, I) and `פִּרִכֵּס` (Q01863, II) are pointed differently: ר: sheva vs hiriq. Are both printed as stored?
+
+  - [ ] yes, both as stored: nothing to fix
+  - [ ] no, `פִּרְכֵּס` is wrong in print terms (say what you see in the note)
+  - [ ] no, `פִּרִכֵּס` is wrong (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+#### `רְחִים` I, `רִחִים` II (row [T00500](https://jastrow.app/#rid:T00500))
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [T00499](https://jastrow.app/#rid:T00499) | `רְחִים I` | `DTP I m. (preced.) love. Targ. Cant. VII,` | [1466a · leaf 789](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$790/full/1400,/0/default.jpg) |
+| [T00500](https://jastrow.app/#rid:T00500) | `רִחִים II` | `DTl II, NET") m. (preced.) beloved, friend;` | [1466a · leaf 789](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$790/full/1400,/0/default.jpg) |
+
+**Question.** `רְחִים` (T00499, I) and `רִחִים` (T00500, II) are pointed differently: ר: sheva vs hiriq. Are both printed as stored?
+
+  - [ ] yes, both as stored: nothing to fix
+  - [ ] no, `רְחִים` is wrong in print terms (say what you see in the note)
+  - [ ] no, `רִחִים` is wrong (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+### X8 Pointing differs, but the numerals are not one sequence (4)
+
+These four were in the pointing section and stay X8: the sequence rule does not clear them, so their questions are unchanged. N00260: `נְהִי` II is given twice (N00260, N00261) with no superscript. P01246 and P01247: the `ערב` run gives I and II twice (P01242 `עָרַב` I, P01246 `עָרֵב` I). M02162: its I sits on an abbreviation, `מַעֲצַ׳`, whose letters differ.
 
 #### `מַעֲצַרְתָּא`: missing I (row [M02162](https://jastrow.app/#rid:M02162))
 
@@ -323,57 +537,6 @@ The missing numeral sits on a neighbour whose pointing differs from this family'
 
   - [ ] nothing to fix: the gap is Jastrow's own
   - [ ] there is a fix (say what print shows in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `מָצַר`: missing I (row [M02354](https://jastrow.app/#rid:M02354))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [M02352](https://jastrow.app/#rid:M02352) | `מָצַּר I` | `IIEIZ I (sec. r. of -ns) to twist,` | [827b · leaf 150](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$151/full/1400,/0/default.jpg) |
-| [M02354](https://jastrow.app/#rid:M02354) | `מָצַר II` | `"I22S H (denom. of nsa) to rfe/?7»« the` | [827b · leaf 150](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$151/full/1400,/0/default.jpg) |
-
-**Question.** M02352 holds the I as `מָצַּר`; this family is `מָצַר`. They differ only in צ: patah+dagesh vs patah (M02352 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `מָצַּר` (the way M02352 has it)
-  - [ ] print spells both as `מָצַר` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `מְרוּצָה`: missing I (row [M02602](https://jastrow.app/#rid:M02602))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [M02601](https://jastrow.app/#rid:M02601) | `מרוּצָה I` | `M^ID I f. (b. h. ; y!Ti) running.` | [839a · leaf 162](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$163/full/1400,/0/default.jpg) |
-| [M02602](https://jastrow.app/#rid:M02602) | `מְרוּצָה II` | `n^lQ"II f. (b.h.; yin) oppression, arrogance. Ruth` | [839b · leaf 162](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$163/full/1400,/0/default.jpg) |
-
-**Question.** M02601 holds the I as `מרוּצָה`; this family is `מְרוּצָה`. They differ only in מ: no mark vs sheva (M02601 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `מרוּצָה` (the way M02601 has it)
-  - [ ] print spells both as `מְרוּצָה` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `מַרְעִיתָא`: missing I (row [M02740](https://jastrow.app/#rid:M02740))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [M02739](https://jastrow.app/#rid:M02739) | alt `מַרְעֵיתָא I` (of `מַרְעִית II`) | `rP^"]D IT, Sn"^l2 If. = xnria, evil &c.` | [845b · leaf 168](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$169/full/1400,/0/default.jpg) |
-| [M02740](https://jastrow.app/#rid:M02740) | `מַרְעִיתָא II` | `Sri'*?T3 II f. ch.=h. nr-.a. Targ. I Chr.` | [845b · leaf 168](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$169/full/1400,/0/default.jpg) |
-
-**Question.** M02739 holds the I as `מַרְעֵיתָא`; this family is `מַרְעִיתָא`. They differ only in ע: tsere vs hiriq (M02739 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `מַרְעֵיתָא` (the way M02739 has it)
-  - [ ] print spells both as `מַרְעִיתָא` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
@@ -391,92 +554,6 @@ The missing numeral sits on a neighbour whose pointing differs from this family'
   - [ ] print spells them differently, so the gap is real
   - [ ] print spells both as `נְהֵי` (the way N00259 has it)
   - [ ] print spells both as `נְהִי` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `נָקִי`: missing I (row [N01196](https://jastrow.app/#rid:N01196))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [N01195](https://jastrow.app/#rid:N01195) | `נָּקִי I` | `"pJ I m. (b.h.; preced.) clean, clear; bare.` | [932b · leaf 255](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$256/full/1400,/0/default.jpg) |
-| [N01196](https://jastrow.app/#rid:N01196) | `נָקִי II` | `"'pO II m. (preced.) a young lamb (v.` | [932b · leaf 255](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$256/full/1400,/0/default.jpg) |
-
-**Question.** N01195 holds the I as `נָּקִי`; this family is `נָקִי`. They differ only in נ: qamets+dagesh vs qamets (N01195 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `נָּקִי` (the way N01195 has it)
-  - [ ] print spells both as `נָקִי` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `עוּזָּא`: missing I (row [P00219](https://jastrow.app/#rid:P00219))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [P00218](https://jastrow.app/#rid:P00218) | `עִוּזָּא I` | `Sll!? I, Sl> m. (cmp. preced.) name of` | [1049a · leaf 372](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$373/full/1400,/0/default.jpg) |
-| [P00219](https://jastrow.app/#rid:P00219) | `עוּזָּא II` | `#V\V II, nvi'J, 'l" (b. h.) pr. n.` | [1049a · leaf 372](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$373/full/1400,/0/default.jpg) |
-
-**Question.** P00218 holds the I as `עִוּזָּא`; this family is `עוּזָּא`. They differ only in ע: hiriq vs no mark (P00218 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `עִוּזָּא` (the way P00218 has it)
-  - [ ] print spells both as `עוּזָּא` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `עֲטַר`: missing II (row [P00476](https://jastrow.app/#rid:P00476))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [P00476](https://jastrow.app/#rid:P00476) | `עֲטַר I` | `"TE25 I same. Targ. Ps. LXXIII, 6 '31` | [1064b · leaf 387](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$388/full/1400,/0/default.jpg) |
-| [P00477](https://jastrow.app/#rid:P00477) | `עַטַר II` | `Pa. "OB to abolish entirely. Targ. II Chr.` | [1065a · leaf 388](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$389/full/1400,/0/default.jpg) |
-| [P00478](https://jastrow.app/#rid:P00478) | `עֲטַר III` | `~l"^3? III (preced. wds., cmp. lap) [to whirl` | [1065a · leaf 388](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$389/full/1400,/0/default.jpg) |
-
-**Question.** P00477 holds the II as `עַטַר`; this family is `עֲטַר`. They differ only in ע: patah vs hataf patah (P00477 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the II.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `עַטַר` (the way P00477 has it)
-  - [ ] print spells both as `עֲטַר` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `עַטַר`: missing I (row [P00477](https://jastrow.app/#rid:P00477))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [P00476](https://jastrow.app/#rid:P00476) | `עֲטַר I` | `"TE25 I same. Targ. Ps. LXXIII, 6 '31` | [1064b · leaf 387](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$388/full/1400,/0/default.jpg) |
-| [P00477](https://jastrow.app/#rid:P00477) | `עַטַר II` | `Pa. "OB to abolish entirely. Targ. II Chr.` | [1065a · leaf 388](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$389/full/1400,/0/default.jpg) |
-
-**Question.** P00476 holds the I as `עֲטַר`; this family is `עַטַר`. They differ only in ע: hataf patah vs patah (P00476 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `עֲטַר` (the way P00476 has it)
-  - [ ] print spells both as `עַטַר` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `עֲנָוָה`: missing I (row [P00959](https://jastrow.app/#rid:P00959))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [P00958](https://jastrow.app/#rid:P00958) | `ענָוָה I` | `H13^ I, (fT02) f. (H5S I) dimne response` | [1092a · leaf 415](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$416/full/1400,/0/default.jpg) |
-| [P00959](https://jastrow.app/#rid:P00959) | `עֲנָוָה II` | `niD^ II f. (b.h. ; SiiSH) humility, lowliness,` | [1092a · leaf 415](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$416/full/1400,/0/default.jpg) |
-
-**Question.** P00958 holds the I as `ענָוָה`; this family is `עֲנָוָה`. They differ only in ע: no mark vs hataf patah (P00958 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `ענָוָה` (the way P00958 has it)
-  - [ ] print spells both as `עֲנָוָה` (the way this family has it)
   - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -516,57 +593,6 @@ The missing numeral sits on a neighbour whose pointing differs from this family'
   - [ ] yes, print has `עָרֵב II`
   - [ ] no, print matches what is stored
   - [ ] something else (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `פִּרִכֵּס`: missing I (row [Q01863](https://jastrow.app/#rid:Q01863))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [Q01862](https://jastrow.app/#rid:Q01862) | `פִּרְכֵּס I` | `02PlD I (enlargement of TpB) to rub, scrape.` | [1229b · leaf 552](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$553/full/1400,/0/default.jpg) |
-| [Q01863](https://jastrow.app/#rid:Q01863) | `פִּרִכֵּס II` | `D2T© II (preced.) [to rub, grind,] to move` | [1229b · leaf 552](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$553/full/1400,/0/default.jpg) |
-
-**Question.** Q01862 holds the I as `פִּרְכֵּס`; this family is `פִּרִכֵּס`. They differ only in ר: sheva vs hiriq (Q01862 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `פִּרְכֵּס` (the way Q01862 has it)
-  - [ ] print spells both as `פִּרִכֵּס` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `קְבל`: missing I, II, III (row [S00064](https://jastrow.app/#rid:S00064))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [S00059](https://jastrow.app/#rid:S00059) | `קָבַל II` | `5Dj> II (cmp. b2M) to feel oppressed; to` | [1309a · leaf 632](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$633/full/1400,/0/default.jpg) |
-| [S00061](https://jastrow.app/#rid:S00061) | `קְבַל III` | `33p III, ^"Gp (cmp. preced.) [to be thick,]` | [1309b · leaf 632](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$633/full/1400,/0/default.jpg) |
-| [S00064](https://jastrow.app/#rid:S00064) | `קְבל IV` | `bnp iv, Stjg, abnj?, &h$>, 'np, ':rp i` | [1309b · leaf 632](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$633/full/1400,/0/default.jpg) |
-
-**Question.** S00064 is stored `קְבל` with no vowel under the bet; its neighbours are `קָבַל I` (S00057), `קָבַל II` (S00059), `קְבַל III` (S00061). Is the print `קְבַל IV`? If so its headword and name change and the numbering is complete. The hOCR reads `bnp iv` (lowercase), which the reader does not count.
-
-  - [ ] yes, print has `קְבַל IV`
-  - [ ] no, print matches what is stored
-  - [ ] something else (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
-
-
-#### `רִחִים`: missing I (row [T00500](https://jastrow.app/#rid:T00500))
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [T00499](https://jastrow.app/#rid:T00499) | `רְחִים I` | `DTP I m. (preced.) love. Targ. Cant. VII,` | [1466a · leaf 789](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$790/full/1400,/0/default.jpg) |
-| [T00500](https://jastrow.app/#rid:T00500) | `רִחִים II` | `DTl II, NET") m. (preced.) beloved, friend;` | [1466a · leaf 789](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$790/full/1400,/0/default.jpg) |
-
-**Question.** T00499 holds the I as `רְחִים`; this family is `רִחִים`. They differ only in ר: sheva vs hiriq (T00499 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
-
-  - [ ] print spells them differently, so the gap is real
-  - [ ] print spells both as `רְחִים` (the way T00499 has it)
-  - [ ] print spells both as `רִחִים` (the way this family has it)
-  - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
@@ -1531,7 +1557,7 @@ flags them on their alternates only, so they are not among the 382.
   print sets it. If not, U00489 needs a disambiguator; U00491 already
   holds `²`. Which?
 
-## Pile A: ruled legitimate (288)
+## Pile A: ruled legitimate (286)
 
 Each row is a shape a ruling keeps as printed, or a family whose
 numbering the hOCR confirms. The predicate column says what was checked
@@ -1548,7 +1574,7 @@ on every row, so a count that matches a ruling is not the only proof.
 | X7 | HW-acronyms | holds gershayim (`״` or `"`) | 68 |
 | X7 | HW-acronyms | one letter and a geresh: a numeral letter | 21 |
 | X7 | HW-truncated | two or more letters ending in a geresh, no gershayim | 34 |
-| X8 | HW-roman | the missing numeral is stored on another form of an unnumbered sibling's own entry | 41 |
+| X8 | HW-roman | the missing numeral is stored on another form of an unnumbered sibling's own entry | 39 |
 | X8 | print (hOCR) | the hOCR shows the stored numerals, and no numeral beside the unnumbered sibling | 3 |
 
 **Reconciliation against the counts the rulings quote.**
@@ -1575,17 +1601,21 @@ on every row, so a count that matches a ruling is not the only proof.
   rid (K00107, P00137, A02002; A00436, A01881, C00517).
 - **HW-redup, 3; HW-spaced, 8.** None is a primary today; all 11 are
   alternates, so none is in the 382.
-- **HW-homograph-gaps, 178 families.** The report has 177 (136
-  primary + 41 alternate). The one missing family was not traced.
-- **HW-roman.** It quotes no X8 count. 41 families resolve under it:
+- **HW-homograph-gaps, 178 families.** The report had 177 (136
+  primary + 41 alternate) while it keyed a family on its exact
+  spelling. Under 10-05 it numbers by sequence and has 140 (104 + 36);
+  the 37 it cleared are X9 rows. The one missing family was not traced.
+- **HW-roman.** It quotes no X8 count. 39 families resolve under it
+  (41 until A01698 and M02008 became X9 under 10-05):
   Sefaria hung the numeral on the line's last form (`סְבַר, סְבֵיר I`),
-  so the family's first spelling looks unnumbered. In 28 of the 31
-  volume-2 families the hOCR reads that numeral on the holder's line.
-  The cost HW-roman accepted is visible here: those 41 entries' names
+  so the family's first spelling looks unnumbered. In 27 of the 30
+  volume-2 families (28 of 31 with M02008) the hOCR reads that numeral
+  on the holder's line.
+  The cost HW-roman accepted is visible here: those 39 entries' names
   carry no numeral although print numbers them.
 
 <details>
-<summary>The 288 rids by shape</summary>
+<summary>The 286 rids by shape</summary>
 
 **H6, HW-phrase-hw (3):** [A00436](https://jastrow.app/#rid:A00436), [A01881](https://jastrow.app/#rid:A01881), [C00517](https://jastrow.app/#rid:C00517)
 
@@ -1605,7 +1635,7 @@ on every row, so a count that matches a ruling is not the only proof.
 
 **X7, HW-truncated (34):** [A02161](https://jastrow.app/#rid:A02161), [A02411](https://jastrow.app/#rid:A02411), [B00398](https://jastrow.app/#rid:B00398), [B00983](https://jastrow.app/#rid:B00983), [C00618](https://jastrow.app/#rid:C00618), [C00737](https://jastrow.app/#rid:C00737), [D00826](https://jastrow.app/#rid:D00826), [D00957](https://jastrow.app/#rid:D00957), [D00963](https://jastrow.app/#rid:D00963), [E00197](https://jastrow.app/#rid:E00197), [E00433](https://jastrow.app/#rid:E00433), [E00842](https://jastrow.app/#rid:E00842), [E00856](https://jastrow.app/#rid:E00856), [G00401](https://jastrow.app/#rid:G00401), [K00302](https://jastrow.app/#rid:K00302), [N00665](https://jastrow.app/#rid:N00665), [O00671](https://jastrow.app/#rid:O00671), [O00672](https://jastrow.app/#rid:O00672), [Q00385](https://jastrow.app/#rid:Q00385), [Q01625](https://jastrow.app/#rid:Q01625), [Q01633](https://jastrow.app/#rid:Q01633), [Q01858](https://jastrow.app/#rid:Q01858), [S00240](https://jastrow.app/#rid:S00240), [S00269](https://jastrow.app/#rid:S00269), [S00462](https://jastrow.app/#rid:S00462), [S00463](https://jastrow.app/#rid:S00463), [S00958](https://jastrow.app/#rid:S00958), [S01151](https://jastrow.app/#rid:S01151), [U01593](https://jastrow.app/#rid:U01593), [U01626](https://jastrow.app/#rid:U01626), [V00107](https://jastrow.app/#rid:V00107), [V00154](https://jastrow.app/#rid:V00154), [V00228](https://jastrow.app/#rid:V00228), [V00841](https://jastrow.app/#rid:V00841)
 
-**X8, HW-roman (41), with the entry that holds the numeral:** [A01698](https://jastrow.app/#rid:A01698) (on A01697), [A01735](https://jastrow.app/#rid:A01735) (on A01734), [A02363](https://jastrow.app/#rid:A02363) (on A02362), [A02413](https://jastrow.app/#rid:A02413) (on A02412), [A02824](https://jastrow.app/#rid:A02824) (on A02823), [B00050](https://jastrow.app/#rid:B00050) (on B00049), [B00560](https://jastrow.app/#rid:B00560) (on B00561), [E00697](https://jastrow.app/#rid:E00697) (on E00696), [J00752](https://jastrow.app/#rid:J00752) (on J00751), [K00345](https://jastrow.app/#rid:K00345) (on K00344), [L00290](https://jastrow.app/#rid:L00290) (on L00289), [L00694](https://jastrow.app/#rid:L00694) (on L00693), [M01319](https://jastrow.app/#rid:M01319) (on M01318), [M02008](https://jastrow.app/#rid:M02008) (on M02007), [M02547](https://jastrow.app/#rid:M02547) (on M02546), [N00738](https://jastrow.app/#rid:N00738) (on N00737), [N00914](https://jastrow.app/#rid:N00914) (on N00913), [O00086](https://jastrow.app/#rid:O00086) (on O00085), [O00122](https://jastrow.app/#rid:O00122) (on O00120, O00121), [O00156](https://jastrow.app/#rid:O00156) (on O00155), [O00352](https://jastrow.app/#rid:O00352) (on O00351), [O00499](https://jastrow.app/#rid:O00499) (on O00498), [O00563](https://jastrow.app/#rid:O00563) (on O00564), [O00580](https://jastrow.app/#rid:O00580) (on O00579), [P00230](https://jastrow.app/#rid:P00230) (on P00229), [P01418](https://jastrow.app/#rid:P01418) (on P01417), [Q00629](https://jastrow.app/#rid:Q00629) (on Q00628), [Q01320](https://jastrow.app/#rid:Q01320) (on Q01319), [Q02092](https://jastrow.app/#rid:Q02092) (on Q02090), [Q02095](https://jastrow.app/#rid:Q02095) (on Q02094), [R00293](https://jastrow.app/#rid:R00293) (on R00292), [R00608](https://jastrow.app/#rid:R00608) (on R00607), [R00615](https://jastrow.app/#rid:R00615) (on R00614), [S01065](https://jastrow.app/#rid:S01065) (on S01064), [T00337](https://jastrow.app/#rid:T00337) (on T00336), [T00895](https://jastrow.app/#rid:T00895) (on T00892, T00893), [U00881](https://jastrow.app/#rid:U00881) (on U00880), [U00883](https://jastrow.app/#rid:U00883) (on U00882), [U01047](https://jastrow.app/#rid:U01047) (on U01046), [V00543](https://jastrow.app/#rid:V00543) (on V00541, V00542), [V01023](https://jastrow.app/#rid:V01023) (on V01022)
+**X8, HW-roman (39), with the entry that holds the numeral:** [A01735](https://jastrow.app/#rid:A01735) (on A01734), [A02363](https://jastrow.app/#rid:A02363) (on A02362), [A02413](https://jastrow.app/#rid:A02413) (on A02412), [A02824](https://jastrow.app/#rid:A02824) (on A02823), [B00050](https://jastrow.app/#rid:B00050) (on B00049), [B00560](https://jastrow.app/#rid:B00560) (on B00561), [E00697](https://jastrow.app/#rid:E00697) (on E00696), [J00752](https://jastrow.app/#rid:J00752) (on J00751), [K00345](https://jastrow.app/#rid:K00345) (on K00344), [L00290](https://jastrow.app/#rid:L00290) (on L00289), [L00694](https://jastrow.app/#rid:L00694) (on L00693), [M01319](https://jastrow.app/#rid:M01319) (on M01318), [M02547](https://jastrow.app/#rid:M02547) (on M02546), [N00738](https://jastrow.app/#rid:N00738) (on N00737), [N00914](https://jastrow.app/#rid:N00914) (on N00913), [O00086](https://jastrow.app/#rid:O00086) (on O00085), [O00122](https://jastrow.app/#rid:O00122) (on O00120, O00121), [O00156](https://jastrow.app/#rid:O00156) (on O00155), [O00352](https://jastrow.app/#rid:O00352) (on O00351), [O00499](https://jastrow.app/#rid:O00499) (on O00498), [O00563](https://jastrow.app/#rid:O00563) (on O00564), [O00580](https://jastrow.app/#rid:O00580) (on O00579), [P00230](https://jastrow.app/#rid:P00230) (on P00229), [P01418](https://jastrow.app/#rid:P01418) (on P01417), [Q00629](https://jastrow.app/#rid:Q00629) (on Q00628), [Q01320](https://jastrow.app/#rid:Q01320) (on Q01319), [Q02092](https://jastrow.app/#rid:Q02092) (on Q02090), [Q02095](https://jastrow.app/#rid:Q02095) (on Q02094), [R00293](https://jastrow.app/#rid:R00293) (on R00292), [R00608](https://jastrow.app/#rid:R00608) (on R00607), [R00615](https://jastrow.app/#rid:R00615) (on R00614), [S01065](https://jastrow.app/#rid:S01065) (on S01064), [T00337](https://jastrow.app/#rid:T00337) (on T00336), [T00895](https://jastrow.app/#rid:T00895) (on T00892, T00893), [U00881](https://jastrow.app/#rid:U00881) (on U00880), [U00883](https://jastrow.app/#rid:U00883) (on U00882), [U01047](https://jastrow.app/#rid:U01047) (on U01046), [V00543](https://jastrow.app/#rid:V00543) (on V00541, V00542), [V01023](https://jastrow.app/#rid:V01023) (on V01022)
 
 **X8, print confirms the stored numbering (3):** [N00186](https://jastrow.app/#rid:N00186), [N00343](https://jastrow.app/#rid:N00343), [U01687](https://jastrow.app/#rid:U01687)
 
@@ -1630,6 +1660,13 @@ on from them (`שְׁחַר IV`). The unnumbered siblings are the
 `ch. same` lines, which print does not number. No entry needs a
 numeral, so no name changes.
 
+Since 10-05 the report reads these four as X9, not X8: each
+sequence's numerals run once, and the qamets against sheva is the
+pointing X9 asks about. They stay here because the evidence below
+already answers it: a Hebrew verb and its Aramaic counterpart, which
+print numbers in one run. S00061's sequence changes pointing once more,
+at S00064 (`קְבל` IV, no patah); that question is in pile C.
+
 | rid | family | why the name does not change | scan |
 |---|---|---|---|
 | [I00618](https://jastrow.app/#rid:I00618) | `טְעַן` | the missing I, II is on I00614, I00616, spelled with other vowels; numbering runs I..III once across the consonant family. The unnumbered I00615, I00617 are the Aramaic `ch. same` lines, which print leaves unnumbered: I00615 `73, מעין ch. same, to plead. Keth. 105"`; I00617 `79, מעון ch, same, 1) to be laden;` | [544a · leaf 567](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$568/full/1400,/0/default.jpg) |
@@ -1648,6 +1685,22 @@ mark stripped. Nothing in `data/` was written.
 For X8, each family was rebuilt the way `homographGapRows` builds it
 (exact NFC spelling, alternates included). Then it was widened to
 every entry within six rids whose consonants match.
+
+**That first version assumed a homograph family is one exact
+spelling.** It is not. Jastrow numbers homographs as they stand in
+unpointed texts and the vowels are editorial, so one numbered sequence
+can be pointed two ways (`אֱגוֹרָא` I, Aramaic; `אֲגוֹרָא` II, a Greek
+loan). The exact key reported such a sequence as a gap, and the old
+pointing section asked whether print spells the two alike: the wrong
+question. On 2026-10-05 the report changed to number by sequence
+([decisions](decisions.md) 10-05) and this list follows it. 32 primary
+X8 rows became X9: 25 from that section (P00476 and P00477 now one
+row), A01698 and M02008 from pile A, the four pile D rows and pile B's
+U01774; B01014 is new, a sequence the exact key had hidden. The X9
+tables reuse the earlier hOCR reads. The lines for the nine rids not
+read before (A01697, A01698, B01010–B01014, M02007, M02008) were found
+by hand in `data/print/hocr/` and quoted the same way: the first eight
+words in visual order, bidi marks dropped as the reader dropped them.
 
 **The hOCR reader.** Each leaf of `data/print/hocr/` was split into
 columns at the page's midline. Lines indented past the column's median
@@ -1691,7 +1744,9 @@ which happens to a numbered line 3% of the time.
    the second form (U01397), went to C, since where the numeral goes
    decides whether the name changes.
 3. D or C, pointing: neighbours spelled with other points hold the
-   missing numerals, once each. D only for the Hebrew/Aramaic verb
+   missing numerals, once each. (Superseded on 10-05: such a family is
+   now X9, a pointing question; the four this step sent to C that the
+   sequence rule does not clear stay X8.) D only for the Hebrew/Aramaic verb
    pairs (qamets against sheva on the first letter), which print
    numbers in one run. Any other difference, a missing mark or another
    vowel, is C: no vowel is inferred, so the print says whether one
