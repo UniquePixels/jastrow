@@ -21,7 +21,7 @@
  * sorting).
  */
 import { dirname, relative } from 'node:path';
-import { isHeadwordReviewKind } from '../../entry/headwords.ts';
+import { intToSup, isHeadwordReviewKind } from '../../entry/headwords.ts';
 import { nameOf } from '../../entry/names.ts';
 import type { Entry, FormObject } from '../../entry/types.ts';
 import { DESIGN_PATH, HEADWORD_ISSUES_DOC } from '../paths.ts';
@@ -417,42 +417,192 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 	return rows;
 }
 
+/** How far on, in entry (rid) order, the next numbered form of the same
+ * consonants may stand and still continue a numbered sequence: at most
+ * four entries between them.
+ *
+ * Measured on the committed entries: any window from 3 to 90 clears the
+ * same 37 families. 2 clears 35 (it loses `קְבל` IV, three entries past
+ * `קְבַל` III, and `שְׁפַל` II); 1 clears 29; from about 100 up distant
+ * runs of the abbreviation `שִׁי׳` merge, repeat their numerals, and
+ * 36 clear. 5 sits inside the flat stretch, away from both edges. */
+const SEQUENCE_WINDOW = 5;
+
+/** A form carrying a Roman numeral, placed in entry order. */
+interface NumberedForm {
+	disambiguator: number | undefined;
+	homograph: number;
+	/** The form's index in its entry's `headwords`; 0 is the primary. */
+	index: number;
+	/** The entry's position in rid order: what "nearby" is measured in. */
+	position: number;
+	rid: string;
+	/** NFC, so two mark orders of one spelling compare equal. */
+	text: string;
+}
+
+/** Numbered forms of one consonant skeleton, each within
+ * {@link SEQUENCE_WINDOW} entries of the one before. `clean` when it
+ * reads as ONE numbered sequence (see {@link numbersOnce}). */
+interface NumberedSequence {
+	clean: boolean;
+	members: NumberedForm[];
+}
+
+/** How a numbered form is named in a note: the rid, `/alt` when the
+ * form is an alternate. */
+function formLabel(form: { index: number; rid: string }): string {
+	return form.index === 0 ? form.rid : `${form.rid}/alt`;
+}
+
+/** Whether a run's numerals read as one sequence: the distinct numerals
+ * run 1..n, and no numeral is given twice unless a superscript tells
+ * the two apart (A00014 `אָב II` and A00015 `אָב² II`).
+ *
+ * The second half is what keeps different words apart. A consonant
+ * skeleton often holds two sequences side by side — a Hebrew verb
+ * numbered I..III, then a noun numbered I, II — and their numerals
+ * together still fill 1..n. Two IIs with no superscript between them
+ * are two sequences, which a consonant key cannot separate, so the
+ * run is not one. */
+function numbersOnce(members: readonly NumberedForm[]): boolean {
+	const numbers = [...new Set(members.map((m) => m.homograph))].sort(
+		(a, b) => a - b,
+	);
+	const told = new Set(
+		members.map((m) => `${m.homograph}/${m.disambiguator ?? 1}`),
+	);
+	return numbers.every((n, i) => n === i + 1) && told.size === members.length;
+}
+
+/** Every numbered form, grouped into sequences: same consonants (every
+ * mark stripped, shin and sin dots too, as an unpointed text writes
+ * the word; see {@link consonants}), in entry order, each member
+ * within {@link SEQUENCE_WINDOW} entries of the last. Alternates take
+ * part: a sequence's I is often an alternate (A01697 `אָכַל` I). */
+function numberedSequences(inOrder: readonly Entry[]): NumberedSequence[] {
+	const bySkeleton = new Map<string, NumberedForm[]>();
+	for (const [position, entry] of inOrder.entries()) {
+		for (const [index, form] of entry.headwords.entries()) {
+			if (form.homograph === undefined) {
+				continue;
+			}
+			const text = form.text.normalize('NFC');
+			const key = consonants(text);
+			bySkeleton.set(key, [
+				...(bySkeleton.get(key) ?? []),
+				{
+					disambiguator: form.disambiguator,
+					homograph: form.homograph,
+					index,
+					position,
+					rid: entry.id,
+					text,
+				},
+			]);
+		}
+	}
+	const runs: NumberedForm[][] = [];
+	for (const forms of bySkeleton.values()) {
+		let run: NumberedForm[] = [];
+		for (const form of forms) {
+			const last = run.at(-1);
+			if (
+				last !== undefined &&
+				form.position - last.position > SEQUENCE_WINDOW
+			) {
+				runs.push(run);
+				run = [];
+			}
+			run.push(form);
+		}
+		runs.push(run);
+	}
+	return runs.map((members) => ({ clean: numbersOnce(members), members }));
+}
+
+/** A form in a spelling family: which entry, which of its headwords,
+ * and its numeral if it has one. */
+interface FamilyMember {
+	homograph: number | undefined;
+	index: number;
+	rid: string;
+}
+
+/** Every form, grouped by its exact NFC spelling, in rid order. */
+function spellingFamilies(
+	entries: Map<string, Entry>,
+): Map<string, FamilyMember[]> {
+	const families = new Map<string, FamilyMember[]>();
+	for (const [rid, entry] of entries) {
+		for (const [index, form] of entry.headwords.entries()) {
+			const key = form.text.normalize('NFC');
+			families.set(key, [
+				...(families.get(key) ?? []),
+				{ homograph: form.homograph, index, rid },
+			]);
+		}
+	}
+	return families;
+}
+
+/** The numbered forms that sit in a clean sequence, as `rid:index`. */
+function cleanlySequenced(sequences: readonly NumberedSequence[]): Set<string> {
+	return new Set(
+		sequences
+			.filter((s) => s.clean)
+			.flatMap((s) => s.members.map((m) => `${m.rid}:${m.index}`)),
+	);
+}
+
 /** Homograph families whose numerals do not run 1..n.
  *
- * Keyed on the **exact NFC spelling**, and alternates count. Both
- * halves were wrong in this file's first version. Keyed on consonants
- * alone, `\u05E7\u05B7\u05E8\u05B0\u05D7\u05B8\u05D0` II, `\u05E7\u05B8\u05E8\u05B8\u05D7\u05B8\u05D0` II and `\u05E7\u05B8\u05E8\u05B0\u05D7\u05B8\u05D0` II merge into
- * one family that reads as three clashing IIs, when they are three
- * different words each numbered in its own right; and ignoring
- * alternates reported 119 families whose missing numeral sits on an
- * alternate form. Consonants + headwords-only gave 202 families, the
- * two fixes give 178.
+ * A family is keyed on the **exact NFC spelling**, and alternates
+ * count. This is the third version, and the first two were each wrong
+ * in a way the other fixed:
+ *
+ * 1. **Consonants alone**, headwords only: 202 families. `קַרְחָא` II,
+ *    `קָרָחָא` II and `קָרְחָא` II merged into one family that read as
+ *    three clashing IIs, when they are three different words each
+ *    numbered in its own right; and ignoring alternates reported 119
+ *    families whose missing numeral sits on an alternate form.
+ * 2. **Exact spelling**, alternates in: 178 families (177 when it
+ *    was replaced, 136 of them on a primary). It split one
+ *    sequence wherever its members are pointed apart: `אֱגוֹרָא` I
+ *    (A00278) is Aramaic and `אֲגוֹרָא` II (A00279) a Greek loan, and
+ *    Jastrow numbers homographs as they stand in unpointed texts, so
+ *    II is not missing its I. The vowels are editorial; exact pointing
+ *    is the wrong key.
+ * 3. **Exact spelling, unless the family is part of a numbered
+ *    sequence** (`decisions.md`, 10-05 homograph sequence): a family is
+ *    NOT a gap when every numbered member of it sits in a clean
+ *    {@link NumberedSequence}. That clears 37 families (32 primary)
+ *    and leaves 140. It keeps the three `קרחא` IIs apart (S01975 stays
+ *    a gap), because their run repeats II with no superscript; and it
+ *    keeps B00561's
+ *    `בִּזָּא` II a gap: `בְּזָא` I, II (B00435, B00436) share its
+ *    consonants, but stand 125 entries back and already hold a II.
+ *
+ * The families it clears are not dropped: their pointing is its own
+ * question, reported by {@link pointingRows}. It cannot see a numeral
+ * Sefaria dropped from an entry with no numbered sibling at all, and a
+ * dropped numeral inside a sequence can make the rest look whole
+ * (U01774 `שְׁפַל` II pairs with U01771 `שָׁפֵל` I, while print numbers
+ * U01772 `שְׁפַל` I).
  *
  * A row is a question, never a verdict: the note says which numerals
  * are missing and how many unnumbered siblings could be carrying them,
  * so the print can settle it. */
-// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one pass over the homograph families; the gap test needs the whole family in scope.
-function homographGapRows(entries: Map<string, Entry>): IssueRow[] {
-	const families = new Map<
-		string,
-		Array<{ homograph: number | undefined; rid: string }>
-	>();
-	const add = (
-		text: string,
-		homograph: number | undefined,
-		rid: string,
-	): void => {
-		const key = text.normalize('NFC');
-		families.set(key, [...(families.get(key) ?? []), { homograph, rid }]);
-	};
-	for (const [rid, entry] of entries) {
-		for (const [i, form] of entry.headwords.entries()) {
-			add(form.text, form.homograph, i === 0 ? rid : `${rid}/alt`);
-		}
-	}
+function homographGapRows(
+	entries: Map<string, Entry>,
+	sequences: readonly NumberedSequence[],
+): IssueRow[] {
+	const inCleanSequence = cleanlySequenced(sequences);
 	const rows: IssueRow[] = [];
-	for (const [text, family] of families) {
-		const members = [...family].sort((a, b) => a.rid.localeCompare(b.rid));
+	for (const [text, family] of spellingFamilies(entries)) {
+		const members = [...family].sort((a, b) =>
+			formLabel(a).localeCompare(formLabel(b)),
+		);
 		// DISTINCT numerals: a family can hold two entries numbered II
 		// (A00014, A00015), told apart by their superscript
 		// disambiguator. Counting the repeat would report every such
@@ -466,10 +616,13 @@ function homographGapRows(entries: Map<string, Entry>): IssueRow[] {
 		].sort((a, b) => a - b);
 		const complete = numbers.every((n, i) => n === i + 1);
 		const first = members.find((m) => m.homograph !== undefined);
-		if (numbers.length === 0 || complete || first === undefined) {
+		const sequenced = members
+			.filter((m) => m.homograph !== undefined)
+			.every((m) => inCleanSequence.has(`${m.rid}:${m.index}`));
+		if (numbers.length === 0 || complete || first === undefined || sequenced) {
 			continue;
 		}
-		const entry = entries.get(first.rid.replace('/alt', ''));
+		const entry = entries.get(first.rid);
 		if (entry === undefined) {
 			continue;
 		}
@@ -479,20 +632,216 @@ function homographGapRows(entries: Map<string, Entry>): IssueRow[] {
 			(n) => !numbers.includes(n),
 		);
 		const detail = members
-			.map((m) => `${m.rid}=${m.homograph ?? '—'}`)
+			.map((m) => `${formLabel(m)}=${m.homograph ?? '—'}`)
 			.join('; ');
 		rows.push({
 			flagged: false,
 			name: nameOf(entry),
 			note: `missing ${missing.join(',')}; ${unnumbered} unnumbered: ${detail}`,
-			rid: first.rid.replace('/alt', ''),
+			rid: first.rid,
 			// The family is keyed on the ALTERNATE's spelling when its
 			// first numbered member is an alternate, so the row must name
 			// that form, not the entry's primary headword.
-			role: first.rid.endsWith('/alt') ? 'alt' : 'headword',
+			role: first.index === 0 ? 'headword' : 'alt',
 			shape: 'X8 homograph numbering gap',
 			text,
 		});
+	}
+	return rows;
+}
+
+/** What each Hebrew point is called in a note. Escapes, not literals
+ * (see {@link MARKS}). A mark not listed (a cantillation accent) is
+ * named by its code point. */
+const MARK_NAMES: ReadonlyMap<string, string> = new Map([
+	['\u05B0', 'sheva'],
+	['\u05B1', 'hataf segol'],
+	['\u05B2', 'hataf patah'],
+	['\u05B3', 'hataf qamats'],
+	['\u05B4', 'hiriq'],
+	['\u05B5', 'tsere'],
+	['\u05B6', 'segol'],
+	['\u05B7', 'patah'],
+	['\u05B8', 'qamats'],
+	['\u05B9', 'holam'],
+	['\u05BA', 'holam for vav'],
+	['\u05BB', 'qubuts'],
+	['\u05BC', 'dagesh'],
+	['\u05BD', 'meteg'],
+	['\u05BE', 'maqaf'],
+	['\u05BF', 'rafe'],
+	['\u05C1', 'shin dot'],
+	['\u05C2', 'sin dot'],
+	['\u05C4', 'upper dot'],
+	['\u05C5', 'lower dot'],
+	['\u05C7', 'qamats qatan'],
+	[DOT_ABOVE, 'dot above'],
+]);
+
+/** One mark, by name. */
+function markName(mark: string): string {
+	const codePoint = mark.codePointAt(0) ?? 0;
+	return (
+		MARK_NAMES.get(mark) ??
+		`U+${codePoint.toString(16).toUpperCase().padStart(4, '0')}`
+	);
+}
+
+/** A form split into its letters, each with the marks it carries, in
+ * NFD order. Entry 0 holds any mark standing before the first letter
+ * (X1's shape), so letter `n` is at index `n`. */
+function marksByLetter(
+	text: string,
+): Array<{ letter: string; marks: string[] }> {
+	const letters: Array<{ letter: string; marks: string[] }> = [
+		{ letter: '', marks: [] },
+	];
+	for (const ch of text.normalize('NFD')) {
+		if (ch.replace(MARKS, '') === '') {
+			letters.at(-1)?.marks.push(ch);
+		} else {
+			letters.push({ letter: ch, marks: [] });
+		}
+	}
+	return letters;
+}
+
+/** How two spellings of one consonant skeleton are pointed apart, in
+ * words, and which of two kinds that is.
+ *
+ * - **mark missing**: one spelling's marks are a subset of the other's,
+ *   letter by letter (`אִילפָא` / `אִילְפָא`). Likely a slip in one stored
+ *   headword.
+ * - **vowels differ**: a mark is replaced, not just absent (`אָכַל` /
+ *   `אֲכַל`). Likely deliberate, Hebrew beside Aramaic or a loan word,
+ *   though not always (A01964 `אְמָא`, a sheva under alef).
+ *
+ * Neither kind says which spelling is right, and nothing here infers
+ * a vowel: the print decides. */
+function pointingDifference(a: string, b: string): string {
+	const left = marksByLetter(a);
+	const right = marksByLetter(b);
+	const within = (xs: string[], ys: string[]): boolean =>
+		xs.every((x) => ys.includes(x));
+	const differing = left.flatMap((l, i) => {
+		const r = right[i]?.marks ?? [];
+		return within(l.marks, r) && within(r, l.marks)
+			? []
+			: [{ letter: l.letter, n: i, left: l.marks, right: r }];
+	});
+	const subset =
+		differing.every((d) => within(d.left, d.right)) ||
+		differing.every((d) => within(d.right, d.left));
+	const names = (marks: string[]): string =>
+		marks.length === 0 ? 'no mark' : marks.map(markName).join(' and ');
+	const detail = differing
+		.map(
+			(d) =>
+				`${d.n === 0 ? 'before the first letter' : `${d.letter} (letter ${d.n})`} ${names(d.left)} vs ${names(d.right)}`,
+		)
+		.join(', ');
+	return `${subset ? 'mark missing' : 'vowels differ'}: ${detail}`;
+}
+
+/** A numbered form as a note names it: label, numeral, superscript,
+ * spelling. */
+function describeNumbered(form: NumberedForm): string {
+	const sup =
+		form.disambiguator === undefined ? '' : intToSup(form.disambiguator);
+	return `${formLabel(form)}=${form.homograph}${sup} ${form.text}`;
+}
+
+/** The unnumbered forms spelled like either of `a` and `b`, in the
+ * entries from `a`'s to `b`'s. One may be the numeral's true holder,
+ * dropped by Sefaria (U01772), or a `ch. same` line print leaves
+ * unnumbered (I00615): only the print tells. */
+function unnumberedBetween(
+	inOrder: readonly Entry[],
+	a: NumberedForm,
+	b: NumberedForm,
+): string[] {
+	return inOrder.slice(a.position, b.position + 1).flatMap((entry) =>
+		entry.headwords.flatMap((form, index) => {
+			const text = form.text.normalize('NFC');
+			return form.homograph === undefined &&
+				(text === a.text || text === b.text)
+				? [`${formLabel({ index, rid: entry.id })} ${text}`]
+				: [];
+		}),
+	);
+}
+
+/** The places a sequence changes spelling, as `[before, after]`, each
+ * pair of spellings once however often the sequence alternates
+ * between them (P00476-P00478). */
+function spellingChanges(
+	members: readonly NumberedForm[],
+): Array<[NumberedForm, NumberedForm]> {
+	const seen = new Set<string>();
+	const changes: Array<[NumberedForm, NumberedForm]> = [];
+	for (const [i, b] of members.entries()) {
+		const a = members[i - 1];
+		if (a === undefined || a.text === b.text) {
+			continue;
+		}
+		const pair = [a.text, b.text].sort().join('|');
+		if (!seen.has(pair)) {
+			seen.add(pair);
+			changes.push([a, b]);
+		}
+	}
+	return changes;
+}
+
+/** An X9 row's note: how `a` and `b` are pointed apart, the whole
+ * sequence they sit in, and any unnumbered form spelled like either
+ * between them. */
+function pointingNote(
+	inOrder: readonly Entry[],
+	members: readonly NumberedForm[],
+	a: NumberedForm,
+	b: NumberedForm,
+): string {
+	const unnumbered = unnumberedBetween(inOrder, a, b);
+	return [
+		`${pointingDifference(a.text, b.text)} (${formLabel(a)} vs ${formLabel(b)})`,
+		`sequence ${members.map(describeNumbered).join(', ')}`,
+		...(unnumbered.length === 0
+			? []
+			: [`unnumbered between them: ${unnumbered.join(', ')}`]),
+	].join('; ');
+}
+
+/** Numbered sequences whose members are pointed differently: one row
+ * for each place a sequence changes spelling, on the form after the
+ * change (a sequence that changes twice, `קָבַל` I, II, `קְבַל` III,
+ * `קְבל` IV, gives two rows, one of each kind).
+ *
+ * These are the families {@link homographGapRows} no longer reports,
+ * and they are a question of their own: a mark missing on
+ * `headwords[0]` changes the entry's URL name when it is fixed. */
+function pointingRows(
+	entries: Map<string, Entry>,
+	inOrder: readonly Entry[],
+	sequences: readonly NumberedSequence[],
+): IssueRow[] {
+	const rows: IssueRow[] = [];
+	for (const { members } of sequences.filter((s) => s.clean)) {
+		for (const [a, b] of spellingChanges(members)) {
+			const entry = entries.get(b.rid);
+			if (entry === undefined) {
+				continue;
+			}
+			rows.push({
+				flagged: false,
+				name: nameOf(entry),
+				note: pointingNote(inOrder, members, a, b),
+				rid: b.rid,
+				role: b.index === 0 ? 'headword' : 'alt',
+				shape: 'X9 pointing differs within a numbered sequence',
+				text: b.text,
+			});
+		}
 	}
 	return rows;
 }
@@ -611,7 +960,11 @@ function buildHeadwordIssues(
 			);
 		}
 	}
-	rows.push(...homographGapRows(entries));
+	const sequences = numberedSequences(inRidOrder);
+	rows.push(
+		...homographGapRows(entries, sequences),
+		...pointingRows(entries, inRidOrder, sequences),
+	);
 	return {
 		csv: renderCsv(rows),
 		doc: render(rows),

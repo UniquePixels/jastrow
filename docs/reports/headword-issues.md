@@ -12,7 +12,8 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | X5 maqaf fragment | 142 | 115 | 27 | 1 |
 | X6 abbreviated alt (ends ׳) | 2240 | 0 | 2240 | 1527 |
 | X7 abbreviation headword (׳/״) | 134 | 123 | 11 | 4 |
-| X8 homograph numbering gap | 177 | 136 | 41 | 0 |
+| X8 homograph numbering gap | 140 | 104 | 36 | 0 |
+| X9 pointing differs within a numbered sequence | 37 | 32 | 5 | 0 |
 
 ## H6 multi-word (271)
 
@@ -2837,77 +2838,44 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [V00841](https://jastrow.app/#rid:V00841) | headword | תפני׳ | תפני׳ |  |  |
 | [V00983](https://jastrow.app/#rid:V00983) | headword | תרי״ג | תרי״ג |  |  |
 
-## X8 homograph numbering gap (177)
+## X8 homograph numbering gap (140)
 
 | rid | role | text | name | note | flagged |
 |---|---|---|---|---|---|
-| [S00064](https://jastrow.app/#rid:S00064) | headword | קְבל | קְבל IV | missing 1,2,3; 0 unnumbered: S00064=4 |  |
 | [H00750](https://jastrow.app/#rid:H00750) | alt | חַיְּתָא | חַיְּיתָא | missing 1,2,3; 1 unnumbered: H00750/alt=4; H00898/alt=— |  |
-| [U00710](https://jastrow.app/#rid:U00710) | headword | שְׁחַר | שְׁחַר IV | missing 1,2,3; 3 unnumbered: U00705=—; U00707=—; U00709=—; U00710=4 |  |
 | [E00008](https://jastrow.app/#rid:E00008) | headword | הִא | הִא III | missing 1,2; 0 unnumbered: E00008=3 |  |
-| [U01393](https://jastrow.app/#rid:U01393) | alt | שׁי׳ | שִׁלְשׁוּל³ | missing 1,2; 0 unnumbered: U01393/alt=3 |  |
-| [H00749](https://jastrow.app/#rid:H00749) | headword | חַיְּיתָא | חַיְּיתָא III | missing 1,2; 1 unnumbered: H00749=3; H00750=— |  |
 | [N00327](https://jastrow.app/#rid:N00327) | alt | נְוַל | נְוַול³ | missing 1,2; 1 unnumbered: N00327/alt=3; N00362/alt=— |  |
 | [H01222](https://jastrow.app/#rid:H01222) | headword | חֲמַר | חֲמַר III | missing 1,2; 2 unnumbered: H01219=—; H01221=—; H01222=3 |  |
-| [I00618](https://jastrow.app/#rid:I00618) | headword | טְעַן | טְעַן III | missing 1,2; 2 unnumbered: I00615=—; I00617=—; I00618=3 |  |
-| [M02850](https://jastrow.app/#rid:M02850) | headword | מְשַׁח | מְשַׁח III | missing 1,2; 2 unnumbered: M02847=—; M02849=—; M02850=3; M02851=4 |  |
 | [O00122](https://jastrow.app/#rid:O00122) | headword | סְגֵי | סְגֵי III | missing 1,2; 2 unnumbered: O00120=—; O00121=—; O00122=3 |  |
 | [Q01193](https://jastrow.app/#rid:Q01193) | headword | פַּנְיָא | פַּנְיָא III | missing 1,2; 2 unnumbered: Q01191/alt=—; Q01192=—; Q01193=3 |  |
-| [S00061](https://jastrow.app/#rid:S00061) | headword | קְבַל | קְבַל III | missing 1,2; 2 unnumbered: S00058=—; S00060=—; S00061=3 |  |
 | [T00895](https://jastrow.app/#rid:T00895) | headword | רְעִי | רְעִי III | missing 1,2; 2 unnumbered: T00892=—; T00893=—; T00895=3 |  |
 | [V00543](https://jastrow.app/#rid:V00543) | headword | תִּכְלָא | תִּכְלָא III | missing 1,2; 2 unnumbered: V00541/alt=—; V00542=—; V00543=3 |  |
 | [A00880](https://jastrow.app/#rid:A00880) | alt | אוּרְיָא | אוֹרְיָא² | missing 1,2; 3 unnumbered: A00877=—; A00878=—; A00879=—; A00880/alt=3 |  |
 | [T00245](https://jastrow.app/#rid:T00245) | alt | רְדָא | רְדִי | missing 1,2; 3 unnumbered: T00229=—; T00242/alt=—; T00244/alt=—; T00245/alt=3 |  |
-| [A00279](https://jastrow.app/#rid:A00279) | headword | אֲגוֹרָא | אֲגוֹרָא II | missing 1; 0 unnumbered: A00279=2 |  |
 | [A00719](https://jastrow.app/#rid:A00719) | headword | אֲוָנָא | אֲוָנָא II | missing 1; 0 unnumbered: A00719=2 |  |
-| [A01311](https://jastrow.app/#rid:A01311) | headword | אִילְפָא | אִילְפָא II | missing 1; 0 unnumbered: A01311=2 |  |
-| [A01320](https://jastrow.app/#rid:A01320) | headword | אִימָּא | אִימָּא II | missing 1; 0 unnumbered: A01320=2; A01321=3 |  |
 | [A01335](https://jastrow.app/#rid:A01335) | alt | אֲמוּ׳ | אֵימוּרִים² | missing 1; 0 unnumbered: A01335/alt=2 |  |
-| [A01965](https://jastrow.app/#rid:A01965) | headword | אֲמָא | אֲמָא II | missing 1; 0 unnumbered: A01965=2 |  |
 | [B00382](https://jastrow.app/#rid:B00382) | headword | בּוּרְסִי | בּוּרְסִי II | missing 1; 0 unnumbered: B00382=2; B00383=2 |  |
 | [C00620](https://jastrow.app/#rid:C00620) | alt | גִּבָּ׳ | גִּיבָּרָא | missing 1; 0 unnumbered: C00620/alt=2 |  |
-| [C00650](https://jastrow.app/#rid:C00650) | headword | גִּיהָא | גִּיהָא II | missing 1; 0 unnumbered: C00650=2 |  |
 | [C00773](https://jastrow.app/#rid:C00773) | headword | גִּיס | גִּיס II | missing 1; 0 unnumbered: C00773=2; C00774=2 |  |
 | [C01130](https://jastrow.app/#rid:C01130) | headword | גְּנַה | *גְּנַה II | missing 1; 0 unnumbered: C01130=2 |  |
-| [C01235](https://jastrow.app/#rid:C01235) | alt | גַּרְבּא | גָּרָב | missing 1; 0 unnumbered: C01235/alt=2 |  |
-| [D00501](https://jastrow.app/#rid:D00501) | headword | דִּיוֹ | דִּיוֹ II | missing 1; 0 unnumbered: D00501=2 |  |
 | [E00114](https://jastrow.app/#rid:E00114) | headword | הֲדָיָא | הֲדָיָא II | missing 1; 0 unnumbered: E00114=2 |  |
-| [E00802](https://jastrow.app/#rid:E00802) | headword | הֲקָצָה | הֲקָצָה II | missing 1; 0 unnumbered: E00802=2 |  |
-| [E00837](https://jastrow.app/#rid:E00837) | headword | הרְהוּן | הרְהוּן II | missing 1; 0 unnumbered: E00837=2 |  |
-| [H00067](https://jastrow.app/#rid:H00067) | headword | חֲבִילָא | חֲבִילָא II | missing 1; 0 unnumbered: H00067=2 |  |
-| [H01089](https://jastrow.app/#rid:H01089) | headword | חֲלָמָה | חֲלָמָה II | missing 1; 0 unnumbered: H01089=2 |  |
 | [H01432](https://jastrow.app/#rid:H01432) | alt | חֲפִי׳ | חֲפוּרָה² | missing 1; 0 unnumbered: H01432/alt=2 |  |
-| [I00057](https://jastrow.app/#rid:I00057) | headword | טְבִיעָה | טְבִיעָה II | missing 1; 0 unnumbered: I00057=2 |  |
 | [I00082](https://jastrow.app/#rid:I00082) | alt | טִיבְעָא | טִבְעָא | missing 1; 0 unnumbered: I00082/alt=2 |  |
 | [J00713](https://jastrow.app/#rid:J00713) | headword | יְתֵב | יְתֵב II | missing 1; 0 unnumbered: J00713=2 |  |
 | [J00738](https://jastrow.app/#rid:J00738) | headword | יַתִּיר | יַתִּיר II | missing 1; 0 unnumbered: J00738=2 |  |
 | [L00255](https://jastrow.app/#rid:L00255) | alt | לְיִיָּיה | לְוִיָּה | missing 1; 0 unnumbered: L00255/alt=2 |  |
 | [M00354](https://jastrow.app/#rid:M00354) | alt | מָ׳ | מְהוּלְתָּא | missing 1; 0 unnumbered: M00354/alt=2 |  |
 | [M00725](https://jastrow.app/#rid:M00725) | headword | מַזֶּה | מַזֶּה II | missing 1; 0 unnumbered: M00725=2 |  |
-| [M01323](https://jastrow.app/#rid:M01323) | alt | מֵתא | מֵיתָא | missing 1; 0 unnumbered: M01323/alt=2 |  |
 | [M02162](https://jastrow.app/#rid:M02162) | headword | מַעֲצַרְתָּא | מַעֲצַרְתָּא II | missing 1; 0 unnumbered: M02162=2 |  |
-| [M02354](https://jastrow.app/#rid:M02354) | headword | מָצַר | מָצַר II | missing 1; 0 unnumbered: M02354=2 |  |
-| [M02602](https://jastrow.app/#rid:M02602) | headword | מְרוּצָה | מְרוּצָה II | missing 1; 0 unnumbered: M02602=2 |  |
-| [M02740](https://jastrow.app/#rid:M02740) | headword | מַרְעִיתָא | מַרְעִיתָא II | missing 1; 0 unnumbered: M02740=2 |  |
 | [N00260](https://jastrow.app/#rid:N00260) | headword | נְהִי | נְהִי II | missing 1; 0 unnumbered: N00260=2; N00261/alt=2 |  |
-| [N01196](https://jastrow.app/#rid:N01196) | headword | נָקִי | נָקִי II | missing 1; 0 unnumbered: N01196=2 |  |
 | [O00251](https://jastrow.app/#rid:O00251) | alt | סוּגְיָיא | סוּגְיָא | missing 1; 0 unnumbered: O00251/alt=2 |  |
-| [P00219](https://jastrow.app/#rid:P00219) | headword | עוּזָּא | עוּזָּא II | missing 1; 0 unnumbered: P00219=2 |  |
-| [P00477](https://jastrow.app/#rid:P00477) | headword | עַטַר | עַטַר II | missing 1; 0 unnumbered: P00477=2 |  |
 | [P00596](https://jastrow.app/#rid:P00596) | alt | עִמְ׳ | עִימְעוּם² | missing 1; 0 unnumbered: P00596/alt=2 |  |
 | [P00837](https://jastrow.app/#rid:P00837) | alt | עֵו׳ | עִלְעֵל | missing 1; 0 unnumbered: P00837/alt=2 |  |
 | [P00860](https://jastrow.app/#rid:P00860) | alt | עָמָך | עֶמֶך | missing 1; 0 unnumbered: P00860/alt=2 |  |
-| [P00959](https://jastrow.app/#rid:P00959) | headword | עֲנָוָה | עֲנָוָה II | missing 1; 0 unnumbered: P00959=2 |  |
 | [P01247](https://jastrow.app/#rid:P01247) | headword | עָרִב | עָרִב II | missing 1; 0 unnumbered: P01247=2 |  |
 | [Q01192](https://jastrow.app/#rid:Q01192) | alt | פַּנְיָיא | פַּנְיָא | missing 1; 0 unnumbered: Q01192/alt=2 |  |
-| [Q01863](https://jastrow.app/#rid:Q01863) | headword | פִּרִכֵּס | פִּרִכֵּס II | missing 1; 0 unnumbered: Q01863=2 |  |
-| [T00500](https://jastrow.app/#rid:T00500) | headword | רִחִים | רִחִים II | missing 1; 0 unnumbered: T00500=2 |  |
-| [T00893](https://jastrow.app/#rid:T00893) | alt | רְיעִי | רְעִי² | missing 1; 0 unnumbered: T00893/alt=2 |  |
-| [U01388](https://jastrow.app/#rid:U01388) | alt | שִׁלִּשׁ | שָׁלַשׁ² | missing 1; 0 unnumbered: U01388/alt=2 |  |
 | [A00312](https://jastrow.app/#rid:A00312) | headword | אַגְמָא | אַגְמָא II | missing 1; 1 unnumbered: A00311=—; A00312=2 |  |
 | [A00890](https://jastrow.app/#rid:A00890) | headword | אוֹרְיָין | אוֹרְיָין II | missing 1; 1 unnumbered: A00889=—; A00890=2 |  |
-| [A01420](https://jastrow.app/#rid:A01420) | headword | אִיסְטְוָוא | אִיסְטְוָוא II | missing 1; 1 unnumbered: A01411/alt=—; A01420=2 |  |
-| [A01698](https://jastrow.app/#rid:A01698) | headword | אֲכַל | אֲכַל II | missing 1; 1 unnumbered: A01697=—; A01698=2 |  |
 | [A01735](https://jastrow.app/#rid:A01735) | headword | אַכְסָן | *אַכְסָן II | missing 1; 1 unnumbered: A01734=—; A01735=2 |  |
 | [A02042](https://jastrow.app/#rid:A02042) | headword | אֲמָנָה | אֲמָנָה II | missing 1; 1 unnumbered: A02041=—; A02042=2 |  |
 | [A02363](https://jastrow.app/#rid:A02363) | headword | אִסְטוֹמְכָא | אִסְטוֹמְכָא II | missing 1; 1 unnumbered: A02362=—; A02363=2 |  |
@@ -2924,7 +2892,6 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [H00433](https://jastrow.app/#rid:H00433) | headword | חוּצָה | חוּצָה II | missing 1; 1 unnumbered: H00432=—; H00433=2 |  |
 | [H01101](https://jastrow.app/#rid:H01101) | headword | חֵלֶף | חֵלֶף II | missing 1; 1 unnumbered: H00780/alt=—; H01101=2 |  |
 | [H01291](https://jastrow.app/#rid:H01291) | headword | חַנִּין | חַנִּין II | missing 1; 1 unnumbered: H01290=—; H01291=2 |  |
-| [H01579](https://jastrow.app/#rid:H01579) | headword | חָרֵב | חָרֵב II | missing 1; 1 unnumbered: H01579=2; H01580=— |  |
 | [J00113](https://jastrow.app/#rid:J00113) | headword | יָהּ | יָהּ II | missing 1; 1 unnumbered: J00112=—; J00113=2 |  |
 | [J00752](https://jastrow.app/#rid:J00752) | headword | יִתְרָא | יִתְרָא II | missing 1; 1 unnumbered: J00751=—; J00752=2 |  |
 | [K00345](https://jastrow.app/#rid:K00345) | headword | כּוֹפֶר | כּוֹפֶר II | missing 1; 1 unnumbered: K00344=—; K00345=2 |  |
@@ -2932,7 +2899,6 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [L00290](https://jastrow.app/#rid:L00290) | headword | לוּן | לוּן II | missing 1; 1 unnumbered: L00289=—; L00290=2 |  |
 | [L00694](https://jastrow.app/#rid:L00694) | headword | לָקִישׁ | לָקִישׁ II | missing 1; 1 unnumbered: L00693=—; L00694=2 |  |
 | [M01319](https://jastrow.app/#rid:M01319) | headword | מֵישְׁרָא | מֵישְׁרָא II | missing 1; 1 unnumbered: M01318/alt=—; M01319=2 |  |
-| [M02008](https://jastrow.app/#rid:M02008) | headword | מְסַר | מְסַר II | missing 1; 1 unnumbered: M02007=—; M02008=2 |  |
 | [M02547](https://jastrow.app/#rid:M02547) | headword | מַרְדּוּתָא | מַרְדּוּתָא II | missing 1; 1 unnumbered: M02546=—; M02547=2 |  |
 | [N00186](https://jastrow.app/#rid:N00186) | headword | נְגַר | נְגַר II | missing 1; 1 unnumbered: N00185=—; N00186=2 |  |
 | [N00343](https://jastrow.app/#rid:N00343) | headword | נוֹחַ | נוֹחַ II | missing 1; 1 unnumbered: N00342=—; N00343=2; N00344=3 |  |
@@ -2973,7 +2939,6 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [U01139](https://jastrow.app/#rid:U01139) | headword | שְׁכַח | שְׁכַח II | missing 1; 1 unnumbered: U01138=—; U01139=2 |  |
 | [U01397](https://jastrow.app/#rid:U01397) | headword | שִׁלְשֵׁל | שִׁלְשֵׁל II | missing 1; 1 unnumbered: U01396=—; U01397=2 |  |
 | [U01687](https://jastrow.app/#rid:U01687) | headword | שַׁעַר | שַׁעַר II | missing 1; 1 unnumbered: U01686=—; U01687=2 |  |
-| [U01774](https://jastrow.app/#rid:U01774) | headword | שְׁפַל | שְׁפַל II | missing 1; 1 unnumbered: U01772=—; U01774=2 |  |
 | [U02022](https://jastrow.app/#rid:U02022) | headword | שְׁרַק | שְׁרַק II | missing 1; 1 unnumbered: U02021=—; U02022=2; U02023=3 |  |
 | [U02098](https://jastrow.app/#rid:U02098) | headword | שַׁתְיָא | שַׁתְיָא II | missing 1; 1 unnumbered: U02097=—; U02098=2 |  |
 | [V00255](https://jastrow.app/#rid:V00255) | headword | תּוּף | תּוּף II | missing 1; 1 unnumbered: V00254=—; V00255=2 |  |
@@ -3009,7 +2974,6 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [H00209](https://jastrow.app/#rid:H00209) | alt | חִי׳ | חִדְקָא² | missing 1; 4 unnumbered: H00209/alt=2; H00367/alt=—; H01339/alt=2; H01340/alt=3; H01415/alt=—; H01424/alt=—; H01425/alt=— |  |
 | [C01377](https://jastrow.app/#rid:C01377) | alt | גִּירְ׳ | גִּרְסָא² | missing 1; 5 unnumbered: C01277/alt=—; C01278/alt=—; C01284/alt=—; C01362/alt=—; C01367/alt=—; C01377/alt=2 |  |
 | [A02348](https://jastrow.app/#rid:A02348) | alt | אִיצְ׳ | *אִסְטַבְלָא | missing 1; 9 unnumbered: A01411/alt=—; A01423/alt=—; A01453/alt=—; A02348/alt=2; A02402/alt=—; A02403/alt=—; A02422/alt=—; A02423/alt=—; A02871/alt=—; A02872/alt=— |  |
-| [P00476](https://jastrow.app/#rid:P00476) | headword | עֲטַר | עֲטַר I | missing 2; 0 unnumbered: P00476=1; P00478=3 |  |
 | [P01246](https://jastrow.app/#rid:P01246) | headword | עָרֵב | עָרֵב I | missing 2; 0 unnumbered: P01246=1; P01249=3 |  |
 | [B00560](https://jastrow.app/#rid:B00560) | headword | בִּיזָּא | בִּיזָּא I | missing 2; 1 unnumbered: B00560=1; B00561=—; B00562=3 |  |
 | [O00563](https://jastrow.app/#rid:O00563) | headword | סִיגְנָא | סִיגְנָא I | missing 2; 1 unnumbered: O00563=1; O00564=—; O00565=3 |  |
@@ -3018,3 +2982,45 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [V00808](https://jastrow.app/#rid:V00808) | headword | תָּפַח | תָּפַח I | missing 2; 1 unnumbered: V00808=1; V00809=—; V00810=3 |  |
 | [G00527](https://jastrow.app/#rid:G00527) | headword | זְמַם | זְמַם I | missing 2; 2 unnumbered: G00527=1; G00529=—; G00531=3; G00534=— |  |
 | [U00910](https://jastrow.app/#rid:U00910) | headword | שְׁיָירָא | שְׁיָירָא I | missing 2; 2 unnumbered: U00910=1; U00911=—; U00912/alt=3; U00914/alt=— |  |
+
+## X9 pointing differs within a numbered sequence (37)
+
+| rid | role | text | name | note | flagged |
+|---|---|---|---|---|---|
+| [A01320](https://jastrow.app/#rid:A01320) | headword | אִימָּא | אִימָּא II | mark missing: א (letter 1) no mark vs hiriq (A01319 vs A01320); sequence A01319=1 אימָּא, A01320=2 אִימָּא, A01321=3 אִימָּא |  |
+| [S00064](https://jastrow.app/#rid:S00064) | headword | קְבל | קְבל IV | mark missing: ב (letter 2) patah vs no mark (S00061 vs S00064); sequence S00057=1 קָבַל, S00059=2 קָבַל, S00061=3 קְבַל, S00064=4 קְבל |  |
+| [C01235](https://jastrow.app/#rid:C01235) | alt | גַּרְבּא | גָּרָב | mark missing: ב (letter 3) qamats and dagesh vs dagesh (C01233/alt vs C01235/alt); sequence C01233/alt=1 גַּרְבָּא, C01235/alt=2 גַּרְבּא |  |
+| [E00837](https://jastrow.app/#rid:E00837) | headword | הרְהוּן | הרְהוּן II | mark missing: ה (letter 1) hiriq vs no mark (E00836 vs E00837); sequence E00836=1 הִרְהוּן, E00837=2 הרְהוּן |  |
+| [C00650](https://jastrow.app/#rid:C00650) | headword | גִּיהָא | גִּיהָא II | mark missing: ה (letter 3) no mark vs qamats (C00649 vs C00650); sequence C00649=1 גִּיהא, C00650=2 גִּיהָא |  |
+| [H00749](https://jastrow.app/#rid:H00749) | headword | חַיְּיתָא | חַיְּיתָא III | mark missing: י (letter 2) sheva vs sheva and dagesh (H00748 vs H00749); sequence H00747=1 חַיְיתָא, H00748=2 חַיְיתָא, H00749=3 חַיְּיתָא |  |
+| [A01311](https://jastrow.app/#rid:A01311) | headword | אִילְפָא | אִילְפָא II | mark missing: ל (letter 3) no mark vs sheva (A01310 vs A01311); sequence A01310=1 אִילפָא, A01311=2 אִילְפָא |  |
+| [H00067](https://jastrow.app/#rid:H00067) | headword | חֲבִילָא | חֲבִילָא II | mark missing: ל (letter 4) no mark vs qamats (H00066 vs H00067); sequence H00066=1 חֲבִילא, H00067=2 חֲבִילָא |  |
+| [M02602](https://jastrow.app/#rid:M02602) | headword | מְרוּצָה | מְרוּצָה II | mark missing: מ (letter 1) no mark vs sheva (M02601 vs M02602); sequence M02601=1 מרוּצָה, M02602=2 מְרוּצָה |  |
+| [N01196](https://jastrow.app/#rid:N01196) | headword | נָקִי | נָקִי II | mark missing: נ (letter 1) qamats and dagesh vs qamats (N01195 vs N01196); sequence N01195=1 נָּקִי, N01196=2 נָקִי |  |
+| [A01420](https://jastrow.app/#rid:A01420) | headword | אִיסְטְוָוא | אִיסְטְוָוא II | mark missing: ס (letter 3) no mark vs sheva (A01419 vs A01420); sequence A01419=1 אִיסטְוָוא, A01420=2 אִיסְטְוָוא |  |
+| [P00219](https://jastrow.app/#rid:P00219) | headword | עוּזָּא | עוּזָּא II | mark missing: ע (letter 1) hiriq vs no mark (P00218 vs P00219); sequence P00218=1 עִוּזָּא, P00219=2 עוּזָּא |  |
+| [P00959](https://jastrow.app/#rid:P00959) | headword | עֲנָוָה | עֲנָוָה II | mark missing: ע (letter 1) no mark vs hataf patah (P00958 vs P00959); sequence P00958=1 ענָוָה, P00959=2 עֲנָוָה |  |
+| [I00057](https://jastrow.app/#rid:I00057) | headword | טְבִיעָה | טְבִיעָה II | mark missing: ע (letter 4) no mark vs qamats (I00056 vs I00057); sequence I00056=1 טְבִיעה, I00057=2 טְבִיעָה |  |
+| [M02354](https://jastrow.app/#rid:M02354) | headword | מָצַר | מָצַר II | mark missing: צ (letter 2) patah and dagesh vs patah (M02352 vs M02354); sequence M02352=1 מָצַּר, M02354=2 מָצַר |  |
+| [E00802](https://jastrow.app/#rid:E00802) | headword | הֲקָצָה | הֲקָצָה II | mark missing: צ (letter 3) no mark vs qamats (E00801 vs E00802); sequence E00801=1 הֲקָצה, E00802=2 הֲקָצָה |  |
+| [U01393](https://jastrow.app/#rid:U01393) | alt | שׁי׳ | שִׁלְשׁוּל³ | mark missing: ש (letter 1) hiriq and shin dot vs shin dot (U01392/alt vs U01393/alt); sequence U01391/alt=1 שִׁי׳, U01392/alt=2 שִׁי׳, U01393/alt=3 שׁי׳ |  |
+| [M01323](https://jastrow.app/#rid:M01323) | alt | מֵתא | מֵיתָא | mark missing: ת (letter 2) qamats vs no mark (M01322/alt vs M01323/alt); sequence M01322/alt=1 מֵתָא, M01323/alt=2 מֵתא |  |
+| [A00279](https://jastrow.app/#rid:A00279) | headword | אֲגוֹרָא | אֲגוֹרָא II | vowels differ: א (letter 1) hataf segol vs hataf patah (A00278 vs A00279); sequence A00278=1 אֱגוֹרָא, A00279=2 אֲגוֹרָא |  |
+| [A01698](https://jastrow.app/#rid:A01698) | headword | אֲכַל | אֲכַל II | vowels differ: א (letter 1) qamats vs hataf patah (A01697/alt vs A01698); sequence A01697/alt=1 אָכַל, A01698=2 אֲכַל; unnumbered between them: A01697 אֲכַל |  |
+| [A01965](https://jastrow.app/#rid:A01965) | headword | אֲמָא | אֲמָא II | vowels differ: א (letter 1) sheva vs hataf patah (A01964 vs A01965); sequence A01964=1 אְמָא, A01965=2 אֲמָא |  |
+| [B01014](https://jastrow.app/#rid:B01014) | headword | בְּסַר | בְּסַר III | vowels differ: ב (letter 1) qamats and dagesh vs sheva and dagesh (B01012 vs B01014); sequence B01010=1 בָּסַר, B01012=2 בָּסַר, B01014=3 בְּסַר; unnumbered between them: B01013 בְּסַר |  |
+| [D00501](https://jastrow.app/#rid:D00501) | headword | דִּיוֹ | דִּיוֹ II | vowels differ: ד (letter 1) sheva and dagesh vs hiriq and dagesh (D00500 vs D00501); sequence D00500=1 דְּיוֹ, D00501=2 דִּיוֹ |  |
+| [H01089](https://jastrow.app/#rid:H01089) | headword | חֲלָמָה | חֲלָמָה II | vowels differ: ח (letter 1) sheva vs hataf patah (H01088/alt vs H01089); sequence H01088/alt=1 חְלָמָה, H01089=2 חֲלָמָה |  |
+| [I00618](https://jastrow.app/#rid:I00618) | headword | טְעַן | טְעַן III | vowels differ: ט (letter 1) qamats vs sheva (I00616 vs I00618); sequence I00614=1 טָעַן, I00616=2 טָעַן, I00618=3 טְעַן; unnumbered between them: I00617 טְעַן |  |
+| [U01388](https://jastrow.app/#rid:U01388) | alt | שִׁלִּשׁ | שָׁלַשׁ² | vowels differ: ל (letter 2) tsere and dagesh vs hiriq and dagesh (U01387/alt vs U01388/alt); sequence U01387/alt=1 שִׁלֵּשׁ, U01388/alt=2 שִׁלִּשׁ |  |
+| [M02008](https://jastrow.app/#rid:M02008) | headword | מְסַר | מְסַר II | vowels differ: מ (letter 1) qamats vs sheva (M02007/alt vs M02008); sequence M02007/alt=1 מָסַר, M02008=2 מְסַר; unnumbered between them: M02007 מְסַר |  |
+| [M02850](https://jastrow.app/#rid:M02850) | headword | מְשַׁח | מְשַׁח III | vowels differ: מ (letter 1) qamats vs sheva (M02848 vs M02850); sequence M02846=1 מָשַׁח, M02848=2 מָשַׁח, M02850=3 מְשַׁח, M02851=4 מְשַׁח; unnumbered between them: M02849 מְשַׁח |  |
+| [P00477](https://jastrow.app/#rid:P00477) | headword | עַטַר | עַטַר II | vowels differ: ע (letter 1) hataf patah vs patah (P00476 vs P00477); sequence P00476=1 עֲטַר, P00477=2 עַטַר, P00478=3 עֲטַר |  |
+| [M02740](https://jastrow.app/#rid:M02740) | headword | מַרְעִיתָא | מַרְעִיתָא II | vowels differ: ע (letter 3) tsere vs hiriq (M02739/alt vs M02740); sequence M02739/alt=1 מַרְעֵיתָא, M02740=2 מַרְעִיתָא |  |
+| [S00061](https://jastrow.app/#rid:S00061) | headword | קְבַל | קְבַל III | vowels differ: ק (letter 1) qamats vs sheva (S00059 vs S00061); sequence S00057=1 קָבַל, S00059=2 קָבַל, S00061=3 קְבַל, S00064=4 קְבל; unnumbered between them: S00060 קְבַל |  |
+| [T00500](https://jastrow.app/#rid:T00500) | headword | רִחִים | רִחִים II | vowels differ: ר (letter 1) sheva vs hiriq (T00499 vs T00500); sequence T00499=1 רְחִים, T00500=2 רִחִים |  |
+| [T00893](https://jastrow.app/#rid:T00893) | alt | רְיעִי | רְעִי² | vowels differ: ר (letter 1) tsere vs sheva (T00892/alt vs T00893/alt); sequence T00892/alt=1 רֵיעִי, T00893/alt=2 רְיעִי |  |
+| [H01579](https://jastrow.app/#rid:H01579) | headword | חָרֵב | חָרֵב II | vowels differ: ר (letter 2) hiriq vs tsere (H01577 vs H01579); sequence H01577=1 חָרִב, H01579=2 חָרֵב |  |
+| [Q01863](https://jastrow.app/#rid:Q01863) | headword | פִּרִכֵּס | פִּרִכֵּס II | vowels differ: ר (letter 2) sheva vs hiriq (Q01862 vs Q01863); sequence Q01862=1 פִּרְכֵּס, Q01863=2 פִּרִכֵּס |  |
+| [U00710](https://jastrow.app/#rid:U00710) | headword | שְׁחַר | שְׁחַר IV | vowels differ: ש (letter 1) qamats and shin dot vs sheva and shin dot (U00708 vs U00710); sequence U00704=1 שָׁחַר, U00706=2 שָׁחַר, U00708=3 שָׁחַר, U00710=4 שְׁחַר; unnumbered between them: U00709 שְׁחַר |  |
+| [U01774](https://jastrow.app/#rid:U01774) | headword | שְׁפַל | שְׁפַל II | vowels differ: ש (letter 1) qamats and shin dot vs sheva and shin dot, פ (letter 2) tsere vs patah (U01771 vs U01774); sequence U01771=1 שָׁפֵל, U01774=2 שְׁפַל; unnumbered between them: U01772 שְׁפַל |  |
