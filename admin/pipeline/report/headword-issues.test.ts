@@ -140,6 +140,17 @@ const MARK_ORDER = [
 	withForms('B00002', ['\u05D1\u05BC\u05B8\u05D0'.normalize('NFC'), 2]),
 ];
 
+// `בָּא` I with two accents of one combining class (etnahta, tipeha),
+// and II with the same two the other way round: NFC keeps both orders.
+const ACCENT_ORDER = [
+	withForms('B00003', ['\u05D1\u05B8\u0591\u0596\u05D0', 1]),
+	withForms('B00004', ['\u05D1\u05B8\u0596\u0591\u05D0', 2]),
+];
+// `בָּא` I, and II with its qamats typed twice.
+const DOUBLED = [
+	withForms('B00005', ['\u05D1\u05B8\u05D0', 1]),
+	withForms('B00006', ['\u05D1\u05B8\u05B8\u05D0', 2]),
+];
 // [case, entries, X8 rids, X9 rows as [rid, how the note opens]]
 const SEQUENCE_CASES: Array<
 	[string, Entry[], string[], Array<[string, string]>]
@@ -183,6 +194,18 @@ const SEQUENCE_CASES: Array<
 	['אַגְמָא II, no I under either key', AGMA, ['A00312'], []],
 	['קרחא: three IIs and two Is, no superscript', QARHA, ['S01975'], []],
 	['one spelling, its marks in two orders', MARK_ORDER, [], []],
+	[
+		'two accents in two orders',
+		ACCENT_ORDER,
+		[],
+		[['B00004', 'marks in another order']],
+	],
+	[
+		'a mark typed twice',
+		DOUBLED,
+		[],
+		[['B00006', 'mark missing: ב (letter 1) qamats vs qamats and qamats']],
+	],
 ];
 
 describe('buildHeadwordIssues: homograph numerals number a sequence', () => {

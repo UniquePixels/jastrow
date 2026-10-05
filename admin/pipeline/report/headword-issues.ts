@@ -717,18 +717,29 @@ function marksByLetter(
  *   though not always (A01964 `אְמָא`, a sheva under alef).
  *
  * Neither kind says which spelling is right, and nothing here infers
- * a vowel: the print decides. */
+ * a vowel: the print decides. Marks are compared as counts, so a
+ * doubled mark is one the other spelling lacks; two spellings with the
+ * same marks in another order (accents of one combining class, which
+ * NFC does not reorder) are said to be so. */
 function pointingDifference(a: string, b: string): string {
 	const left = marksByLetter(a);
 	const right = marksByLetter(b);
+	// Counted, not a set: a doubled mark is a mark the other lacks.
+	const count = (marks: string[], m: string): number =>
+		marks.filter((x) => x === m).length;
 	const within = (xs: string[], ys: string[]): boolean =>
-		xs.every((x) => ys.includes(x));
+		xs.every((x) => count(xs, x) <= count(ys, x));
 	const differing = left.flatMap((l, i) => {
 		const r = right[i]?.marks ?? [];
 		return within(l.marks, r) && within(r, l.marks)
 			? []
 			: [{ letter: l.letter, n: i, left: l.marks, right: r }];
 	});
+	// Two accents of one combining class keep their typed order under
+	// NFC, so two spellings can differ in order alone.
+	if (differing.length === 0) {
+		return 'marks in another order: the same marks on every letter';
+	}
 	const subset =
 		differing.every((d) => within(d.left, d.right)) ||
 		differing.every((d) => within(d.right, d.left));
