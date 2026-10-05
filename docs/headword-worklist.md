@@ -54,15 +54,15 @@ Each row names the scan leaf; the page link opens the Internet Archive image. Th
 
 - **D00616**: stored `דימונ־ק־`
   - [ ] print has it as stored
-  - [ ] print has something else (say what you see in the note)
+  - [x] print has something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: ocr error, the maqefs are actually yods - דימוניקי
 
 - **S01339**: stored `קְלִיסְטַנְרִ־`
-  - [ ] print has it as stored
+  - [x] print has it as stored
   - [ ] print has something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: correct page is 1376b
 
 
 ### X8 Pointing: is one stored spelling a slip? (29)
