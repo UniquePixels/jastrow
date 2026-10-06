@@ -746,10 +746,11 @@ function pointingDifference(a: string, b: string): string {
 	const names = (marks: string[]): string =>
 		marks.length === 0 ? 'no mark' : marks.map(markName).join(' and ');
 	const detail = differing
-		.map(
-			(d) =>
-				`${d.n === 0 ? 'before the first letter' : `${d.letter} (letter ${d.n})`} ${names(d.left)} vs ${names(d.right)}`,
-		)
+		.map((d) => {
+			const where =
+				d.n === 0 ? 'before the first letter' : `${d.letter} (letter ${d.n})`;
+			return `${where} ${names(d.left)} vs ${names(d.right)}`;
+		})
 		.join(', ');
 	return `${subset ? 'mark missing' : 'vowels differ'}: ${detail}`;
 }
@@ -795,7 +796,7 @@ function spellingChanges(
 		if (a === undefined || a.text === b.text) {
 			continue;
 		}
-		const pair = [a.text, b.text].sort().join('|');
+		const pair = [a.text, b.text].sort((x, y) => x.localeCompare(y)).join('|');
 		if (!seen.has(pair)) {
 			seen.add(pair);
 			changes.push([a, b]);
