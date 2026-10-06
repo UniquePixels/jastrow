@@ -24,7 +24,12 @@ import { dirname, relative } from 'node:path';
 import { intToSup, isHeadwordReviewKind } from '../../entry/headwords.ts';
 import { nameOf } from '../../entry/names.ts';
 import type { Entry, FormObject } from '../../entry/types.ts';
-import { DESIGN_PATH, HEADWORD_ISSUES_DOC } from '../paths.ts';
+import {
+	DESIGN_PATH,
+	HEADWORD_ISSUES_DOC,
+	REVIEWED_KEPT_PATH,
+} from '../paths.ts';
+import { type KeptRecord, type KeptSplit, splitKept } from './reviewed-kept.ts';
 
 const APP_URL = 'https://jastrow.app/#rid:';
 
@@ -432,6 +437,9 @@ const SEQUENCE_WINDOW = 5;
 interface NumberedForm {
 	disambiguator: number | undefined;
 	homograph: number;
+	/** The numeral is ours, not print's (ruling 10-06 implied I). It
+	 * counts as a numeral like any other; notes say which it is. */
+	implied: boolean;
 	/** The form's index in its entry's `headwords`; 0 is the primary. */
 	index: number;
 	/** The entry's position in rid order: what "nearby" is measured in. */
@@ -479,7 +487,9 @@ function numbersOnce(members: readonly NumberedForm[]): boolean {
  * mark stripped, shin and sin dots too, as an unpointed text writes
  * the word; see {@link consonants}), in entry order, each member
  * within {@link SEQUENCE_WINDOW} entries of the last. Alternates take
- * part: a sequence's I is often an alternate (A01697 `אָכַל` I). */
+ * part: a sequence's I is often an alternate (A01697 `אָכַל` I). An
+ * implied I (ruling 10-06 implied I) is a numbered form like any
+ * other: it is the I its sequence would otherwise lack. */
 function numberedSequences(inOrder: readonly Entry[]): NumberedSequence[] {
 	const bySkeleton = new Map<string, NumberedForm[]>();
 	for (const [position, entry] of inOrder.entries()) {
@@ -494,6 +504,7 @@ function numberedSequences(inOrder: readonly Entry[]): NumberedSequence[] {
 				{
 					disambiguator: form.disambiguator,
 					homograph: form.homograph,
+					implied: form.implied === true,
 					index,
 					position,
 					rid: entry.id,
@@ -522,9 +533,11 @@ function numberedSequences(inOrder: readonly Entry[]): NumberedSequence[] {
 }
 
 /** A form in a spelling family: which entry, which of its headwords,
- * and its numeral if it has one. */
+ * its numeral if it has one, and whether that numeral is implied
+ * (ruling 10-06 implied I), which counts as numbered everywhere. */
 interface FamilyMember {
 	homograph: number | undefined;
+	implied: boolean;
 	index: number;
 	rid: string;
 }
@@ -539,7 +552,12 @@ function spellingFamilies(
 			const key = form.text.normalize('NFC');
 			families.set(key, [
 				...(families.get(key) ?? []),
-				{ homograph: form.homograph, index, rid },
+				{
+					homograph: form.homograph,
+					implied: form.implied === true,
+					index,
+					rid,
+				},
 			]);
 		}
 	}
@@ -555,10 +573,133 @@ function cleanlySequenced(sequences: readonly NumberedSequence[]): Set<string> {
 	);
 }
 
+/** One form placed in entry order, numbered or not: what the implied-I
+ * check walks to find the form standing just before a II. */
+interface PlacedForm {
+	homograph: number | undefined;
+	index: number;
+	/** Whether any form of the same entry carries a numeral: print set
+	 * one on that line, on another form (HW-roman). */
+	lineNumbered: boolean;
+	position: number;
+	rid: string;
+	/** NFC. */
+	text: string;
+}
+
+/** Every form, numbered or not, grouped by its consonants (see
+ * {@link consonants}), each group in entry order and, inside one
+ * entry, in headword order. */
+function formsByConsonants(
+	inOrder: readonly Entry[],
+): Map<string, PlacedForm[]> {
+	const byKey = new Map<string, PlacedForm[]>();
+	for (const [position, entry] of inOrder.entries()) {
+		const lineNumbered = entry.headwords.some((f) => f.homograph !== undefined);
+		for (const [index, form] of entry.headwords.entries()) {
+			const text = form.text.normalize('NFC');
+			const key = consonants(text);
+			byKey.set(key, [
+				...(byKey.get(key) ?? []),
+				{
+					homograph: form.homograph,
+					index,
+					lineNumbered,
+					position,
+					rid: entry.id,
+					text,
+				},
+			]);
+		}
+	}
+	return byKey;
+}
+
+/** The form that would take an implied I for a family whose ONLY
+ * missing numeral is I (ruling 10-06 implied I), or `undefined`.
+ *
+ * It is the form with the family's consonants standing immediately
+ * before the family's II, as the 10-05 sequence orders them: in an
+ * earlier entry, at most {@link SEQUENCE_WINDOW} entries back, with no
+ * numeral of its own and none anywhere on its line. Anything else
+ * leaves the family an X8 gap, because no single form is the obvious
+ * I: a numbered form in between (A03215 `אָרַע`, then A03216 `אֲרַע`
+ * I, then A03217 `אָרַע` II), no unnumbered neighbour at all, one too
+ * far back, or a line that already carries a numeral on another form
+ * (M02161, whose I stands on its abbreviation `מַעֲצַ׳`: print numbers
+ * that line, and HW-roman keeps the numeral where it stands). */
+function impliedCandidate(
+	text: string,
+	members: readonly FamilyMember[],
+	missing: readonly number[],
+	byConsonants: ReadonlyMap<string, readonly PlacedForm[]>,
+): PlacedForm | undefined {
+	const second = members.find((m) => m.homograph === 2);
+	if (missing.length !== 1 || missing[0] !== 1 || second === undefined) {
+		return;
+	}
+	const placed = byConsonants.get(consonants(text)) ?? [];
+	const at = placed.findIndex(
+		(f) => f.rid === second.rid && f.index === second.index,
+	);
+	const ii = placed[at];
+	const before = placed[at - 1];
+	if (ii === undefined || before === undefined) {
+		return;
+	}
+	const gap = ii.position - before.position;
+	const bare = before.homograph === undefined && !before.lineNumbered;
+	return bare && gap > 0 && gap <= SEQUENCE_WINDOW ? before : undefined;
+}
+
+/** A family member as a note names it: label, then its numeral, `—`
+ * when it has none, marked when the numeral is implied. */
+function describeMember(m: FamilyMember): string {
+	const numeral = m.homograph === undefined ? '—' : String(m.homograph);
+	return `${formLabel(m)}=${numeral}${m.implied ? ' (implied)' : ''}`;
+}
+
+/** What {@link homographGapRows} needs besides the entries: the
+ * sequences, and every form by consonants for the implied-I check. */
+interface GapContext {
+	byConsonants: ReadonlyMap<string, readonly PlacedForm[]>;
+	entries: Map<string, Entry>;
+	sequences: readonly NumberedSequence[];
+}
+
+/** The X8 shape. */
+const GAP_SHAPE = 'X8 homograph numbering gap';
+/** The X10 shape (ruling 10-06 implied I): a gap whose missing I has an
+ * obvious holder. Named in the file's style beside X8 and X9. */
+const IMPLIED_SHAPE = 'X10 first homograph unnumbered: implied I candidate';
+
+/** One family's numbers, distinct and ascending, and the numerals
+ * 1..highest it lacks. DISTINCT: a family can hold two entries
+ * numbered II (A00014, A00015), told apart by their superscript
+ * disambiguator, and counting the repeat would report every such
+ * family as a gap. */
+function numbering(members: readonly FamilyMember[]): {
+	missing: number[];
+	numbers: number[];
+} {
+	const numbers = [
+		...new Set(
+			members
+				.map((m) => m.homograph)
+				.filter((n): n is number => n !== undefined),
+		),
+	].sort((a, b) => a - b);
+	const highest = numbers.at(-1) ?? 0;
+	const missing = Array.from({ length: highest }, (_, i) => i + 1).filter(
+		(n) => !numbers.includes(n),
+	);
+	return { missing, numbers };
+}
+
 /** Homograph families whose numerals do not run 1..n.
  *
  * A family is keyed on the **exact NFC spelling**, and alternates
- * count. This is the third version, and the first two were each wrong
+ * count. This is the fourth version, and the first two were each wrong
  * in a way the other fixed:
  *
  * 1. **Consonants alone**, headwords only: 202 families. `קַרְחָא` II,
@@ -582,8 +723,18 @@ function cleanlySequenced(sequences: readonly NumberedSequence[]): Set<string> {
  *    keeps B00561's
  *    `בִּזָּא` II a gap: `בְּזָא` I, II (B00435, B00436) share its
  *    consonants, but stand 125 entries back and already hold a II.
+ * 4. **The implied I** (`decisions.md`, 10-06 implied I): a gap whose
+ *    ONLY missing numeral is I, where an unnumbered form with the same
+ *    consonants stands immediately before the II in the 10-05 order
+ *    ({@link impliedCandidate}), is no longer X8. It is reported as
+ *    X10, and the note names the form that would take `homograph: 1,
+ *    implied: true` if print sets no numeral beside it (or a plain
+ *    `homograph: 1` if it does). A reviewed patch settles each one;
+ *    once it has, the family runs 1..n and the row is gone. An implied
+ *    numeral counts as a numeral here and everywhere else this file
+ *    counts them.
  *
- * The families it clears are not dropped: their pointing is its own
+ * The families 3 clears are not dropped: their pointing is its own
  * question, reported by {@link pointingRows}. It cannot see a numeral
  * Sefaria dropped from an entry with no numbered sibling at all, and a
  * dropped numeral inside a sequence can make the rest look whole
@@ -593,57 +744,48 @@ function cleanlySequenced(sequences: readonly NumberedSequence[]): Set<string> {
  * A row is a question, never a verdict: the note says which numerals
  * are missing and how many unnumbered siblings could be carrying them,
  * so the print can settle it. */
-function homographGapRows(
-	entries: Map<string, Entry>,
-	sequences: readonly NumberedSequence[],
-): IssueRow[] {
+function homographGapRows({
+	byConsonants,
+	entries,
+	sequences,
+}: GapContext): IssueRow[] {
 	const inCleanSequence = cleanlySequenced(sequences);
 	const rows: IssueRow[] = [];
 	for (const [text, family] of spellingFamilies(entries)) {
 		const members = [...family].sort((a, b) =>
 			formLabel(a).localeCompare(formLabel(b)),
 		);
-		// DISTINCT numerals: a family can hold two entries numbered II
-		// (A00014, A00015), told apart by their superscript
-		// disambiguator. Counting the repeat would report every such
-		// family as a gap.
-		const numbers = [
-			...new Set(
-				members
-					.map((m) => m.homograph)
-					.filter((n): n is number => n !== undefined),
-			),
-		].sort((a, b) => a - b);
-		const complete = numbers.every((n, i) => n === i + 1);
+		const { missing, numbers } = numbering(members);
 		const first = members.find((m) => m.homograph !== undefined);
 		const sequenced = members
 			.filter((m) => m.homograph !== undefined)
 			.every((m) => inCleanSequence.has(`${m.rid}:${m.index}`));
-		if (numbers.length === 0 || complete || first === undefined || sequenced) {
-			continue;
-		}
-		const entry = entries.get(first.rid);
-		if (entry === undefined) {
+		const entry = first === undefined ? undefined : entries.get(first.rid);
+		if (
+			numbers.length === 0 ||
+			missing.length === 0 ||
+			first === undefined ||
+			entry === undefined ||
+			sequenced
+		) {
 			continue;
 		}
 		const unnumbered = members.filter((m) => m.homograph === undefined).length;
-		const highest = numbers.at(-1) ?? 0;
-		const missing = Array.from({ length: highest }, (_, i) => i + 1).filter(
-			(n) => !numbers.includes(n),
-		);
-		const detail = members
-			.map((m) => `${formLabel(m)}=${m.homograph ?? '—'}`)
-			.join('; ');
+		const detail = `${unnumbered} unnumbered: ${members.map(describeMember).join('; ')}`;
+		const candidate = impliedCandidate(text, members, missing, byConsonants);
 		rows.push({
 			flagged: false,
 			name: nameOf(entry),
-			note: `missing ${missing.join(',')}; ${unnumbered} unnumbered: ${detail}`,
+			note:
+				candidate === undefined
+					? `missing ${missing.join(',')}; ${detail}`
+					: `${formLabel(candidate)} ${candidate.text} stands just before the II: it takes homograph: 1, implied: true if print sets no numeral beside it (homograph: 1 if print sets I); ${detail}`,
 			rid: first.rid,
 			// The family is keyed on the ALTERNATE's spelling when its
 			// first numbered member is an alternate, so the row must name
 			// that form, not the entry's primary headword.
 			role: first.index === 0 ? 'headword' : 'alt',
-			shape: 'X8 homograph numbering gap',
+			shape: candidate === undefined ? GAP_SHAPE : IMPLIED_SHAPE,
 			text,
 		});
 	}
@@ -756,11 +898,13 @@ function pointingDifference(a: string, b: string): string {
 }
 
 /** A numbered form as a note names it: label, numeral, superscript,
- * spelling. */
+ * spelling, and `(implied)` when the numeral is ours (ruling 10-06
+ * implied I). */
 function describeNumbered(form: NumberedForm): string {
 	const sup =
 		form.disambiguator === undefined ? '' : intToSup(form.disambiguator);
-	return `${formLabel(form)}=${form.homograph}${sup} ${form.text}`;
+	const implied = form.implied ? ' (implied)' : '';
+	return `${formLabel(form)}=${form.homograph}${sup}${implied} ${form.text}`;
 }
 
 /** The unnumbered forms spelled like either of `a` and `b`, in the
@@ -864,11 +1008,71 @@ function cell(value: string): string {
 	return value.replaceAll('|', String.raw`\|`).replaceAll(/\r?\n/gu, ' ');
 }
 
+/** One line of the summary table: a label and its rows' counts. */
+function countLine(label: string, group: readonly IssueRow[]): string {
+	const mainForms = group.filter((r) => r.role === 'headword').length;
+	const alt = group.filter((r) => r.role === 'alt').length;
+	const flagged = group.filter((r) => r.flagged).length;
+	return `| ${label} | ${group.length} | ${mainForms} | ${alt} | ${flagged} |`;
+}
+
+/** The heading of the reviewed-kept section, and its summary label. */
+const KEPT_SECTION = 'Reviewed, kept';
+/** The heading of the stale-records section, and its summary label. */
+const STALE_SECTION = 'Reviewed, kept: stale records';
+
+/** The two sections the reviewed-kept list adds (ruling 10-06
+ * reviewed kept): the rows it keeps, each with the record's reason,
+ * and the records no row matched. Both are printed even when empty, so
+ * a section that found nothing reads differently from one that never
+ * ran. */
+function renderKept(split: KeptSplit<IssueRow>): string[] {
+	const kept = [...split.kept].sort(
+		(a, b) =>
+			a.row.shape.localeCompare(b.row.shape) ||
+			a.row.rid.localeCompare(b.row.rid),
+	);
+	const lines = [
+		'',
+		`## ${KEPT_SECTION} (${kept.length})`,
+		'',
+		`Rows read against the print and found right as stored, from \`${REVIEWED_KEPT_PATH}\` (decisions 10-06 reviewed kept). They are out of their shape's count, not out of the report: a wrong record is still a row here.`,
+		'',
+		'| rid | role | shape | text | name | note | reason | flagged |',
+		'|---|---|---|---|---|---|---|---|',
+	];
+	for (const { record, row } of kept) {
+		lines.push(
+			`| [${row.rid}](${APP_URL}${row.rid}) | ${row.role} | ${cell(row.shape)} | ${cell(row.text)} | ${cell(row.name)} | ${cell(row.note)} | ${cell(record.reason)} | ${row.flagged ? 'yes' : ''} |`,
+		);
+	}
+	lines.push(
+		'',
+		`## ${STALE_SECTION} (${split.stale.length})`,
+		'',
+		'Records no row matches on shape, rid and text: the stored text or the shape changed since the read. Each needs a person again.',
+		'',
+	);
+	if (split.stale.length === 0) {
+		lines.push('None.');
+		return lines;
+	}
+	lines.push('| rid | shape | text | reason |', '|---|---|---|---|');
+	for (const record of split.stale) {
+		lines.push(
+			`| [${record.rid}](${APP_URL}${record.rid}) | ${cell(record.shape)} | ${cell(record.text)} | ${cell(record.reason)} |`,
+		);
+	}
+	return lines;
+}
+
 /** The generated document: a count table, then one section per shape
- * with every row, each rid linked to the live app. */
-function render(rows: IssueRow[]): string {
+ * with every row it still asks about, each rid linked to the live app,
+ * then the reviewed-kept rows and any stale records
+ * ({@link renderKept}). */
+function render(split: KeptSplit<IssueRow>): string {
 	const byShape = new Map<string, IssueRow[]>();
-	for (const row of rows) {
+	for (const row of split.open) {
 		byShape.set(row.shape, [...(byShape.get(row.shape) ?? []), row]);
 	}
 	const shapes = [...byShape.keys()].sort((a, b) => a.localeCompare(b));
@@ -886,16 +1090,13 @@ function render(rows: IssueRow[]): string {
 		'',
 		'| Shape | Rows | Main | Alt | Flagged by the processor |',
 		'|---|---|---|---|---|',
+		...shapes.map((shape) => countLine(shape, byShape.get(shape) ?? [])),
+		countLine(
+			KEPT_SECTION,
+			split.kept.map((k) => k.row),
+		),
+		`| ${STALE_SECTION} | ${split.stale.length} | | | |`,
 	];
-	for (const shape of shapes) {
-		const group = byShape.get(shape) ?? [];
-		const mainForms = group.filter((r) => r.role === 'headword').length;
-		const alt = group.filter((r) => r.role === 'alt').length;
-		const flagged = group.filter((r) => r.flagged).length;
-		lines.push(
-			`| ${shape} | ${group.length} | ${mainForms} | ${alt} | ${flagged} |`,
-		);
-	}
 	for (const shape of shapes) {
 		const group = [...(byShape.get(shape) ?? [])].sort(
 			(a, b) => a.note.localeCompare(b.note) || a.rid.localeCompare(b.rid),
@@ -913,14 +1114,21 @@ function render(rows: IssueRow[]): string {
 			);
 		}
 	}
+	lines.push(...renderKept(split));
 	return `${lines.join('\n')}\n`;
 }
 
-/** The same rows as CSV, for sorting and filtering. */
-function renderCsv(rows: IssueRow[]): string {
+/** The same rows as CSV, for sorting and filtering. Every row is here,
+ * kept or not; `reviewed_kept` carries the keeping record's reason and
+ * is empty for a row the list does not keep. */
+function renderCsv(split: KeptSplit<IssueRow>): string {
 	const quote = (value: string): string => `"${value.replaceAll('"', '""')}"`;
-	const lines = ['shape,rid,role,text,name,note,processor_flagged'];
-	for (const row of [...rows].sort(
+	const reasons = new Map(split.kept.map((k) => [k.row, k.record.reason]));
+	const lines = [
+		'shape,rid,role,text,name,note,processor_flagged,reviewed_kept',
+	];
+	const rows = [...split.open, ...split.kept.map((k) => k.row)];
+	for (const row of rows.sort(
 		(a, b) => a.shape.localeCompare(b.shape) || a.rid.localeCompare(b.rid),
 	)) {
 		lines.push(
@@ -932,6 +1140,7 @@ function renderCsv(rows: IssueRow[]): string {
 				row.name,
 				row.note,
 				String(row.flagged),
+				reasons.get(row) ?? '',
 			]
 				.map(quote)
 				.join(','),
@@ -940,20 +1149,27 @@ function renderCsv(rows: IssueRow[]): string {
 	return `${lines.join('\n')}\n`;
 }
 
-/** The two rendered documents and the counts `import.ts` prints. */
+/** The two rendered documents and the counts `import.ts` prints:
+ * every row, the shapes, how many rows the reviewed-kept list keeps,
+ * and how many of its records matched no row. */
 interface HeadwordIssues {
 	csv: string;
 	doc: string;
+	kept: number;
 	rows: number;
 	shapes: number;
+	stale: number;
 }
 
 /** Every issue row over the run's finished entries, rendered. Pure:
  * the caller owns the write, so a dry run and `--write` produce the
- * same documents from the same in-memory state. */
+ * same documents from the same in-memory state. `kept` is the
+ * reviewed-kept list (`reviewed-kept.ts`), read by the caller; a row
+ * it matches moves to its own section, and nothing leaves the report. */
 function buildHeadwordIssues(
 	finished: readonly Entry[],
 	reportRows: readonly ReportRow[],
+	kept: readonly KeptRecord[] = [],
 ): HeadwordIssues {
 	classifyEveryShape();
 	const flagged = flaggedRids(reportRows);
@@ -974,14 +1190,21 @@ function buildHeadwordIssues(
 	}
 	const sequences = numberedSequences(inRidOrder);
 	rows.push(
-		...homographGapRows(entries, sequences),
+		...homographGapRows({
+			byConsonants: formsByConsonants(inRidOrder),
+			entries,
+			sequences,
+		}),
 		...pointingRows(entries, inRidOrder, sequences),
 	);
+	const split = splitKept(rows, kept);
 	return {
-		csv: renderCsv(rows),
-		doc: render(rows),
+		csv: renderCsv(split),
+		doc: render(split),
+		kept: split.kept.length,
 		rows: rows.length,
 		shapes: new Set(rows.map((r) => r.shape)).size,
+		stale: split.stale.length,
 	};
 }
 

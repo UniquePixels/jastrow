@@ -74,6 +74,15 @@ export const REVIEWED_DIR = `${PATCH_DIR}/reviewed`;
  * "catalogued, not yet detected"), so a review report can list both. */
 export const PATTERNS_PATH = `${PATCH_DIR}/patterns.jsonl`;
 
+/** Report definition, not data: inputs a generated report reads
+ * besides the run itself. */
+const REPORT_RECORDS_DIR = 'admin/pipeline/report/records';
+
+/** The reviewed-kept list (`report/reviewed-kept.ts`, decisions 10-06
+ * reviewed kept): headword-issues rows a person read against the print
+ * and found right as stored. */
+export const REVIEWED_KEPT_PATH = `${REPORT_RECORDS_DIR}/reviewed-kept.jsonl`;
+
 /** Where the committed snapshot pin lives. One fixed path, not an
  * option: the value every patch record pins itself to has to be the
  * same one for everybody, so `--write` writes here and verification

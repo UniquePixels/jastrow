@@ -81,8 +81,10 @@ import {
 	HEADWORD_ISSUES_DOC,
 	ENTRIES_DIR as OUT_DIR,
 	REVIEW_REPORT_PATH,
+	REVIEWED_KEPT_PATH,
 } from './paths.ts';
 import { buildHeadwordIssues } from './report/headword-issues.ts';
+import { parseReviewedKept } from './report/reviewed-kept.ts';
 import { RULES } from './transform/registry.ts';
 import type { BodyEntry, SourceEntry } from './types.ts';
 
@@ -578,16 +580,19 @@ function printGates(report: Report): void {
  * Written on every run, like the blessing and the review report, so
  * it can never describe a tree other than the one the run produced.
  * It reads the NORMALIZED entries — exactly what `writeAll` puts on
- * disk — rather than the pre-NFC entries the gates read. */
+ * disk — rather than the pre-NFC entries the gates read — and the
+ * reviewed-kept list (`REVIEWED_KEPT_PATH`), whose rows it moves to a
+ * section of their own and whose unmatched records it names stale. */
 async function writeHeadwordIssues(
 	entries: readonly Entry[],
 	report: Report,
 ): Promise<void> {
-	const issues = buildHeadwordIssues(entries, report.rows);
+	const kept = parseReviewedKept(await Bun.file(REVIEWED_KEPT_PATH).text());
+	const issues = buildHeadwordIssues(entries, report.rows, kept);
 	await Bun.write(HEADWORD_ISSUES_DOC, issues.doc);
 	await Bun.write(HEADWORD_ISSUES_CSV, issues.csv);
 	console.log(
-		`headword issues: ${issues.rows} rows across ${issues.shapes} shapes`,
+		`headword issues: ${issues.rows} rows across ${issues.shapes} shapes; reviewed-kept ${issues.kept}, stale records ${issues.stale}`,
 	);
 }
 
