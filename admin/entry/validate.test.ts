@@ -384,6 +384,26 @@ describe('the two halves', () => {
 		);
 	});
 
+	// Ruling 10-06 implied I: `implied` says a homograph numeral is ours,
+	// so it means nothing without one. The schema refuses it first
+	// (`dependentRequired`); `headword-rules.test.ts` holds the same
+	// clause in the shape rules, for a caller that has no schema.
+	it('validateEntry refuses implied without a homograph', async () => {
+		const planted = { ...A(), headwords: [{ implied: true, text: 'אב' }] };
+		const problems = await validateEntry(planted, 'A/A00001.json');
+		expect(problems).toHaveLength(1);
+		expect(problems[0]).toContain('dependentRequired');
+		expect(problems[0]).toContain('implied');
+	});
+
+	it('validateEntry passes an implied I that display does not number', async () => {
+		const planted = {
+			...A(),
+			headwords: [{ homograph: 1, implied: true, text: 'אב' }],
+		};
+		expect(await validateEntry(planted, 'A/A00001.json')).toEqual([]);
+	});
+
 	it('validateEntry reports a schema failure by path and stops there', async () => {
 		const problems = await validateEntry({ id: 'A00001' }, 'A/A00001.json');
 		expect(problems).toHaveLength(1);

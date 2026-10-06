@@ -9,8 +9,12 @@
  * 1. Every form index appears in `display` exactly once.
  * 2. `display` holds no Hebrew letters or points.
  * 3. Markers agree with the forms: `*` before `{n}` or its group ⇔
- *    `reconstructed`; a SINGLE numeral beside `{n}` ⇔ `homograph`;
- *    `m.`/`f.` beside `{n}` ⇔ `gender`.
+ *    `reconstructed`; a SINGLE numeral beside `{n}` ⇔ a `homograph`
+ *    that is not `implied`; `m.`/`f.` beside `{n}` ⇔ `gender`. Two
+ *    things are named and never displayed (rulings 10-06 hidden
+ *    superscript and implied I): a `disambiguator`'s superscript never
+ *    appears in `display`, and an `implied` homograph's numeral never
+ *    does. `implied` stands only beside a `homograph`.
  * 4. A form's `text` never holds a comma, parenthesis, `?`, `=`, `…`
  *    or a Latin letter.
  * 5. A `partial` form is never a lookup key.
@@ -49,6 +53,9 @@ const GENDER_IN_DISPLAY = /(?<![A-Za-z])(?<label>[mf])\.(?![A-Za-z])/gu;
 /** A notation run that may stand between a `*` and the form (or the
  * group) it marks: the delimiters, the query mark and whitespace. */
 const STAR_REACHES = /\*[\s()?]*$/u;
+/** A superscript digit, the glyph of a `disambiguator`. Listed by code
+ * point: three of them (¹ ² ³) sit in Latin-1, the rest at U+2070. */
+const SUPERSCRIPT = /[\u00B2\u00B3\u00B9\u2070\u2074-\u2079]/u;
 
 /** Rule 4: the forms whose `text` carries notation it must not — the
  * §3 halt, measured rather than assumed. Returns one line per
@@ -133,13 +140,7 @@ interface MarkerSite {
 }
 
 /** Rule 3, for one form: the notation around its slot says what the
- * form says.
- *
- * The numeral clause reads the gap AFTER the slot, up to the next
- * slot, and distinguishes the two cases §3.1 separates. Exactly one
- * numeral is this form's `homograph`. **Two or more are not a number
- * for this form at all** — `{0} I, II` is a cross-reference naming two
- * other entries — and the form must carry none. */
+ * form says. The numeral clause is {@link checkNumeral}. */
 function checkMarkers(at: MarkerSite, problems: string[]): void {
 	const { after, before, form, id } = at;
 	const starred = STAR_REACHES.test(before);
@@ -148,15 +149,7 @@ function checkMarkers(at: MarkerSite, problems: string[]): void {
 			`${id}: display ${starred ? 'stars' : 'does not star'} a form that is ${form.reconstructed === true ? '' : 'not '}reconstructed (§3.1 rule 3)`,
 		);
 	}
-	const romans = [...after.matchAll(ROMAN_IN_DISPLAY)].map((m) => m[0]);
-	const expected = romans.length === 1 ? romans[0] : undefined;
-	const written =
-		form.homograph === undefined ? undefined : intToRomanLocal(form.homograph);
-	if (expected !== written) {
-		problems.push(
-			`${id}: display says homograph ${String(expected)} but the form says ${String(written)} (§3.1 rule 3)`,
-		);
-	}
+	checkNumeral(at, problems);
 	const labels = [...after.matchAll(GENDER_IN_DISPLAY)].map(
 		(m) => m.groups?.['label'],
 	);
@@ -165,6 +158,61 @@ function checkMarkers(at: MarkerSite, problems: string[]): void {
 		problems.push(
 			`${id}: display says gender ${String(label)} but the form says ${String(form.gender)} (§3.1 rule 3)`,
 		);
+	}
+}
+
+/** Rule 3's numeral clause, for one form. It reads the gap AFTER the
+ * slot, up to the next slot, and distinguishes the two cases §3.1
+ * separates. Exactly one numeral is this form's `homograph`. **Two or
+ * more are not a number for this form at all** — `{0} I, II` is a
+ * cross-reference naming two other entries — and the form must carry
+ * none.
+ *
+ * An `implied` homograph is one print does not number (ruling 10-06
+ * implied I), so its slot must show no numeral at all: the number is
+ * in the name and nowhere on the line. */
+function checkNumeral(at: MarkerSite, problems: string[]): void {
+	const { after, form, id } = at;
+	const romans = [...after.matchAll(ROMAN_IN_DISPLAY)].map((m) => m[0]);
+	const expected = romans.length === 1 ? romans[0] : undefined;
+	const shown = form.implied === true ? undefined : form.homograph;
+	const written = shown === undefined ? undefined : intToRomanLocal(shown);
+	if (expected === written) {
+		return;
+	}
+	problems.push(
+		form.implied === true
+			? `${id}: display sets ${String(expected)} beside a form whose homograph is implied, which print does not number (§3.1 rule 3, ruling 10-06 implied I)`
+			: `${id}: display says homograph ${String(expected)} but the form says ${String(written)} (§3.1 rule 3)`,
+	);
+}
+
+/** Rule 3's two halves that hold with or without a `display`
+ * (rulings 10-06 hidden superscript and implied I):
+ *
+ * - `display` carries no superscript digit. A `disambiguator` is named
+ *   and never displayed, so a superscript in the template is either
+ *   that number shown, or one no form carries.
+ * - `implied` stands only beside a `homograph`: it says the numeral is
+ *   ours, so with no numeral it says nothing. The schema refuses the
+ *   same shape first (`dependentRequired`); this holds it for a caller
+ *   that reads the rules without the schema. */
+function checkNamedNotShown(
+	entry: Pick<Entry, 'display' | 'headwords' | 'id'>,
+	problems: string[],
+): void {
+	const sup = SUPERSCRIPT.exec(entry.display ?? '');
+	if (sup !== null) {
+		problems.push(
+			`${entry.id}: display carries the superscript ${JSON.stringify(sup[0])}; a disambiguator is named, never displayed (§3.1 rule 3, ruling 10-06 hidden superscript)`,
+		);
+	}
+	for (const [i, form] of entry.headwords.entries()) {
+		if (form.implied === true && form.homograph === undefined) {
+			problems.push(
+				`${entry.id}: headwords[${i}] is implied with no homograph (§3.1 rule 3, ruling 10-06 implied I)`,
+			);
+		}
 	}
 }
 
@@ -243,6 +291,7 @@ function headwordShapeProblems(
 	const problems: string[] = [];
 	checkPartial(entry.id, entry.headwords, problems);
 	problems.push(...textDefects(entry));
+	checkNamedNotShown(entry, problems);
 	const { display } = entry;
 	if (display === undefined) {
 		// §3: a line the source cannot settle is written WITHOUT a

@@ -4897,7 +4897,7 @@ Entry:
 			"disambiguator": 2
 		}
 	],
-	"display": "{0} ²",
+	"display": "{0}",
 	"page": {
 		"number": 623,
 		"column": "a"
@@ -5691,7 +5691,7 @@ Entry:
 			"homograph": 1
 		}
 	],
-	"display": "{0} ², {1}, {2} I",
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 1027,
 		"column": "a"

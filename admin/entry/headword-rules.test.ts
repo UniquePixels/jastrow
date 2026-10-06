@@ -7,7 +7,7 @@
 import { describe, expect, it } from 'bun:test';
 import { headwordShapeProblems, textDefects } from './headword-rules.ts';
 import { parseHeadwordLine } from './headwords.ts';
-import type { Entry } from './types.ts';
+import type { Entry, FormObject } from './types.ts';
 
 /** An entry as the rules read it: the id, the forms and the template. */
 function shaped(
@@ -115,6 +115,47 @@ describe('rule 3 — the numeral clause', () => {
 				shaped([{ reconstructed: true, text: 'אב' }], '*(?){0}'),
 			),
 		).toEqual([]);
+	});
+});
+
+// Rulings 10-06 hidden superscript and implied I: a disambiguator is
+// never in `display`, and a numeral is beside `{n}` iff the form has a
+// homograph that is not implied. `[case, form, display, problems]`.
+const HIDDEN: ReadonlyArray<readonly [string, FormObject, string, number]> = [
+	[
+		'a disambiguator, not displayed',
+		{ disambiguator: 2, text: 'אב' },
+		'{0}',
+		0,
+	],
+	['a disambiguator, displayed', { disambiguator: 2, text: 'אב' }, '{0} ²', 1],
+	['a superscript the form does not carry', { text: 'אב' }, '{0}²', 1],
+	[
+		'an implied I, not displayed',
+		{ homograph: 1, implied: true, text: 'אב' },
+		'{0}',
+		0,
+	],
+	[
+		'an implied I, displayed',
+		{ homograph: 1, implied: true, text: 'אב' },
+		'{0} I',
+		1,
+	],
+	['a printed I, displayed', { homograph: 1, text: 'אב' }, '{0} I', 0],
+	['a printed I, not displayed', { homograph: 1, text: 'אב' }, '{0}', 1],
+	['implied with no homograph', { implied: true, text: 'אב' }, '{0}', 1],
+];
+
+describe('rule 3 — what display never shows (10-06)', () => {
+	it.each(HIDDEN)('%s', (_case, form, display, count) => {
+		expect(headwordShapeProblems(shaped([form], display))).toHaveLength(count);
+	});
+
+	it('refuses implied with no homograph where there is no display', () => {
+		expect(
+			headwordShapeProblems(shaped([{ implied: true, text: 'אב' }])),
+		).toHaveLength(1);
 	});
 });
 

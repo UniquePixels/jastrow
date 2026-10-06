@@ -16,7 +16,7 @@
 			"partial": true
 		}
 	],
-	"display": "{0} ², {1}, {2} I",
+	"display": "{0}, {1}, {2} I",
 	"page": {
 		"number": 828,
 		"column": "a"
