@@ -102,4 +102,14 @@ describe('parseReviewedKept', () => {
 			'reviewed-kept line 1: reason missing or empty',
 		);
 	});
+
+	it.each([
+		['not JSON', '{"rid":', 'not JSON'],
+		['null', 'null', 'not a JSON object'],
+		['an array', '[]', 'not a JSON object'],
+	])('refuses a line that is %s, by line number', (_case, line, message) => {
+		expect(() => parseReviewedKept(`\n${line}`)).toThrow(
+			`reviewed-kept line 2: ${message}`,
+		);
+	});
 });

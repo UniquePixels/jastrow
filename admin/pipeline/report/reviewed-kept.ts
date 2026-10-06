@@ -33,6 +33,24 @@ const KEPT_FIELDS = [
 	'text',
 ] as const;
 
+/** One line of the record file as a JSON object, or a throw naming
+ * the line: a line that is not JSON, or is JSON but not an object
+ * (`null`, an array, a string), is no record. */
+function recordAt(line: string, lineNumber: number): Record<string, unknown> {
+	let value: unknown;
+	try {
+		value = JSON.parse(line);
+	} catch (error) {
+		throw new Error(`reviewed-kept line ${lineNumber}: not JSON`, {
+			cause: error,
+		});
+	}
+	if (typeof value !== 'object' || value === null || Array.isArray(value)) {
+		throw new Error(`reviewed-kept line ${lineNumber}: not a JSON object`);
+	}
+	return value as Record<string, unknown>;
+}
+
 /** Read the record file: one JSON object per non-blank line. A line
  * that does not parse, or lacks a field, throws with its line number:
  * a malformed record would otherwise keep nothing and say nothing. */
@@ -42,7 +60,7 @@ function parseReviewedKept(jsonl: string): KeptRecord[] {
 		if (line.trim() === '') {
 			continue;
 		}
-		const value: Record<string, unknown> = JSON.parse(line);
+		const value = recordAt(line, i + 1);
 		const bad = KEPT_FIELDS.filter(
 			(key) => typeof value[key] !== 'string' || value[key] === '',
 		);
