@@ -3,6 +3,7 @@
  * tally. Gate 1 (body round-trips), 4 (schema) and 9 (composition
  * failures) live with the composer and the CLI. */
 
+import { intToSup } from '../../entry/headwords.ts';
 import { tokenize } from '../../entry/html.ts';
 import { nameCollisions } from '../../entry/names.ts';
 import type { PagePlacement } from '../../entry/page.ts';
@@ -125,6 +126,21 @@ function notationOf(line: string): Map<string, number> {
 	return counts;
 }
 
+/** The notation an entry writes for its line: the template's, with
+ * its slots cut out, and every form's `disambiguator` as the
+ * superscript the source set. Since ruling 10-06 hidden superscript
+ * the template never carries that glyph, so the forms are where mark 2
+ * finds it; a superscript left in the template as well counts twice
+ * and fails, and one dropped from both fails as lost. */
+function writtenNotation(entry: Entry, display: string): Map<string, number> {
+	const superscripts = entry.headwords
+		.map((f) =>
+			f.disambiguator === undefined ? '' : intToSup(f.disambiguator),
+		)
+		.join('');
+	return notationOf(display.replace(SLOT, '') + superscripts);
+}
+
 /** Two notation multisets agree. */
 function sameNotation(
 	a: ReadonlyMap<string, number>,
@@ -189,7 +205,10 @@ function lineIsUnsettleable(line: string): boolean {
  *    half that matters: `text` is the lookup key, the source of the
  *    URL name and the link target.
  * 2. **the notation multiset** — the line's `(`, `)`, `*`, `?`, `…`,
- *    superscripts and Roman numerals are exactly the template's. A
+ *    superscripts and Roman numerals are exactly the entry's: the
+ *    template's, plus each form's `disambiguator` as its superscript,
+ *    since the template never carries one (ruling 10-06 hidden
+ *    superscript; {@link writtenNotation}). A
  *    parenthesis dropped, a numeral invented or a star moved onto a
  *    different form all fail here. It holds for a template a `reform`
  *    patch SUPPLIED too, as long as the source line is one this gate
@@ -229,7 +248,7 @@ function checkHeadwordLine(
 		return;
 	}
 	const source = notationOf(line);
-	const written = notationOf(entry.display.replace(SLOT, ''));
+	const written = writtenNotation(entry, entry.display);
 	if (composed.display !== undefined) {
 		// What could actually go wrong with a supplied template is that
 		// the run failed to carry it through to the entry.

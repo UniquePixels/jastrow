@@ -35,11 +35,25 @@ const VERBATIM_FIELDS: ReadonlySet<string> = new Set(['sefariaHeadword']);
  * `partial` marks a form that is shown exactly as printed and is never
  * a lookup key — an ending after an ellipsis (`… טָה`), a phrase with
  * an abbreviated word (`נְהַר פּ׳`). `gender` is per-form, and the entry
- * carries at most one of it or `grammar.gender`, never both (§4). */
+ * carries at most one of it or `grammar.gender`, never both (§4).
+ *
+ * Two fields are NAMED and never displayed: `disambiguator`, Sefaria's
+ * superscript (ruling 10-06 hidden superscript), and a `homograph`
+ * marked `implied` (ruling 10-06 implied I). Both reach the URL name;
+ * neither has a glyph in `display`. */
 interface FormObject {
+	/** Sefaria's superscript number, telling apart two lines print sets
+	 * alike. Part of the name; never in `display`, since print sets no
+	 * superscript (ruling 10-06 hidden superscript). */
 	disambiguator?: number;
 	gender?: 'f' | 'm';
 	homograph?: number;
+	/** The `homograph` is ours, not print's: print leaves the first
+	 * homograph of a sequence unnumbered and numbers the next II, so the
+	 * first takes an implied I (ruling 10-06 implied I, which amends U2).
+	 * Only ever `true`, only beside `homograph`, part of the name, never
+	 * displayed. */
+	implied?: true;
 	partial?: true;
 	reconstructed?: true;
 	text: string;
@@ -85,7 +99,10 @@ interface Stem {
 interface Entry {
 	/** How print laid the headword line out: a template whose `{n}`
 	 * inserts `headwords[n].text` and whose every other character is
-	 * literal notation, never Hebrew (headword design §2, §3.1).
+	 * literal notation, never Hebrew (headword design §2, §3.1). It
+	 * never carries a disambiguator's superscript or an implied
+	 * homograph's numeral, which print does not set (rulings 10-06
+	 * hidden superscript and implied I).
 	 *
 	 * **Optional, and never defaulted.** Where the source cannot settle
 	 * the layout the entry is still written, this is left unset and the

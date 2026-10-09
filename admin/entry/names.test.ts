@@ -44,6 +44,11 @@ const CASES: ReadonlyArray<readonly [string, FormObject, string]> = [
 		'אָב II²',
 	],
 	['a bare disambiguator, A00001', { disambiguator: 2, text: 'א' }, 'א²'],
+	[
+		'an implied I is named (10-06)',
+		{ homograph: 1, implied: true, text: 'אַגְמָא' },
+		'אַגְמָא I',
+	],
 	['a two-digit disambiguator', { disambiguator: 12, text: 'א' }, 'א¹²'],
 	['a comma is dropped', { text: 'אֵב, אֵיב' }, 'אֵב אֵיב'],
 	['parentheses go, the word inside stays', { text: '(אוֹב)' }, 'אוֹב'],

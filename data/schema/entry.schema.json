@@ -35,7 +35,7 @@
 			"items": { "$ref": "#/$defs/formObject" }
 		},
 		"display": {
-			"description": "How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
+			"description": "How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). It never carries a disambiguator's superscript or an implied homograph's numeral (rulings 10-06 hidden superscript and implied I). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
 			"type": "string",
 			"minLength": 1
 		},
@@ -106,16 +106,23 @@
 			"type": "object",
 			"additionalProperties": false,
 			"required": ["text"],
+			"dependentRequired": { "implied": ["homograph"] },
 			"properties": {
 				"text": {
 					"type": "string",
 					"minLength": 1
 				},
 				"homograph": {
+					"description": "The Roman numeral print sets beside this form, as a number. Part of the name, and shown in display unless implied is set.",
 					"type": "integer",
 					"minimum": 1
 				},
+				"implied": {
+					"description": "The homograph numeral is ours, not print's: print leaves the first homograph of a sequence unnumbered and numbers the next II, so the first takes an implied I (ruling 10-06 implied I, amending U2). Only ever true and only beside homograph. Part of the name, never shown in display.",
+					"const": true
+				},
 				"disambiguator": {
+					"description": "Sefaria's superscript number, telling apart two lines print sets alike. Part of the name, never shown in display: print sets no superscript (ruling 10-06 hidden superscript).",
 					"type": "integer",
 					"minimum": 1
 				},

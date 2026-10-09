@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
 import type { Entry } from '../../entry/types.ts';
 import { buildHeadwordIssues } from './headword-issues.ts';
@@ -17,12 +18,13 @@ function entry(id: string): Entry {
 	};
 }
 
-/** The csv's `processor_flagged` column, keyed by rid. */
-function flaggedByRid(csv: string): Map<string, string> {
+/** One csv column, keyed by rid: 6 is `processor_flagged`, 7
+ * `reviewed_kept`. */
+function columnByRid(csv: string, column = 6): Map<string, string> {
 	const out = new Map<string, string>();
 	for (const line of csv.trim().split('\n').slice(1)) {
 		const cells = line.slice(1, -1).split('","');
-		out.set(cells[1] ?? '', cells.at(-1) ?? '');
+		out.set(cells[1] ?? '', cells[column] ?? '');
 	}
 	return out;
 }
@@ -41,7 +43,7 @@ describe('buildHeadwordIssues: the flagged column', () => {
 		{ detail: 'markup', kind: 'markup-carry', rid: 'A00002' },
 	];
 	const issues = buildHeadwordIssues([entry('A00001'), entry('A00002')], rows);
-	const flagged = flaggedByRid(issues.csv);
+	const flagged = columnByRid(issues.csv);
 
 	it('a form whose line the processor reviewed is flagged', () => {
 		expect(flagged.get('A00001')).toBe('true');
@@ -186,12 +188,12 @@ const SEQUENCE_CASES: Array<
 		[],
 	],
 	[
-		'בִּזָּא II beside בְּזָא II, no superscript',
+		'בִּזָּא II beside בְּזָא II, no superscript: not cleared (X10, below)',
 		[...BEZA, withForms('B00438', ['בִּיזָּא'], ['בִּזָּא', 2])],
-		['B00438'],
+		[],
 		[],
 	],
-	['אַגְמָא II, no I under either key', AGMA, ['A00312'], []],
+	['אַגְמָא II, its I implied (X10, below)', AGMA, [], []],
 	['קרחא: three IIs and two Is, no superscript', QARHA, ['S01975'], []],
 	['one spelling, its marks in two orders', MARK_ORDER, [], []],
 	[
@@ -223,4 +225,102 @@ describe('buildHeadwordIssues: homograph numerals number a sequence', () => {
 			expect(rows).toEqual(pointing);
 		});
 	}
+});
+
+// Ruling 10-06 implied I. `[case, entries, X8 rids, X10 rows as
+// [rid, the candidate the note opens with]]`.
+const IMPLIED_CASES: Array<
+	[string, Entry[], string[], Array<[string, string]>]
+> = [
+	[
+		'an unnumbered form just before a II',
+		AGMA,
+		[],
+		[['A00312', 'A00311 אַגְמָא']],
+	],
+	[
+		'a II beside another II, an unnumbered form just before it',
+		[...BEZA, withForms('B00438', ['בִּיזָּא'], ['בִּזָּא', 2])],
+		[],
+		[['B00438', 'B00437 בִּזָּא']],
+	],
+	[
+		'a bare II, no unnumbered neighbour',
+		[withForms('A00311', ['תבבת']), AGMA[1] as Entry],
+		['A00312'],
+		[],
+	],
+	[
+		'an unnumbered form too far back',
+		[withForms('A00300', ['אַגְמָא']), ...filler('A', 301, 10), AGMA[1] as Entry],
+		['A00312'],
+		[],
+	],
+	[
+		'a numbered I between (A03215–A03218)',
+		[
+			withForms('A03215', ['אָרַע']),
+			withForms('A03216', ['אֲרַע', 1]),
+			withForms('A03217', ['אָרַע', 2]),
+			withForms('A03218', ['אֲרַע', 2]),
+		],
+		['A03217'],
+		[],
+	],
+	[
+		'a line numbered on another form (M02161)',
+		[
+			withForms('M02161', ['מַעְצַרְתָּא'], ['מַעֲצַ׳', 1]),
+			withForms('M02162', ['מַעְצַרְתָּא', 2]),
+		],
+		['M02162'],
+		[],
+	],
+	[
+		'a missing II is not an implied I',
+		[
+			withForms('G00527', ['זְמַם', 1]),
+			withForms('G00528', ['זְמַם']),
+			withForms('G00529', ['זְמַם', 3]),
+		],
+		['G00527'],
+		[],
+	],
+	[
+		'an implied I already stored',
+		[
+			{
+				...withForms('A00311', ['אַגְמָא', 1]),
+				headwords: [{ homograph: 1, implied: true, text: 'אַגְמָא' }],
+			},
+			AGMA[1] as Entry,
+		],
+		[],
+		[],
+	],
+];
+
+describe('buildHeadwordIssues: the implied I (X10)', () => {
+	for (const [name, entries, gaps, implied] of IMPLIED_CASES) {
+		const { csv } = buildHeadwordIssues(entries, []);
+		it(`${name}: X8 rows`, () => {
+			expect(rowsOf(csv, 'X8').map(([rid]) => rid)).toEqual(gaps);
+		});
+		it(`${name}: X10 rows`, () => {
+			const opening = new Map(implied);
+			const rows = rowsOf(csv, 'X10').map(([rid, note]) => [
+				rid,
+				note.slice(0, opening.get(rid)?.length ?? 0),
+			]);
+			expect(rows).toEqual(implied);
+		});
+	}
+
+	it('names the candidate and the fix in the note', () => {
+		const [[, note] = ['', '']] = rowsOf(
+			buildHeadwordIssues(AGMA, []).csv,
+			'X10',
+		);
+		expect(note).toContain('homograph: 1, implied: true');
+	});
 });

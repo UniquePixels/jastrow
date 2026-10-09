@@ -85,11 +85,11 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 
 **Question.** `אִילפָא` (A01310, I) is stored with no mark under ל; its sequence neighbour `אִילְפָא` (A01311, II) has sheva. Is the letter pointed in print?
 
-  - [ ] print has the mark: the stored `אִילפָא` is missing it
+  - [x] print has the mark: the stored `אִילפָא` is missing it
   - [ ] print has no mark there: `אִילפָא` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: mark this as an ocr error for the upstream correction report
 
 
 #### `אימָּא` I, `אִימָּא` II (row [A01320](https://jastrow.app/#rid:A01320))
@@ -102,11 +102,11 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 
 **Question.** `אימָּא` (A01319, I) is stored with no mark under א; its sequence neighbour `אִימָּא` (A01320, II) has hiriq. Is the letter pointed in print?
 
-  - [ ] print has the mark: the stored `אימָּא` is missing it
+  - [x] print has the mark: the stored `אימָּא` is missing it
   - [ ] print has no mark there: `אימָּא` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: ocr error
 
 
 #### `אִיסטְוָוא` I, `אִיסְטְוָוא` II (row [A01420](https://jastrow.app/#rid:A01420))
@@ -120,10 +120,10 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 **Question.** `אִיסטְוָוא` (A01419, I) is stored with no mark under ס; its sequence neighbour `אִיסְטְוָוא` (A01420, II) has sheva. Is the letter pointed in print?
 
   - [ ] print has the mark: the stored `אִיסטְוָוא` is missing it
-  - [ ] print has no mark there: `אִיסטְוָוא` is right as stored
+  - [x] print has no mark there: `אִיסטְוָוא` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: This is likely a textual error but would require extensive research.  I would love an issue oppened on it, as I think it is a fascinating question.
 
 
 #### `גִּיהא` I, `גִּיהָא` II (row [C00650](https://jastrow.app/#rid:C00650))
@@ -135,11 +135,11 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 
 **Question.** `גִּיהא` (C00649, I) is stored with no mark under ה; its sequence neighbour `גִּיהָא` (C00650, II) has qamats. Is the letter pointed in print?
 
-  - [ ] print has the mark: the stored `גִּיהא` is missing it
+  - [x] print has the mark: the stored `גִּיהא` is missing it
   - [ ] print has no mark there: `גִּיהא` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: ocr error
 
 
 #### `הֲקָצה` I, `הֲקָצָה` II (row [E00802](https://jastrow.app/#rid:E00802))
@@ -152,10 +152,10 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 **Question.** `הֲקָצה` (E00801, I) is stored with no mark under צ; its sequence neighbour `הֲקָצָה` (E00802, II) has qamats. Is the letter pointed in print?
 
   - [ ] print has the mark: the stored `הֲקָצה` is missing it
-  - [ ] print has no mark there: `הֲקָצה` is right as stored
+  - [x] print has no mark there: `הֲקָצה` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: Another likley textual issue, add with other, fascinating I say.....
 
 
 #### `הִרְהוּן` I, `הרְהוּן` II (row [E00837](https://jastrow.app/#rid:E00837))
@@ -168,10 +168,10 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 **Question.** `הרְהוּן` (E00837, II) is stored with no mark under ה; its sequence neighbour `הִרְהוּן` (E00836, I) has hiriq. Is the letter pointed in print?
 
   - [ ] print has the mark: the stored `הרְהוּן` is missing it
-  - [ ] print has no mark there: `הרְהוּן` is right as stored
+  - [x] print has no mark there: `הרְהוּן` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: another to add to that textual issues research issue
 
 
 #### `חֲבִילא` I, `חֲבִילָא` II (row [H00067](https://jastrow.app/#rid:H00067))
@@ -184,10 +184,10 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 **Question.** `חֲבִילא` (H00066, I) is stored with no mark under ל; its sequence neighbour `חֲבִילָא` (H00067, II) has qamats. Is the letter pointed in print?
 
   - [ ] print has the mark: the stored `חֲבִילא` is missing it
-  - [ ] print has no mark there: `חֲבִילא` is right as stored
+  - [x] print has no mark there: `חֲבִילא` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: as above
 
 
 #### `חַיְיתָא` II, `חַיְּיתָא` III (row [H00749](https://jastrow.app/#rid:H00749))
@@ -202,7 +202,7 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 **Question.** `חַיְיתָא` (H00748, II) is stored with no dagesh on י; its sequence neighbour `חַיְּיתָא` (H00749, III) has it. Is the letter pointed that way in print? Note the unnumbered H00750 too.
 
   - [ ] print has the mark: the stored `חַיְיתָא` is missing it
-  - [ ] print has no mark there: `חַיְיתָא` is right as stored
+  - [x] print has no mark there: `חַיְיתָא` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -218,10 +218,10 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 **Question.** `טְבִיעה` (I00056, I) is stored with no mark under ע; its sequence neighbour `טְבִיעָה` (I00057, II) has qamats. Is the letter pointed in print?
 
   - [ ] print has the mark: the stored `טְבִיעה` is missing it
-  - [ ] print has no mark there: `טְבִיעה` is right as stored
+  - [x] print has no mark there: `טְבִיעה` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: textual issue research
 
 
 #### `מָצַּר` I, `מָצַר` II (row [M02354](https://jastrow.app/#rid:M02354))
@@ -234,7 +234,7 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 **Question.** `מָצַר` (M02354, II) is stored with no dagesh on צ; its sequence neighbour `מָצַּר` (M02352, I) has it. Is the letter pointed that way in print?
 
   - [ ] print has the mark: the stored `מָצַר` is missing it
-  - [ ] print has no mark there: `מָצַר` is right as stored
+  - [x] print has no mark there: `מָצַר` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -249,11 +249,11 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 
 **Question.** `מרוּצָה` (M02601, I) is stored with no mark under מ; its sequence neighbour `מְרוּצָה` (M02602, II) has sheva. Is the letter pointed in print?
 
-  - [ ] print has the mark: the stored `מרוּצָה` is missing it
+  - [x] print has the mark: the stored `מרוּצָה` is missing it
   - [ ] print has no mark there: `מרוּצָה` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: upstream log
 
 
 #### `נָּקִי` I, `נָקִי` II (row [N01196](https://jastrow.app/#rid:N01196))
@@ -266,7 +266,7 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 **Question.** `נָקִי` (N01196, II) is stored with no dagesh on נ; its sequence neighbour `נָּקִי` (N01195, I) has it. Is the letter pointed that way in print?
 
   - [ ] print has the mark: the stored `נָקִי` is missing it
-  - [ ] print has no mark there: `נָקִי` is right as stored
+  - [x] print has no mark there: `נָקִי` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -283,9 +283,9 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 
   - [ ] print has the mark: the stored `עוּזָּא` is missing it
   - [ ] print has no mark there: `עוּזָּא` is right as stored
-  - [ ] something else (say what you see in the note)
+  - [x] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: 218 should not have the chirik either, upstream log
 
 
 #### `ענָוָה` I, `עֲנָוָה` II (row [P00959](https://jastrow.app/#rid:P00959))
@@ -298,10 +298,10 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 **Question.** `ענָוָה` (P00958, I) is stored with no mark under ע; its sequence neighbour `עֲנָוָה` (P00959, II) has hataf patah. Is the letter pointed in print?
 
   - [ ] print has the mark: the stored `ענָוָה` is missing it
-  - [ ] print has no mark there: `ענָוָה` is right as stored
+  - [x] print has no mark there: `ענָוָה` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: textual issue research
 
 
 #### `קְבַל` III, `קְבל` IV (row [S00064](https://jastrow.app/#rid:S00064))
@@ -315,7 +315,7 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
 **Question.** `קְבל` (S00064, IV) is stored with no mark under ב; its sequence neighbour `קְבַל` (S00061, III) has patah. Is the letter pointed in print? The hOCR reads `bnp iv` (lowercase), which the reader does not count. The same sequence changes pointing once more, `קָבַל` II to `קְבַל` III (S00061); that one is in pile D.
 
   - [ ] print has the mark: the stored `קְבל` is missing it
-  - [ ] print has no mark there: `קְבל` is right as stored
+  - [x] print has no mark there: `קְבל` is right as stored
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -334,7 +334,7 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 
 **Question.** `אֱגוֹרָא` (A00278, I) and `אֲגוֹרָא` (A00279, II) are pointed differently: א: hataf segol vs hataf patah. Are both printed as stored?
 
-  - [ ] yes, both as stored: nothing to fix
+  - [x] yes, both as stored: nothing to fix
   - [ ] no, `אֱגוֹרָא` is wrong in print terms (say what you see in the note)
   - [ ] no, `אֲגוֹרָא` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
@@ -350,7 +350,7 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 
 **Question.** `אָכַל` (A01697, I) and `אֲכַל` (A01698, II) are pointed differently: א: qamats vs hataf patah. Are both printed as stored? This was pile A (HW-roman): Sefaria's line for A01697 is `אֲכַל, אָכַל I`, with the I on the second form, so A01697's primary `אֲכַל` is unnumbered. The page index puts A01697 on 63a; the hOCR line quoted for it is in 63b.
 
-  - [ ] yes, both as stored: nothing to fix
+  - [x] yes, both as stored: nothing to fix
   - [ ] no, `אָכַל` is wrong in print terms (say what you see in the note)
   - [ ] no, `אֲכַל` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
@@ -367,10 +367,10 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 **Question.** `אְמָא` (A01964, I) and `אֲמָא` (A01965, II) are pointed differently: א: sheva vs hataf patah. Are both printed as stored?
 
   - [ ] yes, both as stored: nothing to fix
-  - [ ] no, `אְמָא` is wrong in print terms (say what you see in the note)
+  - [x] no, `אְמָא` is wrong in print terms (say what you see in the note)
   - [ ] no, `אֲמָא` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: both are patach sh'va. ocr error
 
 
 #### `בָּסַר` II, `בְּסַר` III (row [B01014](https://jastrow.app/#rid:B01014))
@@ -385,7 +385,7 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 
 **Question.** `בָּסַר` (B01012, II) and `בְּסַר` (B01014, III) are pointed differently: ב: qamats and dagesh vs sheva and dagesh. Are both printed as stored? New in this list: under the exact-spelling key `בְּסַר` III looked complete, because B01369 and B01370 carry a `בְּסַר` I and II for another word. B01011 and B01013 (`בְּסַר²`) are the unnumbered `ch. same` lines between.
 
-  - [ ] yes, both as stored: nothing to fix
+  - [x] yes, both as stored: nothing to fix
   - [ ] no, `בָּסַר` is wrong in print terms (say what you see in the note)
   - [ ] no, `בְּסַר` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
@@ -403,9 +403,9 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 
   - [ ] yes, both as stored: nothing to fix
   - [ ] no, `דְּיוֹ` is wrong in print terms (say what you see in the note)
-  - [ ] no, `דִּיוֹ` is wrong (say what you see in the note)
+  - [x] no, `דִּיוֹ` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: both have sh'va, ocr error
 
 
 #### `חְלָמָה` I, `חֲלָמָה` II (row [H01089](https://jastrow.app/#rid:H01089))
@@ -417,7 +417,7 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 
 **Question.** `חְלָמָה` (H01088, I) and `חֲלָמָה` (H01089, II) are pointed differently: ח: sheva vs hataf patah. Are both printed as stored?
 
-  - [ ] yes, both as stored: nothing to fix
+  - [x] yes, both as stored: nothing to fix
   - [ ] no, `חְלָמָה` is wrong in print terms (say what you see in the note)
   - [ ] no, `חֲלָמָה` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
@@ -436,9 +436,9 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 
   - [ ] yes, both as stored: nothing to fix
   - [ ] no, `חָרִב` is wrong in print terms (say what you see in the note)
-  - [ ] no, `חָרֵב` is wrong (say what you see in the note)
+  - [x] no, `חָרֵב` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: both are chirik, ocr error
 
 
 #### `מָסַר` I, `מְסַר` II (row [M02008](https://jastrow.app/#rid:M02008))
@@ -450,7 +450,7 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 
 **Question.** `מָסַר` (M02007, I) and `מְסַר` (M02008, II) are pointed differently: מ: qamats vs sheva. Are both printed as stored? This was pile A (HW-roman): Sefaria's line for M02007 is `מְסַר, (מָסַר) I`, with the I on the form in parentheses, so M02007's primary `מְסַר` is unnumbered.
 
-  - [ ] yes, both as stored: nothing to fix
+  - [x] yes, both as stored: nothing to fix
   - [ ] no, `מָסַר` is wrong in print terms (say what you see in the note)
   - [ ] no, `מְסַר` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
@@ -467,10 +467,10 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 **Question.** `מַרְעֵיתָא` (M02739, I) and `מַרְעִיתָא` (M02740, II) are pointed differently: ע: tsere vs hiriq. Are both printed as stored?
 
   - [ ] yes, both as stored: nothing to fix
-  - [ ] no, `מַרְעֵיתָא` is wrong in print terms (say what you see in the note)
+  - [x] no, `מַרְעֵיתָא` is wrong in print terms (say what you see in the note)
   - [ ] no, `מַרְעִיתָא` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: both are chirik, ocr error
 
 
 #### `עֲטַר` I, `עַטַר` II (row [P00477](https://jastrow.app/#rid:P00477))
@@ -483,11 +483,11 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 
 **Question.** `עֲטַר` (P00476, I) and `עַטַר` (P00477, II) are pointed differently: ע: hataf patah vs patah. Are both printed as stored?
 
-  - [ ] yes, both as stored: nothing to fix
+  - [x] yes, both as stored: nothing to fix
   - [ ] no, `עֲטַר` is wrong in print terms (say what you see in the note)
   - [ ] no, `עַטַר` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: 447 is actually on page 1064b
 
 
 #### `פִּרְכֵּס` I, `פִּרִכֵּס` II (row [Q01863](https://jastrow.app/#rid:Q01863))
@@ -499,7 +499,7 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 
 **Question.** `פִּרְכֵּס` (Q01862, I) and `פִּרִכֵּס` (Q01863, II) are pointed differently: ר: sheva vs hiriq. Are both printed as stored?
 
-  - [ ] yes, both as stored: nothing to fix
+  - [x] yes, both as stored: nothing to fix
   - [ ] no, `פִּרְכֵּס` is wrong in print terms (say what you see in the note)
   - [ ] no, `פִּרִכֵּס` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
@@ -515,7 +515,7 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 
 **Question.** `רְחִים` (T00499, I) and `רִחִים` (T00500, II) are pointed differently: ר: sheva vs hiriq. Are both printed as stored?
 
-  - [ ] yes, both as stored: nothing to fix
+  - [x] yes, both as stored: nothing to fix
   - [ ] no, `רְחִים` is wrong in print terms (say what you see in the note)
   - [ ] no, `רִחִים` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
@@ -535,10 +535,10 @@ These four were in the pointing section and stay X8: the sequence rule does not 
 
 **Question.** M02161 is numbered I through its abbreviation `מַעֲצַ׳ I` (HW-roman), and the hOCR reads `I` on its line; its primary is stored `מַעְצַרְתָּא` (sheva under the ayin) while this family is `מַעֲצַרְתָּא` (hataf patah). Does print spell the two alike? If yes, one stored headword has a slip and its name changes; the numbering is complete either way.
 
-  - [ ] nothing to fix: the gap is Jastrow's own
+  - [x] nothing to fix: the gap is Jastrow's own
   - [ ] there is a fix (say what print shows in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: this pattern is due to the ambiguity of jastrow using numerals.  We are going to defualt to the print.
 
 
 #### `נְהִי`: missing I (row [N00260](https://jastrow.app/#rid:N00260))
@@ -551,12 +551,12 @@ These four were in the pointing section and stay X8: the sequence rule does not 
 
 **Question.** N00259 holds the I as `נְהֵי`; this family is `נְהִי`. They differ only in ה: tsere vs hiriq (N00259 first). Does print spell them alike? If yes, the slip is in one stored headword (its name changes) and the numbering is complete. If no, the gap is real: find the I.
 
-  - [ ] print spells them differently, so the gap is real
+  - [x] print spells them differently, so the gap is real
   - [ ] print spells both as `נְהֵי` (the way N00259 has it)
   - [ ] print spells both as `נְהִי` (the way this family has it)
   - [ ] print spells them alike, but neither stored spelling is right (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: I have no idea what Jastwor is doing here, but our data is print accurate
 
 
 #### `עָרֵב`: missing II (row [P01246](https://jastrow.app/#rid:P01246))
@@ -569,10 +569,10 @@ These four were in the pointing section and stay X8: the sequence rule does not 
 | [P01249](https://jastrow.app/#rid:P01249) | `עָרֵב III` | `3™)^ III m. (Sns I, 2) bondsman, surety.` | [1111a · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
 | [P01253](https://jastrow.app/#rid:P01253) | `עֲרָב II` | `J */ II pr. n. pi. 'Arab, near` | [1111b · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
 
-**Question.** P01247 is stored `עָרִב` (hiriq) between P01246 `עָרֵב I` and P01249 `עָרֵב III`, and the hOCR reads `II` beside it. Is it printed `עָרֵב II`? If so P01247's headword and name change (`עָרִב II` → `עָרֵב II`) and both rows close.
+**Question (answers both this family and `עָרִב` below).** P01247 is stored `עָרִב II` with a hiriq, sitting between P01246 `עָרֵב I` and P01249 `עָרֵב III`, which have a tsere. Only P01247's spelling is in question. Is P01247 printed `עָרֵב II` (tsere, like its neighbours) or `עָרִב II` (hiriq, as stored)?
 
-  - [ ] yes, print has `עָרֵב II`
-  - [ ] no, print matches what is stored
+  - [ ] print has `עָרֵב II` (tsere): P01247's stored spelling is wrong, and its name changes
+  - [x] print has `עָרִב II` (hiriq): P01247 is right as stored, and this family's gap is Jastrow's
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -588,13 +588,7 @@ These four were in the pointing section and stay X8: the sequence rule does not 
 | [P01249](https://jastrow.app/#rid:P01249) | `עָרֵב III` | `3™)^ III m. (Sns I, 2) bondsman, surety.` | [1111a · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
 | [P01252](https://jastrow.app/#rid:P01252) | `עֲרָב I` | `J 1/ I ch. (b. h.) 1) pr.` | [1111b · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
 
-**Question.** P01247 is stored `עָרִב` (hiriq) between P01246 `עָרֵב I` and P01249 `עָרֵב III`, and the hOCR reads `II` beside it. Is it printed `עָרֵב II`? If so P01247's headword and name change (`עָרִב II` → `עָרֵב II`) and both rows close.
-
-  - [ ] yes, print has `עָרֵב II`
-  - [ ] no, print matches what is stored
-  - [ ] something else (say what you see in the note)
-  - [ ] can't tell from the scan
-  - note: 
+**Question.** The same question as the `עָרֵב` family above: one answer there covers both rows.
 
 
 ### X8 Volume 1: the numeral is not legible in the hOCR (26)
@@ -611,10 +605,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 **Question.** Does print set I beside A00311? If it sits after `אַגְמָא`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside A00311
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: Legit missing, lets put ones like this in a differnt textual issues research issue.
 
 
 #### `אֲוָנָא`: missing I (row [A00719](https://jastrow.app/#rid:A00719))
@@ -625,10 +619,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 
 **Question.** No entry spelled `אֲוָנָא` lacks a numeral. Is I printed on a neighbour, or is the gap Jastrow's?
 
-  - [ ] the gap is Jastrow's own: nothing to fix
+  - [x] the gap is Jastrow's own: nothing to fix
   - [ ] the numeral is printed on a neighbour (say which word in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: 718 is teh I, this is a wierd case because yod and vav can do wierd things
 
 
 #### `אוֹרְיָין`: missing I (row [A00890](https://jastrow.app/#rid:A00890))
@@ -641,10 +635,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 **Question.** Does print set I beside A00889? If it sits after `אוֹרְיָין`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside A00889
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to textual research issue 
 
 
 #### `אֲמָנָה`: missing I (row [A02042](https://jastrow.app/#rid:A02042))
@@ -657,10 +651,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 **Question.** Does print set I beside A02041? If it sits after `אֲמָנָה`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside A02041
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to resarch issue
 
 
 #### `אָרַע`: missing I (row [A03217](https://jastrow.app/#rid:A03217))
@@ -674,10 +668,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 **Question.** Does print set I beside A03215? If it sits after `אָרַע`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside A03215
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: i dont understand why this was flagged?  Need to double check the detector 3216 holds I and 3217 holds II
 
 
 #### `בּוּרְסִי`: missing I (row [B00382](https://jastrow.app/#rid:B00382))
@@ -689,10 +683,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 
 **Question.** No entry spelled `בּוּרְסִי` lacks a numeral. Is I printed on a neighbour, or is the gap Jastrow's?
 
-  - [ ] the gap is Jastrow's own: nothing to fix
+  - [x] the gap is Jastrow's own: nothing to fix
   - [ ] the numeral is printed on a neighbour (say which word in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue, likely a textual mistake
 
 
 #### `בִּיאָה`: missing I (row [B00538](https://jastrow.app/#rid:B00538))
@@ -705,10 +699,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 **Question.** Does print set I beside B00537 (on an alternate)? An alternate carries no name, so only the display changes.
 
   - [ ] yes, print sets I beside B00537
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue
 
 
 #### `בַּנַּאי`: missing I (row [B00936](https://jastrow.app/#rid:B00936))
@@ -721,10 +715,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 **Question.** Does print set I beside B00935? If it sits after `בַּנַּאי`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside B00935
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to research issue
 
 
 #### `בְּרָא`: missing I (row [B01159](https://jastrow.app/#rid:B01159))
@@ -740,7 +734,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 
   - [ ] yes, print sets I beside B01154
   - [ ] yes, print sets I beside B01237
-  - [ ] no numeral beside any of them
+  - [x] no numeral beside any of them
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -756,10 +750,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 **Question.** Does print set I beside C00176? If it sits after `גְּדוּדִית`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside C00176
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue
 
 
 #### `גִּיב`: missing I (row [C00610](https://jastrow.app/#rid:C00610))
@@ -771,11 +765,11 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 
 **Question.** Does print set I beside C00609? If it sits after `גִּיב`, that entry gets `homograph` and a new name.
 
-  - [ ] yes, print sets I beside C00609
+  - [x] yes, print sets I beside C00609
   - [ ] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue
 
 
 #### `גִּיס`: missing I (row [C00773](https://jastrow.app/#rid:C00773))
@@ -787,7 +781,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 
 **Question.** No entry spelled `גִּיס` lacks a numeral. Is I printed on a neighbour, or is the gap Jastrow's?
 
-  - [ ] the gap is Jastrow's own: nothing to fix
+  - [x] the gap is Jastrow's own: nothing to fix
   - [ ] the numeral is printed on a neighbour (say which word in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -801,10 +795,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 
 **Question.** No entry spelled `גְּנַה` lacks a numeral. Is I printed on a neighbour, or is the gap Jastrow's?
 
-  - [ ] the gap is Jastrow's own: nothing to fix
+  - [x] the gap is Jastrow's own: nothing to fix
   - [ ] the numeral is printed on a neighbour (say which word in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: 1129 Already has I
 
 
 #### `דִּי`: missing I (row [D00443](https://jastrow.app/#rid:D00443))
@@ -819,10 +813,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 
   - [ ] yes, print sets I beside D00002
   - [ ] yes, print sets I beside D00442
-  - [ ] no numeral beside any of them
+  - [x] no numeral beside any of them
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue
 
 
 #### `הִא`: missing I, II (row [E00008](https://jastrow.app/#rid:E00008))
@@ -836,10 +830,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 
 **Question.** No entry spelled `הִא` lacks a numeral. Is I, II printed on a neighbour, or is the gap Jastrow's?
 
-  - [ ] the gap is Jastrow's own: nothing to fix
+  - [x] the gap is Jastrow's own: nothing to fix
   - [ ] the numeral is printed on a neighbour (say which word in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: This is not a gap all numerals are present.  This is another case of looking at detector to see why this is flagged.
 
 
 #### `הֲדָיָא`: missing I (row [E00114](https://jastrow.app/#rid:E00114))
@@ -850,10 +844,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 
 **Question.** No entry spelled `הֲדָיָא` lacks a numeral. Is I printed on a neighbour, or is the gap Jastrow's?
 
-  - [ ] the gap is Jastrow's own: nothing to fix
+  - [x] the gap is Jastrow's own: nothing to fix
   - [ ] the numeral is printed on a neighbour (say which word in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue
 
 
 #### `זְמַם`: missing II (row [G00527](https://jastrow.app/#rid:G00527))
@@ -871,7 +865,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 
   - [ ] yes, print sets II beside G00529
   - [ ] yes, print sets II beside G00534
-  - [ ] no numeral beside any of them
+  - [x] no numeral beside any of them
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -892,7 +886,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] yes, print sets I beside H00319
   - [ ] yes, print sets I beside H00320
   - [ ] yes, print sets I beside H00322
-  - [ ] no numeral beside any of them
+  - [x] no numeral beside any of them
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -908,10 +902,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 **Question.** Does print set I beside H00432? If it sits after `חוּצָה`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside H00432
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue
 
 
 #### `חֵלֶף`: missing I (row [H01101](https://jastrow.app/#rid:H01101))
@@ -926,7 +920,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 **Question.** Does print set I beside H00780 (on an alternate)? An alternate carries no name, so only the display changes.
 
   - [ ] yes, print sets I beside H00780
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -948,10 +942,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 
   - [ ] yes, print sets I, II beside H01219
   - [ ] yes, print sets I, II beside H01221
-  - [ ] no numeral beside any of them
+  - [x] no numeral beside any of them
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue
 
 
 #### `חַנִּין`: missing I (row [H01291](https://jastrow.app/#rid:H01291))
@@ -964,7 +958,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 **Question.** Does print set I beside H01290? If it sits after `חַנִּין`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside H01290
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -983,7 +977,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 
   - [ ] yes, print sets I beside I00077
   - [ ] yes, print sets I beside I00079
-  - [ ] no numeral beside any of them
+  - [x] no numeral beside any of them
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -999,10 +993,10 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 **Question.** Does print set I beside J00112? If it sits after `יָהּ`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside J00112
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue
 
 
 #### `יְתֵב`: missing I (row [J00713](https://jastrow.app/#rid:J00713))
@@ -1014,9 +1008,9 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
 **Question.** No entry spelled `יְתֵב` lacks a numeral. Is I printed on a neighbour, or is the gap Jastrow's?
 
   - [ ] the gap is Jastrow's own: nothing to fix
-  - [ ] the numeral is printed on a neighbour (say which word in the note)
+  - [x] the numeral is printed on a neighbour (say which word in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: 712 alternate
 
 
 #### `יַתִּיר`: missing I (row [J00738](https://jastrow.app/#rid:J00738))
@@ -1031,7 +1025,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] the gap is Jastrow's own: nothing to fix
   - [ ] the numeral is printed on a neighbour (say which word in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: 737 contains an ocr error the correct spelling for the primary headword is yod not a vav
 
 
 ### X8 Volume 2: no numeral read (17)
@@ -1048,10 +1042,10 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 **Question.** Does print set I beside O00994? If it sits after `סְלִיקוּסְתָּא`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside O00994
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue
 
 
 #### `פְּלוּגְתָּא`: missing I (row [Q00965](https://jastrow.app/#rid:Q00965))
@@ -1064,10 +1058,10 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 **Question.** Does print set I beside Q00964? If it sits after `פְּלוּגְתָּא`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside Q00964
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue
 
 
 #### `פַּפָּא`: missing I (row [Q01399](https://jastrow.app/#rid:Q01399))
@@ -1080,10 +1074,10 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 **Question.** Does print set I beside Q01398? If it sits after `פַּפָּא`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside Q01398
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue
 
 
 #### `קוּלְיָא`: missing I (row [S00337](https://jastrow.app/#rid:S00337))
@@ -1096,10 +1090,10 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 **Question.** Does print set I beside S00336? If it sits after `קוּלְיָא`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside S00336
-  - [ ] no numeral beside it
+  - [x] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: add to issue
 
 
 #### `שְׁבַע`: missing I (row [U00158](https://jastrow.app/#rid:U00158))
@@ -1112,7 +1106,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 
 **Question.** Does print set I beside U00156? If it sits after `שְׁבַע`, that entry gets `homograph` and a new name.
 
-  - [ ] yes, print sets I beside U00156
+  - [x] yes, print sets I beside U00156
   - [ ] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
@@ -1128,7 +1122,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 
 **Question.** Does print set I beside U00682? If it sits after `שַׁחְפָּא`, that entry gets `homograph` and a new name.
 
-  - [ ] yes, print sets I beside U00682
+  - [x] yes, print sets I beside U00682
   - [ ] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
@@ -1146,7 +1140,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 
 **Question.** Does print set II beside U00911, U00914 (on an alternate)? If it sits after `שְׁיָירָא`, that entry gets `homograph` and a new name.
 
-  - [ ] yes, print sets II beside U00911
+  - [x] yes, print sets II beside U00911
   - [ ] yes, print sets II beside U00914
   - [ ] no numeral beside any of them
   - [ ] a different numeral or mark is there (write it in the note)
@@ -1166,12 +1160,12 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 **Question.** Does print set I beside U01000 (on an alternate), U01006, U01008? If it sits after `שִׁיפָה`, `שִׁיפָה`, that entry gets `homograph` and a new name.
 
   - [ ] yes, print sets I beside U01000
-  - [ ] yes, print sets I beside U01006
+  - [x] yes, print sets I beside U01006
   - [ ] yes, print sets I beside U01008
   - [ ] no numeral beside any of them
-  - [ ] a different numeral or mark is there (write it in the note)
+  - [x] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: 1008 is III
 
 
 #### `שֵׁיצָיוּ`: missing I (row [U01036](https://jastrow.app/#rid:U01036))
@@ -1183,7 +1177,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 
 **Question.** Does print set I beside U01035 (on an alternate)? An alternate carries no name, so only the display changes.
 
-  - [ ] yes, print sets I beside U01035
+  - [x] yes, print sets I beside U01035
   - [ ] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
@@ -1199,7 +1193,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 
 **Question.** Does print set I beside U01138? If it sits after `שְׁכַח`, that entry gets `homograph` and a new name.
 
-  - [ ] yes, print sets I beside U01138
+  - [x] yes, print sets I beside U01138
   - [ ] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
@@ -1216,7 +1210,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 
 **Question.** Does print set I beside U01570, U01585 (on an alternate)? If it sits after `שָׁנָה`, that entry gets `homograph` and a new name.
 
-  - [ ] yes, print sets I beside U01570
+  - [x] yes, print sets I beside U01570
   - [ ] yes, print sets I beside U01585
   - [ ] no numeral beside any of them
   - [ ] a different numeral or mark is there (write it in the note)
@@ -1235,7 +1229,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 
 **Question.** Does print set I beside U01634, U01652 (on an alternate), U01699 (on an alternate)? If it sits after `שָׁעָה`, that entry gets `homograph` and a new name.
 
-  - [ ] yes, print sets I beside U01634
+  - [x] yes, print sets I beside U01634
   - [ ] yes, print sets I beside U01652
   - [ ] yes, print sets I beside U01699
   - [ ] no numeral beside any of them
@@ -1258,7 +1252,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 
   - [ ] yes, print sets I beside U02004
   - [ ] yes, print sets I beside U02006
-  - [ ] no numeral beside any of them
+  - [x] no numeral beside any of them
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -1275,9 +1269,9 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 
   - [ ] yes, print sets I beside U02097
   - [ ] no numeral beside it
-  - [ ] a different numeral or mark is there (write it in the note)
+  - [x] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: The I sits on the alt of 2097 (side note, looks like it got misplaced into gloss)
 
 
 #### `תּוּף`: missing I (row [V00255](https://jastrow.app/#rid:V00255))
@@ -1289,11 +1283,11 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 
 **Question.** Does print set I beside V00254? If it sits after `תּוּף`, that entry gets `homograph` and a new name.
 
-  - [ ] yes, print sets I beside V00254
+  - [x] yes, print sets I beside V00254
   - [ ] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: looks like the I ended up in gloss
 
 
 #### `תַּכָּא`: missing I (row [V00523](https://jastrow.app/#rid:V00523))
@@ -1305,11 +1299,11 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 
 **Question.** Does print set I beside V00522 (on an alternate)? An alternate carries no name, so only the display changes.
 
-  - [ ] yes, print sets I beside V00522
+  - [x] yes, print sets I beside V00522
   - [ ] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: the I landed in gloss along with the alt headwords closing )
 
 
 #### `תָּפַח`: missing II (row [V00808](https://jastrow.app/#rid:V00808))
@@ -1323,7 +1317,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
 
 **Question.** Does print set II beside V00809? If it sits after `תָּפַח`, that entry gets `homograph` and a new name.
 
-  - [ ] yes, print sets II beside V00809
+  - [x] yes, print sets II beside V00809
   - [ ] no numeral beside it
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
@@ -1344,9 +1338,9 @@ Each needs its own look; the question says what.
 **Question.** M00724 is stored `מַוֶּה I` (vav) and glossed `= מַה זֶה` (what is this?). Is the print `מַזֶּה I` (zayin)? If so M00724's headword and name change (a glyph correction, HW-ocr-dalet) and this family is complete. ABBYY cannot show the glyph, so the scan decides.
 
   - [ ] nothing to fix: the gap is Jastrow's own
-  - [ ] there is a fix (say what print shows in the note)
+  - [x] there is a fix (say what print shows in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: as you thought, ocr error correct letter is zayin
 
 
 #### `פַּנְיָא`: missing I, II (row [Q01193](https://jastrow.app/#rid:Q01193))
@@ -1359,7 +1353,7 @@ Each needs its own look; the question says what.
 
 **Question.** Q01191 numbers its primary `פְּנֵי II` and sets `I` after the bracketed `(פַּנְיָה)`; Q01192 holds `פַּנְיָיא II`. Which entry is `פַּנְיָא I` in print?
 
-  - [ ] nothing to fix: the gap is Jastrow's own
+  - [x] nothing to fix: the gap is Jastrow's own
   - [ ] there is a fix (say what print shows in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -1375,7 +1369,7 @@ Each needs its own look; the question says what.
 
 **Question.** S01973's `I` sits mid-line on `קַרְחָא`, not on its third form `קָרָחָא`. Is `קָרָחָא` numbered I anywhere in print, or is the gap Jastrow's?
 
-  - [ ] nothing to fix: the gap is Jastrow's own
+  - [x] nothing to fix: the gap is Jastrow's own
   - [ ] there is a fix (say what print shows in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -1392,7 +1386,7 @@ Each needs its own look; the question says what.
 
 **Question.** T00377's `I` sits on its alternate `רוּמָא` and numbers that word, not `רוּם`. The verb T00374 `רוּם, רִים` shows no numeral in the hOCR. Is `רוּם I` printed anywhere, or did Jastrow number II alone?
 
-  - [ ] nothing to fix: the gap is Jastrow's own
+  - [x] nothing to fix: the gap is Jastrow's own
   - [ ] there is a fix (say what print shows in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -1408,7 +1402,7 @@ Each needs its own look; the question says what.
 
 **Question.** The hOCR sets `I` after the second form, the abbreviation `שִׁילְ׳`, not after `שִׁלְשֵׁל`. If the numeral numbers the entry, U01396 gets `homograph: 1` on `headwords[0]` and its name becomes `שִׁלְשֵׁל I`. If it belongs to the abbreviation (HW-roman: it stays where print sets it), it goes on that alternate and the name does not change.
 
-  - [ ] nothing to fix: the gap is Jastrow's own
+  - [x] nothing to fix: the gap is Jastrow's own
   - [ ] there is a fix (say what print shows in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -1435,67 +1429,67 @@ In each family the hOCR (volume 2, ABBYY) reads the missing numeral right after 
 **Your answers** (tick one per row):
 
 - **U00378**: `שׁוֹט` becomes `שׁוֹט I`
-  - [ ] confirmed: print shows that numeral beside it
+  - [x] confirmed: print shows that numeral beside it
   - [ ] not what print shows (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 - **U00488**: `שׁוּף` becomes `שׁוּף I`
-  - [ ] confirmed: print shows that numeral beside it
+  - [x] confirmed: print shows that numeral beside it
   - [ ] not what print shows (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 - **U00524**: `שׁוּקָא` becomes `שׁוּקָא I`
-  - [ ] confirmed: print shows that numeral beside it
+  - [x] confirmed: print shows that numeral beside it
   - [ ] not what print shows (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 - **U00627**: `שָׁחוֹר` becomes `שָׁחוֹר I`
-  - [ ] confirmed: print shows that numeral beside it
+  - [x] confirmed: print shows that numeral beside it
   - [ ] not what print shows (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 - **U00820**: `שִׁידָּא` becomes `שִׁידָּא I`
-  - [ ] confirmed: print shows that numeral beside it
+  - [x] confirmed: print shows that numeral beside it
   - [ ] not what print shows (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 - **U01268**: `שֶׁלַח` becomes `שֶׁלַח II`
-  - [ ] confirmed: print shows that numeral beside it
+  - [x] confirmed: print shows that numeral beside it
   - [ ] not what print shows (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 - **U01348**: `שָׁלֵם` becomes `שָׁלֵם I`
-  - [ ] confirmed: print shows that numeral beside it
+  - [x] confirmed: print shows that numeral beside it
   - [ ] not what print shows (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 - **U01772**: `שְׁפַל` becomes `שְׁפַל I`
-  - [ ] confirmed: print shows that numeral beside it
+  - [x] confirmed: print shows that numeral beside it
   - [ ] not what print shows (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 - **U02021**: `שְׁרַק` becomes `שְׁרַק I`
-  - [ ] confirmed: print shows that numeral beside it
+  - [x] confirmed: print shows that numeral beside it
   - [ ] not what print shows (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 - **V00743**: `תְּנֵי` becomes `תְּנֵי I`
-  - [ ] confirmed: print shows that numeral beside it
+  - [x] confirmed: print shows that numeral beside it
   - [ ] not what print shows (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
 
 - **V00844**: `תְּפַס` becomes `תְּפַס I`
-  - [ ] confirmed: print shows that numeral beside it
+  - [x] confirmed: print shows that numeral beside it
   - [ ] not what print shows (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -1532,7 +1526,7 @@ flags them on their alternates only, so they are not among the 382.
 **Your answer for U00489** (its primary is stored as the single letter `ש`; the hOCR shows no numeral on its line):
 
 - **U00489**
-  - [ ] print's headword is `שׁוּף` with no numeral or superscript
+  - [x] print's headword is `שׁוּף` with no numeral or superscript
   - [ ] print shows a numeral or superscript on it (write it in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -1541,14 +1535,27 @@ flags them on their alternates only, so they are not among the 382.
   HW-prefix names both. J00321's line is the one whose gloss reads
   `כַּיי = כְּהַיי`, and the leading `I,` is the bare patah read as a
   letter. J00327's line is illegible. The name keeps the leading vowel.
+
+321 headword is an underline (representing any letter), with a patah under it followed by yod yod
+327 headword is similar an underline (representing any letter), with a patah under it followed by yod yod dalet alef
+
+Note that in printe the underline is fairly long like about 3 character width, but it represents one letter placeholder
+
+  
 - **V00518.** The line sits between `תִּישּׁוּעַ` and `תִּיתוּרָא` and has
   the shape of your print reading `תִּישַׁע, v. תְּשַׁע ch.` The fix
   moves `v. תְּשַׁע` into the gloss and drops the two fragments. The
   primary stays `תִּישַׁע`, so the name does not change.
+
+  Correct
+  
 - **S01780.** The hOCR sets no Roman numeral: the line reads as
   `קֵץ, קִצָּא, קִי׳ ch. same`. The `²` is Sefaria's disambiguator from
   S01779 `קֵץ`, and the name needs it either way. The fragments are
   alternates; their spelling is print work that changes no name.
+
+heir spelling is print work - what you have are the correct spellings: קִצָּא, קִי׳
+
 - [ ] **U00489.** The text is determinable: `ש` + `ׁוּף` joins byte for
   byte to `שׁוּף` (#113), as Q00752's join did. The hOCR shows no
   numeral after it (`ch. same` follows the headword). The mark is the
@@ -1556,6 +1563,8 @@ flags them on their alternates only, so they are not among the 382.
   bare name `שׁוּף` is free and U00489 can take it with no mark, as
   print sets it. If not, U00489 needs a disambiguator; U00491 already
   holds `²`. Which?
+
+I am not sure what you are asking here
 
 ## Pile A: ruled legitimate (286)
 
@@ -1673,6 +1682,36 @@ at S00064 (`קְבל` IV, no patah); that question is in pile C.
 | [M02850](https://jastrow.app/#rid:M02850) | `מְשַׁח` | the missing I, II is on M02846, M02848, spelled with other vowels; numbering runs I..IV once across the consonant family. The unnumbered M02847, M02849 are the Aramaic `ch. same` lines, which print leaves unnumbered: M02847 `riw^2 ch. same. Targ. 0. Gen. XXXI, 13.`; M02849 `nCQ ch. same. Targ. Y. Gen. X, 25.` | [851a · leaf 174](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$175/full/1400,/0/default.jpg) |
 | [S00061](https://jastrow.app/#rid:S00061) | `קְבַל` | the missing I, II is on S00057, S00059, spelled with other vowels; numbering runs I..IV once across the consonant family. The unnumbered S00058, S00060 are the Aramaic `ch. same` lines, which print leaves unnumbered: S00058 `3Dp ch. same, 1) (with TDK) to visit.`; S00060 `J Jp ch. same, to cry out, complain,` | [1309a · leaf 632](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$633/full/1400,/0/default.jpg) |
 | [U00710](https://jastrow.app/#rid:U00710) | `שְׁחַר` | the missing I, II, III is on U00704, U00706, U00708, spelled with other vowels; numbering runs I..IV once across the consonant family. The unnumbered U00705, U00707, U00709 are the Aramaic `ch. same` lines, which print leaves unnumbered: U00705 `""iniD ch. same, to search, inquire. Targ. Is.`; U00707 `Hof. "inavi fo become black, v. supra.`; U00709 `™irn£? ch. same. Ex. R. s. 47 "ppTl` | [1551a · leaf 874](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$875/full/1400,/0/default.jpg) |
+
+**Your answers** (these four are sequences where the Hebrew verb, pointed with qamets, is numbered and the Aramaic `ch. same` lines between are not; tick one per row):
+
+- **I00618**: `טְעַן` and its Hebrew neighbours
+  - [x] print numbers the Hebrew verb and leaves the Aramaic lines unnumbered, as stored: nothing to fix
+  - [ ] print numbers an Aramaic line too (say which rid and numeral in the note)
+  - [ ] a spelling here is wrong in print terms (say which rid and what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+- **M02850**: `מְשַׁח` and its Hebrew neighbours
+  - [x] print numbers the Hebrew verb and leaves the Aramaic lines unnumbered, as stored: nothing to fix
+  - [ ] print numbers an Aramaic line too (say which rid and numeral in the note)
+  - [ ] a spelling here is wrong in print terms (say which rid and what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+- **S00061**: `קְבַל` and its Hebrew neighbours
+  - [x] print numbers the Hebrew verb and leaves the Aramaic lines unnumbered, as stored: nothing to fix
+  - [ ] print numbers an Aramaic line too (say which rid and numeral in the note)
+  - [ ] a spelling here is wrong in print terms (say which rid and what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+- **U00710**: `שְׁחַר` and its Hebrew neighbours
+  - [x] print numbers the Hebrew verb and leaves the Aramaic lines unnumbered, as stored: nothing to fix
+  - [ ] print numbers an Aramaic line too (say which rid and numeral in the note)
+  - [ ] a spelling here is wrong in print terms (say which rid and what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
 
 ## How this was produced
 

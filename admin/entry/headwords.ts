@@ -341,7 +341,12 @@ interface ItemScan {
  * `sawSpaceSinceForm` is what decides `attached`: a form the item ran
  * straight onto the one before it, with no space between, is print's
  * optional-ending notation rather than a lemma of its own. It starts
- * TRUE so an item's first form is never attached to nothing. */
+ * TRUE so an item's first form is never attached to nothing.
+ *
+ * A superscript reaches its form (`readMark` makes it the
+ * `disambiguator`) and never the fragment: print sets none, so the
+ * template does not either (ruling 10-06 hidden superscript). See
+ * {@link withoutSuperscript} for the space beside it. */
 function collectPieces(pieces: readonly Piece[], first: number): ItemScan {
 	const building: Building[] = [];
 	const leading: string[] = [];
@@ -353,7 +358,9 @@ function collectPieces(pieces: readonly Piece[], first: number): ItemScan {
 			if (piece.value === ' ') {
 				sawSpaceSinceForm = true;
 			}
-			fragment += piece.value;
+			fragment = SUP_DIGITS.includes(piece.value.charAt(0))
+				? withoutSuperscript(fragment)
+				: fragment + piece.value;
 			continue;
 		}
 		building.push({
@@ -365,6 +372,16 @@ function collectPieces(pieces: readonly Piece[], first: number): ItemScan {
 		fragment += `{${first + building.length - 1}}`;
 	}
 	return { building, fragment, leading };
+}
+
+/** The fragment as it stands when a superscript arrives, with the one
+ * space print's source set before it dropped: `אָב II ²` lays out as
+ * `{0} II`, not `{0} II `. A superscript with no space before it
+ * (G00675's `זָרָה²  I, II`) drops alone, and the space after it stays
+ * to separate what follows: `{0} I, II`. Whitespace has already
+ * collapsed to single spaces (`scanItem`), so one is all there is. */
+function withoutSuperscript(fragment: string): string {
+	return fragment.endsWith(' ') ? fragment.slice(0, -1) : fragment;
 }
 
 /** Notation standing in front of an item's first form. Only `*`, the

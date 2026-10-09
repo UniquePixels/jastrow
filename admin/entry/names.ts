@@ -44,6 +44,12 @@ const WHITESPACE = /\s+/gu;
  *     name = ("*" if reconstructed) + word
  *          + (" " + Roman if homograph) + superscript(disambiguator)
  *
+ * The numeral and the superscript are in the name whether or not
+ * `display` shows them: a `disambiguator` is never displayed (ruling
+ * 10-06 hidden superscript) and an `implied` homograph is not either
+ * (10-06 implied I), and both still name the entry, so a family runs
+ * `X I`, `X II` however print set its first line.
+ *
  * Returns the name in the form's OWN normalization; `nameKey` is what
  * comparison uses. Nothing here rewrites stored text — the one step
  * that does is the import WRITE (`normalizeForWrite`, #110), which

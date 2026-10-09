@@ -20,7 +20,7 @@
 			"partial": true
 		}
 	],
-	"display": "{0} ², {1} II, {2}, {3}",
+	"display": "{0}, {1} II, {2}, {3}",
 	"page": {
 		"number": 1062,
 		"column": "a"

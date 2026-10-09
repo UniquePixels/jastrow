@@ -500,6 +500,23 @@ describe('checkHeadwordLine', () => {
 		expect(t.failures).toEqual([]);
 	});
 
+	// Ruling 10-06 hidden superscript: the source's superscript lives on
+	// the form, not in the template, and mark 2 counts it there.
+	// `[case, display, disambiguator, failures]`.
+	it.each([
+		['on the form, not in display', '{0} II', 2, 0],
+		['in display and on the form: counted twice', '{0} II ²', 2, 1],
+		['in neither: the superscript is lost', '{0} II', undefined, 1],
+	] as const)('a superscript %s', (_case, display, disambiguator, failures) => {
+		const t = gate(['אָב II ²'], {
+			display,
+			headwords: [
+				{ homograph: 2, text: 'אָב', ...(disambiguator && { disambiguator }) },
+			],
+		});
+		expect(t.failures).toHaveLength(failures);
+	});
+
 	it('passes an unsettleable line with no display', () => {
 		const t = gate(['(אָב', 'אַבָּא'], {
 			headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],

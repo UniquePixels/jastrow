@@ -192,8 +192,20 @@ contract and does not own it.
 `headwords[]` holds every form print sets on the headword line, in
 print order. `headwords[0]` is the primary form: the name, the search
 key and every link derive from it. A form object is
-`{ text, homograph?, disambiguator?, reconstructed?, gender?, partial? }`.
-`text` holds clean Hebrew; grouping and marks do not live in it.
+`{ text, homograph?, implied?, disambiguator?, reconstructed?, gender?,
+partial? }`. `text` holds clean Hebrew; grouping and marks do not live
+in it.
+
+Two fields are **named and never displayed**. A `disambiguator` is
+Sefaria's superscript for two lines print sets alike; print sets no
+superscript, so `display` never carries its glyph (ruling 10-06 hidden
+superscript; the parser drops it with the one space before it). A
+`homograph` marked `implied: true` is a numeral print leaves off the
+first homograph of a sequence whose next member it numbers II (10-06
+implied I, which amends U2); `implied` requires `homograph`, and the
+slot shows no numeral. Both reach the name (§7). An implied I is set
+only by reviewed patch, after a print read; the headword report's X10
+shape names the candidates.
 
 `display` is an optional template whose `{n}` inserts
 `headwords[n].text` and whose every other character is literal
@@ -213,6 +225,9 @@ Six shape rules are checked by `headwordShapeProblems`
 1. every form index appears in `display` exactly once (`checkSlots`);
 2. `display` holds no Hebrew (`checkNoHebrew`);
 3. markers agree with forms — `*`, homograph, gender (`checkMarkers`);
+   a numeral shows beside a form iff its homograph is not `implied`,
+   no superscript appears in `display`, and `implied` stands only
+   beside a `homograph` (`checkNumeral`, `checkNamedNotShown`);
 4. a form's `text` holds no `,`, `(`, `)`, `?`, `=`, `…` or Latin
    letter (`textDefects`);
 5. a `partial` form is never a lookup key, except at index 0 when it
@@ -759,6 +774,13 @@ name = ("*" if reconstructed) + word
      + (superscript digits if disambiguator)
 ```
 
+The numeral and the superscript are in the name **whether or not
+`display` shows them**: a `disambiguator` never shows, and an
+`implied` homograph does not either (§2; rulings 10-06 hidden
+superscript and implied I). So a family runs `X I`, `X II` whatever
+print set on its first line, and two lines that read alike on the page
+still have two names.
+
 It derives from the **primary form only**, never the full headword
 line.
 
@@ -856,7 +878,9 @@ Three marks per entry, each comparing the composed **source** line
 against the written entry — never against the parser that produced it:
 (a) every Hebrew character of the line reaches a form, in order, and no
 form invents one; (b) the line's notation **multiset** — `(`, `)`, `*`,
-`?`, `…`, superscripts, Roman numerals — is exactly the template's;
+`?`, `…`, superscripts, Roman numerals — is exactly the template's,
+with each form's `disambiguator` counted as its superscript (the
+template never carries one, ruling 10-06 hidden superscript);
 (c) `display` is absent exactly for a line the gate independently
 judges unsettleable (`lineIsUnsettleable`). A patch-supplied template
 adds two more marks.
