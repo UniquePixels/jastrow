@@ -86,9 +86,9 @@ The 382 primary-headword rows (L09) are triaged in
 `docs/headword-worklist.md`. 286 are ruled legitimate (pile A) and 4
 change no name (pile D); neither needs anything. Two piles do:
 
-- [ ] Pile C: 81 rows that need a print read, each with its hOCR line
+- [x] Pile C: 81 rows that need a print read, each with its hOCR line
       and scan leaf. U00489 (#113) is with them [L09]
-- [ ] Pile B: 11 numerals Sefaria dropped that the hOCR shows; confirm
+- [x] Pile B: 11 numerals Sefaria dropped that the hOCR shows; confirm
       each on the scan, then patch [L09]
       (piles B and C answered 2026-10-06: 96 answer blocks; 30 rows
       went to the reviewed-kept list, L44)
