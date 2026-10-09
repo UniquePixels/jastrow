@@ -1127,10 +1127,10 @@ function renderCsv(split: KeptSplit<IssueRow>): string {
 	const lines = [
 		'shape,rid,role,text,name,note,processor_flagged,reviewed_kept',
 	];
-	const rows = [...split.open, ...split.kept.map((k) => k.row)];
-	for (const row of rows.sort(
+	const rows = [...split.open, ...split.kept.map((k) => k.row)].toSorted(
 		(a, b) => a.shape.localeCompare(b.shape) || a.rid.localeCompare(b.rid),
-	)) {
+	);
+	for (const row of rows) {
 		lines.push(
 			[
 				row.shape,
