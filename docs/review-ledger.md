@@ -111,8 +111,21 @@ change no name (pile D); neither needs anything. Two piles do:
 
 ### 6. Before the admin tool opens hand editing — maintainer ruling in #123
 
-- [ ] Examine the nine Group D sense-structure classes; renumbering is
-      free until anchors or hand edits exist [L22]
+The nine Group D classes are examined in `docs/sense-worklist.md`
+(PR #157): one question per class, plus the implied-`1)` rows.
+Renumbering is free until anchors or hand edits exist [L22].
+
+- [ ] `etymology-head-pseudo-sense`: worklist §1 [L22]
+- [ ] `preamble-stranded-lead-sense`: worklist §2 [L22]
+- [ ] `self-numbered-intext-marker`: worklist §3 [L22]
+- [ ] `inline-inflection-sublist`: worklist §4 [L22]
+- [ ] `continuation-marker-fully-absent`: worklist §5 [L22]
+- [ ] `first-sense-debris-stranding-language-label`: worklist §6 [L22]
+- [ ] `verse-paren-false-sense-split`: worklist §7 [L22]
+- [ ] `chopped-marker-with-residue`: worklist §8 [L22]
+- [ ] `inflection-sublist-numbering-flattened`: worklist §9 [L22]
+- [ ] The 22 undecided implied-`1)` rows (body-review 08; the
+      backlog's 21 left out Q01352): worklist, last question [L22]
 
 ### 7. Deferrable defects — admin tool, any time
 
@@ -177,6 +190,11 @@ change no name (pile D); neither needs anything. Two piles do:
 - [ ] The maintainer's "add to issue" notes: 17 X8 rows and 5 X9
       rows for a textual-research issue (#153 holds the X9 five); no
       issue was edited [L47]
+- [ ] Body-review 08 decisions never applied: four confirmed implied
+      `1)`s, seven OCR `l)`s, four print reads [L52]
+- [ ] `body/lettered.ts` splits inside a parenthetical (P00790) [L53]
+- [ ] `continuation-marker-em-dash-loss` is stale in the catalogue
+      since ruling 10-04 sense star [L54]
 
 ## Ledger
 
@@ -206,7 +224,7 @@ architecture, data, docs; every row confirmed by the controller).
 | L19 | Schema title "truth entry"; "slug" in `import/gates.ts:189`, `entry/headwords.ts:86`, `entry/headword-rules.ts:217`; `patch/apply.ts:92` names deleted `apply-cli.ts`; five "still PENDING" comments where `PENDING = []`; `.gitignore:36` lists `migration-report.json`; `fetch.ts:217` top-level `await main()` | various | nit | PR #148 |
 | L20 | Gender exclusivity (form gender vs `grammar.gender`) unchecked; `schema.test.ts:26-33` asserts an entry carrying both as valid | `admin/entry/validate.ts` | contract | closed #147 |
 | L21 | Which corrections go upstream to Sefaria, and how | — | ruling | open (maintainer raised 2026-10-02) |
-| L22 | Nine Group D sense-structure classes to examine before anchors or hand edits | #123 | data | open |
+| L22 | Nine Group D sense-structure classes to examine before anchors or hand edits | #123 | data | open: examined in `docs/sense-worklist.md` (PR #157), measured on the committed entries at `271ede286`. Two dissolved under ruling 10-04 lead text (etymology head 1,929 entries, preamble 742: print's own unnumbered lead) and one under the form-section split (inline inflection sublist: 13 split, 2 left); recommended: discard those three with a control, port detectors for self-numbered markers (26) and flattened form sublists (8), reviewed patch sets for the fully absent marker (5), first-sense debris (14), verse-paren false splits (13) and chopped markers with residue (10). The catalogue's objection to the debris delete no longer holds: the label survives in the gloss head. Body-review 08 has 22 undecided implied-`1)` rows, not 21 (Q01352): by the hOCR 17 look implied, 4 are an OCR `l)` and R00586's `1)` was dropped. One question per class, the maintainer's to tick |
 | L23 | `formerNames` ledger unbuilt; needed before the first post-publication `headwords[0]` change | — | post-release | open |
 | L24 | **struck.** The 2026-10-02 verdict called review-report's "blocks: 0" incomplete because headword rows live in another report. Under the ledger's definition the primary-headword rows are pre-publication (L09), not blockers. That says nothing about the report's count: the report uses its own criterion (a defect the admin tool cannot correct after go-live), and the headword-issues report applies no blocks criterion at all. L09 is where those rows are handled | — | struck | struck |
 | L25 | **struck.** The same verdict split "ready for compile" from "ready for the admin tool". Readiness is one property; the contract rows (L01, L04, L20) are code tidiness, not data readiness | — | struck | struck |
@@ -236,6 +254,9 @@ architecture, data, docs; every row confirmed by the controller).
 | L49 | A corrected headword SPELLING rewrites the string internal links resolve by (gate 6 keys the headword map on the composed `headword`), so the fix dangles every link that names Sefaria's spelling, and the import refuses it. Nine answered OCR fixes are blocked: M00724 `מַוֶּה I` → `מַזֶּה I` (1 link), J00737 `יַתִּור I` → `יַתִּיר I` (2), A01964 `אְמָא I` → `אֲמָא I` (5), D00501 `דִּיוֹ II` → `דְּיוֹ II` (6), H01579 `חָרֵב II` → `חָרִב II` (3), A01310 `אִילפָא I` → `אִילְפָא I` (4), C00649 `גִּיהא I` → `גִּיהָא I` (4), M02601 `מרוּצָה I` → `מְרוּצָה I` (1), P00218 `עִוּזָּא I` → `עוּזָּא I` (3). Each mark is the sibling's stored bytes. Numerals no longer have this problem (decisions.md `10-09 reform homographs`): they ride beside the line. Two ways out, neither ruled: resolve an internal href that no composed headword owns by Sefaria's own headword (`sefariaHeadword`, as U3 keeps the Sefaria route), or retarget each link with a reviewed patch in the linking entry | `admin/pipeline/import/cite.ts`, `admin/pipeline/import.ts` (`buildIndexes`) | pipeline | ruled (decisions.md row 10-09 link key); PR #156. Links resolve by each rid's line before patches, after the transforms (the literal `sefariaHeadword` key would have moved 289 of 66,757 links; this one moved 0). The nine are P000359–P000367; the 29 links keep their rids |
 | L50 | U00488 (`שׁוּף`, pile B, print sets I) keeps its I at the head of `language_reference` (` I (b. h.; = נָשַׁף)`), which no patch op edits, so setting the numeral would show it twice. U00489's join to `שׁוּף` would make a second composed `שׁוּף` (the headword map throws on duplicates) and dangle the 13 links that name `ש` (L49), so it waits too, though the answer (`שׁוּף`, no numeral) is clear. V00518, answered "Correct", is #113's other open row: its `v. תְּשַׁע` must join a sense that already exists | `admin/pipeline/patch/schema.ts`, #113 | pipeline | open: plan group 5; 10-09 link key (PR #156) removes the link half: U00489's join no longer dangles the 13 links naming `ש`, and the citation map keys on the pre-patch line. Still blocked on U00488's printed I sitting in `language_reference`, which no patch op edits, and on the names gate (bare `שׁוּף` is taken until U00488 takes I) |
 | L51 | M02423 (`מַקְלֶה`) ends `v. <cite ref="M00724"><he>מַוֶּה</he> II</cite>`: the display names a II, Sefaria's href names `מַוֶּה I` (M00724, now `מַזֶּה I`, "= מַה זֶה"), and the word is about lustration ashes, which fits M00725 `מַזֶּה` II (the priest who sprinkles). So the link likely points at the wrong homograph, and the display carries the same vav-for-zayin OCR glyph P000359 fixed on the headword. Found while proving L49's 29 links unchanged; that proof holds (it still resolves to M00724, as before), and which side is wrong is the print's call | `data/entries/M/M02423.json`; source href `/Jastrow,_מַוֶּה I.1` | data | open: plan group 5 |
+| L52 | Body-review 08 rows that were decided and never applied. Four confirmed implied `1)`s still show the shape with no patch: C01393 (stem `Pa.`), D00325 (`Af.`), G00652 (`Pi.`) and G00173 (top level) (`SEED_CONFIRMED` left them out; the doc does not say why). Seven rows decided "Not implied, OCR error" still read `l)` for `1)` (D00436, D01009, E00741, E00918, E00940, F00116, G00363); only B00479, E00148, E00298 and I00822 got the `ocr-marker` patches. B00771, G00233 and H01202, whose decisions read the print's `1)`, and D00919, whose chopped repair was read on the print 2026-08-07, are also unapplied (D00919 is in the sense worklist's class 8). D00792's decision cell reads only "common". Found by the group 6 agent | `docs/archive/body-review/08-implied-one-candidates.md`, `data/entries/` | data | open: plan group 11 |
+| L53 | `body/lettered.ts` says it splits only runs whose markers sit outside parens, but it has no paren check, and `ascendingRun` skips letters that break the run. P00790's Hif. section reads in print `b) (v. Kal, c) to neutralize … —c) (v. Kal, a) to account … —d) (v. Kal, e) to succeed`; the split took the cross-references' `c)` and `e)` as markers, so `b` and `d` are the fragment `(v. Kal,`, `c` holds print's real `—c)` in its text, and print's `d)` is labelled `e`. One entry: the class 7 predicate finds no other lettered sense cut after an open paren. Found by the group 6 agent | `admin/pipeline/body/lettered.ts`, `data/entries/P/P00790.json` | bug | open: plan group 11 |
+| L54 | `continuation-marker-em-dash-loss` (the tenth Group D sibling) is still `blocking: true`, route `transform`, status `candidate`, but since ruling 10-04 sense star no label stores a dash, so its 22 unshipped markers have no presence in entry data: the dash is left for the app to draw by rule once it is written (`app/` is a placeholder today). Its shipped core (`continuationMarkerDash`) writes a dash the import then drops. Found by the group 6 agent | `admin/pipeline/patch/records/patterns.jsonl` | doc | open: plan group 11 |
 
 Shapes compile must handle, not defects: 10,744 gloss heads begin with
 `,`; 33 entries have no `display`; 467 have an empty gloss head
