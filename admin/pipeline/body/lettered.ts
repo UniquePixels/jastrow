@@ -109,9 +109,11 @@ function candidateMarks(text: string): Mark[] {
 
 // A markup tag, skipped by the paren count: an attribute value (an
 // href, a data-ref) is not text, and a paren in it is not a paren.
-// `[^<>]` rather than `[^>]`: a tag holds no `<`, and excluding it keeps
-// the scan linear on text with a stray `<` (Sonar S8786).
-const TAG = /<[^<>]*>/gu;
+// A quoted attribute value may hold `>` (`title="a>b"`), so the scan
+// steps over quoted strings whole; outside quotes a tag holds neither
+// `<` nor `>`, and excluding `<` keeps the scan linear on text with a
+// stray `<` (Sonar S8786). The corpus has no such attribute today.
+const TAG = /<(?:[^<>"]|"[^"]*")*>/gu;
 
 // A numbered marker's `)` — an inline sense number (`—2)`) the source
 // left in the text, or a verse number closing a citation paren (`(Is.

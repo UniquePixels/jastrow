@@ -78,6 +78,11 @@ const PAREN_CASES: [string, string, string[] | null][] = [
 		'x (Is. XL, 1) a) one b) two',
 		['a=one', 'b=two'],
 	],
+	[
+		'a > and a ( inside a quoted attribute are not text',
+		'x a) one <a title="x>(">two</a> b) three',
+		['a=one <a title="x>(">two</a>', 'b=three'],
+	],
 ];
 
 describe('splitLettered paren state (L53)', () => {
