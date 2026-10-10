@@ -31,7 +31,10 @@ How I chose each recommendation, so the rows read the same way:
   sense address would be, so the rows wait for whoever lifts D8.
 - **Reviewed patch set** where the reader sees a defect (a duplicate,
   a missing number, a number cut out of a citation) and an existing
-  patch op repairs it, with a precedent already applied.
+  patch op repairs it, with a precedent already applied. A patch set
+  closes #123's box the way Group C's two classes closed: once the
+  patches apply, the class is `discarded` with a patched rid as its
+  control.
 
 Excerpts are tag-stripped entry text in NFC. In them `‖` separates two
 senses, `↳` marks a child sense, and `…` marks a cut.
@@ -661,6 +664,9 @@ block or nothing.
 
 Whichever you tick, the 17 and R00586 take the same two patches; the
 choice is what the record says.
+
+My recommendation is the second box, with the 17 in the note; the
+other five then go the OCR and dropped-number ways above.
 
 **Question.** Which of the 22 are implied `1)`?
 
