@@ -23,7 +23,9 @@ Skip anything you like.
 **Ticked 2026-10-10.** Classes 1, 2 and 4 are discarded with their
 controls and class 9 has a review detector (PR #159). Class 3 has an
 answer under its note and a fresh question. Classes 5–8 and the
-implied-`1)` rows are reviewed patch sets (the next PR).
+implied-`1)` rows are reviewed patch sets: PR #160, 142 patches on 75
+entries, with ledger L52's body-review 08 rows folded in. Three
+entries the rules do not decide are round 2, near the end.
 
 How I chose each recommendation, so the rows read the same way:
 
