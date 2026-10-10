@@ -43,7 +43,7 @@ senses, `↳` marks a child sense, and `…` marks a cut.
 
 | # | Class | What the reader sees | Catalogued | Today | What handles it | Recommendation |
 |---|---|---|---|---|---|---|
-| 1 | `etymology-head-pseudo-sense` | print's own layout: an unnumbered etymology, then `1)` | 1,553 (source) | 1,929 entries (1,454 strict) | ruling `10-04 lead text` | discard, control A00020 |
+| 1 | `etymology-head-pseudo-sense` | print's own layout: an unnumbered etymology, then `1)` | 1,553 (source; this run finds 1,552) | 1,929 entries (1,454 strict) | ruling `10-04 lead text` | discard, control A00020 |
 | 2 | `preamble-stranded-lead-sense` | print's own layout: a short label or preamble, then `1)` | 676 (source) | 742 | ruling `10-04 lead text` | discard, control A00123 |
 | 3 | `self-numbered-intext-marker` | print's text; print's own next sense sits inside a sense of the same number | 35 senses | 26 | nothing | detector |
 | 4 | `inline-inflection-sublist` | nothing wrong: print's form section, nested | 12 | 2 left (13 split) | `body/form-sections.ts` (B12) | discard, control C00062 |
@@ -74,8 +74,9 @@ normal print convention", and "if that ruling holds this row becomes
 discarded".
 
 **Measured.** On the source, an unnumbered first sense followed by
-`1)`: 2,295 entries, 1,552 of them opening on `(` (the catalogue: 1,553
-of 2,295; reproduced). In the entries the lead is the gloss head, which
+`1)`: 2,295 entries, 1,552 of them opening on `(`. The catalogue says
+1,553 of the same 2,295; the one-entry difference is not explained, so
+the count is near, not reproduced. In the entries the lead is the gloss head, which
 also carries the morphology and language code, so the shape reads
 "grammar prefix, then a parenthetical": 2,302 entries have an
 unlabelled lead before a sense labelled `1`; in 1,929 the lead opens on
