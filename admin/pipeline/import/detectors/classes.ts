@@ -3,9 +3,12 @@
  * §10 "port judgment-class detectors"): the catalogued classes the
  * maintainer ruled blocking that the import path can now see for
  * itself, plus `empty-body`, which no catalogue row matches exactly
- * (see its file). Each detects only and emits rows; none repairs
- * anything, and all six are `defer` for publication (post-consolidation
- * review §10, decision 2; `empty-body` by the review ledger's L08).
+ * (see its file), and `inflection-sublist-numbering-flattened`, a
+ * non-blocking Group D class the maintainer ruled a detector for
+ * (`docs/sense-worklist.md` §9). Each detects only and emits rows;
+ * none repairs anything, and all seven are `defer` for publication
+ * (post-consolidation review §10, decision 2; `empty-body` by the
+ * review ledger's L08; the Group D class by L22).
  *
  * `DETECTED_CLASSES` is what the review report subtracts from the
  * catalogue, so a class leaves the "Catalogued, not yet detected"
@@ -33,6 +36,11 @@ import {
 	HOMOGRAPH_ROMAN_STRANDED,
 	HOMOGRAPH_ROMAN_STRANDED_ACTION,
 } from './homograph-roman-stranded-in-definition.ts';
+import {
+	detectInflectionSublistFlattened,
+	INFLECTION_SUBLIST_FLATTENED,
+	INFLECTION_SUBLIST_FLATTENED_ACTION,
+} from './inflection-sublist-numbering-flattened.ts';
 import {
 	detectOpenParenInRtlSpan,
 	OPEN_PAREN_IN_RTL_SPAN,
@@ -71,6 +79,13 @@ const CLASS_RULES: ReadonlyMap<string, ClassRule> = new Map([
 		{
 			action: HOMOGRAPH_ROMAN_STRANDED_ACTION,
 			detect: detectHomographRomanStranded,
+		},
+	],
+	[
+		INFLECTION_SUBLIST_FLATTENED,
+		{
+			action: INFLECTION_SUBLIST_FLATTENED_ACTION,
+			detect: detectInflectionSublistFlattened,
 		},
 	],
 	[
