@@ -67,9 +67,12 @@ name while the 29 links that name Sefaria's spelling keep resolving to
 the same rids. Two are glyph corrections under HW-ocr-dalet (M00724
 vav → zayin, J00737 vav → yod); seven are a vowel or mark.
 
-**No mark was typed.** Each of the nine takes its word from the stored
-bytes of its sequence neighbour, and the generator checked that the
-two differ by exactly the one code point the maintainer read.
+**No mark was typed.** Each of the nine linked-headword corrections
+(P000359–P000367) takes its word from the stored bytes of its sequence
+neighbour, and the generator checked that the two differ by exactly
+the one code point the maintainer read.
+
+The same holds for the three earlier corrections (P000356–P000358).
 A01319 and M02739's alternate take their whole word from the stored bytes of their sequence neighbour (A01320
 `אִימָּא`, M02740 `מַרְעִיתָא`), and the generator checked that each
 differs from the stored form by exactly the mark the maintainer read
