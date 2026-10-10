@@ -112,7 +112,7 @@ layout, with A00020 as the control?
 
 - **etymology-head-pseudo-sense**
   - [ ] port a review detector (reports rows, no repair)
-  - [ ] discard with the control named above
+  - [x] discard with the control named above
   - [ ] write a reviewed patch set (say the rule in the note)
   - [ ] can't decide yet (say what is missing in the note)
   - note: 
@@ -164,7 +164,7 @@ layout, with A00123 as the control?
 
 - **preamble-stranded-lead-sense**
   - [ ] port a review detector (reports rows, no repair)
-  - [ ] discard with the control named above
+  - [x] discard with the control named above
   - [ ] write a reviewed patch set (say the rule in the note)
   - [ ] can't decide yet (say what is missing in the note)
   - note: 
@@ -239,8 +239,8 @@ number in its text?
   - [ ] port a review detector (reports rows, no repair)
   - [ ] discard with the control named above
   - [ ] write a reviewed patch set (say the rule in the note)
-  - [ ] can't decide yet (say what is missing in the note)
-  - note: 
+  - [x] can't decide yet (say what is missing in the note)
+  - note: I believe these to be textual or print errors. Can we create a deterministic fix? (Note that in at least one case, the issue creates a downstream sense numbering issue as well).  Please remember as this is a modification to text it needs to be anotated. If a determenistic fix is not possible then we sould create a detector, and run a review to make patches.
 
 
 ## 4. `inline-inflection-sublist`
@@ -286,7 +286,7 @@ form-section split, with C00062 as the control?
 
 - **inline-inflection-sublist**
   - [ ] port a review detector (reports rows, no repair)
-  - [ ] discard with the control named above
+  - [x] discard with the control named above
   - [ ] write a reviewed patch set (say the rule in the note)
   - [ ] can't decide yet (say what is missing in the note)
   - note: 
@@ -346,9 +346,9 @@ paragraph with no number, and three with a stray `)`.
 - **continuation-marker-fully-absent**
   - [ ] port a review detector (reports rows, no repair)
   - [ ] discard with the control named above
-  - [ ] write a reviewed patch set (say the rule in the note)
+  - [x] write a reviewed patch set (say the rule in the note)
   - [ ] can't decide yet (say what is missing in the note)
-  - note: 
+  - note: as recomended
 
 
 ## 6. `first-sense-debris-stranding-language-label`
@@ -407,9 +407,9 @@ reviewed patch?
 - **first-sense-debris-stranding-language-label**
   - [ ] port a review detector (reports rows, no repair)
   - [ ] discard with the control named above
-  - [ ] write a reviewed patch set (say the rule in the note)
+  - [x] write a reviewed patch set (say the rule in the note)
   - [ ] can't decide yet (say what is missing in the note)
-  - note: 
+  - note: as recomended
 
 
 ## 7. `verse-paren-false-sense-split`
@@ -474,9 +474,9 @@ real markers) by reviewed patch?
 - **verse-paren-false-sense-split**
   - [ ] port a review detector (reports rows, no repair)
   - [ ] discard with the control named above
-  - [ ] write a reviewed patch set (say the rule in the note)
+  - [x] write a reviewed patch set (say the rule in the note)
   - [ ] can't decide yet (say what is missing in the note)
-  - note: 
+  - note: as recomended
 
 
 ## 8. `chopped-marker-with-residue`
@@ -535,9 +535,9 @@ print?
 - **chopped-marker-with-residue**
   - [ ] port a review detector (reports rows, no repair)
   - [ ] discard with the control named above
-  - [ ] write a reviewed patch set (say the rule in the note)
+  - [x] write a reviewed patch set (say the rule in the note)
   - [ ] can't decide yet (say what is missing in the note)
-  - note: 
+  - note: as recomended
 
 
 ## 9. `inflection-sublist-numbering-flattened`
@@ -588,7 +588,7 @@ today. If nothing is done: nothing changes on the page.
 with its numbered senses left at top level?
 
 - **inflection-sublist-numbering-flattened**
-  - [ ] port a review detector (reports rows, no repair)
+  - [x] port a review detector (reports rows, no repair)
   - [ ] discard with the control named above
   - [ ] write a reviewed patch set (say the rule in the note)
   - [ ] can't decide yet (say what is missing in the note)
@@ -676,7 +676,7 @@ other five then go the OCR and dropped-number ways above.
   - [ ] confirm only those I tick below (list rids in the note)
   - [ ] none
   - [ ] can't decide yet
-  - note: 
+  - note: As per your recomendation
 
 ---
 
