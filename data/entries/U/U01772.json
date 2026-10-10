@@ -4,13 +4,14 @@
 	"sefariaHeadword": "שְׁפַל",
 	"headwords": [
 		{
-			"text": "שְׁפַל"
+			"text": "שְׁפַל",
+			"homograph": 1
 		},
 		{
 			"text": "שְׁפֵיל"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1617,
 		"column": "b"

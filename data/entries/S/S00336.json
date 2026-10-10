@@ -4,7 +4,9 @@
 	"sefariaHeadword": "קוּלְיָא",
 	"headwords": [
 		{
-			"text": "קוּלְיָא"
+			"text": "קוּלְיָא",
+			"homograph": 1,
+			"implied": true
 		},
 		{
 			"text": "קוֹ׳",

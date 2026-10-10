@@ -4,7 +4,9 @@
 	"sefariaHeadword": "אוֹרְיָין",
 	"headwords": [
 		{
-			"text": "אוֹרְיָין"
+			"text": "אוֹרְיָין",
+			"homograph": 1,
+			"implied": true
 		},
 		{
 			"text": "אוֹרְיָאן"

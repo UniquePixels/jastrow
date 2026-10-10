@@ -4,7 +4,9 @@
 	"sefariaHeadword": "אַגְמָא",
 	"headwords": [
 		{
-			"text": "אַגְמָא"
+			"text": "אַגְמָא",
+			"homograph": 1,
+			"implied": true
 		}
 	],
 	"display": "{0}",

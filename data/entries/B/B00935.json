@@ -4,7 +4,9 @@
 	"sefariaHeadword": "בַּנַּאי",
 	"headwords": [
 		{
-			"text": "בַּנַּאי"
+			"text": "בַּנַּאי",
+			"homograph": 1,
+			"implied": true
 		}
 	],
 	"display": "{0}",

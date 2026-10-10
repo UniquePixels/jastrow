@@ -106,6 +106,37 @@ function holdsFold(entry: SourceEntry, patch: SemanticPatch): boolean {
 	return found === 1;
 }
 
+/** Drift for a `reform` whose headword block moved: `upstream-fixed`
+ * only when the block now reads exactly as the patch would leave it
+ * (and its gloss arrived too), else `upstream-changed`. */
+function reformDrift(
+	entry: SourceEntry,
+	patch: Extract<SemanticPatch, { op: 'reform' }>,
+): DriftOutcome {
+	// The headword block moved. Upstream FIXED it only if the block
+	// now reads exactly as this patch would have written it — and,
+	// for a patch that also lifts text into the gloss, only if that
+	// text arrived too: a line fixed upstream by DROPPING `= Y`
+	// lost the cross-reference, which is not the fix. The gloss
+	// must be the SOLE sense, as `applyReform` leaves it: the same
+	// text beside other senses is an entry upstream rewrote, and
+	// skipping the patch there would hide that. A patch that sets
+	// `homographs` is never fixed upstream: the field is ours, so
+	// skipping it would drop the numeral. Anything else is a change
+	// we have not seen.
+	const { forms, gloss, homographs } = patch.payload;
+	if (homographs !== undefined) {
+		return 'upstream-changed';
+	}
+	const glossLanded =
+		gloss === undefined ||
+		(entry.content.senses.length === 1 &&
+			entry.content.senses[0]?.definition === gloss);
+	return formsBlock(entry) === forms.join('\n') && glossLanded
+		? 'upstream-fixed'
+		: 'upstream-changed';
+}
+
 /** `undefined` when the patch's precondition holds on `entry`;
  * otherwise which kind of drift it is. */
 function classifyDrift(
@@ -123,23 +154,7 @@ function classifyDrift(
 		return 'upstream-fixed';
 	}
 	if (patch.op === 'reform') {
-		// The headword block moved. Upstream FIXED it only if the block
-		// now reads exactly as this patch would have written it — and,
-		// for a patch that also lifts text into the gloss, only if that
-		// text arrived too: a line fixed upstream by DROPPING `= Y`
-		// lost the cross-reference, which is not the fix. The gloss
-		// must be the SOLE sense, as `applyReform` leaves it: the same
-		// text beside other senses is an entry upstream rewrote, and
-		// skipping the patch there would hide that. Anything else is a
-		// change we have not seen.
-		const { forms, gloss } = patch.payload;
-		const glossLanded =
-			gloss === undefined ||
-			(entry.content.senses.length === 1 &&
-				entry.content.senses[0]?.definition === gloss);
-		return formsBlock(entry) === forms.join('\n') && glossLanded
-			? 'upstream-fixed'
-			: 'upstream-changed';
+		return reformDrift(entry, patch);
 	}
 	if (patch.op === 'join') {
 		return holdsFold(entry, patch) ? 'upstream-fixed' : 'upstream-changed';

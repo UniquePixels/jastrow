@@ -4,17 +4,18 @@
 	"sefariaHeadword": "שָׁעָה",
 	"headwords": [
 		{
-			"text": "שָׁעָה"
+			"text": "שָׁעָה",
+			"homograph": 1
 		}
 	],
-	"display": "{0}",
+	"display": "{0} I",
 	"page": {
 		"number": 1609,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": " I, v. <cite ref=\"U01652\"><he>שעי</he></cite>",
+			"gloss": ", v. <cite ref=\"U01652\"><he>שעי</he></cite>",
 			"units": []
 		}
 	]

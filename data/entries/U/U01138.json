@@ -4,17 +4,18 @@
 	"sefariaHeadword": "שְׁכַח",
 	"headwords": [
 		{
-			"text": "שְׁכַח"
+			"text": "שְׁכַח",
+			"homograph": 1
 		}
 	],
-	"display": "{0}",
+	"display": "{0} I",
 	"page": {
 		"number": 1572,
 		"column": "a"
 	},
 	"senses": [
 		{
-			"gloss": " I ch. (Hebraism) <cite ref=\"U01137\">same</cite>. ",
+			"gloss": " ch. (Hebraism) <cite ref=\"U01137\">same</cite>. ",
 			"units": [
 				"<cite ref=\"Jerusalem Talmud Bava Kamma 4:3:3\">Y. B. Kam. IV, 4ᵇ</cite> <he>עד דשַׁכְחוּן כולן</he>, v. <cite ref=\"O00322\"><he>סוּלָּמָא</he></cite>"
 			]

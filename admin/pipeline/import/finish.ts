@@ -6,13 +6,58 @@
 
 import {
 	type HeadwordReviewKind,
+	intToRoman,
 	parseHeadwordLine,
 } from '../../entry/headwords.ts';
 import type { PagePlacement } from '../../entry/page.ts';
-import { type Entry, SCHEMA_VERSION, type Sense } from '../../entry/types.ts';
-import type { BodyEntry, BodySense, SourceEntry } from '../types.ts';
+import {
+	type Entry,
+	type FormObject,
+	SCHEMA_VERSION,
+	type Sense,
+} from '../../entry/types.ts';
+import type {
+	BodyEntry,
+	BodySense,
+	SourceEntry,
+	SourceHomograph,
+} from '../types.ts';
 import { createResolver, type Unresolved } from './cite.ts';
 import { type TagCarry, translateMarkup } from './markup.ts';
+
+/** Set each patch-supplied homograph (`SourceEntry.homographs`) on the
+ * parsed form it names, returning a problem for every one the line
+ * cannot take: an index the parse did not produce, or a form that
+ * already carries a numeral of its own. A numeral print sets is the
+ * line's business, and a patch that would overwrite one is either
+ * stale or wrong, so it is refused rather than allowed to win. */
+function applyHomographs(
+	rid: string,
+	forms: FormObject[],
+	homographs: readonly SourceHomograph[],
+): string[] {
+	const problems: string[] = [];
+	for (const { form: at, homograph, implied } of homographs) {
+		const form = forms[at];
+		if (form === undefined) {
+			problems.push(
+				`${rid}: a patch sets homograph ${intToRoman(homograph)} on headwords[${at}], and there is no headwords[${at}]`,
+			);
+			continue;
+		}
+		if (form.homograph !== undefined) {
+			problems.push(
+				`${rid}: a patch sets homograph ${intToRoman(homograph)} on headwords[${at}], which already carries ${intToRoman(form.homograph)}`,
+			);
+			continue;
+		}
+		form.homograph = homograph;
+		if (implied === true) {
+			form.implied = true;
+		}
+	}
+	return problems;
+}
 
 /** The corpus-wide lookups a single entry's finishing needs. Each is
  * built once over the whole snapshot and passed in, because every one
@@ -185,6 +230,12 @@ function finishEntry(
 	// alternate four items later (headword design §2).
 	const line = [source.headword, ...(source.alt_headwords ?? [])];
 	const parsed = parseHeadwordLine(line);
+	// A reviewed `reform` may set a numeral beside the line rather than
+	// in it (ruling 10-06 implied I; `SourceEntry.homographs`). The
+	// display that shows a non-implied one comes with the same patch.
+	problems.push(
+		...applyHomographs(source.rid, parsed.headwords, source.homographs ?? []),
+	);
 	// A `reform` patch's `display` WINS, and only ever adds. §3 leaves
 	// the template unset where the source cannot settle it, and a
 	// person reading the print is the only thing that can — so a

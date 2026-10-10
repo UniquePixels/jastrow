@@ -240,3 +240,27 @@ describe('classifyDrift on a reform', () => {
 		expect(classifyDrift(extended, lifting)).toBe('upstream-changed');
 	});
 });
+
+describe('classifyDrift on a reform that sets homographs', () => {
+	it('is never upstream-fixed for a reform that sets homographs', () => {
+		// Upstream cannot write our `homographs`, so a block that already
+		// reads as the forms is only half of what the patch leaves;
+		// skipping it would drop the numeral without a word.
+		const numbering = patch({
+			expected_before: 'a\nb',
+			op: 'reform',
+			payload: { forms: ['ab'], homographs: [{ form: 0, homograph: 1 }] },
+			target: `forms:${contentAnchor('a\nb')}`,
+		} as Partial<SemanticPatch>);
+		expect(
+			classifyDrift(
+				{
+					content: { senses: [{ definition: 'x' }] },
+					headword: 'ab',
+					rid: 'D00436',
+				},
+				numbering,
+			),
+		).toBe('upstream-changed');
+	});
+});

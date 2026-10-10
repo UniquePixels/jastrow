@@ -29,7 +29,7 @@
  * manifest gating) is `apply.ts`, which composes these functions.
  */
 import { createHash } from 'node:crypto';
-import type { SourceEntry, SourceSense } from '../types.ts';
+import type { SourceEntry, SourceHomograph, SourceSense } from '../types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex — no state (`g`/`y`)
 // flags, so sharing across calls is safe.
@@ -138,11 +138,23 @@ type UnrefPayload = Record<string, never>;
  * down, in one record, and the text cannot go missing between two
  * patches. It is refused on an entry that already has a sense: the
  * field ADDS the first sense, it never addresses or overwrites one —
- * an edit to existing sense text is a sense op's job. */
+ * an edit to existing sense text is a sense op's job.
+ *
+ * **`homographs` sets a numeral on a form without touching its
+ * text.** Ruling 10-06 implied I says an implied I is set "only by
+ * reviewed patch", and print has no glyph for it, so it cannot ride
+ * in a form's text the way a printed ` II` does. A numeral print sets
+ * and Sefaria dropped (worklist pile B) goes the same way, for a
+ * second reason: `headword` is the string internal links resolve by,
+ * and writing ` I` into it would dangle every link that names
+ * Sefaria's spelling. Each item names a form by its index in the
+ * parsed line. A displayed numeral needs a `display` that sets it; an
+ * implied one must not have one (rule 3). */
 interface ReformPayload {
 	display?: string;
 	forms: string[];
 	gloss?: string;
+	homographs?: SourceHomograph[];
 }
 
 /** Set (or add) the target sense's `number` field. The new token must
@@ -518,6 +530,71 @@ function reformPayloadReasons(p: Record<string, unknown>): string[] {
 	if (p['gloss'] !== undefined && !nonEmptyString(p['gloss'])) {
 		reasons.push('reform gloss must be a non-empty string when present');
 	}
+	reasons.push(
+		...reformHomographReasons(
+			p['homographs'],
+			Array.isArray(forms) ? forms.length : 0,
+		),
+	);
+	return reasons;
+}
+
+/** The `homographs` half of a reform payload, or no reasons when it is
+ * absent. Each item names one form, once, by an index inside the
+ * payload's `forms` (`homographItemReasons`). Whether the indexed form
+ * is free of a printed numeral is a question about the parsed line, so
+ * `finishEntry` asks it. */
+function reformHomographReasons(homographs: unknown, forms: number): string[] {
+	if (homographs === undefined) {
+		return [];
+	}
+	if (!Array.isArray(homographs) || homographs.length === 0) {
+		return ['reform homographs must be a non-empty array when present'];
+	}
+	const reasons: string[] = [];
+	const seen = new Set<unknown>();
+	for (const item of homographs as (Record<string, unknown> | null)[]) {
+		const form = item?.['form'];
+		if (seen.has(form)) {
+			reasons.push(`reform homographs: form ${String(form)} twice`);
+		}
+		seen.add(form);
+		reasons.push(...homographItemReasons(item ?? {}, forms));
+	}
+	return reasons;
+}
+
+/** One `homographs` item: a form index inside the payload's `forms`,
+ * a positive integer numeral, and `implied` only ever `true` and only
+ * beside 1 — what ruling 10-06 implied I lets a patch supply is an
+ * unprinted FIRST homograph. */
+function homographItemReasons(
+	item: Record<string, unknown>,
+	forms: number,
+): string[] {
+	const { form, homograph, implied } = item;
+	const reasons: string[] = [];
+	if (
+		!(
+			Number.isInteger(form) &&
+			(form as number) >= 0 &&
+			(form as number) < forms
+		)
+	) {
+		reasons.push(
+			`reform homographs: form ${String(form)} is not one of the ${forms} form(s)`,
+		);
+	}
+	if (!Number.isInteger(homograph) || (homograph as number) < 1) {
+		reasons.push('reform homographs: homograph must be a positive integer');
+	}
+	if (implied !== undefined && implied !== true) {
+		reasons.push('reform homographs: implied is only ever true');
+	} else if (implied === true && homograph !== 1) {
+		reasons.push(
+			'reform homographs: an implied numeral is I (ruling 10-06 implied I)',
+		);
+	}
 	return reasons;
 }
 
@@ -777,11 +854,11 @@ function readLegacyReform(raw: Record<string, unknown>): void {
 	if (!nonEmptyString(p['headword']) || !Array.isArray(p['alt_headwords'])) {
 		return;
 	}
-	// The legacy spelling predates `display` and `gloss`, and the
+	// The legacy spelling predates `display`, `gloss` and `homographs`, and the
 	// rebuild below keeps only the forms. A record mixing the two would
 	// lose them without a word — for a `gloss`, the cross-reference the
 	// line gave up — so it is left alone and refused by name instead.
-	if ('display' in p || 'gloss' in p) {
+	if ('display' in p || 'gloss' in p || 'homographs' in p) {
 		return;
 	}
 	raw['payload'] = { forms: [p['headword'], ...p['alt_headwords']] };
@@ -965,7 +1042,10 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
  * A single-form payload removes `alt_headwords` rather than writing
  * `[]`, so an entry with no alternates looks the way the rest of the
  * corpus does. A `gloss` becomes the entry's only sense, and only on
- * an entry that has none (see `ReformPayload`). */
+ * an entry that has none (see `ReformPayload`). `display` and
+ * `homographs` are the line's: each is written when the payload
+ * carries it and removed when it does not, so the patch states the
+ * whole line. */
 function applyReform(entry: SourceEntry, patch: ReformPatch): SourceEntry {
 	const before = formsBlock(entry);
 	if (before !== patch.expected_before) {
@@ -1001,6 +1081,12 @@ function applyReform(entry: SourceEntry, patch: ReformPatch): SourceEntry {
 		delete copy.display;
 	} else {
 		copy.display = patch.payload.display;
+	}
+	if (patch.payload.homographs === undefined) {
+		// biome-ignore lint/performance/noDelete: key must vanish
+		delete copy.homographs;
+	} else {
+		copy.homographs = patch.payload.homographs.map((h) => ({ ...h }));
 	}
 	return copy;
 }

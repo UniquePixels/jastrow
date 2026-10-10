@@ -4,7 +4,9 @@
 	"sefariaHeadword": "דִּי",
 	"headwords": [
 		{
-			"text": "דִּי"
+			"text": "דִּי",
+			"homograph": 1,
+			"implied": true
 		}
 	],
 	"display": "{0}",

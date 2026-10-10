@@ -4,13 +4,14 @@
 	"sefariaHeadword": "שָׁלֵם",
 	"headwords": [
 		{
-			"text": "שָׁלֵם"
+			"text": "שָׁלֵם",
+			"homograph": 1
 		},
 		{
 			"text": "שָׁלַם"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1585,
 		"column": "b"

@@ -28,6 +28,16 @@ interface SourceSense {
 	senses?: SourceSense[];
 }
 
+/** One homograph numeral a reviewed `reform` patch sets on a form of
+ * the headword line (`SourceEntry.homographs`). `form` indexes the
+ * parsed `headwords[]`; `implied` marks an I print does not set (ruling
+ * 10-06 implied I), so it is only ever `true` and only beside 1. */
+interface SourceHomograph {
+	form: number;
+	homograph: number;
+	implied?: true;
+}
+
 /** One dictionary entry as the pipeline reads it — the upstream record
  * plus the small number of fields a patch may supply. `rid` is the
  * identity every report, patch and gate addresses the entry by; it is
@@ -46,6 +56,16 @@ interface SourceEntry {
 	 * it over the parser's, and gate 2 knows to expect one. */
 	display?: string;
 	headword: string;
+	/** **NOT a Sefaria field.** Homograph numerals a `reform` patch
+	 * supplied, each on one form of the line by its index in the parsed
+	 * `headwords[]`: an implied I (ruling 10-06 implied I), or a numeral
+	 * print sets that Sefaria dropped. They ride beside the line rather
+	 * than inside its text because `headword` is also the namespace
+	 * internal links resolve by: appending ` I` to it would dangle every
+	 * link that names Sefaria's spelling. `finishEntry` sets each on the
+	 * parsed form, and gate 2 counts a non-implied one as notation the
+	 * line carries. */
+	homographs?: SourceHomograph[];
 	language_code?: string;
 	language_reference?: string;
 	next_hw?: string;
@@ -97,5 +117,6 @@ export type {
 	BodyStem,
 	SourceEntry,
 	SourceGrammar,
+	SourceHomograph,
 	SourceSense,
 };

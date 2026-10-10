@@ -12,10 +12,14 @@
  * is sometimes preceded by the comma that once separated it.
  *
  * DETECT ONLY, and the row says why: moving the numeral into the
- * headword rewrites a namespace 37 live anchors name, against the 3
- * that mis-resolve today, and the anchor side
+ * headword TEXT rewrites a namespace 37 live anchors name, against the
+ * 3 that mis-resolve today, and the anchor side
  * (`homograph-numbering-schism`) is itself judgment — so the entry
- * side cannot be repaired alone without making the corpus worse.
+ * side cannot be repaired that way without making the corpus worse.
+ * Since 2026-10-09 a reviewed `reform` can set the numeral BESIDE the
+ * line (`homographs`, decisions.md row 10-09 reform homographs), which
+ * leaves the namespace alone; a print read still decides each row, and
+ * eight were repaired so from the 2026-10-06 reads.
  */
 
 import type { Entry } from '../../../entry/types.ts';
@@ -31,7 +35,7 @@ const HOMOGRAPH_ROMAN_STRANDED = 'homograph-roman-stranded-in-definition';
 
 /** What the review report tells a reader to do about these rows. */
 const HOMOGRAPH_ROMAN_STRANDED_ACTION =
-	'Leave it until the anchor side is settled: moving the numeral into the headword alone would dangle 37 live anchors against the 3 that mis-resolve today.';
+	'Read the print. If it sets the numeral beside the headword, a reviewed `reform` sets it with `homographs` (the headword text, which 37 live anchors name, is left alone) and a companion patch takes it out of the definition. Never write the numeral into the headword text.';
 
 /** A leading Roman numeral, optionally after a comma, refused before
  * a lower-case letter or an apostrophe. The lookahead also refuses any

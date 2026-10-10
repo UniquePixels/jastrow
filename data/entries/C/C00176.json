@@ -4,7 +4,9 @@
 	"sefariaHeadword": "גְּדוּדִית",
 	"headwords": [
 		{
-			"text": "גְּדוּדִית"
+			"text": "גְּדוּדִית",
+			"homograph": 1,
+			"implied": true
 		}
 	],
 	"display": "{0}",

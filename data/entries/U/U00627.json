@@ -4,13 +4,14 @@
 	"sefariaHeadword": "שָׁחוֹר",
 	"headwords": [
 		{
-			"text": "שָׁחוֹר"
+			"text": "שָׁחוֹר",
+			"homograph": 1
 		},
 		{
 			"text": "שְׁחוֹרָה"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1546,
 		"column": "a"

@@ -4,7 +4,9 @@
 	"sefariaHeadword": "פְּלוּגְתָּא",
 	"headwords": [
 		{
-			"text": "פְּלוּגְתָּא"
+			"text": "פְּלוּגְתָּא",
+			"homograph": 1,
+			"implied": true
 		},
 		{
 			"text": "פְּלֻגְ׳",

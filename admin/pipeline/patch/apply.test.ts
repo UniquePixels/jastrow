@@ -408,6 +408,19 @@ describe('postApplyAssertions', () => {
 		).not.toThrow();
 	});
 
+	it('accepts a reform that only set a homograph on a form', () => {
+		// Ruling 10-06 implied I: the forms are right and stay as they
+		// are; the numeral rides beside them.
+		const before = makeEntry();
+		const after = {
+			...before,
+			homographs: [{ form: 0, homograph: 1, implied: true as const }],
+		};
+		expect(() =>
+			postApplyAssertions(before, after, displayOnlyReform()),
+		).not.toThrow();
+	});
+
 	it('still rejects a reform that changed nothing at all', () => {
 		const before = makeEntry();
 		expect(() =>

@@ -4,17 +4,18 @@
 	"sefariaHeadword": "תָּפַח",
 	"headwords": [
 		{
-			"text": "תָּפַח"
+			"text": "תָּפַח",
+			"homograph": 2
 		}
 	],
-	"display": "{0}",
+	"display": "{0} II",
 	"page": {
 		"number": 1685,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": " II = <cite ref=\"I00636\"><he>טָפַח</he> I</cite>.",
+			"gloss": " = <cite ref=\"I00636\"><he>טָפַח</he> I</cite>.",
 			"units": []
 		}
 	],

@@ -4,7 +4,9 @@
 	"sefariaHeadword": "חוּצָה",
 	"headwords": [
 		{
-			"text": "חוּצָה"
+			"text": "חוּצָה",
+			"homograph": 1,
+			"implied": true
 		}
 	],
 	"display": "{0}",

@@ -4,14 +4,15 @@
 	"sefariaHeadword": "שְׁיָירָא",
 	"headwords": [
 		{
-			"text": "שְׁיָירָא"
+			"text": "שְׁיָירָא",
+			"homograph": 2
 		},
 		{
 			"text": "שְׁיָירָה",
 			"homograph": 1
 		}
 	],
-	"display": "{0}, {1} I",
+	"display": "{0} II, {1} I",
 	"page": {
 		"number": 1562,
 		"column": "a"

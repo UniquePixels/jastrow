@@ -4,7 +4,8 @@
 	"sefariaHeadword": "שַׁחְפָּא",
 	"headwords": [
 		{
-			"text": "שַׁחְפָּא"
+			"text": "שַׁחְפָּא",
+			"homograph": 1
 		},
 		{
 			"text": "שַׁחְפָא"
@@ -14,7 +15,7 @@
 			"partial": true
 		}
 	],
-	"display": "{0}, {1}, {2}",
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 1549,
 		"column": "b"
