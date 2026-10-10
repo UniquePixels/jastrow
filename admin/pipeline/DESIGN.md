@@ -282,7 +282,10 @@ direction:
   never the dash.
 - **Lettered items.** `a) … b) … c)` split into child senses, but only
   a complete ascending run outside parens and anchors splits.
-  Everything else stays whole (`body/lettered.ts`).
+  Everything else stays whole (`body/lettered.ts`). A marker inside an
+  open `(`, at any depth, does not count (P00790's `(v. Kal, c)`), and
+  a text with a `)` that closes nothing does not split at all, since
+  its paren depths cannot be trusted.
 - **Form sections.** `Pl.`, `Part. pass.`, `Fem.`, `Denom.` split out
   of their host sense into a sibling with restarted child senses,
   after the lettered split (`body/form-sections.ts`).
@@ -300,7 +303,9 @@ stem's children carry no `grammar` and no nested `senses`
 `body/trace.ts`. Each child still goes through the same text split as
 any sense, so a stem sense can gain children: in the committed tree 38
 stem senses in 36 entries do, 36 of them a lettered run (P00790
-`stems[1].senses[1]`, `a)`–`h)`) and 2 a form-section sibling. The
+`stems[1].senses[1]`, `a)`–`d)`: print has no `e)`, so `f)`–`h)`
+are not a complete run and stay in `d`) and 2 a form-section
+sibling. The
 schema allows it: a stem's `senses` are the same recursive `sense`
 shape as the entry's.
 
