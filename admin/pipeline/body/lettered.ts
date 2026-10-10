@@ -2,6 +2,9 @@
  * Lettered-item splitter (design doc §3). Splits ONLY complete
  * ascending a)…b)…c)… runs whose markers sit outside parens and
  * anchors; everything else returns null and the text stays whole.
+ * "Outside parens" is `parenFiltered`'s rule: a marker inside an
+ * open `(`, at any nesting depth, does not count, and a text whose
+ * paren state is unclear (a `)` with no `(` open) does not split.
  *
  * That is the deliberate under-split failure mode (decision B5/B9):
  * an unsplit block is still readable, a wrongly split one is not.
@@ -86,11 +89,10 @@ interface Mark {
 	marker: string;
 }
 
-/** Every candidate marker in document order, minus anchor-interior
- * hits. Does not yet enforce ascending order — that's the caller's
- * job, since a single stray marker breaking the run should stop the
- * sequence there rather than reject the whole text. */
-function findMarks(text: string): Mark[] {
+/** Every `MARKER` match in document order, before any filtering —
+ * `parenFiltered` needs all of them, anchor-interior ones included,
+ * because each one's `)` takes part in the paren count. */
+function candidateMarks(text: string): Mark[] {
 	const marks: Mark[] = [];
 	for (const m of text.matchAll(MARKER)) {
 		const letter =
@@ -98,11 +100,133 @@ function findMarks(text: string): Mark[] {
 			m.groups?.['open'] ??
 			m.groups?.['close'] ??
 			m.groups?.['plain'];
-		if (letter !== undefined && !insideAnchor(text, m.index)) {
+		if (letter !== undefined) {
 			marks.push({ index: m.index, letter, marker: m[0] });
 		}
 	}
 	return marks;
+}
+
+// A markup tag, skipped by the paren count: an attribute value (an
+// href, a data-ref) is not text, and a paren in it is not a paren.
+const TAG = /<[^>]*>/gu;
+
+// A numbered marker's `)` — an inline sense number (`—2)`) the source
+// left in the text, or a verse number closing a citation paren (`(Is.
+// XL, 1)`). The paren count reads it exactly like a lettered
+// candidate's `)`: its own outside a paren, the paren's close inside
+// one. Without it every inline `—2)` read as a `)` with nothing open,
+// and 11 entries' lettered runs went unsplit as unclear (L53,
+// measured over the import's inputs).
+const NUMBERED = /(?<![(\p{L}\d])\d+\)/gu;
+
+/** The offset of every `(` and `)` in `text`'s own characters, in
+ * order — tags masked out (see `TAG`), anchor visible text kept, since
+ * a paren a reader sees in a link is still a paren. */
+function parenOffsets(text: string): number[] {
+	const masked = text.replace(TAG, (tag) => ' '.repeat(tag.length));
+	// UTF-16 offsets, the unit `matchAll`'s `index` counts in.
+	const offsets: number[] = [];
+	for (let index = 0; index < masked.length; index++) {
+		const char = masked[index];
+		if (char === '(' || char === ')') {
+			offsets.push(index);
+		}
+	}
+	return offsets;
+}
+
+/** Every `NUMBERED` match, shaped as a letterless `Mark` so the paren
+ * count reads its `)` exactly as it reads a lettered candidate's. */
+function numberedMarks(text: string): Mark[] {
+	return [...text.matchAll(NUMBERED)].map((m) => ({
+		index: m.index,
+		letter: '',
+		marker: m[0],
+	}));
+}
+
+/** The candidates and the paren offsets merged in text order: a
+ * candidate sorts at its start, so it is placed before its own `)`. A
+ * candidate never starts on a paren (it starts on a letter, a digit or
+ * `<`), so no two events share a position. */
+function parenEvents(
+	text: string,
+	candidates: readonly Mark[],
+): (Mark | number)[] {
+	const at = (event: Mark | number): number =>
+		typeof event === 'number' ? event : event.index;
+	return [...candidates, ...parenOffsets(text)].toSorted(
+		(a, b) => at(a) - at(b),
+	);
+}
+
+/** `marks` minus every candidate inside an open paren, or null when
+ * the paren state is unclear (L53, P00790's `b) (v. Kal, c) to
+ * neutralize`, where the cross-reference's own `c)` was taken as a
+ * marker).
+ *
+ * Every candidate ends in a `)` that is either its own (a lettered
+ * marker outside parens) or the close of the paren it sits in (`(v.
+ * Kal, c)` — print sets one `)` for both). The count reads it by the
+ * candidate's depth: inside a paren it closes it, outside it is the
+ * marker's and leaves the depth alone. Numbered markers (`NUMBERED`)
+ * take part on the same terms, though they never split. Nesting
+ * counts: a candidate at any depth above zero is inside. A `(` never
+ * closed puts every later candidate inside, so the run ends before it.
+ *
+ * Unclear is a `)` that is no candidate's and has no `(` open. It
+ * means some earlier paren was misread — a lost `(`, or a candidate
+ * whose `)` was not the paren's close (`(see a) above)`) — and then
+ * any earlier depth may be wrong, so the whole text stays unsplit:
+ * the under-split failure direction (B9), never a guessed boundary. */
+function parenFiltered(text: string, marks: readonly Mark[]): Mark[] | null {
+	const candidates = [...marks, ...numberedMarks(text)];
+	const closers = new Map(
+		candidates.map((mark) => [mark.index + mark.marker.length - 1, mark]),
+	);
+	const inside = new Set<Mark>();
+	let depth = 0;
+	for (const event of parenEvents(text, candidates)) {
+		if (typeof event === 'number') {
+			depth += depthStep(text[event], closers.get(event), inside);
+			if (depth < 0) {
+				return null;
+			}
+		} else if (depth > 0) {
+			inside.add(event);
+		}
+	}
+	return marks.filter((mark) => !inside.has(mark));
+}
+
+/** What one paren does to the depth: `(` opens (+1); a `)` closes
+ * (-1) unless it is the own `)` of a candidate found outside every
+ * paren (0) — see `parenFiltered`. `own` is the candidate whose `)`
+ * this is, if any. */
+function depthStep(
+	char: string | undefined,
+	own: Mark | undefined,
+	inside: ReadonlySet<Mark>,
+): number {
+	if (char === '(') {
+		return 1;
+	}
+	return own === undefined || inside.has(own) ? -1 : 0;
+}
+
+/** Every counted marker in document order: the candidates outside
+ * parens (`parenFiltered`) and anchors (`insideAnchor`), or null when
+ * the paren state is unclear. Does not yet enforce ascending order —
+ * that's the caller's job, since a single stray marker breaking the
+ * run should stop the sequence there rather than reject the whole
+ * text. */
+function findMarks(text: string): Mark[] | null {
+	const outside = parenFiltered(text, candidateMarks(text));
+	if (outside === null) {
+		return null;
+	}
+	return outside.filter((mark) => !insideAnchor(text, mark.index));
 }
 
 /** The subsequence of `marks` that forms a clean a), b), c)… sequence
@@ -123,7 +247,8 @@ function ascendingRun(marks: Mark[]): Mark[] {
 
 /** Split provable `a)…b)…c)…` runs into a head plus lettered items.
  * Returns null when fewer than two markers form an ascending run from
- * 'a' — the under-split failure mode (B9): callers must leave the text
+ * 'a', or when the text's paren state is unclear (`parenFiltered`) —
+ * the under-split failure mode (B9): callers must leave the text
  * whole rather than guess. `joinLettered(splitLettered(text))` always
  * reconstructs `text` byte-for-byte when the result isn't null.
  *
@@ -137,7 +262,11 @@ function ascendingRun(marks: Mark[]): Mark[] {
  * these additions back off, keyed by each item's recorded raw marker —
  * so parts must keep marker/text/head together as split produced them. */
 function splitLettered(text: string): LetteredParts | null {
-	const run = ascendingRun(findMarks(text));
+	const marks = findMarks(text);
+	if (marks === null) {
+		return null;
+	}
+	const run = ascendingRun(marks);
 	const [first] = run;
 	if (run.length < 2 || first === undefined) {
 		return null;
