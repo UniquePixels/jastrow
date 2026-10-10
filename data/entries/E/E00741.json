@@ -61,16 +61,23 @@
 			"forms": ["הַפֵּיךְ"],
 			"senses": [
 				{
-					"gloss": " l) (= h. <cite ref=\"U00311\"><he>הֵשִׁיב</he></cite>) <i>to turn; to bring back, restore; to turn off</i> (wrath), <i>to appease; to give in return, reply</i>. ",
+					"gloss": " (= h. <cite ref=\"U00311\"><he>הֵשִׁיב</he></cite>) <i>to turn; to bring back, restore; to turn off</i> (wrath), <i>to appease; to give in return, reply</i>. ",
 					"units": [
 						"<cite ref=\"Aramaic Targum to Proverbs 25:13\">Targ. Prov. XXV, 13</cite>.—",
 						"<cite ref=\"Aramaic Targum to Proverbs 29:8\">Ib. XXIX, 8</cite>.—",
 						"<cite ref=\"Aramaic Targum to Proverbs 24:29\">Ib. XXIV, 29</cite> Ms. (ed. <cite ref=\"E00741\"><he>אַהֲפֵיךְ</he></cite> <i>Af.</i>).—",
-						"<cite ref=\"Aramaic Targum to Proverbs 24:26\">Ib. 26</cite>.—2) <i>to handle, be engaged in, barter, study</i> (v. Pe. 4). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 24:26\">Ib. 26</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <i>to handle, be engaged in, barter, study</i> (v. Pe. 4). ",
+					"units": [
 						"<cite ref=\"Kiddushin 59a:6\">Kidd. 59ᵃ</cite> <he>דוה מְהַפֵּיךְ בההיא וכ׳</he> was negotiating about a field. ",
 						"<cite ref=\"Shabbat 119a:1\">Sabb. 119ᵃ</cite> <he>כמה דלא מְהַפִּיכְנָא בזכותיה</he> before I study what might be said in his favor. ",
 						"<cite ref=\"Pesachim 40a:18\">Pes. 40ᵃ</cite> <he>דמְהַפְּכֵי כיפי</he> who handle sheaves; <he>כי מְהַפְּכִיתוּ הַפִּיכוּ וכ׳</he> (Ms. M. <he>הפכיתו</he>) when ye handle (them), handle them with the thought that they will be used for a religious purpose.—<i>Part. pass.</i> <he>מְהַפַּךְ</he>. Y. Maasr. III, end, 51ᵃ <he>היא הפכה והיא מְהַפְּכָה</he> it turns and is turned in all directions (studied over and again), but we can learn nothing from it."
-					]
+					],
+					"label": "2"
 				}
 			],
 			"stem": "Pa."

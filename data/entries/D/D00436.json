@@ -17,10 +17,20 @@
 	},
 	"senses": [
 		{
-			"gloss": "m. (<cite ref=\"D00435\">preced.</cite>) l) <i>emergency</i>. ",
+			"gloss": "m. (<cite ref=\"D00435\">preced.</cite>) ",
+			"units": []
+		},
+		{
+			"gloss": " <i>emergency</i>. ",
 			"units": [
-				"<cite ref=\"Niddah 9b\">Nidd. 9ᵇ</cite>, a. fr. <he>בשעת הד׳</he> in a case of emergency.—2) <i>pressure, need</i>, v. <cite ref=\"D00230\"><he>דּוֹחַק</he></cite>."
-			]
+				"<cite ref=\"Niddah 9b\">Nidd. 9ᵇ</cite>, a. fr. <he>בשעת הד׳</he> in a case of emergency."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>pressure, need</i>, v. <cite ref=\"D00230\"><he>דּוֹחַק</he></cite>.",
+			"units": [],
+			"label": "2"
 		}
 	]
 }

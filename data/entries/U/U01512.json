@@ -45,10 +45,11 @@
 					"label": "1"
 				},
 				{
-					"gloss": "<cite ref=\"U01516\"><he>שַׁמְּעָא</he></cite>) <i>to minister to, be an attendant of</i>. ",
+					"gloss": "(v. <cite ref=\"U01516\"><he>שַׁמְּעָא</he></cite>) <i>to minister to, be an attendant of</i>. ",
 					"units": [
 						"<cite ref=\"Berakhot 41b:5\">Ber. 41ᵇ</cite> <he>מאן … ונְשַׁמְּעִינָךְ</he> would that we had iron feet, that we could always wait on thee! <cite ref=\"Megillah 28b:16\">Meg. 28ᵇ</cite> <he>ניחא לי דאֲשַׁמְּעֵיה למר</he> (Ms. M. <he>דאשתמש ליה למר</he>, v. Rabb. D. S. a. l.) it gives me pleasure to be your servant; a. e."
-					]
+					],
+					"label": "2"
 				}
 			],
 			"stem": "Pa."

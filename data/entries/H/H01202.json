@@ -37,10 +37,16 @@
 			"forms": ["אַחֵים"],
 			"senses": [
 				{
-					"gloss": "<i>to heat, excite</i>, v. <cite ref=\"H00369\"><he>חוּם</he></cite>.—2) <cite ref=\"A01039\"><he>אַחְמַם</he></cite> <i>to become hot; to have pollution</i>. ",
+					"gloss": "<i>to heat, excite</i>, v. <cite ref=\"H00369\"><he>חוּם</he></cite>.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " <cite ref=\"A01039\"><he>אַחְמַם</he></cite> <i>to become hot; to have pollution</i>. ",
 					"units": [
 						"<cite ref=\"Niddah 43a:22\">Nidd. 43ᵃ</cite> <he>כל אחְמוּמֵי והדר א׳ וכ׳</he> getting heated once and again immediately after."
-					]
+					],
+					"label": "2"
 				}
 			],
 			"stem": "Af."

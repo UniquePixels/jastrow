@@ -442,7 +442,7 @@ _none_
 - A03043: senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - A03399: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
 - B00478: senses[0].gloss: <he> holds 1 "(" against 0 ")"
-- B00771: senses[1].units[3]: <he> holds 1 "(" against 0 ")"
+- B00771: senses[2].units[0]: <he> holds 1 "(" against 0 ")"
 - B00772: senses[2].units[0]: <he> holds 1 "(" against 0 ")"
 - B00886: senses[0].units[1]: <he> holds 1 "(" against 0 ")"
 - B01153: senses[3].units[7]: <he> holds 1 "(" against 0 ")"

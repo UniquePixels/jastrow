@@ -23,7 +23,9 @@ Skip anything you like.
 **Ticked 2026-10-10.** Classes 1, 2 and 4 are discarded with their
 controls and class 9 has a review detector (PR #159). Class 3 has an
 answer under its note and a fresh question. Classes 5–8 and the
-implied-`1)` rows are reviewed patch sets (the next PR).
+implied-`1)` rows are reviewed patch sets: PR #160, 142 patches on 75
+entries, with ledger L52's body-review 08 rows folded in. Three
+entries the rules do not decide are round 2, near the end.
 
 How I chose each recommendation, so the rows read the same way:
 
@@ -750,6 +752,85 @@ other five then go the OCR and dropped-number ways above.
   - [ ] none
   - [ ] can't decide yet
   - note: As per your recomendation
+
+---
+
+## Round 2: needs another look (2026-10-10)
+
+Three entries from the patch sets where the ticked rule does not
+decide the edit. Each block is one question, with what the entry
+holds now and where the scan is. Tick ONE box, add a note only where a
+box asks for one, and skip anything you like. Everything else the
+rulings decided is applied (`admin/pipeline/patch/records/tranches/group-d-2026-10-10/README.md`).
+
+### J00199 (`יָוָן`), class 5: the lost opener
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `1` | `pr. n. m. Javan, son of Japheth, progenitor of the Grecian tribes, in gen. Greek, Greece;` | `7, Pile )₪- bh.) 1) pr. .מז .מ Javan, son of Japheth,` / `ו af thes וו tribes, Yn gen. Cred Graces;` | [569b · leaf 592](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$593/full/1400,/0/default.jpg) |
+| (no label) | `מלכות) Greek (Syrian) Government. Targ. Gen. X, 2; a. e.—…` | the next line is `Gen. X, 2; a. e.—Targ. ¥. Gen. XV, 12.—…` | same |
+
+The paragraph is print's sense 2, and it opens on a stray `)`: the
+marker and the opening of its parenthetical were lost together, as in
+G00652 and U01512, whose patches restore `(cmp. ` and `(v. `. Here
+Tesseract garbled the right-hand half of the line, so the hOCR does not
+show what print sets before `מלכות`.
+
+**Question.** What does print set between `Greece;` and `מלכות)`?
+
+- **J00199**
+  - [ ] `—2)` and a lost opener: number it and restore the opener (write print's text from `Greece;` to `מלכות)` in the note)
+  - [ ] `—2)` only: print has no opener there (say what the `)` closes in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+### D01114 (`דְּרַס`), class 8: the residue and a lost `2)`
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `2`, its end | `… Nidd. 32ᵇ הא קא דָּרֵיס לכולהו Ar. (ed. הא דרס להו).—3) as preced. ` | `pressed.—2) to press, use as a rest (v. on). Nidd. 32°` / `as preced. 2), (8--. (הא דרס להו Ar. (ed. חא NP דָּרִיס לכולהו` | [324b · leaf 347](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$348/full/1400,/0/default.jpg) |
+| (no label) | `Ḥull. 9ᵃ זמנין דשהי ודָרֵיס וכ׳ he may sometimes pause or press unawares.—4) as preced. 3). …` | `press unawares.—4) as pistons 3). Part. act. …` | same |
+
+The residue `as preced.` is sense 3's real opening (print: `—3) as
+preced. 2)`, "as the preceding word, sense 2"), so the rule moves it
+with the marker onto the unnumbered sense. But Sefaria cut the sense
+at that `2)`, and the `2)` is in no source byte. Moving only what is
+there would give `3) as preced. Ḥull. 9ᵃ …`, which drops the
+cross-reference's sense number. The `(8--.` in the hOCR is Tesseract's
+mirrored `—3)`, and the punctuation after `2)` is unclear (`2),` or
+`2).`).
+
+**Question.** How should D01114's sense 3 read?
+
+- **D01114**
+  - [ ] `3) as preced. 2). Ḥull. 9ᵃ …`: move it and restore `2). ` from print
+  - [ ] `3) as preced. 2), Ḥull. 9ᵃ …`: move it and restore `2), ` from print
+  - [ ] something else (write print's text in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+
+### B00753 (`בַּיִת`), class 8's sibling: `—1`, and lost words
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `10`, its end | `shed for plants, covering. Shebi. II, 4 (pl.). Y. ib. 33ᵈ.—Y. Sabb. VII, 10ᵃ.—1` | `—10) shed for plants, covering. Shebi.II, 4(pl.). Y.ib.334,` / `—Y. Sabb. VII, 10".--11( in compounds, denoting recept-` | [168a · leaf 191](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$192/full/1400,/0/default.jpg) |
+| (no label) | `receptacle, cover &c., e.g. ב׳ הדיו inkstand. …` | `acle, cover &c., e.g. "I ב' inkstand. Tosef. Kel. B. Mets.` | same |
+
+The worklist read this as `—11)` losing its second digit. The hOCR
+shows more: print reads `—11) in compounds, denoting receptacle,
+cover &c.`, so `1) in compounds, denoting ` is in no source byte. A
+`retag` alone would number the sense `11` and leave it opening
+`receptacle`, without the words that say these are compounds.
+
+**Question.** How should B00753's sense 11 be repaired?
+
+- **B00753**
+  - [ ] drop `—1` from sense 10, number the next sense `—11)`, and restore `in compounds, denoting ` from print
+  - [ ] drop `—1` and number it `—11)` only (the lost words stay a known gap)
+  - [ ] can't tell from the scan
+  - note: 
 
 ---
 
