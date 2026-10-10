@@ -204,7 +204,7 @@ describe('fixture sweep (fixtures/lettered.jsonl)', () => {
 		// 2, [a,b,c,d] — 10 definitions split in total. Q01198 def#1 no
 		// longer splits: its `(b. h.;` never closes, so its run reads as
 		// inside that paren (L53).
-		expect(entries.length).toBe(10);
+		expect(entries).toHaveLength(10);
 		expect(splitCount).toBe(10);
 	});
 
