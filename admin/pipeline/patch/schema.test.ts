@@ -632,6 +632,52 @@ describe('reform', () => {
 		);
 	});
 
+	it('carries homographs onto the entry, and removes them when omitted', () => {
+		// Ruling 10-06 implied I: an implied I is set by reviewed patch,
+		// and a numeral Sefaria dropped is set the same way, so the
+		// headword STRING (the link namespace) keeps Sefaria's spelling.
+		const numbered = applyPatch(
+			entry,
+			reform({
+				forms: ['a', 'b', 'c'],
+				homographs: [
+					{ form: 0, homograph: 1, implied: true },
+					{ form: 2, homograph: 3 },
+				],
+			}),
+		);
+		expect(numbered.homographs).toEqual([
+			{ form: 0, homograph: 1, implied: true },
+			{ form: 2, homograph: 3 },
+		]);
+		expect(numbered.headword).toBe('a');
+		expect('homographs' in applyPatch(numbered, reform({ forms: ['a'] }))).toBe(
+			false,
+		);
+	});
+
+	it.each([
+		[[{ form: 3, homograph: 1 }], 'form 3 is not one of the 3 form(s)'],
+		[[{ form: -1, homograph: 1 }], 'form -1 is not one of the 3 form(s)'],
+		[[{ form: 0, homograph: 0 }], 'homograph must be a positive integer'],
+		[[{ form: 0, homograph: 1.5 }], 'homograph must be a positive integer'],
+		[[{ form: 0, homograph: 2, implied: true }], 'an implied numeral is I'],
+		[[{ form: 0, homograph: 1, implied: false }], 'implied is only ever true'],
+		[
+			[
+				{ form: 0, homograph: 1 },
+				{ form: 0, homograph: 2 },
+			],
+			'form 0 twice',
+		],
+		[[], 'non-empty array'],
+		['x', 'non-empty array'],
+	])('refuses homographs %j', (homographs, reason) => {
+		expect(() => reform({ forms: ['a', 'b', 'c'], homographs })).toThrow(
+			reason,
+		);
+	});
+
 	it('refuses a reform that claims more than one headword block', () => {
 		// An entry has exactly one block; a count of 2 would parse, pass
 		// expected_before, and rewrite a copy no caller checks.
@@ -686,10 +732,14 @@ describe('reform', () => {
 		);
 	});
 
-	it('refuses a legacy payload carrying a gloss or display', () => {
-		// The rebuild keeps only the forms, so either field would be
+	it('refuses a legacy payload carrying a gloss, display or homographs', () => {
+		// The rebuild keeps only the forms, so any of them would be
 		// dropped without a word — a gloss is the cross-reference itself.
-		for (const extra of [{ gloss: ' = y' }, { display: '{0}' }]) {
+		for (const extra of [
+			{ gloss: ' = y' },
+			{ display: '{0}' },
+			{ homographs: [{ form: 0, homograph: 1 }] },
+		]) {
 			expect(() =>
 				reform({ alt_headwords: [], headword: 'a', ...extra }),
 			).toThrow('non-empty array');

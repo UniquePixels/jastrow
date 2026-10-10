@@ -3,7 +3,7 @@
  * tally. Gate 1 (body round-trips), 4 (schema) and 9 (composition
  * failures) live with the composer and the CLI. */
 
-import { intToSup } from '../../entry/headwords.ts';
+import { intToRoman, intToSup } from '../../entry/headwords.ts';
 import { tokenize } from '../../entry/html.ts';
 import { nameCollisions } from '../../entry/names.ts';
 import type { PagePlacement } from '../../entry/page.ts';
@@ -141,6 +141,20 @@ function writtenNotation(entry: Entry, display: string): Map<string, number> {
 	return notationOf(display.replace(SLOT, '') + superscripts);
 }
 
+/** The notation the composed line carries: its own, plus each
+ * numeral a reviewed `reform` set BESIDE it (`SourceEntry.homographs`)
+ * that print sets, so a template showing that numeral conserves the
+ * line. An implied numeral (ruling 10-06 implied I) is not notation:
+ * print sets no glyph for it, so a template showing one invents it.
+ * Each numeral joins as its own word, so `II` stays one token. */
+function lineNotation(composed: SourceEntry): Map<string, number> {
+	const supplied = (composed.homographs ?? [])
+		.filter((h) => h.implied !== true)
+		.map((h) => ` ${intToRoman(h.homograph)}`)
+		.join('');
+	return notationOf(`${headwordLine(composed)}${supplied}`);
+}
+
 /** Two notation multisets agree. */
 function sameNotation(
 	a: ReadonlyMap<string, number>,
@@ -247,7 +261,7 @@ function checkHeadwordLine(
 	if (entry.display === undefined) {
 		return;
 	}
-	const source = notationOf(line);
+	const source = lineNotation(composed);
 	const written = writtenNotation(entry, entry.display);
 	if (composed.display !== undefined) {
 		// What could actually go wrong with a supplied template is that

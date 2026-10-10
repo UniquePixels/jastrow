@@ -94,6 +94,38 @@ describe('finishEntry', () => {
 		expect(entry.display).toBeUndefined();
 		expect(entry.headwords).toEqual([{ text: 'אָב' }, { text: 'אבא' }]);
 	});
+	it('sets a patch-supplied homograph on the parsed form', () => {
+		// Ruling 10-06 implied I: the numeral rides beside the line, so
+		// the headword string (the link namespace) stays Sefaria's.
+		const { entry, problems } = finishEntry(
+			{
+				...source,
+				display: '{0}, {1} I',
+				headword: 'אָב',
+				homographs: [
+					{ form: 0, homograph: 1, implied: true },
+					{ form: 1, homograph: 1 },
+				],
+			},
+			body,
+			context,
+		);
+		expect(problems).toEqual([]);
+		expect(entry.headwords).toEqual([
+			{ homograph: 1, implied: true, text: 'אָב' },
+			{ homograph: 1, text: 'אבא' },
+		]);
+		expect(entry.display).toBe('{0}, {1} I');
+	});
+
+	it.each([
+		[[{ form: 0, homograph: 1 }], 'headwords[0], which already carries II'],
+		[[{ form: 2, homograph: 1 }], 'there is no headwords[2]'],
+	])('refuses homographs %j where the line cannot take them', (homographs, reason) => {
+		const { problems } = finishEntry({ ...source, homographs }, body, context);
+		expect(problems.join('; ')).toContain(reason);
+	});
+
 	it('reports a missing page and keeps going', () => {
 		const { entry, problems } = finishEntry(source, body, {
 			...context,

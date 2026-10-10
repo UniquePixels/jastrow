@@ -614,6 +614,33 @@ describe('checkHeadwordLine', () => {
 		expect(t.failures[0]).toContain('the patch supplied');
 	});
 
+	it.each([
+		[false, '{0} I', 0],
+		[true, '{0}', 0],
+		[true, '{0} I', 1],
+		[false, '{0}', 1],
+	])('reads a patch-set numeral (implied %p) against the template %s', (implied, display, failures) => {
+		// Ruling 10-06 implied I: a numeral a reviewed patch sets beside
+		// the line is notation the line carries, unless it is implied,
+		// which print never sets. So a shown I conserves and a hidden
+		// one does not, and the reverse.
+		const t: Tally = { failures: [], pass: 0, total: 0 };
+		checkHeadwordLine(
+			{
+				content: { senses: [] },
+				display,
+				headword: 'אָב',
+				homographs: [
+					{ form: 0, homograph: 1, ...(implied ? { implied: true } : {}) },
+				],
+				rid: 'A00014',
+			},
+			minimalEntry({ display, headwords: [{ homograph: 1, text: 'אָב' }] }),
+			t,
+		);
+		expect(t.failures).toHaveLength(failures);
+	});
+
 	it('counts an `=` line as unsettleable', () => {
 		const t = gate(['אִידְרְעָא = אֶדְרְעָא'], {
 			headwords: [{ text: 'אִידְרְעָא = אֶדְרְעָא' }],

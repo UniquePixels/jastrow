@@ -205,7 +205,9 @@ first homograph of a sequence whose next member it numbers II (10-06
 implied I, which amends U2); `implied` requires `homograph`, and the
 slot shows no numeral. Both reach the name (§7). An implied I is set
 only by reviewed patch, after a print read; the headword report's X10
-shape names the candidates.
+shape names the candidates. The patch sets it with `reform`'s
+`homographs` (§5), beside the line rather than in its text, as it does
+a numeral print sets and Sefaria dropped.
 
 `display` is an optional template whose `{n}` inserts
 `headwords[n].text` and whose every other character is literal
@@ -339,7 +341,9 @@ for presentation is a compile concern. **UNBUILT.**
 Repairing a homograph-numbering gap is **unbuilt by ruling**, not
 merely unwritten: the gaps are not patchable from the data, so they
 are flagged for the print rather than repaired. A detector exists; no
-repair will.
+rule will. A person who has read the print repairs a gap one entry at
+a time with a reviewed `reform` that sets `homographs` (§5; the
+2026-10-06 reads, `records/tranches/headword-print-read-2026-10-06/`).
 
 A `notes` mechanism for intentional deviations from print does not
 exist. **UNBUILT.**
@@ -567,6 +571,19 @@ an optional `display` and an optional `gloss`; a `gloss` adds the
 entry's first sense and is refused when the entry already has one
 (#139, ruling `09-29 reform gloss`). Text relocated into an entry that
 already has a sense still has no op (V00518, #113).
+
+`reform` also takes an optional `homographs`: `{form, homograph,
+implied?}` items that set a numeral on a parsed form of the line
+without touching its text (ruling `10-09 reform homographs`). The
+headword string is the namespace internal links resolve by (gate 6),
+so a numeral written into it would dangle every link that names
+Sefaria's spelling; beside it, the namespace stays put. `finishEntry`
+refuses one on a form that already carries a printed numeral; gate 2
+counts a non-implied one as notation the line carries, so its patch
+supplies a `display` that shows it, and an implied one shows nothing.
+A reform that sets `homographs` is never `upstream-fixed`. A spelling
+correction still rewrites the headword string, so it still dangles the
+links that name the old spelling (review ledger L49).
 
 ---
 

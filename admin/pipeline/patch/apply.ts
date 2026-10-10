@@ -567,11 +567,13 @@ async function loadAcceptedCorpus(): Promise<AcceptedCorpus> {
  * forms stay as the source has them.
  *
  * The `gloss` half (#113) is the same case again: a reform may lift
- * text into the first sense of a line whose forms need no change.
+ * text into the first sense of a line whose forms need no change. So
+ * is `homographs` (ruling 10-06 implied I): an implied I, or a numeral
+ * Sefaria dropped, is set beside forms that are already right.
  *
  * So the question the assertion asks is "did the apply change
- * anything?", and for such a patch the answer is `display` or the
- * senses. A reform that changes none of them still fails, which is the
+ * anything?", and for such a patch the answer is `display`, the
+ * senses or the homographs. A reform that changes none of them still fails, which is the
  * case the assertion was written for. */
 function reformChangedBesideForms(
 	before: SourceEntry,
@@ -584,7 +586,13 @@ function reformChangedBesideForms(
 	const sensesChanged =
 		JSON.stringify(before.content.senses) !==
 		JSON.stringify(after.content.senses);
-	if (before.display === after.display && !sensesChanged) {
+	const homographsChanged =
+		JSON.stringify(before.homographs) !== JSON.stringify(after.homographs);
+	if (
+		before.display === after.display &&
+		!sensesChanged &&
+		!homographsChanged
+	) {
 		return false;
 	}
 	// The forms half must really be unchanged, which is what makes the
