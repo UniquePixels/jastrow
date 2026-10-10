@@ -95,7 +95,7 @@ const SAMPLE_COUNT = 40;
  * gets a row when it fires — only its zero row would be lost. */
 const REPAIR_PASSES: readonly PassName[] = ['binyan-cleanup'] as const;
 
-/** One composed entry, kept for pass 2. Only the three things pass 2
+/** One composed entry, kept for pass 2. Only the four things pass 2
  * needs are retained — the composer's records and phase tracker are
  * per-entry bookkeeping already folded into the report, and holding
  * 32,512 of them would cost memory for nothing. */
@@ -105,6 +105,10 @@ interface Composed {
 	body: BodyEntry;
 	/** The entry after text-repairs, structural-repairs and patches. */
 	entry: SourceEntry;
+	/** The headword line before patches, after both transform phases:
+	 * what internal links resolve by (decisions.md row `10-09 link
+	 * key`). */
+	linkHeadword: string;
 	/** The pristine snapshot entry — the chain gate is a SOURCE
 	 * artefact and must be walked on source spellings. */
 	source: SourceEntry;
@@ -233,7 +237,12 @@ function composeOne(
 			gates.rejoin && gates.units && gates.lettered && gates.formSection,
 			`${source.rid}: body round-trip`,
 		);
-		return { body: trace.body, entry: result.entry, source };
+		return {
+			body: trace.body,
+			entry: result.entry,
+			linkHeadword: result.linkHeadword,
+			source,
+		};
 	} catch (error) {
 		const kind = error instanceof TransformFailure ? 'transform' : 'repair';
 		const message = error instanceof Error ? error.message : String(error);
@@ -300,10 +309,15 @@ function checkOrphanRefs(composed: readonly Composed[], report: Report): void {
  * are properties of the corpus rather than of one entry. Gate 7
  * (`names`) waits for pass 2: it reads the FINISHED entries.
  *
- * Two headword maps, deliberately: citations resolve against the
- * COMPOSED headwords (transforms respell both an anchor and the
- * headword it names — the gershayim family), while the prev/next chain
- * is a source artefact and must be walked on source spellings.
+ * Two headword maps, deliberately. Citations resolve against each
+ * rid's `linkHeadword`, the line the transform phases leave BEFORE any
+ * patch (decisions.md row `10-09 link key`): the transforms respell
+ * both an anchor and the headword it names (the gershayim family, the
+ * pointing rules), so keying on the pristine line would dangle 289 of
+ * 66,757 links, and a reviewed patch respells only the headword, so
+ * keying on the patched line would dangle every link that names the
+ * spelling it corrects. The prev/next chain is a source artefact and
+ * is walked on source spellings.
  *
  * `sefariaHeadwords` is a third reading of the same field, and the one
  * that is written: Sefaria's `headword` off the PRISTINE entry (U3),
@@ -312,7 +326,9 @@ async function buildIndexes(
 	composed: readonly Composed[],
 	report: Report,
 ): Promise<Indexes> {
-	const headwordMap = buildHeadwordMap(composed.map((c) => c.entry));
+	const headwordMap = buildHeadwordMap(
+		composed.map((c) => ({ headword: c.linkHeadword, rid: c.source.rid })),
+	);
 	const sourceHeadwordMap = buildHeadwordMap(composed.map((c) => c.source));
 	const sefariaHeadwords = new Map(
 		composed.map((c) => [c.source.rid, c.source.headword]),
@@ -356,8 +372,9 @@ function finishAll(
 	const samples: Sample[] = [];
 	const stride = Math.max(1, Math.floor(composed.length / SAMPLE_COUNT));
 	for (const [i, c] of composed.entries()) {
-		// `c.entry`, not `c.source`: transforms can respell the headword,
-		// and `headwordMap` was built from the COMPOSED one.
+		// `c.entry`, not `c.source`: transforms and patches can respell
+		// the headword, and the entry carries ours. (Links resolve by
+		// `c.linkHeadword` instead, through `headwordMap`.)
 		// `finishEntry` decomposes its first argument's `.headword` into
 		// the finished entry, so the pre-transform source here would write
 		// the old spelling — and `checkHeadwordLine`, which compares
@@ -384,6 +401,9 @@ function finishAll(
 		report.unresolved.push(...finished.unresolved);
 		// Gate 6: an internal target no entry owns is a broken link, and
 		// the fix is a patch — there is no list that can excuse one.
+		// "Owns" means the rid's link key, its headword line before
+		// patches (decisions.md row `10-09 link key`): a patch that
+		// corrects a spelling cannot dangle a link here.
 		mark(
 			report.gates.internalTargets,
 			finished.unresolved.length === 0,

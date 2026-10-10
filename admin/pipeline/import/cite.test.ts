@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'bun:test';
-import { buildHeadwordMap, createResolver, internalTarget } from './cite.ts';
+import {
+	buildHeadwordMap,
+	createResolver,
+	internalTarget,
+	linkKey,
+} from './cite.ts';
 
 const MAP = buildHeadwordMap([
 	{ headword: 'אָב I', rid: 'A00013' },
@@ -13,6 +18,20 @@ describe('internalTarget', () => {
 	});
 	it('is undefined for an external href', () => {
 		expect(internalTarget('/Shabbat.104a')).toBeUndefined();
+	});
+});
+
+describe('linkKey', () => {
+	// [input, key]: NFC, whitespace runs collapsed, trimmed. Escapes, so
+	// a formatter cannot fold the two mark orders into one.
+	const cases: [string, string][] = [
+		['\u05D1\u05BC\u05B4', '\u05D1\u05B4\u05BC'],
+		['בַּד  V', 'בַּד V'],
+		[' אָב\tI ', 'אָב I'],
+		['אָב I', 'אָב I'],
+	];
+	it.each(cases)('keys %p as %p', (input, key) => {
+		expect(linkKey(input)).toBe(key);
 	});
 });
 
@@ -32,6 +51,14 @@ describe('buildHeadwordMap', () => {
 				{ headword: 'גֵּץ', rid: 'A00002' },
 			]),
 		).toThrow(/A00001.*A00002/u);
+	});
+	it('refuses two headwords that differ only in whitespace', () => {
+		expect(() =>
+			buildHeadwordMap([
+				{ headword: 'בַּד  V', rid: 'B00098' },
+				{ headword: 'בַּד V', rid: 'B00099' },
+			]),
+		).toThrow(/B00098.*B00099/u);
 	});
 });
 
@@ -73,5 +100,26 @@ describe('createResolver canonical equivalence', () => {
 		const resolve = createResolver(new Map(), 'C00802', unresolved);
 		expect(resolve({ dataRef: '', href: '/Jastrow,_גֵּץ.1' })).toBe('גֵּץ');
 		expect(unresolved).toEqual([{ rid: 'C00802', target: 'גֵּץ' }]);
+	});
+});
+
+describe('createResolver link key (decisions.md 10-09 link key)', () => {
+	it('resolves a target whose spacing differs from the headword', () => {
+		// B00098's source headword has a doubled space; B00097's href,
+		// Sefaria's own, has one.
+		const map = buildHeadwordMap([{ headword: 'בַּד  V', rid: 'B00098' }]);
+		const unresolved: { rid: string; target: string }[] = [];
+		const resolve = createResolver(map, 'B00097', unresolved);
+		expect(resolve({ dataRef: '', href: '/Jastrow,_בַּד_V.1' })).toBe('B00098');
+		expect(unresolved).toEqual([]);
+	});
+	it('still records a target no headword owns, as the href spelled it', () => {
+		const map = buildHeadwordMap([{ headword: 'מַוֶּה I', rid: 'M00724' }]);
+		const unresolved: { rid: string; target: string }[] = [];
+		const resolve = createResolver(map, 'Z00001', unresolved);
+		expect(resolve({ dataRef: '', href: '/Jastrow,_מַזֶּה_III.1' })).toBe(
+			'מַזֶּה III',
+		);
+		expect(unresolved).toEqual([{ rid: 'Z00001', target: 'מַזֶּה III' }]);
 	});
 });

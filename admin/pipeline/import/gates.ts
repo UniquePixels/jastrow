@@ -14,6 +14,7 @@ import {
 	validateCorpus,
 } from '../../entry/validate.ts';
 import type { BodyEntry, SourceEntry } from '../types.ts';
+import { linkKey } from './cite.ts';
 
 /** A gate result: a count against a fixed total, plus the failing
  * lines. An import concept, not an entry one — it stayed here when the
@@ -432,7 +433,9 @@ function ridOrder(a: string, b: string): number {
  * entry it names, marking a failure (and returning `undefined`, which
  * halts the walk) when the name resolves to no headword or to a rid
  * outside the corpus — either would otherwise collapse to `undefined`
- * exactly like a legitimately absent `next_hw`. */
+ * exactly like a legitimately absent `next_hw`. The name is looked up
+ * by `linkKey`, the key the map was built with; the map itself is the
+ * PRISTINE source line's, not the citations' link key. */
 function resolveNext(
 	t: Tally,
 	link: SourceEntry,
@@ -443,9 +446,10 @@ function resolveNext(
 	if (next === undefined) {
 		return;
 	}
-	// The map is keyed in NFC (`buildHeadwordMap`); the source's mark
-	// order varies, so the raw link would miss a canonically equal key.
-	const rid = headwordMap.get(next.normalize('NFC'));
+	// The map is keyed by `linkKey` (`buildHeadwordMap`): the source's
+	// mark order and spacing vary, so the raw link would miss an
+	// equivalent key.
+	const rid = headwordMap.get(linkKey(next));
 	if (rid === undefined) {
 		mark(t, false, `${link.rid}: next_hw "${next}" names no headword`);
 		return;

@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import { readSourceEntries } from './body/source.ts';
 import { composeEntry, TransformFailure } from './compose.ts';
+import { buildHeadwordMap, createResolver } from './import/cite.ts';
 import { contentAnchor, type SemanticPatch } from './patch/schema.ts';
 import type { Rule } from './transform/types.ts';
 import type { SourceEntry } from './types.ts';
@@ -131,5 +132,44 @@ describe('composeEntry', () => {
 		expect(result.patchProblems).toEqual([]);
 		expect(result.patchesApplied).toBe(2);
 		expect(result.entry.content.senses[0]?.definition).toBe('c a');
+	});
+
+	it('keeps the pre-patch line as the link key when a patch respells it', () => {
+		// M00724: print reads zayin where Sefaria has vav (row 10-09 link
+		// key). The reviewed reform corrects our headword; links keep
+		// naming Sefaria's spelling and must still find the entry.
+		const was = 'מַוֶּה I';
+		const source: SourceEntry = {
+			content: { senses: [{ definition: '= what is this?' }] },
+			headword: was,
+			rid: 'M00724',
+		};
+		const reform: SemanticPatch = {
+			author: 'human',
+			confidence: 'high',
+			defect_class: 'headword-ocr-glyph',
+			expected_before: was,
+			expected_occurrences: 1,
+			id: 'P900003',
+			occurrence_index: 1,
+			op: 'reform',
+			payload: { forms: ['מַזֶּה I'] },
+			prompt_version: 'test',
+			rationale: 't',
+			rid: 'M00724',
+			snapshot: `sha256:${'0'.repeat(64)}`,
+			target: `forms:${contentAnchor(was)}`,
+		};
+		const result = composeEntry(source, { reviewed: [reform] });
+		expect(result.patchProblems).toEqual([]);
+		expect(result.entry.headword).toBe('מַזֶּה I');
+		expect(result.linkHeadword).toBe(was);
+		const map = buildHeadwordMap([
+			{ headword: result.linkHeadword, rid: 'M00724' },
+		]);
+		const unresolved: { rid: string; target: string }[] = [];
+		const resolve = createResolver(map, 'M00725', unresolved);
+		expect(resolve({ dataRef: '', href: '/Jastrow,_מַוֶּה_I.1' })).toBe('M00724');
+		expect(unresolved).toEqual([]);
 	});
 });
