@@ -4,7 +4,9 @@
 	"sefariaHeadword": "סְלִיקוּסְתָּא",
 	"headwords": [
 		{
-			"text": "סְלִיקוּסְתָּא"
+			"text": "סְלִיקוּסְתָּא",
+			"homograph": 1,
+			"implied": true
 		}
 	],
 	"display": "{0}",

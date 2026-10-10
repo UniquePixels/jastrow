@@ -7,7 +7,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 | Publication | Rows |
 |---|---|
 | blocks | 0 |
-| defer | 2813 |
+| defer | 2804 |
 | note | 1597 |
 | catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
@@ -15,7 +15,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 
 _none_
 
-## Deferred (2813)
+## Deferred (2804)
 
 ### empty-body (2)
 
@@ -380,29 +380,21 @@ _none_
 - Q01624: פֵּרוּדָא, פֵּרוּדָא — headwords[1] repeats headwords[0] (פֵּרוּדָא) under NFC
 - U00076: שְׁבוֹיָיתָא, שְׁבוֹיָיתָא — headwords[1] repeats headwords[0] (שְׁבוֹיָיתָא) under NFC
 
-### homograph-roman-stranded-in-definition (22)
+### homograph-roman-stranded-in-definition (14)
 
-**What to do:** Leave it until the anchor side is settled: moving the numeral into the headword alone would dangle 37 live anchors against the 3 that mis-resolve today.
+**What to do:** Read the print. If it sets the numeral beside the headword, a reviewed `reform` sets it with `homographs` (the headword text, which 37 live anchors name, is left alone) and a companion patch takes it out of the definition. Never write the numeral into the headword text.
 
 - C00577: senses[0].gloss opens "I"; headword carries no homograph
 - U00488: senses[0].gloss opens "I"; headword carries no homograph
 - U01775: senses[0].gloss opens "II"; headword carries no homograph
-- U02097: senses[0].gloss opens "I"; headword carries no homograph
 - V00003: senses[0].gloss opens "II"; headword carries no homograph
 - V00006: senses[0].gloss opens "II"; headword carries no homograph
 - V00138: senses[0].gloss opens "III"; headword carries no homograph
-- V00254: senses[0].gloss opens "I"; headword carries no homograph
 - V00522: senses[0].gloss opens "I"; headword carries no homograph
 - U00997: senses[0].gloss opens "II"; headword carries no homograph
 - U00998: senses[0].gloss opens "III"; headword carries no homograph
 - U01004: senses[0].gloss opens "III"; headword carries no homograph
-- U01006: senses[0].gloss opens "I"; headword carries no homograph
-- U01008: senses[0].gloss opens "III"; headword carries no homograph
-- U01138: senses[0].gloss opens "I"; headword carries no homograph
 - U01292: senses[0].gloss opens "II"; headword carries no homograph
-- U01570: senses[0].gloss opens "I"; headword carries no homograph
-- U01634: senses[0].gloss opens "I"; headword carries no homograph
-- V00809: senses[0].gloss opens "II"; headword carries no homograph
 - V00832: senses[0].gloss opens "II"; headword carries no homograph
 - V01060: senses[0].gloss opens "I"; headword carries no homograph
 - V01061: senses[0].gloss opens "II"; headword carries no homograph
@@ -2716,7 +2708,7 @@ _none_
 - V01111: p1705b (medium)
 - V01112: p1705b (medium)
 
-### paren-group-close-unknown (33)
+### paren-group-close-unknown (32)
 
 **What to do:** Read the printed line and add the display template by hand; two readings are possible from the source and neither is assumed. The entry renders without its grouping meanwhile.
 
@@ -2751,7 +2743,6 @@ _none_
 - U00857: שָׁיֵחַ, שְׁיַח, שִׁיחַ) — the line's parentheses do not balance, so the layout cannot be settled from the source
 - U00989: שְׁיַע, שְׁיָעָא, שִׁיעַ, שִׁיעָא), שְׁיַיע, שְׁיָיעָא — the line's parentheses do not balance, so the layout cannot be settled from the source
 - U01001: שַׁיְפָא, שַׁיְיפָא, שְׁיָיאפָא) — the line's parentheses do not balance, so the layout cannot be settled from the source
-- U01268: שֶׁלַח, שְׁלוּחַ) — the line's parentheses do not balance, so the layout cannot be settled from the source
 - V00942: תַּרְגִּימָא, תְּרָגִימָא) — the line's parentheses do not balance, so the layout cannot be settled from the source
 
 ### review-deferred (3)

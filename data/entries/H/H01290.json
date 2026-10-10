@@ -4,7 +4,9 @@
 	"sefariaHeadword": "חַנִּין",
 	"headwords": [
 		{
-			"text": "חַנִּין"
+			"text": "חַנִּין",
+			"homograph": 1,
+			"implied": true
 		}
 	],
 	"display": "{0}",

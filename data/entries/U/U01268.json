@@ -4,12 +4,14 @@
 	"sefariaHeadword": "שֶׁלַח",
 	"headwords": [
 		{
-			"text": "שֶׁלַח"
+			"text": "שֶׁלַח",
+			"homograph": 2
 		},
 		{
 			"text": "שְׁלוּחַ"
 		}
 	],
+	"display": "{0} II ({1})",
 	"page": {
 		"number": 1580,
 		"column": "b"

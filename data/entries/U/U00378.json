@@ -4,14 +4,15 @@
 	"sefariaHeadword": "שׁוֹט",
 	"headwords": [
 		{
-			"text": "שׁוֹט"
+			"text": "שׁוֹט",
+			"homograph": 1
 		},
 		{
 			"text": "ש׳ מִישׁוֹט",
 			"partial": true
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1531,
 		"column": "b"

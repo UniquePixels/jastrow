@@ -7,17 +7,18 @@
 			"text": "שַׁתְיָא"
 		},
 		{
-			"text": "שַׁתְיָיא"
+			"text": "שַׁתְיָיא",
+			"homograph": 1
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 1637,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": " I, part. of <cite ref=\"U02092\"><he>שְׁתֵי</he></cite>.",
+			"gloss": ", part. of <cite ref=\"U02092\"><he>שְׁתֵי</he></cite>.",
 			"units": []
 		}
 	]

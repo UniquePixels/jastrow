@@ -5,17 +5,18 @@
 	"headwords": [
 		{
 			"text": "שִׁיפָה",
-			"disambiguator": 2
+			"disambiguator": 2,
+			"homograph": 3
 		}
 	],
-	"display": "{0}",
+	"display": "{0} III",
 	"page": {
 		"number": 1566,
 		"column": "a"
 	},
 	"senses": [
 		{
-			"gloss": " III f., v. <cite ref=\"U01017\"><he>שִׁיפוֹן</he></cite>",
+			"gloss": " f., v. <cite ref=\"U01017\"><he>שִׁיפוֹן</he></cite>",
 			"units": []
 		}
 	]

@@ -4,17 +4,18 @@
 	"sefariaHeadword": "תּוּף",
 	"headwords": [
 		{
-			"text": "תּוּף"
+			"text": "תּוּף",
+			"homograph": 1
 		}
 	],
-	"display": "{0}",
+	"display": "{0} I",
 	"page": {
 		"number": 1655,
 		"column": "a"
 	},
 	"senses": [
 		{
-			"gloss": " I, v. <cite ref=\"V00846\"><he>תָּפַף</he></cite>",
+			"gloss": ", v. <cite ref=\"V00846\"><he>תָּפַף</he></cite>",
 			"units": []
 		}
 	]

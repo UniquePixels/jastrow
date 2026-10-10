@@ -4,13 +4,14 @@
 	"sefariaHeadword": "תְּנֵי",
 	"headwords": [
 		{
-			"text": "תְּנֵי"
+			"text": "תְּנֵי",
+			"homograph": 1
 		},
 		{
 			"text": "תְּנָא"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1681,
 		"column": "b"
