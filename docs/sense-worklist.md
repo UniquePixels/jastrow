@@ -242,6 +242,74 @@ number in its text?
   - [x] can't decide yet (say what is missing in the note)
   - note: I believe these to be textual or print errors. Can we create a deterministic fix? (Note that in at least one case, the issue creates a downstream sense numbering issue as well).  Please remember as this is a modification to text it needs to be anotated. If a determenistic fix is not possible then we sould create a detector, and run a review to make patches.
 
+**Answer (2026-10-10, for the question in the note; nothing is
+ticked or implemented).** No deterministic *text* fix exists, because
+in every row the hOCR can read, the doubled numeral is print's own;
+a deterministic *split* does exist, but the number the new sense takes
+is a choice the data cannot make.
+
+Measured on the committed entries (`8914fce25`), the same 26:
+
+- **Boundary and parens decide nothing.** All 26 in-text markers sit
+  at a sentence boundary (`.—N)`), outside every anchor, at paren and
+  bracket depth 0. A rule that tests those places splits all 26.
+- **"The next in sequence": 0 of 26.** Every in-text marker repeats
+  its host's own number (that is the class), and every sequence is
+  gapless: no later sibling skips the number a renumbered marker would
+  take, so nothing in the entry says the repeat is a slip. The
+  exceptions are class 7's four (A01002, A01620, C01063, O01635):
+  there the *host's* label is the citation's number, and once the
+  minted sense is joined back the in-text `—N)` is exactly the next
+  number. The class 7 patch set splits them there (PR B), so they
+  leave this class.
+- **Print repeats the numeral.** The hOCR shows the same numeral
+  twice in 9 rows: the six above, plus M02130 (`— 3) degree,
+  gradation` … `— 3) height`, 817a · leaf 140), V00909 (`— 4) (with
+  …) to be vehement` … `— 4) to get hot, ferment`, 1693b · leaf
+  1017) and B01153 (`(4--` and `)4`, Tesseract's mirrored `—4)`, on
+  188b · leaf 211). In the other rows the in-text marker is in print
+  (C00399, I00712, K00086, K01280, M00596, N01139 among them) and the
+  host's own marker is in a vol. 1 line Tesseract garbled. No row
+  shows print with N+1 where the entry has N.
+- **What a split rule would get wrong: 2, or 6.** A00982 and C00263
+  (class 4's residue): the marker is the second item of a sublist
+  that restarts at a paren-clear `1)` inside the same sense (`—Du.
+  אָזְנַיִם 1) ears … —2) handles`), so the split would lift a
+  sublist item to the top level. A guard (no restarted `1)` before
+  the marker) refuses both. Run before class 7's joins, it would also
+  split the four class 7 hosts at the wrong number (`1, 2, 2`).
+- **The downstream numbering.** Splitting and numbering on (N+1)
+  renumbers every later sense in 7 entries (C00399, C00869, H00940,
+  H01899, I00712, Q01502, S00151), with no print witness for any of
+  the new numbers; in H01899 print reads `—2) to seal` … `—2) to
+  sign` … `—3) to close a benediction` (513b · leaf 536), so the
+  renumber would make print's `3)` a `4)`. Keeping print's number
+  gives two senses labelled N in each of the other 20 entries, which
+  the schema allows (labels are explicit strings, ruling 10-04 lead
+  text).
+
+**Annotation.** An entry has no notes field. A deviation from print
+is recorded where the implied `1)`s and D00341's bracket move are:
+in the reviewed patch's `rationale` (`admin/pipeline/patch/records/reviewed/README.md`,
+"register #16"). A per-entry patch can carry it; a transform rule
+cannot say why one entry differs from print.
+
+**Recommendation: the note's fallback, a detector and a reviewed
+review.** Port the detector (22 rows once class 7's four are split:
+20, plus A00982 and C00263), read each on the scan, and write the
+patches from that read: `split` keeping print's number, or `split`
+and `retag` to N+1 (and the later senses) with the deviation in the
+rationale. A rule is possible only for "split and keep print's
+doubled number" (with the restarted-`1)` guard, after class 7); it
+does nothing for the reading in your note that these are errors.
+
+- **self-numbered-intext-marker, round 2**
+  - [ ] port the detector, then a review on the scan writes the patches
+  - [ ] a rule: split at the repeated marker and keep print's doubled number
+  - [ ] split by reviewed patch now and number on (N+1), deviation in each rationale
+  - [ ] can't decide yet
+  - note: 
+
 
 ## 4. `inline-inflection-sublist`
 
