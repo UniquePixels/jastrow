@@ -3,20 +3,25 @@
 ## Status (2026-10-09)
 
 Your 96 answers of 2026-10-06 are processed in
-[PR #155](https://github.com/UniquePixels/jastrow/pull/155): **48 reviewed
-patches on 40 entries** (P000311–P000358), each with your answer, the
+[PR #155](https://github.com/UniquePixels/jastrow/pull/155) and
+[PR #156](https://github.com/UniquePixels/jastrow/pull/156): **57 reviewed
+patches on 49 entries** (P000311–P000367), each with your answer, the
 hOCR line and the scan leaf, listed in
 [`records/tranches/headword-print-read-2026-10-06/`](../admin/pipeline/patch/records/tranches/headword-print-read-2026-10-06/README.md).
-The reviewed-kept list holds 34 records (30 since #154; J00713, U02098,
-P01246 and P01247 added here). Two kinds of fix you answered
-are not applied yet, because the pipeline cannot express them: nine OCR
-spellings on headwords that live links name (review ledger L49), and
-U00488 with U00489 (L50). The 14 answers and two notes that need
-another look are round 2, just below; tick it the same way.
+#155 wrote 48 of them; the nine OCR spellings on headwords that live
+links name (P000359–P000367) followed in #156, once ruling `10-09 link
+key` let links resolve by the spelling before patches (review ledger
+L49), and each of their answer blocks below says so. The reviewed-kept
+list holds 34 records (30 since #154; J00713, U02098, P01246 and P01247
+added in #155). U00488 with U00489 (L50) is the one fix you answered
+that is still not applied, because the pipeline cannot express it. The
+14 answers and two notes that need another look are round 2, just
+below; tick it the same way.
 
-After the re-import the report reads X10 18 (13 primary), X8 77 (46),
-X9 12 (7), X5 140 (113), reviewed-kept 34 (before: X10 50 (45), X8 83
-(52), X9 15 (10), X5 141 (114), kept 30).
+After the re-import the report reads X10 17 (12 primary), X8 76 (45),
+X9 5 (0), X5 140 (113), reviewed-kept 34 (before #155: X10 50 (45), X8
+83 (52), X9 15 (10), X5 141 (114), kept 30; after #155: X10 18 (13), X8
+77 (46), X9 12 (7)).
 
 The piles further down are the list as you answered it, kept for the
 record; regenerate it before reading its counts again.
@@ -444,6 +449,7 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: mark this as an ocr error for the upstream correction report
+  - applied 2026-10-09: P000364 sets A01310 `אִילפָא I` → `אִילְפָא I`, the stored bytes of A01311 (ruling `10-09 link key`); the 4 links naming Sefaria's spelling still resolve to A01310
 
 
 #### `אימָּא` I, `אִימָּא` II (row [A01320](https://jastrow.app/#rid:A01320))
@@ -494,6 +500,7 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: ocr error
+  - applied 2026-10-09: P000365 sets C00649 `גִּיהא I` → `גִּיהָא I`, the stored bytes of C00650 (ruling `10-09 link key`); the 4 links naming Sefaria's spelling still resolve to C00649
 
 
 #### `הֲקָצה` I, `הֲקָצָה` II (row [E00802](https://jastrow.app/#rid:E00802))
@@ -608,6 +615,7 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: upstream log
+  - applied 2026-10-09: P000366 sets M02601 `מרוּצָה I` → `מְרוּצָה I`, the stored bytes of M02602 (ruling `10-09 link key`); the 1 link naming Sefaria's spelling still resolves to M02601
 
 
 #### `נָּקִי` I, `נָקִי` II (row [N01196](https://jastrow.app/#rid:N01196))
@@ -640,6 +648,7 @@ Each of these was an X8 row while the report keyed a family on its exact spellin
   - [x] something else (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 218 should not have the chirik either, upstream log
+  - applied 2026-10-09: P000367 sets P00218 `עִוּזָּא I` → `עוּזָּא I`, the stored bytes of P00219 (ruling `10-09 link key`); the 3 links naming Sefaria's spelling still resolve to P00218
 
 
 #### `ענָוָה` I, `עֲנָוָה` II (row [P00959](https://jastrow.app/#rid:P00959))
@@ -725,6 +734,7 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
   - [ ] no, `אֲמָא` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
   - note: both are patach sh'va. ocr error
+  - applied 2026-10-09: P000361 sets A01964 `אְמָא I` → `אֲמָא I`, the stored bytes of A01965 (ruling `10-09 link key`); the 5 links naming Sefaria's spelling still resolve to A01964
 
 
 #### `בָּסַר` II, `בְּסַר` III (row [B01014](https://jastrow.app/#rid:B01014))
@@ -760,6 +770,7 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
   - [x] no, `דִּיוֹ` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
   - note: both have sh'va, ocr error
+  - applied 2026-10-09: P000362 sets D00501 `דִּיוֹ II` → `דְּיוֹ II`, the stored bytes of D00500 (ruling `10-09 link key`); the 6 links naming Sefaria's spelling still resolve to D00501
 
 
 #### `חְלָמָה` I, `חֲלָמָה` II (row [H01089](https://jastrow.app/#rid:H01089))
@@ -793,6 +804,7 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
   - [x] no, `חָרֵב` is wrong (say what you see in the note)
   - [ ] can't tell from the scan
   - note: both are chirik, ocr error
+  - applied 2026-10-09: P000363 sets H01579 `חָרֵב II` → `חָרִב II`, the stored bytes of H01577 (ruling `10-09 link key`); the 3 links naming Sefaria's spelling still resolve to H01579
 
 
 #### `מָסַר` I, `מְסַר` II (row [M02008](https://jastrow.app/#rid:M02008))
@@ -1380,6 +1392,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] the numeral is printed on a neighbour (say which word in the note)
   - [ ] can't tell from the scan
   - note: 737 contains an ocr error the correct spelling for the primary headword is yod not a vav
+  - applied 2026-10-09: P000360 sets J00737 `יַתִּור I` → `יַתִּיר I`, the stored bytes of J00738 (ruling `10-09 link key`); the 2 links naming Sefaria's spelling still resolve to J00737
 
 
 ### X8 Volume 2: no numeral read (17)
@@ -1695,6 +1708,7 @@ Each needs its own look; the question says what.
   - [x] there is a fix (say what print shows in the note)
   - [ ] can't tell from the scan
   - note: as you thought, ocr error correct letter is zayin
+  - applied 2026-10-09: P000359 sets M00724 `מַוֶּה I` → `מַזֶּה I`, the stored bytes of M00725 (ruling `10-09 link key`); the 1 link naming Sefaria's spelling still resolves to M00724
 
 
 #### `פַּנְיָא`: missing I, II (row [Q01193](https://jastrow.app/#rid:Q01193))
