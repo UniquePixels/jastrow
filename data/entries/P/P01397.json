@@ -19,14 +19,10 @@
 	"senses": [
 		{
 			"gloss": "m. (v. <cite ref=\"P01392\"><he>עֲרַם</he></cite>; cmp. ",
-			"units": ["<cite ref=\"Genesis 3\">Gen. III</cite>, "]
-		},
-		{
-			"gloss": "<i>a venomous serpent</i>. ",
 			"units": [
+				"<cite ref=\"Genesis 3\">Gen. III</cite>, 1)<i>a venomous serpent</i>. ",
 				"<cite ref=\"Targum Jerusalem, Genesis 49:17\">Targ. Y. II, Gen. XLIX, 17</cite> Ar. (ed. <cite ref=\"H00473\"><he>חוּרְמָנָא</he></cite>)."
-			],
-			"label": "1"
+			]
 		}
 	]
 }

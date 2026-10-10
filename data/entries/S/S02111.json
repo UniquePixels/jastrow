@@ -35,15 +35,16 @@
 			"forms": ["הִקְרִיס"],
 			"senses": [
 				{
-					"gloss": " <cite ref=\"S02110\">same</cite>, v. supra.—2) (of wine) ",
+					"gloss": " <cite ref=\"S02110\">same</cite>, v. supra.",
 					"units": [],
 					"label": "1"
 				},
 				{
-					"gloss": "<i>to become sourish</i>. ",
+					"gloss": "(of wine) <i>to become sourish</i>. ",
 					"units": [
 						"<cite ref=\"Berakhot 40b:14\">Ber. 40ᵇ</cite> <he>היין שה׳</he> Ms. F. a. Ar. (ed. <he>שהִקְרִים</he>); <cite ref=\"Bava Batra 95b\">B. Bath. 95ᵇ</cite> Ms. H. (ed. <he>שהקרים</he>), v. <cite ref=\"S02087\"><he>קָרַם</he></cite>."
-					]
+					],
+					"label": "2"
 				}
 			],
 			"stem": "Hif."
