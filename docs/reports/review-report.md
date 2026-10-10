@@ -7,7 +7,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 | Publication | Rows |
 |---|---|
 | blocks | 0 |
-| defer | 2804 |
+| defer | 2812 |
 | note | 1597 |
 | catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
@@ -15,7 +15,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 
 _none_
 
-## Deferred (2804)
+## Deferred (2812)
 
 ### empty-body (2)
 
@@ -398,6 +398,19 @@ _none_
 - V00832: senses[0].gloss opens "II"; headword carries no homograph
 - V01060: senses[0].gloss opens "I"; headword carries no homograph
 - V01061: senses[0].gloss opens "II"; headword carries no homograph
+
+### inflection-sublist-numbering-flattened (8)
+
+**What to do:** Before senses are addressed, nest the numbered senses under the form label that ends the lead (a nesting patch op, or the form-section split extended to siblings), reading the label on the scan first in case it is an OCR stem head; the text is print’s, so the page needs nothing meanwhile.
+
+- A00994: senses[0] ends "—Pl. אֲחָדִים", and senses[1] (labelled 1) follows it as a sibling
+- A01798: senses[0] ends "—Pl. אֱלוֹהוֹת", and senses[1] (labelled 1) follows it as a sibling
+- B00740: senses[0] ends "—Fem. בִּישָׁא, בִּישְׁתָּא", and senses[1] (labelled 1) follows it as a sibling
+- D00131: senses[0] ends "—Pl. דִּדָּה", and senses[1] (labelled 1) follows it as a sibling
+- E00230: senses[0] ends "—Part. הוֶֹה, הוֶוֹה", and senses[1] (labelled 1) follows it as a sibling
+- H00052: senses[0] ends "—Fem. חֲבִיבְתָּא", and senses[1] (labelled 1) follows it as a sibling
+- H00553: stems[2].senses[0] ends "—Part. מוּחֲזָק", and stems[2].senses[1] (labelled 1) follows it as a sibling
+- M02479: senses[0] ends "—Fem. מָרְתָא, מָרְתָה", and senses[1] (labelled 1) follows it as a sibling
 
 ### markup-carry (10)
 

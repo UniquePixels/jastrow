@@ -19,9 +19,9 @@ interface KindRule {
 /** The classes `import/detectors/` detects, all `defer` and stated
  * once rather than a row each: `blocking: true` in the catalogue gates
  * the CUTOVER, while this table answers the separate question of what
- * a reader can correct after go-live, and none of the six moves a URL
- * (post-consolidation review §10, decision 2). Each detector carries
- * its own action sentence. */
+ * a reader can correct after go-live, and none of the seven moves a
+ * URL (post-consolidation review §10, decision 2). Each detector
+ * carries its own action sentence. */
 const CLASS_KINDS: ReadonlyArray<readonly [string, KindRule]> = [
 	...CLASS_ACTIONS,
 ].map(([kind, action]) => [kind, { action, publication: 'defer' }]);
