@@ -20,6 +20,11 @@ the scan leaf from the page index.
 Tick ONE box per question and add a note where a box asks for one.
 Skip anything you like.
 
+**Ticked 2026-10-10.** Classes 1, 2 and 4 are discarded with their
+controls and class 9 has a review detector (PR #159). Class 3 has an
+answer under its note and a fresh question. Classes 5–8 and the
+implied-`1)` rows are reviewed patch sets (the next PR).
+
 How I chose each recommendation, so the rows read the same way:
 
 - **Discard** where the reader sees what print sets and the structure

@@ -115,15 +115,20 @@ The nine Group D classes are examined in `docs/sense-worklist.md`
 (PR #157): one question per class, plus the implied-`1)` rows.
 Renumbering is free until anchors or hand edits exist [L22].
 
-- [ ] `etymology-head-pseudo-sense`: worklist §1 [L22]
-- [ ] `preamble-stranded-lead-sense`: worklist §2 [L22]
+- [x] `etymology-head-pseudo-sense`: worklist §1 [L22]
+      (discarded, control A00020; PR #159)
+- [x] `preamble-stranded-lead-sense`: worklist §2 [L22]
+      (discarded, control A00123; PR #159)
 - [ ] `self-numbered-intext-marker`: worklist §3 [L22]
-- [ ] `inline-inflection-sublist`: worklist §4 [L22]
+      (can't decide yet; answer in the worklist, PR #159)
+- [x] `inline-inflection-sublist`: worklist §4 [L22]
+      (discarded, control C00062; PR #159)
 - [ ] `continuation-marker-fully-absent`: worklist §5 [L22]
 - [ ] `first-sense-debris-stranding-language-label`: worklist §6 [L22]
 - [ ] `verse-paren-false-sense-split`: worklist §7 [L22]
 - [ ] `chopped-marker-with-residue`: worklist §8 [L22]
-- [ ] `inflection-sublist-numbering-flattened`: worklist §9 [L22]
+- [x] `inflection-sublist-numbering-flattened`: worklist §9 [L22]
+      (review detector, 8 rows; PR #159)
 - [ ] The 22 undecided implied-`1)` rows (body-review 08; the
       backlog's 21 left out Q01352): worklist, last question [L22]
 
@@ -224,7 +229,7 @@ architecture, data, docs; every row confirmed by the controller).
 | L19 | Schema title "truth entry"; "slug" in `import/gates.ts:189`, `entry/headwords.ts:86`, `entry/headword-rules.ts:217`; `patch/apply.ts:92` names deleted `apply-cli.ts`; five "still PENDING" comments where `PENDING = []`; `.gitignore:36` lists `migration-report.json`; `fetch.ts:217` top-level `await main()` | various | nit | PR #148 |
 | L20 | Gender exclusivity (form gender vs `grammar.gender`) unchecked; `schema.test.ts:26-33` asserts an entry carrying both as valid | `admin/entry/validate.ts` | contract | closed #147 |
 | L21 | Which corrections go upstream to Sefaria, and how | — | ruling | open (maintainer raised 2026-10-02) |
-| L22 | Nine Group D sense-structure classes to examine before anchors or hand edits | #123 | data | open: examined in `docs/sense-worklist.md` (PR #157), measured on the committed entries at `271ede286`. Two dissolved under ruling 10-04 lead text (etymology head 1,929 entries, preamble 742: print's own unnumbered lead) and one under the form-section split (inline inflection sublist: 13 split, 2 left); recommended: discard those three with a control, port detectors for self-numbered markers (26) and flattened form sublists (8), reviewed patch sets for the fully absent marker (5), first-sense debris (14), verse-paren false splits (13) and chopped markers with residue (10). The catalogue's objection to the debris delete no longer holds: the label survives in the gloss head. Body-review 08 has 22 undecided implied-`1)` rows, not 21 (Q01352): by the hOCR 17 look implied, 4 are an OCR `l)` and R00586's `1)` was dropped. One question per class, the maintainer's to tick |
+| L22 | Nine Group D sense-structure classes to examine before anchors or hand edits | #123 | data | open: examined in `docs/sense-worklist.md` (PR #157), measured on the committed entries at `271ede286`. Two dissolved under ruling 10-04 lead text (etymology head 1,929 entries, preamble 742: print's own unnumbered lead) and one under the form-section split (inline inflection sublist: 13 split, 2 left); recommended: discard those three with a control, port detectors for self-numbered markers (26) and flattened form sublists (8), reviewed patch sets for the fully absent marker (5), first-sense debris (14), verse-paren false splits (13) and chopped markers with residue (10). The catalogue's objection to the debris delete no longer holds: the label survives in the gloss head. Body-review 08 has 22 undecided implied-`1)` rows, not 21 (Q01352): by the hOCR 17 look implied, 4 are an OCR `l)` and R00586's `1)` was dropped. One question per class, the maintainer's to tick. **2026-10-10:** the maintainer ticked the worklist (`8914fce25`). PR #159 discards 1, 2 and 4 with their controls (A00020, A00123, C00062) and ports a review detector for 9 (`inflection-sublist-numbering-flattened`, 8 rows, the worklist's eight). Class 3 is "can't decide yet": his note asks for a deterministic fix, and the answer under it in the worklist finds none for the text (print's own doubled numeral wherever the hOCR reads; no marker is the next number), with a fresh question. Classes 5–8 and the implied rows are reviewed patch sets, the next PR |
 | L23 | `formerNames` ledger unbuilt; needed before the first post-publication `headwords[0]` change | — | post-release | open |
 | L24 | **struck.** The 2026-10-02 verdict called review-report's "blocks: 0" incomplete because headword rows live in another report. Under the ledger's definition the primary-headword rows are pre-publication (L09), not blockers. That says nothing about the report's count: the report uses its own criterion (a defect the admin tool cannot correct after go-live), and the headword-issues report applies no blocks criterion at all. L09 is where those rows are handled | — | struck | struck |
 | L25 | **struck.** The same verdict split "ready for compile" from "ready for the admin tool". Readiness is one property; the contract rows (L01, L04, L20) are code tidiness, not data readiness | — | struck | struck |
