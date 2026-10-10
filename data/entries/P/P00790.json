@@ -129,14 +129,15 @@
 							"label": "a"
 						},
 						{
-							"gloss": " (v. Kal, ",
-							"units": [],
+							"gloss": " (v. Kal, c) <i>to neutralize</i>. ",
+							"units": [
+								"<cite ref=\"Mishnah Terumot 4:8\">Ter. IV, 8</cite> <he>תאנים שחורות מַעֲלוֹת וכ׳</he> black figs help to neutralize in conjunction with white ones, i.e. the black and the white secular figs are counted together against the admixture of figs of T’rumah whether black or white; a. fr.—"
+							],
 							"label": "b"
 						},
 						{
-							"gloss": " <i>to neutralize</i>. ",
+							"gloss": " (v. Kal, a) <i>to account, credit</i> or <i>charge</i>. ",
 							"units": [
-								"<cite ref=\"Mishnah Terumot 4:8\">Ter. IV, 8</cite> <he>תאנים שחורות מַעֲלוֹת וכ׳</he> black figs help to neutralize in conjunction with white ones, i.e. the black and the white secular figs are counted together against the admixture of figs of T’rumah whether black or white; a. fr.—<i>c</i>) (v. Kal, a) <i>to account, credit</i> or <i>charge</i>. ",
 								"<cite ref=\"Bava Metzia 69b:13\">B. Mets. 69ᵇ</cite> <he>אני אעלה לך סלע וכ׳</he> I will give thee credit for one Sela each month (as a compensation for the use of the cow). ",
 								"<cite ref=\"Pirkei Avot 2:2\">Ab. II, 2</cite> <he>מעלה אני עליכם וכ׳</he> I (the Lord) shall credit you with a large reward, just as if you had accomplished (the good you had intended to do). ",
 								"<cite ref=\"Pirkei Avot 3:7\">Ib. III, 7</cite>, sq. <he>מעלה עליו הכתוב כאילו וכ׳</he> the Bible text (the Lord) charges him as if he had endangered his life (v. <cite ref=\"H00231\"><he>חוּב</he></cite>). ",
@@ -145,38 +146,15 @@
 							"label": "c"
 						},
 						{
-							"gloss": " (v. Kal, ",
-							"units": [],
-							"label": "d"
-						},
-						{
-							"gloss": " <i>to succeed, profit</i>. ",
+							"gloss": " (v. Kal, e) <i>to succeed, profit</i>. ",
 							"units": [
-								"<cite ref=\"Sanhedrin 90b:16\">Snh. 90ᵇ</cite> <he>הֶעֱלֵיתֶם בידכם</he>, v. <cite ref=\"J00485\"><he>יָעַל</he></cite>.—"
-							],
-							"label": "e"
-						},
-						{
-							"gloss": " <he>ה׳ חן</he> <i>to effect grace; to find favor</i>. ",
-							"units": [
-								"<cite ref=\"Bereishit Rabbah 9\">Gen. R. s. 9</cite> <he>הלואי תהא מַעֲלַת חן לפני</he> … <he>כשם שהֶעֱלִית וכ׳</he> Oh, that thou wouldst find favor before me (please me) at all times, as thou dost now; a. e.—"
-							],
-							"label": "f"
-						},
-						{
-							"gloss": " <he>ה׳ חֵמָה</he> [<i>to let anger rise</i>,] <i>to become angry</i>. ",
-							"units": [
-								"<cite ref=\"Bereishit Rabbah 93:6\">Gen. R. s. 93</cite> <he>בשעה שהיה יהודה מעלה ח׳ וכ׳</he> whenever Judah got angry, the hair &c.; a. e.—"
-							],
-							"label": "g"
-						},
-						{
-							"gloss": " (with or sub. <cite ref=\"A03028\"><he>ארוכה</he></cite>) <i>to heal up</i>. ",
-							"units": [
+								"<cite ref=\"Sanhedrin 90b:16\">Snh. 90ᵇ</cite> <he>הֶעֱלֵיתֶם בידכם</he>, v. <cite ref=\"J00485\"><he>יָעַל</he></cite>.—<i>f</i>) <he>ה׳ חן</he> <i>to effect grace; to find favor</i>. ",
+								"<cite ref=\"Bereishit Rabbah 9\">Gen. R. s. 9</cite> <he>הלואי תהא מַעֲלַת חן לפני</he> … <he>כשם שהֶעֱלִית וכ׳</he> Oh, that thou wouldst find favor before me (please me) at all times, as thou dost now; a. e.—<i>g</i>) <he>ה׳ חֵמָה</he> [<i>to let anger rise</i>,] <i>to become angry</i>. ",
+								"<cite ref=\"Bereishit Rabbah 93:6\">Gen. R. s. 93</cite> <he>בשעה שהיה יהודה מעלה ח׳ וכ׳</he> whenever Judah got angry, the hair &c.; a. e.—<i>h</i>) (with or sub. <cite ref=\"A03028\"><he>ארוכה</he></cite>) <i>to heal up</i>. ",
 								"<cite ref=\"Chullin 77a:1\">Ḥull. 77ᵃ</cite>, v. <cite ref=\"A03029\"><he>אֲרוּכָה</he> II</cite>. ",
 								"<cite ref=\"Mishnah Sheviit 4:6\">Shebi. IV, 6</cite> <he>לא שיַעֲלֶה</he>, v. <cite ref=\"Q02061\"><he>פָּשַׁח</he></cite>; a. fr."
 							],
-							"label": "h"
+							"label": "d"
 						}
 					]
 				}

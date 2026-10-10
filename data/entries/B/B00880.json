@@ -14,24 +14,12 @@
 	},
 	"senses": [
 		{
-			"gloss": "(b. h.; √<he>בל</he>; ",
-			"units": [],
-			"senses": [
-				{
-					"gloss": " sec. r. of <cite ref=\"B00612\"><he>בול</he></cite>, <he>ביל</he>; √<cite ref=\"B00198\"><he>בו</he></cite>, <he>בה</he>, cmp. <cite ref=\"B00635\"><he>בִּין</he></cite>, <i>to penetrate, break through</i>, v. <he>בלט</he>; ",
-					"units": [],
-					"label": "a"
-				},
-				{
-					"gloss": " √<he>בל</he> <i>to crumble, soften</i>, cmp. √<he>מל</he>; v. <cite ref=\"B00853\"><he>בלי</he></cite>, <cite ref=\"N00091\"><he>נבל</he></cite>, <he>בלט</he> in <cite ref=\"B00263\"><he>בולטיתא</he></cite>) <i>to mix</i> (with oil), <i>knead, stir; to mix fodder</i>. ",
-					"units": [
-						"<cite ref=\"Mishnah Zevachim 14:3\">Zeb. XIV, 3</cite> (<cite ref=\"Zevachim 112b\">112ᵇ</cite>) <he>הבּוֹלֵל</he> the priest who kneads the meat-offering with oil, v. <cite ref=\"B00862\"><he>בְּלִילָה</he></cite>. ",
-						"<cite ref=\"Mishnah Demai 5:5\">Dem. V, 5</cite> <he>בולל ונוטל</he> (strike out <he>ואוכל</he> in Bab. ed., Ar. Var. <he>בורר</he>) he mixes the fruits and takes the tithe. ",
-						"<cite ref=\"Jerusalem Talmud Bava Kamma 4:1:6\">Y. B. Kam. IV, beg. 4ᵃ</cite> <he>לִבְלוֹל</he> to mix up (coins in a bag.) <cite ref=\"Jerusalem Talmud Rosh Hashanah 1:2:2\">Y. R. Hash. I, 56ᵈ</cite> bot.; Tanḥ. Noah 11, v. <cite ref=\"B00254\"><he>בּוּל</he> III</cite>; a. fr.—Part. pass. <cite ref=\"B00830\"><he>בָּלוּל</he></cite>, f. <cite ref=\"B01383\"><he>בְּלוּלָה</he></cite>. ",
-						"<cite ref=\"Sanhedrin 24a\">Snh. 24ᵃ</cite> (play on <cite ref=\"B00061\"><he>בבל</he></cite>) <he>ב׳ במקרא וכ׳</he> mixed up (confused) in Bible study &c. [<cite ref=\"Jerusalem Talmud Yevamot 8:6:5\">Y. Yeb. VIII, end, 9ᵈ</cite> <he>קריבה בבלל</he>, read <he>בכָלִיל</he>.] V. <cite ref=\"B00830\"><he>בָּלוּל</he></cite>."
-					],
-					"label": "b"
-				}
+			"gloss": "(b. h.; √<he>בל</he>; a) sec. r. of <cite ref=\"B00612\"><he>בול</he></cite>, <he>ביל</he>; √<cite ref=\"B00198\"><he>בו</he></cite>, <he>בה</he>, cmp. <cite ref=\"B00635\"><he>בִּין</he></cite>, <i>to penetrate, break through</i>, v. <he>בלט</he>; b) √<he>בל</he> <i>to crumble, soften</i>, cmp. √<he>מל</he>; v. <cite ref=\"B00853\"><he>בלי</he></cite>, <cite ref=\"N00091\"><he>נבל</he></cite>, <he>בלט</he> in <cite ref=\"B00263\"><he>בולטיתא</he></cite>) <i>to mix</i> (with oil), <i>knead, stir; to mix fodder</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Zevachim 14:3\">Zeb. XIV, 3</cite> (<cite ref=\"Zevachim 112b\">112ᵇ</cite>) <he>הבּוֹלֵל</he> the priest who kneads the meat-offering with oil, v. <cite ref=\"B00862\"><he>בְּלִילָה</he></cite>. ",
+				"<cite ref=\"Mishnah Demai 5:5\">Dem. V, 5</cite> <he>בולל ונוטל</he> (strike out <he>ואוכל</he> in Bab. ed., Ar. Var. <he>בורר</he>) he mixes the fruits and takes the tithe. ",
+				"<cite ref=\"Jerusalem Talmud Bava Kamma 4:1:6\">Y. B. Kam. IV, beg. 4ᵃ</cite> <he>לִבְלוֹל</he> to mix up (coins in a bag.) <cite ref=\"Jerusalem Talmud Rosh Hashanah 1:2:2\">Y. R. Hash. I, 56ᵈ</cite> bot.; Tanḥ. Noah 11, v. <cite ref=\"B00254\"><he>בּוּל</he> III</cite>; a. fr.—Part. pass. <cite ref=\"B00830\"><he>בָּלוּל</he></cite>, f. <cite ref=\"B01383\"><he>בְּלוּלָה</he></cite>. ",
+				"<cite ref=\"Sanhedrin 24a\">Snh. 24ᵃ</cite> (play on <cite ref=\"B00061\"><he>בבל</he></cite>) <he>ב׳ במקרא וכ׳</he> mixed up (confused) in Bible study &c. [<cite ref=\"Jerusalem Talmud Yevamot 8:6:5\">Y. Yeb. VIII, end, 9ᵈ</cite> <he>קריבה בבלל</he>, read <he>בכָלִיל</he>.] V. <cite ref=\"B00830\"><he>בָּלוּל</he></cite>."
 			]
 		}
 	],
