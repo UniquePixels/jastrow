@@ -127,9 +127,10 @@ cannot be known one entry at a time.
    have already had their say. An unbased obligation is a fault row
    folded into gate 9.
 4. **Corpus indexes** (`buildIndexes`). Four things only the whole
-   corpus can build: the composed-headword → rid map that citations
-   resolve against, a source-headword map (the chain is walked on
-   source spellings), the pristine rid → Sefaria-headword map, and the
+   corpus can build: the link-key → rid map that citations resolve
+   against (each rid's headword line as the transform phases leave it,
+   before any patch; ruling `10-09 link key`), a source-headword map
+   (the chain is walked on source spellings), the pristine rid → Sefaria-headword map, and the
    page index. This stage also runs the two **corpus-level** gates —
    5 (`chain`) and 8 (`pages`) — which are not per-entry and have
    nowhere else to go.
@@ -326,8 +327,14 @@ none.
 `ref` holds either a rid (internal) or an external reference taken
 from `data-ref` verbatim, falling back to `href` only when `data-ref`
 is empty. Sefaria's two ref spellings are not canonicalized. Internal
-targets resolve through an NFC-keyed headword → rid map built from all
-32,512 composed headwords; an unresolved internal target stays
+targets resolve through a headword → rid map built from all 32,512
+**link keys**: each rid's headword line as the transform phases leave
+it, before any patch (ruling `10-09 link key`), compared in NFC with
+whitespace runs collapsed (`linkKey`, `import/cite.ts`). A source href
+is a Sefaria URL naming Sefaria's spelling, and the transforms respell
+href and headword together, so this is Sefaria's spelling as our rules
+read it; a reviewed patch that corrects our headword never moves it,
+so it never dangles a link. An unresolved internal target stays
 byte-preserving in the text and fails gate 6; the fix is a patch.
 
 There is no link-kind (`k`) field. The markers stay in the text.
@@ -574,16 +581,18 @@ already has a sense still has no op (V00518, #113).
 
 `reform` also takes an optional `homographs`: `{form, homograph,
 implied?}` items that set a numeral on a parsed form of the line
-without touching its text (ruling `10-09 reform homographs`). The
-headword string is the namespace internal links resolve by (gate 6),
-so a numeral written into it would dangle every link that names
-Sefaria's spelling; beside it, the namespace stays put. `finishEntry`
+without touching its text (ruling `10-09 reform homographs`). It was
+written when the patched headword string was the namespace internal
+links resolved by (gate 6), so a numeral written into it would have
+dangled every link that names Sefaria's spelling; beside it, the
+display and the forms say what print sets. `finishEntry`
 refuses one on a form that already carries a printed numeral; gate 2
 counts a non-implied one as notation the line carries, so its patch
 supplies a `display` that shows it, and an implied one shows nothing.
 A reform that sets `homographs` is never `upstream-fixed`. A spelling
-correction still rewrites the headword string, so it still dangles the
-links that name the old spelling (review ledger L49).
+correction rewrites the headword string, and since ruling `10-09 link
+key` that dangles nothing: links resolve by the line before patches
+(§2 "The markup vocabulary", review ledger L49).
 
 ---
 
@@ -775,6 +784,14 @@ registered today**, unblocked by cases 7 and 6 respectively.
 `toseftaPrimaryHalakha` registers strictly before `toseftaCloseParen`,
 and the direction is the whole point of the pairing.
 
+This gate asks whether a rule may WRITE a target; whether the target
+then names an entry is gate 6's question (§9), asked of the link key:
+each rid's headword line as the transform phases leave it, before any
+patch (ruling `10-09 link key`). So a rule that respells a headword
+must respell the hrefs that name it in the same composition, as the
+gershayim pair and the pointing rules (cases 5 and 9) do; a patch,
+which runs after the key is taken, need not.
+
 ---
 
 ## 7. Names and addressing
@@ -830,6 +847,14 @@ that would read it — no current name equals another entry's former
 name, every former name appears on exactly one entry — do not exist,
 because the published-names ledger they check against does not exist
 before publication. **UNBUILT.**
+
+**Links resolve by the link key, not the name.** An internal target is
+looked up by each rid's headword line before patches (ruling `10-09
+link key`; §2 "The markup vocabulary"), which is Sefaria's spelling as
+the transforms read it. The name follows our corrected headword; the
+link key does not, so correcting a spelling renames the entry and
+leaves its links alone. For 177 rids the transforms respell the line,
+so the link key is not byte-equal to `sefariaHeadword`.
 
 **Addressing stops at the entry.** Every internal target resolves to a
 rid, never to a sense; `cite.ts`'s `internalTarget` strips a `.N` sense
@@ -940,10 +965,13 @@ because the chain is a source artefact.
 
 **6. `internalTargets`** (one mark per entry, in `finishAll`).
 *Proves:* every internal `<cite>` target in the entry resolves to a
-rid. There is no excuse list: an unresolved target is a broken link,
-and the fix is a patch.
+rid, by its link key: the rid's headword line before patches (ruling
+`10-09 link key`). There is no excuse list: an unresolved target is a
+broken link, and the fix is a patch.
 *Cannot see:* whether a target that DOES resolve names the right
-entry.
+entry; and a link checked against our corrected spelling, since a
+patch never moves the key. If a rule that respells a headword
+changes, the key moves with it, and this gate says so.
 
 **7. `names`** (`import/gates.ts`, `checkNames`, two marks per entry
 over the **finished** entries).
@@ -1343,8 +1371,9 @@ so cannot be inferred from reading the code that is there.
     carried is that equivalence restated and could not fire (review
     ledger L10). `data/source/` is never touched.
 51. **No canonicalization of stored text at lookup time.** NFC is a
-    *comparison* key in `names.ts` and `cite.ts`; nothing stored is
-    rewritten by those steps.
+    *comparison* key in `names.ts` and `cite.ts` (where `linkKey` also
+    collapses whitespace runs); nothing stored is rewritten by those
+    steps.
 52. **The current name is never stored.**
 53. **No URLs are stored** in entry data.
 54. **No page-confidence field is written onto an entry.**

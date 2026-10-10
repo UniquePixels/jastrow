@@ -109,6 +109,12 @@ interface ComposeResult {
 	/** The entry after text-repairs, structural-repairs and
 	 * patch-apply. */
 	entry: SourceEntry;
+	/** The headword line as the two transform phases leave it, before
+	 * any patch: the string internal links resolve by (decisions.md row
+	 * `10-09 link key`). A reviewed patch that corrects the spelling
+	 * moves `entry.headword` and never this, so the links naming
+	 * Sefaria's spelling still find the entry. */
+	linkHeadword: string;
 	/** Patches skipped because their precondition no longer holds
 	 * (`drift: 'outcome'` only; always empty otherwise). */
 	patchDrift: PatchDrift[];
@@ -215,7 +221,9 @@ function applyPatchSets(
 /** One entry through the first three phases of the committed manifest
  * (spec §5): the general `applyRepairs` cleanup then text rules,
  * structural rules, then the reviewed, accepted and carry-over
- * patches in that order (spec §4.2). Throws
+ * patches in that order (spec §4.2). The headword line between the
+ * transform phases and the patches is kept as `linkHeadword`, the
+ * link key (decisions.md row `10-09 link key`). Throws
  * `TransformFailure` for a rule that tripped its gate. Patch problems
  * are returned, not thrown: the composition still stands and the
  * caller decides whether a stale patch is fatal. */
@@ -246,6 +254,7 @@ function composeEntry(
 	return {
 		carryOver: { absorbed: patched.absorbed, carried: patched.carried },
 		entry: patched.entry,
+		linkHeadword: structural.entry.headword,
 		patchDrift: patched.drifted,
 		patchesApplied: patched.applied,
 		patchProblems: patched.problems,

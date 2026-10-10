@@ -80,6 +80,32 @@ describe('checkChain', () => {
 		expect(t.pass).toBe(t.total);
 	});
 
+	it('resolves a next_hw whose spacing differs from the key', () => {
+		// The map is keyed by `linkKey`, so a doubled space in the link
+		// finds the single-spaced key.
+		const entries: SourceEntry[] = [
+			{
+				content: { senses: [] },
+				headword: 'א',
+				next_hw: 'בַּד  V',
+				rid: 'A00001',
+			},
+			{
+				content: { senses: [] },
+				headword: 'בַּד  V',
+				prev_hw: 'א',
+				rid: 'A00002',
+			},
+		];
+		const map = new Map([
+			['א', 'A00001'],
+			['בַּד V', 'A00002'],
+		]);
+		const t = checkChain(entries, map);
+		expect(t.failures).toEqual([]);
+		expect(t.pass).toBe(t.total);
+	});
+
 	it('fails a chain with a swapped next_hw', () => {
 		// A00001 and A00002's next_hw values are swapped relative to the
 		// ordered fixture, so the chain jumps straight to A00003.
