@@ -243,10 +243,10 @@ print; a sense address could never point at print's second `2)`.
 number in its text?
 
 - **self-numbered-intext-marker**
-  - [ ] port a review detector (reports rows, no repair)
+  - [x] port a review detector (reports rows, no repair)
   - [ ] discard with the control named above
   - [ ] write a reviewed patch set (say the rule in the note)
-  - [x] can't decide yet (say what is missing in the note)
+  - [ ] can't decide yet (say what is missing in the note)
   - note: I believe these to be textual or print errors. Can we create a deterministic fix? (Note that in at least one case, the issue creates a downstream sense numbering issue as well).  Please remember as this is a modification to text it needs to be anotated. If a determenistic fix is not possible then we sould create a detector, and run a review to make patches.
 
 **Answer (2026-10-10, for the question in the note; nothing is
@@ -782,10 +782,10 @@ show what print sets before `מלכות`.
 **Question.** What does print set between `Greece;` and `מלכות)`?
 
 - **J00199**
-  - [ ] `—2)` and a lost opener: number it and restore the opener (write print's text from `Greece;` to `מלכות)` in the note)
+  - [x] `—2)` and a lost opener: number it and restore the opener (write print's text from `Greece;` to `מלכות)` in the note)
   - [ ] `—2)` only: print has no opener there (say what the `)` closes in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: Greece; — 2) fem. (sub, מלכות) Greek (Syrian) Government.
 
 
 ### D01114 (`דְּרַס`), class 8: the residue and a lost `2)`
@@ -807,11 +807,11 @@ mirrored `—3)`, and the punctuation after `2)` is unclear (`2),` or
 **Question.** How should D01114's sense 3 read?
 
 - **D01114**
-  - [ ] `3) as preced. 2). Ḥull. 9ᵃ …`: move it and restore `2). ` from print
+  - [x] `3) as preced. 2). Ḥull. 9ᵃ …`: move it and restore `2). ` from print
   - [ ] `3) as preced. 2), Ḥull. 9ᵃ …`: move it and restore `2), ` from print
   - [ ] something else (write print's text in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note:
 
 
 ### B00753 (`בַּיִת`), class 8's sibling: `—1`, and lost words
@@ -830,7 +830,7 @@ cover &c.`, so `1) in compounds, denoting ` is in no source byte. A
 **Question.** How should B00753's sense 11 be repaired?
 
 - **B00753**
-  - [ ] drop `—1` from sense 10, number the next sense `—11)`, and restore `in compounds, denoting ` from print
+  - [x] drop `—1` from sense 10, number the next sense `—11)`, and restore `in compounds, denoting ` from print
   - [ ] drop `—1` and number it `—11)` only (the lost words stay a known gap)
   - [ ] can't tell from the scan
   - note: 
