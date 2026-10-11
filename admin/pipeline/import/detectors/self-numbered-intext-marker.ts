@@ -10,9 +10,9 @@
  * labelled sense whose visible text, gloss then units, holds an em
  * dash, an optional `*`, and its own number closed by `)`, where the
  * text before the dash ends on `.` (a sentence boundary), outside
- * every open paren or bracket, and outside a `<cite>` anchor. A `)` or
- * `]` with nothing open closes nothing (an earlier `1)` or `a)` is a
- * marker, not a close), so it leaves the depth at zero.
+ * every open paren or bracket, and wholly outside a `<cite>` anchor.
+ * A `)` or `]` with nothing open closes nothing (an earlier `1)` or
+ * `a)` is a marker, not a close), so it leaves the depth at zero.
  *
  * What it misses: a repeat with no dash (`. 2) to sign`), one after a
  * `;` or `,` rather than a full stop, and one inside an unclosed paren
@@ -110,7 +110,9 @@ function outsideParens(text: string, index: number): boolean {
 }
 
 /** The sites in one labelled sense: `—N)` with N its own label, at a
- * full stop, outside parens, brackets and anchors. */
+ * full stop, outside parens, brackets and anchors. No character of the
+ * match may sit in an anchor: in `—<cite>2)</cite>` the dash is prose
+ * but the number is a citation's text. */
 function sitesIn(at: SenseAt): string[] {
 	const label = at.sense.label ?? '';
 	const { inAnchor, text } = visibleOf(at);
@@ -121,7 +123,7 @@ function sitesIn(at: SenseAt): string[] {
 		if (
 			match.groups?.['num'] !== label ||
 			!atBoundary ||
-			inAnchor[index] === true ||
+			inAnchor.slice(index, index + match[0].length).some(Boolean) ||
 			!outsideParens(text, index)
 		) {
 			continue;
