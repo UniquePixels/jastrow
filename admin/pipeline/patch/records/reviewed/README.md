@@ -21,6 +21,13 @@ the unresolved finding as `escalation`.
   one-record-per-rid rule is for agent tranches, and some rids here
   also have agent records.
 
+On 2026-10-11 (PR #160, ledger L58) 28 more left: the companion
+`replace` patches (`)<` → `) <`) that put back the space a `join`
+lost after its marker. The `join` op now restores that space itself,
+so the 28 entries came out byte-identical without them. Their bytes
+are at
+[`docs/archive/patches-retired-2026-10-11/`](../../../../../docs/archive/patches-retired-2026-10-11/).
+
 ## Rulings still in force
 
 Lifted verbatim from `data/patches/RUNBOOK.md` when that procedure was

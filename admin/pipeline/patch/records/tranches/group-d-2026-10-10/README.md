@@ -88,15 +88,25 @@ Pi. section), so the entry column sums to 76 for 75 entries.
   the implied `1)`, `2)`; that is the `stranded-stem-head` family, not
   this set.
 
-## Known shape: a join keeps Sefaria's lost space
+## Fixed: the space a join lost
 
-A `join` conserves bytes: it appends the token and the minted sense's
-text as they stand. Where Sefaria's split ate the space after the
-citation's `)`, the joined text reads `Pi. 2)praise`. That happens in
-A01620, H00806, P01397 and V00144 (`Af.1)vomit`, where the space before
-the numeral went too), as it did in 28 of the 36 earlier
-`reviewed-join` patches. The repair is a one-byte `replace` per site,
-and it is recorded as a ledger row rather than folded in here.
+A `join` used to append the token and the minted sense's text as they
+stood. Where Sefaria's split ate the space after the citation's `)`,
+the joined text read `Pi. 2)praise`: A01620, H00806, P01397 and V00144
+here. The 36 earlier `reviewed-join` patches had the same shape, and
+28 of them carried a companion `replace` (`)<` → `) <`) to put the
+space back.
+
+Ledger L58 fixed the op instead (PR #160): `join` now sets the marker
+back with one space after it, unless the text starts with whitespace
+or with `, ; . : ) ]`. The four entries here gained that space. The
+28 companion replaces then did nothing, so they were retired to
+`docs/archive/patches-retired-2026-10-11/` (that README lists them),
+and their 28 entries are byte-identical. P000393 (A01620's split runs
+on the joined text) carries the spaced text as its `expected_before`.
+
+The space print sets BEFORE the numeral is still lost: V00144 reads
+`Af.1) vomit` where print has `Af. 1) vomit`. That is ledger L61.
 
 ## Every patch
 
