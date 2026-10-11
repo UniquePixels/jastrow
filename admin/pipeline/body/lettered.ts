@@ -246,7 +246,7 @@ function findMarks(text: string): Mark[] | null {
 function ascendingRun(marks: readonly Mark[]): Mark[] {
 	const run: Mark[] = [];
 	for (const mark of marks) {
-		if (mark.letter !== String.fromCharCode(97 + run.length)) {
+		if (mark.letter !== String.fromCodePoint(97 + run.length)) {
 			break;
 		}
 		run.push(mark);
