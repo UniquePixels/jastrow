@@ -145,16 +145,22 @@ function findMarksInWindow(text: string, from: number, to: number): Mark[] {
 	return marks;
 }
 
-/** The subsequence of `marks` forming a clean 1), 2), 3)… run starting at
- * 1 — mirrors `lettered.ts`'s `ascendingRun`, but a single-item run (just
- * `1)`, no `2)`) is accepted: unlike a)/b) sequences, Jastrow sometimes
- * restarts numbering for a form section with only one sense. */
-function ascendingRun(marks: Mark[]): Mark[] {
+/** The leading markers of `marks` that read 1), 2), 3)… from 1. The
+ * run ends at the first marker that is not the next number, and no
+ * marker is ever skipped (L62), as in `lettered.ts`'s `ascendingRun`
+ * since L56: skipping one would make a later number an item and cut
+ * a sense out of the middle of the one before it. A marker out of
+ * sequence before `1)` leaves no run, so the text stays whole, the
+ * under-split direction (B9). Unlike a)/b) runs, a single-item run
+ * (just `1)`) is accepted: Jastrow sometimes restarts numbering for a
+ * form section with only one sense. */
+function ascendingRun(marks: readonly Mark[]): Mark[] {
 	const run: Mark[] = [];
 	for (const mark of marks) {
-		if (mark.num === run.length + 1) {
-			run.push(mark);
+		if (mark.num !== run.length + 1) {
+			break;
 		}
+		run.push(mark);
 	}
 	return run;
 }

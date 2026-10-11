@@ -171,6 +171,19 @@ describe('splitFormSection', () => {
 	});
 });
 
+describe('splitFormSection: a run ends at a mismatch (L62)', () => {
+	it('keeps an out-of-sequence 3), and the 2) after it, in item 1', () => {
+		// The skip `lettered.ts` lost in L56; the under-split side (B9).
+		const text = 'sing.—Pl. form 1) first.—3) stray.—2) second.';
+		expect(assertSplit(text).items).toEqual([
+			{ label: '1', text: ' first.—3) stray.—2) second.' },
+		]);
+	});
+	it('leaves the text whole when a 3) precedes 1)', () => {
+		expect(splitFormSection('sing.—Pl. form 3) stray.—1) first.')).toBeNull();
+	});
+});
+
 describe('splitFormSection: non-Pl. markers (B12 extension)', () => {
 	it('splits a —Part. pass. block (literal marker text)', () => {
 		const text = 'host.—Part. pass. form 1) first sense—2) second sense';
