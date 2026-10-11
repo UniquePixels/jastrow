@@ -249,8 +249,8 @@ number in its text?
   - [ ] can't decide yet (say what is missing in the note)
   - note: I believe these to be textual or print errors. Can we create a deterministic fix? (Note that in at least one case, the issue creates a downstream sense numbering issue as well).  Please remember as this is a modification to text it needs to be anotated. If a determenistic fix is not possible then we sould create a detector, and run a review to make patches.
 
-**Answer (2026-10-10, for the question in the note; nothing is
-ticked or implemented).** No deterministic *text* fix exists, because
+**Historical answer (2026-10-10, for the question in the note;
+nothing was ticked or implemented at that time).** No deterministic *text* fix exists, because
 in every row the hOCR can read, the doubled numeral is print's own;
 a deterministic *split* does exist, but the number the new sense takes
 is a choice the data cannot make.
