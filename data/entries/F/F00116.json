@@ -23,11 +23,22 @@
 			"forms": [],
 			"senses": [
 				{
-					"gloss": "<cite ref=\"F00115\"><he>וַותֵּר</he></cite> l) <i>to give a surplus, to profit, avail</i>. ",
+					"gloss": "<cite ref=\"F00115\"><he>וַותֵּר</he></cite> ",
+					"units": []
+				},
+				{
+					"gloss": " <i>to give a surplus, to profit, avail</i>. ",
 					"units": [
-						"<cite ref=\"Aramaic Targum to Proverbs 10:2\">Targ. Prov. X, 2</cite>.—2) <i>to be indulgent, to overlook</i>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 10:2\">Targ. Prov. X, 2</cite>."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <i>to be indulgent, to overlook</i>. ",
+					"units": [
 						"<cite ref=\"Vayikra Rabbah 10\">Lev. R. s. 10</cite>, beg. <he>אם אין את מְוַותֵּר ציבחר וכ׳</he> unless thou overlook something &c.; <cite ref=\"Bereishit Rabbah 49:2\">Gen. R. s. 49</cite>; a. e."
-					]
+					],
+					"label": "2"
 				}
 			],
 			"stem": "Pa."

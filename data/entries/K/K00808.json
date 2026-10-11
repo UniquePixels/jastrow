@@ -41,13 +41,14 @@
 			"forms": ["אַכְמִין"],
 			"senses": [
 				{
-					"gloss": " <cite ref=\"K00807\">same</cite>, v. supra.—2) as <cite ref=\"K00807\">preced.</cite> ",
+					"gloss": " <cite ref=\"K00807\">same</cite>, v. supra.",
 					"units": [],
 					"label": "1"
 				},
 				{
-					"gloss": "<i>Hif.</i> ",
-					"units": ["<cite ref=\"Sanhedrin 29b\">Snh. 29ᵇ</cite>."]
+					"gloss": "as <cite ref=\"K00807\">preced.</cite> <i>Hif.</i> ",
+					"units": ["<cite ref=\"Sanhedrin 29b\">Snh. 29ᵇ</cite>."],
+					"label": "2"
 				}
 			],
 			"stem": "Af."

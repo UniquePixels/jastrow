@@ -105,22 +105,41 @@ describe('validateNoNewText', () => {
 		expect(verdict.ok).toBe(true);
 	});
 
-	it('accepts a byte-conserving join (the reverse of split)', () => {
-		const before: SourceEntry = {
-			content: {
-				senses: [
-					{ definition: 'see (v. X', number: '1)' },
-					{ definition: ' Y) night', number: '2)' },
-				],
-			},
-			headword: 'טסט',
-			rid: 'T00001',
-		};
-		const patch = patchFor(' Y) night', '2)', { op: 'join', payload: {} });
-		const after = applyPatch(before, patch);
-		const verdict = validateNoNewText(patch, before, after);
-		expect(verdict.ok).toBe(true);
-	});
+	// [name, sense 1 text, sense 2 text, sense 1 text after the join]:
+	// a join is the reverse of a split, and the one space it restores
+	// after the marker is the only byte it may add.
+	const JOINS: [string, string, string, string][] = [
+		[
+			'a byte-conserving join',
+			'see (v. X',
+			' Y) night',
+			'see (v. X2) Y) night',
+		],
+		[
+			'the one space a join restores after the marker',
+			'see (v. X, Pi. ',
+			'night',
+			'see (v. X, Pi. 2) night',
+		],
+	];
+	for (const [name, first, second, joined] of JOINS) {
+		it(`accepts ${name}`, () => {
+			const before: SourceEntry = {
+				content: {
+					senses: [
+						{ definition: first, number: '1)' },
+						{ definition: second, number: '2)' },
+					],
+				},
+				headword: 'טסט',
+				rid: 'T00001',
+			};
+			const patch = patchFor(second, '2)', { op: 'join', payload: {} });
+			const after = applyPatch(before, patch);
+			expect(after.content.senses[0]?.definition).toBe(joined);
+			expect(validateNoNewText(patch, before, after).ok).toBe(true);
+		});
+	}
 });
 
 describe('validateNoNewText rejections', () => {

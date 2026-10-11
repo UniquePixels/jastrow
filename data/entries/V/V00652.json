@@ -17,14 +17,25 @@
 	},
 	"senses": [
 		{
-			"gloss": " ch. <cite ref=\"V00651\">same</cite>, l) <i>to wonder</i> &c. ",
+			"gloss": " ch. <cite ref=\"V00651\">same</cite>, ",
+			"units": []
+		},
+		{
+			"gloss": " <i>to wonder</i> &c. ",
 			"units": [
 				"<cite ref=\"Onkelos Genesis 43:33\">Targ. Gen. XLIII, 33</cite>. ",
 				"<cite ref=\"Targum Jonathan on Genesis 17:17\">Targ. Y. ib. XVII, 17</cite> (h. text <he>ויצחק</he>). ",
 				"<cite ref=\"Targum Jonathan on Genesis 18:12\">Targ. Y. I ib. XVIII, 12</cite> (<cite ref=\"Targum Jonathan on Genesis 2\">II</cite> <he>חייכ׳</he>). Targ. Y. ib. 15. ",
-				"<cite ref=\"Targum Jonathan on Ezekiel 32:10\">Targ. Ez. XXXII, 10</cite>; a. e.—Part. <cite ref=\"V00674\"><he>תְּמִיהַּ</he></cite>; f. <cite ref=\"V00675\"><he>תְּמִיהָא</he></cite>. Targ. II Esth. I, 2 <he>ת׳ ומַתְמְהָא</he>.—V. <cite ref=\"A03423\"><he>אֶתְמְהָא</he></cite>.—2) <i>to be astonishing</i>. ",
+				"<cite ref=\"Targum Jonathan on Ezekiel 32:10\">Targ. Ez. XXXII, 10</cite>; a. e.—Part. <cite ref=\"V00674\"><he>תְּמִיהַּ</he></cite>; f. <cite ref=\"V00675\"><he>תְּמִיהָא</he></cite>. Targ. II Esth. I, 2 <he>ת׳ ומַתְמְהָא</he>.—V. <cite ref=\"A03423\"><he>אֶתְמְהָא</he></cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>to be astonishing</i>. ",
+			"units": [
 				"<cite ref=\"Bereishit Rabbah 94\">Gen. R. s. 94</cite> <he>אמר לי … והיא תַמְהָא</he> the elder of the Jews told me something, and that is astonishing; [perh. to be read <cite ref=\"V00653\"><he>תִּמְהָא</he></cite>, v. <cite ref=\"V00456\"><he>תֵּימַהּ</he></cite>]."
-			]
+			],
+			"label": "2"
 		}
 	],
 	"stems": [

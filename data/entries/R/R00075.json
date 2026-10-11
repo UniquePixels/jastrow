@@ -22,7 +22,11 @@
 	},
 	"senses": [
 		{
-			"gloss": " c. ch. l) <cite ref=\"R00074\">same</cite>. ",
+			"gloss": " c. ch. ",
+			"units": []
+		},
+		{
+			"gloss": " <cite ref=\"R00074\">same</cite>. ",
 			"units": [
 				"<cite ref=\"Gittin 56b:2\">Gitt. 56ᵇ</cite> <he>שקלינן צ׳ וכ׳</he> we get a pair of tongs and take the serpent away … and save the cask. ",
 				"<cite ref=\"Pesachim 54a:7\">Pes. 54ᵃ</cite> <he>צַבְתָּנָא בצ׳ מתעבדא צ׳</he> … <he>עבדה</he> Ms. M. (ed. <he>צ׳ בצ׳ מתעביד וכ׳</he>) our tongs are made with the help of tongs: who made the first tongs? Therefore the first tongs must have been a natural object; Tosef. Erub. XI (VIII), 23 (v. <cite ref=\"L00016\"><he>לַאי</he></cite>); <cite ref=\"Tosefta Chagigah 1:9\">Tosef. Ḥag. I, 9</cite> (applied to the numerous laws derived from a meagre text); expl. ",
@@ -31,8 +35,14 @@
 				"<cite ref=\"Targum Jonathan on I Kings 7:49\">Targ. I Kings VII, 49</cite>. ",
 				"<cite ref=\"Onkelos Numbers 4:9\">Targ. O. Num. IV, 9</cite> (ed. Berl. <he>צֵיבְתָ׳</he>). ",
 				"<cite ref=\"Onkelos Exodus 25:38\">Targ. O. Ex. XXV, 38</cite>; <cite ref=\"Onkelos Exodus 37:23\">XXXVII, 23</cite> <cite ref=\"R00075\"><he>צִיבְתָ׳</he></cite> ed. Berl. (ed. Vien. a. oth. <he>צִיבְיְתָ׳</he>, corr. acc.). ",
-				"<cite ref=\"Targum of II Chronicles 4:21\">Targ. II Chr. IV, 21</cite>.—2) <i>company</i>, v. <cite ref=\"R00183\"><he>צַוְותָּא</he></cite>."
-			]
+				"<cite ref=\"Targum of II Chronicles 4:21\">Targ. II Chr. IV, 21</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": " <i>company</i>, v. <cite ref=\"R00183\"><he>צַוְותָּא</he></cite>.",
+			"units": [],
+			"label": "2"
 		}
 	]
 }

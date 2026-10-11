@@ -37,10 +37,16 @@
 			"forms": ["כִּיהָה", "כִּהָה"],
 			"senses": [
 				{
-					"gloss": "<i>to grow duller, to be shaded</i>. Sifra Thazr., Neg., Par. 2, ch. II <he>אם העז וכ׳</he> if the spot grew brighter and grew duller again; a. fr.—2) <i>to declare doubtful</i>. ",
+					"gloss": "<i>to grow duller, to be shaded</i>. Sifra Thazr., Neg., Par. 2, ch. II <he>אם העז וכ׳</he> if the spot grew brighter and grew duller again; a. fr.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": " <i>to declare doubtful</i>. ",
 					"units": [
 						"<cite ref=\"Mishnah Negaim 4:11\">Neg. IV, 11</cite> <he>ר׳ י׳ כ׳</he>, v. <cite ref=\"K00151\"><he>כֵּהֶה</he></cite>."
-					]
+					],
+					"label": "2"
 				}
 			],
 			"stem": "Pi."

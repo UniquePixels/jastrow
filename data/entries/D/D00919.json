@@ -14,13 +14,14 @@
 	},
 	"senses": [
 		{
-			"gloss": " v. preced.—2) v. ",
+			"gloss": " v. preced.",
 			"units": [],
 			"label": "1"
 		},
 		{
-			"gloss": " v. preced.—2) v. <cite ref=\"D00925\"><he>דְּנָה</he></cite>. [<cite ref=\"Aramaic Targum to Proverbs 8:7\">Targ. Prov. VIII, 7</cite> <he>דנא</he>, Var. ed. Lag., v. <cite ref=\"T00842\"><he>רְנָא</he></cite>.]",
-			"units": []
+			"gloss": " v. <cite ref=\"D00925\"><he>דְּנָה</he></cite>. [<cite ref=\"Aramaic Targum to Proverbs 8:7\">Targ. Prov. VIII, 7</cite> <he>דנא</he>, Var. ed. Lag., v. <cite ref=\"T00842\"><he>רְנָא</he></cite>.]",
+			"units": [],
+			"label": "2"
 		}
 	]
 }

@@ -30,10 +30,17 @@
 				{
 					"gloss": "<i>to veil one’s self</i>. ",
 					"units": [
-						"<cite ref=\"Targum Jerusalem, Genesis 24:65\">Targ. Y. II, Gen. XXIV, 65</cite> (h. text <he>ותתכס</he>).—2) <he>אִצְטַמְטַם</he> (cmp. <he>מזדנזדין</he>, v. <he>זעזע</he>) <i>to be pressed, want</i>. ",
+						"<cite ref=\"Targum Jerusalem, Genesis 24:65\">Targ. Y. II, Gen. XXIV, 65</cite> (h. text <he>ותתכס</he>)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <he>אִצְטַמְטַם</he> (cmp. <he>מזדנזדין</he>, v. <he>זעזע</he>) <i>to be pressed, want</i>. ",
+					"units": [
 						"<cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> (<cite ref=\"T00152\"><he>רבתי</he></cite>) <he>אִצְטַמְטְמִינָן לבישרא וכ׳</he> we were pressed for meat (our store of meat had given out). ",
 						"<cite ref=\"Eichah Rabbah 1:1\">Ib.</cite> <he>ואצטמטימתון לחמרא</he> (corr. acc.) and we had no wine; v. <cite ref=\"R00602\"><he>צְמַת</he></cite>."
-					]
+					],
+					"label": "2"
 				}
 			],
 			"stem": "Ithpalp."

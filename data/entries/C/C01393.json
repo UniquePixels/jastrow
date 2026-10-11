@@ -51,9 +51,16 @@
 				{
 					"gloss": "<i>to make appetizing</i>. ",
 					"units": [
-						"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite> [read:] <he>אנא מְגָרֵיר וכ׳</he> I will make their drinks appetizing (induce them to get intoxicated, interpreting <cite ref=\"Jeremiah 51:39\">Jer. LI, 39</cite>; differ. in comment.).—2) <i>to saw off</i>. ",
+						"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite> [read:] <he>אנא מְגָרֵיר וכ׳</he> I will make their drinks appetizing (induce them to get intoxicated, interpreting <cite ref=\"Jeremiah 51:39\">Jer. LI, 39</cite>; differ. in comment.)."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": " <i>to saw off</i>. ",
+					"units": [
 						"<cite ref=\"Targum Jonathan on Deuteronomy 33:20\">Targ. Y. Deut. XXXIII, 20</cite> <he>דמְגָרֵר וכ׳</he> (or <he>דמַגְרַר</he> Af., ed. <he>דמִגְרַר</he>, corr. acc.) for he cuts off the arm &c. (II <cite ref=\"M02251\"><he>מַפְרַק</he></cite>)."
-					]
+					],
+					"label": "2"
 				}
 			],
 			"stem": "Pa."

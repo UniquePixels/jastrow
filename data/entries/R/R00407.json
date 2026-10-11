@@ -17,15 +17,10 @@
 	},
 	"senses": [
 		{
-			"gloss": "m. (<he>צפח</he> <i>to rush, storm</i>, v. P. Sm. 343",
-			"units": []
-		},
-		{
-			"gloss": ", <he>צִיפּוּחַ נְפשׁ</he> <i>rashness of soul, recklessness</i>. ",
+			"gloss": "m. (<he>צפח</he> <i>to rush, storm</i>, v. P. Sm. 3431), <he>צִיפּוּחַ נְפשׁ</he> <i>rashness of soul, recklessness</i>. ",
 			"units": [
 				"<cite ref=\"Targum Jonathan on Ezekiel 25:15\">Targ. Ez. XXV, 15</cite>; <cite ref=\"Targum Jonathan on Ezekiel 36:5\">XXXVI, 5</cite> (h. text <cite ref=\"U00017\"><he>שאט</he></cite>)."
-			],
-			"label": "1"
+			]
 		}
 	]
 }
