@@ -751,7 +751,10 @@ other five then go the OCR and dropped-number ways above.
   - [ ] confirm only those I tick below (list rids in the note)
   - [ ] none
   - [ ] can't decide yet
-  - note: As per your recomendation
+  - note: As per your recomendation — the 17 the worklist listed as
+    implied: J00627, J00657, K00030, K00121, K00156, K00859, N00235,
+    N00577, N01162, P01055, Q01352, S00826, S01731, T00243, T00375,
+    T00538, U00960; applied in PR #160
 
 ---
 
