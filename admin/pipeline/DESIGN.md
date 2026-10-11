@@ -291,7 +291,8 @@ direction:
   (Q00140's plural `a) b) c)` inside `b`).
 - **Form sections.** `Pl.`, `Part. pass.`, `Fem.`, `Denom.` split out
   of their host sense into a sibling with restarted child senses,
-  after the lettered split (`body/form-sections.ts`).
+  after the lettered split (`body/form-sections.ts`). Its numbered
+  run ends the same way, at the first number out of sequence (L62).
 - **Units.** A boundary opens only before a well-formed external
   citation whose preceding text ends `.` or `—` or is a sense start
   (`body/units.ts`). `gloss + units.join('') === text` always holds.
