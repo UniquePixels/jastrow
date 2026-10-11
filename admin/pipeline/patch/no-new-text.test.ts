@@ -121,6 +121,23 @@ describe('validateNoNewText', () => {
 		const verdict = validateNoNewText(patch, before, after);
 		expect(verdict.ok).toBe(true);
 	});
+
+	it('accepts the one space a join restores after the marker', () => {
+		const before: SourceEntry = {
+			content: {
+				senses: [
+					{ definition: 'see (v. X, Pi. ', number: '1)' },
+					{ definition: 'night', number: '2)' },
+				],
+			},
+			headword: 'טסט',
+			rid: 'T00001',
+		};
+		const patch = patchFor('night', '2)', { op: 'join', payload: {} });
+		const after = applyPatch(before, patch);
+		expect(after.content.senses[0]?.definition).toBe('see (v. X, Pi. 2) night');
+		expect(validateNoNewText(patch, before, after).ok).toBe(true);
+	});
 });
 
 describe('validateNoNewText rejections', () => {

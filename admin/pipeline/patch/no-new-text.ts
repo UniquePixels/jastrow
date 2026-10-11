@@ -17,6 +17,8 @@
  *   sibling's number field);
  * - `replace` may introduce closed-grammar tokens present in
  *   `payload.replace` (the OCR `l)` → `1)` class);
+ * - `join` may introduce one space, the one print sets after the
+ *   marker it folds back (`foldMarker` in schema.ts, ledger L58);
  * - `move` and `delete` get no allowance at all.
  *
  * Maintainer ruling (2026-08-11): correcting an obvious OCR error is
@@ -57,10 +59,13 @@ function codepointCounts(text: string): Map<string, number> {
 	return counts;
 }
 
-/** The synthesized-byte allowance an op's payload legitimately
- * introduces: the codepoints of its closed-grammar marker token(s). */
+/** The synthesized-byte allowance an op legitimately introduces: the
+ * codepoints of its closed-grammar marker token(s), or for `join` the
+ * one space it restores after the marker. */
 function markerAllowance(patch: SemanticPatch): Map<string, number> {
 	switch (patch.op) {
+		case 'join':
+			return codepointCounts(' ');
 		case 'retag':
 			return codepointCounts(patch.payload.number);
 		case 'split':

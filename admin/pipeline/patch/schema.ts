@@ -56,6 +56,11 @@ const FORMS_TARGET = /^forms:(?<anchor>[0-9a-f]{8})$/u;
 /** The closed sense-marker grammar (`N)` / `—N)`) — the only tokens a
  * patch may synthesize (spec §4.3, no-new-text validator). */
 const CLOSED_MARKER = /^—?\d{1,2}\)$/u;
+/** Text that sits tight against a marker a `join` folds back: the
+ * space print sets after `N)` is already there, or print sets
+ * punctuation hard against the `)` (`preced. 2), being`, `Is. XL,
+ * 1); a. fr.`). Any other text gets the one space back. */
+const TIGHT_AFTER_MARKER: RegExp = /^[\s,.:;)\]]/u;
 
 /** How sure the patch's author was, as the record states it. It is
  * provenance, not permission: nothing in the apply path branches on
@@ -1192,7 +1197,8 @@ function applyDelete(
 }
 
 /** `join`: fold the target's number + definition into the preceding
- * sibling, or into its own head when it is the first sibling. */
+ * sibling, or into its own head when it is the first sibling. The
+ * marker goes back with print's space after it (`foldMarker`). */
 function applyJoin(
 	patch: JoinPatch,
 	position: SensePosition,
@@ -1217,7 +1223,7 @@ function applyJoin(
 		);
 	}
 	if (position.index === 0) {
-		position.sense.definition = token + definition;
+		position.sense.definition = foldMarker(token, definition);
 		// The key must vanish so an unnumbered sense serialises as one
 		// (exactOptionalPropertyTypes forbids assigning undefined).
 		// biome-ignore lint/performance/noDelete: key must vanish
@@ -1230,9 +1236,22 @@ function applyJoin(
 			'preceding sibling has child senses; the joined text would land after them',
 		);
 	} else {
-		previous.definition = (previous.definition ?? '') + token + definition;
+		previous.definition =
+			(previous.definition ?? '') + foldMarker(token, definition);
 		position.siblings.splice(position.index, 1);
 	}
+}
+
+/** The marker `token` set back in front of the text Sefaria minted
+ * from it. Sefaria's split ate the space print sets after the `)`
+ * (`Pi. 2)praise`, L58), so the fold puts one back unless the text
+ * already starts with whitespace or with punctuation print sets hard
+ * against the `)`. Only that one space: the space print sets BEFORE
+ * the numeral is not the fold's to restore. */
+function foldMarker(token: string, definition: string): string {
+	const gap =
+		definition === '' || TIGHT_AFTER_MARKER.test(definition) ? '' : ' ';
+	return token + gap + definition;
 }
 
 /** `move`: lift the exact segment out and reinsert it beside the

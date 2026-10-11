@@ -336,6 +336,56 @@ describe('join', () => {
 			{ definition: 'day2) night', number: 'a)' },
 		]);
 	});
+
+	/** A01620's two senses as the patch phase receives them: Sefaria
+	 * minted `2)` out of `(v. אָשַׁר, Pi. 2) praise` and the minted text
+	 * lost print's space after the `)`. Bytes copied from the composed
+	 * entry and P000392's `expected_before`. */
+	const A01620_PREVIOUS: string =
+		' (v. <a dir="rtl" class="refLink" href="/Jastrow,_אָשַׁר.1" data-ref="Jastrow, אָשַׁר 1">אָשַׁר</a>, <i>Pi.</i> ';
+	const A01620_TARGET: string =
+		'<i>praise, adoration</i>. <a class="refLink" href="/Shir_HaShirim_Rabbah.8.11" data-ref="Shir HaShirim Rabbah 8:11">Cant. R. to VIII, 11</a> <span dir="rtl">אישורְךָ היא</span> it is thy praise. <a class="refLink" href="Jerusalem_Talmud_Sukkah.3.11.1" data-ref="Jerusalem Talmud Sukkah 3:11:1">Y. Succ. III, 54ᵃ</a> top, with ten var. expressions of praise are the psalms headed <span dir="rtl">באי׳</span> with the word <i>ashré</i>, &c.—2) (v. <a dir="rtl" class="refLink" href="/Jastrow,_אָשַׁר.1" data-ref="Jastrow, אָשַׁר 1">אָשַׁר</a> <i>Pi.</i> 1) <i>legal attestation</i>. <a class="refLink" href="Jerusalem_Talmud_Bava_Metzia.1.8.2" data-ref="Jerusalem Talmud Bava Metzia 1:8:2">Y. B. Mets. I, 8ᵃ</a> bot; v. <a dir="rtl" class="refLink" href="/Jastrow,_אַשָּׁרָא.1" data-ref="Jastrow, אַשָּׁרָא 1">אַשָּׁרָא</a>. [Some ed. <span dir="rtl">אֵישֶׁר</span>.].';
+
+	it('restores the space print sets after the folded marker', () => {
+		const entry: SourceEntry = {
+			content: {
+				senses: [
+					{ definition: A01620_PREVIOUS, number: '1)' },
+					{ definition: A01620_TARGET, number: '2)' },
+				],
+			},
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const patch = patchFor(A01620_TARGET, '2)', { op: 'join', payload: {} });
+		const senses = applyPatch(entry, patch).content.senses;
+		expect(senses).toHaveLength(1);
+		expect(senses[0]?.definition).toBe(`${A01620_PREVIOUS}2) ${A01620_TARGET}`);
+	});
+
+	it('restores the space when the folded marker opens the list', () => {
+		const entry: SourceEntry = {
+			content: { senses: [{ definition: '<i>night</i>', number: '2)' }] },
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const patch = patchFor('<i>night</i>', '2)', { op: 'join', payload: {} });
+		expect(applyPatch(entry, patch).content.senses).toEqual([
+			{ definition: '2) <i>night</i>' },
+		]);
+	});
+
+	it.each([
+		[', <i>being raised</i>'],
+		[') night'],
+		['; a. fr.'],
+	])('inserts no space before closing punctuation: %p', (text) => {
+		const entry = joinEntry({}, { definition: text });
+		const patch = patchFor(text, '2)', { op: 'join', payload: {} });
+		expect(applyPatch(entry, patch).content.senses).toEqual([
+			{ definition: `day2)${text}`, number: '1)' },
+		]);
+	});
 });
 
 describe('retag', () => {
