@@ -5,6 +5,9 @@
  * "Outside parens" is `parenFiltered`'s rule: a marker inside an
  * open `(`, at any nesting depth, does not count, and a text whose
  * paren state is unclear (a `)` with no `(` open) does not split.
+ * The run ends at the first counted marker that is not the next
+ * letter (`ascendingRun`): a later run nested in the last item stays
+ * in that item's text, and no marker is ever skipped (L56).
  *
  * That is the deliberate under-split failure mode (decision B5/B9):
  * an unsplit block is still readable, a wrongly split one is not.
@@ -222,9 +225,8 @@ function depthStep(
 /** Every counted marker in document order: the candidates outside
  * parens (`parenFiltered`) and anchors (`insideAnchor`), or null when
  * the paren state is unclear. Does not yet enforce ascending order —
- * that's the caller's job, since a single stray marker breaking the
- * run should stop the sequence there rather than reject the whole
- * text. */
+ * that is `ascendingRun`'s job, which ends the run at the first
+ * marker out of sequence. */
 function findMarks(text: string): Mark[] | null {
 	const outside = parenFiltered(text, candidateMarks(text));
 	if (outside === null) {
@@ -233,18 +235,21 @@ function findMarks(text: string): Mark[] | null {
 	return outside.filter((mark) => !insideAnchor(text, mark.index));
 }
 
-/** The subsequence of `marks` that forms a clean a), b), c)… sequence
- * starting at 'a'. A marker that doesn't match the next expected
- * letter is skipped rather than ending the scan, so noise between
- * genuine markers (a stray out-of-sequence letter) doesn't break an
- * otherwise-real run. */
-function ascendingRun(marks: Mark[]): Mark[] {
+/** The leading markers of `marks` that read a), b), c)… from 'a'.
+ * The run ends at the first marker that is not the next letter, and
+ * no marker is ever skipped (L56): skipping one let Q00140's outer
+ * run, at `b)`, pass over the plural's nested `a) b)` and take its
+ * `c)`, which print sets as the plural's third item. Ending there
+ * leaves the nested run inside the last item's text, the under-split
+ * direction (B9). A marker out of sequence before `a)` or `b)` leaves
+ * fewer than two, so the text stays whole. */
+function ascendingRun(marks: readonly Mark[]): Mark[] {
 	const run: Mark[] = [];
 	for (const mark of marks) {
-		const expected = String.fromCharCode(97 + run.length);
-		if (mark.letter === expected) {
-			run.push(mark);
+		if (mark.letter !== String.fromCharCode(97 + run.length)) {
+			break;
 		}
+		run.push(mark);
 	}
 	return run;
 }

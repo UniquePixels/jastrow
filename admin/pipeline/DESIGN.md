@@ -285,7 +285,10 @@ direction:
   Everything else stays whole (`body/lettered.ts`). A marker inside an
   open `(`, at any depth, does not count (P00790's `(v. Kal, c)`), and
   a text with a `)` that closes nothing does not split at all, since
-  its paren depths cannot be trusted.
+  its paren depths cannot be trusted. The run ends at the first
+  counted marker that is not the next letter; no marker is skipped.
+  So a run nested in the last item stays in that item's text
+  (Q00140's plural `a) b) c)` inside `b`).
 - **Form sections.** `Pl.`, `Part. pass.`, `Fem.`, `Denom.` split out
   of their host sense into a sibling with restarted child senses,
   after the lettered split (`body/form-sections.ts`).

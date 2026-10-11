@@ -7,7 +7,7 @@ import { readSourceEntries } from './source.ts';
 
 const FIXTURES = 'admin/pipeline/body/fixtures/lettered.jsonl';
 
-/** Loads the 9-entry fixture set once per test file (tiny, so an array
+/** Loads the 11-entry fixture set once per test file (tiny, so an array
  * is simpler for callers than re-streaming per test). */
 async function loadFixtures(): Promise<SourceEntry[]> {
 	const entries: SourceEntry[] = [];
@@ -106,13 +106,6 @@ describe('splitLettered', () => {
 		expect(parts.items.map((i) => i.letter)).toEqual(['a', 'b']);
 	});
 
-	it('skips an out-of-sequence marker rather than ending the run', () => {
-		const parts = assertSplit('a) one c) two b) three');
-		expect(parts.items.map((i) => i.letter)).toEqual(['a', 'b']);
-		expect(parts.items[0]?.text).toBe(' one c) two ');
-		expect(parts.items[1]?.text).toBe(' three');
-	});
-
 	it('requires the run to start at a)', () => {
 		expect(splitLettered('b) one c) two')).toBeNull();
 	});
@@ -193,19 +186,19 @@ describe('fixture sweep (fixtures/lettered.jsonl)', () => {
 		const { mismatches, splitCount } = sweepFixtures(entries);
 
 		expect(mismatches).toEqual([]);
-		// These counts are tied to the current 10-entry fixture set
+		// These counts are tied to the current 11-entry fixture set
 		// (fixtures/lettered.jsonl) — update both if fixtures are added,
 		// removed, or edited. Measured across that set (see task report
 		// for the per-entry breakdown): A01999 def#1 [a,b,c], A01873
 		// def#2 [a,b,c], C00031 def#2 [a,b,c,d], E00378 def#3 [a,b],
 		// C00009 def#2 [a,b], plus the Task 15 italic classes: O01078
 		// def#1 [a,b], P00480 def#3 [a,b,c,d], Q01353 def#7 [a,b],
-		// and P00790 (L53) def#1 [a,b,c,d,e] and def#7, the Hif. sense
-		// 2, [a,b,c,d] — 10 definitions split in total. Q01198 def#1 no
-		// longer splits: its `(b. h.;` never closes, so its run reads as
-		// inside that paren (L53).
-		expect(entries).toHaveLength(10);
-		expect(splitCount).toBe(10);
+		// P00790 (L53) def#1 [a,b,c,d,e] and def#7, the Hif. sense 2,
+		// [a,b,c,d], and Q00140 (L56) def#1 [a,b] — 11 definitions split
+		// in total. Q01198 def#1 no longer splits: its `(b. h.;` never
+		// closes, so its run reads as inside that paren (L53).
+		expect(entries).toHaveLength(11);
+		expect(splitCount).toBe(11);
 	});
 
 	it("A01999's lettered run splits into a), b), c)", async () => {

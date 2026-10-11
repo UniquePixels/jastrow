@@ -4,7 +4,8 @@ import { joinLettered, splitLettered } from './lettered.ts';
 import { readSourceEntries } from './source.ts';
 
 // L53: the paren rule `parenFiltered` states, on synthetic cases and
-// on the two fixture entries it changed. Kept apart from
+// on the two fixture entries it changed; L56: where `ascendingRun`
+// ends a run, on synthetic cases and on Q00140. Kept apart from
 // lettered.test.ts, which holds the marker shapes and the sweep.
 
 const FIXTURES = 'admin/pipeline/body/fixtures/lettered.jsonl';
@@ -91,6 +92,60 @@ describe('splitLettered paren state (L53)', () => {
 			expect(itemsOf(text)).toEqual(expected);
 		});
 	}
+});
+
+// L56: a run ends at the first counted marker that is not the next
+// letter; it never skips one. A later run inside the last item stays
+// in that item's text, and a mismatch before the run's `b)` leaves
+// too few markers to split.
+// [case, text, items it splits into or null]
+const RUN_CASES: [string, string, string[] | null][] = [
+	[
+		'nested run in the last item',
+		'x a) one b) two a) three c) four',
+		['a=one', 'b=two a) three c) four'],
+	],
+	[
+		'restarted run in the last item',
+		'x a) one b) two a) three b) four',
+		['a=one', 'b=two a) three b) four'],
+	],
+	['out-of-sequence letter mid-run', 'x a) one c) two b) three', null],
+	['stray letter before the run', 'x c) one a) two b) three', null],
+	[
+		'run ends where a letter repeats',
+		'x a) one b) two b) three c) four',
+		['a=one', 'b=two b) three c) four'],
+	],
+];
+
+describe('splitLettered run end (L56)', () => {
+	for (const [name, text, expected] of RUN_CASES) {
+		it(name, () => {
+			expect(itemsOf(text)).toEqual(expected);
+		});
+	}
+
+	it("Q00140's run ends at b), keeping the plural's a) b) c) in b", async () => {
+		// Print (vol. 2 p. 1138a): `לְפִי a) … —b) because … —Pl. a)
+		// פִּיּוֹת … —b) פִּיפִיּוֹת … —c) (Chald. pl.) פּוּמִין`. The c)
+		// is the plural's third item. The outer run meets the plural's
+		// a) where it wants c), so it ends at b) and b's text keeps the
+		// whole plural run: an under-split, not a c) under the wrong
+		// parent.
+		const entry = await fixture('Q00140');
+		const definition = entry.content.senses[0]?.definition ?? '';
+		const parts = splitLettered(definition);
+		if (parts === null) {
+			throw new Error('expected Q00140 sense 1 to split');
+		}
+		expect(parts.items.map((i) => i.letter)).toEqual(['a', 'b']);
+		const b = parts.items[1]?.text ?? '';
+		expect(b).toContain('<i>Pl. a</i>) ');
+		expect(b).toContain('—<i>b</i>) ');
+		expect(b).toContain('—<i>c</i>) (Chald. pl.) ');
+		expect(joinLettered(parts)).toBe(definition);
+	});
 });
 
 describe('lettered fixtures the paren rule changed (L53)', () => {
