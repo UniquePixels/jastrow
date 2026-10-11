@@ -141,6 +141,11 @@ describe('self-numbered-intext-marker', () => {
 			'2',
 			'<cite ref="x">Gitt. VI.—2)</cite> <i>to sign</i>.',
 		],
+		[
+			'the marker’s number is a citation’s text though the dash is not',
+			'2',
+			'a. fr.—<cite ref="x">2)</cite> <i>to sign</i>.',
+		],
 	];
 	for (const [what, label, unit] of negatives) {
 		it(`is silent when ${what}`, () => {
