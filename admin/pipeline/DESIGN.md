@@ -1090,10 +1090,11 @@ corrected in the admin tool after go-live.* It is stated in
 - `blocks` — `headword-unparsed`, `upstream-changed`, `upstream-fixed`.
 - `defer` — `headword-duplicate-form`, `paren-group-close-unknown`,
   `markup-carry`, `page-confidence-low`, `page-confidence-medium`,
-  `review-deferred`, `patch-consolidated-away`, plus the seven detected
+  `review-deferred`, `patch-consolidated-away`, plus the eight detected
   classes (`empty-body`, the five catalogued blocking classes, and
-  `inflection-sublist-numbering-flattened`, a Group D class ruled a
-  detector on 2026-10-10).
+  two Group D classes ruled a detector on 2026-10-10:
+  `inflection-sublist-numbering-flattened` and
+  `self-numbered-intext-marker`).
 - `note` — `headword-partial-only`.
 
 A kind the table does not name **throws** (`ruleOf`), so a new kind
