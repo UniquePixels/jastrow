@@ -34,6 +34,10 @@ round-2 entries are answered and applied as reviewed patches
 (P000510–P000517, PR #164), each restoring the text the maintainer
 read from print.
 
+**Open 2026-10-11.** Class 3's scan review: one block and one
+question for each of the detector's 22 rows, in § `Class 3 scan review
+(2026-10-11)` near the end, the maintainer's to tick.
+
 How I chose each recommendation, so the rows read the same way:
 
 - **Discard** where the reader sees what print sets and the structure
@@ -323,6 +327,9 @@ does nothing for the reading in your note that these are errors.
   - [ ] split by reviewed patch now and number on (N+1), deviation in each rationale
   - [ ] can't decide yet
   - note: 
+
+Scan review for the 22 rows: see § `Class 3 scan review (2026-10-11)`
+below.
 
 Applied in PR #163 (2026-10-11), from the first question's tick
 ("port a review detector") and its note: the detector reports the 22
@@ -857,6 +864,625 @@ cover &c.`, so `1) in compounds, denoting ` is in no source byte. A
 
 Applied in PR #164: P000515 drops `—1` from sense 10, P000516
 restores `in compounds, denoting `, P000517 numbers the sense `—11)`.
+
+---
+
+## Class 3 scan review (2026-10-11)
+
+These are the 22 rows `self-numbered-intext-marker` reports (PR #163),
+one block and one question per entry, laid out as round 2's: what the
+entry stores, the hOCR lines of both markers, and the scan. Tick ONE
+box per entry, add a note only where a box asks for one, and skip
+anything you like. A later PR turns the ticks into reviewed patches,
+and any change to print's text is annotated in each patch's rationale.
+
+How to read the blocks:
+
+- The label lists are the host's own list, written as the tranche
+  README writes them: `·` an unlabelled sense, `(…)` the children of
+  the sense before it. Each option says the list it would give.
+- The hOCR is verbatim apart from removed bidi marks. Volume 1 is
+  Tesseract, which mirrors a marker in a Hebrew run (`(4--.` for
+  `.—4)`) and reads `3` as `8` at times; volume 2 is ABBYY, which
+  reads the numerals well.
+- Where the hOCR shows the numeral twice, I recommend keeping print's
+  number: no row's hOCR shows N+1 where the entry has N, and numbering
+  on is a deviation with no print witness (§3's answer).
+- Four rows are not a doubled numeral: the second number belongs to a
+  list that restarts inside the sense (A00982's dual, C00263's derived
+  noun, C00869's and U01512's participle). §3's answer counted C00869
+  and U01512 as print's own doubled numeral; read with the lines
+  before them, they are not. Their options say what they are. No patch
+  op today nests a sense under another, so a "nest" tick needs a new
+  op (or, for A00982, `Du.` in the form-section `MARKERS`), its own PR.
+
+| rid | host's list | what the hOCR shows | recommendation |
+|---|---|---|---|
+| A00982 | `· 1 2 3` | a dual's list `1) … —2) … —3)` | nest the dual, 3 items (medium) |
+| B01153 | `1 2 3 4` | `4)` twice, both mirrored | keep (medium) |
+| B01299 | `· 1 2 3` | `3)` twice | keep (high) |
+| C00263 | `1 2` | Miggo's list `1) … —2)` | nest Miggo (medium) |
+| C00399 | `1 2 3` | `2)` twice, then `3)` | keep (medium) |
+| C00869 | `1 · (1) 2 3 4` | the participle's `1) … 2)`, then the verb's `2) 3) 4)` | nest and split (high) |
+| C00871 | `· 1 2 3` | host `3)` mirrored; in-text marker garbled | keep (medium) |
+| C00872 | `1 2 3 4` | `4)` twice | keep (high) |
+| G00456 | Kal `1 2 3 4` | in-text `4)`; the host's line is missing | keep (medium) |
+| H00940 | Kal `· 1 2 3` | host `2)`; in-text line garbled | keep (low) |
+| H01899 | Kal `1 2 3` | `2)` twice, then `3)` | keep (high) |
+| I00712 | Kal `· 1 2 3 4 (a b)` | `3)` twice (one misread), then `4)` | keep (medium) |
+| K00086 | `1 2 3 4 5 6` | `6)` twice | keep (high) |
+| K01280 | Kal `1 2 3` | `3)` twice | keep (high) |
+| M00596 | `· 1 2 3 4` | `4)` twice | keep (high) |
+| M02130 | `· 1 2 3 (a b c d)` | `3)` twice | keep (high) |
+| N01139 | Hif. `1 2` | `2)` twice | keep (high) |
+| P00059 | Pi. `1 2 3 4` | `4)` twice, then `S)` where the entry has `6)` | keep (low) |
+| Q01502 | Hif. `1 2 3` | `2)` twice, then `3)` | keep (high) |
+| S00151 | Af. `1 2 3 4` | `3)` twice, then `4)` | keep (high) |
+| U01512 | Af. `1 2` | the participle's `a) … —2)` | nest the participle (medium) |
+| V00909 | Kal `1 2 3 4` | `4)` twice | keep (high) |
+
+### A00982 (`אֹזֶן`), class 4's residue
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `2` | `handle. Cant. R. beg. ולא הי׳ לה א׳ וכ׳ but had no handle and could not be carried; a. fr.—Du. אָזְנַיִם 1) ears. …` | `ear, opp. Divine perception. Y. Sabb. I, ₪ top; a. fr.—` / `2) 1 Cant. R. beg. לה א' וכ' 7H ולא but had no` / `handle and could not’ be carried; a. fr——Du. D7238` / `1) ears. Ley. R. s. 32, beg. א' לדרך the road has ears` | [38a · leaf 61](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$62/full/1400,/0/default.jpg) |
+| `2`, in its text | `… the road has ears (be on your guard in speaking); a. fr.—2) handles. …` | `(be on your guard in speaking); a. fr—2) handles. Kel.` | same |
+| `3` | `אָזְנַיִם or בנות א׳ swollen glands of the throat (Rashi). …` | `TV, 3, y. גרסטרא ; a. fr.—3) DIN or א" M122 swollen glands` | same |
+
+Not a doubled numeral. Sense 2 holds the noun's dual, `—Du. אָזְנַיִם`,
+with its own list restarting at `1) ears`; the in-text `—2) handles` is
+that list's second item, and print runs straight on to `—3) … swollen
+glands`, which Sefaria cut out as the noun's sense 3. It came into this
+class as class 4's residue (§4, PR #159): the form-section split does
+not carve it because `MARKERS` has no `Du.`. A split at `—2)` would
+lift the dual's second item to the noun's level, so the standard
+options do not fit.
+
+**Question.** How should A00982's dual be structured?
+
+- **A00982**
+  - [ ] nest the dual with three items: `—Du. אָזְנַיִם` becomes an unlabelled sibling after sense 2, with `1) ears`, `2) handles` and today's sense 3 as its children: `· 1 2 · (1 2 3)`
+  - [ ] nest the dual with two items: as above, but `3) … swollen glands` stays the noun's sense 3: `· 1 2 · (1 2) 3`
+  - [ ] leave whole: the dual stays inline in sense 2 (`· 1 2 3`, as today)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: nest with three items (medium): the hOCR runs `—Du. …
+1) ears … —2) handles … —3) … swollen glands` as one paragraph, and a
+form's list comes after the word's own senses (as C00062's `—Pl.`
+does), so a third sense of the noun after the dual would be out of
+order.
+
+### B01153 (`בַּר`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `4` | `(= h. חוּץ) outside, outdoors, street. Targ. Gen. XXXIV, 31 נפקת ב׳ a prostitute …` | `outside, outdoors, street. Targ. Gen. (דזץ (=h. (4--.[אברא` | [188b · leaf 211](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$212/full/1400,/0/default.jpg) |
+| `4`, in its text | `… B. Bath. 93ᵇ Ar. (ed. בתרא); cmp. בָּרָאָה.—4) (prep. a. adv.) outside; בר מן outside of, except …` | `--.בְּרְאָח emp. ;(בתרא B. Bath. 98" Ar. (ed. ; (דברייתא` / `outside of, except, with- בר ביך (prep. a. adv.) outside; )4` | same |
+
+Sense 4 is the last of `1 2 3 4`. Tesseract mirrors both markers in
+these Hebrew-heavy lines: `(4--.` at the end of the line holding
+`outside, outdoors`, and `)4` at the end of the line holding `(prep. a.
+adv.) outside`, so both read `4`. Print sets the numeral twice.
+
+**Question.** How should B01153's in-text `—4) (prep. a. adv.)` be read?
+
+- **B01153**
+  - [ ] split here and keep print's number (a second `4`), as printed: `1 2 3 4 4`
+  - [ ] split here and number on: this sense becomes `5`; no later sense moves: `1 2 3 4 5`
+  - [ ] leave whole: the `4)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (medium): both markers read `4`,
+though both are mirrored.
+
+### B01299 (`בְּרַם`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `3` | `only, but. Targ. Gen. VII, 23. Targ. Lam. III, 3 (h. text אַךְ). …` | `Dan. IV, 12; V, 17.—Targ. Ps. LVIII, 3; 8. fr.—3) only,` / `but. Targ. Gen. VII, 28. Targ. Lam. 111, 3 (h. text 3x).` | [196a · leaf 219](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$220/full/1400,/0/default.jpg) |
+| `3`, in its text | `… but in fact they said this. B. Mets. 114ᵃ.—3) interj. truly!, surely! …` | `fact they said this. B. Mets, 114°.—3) interj.truly!, surely !` | same |
+
+§3's control. Sense 3 is the last of `· 1 2 3`. The hOCR reads `—3)
+only,` and `—3) interj.truly!`: print sets `3)` twice.
+
+**Question.** How should B01299's in-text `—3) interj.` be read?
+
+- **B01299**
+  - [ ] split here and keep print's number (a second `3`), as printed: `· 1 2 3 3`
+  - [ ] split here and number on: this sense becomes `4`; no later sense moves: `· 1 2 3 4`
+  - [ ] leave whole: the `3)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (high): both markers are clear in
+the hOCR.
+
+### C00263 (`גֵּו ²`), class 4's residue
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `2` | `(with or without ב) among, amid; in, into. Targ. Ex. XIV, 22; a. fr.—Y. …` | `that every day; a. fr—Pl. x43. Targ. Prov. XX, 27 (ed.` / `Lag. 753).—2) (with or without (ב among, amid; in,` | [216a · leaf 239](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$240/full/1400,/0/default.jpg) |
+| `2`, in its text | `… a. fr.—Hence מִיגּוֹ, מִגּוֹ Miggo, 1) (= h. מִתּוֹךְ, Shebu. 45ᵇ, and מֵאַחַר, v. אַחַר) a legal rule …` | `matters, he is also suspected of swearing falsely; a. fr.—` / `Hence 48%, 4572 Miggo, 1)(=h. ,מתוך Shebu. 45", and “mwa,` | same |
+| `2`, in its text | `… the one miggo and the other?; a. fr.—2) (cmp. אַגַּב) an action declared valid …` | `what is the difference between the one miggo and the` / `other ?; a. fr.—2) (emp. 58) an action declared valid because` | same |
+
+Not a doubled numeral. Sense 2 ends on a derived noun, `—Hence מִיגּוֹ,
+מִגּוֹ Miggo,`, with its own list `1) … —2)`, and the in-text `—2)` is
+Miggo's second sense. It came into this class as class 4's residue (§4,
+PR #159): the form-section split does not carve a derived noun, which
+is not an inflection. A split at `—2)` would make Miggo's second sense
+the noun's, so the standard options do not fit. G00456's `v. מִיגּוֹ,
+s. v. גּוֹ` points into this block.
+
+**Question.** How should C00263's Miggo list be structured?
+
+- **C00263**
+  - [ ] nest Miggo: `—Hence מִיגּוֹ, מִגּוֹ Miggo,` becomes an unlabelled sibling after sense 2, with its `1)` and `2)` as its children: `1 2 · (1 2)`
+  - [ ] leave whole: Miggo's list stays inline in sense 2, as print runs it (`1 2`, as today)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: nest Miggo (medium): the hOCR shows `Hence … Miggo,
+1)(=h.` and `other ?; a. fr.—2) (emp. 58)` as Miggo's own list, and
+only a block of its own lets a sense address reach them; leaving it
+whole is the choice if no new op is wanted.
+
+### C00399 (`גּוֹלְמָא`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `1`, `2` | `ch. sameunfinished vessel.` ‖ `Pl. גּוּלְמַיָּא, גּוּלְמֵי. …` | `nai ch. same; 1) unfinished vessel.—2) Pl. nrabhs,` | [222a · leaf 245](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$246/full/1400,/0/default.jpg) |
+| `2`, in its text | `… it treats of unfinished (needles).—2) (cmp. גְּוִיל) stone. …` | `preced.).—Sabb, 52” “gba; 123° בגולמי it treats of un-` / `finished (needles).—2) (cmp. ban) stone. 1. bis. Targ.` | same |
+| `3` | `hill, v. גְּלִימָא II.` | `Valk. Is, 284; Ar. ₪. v. (8--.גולמהרג hill, +. פְלִימָא IL.` | same |
+
+The hOCR reads `1) unfinished vessel.—2) Pl.` and, three lines on,
+`—2) (cmp. ban) stone`, then `(8--.` (Tesseract's mirrored `—3)`)
+before `hill`: print's sequence is `1 2 2 3`. Print's first `2)` heads
+only the plural's citations, whose gloss (unfinished needles) is sense
+1's meaning, so that first `2)` may be print's slip; the hOCR cannot
+say, but it does show print setting it.
+
+**Question.** How should C00399's in-text `—2) (cmp. גְּוִיל) stone` be
+read?
+
+- **C00399**
+  - [ ] split here and keep print's number (a second `2`), as printed: `1 2 2 3`
+  - [ ] split here and number on: this sense becomes `3` and `hill` becomes `4`: `1 2 3 4`
+  - [ ] the first `2)` is print's slip: join the plural back into sense 1, and split here as `2`: `1 2 3` (a deviation from print)
+  - [ ] leave whole: the `2)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (medium): the hOCR shows `2)`
+twice and print's `3)` after them.
+
+### C00869 (`גִּלְגֵּל`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `·` and its `1` | `Part. pass. מְגוּלְגָּל, f. מְגוּלְגֶּלֶת; …` ↳ `rolled. Pes. 7ᵃ עיסה מג׳ a formed dough. Y. Sot. I, 16ᶜ bot. ביצים מג׳ roasted eggs; a. fr.` | `has formed the dough (of wheat) by rolling; a. fr.— Part.` / `.מגלְפלות ; מִגזִלְפָלֶרן מִגלְפָל"ם pl. ; מגוּלגלָת .1 ,2500 pass.` / `not a formed dough. 0 Sot. 1 16° מג' 7° rolled. Pes. )1` | [244a · leaf 267](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$268/full/1400,/0/default.jpg) |
+| `2` | `rounded. B. Bath. 16ᵇ מה עדשה זו מְגוּלְגֶּלֶת …` | `roasted eggs; a. fr.—2) rounded. B. Bath. ‘16> ביצרם מג' bot.` | same |
+| `2`, in its text | `… [Men. 86ᵃ, v. גִּרְגֵּר.].—2) (with על) to roll upon, …` | `[Men. 86% v. "H5.].—2) (with >») to roll upon, (פִלְפָל v.` | same |
+| `3` | `to bring about, cause. …` | `‘1 עלרו you make him bear the expenses for &o.—8) 6` / `bring about, cause. Sabb. 32*; Tosef. Yoma V (IV), 12` | [244b · leaf 267](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$268/full/1400,/0/default.jpg) |
+
+Not a doubled numeral, though §3's answer counted it as one. Print's
+`Part. pass.` paragraph has its own list: `)1` (Tesseract's mirrored
+`1)`) before `rolled`, then `—2) rounded`. The form-section split
+nested the `1)`, but Sefaria had already cut `2) rounded` out as a
+sense of the verb. The in-text `—2) (with על) to roll upon` is the
+verb's own sense 2, and print goes on `—8)` (its `—3)`) `bring about`
+and `—4) … to overcome`.
+
+**Question.** How should C00869's two `2)`s be placed?
+
+- **C00869**
+  - [ ] nest and split: `2) rounded` becomes the `Part. pass.` block's second child, and the verb's `—2) (with על)` is split out as sense 2: `1 · (1 2) 2 3 4`, as print reads
+  - [ ] split here and keep print's number, leaving `rounded` where it is: `1 · (1) 2 2 3 4`
+  - [ ] split here and number on: this sense becomes `3` and the later senses shift: `1 · (1) 2 3 4 5`
+  - [ ] leave whole (as today)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: nest and split (high): the hOCR shows the
+participle's `1)` and `2) rounded`, then the verb's `2)`, `3)` and
+`4)`, so the two `2)`s belong to two lists; the split is an existing
+op, the nesting is not.
+
+### C00871 (`גַּלְגַּל`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `3` | `the eye-ball. Gen. R. s. 42; Lev. R. s. 11; Ruth R. …` | `the eye-ball. Gen. ₪. 48; Lev. ₪. = 11; Roth (3-.וכ'` | [245a · leaf 268](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$269/full/1400,/0/default.jpg) |
+| `3`, in its text | `… changes of fortune take place constantly; Ex. R. s. 31, a. e.—3) (= גַּרְגַּר) globule, grain. …` | `changes of fortune take place constantly; Ex. 34. =. 51,` / `. .-9( (= 9979) globule, grain, Babb. 64"; 65*, +. -.גֶרְנֶר` | same |
+
+Sense 3 is the last of `· 1 2 3`. The hOCR has the host's marker
+mirrored at the end of its line (`(3-.`) and garbles the in-text one
+to `. .-9(` before `(= 9979) globule, grain`: a marker is there, but
+the hOCR cannot say it is `3)`.
+
+**Question.** How should C00871's in-text `—3) (= גַּרְגַּר) globule`
+be read?
+
+- **C00871**
+  - [ ] split here and keep print's number (a second `3`), as printed: `· 1 2 3 3`
+  - [ ] split here and number on: this sense becomes `4`; no later sense moves: `· 1 2 3 4`
+  - [ ] leave whole: the `3)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (medium): the host's `3)` reads,
+and the in-text marker is a garbled numeral the scan should confirm.
+
+### C00872 (`גַּלְגַּל ²`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `4` | `stubble. Targ. Is. XVII, 13. …` | `satisfied. B. Bath. 73°.—4) stubble. Targ. Is. XVI, 13.—` | [245a · leaf 268](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$269/full/1400,/0/default.jpg) |
+| `4`, in its text | `… Koh. R. to XII, 6; Lev. R. s. 18; a. e.—4) (v. next w.) a sort of girdle. …` | `. @-—Koh. R. to X11,6; Lev. RB. s. 18; a. 6.--4( (v. next` | same |
+
+Sense 4 is the last of `1 2 3 4`. The hOCR reads `—4) stubble` and,
+three lines on, `--4(` (Tesseract's mirrored `—4)`) before `(v. next`:
+print sets `4)` twice.
+
+**Question.** How should C00872's in-text `—4) (v. next w.)` be read?
+
+- **C00872**
+  - [ ] split here and keep print's number (a second `4`), as printed: `1 2 3 4 4`
+  - [ ] split here and number on: this sense becomes `5`; no later sense moves: `1 2 3 4 5`
+  - [ ] leave whole: the `4)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (high): both markers read `4`.
+
+### G00456 (`זְכֵי`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `4` | `to become worthy of divine grace, to be privileged to enjoy, to live to see. Targ. Job XX, 17; …` | not found; the next line is `Targ. Job XX, 17; a. e—Ber. 17* PIS} “NSS נשרם where-` | [399a · leaf 422](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$423/full/1400,/0/default.jpg) |
+| `4`, in its text | `… the Lord permitting I will go &c.; a. fr.—4) to take possession, acquire a title. …` | `Hall, 50°; Bets, 27%, a. 6. וכ' PON) TIN the Lord per \|` / `I will go &c.; a, fr.—4) to take possession, acquire —` | same |
+
+Sense 4 is the last of the Kal list `1 2 3 4`. Tesseract interleaves
+the two columns on this leaf and drops the line that opens sense 4;
+the in-text `—4) to take possession` is clear. The hOCR shows print's
+in-text `4)`, but not the host's.
+
+**Question.** How should G00456's in-text `—4) to take possession` be
+read?
+
+- **G00456**
+  - [ ] split here and keep print's number (a second `4`), as printed: Kal `1 2 3 4 4`
+  - [ ] split here and number on: this sense becomes `5`; no later sense moves: Kal `1 2 3 4 5`
+  - [ ] leave whole: the `4)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (medium): the in-text `4)` is
+print's, and nothing in the hOCR numbers the host otherwise.
+
+### H00940 (`חֲכַם`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `2` | `to recognize, to know, remember. Targ. Y. II …` | `well-learned ; a. fr.—2) to recognize, to know,` | [462b · leaf 485](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$486/full/1400,/0/default.jpg) |
+| `2`, in its text | `… shall select (Y. Snh. VI, 23ᵃ bot. יטול), v. זוֹגָא.—2) (euphem. = b. h. יָדַע) to sleep with. …` | `» BREET? shall select (¥. Bab. V1, 29" bot. ,(יטול +. agit` / `( (ouphom.b. .ה 275) fo sleep with. Targ. 0-ל` | [463a · leaf 486](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$487/full/1400,/0/default.jpg) |
+| `3` | `to be clear, evident. …` | `V, 58" bot.; Lam. It. to 1, 1 א (ו חד כותאי) רבד 6.-` / `) to be elear, evident, Sanh. 42", +. IL` | same |
+
+The Kal list is `· 1 2 3`. The hOCR reads the host's `—2) to
+recognize`, but garbles the in-text marker's line (`( (ouphom.b.`) and
+sense 3's (`) to be elear`): it cannot show what print sets before
+`(euphem.` or before `to be clear`.
+
+**Question.** How should H00940's in-text `—2) (euphem. = b. h. יָדַע)`
+be read?
+
+- **H00940**
+  - [ ] split here and keep print's number (a second `2`), as printed: Kal `· 1 2 2 3`
+  - [ ] split here and number on: this sense becomes `3` and `to be clear` becomes `4`: Kal `· 1 2 3 4`
+  - [ ] leave whole: the `2)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (low): the stored `—2)` is the
+only witness for the in-text marker, and numbering on would renumber a
+`3)` the hOCR cannot read either.
+
+### H01899 (`חָתַם`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `2` | `to seal. Y. Ab. Zar. III, 42ᶜ bot. …` | `it might not go forth &.—2) fo seal, Y. Ab. Zar. III, 42°` | [513b · leaf 536](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$537/full/1400,/0/default.jpg) |
+| `2`, in its text | `… Tosef. ib. V (VI), 2; a. fr.—2) to sign, subscribe (as witness, judge &c.) …` | `V (VI), 2; a. fr.—2) to sign, subscribe (as witnem, judge` | same |
+| `3` | `to close a benediction (v. חֲתִימָה). …` | `are signed 66 ; a.fr.—s3) fo close a benediction \| +. 7).` | same |
+
+§3's control. The Kal list is `1 2 3`. The hOCR reads `—2) fo seal`,
+`—2) to sign` and `—s3) fo close a benediction`: print sets `2)` twice
+and goes on to `3)`, so numbering on would make print's `3)` a `4)`.
+
+**Question.** How should H01899's in-text `—2) to sign` be read?
+
+- **H01899**
+  - [ ] split here and keep print's number (a second `2`), as printed: Kal `1 2 2 3`
+  - [ ] split here and number on: this sense becomes `3` and the later senses shift: Kal `1 2 3 4`
+  - [ ] leave whole: the `2)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (high): all three markers are
+clear in the hOCR.
+
+### I00712 (`טָרַד`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `3` | `to make homeless, banish (cmp. טִלְטֵל). Lam. R. to I, 21 …` | `to make home- (8--.(טרפכר other; (Y. ib. XVI, 154° top` / `ATI חוץ וכ' 21 less, banish (cmp. >u>v). Lam. R. to I,` | [550a · leaf 573](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$574/full/1400,/0/default.jpg) |
+| `3`, in its text | `… and drove them into despair, a. fr.—3) to weary, make unsteady. …` | `and drove וט' אותם מן העולם Till. to Ps. XXXI, beg.` / `them into despair, a. fr.—3) to weary, make unsteady.` | same |
+| `4` | `to stir up (dregs), trouble. …` | `him unsteady (feel the wine). —4) to stir up (dregs),` | same |
+
+The Kal list is `· 1 2 3 4 (a b)`. The host's marker is `(8--.` before
+`to make home-`, Tesseract's mirrored and misread `—3)` (round 2 read
+D01114's the same way); the in-text `—3) to weary` is clear, and print
+goes on `—4) to stir up`.
+
+**Question.** How should I00712's in-text `—3) to weary` be read?
+
+- **I00712**
+  - [ ] split here and keep print's number (a second `3`), as printed: Kal `· 1 2 3 3 4 (a b)`
+  - [ ] split here and number on: this sense becomes `4` and the later senses shift: Kal `· 1 2 3 4 5 (a b)`
+  - [ ] leave whole: the `3)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (medium): the in-text `3)` and
+the `4)` after it are clear; the host's `3)` is a misread the scan
+should confirm.
+
+### K00086 (`כֵּבַשׁ II`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `6` | `path. Targ. II Sam. XX, 12, sq. …` | `boiling).—6) path, Targ. 11 Gam. XX, 12, 0g. “S od. Lag.` | [611b · leaf 634](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$635/full/1400,/0/default.jpg) |
+| `6`, in its text | `… Targ. I Sam. IV, 13 כִּבֶּשׁ constr., v. כְּבִישׁ.—6) (archit.) recess, enceinte. …` | `(ed. Wil. .(ְכָבִי Targ. \| Gam. IV, 13 Sos comer, +, Ss —` / `6) (arehit.) recess, encrinfe, Targ. Ue. XLV,4; 5 XLVI,` | same |
+
+Sense 6 is the last of `1 2 3 4 5 6`. The hOCR reads `—6) path` and,
+after `Ss —` at a line end, `6) (arehit.) recess`: print sets `6)`
+twice.
+
+**Question.** How should K00086's in-text `—6) (archit.) recess` be
+read?
+
+- **K00086**
+  - [ ] split here and keep print's number (a second `6`), as printed: `1 2 3 4 5 6 6`
+  - [ ] split here and number on: this sense becomes `7`; no later sense moves: `1 2 3 4 5 6 7`
+  - [ ] leave whole: the `6)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (high): both markers read `6`.
+
+### K01280 (`כָּרַת`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `3` | `to separate, divorce; to make final. …` | `court neither punishes nor decrees excision. —3) to sep-` / `arate, divorce; to make final. Gitt. 21%; Stee. 24 (ref.` | [674a · leaf 697](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$698/full/1400,/0/default.jpg) |
+| `3`, in its text | `… (strike out לה); a. fr.—3) to decide, make final. Ber. …` | `Ib. 111, beg. 44° לה כ" , . . ראשונה Sh אלא שלא (strike out` / `md); a. fr.—s3) to decide, make final. Ber. 4%; Snh. 16? (ref,` | same |
+
+Sense 3 is the last of the Kal list `1 2 3`. The hOCR reads `—3) to
+sep-` / `arate, divorce` and `—s3) to decide, make final`: print sets
+`3)` twice. (The Nif. list after it reads `1 3`: its `—2) to be
+covenanted` sits inside Nif. 1, which this detector does not report,
+since `2` is not that sense's own number.)
+
+**Question.** How should K01280's in-text `—3) to decide` be read?
+
+- **K01280**
+  - [ ] split here and keep print's number (a second `3`), as printed: Kal `1 2 3 3`
+  - [ ] split here and number on: this sense becomes `4`; no later sense moves: Kal `1 2 3 4`
+  - [ ] leave whole: the `3)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (high): both markers read `3`.
+
+### M00596 (`מוּקְצֶה`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `4` | `an animal set aside (in a shed) for a sacrifice. …` | `where figs are spread for drying.}. — 4) an animal set` / `aside (in a shed) for a sacrifice. Tern. 28b D^C sac's tJ` | [747b · leaf 70](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$71/full/1400,/0/default.jpg) |
+| `4`, in its text | `… as shearing its wool or some work) has been done with it; a. e.—4) (Sabbath law) muktseh, …` | `bidden only until some act (as shearing its wool or some` / `work) has been done with it; a. e. — 4) (Sabbath law)` | [748a · leaf 71](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$72/full/1400,/0/default.jpg) |
+
+Sense 4 is the last of `· 1 2 3 4`. ABBYY reads `— 4) an animal set`
+and, at the top of the next page, `— 4) (Sabbath law)`: print sets
+`4)` twice.
+
+**Question.** How should M00596's in-text `—4) (Sabbath law)` be read?
+
+- **M00596**
+  - [ ] split here and keep print's number (a second `4`), as printed: `· 1 2 3 4 4`
+  - [ ] split here and number on: this sense becomes `5`; no later sense moves: `· 1 2 3 4 5`
+  - [ ] leave whole: the `4)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (high): both markers read `4`.
+
+### M02130 (`מַעֲלָה`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `3` | `degree, gradation, superiority; preference; advantage. …` | `lead to degradation; a. e. — 3) degree, gradation, super-` / `iority; preference; advantage. Yoma 44a; Num. R. s. 7` | [817a · leaf 140](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$141/full/1400,/0/default.jpg) |
+| `3`, in its text | `… Yoma 44ᵇ מ׳ דאוריתא the gradations in sanctity are of Biblical origin (v. Kel. I, 8, sq.).—3) height, on high. …` | `a. fr.— PI. as ab. Yoma 44b xn-nixn •« the gradations in` / `sanctity are of Biblical origin (v. Kel. 1, 8, sq.). — 3) height,` | same |
+| `3`'s children | `… v. מַטָּה.—לְמַעֲלָה` ↳ `a` `on high, in heaven. …` | `Tanh. B'shall. 23 'a \m 12X (some ed. 'ar::), v. n-j .. —` / `jlbsob a) on high, in heaven. Hag. H, 1 (11) *ab na (Ms.` | same |
+
+Sense 3 is the last of `· 1 2 3 (a b c d)`. ABBYY reads `— 3) degree,
+gradation` and `— 3) height,`: print sets `3)` twice. The children
+`a)`–`d)` hang off `—לְמַעֲלָה`, which follows the second `3)` (`on
+high`), so a split carries them with the new sense.
+
+**Question.** How should M02130's in-text `—3) height, on high` be read?
+
+- **M02130**
+  - [ ] split here and keep print's number (a second `3`), as printed: `· 1 2 3 3 (a b c d)`
+  - [ ] split here and number on: this sense becomes `4`; no later sense moves: `· 1 2 3 4 (a b c d)`
+  - [ ] leave whole: the `3)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (high): both markers read `3`.
+
+### N01139 (`נָצַץ`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| Hif. `2` | `to blossom, sprout. Shebi. IV, 10 …` | `Gen.R. s.50, a.e. (Pes.93b"pn 12), v.psn.— 2) to blossom,` / `sprout. Shebi.IV, 10 si3EnW3; Pes. 53a W9TOS (or ttttplBa)` | [929b · leaf 252](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$253/full/1400,/0/default.jpg) |
+| Hif. `2`, in its text | `… Koh. R. to XII, 5, v. צוּץ; a. fr.—2) to cause to sprout. …` | `M. WSjTO) when they are in blossom. Koh. R. to XII, 5,` / `v. piS; a. fr.— 2) to cause to sprout. Gen. R. s.28 V*HW Ar.` | same |
+
+Sense 2 is the last of the Hif. list `1 2`. ABBYY reads `— 2) to
+blossom,` and `— 2) to cause to sprout`: print sets `2)` twice.
+
+**Question.** How should N01139's in-text `—2) to cause to sprout` be
+read?
+
+- **N01139**
+  - [ ] split here and keep print's number (a second `2`), as printed: Hif. `1 2 2`
+  - [ ] split here and number on: this sense becomes `3`; no later sense moves: Hif. `1 2 3`
+  - [ ] leave whole: the `2)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (high): both markers read `2`.
+
+### P00059 (`עָבַר`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| Pi. `4` | `(v. עוּבָּר) to carry, be with young. …` | `Y. ib. YII, 5°. rx . . . rroso .]— 4) (v. -121?) to carry, be icith` | [1039a · leaf 362](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$363/full/1400,/0/default.jpg) |
+| Pi. `4`, in its text | `… Yeb. III, 10; a. fr.—4) (v. עִיבּוּר) to extend the city limits, …` | `of my offspring). Yeb. Ill, 10; a. fr. — 4) (v. 113"1?) to ex-` | same |
+| Pi. `4`, in its text | `… Tosef. Ber. VI (V), 1; a. e.—6) to complement, add to, …` | `nnair n-'X2 like a pregnant woman; Tosef. ib. VI (V), 1;` / `a.e. — S)to complement, add to, esp.to intercalate a month,` | same |
+
+Sense 4 is the last of the Pi. list `1 2 3 4`. ABBYY reads `— 4) (v. …)
+to carry` and `— 4) (v. …) to ex-`: print sets `4)` twice. The sense
+also holds a later marker the detector does not report: the stored
+`—6) to complement`, which ABBYY reads `— S)to complement`, an `S` it
+often makes of a `5`. If print reads `5)` there, print counts `4 4 5`
+and the stored `6` is a text error; if `6)`, print skipped `5` and its
+doubled `4)` is the slip. Either way, the split at that later marker
+is a further patch.
+
+**Question.** How should P00059's in-text `—4) (v. עִיבּוּר) to extend`
+be read?
+
+- **P00059**
+  - [ ] split here and keep print's number (a second `4`), as printed: Pi. `1 2 3 4 4`, then print's `5)` (say in the note what print sets at `S)to complement`)
+  - [ ] split here and number on: this sense becomes `5`: Pi. `1 2 3 4 5`, then print's `6)`
+  - [ ] leave whole: the `4)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (low): ABBYY's `S)` reads more
+like `5)` than `6)`, which would make print's own count `4 4 5`; tick
+number on instead if the scan shows `6)`.
+
+### Q01502 (`פָּקַע`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| Hif. `2` | `to strip, pluck, ravel out. …` | `v. Tosaf. Yom Tob a. 1.).— 2) to strip, pluck, ravel out.` | [1210b · leaf 533](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$534/full/1400,/0/default.jpg) |
+| Hif. `2`, in its text | `… and purple; a. fr.—2) [to cause breaking loose,] to release, cancel an obligation. …` | `and purple; a. fr. — 2) [to cause breaking loose,] to release,` / `cancel an obligation. Yeb. 66b sq., a. fr. "pSipBa . . . ttHpn` | same |
+| Hif. `3` | `ה׳ השער to break up, unsettle the market, …` | `a. fr. — 3) isisfi 71 to break up, unsettle the market, to` | same |
+
+The Hif. list is `1 2 3`. ABBYY reads `— 2) to strip`, `— 2) [to cause
+breaking loose,]` and `— 3) … to break up`: print sets `2)` twice and
+goes on to `3)`.
+
+**Question.** How should Q01502's in-text `—2) [to cause breaking
+loose,]` be read?
+
+- **Q01502**
+  - [ ] split here and keep print's number (a second `2`), as printed: Hif. `1 2 2 3`
+  - [ ] split here and number on: this sense becomes `3` and the later senses shift: Hif. `1 2 3 4`
+  - [ ] leave whole: the `2)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (high): all three markers are
+clear.
+
+### S00151 (`קְדַם`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| Af. `3`, and in its text | `to get the start of; to prevent. Targ. Ps. XVII, 13; a. e.—3) to be earlier than, be quick in doing. …` | `Job XLI, 3 ; a. e. — 3) to get the start of; to prevent. Targ.` / `Ps. XVII, 13; a. e.— 3) to be earlier than, be quick in do-` | [1316b · leaf 639](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$640/full/1400,/0/default.jpg) |
+| Af. `4` | `to give preference to. Y. Snh. I, 18ᶜ bot. …` | `order that people may be ready to do so to thy children.—` / `4) to give preference to. Y. Snh. 1, 18c bot. ... rfb 'la'npx` | same |
+
+The Af. list is `1 2 3 4`. ABBYY reads `— 3) to get the start of` and,
+on the next line, `— 3) to be earlier than`, then `4) to give
+preference`: print sets `3)` twice and goes on to `4)`.
+
+**Question.** How should S00151's in-text `—3) to be earlier than` be
+read?
+
+- **S00151**
+  - [ ] split here and keep print's number (a second `3`), as printed: Af. `1 2 3 3 4`
+  - [ ] split here and number on: this sense becomes `4` and the later senses shift: Af. `1 2 3 4 5`
+  - [ ] leave whole: the `3)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (high): all three markers are
+clear.
+
+### U01512 (`שְׁמַע I`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| Af. `2` | `to give to understand; to teach, prove. …` | `ace). Ib. X30-3 'rol (Ms. Pa.)— 2) to give to understand ;` / `to teach, prore. Ber. 2a '3- -,b T2ZT2 xp . . . xrb^o (the` | [1599b · leaf 922](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$923/full/1400,/0/default.jpg) |
+| Af. `2`, in its text | `… a. v. fr.—Part. pass. מַשְׁמֵע a) understood. …` | `of course)? Ber.21asq. '31 ^Jjprx 1K\ v.T^S; a. v.fr.—` / `Part. pass. Spro a) understood. Yeb.l02br:n 'rfl *2t\ '- it` | same |
+| Af. `2`, in its text | `… ‘to strengthen’); a. fr.—2) inferred, proved; evidence. …` | `may be understood thus (it may mean, 'to strengthen');` / `a. fr. — 2) inferred, proved; evidence. Sabb. 84b 'o *wo how` | same |
+
+Not a doubled numeral for the verb, though §3's answer counted it as
+one. Af. 2 holds `—Part. pass. מַשְׁמֵע a) understood …`, and the
+in-text `—2) inferred, proved; evidence` follows that `a)`: it is the
+participle's second meaning, not Af.'s. ABBYY reads it `2)`; whether
+print sets `2)` or `b)` after an `a)` only the scan shows.
+
+**Question.** How should U01512's participle list be structured?
+
+- **U01512**
+  - [ ] nest the participle: `Part. pass. מַשְׁמֵע` becomes an unlabelled sibling after Af. 2, with `a) understood` and the `2)` as its children: Af. `1 2 · (a 2)` (say in the note whether print sets `2)` or `b)`)
+  - [ ] leave whole: the participle's list stays inline in Af. 2, as print runs it (Af. `1 2`, as today)
+  - [ ] split here and keep print's number (a second Af. `2`): Af. `1 2 2`
+  - [ ] split here and number on: this sense becomes Af. `3`: Af. `1 2 3`
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: nest the participle (medium): the hOCR puts the `2)`
+two lines after the participle's `a)`, so it belongs to that list, and
+a split at the verb's level would misplace it in either numbering.
+
+### V00909 (`תְּקַף`)
+
+| sense | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| `4` | `(with רוגזא, or sub. רוגזא) to be vehement, hot, excited. …` | `Ned. 91a, v. infra. — 4) (with wan, or sub. WW\) to be` / `vehement, hot, excited. Targ. Gen. XXX, 2. Targ. Ex.` | [1694a · leaf 1017](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$1018/full/1400,/0/default.jpg) |
+| `4`, in its text | `… [oth. interpret.: she has a strong passion for another man].—4) to get hot, ferment, get sour. …` | `feeling against her husband; [oth. interpret.: she has a` / `strong passion for another man]. — 4) to get hot, ferment,` | same |
+
+Sense 4 is the last of the Kal list `1 2 3 4`. ABBYY reads `— 4) (with
+…) to be vehement` and `— 4) to get hot, ferment`: print sets `4)`
+twice. Ithpe. 3, `to get sour, v. supra`, points back at the second.
+
+**Question.** How should V00909's in-text `—4) to get hot, ferment` be
+read?
+
+- **V00909**
+  - [ ] split here and keep print's number (a second `4`), as printed: Kal `1 2 3 4 4`
+  - [ ] split here and number on: this sense becomes `5`; no later sense moves: Kal `1 2 3 4 5`
+  - [ ] leave whole: the `4)` is not a sense marker (say what it is in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: keep print's number (high): both markers read `4`.
 
 ---
 
