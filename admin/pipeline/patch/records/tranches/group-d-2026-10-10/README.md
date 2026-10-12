@@ -206,9 +206,10 @@ wrong link target in sense 12.3) with no patch, which this set does
 not touch.
 
 Each restores text Sefaria lost, and the text is the maintainer's own
-read of print: for J00199 the words he typed in his note, verbatim
-(`fem. (sub, `; his `sub,` is kept as typed), for D01114 and B00753 the
-text of the box he ticked. A print read is a correction, not text
+read of print: for J00199 the words he typed in his note
+(`fem. (sub. `; the note has `sub,`, and the maintainer confirmed
+`sub.` on the scan 2026-10-11), for D01114 and B00753 the text of the
+box he ticked. A print read is a correction, not text
 invention (decisions.md row HW-ocr-dalet), and the no-vowel-inference
 ruling forbids guessing, not transcribing a read. Each patch's
 `rationale` quotes his tick and note, says the restored text came
@@ -225,7 +226,7 @@ bytes are `2). `.
 
 | patches | rid | class | change | restored from print | labels before → after | scan |
 |---|---|---|---|---|---|---|
-| P000510–P000511 | J00199 | 5 | restore the lost opener before the stray `מלכות)`; number the paragraph `—2)` | `—2) fem. (sub, ` | `· 1 ·` → `· 1 2` | [569b · leaf 592](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$593/full/1400,/0/default.jpg) |
+| P000510–P000511 | J00199 | 5 | restore the lost opener before the stray `מלכות)`; number the paragraph `—2)` | `—2) fem. (sub. ` | `· 1 ·` → `· 1 2` | [569b · leaf 592](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$593/full/1400,/0/default.jpg) |
 | P000512–P000514 | D01114 | 8 | lift `—3) as preced.` off the end of sense 2; put `as preced.` and print's `2). ` at the head of the unnumbered sense; number it `—3)` | `2). ` | `1 2 · / Ithpe. ·` → `1 2 3 / Ithpe. ·` | [324b · leaf 347](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$348/full/1400,/0/default.jpg) |
 | P000515–P000517 | B00753 | 8's sibling | drop the stray `—1` from sense 10; restore `in compounds, denoting ` before `receptacle`; number the sense `—11)` | `—11) in compounds, denoting ` (the `—1` was Sefaria's) | `· 1 … 10 · / …` → `· 1 … 10 11 / …` | [168a · leaf 191](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$192/full/1400,/0/default.jpg) |
 

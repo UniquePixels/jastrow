@@ -799,7 +799,8 @@ show what print sets before `מלכות`.
   - [ ] can't tell from the scan
   - note: Greece; — 2) fem. (sub, מלכות) Greek (Syrian) Government.
 
-Applied in PR #164: P000510 restores `fem. (sub, ` (as typed) before
+Applied in PR #164: P000510 restores `fem. (sub. ` (the scan reads
+`sub.`, confirmed 2026-10-11; his note's comma was a typo) before
 `מלכות)`, P000511 numbers the sense `—2)`.
 
 
