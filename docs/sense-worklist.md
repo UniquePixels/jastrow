@@ -27,6 +27,13 @@ implied-`1)` rows are reviewed patch sets: PR #160, 142 patches on 75
 entries, with ledger L52's body-review 08 rows folded in. Three
 entries the rules do not decide are round 2, near the end.
 
+**Ticked 2026-10-11.** Class 3 is a review detector:
+`self-numbered-intext-marker` reports the 22 rows below (PR #163),
+which wait for the review on the scan its note asks for. The three
+round-2 entries are answered and applied as reviewed patches
+(P000510–P000517, PR #164), each restoring the text the maintainer
+read from print.
+
 How I chose each recommendation, so the rows read the same way:
 
 - **Discard** where the reader sees what print sets and the structure
@@ -316,6 +323,11 @@ does nothing for the reading in your note that these are errors.
   - [ ] split by reviewed patch now and number on (N+1), deviation in each rationale
   - [ ] can't decide yet
   - note: 
+
+Applied in PR #163 (2026-10-11), from the first question's tick
+("port a review detector") and its note: the detector reports the 22
+rows; the review on the scan, row by row, is still to do, and this
+round-2 question stays open for it.
 
 
 ## 4. `inline-inflection-sublist`
@@ -787,6 +799,10 @@ show what print sets before `מלכות`.
   - [ ] can't tell from the scan
   - note: Greece; — 2) fem. (sub, מלכות) Greek (Syrian) Government.
 
+Applied in PR #164: P000510 restores `fem. (sub. ` (the scan reads
+`sub.`, confirmed 2026-10-11; his note's comma was a typo) before
+`מלכות)`, P000511 numbers the sense `—2)`.
+
 
 ### D01114 (`דְּרַס`), class 8: the residue and a lost `2)`
 
@@ -813,6 +829,10 @@ mirrored `—3)`, and the punctuation after `2)` is unclear (`2),` or
   - [ ] can't tell from the scan
   - note:
 
+Applied in PR #164: P000512 lifts `—3) as preced. ` off sense 2,
+P000513 puts `as preced. ` back with print's `2). `, P000514 numbers
+the sense `—3)`.
+
 
 ### B00753 (`בַּיִת`), class 8's sibling: `—1`, and lost words
 
@@ -834,6 +854,9 @@ cover &c.`, so `1) in compounds, denoting ` is in no source byte. A
   - [ ] drop `—1` and number it `—11)` only (the lost words stay a known gap)
   - [ ] can't tell from the scan
   - note: 
+
+Applied in PR #164: P000515 drops `—1` from sense 10, P000516
+restores `in compounds, denoting `, P000517 numbers the sense `—11)`.
 
 ---
 

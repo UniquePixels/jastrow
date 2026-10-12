@@ -95,16 +95,17 @@
 			"gloss": "<i>shed</i> for plants, <i>covering</i>. ",
 			"units": [
 				"<cite ref=\"Mishnah Sheviit 2:4\">Shebi. II, 4</cite> (pl.). Y. ib. 33ᵈ.—",
-				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:20\">Y. Sabb. VII, 10ᵃ</cite>.—1"
+				"<cite ref=\"Jerusalem Talmud Shabbat 7:2:20\">Y. Sabb. VII, 10ᵃ</cite>."
 			],
 			"label": "10"
 		},
 		{
-			"gloss": "<i>receptacle, cover</i> &c., e.g. <he>ב׳ הדיו</he> <i>inkstand</i>. ",
+			"gloss": "in compounds, denoting <i>receptacle, cover</i> &c., e.g. <he>ב׳ הדיו</he> <i>inkstand</i>. ",
 			"units": [
 				"<cite ref=\"Tosefta Keilim Metsia 4:11\">Tosef. Kel. B. Mets. IV, 11</cite>; <he>ב׳ יד</he> <i>sleeve</i>, v. <cite ref=\"A00776\"><he>אוּנְקְלַי</he> II</cite>, &c.—",
 				"<cite ref=\"Menachot 34b:4\">Men. 34ᵇ</cite>, a. e. <i>cases of the T’fillin</i>"
-			]
+			],
+			"label": "11"
 		}
 	],
 	"stems": [

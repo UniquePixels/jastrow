@@ -64,8 +64,9 @@ Pi. section), so the entry column sums to 76 for 75 entries.
 
 ## What the rulings decided that is not here
 
-- **Three entries where the rule does not decide the edit** are round
-  2 of the worklist, each with a specific question:
+- **Three entries where the rule does not decide the edit** were round
+  2 of the worklist, each with a specific question (answered 2026-10-11
+  and applied: [Round 2](#round-2-2026-10-11) below):
   - J00199 (class 5): the opener of `מלכות)` is not in the hOCR.
   - D01114 (class 8): print's `—3) as preced. 2)` holds a `2)` the
     data lost.
@@ -78,10 +79,11 @@ Pi. section), so the entry column sums to 76 for 75 entries.
   it.
 - **D00792**, whose body-review 08 cell reads only "common", is not
   decided and is not here.
-- **Class 3** (`self-numbered-intext-marker`) is "can't decide yet". Its
+- **Class 3** (`self-numbered-intext-marker`) was "can't decide yet". Its
   answer and a fresh question are in the worklist. This set takes 4 of
   its 26 rows out of the class (A01002, A01620, C01063, O01635, class 7's
-  real markers), leaving 22.
+  real markers), leaving 22. On 2026-10-11 the maintainer ruled it a
+  review detector, which reports those 22 (PR #163).
 - G00173's Polel and F00116's Pa., the "unclassified binyan" notes in
   their body-review 08 cells, are untouched. F00116's Pa. is already a
   stem block. G00173's Polel `1)`, `—2)` still sit at the top level after
@@ -190,3 +192,47 @@ sense, and `/ Hif.` opens a stem section.
 | P000500–P000502 | E00940 | OCR `l)` (L52) | correct the OCR `l)` to `1)`; split `1)` out of the lead; split `—2)` out | `·` → `· 1 2` | [370b · leaf 393](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$394/full/1400,/0/default.jpg) |
 | P000503–P000505 | F00116 | OCR `l)` (L52) | correct the OCR `l)` to `1)`; split `1)` out of the lead; split `—2)` out | `· / Pa. · / Ithpa. 1 2` → `· / Pa. · 1 2 / Ithpa. 1 2` | [376b · leaf 399](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$400/full/1400,/0/default.jpg) |
 | P000506–P000509 | G00363 | OCR `l)` (L52) | correct the OCR `l)` to `1)`; split `1)` out of the lead; split `—2)` out; split `3)` out | `·` → `· 1 2 3` | [394b · leaf 417](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$418/full/1400,/0/default.jpg) |
+
+## Round 2 (2026-10-11)
+
+The maintainer answered the worklist's three round-2 questions on
+2026-10-11 (the worklist committed at `d1fad326a`). **8 patches on 3
+entries, P000510–P000517**, appended to
+[`../../reviewed/patches.jsonl`](../../reviewed/patches.jsonl) with one
+`repaired` manifest record per rid, as above. None of the three rids
+had a reviewed patch before, so nothing is superseded; B00753 carries
+an agent `needs_human_judgment` record in `residue-01` (a citation's
+wrong link target in sense 12.3) with no patch, which this set does
+not touch.
+
+Each restores text Sefaria lost, and the text is the maintainer's own
+read of print: for J00199 the words he typed in his note
+(`fem. (sub. `; the note has `sub,`, and the maintainer confirmed
+`sub.` on the scan 2026-10-11), for D01114 and B00753 the text of the
+box he ticked. A print read is a correction, not text
+invention (decisions.md row HW-ocr-dalet), and the no-vowel-inference
+ruling forbids guessing, not transcribing a read. Each patch's
+`rationale` quotes his tick and note, says the restored text came
+from his read, and so annotates the change from Sefaria's text.
+
+As reviewed patches they are exempt from the no-new-text floor
+(`newTextProblem` in `apply.ts` skips `author: 'human'`), the same
+way P000369, P000372 and P000418 restored print's bytes in #160. Read
+as an agent's, the floor would refuse the three `replace`s and pass
+the rest: it counts codepoints, and every restored byte raises a
+count. In D01114 the `replace` also brings back `as preced. `, which
+the `delete` before it took off sense 2; over the chain the only new
+bytes are `2). `.
+
+| patches | rid | class | change | restored from print | labels before → after | scan |
+|---|---|---|---|---|---|---|
+| P000510–P000511 | J00199 | 5 | restore the lost opener before the stray `מלכות)`; number the paragraph `—2)` | `—2) fem. (sub. ` | `· 1 ·` → `· 1 2` | [569b · leaf 592](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$593/full/1400,/0/default.jpg) |
+| P000512–P000514 | D01114 | 8 | lift `—3) as preced.` off the end of sense 2; put `as preced.` and print's `2). ` at the head of the unnumbered sense; number it `—3)` | `2). ` | `1 2 · / Ithpe. ·` → `1 2 3 / Ithpe. ·` | [324b · leaf 347](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$348/full/1400,/0/default.jpg) |
+| P000515–P000517 | B00753 | 8's sibling | drop the stray `—1` from sense 10; restore `in compounds, denoting ` before `receptacle`; number the sense `—11)` | `—11) in compounds, denoting ` (the `—1` was Sefaria's) | `· 1 … 10 · / …` → `· 1 … 10 11 / …` | [168a · leaf 191](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$192/full/1400,/0/default.jpg) |
+
+The re-import changed exactly these three entry files, and in each
+only the two senses the patches name; `nameOf` is unchanged. With the
+labels set back into the text, each entry reads as before plus the
+restored bytes in the table, and nothing else. The worklist's class 5
+and class 8 predicates now find none (they found J00199 and D01114),
+and B00753's bare `—1` is gone.
