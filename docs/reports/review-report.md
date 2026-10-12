@@ -7,7 +7,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 | Publication | Rows |
 |---|---|
 | blocks | 0 |
-| defer | 2834 |
+| defer | 2816 |
 | note | 1597 |
 | catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
@@ -15,7 +15,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 
 _none_
 
-## Deferred (2834)
+## Deferred (2816)
 
 ### empty-body (2)
 
@@ -445,7 +445,7 @@ _none_
 - B00771: senses[2].units[0]: <he> holds 1 "(" against 0 ")"
 - B00772: senses[2].units[0]: <he> holds 1 "(" against 0 ")"
 - B00886: senses[0].units[1]: <he> holds 1 "(" against 0 ")"
-- B01153: senses[3].units[7]: <he> holds 1 "(" against 0 ")"
+- B01153: senses[4].units[3]: <he> holds 1 "(" against 0 ")"
 - C01412: senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - D00314: senses[0].units[1]: <he> holds 1 "(" against 0 ")"
 - D00500: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
@@ -2766,32 +2766,14 @@ _none_
 - K00081: print sense 5 label missing and note is unresolved (01: "does not have the 5 label") — eyes-on
 - R00519: sense 4's "[" attaches to the end of sense 3 (print "—[4)…") — bracket move not yet decided (cmp. D00341)
 
-### self-numbered-intext-marker (22)
+### self-numbered-intext-marker (4)
 
 **What to do:** Read the page and choose per row: split at the in-text marker and keep print’s doubled number, split and number on (renumbering the later senses), or leave the sense whole; write the choice as a reviewed patch whose rationale annotates any change to print’s text, since the page reads as print meanwhile.
 
 - A00982: senses[2] (labelled 2) holds "—2)": "…ard in speaking); a. fr.—2) handles. Kel. IV, 3, v.…"
-- B01153: senses[3] (labelled 4) holds "—4)": "…d. בתרא); cmp. בָּרָאָה.—4) (prep. a. adv.) outside…"
-- B01299: senses[3] (labelled 3) holds "—3)": "…aid this. B. Mets. 114ᵃ.—3) interj. truly!, surely!…"
 - C00263: senses[1] (labelled 2) holds "—2)": "…o and the other?; a. fr.—2) (cmp. אַגַּב) an action…"
-- C00399: senses[1] (labelled 2) holds "—2)": "…of unfinished (needles).—2) (cmp. גְּוִיל) stone. P…"
 - C00869: senses[2] (labelled 2) holds "—2)": "…en. 86ᵃ, v. גִּרְגֵּר.].—2) (with על) to roll upon,…"
-- C00871: senses[3] (labelled 3) holds "—3)": "…tly; Ex. R. s. 31, a. e.—3) (= גַּרְגַּר) globule,…"
-- C00872: senses[3] (labelled 4) holds "—4)": "…6; Lev. R. s. 18; a. e.—4) (v. next w.) a sort of…"
-- G00456: senses[3] (labelled 4) holds "—4)": "…ng I will go &c.; a. fr.—4) to take possession, acq…"
-- H01899: senses[1] (labelled 2) holds "—2)": "…f. ib. V (VI), 2; a. fr.—2) to sign, subscribe (as…"
-- I00712: senses[3] (labelled 3) holds "—3)": "…hem into despair, a. fr.—3) to weary, make unsteady…"
-- H00940: senses[2] (labelled 2) holds "—2)": "…ᵃ bot. יטול), v. זוֹגָא.—2) (euphem. = b. h. יָדַע)…"
-- K00086: senses[5] (labelled 6) holds "—6)": "…שׁ constr., v. כְּבִישׁ.—6) (archit.) recess, encei…"
-- K01280: senses[2] (labelled 3) holds "—3)": "…(strike out לה); a. fr.—3) to decide, make final.…"
-- M02130: senses[3] (labelled 3) holds "—3)": "…gin (v. Kel. I, 8, sq.).—3) height, on high. Mekh.…"
-- M00596: senses[4] (labelled 4) holds "—4)": "…been done with it; a. e.—4) (Sabbath law) muktseh,…"
-- N01139: stems[0].senses[1] (labelled 2) holds "—2)": "…XII, 5, v. צוּץ; a. fr.—2) to cause to sprout. Gen…"
-- P00059: stems[1].senses[3] (labelled 4) holds "—4)": "…g). Yeb. III, 10; a. fr.—4) (v. עִיבּוּר) to extend…"
-- Q01502: stems[1].senses[1] (labelled 2) holds "—2)": "…yssus and purple; a. fr.—2) [to cause breaking loos…"
-- S00151: stems[1].senses[2] (labelled 3) holds "—3)": "…arg. Ps. XVII, 13; a. e.—3) to be earlier than, be…"
 - U01512: stems[1].senses[1] (labelled 2) holds "—2)": "…‘to strengthen’); a. fr.—2) inferred, proved; evide…"
-- V00909: senses[3] (labelled 4) holds "—4)": "…assion for another man].—4) to get hot, ferment, ge…"
 
 ### stranded-open-bracket (85)
 

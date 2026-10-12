@@ -38,6 +38,13 @@ read from print.
 question for each of the detector's 22 rows, in § `Class 3 scan review
 (2026-10-11)` near the end, the maintainer's to tick.
 
+**Ticked 2026-10-12.** The maintainer ticked the class 3 scan review.
+The 18 split rows are applied as reviewed patches (P000518–P000537,
+PR #n): 17 keep print's number as ticked, and P00059's note
+`1,2,3,4,4,6` is read as its Pi. label list, two splits. The detector
+now reports the four nest rows (A00982, C00263, C00869, U01512); they
+need a nesting op and wait for PR 2.
+
 How I chose each recommendation, so the rows read the same way:
 
 - **Discard** where the reader sees what print sets and the structure
@@ -977,6 +984,9 @@ adv.) outside`, so both read `4`. Print sets the numeral twice.
 Recommendation: keep print's number (medium): both markers read `4`,
 though both are mirrored.
 
+Applied in PR #n: P000518 splits `—4) (prep. a. adv.)` out of sense 4
+under print's number (labels `1 2 *3 4` → `1 2 *3 4 4`).
+
 ### B01299 (`בְּרַם`)
 
 | sense | stored, tag-free | hOCR, verbatim | scan |
@@ -998,6 +1008,9 @@ only,` and `—3) interj.truly!`: print sets `3)` twice.
 
 Recommendation: keep print's number (high): both markers are clear in
 the hOCR.
+
+Applied in PR #n: P000519 splits `—3) interj.` out of sense 3 under
+print's number (labels `· 1 2 3` → `· 1 2 3 3`).
 
 ### C00263 (`גֵּו ²`), class 4's residue
 
@@ -1057,6 +1070,9 @@ read?
 Recommendation: keep print's number (medium): the hOCR shows `2)`
 twice and print's `3)` after them.
 
+Applied in PR #n: P000520 splits `—2) (cmp. גְּוִיל) stone` out of sense
+2 under print's number (labels `1 2 3` → `1 2 2 3`).
+
 ### C00869 (`גִּלְגֵּל`)
 
 | sense | stored, tag-free | hOCR, verbatim | scan |
@@ -1114,6 +1130,9 @@ be read?
 Recommendation: keep print's number (medium): the host's `3)` reads,
 and the in-text marker is a garbled numeral the scan should confirm.
 
+Applied in PR #n: P000521 splits `—3) (= גַּרְגַּר) globule` out of
+sense 3 under print's number (labels `· 1 2 3` → `· 1 2 3 3`).
+
 ### C00872 (`גַּלְגַּל ²`)
 
 | sense | stored, tag-free | hOCR, verbatim | scan |
@@ -1135,6 +1154,9 @@ print sets `4)` twice.
   - note: 
 
 Recommendation: keep print's number (high): both markers read `4`.
+
+Applied in PR #n: P000522 splits `—4) (v. next w.)` out of sense 4 under
+print's number (labels `1 2 3 4` → `1 2 3 4 4`).
 
 ### G00456 (`זְכֵי`)
 
@@ -1160,6 +1182,9 @@ read?
 
 Recommendation: keep print's number (medium): the in-text `4)` is
 print's, and nothing in the hOCR numbers the host otherwise.
+
+Applied in PR #n: P000523 splits `—4) to take possession` out of Kal
+sense 4 under print's number (labels `1 2 3 4` → `1 2 3 4 4`).
 
 ### H00940 (`חֲכַם`)
 
@@ -1188,6 +1213,9 @@ Recommendation: keep print's number (low): the stored `—2)` is the
 only witness for the in-text marker, and numbering on would renumber a
 `3)` the hOCR cannot read either.
 
+Applied in PR #n: P000524 splits `—2) (euphem. = b. h. יָדַע)` out of
+Kal sense 2 under print's number (labels `· 1 2 3` → `· 1 2 2 3`).
+
 ### H01899 (`חָתַם`)
 
 | sense | stored, tag-free | hOCR, verbatim | scan |
@@ -1211,6 +1239,9 @@ and goes on to `3)`, so numbering on would make print's `3)` a `4)`.
 
 Recommendation: keep print's number (high): all three markers are
 clear in the hOCR.
+
+Applied in PR #n: P000525 splits `—2) to sign` out of Kal sense 2 under
+print's number (labels `1 2 3` → `1 2 2 3`).
 
 ### I00712 (`טָרַד`)
 
@@ -1238,6 +1269,9 @@ Recommendation: keep print's number (medium): the in-text `3)` and
 the `4)` after it are clear; the host's `3)` is a misread the scan
 should confirm.
 
+Applied in PR #n: P000526 splits `—3) to weary` out of Kal sense 3 under
+print's number (labels `· 1 2 3 4 (a b)` → `· 1 2 3 3 4 (a b)`).
+
 ### K00086 (`כֵּבַשׁ II`)
 
 | sense | stored, tag-free | hOCR, verbatim | scan |
@@ -1260,6 +1294,9 @@ read?
   - note: 
 
 Recommendation: keep print's number (high): both markers read `6`.
+
+Applied in PR #n: P000527 splits `—6) (archit.) recess` out of sense 6
+under print's number (labels `1 2 3 4 5 6` → `1 2 3 4 5 6 6`).
 
 ### K01280 (`כָּרַת`)
 
@@ -1285,6 +1322,9 @@ since `2` is not that sense's own number.)
 
 Recommendation: keep print's number (high): both markers read `3`.
 
+Applied in PR #n: P000528 splits `—3) to decide` out of Kal sense 3
+under print's number (labels `1 2 3` → `1 2 3 3`).
+
 ### M00596 (`מוּקְצֶה`)
 
 | sense | stored, tag-free | hOCR, verbatim | scan |
@@ -1306,6 +1346,9 @@ and, at the top of the next page, `— 4) (Sabbath law)`: print sets
   - note: 
 
 Recommendation: keep print's number (high): both markers read `4`.
+
+Applied in PR #n: P000529 splits `—4) (Sabbath law)` out of sense 4
+under print's number (labels `· 1 2 3 4` → `· 1 2 3 4 4`).
 
 ### M02130 (`מַעֲלָה`)
 
@@ -1331,6 +1374,10 @@ high`), so a split carries them with the new sense.
 
 Recommendation: keep print's number (high): both markers read `3`.
 
+Applied in PR #n: P000530 splits `—3) height, on high` out of sense 3
+under print's number (labels `· 1 2 3 (a b c d)` → `· 1 2 3 3 (a b c
+d)`).
+
 ### N01139 (`נָצַץ`)
 
 | sense | stored, tag-free | hOCR, verbatim | scan |
@@ -1352,6 +1399,9 @@ read?
   - note: 
 
 Recommendation: keep print's number (high): both markers read `2`.
+
+Applied in PR #n: P000531 splits `—2) to cause to sprout` out of Hif.
+sense 2 under print's number (labels `1 2` → `1 2 2`).
 
 ### P00059 (`עָבַר`)
 
@@ -1384,6 +1434,13 @@ Recommendation: keep print's number (low): ABBYY's `S)` reads more
 like `5)` than `6)`, which would make print's own count `4 4 5`; tick
 number on instead if the scan shows `6)`.
 
+Applied in PR #n: P000532 splits `—4) (v. עִיבּוּר) to extend` out of
+Pi.
+sense 4 under print's number; P000533 moves `—6` out of the `Tosef.
+Ber.` link it was caught in, and P000534 splits `—6) to complement`
+out as print's `6`, the note read as the Pi. label list (labels
+`1 2 3 4` → `1 2 3 4 4 6`).
+
 ### Q01502 (`פָּקַע`)
 
 | sense | stored, tag-free | hOCR, verbatim | scan |
@@ -1409,6 +1466,9 @@ loose,]` be read?
 Recommendation: keep print's number (high): all three markers are
 clear.
 
+Applied in PR #n: P000535 splits `—2) [to cause breaking loose,]` out of
+Hif. sense 2 under print's number (labels `1 2 3` → `1 2 2 3`).
+
 ### S00151 (`קְדַם`)
 
 | sense | stored, tag-free | hOCR, verbatim | scan |
@@ -1432,6 +1492,9 @@ read?
 
 Recommendation: keep print's number (high): all three markers are
 clear.
+
+Applied in PR #n: P000536 splits `—3) to be earlier than` out of Af.
+sense 3 under print's number (labels `1 2 3 4` → `1 2 3 3 4`).
 
 ### U01512 (`שְׁמַע I`)
 
@@ -1483,6 +1546,9 @@ read?
   - note: 
 
 Recommendation: keep print's number (high): both markers read `4`.
+
+Applied in PR #n: P000537 splits `—4) to get hot, ferment` out of Kal
+sense 4 under print's number (labels `1 2 3 4` → `1 2 3 4 4`).
 
 ---
 
