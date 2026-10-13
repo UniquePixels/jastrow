@@ -375,17 +375,16 @@ describe('join', () => {
 		]);
 	});
 
-	it.each([
-		[', <i>being raised</i>'],
-		[') night'],
-		['; a. fr.'],
-	])('inserts no space before closing punctuation: %p', (text) => {
-		const entry = joinEntry({}, { definition: text });
-		const patch = patchFor(text, '2)', { op: 'join', payload: {} });
-		expect(applyPatch(entry, patch).content.senses).toEqual([
-			{ definition: `day2)${text}`, number: '1)' },
-		]);
-	});
+	it.each([[', <i>being raised</i>'], [') night'], ['; a. fr.']])(
+		'inserts no space before closing punctuation: %p',
+		(text) => {
+			const entry = joinEntry({}, { definition: text });
+			const patch = patchFor(text, '2)', { op: 'join', payload: {} });
+			expect(applyPatch(entry, patch).content.senses).toEqual([
+				{ definition: `day2)${text}`, number: '1)' },
+			]);
+		},
+	);
 });
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.

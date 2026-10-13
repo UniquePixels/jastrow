@@ -215,7 +215,7 @@ function depthStep(
 	char: string | undefined,
 	own: Mark | undefined,
 	inside: ReadonlySet<Mark>,
-): number {
+): -1 | 0 | 1 {
 	if (char === '(') {
 		return 1;
 	}

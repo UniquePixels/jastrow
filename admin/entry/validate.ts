@@ -119,7 +119,7 @@ async function loadEntryFiles(
 }
 
 /** Code-unit order: stable across machines, unlike a locale collation. */
-function byCodeUnit(a: string, b: string): number {
+function byCodeUnit(a: string, b: string): -1 | 0 | 1 {
 	if (a === b) {
 		return 0;
 	}

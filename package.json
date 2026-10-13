@@ -18,7 +18,7 @@
 		"transform:invariants": "bun test admin/pipeline/transform/commutation.corpus.test.ts admin/pipeline/transform/registry.order.corpus.test.ts"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.5.2",
+		"@biomejs/biome": "2.5.15",
 		"@types/bun": "^1.4.3",
 		"ajv": "^8.20.0",
 		"bson": "^7.3.3",

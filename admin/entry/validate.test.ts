@@ -302,6 +302,7 @@ describe('validateEntries', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('the NFC clause', () => {
 	it('the planted spelling is a real NFC defect — positive control', () => {
 		// Without this, a constant that an editor had normalized would
@@ -350,11 +351,14 @@ describe('the NFC clause', () => {
 			{ ...A(), headwords: [{ text: `אב${NOT_NFC}` }] },
 			'headwords[0].text',
 		],
-	])('fires on a decomposed spelling in %s, naming the field', async (_name, planted, field) => {
-		expect(await validateEntry(planted, 'A/A00001.json')).toEqual([
-			`A00001: ${field}: not NFC`,
-		]);
-	});
+	])(
+		'fires on a decomposed spelling in %s, naming the field',
+		async (_name, planted, field) => {
+			expect(await validateEntry(planted, 'A/A00001.json')).toEqual([
+				`A00001: ${field}: not NFC`,
+			]);
+		},
+	);
 
 	it('does not ask sefariaHeadword to be NFC — it is Sefaria’s bytes', async () => {
 		// `VERBATIM_FIELDS`: the import's NFC write leaves this field
@@ -464,13 +468,12 @@ describe('gender exclusivity (HW-gender)', () => {
 				'A00001: a form gender on headwords [0] but none on [1]; it goes on every headword or none (HW-gender)',
 			],
 		],
-	] as [
-		string,
-		Entry,
-		string[],
-	][])('refuses %s', async (_name, planted, expected) => {
-		expect(await validateEntry(planted, 'A/A00001.json')).toEqual(expected);
-	});
+	] as [string, Entry, string[]][])(
+		'refuses %s',
+		async (_name, planted, expected) => {
+			expect(await validateEntry(planted, 'A/A00001.json')).toEqual(expected);
+		},
+	);
 });
 
 /** One entry with every text field filled, two levels of senses

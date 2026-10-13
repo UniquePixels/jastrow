@@ -197,6 +197,7 @@ function issuesOf(text: string): string[] {
 
 /** Which multi-word sub-shape a form is: the four read very
  * differently, and only one of them is likely to be legitimate. */
+// biome-ignore lint/nursery/noMisleadingReturnType: a note is report text; narrowing to today's phrases would couple noteFor to their wording.
 function multiWordNote(text: string, headword: string): string {
 	const words = text.split(' ').filter((w) => w !== '');
 	const skeletons = words.map(consonants);
@@ -342,6 +343,7 @@ function flaggedRids(reportRows: readonly ReportRow[]): Set<string> {
  * cross-reference pointing at other entries (`\u05D0\u05D5\u05BC\u05E8\u05B0\u05D9\u05B8\u05D4  I, II`, gloss
  * `v. \u05D0\u05D5\u05BC\u05E8\u05B0\u05D9\u05B8\u05D0`); one numeral means the separator in front of
  * it is wrong, either a stray comma or a doubled space. */
+// biome-ignore lint/nursery/noMisleadingReturnType: a note is report text; narrowing to today's phrases would couple noteFor to their wording.
 function homographListNote(text: string): string {
 	const numerals = text.match(ROMAN_NUMERAL) ?? [];
 	if (numerals.length > 1) {

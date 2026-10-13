@@ -58,11 +58,12 @@ const CASES: ReadonlyArray<readonly [string, FormObject, string]> = [
 ];
 
 describe('deriveName', () => {
-	it.each(
-		CASES.map((c) => [c[0], c[1], c[2]]),
-	)('%s', (_what, form, expected) => {
-		expect(deriveName(form as FormObject)).toBe(expected as string);
-	});
+	it.each(CASES.map((c) => [c[0], c[1], c[2]]))(
+		'%s',
+		(_what, form, expected) => {
+			expect(deriveName(form as FormObject)).toBe(expected as string);
+		},
+	);
 
 	it('never rewrites the stored text (spec §4)', () => {
 		// The name of a decomposed form comes back decomposed: name

@@ -121,10 +121,17 @@ describe('finishEntry', () => {
 	it.each([
 		[[{ form: 0, homograph: 1 }], 'headwords[0], which already carries II'],
 		[[{ form: 2, homograph: 1 }], 'there is no headwords[2]'],
-	])('refuses homographs %j where the line cannot take them', (homographs, reason) => {
-		const { problems } = finishEntry({ ...source, homographs }, body, context);
-		expect(problems.join('; ')).toContain(reason);
-	});
+	])(
+		'refuses homographs %j where the line cannot take them',
+		(homographs, reason) => {
+			const { problems } = finishEntry(
+				{ ...source, homographs },
+				body,
+				context,
+			);
+			expect(problems.join('; ')).toContain(reason);
+		},
+	);
 
 	it('reports a missing page and keeps going', () => {
 		const { entry, problems } = finishEntry(source, body, {
