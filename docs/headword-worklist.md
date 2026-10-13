@@ -1,8 +1,17 @@
 # Headword worklist: the primary rows before go-live
 
-## Status (2026-10-09)
+## Status
 
-Your 96 answers of 2026-10-06 are processed in
+**Refreshed 2026-10-13.** Round 2, just below, is brought up to date
+and waits for your ticks. Every fact in it was re-read on 2026-10-13
+from the committed entries (`v2` at `ead4a4d75`) and from the headword
+report, which a dry import regenerates byte-identical to the committed
+one. All 16 questions are still open: no PR since #156 touched their
+headwords, none is on the reviewed-kept list, and none is cleared by a
+ruling without your print read. Each block now ends with a
+recommendation, and the round opens with a summary table.
+
+**2026-10-09.** Your 96 answers of 2026-10-06 are processed in
 [PR #155](https://github.com/UniquePixels/jastrow/pull/155) and
 [PR #156](https://github.com/UniquePixels/jastrow/pull/156): **57 reviewed
 patches on 49 entries** (P000311–P000367), each with your answer, the
@@ -21,23 +30,74 @@ below; tick it the same way.
 After the re-import the report reads X10 17 (12 primary), X8 76 (45),
 X9 5 (0), X5 140 (113), reviewed-kept 34 (before #155: X10 50 (45), X8
 83 (52), X9 15 (10), X5 141 (114), kept 30; after #155: X10 18 (13), X8
-77 (46), X9 12 (7)).
+77 (46), X9 12 (7)). The 2026-10-13 dry import reads the same.
 
 The piles further down are the list as you answered it, kept for the
 record; regenerate it before reading its counts again.
 
 ## Round 2: needs another look
 
-Each block is one question, with what the data holds now and where the
-scan is. Tick ONE box, add a note only where a box asks for one, and
-skip anything you like. Your round-1 answer is quoted where it is the
-reason for asking again.
+Tick ONE box per block. Add a note only where a box asks for one, and
+skip anything you like. Each block's `Recommendation:` line is a
+default you can accept by ticking the box it names.
+
+How to read the blocks:
+
+- The table is the family as the committed entries store it (`v2` at
+  `ead4a4d75`), with the hOCR line of each row and its scan. The hOCR
+  is verbatim apart from removed bidi marks. Volume 1 is Tesseract,
+  which garbles Hebrew and reads a numeral as `IL`, `IT`, `11`, `111`
+  or `]`; volume 2 is ABBYY, which reads numerals well. The scan column
+  is the page index's page and leaf (`data/page-index/`); the link
+  opens that leaf.
+- "Shape now" is the row in `docs/reports/headword-issues.md`: X8 a
+  numbering gap, X10 an implied-I candidate (the unnumbered form just
+  before a II), X1 a form that starts with a mark.
+- Jastrow often names a homograph with its numeral elsewhere in the
+  dictionary (`v. חוּל I`). Where such a cross-reference shows which
+  word he counts as I, the block quotes it with its rid. Sefaria's link
+  for a reference is its own guess, and the block says so where it
+  points elsewhere.
+- The rulings the recommendations rest on: `10-05 homograph sequence`
+  (numerals number the consonants within five entries, so a pair
+  pointed apart can be one I, II), `10-06 implied I` (the unnumbered
+  first homograph before a II takes an implied I, set by reviewed
+  patch after a print read), `10-06 reviewed kept` (a "nothing to fix"
+  goes to the kept list) and HW-roman (a numeral stays on the form
+  print sets it on).
+- Confidence: high where the print's own text (the hOCR line or a
+  cross-reference) shows it and a ruling decides the outcome; medium
+  where only one of the two does; low where neither does.
+- Where a fact found on 2026-10-13 changed a block's question or
+  options, the block says what changed. Your round-1 answer is quoted
+  where it is the reason for asking again.
+
+| rid | headword | shape now | question in five words | recommendation | confidence |
+|---|---|---|---|---|---|
+| A03217 | `אָרַע` II | X8 | does A03215 take I? | A03215 takes the implied I | high |
+| B01159 | `בְּרָא` II | X8 | is B01158's `בְּרָא I` a form? | yes: store it as B01158's alternate | high |
+| G00527 | `זְמַם` I | X8 | is G00529 bare in print? | yes: kept | high |
+| H01101 | `חֵלֶף` II | X8 | H01100: tsere or hiriq? | tsere: `חֵלֶף I` | high |
+| H01222 | `חֲמַר` III | X8 | ch. lines bare, then III? | yes: kept | high |
+| I00081 | `טְבַע` II | X10 | which form takes the I? | I00077, implied | medium |
+| U02013 | `שְׂרַף` II | X10 | a numeral beside U02012? | none: U02012 takes the implied I | medium |
+| H00321 | `חוּל` II | X10 | which form takes the I? | H00319, implied | high |
+| C00773 | `גִּיס` II | X10 | is C00772 the I? | yes: implied I | medium |
+| E00114 | `הֲדָיָא` II | X10 | is E00113 the I? | yes: implied I | medium |
+| T00376 | `רוּם` II | X10 | which form takes the I? | T00374, implied | medium |
+| U01397 | `שִׁלְשֵׁל` II | X10 | where is U01396's I? | after the abbreviation, on the alternate | high |
+| N00260 | `נְהִי` II | X8 | is there a `נְהִי` I? | no: kept | high |
+| V00523 | `תַּכָּא` II | X10 | V00522's parenthesis: where exactly? | a comma, then the parenthesis | medium |
+| J00321, J00327 | `ַיי`, `ַיְידָא` | X1 | a placeholder for the underline? | keep as stored | medium |
+| S01780 | `קֵץ` (ch.) | X1, X3 (alternates) | a qamats under the tsade? | yes, `קִצָּא` | high |
 
 E00008 (`הִא` III) asked why it was flagged and needs no answer: the
 consonants `הא` carry I and II twice (E00005 `הָא` I and E00006 `הָא`
 II; E00006's alternate `הֵא` I and E00007 `הֵא` II), so the sequence
 rule sees each numeral given twice and cannot clear `הִא` III. The data is what print sets, and the row stays
 on the reviewed-kept list. A03217 asked the same; its block says why.
+U00489's mark question is not asked again: review ledger L46 records it
+as moot once U00488 takes I, and both wait on L50.
 
 ### `אָרַע`: A03217 (`אָרַע` II)
 
@@ -46,60 +106,81 @@ on the reviewed-kept list. A03217 asked the same; its block says why.
 | [A03215](https://jastrow.app/#rid:A03215) | `אָרַע` | `YIN (V3, v. (רעע to strike against. Nif.` | [124b · leaf 147](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$148/full/1400,/0/default.jpg) |
 | [A03216](https://jastrow.app/#rid:A03216) | `אֲרַע I` | `JN I ch. (in Targ. Y.; in O.` | [124b · leaf 147](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$148/full/1400,/0/default.jpg) |
 | [A03217](https://jastrow.app/#rid:A03217) | `אָרַע II` | `"JIN IT (35, cmp. 3, Hif. on, >` | [124b · leaf 147](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$148/full/1400,/0/default.jpg) |
+| [A03218](https://jastrow.app/#rid:A03218) | `אֲרַע II` | `II (Targ. ¥., 0. טפט 257 qv), Pa. 27 ארק` | [125a · leaf 148](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$149/full/1400,/0/default.jpg) |
+
+Shape now: X8 (`missing 1; 1 unnumbered: A03215=—; A03217=2`).
 
 **Why it was flagged** (your note asked): the report keys a family on its exact spelling, and A03215 is spelled `אָרַע` like A03217, with no numeral. So it sees `אָרַע` II with no `אָרַע` I. You read A03216 `אֲרַע` I and A03217 `אָרַע` II as the numbered pair, and no numeral beside A03215.
 
-**Question.** Is A03215 (`to strike against`, from `רעע`) a word of its own that print leaves unnumbered, outside the I, II run?
+Found 2026-10-13: A03218 `אֲרַע` II, the `ch.` line of A03217, which round 2's first version left out. So print sets two pairs: the Hebrew A03215 (bare) and A03217 II, and the Aramaic A03216 I and A03218 II. The dictionary calls A03215's word `אָרַע I` six times: A03223 `(אָרַע I) chance`, M00016 `(אָרַע I) event`, V00895 `Ber. IV, 2, v. אָרַע I` (Ber. IV, 2 is quoted in A03215), and M02308, P01342 and P01411, whose links Sefaria points at A03216.
 
-- **A03217**
-  - [ ] yes, A03215 stands apart; as stored: nothing to fix (the row goes to the reviewed-kept list)
-  - [ ] no: A03215 belongs to the run (say how print numbers it in the note)
+**Question.** Is A03215 (`to strike against`, from `רעע`) the I of the Hebrew pair, or a word of its own outside the I, II run?
+
+Changed 2026-10-13: the old "no" box asked you to write how print numbers A03215; A03218 and the cross-references give that answer two boxes to tick.
+
+- **A03215**
+  - [ ] the I of the pair, unnumbered in print: A03215 takes the implied I (name `אָרַע I`; nothing displayed)
+  - [ ] the I of the pair, and print sets I beside it (name `אָרַע I`; the I displayed)
+  - [ ] a word of its own outside the run; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] can't tell from the scan
   - note: 
 
+Recommendation: implied I (high): the hOCR line `YIN (V3, v. (רעע to strike against.` sets no numeral, you read none, and Jastrow's own cross-references call this word `אָרַע I`, so ruling 10-06 gives A03215 the implied I (their links are a separate question, as in L51).
 
 ### `בְּרָא`: B01159 (`בְּרָא` II, son)
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [B01154](https://jastrow.app/#rid:B01154) | `בַּר II`, `בְּרָא` | `,זזבר בְּרַא m. ch. (b. h, "2 poetic;` | [188b · leaf 211](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$212/full/1400,/0/default.jpg) |
-| [B01157](https://jastrow.app/#rid:B01157) | `בָּרָא I` | not found in the hOCR | [189a · leaf 212](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$213/full/1400,/0/default.jpg) |
-| [B01158](https://jastrow.app/#rid:B01158) | `בָּרָא II` | not matched for this list; read the scan | [189a · leaf 212](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$213/full/1400,/0/default.jpg) |
-| [B01159](https://jastrow.app/#rid:B01159) | `בְּרָא II` | not found in the hOCR | [189a · leaf 212](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$213/full/1400,/0/default.jpg) |
+| [B01157](https://jastrow.app/#rid:B01157) | `בָּרָא I` | `NUTS I owteide, forest &e., v. “31 ch.` | [189a · leaf 212](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$213/full/1400,/0/default.jpg) |
+| [B01158](https://jastrow.app/#rid:B01158) | `בָּרָא II`; gloss opens `, בְּרָא I to create` | `NSIT, x31 ₪ create, +. ברי` | [189a · leaf 212](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$213/full/1400,/0/default.jpg) |
+| [B01159](https://jastrow.app/#rid:B01159) | `בְּרָא II` | `NW 11 son, +. בַר וו` | [189a · leaf 212](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$213/full/1400,/0/default.jpg) |
 | [B01237](https://jastrow.app/#rid:B01237) | `ברי`, `בְּרָא` | `:בל בְּרָא ch. same; 1) fo create. Targ.` | [192a · leaf 215](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$216/full/1400,/0/default.jpg) |
 
-You read no numeral beside either alternate `בְּרָא` (B01154, of `בַּר` II; B01237, of `ברי`). B01158 `בָּרָא` II cross-refers to a `בְּרָא` I, which no line holds.
+Shape now: X8 (`missing 1; 2 unnumbered: B01154/alt=—; B01159=2; B01237/alt=—`).
 
-**Question.** With no numbered `בְּרָא` I anywhere, is B01159's II Jastrow's own gap?
+You read no numeral beside either alternate `בְּרָא` (B01154, of `בַּר` II; B01237, of `ברי`). Found 2026-10-13: B01158's stored gloss opens `, בְּרָא I to create, v. ברי.`, so its line reads `בָּרָא II, בְּרָא I to create, v. ברי`: the `בְּרָא I` is a second form of B01158's line that Sefaria cut into the gloss head, form and numeral both. It did the same to the numerals of U02097's alternate (P000340–P000341 moved that I back to it) and V00522's; here the form went too. The hOCR shows two forms and a comma before `create`. P00501 `Snh. 65ᵇ; 67ᵇ, v. בְּרָא I` names the same word (creating a calf). Round 2's first version read the gloss head as a cross-reference that no line holds.
 
-- **B01159**
-  - [ ] yes, the gap is Jastrow's; as stored: nothing to fix (the row goes to the reviewed-kept list)
-  - [ ] no: print numbers a `בְּרָא` I (say which entry in the note)
+**Question.** Is the `בְּרָא I` at the head of B01158's gloss a second form of B01158's line?
+
+Changed 2026-10-13: the old "no: print numbers a `בְּרָא` I (say which entry)" box now names the entry.
+
+- **B01158**
+  - [ ] yes: store `בְּרָא` as B01158's second form with I and take it out of the gloss (HW-roman; B01158's name is unchanged)
+  - [ ] no, it is a cross-reference: the gap is Jastrow's; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] can't tell from the scan
   - note: 
 
+Recommendation: yes (high): the stored gloss and the hOCR line `NSIT, x31 ₪ create` both set a second form beside `בָּרָא II` before the gloss `to create`, and HW-roman keeps its I on that form, as U02097's alternate already does.
 
 ### `זְמַם`: G00527 (missing II)
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [G00527](https://jastrow.app/#rid:G00527) | `זְמַם I` | `.וו .הרתורם orem fo be proven a falee` | [403a · leaf 426](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$427/full/1400,/0/default.jpg) |
+| [G00526](https://jastrow.app/#rid:G00526) | `זָמַם I` | `BERIT (b.b.; emp, ,רטפ (רבב fo mumble; to meditate,` | [403a · leaf 426](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$427/full/1400,/0/default.jpg) |
+| [G00527](https://jastrow.app/#rid:G00527) | `זְמַם I` | `זמם ] onsme.` | [403a · leaf 426](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$427/full/1400,/0/default.jpg) |
 | [G00528](https://jastrow.app/#rid:G00528) | `זָמַם II` | `SET IL (emp. Ses) fo the wp, to` | [403a · leaf 426](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$427/full/1400,/0/default.jpg) |
 | [G00529](https://jastrow.app/#rid:G00529) | `זְמַם` | `os ch.-same, lo muscle. Targ. ¥. 11 Gen.` | [403b · leaf 426](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$427/full/1400,/0/default.jpg) |
-| [G00531](https://jastrow.app/#rid:G00531) | `זְמַם III` | not found in the hOCR | [403b · leaf 426](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$427/full/1400,/0/default.jpg) |
+| [G00530](https://jastrow.app/#rid:G00530) | `זָמַם III` | `זָמם 111 to be filthy, +. oe.` | [403b · leaf 426](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$427/full/1400,/0/default.jpg) |
+| [G00531](https://jastrow.app/#rid:G00531) | `זְמַם III` | `"Cf 111, Ripe, over (emp, S50 fo be comfommdad` | [403b · leaf 426](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$427/full/1400,/0/default.jpg) |
 | [G00533](https://jastrow.app/#rid:G00533) | `זְמָם II` | `DST 11 m. (ost 1( נש (v. (וסזם` | [403b · leaf 426](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$427/full/1400,/0/default.jpg) |
 | [G00534](https://jastrow.app/#rid:G00534) | `זְמַם`, `זְמָמָא` | not found in the hOCR | [403b · leaf 426](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$427/full/1400,/0/default.jpg) |
 
-You read no numeral beside G00529 or G00534. The II the exact spelling lacks is G00528 `זָמַם` II, pointed with qamats, which the sequence rule (10-05) would count, except that G00533 `זְמָם` II (the noun, *muzzle*) is a second II within five entries.
+Shape now: X8 (`missing 2; 2 unnumbered: G00527=1; G00529=—; G00531=3; G00534=—`).
 
-**Question.** Does print run G00527 `זְמַם` I, G00528 `זָמַם` II, G00531 `זְמַם` III, with the noun G00533 `זְמָם` II numbered on its own?
+You read no numeral beside G00529 or G00534. Found 2026-10-13: G00526 `זָמַם` I and G00530 `זָמַם` III, which round 2's first version left out. Print runs the Hebrew verbs I, II, III (G00526, G00528, G00530), each followed by its `ch.` line: G00527 I, G00529 bare, G00531 III. The II the spelling `זְמַם` lacks is G00529, not G00528, so the old question (whether G00528 is the run's II) no longer fits. G00527's hOCR column now quotes its own line; the old quote was a line of G00526's `Hof.`. The page index puts G00527 and G00528 in 403a, where the hOCR has them at the top of the right-hand column; the leaf is the same.
+
+**Question.** Does print leave G00529 `זְמַם` (`ch. same, to muzzle`) bare between the `ch.` lines I and III?
+
+Changed 2026-10-13: the question names G00529, and the "no" box says what it would change.
 
 - **G00527**
-  - [ ] yes; as stored: nothing to fix (the row goes to the reviewed-kept list)
-  - [ ] no (say what print numbers in the note)
+  - [ ] yes: the gap is Jastrow's own; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [ ] no, print sets II beside G00529 (name `זְמַם II`; the II displayed)
   - [ ] can't tell from the scan
   - note: 
 
+Recommendation: yes (high): you read no numeral beside G00529, its hOCR line `os ch.-same, lo muscle.` shows none where G00527's and G00531's show `]` and `111`, and no ruling supplies a II print leaves out.
 
 ### `חֵלֶף`: H01101 (`חֵלֶף` II)
 
@@ -110,7 +191,9 @@ You read no numeral beside G00529 or G00534. The II the exact spelling lacks is 
 | [H01100](https://jastrow.app/#rid:H01100) | `חִלֶף I` | `חלף I m. (preced, wds.) 1) shoot. —` | [472a · leaf 495](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$496/full/1400,/0/default.jpg) |
 | [H01101](https://jastrow.app/#rid:H01101) | `חֵלֶף II` | `720 II m. (préced. wds.) reversion. Y. Sabb,` | [472a · leaf 495](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$496/full/1400,/0/default.jpg) |
 
-You read no numeral beside H00780's alternate `חֵלֶף`, which is 321 entries back. The likelier I is H01100, stored `חִלֶף` I with a **hiriq** under ח, while H01101 has a **tsere**; both are glossed `(preced. wds.)`.
+Shape now: X8 (`missing 1; 1 unnumbered: H00780/alt=—; H01101=2`).
+
+You read no numeral beside H00780's alternate `חֵלֶף`, which is 321 entries back. The likelier I is H01100, stored `חִלֶף` I with a **hiriq** under ח, while H01101 has a **tsere**; both are glossed `(preced. wds.)`. Found 2026-10-13: the dictionary spells H01100's word with a tsere twice: H01057 `pl. חֲלִיפוֹת shoots, v. חֵלֶף I` and H01105 `חִלְפוֹת, חֲלָפוֹת, v. חֵלֶף I`. `shoots` is H01100's sense 1. Sefaria links both to H01101, since no `חֵלֶף I` is stored.
 
 **Question.** How does print point H01100?
 
@@ -120,19 +203,22 @@ You read no numeral beside H00780's alternate `חֵלֶף`, which is 321 entries
   - [ ] can't tell from the scan
   - note: 
 
+Recommendation: tsere (high): the hOCR is unpointed (`חלף I m.`), but Jastrow's own two cross-references to this word, both for its `shoots`, spell it `חֵלֶף I` with a tsere, so the single hiriq reads as Sefaria's OCR slip.
 
 ### `חֲמַר`: H01222 (`חֲמַר` III; missing I, II)
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [H01218](https://jastrow.app/#rid:H01218) | `חָמַר I` | `חמר 1 (emp. “3 1) to join; to` | [479b · leaf 502](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$503/full/1400,/0/default.jpg) |
-| [H01219](https://jastrow.app/#rid:H01219) | `חֲמַר` | `Pa. "gi, Af. אַהסדר as preced. Hif.—Y. Shek,` | [479b · leaf 502](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$503/full/1400,/0/default.jpg) |
+| [H01219](https://jastrow.app/#rid:H01219) | `חֲמַר` | `“WPT .ג same.` | [479b · leaf 502](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$503/full/1400,/0/default.jpg) |
 | [H01220](https://jastrow.app/#rid:H01220) | `חָמַר II` | `זמר זז .0( h.) [to be hot.) 1)` | [479b · leaf 502](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$503/full/1400,/0/default.jpg) |
 | [H01221](https://jastrow.app/#rid:H01221) | `חֲמַר` | `חמר ch. same, 1) to be hot, parched.` | [480a · leaf 503](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$504/full/1400,/0/default.jpg) |
 | [H01222](https://jastrow.app/#rid:H01222) | `חֲמַר III`, `חַמְרָא I` | `“VAM ITT, זַחְמַרָא (preced.) wine (b.h. V2). Targ.` | [480a · leaf 503](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$504/full/1400,/0/default.jpg) |
 | [H01224](https://jastrow.app/#rid:H01224) | `חַמָּר I` | `WAM I m. ch. (v. V2 11; emp.` | [480a · leaf 503](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$504/full/1400,/0/default.jpg) |
 
-You read no numeral beside H01219 or H01221. This is pile D's shape: the Hebrew verbs `חָמַר` I and II (qamats) are numbered, the Aramaic `ch. same` lines between are not, and the noun `חֲמַר` III numbers on from them. The sequence rule stops at H01224 `חַמָּר` I, a second I within five entries.
+Shape now: X8 (`missing 1,2; 2 unnumbered: H01219=—; H01221=—; H01222=3`).
+
+You read no numeral beside H01219 or H01221. This is pile D's shape: the Hebrew verbs `חָמַר` I and II (qamats) are numbered, the Aramaic `ch. same` lines between are not, and the noun `חֲמַר` III numbers on from them. The sequence rule stops at H01224 `חַמָּר` I, a second I within five entries. H01219's hOCR column now quotes its own headword line; the old quote was its `Pa.` line. Found 2026-10-13: Jastrow's cross-references count the two `ch.` lines as I and II without print numbering them: M00902 `(חֲמַר I) a pile of debris` (H01219's `to pile up`), H01190 `(חֲמַר II) strong leaven` and H01224 `v. חֲמַר II` (H01221's `to be hot`), H01227 `wine, v. חֲמַר III` (H01222). Four rows of this shape are already kept: I00618, M02850, S00061, U00710.
 
 **Question.** Does print number the Hebrew verbs I and II, leave H01219 and H01221 bare, and set III on H01222?
 
@@ -142,6 +228,7 @@ You read no numeral beside H01219 or H01221. This is pile D's shape: the Hebrew 
   - [ ] can't tell from the scan
   - note: 
 
+Recommendation: yes (high): the hOCR sets no numeral on either `ch.` line (`“WPT .ג same.`, `חמר ch. same`) and `ITT` on H01222, the shape of the four kept rows, and no ruling supplies the I and II that only the cross-references name.
 
 ### `טְבַע`: I00081 (`טְבַע` II)
 
@@ -149,35 +236,43 @@ You read no numeral beside H01219 or H01221. This is pile D's shape: the Hebrew 
 |---|---|---|---|
 | [I00076](https://jastrow.app/#rid:I00076) | `טָבַע I` | `YA I (v. וג emp. מֶבָל I) 1)` | [518b · leaf 541](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$542/full/1400,/0/default.jpg) |
 | [I00077](https://jastrow.app/#rid:I00077) | `טְבַע` | `מבע ch. same. Targ. Y. Gen. IV, 8.—'Targ.` | [518b · leaf 541](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$542/full/1400,/0/default.jpg) |
-| [I00078](https://jastrow.app/#rid:I00078) | `טָבַע II` | not matched for this list; read the scan | [518b · leaf 541](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$542/full/1400,/0/default.jpg) |
-| [I00079](https://jastrow.app/#rid:I00079) | `טְבַע` | not found in the hOCR | [519a · leaf 542](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$543/full/1400,/0/default.jpg) |
-| [I00080](https://jastrow.app/#rid:I00080) | `טֶבַע` | not matched for this list; read the scan | [519a · leaf 542](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$543/full/1400,/0/default.jpg) |
-| [I00081](https://jastrow.app/#rid:I00081) | `טְבַע II`, `טִבְעָא`, `טִיבְ׳ I` | `rg. Y. Gon. 22 (od. ררכטונא ; +.` | [519a · leaf 542](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$543/full/1400,/0/default.jpg) |
+| [I00078](https://jastrow.app/#rid:I00078) | `טָבַע II` | `yaa II [to round, shape, denom. 92%, fr. wh` | [518b · leaf 541](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$542/full/1400,/0/default.jpg) |
+| [I00079](https://jastrow.app/#rid:I00079) | `טְבַע` | `FAS oh. same, fo assume shape, Targ. Prov, VIM,` | [519a · leaf 542](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$543/full/1400,/0/default.jpg) |
+| [I00080](https://jastrow.app/#rid:I00080) | `טֶבַע` | `93S ₪. (v. 234 1) 1) 600%, medal, war פ' של tay` | [519a · leaf 542](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$543/full/1400,/0/default.jpg) |
+| [I00081](https://jastrow.app/#rid:I00081) | `טְבַע II`, `טִבְעָא`, `טִיבְ׳ I` | `Sa I 3, “SS I ch, same, coin; Teb'a.` | [519a · leaf 542](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$543/full/1400,/0/default.jpg) |
 
-You read no numeral beside I00077 or I00079. But I00081 `טְבַע` II is glossed `ch. same` as **I00080 `טֶבַע`** (segol, a noun), which the first list never asked about, and X10 names I00080 for the implied I.
+Shape now: X10 (`I00080 טֶבַע stands just before the II`; `I00077=—; I00079=—; I00081=2`).
 
-**Question.** Does print set a numeral beside I00080 `טֶבַע`?
+You read no numeral beside I00077 or I00079. I00081 `טְבַע` II is glossed `ch. same` as **I00080 `טֶבַע`** (segol, a noun), which the first list never asked about, and X10 names I00080 for the implied I. I00081's hOCR column now quotes its own headword line; the old quote was its third line. Found 2026-10-13: Jastrow calls I00077 (`ch. same` as `טָבַע I`, to sink) `טְבַע I` twice: I00121 `טוֹבְעָנָא m. (טְבַע I) flood` and O00179 `Sabb. 108ᵇ, v. טְבַע I` (the Lake of Sodom; Sefaria links it to I00076). I00077 is four entries before the II, inside the five-entry window of 10-05.
 
-- **I00080**
-  - [ ] no numeral: I00080 takes the implied I (name `טֶבַע I`; nothing displayed)
+**Question.** Which form takes the implied I?
+
+Changed 2026-10-13: the question asked only about I00080; the cross-references add I00077, so it now asks which form, as H00321's and T00376's do.
+
+- **I00081**
+  - [ ] I00077 `טְבַע` (`ch. same` as `טָבַע I`; name `טְבַע I`; nothing displayed)
+  - [ ] I00080 `טֶבַע` (the noun, as X10 names; name `טֶבַע I`; nothing displayed)
   - [ ] print sets I beside I00080 (name `טֶבַע I`; the I displayed)
   - [ ] something else (say what in the note)
   - [ ] can't tell from the scan
   - note: 
 
+Recommendation: I00077 (medium): the hOCR shows no numeral on I00077, I00079 or I00080, and the only `טְבַע I` the dictionary names is I00077's `to sink`; ruling 10-06 gives that form the implied I.
 
 ### `שְׂרַף`: U02013 (`שְׂרַף` II)
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [U02008](https://jastrow.app/#rid:U02008) | `שָׂרָף I` | `I T t ^ ^b# h> ""--J ^` | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
-| [U02009](https://jastrow.app/#rid:U02009) | `שָׂרָף II` | not matched for this list; read the scan | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
-| [U02010](https://jastrow.app/#rid:U02010) | `שָׂרָף` | not matched for this list; read the scan | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
-| [U02011](https://jastrow.app/#rid:U02011) | `שָׂרָף III` | not matched for this list; read the scan | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
-| [U02012](https://jastrow.app/#rid:U02012) | `שְׂרָף` | not matched for this list; read the scan | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
+| [U02009](https://jastrow.app/#rid:U02009) | `שָׂרָף II` | `*pl2 II m. (b. h.) Seraph, an angel.— PI. B^ETto. Hag.` | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
+| [U02010](https://jastrow.app/#rid:U02010) | `שָׂרָף` | `*[^0 cb., pi. fcWnr same, v. N*E_-C.` | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
+| [U02011](https://jastrow.app/#rid:U02011) | `שָׂרָף III` | `^\|Tw III (b.h.) pr. n. m. Saroph. B. Bath.91b.` | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
+| [U02012](https://jastrow.app/#rid:U02012) | `שְׂרָף` | `m. (r-r I) acrid substance, esp. vegetable sap` | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
 | [U02013](https://jastrow.app/#rid:U02013) | `שְׂרַף II` | `l-*l I-I cb.same, esp.balsam. Targ. Y. Gen. XXXVII,` | [1633b · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
 
-You read no numeral beside U02004 or U02006. U02013 `שְׂרַף` II is glossed `ch. same` as **U02012 `שְׂרָף`** (*acrid substance*), which the first list never asked about, and X10 names U02012 for the implied I.
+Shape now: X10 (`U02012 שְׂרָף stands just before the II`; `U02004=—; U02006=—; U02013=2`).
+
+You read no numeral beside U02004 or U02006. U02013 `שְׂרַף` II is glossed `ch. same` as **U02012 `שְׂרָף`** (*acrid substance*), which the first list never asked about, and X10 names U02012 for the implied I. Found 2026-10-13: ABBYY, which reads U02009's II and U02011's III, sets nothing before U02012's `m.` (the Hebrew glyphs are lost). Unlike I00081, no cross-reference names a `שְׂרַף I` or `שְׂרָף I` for these words, and the `ch.` verbs U02004 and U02006 are nine and seven entries back, outside the five-entry window of 10-05.
 
 **Question.** Does print set a numeral beside U02012 `שְׂרָף`?
 
@@ -188,6 +283,7 @@ You read no numeral beside U02004 or U02006. U02013 `שְׂרַף` II is glossed
   - [ ] can't tell from the scan
   - note: 
 
+Recommendation: no numeral, implied I (medium): the hOCR shows none before U02012's `m. (שָׂרַף I) acrid substance`, U02013 is its `ch. same`, and it is the one unnumbered form of the spelling within the window ruling 10-06 reaches.
 
 ### `חוּל`: H00321 (`חוּל` II)
 
@@ -198,7 +294,9 @@ You read no numeral beside U02004 or U02006. U02013 `שְׂרַף` II is glossed
 | [H00321](https://jastrow.app/#rid:H00321) | `חוּל II` | `חול IL (v. mbm) to be smooth, quiet,` | [432b · leaf 455](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$456/full/1400,/0/default.jpg) |
 | [H00322](https://jastrow.app/#rid:H00322) | `חוּל` | `חול ch, same; to be smooth, lax ;` | [432b · leaf 455](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$456/full/1400,/0/default.jpg) |
 
-You read no numeral beside H00319, H00320 or H00322. Ruling 10-06 (taken after your read) gives the unnumbered first homograph of a run an implied I. X10 names H00320, the form just before the II, but H00320 is the verb's `ch. same` line; the Hebrew verb is H00319.
+Shape now: X10 (`H00320 חוּל stands just before the II`; `H00319=—; H00320=—; H00321=2; H00322=—`).
+
+You read no numeral beside H00319, H00320 or H00322. Ruling 10-06 (taken after your read) gives the unnumbered first homograph of a run an implied I. X10 names H00320, the form just before the II, but H00320 is the verb's `ch. same` line; the Hebrew verb is H00319. Found 2026-10-13: Jastrow names H00319 `חוּל I` three times: H00355 `חוֹלֵל m. (b. h.; חוּל I) dancer`, H00733 `חַיִיל … (b. h.; חוּל I) [surrounding, protection,] army`, and H00731 `חָיֵיל, v. חוּל I ch.`, where `חָיֵיל` is the participle H00320 gives (`Part. חָיֵיל`), so `חוּל I ch.` is H00320 and `חוּל I` is H00319. Sefaria links all three to H00323 `חוֹל` I (sand).
 
 **Question.** Which form takes the implied I?
 
@@ -208,16 +306,19 @@ You read no numeral beside H00319, H00320 or H00322. Ruling 10-06 (taken after y
   - [ ] neither: no implied I here; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - note: 
 
+Recommendation: H00319 (high): the hOCR sets no numeral on it, and Jastrow's own cross-references name the Hebrew verb `חוּל I` and H00320 its `ch.`, so ruling 10-06's implied I goes on H00319.
 
 ### `גִּיס`: C00773 (`גִּיס` II)
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [C00772](https://jastrow.app/#rid:C00772) | `גֵּיס` | not matched for this list; read the scan | [240a · leaf 263](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$264/full/1400,/0/default.jpg) |
+| [C00772](https://jastrow.app/#rid:C00772) | `גֵּיס` | `גוס m. (024; cmp. גנז a. ;כנס Syr. גסא divitiae P.` | [240a · leaf 263](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$264/full/1400,/0/default.jpg) |
 | [C00773](https://jastrow.app/#rid:C00773) | `גִּיס II`, `גָּיֵיס` | `O NAIL, ברכ m, (Os U1) intimate, familiar.` | [240a · leaf 263](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$264/full/1400,/0/default.jpg) |
 | [C00774](https://jastrow.app/#rid:C00774) | `גִּיס II` | `on IT m. (v. preced., emp. רסא 111(` | [240b · leaf 263](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$264/full/1400,/0/default.jpg) |
 
-You answered "the gap is Jastrow's own". Ruling 10-06, taken after your read, stores an implied I on the unnumbered first homograph of a run, and X10 names C00772 `גֵּיס` (tsere), just before the II.
+Shape now: X10 (`C00772 גֵּיס stands just before the II`; `C00773=2; C00774=2`).
+
+You answered "the gap is Jastrow's own". Ruling 10-06, taken after your read, stores an implied I on the unnumbered first homograph of a run, and X10 names C00772 `גֵּיס` (tsere), just before the II. Found 2026-10-13: C00772's line sets nothing after `גוס m.`, and C00773's `NAIL` is likely Tesseract's `IL` for II (H00321's line reads `חול IL`). The cross-references do not settle which word Jastrow counts as I: C00707 `גָּיֵיס, v. גִּיס II` and C00710 name C00773 II through its alternate, while C00841 `(v. גִּיס I) familiar` and K00444 `opp. גיס, v. גִּיס I` name the familiar word I.
 
 **Question.** Is C00772 `גֵּיס` the unnumbered I of `גִּיס` II?
 
@@ -227,15 +328,18 @@ You answered "the gap is Jastrow's own". Ruling 10-06, taken after your read, st
   - [ ] can't tell from the scan
   - note: 
 
+Recommendation: yes (medium): print leaves C00772 bare and numbers the next form II, same consonants and adjacent, which is the case ruling 10-06 decides; medium because two cross-references call the familiar word I.
 
 ### `הֲדָיָא`: E00114 (`הֲדָיָא` II)
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [E00113](https://jastrow.app/#rid:E00113) | `הֶדְיָא` | not matched for this list; read the scan | [333a · leaf 356](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$357/full/1400,/0/default.jpg) |
-| [E00114](https://jastrow.app/#rid:E00114) | `הֲדָיָא II`, `הֲדָיָה`, `בַּר ה׳`, `בֶּן ה׳` | not found in the hOCR | [333a · leaf 356](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$357/full/1400,/0/default.jpg) |
+| [E00113](https://jastrow.app/#rid:E00113) | `הֶדְיָא` | `(¥. preced.) presence, dircetness; TS openly,` | [333a · leaf 356](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$357/full/1400,/0/default.jpg) |
+| [E00114](https://jastrow.app/#rid:E00114) | `הֲדָיָא II`, `הֲדָיָה`, `בַּר ה׳`, `בֶּן ה׳` | `hing on Hao )1 ה bird of the` | [333a · leaf 356](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$357/full/1400,/0/default.jpg) |
 
-You answered "the gap is Jastrow's own". X10 names E00113 `הֶדְיָא`, just before the II.
+Shape now: X10 (`E00113 הֶדְיָא stands just before the II`; `E00114=2`).
+
+You answered "the gap is Jastrow's own". X10 names E00113 `הֶדְיָא`, just before the II. Found 2026-10-13: Tesseract reads neither headword (E00113's line starts at its gloss; E00114's numeral is not legible), and no cross-reference names a `הֶדְיָא I` or `הֲדָיָא I`.
 
 **Question.** Is E00113 `הֶדְיָא` the unnumbered I of `הֲדָיָא` II?
 
@@ -245,6 +349,7 @@ You answered "the gap is Jastrow's own". X10 names E00113 `הֶדְיָא`, just
   - [ ] can't tell from the scan
   - note: 
 
+Recommendation: yes (medium): you read no I anywhere, and E00113 is the unnumbered form with the same consonants just before the II, which is the case ruling 10-06 decides; the hOCR cannot show either numeral.
 
 ### `רוּם`: T00376 (`רוּם` II)
 
@@ -255,7 +360,9 @@ You answered "the gap is Jastrow's own". X10 names E00113 `הֶדְיָא`, just
 | [T00376](https://jastrow.app/#rid:T00376) | `רוּם II`, `רוֹם` | `UT\ II, Din m. (b.h; preced.) height. Ber.` | [1460b · leaf 783](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$784/full/1400,/0/default.jpg) |
 | [T00377](https://jastrow.app/#rid:T00377) | `רוּם`, `רוּמָא I` | `D^TU^ETl I ch. same, I) height. Targ. Y.` | [1460b · leaf 783](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$784/full/1400,/0/default.jpg) |
 
-You answered "the gap is Jastrow's own". T00377's I sits on its alternate `רוּמָא`. X10 names T00375 for the implied I, but T00375 is the verb's `ch. same` line; the Hebrew verb is T00374.
+Shape now: X10 (`T00375 רוּם stands just before the II`; `T00374=—; T00375=—; T00376=2; T00377=—`).
+
+You answered "the gap is Jastrow's own". T00377's I sits on its alternate `רוּמָא`, which pairs with T00378 `רוּמָא` II (Rome), so it does not bear on `רוּם`. X10 names T00375 for the implied I, but T00375 is the verb's `ch. same` line; the Hebrew verb is T00374. Found 2026-10-13: no cross-reference names a `רוּם I`; U01270 names T00376 `רוּם II`.
 
 **Question.** Which form takes the implied I?
 
@@ -265,6 +372,7 @@ You answered "the gap is Jastrow's own". T00377's I sits on its alternate `רו�
   - [ ] neither: no implied I here; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - note: 
 
+Recommendation: T00374 (medium): ABBYY sets no numeral on T00374 or T00375, ruling 10-06 puts the implied I on the first unnumbered form, and in the same shape at H00321 Jastrow's cross-references name the Hebrew verb I; here none does.
 
 ### `שִׁלְשֵׁל`: U01397 (`שִׁלְשֵׁל` II)
 
@@ -274,7 +382,9 @@ You answered "the gap is Jastrow's own". T00377's I sits on its alternate `רו�
 | [U01397](https://jastrow.app/#rid:U01397) | `שִׁלְשֵׁל II` | `5J2J52J II (cmp. bVr I) 1) to chain,` | [1589b · leaf 912](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$913/full/1400,/0/default.jpg) |
 | [U01398](https://jastrow.app/#rid:U01398) | `שַׁלְשֵׁל I` | `y^yi I ch. same.` | [1589b · leaf 912](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$913/full/1400,/0/default.jpg) |
 
-You answered "the gap is Jastrow's own". The hOCR sets `I` after U01396's second form, the abbreviation `שִׁילְ׳`. Under HW-roman a numeral stays on the form print sets it on, so an I there is stored on that alternate and no name changes.
+Shape now: X10 (`U01396 שִׁלְשֵׁל stands just before the II`; `U01396=—; U01397=2`).
+
+You answered "the gap is Jastrow's own". The hOCR sets `I` after U01396's second form, the abbreviation `שִׁילְ׳`. Under HW-roman a numeral stays on the form print sets it on, so an I there is stored on that alternate and no name changes. Found 2026-10-13: the run just before sets its numerals the same way and stores them on the abbreviation: U01391 `שִׁלְשׁוּל, שִׁי׳ I` (hOCR `Tiw >w, *w I m.`), U01392 `שִׁי׳ II`, U01393 `שׁי׳ III`. Jastrow calls U01396's word `שִׁלְשֵׁל I` (U01399 `= h. שִׁלְשֵׁל I, to let down`; U01391 `(שִׁלְשֵׁל I) letting down`).
 
 **Question.** Where on U01396's line does print set the I?
 
@@ -285,16 +395,19 @@ You answered "the gap is Jastrow's own". The hOCR sets `I` after U01396's second
   - [ ] can't tell from the scan
   - note: 
 
+Recommendation: after the abbreviation (high): ABBYY reads `I,` after the second form, as on U01391's line, and HW-roman stores it there as U01391–U01393 store theirs; U01397's X10 row may then need a reviewed-kept record, as U02098's I on a form spelled apart has.
 
 ### `נְהִי`: N00260 (`נְהִי` II)
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [N00259](https://jastrow.app/#rid:N00259) | `נְהֵי I` | `Ithpe. "W«J to follow eagerly. Targ. I Sam.` | [881b · leaf 204](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$205/full/1400,/0/default.jpg) |
+| [N00259](https://jastrow.app/#rid:N00259) | `נְהֵי I` | `^nD I (b. h. nn3; cmp. dn3) to move; to be in com-` | [881b · leaf 204](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$205/full/1400,/0/default.jpg) |
 | [N00260](https://jastrow.app/#rid:N00260) | `נְהִי II` | `"TI3 II m. (b.h.; v. preced.) commotion; lamentation,` | [881b · leaf 204](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$205/full/1400,/0/default.jpg) |
 | [N00261](https://jastrow.app/#rid:N00261) | `נְהֵי`, `נְהִי II` | `"113 or *T\j II (="lin3; v. \in) let` | [881b · leaf 204](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$205/full/1400,/0/default.jpg) |
 
-You ticked "print spells them differently, so the gap is real" and noted the data is print-accurate. That box asked you to find the I, and no `נְהִי` I is stored.
+Shape now: X8 (`missing 1; 0 unnumbered: N00260=2; N00261/alt=2`).
+
+You ticked "print spells them differently, so the gap is real" and noted the data is print-accurate. That box asked you to find the I, and no `נְהִי` I is stored. N00259's hOCR column now quotes its own headword line; the old quote was its `Ithpe.` line. Found 2026-10-13: no cross-reference names a `נְהִי I`; four name N00259 `נְהֵי I` (N00270, N00271, N01385, R00263), and N00869 `(= נְהֵי מִי) … v. נְהֵי II` names N00261, whose II print sets after both its forms.
 
 **Question.** Is there a `נְהִי` I in print?
 
@@ -304,15 +417,18 @@ You ticked "print spells them differently, so the gap is real" and noted the dat
   - [ ] can't tell from the scan
   - note: 
 
+Recommendation: no, kept (high): N00260's line reads `II m. (b.h.; v. preced.)`, so its I is N00259 `נְהֵי I`, pointed apart as 10-05 allows, and only N00261's second II keeps the detector from clearing the pair.
 
 ### `תַּכָּא`: V00523 (`תַּכָּא` II)
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [V00522](https://jastrow.app/#rid:V00522) | `תֻּכָּא`, `תַּכָּא` | not found in the hOCR | [1667b · leaf 990](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$991/full/1400,/0/default.jpg) |
+| [V00522](https://jastrow.app/#rid:V00522) | `תֻּכָּא`, `תַּכָּא` | `fcCPl, (&G~ i), v. OH` | [1667b · leaf 990](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$991/full/1400,/0/default.jpg) |
 | [V00523](https://jastrow.app/#rid:V00523) | `תַּכָּא II` | `KVi'Fj II m. (v. preced. art.; cmp. Assyr.` | [1667b · leaf 990](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$991/full/1400,/0/default.jpg) |
 
-You read the I beside V00522's alternate `תַּכָּא`, and noted it landed in the gloss with the alternate's closing parenthesis: V00522's gloss opens ` I), v. תּוּכָּא`. The opening parenthesis is in no stored byte, so where it goes is the one thing the patch cannot read off the data.
+Shape now: X10 (`V00522/alt תַּכָּא stands just before the II`; `V00522/alt=—; V00523=2`).
+
+You read the I beside V00522's alternate `תַּכָּא`, and noted it landed in the gloss with the alternate's closing parenthesis: V00522's gloss opens ` I), v. תּוּכָּא`. The opening parenthesis is in no stored byte, so where it goes is the one thing the patch cannot read off the data. Found 2026-10-13: V00522's line, which round 2's first version did not find, reads `fcCPl, (&G~ i), v. OH`: the first form, a comma, then the parenthesis around the alternate and `i` for its I.
 
 **Question.** How does print set V00522's line?
 
@@ -323,6 +439,7 @@ You read the I beside V00522's alternate `תַּכָּא`, and noted it landed i
   - [ ] can't tell from the scan
   - note: 
 
+Recommendation: a comma, then the parenthesis (medium): ABBYY reads `fcCPl, (&G~ i),`, a comma after the first form and `(` before the alternate; medium because ABBYY can misread a comma.
 
 ### J00321 and J00327: the placeholder letter
 
@@ -331,7 +448,9 @@ You read the I beside V00522's alternate `תַּכָּא`, and noted it landed i
 | [J00321](https://jastrow.app/#rid:J00321) | `ַיי` | `I, נְכְּהָיי=פָיר band; v. ביר .לור` | [576a · leaf 599](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$600/full/1400,/0/default.jpg) |
 | [J00327](https://jastrow.app/#rid:J00327) | `ַיְידָא` | `NT` then `=9 ve RT 8. TMD.` | [576a · leaf 599](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$600/full/1400,/0/default.jpg) |
 
-Your notes: each headword is a long underline (about three letters wide) standing for any one letter, with a patah under it, then `יי` (J00321) or `יידא` (J00327). The entries store the patah with no letter under it, which HW-prefix keeps as an ending entry.
+Shape now: X1 (each headword starts with a vowel mark).
+
+Your notes: each headword is a long underline (about three letters wide) standing for any one letter, with a patah under it, then `יי` (J00321) or `יידא` (J00327). The entries store the patah with no letter under it, which HW-prefix keeps as an ending entry. Each gloss names the words the underline stands for: J00321 `כַּיי = כְּהַיי; לַיי = לְהַיי; v. כַּיי, לַיי`, J00327 `v. הַיְידָא a. לַיְידָא`.
 
 **Question.** Keep the stored form, or store a placeholder for the underline?
 
@@ -340,6 +459,7 @@ Your notes: each headword is a long underline (about three letters wide) standin
   - [ ] store a placeholder for the underline (say which character in the note)
   - note: 
 
+Recommendation: keep as stored (medium): the glosses already name every word the underline stands for, HW-prefix files the bare patah as an ending entry, and no ruling picks a character for print's rule, which is a mark of the page rather than a letter.
 
 ### S01780: the alternates `קִצָּא`, `קִי׳`
 
@@ -347,7 +467,9 @@ Your notes: each headword is a long underline (about three letters wide) standin
 |---|---|---|---|
 | [S01780](https://jastrow.app/#rid:S01780) | `קֵץ`, `קִצ`, `ּא`, `קִי׳` | `>, 5S22p, "p ch. same. Targ. 0. Gen. VI, 13. Targ.` | [1404a · leaf 727](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$728/full/1400,/0/default.jpg) |
 
-You gave the alternates as `קִצָּא` and `קִי׳`. The source holds `קִצ` and `ּא`, torn, and joining their bytes gives `קִצּא`: a dagesh in the tsade and **no qamats**. No stored spelling of this word carries the qamats to copy from, and no vowel is inferred.
+Shape now: X1 (the alternate `ּא` starts with a dagesh) and X3 (the alternate `קִצ` ends in a non-final letter).
+
+You gave the alternates as `קִצָּא` and `קִי׳`. The source holds `קִצ` and `ּא`, torn, and joining their bytes gives `קִצּא`: a dagesh in the tsade and **no qamats**. No vowel is inferred. Found 2026-10-13: round 2's first version said no stored spelling carries the qamats; one does. S01120's line `קִיצּ־, קִיצָּא, v. קֵץ, קִצָּא` is Jastrow's cross-reference to this word and spells it with the qamats, and S00026 reads `קִצָּא` with ed. Lag. The patch would still rest on your print read, not on a copy of those bytes.
 
 **Question.** Does print set a qamats under the tsade?
 
@@ -355,7 +477,9 @@ You gave the alternates as `קִצָּא` and `קִי׳`. The source holds `קִ
   - [ ] yes, `קִצָּא` (qamats and dagesh): the qamats is your print read
   - [ ] no, `קִצּא` as the bytes join
   - [ ] can't tell from the scan
-  - note:
+  - note: 
+
+Recommendation: yes, `קִצָּא` (high): your round-1 read gave the qamats, and Jastrow's own cross-reference to the word (S01120) spells it the same; the hOCR `5S22p` cannot show pointing.
 
 ## The first list (answered 2026-10-06)
 
