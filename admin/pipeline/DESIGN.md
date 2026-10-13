@@ -289,10 +289,12 @@ direction:
   counted marker that is not the next letter; no marker is skipped.
   So a run nested in the last item stays in that item's text
   (Q00140's plural `a) b) c)` inside `b`).
-- **Form sections.** `Pl.`, `Part. pass.`, `Fem.`, `Denom.` split out
-  of their host sense into a sibling with restarted child senses,
-  after the lettered split (`body/form-sections.ts`). Its numbered
-  run ends the same way, at the first number out of sequence (L62).
+- **Form sections.** `Pl.`, `Part. pass.`, `Fem.`, `Denom.`, `Du.`
+  split out of their host sense into a sibling with restarted child
+  senses, after the lettered split (`body/form-sections.ts`). Its
+  numbered run ends the same way, at the first number out of sequence
+  (L62). `Du.` joined 2026-10-12 (ruling `10-12 nested sublists`); a
+  full re-import measured it changing A00982 alone.
 - **Units.** A boundary opens only before a well-formed external
   citation whose preceding text ends `.` or `—` or is a sense start
   (`body/units.ts`). `gloss + units.join('') === text` always holds.
@@ -303,8 +305,12 @@ All four fail by **under-splitting**, never by inventing a boundary.
 three required, `stem` free text with `minLength: 1`. The stem walk
 reads only `sense.senses` and drops `sense.definition`. In the source a
 stem's children carry no `grammar` and no nested `senses`
-(corpus-measured max depth 1), so the walk does not recurse —
-`body/trace.ts`. Each child still goes through the same text split as
+(corpus-measured max depth 1). The one source sense without `grammar`
+that has children is one a reviewed `nest` patch made (§5 "Patch
+ops"): `body/trace.ts` builds its definition as an unlabelled sense
+and its children as that sense's list, each through the same text
+step, and refuses one on the first sense, whose text becomes the gloss
+head. Each child still goes through the same text split as
 any sense, so a stem sense can gain children: in the committed tree 38
 stem senses in 36 entries do, 36 of them a lettered run (P00790
 `stems[1].senses[1]`, `a)`–`d)`: print has no `e)`, so `f)`–`h)`
@@ -581,8 +587,20 @@ does not apply leaves both a row and a header count.
 
 ### Patch ops
 
-The op grammar is `delete`, `join`, `move`, `replace`, `retag`,
-`split`, `reform`, `unref`. `reform` replaces the headword line, with
+The op grammar is `delete`, `join`, `move`, `nest`, `replace`,
+`retag`, `split`, `reform`, `unref`.
+
+`nest` (ruling `10-12 nested sublists`, #167) cuts the list that
+restarts inside its target sense out as a new unlabelled sibling: the
+target keeps the text before `lead`, and the sibling takes `lead` as
+its definition and one child per `markers` token (`N)`, `—N)`, `*N)`
+or a letter `a)`), each with its marker as `number` and the text up to
+the next. Byte-conserving, so it has no no-new-text allowance. Only a
+list that closes the sense nests; apply refuses a target with
+`grammar` or children, a lead that opens the target, and any marker
+not found where its order says. `split` makes a sibling; `nest` is the
+one op that makes a child. Where a form-section marker heads the list,
+`join`/`split` regrouping is enough and `nest` is not used. `reform` replaces the headword line, with
 an optional `display` and an optional `gloss`; a `gloss` adds the
 entry's first sense and is refused when the entry already has one
 (#139, ruling `09-29 reform gloss`). Text relocated into an entry that
@@ -1091,11 +1109,14 @@ corrected in the admin tool after go-live.* It is stated in
 - `blocks` — `headword-unparsed`, `upstream-changed`, `upstream-fixed`.
 - `defer` — `headword-duplicate-form`, `paren-group-close-unknown`,
   `markup-carry`, `page-confidence-low`, `page-confidence-medium`,
-  `review-deferred`, `patch-consolidated-away`, plus the eight detected
+  `review-deferred`, `patch-consolidated-away`, plus the seven detected
   classes (`empty-body`, the five catalogued blocking classes, and
-  two Group D classes ruled a detector on 2026-10-10:
-  `inflection-sublist-numbering-flattened` and
-  `self-numbered-intext-marker`).
+  `inflection-sublist-numbering-flattened`, a Group D class ruled a
+  detector on 2026-10-10). The other Group D detector,
+  `self-numbered-intext-marker`, was retired on 2026-10-12, when its
+  rows were all patched and the class reached zero: unregistered, as
+  the silent-class fault below requires, its module kept for a
+  re-fetch.
 - `note` — `headword-partial-only`.
 
 A kind the table does not name **throws** (`ruleOf`), so a new kind

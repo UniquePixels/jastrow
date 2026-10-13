@@ -75,6 +75,37 @@ describe('classifyDrift', () => {
 		expect(classifyDrift(entry, split)).toBe('upstream-fixed');
 	});
 
+	it('calls a nest fixed only when the list under the lead is the same list', () => {
+		const before = 'host.—Hence X, 1) one.—2) two.';
+		const nest = patch({
+			expected_before: before,
+			op: 'nest',
+			payload: { lead: '—Hence X, ', markers: ['1)', '—2)'] },
+			target: `sense[—2)]:${contentAnchor(before)}`,
+		});
+		const nested = (second: string): SourceEntry =>
+			entryWith(
+				{ definition: 'host.', number: '—2)' },
+				{
+					definition: '—Hence X, ',
+					senses: [
+						{ definition: ' one.', number: '1)' },
+						{ definition: second, number: '—2)' },
+					],
+				},
+			);
+		expect(classifyDrift(nested(' two.'), nest)).toBe('upstream-fixed');
+		// The same lead over a different list is a change, not the fix.
+		expect(classifyDrift(nested(' three.'), nest)).toBe('upstream-changed');
+		// A list item that grew children upstream is not the item the nest makes.
+		const grown = nested(' two.');
+		const item = grown.content.senses[1]?.senses?.[1];
+		if (item !== undefined) {
+			item.senses = [{ definition: ' sub.', number: 'a)' }];
+		}
+		expect(classifyDrift(grown, nest)).toBe('upstream-changed');
+	});
+
 	it('finds the post-state at any depth', () => {
 		const entry = entryWith({
 			definition: 'head',

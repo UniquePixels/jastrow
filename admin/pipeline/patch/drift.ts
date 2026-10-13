@@ -72,10 +72,26 @@ function postState(patch: SemanticPatch): SourceSense[] | undefined {
 	}
 }
 
-function sameSense(a: SourceSense, b: SourceSense): boolean {
+/** Whether `got` reads as `want`: number, definition and the same
+ * children in order, none when `want` has none. A nest's lead alone is
+ * not its post-state: the same lead over a different list is a change,
+ * not the fix; and a sense that grew children upstream is not the
+ * childless sense a patch would leave. */
+function sameSense(got: SourceSense, want: SourceSense): boolean {
+	if (
+		(got.number ?? '') !== (want.number ?? '') ||
+		(got.definition ?? '') !== (want.definition ?? '')
+	) {
+		return false;
+	}
+	const wanted = want.senses ?? [];
+	const children = got.senses ?? [];
 	return (
-		(a.number ?? '') === (b.number ?? '') &&
-		(a.definition ?? '') === (b.definition ?? '')
+		children.length === wanted.length &&
+		wanted.every((child, k) => {
+			const other = children[k];
+			return other !== undefined && sameSense(other, child);
+		})
 	);
 }
 

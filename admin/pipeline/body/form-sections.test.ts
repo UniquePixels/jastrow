@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../types.ts';
 import type { FormSectionParts } from './form-sections.ts';
@@ -215,6 +216,16 @@ describe('splitFormSection: non-Pl. markers (B12 extension)', () => {
 		const text = 'host.—Fem. form 1) only sense.';
 		const parts = assertSplit(text);
 		expect(parts.marker).toBe('Fem.');
+		expect(joinFormSection(parts)).toBe(text);
+	});
+
+	it('splits a —Du. block, its tag closing before the period (A00982 shape, ruling 10-12 nested sublists)', () => {
+		const text =
+			'handle; a. fr.—<i>Du</i>. <span dir="rtl">form</span> 1) <i>ears</i>. a. fr.—2) <i>handles.</i> a. fr.—3) swollen glands.';
+		const parts = assertSplit(text);
+		expect(parts.marker).toBe('Du.');
+		expect(parts.host).toBe('handle; a. fr.—<i>');
+		expect(parts.items.map((i) => i.label)).toEqual(['1', '2', '3']);
 		expect(joinFormSection(parts)).toBe(text);
 	});
 

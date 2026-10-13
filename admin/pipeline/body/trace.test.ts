@@ -413,3 +413,62 @@ describe('buildBody: the star stays on the host a split carves', () => {
 		]);
 	});
 });
+
+describe('buildBody: a list a nest patch made (ruling 10-12 nested sublists)', () => {
+	/** C00263's shape after P000539: sense 2's lead, then the unlabelled
+	 * sense holding Miggo's own `1)` and `—2)`. */
+	const nested = (lead: string): SourceEntry => ({
+		content: {
+			senses: [
+				{ definition: 'belly.', number: '1)' },
+				{ definition: 'among; a. fr.', number: '—2)' },
+				{
+					definition: lead,
+					senses: [
+						{ definition: ' a rule; a) one; b) two.', number: '1)' },
+						{ definition: ' an action.', number: '—2)' },
+					],
+				},
+			],
+		},
+		headword: 'גו',
+		rid: 'C00263',
+	});
+
+	it('builds the lead as an unlabelled sense with the list as its children', () => {
+		const entry = nested('—Hence Miggo, ');
+		const trace = buildTrace(entry);
+		const [, , lead] = trace.body.senses;
+		expect(trace.body.senses.map((s) => s.label)).toEqual([
+			'1',
+			'2',
+			undefined,
+		]);
+		expect(lead?.gloss).toBe('—Hence Miggo, ');
+		expect(lead?.senses?.map((s) => s.label)).toEqual(['1', '2']);
+		// An item still goes through the text step: `1)` holds a lettered run.
+		expect(lead?.senses?.[0]?.senses?.map((s) => s.label)).toEqual(['a', 'b']);
+		const verdict = evaluateRoundTrip(entry, trace);
+		expect(
+			verdict.rejoin &&
+				verdict.units &&
+				verdict.lettered &&
+				verdict.formSection,
+		).toBe(true);
+	});
+
+	it('refuses a lead that splits on its own, which would put the list out of order', () => {
+		expect(() => buildTrace(nested('—Pl. form 1) inner.'))).toThrow(
+			"a nested list's lead splits on its own",
+		);
+	});
+
+	it('refuses a nested list on the first sense, which the gloss head cannot hold', () => {
+		const entry = nested('—Hence Miggo, ');
+		const [first, , third] = entry.content.senses;
+		entry.content.senses = [{ ...first, senses: third?.senses ?? [] }];
+		expect(() => buildTrace(entry)).toThrow(
+			'the first sense carries a nested list',
+		);
+	});
+});

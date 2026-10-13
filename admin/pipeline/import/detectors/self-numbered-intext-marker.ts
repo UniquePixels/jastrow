@@ -18,16 +18,28 @@
  * `;` or `,` rather than a full stop, and one inside an unclosed paren
  * — on today's entries the dashed repeat at a full stop is the whole
  * class (26 of 26 before the patch sets, worklist §3's answer). What
- * it reports that is not print's doubled numeral: class 4's residue
- * (A00982 `—Du. אָזְנַיִם 1) ears … —2) handles`, C00263), where the
- * marker is the second item of a sublist restarting at `1)` inside the
- * same sense. The answer keeps those as rows on purpose, since the
- * form-section split does not carve them and nothing else shows them.
+ * it reports that is not print's doubled numeral: a list restarting
+ * inside the sense, where the marker is that list's second item —
+ * class 4's residue (A00982 `—Du. אָזְנַיִם 1) ears … —2) handles`,
+ * C00263's Miggo) and two participles (C00869, U01512). The answer kept
+ * those as rows on purpose, since nothing else showed them; ruling
+ * `10-12 nested sublists` nests each list under an unlabelled sibling
+ * (P000538–P000543), and on the committed entries of 2026-10-12 the
+ * detector reports no row.
+ *
+ * RETIRED from the import path 2026-10-12: with every row applied the
+ * class is at zero, and a registered class that produces no row faults
+ * the run (`checkSilentClasses`, `classes.ts`), which asks for exactly
+ * this — the detector unregistered and its catalogue row resolved. The
+ * module and its unit test stay: the test's H01899 fixture is the
+ * class's control, and after a re-fetch the detector goes back into
+ * `CLASS_RULES` as it is.
  *
  * Every row needs the page: the hOCR shows print's own doubled numeral
  * wherever it can be read, so no rule can say whether to split and
- * keep print's number, split and number on, or leave the sense whole
- * (maintainer ruling 2026-10-10: port a detector, review on the scan).
+ * keep print's number, split and number on, leave the sense whole, or
+ * nest a restarting list (maintainer ruling 2026-10-10: port a
+ * detector, review on the scan).
  * A split that changes print's text is a deviation, and the reviewed
  * patch's rationale is where it is annotated.
  *
@@ -46,7 +58,7 @@ const SELF_NUMBERED_INTEXT_MARKER = 'self-numbered-intext-marker';
 
 /** What the review report tells a reader to do about these rows. */
 const SELF_NUMBERED_INTEXT_MARKER_ACTION =
-	'Read the page and choose per row: split at the in-text marker and keep print’s doubled number, split and number on (renumbering the later senses), or leave the sense whole; write the choice as a reviewed patch whose rationale annotates any change to print’s text, since the page reads as print meanwhile.';
+	'Read the page and choose per row: split at the in-text marker and keep print’s doubled number, split and number on (renumbering the later senses), leave the sense whole, or, when the second number belongs to a list restarting inside the sense, nest that list under an unlabelled sibling (ruling 10-12 nested sublists); write the choice as a reviewed patch whose rationale annotates any change to print’s text, since the page reads as print meanwhile.';
 
 /** An in-text sense marker: an em dash, optional space and `*`, a
  * number, and its `)`. */

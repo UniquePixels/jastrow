@@ -3,13 +3,19 @@
  * §10 "port judgment-class detectors"): the catalogued classes the
  * maintainer ruled blocking that the import path can now see for
  * itself, plus `empty-body`, which no catalogue row matches exactly
- * (see its file), and two non-blocking Group D classes the maintainer
+ * (see its file), and a non-blocking Group D class the maintainer
  * ruled a detector for: `inflection-sublist-numbering-flattened`
- * (`docs/sense-worklist.md` §9) and `self-numbered-intext-marker`
- * (§3). Each detects only and emits rows; none repairs anything, and
- * all eight are `defer` for publication (post-consolidation review
- * §10, decision 2; `empty-body` by the review ledger's L08; the Group
- * D classes by L22).
+ * (`docs/sense-worklist.md` §9). Each detects only and emits rows;
+ * none repairs anything, and all seven are `defer` for publication
+ * (post-consolidation review §10, decision 2; `empty-body` by the
+ * review ledger's L08; the Group D class by L22).
+ *
+ * `self-numbered-intext-marker` (worklist §3) was registered here
+ * until 2026-10-12, when the maintainer's scan-review ticks were all
+ * applied as reviewed patches and the class reached zero. It is
+ * retired as `checkSilentClasses` asks — unregistered, its catalogue
+ * row resolved — and its module and unit test stay beside this file,
+ * so a re-fetch that brings rows back re-registers it in one entry.
  *
  * `DETECTED_CLASSES` is what the review report subtracts from the
  * catalogue, so a class leaves the "Catalogued, not yet detected"
@@ -48,11 +54,6 @@ import {
 	OPEN_PAREN_IN_RTL_SPAN_ACTION,
 } from './open-paren-in-rtl-span.ts';
 import type { ClassDetector } from './row.ts';
-import {
-	detectSelfNumberedIntextMarker,
-	SELF_NUMBERED_INTEXT_MARKER,
-	SELF_NUMBERED_INTEXT_MARKER_ACTION,
-} from './self-numbered-intext-marker.ts';
 import {
 	detectStrandedOpenBracket,
 	STRANDED_OPEN_BRACKET,
@@ -97,13 +98,6 @@ const CLASS_RULES: ReadonlyMap<string, ClassRule> = new Map([
 	[
 		OPEN_PAREN_IN_RTL_SPAN,
 		{ action: OPEN_PAREN_IN_RTL_SPAN_ACTION, detect: detectOpenParenInRtlSpan },
-	],
-	[
-		SELF_NUMBERED_INTEXT_MARKER,
-		{
-			action: SELF_NUMBERED_INTEXT_MARKER_ACTION,
-			detect: detectSelfNumberedIntextMarker,
-		},
 	],
 	[
 		STRANDED_OPEN_BRACKET,

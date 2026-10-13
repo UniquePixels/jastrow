@@ -388,6 +388,170 @@ describe('join', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
+describe('nest', () => {
+	// C00263's shape: a derived noun after `Hence`, with its own list.
+	const host =
+		'among, in. Y. Peah; a. fr.—Hence Miggo, 1) a rule. Keth.; a. fr.—2) an action. B. Mets.';
+	const lead = '—Hence Miggo, ';
+	const nestEntry = (over: Partial<SourceSense> = {}): SourceEntry => ({
+		content: {
+			senses: [
+				{ definition: 'belly.', number: '1)' },
+				{ definition: host, number: '—2)', ...over },
+				{ definition: 'third.', number: '—3)' },
+			],
+		},
+		headword: 'גו',
+		rid: 'T00001',
+	});
+	const nest = (
+		payload: Record<string, unknown>,
+		before: string = host,
+	): SemanticPatch => patchFor(before, '—2)', { op: 'nest', payload });
+
+	it('applies: host keeps its text, an unlabelled sibling holds the list as children', () => {
+		const entry = nestEntry();
+		const after = applyPatch(entry, nest({ lead, markers: ['1)', '—2)'] }));
+		expect(after.content.senses).toEqual([
+			{ definition: 'belly.', number: '1)' },
+			{ definition: 'among, in. Y. Peah; a. fr.', number: '—2)' },
+			{
+				definition: lead,
+				senses: [
+					{ definition: ' a rule. Keth.; a. fr.', number: '1)' },
+					{ definition: ' an action. B. Mets.', number: '—2)' },
+				],
+			},
+			{ definition: 'third.', number: '—3)' },
+		]);
+		// Byte conservation: the walk's flattened text is unchanged, so
+		// the no-new-text floor needs no allowance for this op.
+		expect(flattenContent(after)).toBe(flattenContent(entry));
+		// Pure: the input entry is untouched.
+		expect(entry.content.senses[1]?.definition).toBe(host);
+	});
+
+	it('takes a letter and a number in one list, as print sets them (U01512)', () => {
+		const text =
+			'to teach.—Part. pass. form a) understood; a. fr.—2) inferred.';
+		const entry: SourceEntry = {
+			content: { senses: [{ definition: text, number: '—2)' }] },
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const after = applyPatch(
+			entry,
+			patchFor(text, '—2)', {
+				op: 'nest',
+				payload: { lead: '—Part. pass. form ', markers: ['a)', '—2)'] },
+			}),
+		);
+		expect(after.content.senses[1]?.senses?.map((s) => s.number)).toEqual([
+			'a)',
+			'—2)',
+		]);
+	});
+
+	it('refuses a bad payload at parse time, every reason at once', () => {
+		expect(() => nest({ lead: '', markers: [] })).toThrow(
+			/nest payload\.lead must be a non-empty string; nest payload\.markers must be a non-empty array/u,
+		);
+		expect(() => nest({ lead, markers: ['l)', '<i>a</i>)'] })).toThrow(
+			'must each be a label token',
+		);
+		expect(() => nest({ lead, markers: ['1)', '1)'] })).toThrow(
+			'must not repeat a token',
+		);
+	});
+
+	it.each([
+		[
+			'a lead that is not exactly once',
+			{ lead: 'a. fr.', markers: ['1)', '—2)'] },
+			'occurs 2 times',
+			host,
+		],
+		[
+			'a lead that opens the target',
+			{ lead: 'among, in. ', markers: ['1)'] },
+			'nest lead opens the target',
+			host,
+		],
+		[
+			'a first marker that does not follow the lead',
+			{ lead, markers: ['—2)'] },
+			'not followed directly by its first marker',
+			host,
+		],
+		[
+			'a later marker that is absent',
+			{ lead, markers: ['1)', '—3)'] },
+			'occurs 0 times',
+			host,
+		],
+		[
+			'a first marker that recurs in the list',
+			{ lead, markers: ['1)', '—2)'] },
+			'nest marker "1)" occurs 2 times',
+			'among.—Hence Miggo, 1) one; 1) two.—2) three.',
+		],
+	] as const)('refuses %s', (_, payload, message, definition) => {
+		expect(() =>
+			applyPatch(nestEntry({ definition }), nest(payload, definition)),
+		).toThrow(message);
+	});
+
+	it('refuses a later marker that stands before the one it follows', () => {
+		const text = 'host.—Hence X, 1) one.—2) two.—3) three.';
+		const entry: SourceEntry = {
+			content: { senses: [{ definition: text, number: '1)' }] },
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const patch = patchFor(text, '1)', {
+			op: 'nest',
+			payload: { lead: '—Hence X, ', markers: ['1)', '—3)', '—2)'] },
+		});
+		expect(() => applyPatch(entry, patch)).toThrow(
+			'nest marker "—2)" comes before the marker it follows',
+		);
+	});
+
+	it('refuses a target carrying grammar or children, which a nest would bury', () => {
+		const payload = { lead, markers: ['1)', '—2)'] };
+		expect(() =>
+			applyPatch(nestEntry({ grammar: { verbal_stem: 'Pi.' } }), nest(payload)),
+		).toThrow('grammar');
+		expect(() =>
+			applyPatch(
+				nestEntry({ senses: [{ definition: 'child', number: 'a)' }] }),
+				nest(payload),
+			),
+		).toThrow('child senses');
+	});
+
+	it('nests inside a stem section, where the target is a stem child', () => {
+		const entry: SourceEntry = {
+			content: {
+				senses: [
+					{ definition: 'lead' },
+					{
+						grammar: { verbal_stem: 'Af.' },
+						senses: [{ definition: host, number: '—2)' }],
+					},
+				],
+			},
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const after = applyPatch(entry, nest({ lead, markers: ['1)', '—2)'] }));
+		const stem = after.content.senses[1]?.senses ?? [];
+		expect(stem.map((s) => s.number ?? '·')).toEqual(['—2)', '·']);
+		expect(stem[1]?.senses).toHaveLength(2);
+	});
+});
+
 describe('retag', () => {
 	it('applies: adds a number to an unnumbered sense', () => {
 		const def = 'unnumbered sense with l) inside.';

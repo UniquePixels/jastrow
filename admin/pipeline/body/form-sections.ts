@@ -4,8 +4,9 @@
  * form's senses and opens a restarted-numbering section for a related
  * grammatical form: `…a. fr.—Pl. גְּבוּרוֹת 1) manifestations… ?—2) …`
  * (C00062). The convention is print-verified under `Pl.` (plural),
- * `Part. pass.` (passive participle), `Fem.` (feminine) and `Denom.`
- * (denominative) headers, which `MARKERS` parameterizes: each is a
+ * `Part. pass.` (passive participle), `Fem.` (feminine), `Denom.`
+ * (denominative) and `Du.` (dual) headers, which `MARKERS`
+ * parameterizes: each is a
  * separate lemma-level sense set, not a tail of the preceding sense,
  * and upstream flattens the block into the prior sense's text.
  * `splitFormSection` carves it out into a host (everything before the
@@ -173,8 +174,14 @@ const WORD_CHAR = /[\p{L}\d_]/u;
  * candidate anchors by matched length itself, so a marker that's a
  * textual prefix of another (a hypothetical future `Part.` alongside
  * `Part. pass.`) never needs manual reordering: the longer match wins
- * at a shared start index either way. */
-const MARKERS = ['Pl.', 'Part. pass.', 'Fem.', 'Denom.'];
+ * at a shared start index either way.
+ *
+ * `Du.` joined on 2026-10-12 (ruling `10-12 nested sublists`), for
+ * A00982's `—Du. אָזְנַיִם 1) ears … —2) handles … —3) … swollen
+ * glands`. Measured with a full re-import that day, it splits that one
+ * entry and changes no other entry file — neither by a run of its own
+ * nor by bounding another marker's window. */
+const MARKERS = ['Pl.', 'Part. pass.', 'Fem.', 'Denom.', 'Du.'];
 
 /** Tag-tolerant so both markup shapes match: Jastrow usually renders a
  * marker as plain text (`—Pl.`, `—Fem.`), but `Part. pass.` sometimes

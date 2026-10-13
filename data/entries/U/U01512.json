@@ -76,12 +76,30 @@
 					"units": [
 						"<cite ref=\"Berakhot 2a:8\">Ber. 2ᵃ</cite> <he>מילתא … קא מַשְׁמַע לן וכ׳</he> (the Tannai in using such an expression) wants to teach us something by the way: when do the priests eat &c.; <he>והא קמשמע לן וכ׳</he> (abbrev. <he>קמ״ל</he>) and it is this he teaches us, that the sacrifice of atonement is not indispensable &c. Ib. 4ᵇ <he>לאפוקי … קמ״ל דחובה</he> in opposition to the opinion that the evening prayer is optional, he gives us to understand that it is obligatory. ",
 						"<cite ref=\"Shabbat 19a:3\">Sabb. 19ᵃ</cite> <he>מהו דתימא … קמ״ל</he> you may have thought (that the cases are different, because) this devolves upon him, and the other does not, therefore he teaches us (that they are the same). ",
-						"<cite ref=\"Shabbat 108a:2\">Ib. 108ᵃ</cite> <he>מאי קמ״ל</he> what does he teach us (is it not a matter of course)? <cite ref=\"Berakhot 21a:13\">Ber. 21ᵃ</cite> sq. <he>דאי אַשְׁמְעִינָן וכ׳</he>, v. <cite ref=\"R00774\"><he>צְרִיךְ</he></cite>; a. v. fr.—Part. pass. <cite ref=\"M02925\"><he>מַשְׁמֵע</he></cite> <i>a</i>) <i>understood</i>. ",
-						"<cite ref=\"Yevamot 102b:20\">Yeb. 102ᵇ</cite> <he>מ׳ הכי ומ׳ הכי</he> it may be understood thus (it may mean, ‘to take off’), and may be understood thus (it may mean, ‘to strengthen’); a. fr.—2) <i>inferred, proved; evidence</i>. ",
-						"<cite ref=\"Shabbat 84b:5\">Sabb. 84ᵇ</cite> <he>מאי מ׳</he> how is this proved (from the verse quoted)? <cite ref=\"Eruvin 65a:6\">Erub. 65ᵃ</cite> <he>מאי מ׳ וכ׳</he> what evidence is there &c.?, v. <cite ref=\"Q00314\"><he>פּוּק</he></cite>. ",
-						"<cite ref=\"Eruvin 65a:6\">Ib.</cite> <he>מַשְׁמְעֵי</he>, v. infra; a. fr.—V. <cite ref=\"M02925\"><he>מַשְׁמָע</he></cite>."
+						"<cite ref=\"Shabbat 108a:2\">Ib. 108ᵃ</cite> <he>מאי קמ״ל</he> what does he teach us (is it not a matter of course)? <cite ref=\"Berakhot 21a:13\">Ber. 21ᵃ</cite> sq. <he>דאי אַשְׁמְעִינָן וכ׳</he>, v. <cite ref=\"R00774\"><he>צְרִיךְ</he></cite>; a. v. fr."
 					],
 					"label": "2"
+				},
+				{
+					"gloss": "—Part. pass. <cite ref=\"M02925\"><he>מַשְׁמֵע</he></cite> ",
+					"units": [],
+					"senses": [
+						{
+							"gloss": " <i>understood</i>. ",
+							"units": [
+								"<cite ref=\"Yevamot 102b:20\">Yeb. 102ᵇ</cite> <he>מ׳ הכי ומ׳ הכי</he> it may be understood thus (it may mean, ‘to take off’), and may be understood thus (it may mean, ‘to strengthen’); a. fr."
+							],
+							"label": "a"
+						},
+						{
+							"gloss": " <i>inferred, proved; evidence</i>. ",
+							"units": [
+								"<cite ref=\"Shabbat 84b:5\">Sabb. 84ᵇ</cite> <he>מאי מ׳</he> how is this proved (from the verse quoted)? <cite ref=\"Eruvin 65a:6\">Erub. 65ᵃ</cite> <he>מאי מ׳ וכ׳</he> what evidence is there &c.?, v. <cite ref=\"Q00314\"><he>פּוּק</he></cite>. ",
+								"<cite ref=\"Eruvin 65a:6\">Ib.</cite> <he>מַשְׁמְעֵי</he>, v. infra; a. fr.—V. <cite ref=\"M02925\"><he>מַשְׁמָע</he></cite>."
+							],
+							"label": "2"
+						}
+					]
 				}
 			],
 			"stem": "Af."

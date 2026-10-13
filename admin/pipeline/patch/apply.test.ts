@@ -338,6 +338,7 @@ describe('consolidate — Ruling C latest-wins', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('applyEntryPatches', () => {
 	it("chains a rid's patches in corpus order", () => {
 		const { entry, problems } = applyEntryPatches(makeEntry(), [
@@ -364,6 +365,36 @@ describe('applyEntryPatches', () => {
 		// The healthy patch still landed against the last good state.
 		expect(entry.content.senses[1]?.number).toBe('2)');
 		expect(entry.content.senses[0]?.definition).toBe('l) emergency. Nidd. 9b');
+	});
+
+	it('passes a nest through the no-new-text floor unaided: it adds no byte', () => {
+		// An agent-authored nest (no `author`), so the floor applies: the
+		// list is cut from the host's own text, and the only change is
+		// structure — the post-apply round-trip and change assertions pass.
+		const before = 'pressure.—Pl. form a) one.—2) two.';
+		const entry: SourceEntry = {
+			content: { senses: [{ definition: before, number: '—2)' }] },
+			headword: 'test-word',
+			rid: 'D00436',
+		};
+		const nest = ocrPatch({
+			expected_before: before,
+			op: 'nest',
+			payload: { lead: '—Pl. form ', markers: ['a)', '—2)'] },
+			target: `sense[—2)]:${contentAnchor(before)}`,
+		});
+		const result = applyEntryPatches(entry, [nest]);
+		expect(result.problems).toEqual([]);
+		expect(result.entry.content.senses).toEqual([
+			{ definition: 'pressure.', number: '—2)' },
+			{
+				definition: '—Pl. form ',
+				senses: [
+					{ definition: ' one.', number: 'a)' },
+					{ definition: ' two.', number: '—2)' },
+				],
+			},
+		]);
 	});
 
 	it('rejects an invention through the no-new-text floor', () => {

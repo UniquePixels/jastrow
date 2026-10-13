@@ -11,7 +11,9 @@
  * split (decision B12, `body/form-sections.ts`) now carves into a
  * sibling with nested senses (C00062's `—Pl. גְּבוּרוֹת`). Here upstream
  * had already split the numbered senses into siblings, so there is no
- * text left to carve, and no patch op nests one sense under another.
+ * text left to carve, and no patch op moves existing senses under
+ * another: `nest` (ruling `10-12 nested sublists`) cuts a list out of
+ * one sense's text, so here each list would first be joined back.
  * The page reads as print; only the structure is wrong, and the
  * structure is what a sense address would name (worklist §9,
  * maintainer ruling 2026-10-10: port a detector).
