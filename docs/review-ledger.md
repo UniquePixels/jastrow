@@ -177,7 +177,8 @@ Renumbering is free until anchors or hand edits exist [L22].
       `.claude/CLAUDE.md`. A Biome bump moves rules and formatting
       across the whole tree, so it gets its own diff and its own
       `bun qa:ci` run [L26]
-      (PR #169: Biome 2.5.15, migrate no-op, entry drift 0)
+      (PR #169: Biome 2.5.15, migrate no-op, `bun qa:ci` green with
+      0 errors and 0 warnings, entry drift 0)
 
 ### 10. Sefaria report — maintainer and agent, talk first
 
