@@ -120,6 +120,9 @@ and `bun data:validate` passes. For each entry:
   No other byte is lost or added, and each lead moved whole from its
   host's text into the new sense's gloss.
 
+`bun run transform:invariants` (the corpus tier; `body/` changed, and
+`Du.` is a splitter marker) passes, 11 of 11 tests, in 259 s.
+
 The review report's `self-numbered-intext-marker` section, which
 listed these 4 rows, is gone. A00982 gains a `markup-carry` row
 (`senses[2].gloss`, an `<i>` closed at the host's end), the same row

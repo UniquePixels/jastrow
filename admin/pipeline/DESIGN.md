@@ -590,7 +590,7 @@ does not apply leaves both a row and a header count.
 The op grammar is `delete`, `join`, `move`, `nest`, `replace`,
 `retag`, `split`, `reform`, `unref`.
 
-`nest` (ruling `10-12 nested sublists`, #NEST_PR) cuts the list that
+`nest` (ruling `10-12 nested sublists`, #167) cuts the list that
 restarts inside its target sense out as a new unlabelled sibling: the
 target keeps the text before `lead`, and the sibling takes `lead` as
 its definition and one child per `markers` token (`N)`, `—N)`, `*N)`

@@ -45,7 +45,7 @@ PR #166): 17 keep print's number as ticked, and P00059's note
 now reports the four nest rows (A00982, C00263, C00869, U01512); they
 need a nesting op and wait for PR 2.
 
-**Applied 2026-10-12 (b).** Class 3 is fully applied. PR #NEST_PR
+**Applied 2026-10-12 (b).** Class 3 is fully applied. PR #167
 carries out the four nest ticks as reviewed patches (P000538–P000543)
 under ruling `10-12 nested sublists`: A00982's dual by a `join` and
 `Du.` in the form-section markers, C00869's participle by a `split`
@@ -969,7 +969,7 @@ form's list comes after the word's own senses (as C00062's `—Pl.`
 does), so a third sense of the noun after the dual would be out of
 order.
 
-Applied in PR #NEST_PR: P000538 joins Sefaria's sense `—3)` back into
+Applied in PR #167: P000538 joins Sefaria's sense `—3)` back into
 sense 2, and the form-section split, whose markers gain `Du.` (ruling
 `10-12 nested sublists`), carves the dual out with its three items
 (labels `· 1 2 3` → `· 1 2 · (1 2 3)`; mechanism: `join` + `Du.`
@@ -1056,7 +1056,7 @@ Recommendation: nest Miggo (medium): the hOCR shows `Hence … Miggo,
 only a block of its own lets a sense address reach them; leaving it
 whole is the choice if no new op is wanted.
 
-Applied in PR #NEST_PR: P000539 nests Miggo's list under `—Hence
+Applied in PR #167: P000539 nests Miggo's list under `—Hence
 מִיגּוֹ, מִגּוֹ Miggo,` (labels `1 2` → `1 2 · (1 2)`; mechanism: the new
 `nest` op, ruling `10-12 nested sublists`).
 
@@ -1124,7 +1124,7 @@ participle's `1)` and `2) rounded`, then the verb's `2)`, `3)` and
 `4)`, so the two `2)`s belong to two lists; the split is an existing
 op, the nesting is not.
 
-Applied in PR #NEST_PR: P000540 splits the verb's `—2) (with על)` out
+Applied in PR #167: P000540 splits the verb's `—2) (with על)` out
 as sense 2, and P000541 joins `—2) rounded` back after the
 participle's `1) rolled`, where the form-section split finds it
 (labels `1 · (1) 2 3 4` → `1 · (1 2) 2 3 4`; mechanism: `split` +
@@ -1549,7 +1549,7 @@ Recommendation: nest the participle (medium): the hOCR puts the `2)`
 two lines after the participle's `a)`, so it belongs to that list, and
 a split at the verb's level would misplace it in either numbering.
 
-Applied in PR #NEST_PR: P000542 takes the italic tags off the
+Applied in PR #167: P000542 takes the italic tags off the
 participle's `a` (`<i>a</i>)` → `a)`, the text unchanged), and P000543
 nests `a)` and `—2)` under `—Part. pass. מַשְׁמֵע`, keeping print's `2)`
 as his note reads (labels Af. `1 2` → Af. `1 2 · (a 2)`; mechanism:
