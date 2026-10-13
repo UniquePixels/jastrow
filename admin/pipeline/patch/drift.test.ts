@@ -97,6 +97,13 @@ describe('classifyDrift', () => {
 		expect(classifyDrift(nested(' two.'), nest)).toBe('upstream-fixed');
 		// The same lead over a different list is a change, not the fix.
 		expect(classifyDrift(nested(' three.'), nest)).toBe('upstream-changed');
+		// A list item that grew children upstream is not the item the nest makes.
+		const grown = nested(' two.');
+		const item = grown.content.senses[1]?.senses?.[1];
+		if (item !== undefined) {
+			item.senses = [{ definition: ' sub.', number: 'a)' }];
+		}
+		expect(classifyDrift(grown, nest)).toBe('upstream-changed');
 	});
 
 	it('finds the post-state at any depth', () => {

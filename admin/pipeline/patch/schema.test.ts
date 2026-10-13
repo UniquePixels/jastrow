@@ -405,8 +405,10 @@ describe('nest', () => {
 		headword: 'גו',
 		rid: 'T00001',
 	});
-	const nest = (payload: Record<string, unknown>): SemanticPatch =>
-		patchFor(host, '—2)', { op: 'nest', payload });
+	const nest = (
+		payload: Record<string, unknown>,
+		before: string = host,
+	): SemanticPatch => patchFor(before, '—2)', { op: 'nest', payload });
 
 	it('applies: host keeps its text, an unlabelled sibling holds the list as children', () => {
 		const entry = nestEntry();
@@ -468,24 +470,36 @@ describe('nest', () => {
 			'a lead that is not exactly once',
 			{ lead: 'a. fr.', markers: ['1)', '—2)'] },
 			'occurs 2 times',
+			host,
 		],
 		[
 			'a lead that opens the target',
 			{ lead: 'among, in. ', markers: ['1)'] },
 			'nest lead opens the target',
+			host,
 		],
 		[
 			'a first marker that does not follow the lead',
 			{ lead, markers: ['—2)'] },
 			'not followed directly by its first marker',
+			host,
 		],
 		[
 			'a later marker that is absent',
 			{ lead, markers: ['1)', '—3)'] },
 			'occurs 0 times',
+			host,
 		],
-	])('refuses %s', (_, payload, message) => {
-		expect(() => applyPatch(nestEntry(), nest(payload))).toThrow(message);
+		[
+			'a first marker that recurs in the list',
+			{ lead, markers: ['1)', '—2)'] },
+			'nest marker "1)" occurs 2 times',
+			'among.—Hence Miggo, 1) one; 1) two.—2) three.',
+		],
+	] as const)('refuses %s', (_, payload, message, definition) => {
+		expect(() =>
+			applyPatch(nestEntry({ definition }), nest(payload, definition)),
+		).toThrow(message);
 	});
 
 	it('refuses a later marker that stands before the one it follows', () => {

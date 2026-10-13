@@ -1384,14 +1384,17 @@ function applyNest(
 }
 
 /** Where each of a nest's markers starts in `tail` (the text after
- * the lead): the first directly at 0, every later one exactly once in
- * `tail` and after the marker before it. */
+ * the lead): each exactly once in `tail`, the first directly at 0 and
+ * every later one after the marker before it. */
 function nestMarkerStarts(
 	patch: NestPatch,
 	tail: string,
 	markers: readonly string[],
 ): number[] {
 	const [first = ''] = markers;
+	// Exactly once, like every later marker: a second copy inside the
+	// list would leave which one opens it a guess.
+	exactlyOnce(patch, tail, first, 'nest marker');
 	if (!tail.startsWith(first)) {
 		throw new PatchApplyError(
 			patch.id,
