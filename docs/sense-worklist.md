@@ -38,6 +38,13 @@ read from print.
 question for each of the detector's 22 rows, in § `Class 3 scan review
 (2026-10-11)` near the end, the maintainer's to tick.
 
+**Ticked 2026-10-12.** The maintainer ticked the class 3 scan review.
+The 18 split rows are applied as reviewed patches (P000518–P000537,
+PR #166): 17 keep print's number as ticked, and P00059's note
+`1,2,3,4,4,6` is read as its Pi. label list, two splits. The detector
+now reports the four nest rows (A00982, C00263, C00869, U01512); they
+need a nesting op and wait for PR 2.
+
 How I chose each recommendation, so the rows read the same way:
 
 - **Discard** where the reader sees what print sets and the structure
@@ -941,7 +948,7 @@ options do not fit.
 **Question.** How should A00982's dual be structured?
 
 - **A00982**
-  - [ ] nest the dual with three items: `—Du. אָזְנַיִם` becomes an unlabelled sibling after sense 2, with `1) ears`, `2) handles` and today's sense 3 as its children: `· 1 2 · (1 2 3)`
+  - [x] nest the dual with three items: `—Du. אָזְנַיִם` becomes an unlabelled sibling after sense 2, with `1) ears`, `2) handles` and today's sense 3 as its children: `· 1 2 · (1 2 3)`
   - [ ] nest the dual with two items: as above, but `3) … swollen glands` stays the noun's sense 3: `· 1 2 · (1 2) 3`
   - [ ] leave whole: the dual stays inline in sense 2 (`· 1 2 3`, as today)
   - [ ] can't tell from the scan
@@ -968,7 +975,7 @@ adv.) outside`, so both read `4`. Print sets the numeral twice.
 **Question.** How should B01153's in-text `—4) (prep. a. adv.)` be read?
 
 - **B01153**
-  - [ ] split here and keep print's number (a second `4`), as printed: `1 2 3 4 4`
+  - [x] split here and keep print's number (a second `4`), as printed: `1 2 3 4 4`
   - [ ] split here and number on: this sense becomes `5`; no later sense moves: `1 2 3 4 5`
   - [ ] leave whole: the `4)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
@@ -976,6 +983,9 @@ adv.) outside`, so both read `4`. Print sets the numeral twice.
 
 Recommendation: keep print's number (medium): both markers read `4`,
 though both are mirrored.
+
+Applied in PR #166: P000518 splits `—4) (prep. a. adv.)` out of sense 4
+under print's number (labels `1 2 *3 4` → `1 2 *3 4 4`).
 
 ### B01299 (`בְּרַם`)
 
@@ -990,7 +1000,7 @@ only,` and `—3) interj.truly!`: print sets `3)` twice.
 **Question.** How should B01299's in-text `—3) interj.` be read?
 
 - **B01299**
-  - [ ] split here and keep print's number (a second `3`), as printed: `· 1 2 3 3`
+  - [x] split here and keep print's number (a second `3`), as printed: `· 1 2 3 3`
   - [ ] split here and number on: this sense becomes `4`; no later sense moves: `· 1 2 3 4`
   - [ ] leave whole: the `3)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
@@ -998,6 +1008,9 @@ only,` and `—3) interj.truly!`: print sets `3)` twice.
 
 Recommendation: keep print's number (high): both markers are clear in
 the hOCR.
+
+Applied in PR #166: P000519 splits `—3) interj.` out of sense 3 under
+print's number (labels `· 1 2 3` → `· 1 2 3 3`).
 
 ### C00263 (`גֵּו ²`), class 4's residue
 
@@ -1018,7 +1031,7 @@ s. v. גּוֹ` points into this block.
 **Question.** How should C00263's Miggo list be structured?
 
 - **C00263**
-  - [ ] nest Miggo: `—Hence מִיגּוֹ, מִגּוֹ Miggo,` becomes an unlabelled sibling after sense 2, with its `1)` and `2)` as its children: `1 2 · (1 2)`
+  - [x] nest Miggo: `—Hence מִיגּוֹ, מִגּוֹ Miggo,` becomes an unlabelled sibling after sense 2, with its `1)` and `2)` as its children: `1 2 · (1 2)`
   - [ ] leave whole: Miggo's list stays inline in sense 2, as print runs it (`1 2`, as today)
   - [ ] can't tell from the scan
   - note: 
@@ -1047,7 +1060,7 @@ say, but it does show print setting it.
 read?
 
 - **C00399**
-  - [ ] split here and keep print's number (a second `2`), as printed: `1 2 2 3`
+  - [x] split here and keep print's number (a second `2`), as printed: `1 2 2 3`
   - [ ] split here and number on: this sense becomes `3` and `hill` becomes `4`: `1 2 3 4`
   - [ ] the first `2)` is print's slip: join the plural back into sense 1, and split here as `2`: `1 2 3` (a deviation from print)
   - [ ] leave whole: the `2)` is not a sense marker (say what it is in the note)
@@ -1056,6 +1069,9 @@ read?
 
 Recommendation: keep print's number (medium): the hOCR shows `2)`
 twice and print's `3)` after them.
+
+Applied in PR #166: P000520 splits `—2) (cmp. גְּוִיל) stone` out of sense
+2 under print's number (labels `1 2 3` → `1 2 2 3`).
 
 ### C00869 (`גִּלְגֵּל`)
 
@@ -1077,7 +1093,7 @@ and `—4) … to overcome`.
 **Question.** How should C00869's two `2)`s be placed?
 
 - **C00869**
-  - [ ] nest and split: `2) rounded` becomes the `Part. pass.` block's second child, and the verb's `—2) (with על)` is split out as sense 2: `1 · (1 2) 2 3 4`, as print reads
+  - [x] nest and split: `2) rounded` becomes the `Part. pass.` block's second child, and the verb's `—2) (with על)` is split out as sense 2: `1 · (1 2) 2 3 4`, as print reads
   - [ ] split here and keep print's number, leaving `rounded` where it is: `1 · (1) 2 2 3 4`
   - [ ] split here and number on: this sense becomes `3` and the later senses shift: `1 · (1) 2 3 4 5`
   - [ ] leave whole (as today)
@@ -1105,7 +1121,7 @@ the hOCR cannot say it is `3)`.
 be read?
 
 - **C00871**
-  - [ ] split here and keep print's number (a second `3`), as printed: `· 1 2 3 3`
+  - [x] split here and keep print's number (a second `3`), as printed: `· 1 2 3 3`
   - [ ] split here and number on: this sense becomes `4`; no later sense moves: `· 1 2 3 4`
   - [ ] leave whole: the `3)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
@@ -1113,6 +1129,9 @@ be read?
 
 Recommendation: keep print's number (medium): the host's `3)` reads,
 and the in-text marker is a garbled numeral the scan should confirm.
+
+Applied in PR #166: P000521 splits `—3) (= גַּרְגַּר) globule` out of
+sense 3 under print's number (labels `· 1 2 3` → `· 1 2 3 3`).
 
 ### C00872 (`גַּלְגַּל ²`)
 
@@ -1128,13 +1147,16 @@ print sets `4)` twice.
 **Question.** How should C00872's in-text `—4) (v. next w.)` be read?
 
 - **C00872**
-  - [ ] split here and keep print's number (a second `4`), as printed: `1 2 3 4 4`
+  - [x] split here and keep print's number (a second `4`), as printed: `1 2 3 4 4`
   - [ ] split here and number on: this sense becomes `5`; no later sense moves: `1 2 3 4 5`
   - [ ] leave whole: the `4)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
   - note: 
 
 Recommendation: keep print's number (high): both markers read `4`.
+
+Applied in PR #166: P000522 splits `—4) (v. next w.)` out of sense 4 under
+print's number (labels `1 2 3 4` → `1 2 3 4 4`).
 
 ### G00456 (`זְכֵי`)
 
@@ -1152,7 +1174,7 @@ in-text `4)`, but not the host's.
 read?
 
 - **G00456**
-  - [ ] split here and keep print's number (a second `4`), as printed: Kal `1 2 3 4 4`
+  - [x] split here and keep print's number (a second `4`), as printed: Kal `1 2 3 4 4`
   - [ ] split here and number on: this sense becomes `5`; no later sense moves: Kal `1 2 3 4 5`
   - [ ] leave whole: the `4)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
@@ -1160,6 +1182,9 @@ read?
 
 Recommendation: keep print's number (medium): the in-text `4)` is
 print's, and nothing in the hOCR numbers the host otherwise.
+
+Applied in PR #166: P000523 splits `—4) to take possession` out of Kal
+sense 4 under print's number (labels `1 2 3 4` → `1 2 3 4 4`).
 
 ### H00940 (`חֲכַם`)
 
@@ -1178,7 +1203,7 @@ sense 3's (`) to be elear`): it cannot show what print sets before
 be read?
 
 - **H00940**
-  - [ ] split here and keep print's number (a second `2`), as printed: Kal `· 1 2 2 3`
+  - [x] split here and keep print's number (a second `2`), as printed: Kal `· 1 2 2 3`
   - [ ] split here and number on: this sense becomes `3` and `to be clear` becomes `4`: Kal `· 1 2 3 4`
   - [ ] leave whole: the `2)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
@@ -1187,6 +1212,9 @@ be read?
 Recommendation: keep print's number (low): the stored `—2)` is the
 only witness for the in-text marker, and numbering on would renumber a
 `3)` the hOCR cannot read either.
+
+Applied in PR #166: P000524 splits `—2) (euphem. = b. h. יָדַע)` out of
+Kal sense 2 under print's number (labels `· 1 2 3` → `· 1 2 2 3`).
 
 ### H01899 (`חָתַם`)
 
@@ -1203,7 +1231,7 @@ and goes on to `3)`, so numbering on would make print's `3)` a `4)`.
 **Question.** How should H01899's in-text `—2) to sign` be read?
 
 - **H01899**
-  - [ ] split here and keep print's number (a second `2`), as printed: Kal `1 2 2 3`
+  - [x] split here and keep print's number (a second `2`), as printed: Kal `1 2 2 3`
   - [ ] split here and number on: this sense becomes `3` and the later senses shift: Kal `1 2 3 4`
   - [ ] leave whole: the `2)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
@@ -1211,6 +1239,9 @@ and goes on to `3)`, so numbering on would make print's `3)` a `4)`.
 
 Recommendation: keep print's number (high): all three markers are
 clear in the hOCR.
+
+Applied in PR #166: P000525 splits `—2) to sign` out of Kal sense 2 under
+print's number (labels `1 2 3` → `1 2 2 3`).
 
 ### I00712 (`טָרַד`)
 
@@ -1228,7 +1259,7 @@ goes on `—4) to stir up`.
 **Question.** How should I00712's in-text `—3) to weary` be read?
 
 - **I00712**
-  - [ ] split here and keep print's number (a second `3`), as printed: Kal `· 1 2 3 3 4 (a b)`
+  - [x] split here and keep print's number (a second `3`), as printed: Kal `· 1 2 3 3 4 (a b)`
   - [ ] split here and number on: this sense becomes `4` and the later senses shift: Kal `· 1 2 3 4 5 (a b)`
   - [ ] leave whole: the `3)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
@@ -1237,6 +1268,9 @@ goes on `—4) to stir up`.
 Recommendation: keep print's number (medium): the in-text `3)` and
 the `4)` after it are clear; the host's `3)` is a misread the scan
 should confirm.
+
+Applied in PR #166: P000526 splits `—3) to weary` out of Kal sense 3 under
+print's number (labels `· 1 2 3 4 (a b)` → `· 1 2 3 3 4 (a b)`).
 
 ### K00086 (`כֵּבַשׁ II`)
 
@@ -1253,13 +1287,16 @@ twice.
 read?
 
 - **K00086**
-  - [ ] split here and keep print's number (a second `6`), as printed: `1 2 3 4 5 6 6`
+  - [x] split here and keep print's number (a second `6`), as printed: `1 2 3 4 5 6 6`
   - [ ] split here and number on: this sense becomes `7`; no later sense moves: `1 2 3 4 5 6 7`
   - [ ] leave whole: the `6)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
   - note: 
 
 Recommendation: keep print's number (high): both markers read `6`.
+
+Applied in PR #166: P000527 splits `—6) (archit.) recess` out of sense 6
+under print's number (labels `1 2 3 4 5 6` → `1 2 3 4 5 6 6`).
 
 ### K01280 (`כָּרַת`)
 
@@ -1277,13 +1314,16 @@ since `2` is not that sense's own number.)
 **Question.** How should K01280's in-text `—3) to decide` be read?
 
 - **K01280**
-  - [ ] split here and keep print's number (a second `3`), as printed: Kal `1 2 3 3`
+  - [x] split here and keep print's number (a second `3`), as printed: Kal `1 2 3 3`
   - [ ] split here and number on: this sense becomes `4`; no later sense moves: Kal `1 2 3 4`
   - [ ] leave whole: the `3)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
   - note: 
 
 Recommendation: keep print's number (high): both markers read `3`.
+
+Applied in PR #166: P000528 splits `—3) to decide` out of Kal sense 3
+under print's number (labels `1 2 3` → `1 2 3 3`).
 
 ### M00596 (`מוּקְצֶה`)
 
@@ -1299,13 +1339,16 @@ and, at the top of the next page, `— 4) (Sabbath law)`: print sets
 **Question.** How should M00596's in-text `—4) (Sabbath law)` be read?
 
 - **M00596**
-  - [ ] split here and keep print's number (a second `4`), as printed: `· 1 2 3 4 4`
+  - [x] split here and keep print's number (a second `4`), as printed: `· 1 2 3 4 4`
   - [ ] split here and number on: this sense becomes `5`; no later sense moves: `· 1 2 3 4 5`
   - [ ] leave whole: the `4)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
   - note: 
 
 Recommendation: keep print's number (high): both markers read `4`.
+
+Applied in PR #166: P000529 splits `—4) (Sabbath law)` out of sense 4
+under print's number (labels `· 1 2 3 4` → `· 1 2 3 4 4`).
 
 ### M02130 (`מַעֲלָה`)
 
@@ -1323,13 +1366,17 @@ high`), so a split carries them with the new sense.
 **Question.** How should M02130's in-text `—3) height, on high` be read?
 
 - **M02130**
-  - [ ] split here and keep print's number (a second `3`), as printed: `· 1 2 3 3 (a b c d)`
+  - [x] split here and keep print's number (a second `3`), as printed: `· 1 2 3 3 (a b c d)`
   - [ ] split here and number on: this sense becomes `4`; no later sense moves: `· 1 2 3 4 (a b c d)`
   - [ ] leave whole: the `3)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
   - note: 
 
 Recommendation: keep print's number (high): both markers read `3`.
+
+Applied in PR #166: P000530 splits `—3) height, on high` out of sense 3
+under print's number (labels `· 1 2 3 (a b c d)` → `· 1 2 3 3 (a b c
+d)`).
 
 ### N01139 (`נָצַץ`)
 
@@ -1345,13 +1392,16 @@ blossom,` and `— 2) to cause to sprout`: print sets `2)` twice.
 read?
 
 - **N01139**
-  - [ ] split here and keep print's number (a second `2`), as printed: Hif. `1 2 2`
+  - [x] split here and keep print's number (a second `2`), as printed: Hif. `1 2 2`
   - [ ] split here and number on: this sense becomes `3`; no later sense moves: Hif. `1 2 3`
   - [ ] leave whole: the `2)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
   - note: 
 
 Recommendation: keep print's number (high): both markers read `2`.
+
+Applied in PR #166: P000531 splits `—2) to cause to sprout` out of Hif.
+sense 2 under print's number (labels `1 2` → `1 2 2`).
 
 ### P00059 (`עָבַר`)
 
@@ -1378,11 +1428,18 @@ be read?
   - [ ] split here and number on: this sense becomes `5`: Pi. `1 2 3 4 5`, then print's `6)`
   - [ ] leave whole: the `4)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: 1,2,3,4,4,6
 
 Recommendation: keep print's number (low): ABBYY's `S)` reads more
 like `5)` than `6)`, which would make print's own count `4 4 5`; tick
 number on instead if the scan shows `6)`.
+
+Applied in PR #166: P000532 splits `—4) (v. עִיבּוּר) to extend` out of
+Pi.
+sense 4 under print's number; P000533 moves `—6` out of the `Tosef.
+Ber.` link it was caught in, and P000534 splits `—6) to complement`
+out as print's `6`, the note read as the Pi. label list (labels
+`1 2 3 4` → `1 2 3 4 4 6`).
 
 ### Q01502 (`פָּקַע`)
 
@@ -1400,7 +1457,7 @@ goes on to `3)`.
 loose,]` be read?
 
 - **Q01502**
-  - [ ] split here and keep print's number (a second `2`), as printed: Hif. `1 2 2 3`
+  - [x] split here and keep print's number (a second `2`), as printed: Hif. `1 2 2 3`
   - [ ] split here and number on: this sense becomes `3` and the later senses shift: Hif. `1 2 3 4`
   - [ ] leave whole: the `2)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
@@ -1408,6 +1465,9 @@ loose,]` be read?
 
 Recommendation: keep print's number (high): all three markers are
 clear.
+
+Applied in PR #166: P000535 splits `—2) [to cause breaking loose,]` out of
+Hif. sense 2 under print's number (labels `1 2 3` → `1 2 2 3`).
 
 ### S00151 (`קְדַם`)
 
@@ -1424,7 +1484,7 @@ preference`: print sets `3)` twice and goes on to `4)`.
 read?
 
 - **S00151**
-  - [ ] split here and keep print's number (a second `3`), as printed: Af. `1 2 3 3 4`
+  - [x] split here and keep print's number (a second `3`), as printed: Af. `1 2 3 3 4`
   - [ ] split here and number on: this sense becomes `4` and the later senses shift: Af. `1 2 3 4 5`
   - [ ] leave whole: the `3)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
@@ -1432,6 +1492,9 @@ read?
 
 Recommendation: keep print's number (high): all three markers are
 clear.
+
+Applied in PR #166: P000536 splits `—3) to be earlier than` out of Af.
+sense 3 under print's number (labels `1 2 3 4` → `1 2 3 3 4`).
 
 ### U01512 (`שְׁמַע I`)
 
@@ -1450,12 +1513,12 @@ print sets `2)` or `b)` after an `a)` only the scan shows.
 **Question.** How should U01512's participle list be structured?
 
 - **U01512**
-  - [ ] nest the participle: `Part. pass. מַשְׁמֵע` becomes an unlabelled sibling after Af. 2, with `a) understood` and the `2)` as its children: Af. `1 2 · (a 2)` (say in the note whether print sets `2)` or `b)`)
+  - [x] nest the participle: `Part. pass. מַשְׁמֵע` becomes an unlabelled sibling after Af. 2, with `a) understood` and the `2)` as its children: Af. `1 2 · (a 2)` (say in the note whether print sets `2)` or `b)`)
   - [ ] leave whole: the participle's list stays inline in Af. 2, as print runs it (Af. `1 2`, as today)
   - [ ] split here and keep print's number (a second Af. `2`): Af. `1 2 2`
   - [ ] split here and number on: this sense becomes Af. `3`: Af. `1 2 3`
   - [ ] can't tell from the scan
-  - note: 
+  - note: 2)
 
 Recommendation: nest the participle (medium): the hOCR puts the `2)`
 two lines after the participle's `a)`, so it belongs to that list, and
@@ -1476,13 +1539,16 @@ twice. Ithpe. 3, `to get sour, v. supra`, points back at the second.
 read?
 
 - **V00909**
-  - [ ] split here and keep print's number (a second `4`), as printed: Kal `1 2 3 4 4`
+  - [x] split here and keep print's number (a second `4`), as printed: Kal `1 2 3 4 4`
   - [ ] split here and number on: this sense becomes `5`; no later sense moves: Kal `1 2 3 4 5`
   - [ ] leave whole: the `4)` is not a sense marker (say what it is in the note)
   - [ ] can't tell from the scan
   - note: 
 
 Recommendation: keep print's number (high): both markers read `4`.
+
+Applied in PR #166: P000537 splits `—4) to get hot, ferment` out of Kal
+sense 4 under print's number (labels `1 2 3 4` → `1 2 3 4 4`).
 
 ---
 
