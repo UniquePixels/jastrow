@@ -239,6 +239,7 @@ function looksTransliterated(firstChars: string): boolean {
 }
 
 /** One declared copy per inserted space (ruling R2, module doc). */
+// biome-ignore lint/nursery/noMisleadingReturnType: a copy is declared text (ruling R2); narrowing to ' '[] would type the ledger by its one fixture.
 function spaceCopies(inserted: number): string[] {
 	return Array.from({ length: inserted }, () => ' ');
 }

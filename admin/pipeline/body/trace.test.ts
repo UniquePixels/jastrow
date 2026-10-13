@@ -369,14 +369,17 @@ const STARS: [string, Slot, string, true | undefined][] = [
 ];
 
 describe('buildBody: a starred sense label keeps its star (10-04 sense star)', () => {
-	it.each(
-		STARS,
-	)('%s on the %s sense: label %s, reconstructed %p', (number, slot, label, flag) => {
-		const sense = senseAt(number, slot);
-		expect(sense?.label).toBe(label);
-		expect(sense?.reconstructed).toBe(flag);
-		expect(sense !== undefined && 'reconstructed' in sense).toBe(flag === true);
-	});
+	it.each(STARS)(
+		'%s on the %s sense: label %s, reconstructed %p',
+		(number, slot, label, flag) => {
+			const sense = senseAt(number, slot);
+			expect(sense?.label).toBe(label);
+			expect(sense?.reconstructed).toBe(flag);
+			expect(sense !== undefined && 'reconstructed' in sense).toBe(
+				flag === true,
+			);
+		},
+	);
 });
 
 describe('buildBody: the star stays on the host a split carves', () => {

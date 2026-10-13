@@ -27,7 +27,7 @@ Rulings live in `docs/decisions.md`; a new ruling is a row there first.
 
 - **Runtime:** Bun 1.4.3
 - **Language:** TypeScript
-- **Lint/format:** Biome 2.5.2
+- **Lint/format:** Biome 2.5.15
 - **Hosting:** Cloudflare
 - **Fonts** (for the app, when it is written): Lexend (headings),
   Atkinson Hyperlegible Next (body), dyslexia-hebrew-extended (Hebrew)

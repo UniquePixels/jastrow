@@ -25,7 +25,7 @@ import { fieldsOf } from '../no-new-text.ts';
  * ICU data the runtime happens to carry. Code-unit order is total,
  * stable and environment-independent, which is the whole requirement.
  */
-function byCodeUnit(left: string, right: string): number {
+function byCodeUnit(left: string, right: string): -1 | 0 | 1 {
 	if (left === right) {
 		return 0;
 	}

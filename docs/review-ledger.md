@@ -172,11 +172,13 @@ Renumbering is free until anchors or hand edits exist [L22].
       re-pin the version named in `.claude/CLAUDE.md` [L26]. `bson`
       6.10.4 → 7.3.3 goes in the same PR: it needs Bun ≥ 1.4.0 [L63]
       (PR #168: Bun 1.4.3, `@types/bun` 1.4.3, bson 7.3.3)
-- [ ] Biome 2.5.2 → 2.5.15 last and alone: `package.json`,
+- [x] Biome 2.5.2 → 2.5.15 last and alone: `package.json`,
       `.mise.toml`, the maintainer's mise install, and the version in
       `.claude/CLAUDE.md`. A Biome bump moves rules and formatting
       across the whole tree, so it gets its own diff and its own
       `bun qa:ci` run [L26]
+      (PR #169: Biome 2.5.15, migrate no-op, `bun qa:ci` green with
+      0 errors and 0 warnings, entry drift 0)
 
 ### 10. Sefaria report — maintainer and agent, talk first
 
@@ -267,7 +269,7 @@ architecture, data, docs; every row confirmed by the controller).
 | L23 | `formerNames` ledger unbuilt; needed before the first post-publication `headwords[0]` change | — | post-release | open |
 | L24 | **struck.** The 2026-10-02 verdict called review-report's "blocks: 0" incomplete because headword rows live in another report. Under the ledger's definition the primary-headword rows are pre-publication (L09), not blockers. That says nothing about the report's count: the report uses its own criterion (a defect the admin tool cannot correct after go-live), and the headword-issues report applies no blocks criterion at all. L09 is where those rows are handled | — | struck | struck |
 | L25 | **struck.** The same verdict split "ready for compile" from "ready for the admin tool". Readiness is one property; the contract rows (L01, L04, L20) are code tidiness, not data readiness | — | struck | struck |
-| L26 | Dependencies behind: `@biomejs/biome` 2.5.2 (latest 2.5.15), `@types/bun` 1.3.14 (1.4.2), `bson` 6.10.4 (7.3.3), `typescript` 6.0.3 (7.0.2). Bun and Biome are also pinned in `.mise.toml` and `.claude/CLAUDE.md` and installed locally through mise; the TS major needs a `tsconfig.json` review; Biome goes alone | `package.json`, `.mise.toml`, `tsconfig.json` | chore | PR #162 (TypeScript); bson and Bun closed #168 (L63); Biome pending |
+| L26 | Dependencies behind: `@biomejs/biome` 2.5.2 (latest 2.5.15), `@types/bun` 1.3.14 (1.4.2), `bson` 6.10.4 (7.3.3), `typescript` 6.0.3 (7.0.2). Bun and Biome are also pinned in `.mise.toml` and `.claude/CLAUDE.md` and installed locally through mise; the TS major needs a `tsconfig.json` review; Biome goes alone | `package.json`, `.mise.toml`, `tsconfig.json` | chore | PR #162 (TypeScript); bson and Bun closed #168 (L63); Biome closed #169: 2.5.15, `biome migrate` no-op, 6 test files reformatted (2.5.4 curried `it.each`), 8 diagnostics narrowed or suppressed per site, entry drift 0 |
 | L27 | `docs/sefaria-report.md` needs review and cleanup, strong actionable rows, and a format that records what was submitted and when versus what is new | `docs/sefaria-report.md` | process | open (maintainer, 2026-10-02) |
 | L28 | `ideas.md` "Two unenforced entry-schema invariants" still says `display` token indices are not bounds-checked against the headword count; `checkSlots` (rule 1) checks them. Found by the group 2 agent | `docs/ideas.md`, `admin/entry/headword-rules.ts:97` | doc | PR #148 |
 | L29 | `names.ts` says rule 4 fails only the committed-tree tests while the import still writes the entry; `headwordShapeProblems` says rule 4 runs "only when the halt is armed". Since #141 gate 10 refuses the write, and #146 removed the switch. Found by the group 3 agent | `admin/entry/names.ts:30-33`, `admin/entry/headword-rules.ts:223` | nit | PR #148 |

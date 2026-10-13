@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'bun:test';
 import { tokenize } from '../../entry/html.ts';
-import { type TagCarry, translateMarkup } from './markup.ts';
+import { type RefResolver, type TagCarry, translateMarkup } from './markup.ts';
 
 /** A stub resolver: anything Jastrow-internal resolves to one rid,
  * anything else to a fixed external ref. */
-const resolve = ({ href }: { dataRef: string; href: string }): string =>
+const resolve: RefResolver = ({ href }: { dataRef: string; href: string }) =>
 	href.includes('Jastrow') ? 'A00013' : 'Shabbat 104a';
 
 const ANCHOR =
