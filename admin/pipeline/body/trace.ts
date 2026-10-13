@@ -195,29 +195,57 @@ function pushTextSense(
 	return built;
 }
 
-/** A binyan-stem child sense (its own label resolution + text
- * composition), or several when a lettered/form-section split applies
- * inside the stem. */
-function buildStemChild(
+/** A text sense — a top-level sense after the first, or a binyan
+ * stem's child: its own label resolution + text composition, or
+ * several when a lettered/form-section split applies.
+ *
+ * A source sense with `senses` of its own is one a reviewed `nest`
+ * patch made (ruling `10-12 nested sublists`); the snapshot holds none
+ * (measured 2026-10-12: no sense without `grammar` has children). Its
+ * definition is the list's unlabelled lead, built like any text, and
+ * its children are the list's items, each built by this same step, so
+ * an item can still split. The lead must build to one sense with no
+ * children of its own: a lettered run or a form section inside the
+ * lead would put the list out of document order, so that is refused
+ * rather than guessed at. The lead's pair is recorded before the list
+ * is attached, and the list rides on a copy, so the round-trip
+ * verifier checks each text against the sense built from it alone. */
+function buildTextChild(
 	rid: string,
 	child: SourceSense,
 	acc: BuildAcc,
 ): BodySense[] {
 	const text = child.definition ?? '';
 	const label = resolveLabel(rid, child.number, acc);
-	return pushTextSense(acc, text, label);
+	const built = pushTextSense(acc, text, label);
+	const items = child.senses ?? [];
+	if (items.length === 0) {
+		return built;
+	}
+	const [lead, ...rest] = built;
+	if (lead === undefined || rest.length > 0 || lead.senses !== undefined) {
+		throw new Error(
+			`${rid}: a nested list's lead splits on its own, which would put the list out of document order`,
+		);
+	}
+	return [
+		{
+			...lead,
+			senses: items.flatMap((item) => buildTextChild(rid, item, acc)),
+		},
+	];
 }
 
 /** A top-level sense carrying `.grammar` is a binyan section (design doc
- * §2 `stems` row), not a text sense — its own children never carry
- * `grammar`/nested `senses` (corpus-measured: max depth 1), so one
- * non-recursive map over them is enough. */
+ * §2 `stems` row), not a text sense. Its children carry no `grammar`
+ * (corpus-measured: max depth 1); one a `nest` patch made carries a
+ * list, which `buildTextChild` builds. */
 function buildStem(rid: string, sense: SourceSense, acc: BuildAcc): BodyStem {
 	const { grammar } = sense;
 	return {
 		forms: grammar?.binyan_form ?? [],
 		senses: (sense.senses ?? []).flatMap((child) =>
-			buildStemChild(rid, child, acc),
+			buildTextChild(rid, child, acc),
 		),
 		stem: grammar?.verbal_stem ?? '',
 	};
@@ -262,6 +290,18 @@ function buildTrace(e: SourceEntry): Trace {
 	};
 	const { joined } = rejoinGlossHead(e);
 	const [first] = e.content.senses;
+	// The first sense becomes the gloss head, which holds text only; a
+	// list nested under it would be dropped. A `nest` always inserts
+	// after its host, so this never fires on what the patches make.
+	if (
+		first !== undefined &&
+		!first.grammar &&
+		(first.senses ?? []).length > 0
+	) {
+		throw new Error(
+			`${e.rid}: the first sense carries a nested list, which the gloss head cannot hold`,
+		);
+	}
 	const introLabel =
 		first !== undefined && !first.grammar
 			? resolveLabel(e.rid, first.number, acc)
@@ -278,9 +318,7 @@ function buildTrace(e: SourceEntry): Trace {
 		if (index === 0) {
 			continue;
 		}
-		const text = sense.definition ?? '';
-		const label = resolveLabel(e.rid, sense.number, acc);
-		senses.push(...pushTextSense(acc, text, label));
+		senses.push(...buildTextChild(e.rid, sense, acc));
 	}
 
 	const body: BodyEntry = {

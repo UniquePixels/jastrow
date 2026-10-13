@@ -7,7 +7,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 | Publication | Rows |
 |---|---|
 | blocks | 0 |
-| defer | 2816 |
+| defer | 2813 |
 | note | 1597 |
 | catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
@@ -15,7 +15,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 
 _none_
 
-## Deferred (2816)
+## Deferred (2813)
 
 ### empty-body (2)
 
@@ -412,10 +412,11 @@ _none_
 - H00553: stems[2].senses[0] ends "—Part. מוּחֲזָק", and stems[2].senses[1] (labelled 1) follows it as a sibling
 - M02479: senses[0] ends "—Fem. מָרְתָא, מָרְתָה", and senses[1] (labelled 1) follows it as a sibling
 
-### markup-carry (10)
+### markup-carry (11)
 
 **What to do:** Nothing to do: the composer closed the tag; the row records where the run crossed a unit boundary.
 
+- A00982: senses[2].gloss: carried i across a unit boundary
 - C00869: senses[0].units[1]: carried i across a unit boundary
 - H01022: stems[0].senses[1].gloss: carried i across a unit boundary
 - J00597: senses[0].units[4]: carried a across a unit boundary
@@ -2765,15 +2766,6 @@ _none_
 - D00470: implied 1) belongs inside a Pl. section flow (01 note: "Confirm") — structure unresolved
 - K00081: print sense 5 label missing and note is unresolved (01: "does not have the 5 label") — eyes-on
 - R00519: sense 4's "[" attaches to the end of sense 3 (print "—[4)…") — bracket move not yet decided (cmp. D00341)
-
-### self-numbered-intext-marker (4)
-
-**What to do:** Read the page and choose per row: split at the in-text marker and keep print’s doubled number, split and number on (renumbering the later senses), or leave the sense whole; write the choice as a reviewed patch whose rationale annotates any change to print’s text, since the page reads as print meanwhile.
-
-- A00982: senses[2] (labelled 2) holds "—2)": "…ard in speaking); a. fr.—2) handles. Kel. IV, 3, v.…"
-- C00263: senses[1] (labelled 2) holds "—2)": "…o and the other?; a. fr.—2) (cmp. אַגַּב) an action…"
-- C00869: senses[2] (labelled 2) holds "—2)": "…en. 86ᵃ, v. גִּרְגֵּר.].—2) (with על) to roll upon,…"
-- U01512: stems[1].senses[1] (labelled 2) holds "—2)": "…‘to strengthen’); a. fr.—2) inferred, proved; evide…"
 
 ### stranded-open-bracket (85)
 

@@ -21,7 +21,7 @@ feeding Stage 2 (import).
 | `labels.ts` | Sense label (`number`) parsing | done |
 | `lettered.ts` | Lettered sub-sense handling | done |
 | `units.ts` | Body unit builder (gloss + citation units) | done |
-| `form-sections.ts` | Form-section split (B12: `Pl.`/`Part. pass.`/`Fem.`/`Denom.`) | done |
+| `form-sections.ts` | Form-section split (B12: `Pl.`/`Part. pass.`/`Fem.`/`Denom.`/`Du.`) | done |
 | `fixtures/` | Shared golden fixtures for the above | done |
 | `trace.ts` | The §6.0 body composition `import.ts` imports (`buildTrace`, `buildBody`) | done |
 | `round-trip.ts` | Round-trip verifier for the import gate | done |

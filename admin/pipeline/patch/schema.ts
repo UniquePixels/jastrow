@@ -3,9 +3,9 @@
  * Semantic patch schema (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §4.3).
  *
- * One JSONL record per patch. Seven ops — `split`, `join`, `retag`,
- * `move`, `delete`, `replace`, `unref` — each with its own payload
- * shape. The six sense ops address a sense by **marker token +
+ * One JSONL record per patch. Nine ops — `split`, `join`, `nest`,
+ * `retag`, `move`, `delete`, `replace`, `reform`, `unref` — each with
+ * its own payload shape. The seven sense ops address a sense by **marker token +
  * content-hash anchor**, never by array index: an earlier structural
  * patch must not shift a later patch's target. `unref` instead
  * addresses one item of the entry's `refs[]`, by **exact value +
@@ -56,6 +56,12 @@ const FORMS_TARGET = /^forms:(?<anchor>[0-9a-f]{8})$/u;
 /** The closed sense-marker grammar (`N)` / `—N)`) — the only tokens a
  * patch may synthesize (spec §4.3, no-new-text validator). */
 const CLOSED_MARKER = /^—?\d{1,2}\)$/u;
+/** A list item's marker as `nest` carries it: the closed grammar,
+ * print's star, or a single lowercase letter — the shapes
+ * `body/labels.ts` parses into a label, so every child a nest makes
+ * has one. A nest synthesizes nothing: each token is cut from the
+ * text, never added to it. */
+const NEST_MARKER = /^—?\*?(?:\d{1,2}|[a-z])\)$/u;
 /** Text that sits tight against a marker a `join` folds back: the
  * space print sets after `N)` is already there, or print sets
  * punctuation hard against the `)` (`preced. 2), being`, `Is. XL,
@@ -79,6 +85,7 @@ type PatchOp =
 	| 'delete'
 	| 'join'
 	| 'move'
+	| 'nest'
 	| 'reform'
 	| 'replace'
 	| 'retag'
@@ -105,6 +112,32 @@ interface SplitPayload {
  * `grammar` or child `senses` (both would be dropped) and a preceding
  * sibling with child `senses` (the text would land after them). */
 type JoinPayload = Record<string, never>;
+
+/** Nest the list that restarts inside the target sense under a new
+ * unlabelled sibling (ruling `10-12 nested sublists`): a dual's own
+ * `1) … 2)`, a derived noun's after `Hence`, a participle's `a) … 2)`.
+ * The target keeps the text before `lead`; the sibling inserted at
+ * host+1 takes `lead` as its definition and the list as its `senses`,
+ * one child per marker, each carrying its marker verbatim as its
+ * `number` and the text up to the next marker (the last, to the end
+ * of the definition) as its definition. Byte-conserving: host + lead +
+ * every marker and child text is the original definition, in order.
+ *
+ * Only a run that closes the sense nests — the list's last item runs
+ * to the end of the definition, as print sets the four rows that
+ * asked for it — and apply refuses a target carrying `grammar` or
+ * child `senses`, which a nest would bury. `split` makes a sibling;
+ * this is the one op that makes a sense the child of another. */
+interface NestPayload {
+	/** The new sense's own text: from the cut to the first marker. It
+	 * must occur exactly once in the definition, not open it, and be
+	 * followed directly by `markers[0]`. */
+	lead: string;
+	/** The list's markers in print order (`NEST_MARKER`). After the
+	 * first, each must occur exactly once in the text after `lead`,
+	 * and after the one before it. */
+	markers: string[];
+}
 
 /** Remove one item from the entry's `refs[]` — the one op that
  * addresses `refs[…]` instead of a sense. */
@@ -234,6 +267,10 @@ interface MovePatch extends PatchBase {
 	op: 'move';
 	payload: MovePayload;
 }
+interface NestPatch extends PatchBase {
+	op: 'nest';
+	payload: NestPayload;
+}
 interface ReplacePatch extends PatchBase {
 	op: 'replace';
 	payload: ReplacePayload;
@@ -264,6 +301,7 @@ type SemanticPatch =
 	| DeletePatch
 	| JoinPatch
 	| MovePatch
+	| NestPatch
 	| ReformPatch
 	| ReplacePatch
 	| RetagPatch
@@ -463,6 +501,30 @@ function movePayloadReasons(p: Record<string, unknown>): string[] {
 	return reasons;
 }
 
+/** `nest`: a non-empty lead, and a non-empty list of item markers,
+ * each a label token (`NEST_MARKER`) and none twice — a repeated
+ * token could not be found exactly once. */
+function nestPayloadReasons(p: Record<string, unknown>): string[] {
+	const reasons: string[] = [];
+	if (!nonEmptyString(p['lead'])) {
+		reasons.push('nest payload.lead must be a non-empty string');
+	}
+	const markers = p['markers'];
+	if (!Array.isArray(markers) || markers.length === 0) {
+		reasons.push('nest payload.markers must be a non-empty array');
+		return reasons;
+	}
+	if (markers.some((m) => typeof m !== 'string' || !NEST_MARKER.test(m))) {
+		reasons.push(
+			'nest payload.markers must each be a label token (N) / —N) / *N) / a))',
+		);
+	}
+	if (new Set(markers).size !== markers.length) {
+		reasons.push('nest payload.markers must not repeat a token');
+	}
+	return reasons;
+}
+
 /** `replace`: a non-empty find and a string replacement. */
 function replacePayloadReasons(p: Record<string, unknown>): string[] {
 	const reasons: string[] = [];
@@ -652,6 +714,7 @@ const PAYLOAD_VALIDATORS: Record<PatchOp, PayloadValidator> = {
 	delete: deletePayloadReasons,
 	join: joinPayloadReasons,
 	move: movePayloadReasons,
+	nest: nestPayloadReasons,
 	replace: replacePayloadReasons,
 	retag: retagPayloadReasons,
 	split: splitPayloadReasons,
@@ -668,6 +731,7 @@ const PATCH_OPS: PatchOp[] = [
 	'delete',
 	'join',
 	'move',
+	'nest',
 	'reform',
 	'replace',
 	'retag',
@@ -1161,6 +1225,9 @@ function mutateSense(
 		case 'move':
 			applyMove(patch, position, definition);
 			break;
+		case 'nest':
+			applyNest(patch, position, definition);
+			break;
 		case 'replace':
 			applyReplace(patch, position, definition);
 			break;
@@ -1271,6 +1338,82 @@ function applyMove(
 		lifted.slice(0, insertAt) + segment + lifted.slice(insertAt);
 }
 
+/** `nest`: cut the definition at `lead`, and insert the lead plus the
+ * list after it as a new unlabelled sibling whose children are the
+ * list's items (see `NestPayload`). Every position is asserted before
+ * anything moves, so a refused nest leaves the sense as it was. */
+function applyNest(
+	patch: NestPatch,
+	position: SensePosition,
+	definition: string,
+): void {
+	if (position.sense.grammar !== undefined) {
+		throw new PatchApplyError(
+			patch.id,
+			'nest target carries grammar, which the nest would bury',
+		);
+	}
+	if ((position.sense.senses ?? []).length > 0) {
+		throw new PatchApplyError(
+			patch.id,
+			'nest target has child senses; the list would land after them',
+		);
+	}
+	const { lead, markers } = patch.payload;
+	const at = exactlyOnce(patch, definition, lead, 'nest lead');
+	if (at === 0) {
+		throw new PatchApplyError(
+			patch.id,
+			'nest lead opens the target; nothing would be left to host it',
+		);
+	}
+	const tail = definition.slice(at + lead.length);
+	const starts = nestMarkerStarts(patch, tail, markers);
+	const children: SourceSense[] = markers.map((marker, i) => ({
+		definition: tail.slice(
+			(starts[i] ?? 0) + marker.length,
+			starts[i + 1] ?? tail.length,
+		),
+		number: marker,
+	}));
+	position.sense.definition = definition.slice(0, at);
+	position.siblings.splice(position.index + 1, 0, {
+		definition: lead,
+		senses: children,
+	});
+}
+
+/** Where each of a nest's markers starts in `tail` (the text after
+ * the lead): the first directly at 0, every later one exactly once in
+ * `tail` and after the marker before it. */
+function nestMarkerStarts(
+	patch: NestPatch,
+	tail: string,
+	markers: readonly string[],
+): number[] {
+	const [first = ''] = markers;
+	if (!tail.startsWith(first)) {
+		throw new PatchApplyError(
+			patch.id,
+			`nest lead is not followed directly by its first marker "${first}"`,
+		);
+	}
+	const starts = [0];
+	let floor = first.length;
+	for (const marker of markers.slice(1)) {
+		const start = exactlyOnce(patch, tail, marker, 'nest marker');
+		if (start < floor) {
+			throw new PatchApplyError(
+				patch.id,
+				`nest marker "${marker}" comes before the marker it follows`,
+			);
+		}
+		starts.push(start);
+		floor = start + marker.length;
+	}
+	return starts;
+}
+
 /** `replace`: swap the one exact find for the replacement. */
 function applyReplace(
 	patch: ReplacePatch,
@@ -1337,6 +1480,7 @@ export type {
 	DeletePayload,
 	JoinPayload,
 	MovePayload,
+	NestPayload,
 	PatchOp,
 	PatchTarget,
 	ReformPayload,

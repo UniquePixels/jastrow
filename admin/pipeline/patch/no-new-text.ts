@@ -19,7 +19,8 @@
  *   `payload.replace` (the OCR `l)` → `1)` class);
  * - `join` may introduce one space, the one print sets after the
  *   marker it folds back (`foldMarker` in schema.ts, ledger L58);
- * - `move` and `delete` get no allowance at all.
+ * - `move`, `delete` and `nest` get no allowance at all (a nest
+ *   cuts its markers out of the text and adds none).
  *
  * Maintainer ruling (2026-08-11): correcting an obvious OCR error is
  * *correction*, not adding to the text — a mis-recognized glyph never
