@@ -266,7 +266,7 @@ Recommendation: I00077 (medium): the hOCR shows no numeral on I00077, I00079 or 
 | [U02008](https://jastrow.app/#rid:U02008) | `שָׂרָף I` | `I T t ^ ^b# h> ""--J ^` | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
 | [U02009](https://jastrow.app/#rid:U02009) | `שָׂרָף II` | `*pl2 II m. (b. h.) Seraph, an angel.— PI. B^ETto. Hag.` | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
 | [U02010](https://jastrow.app/#rid:U02010) | `שָׂרָף` | `*[^0 cb., pi. fcWnr same, v. N*E_-C.` | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
-| [U02011](https://jastrow.app/#rid:U02011) | `שָׂרָף III` | `^|Tw III (b.h.) pr. n. m. Saroph. B. Bath.91b.` | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
+| [U02011](https://jastrow.app/#rid:U02011) | `שָׂרָף III` | `^\|Tw III (b.h.) pr. n. m. Saroph. B. Bath.91b.` | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
 | [U02012](https://jastrow.app/#rid:U02012) | `שְׂרָף` | `m. (r-r I) acrid substance, esp. vegetable sap` | [1633a · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
 | [U02013](https://jastrow.app/#rid:U02013) | `שְׂרַף II` | `l-*l I-I cb.same, esp.balsam. Targ. Y. Gen. XXXVII,` | [1633b · leaf 956](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$957/full/1400,/0/default.jpg) |
 
