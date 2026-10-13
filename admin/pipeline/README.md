@@ -38,7 +38,7 @@ original sketch it was derived from was archived 2026-09-21 as
 
 ### Running it
 
-Tool versions are pinned in `.mise.toml` (Bun 1.3.14, Biome 2.5.2);
+Tool versions are pinned in `.mise.toml` (Bun 1.4.3, Biome 2.5.2);
 with [mise](https://mise.jdx.dev) installed, `mise install` then
 `bun install` is the whole setup.
 

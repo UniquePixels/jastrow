@@ -25,7 +25,7 @@ Rulings live in `docs/decisions.md`; a new ruling is a row there first.
 
 ## Tech Stack
 
-- **Runtime:** Bun 1.3.14
+- **Runtime:** Bun 1.4.3
 - **Language:** TypeScript
 - **Lint/format:** Biome 2.5.2
 - **Hosting:** Cloudflare
