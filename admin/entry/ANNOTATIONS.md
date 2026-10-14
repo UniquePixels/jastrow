@@ -11,10 +11,10 @@ dated spec is not a live document.
 ## 1. Purpose
 
 Ruling 10-13: at the import the data is edited only where the text is
-clearly mistaken or missing, and every such edit carries an annotation
-naming the evidence. Print's reading is stored in the annotation, never
-lost; how annotations surface is the app's decision (§5). An edit that
-departs from print is annotated. A transcription fix (case 1) makes
+clearly mistaken or missing, and every edit that departs from print
+(cases 2–4) carries an annotation naming the evidence. Print's reading
+is stored in the annotation, never lost; how annotations surface is the
+app's decision (§5). A transcription fix (case 1) makes
 the data match print, so it departs from nothing. It is corrected
 silently, and its evidence lives in the patch's `rationale`.
 
@@ -94,8 +94,11 @@ the third is Sefaria's, so none of them is a correction.
 - the field resolves on its object: `text` and `homograph` only on a
   form, the others only on a sense, and the field present (`units[n]`
   needs `n < units.length`);
-- `stored` agrees with the field: equal for `label`, `homograph` and
-  `text`; a substring that occurs in it for `gloss` and `units[n]`;
+- `stored` agrees with the field: equal for `label` and `text`; for
+  `homograph`, equal to the number's Roman numeral, the same rendering
+  the name and rule 3 use (`intToRoman` in `headwords.ts`, and its local
+  copy `intToRomanLocal` in `headword-rules.ts`), so `1` is stored `I`;
+  a substring that occurs in it for `gloss` and `units[n]`;
 - `kind: 'kept'` ⇔ `printed === stored`;
 - at most one annotation per field per object.
 
