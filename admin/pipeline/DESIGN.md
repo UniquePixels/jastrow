@@ -208,7 +208,10 @@ slot shows no numeral. Both reach the name (§7). An implied I is set
 only by reviewed patch, after a print read; the headword report's X10
 shape names the candidates. The patch sets it with `reform`'s
 `homographs` (§5), beside the line rather than in its text, as it does
-a numeral print sets and Sefaria dropped.
+a numeral print sets and Sefaria dropped. Ruling `10-13 correction
+policy` (proposed) would display a proven implied I with an annotation
+and withdraw an unproven one; see that ruling and
+[`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md).
 
 `display` is an optional template whose `{n}` inserts
 `headwords[n].text` and whose every other character is literal
@@ -230,7 +233,8 @@ Six shape rules are checked by `headwordShapeProblems`
 3. markers agree with forms — `*`, homograph, gender (`checkMarkers`);
    a numeral shows beside a form iff its homograph is not `implied`,
    no superscript appears in `display`, and `implied` stands only
-   beside a `homograph` (`checkNumeral`, `checkNamedNotShown`);
+   beside a `homograph` (`checkNumeral`, `checkNamedNotShown`; the
+   implied clause goes under ruling `10-13 correction policy`, proposed);
 4. a form's `text` holds no `,`, `(`, `)`, `?`, `=`, `…` or Latin
    letter (`textDefects`);
 5. a `partial` form is never a lookup key, except at index 0 when it
@@ -366,9 +370,14 @@ are flagged for the print rather than repaired. A detector exists; no
 rule will. A person who has read the print repairs a gap one entry at
 a time with a reviewed `reform` that sets `homographs` (§5; the
 2026-10-06 reads, `records/tranches/headword-print-read-2026-10-06/`).
+Under ruling `10-13 correction policy` (proposed), a gap whose missing
+numeral Jastrow's own text names is a determined print error and is
+patched with an annotation.
 
 A `notes` mechanism for intentional deviations from print does not
-exist. **UNBUILT.**
+exist. **UNBUILT.** Ruling `10-13 correction policy` (proposed) designs
+it as the `annotations` field: see that ruling and
+[`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md).
 
 ---
 
@@ -615,7 +624,8 @@ dangled every link that names Sefaria's spelling; beside it, the
 display and the forms say what print sets. `finishEntry`
 refuses one on a form that already carries a printed numeral; gate 2
 counts a non-implied one as notation the line carries, so its patch
-supplies a `display` that shows it, and an implied one shows nothing.
+supplies a `display` that shows it, and an implied one shows nothing
+(until ruling `10-13 correction policy`, proposed, which displays it).
 A reform that sets `homographs` is never `upstream-fixed`. A spelling
 correction rewrites the headword string, and since ruling `10-09 link
 key` that dangles nothing: links resolve by the line before patches
@@ -840,7 +850,8 @@ The numeral and the superscript are in the name **whether or not
 `implied` homograph does not either (§2; rulings 10-06 hidden
 superscript and implied I). So a family runs `X I`, `X II` whatever
 print set on its first line, and two lines that read alike on the page
-still have two names.
+still have two names. (Ruling `10-13 correction policy`, proposed,
+displays a proven implied I; see that ruling.)
 
 It derives from the **primary form only**, never the full headword
 line.
