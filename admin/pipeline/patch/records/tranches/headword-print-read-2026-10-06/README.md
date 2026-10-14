@@ -99,6 +99,16 @@ the stored form is unpointed and stays so.
 
 ## Every patch
 
+The table records the patches as this tranche wrote them. Since PR
+#174 (ruling `10-13 correction policy`) the 14 implied-I rows stand
+differently: P000343, P000344, P000348, P000353 and P000355 are
+amended in place to a displayed I with a `print-error` annotation, and
+P000342, P000345–P000347, P000349–P000352 and P000354 are retired to
+[`docs/archive/patches-retired-2026-10-14/`](../../../../../../docs/archive/patches-retired-2026-10-14/README.md).
+[`../implied-i-2026-10-14/`](../implied-i-2026-10-14/README.md) has each
+row's current disposition. The counts above (57 patches on 49 entries)
+are this tranche's as written; 48 of them are still applied.
+
 | patches | rid | kind | change | answer (worklist row) | evidence |
 |---|---|---|---|---|---|
 | P000311 | U00378 | pile B numeral | `headwords[0]` takes I; display `{0} I, {1}` | confirmed: print shows that numeral beside it (U00378) | `"3TJ3 I, T2"i w*E w pr.n.pl. Shot-Mishot, Samosata,`; family check U00379: `ETiCj II m. (b.h.; MRS I) rod, scourge.`; [1531b · leaf 854](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$855/full/1400,/0/default.jpg) |
