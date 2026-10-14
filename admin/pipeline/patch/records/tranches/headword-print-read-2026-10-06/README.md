@@ -43,7 +43,7 @@ pinned to snapshot `sha256:75bbc5ee…`.
 |---|---|---|---|
 | Pile B: a numeral Sefaria dropped | 10 | 10 | `reform` sets `homographs` on `headwords[0]` and a `display` that shows it |
 | A numeral print sets beside a sibling | 13 + 8 | 13 | the same; on 8 of them Sefaria had moved the numeral into the head of the first definition, and a companion `delete` or `replace` takes it out of the gloss so the reader sees it once (U01006, U01008, U01138, U01570, U01634, V00809, V00254, U02097) |
-| Implied I (ruling 10-06) | 14 | 14 | `reform` sets `homograph: 1, implied: true` on the form X10 names; `display` is unchanged. Since PR #n (ruling 10-13): 5 amended to a displayed, annotated I, 9 retired; see [`../implied-i-2026-10-14/`](../implied-i-2026-10-14/README.md) |
+| Implied I (ruling 10-06) | 14 | 14 | `reform` sets `homograph: 1, implied: true` on the form X10 names; `display` is unchanged. Since PR #174 (ruling 10-13): 5 amended to a displayed, annotated I, 9 retired; see [`../implied-i-2026-10-14/`](../implied-i-2026-10-14/README.md) |
 | OCR glyph or vowel | 3 + 9 | 12 | `reform` rewrites one form's text; the 9 (P000359–P000367) are on headwords live links name |
 
 **The numerals ride beside the line, never in its text** (ruling

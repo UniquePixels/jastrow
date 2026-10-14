@@ -1,7 +1,7 @@
 # Retired patch records (2026-10-14)
 
 `reviewed/patches.jsonl` holds the 9 reviewed `reform` patches that
-left `admin/pipeline/patch/records/reviewed/patches.jsonl` in PR #n
+left `admin/pipeline/patch/records/reviewed/patches.jsonl` in PR #174
 (data PR (i) of [`docs/correction-audit.md`](../../correction-audit.md)
 §7). Every line is the original line's bytes, moved. Each rid's
 `manifest.jsonl` record in `reviewed/` was removed with it: it named

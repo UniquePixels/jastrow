@@ -60,7 +60,7 @@ end of §7.
 
 ## 1. Implied I (14 entries)
 
-**Done in PR #n** (data PR (i)): the five reforms amended in place
+**Done in PR #174** (data PR (i)): the five reforms amended in place
 with a `display` and an annotation, the nine retired with a
 reviewed-kept record each, the ten retargets P000544–P000553, and
 `implied` retired from the contract. The tranche README,
@@ -699,7 +699,7 @@ The three unclassified:
 
 ## 7. The data PRs, in order
 
-1. **(i) Implied I and their cross-references.** Done in PR #n.
+1. **(i) Implied I and their cross-references.** Done in PR #174.
    Amend 5 reforms
    (P000343, P000344, P000348, P000353, P000355: drop `implied`, add
    `display` and the annotation); retire 9 (P000342, P000345–P000347,

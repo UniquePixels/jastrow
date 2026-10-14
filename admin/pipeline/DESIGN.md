@@ -211,7 +211,7 @@ Sefaria dropped, with a display that shows it and a `print-error`
 annotation naming the cites. A sole bare candidate before the II is no
 proof; the headword report's X10 shape names the candidates, and an
 unproven one goes to the reviewed-kept list. 10-06's hidden `implied`
-I left the contract in PR #n (5 proven Is displayed and annotated, 9
+I left the contract in PR #174 (5 proven Is displayed and annotated, 9
 withdrawn). See that ruling and
 [`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md).
 
@@ -236,7 +236,7 @@ Six shape rules are checked by `headwordShapeProblems`
    a numeral shows beside a form iff it has a `homograph`, and no
    superscript appears in `display` (`checkNumeral`,
    `checkNamedNotShown`; the implied clause went with ruling `10-13
-   correction policy`, PR #n);
+   correction policy`, PR #174);
 4. a form's `text` holds no `,`, `(`, `)`, `?`, `=`, `…` or Latin
    letter (`textDefects`);
 5. a `partial` form is never a lookup key, except at index 0 when it
@@ -658,7 +658,7 @@ display and the forms say what print sets. `finishEntry`
 refuses one on a form that already carries a printed numeral; gate 2
 counts every one as notation the line carries, so its patch supplies a
 `display` that shows it. Its `implied` flag left with ruling `10-13
-correction policy` (PR #n), and the patch validator refuses a record
+correction policy` (PR #174), and the patch validator refuses a record
 that still carries it.
 A reform that sets `homographs` is never `upstream-fixed`. A spelling
 correction rewrites the headword string, and since ruling `10-09 link

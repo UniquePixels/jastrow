@@ -6,7 +6,7 @@ on merge of PR #171. **The field is built** (PR #172, §6 item 1):
 the contract's type, schema and checks (`annotations.ts`), the patch
 `annotation` and the `annotate` op, the build carrying them, and gate
 10's both-ways check. `implied` is retired and rule 3 changed in PR
-#n, the implied-I data PR, which writes the first five annotations
+#174, the implied-I data PR, which writes the first five annotations
 (the proven implied Is); the other data changes are the follow-up PRs
 of §6. It
 lives beside the contract it extends because `docs/specs/` is retired
@@ -81,7 +81,7 @@ interface Annotation {
 their token without `)` (`5`). Like `reconstructed` and `partial`, the
 key is absent when empty, never `[]`.
 
-**`implied` retired** in the implied-I data PR (PR #n), not the
+**`implied` retired** in the implied-I data PR (PR #174), not the
 contract PR (PR #172): 14 committed entries carried it, so the
 contract kept accepting it until that PR resolved them (5 annotated,
 9 bare) and removed the field from the contract in the same change.
@@ -239,10 +239,10 @@ reading is never lost.
    retired, rule 3 (display), the patch `annotation` field and the
    `annotate` op, the trace carrying it, and gate 10's both-ways check.
    **Done in PR #172**, except `implied` retired and rule 3, which
-   moved to the implied-I data PR in item 3 and are done in PR #n.
+   moved to the implied-I data PR in item 3 and are done in PR #174.
 2. **Consistency audit report:** §4's populations row by row,
    including the 291 cross-reference numerals.
-3. **Data:** the implied I audit (done in PR #n: 5 displayed and
+3. **Data:** the implied I audit (done in PR #174: 5 displayed and
    annotated; 9 withdrawn to bare and reviewed-kept; the 10 cross-references
    retargeted to the I), the class 3 renumber (with S01849's
    cross-reference), P00790 (after L59), the RP8 marks

@@ -1,7 +1,7 @@
 # Implied I under ruling 10-13 (2026-10-14)
 
 Data PR (i) of [`docs/correction-audit.md`](../../../../../../docs/correction-audit.md)
-§7, PR #n. It settles the 14 implied Is that PR #155 set (P000342–P000355,
+§7, PR #174. It settles the 14 implied Is that PR #155 set (P000342–P000355,
 [`../headword-print-read-2026-10-06/`](../headword-print-read-2026-10-06/README.md))
 against the amended ruling, retargets the 10 cross-references that
 prove five of them, and retires `implied` from the contract.
