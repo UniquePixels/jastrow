@@ -121,9 +121,9 @@ Changed 2026-10-13: the old "no" box asked you to write how print numbers A03215
 - **A03215**
   - [ ] the I of the pair, unnumbered in print: A03215 takes the implied I (name `אָרַע I`; nothing displayed)
   - [ ] the I of the pair, and print sets I beside it (name `אָרַע I`; the I displayed)
-  - [ ] a word of its own outside the run; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] a word of its own outside the run; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] can't tell from the scan
-  - note: 
+  - note:  
 
 Recommendation: implied I (high): the hOCR line `YIN (V3, v. (רעע to strike against.` sets no numeral, you read none, and Jastrow's own cross-references call this word `אָרַע I`, so ruling 10-06 gives A03215 the implied I (their links are a separate question, as in L51).
 
@@ -147,9 +147,9 @@ Changed 2026-10-13: the old "no: print numbers a `בְּרָא` I (say which ent
 
 - **B01158**
   - [ ] yes: store `בְּרָא` as B01158's second form with I and take it out of the gloss (HW-roman; B01158's name is unchanged)
-  - [ ] no, it is a cross-reference: the gap is Jastrow's; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] no, it is a cross-reference: the gap is Jastrow's; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] can't tell from the scan
-  - note: 
+  - note: not a gap either, just a reference
 
 Recommendation: yes (high): the stored gloss and the hOCR line `NSIT, x31 ₪ create` both set a second form beside `בָּרָא II` before the gloss `to create`, and HW-roman keeps its I on that form, as U02097's alternate already does.
 
@@ -175,7 +175,7 @@ You read no numeral beside G00529 or G00534. Found 2026-10-13: G00526 `זָמַ�
 Changed 2026-10-13: the question names G00529, and the "no" box says what it would change.
 
 - **G00527**
-  - [ ] yes: the gap is Jastrow's own; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] yes: the gap is Jastrow's own; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] no, print sets II beside G00529 (name `זְמַם II`; the II displayed)
   - [ ] can't tell from the scan
   - note: 
@@ -198,10 +198,10 @@ You read no numeral beside H00780's alternate `חֵלֶף`, which is 321 entries
 **Question.** How does print point H01100?
 
 - **H01100**
-  - [ ] `חֵלֶף` I (tsere, like H01101): the stored hiriq is a slip, and the name changes to `חֵלֶף I`
+  - [x] `חֵלֶף` I (tsere, like H01101): the stored hiriq is a slip, and the name changes to `חֵלֶף I`
   - [ ] `חִלֶף` I (hiriq), as stored: one run pointed apart; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] can't tell from the scan
-  - note: 
+  - note: ocr issue
 
 Recommendation: tsere (high): the hOCR is unpointed (`חלף I m.`), but Jastrow's own two cross-references to this word, both for its `shoots`, spell it `חֵלֶף I` with a tsere, so the single hiriq reads as Sefaria's OCR slip.
 
@@ -223,7 +223,7 @@ You read no numeral beside H01219 or H01221. This is pile D's shape: the Hebrew 
 **Question.** Does print number the Hebrew verbs I and II, leave H01219 and H01221 bare, and set III on H01222?
 
 - **H01222**
-  - [ ] yes; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] yes; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] no (say what print numbers in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -250,12 +250,12 @@ You read no numeral beside I00077 or I00079. I00081 `טְבַע` II is glossed `
 Changed 2026-10-13: the question asked only about I00080; the cross-references add I00077, so it now asks which form, as H00321's and T00376's do.
 
 - **I00081**
-  - [ ] I00077 `טְבַע` (`ch. same` as `טָבַע I`; name `טְבַע I`; nothing displayed)
+  - [x] I00077 `טְבַע` (`ch. same` as `טָבַע I`; name `טְבַע I`; nothing displayed)
   - [ ] I00080 `טֶבַע` (the noun, as X10 names; name `טֶבַע I`; nothing displayed)
   - [ ] print sets I beside I00080 (name `טֶבַע I`; the I displayed)
   - [ ] something else (say what in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: Likely will update display as well (see note in chat response), as this is the text proving a print error.
 
 Recommendation: I00077 (medium): the hOCR shows no numeral on I00077, I00079 or I00080, and the only `טְבַע I` the dictionary names is I00077's `to sink`; ruling 10-06 gives that form the implied I.
 
@@ -279,9 +279,9 @@ You read no numeral beside U02004 or U02006. U02013 `שְׂרַף` II is glossed
 - **U02012**
   - [ ] no numeral: U02012 takes the implied I (name `שְׂרָף I`; nothing displayed)
   - [ ] print sets I beside U02012
-  - [ ] something else (say what in the note)
+  - [x] something else (say what in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: no numeral, no implied
 
 Recommendation: no numeral, implied I (medium): the hOCR shows none before U02012's `m. (שָׂרַף I) acrid substance`, U02013 is its `ch. same`, and it is the one unnumbered form of the spelling within the window ruling 10-06 reaches.
 
@@ -301,10 +301,10 @@ You read no numeral beside H00319, H00320 or H00322. Ruling 10-06 (taken after y
 **Question.** Which form takes the implied I?
 
 - **H00321**
-  - [ ] H00319 `חוּל` (the Hebrew verb)
+  - [x] H00319 `חוּל` (the Hebrew verb)
   - [ ] H00320 `חוּל` (its `ch. same` line, as X10 names)
   - [ ] neither: no implied I here; as stored: nothing to fix (the row goes to the reviewed-kept list)
-  - note: 
+  - note: This is an example of a clear correction supported by the text, so not really implied but more like an actuall text error
 
 Recommendation: H00319 (high): the hOCR sets no numeral on it, and Jastrow's own cross-references name the Hebrew verb `חוּל I` and H00320 its `ch.`, so ruling 10-06's implied I goes on H00319.
 
@@ -326,7 +326,7 @@ You answered "the gap is Jastrow's own". Ruling 10-06, taken after your read, st
   - [ ] yes: C00772 takes the implied I (name `גֵּיס I`; nothing displayed)
   - [ ] no, C00772 is another word; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] can't tell from the scan
-  - note: 
+  - note: To much ambuiguity here honestly. So no implied anything, and maybe an issue to dig in on.
 
 Recommendation: yes (medium): print leaves C00772 bare and numbers the next form II, same consonants and adjacent, which is the case ruling 10-06 decides; medium because two cross-references call the familiar word I.
 
@@ -345,7 +345,7 @@ You answered "the gap is Jastrow's own". X10 names E00113 `הֶדְיָא`, just
 
 - **E00114**
   - [ ] yes: E00113 takes the implied I (name `הֶדְיָא I`; nothing displayed)
-  - [ ] no, E00113 is another word; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] no, E00113 is another word; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] can't tell from the scan
   - note: 
 
@@ -369,7 +369,7 @@ You answered "the gap is Jastrow's own". T00377's I sits on its alternate `רו�
 - **T00376**
   - [ ] T00374 `רוּם` (the Hebrew verb)
   - [ ] T00375 `רוּם` (its `ch. same` line, as X10 names)
-  - [ ] neither: no implied I here; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] neither: no implied I here; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - note: 
 
 Recommendation: T00374 (medium): ABBYY sets no numeral on T00374 or T00375, ruling 10-06 puts the implied I on the first unnumbered form, and in the same shape at H00321 Jastrow's cross-references name the Hebrew verb I; here none does.
@@ -389,7 +389,7 @@ You answered "the gap is Jastrow's own". The hOCR sets `I` after U01396's second
 **Question.** Where on U01396's line does print set the I?
 
 - **U01396**
-  - [ ] after the abbreviation `שִׁילְ׳`: store it on that alternate
+  - [x] after the abbreviation `שִׁילְ׳`: store it on that alternate
   - [ ] there is no I on the line: U01396 takes the implied I (name `שִׁלְשֵׁל I`)
   - [ ] after `שִׁלְשֵׁל` itself: U01396 takes I (name `שִׁלְשֵׁל I`, displayed)
   - [ ] can't tell from the scan
@@ -412,7 +412,7 @@ You ticked "print spells them differently, so the gap is real" and noted the dat
 **Question.** Is there a `נְהִי` I in print?
 
 - **N00260**
-  - [ ] no: the gap is Jastrow's own; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] no: the gap is Jastrow's own; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] yes (say which entry in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -434,7 +434,7 @@ You read the I beside V00522's alternate `תַּכָּא`, and noted it landed i
 
 - **V00522**
   - [ ] `תֻּכָּא (תַּכָּא I), v. …`: the parenthesis opens before the alternate
-  - [ ] `תֻּכָּא, (תַּכָּא I), v. …`: a comma, then the parenthesis
+  - [x] `תֻּכָּא, (תַּכָּא I), v. …`: a comma, then the parenthesis
   - [ ] something else (say what in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -455,9 +455,9 @@ Your notes: each headword is a long underline (about three letters wide) standin
 **Question.** Keep the stored form, or store a placeholder for the underline?
 
 - **J00321, J00327**
-  - [ ] keep as stored (the bare patah; names `ַיי`, `ַיְידָא`)
+  - [x] keep as stored (the bare patah; names `ַיי`, `ַיְידָא`)
   - [ ] store a placeholder for the underline (say which character in the note)
-  - note: 
+  - note: I feel like this is a display vs actual issue right?  The actual is just a patach, but clearly we have to find a way to display this, preferbly as close to print as we can.
 
 Recommendation: keep as stored (medium): the glosses already name every word the underline stands for, HW-prefix files the bare patah as an ending entry, and no ruling picks a character for print's rule, which is a mark of the page rather than a letter.
 
@@ -474,10 +474,10 @@ You gave the alternates as `קִצָּא` and `קִי׳`. The source holds `קִ
 **Question.** Does print set a qamats under the tsade?
 
 - **S01780**
-  - [ ] yes, `קִצָּא` (qamats and dagesh): the qamats is your print read
+  - [x] yes, `קִצָּא` (qamats and dagesh): the qamats is your print read
   - [ ] no, `קִצּא` as the bytes join
   - [ ] can't tell from the scan
-  - note: 
+  - note: Honestly this one is a bit of an educated guess as the text is not clear.  It deff needs an anotation.  The text only has a vertical line, it seems the top part of the qamats did not print, or lost to scan).
 
 Recommendation: yes, `קִצָּא` (high): your round-1 read gave the qamats, and Jastrow's own cross-reference to the word (S01120) spells it the same; the hOCR `5S22p` cannot show pointing.
 
