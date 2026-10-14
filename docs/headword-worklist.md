@@ -2311,8 +2311,10 @@ How to read the blocks:
 
 - The table is the family as the committed entries store it (every
   form within five entries whose consonants match the cite's word,
-  ruling 10-05), with the hOCR line of each member where it was found
-  (backticks in the OCR shown as `'`) and its scan.
+  ruling 10-05), with the hOCR line of each member where one matched
+  its gloss (backticks in the OCR shown as `'`; "no line matched" means
+  the alignment found none, not that print lacks the line) and its
+  scan.
 - The cites follow, each in its context as the entry stores it, with
   the entry Sefaria links it to and the cite's hOCR line where found.
 - Then what reading the family found, the question and the options.
@@ -2382,8 +2384,8 @@ How to read the blocks:
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [A00626](https://jastrow.app/#rid:A00626) | `אוי, אָוָה I` | not found in the hOCR | [24a · leaf 47](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$48/full/1400,/0/default.jpg) |
-| [A00627](https://jastrow.app/#rid:A00627) | `אוי, אָוָה II` | not found in the hOCR | [24a · leaf 47](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$48/full/1400,/0/default.jpg) |
+| [A00626](https://jastrow.app/#rid:A00626) | `אוי, אָוָה I` | no line matched | [24a · leaf 47](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$48/full/1400,/0/default.jpg) |
+| [A00627](https://jastrow.app/#rid:A00627) | `אוי, אָוָה II` | no line matched | [24a · leaf 47](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$48/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
 
@@ -2405,7 +2407,7 @@ Recommendation: Gesenius (high): the words before it are `a. Ges. H. Dict. s. v.
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [A01918](https://jastrow.app/#rid:A01918) | `אִלְמָלֵא, אִלְמָלֵי, אִילְ׳` | not found in the hOCR | [71b · leaf 94](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$95/full/1400,/0/default.jpg) |
+| [A01918](https://jastrow.app/#rid:A01918) | `אִלְמָלֵא, אִלְמָלֵי, אִילְ׳` | no line matched | [71b · leaf 94](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$95/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
 
@@ -2452,7 +2454,7 @@ Recommendation: yes, A02378 (medium): the cite names I and II side by side and A
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [C00294](https://jastrow.app/#rid:C00294) | `גּוּבְתָּא, גַּבְתָּא, גּוּפְתָּא` | not found in the hOCR | [217b · leaf 240](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$241/full/1400,/0/default.jpg) |
+| [C00294](https://jastrow.app/#rid:C00294) | `גּוּבְתָּא, גַּבְתָּא, גּוּפְתָּא` | no line matched | [217b · leaf 240](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$241/full/1400,/0/default.jpg) |
 | [C00295](https://jastrow.app/#rid:C00295) | `גּוּבְתָא` | `the tube contain- ג' דכוחלא 3 channel. Targ. 11 Esth. I,` | [218a · leaf 241](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$242/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
@@ -2476,7 +2478,7 @@ Recommendation: C00294 is the I (medium): the cite comes from C00294's own alter
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [C00577](https://jastrow.app/#rid:C00577) | `גִּזְרָא, גִּיזְרָא` | not found in the hOCR | [232a · leaf 255](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$256/full/1400,/0/default.jpg) |
+| [C00577](https://jastrow.app/#rid:C00577) | `גִּזְרָא, גִּיזְרָא` | no line matched | [232a · leaf 255](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$256/full/1400,/0/default.jpg) |
 | [C00578](https://jastrow.app/#rid:C00578) | `גִּזְרָא, גִּיזְרָא II` | `fold, flock. Targ. Prov. XXX, 31 753 בית Ms. (ed. (גרורא` | [232a · leaf 255](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$256/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
@@ -2525,7 +2527,7 @@ Recommendation: kept (high): the cites quote C00773's meaning, and your round 2 
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [C01128](https://jastrow.app/#rid:C01128) | `גָּנַח` | not found in the hOCR | [259a · leaf 282](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$283/full/1400,/0/default.jpg) |
+| [C01128](https://jastrow.app/#rid:C01128) | `גָּנַח` | no line matched | [259a · leaf 282](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$283/full/1400,/0/default.jpg) |
 | [C01129](https://jastrow.app/#rid:C01129) | `גְּנַח I` | `sme, fo groam, rumble (of the underground 6 נָכָדז` | [259a · leaf 282](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$283/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
@@ -2576,9 +2578,9 @@ Recommendation: H00614, retarget only (medium): its spelling and meaning (tender
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [H00747](https://jastrow.app/#rid:H00747) | `חַיְיתָא I, חַיְתָא` | not found in the hOCR | [455a · leaf 478](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$479/full/1400,/0/default.jpg) |
-| [H00748](https://jastrow.app/#rid:H00748) | `חַיְיתָא II, חַיְתָא` | not found in the hOCR | [455a · leaf 478](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$479/full/1400,/0/default.jpg) |
-| [H00749](https://jastrow.app/#rid:H00749) | `חַיְּיתָא III, חַיָּתָא` | not found in the hOCR | [455b · leaf 478](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$479/full/1400,/0/default.jpg) |
+| [H00747](https://jastrow.app/#rid:H00747) | `חַיְיתָא I, חַיְתָא` | no line matched | [455a · leaf 478](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$479/full/1400,/0/default.jpg) |
+| [H00748](https://jastrow.app/#rid:H00748) | `חַיְיתָא II, חַיְתָא` | no line matched | [455a · leaf 478](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$479/full/1400,/0/default.jpg) |
+| [H00749](https://jastrow.app/#rid:H00749) | `חַיְּיתָא III, חַיָּתָא` | no line matched | [455b · leaf 478](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$479/full/1400,/0/default.jpg) |
 | [H00750](https://jastrow.app/#rid:H00750) | `חַיְּיתָא, חַיְּתָא IV` | `pera ₪. lrabs, P-ben. 1408) pouch, bog. Oi 45* התפרלי or` | [455b · leaf 478](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$479/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
@@ -2603,8 +2605,8 @@ Recommendation: yes (high): the only IV in the family, and the Talmud passage ma
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [H00839](https://jastrow.app/#rid:H00839) | `חֵיפָא I` | `attack, Targ. Prov, XXVIII, 4 (h, text Dow), Ih, I, 8` | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
-| [H00840](https://jastrow.app/#rid:H00840) | `חֵיפָא II` | not found in the hOCR | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
-| [H00841](https://jastrow.app/#rid:H00841) | `חִיפָּא` | not found in the hOCR | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
+| [H00840](https://jastrow.app/#rid:H00840) | `חֵיפָא II` | no line matched | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
+| [H00841](https://jastrow.app/#rid:H00841) | `חִיפָּא` | no line matched | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
 | [H00843](https://jastrow.app/#rid:H00843) | `חֵיפָה I, חֵיפָא, בֵּית ח׳` | `a harbor of the Mediterranean Sea, south of` | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
@@ -2628,9 +2630,9 @@ Recommendation: kept (low): a personal name ʿEfa matches no stored `חֵיפָ�
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [H01098](https://jastrow.app/#rid:H01098) | `חָלַף` | not found in the hOCR | [471b · leaf 494](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$495/full/1400,/0/default.jpg) |
+| [H01098](https://jastrow.app/#rid:H01098) | `חָלַף` | no line matched | [471b · leaf 494](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$495/full/1400,/0/default.jpg) |
 | [H01099](https://jastrow.app/#rid:H01099) | `חֲלַף I, חֲלֵיף` | `ch. same, to pass by, be gone. Targ. חליף 8 חלף` | [472a · leaf 495](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$496/full/1400,/0/default.jpg) |
-| [H01100](https://jastrow.app/#rid:H01100) | `חִלֶף I` | not found in the hOCR | [472a · leaf 495](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$496/full/1400,/0/default.jpg) |
+| [H01100](https://jastrow.app/#rid:H01100) | `חִלֶף I` | no line matched | [472a · leaf 495](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$496/full/1400,/0/default.jpg) |
 | [H01101](https://jastrow.app/#rid:H01101) | `חֵלֶף II` | `או ח' is not perhaps the reverse the case?` | [472a · leaf 495](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$496/full/1400,/0/default.jpg) |
 | [H01102](https://jastrow.app/#rid:H01102) | `חֶלֶף` | `me-Helef מחלם ח' )33 Meg.1,70* bot. (ref. to Josh. XIX,` | [472a · leaf 495](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$496/full/1400,/0/default.jpg) |
 | [H01103](https://jastrow.app/#rid:H01103) | `חֲלַף II, חוֹלַף` | `Aon II, חולף m, st. constr. (הלף) in place of, %%-` | [472a · leaf 495](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$496/full/1400,/0/default.jpg) |
@@ -2656,9 +2658,9 @@ Recommendation: yes (high): H01100's gloss is `1) shoot`, the meaning H01057 quo
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [H01218](https://jastrow.app/#rid:H01218) | `חָמַר I` | not found in the hOCR | [479b · leaf 502](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$503/full/1400,/0/default.jpg) |
-| [H01219](https://jastrow.app/#rid:H01219) | `חֲמַר` | not found in the hOCR | [479b · leaf 502](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$503/full/1400,/0/default.jpg) |
-| [H01220](https://jastrow.app/#rid:H01220) | `חָמַר II` | not found in the hOCR | [479b · leaf 502](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$503/full/1400,/0/default.jpg) |
+| [H01218](https://jastrow.app/#rid:H01218) | `חָמַר I` | no line matched | [479b · leaf 502](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$503/full/1400,/0/default.jpg) |
+| [H01219](https://jastrow.app/#rid:H01219) | `חֲמַר` | no line matched | [479b · leaf 502](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$503/full/1400,/0/default.jpg) |
+| [H01220](https://jastrow.app/#rid:H01220) | `חָמַר II` | no line matched | [479b · leaf 502](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$503/full/1400,/0/default.jpg) |
 | [H01221](https://jastrow.app/#rid:H01221) | `חֲמַר` | `ch. same, 1) to be hot, parched. Targ. Job חמר` | [480a · leaf 503](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$504/full/1400,/0/default.jpg) |
 | [H01222](https://jastrow.app/#rid:H01222) | `חֲמַר III, חַמְרָא I` | `Num. VI, 3; a. fr. —Targ. Hos. III, 1 "723 ed. Lag.` | [480a · leaf 503](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$504/full/1400,/0/default.jpg) |
 | [H01223](https://jastrow.app/#rid:H01223) | `חֲמָר, חֲמָרָא, חַמְרָא II` | `trnsf. workingman ’s contrivance, jack ₪0. Targ Is. XXI,7.` | [480a · leaf 503](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$504/full/1400,/0/default.jpg) |
@@ -2738,7 +2740,7 @@ Recommendation: the first (medium): M00725 is the only II; the scan decides whos
 | [M02847](https://jastrow.app/#rid:M02847) | `מְשַׁח` | `riw^2 ch. same. Targ. 0. Gen. XXXI, 13. Targ. Ps.` | [851a · leaf 174](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$175/full/1400,/0/default.jpg) |
 | [M02848](https://jastrow.app/#rid:M02848) | `מָשַׁח II` | `r!UJ - II to stretch, measure. Denom. nisja, hlTKfcl.` | [851a · leaf 174](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$175/full/1400,/0/default.jpg) |
 | [M02849](https://jastrow.app/#rid:M02849) | `מְשַׁח` | `nCQ ch. same. Targ. Y. Gen. X, 25. Targ. Ez. XL, 5;` | [851a · leaf 174](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$175/full/1400,/0/default.jpg) |
-| [M02850](https://jastrow.app/#rid:M02850) | `מְשַׁח III, מִשְׁחָא, מִישְׁ׳ I` | not found in the hOCR | [851a · leaf 174](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$175/full/1400,/0/default.jpg) |
+| [M02850](https://jastrow.app/#rid:M02850) | `מְשַׁח III, מִשְׁחָא, מִישְׁ׳ I` | no line matched | [851a · leaf 174](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$175/full/1400,/0/default.jpg) |
 | [M02851](https://jastrow.app/#rid:M02851) | `מְשַׁח IV, מִשְׁחָא, מִי׳ II` | `length. Targ. II Chr. IV, 2 "2 Bin measuring line ; a. e. —` | [851a · leaf 174](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$175/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
@@ -2762,7 +2764,7 @@ Recommendation: M02847, retarget only (medium): the cite's spelling is the ch. v
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [N00314](https://jastrow.app/#rid:N00314) | `נָוָה` | not found in the hOCR | [884a · leaf 207](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$208/full/1400,/0/default.jpg) |
+| [N00314](https://jastrow.app/#rid:N00314) | `נָוָה` | no line matched | [884a · leaf 207](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$208/full/1400,/0/default.jpg) |
 | [N00315](https://jastrow.app/#rid:N00315) | `נָוֶה I` | `njJ I m., (=nx3) becoming, handsome. Arakh.III, 1` | [884a · leaf 207](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$208/full/1400,/0/default.jpg) |
 | [N00316](https://jastrow.app/#rid:N00316) | `נָוֶה II` | `place, circle, dwelling. Y. Ber. IX, 13c bot. (ref. to Jer.` | [884a · leaf 207](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$208/full/1400,/0/default.jpg) |
 | [N00317](https://jastrow.app/#rid:N00317) | `נָוֶה` | `n" J, ni" \|J III pr. n. pi. Naveh, east of Gadara in` | [884b · leaf 207](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$208/full/1400,/0/default.jpg) |
@@ -2792,8 +2794,8 @@ Recommendation: yes (high): the gloss head, the hOCR and the three cites agree.
 | [N00340](https://jastrow.app/#rid:N00340) | `נוּחַ` | `"j (b. h.) to rest, lie; to be at ease, rest satisfied. —` | [885b · leaf 208](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$209/full/1400,/0/default.jpg) |
 | [N00341](https://jastrow.app/#rid:N00341) | `נוּחַ` | `vQ ch. same; part. pass. f»3. Targ. Y. Deut. XXII, 11` | [885b · leaf 208](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$209/full/1400,/0/default.jpg) |
 | [N00342](https://jastrow.app/#rid:N00342) | `נוֹחַ` | `nlO m. (b. h. ; preced.) rest; satisfaction. Tosef. Sot.` | [886b · leaf 209](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$210/full/1400,/0/default.jpg) |
-| [N00343](https://jastrow.app/#rid:N00343) | `נוֹחַ II, נוֹחָה` | not found in the hOCR | [886b · leaf 209](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$210/full/1400,/0/default.jpg) |
-| [N00344](https://jastrow.app/#rid:N00344) | `נוֹחַ III` | not found in the hOCR | [886b · leaf 209](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$210/full/1400,/0/default.jpg) |
+| [N00343](https://jastrow.app/#rid:N00343) | `נוֹחַ II, נוֹחָה` | no line matched | [886b · leaf 209](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$210/full/1400,/0/default.jpg) |
+| [N00344](https://jastrow.app/#rid:N00344) | `נוֹחַ III` | no line matched | [886b · leaf 209](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$210/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
 
@@ -2817,9 +2819,9 @@ Recommendation: yes, case 2 (high): the text names the I, the meaning matches, a
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [O00120](https://jastrow.app/#rid:O00120) | `סְגֵי, סְגָא I` | `VTn, 11) 1) io swell, rise, grow, spread, increase, thrive.` | [953b · leaf 276](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$277/full/1400,/0/default.jpg) |
-| [O00121](https://jastrow.app/#rid:O00121) | `סְגֵי, סְגָא II` | not found in the hOCR | [954a · leaf 277](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$278/full/1400,/0/default.jpg) |
+| [O00121](https://jastrow.app/#rid:O00121) | `סְגֵי, סְגָא II` | no line matched | [954a · leaf 277](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$278/full/1400,/0/default.jpg) |
 | [O00122](https://jastrow.app/#rid:O00122) | `סְגֵי III, סַגְיָא I` | `Targ. Gen. XXXII, 13 (12) Xg^D (0. ed. Vien. ">apa; some` | [954a · leaf 277](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$278/full/1400,/0/default.jpg) |
-| [O00123](https://jastrow.app/#rid:O00123) | `סַגִּי, סַגִּיא, סַגִּיאָה` | not found in the hOCR | [954a · leaf 277](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$278/full/1400,/0/default.jpg) |
+| [O00123](https://jastrow.app/#rid:O00123) | `סַגִּי, סַגִּיא, סַגִּיאָה` | no line matched | [954a · leaf 277](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$278/full/1400,/0/default.jpg) |
 | [O00124](https://jastrow.app/#rid:O00124) | `סַגִּי, סַגִּיא II` | `is no way, it is impossible. Keth. 95 b Mb 13M"1 xbl '0 nb` | [954b · leaf 277](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$278/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
@@ -2856,7 +2858,7 @@ Recommendation: O00120 for the five (high: its gloss is the meaning they quote);
 |---|---|---|---|
 | [P00128](https://jastrow.app/#rid:P00128) | `עדי, עָדָה I` | `110 and bin,] to pass by; to pass away, v. next w.` | [1043b · leaf 366](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$367/full/1400,/0/default.jpg) |
 | [P00129](https://jastrow.app/#rid:P00129) | `עֲדֵי, עֲדָא` | `"•, ST? ch. same, 1) (corresp. to h. 133) to pass by,` | [1043b · leaf 366](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$367/full/1400,/0/default.jpg) |
-| [P00130](https://jastrow.app/#rid:P00130) | `עדי, עָדָה II` | not found in the hOCR | [1044a · leaf 367](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$368/full/1400,/0/default.jpg) |
+| [P00130](https://jastrow.app/#rid:P00130) | `עדי, עָדָה II` | no line matched | [1044a · leaf 367](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$368/full/1400,/0/default.jpg) |
 | [P00131](https://jastrow.app/#rid:P00131) | `עֲדֵי, עֲדָא` | `'"!•, Si/ ch. same, to strip, tear; to make spoil.` | [1044a · leaf 367](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$368/full/1400,/0/default.jpg) |
 | [P00132](https://jastrow.app/#rid:P00132) | `עֲדִי I` | `"H.5 I m. (preced.) spoil. Targ. Is. XXXIII, 23 (ed.` | [1044a · leaf 367](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$368/full/1400,/0/default.jpg) |
 | [P00133](https://jastrow.app/#rid:P00133) | `עֲדִי II` | `on, cZoiaA:, ornament. Meg. 12b bot., v. 1P3. Esth. R. to` | [1044a · leaf 367](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$368/full/1400,/0/default.jpg) |
@@ -2916,8 +2918,8 @@ Recommendation: yes (high): `column` and `stand` are the verb's, and the `ך` fo
 | [P00970](https://jastrow.app/#rid:P00970) | `עני, עָנָה I` | `to speak; to respond; to speak or sing in chorus; to anstcer.` | [1093a · leaf 416](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$417/full/1400,/0/default.jpg) |
 | [P00971](https://jastrow.app/#rid:P00971) | `עֲנֵי, עֲנָא, עֲנָה` | `*'35\|, W? 0~l!D3?) ch. same. Targ. II Esth. VI, 10.` | [1093a · leaf 416](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$417/full/1400,/0/default.jpg) |
 | [P00972](https://jastrow.app/#rid:P00972) | `עני, עָנָה II` | `"02, (132 II (b. h. ; cmp. ii3X) to press, be pressed;` | [1093b · leaf 416](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$417/full/1400,/0/default.jpg) |
-| [P00973](https://jastrow.app/#rid:P00973) | `עֲנֵי, עֲנָא` | not found in the hOCR | [1093b · leaf 416](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$417/full/1400,/0/default.jpg) |
-| [P00974](https://jastrow.app/#rid:P00974) | `עֹנִי` | not found in the hOCR | [1093b · leaf 416](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$417/full/1400,/0/default.jpg) |
+| [P00973](https://jastrow.app/#rid:P00973) | `עֲנֵי, עֲנָא` | no line matched | [1093b · leaf 416](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$417/full/1400,/0/default.jpg) |
+| [P00974](https://jastrow.app/#rid:P00974) | `עֹנִי` | no line matched | [1093b · leaf 416](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$417/full/1400,/0/default.jpg) |
 | [P00975](https://jastrow.app/#rid:P00975) | `עַנִּי` | `"02 ch. = h. ">ab. Targ. 0. Deut. XVI, 3 ed. Berl. (oth.` | [1094a · leaf 417](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$418/full/1400,/0/default.jpg) |
 | [P00976](https://jastrow.app/#rid:P00976) | `עָנִי` | `nD3? m. (b. h.; nssil) [afflicted, humble,] poor. Sabb.` | [1094a · leaf 417](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$418/full/1400,/0/default.jpg) |
 
@@ -2944,14 +2946,14 @@ Recommendation: P00971, retarget only (high): `answer` is its meaning and its sp
 | [P01242](https://jastrow.app/#rid:P01242) | `עָרַב I` | `3HP I (b. h.; cmp. 3nx) [to insert, press into, inter-` | [1109b · leaf 432](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$433/full/1400,/0/default.jpg) |
 | [P01243](https://jastrow.app/#rid:P01243) | `עֲרַב, עֲרֵיב` | `3 }Jf J™" ch. same, 1) to vouch for, be surety for.` | [1110a · leaf 433](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$434/full/1400,/0/default.jpg) |
 | [P01244](https://jastrow.app/#rid:P01244) | `עָרַב II` | `Del. Assyr. Handw., p. 1 26) to go in, (cmp. aid) to set. —` | [1110b · leaf 433](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$434/full/1400,/0/default.jpg) |
-| [P01245](https://jastrow.app/#rid:P01245) | `עֲרַב` | not found in the hOCR | [1110b · leaf 433](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$434/full/1400,/0/default.jpg) |
+| [P01245](https://jastrow.app/#rid:P01245) | `עֲרַב` | no line matched | [1110b · leaf 433](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$434/full/1400,/0/default.jpg) |
 | [P01246](https://jastrow.app/#rid:P01246) | `עָרֵב I` | `cmp. esp. Targ. Ex. XXX, 35,] to be sweet, pleasant. Lam.` | [1110b · leaf 433](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$434/full/1400,/0/default.jpg) |
 | [P01247](https://jastrow.app/#rid:P01247) | `עָרִב II` | `J y II m.(b.h.; preced. )spiced, sweet ; pleasing. Dem.` | [1110b · leaf 433](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$434/full/1400,/0/default.jpg) |
-| [P01248](https://jastrow.app/#rid:P01248) | `עָרֵּב` | not found in the hOCR | [1111a · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
+| [P01248](https://jastrow.app/#rid:P01248) | `עָרֵּב` | no line matched | [1111a · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
 | [P01249](https://jastrow.app/#rid:P01249) | `עָרֵב III` | `I, 4 '31 'S i? son bring me one to go security, and I shall` | [1111a · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
-| [P01250](https://jastrow.app/#rid:P01250) | `עֹרֵב` | not found in the hOCR | [1111a · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
+| [P01250](https://jastrow.app/#rid:P01250) | `עֹרֵב` | no line matched | [1111a · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
 | [P01251](https://jastrow.app/#rid:P01251) | `עֶרֶב` | `'S3 in the evening (at prayer) ; a. v.fr. — Trnsf. decline. Gen.` | [1111a · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
-| [P01252](https://jastrow.app/#rid:P01252) | `עֲרָב I` | not found in the hOCR | [1111b · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
+| [P01252](https://jastrow.app/#rid:P01252) | `עֲרָב I` | no line matched | [1111b · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
 | [P01253](https://jastrow.app/#rid:P01253) | `עֲרָב II` | `J */ II pr. n. pi. 'Arab, near Sepphoris in Upper` | [1111b · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
 | [P01254](https://jastrow.app/#rid:P01254) | `עֵרֶב` | `I, 5 'S din a thread of the woof (thicker than that of` | [1111b · leaf 434](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$435/full/1400,/0/default.jpg) |
 
@@ -2975,8 +2977,8 @@ Recommendation: yes (high): the cite quotes P01247's gloss word for word.
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [P01272](https://jastrow.app/#rid:P01272) | `עֵרָבוֹן, עֵי׳ I` | not found in the hOCR | [1112b · leaf 435](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$436/full/1400,/0/default.jpg) |
-| [P01273](https://jastrow.app/#rid:P01273) | `עֵרָבוֹן, עֵי׳` | not found in the hOCR | [1112b · leaf 435](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$436/full/1400,/0/default.jpg) |
+| [P01272](https://jastrow.app/#rid:P01272) | `עֵרָבוֹן, עֵי׳ I` | no line matched | [1112b · leaf 435](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$436/full/1400,/0/default.jpg) |
+| [P01273](https://jastrow.app/#rid:P01273) | `עֵרָבוֹן, עֵי׳` | `VCnS?, ^V m. (b. h.; 31SI) 1) pledge, earnest-money.` | [1112b · leaf 435](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$436/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
 
@@ -3000,7 +3002,7 @@ Recommendation: yes, case 2 (high): the family has an I and no II, and the text 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [Q01961](https://jastrow.app/#rid:Q01961) | `פִּרְפֵּר, פִּירְ׳ I` | `pulverize. Tosef. Sabb. XII (XIII) 14 '31 "ppdlba T"]B"©a` | [1236b · leaf 559](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$560/full/1400,/0/default.jpg) |
-| [Q01962](https://jastrow.app/#rid:Q01962) | `פַּרְפֵּר` | not found in the hOCR | [1236b · leaf 559](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$560/full/1400,/0/default.jpg) |
+| [Q01962](https://jastrow.app/#rid:Q01962) | `פַּרְפֵּר` | no line matched | [1236b · leaf 559](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$560/full/1400,/0/default.jpg) |
 | [Q01963](https://jastrow.app/#rid:Q01963) | `פִּרְפֵּר, פִּירְ׳ II` | `to move convulsively, struggle (in agony). Snh. 37b aiim` | [1236b · leaf 559](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$560/full/1400,/0/default.jpg) |
 | [Q01964](https://jastrow.app/#rid:Q01964) | `פַּרְפֵּר` | `"l£pD ch. same. Targ. Y. Gen. XLII, 21 "jStfTp IB-iBa` | [1236b · leaf 559](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$560/full/1400,/0/default.jpg) |
 
@@ -3026,7 +3028,7 @@ Recommendation: Q01962, retarget only (medium): spelling and language match.
 |---|---|---|---|
 | [R00058](https://jastrow.app/#rid:R00058) | `צֶבַע, צִבְעָא, צִי׳ I` | `"21, H"21, '"1 I ch. same, constr. 53S. Targ. Ex.` | [1259b · leaf 582](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$583/full/1400,/0/default.jpg) |
 | [R00060](https://jastrow.app/#rid:R00060) | `צַבָּעָא` | `S"~I£ ch.same. Gitt.52b 'S n"i3S Amram, the dyer.—` | [1259b · leaf 582](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$583/full/1400,/0/default.jpg) |
-| [R00061](https://jastrow.app/#rid:R00061) | `צִבְעָא, צִי׳ I` | not found in the hOCR | [1259b · leaf 582](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$583/full/1400,/0/default.jpg) |
+| [R00061](https://jastrow.app/#rid:R00061) | `צִבְעָא, צִי׳ I` | no line matched | [1259b · leaf 582](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$583/full/1400,/0/default.jpg) |
 | [R00062](https://jastrow.app/#rid:R00062) | `צִבְעָא, צִי׳ II` | `&C2X, '~1 II f. (S3S I) finger, toe, fang. Targ. Y.` | [1259b · leaf 582](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$583/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
@@ -3079,8 +3081,8 @@ Recommendation: R00101, retarget only (medium): spelling and Targum match.
 | [R00712](https://jastrow.app/#rid:R00712) | `צְפַר I` | `"IDS I (cmp. h6S) [to be bright; denom. X^EX; (of` | [1298b · leaf 621](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$622/full/1400,/0/default.jpg) |
 | [R00713](https://jastrow.app/#rid:R00713) | `צְפַר II` | `to plait one round. Y. Sabb. VII, 10c top pBip liFt 'pn` | [1298b · leaf 621](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$622/full/1400,/0/default.jpg) |
 | [R00714](https://jastrow.app/#rid:R00714) | `צְפַר III, צִפְרָא` | `Yomali end, 39b ICTOp 'S n">nS3SX3 n^ 'Wl and he drew` | [1298b · leaf 621](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$622/full/1400,/0/default.jpg) |
-| [R00715](https://jastrow.app/#rid:R00715) | `צְפַר IV, צַפְרָא` | not found in the hOCR | [1298b · leaf 621](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$622/full/1400,/0/default.jpg) |
-| [R00716](https://jastrow.app/#rid:R00716) | `צִפֹּר` | not found in the hOCR | [1298b · leaf 621](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$622/full/1400,/0/default.jpg) |
+| [R00715](https://jastrow.app/#rid:R00715) | `צְפַר IV, צַפְרָא` | no line matched | [1298b · leaf 621](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$622/full/1400,/0/default.jpg) |
+| [R00716](https://jastrow.app/#rid:R00716) | `צִפֹּר` | no line matched | [1298b · leaf 621](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$622/full/1400,/0/default.jpg) |
 | [R00717](https://jastrow.app/#rid:R00717) | `צִפַּר, צִפְּרָא, צִפּוֹר, צִפּוֹרָא, צִי׳` | `bird. Targ. 0T. Gen. VII, 14 (Y.11ES). Targ. 0. Lev. XIV, 5` | [1298b · leaf 621](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$622/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
@@ -3103,14 +3105,14 @@ Recommendation: yes (high): R00715's own etymology names R00712.
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [S00526](https://jastrow.app/#rid:S00526) | `קָוַץ` | not found in the hOCR | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
+| [S00526](https://jastrow.app/#rid:S00526) | `קָוַץ` | no line matched | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
 | [S00527](https://jastrow.app/#rid:S00527) | `קְוַץ` | `7]p ch. same. Succ. 23b KTNg Ar. (ed. '113), v. ptt.` | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
-| [S00528](https://jastrow.app/#rid:S00528) | `קוּץ I` | not found in the hOCR | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
-| [S00529](https://jastrow.app/#rid:S00529) | `קוּץ` | not found in the hOCR | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
-| [S00530](https://jastrow.app/#rid:S00530) | `קוּץ II` | not found in the hOCR | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
-| [S00531](https://jastrow.app/#rid:S00531) | `קוּץ III` | not found in the hOCR | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
-| [S00532](https://jastrow.app/#rid:S00532) | `קוּץ` | not found in the hOCR | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
-| [S00533](https://jastrow.app/#rid:S00533) | `קוּץ IV` | not found in the hOCR | [1339b · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
+| [S00528](https://jastrow.app/#rid:S00528) | `קוּץ I` | no line matched | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
+| [S00529](https://jastrow.app/#rid:S00529) | `קוּץ` | no line matched | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
+| [S00530](https://jastrow.app/#rid:S00530) | `קוּץ II` | no line matched | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
+| [S00531](https://jastrow.app/#rid:S00531) | `קוּץ III` | no line matched | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
+| [S00532](https://jastrow.app/#rid:S00532) | `קוּץ` | no line matched | [1339a · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
+| [S00533](https://jastrow.app/#rid:S00533) | `קוּץ IV` | no line matched | [1339b · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
 | [S00534](https://jastrow.app/#rid:S00534) | `קוֹץ I` | `bot. (ref. to Mic. VH, 18) '31 rU 'pi JT'bx a fat tail with` | [1339b · leaf 662](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$663/full/1400,/0/default.jpg) |
 | [S00535](https://jastrow.app/#rid:S00535) | `קוֹץ II` | `Ill, 74b bot. (ref. to Mish. ib. Ill, 7, 'you must not inter-` | [1340a · leaf 663](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$664/full/1400,/0/default.jpg) |
 
@@ -3157,8 +3159,8 @@ Recommendation: kept (low): nothing explains the `I`; S00922's own gloss opens `
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [T00881](https://jastrow.app/#rid:T00881) | `רָעָה` | not found in the hOCR | [1486a · leaf 809](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$810/full/1400,/0/default.jpg) |
-| [T00882](https://jastrow.app/#rid:T00882) | `רָעָה` | not found in the hOCR | [1486a · leaf 809](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$810/full/1400,/0/default.jpg) |
+| [T00881](https://jastrow.app/#rid:T00881) | `רָעָה` | no line matched | [1486a · leaf 809](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$810/full/1400,/0/default.jpg) |
+| [T00882](https://jastrow.app/#rid:T00882) | `רָעָה` | no line matched | [1486a · leaf 809](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$810/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
 
@@ -3182,9 +3184,9 @@ Recommendation: T00889, retarget only (medium): it holds the meaning; whether pr
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [U00058](https://jastrow.app/#rid:U00058) | `שֵׁב` | not found in the hOCR | [1509b · leaf 832](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$833/full/1400,/0/default.jpg) |
+| [U00058](https://jastrow.app/#rid:U00058) | `שֵׁב` | no line matched | [1509b · leaf 832](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$833/full/1400,/0/default.jpg) |
 | [U00059](https://jastrow.app/#rid:U00059) | `שַׁב, שֵׁב, שֵׁיב` | `Targ/o. Gen. XXIX, 27, sq. ed. Berl. (oth. ed. Xn313i3 ;` | [1509b · leaf 832](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$833/full/1400,/0/default.jpg) |
-| [U00060](https://jastrow.app/#rid:U00060) | `שַׁב, שַׁבָּא, שׁוּבָּא` | not found in the hOCR | [1509b · leaf 832](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$833/full/1400,/0/default.jpg) |
+| [U00060](https://jastrow.app/#rid:U00060) | `שַׁב, שַׁבָּא, שׁוּבָּא` | no line matched | [1509b · leaf 832](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$833/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
 
@@ -3211,7 +3213,7 @@ Recommendation: U00059 (high for the target); the numeral is the scan's to decid
 |---|---|---|---|
 | [U00102](https://jastrow.app/#rid:U00102) | `שָׁבַט` | `the weaving rod, to make the iveb close (v. Sm. Ant. s. v.` | [1512b · leaf 835](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$836/full/1400,/0/default.jpg) |
 | [U00103](https://jastrow.app/#rid:U00103) | `שְׁבַט I` | `»w I ch. (v. preced.) to strike tvith the rod, to beat.` | [1512b · leaf 835](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$836/full/1400,/0/default.jpg) |
-| [U00104](https://jastrow.app/#rid:U00104) | `שֵׁבֶט` | not found in the hOCR | [1512b · leaf 835](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$836/full/1400,/0/default.jpg) |
+| [U00104](https://jastrow.app/#rid:U00104) | `שֵׁבֶט` | no line matched | [1512b · leaf 835](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$836/full/1400,/0/default.jpg) |
 | [U00105](https://jastrow.app/#rid:U00105) | `שְׁבַט, שִׁבְטָא, שֵׁיבַט, שִׁיבְטָא, שׁוּ׳` | `1 ) rod, sfa/f. Targ. Prov. XXII, 8. Ib. X, 13 (Ar. a. Levita` | [1513a · leaf 836](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$837/full/1400,/0/default.jpg) |
 | [U00106](https://jastrow.app/#rid:U00106) | `שְׁבָט` | `of the Jewish calendar, of thirty days, beginning between` | [1513a · leaf 836](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$837/full/1400,/0/default.jpg) |
 
@@ -3238,7 +3240,7 @@ Recommendation: yes (high for the target): the citing headwords are U00105's own
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [U00343](https://jastrow.app/#rid:U00343) | `שְׁוַוח I` | `XXVII, 25 ed. Lag. (some ed. n"r, corr. ace; ed. Wil.` | [1529b · leaf 852](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$853/full/1400,/0/default.jpg) |
-| [U00344](https://jastrow.app/#rid:U00344) | `שְׁוַוח, שְׁוַח, שׁוּחַ` | not found in the hOCR | [1529b · leaf 852](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$853/full/1400,/0/default.jpg) |
+| [U00344](https://jastrow.app/#rid:U00344) | `שְׁוַוח, שְׁוַח, שׁוּחַ` | no line matched | [1529b · leaf 852](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$853/full/1400,/0/default.jpg) |
 | [U00345](https://jastrow.app/#rid:U00345) | `שְׁוַוח, שְׁוַח` | `m Vj III, nid m. (preced.) pit. Targ. Pa. VII, 16` | [1530a · leaf 853](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$854/full/1400,/0/default.jpg) |
 | [U00346](https://jastrow.app/#rid:U00346) | `שַׁוַּוח, שַׁוַּח` | `Targ. Job XXII, 29 tOrVHOa 'ID troubled on account of sin` | [1530a · leaf 853](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$854/full/1400,/0/default.jpg) |
 
@@ -3269,7 +3271,7 @@ Recommendation: U00344 is the II and U00345 takes III (high): the hOCR shows U00
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [U00395](https://jastrow.app/#rid:U00395) | `שָׁוְי, שַׁוְיָא I` | not found in the hOCR | [1533a · leaf 856](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$857/full/1400,/0/default.jpg) |
+| [U00395](https://jastrow.app/#rid:U00395) | `שָׁוְי, שַׁוְיָא I` | no line matched | [1533a · leaf 856](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$857/full/1400,/0/default.jpg) |
 | [U00396](https://jastrow.app/#rid:U00396) | `שַׁוְיָא, שַׁוְויָא, שִׁיוְו׳, שִׁוּוּיָא, שִׁיוּוּ׳` | `Cy~) [that which is levelled, smooth,] couch. Targ. Y.` | [1533a · leaf 856](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$857/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
@@ -3293,9 +3295,9 @@ Recommendation: yes (high for the target): the citing headwords are U00396's alt
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [U00475](https://jastrow.app/#rid:U00475) | `שׁוּעַ` | not found in the hOCR | [1537b · leaf 860](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$861/full/1400,/0/default.jpg) |
+| [U00475](https://jastrow.app/#rid:U00475) | `שׁוּעַ` | no line matched | [1537b · leaf 860](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$861/full/1400,/0/default.jpg) |
 | [U00476](https://jastrow.app/#rid:U00476) | `שׁוּעַ` | `51123 oh. same, l)[to smooth over,] to plaster. Targ.O.` | [1538a · leaf 861](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$862/full/1400,/0/default.jpg) |
-| [U00477](https://jastrow.app/#rid:U00477) | `שָׁוַע` | not found in the hOCR | [1538a · leaf 861](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$862/full/1400,/0/default.jpg) |
+| [U00477](https://jastrow.app/#rid:U00477) | `שָׁוַע` | no line matched | [1538a · leaf 861](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$862/full/1400,/0/default.jpg) |
 | [U00478](https://jastrow.app/#rid:U00478) | `שׁוֹעַ` | `E. introd.(E.Joh 1) (ref. to Is. XXII, 5) ^..."pp-ipa 1TI1D` | [1538a · leaf 861](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$862/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
@@ -3346,7 +3348,7 @@ Recommendation: yes (high): the hOCR, the gloss `to blow` and L50 agree.
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [U00580](https://jastrow.app/#rid:U00580) | `שׁוּתָא I` | not found in the hOCR | [1544a · leaf 867](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$868/full/1400,/0/default.jpg) |
+| [U00580](https://jastrow.app/#rid:U00580) | `שׁוּתָא I` | no line matched | [1544a · leaf 867](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$868/full/1400,/0/default.jpg) |
 | [U00581](https://jastrow.app/#rid:U00581) | `שׁוּתָא II` | `Handw., p. 648) [destruction,] shutha, a severe south wind;` | [1544a · leaf 867](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$868/full/1400,/0/default.jpg) |
 | [U00582](https://jastrow.app/#rid:U00582) | `שׁוּתָּא, שׁוּתָא` | `Pfl., p. 264) sproutings of the caper-tree. Ber. 36a C]b:£` | [1544a · leaf 867](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$868/full/1400,/0/default.jpg) |
 | [U00583](https://jastrow.app/#rid:U00583) | `שׁוּתָּא, שׁוּתָא` | `made of frame work or a block. B. Kam. 117a 'IB K1PP` | [1544a · leaf 867](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$868/full/1400,/0/default.jpg) |
@@ -3378,7 +3380,7 @@ Recommendation: U00583, kept (medium); U00582 I and U00583 II restored (high, fr
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [U01012](https://jastrow.app/#rid:U01012) | `שִׁיפּוּי, שִׁפּ׳ I` | `Mell. Ill," 8 (14*) "TODS (Talm. ed. ^13103, Bashi ">1B103.);` | [1566a · leaf 889](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$890/full/1400,/0/default.jpg) |
-| [U01013](https://jastrow.app/#rid:U01013) | `שִׁיפּוּי, שִׁפּ׳ II` | not found in the hOCR | [1566a · leaf 889](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$890/full/1400,/0/default.jpg) |
+| [U01013](https://jastrow.app/#rid:U01013) | `שִׁיפּוּי, שִׁפּ׳ II` | no line matched | [1566a · leaf 889](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$890/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
 
@@ -3402,7 +3404,7 @@ Recommendation: yes (high): the only I, and `chips` fits `planing`.
 |---|---|---|---|
 | [U01069](https://jastrow.app/#rid:U01069) | `שֵׁירוּתָא, שֵׁר׳ I` | `angels (v. rt«5). Targ. Y. Gen. XVIII, 20; a. fr.` | [1569a · leaf 892](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$893/full/1400,/0/default.jpg) |
 | [U01070](https://jastrow.app/#rid:U01070) | `שֵׁירוּתָא, שֵׁר׳, שֵׁירוּ, שֵׁרוּ I` | `Targ. Jer. II, 3. Targ. Job VIII, 7; v. "sppa.` | [1569a · leaf 892](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$893/full/1400,/0/default.jpg) |
-| [U01071](https://jastrow.app/#rid:U01071) | `שֵׁירוּתָא, שֵׁר׳, שֵׁירוּ, שֵׁרוּ II` | not found in the hOCR | [1569a · leaf 892](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$893/full/1400,/0/default.jpg) |
+| [U01071](https://jastrow.app/#rid:U01071) | `שֵׁירוּתָא, שֵׁר׳, שֵׁירוּ, שֵׁרוּ II` | `SnrP'4 *"K£3 III, T\% Tit II f. (r?) [nwf,` | [1569a · leaf 892](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$893/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
 
@@ -3461,7 +3463,7 @@ Recommendation: yes (high for the target): it is `six`; the scan decides case 1 
 | [U01266](https://jastrow.app/#rid:U01266) | `שְׁלַח` | `n^Dch. same, 1) to send, send off. Targ. Num.XIII,2.` | [1580a · leaf 903](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$904/full/1400,/0/default.jpg) |
 | [U01267](https://jastrow.app/#rid:U01267) | `שֶׁלַח I` | `H!*up I m. (preced.) hide, fresh skin. Makhsh. V, 6` | [1580b · leaf 903](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$904/full/1400,/0/default.jpg) |
 | [U01268](https://jastrow.app/#rid:U01268) | `שֶׁלַח II, שְׁלוּחַ` | `pressed olive the stone of which slips out at a touch. — PL` | [1580b · leaf 903](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$904/full/1400,/0/default.jpg) |
-| [U01269](https://jastrow.app/#rid:U01269) | `שֶׁלַח III` | not found in the hOCR | [1580b · leaf 903](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$904/full/1400,/0/default.jpg) |
+| [U01269](https://jastrow.app/#rid:U01269) | `שֶׁלַח III` | no line matched | [1580b · leaf 903](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$904/full/1400,/0/default.jpg) |
 | [U01270](https://jastrow.app/#rid:U01270) | `שֶׁלַח IV` | `of a step. Midd. II, 3; 111,6 nas Wl?*Jl and the depth of` | [1580b · leaf 903](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$904/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
@@ -3485,7 +3487,7 @@ Recommendation: yes (high): the citing headword is U01268's alternate and the gl
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [U01469](https://jastrow.app/#rid:U01469) | `שָׁמִין I` | `an Italian Isar (As). Kidd. 12* ''O? rWTl ^niO the 8hamin` | [1595b · leaf 918](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$919/full/1400,/0/default.jpg) |
-| [U01470](https://jastrow.app/#rid:U01470) | `שָׁמִין, שְׁמֵין` | not found in the hOCR | [1595b · leaf 918](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$919/full/1400,/0/default.jpg) |
+| [U01470](https://jastrow.app/#rid:U01470) | `שָׁמִין, שְׁמֵין` | `■pQti II, "fDp m. = h. ip/r, fat. Targ. Y. Gen.` | [1595b · leaf 918](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$919/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
 
@@ -3508,11 +3510,11 @@ Recommendation: yes, case 1 (high): the hOCR reads it.
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [U01496](https://jastrow.app/#rid:U01496) | `שָׁמֵן I` | `"\|CtH3 I (b. h.) [to 6e smooth,] to be fat.` | [1597a · leaf 920](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$921/full/1400,/0/default.jpg) |
-| [U01497](https://jastrow.app/#rid:U01497) | `שְׁמֵן` | not found in the hOCR | [1597b · leaf 920](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$921/full/1400,/0/default.jpg) |
+| [U01497](https://jastrow.app/#rid:U01497) | `שְׁמֵן` | no line matched | [1597b · leaf 920](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$921/full/1400,/0/default.jpg) |
 | [U01498](https://jastrow.app/#rid:U01498) | `שָׁמֵן, שְׁמֵנָה, שְׁמֵי׳` | `rich. Keth. 61a 'O loa fat meat. Pes. 42*. Hull. 451' "^a` | [1597b · leaf 920](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$921/full/1400,/0/default.jpg) |
-| [U01499](https://jastrow.app/#rid:U01499) | `שְׁמַן` | not found in the hOCR | [1597b · leaf 920](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$921/full/1400,/0/default.jpg) |
+| [U01499](https://jastrow.app/#rid:U01499) | `שְׁמַן` | no line matched | [1597b · leaf 920](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$921/full/1400,/0/default.jpg) |
 | [U01500](https://jastrow.app/#rid:U01500) | `שֶׁמֶן` | `TQ23 m. (b. h.; preced. wds.) oil, fat. Sabb. II, 1 'w` | [1597b · leaf 920](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$921/full/1400,/0/default.jpg) |
-| [U01501](https://jastrow.app/#rid:U01501) | `שִׁמָּן` | not found in the hOCR | [1598a · leaf 921](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$922/full/1400,/0/default.jpg) |
+| [U01501](https://jastrow.app/#rid:U01501) | `שִׁמָּן` | no line matched | [1598a · leaf 921](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$922/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
 
@@ -3537,7 +3539,7 @@ Recommendation: yes (high for the target): the citing headword is its alternate;
 |---|---|---|---|
 | [U01734](https://jastrow.app/#rid:U01734) | `שפי, שָׁפָה I` | `^&D, HSD^j I (b.h.; cmp. C11-BII) 1) to crush.— Part,` | [1614b · leaf 937](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$938/full/1400,/0/default.jpg) |
 | [U01735](https://jastrow.app/#rid:U01735) | `שְׁפֵי, שְׁפָא` | `"£3, S£w ch. same, 1) to crush, rub, grind. Targ.` | [1615a · leaf 938](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$939/full/1400,/0/default.jpg) |
-| [U01736](https://jastrow.app/#rid:U01736) | `שפי, שָׁפָה II` | not found in the hOCR | [1615a · leaf 938](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$939/full/1400,/0/default.jpg) |
+| [U01736](https://jastrow.app/#rid:U01736) | `שפי, שָׁפָה II` | no line matched | [1615a · leaf 938](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$939/full/1400,/0/default.jpg) |
 | [U01737](https://jastrow.app/#rid:U01737) | `שְׁפֵי, שְׁפָא` | `Sabb'. 98b fnili *0 in? ''Btth they made the boards slant-` | [1615a · leaf 938](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$939/full/1400,/0/default.jpg) |
 | [U01738](https://jastrow.app/#rid:U01738) | `שפי, שָׁפָה III` | `at ease; to be relieved. Nidd. IV, 4 n»3 nsa RMHfc and` | [1615b · leaf 938](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$939/full/1400,/0/default.jpg) |
 | [U01739](https://jastrow.app/#rid:U01739) | `שְׁפֵי, שְׁפָא` | `^£C, S£tl5 ch. same, to be quiet, at ease.—V. ■*$` | [1615b · leaf 938](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$939/full/1400,/0/default.jpg) |
@@ -3563,7 +3565,7 @@ Recommendation: U01735, retarget only (medium): the spelling is the ch. verb's.
 
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
-| [U02054](https://jastrow.app/#rid:U02054) | `שֵׁשׁ I` | not found in the hOCR | [1635b · leaf 958](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$959/full/1400,/0/default.jpg) |
+| [U02054](https://jastrow.app/#rid:U02054) | `שֵׁשׁ I` | no line matched | [1635b · leaf 958](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$959/full/1400,/0/default.jpg) |
 | [U02055](https://jastrow.app/#rid:U02055) | `שֵׁשׁ II` | `':* rTWB . . . VB those things concerning which shesh is` | [1636a · leaf 959](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$960/full/1400,/0/default.jpg) |
 | [U02056](https://jastrow.app/#rid:U02056) | `שֵׁשׁ, שִׁשָּׁה` | `(Y. a. Bab. ed. 1251153) at six hours and a half (from sunrise).` | [1636a · leaf 959](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$960/full/1400,/0/default.jpg) |
 
@@ -3590,7 +3592,7 @@ Recommendation: yes (high for the target): sixty is derived from six; the scan d
 |---|---|---|---|
 | [V00271](https://jastrow.app/#rid:V00271) | `תּוּר I` | `"flr* I (b. h. ; v. illi) [to go around; cmp. )>btt,) to espy.` | [1656a · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg) |
 | [V00272](https://jastrow.app/#rid:V00272) | `תּוּר II` | `r\T\ II ch. (contr. of 15M, v. 112) to be awake. —` | [1656a · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg) |
-| [V00273](https://jastrow.app/#rid:V00273) | `תּוֹר I` | not found in the hOCR | [1656a · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg) |
+| [V00273](https://jastrow.app/#rid:V00273) | `תּוֹר I` | no line matched | [1656a · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg) |
 | [V00274](https://jastrow.app/#rid:V00274) | `תּוֹר II` | `1 IvlII m. (b.h.; onomatop.) turtle-dove. Kinn. II, 5` | [1656a · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg) |
 | [V00275](https://jastrow.app/#rid:V00275) | `תּוֹר, תּוֹרָא I` | `"IT) III, STlFl I m. = h. Titt, ox. Targ. Ex. XXI,` | [1656a · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg) |
 
@@ -3616,7 +3618,7 @@ Recommendation: yes (high): the hOCR reads it and both cites mean the ox.
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [V00599](https://jastrow.app/#rid:V00599) | `תְּלָמָא, תַּלְמָא I` | `H72b?,, NCTTl I ch.same. Targ. Job XXXI, 10. Targ.` | [1672a · leaf 995](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$996/full/1400,/0/default.jpg) |
-| [V00600](https://jastrow.app/#rid:V00600) | `תַּלְמָא, תְּלָאמָא` | not found in the hOCR | [1672a · leaf 995](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$996/full/1400,/0/default.jpg) |
+| [V00600](https://jastrow.app/#rid:V00600) | `תַּלְמָא, תְּלָאמָא` | `tf*£x»'_ II, kSCSx^i m. (Assyr. talimu, Del. Assyr.` | [1672a · leaf 995](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$996/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
 
@@ -3640,8 +3642,8 @@ Recommendation: yes, case 1 (high): the hOCR reads it.
 |---|---|---|---|
 | [V00815](https://jastrow.app/#rid:V00815) | `תְּפֵי, תְּפַף` | `you all spit with the same spittle, your opinions are all` | [1685b · leaf 1008](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$1009/full/1400,/0/default.jpg) |
 | [V00816](https://jastrow.app/#rid:V00816) | `תְּפֵי, תְּפָא` | `"©Fl II fctDT. (denom. of K"Bn) to set on for cooking.` | [1685b · leaf 1008](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$1009/full/1400,/0/default.jpg) |
-| [V00817](https://jastrow.app/#rid:V00817) | `תָּפִי, טָפִי` | not found in the hOCR | [1685b · leaf 1008](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$1009/full/1400,/0/default.jpg) |
-| [V00818](https://jastrow.app/#rid:V00818) | `תְּפִי, תַּפְיָא, תַּפְיָיה, תִּי׳` | not found in the hOCR | [1685b · leaf 1008](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$1009/full/1400,/0/default.jpg) |
+| [V00817](https://jastrow.app/#rid:V00817) | `תָּפִי, טָפִי` | no line matched | [1685b · leaf 1008](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$1009/full/1400,/0/default.jpg) |
+| [V00818](https://jastrow.app/#rid:V00818) | `תְּפִי, תַּפְיָא, תַּפְיָיה, תִּי׳` | no line matched | [1685b · leaf 1008](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$1009/full/1400,/0/default.jpg) |
 
 The cites, as the entries store them:
 
