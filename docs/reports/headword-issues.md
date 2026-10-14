@@ -309,12 +309,12 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | rid | role | text | name | note | flagged |
 |---|---|---|---|---|---|
 | [C00578](https://jastrow.app/#rid:C00578) | alt | גִּיזְרָא | גִּזְרָא² | C00577/alt גִּיזְרָא is a bare first form before a II; an I is set only where Jastrow's text names `גִּיזְרָא I` (10-13); 2 unnumbered: C00577/alt=—; C00578/alt=2; C00686=— |  |
-| [C00620](https://jastrow.app/#rid:C00620) | alt | גִּבָּ׳ | גִּיבָּרָא | C00619/alt גִּבּ׳ is a bare first form before a II; an I is set only where Jastrow's text names `גִּבָּ׳ I` (10-13); 0 unnumbered: C00620/alt=2 |  |
-| [C00773](https://jastrow.app/#rid:C00773) | headword | גִּיס | גִּיס II | C00772 גֵּיס is a bare first form before a II; an I is set only where Jastrow's text names `גִּיס I` (10-13); 0 unnumbered: C00773=2; C00774=2 |  |
-| [E00114](https://jastrow.app/#rid:E00114) | headword | הֲדָיָא | הֲדָיָא II | E00113 הֶדְיָא is a bare first form before a II; an I is set only where Jastrow's text names `הֲדָיָא I` (10-13); 0 unnumbered: E00114=2 |  |
+| [C00620](https://jastrow.app/#rid:C00620) | alt | גִּבָּ׳ | גִּיבָּרָא | C00619/alt גִּבּ׳ is a bare first form before a II; an I is set only where Jastrow's text names `גִּבּ׳ I` (10-13); 0 unnumbered: C00620/alt=2 |  |
+| [C00773](https://jastrow.app/#rid:C00773) | headword | גִּיס | גִּיס II | C00772 גֵּיס is a bare first form before a II; an I is set only where Jastrow's text names `גֵּיס I` (10-13); 0 unnumbered: C00773=2; C00774=2 |  |
+| [E00114](https://jastrow.app/#rid:E00114) | headword | הֲדָיָא | הֲדָיָא II | E00113 הֶדְיָא is a bare first form before a II; an I is set only where Jastrow's text names `הֶדְיָא I` (10-13); 0 unnumbered: E00114=2 |  |
 | [H00321](https://jastrow.app/#rid:H00321) | headword | חוּל | חוּל II | H00320 חוּל is a bare first form before a II; an I is set only where Jastrow's text names `חוּל I` (10-13); 3 unnumbered: H00319=—; H00320=—; H00321=2; H00322=— |  |
 | [H00833](https://jastrow.app/#rid:H00833) | alt | חִסּ׳ | חִיסּוּם | H00831/alt חִסּ׳ is a bare first form before a II; an I is set only where Jastrow's text names `חִסּ׳ I` (10-13); 3 unnumbered: H00830/alt=—; H00831/alt=—; H00833/alt=2; H00834/alt=— |  |
-| [I00081](https://jastrow.app/#rid:I00081) | headword | טְבַע | טְבַע II | I00080 טֶבַע is a bare first form before a II; an I is set only where Jastrow's text names `טְבַע I` (10-13); 2 unnumbered: I00077=—; I00079=—; I00081=2 |  |
+| [I00081](https://jastrow.app/#rid:I00081) | headword | טְבַע | טְבַע II | I00080 טֶבַע is a bare first form before a II; an I is set only where Jastrow's text names `טֶבַע I` (10-13); 2 unnumbered: I00077=—; I00079=—; I00081=2 |  |
 | [L00656](https://jastrow.app/#rid:L00656) | alt | לִיפְ׳ | לִפְתָּן | L00654/alt לִיפְ׳ is a bare first form before a II; an I is set only where Jastrow's text names `לִיפְ׳ I` (10-13); 3 unnumbered: L00653/alt=—; L00654/alt=—; L00656/alt=2; L00657/alt=— |  |
 | [N00186](https://jastrow.app/#rid:N00186) | headword | נְגַר | נְגַר II | N00185 נְגַר is a bare first form before a II; an I is set only where Jastrow's text names `נְגַר I` (10-13); 1 unnumbered: N00185=—; N00186=2 |  |
 | [N00343](https://jastrow.app/#rid:N00343) | headword | נוֹחַ | נוֹחַ II | N00342 נוֹחַ is a bare first form before a II; an I is set only where Jastrow's text names `נוֹחַ I` (10-13); 1 unnumbered: N00342=—; N00343=2; N00344=3 |  |
@@ -323,7 +323,7 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [U00490](https://jastrow.app/#rid:U00490) | headword | שׁוּף | שׁוּף II | U00488 שׁוּף is a bare first form before a II; an I is set only where Jastrow's text names `שׁוּף I` (10-13); 2 unnumbered: U00488=—; U00490=2; U00491=—; U00492=3 |  |
 | [U01397](https://jastrow.app/#rid:U01397) | headword | שִׁלְשֵׁל | שִׁלְשֵׁל II | U01396 שִׁלְשֵׁל is a bare first form before a II; an I is set only where Jastrow's text names `שִׁלְשֵׁל I` (10-13); 1 unnumbered: U01396=—; U01397=2 |  |
 | [U01687](https://jastrow.app/#rid:U01687) | headword | שַׁעַר | שַׁעַר II | U01686 שַׁעַר is a bare first form before a II; an I is set only where Jastrow's text names `שַׁעַר I` (10-13); 1 unnumbered: U01686=—; U01687=2 |  |
-| [U02013](https://jastrow.app/#rid:U02013) | headword | שְׂרַף | שְׂרַף II | U02012 שְׂרָף is a bare first form before a II; an I is set only where Jastrow's text names `שְׂרַף I` (10-13); 2 unnumbered: U02004=—; U02006=—; U02013=2 |  |
+| [U02013](https://jastrow.app/#rid:U02013) | headword | שְׂרַף | שְׂרַף II | U02012 שְׂרָף is a bare first form before a II; an I is set only where Jastrow's text names `שְׂרָף I` (10-13); 2 unnumbered: U02004=—; U02006=—; U02013=2 |  |
 | [V00523](https://jastrow.app/#rid:V00523) | headword | תַּכָּא | תַּכָּא II | V00522/alt תַּכָּא is a bare first form before a II; an I is set only where Jastrow's text names `תַּכָּא I` (10-13); 1 unnumbered: V00522/alt=—; V00523=2 |  |
 
 ## X3 non-final letter at word end (1)

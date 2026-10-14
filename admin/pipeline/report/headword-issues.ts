@@ -780,7 +780,7 @@ function homographGapRows({
 			note:
 				candidate === undefined
 					? `missing ${missing.join(',')}; ${detail}`
-					: `${formLabel(candidate)} ${candidate.text} is a bare first form before a II; an I is set only where Jastrow's text names \`${text} I\` (10-13); ${detail}`,
+					: `${formLabel(candidate)} ${candidate.text} is a bare first form before a II; an I is set only where Jastrow's text names \`${candidate.text} I\` (10-13); ${detail}`,
 			rid: first.rid,
 			// The family is keyed on the ALTERNATE's spelling when its
 			// first numbered member is an alternate, so the row must name

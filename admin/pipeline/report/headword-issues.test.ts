@@ -322,4 +322,21 @@ describe('buildHeadwordIssues: the X10 candidate', () => {
 		);
 		expect(note).not.toContain('implied');
 	});
+
+	it("names the candidate's own spelling, not the II's (C00619)", () => {
+		// The I would sit on the candidate, so a cite proving it names the
+		// candidate's form: C00619's alternate is pointed apart from the
+		// II it stands before.
+		const [[, note] = ['', '']] = rowsOf(
+			buildHeadwordIssues(
+				[
+					withForms('C00619', ['גִּיבָּרָא'], ['גִּבּ׳']),
+					withForms('C00620', ['גִּיבָּרָא'], ['גִּבָּ׳', 2]),
+				],
+				[],
+			).csv,
+			'X10',
+		);
+		expect(note).toContain("Jastrow's text names `גִּבּ׳ I`");
+	});
 });
