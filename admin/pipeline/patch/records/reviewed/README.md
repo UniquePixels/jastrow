@@ -30,7 +30,7 @@ are at
 
 ## The `annotation` field
 
-Since PR #PRNUM a reviewed patch may carry an `annotation` (ruling
+Since PR #172 a reviewed patch may carry an `annotation` (ruling
 `10-13 correction policy`, [`admin/entry/ANNOTATIONS.md`](../../../../entry/ANNOTATIONS.md)
 §3): print's reading where the patch departs from it, or the record
 that print was read and kept.

@@ -2,7 +2,7 @@
 
 **Status: accepted** with ruling `10-13 correction policy`
 ([`docs/decisions.md`](../../docs/decisions.md) §9, review ledger L64),
-on merge of PR #171. **The field is built** (PR #PRNUM, §6 item 1):
+on merge of PR #171. **The field is built** (PR #172, §6 item 1):
 the contract's type, schema and checks (`annotations.ts`), the patch
 `annotation` and the `annotate` op, the build carrying them, and gate
 10's both-ways check. `implied`'s retirement and rule 3's display
@@ -81,7 +81,7 @@ their token without `)` (`5`). Like `reconstructed` and `partial`, the
 key is absent when empty, never `[]`.
 
 **`implied` retires** in the implied-I data PR, not the contract PR
-(PR #PRNUM): 14 committed entries carry it, so the contract keeps
+(PR #172): 14 committed entries carry it, so the contract keeps
 accepting it until that PR resolves them (5 annotated, 9 bare) and
 removes the field from the contract in the same change. An implied I becomes
 `homograph: 1` with `{field: 'homograph', kind: 'print-error', printed:
@@ -147,7 +147,7 @@ wrote it; the loader stamps `author`):
 `annotate` exists so a `kept` note fails loudly when upstream rewrites
 the text it describes, instead of describing text that is gone.
 
-**As built** (PR #PRNUM). The apply leaves a draft on what it changed
+**As built** (PR #172). The apply leaves a draft on what it changed
 (`SourceSense.annotations`, `SourceEntry.formAnnotations`), the build
 carries a sense's drafts to the sense built from it on the label's
 path (`body/trace.ts`), and `finishEntry` writes `field` and `stored`
@@ -235,7 +235,7 @@ reading is never lost.
    the schema, the parity test), `validateEntry`'s checks, `implied`
    retired, rule 3 (display), the patch `annotation` field and the
    `annotate` op, the trace carrying it, and gate 10's both-ways check.
-   **Done in PR #PRNUM**, except `implied` retired and rule 3, which
+   **Done in PR #172**, except `implied` retired and rule 3, which
    move to the implied-I data PR in item 3.
 2. **Consistency audit report:** §4's populations row by row,
    including the 291 cross-reference numerals.
