@@ -411,7 +411,9 @@ describe('checkTextConservation', () => {
 
 /** A one-sense fixture labelled as print sets the number, dash
  * aside: `*2` is a starred 2, `2` a plain one. */
-function labelled(printed: string): BodySense {
+function labelled(
+	printed: string,
+): Pick<BodySense, 'gloss' | 'label' | 'reconstructed' | 'units'> {
 	const starred = printed.startsWith('*');
 	return {
 		gloss: 'he who',
@@ -766,5 +768,95 @@ describe('checkContract (gate 10)', () => {
 			'A00002: name אב taken by A00001',
 			'A00002: sefariaHeadword אב taken by A00001',
 		]);
+	});
+
+	// ANNOTATIONS.md §2 "What it cannot check": whether `source` is a real
+	// patch. Gate 10 holds both sides — the entries and the patches that
+	// applied — so it checks both ways, on each entry's own mark.
+	// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one table, one row per case; splitting it would scatter the rule it pins.
+	describe('annotation provenance, both ways', () => {
+		/** A00002 with one kept gloss annotation per source given. */
+		const annotated = (...sources: string[]): Entry => ({
+			...contractEntry('A00002', 'אבא', 'gloss'),
+			senses: [
+				{
+					...(sources.length > 0 && {
+						annotations: sources.map((source, i) => ({
+							date: '2026-10-13',
+							evidence: 'e',
+							field: i === 0 ? ('gloss' as const) : ('units[0]' as const),
+							kind: 'kept' as const,
+							printed: 'g',
+							source,
+							stored: 'g',
+						})),
+					}),
+					gloss: 'gloss',
+					units: ['g'],
+				},
+			],
+		});
+		const run = (
+			entry: Entry,
+			applied: Record<string, string[]>,
+		): Promise<Tally> =>
+			checkContract(
+				[contractEntry('A00001', 'אב'), entry],
+				pages,
+				home,
+				new Map(Object.entries(applied)),
+			);
+
+		it.each([
+			['no annotation, no annotated patch', annotated(), {}],
+			[
+				'each annotation its applied patch',
+				annotated('P000001', 'P000002'),
+				{ A00002: ['P000001', 'P000002'] },
+			],
+		] as [string, Entry, Record<string, string[]>][])(
+			'passes %s',
+			async (_name, entry, applied) => {
+				expect(await run(entry, applied)).toEqual({
+					failures: [],
+					pass: 3,
+					total: 3,
+				});
+			},
+		);
+
+		it.each([
+			[
+				'an annotation no applied patch wrote',
+				annotated('P000001'),
+				{},
+				'A00002: senses[0].annotations[0]: source P000001 is no patch applied to A00002 with an annotation',
+			],
+			[
+				'an annotation naming a patch applied to another rid',
+				annotated('P000001'),
+				{ A00003: ['P000001'] },
+				'A00002: senses[0].annotations[0]: source P000001 is no patch applied to A00002 with an annotation',
+			],
+			[
+				'an annotated patch that wrote none',
+				annotated(),
+				{ A00002: ['P000001'] },
+				'A00002: patch P000001 applied with an annotation and wrote 0 annotations; it writes exactly one',
+			],
+			[
+				'an annotated patch that wrote two',
+				annotated('P000001', 'P000001'),
+				{ A00002: ['P000001'] },
+				'A00002: patch P000001 applied with an annotation and wrote 2 annotations; it writes exactly one',
+			],
+		] as [string, Entry, Record<string, string[]>, string][])(
+			'reds the entry on %s',
+			async (_name, entry, applied, failure) => {
+				const t = await run(entry, applied);
+				expect(t.pass).toBe(2);
+				expect(t.failures).toEqual([failure]);
+			},
+		);
 	});
 });

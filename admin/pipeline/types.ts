@@ -6,6 +6,42 @@
  * instead of redefining them, so the model has one spelling.
  */
 
+import type { Annotation } from '../entry/types.ts';
+
+/** What a reviewed patch's `annotation` states, plus the patch id as
+ * `source` (ANNOTATIONS.md §3): the half of an entry `Annotation` the
+ * patch knows. The import adds the other half, `field` and `stored`,
+ * once the build has put the patched value where it lands. */
+interface AnnotationNote {
+	date: string;
+	evidence: string;
+	kind: Annotation['kind'];
+	printed: string;
+	source: string;
+}
+
+/** **NOT a Sefaria field.** An annotation on its way to a sense: a
+ * patch left it on the source sense it changed (or pinned, for
+ * `annotate`), and `body/trace.ts` carries it to the sense built from
+ * that one, as it carries the label. `label` resolves to the built
+ * label. The other three name text, which the build segments into a
+ * gloss and units, so they carry `find`, the text to look for once it
+ * has: `gloss` and `units` say where it must land, and
+ * `gloss-or-units` (a `replace`) takes whichever of the two holds it. */
+type SenseAnnotationDraft = AnnotationNote &
+	(
+		| { field: 'label' }
+		| { field: 'gloss' | 'gloss-or-units' | 'units'; find: string }
+	);
+
+/** **NOT a Sefaria field.** An annotation on its way to a form of the
+ * headword line, by the form's index in the parsed `headwords[]` (as
+ * `SourceHomograph.form` is). */
+interface FormAnnotationDraft extends AnnotationNote {
+	field: 'homograph' | 'text';
+	form: number;
+}
+
 /** Upstream shapes (Sefaria dump,
  * `data/source/jastrow-dictionary.jsonl`), restricted to the fields
  * the body model reads. */
@@ -22,6 +58,9 @@ interface SourceGrammar {
  * key is present. `senses` nests to arbitrary depth, so a reader that
  * handles only two levels is reading a subset. */
 interface SourceSense {
+	/** **NOT a Sefaria field.** Annotations a reviewed patch left on
+	 * this sense (`SenseAnnotationDraft`). */
+	annotations?: SenseAnnotationDraft[];
 	definition?: string;
 	grammar?: SourceGrammar;
 	number?: string;
@@ -55,6 +94,10 @@ interface SourceEntry {
 	 * the source cannot (§4's H2 rows, A01394). `finishEntry` prefers
 	 * it over the parser's, and gate 2 knows to expect one. */
 	display?: string;
+	/** **NOT a Sefaria field.** Annotations a reviewed `reform` or
+	 * `annotate` left on the forms of the line (`FormAnnotationDraft`).
+	 * `finishEntry` puts each on the parsed form it names. */
+	formAnnotations?: FormAnnotationDraft[];
 	headword: string;
 	/** **NOT a Sefaria field.** Homograph numerals a `reform` patch
 	 * supplied, each on one form of the line by its index in the parsed
@@ -81,6 +124,9 @@ interface SourceEntry {
  * builds from `SourceEntry`. `reconstructed` is set only where print
  * stars the sense's number (`*2)`; ruling 10-04 sense star). */
 interface BodySense {
+	/** The drafts its source sense carried (`SenseAnnotationDraft`),
+	 * on the host sense only; `finishEntry` resolves them. */
+	annotations?: SenseAnnotationDraft[];
 	gloss: string;
 	label?: string;
 	reconstructed?: true;
@@ -112,9 +158,12 @@ interface BodyEntry {
 }
 
 export type {
+	AnnotationNote,
 	BodyEntry,
 	BodySense,
 	BodyStem,
+	FormAnnotationDraft,
+	SenseAnnotationDraft,
 	SourceEntry,
 	SourceGrammar,
 	SourceHomograph,

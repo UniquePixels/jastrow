@@ -15,6 +15,8 @@ need lives here.
 |---|---|
 | `types.ts` | the entry shapes (`Entry` and its parts), `SCHEMA_VERSION`, `VERBATIM_FIELDS` |
 | `validate.ts` | the validator: `validateEntry`, `validateCorpus`, and `validateEntries` over a loaded tree; also `entryFields`, the walker over every text field of an entry (path, text, whether it may carry markup), and `RID`, the rid predicate |
+| `annotations.ts` | the annotation clause (ANNOTATIONS.md §2): `checkAnnotations`, run by `validateEntry`; `entryAnnotations`, the walk over every annotation of an entry; `isIsoDate` |
+| `ANNOTATIONS.md` | the design of `annotations` (ruling `10-13 correction policy`): the field, its checks, how the import fills it, the audit |
 | `validate-cli.ts` | `bun data:validate` |
 | `headwords.ts`, `headword-rules.ts` | the headword-line parser and the six shape rules |
 | `names.ts` | an entry's name, derived from `headwords[0]`, and name collisions |
@@ -34,7 +36,9 @@ which are required, and every literal-valued field's values.
 Per file (`validateEntry`): the schema; the file sits at
 `<first letter>/<id>.json`; the six headword shape rules; gender in
 one place, `grammar.gender` or a `gender` on every headword (ruling
-HW-gender); markup in
+HW-gender); each annotation's field resolves on its object, its
+`stored` agrees with the field, `kept` iff `printed` equals `stored`,
+one per field; markup in
 the closed vocabulary and balanced per field; no markup in a plain
 identifier field; every stored string in NFC, except
 `sefariaHeadword`, which keeps Sefaria's bytes.

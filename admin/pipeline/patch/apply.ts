@@ -365,7 +365,8 @@ interface PreflightOptions {
  * valid (unique ids, no overlapping targets); (c) the manifest lists
  * exactly `options.reconcileOnly` (default: `patches`); (d) the replay
  * gate is open — no unresolved `needs_*` rows, unless
- * `options.escalations` is `'defer'`. Reports every problem together.
+ * `options.escalations` is `'defer'`; (e) no patch but a reviewed one
+ * carries an `annotation`. Reports every problem together.
  * The per-patch `expected_before` / occurrence checks live in
  * `applyEntryPatches`, where the entries stream past.
  *
@@ -398,6 +399,20 @@ function corpusPreflight(
 			patchId: problem.patchIds[0],
 			reason: problem.reason,
 		});
+	}
+	// An annotation states what print reads, so only a person who read
+	// it may write one (ANNOTATIONS.md §3). The record cannot say who
+	// wrote it — the loader stamps `author` from the directory — so
+	// this is the first place the two are seen together.
+	for (const patch of patches) {
+		if (patch.annotation !== undefined && patch.author !== 'human') {
+			problems.push({
+				patchId: patch.id,
+				reason:
+					'an annotation on an agent patch: only a reviewed patch, written from the print, may carry one',
+				rid: patch.rid,
+			});
+		}
 	}
 	for (const problem of reconcilePatches(
 		records,
@@ -608,7 +623,9 @@ function reformChangedBesideForms(
  * survive JSON serialization unchanged, and the apply must have
  * changed something — its pre-state target no longer resolving to its
  * old count, or (see `reformChangedBesideForms`) the line's layout or gloss. An
- * apply that left the entry byte-identical repaired nothing. */
+ * apply that left the entry byte-identical repaired nothing. `annotate`
+ * is the exception: it repairs nothing by design, so its target must
+ * resolve exactly as it did. */
 function postApplyAssertions(
 	before: SourceEntry,
 	after: SourceEntry,
@@ -622,6 +639,17 @@ function postApplyAssertions(
 		);
 	}
 	const stale = countTarget(after, patch);
+	if (patch.op === 'annotate') {
+		// The one op that changes nothing by design: its target must
+		// still resolve exactly as before, since the note describes it.
+		if (stale !== patch.expected_occurrences) {
+			throw new PatchApplyError(
+				patch.id,
+				`after apply, an annotate's target resolves ${stale} time(s); expected ${patch.expected_occurrences} — annotate changes nothing`,
+			);
+		}
+		return;
+	}
 	if (
 		stale !== patch.expected_occurrences - 1 &&
 		!reformChangedBesideForms(before, after, patch)
@@ -636,15 +664,23 @@ function postApplyAssertions(
 /** Apply one rid's patches in committed corpus order, chaining state.
  * Every problem is recorded (the failing patch is skipped, later
  * patches still try against the last good state) so a run reports
- * all drift at once. Under `drift: 'outcome'` a patch whose
+ * all drift at once. `annotated` lists, in apply order, every patch
+ * that applied carrying an `annotation`: the patch side of gate 10's
+ * both-ways check. Under `drift: 'outcome'` a patch whose
  * precondition no longer holds is a `drifted` row instead of a
  * problem. */
 function applyEntryPatches(
 	entry: SourceEntry,
 	patches: readonly SemanticPatch[],
 	drift: DriftMode = 'problem',
-): { drifted: PatchDrift[]; entry: SourceEntry; problems: ApplyProblem[] } {
+): {
+	annotated: string[];
+	drifted: PatchDrift[];
+	entry: SourceEntry;
+	problems: ApplyProblem[];
+} {
 	let current = entry;
+	const annotated: string[] = [];
 	const drifted: PatchDrift[] = [];
 	const problems: ApplyProblem[] = [];
 	for (const patch of patches) {
@@ -658,11 +694,14 @@ function applyEntryPatches(
 		const result = tryApply(current, patch);
 		if (result.problem === undefined) {
 			current = result.entry;
+			if (patch.annotation !== undefined) {
+				annotated.push(patch.id);
+			}
 		} else {
 			problems.push(result.problem);
 		}
 	}
-	return { drifted, entry: current, problems };
+	return { annotated, drifted, entry: current, problems };
 }
 
 /** Apply one patch to `current` with every gate (post-apply
@@ -734,12 +773,14 @@ function applyCarryOver(
 ): {
 	entry: SourceEntry;
 	absorbed: string[];
+	annotated: string[];
 	carried: string[];
 	drifted: PatchDrift[];
 	problems: ApplyProblem[];
 } {
 	let current = entry;
 	const absorbed: string[] = [];
+	const annotated: string[] = [];
 	const carried: string[] = [];
 	const drifted: PatchDrift[] = [];
 	const problems: ApplyProblem[] = [];
@@ -770,9 +811,10 @@ function applyCarryOver(
 		carried.push(patch.id);
 		const result = applyEntryPatches(current, [patch]);
 		current = result.entry;
+		annotated.push(...result.annotated);
 		problems.push(...result.problems);
 	}
-	return { absorbed, carried, drifted, entry: current, problems };
+	return { absorbed, annotated, carried, drifted, entry: current, problems };
 }
 
 /** Group a corpus by rid, preserving committed order within each

@@ -1,6 +1,15 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
-import type { BodyEntry, SourceEntry } from '../types.ts';
-import { finishEntry } from './finish.ts';
+import { entryAnnotations } from '../../entry/annotations.ts';
+import { validateEntry } from '../../entry/validate.ts';
+import type {
+	BodyEntry,
+	BodySense,
+	FormAnnotationDraft,
+	SenseAnnotationDraft,
+	SourceEntry,
+} from '../types.ts';
+import { type Finished, finishEntry } from './finish.ts';
 
 const source: SourceEntry = {
 	alt_headwords: ['אבא'],
@@ -248,5 +257,217 @@ describe('finishEntry', () => {
 		});
 		expect(second).toEqual(star);
 		expect(entry.stems?.[0]?.senses).toEqual([star]);
+	});
+});
+
+// ANNOTATIONS.md §3: the import adds `field` and `stored` to each draft
+// a patch left, from where the patched value landed after the build,
+// and the result must meet the contract (`admin/entry/annotations.ts`).
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite for the import's half of annotations; its cases share the drafts and the body they land in.
+describe('finishEntry: annotation drafts become annotations', () => {
+	const NOTE = {
+		date: '2026-10-13',
+		evidence: 'e',
+		kind: 'print-error',
+		printed: 'p',
+		source: 'P000005',
+	} as const;
+	/** `body` with the drafts on its first sense, labelled `1`. */
+	const drafted = (...annotations: SenseAnnotationDraft[]): BodyEntry => ({
+		...body,
+		senses: [{ ...body.senses[0], annotations, label: '1' } as BodySense],
+	});
+	const finished = (b: BodyEntry, s: SourceEntry = source): Finished =>
+		finishEntry(s, b, context);
+
+	it('writes field, kind, printed, stored, evidence, source, date, in that order', () => {
+		const { entry, problems } = finished(drafted({ ...NOTE, field: 'label' }));
+		expect(problems).toEqual([]);
+		const [note] = entry.senses[0]?.annotations ?? [];
+		expect(note).toEqual({ ...NOTE, field: 'label', stored: '1' });
+		expect(Object.keys(note ?? {})).toEqual([
+			'field',
+			'kind',
+			'printed',
+			'stored',
+			'evidence',
+			'source',
+			'date',
+		]);
+	});
+
+	it.each([
+		[
+			'the gloss',
+			'gloss-or-units',
+			'<i>father</i>',
+			['gloss', '<i>father</i>'],
+		],
+		[
+			'a unit, translated as the unit is',
+			'gloss-or-units',
+			'<a dir="rtl" class="refLink" href="/Jastrow,_אָב I.1" data-ref="Jastrow, אָב I 1">אָב</a>',
+			['units[0]', '<cite ref="A00013"><he>אָב</he></cite>'],
+		],
+		['the gloss, by name', 'gloss', 'father', ['gloss', 'father']],
+		['a unit, by name', 'units', 'v. ', ['units[0]', 'v. ']],
+	])('locates text in %s', (_name, field, find, [landed, stored]) => {
+		const { entry, problems } = finished(
+			drafted({ ...NOTE, field, find } as SenseAnnotationDraft),
+		);
+		expect(problems).toEqual([]);
+		expect(entry.senses[0]?.annotations).toEqual([
+			{ ...NOTE, field: landed, stored } as never,
+		]);
+	});
+
+	it.each([
+		[
+			'text found nowhere',
+			'gloss-or-units',
+			'mother',
+			'occurs in no gloss or unit of its sense',
+		],
+		[
+			'text in a unit, named as gloss',
+			'gloss',
+			'v. ',
+			'occurs in no gloss of its sense',
+		],
+		['text in more than one place', 'gloss-or-units', '.', 'occurs 3 times'],
+		[
+			'markup that does not balance alone',
+			'gloss-or-units',
+			'<i>father',
+			'is not balanced markup on its own',
+		],
+	])('refuses %s', (_name, field, find, reason) => {
+		const { entry, problems } = finished(
+			drafted({ ...NOTE, field, find } as SenseAnnotationDraft),
+		);
+		expect(problems).toHaveLength(1);
+		expect(problems[0]).toStartWith(
+			'A00014: senses[0]: the annotation from P000005: ',
+		);
+		expect(problems[0]).toContain(reason);
+		expect(entry.senses[0]?.annotations).toBeUndefined();
+	});
+
+	it('refuses a label draft on a sense the build left unlabelled', () => {
+		const b: BodyEntry = {
+			...body,
+			senses: [
+				{
+					...body.senses[0],
+					annotations: [{ ...NOTE, field: 'label' }],
+				} as BodySense,
+			],
+		};
+		expect(finished(b).problems).toEqual([
+			'A00014: senses[0]: the annotation from P000005: the sense has no label',
+		]);
+	});
+
+	it('resolves drafts on a nested sense and a stem sense', () => {
+		const child: BodySense = {
+			annotations: [{ ...NOTE, field: 'label' }],
+			gloss: 'c',
+			label: 'a',
+			units: [],
+		};
+		const b: BodyEntry = {
+			...body,
+			senses: [{ ...(body.senses[0] as BodySense), senses: [child] }],
+			stems: [{ forms: [], senses: [child], stem: 'Pi.' }],
+		};
+		const { entry, problems } = finished(b);
+		expect(problems).toEqual([]);
+		expect(entry.senses[0]?.senses?.[0]?.annotations).toEqual([
+			{ ...NOTE, field: 'label', stored: 'a' },
+		]);
+		expect(entry.stems?.[0]?.senses[0]?.annotations).toEqual([
+			{ ...NOTE, field: 'label', stored: 'a' },
+		]);
+	});
+
+	it.each([
+		[
+			'a homograph, as print writes it',
+			{ field: 'homograph', form: 0 },
+			{ field: 'homograph', stored: 'II' },
+		],
+		[
+			'a form text',
+			{ field: 'text', form: 1 },
+			{ field: 'text', stored: 'אבא' },
+		],
+	])('writes %s on the form', (_name, draft, written) => {
+		const { entry, problems } = finished(body, {
+			...source,
+			formAnnotations: [{ ...NOTE, ...draft } as FormAnnotationDraft],
+		});
+		expect(problems).toEqual([]);
+		const form = entry.headwords[(draft as { form: number }).form];
+		expect(form?.annotations).toEqual([{ ...NOTE, ...written } as never]);
+		expect(Object.keys(form?.annotations?.[0] ?? {})).toEqual([
+			'field',
+			'kind',
+			'printed',
+			'stored',
+			'evidence',
+			'source',
+			'date',
+		]);
+	});
+
+	it.each([
+		[
+			'a form the line does not have',
+			{ field: 'text', form: 2 },
+			'A00014: headwords[2]: the annotation from P000005: there is no headwords[2]',
+		],
+		[
+			'a homograph on a form with none',
+			{ field: 'homograph', form: 1 },
+			'A00014: headwords[1]: the annotation from P000005: the form has no homograph',
+		],
+	])('refuses %s', (_name, draft, problem) => {
+		const { problems } = finished(body, {
+			...source,
+			formAnnotations: [{ ...NOTE, ...draft } as FormAnnotationDraft],
+		});
+		expect(problems).toEqual([problem]);
+	});
+
+	it('writes no annotations key where no draft was left', () => {
+		const { entry } = finished(body);
+		expect(entry.headwords.some((f) => 'annotations' in f)).toBe(false);
+		expect(entry.senses.some((s) => 'annotations' in s)).toBe(false);
+	});
+
+	it('writes annotations the entry contract accepts', async () => {
+		const { entry } = finished(
+			drafted(
+				{ ...NOTE, field: 'gloss-or-units', find: 'father' },
+				{ ...NOTE, field: 'label', source: 'P000006' },
+			),
+			{
+				...source,
+				formAnnotations: [
+					{
+						...NOTE,
+						field: 'homograph',
+						form: 0,
+						printed: 'I',
+						source: 'P000007',
+					},
+				],
+			},
+		);
+		const problems = await validateEntry(entry, 'A/A00014.json');
+		expect(problems.filter((p) => p.includes('annotations'))).toEqual([]);
+		expect(
+			[...entryAnnotations(entry)].map((a) => a.annotation.source),
+		).toEqual(['P000007', 'P000005', 'P000006']);
 	});
 });

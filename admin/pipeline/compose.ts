@@ -101,6 +101,10 @@ interface ComposePatches {
  * the evidence. Folding any of it into the entry would make the two
  * runs compose different things. */
 interface ComposeResult {
+	/** Every patch that applied carrying an `annotation`, in apply
+	 * order: the patch side of gate 10's both-ways check (ANNOTATIONS.md
+	 * §2). */
+	annotated: string[];
 	/** Carry-over disposition: patches whose defect the healed corpus
 	 * already fixed (`absorbed`, dropped)
 	 * vs. still present (`carried`, applied). Empty when no carry-over
@@ -131,6 +135,7 @@ interface ComposeResult {
  * accounting. */
 interface PatchedEntry {
 	absorbed: string[];
+	annotated: string[];
 	applied: number;
 	carried: string[];
 	drifted: PatchDrift[];
@@ -153,7 +158,12 @@ function applyPatchSets(
 	// the precondition an accepted patch's `expected_before` depends on.
 	const afterReviewed =
 		reviewed === undefined
-			? { drifted: [] as PatchDrift[], entry, problems: [] as ApplyProblem[] }
+			? {
+					annotated: [] as string[],
+					drifted: [] as PatchDrift[],
+					entry,
+					problems: [] as ApplyProblem[],
+				}
 			: applyEntryPatches(entry, reviewed, patches?.drift);
 	const reviewedApplied =
 		reviewed === undefined
@@ -164,6 +174,7 @@ function applyPatchSets(
 	const afterAccepted =
 		accepted === undefined
 			? {
+					annotated: [] as string[],
 					drifted: [] as PatchDrift[],
 					entry: afterReviewed.entry,
 					problems: [] as ApplyProblem[],
@@ -178,6 +189,7 @@ function applyPatchSets(
 	if (carryGroup === undefined) {
 		return {
 			absorbed: [],
+			annotated: [...afterReviewed.annotated, ...afterAccepted.annotated],
 			applied: reviewedApplied + acceptedApplied,
 			carried: [],
 			drifted: [...afterReviewed.drifted, ...afterAccepted.drifted],
@@ -198,6 +210,11 @@ function applyPatchSets(
 	).length;
 	return {
 		absorbed: carry.absorbed,
+		annotated: [
+			...afterReviewed.annotated,
+			...afterAccepted.annotated,
+			...carry.annotated,
+		],
 		applied:
 			reviewedApplied +
 			acceptedApplied +
@@ -252,6 +269,7 @@ function composeEntry(
 		applyPatchSets(structural.entry, patches),
 	);
 	return {
+		annotated: patched.annotated,
 		carryOver: { absorbed: patched.absorbed, carried: patched.carried },
 		entry: patched.entry,
 		linkHeadword: structural.entry.headword,

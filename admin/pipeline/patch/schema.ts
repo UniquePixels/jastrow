@@ -3,9 +3,9 @@
  * Semantic patch schema (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §4.3).
  *
- * One JSONL record per patch. Nine ops — `split`, `join`, `nest`,
- * `retag`, `move`, `delete`, `replace`, `reform`, `unref` — each with
- * its own payload shape. The seven sense ops address a sense by **marker token +
+ * One JSONL record per patch. Ten ops — `split`, `join`, `nest`,
+ * `retag`, `move`, `delete`, `replace`, `reform`, `unref`, `annotate`
+ * — each with its own payload shape. The seven sense ops address a sense by **marker token +
  * content-hash anchor**, never by array index: an earlier structural
  * patch must not shift a later patch's target. `unref` instead
  * addresses one item of the entry's `refs[]`, by **exact value +
@@ -29,7 +29,15 @@
  * manifest gating) is `apply.ts`, which composes these functions.
  */
 import { createHash } from 'node:crypto';
-import type { SourceEntry, SourceHomograph, SourceSense } from '../types.ts';
+import { isIsoDate } from '../../entry/annotations.ts';
+import { parseHeadwordLine } from '../../entry/headwords.ts';
+import type { Annotation } from '../../entry/types.ts';
+import type {
+	AnnotationNote,
+	SourceEntry,
+	SourceHomograph,
+	SourceSense,
+} from '../types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex — no state (`g`/`y`)
 // flags, so sharing across calls is safe.
@@ -82,6 +90,7 @@ type Confidence = 'high' | 'low' | 'med';
  * `PAYLOAD_VALIDATORS` — which is typed `Record<PatchOp, …>`, so
  * adding an op without its validator does not compile. */
 type PatchOp =
+	| 'annotate'
 	| 'delete'
 	| 'join'
 	| 'move'
@@ -91,6 +100,34 @@ type PatchOp =
 	| 'retag'
 	| 'split'
 	| 'unref';
+
+/** What a reviewed patch states about the print reading it departs
+ * from or keeps (ANNOTATIONS.md §3; ruling `10-13 correction
+ * policy`). The import adds the rest of the entry's `Annotation`:
+ * `field` from the op and its payload, `stored` from the value after
+ * the build, `source` from the patch id. Only a reviewed patch may
+ * carry one, and only on an op that can change a printed value
+ * (`ANNOTATED_OPS`), or on `annotate`. */
+interface PatchAnnotation {
+	date: string;
+	evidence: string;
+	kind: Annotation['kind'];
+	printed: string;
+}
+
+/** Record that print's reading was checked and is kept (case 3), on
+ * the field of the target that holds it. Changes nothing: the target
+ * — a sense, or the headword block — is pinned by `expected_before`
+ * like any other, so a kept note fails loudly when upstream rewrites
+ * the text it describes instead of describing text that is gone.
+ *
+ * `gloss`, `label` and `units` sit on a `sense[…]` target, and the
+ * build finds the gloss or unit that holds `annotation.printed`;
+ * `homograph` and `text` sit on a `forms:` target, on the parsed form
+ * `form` names. */
+type AnnotatePayload =
+	| { field: 'gloss' | 'label' | 'units' }
+	| { field: 'homograph' | 'text'; form: number };
 
 /** Split an in-text `—N)` run out of its host sense: the host keeps
  * the text before the marker, a new sibling sense is inserted at
@@ -232,6 +269,9 @@ interface ReplacePayload {
 }
 
 interface PatchBase {
+	/** The print reading this patch departs from or keeps
+	 * (`PatchAnnotation`). Absent on most patches. */
+	annotation?: PatchAnnotation;
 	/** Set only by the loader, from the directory a patch was read from:
 	 * `admin/pipeline/patch/records/reviewed/` holds patches a person wrote from a print
 	 * check, and they may add bytes. A record never carries it. */
@@ -255,6 +295,10 @@ interface PatchBase {
 	target: string;
 }
 
+interface AnnotatePatch extends PatchBase {
+	op: 'annotate';
+	payload: AnnotatePayload;
+}
 interface DeletePatch extends PatchBase {
 	op: 'delete';
 	payload: DeletePayload;
@@ -298,6 +342,7 @@ interface UnrefPatch extends PatchBase {
  * drift and the no-new-text allowance each read an exactly-typed
  * payload, and an op added without its arm fails to compile. */
 type SemanticPatch =
+	| AnnotatePatch
 	| DeletePatch
 	| JoinPatch
 	| MovePatch
@@ -308,9 +353,13 @@ type SemanticPatch =
 	| SplitPatch
 	| UnrefPatch;
 
-/** Every patch that addresses a sense — all ops but `unref` and
- * `reform`, which address `refs[]` and the headword block. */
-type SensePatch = Exclude<SemanticPatch, ReformPatch | UnrefPatch>;
+/** Every patch that edits a sense — all ops but `unref` and `reform`,
+ * which address `refs[]` and the headword block, and `annotate`, which
+ * edits nothing. */
+type SensePatch = Exclude<
+	SemanticPatch,
+	AnnotatePatch | ReformPatch | UnrefPatch
+>;
 
 /** A parsed `sense[<token>]:<anchor>` address. */
 interface PatchTarget {
@@ -439,13 +488,22 @@ function countTarget(entry: SourceEntry, patch: SemanticPatch): number {
 	if (patch.op === 'unref') {
 		return (entry.refs ?? []).filter((r) => r === patch.expected_before).length;
 	}
-	if (patch.op === 'reform') {
+	if (addressesForms(patch)) {
 		// An entry has exactly one headword block, so the count is 0 or
 		// 1 — the same question apply asks, kept in one place so drift
 		// and carry-over read it the same way.
 		return formsBlock(entry) === patch.expected_before ? 1 : 0;
 	}
 	return resolveTarget(entry, parseTarget(patch.target)).length;
+}
+
+/** Whether a patch addresses the headword block (`forms:`): every
+ * `reform`, and an `annotate` on a form. */
+function addressesForms(patch: SemanticPatch): boolean {
+	return (
+		patch.op === 'reform' ||
+		(patch.op === 'annotate' && FORMS_TARGET.test(patch.target))
+	);
 }
 
 /** Validate one op's payload shape, returning reasons (empty = ok). */
@@ -463,6 +521,34 @@ function payloadReasons(op: PatchOp, payload: unknown): string[] {
 /** One op's payload check over an already-object payload; returns
  * reasons (empty = ok). */
 type PayloadValidator = (p: Record<string, unknown>) => string[];
+
+/** The fields `annotate` takes: the sense's, then the form's. */
+const SENSE_FIELDS: ReadonlySet<string> = new Set(['gloss', 'label', 'units']);
+const FORM_FIELDS: ReadonlySet<string> = new Set(['homograph', 'text']);
+
+/** `annotate`: a known field, and a form index exactly when the field
+ * is a form's. Which target the field needs is `annotateTargetReasons`'
+ * question, since the payload alone cannot see the target. */
+function annotatePayloadReasons(p: Record<string, unknown>): string[] {
+	const field = p['field'];
+	if (
+		typeof field !== 'string' ||
+		!(SENSE_FIELDS.has(field) || FORM_FIELDS.has(field))
+	) {
+		return [
+			'annotate payload.field must be gloss, homograph, label, text or units',
+		];
+	}
+	if (SENSE_FIELDS.has(field)) {
+		return p['form'] === undefined
+			? []
+			: ['annotate payload.form is only for homograph and text'];
+	}
+	const form = p['form'];
+	return Number.isInteger(form) && (form as number) >= 0
+		? []
+		: ['annotate payload.form must be a form index (a non-negative integer)'];
+}
 
 /** `delete`: a known scope, with a segment exactly when scope is
  * `segment`. */
@@ -711,6 +797,7 @@ function unrefPayloadReasons(p: Record<string, unknown>): string[] {
 
 /** The payload validator for each op. */
 const PAYLOAD_VALIDATORS: Record<PatchOp, PayloadValidator> = {
+	annotate: annotatePayloadReasons,
 	delete: deletePayloadReasons,
 	join: joinPayloadReasons,
 	move: movePayloadReasons,
@@ -728,6 +815,7 @@ function nonEmptyString(value: unknown): value is string {
 
 /** Every op a record may name, in the order the op reason lists them. */
 const PATCH_OPS: PatchOp[] = [
+	'annotate',
 	'delete',
 	'join',
 	'move',
@@ -771,6 +859,9 @@ function parseTargetFor(op: unknown, text: string): PatchTarget {
 	if (op === 'unref') {
 		return parseRefsTarget(text);
 	}
+	if (op === 'annotate' && FORMS_TARGET.test(text)) {
+		return parseFormsTarget(text);
+	}
 	return op === 'reform' ? parseFormsTarget(text) : parseTarget(text);
 }
 
@@ -788,10 +879,15 @@ function readTarget(raw: Record<string, unknown>): {
 		return { reasons: [], target: parseTargetFor(raw['op'], text) };
 	} catch (e) {
 		const misplacedRefs = raw['op'] !== 'unref' && REFS_TARGET.test(text);
-		const misplacedForms = raw['op'] !== 'reform' && FORMS_TARGET.test(text);
+		const misplacedForms =
+			raw['op'] !== 'reform' &&
+			raw['op'] !== 'annotate' &&
+			FORMS_TARGET.test(text);
 		const misplaced =
 			(misplacedRefs ? 'refs[…] targets are only for unref' : undefined) ??
-			(misplacedForms ? 'forms: targets are only for reform' : undefined);
+			(misplacedForms
+				? 'forms: targets are only for reform and annotate'
+				: undefined);
 		return { reasons: [misplaced ?? (e as Error).message] };
 	}
 }
@@ -884,7 +980,142 @@ function occurrenceReasons(raw: Record<string, unknown>): string[] {
 			'reform expected_occurrences and occurrence_index must both be 1',
 		);
 	}
+	if (
+		raw['op'] === 'annotate' &&
+		typeof raw['target'] === 'string' &&
+		FORMS_TARGET.test(raw['target']) &&
+		(occurrences !== 1 || index !== 1)
+	) {
+		reasons.push(
+			'annotate on the forms: expected_occurrences and occurrence_index must both be 1',
+		);
+	}
 	return reasons;
+}
+
+/** The ops whose change can depart from a printed value, so may carry
+ * an annotation (ANNOTATIONS.md §3), with `annotate`, which records a
+ * value kept. `split`, `join`, `nest`, `move`, `delete` and `unref`
+ * cut, rejoin, reorder or remove what Sefaria mis-segmented or
+ * duplicated: never. */
+const ANNOTATED_OPS: ReadonlySet<string> = new Set([
+	'annotate',
+	'reform',
+	'replace',
+	'retag',
+]);
+/** The keys a patch's `annotation` holds; the import adds the rest. */
+const ANNOTATION_KEYS: ReadonlySet<string> = new Set([
+	'date',
+	'evidence',
+	'kind',
+	'printed',
+]);
+const ANNOTATION_KINDS: ReadonlySet<string> = new Set([
+	'illegible',
+	'kept',
+	'print-error',
+]);
+
+/** The shape of a present `annotation`: an object of exactly
+ * `ANNOTATION_KEYS`, a known kind, a string `printed`, a non-empty
+ * `evidence` and a calendar `date`. */
+function annotationShapeReasons(annotation: unknown): string[] {
+	if (
+		typeof annotation !== 'object' ||
+		annotation === null ||
+		Array.isArray(annotation)
+	) {
+		return ['annotation must be an object'];
+	}
+	const a = annotation as Record<string, unknown>;
+	const reasons = Object.keys(a)
+		.filter((key) => !ANNOTATION_KEYS.has(key))
+		.map(
+			(key) =>
+				`annotation.${key} is not a patch field: the import adds field, stored and source`,
+		);
+	if (!ANNOTATION_KINDS.has(a['kind'] as string)) {
+		reasons.push('annotation.kind must be illegible, kept or print-error');
+	}
+	if (typeof a['printed'] !== 'string') {
+		reasons.push('annotation.printed must be a string');
+	}
+	if (!nonEmptyString(a['evidence'])) {
+		reasons.push('annotation.evidence must be a non-empty string');
+	}
+	if (typeof a['date'] !== 'string' || !isIsoDate(a['date'])) {
+		reasons.push('annotation.date must be an ISO date (YYYY-MM-DD)');
+	}
+	return reasons;
+}
+
+/** What an op asks of the annotation it carries: none on an op that
+ * cannot change a printed value; only `kept`, and never none, on
+ * `annotate`; exactly one homograph on an annotated `reform` that sets
+ * homographs, since the annotation names one form; and a replacement
+ * to find on an annotated `replace`. */
+function annotatedOpReasons(raw: Record<string, unknown>): string[] {
+	const { annotation, op } = raw;
+	const payload = (raw['payload'] ?? {}) as Record<string, unknown>;
+	if (annotation === undefined) {
+		return op === 'annotate' ? ['annotate needs an annotation'] : [];
+	}
+	if (!ANNOTATED_OPS.has(op as string)) {
+		return [
+			`an annotation on ${String(op)}: the op cannot change a printed value (ANNOTATIONS.md §3)`,
+		];
+	}
+	const kind = (annotation as Record<string, unknown>)['kind'];
+	if (op === 'annotate' && kind !== 'kept') {
+		return [
+			'annotate carries only a kept annotation: a correction belongs on the op that makes it',
+		];
+	}
+	const homographs = payload['homographs'];
+	if (op === 'reform' && Array.isArray(homographs) && homographs.length !== 1) {
+		return [
+			'an annotated reform sets exactly one homograph, the one it annotates',
+		];
+	}
+	if (op === 'replace' && payload['replace'] === '') {
+		return [
+			'an annotated replace needs a non-empty replacement: it is what the annotation finds',
+		];
+	}
+	return [];
+}
+
+/** An `annotate`'s field against its target: a form's field needs the
+ * headword block, a sense's a sense. */
+function annotateTargetReasons(raw: Record<string, unknown>): string[] {
+	const field = (raw['payload'] as Record<string, unknown> | undefined)?.[
+		'field'
+	];
+	if (raw['op'] !== 'annotate' || typeof raw['target'] !== 'string') {
+		return [];
+	}
+	const onForms = FORMS_TARGET.test(raw['target']);
+	if (FORM_FIELDS.has(field as string) && !onForms) {
+		return [`annotate on ${String(field)} needs a forms: target`];
+	}
+	if (SENSE_FIELDS.has(field as string) && onForms) {
+		return [`annotate on ${String(field)} needs a sense[…] target`];
+	}
+	return [];
+}
+
+/** Every reason the record's annotation, or its absence, is refused. */
+function annotationReasons(raw: Record<string, unknown>): string[] {
+	const shape =
+		raw['annotation'] === undefined
+			? []
+			: annotationShapeReasons(raw['annotation']);
+	return [
+		...shape,
+		...(shape.length > 0 ? [] : annotatedOpReasons(raw)),
+		...annotateTargetReasons(raw),
+	];
 }
 
 /** The pre-§2 `reform` payload, read forward.
@@ -956,6 +1187,7 @@ function parsePatch(value: unknown): SemanticPatch {
 		...anchorReasons(raw, target),
 		...metadataReasons(raw),
 		...occurrenceReasons(raw),
+		...annotationReasons(raw),
 	];
 	const occurrences = raw['expected_occurrences'] ?? 1;
 	const index = raw['occurrence_index'] ?? 1;
@@ -965,6 +1197,9 @@ function parsePatch(value: unknown): SemanticPatch {
 		throw new PatchFormatError(context, reasons);
 	}
 	return {
+		...(raw['annotation'] === undefined
+			? {}
+			: { annotation: raw['annotation'] }),
 		confidence: raw['confidence'],
 		defect_class: raw['defect_class'],
 		expected_before: raw['expected_before'],
@@ -1100,10 +1335,111 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 	if (patch.op === 'reform') {
 		return applyReform(entry, patch);
 	}
+	if (patch.op === 'annotate') {
+		return applyAnnotate(entry, patch);
+	}
 	const copy = structuredClone(entry);
 	const position = locateSense(copy, patch);
 	mutateSense(patch, position, position.sense.definition ?? '');
+	if (patch.annotation !== undefined) {
+		// Only `retag` and `replace` reach here with one
+		// (`ANNOTATED_OPS`), and both leave the sense they edited where
+		// it stood, so `position.sense` is the edited sense.
+		const note = annotationNote(patch, patch.annotation);
+		addSenseDraft(
+			position.sense,
+			patch.op === 'replace'
+				? { ...note, field: 'gloss-or-units', find: patch.payload.replace }
+				: { ...note, field: 'label' },
+		);
+	}
 	return copy;
+}
+
+/** A patch's annotation with its id as `source`: the half of an entry
+ * annotation the patch knows. */
+function annotationNote(
+	patch: SemanticPatch,
+	annotation: PatchAnnotation,
+): AnnotationNote {
+	return { ...annotation, source: patch.id };
+}
+
+/** Append a draft to a sense's list, creating the list. */
+function addSenseDraft(
+	sense: SourceSense,
+	draft: NonNullable<SourceSense['annotations']>[number],
+): void {
+	sense.annotations = [...(sense.annotations ?? []), draft];
+}
+
+/** Append a draft to the entry's form list, creating the list. */
+function addFormDraft(
+	entry: SourceEntry,
+	draft: NonNullable<SourceEntry['formAnnotations']>[number],
+): void {
+	entry.formAnnotations = [...(entry.formAnnotations ?? []), draft];
+}
+
+/** `annotate`: assert the target still reads as `expected_before`, and
+ * leave a draft for the field — nothing else changes. */
+function applyAnnotate(entry: SourceEntry, patch: AnnotatePatch): SourceEntry {
+	const copy = structuredClone(entry);
+	const note = annotationNote(patch, patch.annotation as PatchAnnotation);
+	const { payload } = patch;
+	if ('form' in payload) {
+		if (formsBlock(copy) !== patch.expected_before) {
+			throw new PatchApplyError(
+				patch.id,
+				'expected_before does not match the headword block — the text this annotation keeps moved (maintenance track, spec §6)',
+			);
+		}
+		addFormDraft(copy, { ...note, field: payload.field, form: payload.form });
+		return copy;
+	}
+	const { sense } = locateSense(copy, patch);
+	if (payload.field === 'label') {
+		if (sense.number === undefined) {
+			throw new PatchApplyError(
+				patch.id,
+				'annotate on a label: the sense has no number',
+			);
+		}
+		addSenseDraft(sense, { ...note, field: 'label' });
+	} else {
+		addSenseDraft(sense, { ...note, field: payload.field, find: note.printed });
+	}
+	return copy;
+}
+
+/** The one form whose text an annotated `reform` of the forms changes,
+ * by its index in the parsed line — the index `finishEntry` reads the
+ * draft by, since it parses the same line. Both lines are parsed, so a
+ * respelling the parser reads as notation (a numeral, a star) is not
+ * mistaken for a change of text. Throws unless exactly one form's text
+ * changed and the line kept its number of forms: the annotation names
+ * one form, and any other count would leave which one a guess. */
+function changedForm(patch: ReformPatch): number {
+	const before = parseHeadwordLine(patch.expected_before.split('\n')).headwords;
+	const after = parseHeadwordLine(patch.payload.forms).headwords;
+	const fail = (what: string): PatchApplyError =>
+		new PatchApplyError(
+			patch.id,
+			`an annotated reform of the forms must change exactly one form's text; this one ${what}`,
+		);
+	if (before.length !== after.length) {
+		throw fail(
+			`changes the number of forms (${before.length} → ${after.length})`,
+		);
+	}
+	const changed = after.flatMap((form, i) =>
+		form.text === before[i]?.text ? [] : [i],
+	);
+	const [only] = changed;
+	if (changed.length !== 1 || only === undefined) {
+		throw fail(`changes ${changed.length} forms`);
+	}
+	return only;
 }
 
 /** `reform`: replace the headword line on a copy of the entry, after
@@ -1157,6 +1493,19 @@ function applyReform(entry: SourceEntry, patch: ReformPatch): SourceEntry {
 	} else {
 		copy.homographs = patch.payload.homographs.map((h) => ({ ...h }));
 	}
+	if (patch.annotation !== undefined) {
+		// One homograph set means the annotation is on that numeral
+		// (`annotatedOpReasons` holds it to one); none means it is on the
+		// text of the one form the reform respelled.
+		const note = annotationNote(patch, patch.annotation);
+		const [numeral] = patch.payload.homographs ?? [];
+		addFormDraft(
+			copy,
+			numeral === undefined
+				? { ...note, field: 'text', form: changedForm(patch) }
+				: { ...note, field: 'homograph', form: numeral.form },
+		);
+	}
 	return copy;
 }
 
@@ -1179,7 +1528,10 @@ function applyUnref(entry: SourceEntry, patch: UnrefPatch): SourceEntry {
 
 /** Resolve a sense patch's target in `copy` and assert its pre-state:
  * resolved count, occurrence index, and expected_before. */
-function locateSense(copy: SourceEntry, patch: SensePatch): SensePosition {
+function locateSense(
+	copy: SourceEntry,
+	patch: AnnotatePatch | SensePatch,
+): SensePosition {
 	const target = parseTarget(patch.target);
 	const matches = resolveTarget(copy, target);
 	// The pre-state gate: `matches.length` already IS the resolved
@@ -1478,12 +1830,14 @@ function flattenContent(entry: SourceEntry): string {
 }
 
 export type {
+	AnnotatePayload,
 	Confidence,
 	CorpusProblem,
 	DeletePayload,
 	JoinPayload,
 	MovePayload,
 	NestPayload,
+	PatchAnnotation,
 	PatchOp,
 	PatchTarget,
 	ReformPayload,

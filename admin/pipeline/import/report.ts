@@ -1,8 +1,9 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: the report shape and its two renderings; splitting them lets a field drift from the document that shows it.
 /** The import report (migrate spec §4.2; consolidation spec §3.1): every gate as a tally, structured rows, rule counts, patch outcomes, and the evidence doc the maintainer blesses. */
 
+import { entryAnnotations } from '../../entry/annotations.ts';
 import { isHeadwordReviewKind } from '../../entry/headwords.ts';
-import type { Entry } from '../../entry/types.ts';
+import type { Annotation, Entry } from '../../entry/types.ts';
 import type { DriftOutcome } from '../patch/drift.ts';
 import { IMPORT_REPORT_PATH } from '../paths.ts';
 import type { Unresolved } from './cite.ts';
@@ -103,6 +104,10 @@ interface PatchOutcomeRow {
  * of it are diffable row by row, which is what makes a change in the
  * data measurable rather than asserted. */
 interface Report {
+	/** The annotations the run wrote, by kind (ANNOTATIONS.md §2):
+	 * counted over the entries as written, so the blessing says how
+	 * many departures from print the tree records. */
+	annotations: Record<Annotation['kind'], number>;
 	entries: number;
 	gates: Record<GateName, Tally>;
 	/** Patch accounting (Ruling F; consolidation spec §4.2). Every skip
@@ -156,6 +161,7 @@ function createReport(): Report {
 		GATE_NAMES.map((name) => [name, tally()]),
 	) as Record<GateName, Tally>;
 	return {
+		annotations: { illegible: 0, kept: 0, 'print-error': 0 },
 		entries: 0,
 		gates,
 		patchOutcomes: [],
@@ -175,6 +181,24 @@ function createReport(): Report {
 		unresolved: [],
 		written: 0,
 	};
+}
+
+/** The annotations a set of entries holds, by kind. Every kind is
+ * present, at 0 where none was written. */
+function countAnnotations(
+	entries: readonly Entry[],
+): Record<Annotation['kind'], number> {
+	const counts: Record<Annotation['kind'], number> = {
+		illegible: 0,
+		kept: 0,
+		'print-error': 0,
+	};
+	for (const entry of entries) {
+		for (const { annotation } of entryAnnotations(entry)) {
+			counts[annotation.kind]++;
+		}
+	}
+	return counts;
 }
 
 /** A `rid: detail` line from `finishEntry` as a row. The rid is the
@@ -310,7 +334,15 @@ function blessingHeader(report: Report): string[] {
 		'',
 		`Patch corpus: ${report.patches.reviewed} reviewed, ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed, ${report.patches.carried} carried, ${report.patches.consolidatedAway} consolidated away, ${report.patches.upstreamFixed} upstream-fixed, ${report.patches.upstreamChanged} upstream-changed.`,
 		'',
+		annotationLine(report.annotations),
+		'',
 	];
+}
+
+/** The blessing's one line on annotations: the total, then each kind. */
+function annotationLine(counts: Record<Annotation['kind'], number>): string {
+	const total = counts.illegible + counts.kept + counts['print-error'];
+	return `Annotations: ${total} written (${counts['print-error']} print-error, ${counts.kept} kept, ${counts.illegible} illegible).`;
 }
 
 /** The gates as a table. */
@@ -416,6 +448,7 @@ export type {
 	Sample,
 };
 export {
+	countAnnotations,
 	createReport,
 	createRuleCounter,
 	GATE_NAMES,

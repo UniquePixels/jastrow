@@ -18,7 +18,9 @@
  * stated directly: `unref`'s is the item's absence (its target IS the
  * item, so `found === 0` is the fix), and `join`'s is its token and
  * text folded into a neighbour — some definition ending with, or
- * holding exactly once, `token + expected_before`.
+ * holding exactly once, `token + expected_before`. `annotate` changes
+ * nothing, so it has no post-state at all: a moved target is always
+ * `upstream-changed`, the loud failure the op exists for.
  */
 import type { SourceEntry, SourceSense } from '../types.ts';
 import {
@@ -164,6 +166,11 @@ function classifyDrift(
 		return;
 	}
 	if (found !== 0 || patch.expected_occurrences !== 1) {
+		return 'upstream-changed';
+	}
+	if (patch.op === 'annotate') {
+		// A kept note describes text; with the text gone there is
+		// nothing for it to describe, and no post-state to find.
 		return 'upstream-changed';
 	}
 	if (patch.op === 'unref') {

@@ -3,6 +3,7 @@
  * tally. Gate 1 (body round-trips), 4 (schema) and 9 (composition
  * failures) live with the composer and the CLI. */
 
+import { entryAnnotations } from '../../entry/annotations.ts';
 import { intToRoman, intToSup } from '../../entry/headwords.ts';
 import { tokenize } from '../../entry/html.ts';
 import { nameCollisions } from '../../entry/names.ts';
@@ -575,6 +576,43 @@ function checkPages(
 	return t;
 }
 
+/** The annotation half of gate 10, both ways (ANNOTATIONS.md §2, "What
+ * it cannot check"): every annotation on the entry names, as `source`,
+ * a patch that applied to this rid carrying an `annotation`, and every
+ * such patch wrote exactly one annotation on it. The contract alone
+ * cannot ask either question — `admin/entry/` cannot read the patch
+ * records — and this is the one place that holds both sides.
+ *
+ * `applied` is the apply engine's own list (`ComposeResult.annotated`),
+ * not something read back off the entries, so a patch whose draft the
+ * build lost (a `join` that folded the annotated sense away, a draft
+ * the finish could not place) shows here as one that wrote none. */
+function annotationProvenance(
+	entry: Entry,
+	applied: readonly string[],
+): string[] {
+	const problems: string[] = [];
+	const wrote = new Map<string, number>();
+	const allowed = new Set(applied);
+	for (const { annotation, path } of entryAnnotations(entry)) {
+		wrote.set(annotation.source, (wrote.get(annotation.source) ?? 0) + 1);
+		if (!allowed.has(annotation.source)) {
+			problems.push(
+				`${entry.id}: ${path}: source ${annotation.source} is no patch applied to ${entry.id} with an annotation`,
+			);
+		}
+	}
+	for (const id of allowed) {
+		const count = wrote.get(id) ?? 0;
+		if (count !== 1) {
+			problems.push(
+				`${entry.id}: patch ${id} applied with an annotation and wrote ${count} annotations; it writes exactly one`,
+			);
+		}
+	}
+	return problems;
+}
+
 /** Gate 10: the entry contract (`admin/entry/`) over exactly what the
  * run is about to write — the NORMALIZED entries, each at the path
  * `pathOf` will write it to. One mark per entry for its own checks,
@@ -582,6 +620,11 @@ function checkPages(
  * targets, the page index both ways), each of whose problems is listed
  * as its own failure. A clean run reads 32,513/32,513; a corpus
  * problem shows as a missing pass, never as `N/N` beside a failure.
+ *
+ * Each entry's mark also carries its annotations' provenance, both
+ * ways (`annotationProvenance`), against `annotated`: rid → the
+ * patches that applied to it carrying an `annotation`. Omitted, no
+ * patch applied one, so any annotation fails.
  *
  * This is the same contract a hand edit meets in CI's Validate job,
  * so the import cannot write a tree that job would refuse. The corpus
@@ -591,12 +634,18 @@ async function checkContract(
 	entries: readonly Entry[],
 	pages: ReadonlyMap<string, PagePlacement>,
 	pathOf: (rid: string) => string,
+	annotated: ReadonlyMap<string, readonly string[]> = new Map(),
 ): Promise<Tally> {
 	const t = tally();
 	const valid: Entry[] = [];
 	const schema = await schemaValidator();
 	for (const entry of entries) {
 		const [shaped, problems] = checkEntry(schema, entry, pathOf(entry.id));
+		if (shaped !== undefined) {
+			problems.push(
+				...annotationProvenance(shaped, annotated.get(entry.id) ?? []),
+			);
+		}
 		mark(t, problems.length === 0, problems.join('; '));
 		if (shaped !== undefined) {
 			valid.push(shaped);

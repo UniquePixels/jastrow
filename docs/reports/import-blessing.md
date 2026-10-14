@@ -6,6 +6,8 @@ Snapshot `sha256:75bbc5ee7ab863b80b144c5fe176492b9bbcc8719cad83264ff8027092719ad
 
 Patch corpus: 321 reviewed, 113 accepted, 439 applied, 0 carry-over absorbed, 5 carried, 0 consolidated away, 0 upstream-fixed, 0 upstream-changed.
 
+Annotations: 0 written (0 print-error, 0 kept, 0 illegible).
+
 ## Gates
 
 | Gate | pass / total | failures |

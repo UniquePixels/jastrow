@@ -1,8 +1,13 @@
 import { describe, expect, it } from 'bun:test';
-import { type Entry, SCHEMA_VERSION } from '../../entry/types.ts';
+import {
+	type Annotation,
+	type Entry,
+	SCHEMA_VERSION,
+} from '../../entry/types.ts';
 import type { Tally } from './gates.ts';
 import type { GateName, Report, Sample } from './report.ts';
 import {
+	countAnnotations,
 	createReport,
 	createRuleCounter,
 	GATE_NAMES,
@@ -23,6 +28,7 @@ function greenReport(): Report {
 		GATE_NAMES.map((name) => [name, greenTally()]),
 	) as Record<GateName, Tally>;
 	return {
+		annotations: { illegible: 0, kept: 0, 'print-error': 0 },
 		entries: 1,
 		gates,
 		patchOutcomes: [],
@@ -179,9 +185,61 @@ describe('renderBlessing', () => {
 		expect(doc).toContain('### A00013');
 	});
 
+	it('renders the annotation total, by kind, in the header', () => {
+		const report = greenReport();
+		report.annotations = { illegible: 1, kept: 2, 'print-error': 3 };
+		expect(renderBlessing(report, [])).toContain(
+			'\nAnnotations: 6 written (3 print-error, 2 kept, 1 illegible).\n',
+		);
+	});
+
 	it('renders empty-list placeholders when a report has nothing to review', () => {
 		const doc = renderBlessing(greenReport(), []);
 		expect(doc).toContain('_none_');
+	});
+});
+
+describe('countAnnotations', () => {
+	const note = (
+		kind: 'kept' | 'print-error',
+		field: 'gloss' | 'label',
+	): Annotation => ({
+		date: '2026-10-13',
+		evidence: 'e',
+		field,
+		kind,
+		printed: kind === 'kept' ? '1' : '',
+		source: 'P000001',
+		stored: '1',
+	});
+	it('counts every kind over forms and nested senses, 0 where none', () => {
+		const entry: Entry = {
+			headwords: [{ text: 'א' }],
+			id: 'A00001',
+			schemaVersion: SCHEMA_VERSION,
+			sefariaHeadword: 'א',
+			senses: [
+				{
+					annotations: [note('kept', 'label'), note('print-error', 'gloss')],
+					gloss: '1',
+					label: '1',
+					senses: [
+						{
+							annotations: [note('kept', 'label')],
+							gloss: '',
+							label: '1',
+							units: [],
+						},
+					],
+					units: [],
+				},
+			],
+		};
+		expect(countAnnotations([entry, entry])).toEqual({
+			illegible: 0,
+			kept: 4,
+			'print-error': 2,
+		});
 	});
 });
 
