@@ -60,6 +60,15 @@ end of §7.
 
 ## 1. Implied I (14 entries)
 
+**Done in PR #n** (data PR (i)): the five reforms amended in place
+with a `display` and an annotation, the nine retired with a
+reviewed-kept record each, the ten retargets P000544–P000553, and
+`implied` retired from the contract. The tranche README,
+[`admin/pipeline/patch/records/tranches/implied-i-2026-10-14/`](../admin/pipeline/patch/records/tranches/implied-i-2026-10-14/README.md),
+records the result. One correction to the table below: the nine
+withdrawals change eight names, not nine. B00537's name is its primary
+`בִּיָּא`; its I was on the alternate `בִּיאָה`.
+
 Ruling 10-13 amends 10-06: an implied I is set only where Jastrow's own
 text names `X I`. Every entry carrying `implied: true` was found (14,
 each set by one reviewed `reform` with `homographs`, P000342–P000355),
@@ -690,7 +699,8 @@ The three unclassified:
 
 ## 7. The data PRs, in order
 
-1. **(i) Implied I and their cross-references.** Amend 5 reforms
+1. **(i) Implied I and their cross-references.** Done in PR #n.
+   Amend 5 reforms
    (P000343, P000344, P000348, P000353, P000355: drop `implied`, add
    `display` and the annotation); retire 9 (P000342, P000345–P000347,
    P000349–P000352, P000354) and add 9 reviewed-kept records; 10

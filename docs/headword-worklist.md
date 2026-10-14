@@ -2,6 +2,19 @@
 
 ## Status
 
+**2026-10-14.** Your round 2 ticks are committed (PR #n, its first
+commit); data PR (iv) of [`correction-audit.md`](correction-audit.md)
+§7 applies them. PR #n is data PR (i): under ruling `10-13 correction
+policy` the 14 implied Is #155 set (P000342–P000355) were audited
+against Jastrow's own text. **5 are applied**: A00889, A02041, D00442,
+Q00964 and S00336, whose I a cite names, now show it on the line with
+an annotation, and the 10 cites that name them link to them instead of
+the II. **9 are withdrawn**: A00311, B00537 (an alternate), B00935,
+C00176, H00432, H01290, J00112, O00994 and Q01398 are bare again, and
+the X10 rows for their IIs are on the reviewed-kept list (43 records).
+Each first-list block below says which. After the re-import the report
+reads X10 17 (12 primary), X8 76 (45), X9 5 (0), reviewed-kept 43.
+
 **Refreshed 2026-10-13.** Round 2, just below, is brought up to date
 and waits for your ticks. Every fact in it was re-read on 2026-10-13
 from the committed entries (`v2` at `ead4a4d75`) and from the headword
@@ -1099,6 +1112,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: Legit missing, lets put ones like this in a differnt textual issues research issue.
+  - Withdrawn in PR #n (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `אַגְמָא I`, so P000342 is retired and A00311 is bare again (its name `אַגְמָא I` → `אַגְמָא`); the X10 row for A00312 is on the reviewed-kept list
 
 
 #### `אֲוָנָא`: missing I (row [A00719](https://jastrow.app/#rid:A00719))
@@ -1129,6 +1143,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to textual research issue 
+  - Applied in PR #n (2026-10-14, ruling `10-13 correction policy`): Jastrow's text names `אוֹרְיָין I` (A00882, M01329), so P000343 keeps A00889's I, now displayed (`אוֹרְיָין I, אוֹרְיָאן`) with a `print-error` annotation naming those cites; their links, which Sefaria aimed at A00890, now point at A00889
 
 
 #### `אֲמָנָה`: missing I (row [A02042](https://jastrow.app/#rid:A02042))
@@ -1145,6 +1160,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to resarch issue
+  - Applied in PR #n (2026-10-14, ruling `10-13 correction policy`): Jastrow's text names `אֲמָנָה I` (H01410), so P000344 keeps A02041's I, now displayed (`אֲמָנָה I`) with a `print-error` annotation naming those cites; their links, which Sefaria aimed at A02042, now point at A02041
 
 
 #### `אָרַע`: missing I (row [A03217](https://jastrow.app/#rid:A03217))
@@ -1193,6 +1209,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Withdrawn in PR #n (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `בִּיאָה I`, so P000345 is retired and B00537's alternate `בִּיאָה` is bare again (its name `בִּיָּא` is unchanged); the X10 row for B00538 is on the reviewed-kept list
 
 
 #### `בַּנַּאי`: missing I (row [B00936](https://jastrow.app/#rid:B00936))
@@ -1209,6 +1226,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to research issue
+  - Withdrawn in PR #n (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `בַּנַּאי I`, so P000346 is retired and B00935 is bare again (its name `בַּנַּאי I` → `בַּנַּאי`); the X10 row for B00936 is on the reviewed-kept list
 
 
 #### `בְּרָא`: missing I (row [B01159](https://jastrow.app/#rid:B01159))
@@ -1244,6 +1262,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Withdrawn in PR #n (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `גְּדוּדִית I`, so P000347 is retired and C00176 is bare again (its name `גְּדוּדִית I` → `גְּדוּדִית`); the X10 row for C00177 is on the reviewed-kept list
 
 
 #### `גִּיב`: missing I (row [C00610](https://jastrow.app/#rid:C00610))
@@ -1307,6 +1326,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Applied in PR #n (2026-10-14, ruling `10-13 correction policy`): Jastrow's text names `דִּי I` (D00595), so P000348 keeps D00442's I, now displayed (`דִּי I`) with a `print-error` annotation naming those cites; their links, which Sefaria aimed at D00443, now point at D00442
 
 
 #### `הִא`: missing I, II (row [E00008](https://jastrow.app/#rid:E00008))
@@ -1396,6 +1416,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Withdrawn in PR #n (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `חוּצָה I`, so P000349 is retired and H00432 is bare again (its name `חוּצָה I` → `חוּצָה`); the X10 row for H00433 is on the reviewed-kept list
 
 
 #### `חֵלֶף`: missing I (row [H01101](https://jastrow.app/#rid:H01101))
@@ -1452,6 +1473,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: 
+  - Withdrawn in PR #n (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `חַנִּין I`, so P000350 is retired and H01290 is bare again (its name `חַנִּין I` → `חַנִּין`); the X10 row for H01291 is on the reviewed-kept list
 
 
 #### `טְבַע`: missing I (row [I00081](https://jastrow.app/#rid:I00081))
@@ -1487,6 +1509,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Withdrawn in PR #n (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `יָהּ I`, so P000351 is retired and J00112 is bare again (its name `יָהּ I` → `יָהּ`); the X10 row for J00113 is on the reviewed-kept list
 
 
 #### `יְתֵב`: missing I (row [J00713](https://jastrow.app/#rid:J00713))
@@ -1537,6 +1560,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Withdrawn in PR #n (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `סְלִיקוּסְתָּא I`, so P000352 is retired and O00994 is bare again (its name `סְלִיקוּסְתָּא I` → `סְלִיקוּסְתָּא`); the X10 row for O00995 is on the reviewed-kept list
 
 
 #### `פְּלוּגְתָּא`: missing I (row [Q00965](https://jastrow.app/#rid:Q00965))
@@ -1553,6 +1577,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Applied in PR #n (2026-10-14, ruling `10-13 correction policy`): Jastrow's text names `פְּלוּגְתָּא I` (Q00942, V00833), so P000353 keeps Q00964's I, now displayed (`פְּלוּגְתָּא I, פְּלֻגְ׳`) with a `print-error` annotation naming those cites; their links, which Sefaria aimed at Q00965, now point at Q00964
 
 
 #### `פַּפָּא`: missing I (row [Q01399](https://jastrow.app/#rid:Q01399))
@@ -1569,6 +1594,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Withdrawn in PR #n (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `פַּפָּא I`, so P000354 is retired and Q01398 is bare again (its name `פַּפָּא I` → `פַּפָּא`); the X10 row for Q01399 is on the reviewed-kept list
 
 
 #### `קוּלְיָא`: missing I (row [S00337](https://jastrow.app/#rid:S00337))
@@ -1585,6 +1611,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Applied in PR #n (2026-10-14, ruling `10-13 correction policy`): Jastrow's text names `קוּלְיָא I` (S00961, S01262, S01321, S01360), so P000355 keeps S00336's I, now displayed (`קוּלְיָא I, קוֹ׳`) with a `print-error` annotation naming those cites; their links, which Sefaria aimed at S00337, now point at S00336
 
 
 #### `שְׁבַע`: missing I (row [U00158](https://jastrow.app/#rid:U00158))
