@@ -164,9 +164,16 @@ sizes the audit [L64].
 - [x] Consistency audit report [L64]
       (`docs/correction-audit.md`, with 48 cross-reference questions
       in the headword worklist; PR #173)
-- [ ] Data PRs: implied I audit, class 3 renumber, P00790, RP8 marks,
-      round 2 (L46) [L64] [L22] [L43] [L59]
-      (order and counts: `docs/correction-audit.md` §7)
+- [ ] Data PRs, in `docs/correction-audit.md` §7's order: (i) implied
+      I audit and its 10 cross-references, (ii) RP8 marks, (iii) class
+      3 renumber with S01849 and U01512, (iv) round 2 (L46), (v)
+      cross-reference numerals; P00790 after L59 [L64] [L22] [L43]
+      [L59]
+- [ ] Cross-reference numerals, data PR (v): 222 determined retargets
+      (case 1; 10 in `language_reference` wait on L50), then the 74
+      rows of the 48 questions in `docs/headword-worklist.md`
+      § Cross-reference numerals (2026-10-14), once ticked [L64]
+      (`docs/correction-audit.md` §5)
 
 ### 7. Deferrable defects — admin tool, any time
 
