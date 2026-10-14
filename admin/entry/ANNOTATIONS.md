@@ -2,7 +2,7 @@
 
 **Status: proposed** with ruling `10-13 correction policy`
 ([`docs/decisions.md`](../../docs/decisions.md) §9, review ledger L64),
-accepted on merge of PR #n. **Nothing here is built.** The field, its
+accepted on merge of PR #171. **Nothing here is built.** The field, its
 checks and the data changes are follow-up PRs (§6). It lives beside
 the contract it would extend because `docs/specs/` is retired
 ([`docs/glossary.md`](../../docs/glossary.md) § Retired terms) and a
