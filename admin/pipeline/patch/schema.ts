@@ -1011,11 +1011,11 @@ const ANNOTATION_KEYS: ReadonlySet<string> = new Set([
 	'kind',
 	'printed',
 ]);
-const ANNOTATION_KINDS: readonly string[] = [
+const ANNOTATION_KINDS: ReadonlySet<string> = new Set([
 	'illegible',
 	'kept',
 	'print-error',
-];
+]);
 
 /** The shape of a present `annotation`: an object of exactly
  * `ANNOTATION_KEYS`, a known kind, a string `printed`, a non-empty
@@ -1035,7 +1035,7 @@ function annotationShapeReasons(annotation: unknown): string[] {
 			(key) =>
 				`annotation.${key} is not a patch field: the import adds field, stored and source`,
 		);
-	if (!ANNOTATION_KINDS.includes(a['kind'] as string)) {
+	if (!ANNOTATION_KINDS.has(a['kind'] as string)) {
 		reasons.push('annotation.kind must be illegible, kept or print-error');
 	}
 	if (typeof a['printed'] !== 'string') {
