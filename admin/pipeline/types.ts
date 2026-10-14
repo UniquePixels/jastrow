@@ -69,12 +69,11 @@ interface SourceSense {
 
 /** One homograph numeral a reviewed `reform` patch sets on a form of
  * the headword line (`SourceEntry.homographs`). `form` indexes the
- * parsed `headwords[]`; `implied` marks an I print does not set (ruling
- * 10-06 implied I), so it is only ever `true` and only beside 1. */
+ * parsed `headwords[]`. Ruling 10-13 correction policy retired 10-06's
+ * `implied`: every numeral set here is displayed. */
 interface SourceHomograph {
 	form: number;
 	homograph: number;
-	implied?: true;
 }
 
 /** One dictionary entry as the pipeline reads it — the upstream record
@@ -101,13 +100,13 @@ interface SourceEntry {
 	headword: string;
 	/** **NOT a Sefaria field.** Homograph numerals a `reform` patch
 	 * supplied, each on one form of the line by its index in the parsed
-	 * `headwords[]`: an implied I (ruling 10-06 implied I), or a numeral
-	 * print sets that Sefaria dropped. They ride beside the line rather
+	 * `headwords[]`: a numeral print sets that Sefaria dropped, or an I
+	 * Jastrow's own text names (ruling 10-13 correction policy). They ride beside the line rather
 	 * than inside its text because `headword` is also the namespace
 	 * internal links resolve by: appending ` I` to it would dangle every
 	 * link that names Sefaria's spelling. `finishEntry` sets each on the
-	 * parsed form, and gate 2 counts a non-implied one as notation the
-	 * line carries. */
+	 * parsed form, and gate 2 counts each as notation the line
+	 * carries. */
 	homographs?: SourceHomograph[];
 	language_code?: string;
 	language_reference?: string;

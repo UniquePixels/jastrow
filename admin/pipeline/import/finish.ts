@@ -40,7 +40,7 @@ function applyHomographs(
 	homographs: readonly SourceHomograph[],
 ): string[] {
 	const problems: string[] = [];
-	for (const { form: at, homograph, implied } of homographs) {
+	for (const { form: at, homograph } of homographs) {
 		const form = forms[at];
 		if (form === undefined) {
 			problems.push(
@@ -55,9 +55,6 @@ function applyHomographs(
 			continue;
 		}
 		form.homograph = homograph;
-		if (implied === true) {
-			form.implied = true;
-		}
 	}
 	return problems;
 }
@@ -281,8 +278,8 @@ function finishEntry(
 	const line = [source.headword, ...(source.alt_headwords ?? [])];
 	const parsed = parseHeadwordLine(line);
 	// A reviewed `reform` may set a numeral beside the line rather than
-	// in it (ruling 10-06 implied I; `SourceEntry.homographs`). The
-	// display that shows a non-implied one comes with the same patch.
+	// in it (ruling 10-09 reform homographs; `SourceEntry.homographs`).
+	// The display that shows it comes with the same patch.
 	problems.push(
 		...applyHomographs(source.rid, parsed.headwords, source.homographs ?? []),
 		...applyFormAnnotations(

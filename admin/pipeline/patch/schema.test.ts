@@ -846,21 +846,21 @@ describe('reform', () => {
 	});
 
 	it('carries homographs onto the entry, and removes them when omitted', () => {
-		// Ruling 10-06 implied I: an implied I is set by reviewed patch,
-		// and a numeral Sefaria dropped is set the same way, so the
+		// Ruling 10-09 reform homographs: a numeral Sefaria dropped, or an
+		// I Jastrow's text names (10-13), is set by reviewed patch, so the
 		// headword STRING (the link namespace) keeps Sefaria's spelling.
 		const numbered = applyPatch(
 			entry,
 			reform({
 				forms: ['a', 'b', 'c'],
 				homographs: [
-					{ form: 0, homograph: 1, implied: true },
+					{ form: 0, homograph: 1 },
 					{ form: 2, homograph: 3 },
 				],
 			}),
 		);
 		expect(numbered.homographs).toEqual([
-			{ form: 0, homograph: 1, implied: true },
+			{ form: 0, homograph: 1 },
 			{ form: 2, homograph: 3 },
 		]);
 		expect(numbered.headword).toBe('a');
@@ -874,8 +874,10 @@ describe('reform', () => {
 		[[{ form: -1, homograph: 1 }], 'form -1 is not one of the 3 form(s)'],
 		[[{ form: 0, homograph: 0 }], 'homograph must be a positive integer'],
 		[[{ form: 0, homograph: 1.5 }], 'homograph must be a positive integer'],
-		[[{ form: 0, homograph: 2, implied: true }], 'an implied numeral is I'],
-		[[{ form: 0, homograph: 1, implied: false }], 'implied is only ever true'],
+		// Ruling 10-13 retired `implied`: a patch that still carries it is
+		// refused, not read as a plain numeral.
+		[[{ form: 0, homograph: 1, implied: true }], 'implied is not a field'],
+		[[{ form: 0, homograph: 1, note: 'x' }], 'note is not a field'],
 		[
 			[
 				{ form: 0, homograph: 1 },

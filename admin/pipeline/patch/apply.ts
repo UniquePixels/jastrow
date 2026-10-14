@@ -583,8 +583,9 @@ async function loadAcceptedCorpus(): Promise<AcceptedCorpus> {
  *
  * The `gloss` half (#113) is the same case again: a reform may lift
  * text into the first sense of a line whose forms need no change. So
- * is `homographs` (ruling 10-06 implied I): an implied I, or a numeral
- * Sefaria dropped, is set beside forms that are already right.
+ * is `homographs` (ruling 10-09 reform homographs): a numeral Sefaria
+ * dropped, or an I Jastrow's own text names (ruling 10-13 correction
+ * policy), is set beside forms that are already right.
  *
  * So the question the assertion asks is "did the apply change
  * anything?", and for such a patch the answer is `display`, the

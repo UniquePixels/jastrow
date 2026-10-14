@@ -7,7 +7,7 @@
 import { describe, expect, it } from 'bun:test';
 import { headwordShapeProblems, textDefects } from './headword-rules.ts';
 import { parseHeadwordLine } from './headwords.ts';
-import type { Entry, FormObject } from './types.ts';
+import type { Annotation, Entry, FormObject } from './types.ts';
 
 /** An entry as the rules read it: the id, the forms and the template. */
 function shaped(
@@ -118,9 +118,20 @@ describe('rule 3 — the numeral clause', () => {
 	});
 });
 
-// Rulings 10-06 hidden superscript and implied I: a disambiguator is
-// never in `display`, and a numeral is beside `{n}` iff the form has a
-// homograph that is not implied. `[case, form, display, problems]`.
+// Ruling 10-06 hidden superscript: a disambiguator is never in
+// `display`. Ruling 10-13 correction policy retired 10-06's implied I:
+// a numeral is beside `{n}` iff the form has a homograph, and an I set
+// by correction (annotated, ANNOTATIONS.md §2) is displayed like any
+// other. `[case, form, display, problems]`.
+const PROVEN_I: Annotation = {
+	date: '2026-10-14',
+	evidence: 'Jastrow names `אב I`',
+	field: 'homograph',
+	kind: 'print-error',
+	printed: '',
+	source: 'P000001',
+	stored: 'I',
+};
 const HIDDEN: ReadonlyArray<readonly [string, FormObject, string, number]> = [
 	[
 		'a disambiguator, not displayed',
@@ -131,31 +142,24 @@ const HIDDEN: ReadonlyArray<readonly [string, FormObject, string, number]> = [
 	['a disambiguator, displayed', { disambiguator: 2, text: 'אב' }, '{0} ²', 1],
 	['a superscript the form does not carry', { text: 'אב' }, '{0}²', 1],
 	[
-		'an implied I, not displayed',
-		{ homograph: 1, implied: true, text: 'אב' },
-		'{0}',
+		'an I set by correction, displayed (10-13)',
+		{ annotations: [PROVEN_I], homograph: 1, text: 'אב' },
+		'{0} I',
 		0,
 	],
 	[
-		'an implied I, displayed',
-		{ homograph: 1, implied: true, text: 'אב' },
-		'{0} I',
+		'an I set by correction, hidden (10-13)',
+		{ annotations: [PROVEN_I], homograph: 1, text: 'אב' },
+		'{0}',
 		1,
 	],
 	['a printed I, displayed', { homograph: 1, text: 'אב' }, '{0} I', 0],
 	['a printed I, not displayed', { homograph: 1, text: 'אב' }, '{0}', 1],
-	['implied with no homograph', { implied: true, text: 'אב' }, '{0}', 1],
 ];
 
-describe('rule 3 — what display never shows (10-06)', () => {
+describe('rule 3 — what display never shows (10-06, 10-13)', () => {
 	it.each(HIDDEN)('%s', (_case, form, display, count) => {
 		expect(headwordShapeProblems(shaped([form], display))).toHaveLength(count);
-	});
-
-	it('refuses implied with no homograph where there is no display', () => {
-		expect(
-			headwordShapeProblems(shaped([{ implied: true, text: 'אב' }])),
-		).toHaveLength(1);
 	});
 });
 

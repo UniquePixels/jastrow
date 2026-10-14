@@ -193,25 +193,26 @@ contract and does not own it.
 `headwords[]` holds every form print sets on the headword line, in
 print order. `headwords[0]` is the primary form: the name, the search
 key and every link derive from it. A form object is
-`{ text, homograph?, implied?, disambiguator?, reconstructed?, gender?,
-partial? }`. `text` holds clean Hebrew; grouping and marks do not live
+`{ text, homograph?, disambiguator?, reconstructed?, gender?, partial?,
+annotations? }`. `text` holds clean Hebrew; grouping and marks do not live
 in it.
 
-Two fields are **named and never displayed**. A `disambiguator` is
+One field is **named and never displayed**. A `disambiguator` is
 Sefaria's superscript for two lines print sets alike; print sets no
 superscript, so `display` never carries its glyph (ruling 10-06 hidden
-superscript; the parser drops it with the one space before it). A
-`homograph` marked `implied: true` is a numeral print leaves off the
-first homograph of a sequence whose next member it numbers II (10-06
-implied I, which amends U2); `implied` requires `homograph`, and the
-slot shows no numeral. Both reach the name (§7). An implied I is set
-only by reviewed patch, after a print read; the headword report's X10
-shape names the candidates. The patch sets it with `reform`'s
-`homographs` (§5), beside the line rather than in its text, as it does
-a numeral print sets and Sefaria dropped. Ruling `10-13 correction
-policy` displays a proven implied I with an annotation and withdraws an
-unproven one; the field is built (§5 "Patch ops"), and the implied-I
-data PR retires `implied`. See that ruling and
+superscript; the parser drops it with the one space before it). It
+reaches the name (§7). A `homograph` is always displayed. Where print
+leaves the first homograph of a sequence unnumbered and numbers the
+next II, the first takes an I only where Jastrow's own text names
+`X I` (ruling `10-13 correction policy`, amending 10-06 implied I): a
+reviewed patch sets it with `reform`'s `homographs` (§5), beside the
+line rather than in its text, as it does a numeral print sets and
+Sefaria dropped, with a display that shows it and a `print-error`
+annotation naming the cites. A sole bare candidate before the II is no
+proof; the headword report's X10 shape names the candidates, and an
+unproven one goes to the reviewed-kept list. 10-06's hidden `implied`
+I left the contract in PR #n (5 proven Is displayed and annotated, 9
+withdrawn). See that ruling and
 [`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md).
 
 `display` is an optional template whose `{n}` inserts
@@ -232,10 +233,10 @@ Six shape rules are checked by `headwordShapeProblems`
 1. every form index appears in `display` exactly once (`checkSlots`);
 2. `display` holds no Hebrew (`checkNoHebrew`);
 3. markers agree with forms — `*`, homograph, gender (`checkMarkers`);
-   a numeral shows beside a form iff its homograph is not `implied`,
-   no superscript appears in `display`, and `implied` stands only
-   beside a `homograph` (`checkNumeral`, `checkNamedNotShown`; the
-   implied clause goes under ruling `10-13 correction policy`, proposed);
+   a numeral shows beside a form iff it has a `homograph`, and no
+   superscript appears in `display` (`checkNumeral`,
+   `checkNamedNotShown`; the implied clause went with ruling `10-13
+   correction policy`, PR #n);
 4. a form's `text` holds no `,`, `(`, `)`, `?`, `=`, `…` or Latin
    letter (`textDefects`);
 5. a `partial` form is never a lookup key, except at index 0 when it
@@ -647,17 +648,18 @@ entry's first sense and is refused when the entry already has one
 (#139, ruling `09-29 reform gloss`). Text relocated into an entry that
 already has a sense still has no op (V00518, #113).
 
-`reform` also takes an optional `homographs`: `{form, homograph,
-implied?}` items that set a numeral on a parsed form of the line
+`reform` also takes an optional `homographs`: `{form, homograph}`
+items that set a numeral on a parsed form of the line
 without touching its text (ruling `10-09 reform homographs`). It was
 written when the patched headword string was the namespace internal
 links resolved by (gate 6), so a numeral written into it would have
 dangled every link that names Sefaria's spelling; beside it, the
 display and the forms say what print sets. `finishEntry`
 refuses one on a form that already carries a printed numeral; gate 2
-counts a non-implied one as notation the line carries, so its patch
-supplies a `display` that shows it, and an implied one shows nothing
-(until ruling `10-13 correction policy`, proposed, which displays it).
+counts every one as notation the line carries, so its patch supplies a
+`display` that shows it. Its `implied` flag left with ruling `10-13
+correction policy` (PR #n), and the patch validator refuses a record
+that still carries it.
 A reform that sets `homographs` is never `upstream-fixed`. A spelling
 correction rewrites the headword string, and since ruling `10-09 link
 key` that dangles nothing: links resolve by the line before patches
@@ -877,13 +879,13 @@ name = ("*" if reconstructed) + word
      + (superscript digits if disambiguator)
 ```
 
-The numeral and the superscript are in the name **whether or not
-`display` shows them**: a `disambiguator` never shows, and an
-`implied` homograph does not either (§2; rulings 10-06 hidden
-superscript and implied I). So a family runs `X I`, `X II` whatever
-print set on its first line, and two lines that read alike on the page
-still have two names. (Ruling `10-13 correction policy`, proposed,
-displays a proven implied I; see that ruling.)
+The numeral and the superscript are both in the name, though only the
+numeral is displayed: a `disambiguator` never shows (§2; ruling 10-06
+hidden superscript), so two lines that read alike on the page still
+have two names. An I Jastrow's text names where print sets none
+(ruling `10-13 correction policy`) is displayed and named like any
+other numeral; a bare first homograph with no such cite keeps a bare
+name, and its family runs `X`, `X II`.
 
 It derives from the **primary form only**, never the full headword
 line.

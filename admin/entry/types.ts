@@ -70,10 +70,12 @@ interface Annotation {
  * an abbreviated word (`נְהַר פּ׳`). `gender` is per-form, and the entry
  * carries at most one of it or `grammar.gender`, never both (§4).
  *
- * Two fields are NAMED and never displayed: `disambiguator`, Sefaria's
- * superscript (ruling 10-06 hidden superscript), and a `homograph`
- * marked `implied` (ruling 10-06 implied I). Both reach the URL name;
- * neither has a glyph in `display`. */
+ * One field is NAMED and never displayed: `disambiguator`, Sefaria's
+ * superscript (ruling 10-06 hidden superscript). It reaches the URL
+ * name and has no glyph in `display`. A `homograph` is always displayed:
+ * since ruling `10-13 correction policy` an I print does not set is
+ * stored only where Jastrow's own text names it, as a plain `homograph`
+ * with a `homograph` annotation (ANNOTATIONS.md §2), and shown. */
 interface FormObject {
 	/** Departures from print on this form's `text` or `homograph`
 	 * (`Annotation`). Absent when there are none, never `[]`. */
@@ -84,19 +86,6 @@ interface FormObject {
 	disambiguator?: number;
 	gender?: 'f' | 'm';
 	homograph?: number;
-	/** The `homograph` is ours, not print's: print leaves the first
-	 * homograph of a sequence unnumbered and numbers the next II, so the
-	 * first takes an implied I (ruling 10-06 implied I, which amends U2).
-	 * Only ever `true`, only beside `homograph`, part of the name, never
-	 * displayed.
-	 *
-	 * **Retiring** (ruling `10-13 correction policy`, ANNOTATIONS.md
-	 * §2): a proven implied I becomes a bare `homograph: 1` with a
-	 * `homograph` annotation. The field stays in the contract until the
-	 * implied-I data PR resolves the 14 entries that carry it, and that
-	 * PR removes it from the contract (and rule 3's implied clause) in
-	 * the same change. */
-	implied?: true;
 	partial?: true;
 	reconstructed?: true;
 	text: string;
@@ -147,9 +136,8 @@ interface Entry {
 	/** How print laid the headword line out: a template whose `{n}`
 	 * inserts `headwords[n].text` and whose every other character is
 	 * literal notation, never Hebrew (headword design §2, §3.1). It
-	 * never carries a disambiguator's superscript or an implied
-	 * homograph's numeral, which print does not set (rulings 10-06
-	 * hidden superscript and implied I).
+	 * never carries a disambiguator's superscript, which print does not
+	 * set (ruling 10-06 hidden superscript).
 	 *
 	 * **Optional, and never defaulted.** Where the source cannot settle
 	 * the layout the entry is still written, this is left unset and the
