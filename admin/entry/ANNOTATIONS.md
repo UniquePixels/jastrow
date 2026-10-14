@@ -13,7 +13,10 @@ dated spec is not a live document.
 Ruling 10-13: at the import the data is edited only where the text is
 clearly mistaken or missing, and every such edit carries an annotation
 naming the evidence. Print's reading is stored in the annotation, never
-lost; how annotations surface is the app's decision (§5).
+lost; how annotations surface is the app's decision (§5). An edit that
+departs from print is annotated. A transcription fix (case 1) makes
+the data match print, so it departs from nothing. It is corrected
+silently, and its evidence lives in the patch's `rationale`.
 
 | Case | What happens | Annotation |
 |---|---|---|
