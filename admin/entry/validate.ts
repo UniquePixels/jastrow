@@ -12,8 +12,9 @@
  *
  * - `validateEntry(entry, path)` — one file on its own: schema, home
  *   path, the §3.1 headword rules, gender in one place (HW-gender),
- *   markup vocabulary and balance, no markup in a plain field, and
- *   every stored string in NFC.
+ *   the annotation clause (`annotations.ts`), markup vocabulary and
+ *   balance, no markup in a plain field, and every stored string in
+ *   NFC — an annotation's strings included.
  * - `validateCorpus(entries, pages)` — what only the whole tree can
  *   answer: names and `sefariaHeadword` are unique, every rid-shaped
  *   cite names an entry, and each entry's page is its page-index row,
@@ -27,6 +28,7 @@
  */
 import type { ValidateFunction } from 'ajv';
 import Ajv2020 from 'ajv/dist/2020';
+import { checkAnnotations } from './annotations.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
 import { tokenize } from './html.ts';
 import { nameCollisions } from './names.ts';
@@ -272,7 +274,15 @@ interface EntryField {
  *
  * Codes are not text and are not visited: `id`, `schemaVersion`,
  * `grammar`, `page` and a form's `gender`, `homograph`,
- * `disambiguator`, `reconstructed` and `partial`. */
+ * `disambiguator`, `reconstructed` and `partial`.
+ *
+ * Nor are `annotations` (ANNOTATIONS.md §2). An annotation QUOTES a
+ * field rather than being one: its `stored` is a substring of a field
+ * walked here, so a gloss's annotation may hold half a tag that the
+ * markup check would wrongly refuse, and what it quotes is checked
+ * where it stands. `entryAnnotations` (`annotations.ts`) is their
+ * walk; `checkNfc`, which reads every stored string, covers their
+ * spelling. */
 function* entryFields(entry: Entry): Generator<EntryField> {
 	for (const [path, text] of plainFields(entry)) {
 		yield { markup: false, path, text };
@@ -486,6 +496,7 @@ function checkEntry(
 	}
 	checkHeadwordShape(entry, problems);
 	checkGender(entry, problems);
+	checkAnnotations(entry, problems);
 	checkMarkup(entry, problems);
 	checkNfc(entry, problems);
 	return [entry, problems];

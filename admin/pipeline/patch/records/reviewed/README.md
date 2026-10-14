@@ -28,6 +28,47 @@ so the 28 entries came out byte-identical without them. Their bytes
 are at
 [`docs/archive/patches-retired-2026-10-11/`](../../../../../docs/archive/patches-retired-2026-10-11/).
 
+## The `annotation` field
+
+Since PR #PRNUM a reviewed patch may carry an `annotation` (ruling
+`10-13 correction policy`, [`admin/entry/ANNOTATIONS.md`](../../../../entry/ANNOTATIONS.md)
+§3): print's reading where the patch departs from it, or the record
+that print was read and kept.
+
+```json
+"annotation": {"kind": "print-error", "printed": "", "evidence": "a 2) follows the unlabelled first sense", "date": "2026-10-13"}
+```
+
+- `kind`: `print-error` (case 2, the intended value is determined),
+  `illegible` (case 4, our best reading) or `kept` (case 3, only on
+  `annotate`).
+- `printed`: print's reading of the field, `''` where print sets
+  nothing; a numeral as print writes it (`I`), a label without `)`.
+- `evidence`: the proof (case 2), the readings (case 3) or why
+  (case 4). Jastrow's printed text only, never a link target.
+- `date`: `YYYY-MM-DD` of the print read or the ruling.
+
+The import adds `field`, `stored` and `source` (this patch's id) and
+writes the annotation on the form or sense it describes. Allowed on
+`retag` (the label), `replace` (the gloss or unit the replacement
+lands in; it must be balanced markup found exactly once there),
+`reform` (the one homograph its `homographs` sets, or the one form
+whose text it respells) and `annotate`. Refused on `split`, `join`,
+`nest`, `move`, `delete` and `unref`, and on any patch outside this
+directory.
+
+`annotate` changes nothing. Its `payload.field` is `label`, `gloss` or
+`units` on a `sense[…]` target, or `text` or `homograph` with
+`payload.form` (the parsed form's index) on a `forms:` target, and its
+`expected_before` pins the target, so the note fails loudly when
+upstream rewrites what it describes. It carries only a `kept`
+annotation; a correction is annotated on the op that makes it. Like
+any patch, it may not share its target with another patch on the same
+rid.
+
+No patch here carries one yet: the data PRs that write them follow
+(review ledger plan group 6b).
+
 ## Rulings still in force
 
 Lifted verbatim from `data/patches/RUNBOOK.md` when that procedure was

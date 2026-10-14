@@ -351,6 +351,32 @@ describe('the NFC clause', () => {
 			{ ...A(), headwords: [{ text: `אב${NOT_NFC}` }] },
 			'headwords[0].text',
 		],
+		[
+			// `annotations` are not `entryFields`, so this is the walk that
+			// reaches them: `checkNfc` reads every stored string.
+			'an annotation’s evidence',
+			{
+				...A(),
+				senses: [
+					{
+						annotations: [
+							{
+								date: '2026-10-13',
+								evidence: `print reads ${NOT_NFC}`,
+								field: 'gloss',
+								kind: 'print-error',
+								printed: 'fathr',
+								source: 'P000001',
+								stored: 'father',
+							},
+						],
+						gloss: 'father',
+						units: [],
+					},
+				],
+			},
+			'senses[0].annotations[0].evidence',
+		],
 	])(
 		'fires on a decomposed spelling in %s, naming the field',
 		async (_name, planted, field) => {
@@ -483,7 +509,23 @@ const FULL: Entry = {
 	display: '{0}, {1}',
 	formerNames: ['אבו'],
 	grammar: { gender: 'm', number: 'pl' },
-	headwords: [{ text: 'אב' }, { text: 'אבה' }],
+	headwords: [
+		{ text: 'אב' },
+		{
+			annotations: [
+				{
+					date: '2026-10-13',
+					evidence: 'e',
+					field: 'text',
+					kind: 'kept',
+					printed: 'אבה',
+					source: 'P000001',
+					stored: 'אבה',
+				},
+			],
+			text: 'אבה',
+		},
+	],
 	senses: [
 		{
 			gloss: 'head',
@@ -539,8 +581,10 @@ function childPath(at: string, key: string, array: boolean): string {
 }
 
 /** Strings that are codes or keys, not text: the rid, the schema's
- * enums and the page column. */
-const NOT_TEXT = /^(id|grammar\..*|page\..*|headwords\[\d+\]\.gender)$/u;
+ * enums and the page column. And every string of an annotation, which
+ * quotes a field rather than being one (`entryFields`' docstring). */
+const NOT_TEXT =
+	/^(id|grammar\..*|page\..*|headwords\[\d+\]\.gender|.*\.annotations\[\d+\]\..*)$/u;
 
 // The walker compile will read every text field through (review ledger
 // L04). The expected set is computed by a generic JSON walk written
@@ -552,6 +596,10 @@ describe('entryFields', () => {
 			(p) => !NOT_TEXT.test(p),
 		);
 		expect(expected).toContain('stems[0].senses[0].senses[0].units[0]');
+		// The fixture's annotation is there to be skipped, not missing.
+		expect([...stringPaths(FULL, '')]).toContain(
+			'headwords[1].annotations[0].stored',
+		);
 		expect([...entryFields(FULL)].map((f) => f.path).toSorted()).toEqual(
 			expected.toSorted(),
 		);

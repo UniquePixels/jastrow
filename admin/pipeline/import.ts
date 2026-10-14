@@ -51,6 +51,7 @@ import {
 } from './import/patches.ts';
 import { classifyRows } from './import/publication.ts';
 import {
+	countAnnotations,
 	createReport,
 	createRuleCounter,
 	IMPORT_REPORT_PATH,
@@ -100,6 +101,10 @@ const REPAIR_PASSES: readonly PassName[] = ['binyan-cleanup'] as const;
  * per-entry bookkeeping already folded into the report, and holding
  * 32,512 of them would cost memory for nothing. */
 interface Composed {
+	/** Every patch that applied to this rid carrying an `annotation`
+	 * (`ComposeResult.annotated`): gate 10 checks the written entry's
+	 * annotations against it, both ways. */
+	annotated: string[];
 	/** The consumer-facing body `buildTrace` derived, under the
 	 * `consumer-output` phase. */
 	body: BodyEntry;
@@ -238,6 +243,7 @@ function composeOne(
 			`${source.rid}: body round-trip`,
 		);
 		return {
+			annotated: result.annotated,
 			body: trace.body,
 			entry: result.entry,
 			linkHeadword: result.linkHeadword,
@@ -653,13 +659,15 @@ async function main(): Promise<void> {
 	// against a fresh read of the snapshot (URL names spec §5.2).
 	report.gates.names = checkNames(entries, await loadSourceHeadwords());
 	const normalized = normalizeAll(entries);
-	// Gate 10 reads what `writeAll` would write: the normalized entries,
-	// at the paths it would write them to.
+	// Gate 10 reads what `writeAll` would write (the normalized entries,
+	// at their paths), and the patches that applied with an annotation.
 	report.gates.contract = await checkContract(
 		normalized.entries,
 		indexes.pages,
 		entryFile,
+		new Map(composed.map((c) => [c.source.rid, c.annotated])),
 	);
+	report.annotations = countAnnotations(normalized.entries);
 	classifyRows(report);
 	await writeReport(report);
 	await Bun.write(BLESSING_PATH, `${renderBlessing(report, samples)}\n`);

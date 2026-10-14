@@ -209,8 +209,9 @@ only by reviewed patch, after a print read; the headword report's X10
 shape names the candidates. The patch sets it with `reform`'s
 `homographs` (§5), beside the line rather than in its text, as it does
 a numeral print sets and Sefaria dropped. Ruling `10-13 correction
-policy` (proposed) would display a proven implied I with an annotation
-and withdraw an unproven one; see that ruling and
+policy` displays a proven implied I with an annotation and withdraws an
+unproven one; the field is built (§5 "Patch ops"), and the implied-I
+data PR retires `implied`. See that ruling and
 [`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md).
 
 `display` is an optional template whose `{n}` inserts
@@ -370,14 +371,15 @@ are flagged for the print rather than repaired. A detector exists; no
 rule will. A person who has read the print repairs a gap one entry at
 a time with a reviewed `reform` that sets `homographs` (§5; the
 2026-10-06 reads, `records/tranches/headword-print-read-2026-10-06/`).
-Under ruling `10-13 correction policy` (proposed), a gap whose missing
-numeral Jastrow's own text names is a determined print error and is
-patched with an annotation.
+Under ruling `10-13 correction policy`, a gap whose missing numeral
+Jastrow's own text names is a determined print error and is patched
+with an annotation.
 
-A `notes` mechanism for intentional deviations from print does not
-exist. **UNBUILT.** Ruling `10-13 correction policy` (proposed) designs
-it as the `annotations` field: see that ruling and
-[`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md).
+Deviations from print are recorded in the `annotations` field of the
+form or sense they touch (ruling `10-13 correction policy`), written by
+the reviewed patch that makes the deviation (§5 "Patch ops"); see
+[`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md). No committed
+entry carries one yet: the data PRs that write them follow.
 
 ---
 
@@ -584,7 +586,8 @@ that no record accounts for must not apply unflagged.
 
 **Apply-time gates** (`postApplyAssertions`): the patched entry
 survives a JSON round-trip unchanged, and the apply must have changed
-something.
+something — except `annotate`, whose target must resolve exactly as
+before, since it changes nothing.
 
 **Phase order** is `PHASE_MANIFEST` in `patch/apply.ts`, asserted at
 run time: `text-repairs` → `structural-repairs` → `patch-apply` →
@@ -597,7 +600,36 @@ does not apply leaves both a row and a header count.
 ### Patch ops
 
 The op grammar is `delete`, `join`, `move`, `nest`, `replace`,
-`retag`, `split`, `reform`, `unref`.
+`retag`, `split`, `reform`, `unref`, `annotate`.
+
+| Op | Target | What it does | `annotation` |
+|---|---|---|---|
+| `split` | `sense[…]` | cuts an in-text `—N)` run out as a sibling | never |
+| `join` | `sense[…]` | folds a sense back into the text it was cut from | never |
+| `nest` | `sense[…]` | moves a restarted list under a new unlabelled sibling | never |
+| `move` | `sense[…]` | moves an exact segment beside an anchor | never |
+| `delete` | `sense[…]` | removes a segment or a whole sense | never |
+| `unref` | `refs[…]` | removes one `refs[]` item | never |
+| `retag` | `sense[…]` | sets the sense's `number` | sense `label` |
+| `replace` | `sense[…]` | swaps one exact substring | sense `gloss` / `units[n]` |
+| `reform` | `forms:` | rewrites the headword line | form `homograph` (one `homographs` item) or `text` (the one form respelled) |
+| `annotate` | `sense[…]` or `forms:` | nothing: pins `expected_before` and records print's reading as kept | the field `payload.field` names; `kept` only |
+
+**`annotation`** (ruling `10-13 correction policy`,
+[`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md) §3) is an
+optional `{kind, printed, evidence, date}` on a reviewed patch: print's
+reading where the patch departs from it (case 2 `print-error`, case 4
+`illegible`) or keeps it (case 3 `kept`, `annotate` only). The import
+adds `field`, `stored` and `source` (the patch id) and writes it on the
+form or sense the field belongs to. The patch validator refuses one on
+an op that cannot change a printed value; `corpusPreflight` refuses one
+on an agent patch. The apply leaves a draft on what it changed, the
+trace carries a sense's drafts with its label, and `finishEntry`
+(`import/annotations.ts`) resolves them; one it cannot place is a red
+gate 9. A `replace`'s annotation is restricted to a replacement that,
+translated alone, is balanced markup occurring exactly once in the
+sense's gloss and units. Gate 10 checks every annotation against the
+patches that applied with one, both ways.
 
 `nest` (ruling `10-12 nested sublists`, #167) cuts the list that
 restarts inside its target sense out as a new unlabelled sibling: the
@@ -1042,12 +1074,16 @@ recording a problem.
 each at the path `writeAll` would give it). The entry contract
 (`admin/entry/validate.ts`, ruling `09-30 entry contract`): one mark
 per entry for `validateEntry` — schema, home path, the six headword
-rules, the closed tag vocabulary and balance per field, no markup in a
-plain field, every stored string in NFC — plus one mark for
+rules, the annotation clause, the closed tag vocabulary and balance
+per field, no markup in a plain field, every stored string in NFC —
+plus one mark for
 `validateCorpus`, each of whose findings is listed as a failure:
 current-name and `sefariaHeadword` uniqueness, every rid-shaped cite
 ref names an entry, and page agreeing with the page-index row both
-ways. A clean run reads 32,513/32,513.
+ways. Each entry's mark also holds its annotations to the patches that
+applied to the rid carrying one (`ComposeResult.annotated`), both ways:
+every annotation names one as `source`, and each wrote exactly one. A
+clean run reads 32,513/32,513.
 *Proves:* the import cannot write a tree CI's Validate job would
 refuse — the two run one validator, so they cannot disagree.
 *Cannot see:* anything about the source: every clause checks an entry

@@ -102,12 +102,61 @@
 		}
 	},
 	"$defs": {
+		"annotation": {
+			"description": "One departure from print, or one print reading checked and kept, on the object whose field it describes (admin/entry/ANNOTATIONS.md §2; ruling 10-13 correction policy). printed is print's reading ('' where print sets nothing), stored what the field holds (for gloss and units[n], the substring the note is about). kind: print-error (case 2), kept (case 3: printed equals stored), illegible (case 4). source is the patch that wrote it. What the schema cannot express — the field resolves on its object, stored agrees with the field, kept iff printed equals stored, one annotation per field, a real calendar date — admin/entry/annotations.ts enforces.",
+			"type": "object",
+			"additionalProperties": false,
+			"required": [
+				"field",
+				"kind",
+				"printed",
+				"stored",
+				"evidence",
+				"source",
+				"date"
+			],
+			"properties": {
+				"field": {
+					"description": "Which field of its object: text or homograph on a form; gloss, label or units[n] on a sense.",
+					"type": "string",
+					"pattern": "^(?:gloss|homograph|label|text|units\\[(?:0|[1-9]\\d*)\\])$"
+				},
+				"kind": {
+					"type": "string",
+					"enum": ["illegible", "kept", "print-error"]
+				},
+				"printed": { "type": "string" },
+				"stored": { "type": "string" },
+				"evidence": {
+					"description": "Case 2: the proof. Case 3: the readings. Case 4: why.",
+					"type": "string",
+					"minLength": 1
+				},
+				"source": {
+					"description": "The patch that wrote it.",
+					"type": "string",
+					"pattern": "^P\\d{6}$"
+				},
+				"date": {
+					"description": "YYYY-MM-DD of the print read or the ruling.",
+					"type": "string",
+					"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+				}
+			}
+		},
+		"annotations": {
+			"description": "Absent when there are none, never [].",
+			"type": "array",
+			"minItems": 1,
+			"items": { "$ref": "#/$defs/annotation" }
+		},
 		"formObject": {
 			"type": "object",
 			"additionalProperties": false,
 			"required": ["text"],
 			"dependentRequired": { "implied": ["homograph"] },
 			"properties": {
+				"annotations": { "$ref": "#/$defs/annotations" },
 				"text": {
 					"type": "string",
 					"minLength": 1
@@ -118,7 +167,7 @@
 					"minimum": 1
 				},
 				"implied": {
-					"description": "The homograph numeral is ours, not print's: print leaves the first homograph of a sequence unnumbered and numbers the next II, so the first takes an implied I (ruling 10-06 implied I, amending U2). Only ever true and only beside homograph. Part of the name, never shown in display.",
+					"description": "The homograph numeral is ours, not print's: print leaves the first homograph of a sequence unnumbered and numbers the next II, so the first takes an implied I (ruling 10-06 implied I, amending U2). Only ever true and only beside homograph. Part of the name, never shown in display. Retiring (ruling 10-13 correction policy): a proven implied I becomes a bare homograph with a homograph annotation, and the implied-I data PR removes this field from the contract.",
 					"const": true
 				},
 				"disambiguator": {
@@ -147,6 +196,7 @@
 			"required": ["gloss", "units"],
 			"dependentRequired": { "reconstructed": ["label"] },
 			"properties": {
+				"annotations": { "$ref": "#/$defs/annotations" },
 				"label": {
 					"type": "string",
 					"minLength": 1

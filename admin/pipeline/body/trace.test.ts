@@ -1,5 +1,6 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
+import { applyPatch, contentAnchor, parsePatch } from '../patch/schema.ts';
 import type { BodySense, SourceEntry } from '../types.ts';
 import { rejoinGlossHead, splitGlossHead } from './rejoin.ts';
 import { evaluateRoundTrip } from './round-trip.ts';
@@ -473,5 +474,97 @@ describe('buildBody: a list a nest patch made (ruling 10-12 nested sublists)', (
 		expect(() => buildTrace(entry)).toThrow(
 			'the first sense carries a nested list',
 		);
+	});
+});
+
+// ANNOTATIONS.md §3: an annotated patch leaves a draft on the source
+// sense it changed, and the build carries it to the sense built from
+// that one, as `resolveLabel` carries the star. The fixture is a real
+// entry with a real reviewed-style patch applied to it.
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one table, one row per case; splitting it would scatter the rule it pins.
+describe('annotation drafts ride to the built sense', () => {
+	const NOTE = {
+		date: '2026-10-13',
+		evidence: 'print sets a doubled 3)',
+		kind: 'print-error',
+		printed: '3',
+	} as const;
+
+	/** A00014 with one annotated reviewed patch on the sense numbered
+	 * `token`, through `applyPatch` as the import applies it. */
+	async function annotated(
+		token: string,
+		payload: Record<string, unknown>,
+		op = 'retag',
+	): Promise<SourceEntry> {
+		const entry = findFixture(
+			await loadFixture('origin-splits.jsonl'),
+			'A00014',
+		);
+		const sense = entry.content.senses.find((s) => (s.number ?? '') === token);
+		const before = sense?.definition ?? '';
+		const patch = parsePatch({
+			annotation: NOTE,
+			confidence: 'high',
+			defect_class: 'test',
+			expected_before: before,
+			id: 'P000009',
+			op,
+			payload,
+			prompt_version: 'human-review',
+			rationale: 'r',
+			rid: 'A00014',
+			snapshot: `sha256:${'0'.repeat(64)}`,
+			target: `sense[${token}]:${contentAnchor(before)}`,
+		});
+		return applyPatch(entry, { ...patch, author: 'human' });
+	}
+
+	const drafted = (senses: readonly BodySense[]): string[] =>
+		senses.flatMap((s, i) => (s.annotations === undefined ? [] : [`${i}`]));
+
+	it('carries a retag’s label draft to the sense the retag renumbered', async () => {
+		const { body } = buildTrace(await annotated('—3)', { number: '—4)' }));
+		expect(body.senses.map((s) => s.label)).toEqual([undefined, '1', '2', '4']);
+		expect(body.senses[3]?.annotations).toEqual([
+			{ ...NOTE, field: 'label', source: 'P000009' },
+		]);
+		expect(drafted(body.senses)).toEqual(['3']);
+	});
+
+	it('carries the first sense’s draft to the intro, with its label', async () => {
+		const { body } = buildTrace(await annotated('', { number: '1)' }));
+		expect(body.senses[0]?.label).toBe('1');
+		expect(body.senses[0]?.annotations).toEqual([
+			{ ...NOTE, field: 'label', source: 'P000009' },
+		]);
+		expect(drafted(body.senses)).toEqual(['0']);
+	});
+
+	it('carries a replace’s draft to the host, with the text to find', async () => {
+		const { body } = buildTrace(
+			await annotated(
+				'—2)',
+				{ find: 'first section', replace: 'first part' },
+				'replace',
+			),
+		);
+		expect(body.senses[2]?.annotations).toEqual([
+			{
+				...NOTE,
+				field: 'gloss-or-units',
+				find: 'first part',
+				source: 'P000009',
+			},
+		]);
+		expect(drafted(body.senses)).toEqual(['2']);
+	});
+
+	it('leaves a sense no patch annotated without the key', async () => {
+		const { body } = buildTrace(
+			findFixture(await loadFixture('origin-splits.jsonl'), 'A00014'),
+		);
+		expect(drafted(body.senses)).toEqual([]);
+		expect(body.senses.every((s) => !('annotations' in s))).toBe(true);
 	});
 });

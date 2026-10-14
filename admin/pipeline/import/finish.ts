@@ -11,6 +11,7 @@ import {
 } from '../../entry/headwords.ts';
 import type { PagePlacement } from '../../entry/page.ts';
 import {
+	type Annotation,
 	type Entry,
 	type FormObject,
 	SCHEMA_VERSION,
@@ -19,9 +20,11 @@ import {
 import type {
 	BodyEntry,
 	BodySense,
+	SenseAnnotationDraft,
 	SourceEntry,
 	SourceHomograph,
 } from '../types.ts';
+import { applyFormAnnotations, resolveSenseDraft } from './annotations.ts';
 import { createResolver, type Unresolved } from './cite.ts';
 import { type TagCarry, translateMarkup } from './markup.ts';
 
@@ -127,6 +130,40 @@ function finishEntry(
 		path: string;
 	}
 
+	/** A built sense whose drafts wait for its fields' translation. */
+	interface PendingSense {
+		drafts: readonly SenseAnnotationDraft[];
+		out: Sense;
+		path: string;
+	}
+
+	// A text draft's fragment is translated alone, against a resolver
+	// whose unresolved targets go nowhere: the field it sits in already
+	// reported them once.
+	const scratch = createResolver(context.headwordMap, source.rid, []);
+
+	/** Resolve each pending sense's drafts once its fields hold their
+	 * translated text (`resolveSenseDraft`), writing `annotations` only
+	 * when at least one resolved. */
+	function resolvePending(pending: readonly PendingSense[]): void {
+		for (const { drafts, out, path } of pending) {
+			const written: Annotation[] = [];
+			for (const draft of drafts) {
+				const result = resolveSenseDraft(out, draft, scratch);
+				if (typeof result === 'string') {
+					problems.push(
+						`${source.rid}: ${path}: the annotation from ${draft.source}: ${result}`,
+					);
+				} else {
+					written.push(result);
+				}
+			}
+			if (written.length > 0) {
+				out.annotations = written;
+			}
+		}
+	}
+
 	/** Walk one document FLOW — a `senses` tree in document order: for
 	 * each sense, its gloss, then its units, then each child sense
 	 * recursively (gloss, units, grandchildren…), then the next sibling
@@ -138,11 +175,14 @@ function finishEntry(
 	 * a parent's last field must be able to reopen inside its own first
 	 * child rather than starting that child's translation fresh. A
 	 * sense's `label` and its `reconstructed` star are copied as they
-	 * are; neither is a translated field. */
+	 * are; neither is a translated field. Annotation drafts wait in
+	 * `pending` for the translation, since a text draft is located in
+	 * the translated text. */
 	function buildSenseTree(
 		sequence: readonly BodySense[],
 		path: string,
 		fields: Field[],
+		pending: PendingSense[],
 	): Sense[] {
 		return sequence.map((s, i) => {
 			const sensePath = `${path}[${i}]`;
@@ -170,7 +210,15 @@ function finishEntry(
 				out.reconstructed = true;
 			}
 			if (s.senses !== undefined && s.senses.length > 0) {
-				out.senses = buildSenseTree(s.senses, `${sensePath}.senses`, fields);
+				out.senses = buildSenseTree(
+					s.senses,
+					`${sensePath}.senses`,
+					fields,
+					pending,
+				);
+			}
+			if (s.annotations !== undefined) {
+				pending.push({ drafts: s.annotations, out, path: sensePath });
 			}
 			return out;
 		});
@@ -207,8 +255,10 @@ function finishEntry(
 		path: string,
 	): Sense[] {
 		const fields: Field[] = [];
-		const out = buildSenseTree(sequence, path, fields);
+		const pending: PendingSense[] = [];
+		const out = buildSenseTree(sequence, path, fields, pending);
 		runFlow(fields);
+		resolvePending(pending);
 		return out;
 	}
 
@@ -235,6 +285,11 @@ function finishEntry(
 	// display that shows a non-implied one comes with the same patch.
 	problems.push(
 		...applyHomographs(source.rid, parsed.headwords, source.homographs ?? []),
+		...applyFormAnnotations(
+			source.rid,
+			parsed.headwords,
+			source.formAnnotations ?? [],
+		),
 	);
 	// A `reform` patch's `display` WINS, and only ever adds. §3 leaves
 	// the template unset where the source cannot settle it, and a

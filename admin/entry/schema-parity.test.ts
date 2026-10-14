@@ -15,7 +15,7 @@
  */
 import { describe, expect, it } from 'bun:test';
 import { SCHEMA_PATH } from './paths.ts';
-import type { Entry, FormObject, Sense, Stem } from './types.ts';
+import type { Annotation, Entry, FormObject, Sense, Stem } from './types.ts';
 
 /** One JSON Schema node, as far as the parity suite reads it. */
 interface SchemaNode {
@@ -72,6 +72,7 @@ const ENTRY_KEYS: Presence<Entry> = {
 };
 
 const FORM_KEYS: Presence<FormObject> = {
+	annotations: 'optional',
 	disambiguator: 'optional',
 	gender: 'optional',
 	homograph: 'optional',
@@ -82,11 +83,22 @@ const FORM_KEYS: Presence<FormObject> = {
 };
 
 const SENSE_KEYS: Presence<Sense> = {
+	annotations: 'optional',
 	gloss: 'required',
 	label: 'optional',
 	reconstructed: 'optional',
 	senses: 'optional',
 	units: 'required',
+};
+
+const ANNOTATION_KEYS: Presence<Annotation> = {
+	date: 'required',
+	evidence: 'required',
+	field: 'required',
+	kind: 'required',
+	printed: 'required',
+	source: 'required',
+	stored: 'required',
 };
 
 const STEM_KEYS: Presence<Stem> = {
@@ -111,6 +123,7 @@ const OBJECTS: [string, SchemaNode | undefined, Record<string, string>][] = [
 	['entry', schema, ENTRY_KEYS],
 	['headword form', schema.$defs?.['formObject'], FORM_KEYS],
 	['sense', schema.$defs?.['sense'], SENSE_KEYS],
+	['annotation', schema.$defs?.['annotation'], ANNOTATION_KEYS],
 	['stem', schema.properties?.['stems']?.items, STEM_KEYS],
 	['grammar', schema.properties?.['grammar'], GRAMMAR_KEYS],
 	['page', schema.properties?.['page'], PAGE_KEYS],
@@ -168,6 +181,13 @@ const LITERALS: [string, SchemaNode | undefined, Record<string, true>][] = [
 		'sense reconstructed',
 		sense?.['reconstructed'],
 		{ true: true } satisfies Literal<Sense['reconstructed']>,
+	],
+	[
+		'annotation kind',
+		schema.$defs?.['annotation']?.properties?.['kind'],
+		{ illegible: true, kept: true, 'print-error': true } satisfies Literal<
+			Annotation['kind']
+		>,
 	],
 	[
 		'grammar.gender',

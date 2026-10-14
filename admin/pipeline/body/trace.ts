@@ -18,6 +18,7 @@ import type {
 	BodyEntry,
 	BodySense,
 	BodyStem,
+	SenseAnnotationDraft,
 	SourceEntry,
 	SourceSense,
 } from '../types.ts';
@@ -87,6 +88,34 @@ interface SenseLabel {
 	reconstructed?: true;
 }
 
+/** What one source sense leaves on the sense built from it besides its
+ * text: its label (`SenseLabel`) and the annotation drafts a reviewed
+ * patch left on it (ANNOTATIONS.md §3). Both land on the host only, so
+ * a `label` draft sits beside the label it describes, and a text draft
+ * beside the gloss and units `finishEntry` will look for its text in. */
+interface SenseMarks {
+	annotations?: SenseAnnotationDraft[];
+	label?: SenseLabel;
+}
+
+/** A source sense's marks: `resolveLabel` on its number, and a copy of
+ * its drafts. The drafts ride the label's path rather than a second
+ * one, so every call site that labels a built sense also annotates
+ * it. */
+function senseMarks(
+	rid: string,
+	sense: SourceSense,
+	acc: BuildAcc,
+): SenseMarks {
+	const label = resolveLabel(rid, sense.number, acc);
+	return {
+		...(sense.annotations === undefined
+			? {}
+			: { annotations: sense.annotations.map((a) => ({ ...a })) }),
+		...(label === undefined ? {} : { label }),
+	};
+}
+
 /** Parse `raw` into the normalized label the design doc calls for
  * (§2 `senses` row), quarantining an unparseable value to `problems`
  * while still falling back to storing it verbatim — dry-run visibility,
@@ -142,11 +171,9 @@ function buildFormSectionChild(item: {
  * the one shared text→BodySense[] step every sense in the tree (intro,
  * plain, stem child) goes through. `label` (and its star) lands on the
  * host only: lettered and form-section children take the letter or
- * restarted number their own split found, and the sibling none. */
-function buildTextSense(
-	text: string,
-	label: SenseLabel | undefined,
-): BodySense[] {
+ * restarted number their own split found, and the sibling none. The
+ * annotation drafts (`SenseMarks`) land on the host too. */
+function buildTextSense(text: string, marks: SenseMarks): BodySense[] {
 	const lettered = splitLettered(text);
 	const head = lettered ? lettered.head : text;
 	const formSection = splitFormSection(head);
@@ -155,7 +182,10 @@ function buildTextSense(
 	const host: BodySense = {
 		gloss,
 		units,
-		...label,
+		...marks.label,
+		...(marks.annotations === undefined
+			? {}
+			: { annotations: marks.annotations }),
 		...(lettered === null
 			? {}
 			: { senses: lettered.items.map(buildLetteredChild) }),
@@ -178,9 +208,9 @@ function buildTextSense(
 function pushTextSense(
 	acc: BuildAcc,
 	text: string,
-	label: SenseLabel | undefined,
+	marks: SenseMarks,
 ): BodySense[] {
-	const built = buildTextSense(text, label);
+	const built = buildTextSense(text, marks);
 	const [host, sibling] = built;
 	if (host !== undefined) {
 		acc.pairs.push({
@@ -216,8 +246,7 @@ function buildTextChild(
 	acc: BuildAcc,
 ): BodySense[] {
 	const text = child.definition ?? '';
-	const label = resolveLabel(rid, child.number, acc);
-	const built = pushTextSense(acc, text, label);
+	const built = pushTextSense(acc, text, senseMarks(rid, child, acc));
 	const items = child.senses ?? [];
 	if (items.length === 0) {
 		return built;
@@ -302,11 +331,9 @@ function buildTrace(e: SourceEntry): Trace {
 			`${e.rid}: the first sense carries a nested list, which the gloss head cannot hold`,
 		);
 	}
-	const introLabel =
-		first !== undefined && !first.grammar
-			? resolveLabel(e.rid, first.number, acc)
-			: undefined;
-	const introSenses = pushTextSense(acc, joined, introLabel);
+	const introMarks =
+		first !== undefined && !first.grammar ? senseMarks(e.rid, first, acc) : {};
+	const introSenses = pushTextSense(acc, joined, introMarks);
 
 	const senses: BodySense[] = [...introSenses];
 	const stems: BodyStem[] = [];

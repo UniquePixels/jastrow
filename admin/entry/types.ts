@@ -28,6 +28,39 @@ const SCHEMA_VERSION = 2;
  * is exempt. */
 const VERBATIM_FIELDS: ReadonlySet<string> = new Set(['sefariaHeadword']);
 
+/** One departure from print, or one print reading checked and kept,
+ * on the object whose field it describes (ANNOTATIONS.md §2; ruling
+ * `10-13 correction policy`). Print's reading is never lost: it is
+ * `printed`, beside what the field now holds, `stored`.
+ *
+ * - `field`: which field of its object it describes. `text` and
+ *   `homograph` sit on a form; `gloss`, `label` and `units[n]` on a
+ *   sense.
+ * - `kind`: `print-error` (case 2, corrected), `kept` (case 3, kept as
+ *   printed, so `printed` equals `stored`) or `illegible` (case 4, our
+ *   best reading).
+ * - `printed`: print's reading of the field; `''` where print sets
+ *   nothing. A homograph is written as print writes it (`I`), a label
+ *   as its token without `)` (`5`).
+ * - `stored`: what the field holds. For `gloss` and `units[n]`, the
+ *   substring the note is about.
+ * - `evidence`: case 2 the proof, case 3 the readings, case 4 why.
+ * - `source`: the patch that wrote it, `P` + 6 digits.
+ * - `date`: `YYYY-MM-DD` of the print read or the ruling.
+ *
+ * Key order is this interface's, the order a reader takes them in;
+ * it is the one interface here not sorted by name. */
+// biome-ignore assist/source/useSortedInterfaceMembers: the annotation reads field, kind, printed, stored, then why and whence; ANNOTATIONS.md §2 gives this order.
+interface Annotation {
+	field: 'gloss' | 'homograph' | 'label' | 'text' | `units[${number}]`;
+	kind: 'illegible' | 'kept' | 'print-error';
+	printed: string;
+	stored: string;
+	evidence: string;
+	source: string;
+	date: string;
+}
+
 /** One headword form. It holds only MEANING: `text` is clean Hebrew
  * and everything print sets AROUND the forms lives in the entry's
  * `display` (headword design §2, §3.1).
@@ -42,6 +75,9 @@ const VERBATIM_FIELDS: ReadonlySet<string> = new Set(['sefariaHeadword']);
  * marked `implied` (ruling 10-06 implied I). Both reach the URL name;
  * neither has a glyph in `display`. */
 interface FormObject {
+	/** Departures from print on this form's `text` or `homograph`
+	 * (`Annotation`). Absent when there are none, never `[]`. */
+	annotations?: Annotation[];
 	/** Sefaria's superscript number, telling apart two lines print sets
 	 * alike. Part of the name; never in `display`, since print sets no
 	 * superscript (ruling 10-06 hidden superscript). */
@@ -52,7 +88,14 @@ interface FormObject {
 	 * homograph of a sequence unnumbered and numbers the next II, so the
 	 * first takes an implied I (ruling 10-06 implied I, which amends U2).
 	 * Only ever `true`, only beside `homograph`, part of the name, never
-	 * displayed. */
+	 * displayed.
+	 *
+	 * **Retiring** (ruling `10-13 correction policy`, ANNOTATIONS.md
+	 * §2): a proven implied I becomes a bare `homograph: 1` with a
+	 * `homograph` annotation. The field stays in the contract until the
+	 * implied-I data PR resolves the 14 entries that carry it, and that
+	 * PR removes it from the contract (and rule 3's implied clause) in
+	 * the same change. */
 	implied?: true;
 	partial?: true;
 	reconstructed?: true;
@@ -69,6 +112,10 @@ interface FormObject {
  * so a reader that drops an empty lead renumbers nothing (ruling
  * 10-04 lead text). */
 interface Sense {
+	/** Departures from print on this sense's `gloss`, `label` or a
+	 * `units[n]` (`Annotation`). Absent when there are none, never
+	 * `[]`. */
+	annotations?: Annotation[];
 	gloss: string;
 	label?: string;
 	/** Print stars this sense's number (`*2)`), as it stars a
@@ -134,5 +181,5 @@ interface Entry {
 	stems?: Stem[];
 }
 
-export type { Entry, FormObject, Sense, Stem };
+export type { Annotation, Entry, FormObject, Sense, Stem };
 export { SCHEMA_VERSION, VERBATIM_FIELDS };

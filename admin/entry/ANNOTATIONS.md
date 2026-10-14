@@ -1,10 +1,14 @@
-# Annotations — proposed design
+# Annotations
 
-**Status: proposed** with ruling `10-13 correction policy`
+**Status: accepted** with ruling `10-13 correction policy`
 ([`docs/decisions.md`](../../docs/decisions.md) §9, review ledger L64),
-accepted on merge of PR #171. **Nothing here is built.** The field, its
-checks and the data changes are follow-up PRs (§6). It lives beside
-the contract it would extend because `docs/specs/` is retired
+on merge of PR #171. **The field is built** (PR #PRNUM, §6 item 1):
+the contract's type, schema and checks (`annotations.ts`), the patch
+`annotation` and the `annotate` op, the build carrying them, and gate
+10's both-ways check. `implied`'s retirement and rule 3's display
+change wait for the implied-I data PR; the data changes are the
+follow-up PRs of §6. No committed entry carries an annotation yet. It
+lives beside the contract it extends because `docs/specs/` is retired
 ([`docs/glossary.md`](../../docs/glossary.md) § Retired terms) and a
 dated spec is not a live document.
 
@@ -76,7 +80,10 @@ interface Annotation {
 their token without `)` (`5`). Like `reconstructed` and `partial`, the
 key is absent when empty, never `[]`.
 
-**`implied` retires** in the contract PR. An implied I becomes
+**`implied` retires** in the implied-I data PR, not the contract PR
+(PR #PRNUM): 14 committed entries carry it, so the contract keeps
+accepting it until that PR resolves them (5 annotated, 9 bare) and
+removes the field from the contract in the same change. An implied I becomes
 `homograph: 1` with `{field: 'homograph', kind: 'print-error', printed:
 '', stored: 'I', evidence: …}`, and `display` sets the ` I`. One mark,
 not two for one fact. Rule 3 loses its implied clause (a single numeral
@@ -86,11 +93,17 @@ already appends the numeral. `reconstructed`, `partial` and
 `disambiguator` are untouched. The first two are print's notation and
 the third is Sefaria's, so none of them is a correction.
 
-**What `validateEntry` checks** (`admin/entry/validate.ts`, beside
-`checkGender`; schema and `schema-parity.test.ts` in step):
+**What `validateEntry` checks** (`admin/entry/annotations.ts`, called
+from `validate.ts` beside `checkGender`; schema and
+`schema-parity.test.ts` in step). The shape is the schema's (enums,
+patterns, a non-empty `evidence`, a list never `[]`); the rest is
+code:
 
-- shape: the enums, `source` matching `^P\d{6}$`, `date` an ISO date,
-  `evidence` non-empty, and every string in NFC (`checkNfc` covers it already);
+- shape: the enums, `source` matching `^P\d{6}$`, `date` an ISO date
+  (and a real calendar day), `evidence` non-empty, and every string in
+  NFC (`checkNfc` covers it already). `entryFields` does not visit an
+  annotation: it quotes a field rather than being one, and a gloss's
+  `stored` may hold half a tag;
 - the field resolves on its object: `text` and `homograph` only on a
   form, the others only on a sense, and the field present (`units[n]`
   needs `n < units.length`);
@@ -117,8 +130,9 @@ From the reviewed patch records, so there is no second source of truth.
 A reviewed patch gains an optional `annotation: {kind, printed,
 evidence, date}`. The import adds `field` (from the op), `stored` (the
 value after apply) and `source` (the patch id). The patch validator
-refuses an `annotation` on an agent patch and on the ops that cannot
-change a printed value:
+refuses an `annotation` on the ops that cannot change a printed value,
+and the import's preflight on an agent patch (a record cannot say who
+wrote it; the loader stamps `author`):
 
 | Op | Annotates | Field |
 |---|---|---|
@@ -132,6 +146,36 @@ change a printed value:
 
 `annotate` exists so a `kept` note fails loudly when upstream rewrites
 the text it describes, instead of describing text that is gone.
+
+**As built** (PR #PRNUM). The apply leaves a draft on what it changed
+(`SourceSense.annotations`, `SourceEntry.formAnnotations`), the build
+carries a sense's drafts to the sense built from it on the label's
+path (`body/trace.ts`), and `finishEntry` writes `field` and `stored`
+(`import/annotations.ts`):
+
+- `retag`: the sense's built `label`.
+- `reform` with `homographs`: exactly one item, so one form; its
+  numeral as print writes it. Without `homographs`: the `text` of the
+  one form the reform respelled, found by parsing the line before and
+  after; a reform that changes no form's text, two, or the number of
+  forms is refused at apply.
+- `replace`: the gloss or unit the replacement landed in, found after
+  the build and the markup translation. **Restricted** to what can be
+  located: the replacement, translated alone, must be balanced markup
+  and occur exactly once across the sense's gloss and units. A
+  replacement that leaves a half tag, lands in a lettered child or
+  occurs twice is a red gate 9. D00072's implied `1)` (§4) is a
+  `replace` whose text becomes a label at build time, so it cannot be
+  annotated as it stands.
+- `annotate`: `payload.field` names the field. On a `sense[…]` target,
+  `label`, `gloss` or `units` (the gloss or the unit that holds
+  `printed`); on a `forms:` target, `text` or `homograph` with
+  `payload.form`, the parsed form's index. Only `kept`; `expected_before`
+  pins the target, and a moved target is always `upstream-changed`.
+
+Gate 10 then holds both sides: every annotation names a patch that
+applied to its rid carrying one, and every such patch wrote exactly
+one.
 `reviewed-kept.jsonl` stays what it is: the report's memory of detector
 rows. The label path needs care: a `retag` sets a SOURCE sense's
 `number`, and `body/trace.ts` turns it into `label`, so the annotation
@@ -191,6 +235,8 @@ reading is never lost.
    the schema, the parity test), `validateEntry`'s checks, `implied`
    retired, rule 3 (display), the patch `annotation` field and the
    `annotate` op, the trace carrying it, and gate 10's both-ways check.
+   **Done in PR #PRNUM**, except `implied` retired and rule 3, which
+   move to the implied-I data PR in item 3.
 2. **Consistency audit report:** §4's populations row by row,
    including the 291 cross-reference numerals.
 3. **Data:** the implied I audit (5 displayed and annotated; 9
