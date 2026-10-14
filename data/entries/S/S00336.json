@@ -6,14 +6,24 @@
 		{
 			"text": "קוּלְיָא",
 			"homograph": 1,
-			"implied": true
+			"annotations": [
+				{
+					"field": "homograph",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "I",
+					"evidence": "Jastrow's text names `קוּלְיָא I`: S00961 `, v. קוּלְיָא I` (hOCR `ll>`); S01262 `, v. קוּלְיָא I`; S01321 `pl.).—V. קוּלְיָא I` (hOCR `i.`); S01360 `misreading for קלווא, v. קוּלְיָא I` (hOCR `I`). Print sets no numeral beside it (maintainer print read of the 1903 scan, 2026-10-06, docs/headword-worklist.md first list, row S00337).",
+					"source": "P000355",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"text": "קוֹ׳",
 			"partial": true
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1328,
 		"column": "a"

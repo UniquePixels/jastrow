@@ -6,14 +6,24 @@
 		{
 			"text": "פְּלוּגְתָּא",
 			"homograph": 1,
-			"implied": true
+			"annotations": [
+				{
+					"field": "homograph",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "I",
+					"evidence": "Jastrow's text names `פְּלוּגְתָּא I`: Q00942 `ed. Wil., v. פְּלוּגְתָּא I` (hOCR `I`); V00833 `= פְּלוּגְתָּא I, difference of opinion` (hOCR `I`). Print sets no numeral beside it (maintainer print read of the 1903 scan, 2026-10-06, docs/headword-worklist.md first list, row Q00965).",
+					"source": "P000353",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"text": "פְּלֻגְ׳",
 			"partial": true
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1177,
 		"column": "a"

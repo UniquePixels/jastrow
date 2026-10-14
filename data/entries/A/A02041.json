@@ -6,10 +6,20 @@
 		{
 			"text": "אֲמָנָה",
 			"homograph": 1,
-			"implied": true
+			"annotations": [
+				{
+					"field": "homograph",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "I",
+					"evidence": "Jastrow's text names `אֲמָנָה I`: H01410 `מח׳ אמנה, v. אֲמָנָה I`. Print sets no numeral beside it (maintainer print read of the 1903 scan, 2026-10-06, docs/headword-worklist.md first list, row A02042).",
+					"source": "P000344",
+					"date": "2026-10-14"
+				}
+			]
 		}
 	],
-	"display": "{0}",
+	"display": "{0} I",
 	"page": {
 		"number": 77,
 		"column": "b"
