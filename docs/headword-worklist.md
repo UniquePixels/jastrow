@@ -2,6 +2,12 @@
 
 ## Status
 
+**2026-10-15 (b).** U00488 and U00489, the one pile B and #113 fix
+the pipeline could not express (review ledger L50), are applied in
+PR #179 through a new `language_reference:` patch target: U00488 is
+`שׁוּף I`, U00489 `שׁוּף`. Nothing here waits on you for them; the
+question `שׁוּף I` under Cross-reference numerals still does.
+
 **2026-10-15.** Your round 2 ticks are applied in PR #177, data PR (iv)
 of [`correction-audit.md`](correction-audit.md) §7, under ruling `10-13
 correction policy`: each of the 16 blocks below ends with what was
@@ -52,8 +58,9 @@ links name (P000359–P000367) followed in #156, once ruling `10-09 link
 key` let links resolve by the spelling before patches (review ledger
 L49), and each of their answer blocks below says so. The reviewed-kept
 list holds 34 records (30 since #154; J00713, U02098, P01246 and P01247
-added in #155). U00488 with U00489 (L50), the one fix you answered that the
-pipeline could not express, is applied in PR #179. The
+added in #155). U00488 with U00489 (L50) is the one fix you answered
+that is still not applied, because the pipeline cannot express it
+(applied since, in PR #179; see the status above). The
 14 answers and two notes that need another look are round 2, just
 below; tick it the same way.
 
