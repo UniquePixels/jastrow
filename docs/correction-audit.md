@@ -452,7 +452,7 @@ with the text after the anchor, the second finds the bare anchor on
 the definition the first leaves. All 30 `†` keys resolved (gate 6).
 The predicate after: 287 cites → 91, 215 determined → 19.
 
-**The 16, done in PR #n** (data PR (v-b),
+**The 16, done in PR #179** (data PR (v-b),
 [`tranches/language-reference-2026-10-15/`](../admin/pipeline/patch/records/tranches/language-reference-2026-10-15/README.md)).
 The 10 `language_reference` rows are retargeted by a `replace` on the
 new `language_reference:` target (review ledger L50; P000797–P000806),
@@ -778,13 +778,13 @@ The three unclassified:
    respelled `חֵלֶף I`, U01396's and V00522's alternates take print's
    I, and 5 cites are retargeted. 12 reviewed-kept records. H00355's
    and H00733's `חוּל I` sit in `language_reference` and wait on L50
-   (applied in PR #n).
+   (applied in PR #179).
 5. **(v) Cross-reference numerals.** First the 212 determined
    retargets not in (i) (10 of them wait on L50's op); then the 48
    worklist answers. The determined half, (v-a), is done in PR #178:
    196 retargets (P000595–P000790) on 184 entries; 10 rows wait on
    L50 and 6 `X I ch.` rows are held for a read (§5.1). Those 16 are
-   done in PR #n, (v-b), with H00355 and H00733 from (iv): the 10
+   done in PR #179, (v-b), with H00355 and H00733 from (iv): the 10
    and the two through the new `language_reference:` target, the 6
    to the `ch.` line under ruling `10-15 ch. cross-reference`. The
    determined half is complete. The 74-row worklist half waits on the
@@ -801,7 +801,7 @@ The three unclassified:
 - **No op edits `language_reference`** (L50): 10 determined retargets
   and 3 worklist cites (P00866, M02733, M02738) wait on it. The 10
   are §5.1 rows 12, 19, 51, 58, 64, 85, 143, 146, 179 and 182, still
-  waiting after PR #178. Built in PR #n: `replace` and `annotate`
+  waiting after PR #178. Built in PR #179: `replace` and `annotate`
   take a `language_reference:<anchor>` target, and the 10 are
   applied; the 3 worklist cites can use it once ticked.
 - **Removing an implied I needs no op**: retiring the reform restores

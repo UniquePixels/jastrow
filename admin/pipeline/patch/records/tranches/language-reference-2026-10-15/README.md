@@ -1,7 +1,7 @@
 # `language_reference` and the `ch.` cites (2026-10-15)
 
 Data PR (v-b) of [`docs/correction-audit.md`](../../../../../../docs/correction-audit.md)
-§7, PR #n: the 16 determined cross-reference retargets PR #178 could
+§7, PR #179: the 16 determined cross-reference retargets PR #178 could
 not write, H00355 and H00733 from PR #177, and U00488 and U00489.
 Review ledger L50 (closed here), L49, L64; plan group 5 ("U00488's
 numeral … and U00489's join") and 6b ("Cross-reference numerals").

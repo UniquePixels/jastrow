@@ -162,7 +162,7 @@ illegible)`, unchanged: these carry none. `bun data:validate` reports
 
 ## Waiting on L50: the 10 in `language_reference`
 
-Applied in PR #n (P000797–P000806), through the new
+Applied in PR #179 (P000797–P000806), through the new
 `language_reference:` patch target:
 [`../language-reference-2026-10-15/`](../language-reference-2026-10-15/README.md).
 
@@ -181,7 +181,7 @@ Applied in PR #n (P000797–P000806), through the new
 
 ## Held for a read: the 6 `X I ch.` cites
 
-Applied in PR #n (P000791–P000796) to the `ch.` line, under ruling
+Applied in PR #179 (P000791–P000796) to the `ch.` line, under ruling
 `10-15 ch. cross-reference`:
 [`../language-reference-2026-10-15/`](../language-reference-2026-10-15/README.md).
 
