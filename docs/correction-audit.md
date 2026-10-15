@@ -706,7 +706,8 @@ The three unclassified:
    P000349–P000352, P000354) and add 9 reviewed-kept records; 10
    `replace` retargets. In the same PR rule 3 loses its implied
    clause, and `implied` leaves the contract and `reform.homographs`.
-   Nine names lose their I.
+   Eight names lose their I. B00537's I was on its alternate
+   `בִּיאָה`, so its name, the primary `בִּיָּא`, holds.
 2. **(ii) RP8 marks.** 61 annotations: 24 retags in place; 36 retags
    moved with their companion splits from 4 agent tranches into
    `reviewed/`; D00072's `replace` (P000214) retired for a `retag` +
