@@ -18,7 +18,18 @@
 			"units": [
 				"<cite ref=\"Shabbat 86a:7\">Sabb. 86ᵃ</cite> bot. <he>מַאֲפִיל בטליתו</he> he makes dark by spreading his cloak (cover) over himself. Y. B. Bath. III, 13ᶜ top <he>עומד ומא׳</he> the tree stands there and takes the light away."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000097",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>to be late in ripening, giving birth</i>, &c.; <i>to have late crops</i>. ",

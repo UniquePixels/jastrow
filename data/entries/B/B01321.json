@@ -20,7 +20,18 @@
 		{
 			"gloss": "pr. n. m., v. <cite ref=\"B00390\"><he>בּוֹרְקַי</he> II</cite>.",
 			"units": [],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "print sets no 1) on the first sense, which is only a cross-reference (v. בּוֹרְקַי II), and the next sense opens —2); the print matches the source (maintainer print read, body-review doc 01, note 1)",
+					"source": "P000209",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " כְּפַר ב׳ <i>K’far Barkai</i>, in Palestine; cmp. <he>בורגתא</he>. ",

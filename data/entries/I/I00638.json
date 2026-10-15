@@ -21,7 +21,18 @@
 				"<cite ref=\"Yoma 78a:7\">Yoma 78ᵃ</cite> <he>טוֹפֵחַ ע״מ להַטְפִּיחַ</he> moist enough to moisten other objects; <cite ref=\"Avodah Zarah 60b:2\">Ab. Zar. 60ᵇ</cite> <he>טופח ע״מ להטפיח</he> Ms. M. (ed. <he>ט׳ להט׳</he>). ",
 				"<cite ref=\"Mishnah Tahorot 8:9\">Toh. VIII, 9</cite>; a. fr."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000146",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " (cmp. <he>דאב</he>, <cite ref=\"D00232\"><he>דוי</he></cite>) <i>to melt, decay, ferment</i> (of a running and fermenting dough). ",

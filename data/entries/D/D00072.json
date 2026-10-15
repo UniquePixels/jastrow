@@ -17,16 +17,34 @@
 	},
 	"senses": [
 		{
-			"gloss": " (b. h.) 1) <i>to cleave, adhere, stick</i>. ",
+			"gloss": " (b. h.) <i>to cleave, adhere, stick</i>. ",
 			"units": [
 				"<cite ref=\"Bava Batra 91b\">B. Bath. 91ᵇ</cite>, v. infra.—",
 				"<cite ref=\"Yalkut Shimoni on Torah 133:29\">Yalk. Gen. 133</cite> <he>דבקו כל החיל וכ׳</he> the whole army was close to the fortress.—",
-				"<cite ref=\"Yalkut Shimoni on Torah 133:29\">Ib.</cite> Deut. 824 <he>ד׳ לסדומיים</he> he joined the Sodomites.—2) <i>to join, glue, affix</i>. ",
+				"<cite ref=\"Yalkut Shimoni on Torah 133:29\">Ib.</cite> Deut. 824 <he>ד׳ לסדומיים</he> he joined the Sodomites."
+			],
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000554",
+					"date": "2026-10-14"
+				}
+			]
+		},
+		{
+			"gloss": " <i>to join, glue, affix</i>. ",
+			"units": [
 				"<cite ref=\"Jerusalem Talmud Megillah 1:9:11\">Y. Meg. I, 71ᵈ</cite> top <he>דּוֹבְקִין בְּדֶבֶק</he> the parchment is joined with glue.—<i>Part. pass.</i> <he>דָּבוּק</he>, f. <he>דְּבוּקָה</he> <i>attached, close, cleaving</i>. ",
 				"<cite ref=\"Sotah 42b:9\">Sot. 42ᵇ</cite> (ref. to <cite ref=\"Ruth 1:14\">Ruth I, 14</cite>) <he>בני הדבוקה</he> the descendants of her who was attached (to Naomi). ",
 				"<cite ref=\"Bereishit Rabbah 20\">Gen. R. s. 20</cite> <he>דְּבוּקִין לעור</he> close to the skin. ",
 				"<cite ref=\"Sanhedrin 64a\">Snh. 64ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 4:4\">Deut. IV, 4</cite>) like two dates <he>הדְּבוּקִים וכ׳</he> which stick to one another (easily separated); <cite ref=\"Deuteronomy 4:4\">ib.</cite> <he>דבוקים ממש</he> really glued (inseparable); <cite ref=\"Yalkut Shimoni on Torah 824:2\">Yalk. Deut. 824</cite> <he>כשתי … הדְּבוּקוֹת</he>; a. fr."
-			]
+			],
+			"label": "2"
 		}
 	],
 	"stems": [

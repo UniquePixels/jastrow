@@ -24,7 +24,18 @@
 				"<cite ref=\"Mishnah Menachot 9:2\">Men. IX, 2</cite>. ",
 				"<cite ref=\"Menachot 88a:11\">Ib. 88ᵃ</cite> <he>הוה ה׳ דעבד משה וכ׳</he> there was (in the Temple) the <i>hin</i> which Moses made for &c.; a. e."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000127",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " homiletical interpretation of <i>hin tsedek</i> (<cite ref=\"Leviticus 19:36\">Lev. XIX, 36</cite>) = <cite ref=\"E00648\"><he>הֵן</he></cite>, <i>yes</i>. ",

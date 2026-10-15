@@ -24,7 +24,18 @@
 				"<cite ref=\"Mishnah Oktzin 3:10\">Ukts. III, 10</cite> <he>כוורת … והרוֹדֶה ממנה וכ׳</he> a bee-hive … is regarded as landed estate …, and he who breaks honey out of it on the Sabbath &c.; <cite ref=\"Mishnah Sheviit 10:7\">Shebi. X, 7</cite>; <cite ref=\"Bava Batra 66a\">B. Bath. 66ᵃ</cite>; <cite ref=\"Bava Batra 80b\">80ᵇ</cite>. ",
 				"<cite ref=\"Bava Metzia 64a:7\">B. Mets. 64ᵃ</cite> <he>ההולך … לִרְדוֹת את כוורתו</he> if a person goes to take the honey out of his bee-hive; <he>מה שכוורתי רוֹדָה כך וכך וכ׳</he> whatever my bee-hive may yield shall be thine for such and such an amount; a. fr."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000452",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <he>ר׳</he> (<cite ref=\"Q02110\"><he>פת</he></cite>) <i>to detach bread</i> from where it sticks to the oven, <i>to shovel out</i>. ",

@@ -126,7 +126,18 @@
 						"<cite ref=\"Vayikra Rabbah 31:2\">Lev. R. s. 31</cite> <he>עד שמְזַקְּקוֹ</he> until he has refined the gold.—<i>Part. pass.</i> <he>מְזוּקָּק</he>, f. <he>מְזוּקֶּקֶת</he>. ",
 						"<cite ref=\"Pesikta Rabbati 14:1\">Pesik. R. s. 14</cite> <he>התורה … ומז׳ וכ׳</he> the Torah is clarified and distilled in forty nine ways."
 					],
-					"label": "1"
+					"label": "1",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "",
+							"stored": "1",
+							"evidence": "a —2) follows the unlabelled first sense",
+							"source": "P000468",
+							"date": "2026-10-14"
+						}
+					]
 				},
 				{
 					"gloss": " <i>to chain, tie, connect</i>.—Part. pass. as ab. Y. Ḥag. III, beg. 78ᵈ <he>במז׳ לקדש</he> it treats of an object which is tied (has been made subject) to the law regulating sacred matter, i.e. treated as if it were sacred matter, v. <cite ref=\"I00105\"><he>טָהֳרָה</he></cite>.",

@@ -25,7 +25,18 @@
 			"units": [
 				"<cite ref=\"Tosefta Kilaim 1:1\">Tosef. Kil. I, 1</cite> [read:] <he>השבת והג׳</he> anise and <i>gof’nin</i>."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000111",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>late grapes</i>. ",

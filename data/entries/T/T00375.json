@@ -23,7 +23,18 @@
 				"<cite ref=\"Aramaic Targum to Psalms 89:14\">Targ. Ps. LXXXIX, 14</cite>. ",
 				"<cite ref=\"Onkelos Deuteronomy 8:14\">Targ. O. Deut. VIII, 14</cite> <he>וִירַם</he> ed. Berl. (oth. ed. <he>וִירִים</he>, <he>וְרִים</he>); a. fr."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000454",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>to lift; to remove</i>. ",

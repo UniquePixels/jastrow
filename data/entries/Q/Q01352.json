@@ -21,7 +21,18 @@
 			"units": [
 				"<cite ref=\"Mishnah Kilayim 6:6\">Kil. VI, 6</cite> <he>פ׳ עריס</he>, v. <cite ref=\"P01365\"><he>עָרִיס</he> I</cite>; <cite ref=\"Tosefta Kilaim 4:8\">Tosef. ib. IV, 8</cite>; Y. ib. VI, end, 30ᶜ; a. e."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000446",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>disjunction</i>, esp. <i>peseḳ</i> (Chald. <i>p’siḳ</i>), a disjunctive sign (|) between two words. ",

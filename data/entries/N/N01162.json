@@ -21,7 +21,18 @@
 				"<cite ref=\"Gittin 56a:8\">Gitt. 56ᵃ</cite> (play on <he>נ̇ק̇ד̇ימון</he>) <he>שנָ֗קְ֗דָ֗ה לו חמה בעבורו</he> for his sake did the sun break through again (after being obscured); <cite ref=\"Yalkut Shimoni on Torah 809:3\">Yalk. Deut. 809</cite>; <cite ref=\"Taanit 20a:5\">Taan. 20ᵃ</cite> Ms. M. (ed. <he>שנקדרה</he>). ",
 				"<cite ref=\"Taanit 20a:5\">Ib.</cite> <he>אילו לא נ׳ החמה</he> Ms. M. (ed. <he>נקדרה</he>). [<cite ref=\"Taanit 20a:5\">Ib.</cite> <he>שלשה נקדה</he> Ms. M. (ed. <he>נקדמה</he>, read, as <cite ref=\"Avodah Zarah 25a\">Ab. Zar. 25ᵃ</cite>: <cite ref=\"P00862\"><he>עמדה</he></cite>.]"
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000442",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " (Massorah) <i>to dot, mark with diacritical points</i>. ",

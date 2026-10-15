@@ -22,7 +22,18 @@
 				"<cite ref=\"Mishnah Middot 2:6\">Midd. II, 6</cite>; a. fr.—<he>עלה לד׳</he> to go up the stage, <i>to officiate as priest</i>. ",
 				"<cite ref=\"Shabbat 118b:3\">Sabb. 118ᵇ</cite>; a. e."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000120",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>religious service from the stand, the Levite’s singing, teaching</i>. ",

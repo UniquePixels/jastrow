@@ -22,7 +22,18 @@
 				"<cite ref=\"Jerusalem Talmud Chagigah 2:1:6\">Y. Ḥag. II, 77ᵃ</cite> bot. <he>יהלך בא׳</he> he must walk between the extremes. ",
 				"<cite ref=\"Bava Metzia 70b:7\">B. Mets. 70ᵇ</cite> <he>יד הנכרי בא׳</he>; <cite ref=\"Jerusalem Talmud Avodah Zarah 1:6:5\">Y. Ab. Zar. I, 40ᵃ</cite> top <he>אצבע הגוי בא׳</he> the hand [finger] of the gentile is between, i.e. he has a share in it; a. fr."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000095",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>common fund, estate</i>. ",

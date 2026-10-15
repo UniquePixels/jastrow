@@ -22,7 +22,18 @@
 				"<cite ref=\"Niddah 43a\">Nidd. 43ᵃ</cite>; <cite ref=\"Chagigah 15a\">Ḥag. 15ᵃ</cite> [read:] <he>כל … שאינו יוֹרֶה כחץ אינה מזרעת</he> (Ms. M. <he>אינו מוליד</he>; Ms. M. 2 <he>שאינה יוֹרָה</he>, v. Rabb. D. S. a. l. note) a spermatic emission which does not permeate (shoot forth) like an arrow, cannot fructify; <cite ref=\"Yevamot 65a:6\">Yeb. 65ᵃ</cite> <he>היא קיימא לה בי׳ כחץ</he> she can feel it whether the emission is permeating &c. ",
 				"<cite ref=\"Sifrei Devarim 42\">Sifré Deut. 42</cite> <he>יוֹרֶה שמתכון … יורד וכ׳</he> the rain is called <i>yoreh</i> (shooting), for it is aimed at the earth with deliberation, and does not come down in a storm; <cite ref=\"Taanit 6a:2\">Taan. 6ᵃ</cite> <he>יורה שיורד בנחת</he>."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000426",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>to throw, shoot</i>. ",

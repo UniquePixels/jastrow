@@ -25,7 +25,18 @@
 				"<cite ref=\"Eruvin 6a:4\">Erub. 6ᵃ</cite>; <cite ref=\"Eruvin 100b:6\">100ᵇ</cite>; <cite ref=\"Chullin 110a:2\">Ḥull. 110ᵃ</cite> <he>רב ב׳ מצא וכ׳</he> Rab found an unguarded field and fenced it in, i.e. found people transgressing the law in ignorance and instituted preventive regulations.—Pl. <he>בְּקָעוֹת</he>. ",
 				"<cite ref=\"Bereishit Rabbah 98:12\">Gen. R. s. 98</cite>."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000105",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " (constr.) <cite ref=\"B01133\"><he>בִּקְעַת</he></cite> pr. n. pl. <i>Valley of</i>—, as <he>ב׳ יזרעאל</he>, <he>ב׳ ידים</he> &c., for all of which see the respective determinants.",

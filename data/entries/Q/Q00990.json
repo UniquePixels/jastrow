@@ -18,7 +18,18 @@
 			"units": [
 				"<cite ref=\"Shemot Rabbah 27\">Ex. R. s. 27</cite> <he>על מנת לפוֹלְחָהּ</he> will you take this field with the condition that you will till it?; a. e."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000164",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>to work for, serve</i>, v. <cite ref=\"Q00217\"><he>פּוֹלֵחַ</he></cite>.",
