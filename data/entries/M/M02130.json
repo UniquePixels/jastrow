@@ -53,7 +53,7 @@
 			"units": [
 				"<cite ref=\"Exodus 23\">B’shall. 23</cite> <he>אש של מ׳</he> (some ed. <he>שֶׁלְּמַ׳</he>), v. <cite ref=\"M00971\"><he>מַטָּה</he></cite>.—<he>לְמַעֲלָה</he> "
 			],
-			"label": "3",
+			"label": "4",
 			"senses": [
 				{
 					"gloss": " <i>on high, in heaven</i>. ",
@@ -83,6 +83,17 @@
 						"<cite ref=\"Mishnah Kelim 1:2\">Kel. I, 2</cite>, sq. <he>למ׳ מהם</he> of a higher rank (in Levitical law); a. fr."
 					],
 					"label": "d"
+				}
+			],
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "3",
+					"stored": "4",
+					"evidence": "print sets 3) twice (M02130, 817a); the run 1 2 3 3 determines this as 4 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000572",
+					"date": "2026-10-14"
 				}
 			]
 		}

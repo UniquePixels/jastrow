@@ -168,7 +168,18 @@
 					"units": [
 						"<cite ref=\"Mishnah Eruvin 5:1\">Erub. V, 1</cite> <he>כיצד מְעַבְּרִין וכ׳</he> (v. <cite ref=\"A00200\"><he>אָבַר</he></cite>), defined <cite ref=\"Eruvin 53a\">ib. 53ᵃ</cite>; Y. ib. V, beg. 22ᵇ; Y. Ber. VII, 12ᶜ top <he>כאשה עוברה</he> like a pregnant woman; <cite ref=\"Tosefta Berakhot 6\">Tosef. Ber. VI (V), 1; a. e.</cite>"
 					],
-					"label": "4"
+					"label": "5",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "4",
+							"stored": "5",
+							"evidence": "print sets 4) twice (P00059, 1039a); the run 1 2 3 4 4 6 determines this as 5 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+							"source": "P000574",
+							"date": "2026-10-14"
+						}
+					]
 				},
 				{
 					"gloss": " <i>to complement, add to</i>, esp. <i>to intercalate a month</i>, (second Adar); <i>proclaim a leap year; to complement a month</i> (v. <cite ref=\"M01461\"><he>מָלֵא</he></cite>) <i>by assigning to it an additional day</i> (thirty days). ",

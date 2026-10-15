@@ -77,8 +77,15 @@ each a `print-error` on the label (data PR (ii);
 `seed-doc-08-implied-one` (33), `batch-02-2026-09-04`, `residue-01`
 and `seed-doc-08-sense-runs`, and moved here with their 37
 `implied-one` companion splits, keeping their ids, because an agent
-patch may not carry an annotation. D00072's is P000554, new. The other
-data PRs follow (review ledger plan group 6b).
+patch may not carry an annotation. D00072's is P000554, new. Since
+PR #NNN 26 more do (data PR (iii);
+[`../tranches/class3-renumber-2026-10-15/`](../tranches/class3-renumber-2026-10-15/README.md)):
+24 new `retag`s (P000556–P000579) renumber the class 3 doubled sense
+numbers on 18 entries, each a `print-error` on the label; S01849's
+`replace` (P000580) moves its cross-reference `עָבַר Pi. 4)` to
+`Pi. 5)`; and U01512's `annotate` (P000581), the first, records the
+participle's `a) … 2)` as `kept`. The other data PRs follow (review
+ledger plan group 6b).
 
 On 2026-10-14 (PR #174) 9 more left: the implied-I reforms whose I no
 text of Jastrow's names (ruling 10-13 correction policy). In PR #175

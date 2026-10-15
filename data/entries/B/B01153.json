@@ -60,7 +60,18 @@
 				"<cite ref=\"Chullin 98a:17\">Ḥull. 98ᵃ</cite> sixty one, <he>בהדי דידה או … לב׳ מינה</he> the one (egg) included or excluded? <cite ref=\"Bava Batra 90b:4\">B. Bath. 90ᵇ</cite> <he>שתותא מלב׳</he> the sixth part (as an addition) is outside, i.e. to each five portions one is added, an addition of twenty percent, opp. <he>מִלְגֵו</he>. ",
 				"<cite ref=\"Bava Metzia 53b:5\">B. Mets. 53ᵇ</cite>, v. <cite ref=\"H00398\"><he>חוּמְשָׁא</he></cite>."
 			],
-			"label": "4"
+			"label": "5",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "4",
+					"stored": "5",
+					"evidence": "print sets 4) twice (B01153, 188b); the run 1 2 *3 4 4 determines this as 5 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000556",
+					"date": "2026-10-14"
+				}
+			]
 		}
 	]
 }

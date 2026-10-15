@@ -57,7 +57,18 @@
 			"units": [
 				"<cite ref=\"Shabbat 64b\">Sabb. 64ᵇ</cite>; <cite ref=\"Shabbat 65a:7\">65ᵃ</cite>, v. <cite ref=\"C01257\"><he>גַּרְגַּר</he></cite>.—<i>Pl.</i> as above. Y. Maasr. V, end, 52ᵃ; <cite ref=\"Tosefta Ma'asrot 3:14\">Tosef. ib. III, 14</cite> Egyptian beans are those <he>שגַּלְגִּלֵּיהֶן חדין</he> (ed. Zuck. <he>גלוגל׳</he>, Var. <he>גלגל הן</he>, corr. acc.) whose globules are pointed."
 			],
-			"label": "3"
+			"label": "4",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "3",
+					"stored": "4",
+					"evidence": "print sets 3) twice (C00871, 245a); the run 1 2 3 3 determines this as 4 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000560",
+					"date": "2026-10-14"
+				}
+			]
 		}
 	]
 }

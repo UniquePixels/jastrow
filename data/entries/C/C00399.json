@@ -33,12 +33,34 @@
 				"<cite ref=\"Sanhedrin 95a\">Snh. 95ᵃ</cite> [read:] <he>אייתו לי … גולמא</he> (<he>דטינא</he>) <he>ונירגמינה</he> bring ye unto me, each of you a stone (lump of clay), and we shall stone it (overthrow the city with mere stones); cmp. ",
 				"<cite ref=\"Yalkut Shimoni on Nach 284\">Yalk. Is. 284</cite>; Ar. s. v. <cite ref=\"C00400\"><he>גולמהרג</he></cite>."
 			],
-			"label": "2"
+			"label": "3",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "2",
+					"stored": "3",
+					"evidence": "print sets 2) twice (C00399, 222a); the run 1 2 2 3 determines this as 3 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000558",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": "<i>hill</i>, v. <cite ref=\"C00952\"><he>גְּלִימָא</he> II</cite>.",
 			"units": [],
-			"label": "3"
+			"label": "4",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "3",
+					"stored": "4",
+					"evidence": "print sets 2) twice (C00399, 222a); the run 1 2 2 3 determines this as 4 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000559",
+					"date": "2026-10-14"
+				}
+			]
 		}
 	]
 }

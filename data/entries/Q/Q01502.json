@@ -64,7 +64,18 @@
 						"<cite ref=\"Yevamot 66b\">Yeb. 66ᵇ</cite> sq., a. fr. <he>הקדש … מפקיעין מידי שעבוד</he> consecration (of a pledged object), leavened matter (on the entrance of Passover), and liberation (of a pledged slave) cause a release from mortgage (cancel the mortgage contract). ",
 						"<cite ref=\"Bekhorot 5a:9\">Bekh. 5ᵃ</cite> <he>אין בכור מפקיע בכור</he> a first-born Levite could not serve as ransom for a first-born Israelite; <he>דיו לבכור שיַפְקִיעַ וכ׳</he> it was enough for the firstborn Levite that he released his own consecration (that he needed no priest to be substituted for him); a. fr."
 					],
-					"label": "2"
+					"label": "3",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "2",
+							"stored": "3",
+							"evidence": "print sets 2) twice (Q01502, 1210b); the run 1 2 2 3 determines this as 3 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+							"source": "P000575",
+							"date": "2026-10-14"
+						}
+					]
 				},
 				{
 					"gloss": " ה׳ השער <i>to break up, unsettle the market, to raise prices arbitrarily, create a panic</i>. ",
@@ -72,7 +83,18 @@
 						"<cite ref=\"Mishnah Taanit 2:9\">Taan. II, 9</cite> <he>שלא להַפְקִיעַ השערים</he> in order not to cause a sudden rise of market prices (by creating the impression of impending scarcity). ",
 						"<cite ref=\"Megillah 17b:15\">Meg. 17ᵇ</cite> <he>כנגד מַפְקִיעֵי שערים</he> a prayer against those who raise prices (speculating on a coming scarcity)."
 					],
-					"label": "3"
+					"label": "4",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "3",
+							"stored": "4",
+							"evidence": "print sets 2) twice (Q01502, 1210b); the run 1 2 2 3 determines this as 4 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+							"source": "P000576",
+							"date": "2026-10-14"
+						}
+					]
 				}
 			],
 			"stem": "Hif."

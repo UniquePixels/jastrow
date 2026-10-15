@@ -70,7 +70,18 @@
 			"units": [
 				"<cite ref=\"Targum Jonathan on Ezekiel 45:4\">Targ. Ez. XLV, 4</cite>; <cite ref=\"Targum Jonathan on Ezekiel 48:21\">ib. XLVIII, 21</cite> constr. <cite ref=\"K00488\"><he>כֵּיבַשׁ</he></cite> ed. Wil. (h. text <he>מקדש</he>)."
 			],
-			"label": "6"
+			"label": "7",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "6",
+					"stored": "7",
+					"evidence": "print sets 6) twice (K00086, 611b); the run 1 2 3 4 5 6 6 determines this as 7 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000569",
+					"date": "2026-10-14"
+				}
+			]
 		}
 	]
 }

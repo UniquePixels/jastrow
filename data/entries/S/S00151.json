@@ -77,12 +77,34 @@
 					"units": [
 						"<cite ref=\"Shabbat 119a:9\">Sabb. 119ᵃ</cite> <he>אי רגיליתו לאַקְדּוּמֵי … אַקְדִּימוּ</he> if you are accustomed to take an early meal, make it later (on the Sabbath), and if you are used to dine late, dine earlier. Ib. 151ᵇ when a poor man comes, <he>אַקְדִּים … דליקַדְּמוּ וכ׳</he> be quick in giving him bread, in order that people may be ready to do so to thy children."
 					],
-					"label": "3"
+					"label": "4",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "3",
+							"stored": "4",
+							"evidence": "print sets 3) twice (S00151, 1316b); the run 1 2 3 3 4 determines this as 4 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+							"source": "P000577",
+							"date": "2026-10-14"
+						}
+					]
 				},
 				{
 					"gloss": "<i>to give preference to</i>. Y. Snh. I, 18ᶜ bot. <he>אַקִדְּמוּן ליה … בעיבור</he> they preferred a certain old man to him at the session for intercalation; Y. R. Hash. II, 58ᵇ top; a. e.",
 					"units": [],
-					"label": "4"
+					"label": "5",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "4",
+							"stored": "5",
+							"evidence": "print sets 3) twice (S00151, 1316b); the run 1 2 3 3 4 determines this as 5 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+							"source": "P000578",
+							"date": "2026-10-14"
+						}
+					]
 				}
 			],
 			"stem": "Af."

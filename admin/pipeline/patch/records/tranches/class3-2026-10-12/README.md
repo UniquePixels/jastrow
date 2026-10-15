@@ -11,6 +11,13 @@ directory records the patches those 18 answers decided. The other
 four ticks are "nest" answers, which no patch op can carry out yet
 ([below](#what-the-ticks-decided-that-is-not-here)).
 
+**Renumbered under ruling 10-13 (PR #NNN, 2026-10-15).** The "keep
+print's number" ticks are superseded: each doubled number is now
+renumbered and annotated, the splits here standing
+([`../class3-renumber-2026-10-15/`](../class3-renumber-2026-10-15/README.md)).
+The right-hand label lists below are historical: they are the lists
+these patches made, not the lists the entries hold now.
+
 ## The ruling
 
 A self-numbered sense is one whose own text holds an in-text `—N)`,

@@ -8,7 +8,7 @@ the contract's type, schema and checks (`annotations.ts`), the patch
 10's both-ways check. `implied` is retired and rule 3 changed in PR
 #174, the implied-I data PR, which writes the first five annotations
 (the proven implied Is); the other data changes are the follow-up PRs
-of §6. It
+of §6 (PR #175 the RP8 marks, PR #NNN the class 3 renumber). It
 lives beside the contract it extends because `docs/specs/` is retired
 ([`docs/glossary.md`](../../docs/glossary.md) § Retired terms) and a
 dated spec is not a live document.
@@ -246,7 +246,10 @@ reading is never lost.
 3. **Data:** the implied I audit (done in PR #174: 5 displayed and
    annotated; 9 withdrawn to bare and reviewed-kept; the 10 cross-references
    retargeted to the I), the class 3 renumber (with S01849's
-   cross-reference), P00790 (after L59), the RP8 marks
+   cross-reference; done in PR #NNN: 24 labels renumbered by annotated
+   `retag`s, S01849's `Pi. 4)` → `Pi. 5)` by an annotated `replace`,
+   and U01512's `a) … 2)` annotated `kept` by the first `annotate`, on
+   the child a `nest` made), P00790 (after L59), the RP8 marks
    (61; done in PR #175: 24 retags annotated in place, 36 moved to
    `reviewed/` with their splits and annotated, D00072 converted to a
    `retag` + `split`), and round 2 (L46).

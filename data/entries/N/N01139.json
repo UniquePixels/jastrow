@@ -46,7 +46,18 @@
 					"units": [
 						"<cite ref=\"Bereishit Rabbah 28\">Gen. R. s. 28</cite> <he>מֵנֵיץ</he> Ar. (ed. <he>מציץ</he>), v. <cite ref=\"R00224\"><he>צוּץ</he></cite>."
 					],
-					"label": "2"
+					"label": "3",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "2",
+							"stored": "3",
+							"evidence": "print sets 2) twice (N01139, 929b); the run 1 2 2 determines this as 3 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+							"source": "P000573",
+							"date": "2026-10-14"
+						}
+					]
 				}
 			],
 			"stem": "Hif."
