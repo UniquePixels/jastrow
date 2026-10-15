@@ -169,7 +169,7 @@ path (`body/trace.ts`), and `finishEntry` writes `field` and `stored`
   replacement that leaves a half tag, lands in a lettered child or
   occurs twice is a red gate 9. D00072's implied `1)` (§4) was a
   `replace` that wrote the `1)` into the gloss, so it could not be
-  annotated as a label; since PR #n it is a `retag` (P000554, annotated)
+  annotated as a label; since PR #175 it is a `retag` (P000554, annotated)
   and a `split` at `—2)` (P000555).
 - `annotate`: `payload.field` names the field. On a `sense[…]` target,
   `label`, `gloss` or `units` (the gloss or the unit that holds
@@ -247,6 +247,6 @@ reading is never lost.
    annotated; 9 withdrawn to bare and reviewed-kept; the 10 cross-references
    retargeted to the I), the class 3 renumber (with S01849's
    cross-reference), P00790 (after L59), the RP8 marks
-   (61; done in PR #n: 24 retags annotated in place, 36 moved to
+   (61; done in PR #175: 24 retags annotated in place, 36 moved to
    `reviewed/` with their splits and annotated, D00072 converted to a
    `retag` + `split`), and round 2 (L46).

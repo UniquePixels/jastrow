@@ -1,7 +1,7 @@
 # RP8 marks under ruling 10-13 (2026-10-14)
 
 Data PR (ii) of [`docs/correction-audit.md`](../../../../../../docs/correction-audit.md)
-§7, PR #n. It gives each of the 61 implied `1)` labels that ruling RP8
+§7, PR #175. It gives each of the 61 implied `1)` labels that ruling RP8
 carried into the data the annotation ruling 10-13 owes it.
 
 ## The ruling

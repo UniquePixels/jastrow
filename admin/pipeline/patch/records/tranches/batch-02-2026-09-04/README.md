@@ -9,7 +9,7 @@
 > reference to the retired patch. The measurements below are of the
 > sweep as it ran.
 >
-> **2026-10-14 — two more left (PR #n).** P000078 and P000079, A00339's
+> **2026-10-14 — two more left (PR #175).** P000078 and P000079, A00339's
 > implied-`1)` split and retag, moved to
 > [`../../reviewed/patches.jsonl`](../../reviewed/patches.jsonl) with
 > their ids, so the retag can carry its annotation (ruling 10-13

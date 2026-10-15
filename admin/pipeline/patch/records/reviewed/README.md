@@ -70,7 +70,7 @@ Since PR #174 five carry one: the implied-I reforms P000343, P000344,
 P000348, P000353 and P000355, each a `print-error` on the I that
 Jastrow's text names (data PR (i) of `docs/correction-audit.md` §7;
 [`../tranches/implied-i-2026-10-14/`](../tranches/implied-i-2026-10-14/README.md)).
-Since PR #n 61 more do: the retags that set RP8's implied `1)` labels,
+Since PR #175 61 more do: the retags that set RP8's implied `1)` labels,
 each a `print-error` on the label (data PR (ii);
 [`../tranches/rp8-marks-2026-10-14/`](../tranches/rp8-marks-2026-10-14/README.md)).
 24 were here already. 36 were agent patches, in
@@ -81,7 +81,7 @@ patch may not carry an annotation. D00072's is P000554, new. The other
 data PRs follow (review ledger plan group 6b).
 
 On 2026-10-14 (PR #174) 9 more left: the implied-I reforms whose I no
-text of Jastrow's names (ruling 10-13 correction policy). In PR #n
+text of Jastrow's names (ruling 10-13 correction policy). In PR #175
 P000214 followed: D00072's `replace` that wrote its implied `1)` into
 the gloss, replaced by a `retag` (P000554) and a `split` (P000555).
 Their bytes are at
@@ -136,7 +136,7 @@ rules can make these two patches report drift.
 repairs, places where v2 deliberately differs from the printed text
 (upstream-issues register #16). That register now lives in the
 reviewed patches' `rationale`: the implied `1)` labels (B01321,
-C01169, U01787, D00072) and D00341's bracket move. Since PR #n the
+C01169, U01787, D00072) and D00341's bracket move. Since PR #175 the
 implied `1)` labels also carry a `print-error` annotation each, and
 D00072's is a label (P000554), no longer text.
 
