@@ -1,7 +1,7 @@
 # Class 3 renumber under ruling 10-13 (2026-10-15)
 
 Data PR (iii) of [`docs/correction-audit.md`](../../../../../../docs/correction-audit.md)
-§7, PR #NNN. It renumbers the 18 doubled sense numbers that the class 3
+§7, PR #176. It renumbers the 18 doubled sense numbers that the class 3
 scan review kept as printed, updates the one cross-reference that names
 a renumbered sense (S01849), and records U01512's `a) … 2)` as kept.
 

@@ -56,7 +56,7 @@ zero must be; its module stays for a re-fetch.
 
 **Renumbered 2026-10-15.** Ruling `10-13 correction policy` makes a
 doubled number a print error the run determines, so the 18 split
-entries' "keep print's number" ticks are superseded: PR #NNN renumbers
+entries' "keep print's number" ticks are superseded: PR #176 renumbers
 every label after each doubled one with 24 annotated `retag`s
 (P000556–P000579; `1 2 2 3` → `1 2 3 4`, P00059's Pi. `4 4 6` →
 `4 5 6`), rewrites S01849's cross-reference `עָבַר Pi. 4)` to `Pi. 5)`
@@ -1012,7 +1012,7 @@ though both are mirrored.
 Applied in PR #166: P000518 splits `—4) (prep. a. adv.)` out of sense 4
 under print's number (labels `1 2 *3 4` → `1 2 *3 4 4`).
 
-Renumbered in PR #NNN under 10-13: P000556 renumbers the second `4` to
+Renumbered in PR #176 under 10-13: P000556 renumbers the second `4` to
 `5`, annotated with print's `4` (labels `1 2 *3 4 4` → `1 2 *3 4 5`).
 
 ### B01299 (`בְּרַם`)
@@ -1040,7 +1040,7 @@ the hOCR.
 Applied in PR #166: P000519 splits `—3) interj.` out of sense 3 under
 print's number (labels `· 1 2 3` → `· 1 2 3 3`).
 
-Renumbered in PR #NNN under 10-13: P000557 renumbers the second `3` to
+Renumbered in PR #176 under 10-13: P000557 renumbers the second `3` to
 `4`, annotated with print's `3` (labels `· 1 2 3 3` → `· 1 2 3 4`).
 
 ### C00263 (`גֵּו ²`), class 4's residue
@@ -1108,7 +1108,7 @@ twice and print's `3)` after them.
 Applied in PR #166: P000520 splits `—2) (cmp. גְּוִיל) stone` out of sense
 2 under print's number (labels `1 2 3` → `1 2 2 3`).
 
-Renumbered in PR #NNN under 10-13: P000558 and P000559 renumber the
+Renumbered in PR #176 under 10-13: P000558 and P000559 renumber the
 second `2` and the `3` after it to `3` and `4`, each annotated with
 print's number (labels `1 2 2 3` → `1 2 3 4`).
 
@@ -1178,7 +1178,7 @@ and the in-text marker is a garbled numeral the scan should confirm.
 Applied in PR #166: P000521 splits `—3) (= גַּרְגַּר) globule` out of
 sense 3 under print's number (labels `· 1 2 3` → `· 1 2 3 3`).
 
-Renumbered in PR #NNN under 10-13: P000560 renumbers the second `3` to
+Renumbered in PR #176 under 10-13: P000560 renumbers the second `3` to
 `4`, annotated with print's `3` (labels `· 1 2 3 3` → `· 1 2 3 4`).
 
 ### C00872 (`גַּלְגַּל ²`)
@@ -1206,7 +1206,7 @@ Recommendation: keep print's number (high): both markers read `4`.
 Applied in PR #166: P000522 splits `—4) (v. next w.)` out of sense 4 under
 print's number (labels `1 2 3 4` → `1 2 3 4 4`).
 
-Renumbered in PR #NNN under 10-13: P000561 renumbers the second `4` to
+Renumbered in PR #176 under 10-13: P000561 renumbers the second `4` to
 `5`, annotated with print's `4` (labels `1 2 3 4 4` → `1 2 3 4 5`).
 
 ### G00456 (`זְכֵי`)
@@ -1237,7 +1237,7 @@ print's, and nothing in the hOCR numbers the host otherwise.
 Applied in PR #166: P000523 splits `—4) to take possession` out of Kal
 sense 4 under print's number (labels `1 2 3 4` → `1 2 3 4 4`).
 
-Renumbered in PR #NNN under 10-13: P000562 renumbers the second `4` to
+Renumbered in PR #176 under 10-13: P000562 renumbers the second `4` to
 `5`, annotated with print's `4` (labels Kal `1 2 3 4 4` → Kal
 `1 2 3 4 5`).
 
@@ -1271,7 +1271,7 @@ only witness for the in-text marker, and numbering on would renumber a
 Applied in PR #166: P000524 splits `—2) (euphem. = b. h. יָדַע)` out of
 Kal sense 2 under print's number (labels `· 1 2 3` → `· 1 2 2 3`).
 
-Renumbered in PR #NNN under 10-13: P000563 and P000564 renumber the
+Renumbered in PR #176 under 10-13: P000563 and P000564 renumber the
 second `2` and the `3` after it to `3` and `4`, each annotated with
 print's number (labels Kal `· 1 2 2 3` → Kal `· 1 2 3 4`).
 
@@ -1302,7 +1302,7 @@ clear in the hOCR.
 Applied in PR #166: P000525 splits `—2) to sign` out of Kal sense 2 under
 print's number (labels `1 2 3` → `1 2 2 3`).
 
-Renumbered in PR #NNN under 10-13: P000565 and P000566 renumber the
+Renumbered in PR #176 under 10-13: P000565 and P000566 renumber the
 second `2` and the `3` after it to `3` and `4`, each annotated with
 print's number (labels Kal `1 2 2 3` → Kal `1 2 3 4`).
 
@@ -1335,7 +1335,7 @@ should confirm.
 Applied in PR #166: P000526 splits `—3) to weary` out of Kal sense 3 under
 print's number (labels `· 1 2 3 4 (a b)` → `· 1 2 3 3 4 (a b)`).
 
-Renumbered in PR #NNN under 10-13: P000567 and P000568 renumber the
+Renumbered in PR #176 under 10-13: P000567 and P000568 renumber the
 second `3` and the `4` after it to `4` and `5`, each annotated with
 print's number (labels Kal `· 1 2 3 3 4 (a b)` → Kal
 `· 1 2 3 4 5 (a b)`).
@@ -1366,7 +1366,7 @@ Recommendation: keep print's number (high): both markers read `6`.
 Applied in PR #166: P000527 splits `—6) (archit.) recess` out of sense 6
 under print's number (labels `1 2 3 4 5 6` → `1 2 3 4 5 6 6`).
 
-Renumbered in PR #NNN under 10-13: P000569 renumbers the second `6` to
+Renumbered in PR #176 under 10-13: P000569 renumbers the second `6` to
 `7`, annotated with print's `6` (labels `1 2 3 4 5 6 6` →
 `1 2 3 4 5 6 7`).
 
@@ -1397,7 +1397,7 @@ Recommendation: keep print's number (high): both markers read `3`.
 Applied in PR #166: P000528 splits `—3) to decide` out of Kal sense 3
 under print's number (labels `1 2 3` → `1 2 3 3`).
 
-Renumbered in PR #NNN under 10-13: P000570 renumbers the second `3` to
+Renumbered in PR #176 under 10-13: P000570 renumbers the second `3` to
 `4`, annotated with print's `3` (labels Kal `1 2 3 3` → Kal `1 2 3 4`).
 
 ### M00596 (`מוּקְצֶה`)
@@ -1425,7 +1425,7 @@ Recommendation: keep print's number (high): both markers read `4`.
 Applied in PR #166: P000529 splits `—4) (Sabbath law)` out of sense 4
 under print's number (labels `· 1 2 3 4` → `· 1 2 3 4 4`).
 
-Renumbered in PR #NNN under 10-13: P000571 renumbers the second `4` to
+Renumbered in PR #176 under 10-13: P000571 renumbers the second `4` to
 `5`, annotated with print's `4` (labels `· 1 2 3 4 4` → `· 1 2 3 4 5`).
 
 ### M02130 (`מַעֲלָה`)
@@ -1456,7 +1456,7 @@ Applied in PR #166: P000530 splits `—3) height, on high` out of sense 3
 under print's number (labels `· 1 2 3 (a b c d)` → `· 1 2 3 3 (a b c
 d)`).
 
-Renumbered in PR #NNN under 10-13: P000572 renumbers the second `3` to
+Renumbered in PR #176 under 10-13: P000572 renumbers the second `3` to
 `4`, annotated with print's `3` (labels `· 1 2 3 3 (a b c d)` →
 `· 1 2 3 4 (a b c d)`).
 
@@ -1485,7 +1485,7 @@ Recommendation: keep print's number (high): both markers read `2`.
 Applied in PR #166: P000531 splits `—2) to cause to sprout` out of Hif.
 sense 2 under print's number (labels `1 2` → `1 2 2`).
 
-Renumbered in PR #NNN under 10-13: P000573 renumbers the second `2` to
+Renumbered in PR #176 under 10-13: P000573 renumbers the second `2` to
 `3`, annotated with print's `2` (labels Hif. `1 2 2` → Hif. `1 2 3`).
 
 ### P00059 (`עָבַר`)
@@ -1526,7 +1526,7 @@ Ber.` link it was caught in, and P000534 splits `—6) to complement`
 out as print's `6`, the note read as the Pi. label list (labels
 `1 2 3 4` → `1 2 3 4 4 6`).
 
-Renumbered in PR #NNN under 10-13: P000574 renumbers the second `4` to
+Renumbered in PR #176 under 10-13: P000574 renumbers the second `4` to
 `5`, annotated with print's `4` (labels Pi. `1 2 3 4 4 6` → Pi.
 `1 2 3 4 5 6`). The maintainer confirmed it on 2026-10-14, and S01849's
 cross-reference `עָבַר Pi. 4)` becomes `Pi. 5)` (P000580).
@@ -1559,7 +1559,7 @@ clear.
 Applied in PR #166: P000535 splits `—2) [to cause breaking loose,]` out of
 Hif. sense 2 under print's number (labels `1 2 3` → `1 2 2 3`).
 
-Renumbered in PR #NNN under 10-13: P000575 and P000576 renumber the
+Renumbered in PR #176 under 10-13: P000575 and P000576 renumber the
 second `2` and the `3` after it to `3` and `4`, each annotated with
 print's number (labels Hif. `1 2 2 3` → Hif. `1 2 3 4`).
 
@@ -1590,7 +1590,7 @@ clear.
 Applied in PR #166: P000536 splits `—3) to be earlier than` out of Af.
 sense 3 under print's number (labels `1 2 3 4` → `1 2 3 3 4`).
 
-Renumbered in PR #NNN under 10-13: P000577 and P000578 renumber the
+Renumbered in PR #176 under 10-13: P000577 and P000578 renumber the
 second `3` and the `4` after it to `4` and `5`, each annotated with
 print's number (labels Af. `1 2 3 3 4` → Af. `1 2 3 4 5`).
 
@@ -1628,7 +1628,7 @@ nests `a)` and `—2)` under `—Part. pass. מַשְׁמֵע`, keeping print's 
 as his note reads (labels Af. `1 2` → Af. `1 2 · (a 2)`; mechanism:
 `replace` + the new `nest` op, ruling `10-12 nested sublists`).
 
-Annotated kept in PR #NNN under 10-13: P000581, an `annotate` on the
+Annotated kept in PR #176 under 10-13: P000581, an `annotate` on the
 nested `2`, records print's `a)` then `2)` as case 3 (`a) b)` and
 `1) 2)` are both possible), `printed` and `stored` both `2`; nothing
 else changes.
@@ -1659,7 +1659,7 @@ Recommendation: keep print's number (high): both markers read `4`.
 Applied in PR #166: P000537 splits `—4) to get hot, ferment` out of Kal
 sense 4 under print's number (labels `1 2 3 4` → `1 2 3 4 4`).
 
-Renumbered in PR #NNN under 10-13: P000579 renumbers the second `4` to
+Renumbered in PR #176 under 10-13: P000579 renumbers the second `4` to
 `5`, annotated with print's `4` (labels Kal `1 2 3 4 4` → Kal
 `1 2 3 4 5`).
 

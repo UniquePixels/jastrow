@@ -46,9 +46,9 @@ audit's predicate counts five more rows than §4's.
 | Implied I, sequence only | withdrawn: retire the reform patch, add a reviewed-kept record | 9 entries | (i) |
 | Their cross-references | case 1: retarget the link to the I | 10 links in 10 entries | (i) |
 | RP8 implied `1)` | case 2, kept: annotate `printed: ''`, `stored: '1'` | 61 patches on 61 entries (36 move from agent tranches to `reviewed/`; D00072 converts) | (ii), done in PR #175 |
-| Class 3 doubled numbers | case 2: renumber, one annotation per changed label | 18 entries, 24 annotations | (iii), done in PR #NNN |
-| S01849's `עָבַר Pi. 4)` | case 2: rewrite to `Pi. 5)`, annotated | 1 | (iii), done in PR #NNN |
-| U01512's `a) … 2)` | case 3: `annotate`, `kept` | 1 | (iii), done in PR #NNN |
+| Class 3 doubled numbers | case 2: renumber, one annotation per changed label | 18 entries, 24 annotations | (iii), done in PR #176 |
+| S01849's `עָבַר Pi. 4)` | case 2: rewrite to `Pi. 5)`, annotated | 1 | (iii), done in PR #176 |
+| U01512's `a) … 2)` | case 3: `annotate`, `kept` | 1 | (iii), done in PR #176 |
 | S01780's half-printed qamats | case 4: ticked in round 2, annotated `illegible` | 1 | (iv) |
 | Round 2 (L46) | your ticks, applied under 10-13 | 16 questions | (iv) |
 | Single-numeral cross-references whose target lacks the numeral | 222 determined retargets (case 1; the 10 above among them); 74 rows to read, in 48 worklist questions | 296 rows | (v) |
@@ -299,7 +299,7 @@ other 57 keep their lead. No new op is needed.
 
 ## 3. Class 3 doubled numbers (18 entries, 24 annotations) and S01849
 
-**Done in PR #NNN** (data PR (iii)): the 24 `retag`s are P000556–P000579,
+**Done in PR #176** (data PR (iii)): the 24 `retag`s are P000556–P000579,
 S01849's `replace` is P000580, and every list below now reads as its
 "after" column
 ([tranche README](../admin/pipeline/patch/records/tranches/class3-renumber-2026-10-15/README.md)).
@@ -367,7 +367,7 @@ sense number.
 | rid | the data now | case | patch | scan |
 |---|---|---|---|---|
 | P00790 | Hif. `a b c d`, with `f) g) h)` left in `d`'s text (L55) | 2 | waits on L59's lettered relabel: `a b c d f g h` → `a b c d e f g`, one annotation per changed child label (`printed` `f`, `g`, `h`), evidence `print skips e) (1081a); the run determines it` | [1081a · leaf 404](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$405/full/1400,/0/default.jpg) |
-| U01512 | Af. `1 2 · (a 2)`: the nest of P000543 | 3 | `annotate` on the nest's `2)` child, payload `{field: 'label'}`, annotation `{kind: 'kept', printed: '2', evidence: 'print sets a) then 2): read as 1) 2) or a) b); kept (ruling 10-12; your note "2)", 2026-10-12)', date: '2026-10-14'}`. To confirm in the PR: that an `annotate` target reaches a child a `nest` made. **Done in PR #NNN:** P000581; the target reaches the nested child with no code change | [1599a · leaf 922](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$923/full/1400,/0/default.jpg) |
+| U01512 | Af. `1 2 · (a 2)`: the nest of P000543 | 3 | `annotate` on the nest's `2)` child, payload `{field: 'label'}`, annotation `{kind: 'kept', printed: '2', evidence: 'print sets a) then 2): read as 1) 2) or a) b); kept (ruling 10-12; your note "2)", 2026-10-12)', date: '2026-10-14'}`. To confirm in the PR: that an `annotate` target reaches a child a `nest` made. **Done in PR #176:** P000581; the target reaches the nested child with no code change | [1599a · leaf 922](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$923/full/1400,/0/default.jpg) |
 | S01780 | `קֵץ`, `קִצ`, `ּא`, `קִי׳`: the alternate torn in two | 4 | ticked in round 2 (working copy): `קִצָּא`, with your note that only part of the qamats printed. Two chained reviewed `reform`s, because a reform that changes the number of forms cannot carry an annotation: first rejoin `קִצ` + `ּא` (case 1, no annotation), then respell `קִצּא` → `קִצָּא` with `{kind: 'illegible', printed: 'קִצּא', evidence: 'only the vertical stroke of the qamats printed; S01120 spells the word קִצָּא', date: …}` | [1404a · leaf 727](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$728/full/1400,/0/default.jpg) |
 
 ## 5. The 296 cross-reference numerals
@@ -730,7 +730,7 @@ The three unclassified:
    place; 36 retags moved with their companion splits from 4 agent
    tranches into `reviewed/`; D00072's `replace` (P000214) retired for
    a `retag` + `split` pair (P000554, P000555).
-3. **(iii) Class 3 renumber.** Done in PR #NNN. 24 new `retag`s on
+3. **(iii) Class 3 renumber.** Done in PR #176. 24 new `retag`s on
    18 entries, each annotated (P000556–P000579); S01849's `replace`
    (P000580); U01512's `annotate` (P000581).
 4. **(iv) Round 2 (L46)** once your ticks are committed: the 16
@@ -754,7 +754,7 @@ The three unclassified:
   the bare form. The PR's dry import should show only the numeral, the
   name and the X10 row moving.
 - **To confirm in the PRs**: that an `annotate` target reaches a child
-  a `nest` made (U01512; confirmed in PR #NNN with no code change:
+  a `nest` made (U01512; confirmed in PR #176 with no code change:
   `walkSenses` visits a sense's children and `buildTextChild` carries
   the draft), and that two chained `reform`s on one rid apply in order
   (S01780; their targets differ by hash, so the one-patch-per-target

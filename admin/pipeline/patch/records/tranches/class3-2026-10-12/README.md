@@ -11,7 +11,7 @@ directory records the patches those 18 answers decided. The other
 four ticks are "nest" answers, which no patch op can carry out yet
 ([below](#what-the-ticks-decided-that-is-not-here)).
 
-**Renumbered under ruling 10-13 (PR #NNN, 2026-10-15).** The "keep
+**Renumbered under ruling 10-13 (PR #176, 2026-10-15).** The "keep
 print's number" ticks are superseded: each doubled number is now
 renumbered and annotated, the splits here standing
 ([`../class3-renumber-2026-10-15/`](../class3-renumber-2026-10-15/README.md)).
