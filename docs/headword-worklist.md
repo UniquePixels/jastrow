@@ -2371,6 +2371,12 @@ it: re-run the report before working this list.
 
 ## Cross-reference numerals (2026-10-14)
 
+**Status:** the determined retargets are applied in PR #n (196
+cites on 184 entries; [`correction-audit.md`](correction-audit.md)
+§5.1 lists the 16 not written there: 10 in `language_reference`
+waiting on review ledger L50, and 6 `X I ch.` cites held for a read).
+The 48 questions below still wait on your ticks.
+
 A new list, from the correction audit
 ([`correction-audit.md`](correction-audit.md) §5): cites whose text
 names a homograph numeral (`v. סְגֵי I`) that the entry Sefaria links
