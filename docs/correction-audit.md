@@ -51,7 +51,7 @@ audit's predicate counts five more rows than §4's.
 | U01512's `a) … 2)` | case 3: `annotate`, `kept` | 1 | (iii), done in PR #176 |
 | S01780's half-printed qamats | case 4: ticked in round 2, annotated `illegible` | 1 | (iv), done in PR #177 |
 | Round 2 (L46) | your ticks, applied under 10-13 | 16 questions | (iv), done in PR #177 |
-| Single-numeral cross-references whose target lacks the numeral | 222 determined retargets (case 1; the 10 above among them); 74 rows to read, in 48 worklist questions | 296 rows | (v) |
+| Single-numeral cross-references whose target lacks the numeral | 222 determined retargets (case 1; the 10 above among them); 74 rows to read, in 48 worklist questions | 296 rows | (v); determined half (v-a) done in PR #178: 196 retargets |
 | P00790's Hif. run | case 2: `a b c d f g h` → `a b c d e f g` | 1 | after L59 |
 | Past patches with no case | D00341's bracket move and G00675's disambiguator: no annotation | 3 | none |
 
@@ -429,6 +429,29 @@ gloss head). Each block says so.
 
 ### 5.1 (a) determined: 222 retargets
 
+**Done in PR #178** (data PR (v-a)): 196 retargets, P000595–P000790 on
+184 entries, each a `replace` of the source anchor as below, with no
+annotation
+([`tranches/cite-retargets-2026-10-15/`](../admin/pipeline/patch/records/tranches/cite-retargets-2026-10-15/README.md)).
+The set was recomputed at `b70aab115` by this section's predicate,
+which reproduces this table row for row at `98804214d`, and reads 215
+determined there. **Out, 10:** the ten of §1.2 (rows 3, 34, 44, 57,
+121, 147, 150, 152, 153, 219), done in PR #174. **In, 3, not
+written:** H00731 `חוּל I ch.` (PR #177 numbered H00319 I, but the
+round 2 tick aimed this cite at H00320, the `ch.` line, and it stays),
+and H01057 and H01105 `חֵלֶף I` (determined since PR #177 respelled
+H01100; they wait on the worklist question `חֵלֶף I`). **Not written
+here, 16:** the 10 `language_reference` rows (12, 19, 51, 58, 64, 85,
+143, 146, 179, 182), which wait on L50; and 6 rows whose cite reads
+`X I ch.` (2, 20, 21, 22, 23, 206), held for a read, since Jastrow's
+`X I ch.` names the unnumbered `ch.` line after `X I` (B01153 for the
+five `בַּר I ch.`, A00879 for `אוּרְיָא II ch.`), as H00731's tick
+read it, not the Hebrew `X I` this predicate finds. The six
+`find ×2` pairs are two chained patches each: the first widens `find`
+with the text after the anchor, the second finds the bare anchor on
+the definition the first leaves. All 30 `†` keys resolved (gate 6).
+The predicate after: 287 cites → 91, 215 determined → 19.
+
 Case 1. The patch is §1.2's: a `replace` of the source anchor with one
 naming the target's link key; no annotation. `match` says where the
 carrier's numeral sits: `form`, on the form spelled as the cite (78);
@@ -742,7 +765,10 @@ The three unclassified:
    and H00733's `חוּל I` sit in `language_reference` and wait on L50.
 5. **(v) Cross-reference numerals.** First the 212 determined
    retargets not in (i) (10 of them wait on L50's op); then the 48
-   worklist answers.
+   worklist answers. The determined half, (v-a), is done in PR #178:
+   196 retargets (P000595–P000790) on 184 entries; 10 rows wait on
+   L50 and 6 `X I ch.` rows are held for a read (§5.1). The 74-row
+   worklist half waits on the maintainer's ticks.
 6. **P00790**, after L59.
 
 **Mechanisms the data PRs lack or must confirm:**
@@ -753,7 +779,9 @@ The three unclassified:
 - **D00072 cannot be annotated as a `replace`**; it converts to a
   `retag` + `split` (§2.3). No code changes. Done in PR #175.
 - **No op edits `language_reference`** (L50): 10 determined retargets
-  and 3 worklist cites (P00866, M02733, M02738) wait on it.
+  and 3 worklist cites (P00866, M02733, M02738) wait on it. The 10
+  are §5.1 rows 12, 19, 51, 58, 64, 85, 143, 146, 179 and 182, still
+  waiting after PR #178.
 - **Removing an implied I needs no op**: retiring the reform restores
   the bare form. The PR's dry import should show only the numeral, the
   name and the X10 row moving.
