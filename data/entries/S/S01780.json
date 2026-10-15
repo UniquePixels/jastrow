@@ -8,17 +8,25 @@
 			"disambiguator": 2
 		},
 		{
-			"text": "קִצ"
-		},
-		{
-			"text": "ּא"
+			"text": "קִצָּא",
+			"annotations": [
+				{
+					"field": "text",
+					"kind": "illegible",
+					"printed": "קִצּא",
+					"stored": "קִצָּא",
+					"evidence": "only the vertical stroke of the qamats printed (1404a); S01120 spells the word קִצָּא; the maintainer's read 2026-10-13: \"Honestly this one is a bit of an educated guess as the text is not clear.  It deff needs an anotation.  The text only has a vertical line, it seems the top part of the qamats did not print, or lost to scan).\"",
+					"source": "P000589",
+					"date": "2026-10-15"
+				}
+			]
 		},
 		{
 			"text": "קִי׳",
 			"partial": true
 		}
 	],
-	"display": "{0}, {1}, {2}, {3}",
+	"display": "{0}, {1}, {2}",
 	"page": {
 		"number": 1404,
 		"column": "a"

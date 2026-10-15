@@ -8,13 +8,14 @@
 		},
 		{
 			"text": "שִׁילְ׳",
-			"partial": true
+			"partial": true,
+			"homograph": 1
 		},
 		{
 			"text": "שִׁלֵּשׁ"
 		}
 	],
-	"display": "{0}, {1}, {2}",
+	"display": "{0}, {1} I, {2}",
 	"page": {
 		"number": 1589,
 		"column": "b"

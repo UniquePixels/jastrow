@@ -7,17 +7,18 @@
 			"text": "תֻּכָּא"
 		},
 		{
-			"text": "תַּכָּא"
+			"text": "תַּכָּא",
+			"homograph": 1
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0}, ({1} I)",
 	"page": {
 		"number": 1667,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": " I), v. <cite ref=\"V00198\"><he>תּוּכָּא</he></cite>",
+			"gloss": ", v. <cite ref=\"V00198\"><he>תּוּכָּא</he></cite>",
 			"units": []
 		}
 	]

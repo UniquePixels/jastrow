@@ -7,15 +7,14 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | Shape | Rows | Main | Alt | Flagged by the processor |
 |---|---|---|---|---|
 | H6 multi-word | 271 | 6 | 265 | 210 |
-| X1 starts with a vowel/dagesh mark | 5 | 2 | 3 | 0 |
-| X10 first homograph unnumbered: implied I candidate | 17 | 12 | 5 | 0 |
-| X3 non-final letter at word end | 1 | 0 | 1 | 0 |
+| X1 starts with a vowel/dagesh mark | 2 | 0 | 2 | 0 |
+| X10 first homograph unnumbered: implied I candidate | 9 | 4 | 5 | 0 |
 | X5 maqaf fragment | 140 | 113 | 27 | 1 |
 | X6 abbreviated alt (ends ׳) | 2240 | 0 | 2240 | 1527 |
 | X7 abbreviation headword (׳/״) | 134 | 123 | 11 | 4 |
-| X8 homograph numbering gap | 76 | 45 | 31 | 0 |
+| X8 homograph numbering gap | 70 | 39 | 31 | 0 |
 | X9 pointing differs within a numbered sequence | 5 | 0 | 5 | 0 |
-| Reviewed, kept | 43 | 43 | 0 | 0 |
+| Reviewed, kept | 55 | 55 | 0 | 0 |
 | Reviewed, kept: stale records | 0 | | | |
 
 ## H6 multi-word (271)
@@ -294,43 +293,26 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [E00007](https://jastrow.app/#rid:E00007) | alt | הֵא הֵא | הֵא II | two forms / reduplication |  |
 | [H01657](https://jastrow.app/#rid:H01657) | alt | חַר חַר | חַרְחַר | two forms / reduplication |  |
 
-## X1 starts with a vowel/dagesh mark (5)
+## X1 starts with a vowel/dagesh mark (2)
 
 | rid | role | text | name | note | flagged |
 |---|---|---|---|---|---|
-| [J00321](https://jastrow.app/#rid:J00321) | headword | ַיי | ַיי |  |  |
-| [J00327](https://jastrow.app/#rid:J00327) | headword | ַיְידָא | ַיְידָא |  |  |
-| [S01780](https://jastrow.app/#rid:S01780) | alt | ּא | קֵץ² |  |  |
 | [U00489](https://jastrow.app/#rid:U00489) | alt | ׁוּף | ש |  |  |
 | [V00518](https://jastrow.app/#rid:V00518) | alt | ּשַׁע | תִּישַׁע |  |  |
 
-## X10 first homograph unnumbered: implied I candidate (17)
+## X10 first homograph unnumbered: implied I candidate (9)
 
 | rid | role | text | name | note | flagged |
 |---|---|---|---|---|---|
 | [C00578](https://jastrow.app/#rid:C00578) | alt | גִּיזְרָא | גִּזְרָא² | C00577/alt גִּיזְרָא is a bare first form before a II; an I is set only where Jastrow's text names `גִּיזְרָא I` (10-13); 2 unnumbered: C00577/alt=—; C00578/alt=2; C00686=— |  |
 | [C00620](https://jastrow.app/#rid:C00620) | alt | גִּבָּ׳ | גִּיבָּרָא | C00619/alt גִּבּ׳ is a bare first form before a II; an I is set only where Jastrow's text names `גִּבּ׳ I` (10-13); 0 unnumbered: C00620/alt=2 |  |
-| [C00773](https://jastrow.app/#rid:C00773) | headword | גִּיס | גִּיס II | C00772 גֵּיס is a bare first form before a II; an I is set only where Jastrow's text names `גֵּיס I` (10-13); 0 unnumbered: C00773=2; C00774=2 |  |
-| [E00114](https://jastrow.app/#rid:E00114) | headword | הֲדָיָא | הֲדָיָא II | E00113 הֶדְיָא is a bare first form before a II; an I is set only where Jastrow's text names `הֶדְיָא I` (10-13); 0 unnumbered: E00114=2 |  |
-| [H00321](https://jastrow.app/#rid:H00321) | headword | חוּל | חוּל II | H00320 חוּל is a bare first form before a II; an I is set only where Jastrow's text names `חוּל I` (10-13); 3 unnumbered: H00319=—; H00320=—; H00321=2; H00322=— |  |
 | [H00833](https://jastrow.app/#rid:H00833) | alt | חִסּ׳ | חִיסּוּם | H00831/alt חִסּ׳ is a bare first form before a II; an I is set only where Jastrow's text names `חִסּ׳ I` (10-13); 3 unnumbered: H00830/alt=—; H00831/alt=—; H00833/alt=2; H00834/alt=— |  |
-| [I00081](https://jastrow.app/#rid:I00081) | headword | טְבַע | טְבַע II | I00080 טֶבַע is a bare first form before a II; an I is set only where Jastrow's text names `טֶבַע I` (10-13); 2 unnumbered: I00077=—; I00079=—; I00081=2 |  |
 | [L00656](https://jastrow.app/#rid:L00656) | alt | לִיפְ׳ | לִפְתָּן | L00654/alt לִיפְ׳ is a bare first form before a II; an I is set only where Jastrow's text names `לִיפְ׳ I` (10-13); 3 unnumbered: L00653/alt=—; L00654/alt=—; L00656/alt=2; L00657/alt=— |  |
 | [N00186](https://jastrow.app/#rid:N00186) | headword | נְגַר | נְגַר II | N00185 נְגַר is a bare first form before a II; an I is set only where Jastrow's text names `נְגַר I` (10-13); 1 unnumbered: N00185=—; N00186=2 |  |
 | [N00343](https://jastrow.app/#rid:N00343) | headword | נוֹחַ | נוֹחַ II | N00342 נוֹחַ is a bare first form before a II; an I is set only where Jastrow's text names `נוֹחַ I` (10-13); 1 unnumbered: N00342=—; N00343=2; N00344=3 |  |
 | [O00124](https://jastrow.app/#rid:O00124) | alt | סַגִּיא | סַגִּי² | O00123/alt סַגִּיא is a bare first form before a II; an I is set only where Jastrow's text names `סַגִּיא I` (10-13); 1 unnumbered: O00123/alt=—; O00124/alt=2 |  |
-| [T00376](https://jastrow.app/#rid:T00376) | headword | רוּם | רוּם II | T00375 רוּם is a bare first form before a II; an I is set only where Jastrow's text names `רוּם I` (10-13); 3 unnumbered: T00374=—; T00375=—; T00376=2; T00377=— |  |
 | [U00490](https://jastrow.app/#rid:U00490) | headword | שׁוּף | שׁוּף II | U00488 שׁוּף is a bare first form before a II; an I is set only where Jastrow's text names `שׁוּף I` (10-13); 2 unnumbered: U00488=—; U00490=2; U00491=—; U00492=3 |  |
-| [U01397](https://jastrow.app/#rid:U01397) | headword | שִׁלְשֵׁל | שִׁלְשֵׁל II | U01396 שִׁלְשֵׁל is a bare first form before a II; an I is set only where Jastrow's text names `שִׁלְשֵׁל I` (10-13); 1 unnumbered: U01396=—; U01397=2 |  |
 | [U01687](https://jastrow.app/#rid:U01687) | headword | שַׁעַר | שַׁעַר II | U01686 שַׁעַר is a bare first form before a II; an I is set only where Jastrow's text names `שַׁעַר I` (10-13); 1 unnumbered: U01686=—; U01687=2 |  |
-| [U02013](https://jastrow.app/#rid:U02013) | headword | שְׂרַף | שְׂרַף II | U02012 שְׂרָף is a bare first form before a II; an I is set only where Jastrow's text names `שְׂרָף I` (10-13); 2 unnumbered: U02004=—; U02006=—; U02013=2 |  |
-| [V00523](https://jastrow.app/#rid:V00523) | headword | תַּכָּא | תַּכָּא II | V00522/alt תַּכָּא is a bare first form before a II; an I is set only where Jastrow's text names `תַּכָּא I` (10-13); 1 unnumbered: V00522/alt=—; V00523=2 |  |
-
-## X3 non-final letter at word end (1)
-
-| rid | role | text | name | note | flagged |
-|---|---|---|---|---|---|
-| [S01780](https://jastrow.app/#rid:S01780) | alt | קִצ | קֵץ² |  |  |
 
 ## X5 maqaf fragment (140)
 
@@ -2861,13 +2843,12 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [V00841](https://jastrow.app/#rid:V00841) | headword | תפני׳ | תפני׳ |  |  |
 | [V00983](https://jastrow.app/#rid:V00983) | headword | תרי״ג | תרי״ג |  |  |
 
-## X8 homograph numbering gap (76)
+## X8 homograph numbering gap (70)
 
 | rid | role | text | name | note | flagged |
 |---|---|---|---|---|---|
 | [H00750](https://jastrow.app/#rid:H00750) | alt | חַיְּתָא | חַיְּיתָא | missing 1,2,3; 1 unnumbered: H00750/alt=4; H00898/alt=— |  |
 | [N00327](https://jastrow.app/#rid:N00327) | alt | נְוַל | נְוַול³ | missing 1,2; 1 unnumbered: N00327/alt=3; N00362/alt=— |  |
-| [H01222](https://jastrow.app/#rid:H01222) | headword | חֲמַר | חֲמַר III | missing 1,2; 2 unnumbered: H01219=—; H01221=—; H01222=3 |  |
 | [O00122](https://jastrow.app/#rid:O00122) | headword | סְגֵי | סְגֵי III | missing 1,2; 2 unnumbered: O00120=—; O00121=—; O00122=3 |  |
 | [T00895](https://jastrow.app/#rid:T00895) | headword | רְעִי | רְעִי III | missing 1,2; 2 unnumbered: T00892=—; T00893=—; T00895=3 |  |
 | [V00543](https://jastrow.app/#rid:V00543) | headword | תִּכְלָא | תִּכְלָא III | missing 1,2; 2 unnumbered: V00541/alt=—; V00542=—; V00543=3 |  |
@@ -2878,7 +2859,6 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [I00082](https://jastrow.app/#rid:I00082) | alt | טִיבְעָא | טִבְעָא | missing 1; 0 unnumbered: I00082/alt=2 |  |
 | [L00255](https://jastrow.app/#rid:L00255) | alt | לְיִיָּיה | לְוִיָּה | missing 1; 0 unnumbered: L00255/alt=2 |  |
 | [M00354](https://jastrow.app/#rid:M00354) | alt | מָ׳ | מְהוּלְתָּא | missing 1; 0 unnumbered: M00354/alt=2 |  |
-| [N00260](https://jastrow.app/#rid:N00260) | headword | נְהִי | נְהִי II | missing 1; 0 unnumbered: N00260=2; N00261/alt=2 |  |
 | [O00251](https://jastrow.app/#rid:O00251) | alt | סוּגְיָיא | סוּגְיָא | missing 1; 0 unnumbered: O00251/alt=2 |  |
 | [P00596](https://jastrow.app/#rid:P00596) | alt | עִמְ׳ | עִימְעוּם² | missing 1; 0 unnumbered: P00596/alt=2 |  |
 | [P00837](https://jastrow.app/#rid:P00837) | alt | עֵו׳ | עִלְעֵל | missing 1; 0 unnumbered: P00837/alt=2 |  |
@@ -2888,11 +2868,9 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [A02363](https://jastrow.app/#rid:A02363) | headword | אִסְטוֹמְכָא | אִסְטוֹמְכָא II | missing 1; 1 unnumbered: A02362=—; A02363=2 |  |
 | [A02413](https://jastrow.app/#rid:A02413) | headword | אִסְטְרַטְיָא | אִסְטְרַטְיָא II | missing 1; 1 unnumbered: A02412=—; A02413=2 |  |
 | [A02824](https://jastrow.app/#rid:A02824) | headword | אַפְרִיקִי | אַפְרִיקִי II | missing 1; 1 unnumbered: A02823=—; A02824=2 |  |
-| [A03217](https://jastrow.app/#rid:A03217) | headword | אָרַע | *אָרַע II | missing 1; 1 unnumbered: A03215=—; A03217=2 |  |
 | [B00050](https://jastrow.app/#rid:B00050) | headword | בָּב | בָּב II | missing 1; 1 unnumbered: B00049=—; B00050=2 |  |
 | [E00697](https://jastrow.app/#rid:E00697) | headword | הֶסֵּבָּה | הֶסֵּבָּה II | missing 1; 1 unnumbered: E00696=—; E00697=2 |  |
 | [G00550](https://jastrow.app/#rid:G00550) | alt | זִי׳ | זִמְרָא² | missing 1; 1 unnumbered: G00538/alt=—; G00550/alt=2 |  |
-| [H01101](https://jastrow.app/#rid:H01101) | headword | חֵלֶף | חֵלֶף II | missing 1; 1 unnumbered: H00780/alt=—; H01101=2 |  |
 | [J00752](https://jastrow.app/#rid:J00752) | headword | יִתְרָא | יִתְרָא II | missing 1; 1 unnumbered: J00751=—; J00752=2 |  |
 | [K00345](https://jastrow.app/#rid:K00345) | headword | כּוֹפֶר | כּוֹפֶר II | missing 1; 1 unnumbered: K00344=—; K00345=2 |  |
 | [K00877](https://jastrow.app/#rid:K00877) | alt | כִּנָּרָא | כִּנְּרָא | missing 1; 1 unnumbered: K00876=—; K00877/alt=2 |  |
@@ -2922,7 +2900,6 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [T00337](https://jastrow.app/#rid:T00337) | headword | רְוָוקָא | רְוָוקָא II | missing 1; 1 unnumbered: T00336=—; T00337=2 |  |
 | [U01047](https://jastrow.app/#rid:U01047) | headword | שִׁיקּוּר | שִׁיקּוּר II | missing 1; 1 unnumbered: U01046=—; U01047=2 |  |
 | [V01023](https://jastrow.app/#rid:V01023) | headword | תַּרְנְגוֹלָא | תַּרְנְגוֹלָא II | missing 1; 1 unnumbered: V01022/alt=—; V01023=2 |  |
-| [B01159](https://jastrow.app/#rid:B01159) | headword | בְּרָא | בְּרָא II | missing 1; 2 unnumbered: B01154/alt=—; B01159=2; B01237/alt=— |  |
 | [H00615](https://jastrow.app/#rid:H00615) | alt | חָטָא | חטי² | missing 1; 2 unnumbered: H00579=—; H00613/alt=—; H00615/alt=2 |  |
 | [K00129](https://jastrow.app/#rid:K00129) | alt | כְּדַאי | כְּדָיי² | missing 1; 2 unnumbered: K00102=—; K00128/alt=—; K00129/alt=2 |  |
 | [P00016](https://jastrow.app/#rid:P00016) | alt | עֲבֵיד | עֲבַד | missing 1; 2 unnumbered: P00014/alt=—; P00016/alt=2; P00044/alt=— |  |
@@ -2940,7 +2917,6 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [B00560](https://jastrow.app/#rid:B00560) | headword | בִּיזָּא | בִּיזָּא I | missing 2; 1 unnumbered: B00560=1; B00561=—; B00562=3 |  |
 | [O00563](https://jastrow.app/#rid:O00563) | headword | סִיגְנָא | סִיגְנָא I | missing 2; 1 unnumbered: O00563=1; O00564=—; O00565=3 |  |
 | [U00882](https://jastrow.app/#rid:U00882) | alt | שִׁטָּה | שִׁיטָּה | missing 2; 1 unnumbered: U00732/alt=—; U00882/alt=1; U00884/alt=3 |  |
-| [G00527](https://jastrow.app/#rid:G00527) | headword | זְמַם | זְמַם I | missing 2; 2 unnumbered: G00527=1; G00529=—; G00531=3; G00534=— |  |
 
 ## X9 pointing differs within a numbered sequence (5)
 
@@ -2952,32 +2928,44 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [U01388](https://jastrow.app/#rid:U01388) | alt | שִׁלִּשׁ | שָׁלַשׁ² | vowels differ: ל (letter 2) tsere and dagesh vs hiriq and dagesh (U01387/alt vs U01388/alt); sequence U01387/alt=1 שִׁלֵּשׁ, U01388/alt=2 שִׁלִּשׁ |  |
 | [T00893](https://jastrow.app/#rid:T00893) | alt | רְיעִי | רְעִי² | vowels differ: ר (letter 1) tsere vs sheva (T00892/alt vs T00893/alt); sequence T00892/alt=1 רֵיעִי, T00893/alt=2 רְיעִי |  |
 
-## Reviewed, kept (43)
+## Reviewed, kept (55)
 
 Rows read against the print and found right as stored, from `admin/pipeline/report/records/reviewed-kept.jsonl` (decisions 10-06 reviewed kept). They are out of their shape's count, not out of the report: a wrong record is still a row here.
 
 | rid | role | shape | text | name | note | reason | flagged |
 |---|---|---|---|---|---|---|---|
+| [J00321](https://jastrow.app/#rid:J00321) | headword | X1 starts with a vowel/dagesh mark | ַיי | ַיי |  | print sets a long underline standing for any one letter, with a patah under it, then `יי`; the stored bare patah is that line, kept (maintainer ticked "keep as stored", round 2, 2026-10-13). His note: "I feel like this is a display vs actual issue right?  The actual is just a patach, but clearly we have to find a way to display this, preferbly as close to print as we can." How the underline is drawn is the app's display question (ruling 10-13; ANNOTATIONS.md §5) |  |
+| [J00327](https://jastrow.app/#rid:J00327) | headword | X1 starts with a vowel/dagesh mark | ַיְידָא | ַיְידָא |  | print sets a long underline standing for any one letter, with a patah under it, then `יידא`; the stored bare patah is that line, kept (maintainer ticked "keep as stored", round 2, 2026-10-13, with J00321). His note: "I feel like this is a display vs actual issue right?  The actual is just a patach, but clearly we have to find a way to display this, preferbly as close to print as we can." How the underline is drawn is the app's display question (ruling 10-13; ANNOTATIONS.md §5) |  |
 | [A00312](https://jastrow.app/#rid:A00312) | headword | X10 first homograph unnumbered: implied I candidate | אַגְמָא | אַגְמָא II | A00311 אַגְמָא is a bare first form before a II; an I is set only where Jastrow's text names `אַגְמָא I` (10-13); 1 unnumbered: A00311=—; A00312=2 | print sets no numeral beside A00311 אַגְמָא (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `אַגְמָא I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so A00311 stays bare and the family's missing I is print's. P000342, which set an implied I there, is retired |  |
 | [B00538](https://jastrow.app/#rid:B00538) | headword | X10 first homograph unnumbered: implied I candidate | בִּיאָה | בִּיאָה II | B00537/alt בִּיאָה is a bare first form before a II; an I is set only where Jastrow's text names `בִּיאָה I` (10-13); 1 unnumbered: B00537/alt=—; B00538=2 | print sets no numeral beside B00537/alt בִּיאָה (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `בִּיאָה I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so B00537/alt stays bare and the family's missing I is print's. P000345, which set an implied I there, is retired |  |
 | [B00936](https://jastrow.app/#rid:B00936) | headword | X10 first homograph unnumbered: implied I candidate | בַּנַּאי | בַּנַּאי II | B00935 בַּנַּאי is a bare first form before a II; an I is set only where Jastrow's text names `בַּנַּאי I` (10-13); 1 unnumbered: B00935=—; B00936=2 | print sets no numeral beside B00935 בַּנַּאי (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `בַּנַּאי I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so B00935 stays bare and the family's missing I is print's. P000346, which set an implied I there, is retired |  |
 | [C00177](https://jastrow.app/#rid:C00177) | headword | X10 first homograph unnumbered: implied I candidate | גְּדוּדִית | גְּדוּדִית II | C00176 גְּדוּדִית is a bare first form before a II; an I is set only where Jastrow's text names `גְּדוּדִית I` (10-13); 1 unnumbered: C00176=—; C00177=2 | print sets no numeral beside C00176 גְּדוּדִית (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `גְּדוּדִית I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so C00176 stays bare and the family's missing I is print's. P000347, which set an implied I there, is retired |  |
+| [C00773](https://jastrow.app/#rid:C00773) | headword | X10 first homograph unnumbered: implied I candidate | גִּיס | גִּיס II | C00772 גֵּיס is a bare first form before a II; an I is set only where Jastrow's text names `גֵּיס I` (10-13); 0 unnumbered: C00773=2; C00774=2 | too ambiguous to place an I: C00707 and C00710 name C00773 II through its alternate, while C00841 `(v. גִּיס I) familiar` and K00444 `v. גִּיס I` call the familiar word I, which print numbers II. No box ticked; the maintainer's note (round 2, 2026-10-13): "To much ambuiguity here honestly. So no implied anything, and maybe an issue to dig in on." C00772 stays bare (ruling 10-13: an unproven I is not set); a textual-research candidate (review ledger L47) |  |
+| [E00114](https://jastrow.app/#rid:E00114) | headword | X10 first homograph unnumbered: implied I candidate | הֲדָיָא | הֲדָיָא II | E00113 הֶדְיָא is a bare first form before a II; an I is set only where Jastrow's text names `הֶדְיָא I` (10-13); 0 unnumbered: E00114=2 | E00113 `הֶדְיָא` is another word, not the unnumbered I of `הֲדָיָא` II (maintainer ticked "no, E00113 is another word; as stored: nothing to fix", round 2, 2026-10-13), and no text of Jastrow's names `הֶדְיָא I` (ruling 10-13): E00113 stays bare |  |
 | [H00433](https://jastrow.app/#rid:H00433) | headword | X10 first homograph unnumbered: implied I candidate | חוּצָה | חוּצָה II | H00432 חוּצָה is a bare first form before a II; an I is set only where Jastrow's text names `חוּצָה I` (10-13); 1 unnumbered: H00432=—; H00433=2 | print sets no numeral beside H00432 חוּצָה (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `חוּצָה I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so H00432 stays bare and the family's missing I is print's. P000349, which set an implied I there, is retired |  |
 | [H01291](https://jastrow.app/#rid:H01291) | headword | X10 first homograph unnumbered: implied I candidate | חַנִּין | חַנִּין II | H01290 חַנִּין is a bare first form before a II; an I is set only where Jastrow's text names `חַנִּין I` (10-13); 1 unnumbered: H01290=—; H01291=2 | print sets no numeral beside H01290 חַנִּין (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `חַנִּין I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so H01290 stays bare and the family's missing I is print's. P000350, which set an implied I there, is retired |  |
 | [J00113](https://jastrow.app/#rid:J00113) | headword | X10 first homograph unnumbered: implied I candidate | יָהּ | יָהּ II | J00112 יָהּ is a bare first form before a II; an I is set only where Jastrow's text names `יָהּ I` (10-13); 1 unnumbered: J00112=—; J00113=2 | print sets no numeral beside J00112 יָהּ (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `יָהּ I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so J00112 stays bare and the family's missing I is print's. P000351, which set an implied I there, is retired |  |
 | [O00995](https://jastrow.app/#rid:O00995) | headword | X10 first homograph unnumbered: implied I candidate | סְלִיקוּסְתָּא | סְלִיקוּסְתָּא II | O00994 סְלִיקוּסְתָּא is a bare first form before a II; an I is set only where Jastrow's text names `סְלִיקוּסְתָּא I` (10-13); 1 unnumbered: O00994=—; O00995=2 | print sets no numeral beside O00994 סְלִיקוּסְתָּא (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `סְלִיקוּסְתָּא I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so O00994 stays bare and the family's missing I is print's. P000352, which set an implied I there, is retired |  |
 | [Q01399](https://jastrow.app/#rid:Q01399) | headword | X10 first homograph unnumbered: implied I candidate | פַּפָּא | פַּפָּא II | Q01398 פַּפָּא is a bare first form before a II; an I is set only where Jastrow's text names `פַּפָּא I` (10-13); 1 unnumbered: Q01398=—; Q01399=2 | print sets no numeral beside Q01398 פַּפָּא (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `פַּפָּא I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so Q01398 stays bare and the family's missing I is print's. P000354, which set an implied I there, is retired |  |
+| [T00376](https://jastrow.app/#rid:T00376) | headword | X10 first homograph unnumbered: implied I candidate | רוּם | רוּם II | T00375 רוּם is a bare first form before a II; an I is set only where Jastrow's text names `רוּם I` (10-13); 3 unnumbered: T00374=—; T00375=—; T00376=2; T00377=— | no implied I here: neither T00374 `רוּם` (the Hebrew verb) nor T00375 (its `ch.` line) takes one (maintainer ticked "neither: no implied I here; as stored: nothing to fix", round 2, 2026-10-13), and no text of Jastrow's names `רוּם I` (ruling 10-13) |  |
+| [U02013](https://jastrow.app/#rid:U02013) | headword | X10 first homograph unnumbered: implied I candidate | שְׂרַף | שְׂרַף II | U02012 שְׂרָף is a bare first form before a II; an I is set only where Jastrow's text names `שְׂרָף I` (10-13); 2 unnumbered: U02004=—; U02006=—; U02013=2 | print sets no numeral beside U02012 `שְׂרָף`, and it takes no implied I: the maintainer ticked "something else"; note: "no numeral, no implied" (round 2, 2026-10-13). No text of Jastrow's names `שְׂרָף I` or `שְׂרַף I` (ruling 10-13) |  |
 | [S01339](https://jastrow.app/#rid:S01339) | headword | X5 maqaf fragment | קְלִיסְטַנְרִ־ | קְלִיסְטַנְרִ־ |  | print has it as stored. Note: correct page is 1376b |  |
 | [A00719](https://jastrow.app/#rid:A00719) | headword | X8 homograph numbering gap | אֲוָנָא | אֲוָנָא II | missing 1; 0 unnumbered: A00719=2 | the gap is Jastrow's own: nothing to fix. Note: 718 is teh I, this is a wierd case because yod and vav can do wierd things |  |
+| [A03217](https://jastrow.app/#rid:A03217) | headword | X8 homograph numbering gap | אָרַע | *אָרַע II | missing 1; 1 unnumbered: A03215=—; A03217=2 | A03215 `אָרַע` (to strike against, from `רעע`) is a word of its own outside the I, II run: the maintainer ticked "a word of its own outside the run; as stored: nothing to fix" (round 2, 2026-10-13). Print numbers the Hebrew A03217 II and the Aramaic A03216 I, A03218 II, and sets no numeral beside A03215 |  |
 | [B00382](https://jastrow.app/#rid:B00382) | headword | X8 homograph numbering gap | בּוּרְסִי | בּוּרְסִי II | missing 1; 0 unnumbered: B00382=2; B00383=2 | the gap is Jastrow's own: nothing to fix. Note: add to issue, likely a textual mistake |  |
+| [B01159](https://jastrow.app/#rid:B01159) | headword | X8 homograph numbering gap | בְּרָא | בְּרָא II | missing 1; 2 unnumbered: B01154/alt=—; B01159=2; B01237/alt=— | B01158's gloss head `, בְּרָא I to create, v. ברי` is a cross-reference, not a second form of B01158's line, and the family has no gap to fill: the maintainer ticked "no, it is a cross-reference: ... nothing to fix"; note: "not a gap either, just a reference" (round 2, 2026-10-13) |  |
 | [C01130](https://jastrow.app/#rid:C01130) | headword | X8 homograph numbering gap | גְּנַה | *גְּנַה II | missing 1; 0 unnumbered: C01130=2 | the gap is Jastrow's own: nothing to fix. Note: 1129 Already has I |  |
 | [E00008](https://jastrow.app/#rid:E00008) | headword | X8 homograph numbering gap | הִא | הִא III | missing 1,2; 0 unnumbered: E00008=3 | the gap is Jastrow's own: nothing to fix. Note: This is not a gap all numerals are present.  This is another case of looking at detector to see why this is flagged. |  |
+| [G00527](https://jastrow.app/#rid:G00527) | headword | X8 homograph numbering gap | זְמַם | זְמַם I | missing 2; 2 unnumbered: G00527=1; G00529=—; G00531=3; G00534=— | print leaves G00529 `זְמַם` (ch. same, to muzzle) bare between the `ch.` lines G00527 I and G00531 III: the gap is Jastrow's own (maintainer ticked "yes: the gap is Jastrow's own; as stored: nothing to fix", round 2, 2026-10-13) |  |
+| [H01222](https://jastrow.app/#rid:H01222) | headword | X8 homograph numbering gap | חֲמַר | חֲמַר III | missing 1,2; 2 unnumbered: H01219=—; H01221=—; H01222=3 | print numbers the Hebrew verbs H01218 `חָמַר` I and H01220 II, leaves their `ch.` lines H01219 and H01221 bare, and sets III on H01222: as stored (maintainer ticked "yes; as stored: nothing to fix", round 2, 2026-10-13). The cross-references that call the `ch.` lines I and II name numerals print does not set beside them |  |
 | [J00713](https://jastrow.app/#rid:J00713) | headword | X8 homograph numbering gap | יְתֵב | יְתֵב II | missing 1; 0 unnumbered: J00713=2 | the numeral is printed on a neighbour. Note: 712 alternate. J00712's alternate יְתֵיב already stores the I (HW-roman), so the stored data is what print sets |  |
 | [M02162](https://jastrow.app/#rid:M02162) | headword | X8 homograph numbering gap | מַעֲצַרְתָּא | מַעֲצַרְתָּא II | missing 1; 0 unnumbered: M02162=2 | nothing to fix: the gap is Jastrow's own. Note: this pattern is due to the ambiguity of jastrow using numerals.  We are going to defualt to the print. |  |
+| [N00260](https://jastrow.app/#rid:N00260) | headword | X8 homograph numbering gap | נְהִי | נְהִי II | missing 1; 0 unnumbered: N00260=2; N00261/alt=2 | there is no `נְהִי` I in print: the gap is Jastrow's own (maintainer ticked "no: the gap is Jastrow's own; as stored: nothing to fix", round 2, 2026-10-13). N00260's line reads `II m. (b.h.; v. preced.)`, its I being N00259 `נְהֵי` I, pointed apart (ruling 10-05) |  |
 | [P01246](https://jastrow.app/#rid:P01246) | headword | X8 homograph numbering gap | עָרֵב | עָרֵב I | missing 2; 0 unnumbered: P01246=1; P01249=3 | print has `עָרִב II` (hiriq): P01247 is right as stored, and this family's gap is Jastrow's. The one answer covers both rows (P01246 and P01247) |  |
 | [P01247](https://jastrow.app/#rid:P01247) | headword | X8 homograph numbering gap | עָרִב | עָרִב II | missing 1; 0 unnumbered: P01247=2 | print has `עָרִב II` (hiriq): P01247 is right as stored, and this family's gap is Jastrow's. The one answer covers both rows (P01246 and P01247) |  |
 | [Q01193](https://jastrow.app/#rid:Q01193) | headword | X8 homograph numbering gap | פַּנְיָא | פַּנְיָא III | missing 1,2; 2 unnumbered: Q01191/alt=—; Q01192=—; Q01193=3 | nothing to fix: the gap is Jastrow's own |  |
 | [S01975](https://jastrow.app/#rid:S01975) | headword | X8 homograph numbering gap | קָרָחָא | קָרָחָא II | missing 1; 1 unnumbered: S01973/alt=—; S01975=2 | nothing to fix: the gap is Jastrow's own |  |
+| [U01397](https://jastrow.app/#rid:U01397) | headword | X8 homograph numbering gap | שִׁלְשֵׁל | שִׁלְשֵׁל II | missing 1; 1 unnumbered: U01396=—; U01397=2 | print sets the family's I after U01396's abbreviation `שִׁילְ׳` (maintainer ticked "after the abbreviation `שִׁילְ׳`: store it on that alternate", round 2, 2026-10-13). P000585 stores it there (HW-roman), as U01391–U01393 store theirs on the abbreviation, so the family's I is on a form spelled apart and U01396's full form `שִׁלְשֵׁל` stays bare, as U02098's is kept |  |
 | [U02098](https://jastrow.app/#rid:U02098) | headword | X8 homograph numbering gap | שַׁתְיָא | שַׁתְיָא II | missing 1; 1 unnumbered: U02097=—; U02098=2 | a different numeral or mark is there. Note: The I sits on the alt of 2097 (side note, looks like it got misplaced into gloss). P000340 and P000341 put that I on U02097's alternate שַׁתְיָיא and take it out of the gloss (HW-roman), so the family's I is on a form spelled apart |  |
 | [A00279](https://jastrow.app/#rid:A00279) | headword | X9 pointing differs within a numbered sequence | אֲגוֹרָא | אֲגוֹרָא II | vowels differ: א (letter 1) hataf segol vs hataf patah (A00278 vs A00279); sequence A00278=1 אֱגוֹרָא, A00279=2 אֲגוֹרָא | yes, both as stored: nothing to fix |  |
 | [A01420](https://jastrow.app/#rid:A01420) | headword | X9 pointing differs within a numbered sequence | אִיסְטְוָוא | אִיסְטְוָוא II | mark missing: ס (letter 3) no mark vs sheva (A01419 vs A01420); sequence A01419=1 אִיסטְוָוא, A01420=2 אִיסְטְוָוא | print has no mark there: `אִיסטְוָוא` is right as stored. Note: This is likely a textual error but would require extensive research.  I would love an issue oppened on it, as I think it is a fascinating question. |  |
