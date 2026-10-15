@@ -51,7 +51,7 @@ audit's predicate counts five more rows than §4's.
 | U01512's `a) … 2)` | case 3: `annotate`, `kept` | 1 | (iii), done in PR #176 |
 | S01780's half-printed qamats | case 4: ticked in round 2, annotated `illegible` | 1 | (iv), done in PR #177 |
 | Round 2 (L46) | your ticks, applied under 10-13 | 16 questions | (iv), done in PR #177 |
-| Single-numeral cross-references whose target lacks the numeral | 222 determined retargets (case 1; the 10 above among them); 74 rows to read, in 48 worklist questions | 296 rows | (v); determined half (v-a) done in PR #n: 196 retargets |
+| Single-numeral cross-references whose target lacks the numeral | 222 determined retargets (case 1; the 10 above among them); 74 rows to read, in 48 worklist questions | 296 rows | (v); determined half (v-a) done in PR #178: 196 retargets |
 | P00790's Hif. run | case 2: `a b c d f g h` → `a b c d e f g` | 1 | after L59 |
 | Past patches with no case | D00341's bracket move and G00675's disambiguator: no annotation | 3 | none |
 
@@ -429,7 +429,7 @@ gloss head). Each block says so.
 
 ### 5.1 (a) determined: 222 retargets
 
-**Done in PR #n** (data PR (v-a)): 196 retargets, P000595–P000790 on
+**Done in PR #178** (data PR (v-a)): 196 retargets, P000595–P000790 on
 184 entries, each a `replace` of the source anchor as below, with no
 annotation
 ([`tranches/cite-retargets-2026-10-15/`](../admin/pipeline/patch/records/tranches/cite-retargets-2026-10-15/README.md)).
@@ -765,7 +765,7 @@ The three unclassified:
    and H00733's `חוּל I` sit in `language_reference` and wait on L50.
 5. **(v) Cross-reference numerals.** First the 212 determined
    retargets not in (i) (10 of them wait on L50's op); then the 48
-   worklist answers. The determined half, (v-a), is done in PR #n:
+   worklist answers. The determined half, (v-a), is done in PR #178:
    196 retargets (P000595–P000790) on 184 entries; 10 rows wait on
    L50 and 6 `X I ch.` rows are held for a read (§5.1). The 74-row
    worklist half waits on the maintainer's ticks.
@@ -781,7 +781,7 @@ The three unclassified:
 - **No op edits `language_reference`** (L50): 10 determined retargets
   and 3 worklist cites (P00866, M02733, M02738) wait on it. The 10
   are §5.1 rows 12, 19, 51, 58, 64, 85, 143, 146, 179 and 182, still
-  waiting after PR #n.
+  waiting after PR #178.
 - **Removing an implied I needs no op**: retiring the reform restores
   the bare form. The PR's dry import should show only the numeral, the
   name and the X10 row moving.

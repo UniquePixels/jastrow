@@ -1,7 +1,7 @@
 # Cross-reference retargets under ruling 10-13 (2026-10-15)
 
 Data PR (v-a) of [`docs/correction-audit.md`](../../../../../../docs/correction-audit.md)
-§7: the determined cross-reference retargets of §5.1, PR #n. Review
+§7: the determined cross-reference retargets of §5.1, PR #178. Review
 ledger L64; plan group 6b, "Cross-reference numerals".
 
 ## The ruling
