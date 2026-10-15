@@ -52,8 +52,8 @@ links name (P000359–P000367) followed in #156, once ruling `10-09 link
 key` let links resolve by the spelling before patches (review ledger
 L49), and each of their answer blocks below says so. The reviewed-kept
 list holds 34 records (30 since #154; J00713, U02098, P01246 and P01247
-added in #155). U00488 with U00489 (L50) is the one fix you answered
-that is still not applied, because the pipeline cannot express it. The
+added in #155). U00488 with U00489 (L50), the one fix you answered that the
+pipeline could not express, is applied in PR #n. The
 14 answers and two notes that need another look are round 2, just
 below; tick it the same way.
 
@@ -127,7 +127,7 @@ II; E00006's alternate `הֵא` I and E00007 `הֵא` II), so the sequence
 rule sees each numeral given twice and cannot clear `הִא` III. The data is what print sets, and the row stays
 on the reviewed-kept list. A03217 asked the same; its block says why.
 U00489's mark question is not asked again: review ledger L46 records it
-as moot once U00488 takes I, and both wait on L50.
+as moot once U00488 takes I; both are applied in PR #n (L50).
 
 ### `אָרַע`: A03217 (`אָרַע` II)
 
@@ -353,6 +353,7 @@ You read no numeral beside H00319, H00320 or H00322. Ruling 10-06 (taken after y
 Recommendation: H00319 (high): the hOCR sets no numeral on it, and Jastrow's own cross-references name the Hebrew verb `חוּל I` and H00320 its `ch.`, so ruling 10-06's implied I goes on H00319.
 
 Applied in PR #177: P000584 gives H00319 `homograph: 1`, displayed `חוּל I`, with a `print-error` annotation naming the three cites (case 2). P000591 moves H00731's `v. חוּל I ch.` from H00323 to H00320. H00355's and H00733's `(b. h.; חוּל I)` sit in `language_reference`, which no op edits, so they stay on H00323 and wait on review ledger L50.
+Applied in PR #n: P000807 and P000808 move them to H00319 through the new `language_reference:` patch target (case 1).
 
 ### `גִּיס`: C00773 (`גִּיס` II)
 
@@ -2007,6 +2008,7 @@ In each family the hOCR (volume 2, ABBYY) reads the missing numeral right after 
   - [ ] not what print shows (say what you see in the note)
   - [ ] can't tell from the scan
   - note: 
+  - Applied in PR #n: P000809 gives U00488 `homograph: 1`, displayed `שׁוּף I`, and P000810 takes the stray ` I` out of `language_reference` through its new patch target (case 1, no annotation; review ledger L50). The name is `שׁוּף I`.
 
 - **U00524**: `שׁוּקָא` becomes `שׁוּקָא I`
   - [x] confirmed: print shows that numeral beside it
@@ -2098,6 +2100,7 @@ flags them on their alternates only, so they are not among the 382.
   - [ ] print shows a numeral or superscript on it (write it in the note)
   - [ ] can't tell from the scan
   - note: 
+  - Applied in PR #n: P000811 rejoins `ש` + `ׁוּף` → `שׁוּף` (case 1), free now that U00488 is `שׁוּף I`. The name is `שׁוּף`; the 13 links naming `ש` still resolve here (ruling `10-09 link key`). The X1 row clears.
 
 - **J00321, J00327.** Ending entries, the mirror of the maqaf prefixes;
   HW-prefix names both. J00321's line is the one whose gloss reads
@@ -3425,6 +3428,8 @@ Three cites read `v. שׁוּף I` (P01145; U00043 `= שׁוּף I, to blow, pan
   - note: 
 
 Recommendation: yes (high): the hOCR, the gloss `to blow` and L50 agree.
+
+Since PR #n U00488 carries I (L50's fix), so the three are determined and wait only on this tick.
 
 ### `שׁוּתָא III`: N01120 (target numbered otherwise)
 

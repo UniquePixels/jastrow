@@ -162,6 +162,10 @@ illegible)`, unchanged: these carry none. `bun data:validate` reports
 
 ## Waiting on L50: the 10 in `language_reference`
 
+Applied in PR #n (P000797–P000806), through the new
+`language_reference:` patch target:
+[`../language-reference-2026-10-15/`](../language-reference-2026-10-15/README.md).
+
 | # | citing rid | the cite in context | Sefaria links | the audit's retarget | scan |
 |---|---|---|---|---|---|
 | 12 | B00335 | …m. ch. = h.**בּוֹר I** Targ. Prov. XII, 1; XXX, 2 (h… | B00333 `בּוֹר II` | **B00332** `בּוֹר I` † | [149a · leaf 172](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$173/full/1400,/0/default.jpg) |
@@ -176,6 +180,10 @@ illegible)`, unchanged: these carry none. `bun data:validate` reports
 | 182 | U00704 | …(b. h.; cmp. **חָרַר I**)to break through, dig; to sea… | H01770 `חָרַר IV` | **H01764** `חָרַר I` † | [1551b · leaf 874](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$875/full/1400,/0/default.jpg) |
 
 ## Held for a read: the 6 `X I ch.` cites
+
+Applied in PR #n (P000791–P000796) to the `ch.` line, under ruling
+`10-15 ch. cross-reference`:
+[`../language-reference-2026-10-15/`](../language-reference-2026-10-15/README.md).
 
 | # | citing rid | the cite in context | Sefaria links | the audit's retarget | scan |
 |---|---|---|---|---|---|
