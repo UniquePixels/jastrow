@@ -700,3 +700,41 @@ describe('reviewedManifestProblems', () => {
 		]);
 	});
 });
+
+describe('a replace on language_reference through the apply gates', () => {
+	const reference = ' I (b. h.; = x)';
+	const entry: SourceEntry = {
+		...makeEntry(),
+		language_reference: reference,
+	};
+	const onReference = (replace: string): SemanticPatch =>
+		ocrPatch({
+			expected_before: reference,
+			payload: { find: ' I (', replace },
+			target: `language_reference:${contentAnchor(reference)}`,
+		});
+
+	it('applies, and passes the post-apply assertion: its target moved', () => {
+		const { entry: after, problems } = applyEntryPatches(entry, [
+			onReference(' ('),
+		]);
+		expect(problems).toEqual([]);
+		expect(after.language_reference).toBe(' (b. h.; = x)');
+		expect(after.content).toEqual(entry.content);
+	});
+
+	it('holds an agent patch to the no-new-text floor in the field it edits', () => {
+		const { entry: after, problems } = applyEntryPatches(entry, [
+			onReference(' II ('),
+		]);
+		expect(problems).toHaveLength(1);
+		expect(problems[0]?.reason).toContain('needs_print_check');
+		expect(after.language_reference).toBe(reference);
+	});
+
+	it('rejects an apply that left the field unchanged', () => {
+		expect(() => postApplyAssertions(entry, entry, onReference(' ('))).toThrow(
+			'did not change its target',
+		);
+	});
+});

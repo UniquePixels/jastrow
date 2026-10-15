@@ -142,7 +142,7 @@ wrote it; the loader stamps `author`):
 | `retag` | case 2: an implied `1)`, a renumbered doubled numeral, a misprinted number | sense `label` |
 | `reform` `homographs` | case 2: an implied I, a misprinted numeral | form `homograph` |
 | `reform` `forms` | case 2 (a misspelling Jastrow's own cross-reference spells right); case 4 | form `text` |
-| `replace` | case 2: a cross-reference retarget (08-15), a determined misprint | sense `gloss` / `units[n]` |
+| `replace` | case 2: a cross-reference retarget (08-15), a determined misprint | sense `gloss` / `units[n]`; on a `language_reference:` target, `senses[0]`'s `gloss` |
 | `annotate` (new; changes nothing, `expected_before` pins the field) | case 3 | any |
 | a lettered relabel (L59; unbuilt) | case 2 | each child's `label` |
 | `split`, `join`, `nest`, `move`, `delete`, `unref` | never: they cut, rejoin, reorder or remove what Sefaria mis-segmented or duplicated | — |
@@ -167,14 +167,21 @@ path (`body/trace.ts`), and `finishEntry` writes `field` and `stored`
   located: the replacement, translated alone, must be balanced markup
   and occur exactly once across the sense's gloss and units. A
   replacement that leaves a half tag, lands in a lettered child or
-  occurs twice is a red gate 9. D00072's implied `1)` (§4) was a
+  occurs twice is a red gate 9. On a `language_reference:` target
+  (review ledger L50) the field is the etymology paren the import
+  folds into `senses[0]`'s gloss head (`body/rejoin.ts`), so the
+  draft rides source sense 0 and names that `gloss`: the text is in
+  the gloss, not on any form, and an annotation lives where its text
+  is. An entry whose first sense is a stem, or that has none, has no
+  sense to carry it, and the apply refuses. D00072's implied `1)` (§4) was a
   `replace` that wrote the `1)` into the gloss, so it could not be
   annotated as a label; since PR #175 it is a `retag` (P000554, annotated)
   and a `split` at `—2)` (P000555).
 - `annotate`: `payload.field` names the field. On a `sense[…]` target,
   `label`, `gloss` or `units` (the gloss or the unit that holds
   `printed`); on a `forms:` target, `text` or `homograph` with
-  `payload.form`, the parsed form's index. Only `kept`; `expected_before`
+  `payload.form`, the parsed form's index; on a `language_reference:`
+  target, `gloss` only, landing as a `replace`'s does. Only `kept`; `expected_before`
   pins the target, and a moved target is always `upstream-changed`.
 
 Gate 10 then holds both sides: every annotation names a patch that

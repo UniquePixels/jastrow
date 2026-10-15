@@ -5,6 +5,7 @@ import {
 	applyPatch,
 	contentAnchor,
 	countOccurrences,
+	countTarget,
 	flattenContent,
 	PatchApplyError,
 	parsePatch,
@@ -976,6 +977,92 @@ describe('reform', () => {
 		expect(() => reform({ display: '{0} \u05D0', forms: ['a'] })).toThrow(
 			'no Hebrew',
 		);
+	});
+});
+
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
+describe('language_reference target', () => {
+	// The etymology paren Sefaria keeps beside the senses, which the
+	// import folds into `senses[0]`'s gloss head (`body/rejoin.ts`).
+	// U00488's stray ` I` and the cites of review ledger L50 sit there.
+	const reference = ' I (b. h.; = <a href="/Jastrow,_x.1">x</a>)';
+	const entry: SourceEntry = {
+		content: { senses: [{ definition: 'to blow.' }] },
+		headword: 'x',
+		language_reference: reference,
+		rid: 'T00001',
+	};
+	const { language_reference: _, ...without } = entry;
+	const onReference = (
+		overrides: Record<string, unknown>,
+		before = reference,
+	): SemanticPatch =>
+		patchFor(before, '', {
+			op: 'replace',
+			payload: { find: ' I (', replace: ' (' },
+			target: `language_reference:${contentAnchor(before)}`,
+			...overrides,
+		});
+
+	it('replaces inside the field, leaving the senses as they were', () => {
+		const after = applyPatch(entry, onReference({}));
+		expect(after.language_reference).toBe(
+			' (b. h.; = <a href="/Jastrow,_x.1">x</a>)',
+		);
+		expect(after.content).toEqual(entry.content);
+		expect(entry.language_reference).toBe(reference);
+	});
+
+	it('counts the field as one target, resolved once or not at all', () => {
+		const patch = onReference({});
+		expect(countTarget(entry, patch)).toBe(1);
+		expect(countTarget({ ...entry, language_reference: 'moved' }, patch)).toBe(
+			0,
+		);
+		expect(countTarget(without, patch)).toBe(0);
+	});
+
+	it.each([
+		['the field moved', { ...entry, language_reference: ' II (b. h.)' }],
+		['the field is absent', without],
+	])('fails loudly when %s', (_name, moved: SourceEntry) => {
+		expect(() => applyPatch(moved, onReference({}))).toThrow(
+			'expected_before does not match language_reference',
+		);
+	});
+
+	it('fails loudly when the find is not exactly once in the field', () => {
+		expect(() =>
+			applyPatch(entry, onReference({ payload: { find: 'y', replace: 'z' } })),
+		).toThrow('occurs 0 times');
+	});
+
+	it.each([
+		['retag', { number: '1)' }],
+		['split', { marker: '2)' }],
+		['reform', { forms: ['x'] }],
+	])('refuses %s on a language_reference: target', (op, payload) => {
+		expect(() => onReference({ op, payload })).toThrow(
+			'language_reference: targets are only for replace and annotate',
+		);
+	});
+
+	it('takes the target only once, like the headword block', () => {
+		expect(() => onReference({ expected_occurrences: 2 })).toThrow(
+			'a language_reference: target resolves once: expected_occurrences and occurrence_index must both be 1',
+		);
+	});
+
+	it('rejects an anchor inconsistent with expected_before', () => {
+		expect(() =>
+			onReference({ target: `language_reference:${contentAnchor('other')}` }),
+		).toThrow('does not match expected_before');
+	});
+
+	it('counts the field in the byte pool the no-new-text gate reads', () => {
+		// The pool must SEE what the op edits, or a replace could invent
+		// bytes there and pass a gate measuring only the senses.
+		expect(flattenContent(entry)).toContain(reference);
 	});
 });
 

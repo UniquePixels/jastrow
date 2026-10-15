@@ -613,9 +613,21 @@ The op grammar is `delete`, `join`, `move`, `nest`, `replace`,
 | `delete` | `sense[…]` | removes a segment or a whole sense | never |
 | `unref` | `refs[…]` | removes one `refs[]` item | never |
 | `retag` | `sense[…]` | sets the sense's `number` | sense `label` |
-| `replace` | `sense[…]` | swaps one exact substring | sense `gloss` / `units[n]` |
+| `replace` | `sense[…]` or `language_reference:` | swaps one exact substring | sense `gloss` / `units[n]`; on `language_reference:`, `senses[0]`'s `gloss` |
 | `reform` | `forms:` | rewrites the headword line | form `homograph` (one `homographs` item) or `text` (the one form respelled) |
-| `annotate` | `sense[…]` or `forms:` | nothing: pins `expected_before` and records print's reading as kept | the field `payload.field` names; `kept` only |
+| `annotate` | `sense[…]`, `forms:` or `language_reference:` | nothing: pins `expected_before` and records print's reading as kept | the field `payload.field` names (`gloss` only on `language_reference:`); `kept` only |
+
+**`language_reference:<anchor>`** (review ledger L50) addresses the
+etymology paren Sefaria keeps in its own field (`(b. h.; X I)`, `ch. =
+h. X I`). `expected_before` is the field's whole text after the
+transform phases and the rid's earlier patches, and like the headword
+block it resolves once or not at all. The import folds the field into
+`senses[0]`'s gloss head (§2, `body/rejoin.ts`), so an annotation on it
+rides source sense 0 and lands on that gloss; an entry whose first
+sense is a stem, or that has none, has no sense to carry it and the
+apply refuses. The field is in the no-new-text pool (`flattenContent`).
+Drift calls it `upstream-fixed` only when the field reads exactly as
+the patch would leave it.
 
 **`annotation`** (ruling `10-13 correction policy`,
 [`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md) §3) is an
