@@ -16,6 +16,9 @@ introduced by "Hence", a participle's own meanings) is stored as an
 unlabelled sibling sense holding the items as its children, print's
 labels kept. The four ticks are the decision. Nothing is renumbered:
 U01512's participle keeps print's `a)` then `2)`, as his note reads.
+Under ruling 10-13 that is case 3, and since PR #176 the `2` carries a
+`kept` annotation (P000581, an `annotate` on the child this `nest`
+makes; [`../class3-renumber-2026-10-15/`](../class3-renumber-2026-10-15/README.md)).
 
 ## How each row is done
 

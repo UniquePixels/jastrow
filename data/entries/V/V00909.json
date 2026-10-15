@@ -64,7 +64,18 @@
 				"<cite ref=\"Bava Metzia 64a:11\">B. Mets. 64ᵃ</cite> <he>אי תַקְפָה ברשותך</he> if it should get sour, it shall be considered in thy possession (it shall be thy loss). ",
 				"<cite ref=\"Bava Metzia 83a:7\">Ib. 83ᵃ</cite> <he>זבני</he> … <he>ותְקִיפוּ להו</he> I bought three hundred barrels of wine for thee, and they turned sour; <he>ארבע … כי תְקִיפֵי וכ׳</he> (v. Rabb. D. S. a. l. note 4) if four hundred barrels turn sour, this must have been rumored about; <cite ref=\"Yalkut Shimoni on Torah 346:16\">Yalk. Ex. 346</cite> <he>כי תַקְפֵי</he>; <cite ref=\"Berakhot 5b\">Ber. 5ᵇ</cite> (En Yaʿăḳob <he>אִיתְּקוּף</he> <i>Ithpe</i>); a. e."
 			],
-			"label": "4"
+			"label": "5",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "4",
+					"stored": "5",
+					"evidence": "print sets 4) twice (V00909, 1694a); the run 1 2 3 4 4 determines this as 5 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000579",
+					"date": "2026-10-14"
+				}
+			]
 		}
 	],
 	"stems": [

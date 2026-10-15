@@ -46,7 +46,18 @@
 		{
 			"gloss": " interj. <i>truly!, surely!</i> <cite ref=\"Shabbat 13b:8\">Sabb. 13ᵇ</cite>; <cite ref=\"Chagigah 13a:12\">Ḥag. 13ᵃ</cite>; <cite ref=\"Menachot 45b\">Men. 45ᵇ</cite> <he>ב׳ זכור וכ׳</he> truly! this man be remembered for blessing!—[<cite ref=\"Chullin 112a:7\">Ḥull. 112ᵃ</cite> <he>דאברים</he> some ed., read: <he>דאבריה</he>, v. <cite ref=\"B01154\"><he>בְּרָא</he></cite>.]",
 			"units": [],
-			"label": "3"
+			"label": "4",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "3",
+					"stored": "4",
+					"evidence": "print sets 3) twice (B01299, 196a); the run 1 2 3 3 determines this as 4 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000557",
+					"date": "2026-10-14"
+				}
+			]
 		}
 	]
 }

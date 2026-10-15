@@ -52,14 +52,36 @@
 			"units": [
 				"<cite ref=\"Targum Jonathan on Genesis 4:1\">Targ. Y. Gen. IV, 1</cite> Ar. (ed. <he>ידע</he>). Targ. Y. II ib. XX, 16; a. e.—Y. Maas. Sh. IV, 55ᵇ bot.; <cite ref=\"Eichah Rabbah 1:1\">Lam. R. to I, 1</cite> <cite ref=\"T00152\"><he>רבתי</he></cite> (<he>חד כותאי</he> 1) a.e."
 			],
-			"label": "2"
+			"label": "3",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "2",
+					"stored": "3",
+					"evidence": "print sets 2) twice (H00940, 463a); the run 1 2 2 3 determines this as 3 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000563",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": "<i>to be clear, evident</i>. ",
 			"units": [
 				"<cite ref=\"Sanhedrin 42a:15\">Snh. 42ᵃ</cite>, v. <cite ref=\"G00642\"><he>זָקֵן</he> I</cite>."
 			],
-			"label": "3"
+			"label": "4",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "3",
+					"stored": "4",
+					"evidence": "print sets 2) twice (H00940, 463a); the run 1 2 2 3 determines this as 4 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000564",
+					"date": "2026-10-14"
+				}
+			]
 		}
 	],
 	"stems": [

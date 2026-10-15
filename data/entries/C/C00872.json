@@ -63,7 +63,18 @@
 		{
 			"gloss": " (v. <cite ref=\"C00873\">next w.</cite>) <i>a sort of girdle</i>. Pl. <he>גַּלְגְּלַיָּיה</he>. Y. Sabb. VI, 8ᵇ bot. (transl. of <he>גליונים</he>, <cite ref=\"Isaiah 3:22\">Is. III, 22</cite>), v. <cite ref=\"C00941\"><he>גִּלְיוֹן</he></cite> 3.",
 			"units": [],
-			"label": "4"
+			"label": "5",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "4",
+					"stored": "5",
+					"evidence": "print sets 4) twice (C00872, 245a); the run 1 2 3 4 4 determines this as 5 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000561",
+					"date": "2026-10-14"
+				}
+			]
 		}
 	]
 }

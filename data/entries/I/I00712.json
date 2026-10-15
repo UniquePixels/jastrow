@@ -48,7 +48,18 @@
 			"units": [
 				"<cite ref=\"Sanhedrin 22b\">Snh. 22ᵇ</cite>; <cite ref=\"Eruvin 64b:13\">Erub. 64ᵇ</cite> <he>דרך טוֹרְדָתוֹ</he> (<cite ref=\"Taanit 17b:2\">Taan. 17ᵇ</cite> <he>מַטְרִידָתוֹ</he> <i>Hif.</i>, Ms. M. everywhere <he>מַטְרַחְתּוֹ</he>, v. <cite ref=\"I00743\"><he>טָרַח</he></cite>) walking makes him unsteady (feel the wine)."
 			],
-			"label": "3"
+			"label": "4",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "3",
+					"stored": "4",
+					"evidence": "print sets 3) twice (I00712, 550a); the run 1 2 3 3 4 determines this as 4 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000567",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": "<i>to stir up</i> (dregs), <i>trouble</i>. ",
@@ -56,7 +67,7 @@
 				"<cite ref=\"Shabbat 139b\">Sabb. 139ᵇ</cite>. ",
 				"<cite ref=\"Niddah 25a\">Nidd. 25ᵃ</cite>, sq. <he>מים … וטוֹרְדִין וכ׳</he> water is strong (is in commotion) and stirs the mass up, opp. <he>מצחצחו</he> makes it clear.—<i>Part. pass.</i> <cite ref=\"I00720\"><he>טָרוּד</he></cite>, f. <he>טְרוּדָה</he>; pl. <he>טְרוּדִים</he>, <he>דִין …</he>, <he>טְרוּדוֹת</he> "
 			],
-			"label": "4",
+			"label": "5",
 			"senses": [
 				{
 					"gloss": " <i>busily engaged, troubled, anxious</i>. Gen. R. l. c. (play on <he>מטרד</he>, v. supra) <he>ט׳ היו וכ׳</he> they were anxious for a living. ",
@@ -71,6 +82,17 @@
 						"<cite ref=\"Bamidbar Rabbah 7\">Num. R. s. 7</cite>, v. <cite ref=\"M01002\"><he>מַטְלוֹן</he></cite>."
 					],
 					"label": "b"
+				}
+			],
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "4",
+					"stored": "5",
+					"evidence": "print sets 3) twice (I00712, 550a); the run 1 2 3 3 4 determines this as 5 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000568",
+					"date": "2026-10-14"
 				}
 			]
 		}

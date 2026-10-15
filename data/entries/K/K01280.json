@@ -50,7 +50,18 @@
 				"<cite ref=\"Rosh Hashanah 17b\">R. Hash. 17ᵇ</cite> <he>ב׳ כ׳ לי״ג מדזת וכ׳</he> there is a solemn insurance given that the invocation of the thirteen divine attributes (<cite ref=\"Exodus 34:6\">Ex. XXXIV, 6</cite>, sq.) will never be without effect (ref. to <cite ref=\"Exodus 34:10\">Ex. XXXIV, 10</cite>).—Trnsf. <he>ב׳ כ׳</he> <i>it is a necessity, unavoidable</i>. ",
 				"<cite ref=\"Niddah 58b\">Nidd. 58ᵇ</cite> <he>ב׳ כ׳ לו שכל וכ׳</he> whoever crushes it cannot help smelling it."
 			],
-			"label": "3"
+			"label": "4",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "3",
+					"stored": "4",
+					"evidence": "print sets 3) twice (K01280, 674a); the run 1 2 3 3 determines this as 4 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000570",
+					"date": "2026-10-14"
+				}
+			]
 		}
 	],
 	"stems": [

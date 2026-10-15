@@ -64,7 +64,18 @@
 				"<cite ref=\"Sifrei Bamidbar 85\">Sifré Num. 85</cite> (ref. to <he>בקצה</he>, <cite ref=\"Numbers 11:1\">Num. XI, 1</cite>) <he>במ׳ שבהם</he> the fire seized the distinguished among them (with ref. to <cite ref=\"S01814\"><he>קצין</he></cite>, <cite ref=\"Judges 11:11\">Jud. XI, 11</cite>; <cite ref=\"Yalkut Shimoni on Torah 732:1\">Yalk. Num. 732</cite> <he>בקצינים</he>).—<i>Fem.</i> <cite ref=\"M00596\"><he>מוּקְצָה</he></cite>, pl. <he>מוּקְצוֹת</he>. ",
 				"<cite ref=\"Shabbat 43b:1\">Sabb. 43ᵇ</cite> <he>והא מ׳ נינהו</he> are they not <i>muktseh</i> (because they are not intended for human food)?"
 			],
-			"label": "4"
+			"label": "5",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "4",
+					"stored": "5",
+					"evidence": "print sets 4) twice (M00596, 748a); the run 1 2 3 4 4 determines this as 5 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000571",
+					"date": "2026-10-14"
+				}
+			]
 		}
 	]
 }

@@ -379,8 +379,9 @@ with an annotation.
 Deviations from print are recorded in the `annotations` field of the
 form or sense they touch (ruling `10-13 correction policy`), written by
 the reviewed patch that makes the deviation (§5 "Patch ops"); see
-[`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md). No committed
-entry carries one yet: the data PRs that write them follow.
+[`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md). Committed
+entries carry them since PR #174, and the import blessing counts them
+by kind; the remaining data PRs are review ledger plan group 6b.
 
 ---
 

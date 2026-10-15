@@ -59,7 +59,18 @@
 				"<cite ref=\"Bava Metzia 8a:6\">B. Mets. 8ᵃ</cite> <he>מיגו דזָכֵי לנפשיה</he> since he has a right to take possession for himself, v. <cite ref=\"M01085\"><he>מִיגּוֹ</he></cite>, s. v. <cite ref=\"C00263\"><he>גּוֹ</he></cite>.—",
 				"<cite ref=\"Bava Kamma 12b:11\">B. Kam. 12ᵇ</cite>; a. fr."
 			],
-			"label": "4"
+			"label": "5",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "4",
+					"stored": "5",
+					"evidence": "print sets 4) twice (G00456, 399a); the run 1 2 3 4 4 determines this as 5 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
+					"source": "P000562",
+					"date": "2026-10-14"
+				}
+			]
 		}
 	],
 	"stems": [
