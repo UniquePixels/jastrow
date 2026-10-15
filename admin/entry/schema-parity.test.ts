@@ -76,7 +76,6 @@ const FORM_KEYS: Presence<FormObject> = {
 	disambiguator: 'optional',
 	gender: 'optional',
 	homograph: 'optional',
-	implied: 'optional',
 	partial: 'optional',
 	reconstructed: 'optional',
 	text: 'required',
@@ -161,11 +160,6 @@ const LITERALS: [string, SchemaNode | undefined, Record<string, true>][] = [
 		'headword form gender',
 		form?.['gender'],
 		{ f: true, m: true } satisfies Literal<FormObject['gender']>,
-	],
-	[
-		'implied',
-		form?.['implied'],
-		{ true: true } satisfies Literal<FormObject['implied']>,
 	],
 	[
 		'partial',

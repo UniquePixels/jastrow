@@ -216,15 +216,14 @@ type UnrefPayload = Record<string, never>;
  * an edit to existing sense text is a sense op's job.
  *
  * **`homographs` sets a numeral on a form without touching its
- * text.** Ruling 10-06 implied I says an implied I is set "only by
- * reviewed patch", and print has no glyph for it, so it cannot ride
- * in a form's text the way a printed ` II` does. A numeral print sets
- * and Sefaria dropped (worklist pile B) goes the same way, for a
- * second reason: `headword` is the string internal links resolve by,
- * and writing ` I` into it would dangle every link that names
- * Sefaria's spelling. Each item names a form by its index in the
- * parsed line. A displayed numeral needs a `display` that sets it; an
- * implied one must not have one (rule 3). */
+ * text** (ruling 10-09 reform homographs): a numeral print sets and
+ * Sefaria dropped (worklist pile B), or an I Jastrow's own text names
+ * where print sets none (ruling 10-13 correction policy, which retired
+ * 10-06's hidden `implied` I). `headword` is the string internal links
+ * resolve by, and writing ` I` into it would dangle every link that
+ * names Sefaria's spelling. Each item names a form by its index in the
+ * parsed line, and every numeral is displayed, so the patch supplies a
+ * `display` that sets it (rule 3). */
 interface ReformPayload {
 	display?: string;
 	forms: string[];
@@ -717,16 +716,22 @@ function reformHomographReasons(homographs: unknown, forms: number): string[] {
 	return reasons;
 }
 
-/** One `homographs` item: a form index inside the payload's `forms`,
- * a positive integer numeral, and `implied` only ever `true` and only
- * beside 1 — what ruling 10-06 implied I lets a patch supply is an
- * unprinted FIRST homograph. */
+/** The keys a `homographs` item holds. `implied` left with ruling
+ * 10-13 correction policy, and a record that still carries it is
+ * refused rather than read as a plain numeral. */
+const HOMOGRAPH_ITEM_KEYS: ReadonlySet<string> = new Set(['form', 'homograph']);
+
+/** One `homographs` item: only the keys {@link HOMOGRAPH_ITEM_KEYS}
+ * names, a form index inside the payload's `forms`, and a positive
+ * integer numeral. */
 function homographItemReasons(
 	item: Record<string, unknown>,
 	forms: number,
 ): string[] {
-	const { form, homograph, implied } = item;
-	const reasons: string[] = [];
+	const { form, homograph } = item;
+	const reasons: string[] = Object.keys(item)
+		.filter((key) => !HOMOGRAPH_ITEM_KEYS.has(key))
+		.map((key) => `reform homographs: ${key} is not a field`);
 	if (
 		!(
 			Number.isInteger(form) &&
@@ -740,13 +745,6 @@ function homographItemReasons(
 	}
 	if (!Number.isInteger(homograph) || (homograph as number) < 1) {
 		reasons.push('reform homographs: homograph must be a positive integer');
-	}
-	if (implied !== undefined && implied !== true) {
-		reasons.push('reform homographs: implied is only ever true');
-	} else if (implied === true && homograph !== 1) {
-		reasons.push(
-			'reform homographs: an implied numeral is I (ruling 10-06 implied I)',
-		);
 	}
 	return reasons;
 }

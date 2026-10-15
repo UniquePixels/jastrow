@@ -193,7 +193,7 @@ const SEQUENCE_CASES: Array<
 		[],
 		[],
 	],
-	['אַגְמָא II, its I implied (X10, below)', AGMA, [], []],
+	['אַגְמָא II, a bare form just before it (X10, below)', AGMA, [], []],
 	['קרחא: three IIs and two Is, no superscript', QARHA, ['S01975'], []],
 	['one spelling, its marks in two orders', MARK_ORDER, [], []],
 	[
@@ -227,9 +227,11 @@ describe('buildHeadwordIssues: homograph numerals number a sequence', () => {
 	}
 });
 
-// Ruling 10-06 implied I. `[case, entries, X8 rids, X10 rows as
-// [rid, the candidate the note opens with]]`.
-const IMPLIED_CASES: Array<
+// Ruling 10-06 implied I, amended by 10-13 correction policy: X10 still
+// names the candidate, but an I is set only where Jastrow's text names
+// it. `[case, entries, X8 rids, X10 rows as [rid, the candidate the note
+// opens with]]`.
+const CANDIDATE_CASES: Array<
 	[string, Entry[], string[], Array<[string, string]>]
 > = [
 	[
@@ -277,7 +279,7 @@ const IMPLIED_CASES: Array<
 		[],
 	],
 	[
-		'a missing II is not an implied I',
+		'a missing II is not an X10 candidate',
 		[
 			withForms('G00527', ['זְמַם', 1]),
 			withForms('G00528', ['זְמַם']),
@@ -287,40 +289,54 @@ const IMPLIED_CASES: Array<
 		[],
 	],
 	[
-		'an implied I already stored',
-		[
-			{
-				...withForms('A00311', ['אַגְמָא', 1]),
-				headwords: [{ homograph: 1, implied: true, text: 'אַגְמָא' }],
-			},
-			AGMA[1] as Entry,
-		],
+		'an I already stored (one set by correction, 10-13)',
+		[withForms('A00311', ['אַגְמָא', 1]), AGMA[1] as Entry],
 		[],
 		[],
 	],
 ];
 
-describe('buildHeadwordIssues: the implied I (X10)', () => {
-	for (const [name, entries, gaps, implied] of IMPLIED_CASES) {
+describe('buildHeadwordIssues: the X10 candidate', () => {
+	for (const [name, entries, gaps, candidates] of CANDIDATE_CASES) {
 		const { csv } = buildHeadwordIssues(entries, []);
 		it(`${name}: X8 rows`, () => {
 			expect(rowsOf(csv, 'X8').map(([rid]) => rid)).toEqual(gaps);
 		});
 		it(`${name}: X10 rows`, () => {
-			const opening = new Map(implied);
+			const opening = new Map(candidates);
 			const rows = rowsOf(csv, 'X10').map(([rid, note]) => [
 				rid,
 				note.slice(0, opening.get(rid)?.length ?? 0),
 			]);
-			expect(rows).toEqual(implied);
+			expect(rows).toEqual(candidates);
 		});
 	}
 
-	it('names the candidate and the fix in the note', () => {
+	it('names the candidate and what proves an I (10-13)', () => {
 		const [[, note] = ['', '']] = rowsOf(
 			buildHeadwordIssues(AGMA, []).csv,
 			'X10',
 		);
-		expect(note).toContain('homograph: 1, implied: true');
+		expect(note).toContain(
+			"A00311 אַגְמָא is a bare first form before a II; an I is set only where Jastrow's text names `אַגְמָא I` (10-13)",
+		);
+		expect(note).not.toContain('implied');
+	});
+
+	it("names the candidate's own spelling, not the II's (C00619)", () => {
+		// The I would sit on the candidate, so a cite proving it names the
+		// candidate's form: C00619's alternate is pointed apart from the
+		// II it stands before.
+		const [[, note] = ['', '']] = rowsOf(
+			buildHeadwordIssues(
+				[
+					withForms('C00619', ['גִּיבָּרָא'], ['גִּבּ׳']),
+					withForms('C00620', ['גִּיבָּרָא'], ['גִּבָּ׳', 2]),
+				],
+				[],
+			).csv,
+			'X10',
+		);
+		expect(note).toContain("Jastrow's text names `גִּבּ׳ I`");
 	});
 });

@@ -6,13 +6,23 @@
 		{
 			"text": "אוֹרְיָין",
 			"homograph": 1,
-			"implied": true
+			"annotations": [
+				{
+					"field": "homograph",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "I",
+					"evidence": "Jastrow's text names `אוֹרְיָין I`: A00882 `, v. אוֹרְיָין I`; M01329 `Ar. (v. אוֹרְיָין I)` (hOCR `l)`). Print sets no numeral beside it (maintainer print read of the 1903 scan, 2026-10-06, docs/headword-worklist.md first list, row A00890).",
+					"source": "P000343",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"text": "אוֹרְיָאן"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 34,
 		"column": "b"

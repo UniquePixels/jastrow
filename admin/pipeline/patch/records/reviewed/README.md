@@ -66,8 +66,16 @@ annotation; a correction is annotated on the op that makes it. Like
 any patch, it may not share its target with another patch on the same
 rid.
 
-No patch here carries one yet: the data PRs that write them follow
-(review ledger plan group 6b).
+Since PR #174 five carry one: the implied-I reforms P000343, P000344,
+P000348, P000353 and P000355, each a `print-error` on the I that
+Jastrow's text names (data PR (i) of `docs/correction-audit.md` §7;
+[`../tranches/implied-i-2026-10-14/`](../tranches/implied-i-2026-10-14/README.md)).
+The other data PRs follow (review ledger plan group 6b).
+
+On 2026-10-14 (PR #174) 9 more left: the implied-I reforms whose I no
+text of Jastrow's names (ruling 10-13 correction policy). Their bytes
+are at
+[`docs/archive/patches-retired-2026-10-14/`](../../../../../docs/archive/patches-retired-2026-10-14/README.md).
 
 ## Rulings still in force
 

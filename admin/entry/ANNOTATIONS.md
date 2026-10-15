@@ -5,9 +5,10 @@
 on merge of PR #171. **The field is built** (PR #172, §6 item 1):
 the contract's type, schema and checks (`annotations.ts`), the patch
 `annotation` and the `annotate` op, the build carrying them, and gate
-10's both-ways check. `implied`'s retirement and rule 3's display
-change wait for the implied-I data PR; the data changes are the
-follow-up PRs of §6. No committed entry carries an annotation yet. It
+10's both-ways check. `implied` is retired and rule 3 changed in PR
+#174, the implied-I data PR, which writes the first five annotations
+(the proven implied Is); the other data changes are the follow-up PRs
+of §6. It
 lives beside the contract it extends because `docs/specs/` is retired
 ([`docs/glossary.md`](../../docs/glossary.md) § Retired terms) and a
 dated spec is not a live document.
@@ -80,10 +81,12 @@ interface Annotation {
 their token without `)` (`5`). Like `reconstructed` and `partial`, the
 key is absent when empty, never `[]`.
 
-**`implied` retires** in the implied-I data PR, not the contract PR
-(PR #172): 14 committed entries carry it, so the contract keeps
-accepting it until that PR resolves them (5 annotated, 9 bare) and
-removes the field from the contract in the same change. An implied I becomes
+**`implied` retired** in the implied-I data PR (PR #174), not the
+contract PR (PR #172): 14 committed entries carried it, so the
+contract kept accepting it until that PR resolved them (5 annotated,
+9 bare) and removed the field from the contract in the same change.
+Rule 3 changed in the same PR: a single numeral beside `{n}` ⇔
+`homograph`, with no implied clause. An implied I becomes
 `homograph: 1` with `{field: 'homograph', kind: 'print-error', printed:
 '', stored: 'I', evidence: …}`, and `display` sets the ` I`. One mark,
 not two for one fact. Rule 3 loses its implied clause (a single numeral
@@ -236,11 +239,11 @@ reading is never lost.
    retired, rule 3 (display), the patch `annotation` field and the
    `annotate` op, the trace carrying it, and gate 10's both-ways check.
    **Done in PR #172**, except `implied` retired and rule 3, which
-   move to the implied-I data PR in item 3.
+   moved to the implied-I data PR in item 3 and are done in PR #174.
 2. **Consistency audit report:** §4's populations row by row,
    including the 291 cross-reference numerals.
-3. **Data:** the implied I audit (5 displayed and annotated; 9
-   withdrawn to bare and reviewed-kept; the 10 cross-references
+3. **Data:** the implied I audit (done in PR #174: 5 displayed and
+   annotated; 9 withdrawn to bare and reviewed-kept; the 10 cross-references
    retargeted to the I), the class 3 renumber (with S01849's
    cross-reference), P00790 (after L59), the RP8 marks
    (61), and round 2 (L46).

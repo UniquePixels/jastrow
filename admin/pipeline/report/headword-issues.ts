@@ -439,9 +439,6 @@ const SEQUENCE_WINDOW = 5;
 interface NumberedForm {
 	disambiguator: number | undefined;
 	homograph: number;
-	/** The numeral is ours, not print's (ruling 10-06 implied I). It
-	 * counts as a numeral like any other; notes say which it is. */
-	implied: boolean;
 	/** The form's index in its entry's `headwords`; 0 is the primary. */
 	index: number;
 	/** The entry's position in rid order: what "nearby" is measured in. */
@@ -489,9 +486,9 @@ function numbersOnce(members: readonly NumberedForm[]): boolean {
  * mark stripped, shin and sin dots too, as an unpointed text writes
  * the word; see {@link consonants}), in entry order, each member
  * within {@link SEQUENCE_WINDOW} entries of the last. Alternates take
- * part: a sequence's I is often an alternate (A01697 `אָכַל` I). An
- * implied I (ruling 10-06 implied I) is a numbered form like any
- * other: it is the I its sequence would otherwise lack. */
+ * part: a sequence's I is often an alternate (A01697 `אָכַל` I). An I
+ * set by correction (ruling 10-13 correction policy) is a numbered form
+ * like any other. */
 function numberedSequences(inOrder: readonly Entry[]): NumberedSequence[] {
 	const bySkeleton = new Map<string, NumberedForm[]>();
 	for (const [position, entry] of inOrder.entries()) {
@@ -506,7 +503,6 @@ function numberedSequences(inOrder: readonly Entry[]): NumberedSequence[] {
 				{
 					disambiguator: form.disambiguator,
 					homograph: form.homograph,
-					implied: form.implied === true,
 					index,
 					position,
 					rid: entry.id,
@@ -535,11 +531,9 @@ function numberedSequences(inOrder: readonly Entry[]): NumberedSequence[] {
 }
 
 /** A form in a spelling family: which entry, which of its headwords,
- * its numeral if it has one, and whether that numeral is implied
- * (ruling 10-06 implied I), which counts as numbered everywhere. */
+ * and its numeral if it has one. */
 interface FamilyMember {
 	homograph: number | undefined;
-	implied: boolean;
 	index: number;
 	rid: string;
 }
@@ -556,7 +550,6 @@ function spellingFamilies(
 				...(families.get(key) ?? []),
 				{
 					homograph: form.homograph,
-					implied: form.implied === true,
 					index,
 					rid,
 				},
@@ -575,7 +568,7 @@ function cleanlySequenced(sequences: readonly NumberedSequence[]): Set<string> {
 	);
 }
 
-/** One form placed in entry order, numbered or not: what the implied-I
+/** One form placed in entry order, numbered or not: what the X10
  * check walks to find the form standing just before a II. */
 interface PlacedForm {
 	homograph: number | undefined;
@@ -617,8 +610,11 @@ function formsByConsonants(
 	return byKey;
 }
 
-/** The form that would take an implied I for a family whose ONLY
- * missing numeral is I (ruling 10-06 implied I), or `undefined`.
+/** The X10 candidate for a family whose ONLY missing numeral is I, or
+ * `undefined`: the bare first form before the II. Ruling 10-06 implied
+ * I would have numbered it; ruling 10-13 correction policy sets an I
+ * on it only where Jastrow's own text names `X I`, and otherwise the
+ * row goes to the reviewed-kept list.
  *
  * It is the form with the family's consonants standing immediately
  * before the family's II, as the 10-05 sequence orders them: in an
@@ -630,7 +626,7 @@ function formsByConsonants(
  * far back, or a line that already carries a numeral on another form
  * (M02161, whose I stands on its abbreviation `מַעֲצַ׳`: print numbers
  * that line, and HW-roman keeps the numeral where it stands). */
-function impliedCandidate(
+function bareCandidate(
 	text: string,
 	members: readonly FamilyMember[],
 	missing: readonly number[],
@@ -655,14 +651,14 @@ function impliedCandidate(
 }
 
 /** A family member as a note names it: label, then its numeral, `—`
- * when it has none, marked when the numeral is implied. */
+ * when it has none. */
 function describeMember(m: FamilyMember): string {
 	const numeral = m.homograph === undefined ? '—' : String(m.homograph);
-	return `${formLabel(m)}=${numeral}${m.implied ? ' (implied)' : ''}`;
+	return `${formLabel(m)}=${numeral}`;
 }
 
 /** What {@link homographGapRows} needs besides the entries: the
- * sequences, and every form by consonants for the implied-I check. */
+ * sequences, and every form by consonants for the X10 check. */
 interface GapContext {
 	byConsonants: ReadonlyMap<string, readonly PlacedForm[]>;
 	entries: Map<string, Entry>;
@@ -671,9 +667,11 @@ interface GapContext {
 
 /** The X8 shape. */
 const GAP_SHAPE = 'X8 homograph numbering gap';
-/** The X10 shape (ruling 10-06 implied I): a gap whose missing I has an
- * obvious holder. Named in the file's style beside X8 and X9. */
-const IMPLIED_SHAPE = 'X10 first homograph unnumbered: implied I candidate';
+/** The X10 shape (ruling 10-06 implied I, amended by 10-13 correction
+ * policy): a gap whose missing I has an obvious bare holder. Named in
+ * the file's style beside X8 and X9. The name is kept as 10-06 gave it:
+ * it is the key `reviewed-kept.jsonl` records match on. */
+const CANDIDATE_SHAPE = 'X10 first homograph unnumbered: implied I candidate';
 
 /** One family's numbers, distinct and ascending, and the numerals
  * 1..highest it lacks. DISTINCT: a family can hold two entries
@@ -725,16 +723,17 @@ function numbering(members: readonly FamilyMember[]): {
  *    keeps B00561's
  *    `בִּזָּא` II a gap: `בְּזָא` I, II (B00435, B00436) share its
  *    consonants, but stand 125 entries back and already hold a II.
- * 4. **The implied I** (`decisions.md`, 10-06 implied I): a gap whose
- *    ONLY missing numeral is I, where an unnumbered form with the same
- *    consonants stands immediately before the II in the 10-05 order
- *    ({@link impliedCandidate}), is no longer X8. It is reported as
- *    X10, and the note names the form that would take `homograph: 1,
- *    implied: true` if print sets no numeral beside it (or a plain
- *    `homograph: 1` if it does). A reviewed patch settles each one;
- *    once it has, the family runs 1..n and the row is gone. An implied
- *    numeral counts as a numeral here and everywhere else this file
- *    counts them.
+ * 4. **The X10 candidate** (`decisions.md`, 10-06 implied I as
+ *    amended by 10-13 correction policy): a gap whose ONLY missing
+ *    numeral is I, where an unnumbered form with the same consonants
+ *    stands immediately before the II in the 10-05 order
+ *    ({@link bareCandidate}), is no longer X8. It is reported as X10,
+ *    and the note names that bare first form. An I is set on it only
+ *    where Jastrow's own text names `X I` (a reviewed `reform`, its
+ *    annotation naming the cites), and then the family runs 1..n and
+ *    the row is gone; where none does, or print is read and sets none,
+ *    the row goes to the reviewed-kept list. A candidate's place before
+ *    the II proves nothing on its own.
  *
  * The families 3 clears are not dropped: their pointing is its own
  * question, reported by {@link pointingRows}. It cannot see a numeral
@@ -774,20 +773,20 @@ function homographGapRows({
 		}
 		const unnumbered = members.filter((m) => m.homograph === undefined).length;
 		const detail = `${unnumbered} unnumbered: ${members.map(describeMember).join('; ')}`;
-		const candidate = impliedCandidate(text, members, missing, byConsonants);
+		const candidate = bareCandidate(text, members, missing, byConsonants);
 		rows.push({
 			flagged: false,
 			name: nameOf(entry),
 			note:
 				candidate === undefined
 					? `missing ${missing.join(',')}; ${detail}`
-					: `${formLabel(candidate)} ${candidate.text} stands just before the II: it takes homograph: 1, implied: true if print sets no numeral beside it (homograph: 1 if print sets I); ${detail}`,
+					: `${formLabel(candidate)} ${candidate.text} is a bare first form before a II; an I is set only where Jastrow's text names \`${candidate.text} I\` (10-13); ${detail}`,
 			rid: first.rid,
 			// The family is keyed on the ALTERNATE's spelling when its
 			// first numbered member is an alternate, so the row must name
 			// that form, not the entry's primary headword.
 			role: first.index === 0 ? 'headword' : 'alt',
-			shape: candidate === undefined ? GAP_SHAPE : IMPLIED_SHAPE,
+			shape: candidate === undefined ? GAP_SHAPE : CANDIDATE_SHAPE,
 			text,
 		});
 	}
@@ -900,13 +899,11 @@ function pointingDifference(a: string, b: string): string {
 }
 
 /** A numbered form as a note names it: label, numeral, superscript,
- * spelling, and `(implied)` when the numeral is ours (ruling 10-06
- * implied I). */
+ * spelling. */
 function describeNumbered(form: NumberedForm): string {
 	const sup =
 		form.disambiguator === undefined ? '' : intToSup(form.disambiguator);
-	const implied = form.implied ? ' (implied)' : '';
-	return `${formLabel(form)}=${form.homograph}${sup}${implied} ${form.text}`;
+	return `${formLabel(form)}=${form.homograph}${sup} ${form.text}`;
 }
 
 /** The unnumbered forms spelled like either of `a` and `b`, in the

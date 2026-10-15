@@ -104,16 +104,16 @@ describe('finishEntry', () => {
 		expect(entry.headwords).toEqual([{ text: 'אָב' }, { text: 'אבא' }]);
 	});
 	it('sets a patch-supplied homograph on the parsed form', () => {
-		// Ruling 10-06 implied I: the numeral rides beside the line, so
-		// the headword string (the link namespace) stays Sefaria's.
+		// Ruling 10-09 reform homographs: the numeral rides beside the
+		// line, so the headword string (the link namespace) stays Sefaria's.
 		const { entry, problems } = finishEntry(
 			{
 				...source,
-				display: '{0}, {1} I',
+				display: '{0} I, {1} II',
 				headword: 'אָב',
 				homographs: [
-					{ form: 0, homograph: 1, implied: true },
-					{ form: 1, homograph: 1 },
+					{ form: 0, homograph: 1 },
+					{ form: 1, homograph: 2 },
 				],
 			},
 			body,
@@ -121,10 +121,10 @@ describe('finishEntry', () => {
 		);
 		expect(problems).toEqual([]);
 		expect(entry.headwords).toEqual([
-			{ homograph: 1, implied: true, text: 'אָב' },
-			{ homograph: 1, text: 'אבא' },
+			{ homograph: 1, text: 'אָב' },
+			{ homograph: 2, text: 'אבא' },
 		]);
-		expect(entry.display).toBe('{0}, {1} I');
+		expect(entry.display).toBe('{0} I, {1} II');
 	});
 
 	it.each([

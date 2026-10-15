@@ -2,6 +2,19 @@
 
 ## Status
 
+**2026-10-14.** Your round 2 ticks are committed (PR #174, its first
+commit); data PR (iv) of [`correction-audit.md`](correction-audit.md)
+§7 applies them. PR #174 is data PR (i): under ruling `10-13 correction
+policy` the 14 implied Is #155 set (P000342–P000355) were audited
+against Jastrow's own text. **5 are applied**: A00889, A02041, D00442,
+Q00964 and S00336, whose I a cite names, now show it on the line with
+an annotation, and the 10 cites that name them link to them instead of
+the II. **9 are withdrawn**: A00311, B00537 (an alternate), B00935,
+C00176, H00432, H01290, J00112, O00994 and Q01398 are bare again, and
+the X10 rows for their IIs are on the reviewed-kept list (43 records).
+Each first-list block below says which. After the re-import the report
+reads X10 17 (12 primary), X8 76 (45), X9 5 (0), reviewed-kept 43.
+
 **Refreshed 2026-10-13.** Round 2, just below, is brought up to date
 and waits for your ticks. Every fact in it was re-read on 2026-10-13
 from the committed entries (`v2` at `ead4a4d75`) and from the headword
@@ -121,9 +134,9 @@ Changed 2026-10-13: the old "no" box asked you to write how print numbers A03215
 - **A03215**
   - [ ] the I of the pair, unnumbered in print: A03215 takes the implied I (name `אָרַע I`; nothing displayed)
   - [ ] the I of the pair, and print sets I beside it (name `אָרַע I`; the I displayed)
-  - [ ] a word of its own outside the run; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] a word of its own outside the run; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] can't tell from the scan
-  - note: 
+  - note:  
 
 Recommendation: implied I (high): the hOCR line `YIN (V3, v. (רעע to strike against.` sets no numeral, you read none, and Jastrow's own cross-references call this word `אָרַע I`, so ruling 10-06 gives A03215 the implied I (their links are a separate question, as in L51).
 
@@ -147,9 +160,9 @@ Changed 2026-10-13: the old "no: print numbers a `בְּרָא` I (say which ent
 
 - **B01158**
   - [ ] yes: store `בְּרָא` as B01158's second form with I and take it out of the gloss (HW-roman; B01158's name is unchanged)
-  - [ ] no, it is a cross-reference: the gap is Jastrow's; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] no, it is a cross-reference: the gap is Jastrow's; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] can't tell from the scan
-  - note: 
+  - note: not a gap either, just a reference
 
 Recommendation: yes (high): the stored gloss and the hOCR line `NSIT, x31 ₪ create` both set a second form beside `בָּרָא II` before the gloss `to create`, and HW-roman keeps its I on that form, as U02097's alternate already does.
 
@@ -175,7 +188,7 @@ You read no numeral beside G00529 or G00534. Found 2026-10-13: G00526 `זָמַ�
 Changed 2026-10-13: the question names G00529, and the "no" box says what it would change.
 
 - **G00527**
-  - [ ] yes: the gap is Jastrow's own; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] yes: the gap is Jastrow's own; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] no, print sets II beside G00529 (name `זְמַם II`; the II displayed)
   - [ ] can't tell from the scan
   - note: 
@@ -198,10 +211,10 @@ You read no numeral beside H00780's alternate `חֵלֶף`, which is 321 entries
 **Question.** How does print point H01100?
 
 - **H01100**
-  - [ ] `חֵלֶף` I (tsere, like H01101): the stored hiriq is a slip, and the name changes to `חֵלֶף I`
+  - [x] `חֵלֶף` I (tsere, like H01101): the stored hiriq is a slip, and the name changes to `חֵלֶף I`
   - [ ] `חִלֶף` I (hiriq), as stored: one run pointed apart; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] can't tell from the scan
-  - note: 
+  - note: ocr issue
 
 Recommendation: tsere (high): the hOCR is unpointed (`חלף I m.`), but Jastrow's own two cross-references to this word, both for its `shoots`, spell it `חֵלֶף I` with a tsere, so the single hiriq reads as Sefaria's OCR slip.
 
@@ -223,7 +236,7 @@ You read no numeral beside H01219 or H01221. This is pile D's shape: the Hebrew 
 **Question.** Does print number the Hebrew verbs I and II, leave H01219 and H01221 bare, and set III on H01222?
 
 - **H01222**
-  - [ ] yes; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] yes; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] no (say what print numbers in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -250,12 +263,12 @@ You read no numeral beside I00077 or I00079. I00081 `טְבַע` II is glossed `
 Changed 2026-10-13: the question asked only about I00080; the cross-references add I00077, so it now asks which form, as H00321's and T00376's do.
 
 - **I00081**
-  - [ ] I00077 `טְבַע` (`ch. same` as `טָבַע I`; name `טְבַע I`; nothing displayed)
+  - [x] I00077 `טְבַע` (`ch. same` as `טָבַע I`; name `טְבַע I`; nothing displayed)
   - [ ] I00080 `טֶבַע` (the noun, as X10 names; name `טֶבַע I`; nothing displayed)
   - [ ] print sets I beside I00080 (name `טֶבַע I`; the I displayed)
   - [ ] something else (say what in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: Likely will update display as well (see note in chat response), as this is the text proving a print error.
 
 Recommendation: I00077 (medium): the hOCR shows no numeral on I00077, I00079 or I00080, and the only `טְבַע I` the dictionary names is I00077's `to sink`; ruling 10-06 gives that form the implied I.
 
@@ -279,9 +292,9 @@ You read no numeral beside U02004 or U02006. U02013 `שְׂרַף` II is glossed
 - **U02012**
   - [ ] no numeral: U02012 takes the implied I (name `שְׂרָף I`; nothing displayed)
   - [ ] print sets I beside U02012
-  - [ ] something else (say what in the note)
+  - [x] something else (say what in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: no numeral, no implied
 
 Recommendation: no numeral, implied I (medium): the hOCR shows none before U02012's `m. (שָׂרַף I) acrid substance`, U02013 is its `ch. same`, and it is the one unnumbered form of the spelling within the window ruling 10-06 reaches.
 
@@ -301,10 +314,10 @@ You read no numeral beside H00319, H00320 or H00322. Ruling 10-06 (taken after y
 **Question.** Which form takes the implied I?
 
 - **H00321**
-  - [ ] H00319 `חוּל` (the Hebrew verb)
+  - [x] H00319 `חוּל` (the Hebrew verb)
   - [ ] H00320 `חוּל` (its `ch. same` line, as X10 names)
   - [ ] neither: no implied I here; as stored: nothing to fix (the row goes to the reviewed-kept list)
-  - note: 
+  - note: This is an example of a clear correction supported by the text, so not really implied but more like an actuall text error
 
 Recommendation: H00319 (high): the hOCR sets no numeral on it, and Jastrow's own cross-references name the Hebrew verb `חוּל I` and H00320 its `ch.`, so ruling 10-06's implied I goes on H00319.
 
@@ -326,7 +339,7 @@ You answered "the gap is Jastrow's own". Ruling 10-06, taken after your read, st
   - [ ] yes: C00772 takes the implied I (name `גֵּיס I`; nothing displayed)
   - [ ] no, C00772 is another word; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] can't tell from the scan
-  - note: 
+  - note: To much ambuiguity here honestly. So no implied anything, and maybe an issue to dig in on.
 
 Recommendation: yes (medium): print leaves C00772 bare and numbers the next form II, same consonants and adjacent, which is the case ruling 10-06 decides; medium because two cross-references call the familiar word I.
 
@@ -345,7 +358,7 @@ You answered "the gap is Jastrow's own". X10 names E00113 `הֶדְיָא`, just
 
 - **E00114**
   - [ ] yes: E00113 takes the implied I (name `הֶדְיָא I`; nothing displayed)
-  - [ ] no, E00113 is another word; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] no, E00113 is another word; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] can't tell from the scan
   - note: 
 
@@ -369,7 +382,7 @@ You answered "the gap is Jastrow's own". T00377's I sits on its alternate `רו�
 - **T00376**
   - [ ] T00374 `רוּם` (the Hebrew verb)
   - [ ] T00375 `רוּם` (its `ch. same` line, as X10 names)
-  - [ ] neither: no implied I here; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] neither: no implied I here; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - note: 
 
 Recommendation: T00374 (medium): ABBYY sets no numeral on T00374 or T00375, ruling 10-06 puts the implied I on the first unnumbered form, and in the same shape at H00321 Jastrow's cross-references name the Hebrew verb I; here none does.
@@ -389,7 +402,7 @@ You answered "the gap is Jastrow's own". The hOCR sets `I` after U01396's second
 **Question.** Where on U01396's line does print set the I?
 
 - **U01396**
-  - [ ] after the abbreviation `שִׁילְ׳`: store it on that alternate
+  - [x] after the abbreviation `שִׁילְ׳`: store it on that alternate
   - [ ] there is no I on the line: U01396 takes the implied I (name `שִׁלְשֵׁל I`)
   - [ ] after `שִׁלְשֵׁל` itself: U01396 takes I (name `שִׁלְשֵׁל I`, displayed)
   - [ ] can't tell from the scan
@@ -412,7 +425,7 @@ You ticked "print spells them differently, so the gap is real" and noted the dat
 **Question.** Is there a `נְהִי` I in print?
 
 - **N00260**
-  - [ ] no: the gap is Jastrow's own; as stored: nothing to fix (the row goes to the reviewed-kept list)
+  - [x] no: the gap is Jastrow's own; as stored: nothing to fix (the row goes to the reviewed-kept list)
   - [ ] yes (say which entry in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -434,7 +447,7 @@ You read the I beside V00522's alternate `תַּכָּא`, and noted it landed i
 
 - **V00522**
   - [ ] `תֻּכָּא (תַּכָּא I), v. …`: the parenthesis opens before the alternate
-  - [ ] `תֻּכָּא, (תַּכָּא I), v. …`: a comma, then the parenthesis
+  - [x] `תֻּכָּא, (תַּכָּא I), v. …`: a comma, then the parenthesis
   - [ ] something else (say what in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -455,9 +468,9 @@ Your notes: each headword is a long underline (about three letters wide) standin
 **Question.** Keep the stored form, or store a placeholder for the underline?
 
 - **J00321, J00327**
-  - [ ] keep as stored (the bare patah; names `ַיי`, `ַיְידָא`)
+  - [x] keep as stored (the bare patah; names `ַיי`, `ַיְידָא`)
   - [ ] store a placeholder for the underline (say which character in the note)
-  - note: 
+  - note: I feel like this is a display vs actual issue right?  The actual is just a patach, but clearly we have to find a way to display this, preferbly as close to print as we can.
 
 Recommendation: keep as stored (medium): the glosses already name every word the underline stands for, HW-prefix files the bare patah as an ending entry, and no ruling picks a character for print's rule, which is a mark of the page rather than a letter.
 
@@ -474,10 +487,10 @@ You gave the alternates as `קִצָּא` and `קִי׳`. The source holds `קִ
 **Question.** Does print set a qamats under the tsade?
 
 - **S01780**
-  - [ ] yes, `קִצָּא` (qamats and dagesh): the qamats is your print read
+  - [x] yes, `קִצָּא` (qamats and dagesh): the qamats is your print read
   - [ ] no, `קִצּא` as the bytes join
   - [ ] can't tell from the scan
-  - note: 
+  - note: Honestly this one is a bit of an educated guess as the text is not clear.  It deff needs an anotation.  The text only has a vertical line, it seems the top part of the qamats did not print, or lost to scan).
 
 Recommendation: yes, `קִצָּא` (high): your round-1 read gave the qamats, and Jastrow's own cross-reference to the word (S01120) spells it the same; the hOCR `5S22p` cannot show pointing.
 
@@ -1099,6 +1112,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: Legit missing, lets put ones like this in a differnt textual issues research issue.
+  - Withdrawn in PR #174 (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `אַגְמָא I`, so P000342 is retired and A00311 is bare again (its name `אַגְמָא I` → `אַגְמָא`); the X10 row for A00312 is on the reviewed-kept list
 
 
 #### `אֲוָנָא`: missing I (row [A00719](https://jastrow.app/#rid:A00719))
@@ -1129,6 +1143,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to textual research issue 
+  - Applied in PR #174 (2026-10-14, ruling `10-13 correction policy`): Jastrow's text names `אוֹרְיָין I` (A00882, M01329), so P000343 keeps A00889's I, now displayed (`אוֹרְיָין I, אוֹרְיָאן`) with a `print-error` annotation naming those cites; their links, which Sefaria aimed at A00890, now point at A00889
 
 
 #### `אֲמָנָה`: missing I (row [A02042](https://jastrow.app/#rid:A02042))
@@ -1145,6 +1160,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to resarch issue
+  - Applied in PR #174 (2026-10-14, ruling `10-13 correction policy`): Jastrow's text names `אֲמָנָה I` (H01410), so P000344 keeps A02041's I, now displayed (`אֲמָנָה I`) with a `print-error` annotation naming those cites; their links, which Sefaria aimed at A02042, now point at A02041
 
 
 #### `אָרַע`: missing I (row [A03217](https://jastrow.app/#rid:A03217))
@@ -1193,6 +1209,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Withdrawn in PR #174 (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `בִּיאָה I`, so P000345 is retired and B00537's alternate `בִּיאָה` is bare again (its name `בִּיָּא` is unchanged); the X10 row for B00538 is on the reviewed-kept list
 
 
 #### `בַּנַּאי`: missing I (row [B00936](https://jastrow.app/#rid:B00936))
@@ -1209,6 +1226,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to research issue
+  - Withdrawn in PR #174 (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `בַּנַּאי I`, so P000346 is retired and B00935 is bare again (its name `בַּנַּאי I` → `בַּנַּאי`); the X10 row for B00936 is on the reviewed-kept list
 
 
 #### `בְּרָא`: missing I (row [B01159](https://jastrow.app/#rid:B01159))
@@ -1244,6 +1262,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Withdrawn in PR #174 (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `גְּדוּדִית I`, so P000347 is retired and C00176 is bare again (its name `גְּדוּדִית I` → `גְּדוּדִית`); the X10 row for C00177 is on the reviewed-kept list
 
 
 #### `גִּיב`: missing I (row [C00610](https://jastrow.app/#rid:C00610))
@@ -1307,6 +1326,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Applied in PR #174 (2026-10-14, ruling `10-13 correction policy`): Jastrow's text names `דִּי I` (D00595), so P000348 keeps D00442's I, now displayed (`דִּי I`) with a `print-error` annotation naming those cites; their links, which Sefaria aimed at D00443, now point at D00442
 
 
 #### `הִא`: missing I, II (row [E00008](https://jastrow.app/#rid:E00008))
@@ -1396,6 +1416,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Withdrawn in PR #174 (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `חוּצָה I`, so P000349 is retired and H00432 is bare again (its name `חוּצָה I` → `חוּצָה`); the X10 row for H00433 is on the reviewed-kept list
 
 
 #### `חֵלֶף`: missing I (row [H01101](https://jastrow.app/#rid:H01101))
@@ -1452,6 +1473,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: 
+  - Withdrawn in PR #174 (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `חַנִּין I`, so P000350 is retired and H01290 is bare again (its name `חַנִּין I` → `חַנִּין`); the X10 row for H01291 is on the reviewed-kept list
 
 
 #### `טְבַע`: missing I (row [I00081](https://jastrow.app/#rid:I00081))
@@ -1487,6 +1509,7 @@ Tesseract reads a stored numeral beside its headword 22% of the time (control be
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Withdrawn in PR #174 (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `יָהּ I`, so P000351 is retired and J00112 is bare again (its name `יָהּ I` → `יָהּ`); the X10 row for J00113 is on the reviewed-kept list
 
 
 #### `יְתֵב`: missing I (row [J00713](https://jastrow.app/#rid:J00713))
@@ -1537,6 +1560,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Withdrawn in PR #174 (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `סְלִיקוּסְתָּא I`, so P000352 is retired and O00994 is bare again (its name `סְלִיקוּסְתָּא I` → `סְלִיקוּסְתָּא`); the X10 row for O00995 is on the reviewed-kept list
 
 
 #### `פְּלוּגְתָּא`: missing I (row [Q00965](https://jastrow.app/#rid:Q00965))
@@ -1553,6 +1577,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Applied in PR #174 (2026-10-14, ruling `10-13 correction policy`): Jastrow's text names `פְּלוּגְתָּא I` (Q00942, V00833), so P000353 keeps Q00964's I, now displayed (`פְּלוּגְתָּא I, פְּלֻגְ׳`) with a `print-error` annotation naming those cites; their links, which Sefaria aimed at Q00965, now point at Q00964
 
 
 #### `פַּפָּא`: missing I (row [Q01399](https://jastrow.app/#rid:Q01399))
@@ -1569,6 +1594,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Withdrawn in PR #174 (2026-10-14, ruling `10-13 correction policy`): no text of Jastrow's names `פַּפָּא I`, so P000354 is retired and Q01398 is bare again (its name `פַּפָּא I` → `פַּפָּא`); the X10 row for Q01399 is on the reviewed-kept list
 
 
 #### `קוּלְיָא`: missing I (row [S00337](https://jastrow.app/#rid:S00337))
@@ -1585,6 +1611,7 @@ ABBYY reads stored numerals 88% of the time, but not on these lines: the unnumbe
   - [ ] a different numeral or mark is there (write it in the note)
   - [ ] can't tell from the scan
   - note: add to issue
+  - Applied in PR #174 (2026-10-14, ruling `10-13 correction policy`): Jastrow's text names `קוּלְיָא I` (S00961, S01262, S01321, S01360), so P000355 keeps S00336's I, now displayed (`קוּלְיָא I, קוֹ׳`) with a `print-error` annotation naming those cites; their links, which Sefaria aimed at S00337, now point at S00336
 
 
 #### `שְׁבַע`: missing I (row [U00158](https://jastrow.app/#rid:U00158))

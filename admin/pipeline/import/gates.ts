@@ -144,14 +144,13 @@ function writtenNotation(entry: Entry, display: string): Map<string, number> {
 }
 
 /** The notation the composed line carries: its own, plus each
- * numeral a reviewed `reform` set BESIDE it (`SourceEntry.homographs`)
- * that print sets, so a template showing that numeral conserves the
- * line. An implied numeral (ruling 10-06 implied I) is not notation:
- * print sets no glyph for it, so a template showing one invents it.
- * Each numeral joins as its own word, so `II` stays one token. */
+ * numeral a reviewed `reform` set BESIDE it (`SourceEntry.homographs`),
+ * so a template showing that numeral conserves the line. Every such
+ * numeral counts: ruling 10-13 correction policy retired 10-06's hidden
+ * implied I, so an I Jastrow's text names is displayed like one print
+ * sets. Each numeral joins as its own word, so `II` stays one token. */
 function lineNotation(composed: SourceEntry): Map<string, number> {
 	const supplied = (composed.homographs ?? [])
-		.filter((h) => h.implied !== true)
 		.map((h) => ` ${intToRoman(h.homograph)}`)
 		.join('');
 	return notationOf(`${headwordLine(composed)}${supplied}`);
