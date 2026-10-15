@@ -24,7 +24,18 @@
 				"<cite ref=\"Jerusalem Talmud Megillah 4:12:3\">Y. Meg. IV, end, 75ᶜ</cite> bot. <he>נותן בח׳</he> he puts (the M’zuzah) on the rough door (which is more used by the inmates); <he>היו שניהן ח׳</he> if both are of rough work.—Esp. <i>the rough side of a fence or wall</i>, indicating that the neighbor had no right to it, <i>border-mark</i>. ",
 				"<cite ref=\"Mishnah Bava Batra 1:2\">B. Bath. I, 2</cite> (<cite ref=\"Mishnah Bava Batra 1:2\">2</cite>) <he>כונס … ועושה ח׳ מבחוץ</he> he moves back on his own ground and builds, and makes the border-mark outside. Ib. 4ᵃ <he>מאי ח׳ וכ׳</he> wherein consists the border-mark? Answ. He bends the pegs on top outward."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000137",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>rough sore, contusion</i>.—Pl. <he>חָזִיּוֹת</he>. ",

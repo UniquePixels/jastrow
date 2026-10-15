@@ -54,7 +54,18 @@
 						"<cite ref=\"Sanhedrin 103b:17\">Snh. 103ᵇ</cite> <he>שהִרְחִיקָה וכ׳</he>, v. <cite ref=\"L00131\"><he>לְגִימָה</he></cite>. ",
 						"<cite ref=\"Sanhedrin 103b:17\">Ib.</cite> <he>מַרְחֶקֶת וכ׳</he> estranges those who are near (related) &c.; a. fr."
 					],
-					"label": "1"
+					"label": "1",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "",
+							"stored": "1",
+							"evidence": "a —2) follows the unlabelled first sense",
+							"source": "P000456",
+							"date": "2026-10-14"
+						}
+					]
 				},
 				{
 					"gloss": " <i>to keep aloof, stay away</i>. ",

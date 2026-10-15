@@ -31,7 +31,18 @@
 				"<cite ref=\"Jerusalem Talmud Moed Katan 2:3:2\">Y. M. Kat. II, 81ᵇ</cite> top <he>א׳ וקרנא</he> profit and principal (cost-price).—",
 				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:5:3\">Y. B. Mets. II, 8ᶜ</cite> top <he>מא׳ כל הדין עלמא</he> than all profit this world can offer."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000079",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>that which deserves reward, meritorious deed</i>. ",

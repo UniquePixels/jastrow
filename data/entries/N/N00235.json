@@ -25,7 +25,18 @@
 			"units": [
 				"<cite ref=\"Bereishit Rabbah 39:8\">Gen. R. s. 39</cite> (expl. <cite ref=\"N00212\"><he>נְדֹד</he></cite>, <cite ref=\"Psalms 55:9\">Ps. LV, 9</cite>) <he>נ׳ טלטול וכ׳</he> <i>n’dod</i> means moving about, exile after exile."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000438",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " (sub. <he>ראש</he>) <i>head-shaking</i>; <he>נ׳ עבירה</he> an act at which people shake their heads as being wrong. ",

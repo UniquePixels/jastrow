@@ -99,7 +99,18 @@
 						"<cite ref=\"Bereishit Rabbah 90:5\">Gen. R. s. 90</cite> <he>שכל ארץ וארץ מעמדת פירותיה</he> each ground preserves its own fruits (when put into the ground). ",
 						"<cite ref=\"Bereishit Rabbah 90:5\">Ib.</cite> <he>דברים שהן מַעֲמִידִין</he> substances which conserve, v. <cite ref=\"S00792\"><he>קִטְמִית</he></cite>; a. fr."
 					],
-					"label": "1"
+					"label": "1",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "",
+							"stored": "1",
+							"evidence": "a —2) follows the unlabelled first sense",
+							"source": "P000161",
+							"date": "2026-10-14"
+						}
+					]
 				},
 				{
 					"gloss": " <i>to change the standing of; to enlarge; to reduce</i>. ",

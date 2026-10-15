@@ -53,7 +53,18 @@
 					"units": [
 						"<cite ref=\"Esther Rabbah 3:2\">Esth. R. to I, 9</cite> [read:] <he>אנא מְגָרֵיר וכ׳</he> I will make their drinks appetizing (induce them to get intoxicated, interpreting <cite ref=\"Jeremiah 51:39\">Jer. LI, 39</cite>; differ. in comment.)."
 					],
-					"label": "1"
+					"label": "1",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "",
+							"stored": "1",
+							"evidence": "a —2) follows the unlabelled first sense",
+							"source": "P000462",
+							"date": "2026-10-14"
+						}
+					]
 				},
 				{
 					"gloss": " <i>to saw off</i>. ",

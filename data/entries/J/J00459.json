@@ -24,7 +24,18 @@
 			"units": [
 				"<cite ref=\"Sanhedrin 45a:7\">Snh. 45ᵃ</cite> (ref. to <cite ref=\"Ezekiel 23:48\">Ez. XXIII, 48</cite>) <he>אין לך יי׳ גדול מזה</he> there is no severer warning than this (capital punishment, and therefore disgrace by exposure would be an unnecessary hardship)."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000155",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " Pl. <he>יִסּוּרִים</he>, <he>יִסּוּרִין</he>, <cite ref=\"J00271\"><he>יִי׳</he></cite> <i>corrections by suffering, suffering, trials, visitation</i>. ",

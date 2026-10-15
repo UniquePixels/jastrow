@@ -27,7 +27,18 @@
 				"<cite ref=\"Mishnah Pesachim 2:6\">Pes. II, 6</cite> <he>ואלו י׳ וכ׳</he> and these are the (bitter) herbs which may be used as <i>maror</i>. ",
 				"<cite ref=\"Mishnah Rosh Hashanah 1:1\">R. Hash. I, 1</cite> <he>ר״ה … לנטיעה ולי׳</he> a new year as regards … the planting (of trees) and (the tithes from) herbs; a. fr.—<he>יַרְקוֹת חמור</he> (Var. <cite ref=\"J00640\"><he>יְרִיקַת</he></cite>, <cite ref=\"J00613\"><he>יְרוֹקֶת</he></cite>) <i>ass-herbs</i>, the large-leaved <i>cucumis agrestis</i> (v. Löw Pfl. p. 333). Ohol. VIII, 1 (cmp. Tosef. ib. XIII, 5)."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000428",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>name of a species of green-fish</i>. ",

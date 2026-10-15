@@ -45,7 +45,7 @@ audit's predicate counts five more rows than §4's.
 | Implied I, proven by Jastrow's text | case 2: keep the I, display it, annotate | 5 entries | (i) |
 | Implied I, sequence only | withdrawn: retire the reform patch, add a reviewed-kept record | 9 entries | (i) |
 | Their cross-references | case 1: retarget the link to the I | 10 links in 10 entries | (i) |
-| RP8 implied `1)` | case 2, kept: annotate `printed: ''`, `stored: '1'` | 61 patches on 61 entries (36 move from agent tranches to `reviewed/`; D00072 converts) | (ii) |
+| RP8 implied `1)` | case 2, kept: annotate `printed: ''`, `stored: '1'` | 61 patches on 61 entries (36 move from agent tranches to `reviewed/`; D00072 converts) | (ii), done in PR #175 |
 | Class 3 doubled numbers | case 2: renumber, one annotation per changed label | 18 entries, 24 annotations | (iii) |
 | S01849's `עָבַר Pi. 4)` | case 2: rewrite to `Pi. 5)`, annotated | 1 | (iii) |
 | U01512's `a) … 2)` | case 3: `annotate`, `kept` | 1 | (iii) |
@@ -185,6 +185,17 @@ Round 2's two text-proven implied Is, H00319 (`חוּל I`) and I00077
 copy, and go in data PR (iv) with the same patch shape as the five.
 
 ## 2. RP8's implied `1)` (61 patches)
+
+**Done in PR #175** (data PR (ii);
+[`admin/pipeline/patch/records/tranches/rp8-marks-2026-10-14/`](../admin/pipeline/patch/records/tranches/rp8-marks-2026-10-14/README.md)):
+24 retags annotated in place, 36 moved to `reviewed/` with their 37
+`implied-one` splits, D00072 converted (P000554, P000555); the
+blessing reads 66 annotations. Two corrections to what follows: the
+print read B01321's, C01169's and U01787's rationale cites is
+body-review doc 01 (note 1, and C01169's Unclassified row), not doc 04;
+and in eight rows "the data now" is not the built entry's path to the
+label (C01393, D00072, D00325, G00652, K00030, K00156, P00856,
+U01787): the tranche README gives each one's.
 
 Case 2, kept: a `2)` after an unlabelled first sense determines the
 `1)`. Each owes `annotation: {kind: 'print-error', printed: '',
@@ -708,10 +719,10 @@ The three unclassified:
    clause, and `implied` leaves the contract and `reform.homographs`.
    Eight names lose their I. B00537's I was on its alternate
    `בִּיאָה`, so its name, the primary `בִּיָּא`, holds.
-2. **(ii) RP8 marks.** 61 annotations: 24 retags in place; 36 retags
-   moved with their companion splits from 4 agent tranches into
-   `reviewed/`; D00072's `replace` (P000214) retired for a `retag` +
-   `split` pair.
+2. **(ii) RP8 marks.** Done in PR #175. 61 annotations: 24 retags in
+   place; 36 retags moved with their companion splits from 4 agent
+   tranches into `reviewed/`; D00072's `replace` (P000214) retired for
+   a `retag` + `split` pair (P000554, P000555).
 3. **(iii) Class 3 renumber.** 24 new `retag`s on 18 entries, each
    annotated; S01849's `replace`; U01512's `annotate`.
 4. **(iv) Round 2 (L46)** once your ticks are committed: the 16
@@ -726,9 +737,9 @@ The three unclassified:
 
 - **An annotation on an agent patch is refused**, so 36 RP8 retags,
   with their splits, move to `reviewed/` (§2.1). Records move; no code
-  changes.
+  changes. Done in PR #175.
 - **D00072 cannot be annotated as a `replace`**; it converts to a
-  `retag` + `split` (§2.3). No code changes.
+  `retag` + `split` (§2.3). No code changes. Done in PR #175.
 - **No op edits `language_reference`** (L50): 10 determined retargets
   and 3 worklist cites (P00866, M02733, M02738) wait on it.
 - **Removing an implied I needs no op**: retiring the reform restores

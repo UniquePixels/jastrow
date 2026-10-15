@@ -18,7 +18,18 @@
 			"units": [
 				"<cite ref=\"Targum Jonathan on Genesis 10:4\">Targ. Y. I Gen. X, 4</cite> <he>טַרְסַס</he> ed. Amst. (oth. eds. <cite ref=\"I00853\"><he>טרסיס</he></cite>, v. <cite ref=\"A01927\"><he>אַלַּס</he></cite>); <cite ref=\"Targum of I Chronicles 1:7\">Targ. I Chr. I, 7</cite> <cite ref=\"I00848\"><he>טרסוס</he></cite> ed. Lag."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000151",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " (prob.) <i>Tartessus, in Spain</i>. ",

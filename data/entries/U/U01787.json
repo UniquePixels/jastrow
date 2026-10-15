@@ -37,7 +37,18 @@
 				{
 					"gloss": "<i>to make slanting, let hang down</i>, v. supra.",
 					"units": [],
-					"label": "1"
+					"label": "1",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "",
+							"stored": "1",
+							"evidence": "print sets no 1) on Af.'s first sense, which is only a cross-reference (v. supra), and Af.'s next sense opens —2); the print matches the source (maintainer print read, body-review doc 01, note 1)",
+							"source": "P000285",
+							"date": "2026-10-14"
+						}
+					]
 				},
 				{
 					"gloss": "<i>to pour, give in abundance</i>. ",

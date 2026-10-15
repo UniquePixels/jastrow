@@ -19,7 +19,18 @@
 				"<cite ref=\"Pesachim 56a\">Pes. 56ᵃ</cite>; <cite ref=\"Menachot 71a:15\">Men. 71ᵃ</cite> <he>גּוֹדְשִׁין לפני העומר</he> they put the stacks of grain up before offering the Omer (v. <cite ref=\"P00288\"><he>עוֹמֶר</he></cite>); <cite ref=\"Tosefta Pesachim 2:1\">Tosef. Pes. II</cite> (<cite ref=\"Tosefta Pesachim 3:19\">III</cite>), 19 (corr. acc.). ",
 				"<cite ref=\"Tosefta Bava Kamma 6:24\">Tosef. B. Kam. VI, 24</cite> <he>השאילו לִגְדּוֹשׁ … וגָ׳ וכ׳</he> if he lent him a spot to pile wheat on it, and he piled barley; a. fr."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000109",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>to give heaped measure</i>, opp. <he>מחק</he> to strike. ",

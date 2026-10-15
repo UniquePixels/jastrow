@@ -31,7 +31,18 @@
 				"<cite ref=\"Yoma 13b:3\">Yoma 13ᵇ</cite> <he>דגיטא דהא וכ׳</he> that the letter of divorce for this wife is invalid; a. fr.—<he>אַהָא</he> = <he>על הא</he> <i>referring to this</i>. ",
 				"<cite ref=\"Ketubot 40b:13\">Keth. 40ᵇ</cite> <he>אַתּוּן אהא וכ׳</he> ye cited it (Resh Lakish’s opinion) with reference to that, we used to cite it with reference to this; a. fr."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000125",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>here, here is</i>. ",

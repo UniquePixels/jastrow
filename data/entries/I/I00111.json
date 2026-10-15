@@ -22,7 +22,18 @@
 				"<cite ref=\"Targum Jonathan on Isaiah 1:19\">Targ. Is. I, 19</cite>. ",
 				"<cite ref=\"Aramaic Targum to Psalms 33:22\">Targ. Ps. XXXIII, 22</cite>; a. fr."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000142",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " (mostly in pl. constr. <cite ref=\"I00113\"><he>טוּבֵי</he></cite>) <i>happines</i>, used like <cite ref=\"U01961\"><he>אַשְׁרֵי</he></cite>, <i>happy!, blessed!</i> <cite ref=\"Targum Jonathan on I Kings 10:8\">Targ. I Kings X, 8</cite>. ",

@@ -28,7 +28,18 @@
 				"<cite ref=\"Jerusalem Talmud Demai 6:4:4\">Y. Dem. VI, 25ᶜ</cite> bot. <he>כ׳ יהב ליה כ׳</he> when he gives him the whole of it. ",
 				"<cite ref=\"Jerusalem Talmud Megillah 3:7:3\">Y. Meg. III, 74ᵇ</cite> bot. <he>כ׳ דהוינן</he>, v. <cite ref=\"K00098\"><he>כַּד</he> I</cite>."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000432",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " [<i>as it is</i>,] <i>incidentatly, without special reason, not meaning it exactly</i>. ",

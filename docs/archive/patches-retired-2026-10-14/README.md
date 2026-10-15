@@ -1,11 +1,12 @@
 # Retired patch records (2026-10-14)
 
 `reviewed/patches.jsonl` holds the 9 reviewed `reform` patches that
-left `admin/pipeline/patch/records/reviewed/patches.jsonl` in PR #174
+left `admin/pipeline/patch/records/reviewed/patches.jsonl` in PR #174,
+and D00072's `replace` P000214, which left in PR #175 (below)
 (data PR (i) of [`docs/correction-audit.md`](../../correction-audit.md)
-§7). Every line is the original line's bytes, moved. Each rid's
-`manifest.jsonl` record in `reviewed/` was removed with it: it named
-only this patch.
+§7). Every line is the original line's bytes, moved. Each of the
+nine rids' `manifest.jsonl` record in `reviewed/` was removed with it:
+it named only this patch.
 
 Each one set an implied I (`homograph: 1, implied: true`) on the bare
 first form of a homograph sequence whose next entry print numbers II.
@@ -41,3 +42,26 @@ P000348, P000353, P000355) stay, amended in place: see
 | P000351 | J00112 | `יָהּ` | `יָהּ I` → `יָהּ` | J00113 |
 | P000352 | O00994 | `סְלִיקוּסְתָּא` | `סְלִיקוּסְתָּא I` → `סְלִיקוּסְתָּא` | O00995 |
 | P000354 | Q01398 | `פַּפָּא` | `פַּפָּא I` → `פַּפָּא` | Q01399 |
+
+## P000214 (PR #175)
+
+A tenth line followed in PR #175 (data PR (ii) of
+[`docs/correction-audit.md`](../../correction-audit.md) §7): P000214,
+the reviewed `replace` on D00072 that wrote the implied `1)` into the
+gloss (`.) <i>` → `.) 1) <i>`; review doc 01, `repairs.ts`
+`IMPLIED_ONE_TEXT`). Its bytes are moved unchanged. D00072's
+`manifest.jsonl` record in `reviewed/` was not removed but rewritten:
+it now names the pair that replaces it.
+
+The `1)` it wrote stayed text: the entry's Kal sense was unlabelled and
+its `—2)` run sat inside a unit. Ruling `10-13 correction policy` makes
+an implied `1)` case 2, annotated on the sense's label, and an
+annotation on a `replace` describes a gloss or unit substring, not a
+label. The source segment allows a `retag`, so P000554 numbers the
+first source sense `1)` with the annotation and P000555 splits the
+`—2)` out: Kal reads `1 2`, as print divides it. See
+[`admin/pipeline/patch/records/tranches/rp8-marks-2026-10-14/README.md`](../../../admin/pipeline/patch/records/tranches/rp8-marks-2026-10-14/README.md).
+
+| Patch | Rid | What it did | Replaced by |
+|---|---|---|---|
+| P000214 | D00072 | `replace` `.) <i>` → `.) 1) <i>` in the Kal definition | P000554 `retag` `1)` (annotated), P000555 `split` `—2)` |

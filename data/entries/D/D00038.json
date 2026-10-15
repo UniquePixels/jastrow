@@ -19,7 +19,18 @@
 			"units": [
 				"<cite ref=\"Yevamot 97a:2\">Yeb. 97ᵃ</cite> (ref. to <cite ref=\"Song of Songs 7:10\">Cant. VII, 10</cite>) <he>מה כומר … מיד דּוֹבֵב</he> as the heated mass of grapes drips as soon as you apply your finger, <he>כך … דּוֹבְבוֹת וכ׳</he> so do the lips of scholars in the grave murmur when their names are cited; <cite ref=\"Sanhedrin 90b\">Snh. 90ᵇ</cite>; <cite ref=\"Bekhorot 31b\">Bekh. 31ᵇ</cite> (<cite ref=\"Jerusalem Talmud Berakhot 2:1:17\">Y. Ber. II, 4ᵇ</cite> bot. <he>רוחשות</he>, Ar. <he>דובבות</he>); a. e."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000118",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " *<i>to drop pitch</i>. ",

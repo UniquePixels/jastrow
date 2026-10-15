@@ -22,7 +22,18 @@
 			"units": [
 				"<cite ref=\"Sotah 9b:15\">Sot. 9ᵇ</cite> (play on <he>דלילה</he>) <he>דִּילְדְּלָה את כחו וכ׳</he> she weakened his strength, his understanding, his merits; <cite ref=\"Bamidbar Rabbah 9\">Num. R. s. 9</cite>. Tanḥ. B’har 3 <he>מְדַלְדְּלוֹ וכ׳</he> the Lord reduces his income, and he must sell his property."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000122",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>to loosen, detach</i>. ",

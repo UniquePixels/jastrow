@@ -21,7 +21,18 @@
 			"units": [
 				"<cite ref=\"Mishnah Kelim 29:7\">Kel. XXIX, 7</cite> <he>יד הב׳</he> the handle of a spade.—Pl. <he>בְּדִידִין</he>. Y’lamd. Sh’laḥ quot. in Ar. <he>ב׳ בברזל</he>(?)."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000101",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>rut, cavity</i> (cmp. <cite ref=\"B00135\">next w.</cite>).—<i>Pl.</i> as above. ",

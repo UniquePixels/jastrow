@@ -22,7 +22,18 @@
 				"<cite ref=\"Mishnah Mikvaot 5:5\">Mikv. V, 5</cite>, v. <cite ref=\"G00246\"><he>זָחַל</he></cite>; a. fr.—Trnsf. (cmp. <cite ref=\"N00101\"><he>נָבַע</he></cite>) <i>to speak, prophesy</i>. ",
 				"<cite ref=\"Midrash Tehillim 73\">Midr. Till. to Ps. LXXIII</cite>, end (ref. to <cite ref=\"Joel 4:18\">Joel IV, 18</cite>) <he>אין יִטְּפוּ אלא נבואה</he> <i>yiṭṭ’fu</i> alludes to prophecy; v. <cite ref=\"E00322\"><he>הַטָּפָה</he></cite>."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000440",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " (cmp. <he>טְפֵי</he> III) <i>to be too long, protrude, hang over</i>. ",

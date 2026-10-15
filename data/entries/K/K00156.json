@@ -39,7 +39,18 @@
 				{
 					"gloss": "<i>to grow duller, to be shaded</i>. Sifra Thazr., Neg., Par. 2, ch. II <he>אם העז וכ׳</he> if the spot grew brighter and grew duller again; a. fr.",
 					"units": [],
-					"label": "1"
+					"label": "1",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "",
+							"stored": "1",
+							"evidence": "a —2) follows the unlabelled first sense",
+							"source": "P000434",
+							"date": "2026-10-14"
+						}
+					]
 				},
 				{
 					"gloss": " <i>to declare doubtful</i>. ",

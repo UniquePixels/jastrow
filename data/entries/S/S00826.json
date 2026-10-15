@@ -30,7 +30,18 @@
 				"<cite ref=\"Kohelet Rabbah 9:10\">Koh. R. to IX, 10</cite> <he>אייתון … וקַטְרוּ ברגלי</he> get a rope and tie it to my feet. ",
 				"<cite ref=\"Jerusalem Talmud Eruvin 10:10:3\">Y. Erub. X, 26ᶜ</cite> top <he>קטיר בגמי</he> (not <cite ref=\"S00823\"><he>קטר</he></cite>) tied with reed-grass. Y. Gitt. IV, 46ᵃ (we must not help captives to escape) <he>מפני … דלא יהוון קַטְרִינוֹן</he> this law is made for the benefit of the (remaining) captives, that they (the captors) may not chain them; a. fr."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000448",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " (v. <cite ref=\"S02264\"><he>קָשַׁר</he></cite>) <i>to gather, be covered</i>. ",

@@ -28,7 +28,18 @@
 				"<cite ref=\"Nedarim 37a:3\">Ib.</cite> <he>גדול בר ש׳ הוא</he> does an adult need guarding? <cite ref=\"Kohelet Rabbah 5:10\">Koh. R. to V, 10</cite> <he>צריך ש׳ וכ׳</he> must be watched against weasels &c.; a. fr.—Pl. <he>שִׁימּוּרִים</he>, <cite ref=\"U00958\"><he>שִׁמּ׳</he></cite> (b. h. <cite ref=\"U01527\"><he>שִׁמֻּרִים</he></cite>); <he>ליל ש׳</he> a night of watching. ",
 				"<cite ref=\"Pesachim 109b:5\">Pes. 109ᵇ</cite>; <cite ref=\"Rosh Hashanah 11b:4\">R. Hash. 11ᵇ</cite>, a. e., v. <cite ref=\"U01525\"><he>שָׁמַר</he></cite>."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000458",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " (v. <cite ref=\"U01527\"><he>שְׁמָרִים</he></cite>) <i>clearing wine, straining</i>. ",

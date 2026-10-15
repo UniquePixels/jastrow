@@ -20,7 +20,18 @@
 				"<cite ref=\"Shabbat 55b:9\">Sabb. 55ᵇ</cite> (play on <he>פ̇ח̇ז̇</he>, <cite ref=\"Genesis 49:4\">Gen. XLIX, 4</cite>) <he>פ̇זתה ח̇בתה זַֹלְתָּה</he> (not <cite ref=\"G00503\"><he>זלתא</he></cite>, v. Rabb. D. S. a. l. note 300) thou wast rash, becamest guilty, degradedst thyself. ",
 				"<cite ref=\"Sanhedrin 98a:6\">Snh. 98ᵃ</cite> <he>מלכות הַזָּלָה</he> the despicable (Roman) government (Rashi: ‘the slightest trace of tyranny’)."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000466",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " (cmp. <cite ref=\"B00220\"><he>בּוּז</he></cite>) <i>to squander, be excessive in sensual enjoyments, be dissolute</i>. ",

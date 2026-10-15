@@ -28,7 +28,18 @@
 						"<cite ref=\"Mishnah Parah 7:7\">Par. VII, 7</cite> <he>המְכַנֵּן … על יד על יד</he> (Talm. ed. only once <he>על יד</he>) he who winds the rope (for drawing the bucket up) around his hand until a sufficient length is wound up; <he>ואם כִּנְּנוֹ באחרונה</he> but if he winds it after he has finished drawing; Tosef. ib. VII (VI), 4 <he>וחזר ובנאו</he> ed. Zuck. (Var. <he>וכי</he>, read: <he>וכיננו</he> as R. S. to Par. l. c.).—<i>Part. pass.</i> <he>מְכוּנָּן</he> a) <i>wound around</i>. ",
 						"<cite ref=\"Mishnah Makhshirin 4:1\">Makhsh. IV, 1</cite> <he>בחבל שהוא מכ׳ וכ׳</he> with the rope which is wound around the neck of the vessel."
 					],
-					"label": "1"
+					"label": "1",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "",
+							"stored": "1",
+							"evidence": "a —2) follows the unlabelled first sense",
+							"source": "P000436",
+							"date": "2026-10-14"
+						}
+					]
 				},
 				{
 					"gloss": " <i>nested</i>. ",

@@ -76,7 +76,18 @@
 					"units": [
 						"<cite ref=\"Kohelet Rabbah 3:9\">Koh. R. to III, 9</cite> <he>א׳ מלכא</he> the king was irritated. Pesik. B’shall. p. 86ᵇ; <cite ref=\"Yalkut Shimoni on Nach 152:2\">Yalk. Sam. 152</cite> <he>אוֹדִיקַת סרח וכ׳</he> Serah … grew <i>angry;</i> cmp. <cite ref=\"D00989\"><he>דִּקְדֵּק</he></cite>."
 					],
-					"label": "1"
+					"label": "1",
+					"annotations": [
+						{
+							"field": "label",
+							"kind": "print-error",
+							"printed": "",
+							"stored": "1",
+							"evidence": "a —2) follows the unlabelled first sense",
+							"source": "P000464",
+							"date": "2026-10-14"
+						}
+					]
 				},
 				{
 					"gloss": " <i>to examine, look with anxiety, wait attentively</i>. ",

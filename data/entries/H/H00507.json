@@ -33,7 +33,18 @@
 				"<cite ref=\"Numbers 12:6\">Num. XII, 6</cite> (some ed. <cite ref=\"H00694\"><he>חִיזְוָן</he></cite>, fr. <cite ref=\"H00693\"><he>חֵיזוּ</he></cite>). ",
 				"<cite ref=\"Aramaic Targum to Esther 6:1\">Targ. Esth. VI, 1</cite>; a. e."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000135",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>look-out, crossroad</i>.—Pl. constr. <he>חֶזְוֵי</he>, (<he>חֵיזוֹי</he>) <he>חֵיזְוֵי</he>. ",

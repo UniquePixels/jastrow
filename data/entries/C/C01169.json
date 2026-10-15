@@ -25,7 +25,18 @@
 				"<cite ref=\"Vayikra Rabbah 23:5\">Lev. R. s. 23</cite> <he>כגון ג׳ לחיפא</he> as Castra is hostile to Haifa; <cite ref=\"Eichah Rabbah 1\">Lam. R. to I, 17</cite> <cite ref=\"S01653\"><he>קסטרא</he></cite>.—Pl. <cite ref=\"C01171\"><he>גַּסְטְרָיוֹת</he></cite>. ",
 				"<cite ref=\"Bereishit Rabbah 28:2\">Gen. R. s. 28</cite> <he>אריות ג׳</he>; <cite ref=\"Yalkut Shimoni on Torah 47:2\">Yalk. ib. 47</cite> <he>חיילות גי׳</he>, read <he>אהליות וג׳</he>, v. <cite ref=\"A00508\"><he>אָהֳלִית</he></cite>."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "print sets no 1) on the first sense (military camp, fort), and the next sense opens —*2); the print matches the source (maintainer print read, body-review doc 01, Unclassified: \"Confirmed, sense 1 is implied\")",
+					"source": "P000212",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " (cmp. castellum) <i>reservoir</i>. ",

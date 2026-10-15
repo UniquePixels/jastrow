@@ -22,7 +22,18 @@
 				"<cite ref=\"Mishnah Berakhot 9:1\">Ber. IX, 1</cite>, expl. ",
 				"<cite ref=\"Berakhot 58b:11\">ib. 58ᵇ</cite> <he>ככבא דשביט</he>."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000131",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " <i>a blast of wind</i>, [also imagined as <i>a spirit</i> (cmp. <cite ref=\"T00615\"><he>רוּחַ</he></cite>)]. ",

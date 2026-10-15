@@ -29,7 +29,18 @@
 				"<cite ref=\"Bamidbar Rabbah 15:25\">Ib.</cite> B’midb. 12 <he>יש להם טכסין מן יעקב אביהן</he> they have a traditional order from the way their father Jacob arranged his funeral escort; ed. Bub. ib. 12 <he>יש בידן טכסיס אביהן</he>. ",
 				"<cite ref=\"Shir HaShirim Rabbah 2:4:1\">Cant. R. to II, 4</cite> <he>טקסים של מעלה</he> (read … <he>ס</he>) the heavenly array; a. v. fr."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000144",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " (fem.) <i>garrison</i>. ",

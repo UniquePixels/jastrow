@@ -26,7 +26,18 @@
 				"<cite ref=\"Tosefta Zavim 5:9\">Tosef. Zab. V, 9</cite>; <cite ref=\"Beitzah 7a:14\">Bets. 7ᵃ</cite>.—",
 				"<cite ref=\"Mishnah Middot 3:8\">Midd. III, 8</cite> <he>א׳ של זהב</he> a gold imitation of a cluster of grapes."
 			],
-			"label": "1"
+			"label": "1",
+			"annotations": [
+				{
+					"field": "label",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "1",
+					"evidence": "a —2) follows the unlabelled first sense",
+					"source": "P000099",
+					"date": "2026-10-14"
+				}
+			]
 		},
 		{
 			"gloss": " Trnsf. <i>a distinguished scholar</i> (opp. <he>עַלִּין</he> <i>leaves = the ignorant</i>); v. infra. ",
