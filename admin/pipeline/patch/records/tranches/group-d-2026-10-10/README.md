@@ -14,6 +14,12 @@ that were decided and never applied. That is four confirmed implied
 `1)`s, seven OCR `l)`s and three print reads (D00919, L52's fourth print
 read, is in class 8).
 
+> **2026-10-14 (PR #n).** The 21 implied-`1)` retags here now carry a
+> `print-error` annotation each, amended in place under ruling 10-13
+> correction policy (data PR (ii),
+> [`../rp8-marks-2026-10-14/`](../rp8-marks-2026-10-14/README.md)). The
+> recorded deviation (register #16) is now that annotation.
+
 ## Where the patches are
 
 **142 patches on 75 entries, P000368–P000509, are in

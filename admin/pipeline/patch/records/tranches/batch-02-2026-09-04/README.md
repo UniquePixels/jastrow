@@ -8,6 +8,14 @@
 > All 150 manifest records stay; A00878's escalation lost only its
 > reference to the retired patch. The measurements below are of the
 > sweep as it ran.
+>
+> **2026-10-14 — two more left (PR #n).** P000078 and P000079, A00339's
+> implied-`1)` split and retag, moved to
+> [`../../reviewed/patches.jsonl`](../../reviewed/patches.jsonl) with
+> their ids, so the retag can carry its annotation (ruling 10-13
+> correction policy; [`../rp8-marks-2026-10-14/`](../rp8-marks-2026-10-14/README.md)).
+> P000077 stays. A00339's `needs_human_judgment` record stays, with
+> `patches: []`, for its unresolved class 11 escalation.
 
 Second residue batch, on the 3,885-entry population. Maintainer go
 recorded **2026-09-04 14:38 CDT**; usage baseline marked
