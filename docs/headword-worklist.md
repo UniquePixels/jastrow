@@ -2,7 +2,7 @@
 
 ## Status
 
-**2026-10-15.** Your round 2 ticks are applied in PR #n, data PR (iv)
+**2026-10-15.** Your round 2 ticks are applied in PR #177, data PR (iv)
 of [`correction-audit.md`](correction-audit.md) §7, under ruling `10-13
 correction policy`: each of the 16 blocks below ends with what was
 written. **6 are patched**, 13 reviewed patches on 11 entries
@@ -157,7 +157,7 @@ Changed 2026-10-13: the old "no" box asked you to write how print numbers A03215
 
 Recommendation: implied I (high): the hOCR line `YIN (V3, v. (רעע to strike against.` sets no numeral, you read none, and Jastrow's own cross-references call this word `אָרַע I`, so ruling 10-06 gives A03215 the implied I (their links are a separate question, as in L51).
 
-Kept in PR #n: a reviewed-kept record (X8) on A03217, as ticked. A03215 stays bare; the six cites that call it `אָרַע I` are unchanged.
+Kept in PR #177: a reviewed-kept record (X8) on A03217, as ticked. A03215 stays bare; the six cites that call it `אָרַע I` are unchanged.
 
 ### `בְּרָא`: B01159 (`בְּרָא` II, son)
 
@@ -185,7 +185,7 @@ Changed 2026-10-13: the old "no: print numbers a `בְּרָא` I (say which ent
 
 Recommendation: yes (high): the stored gloss and the hOCR line `NSIT, x31 ₪ create` both set a second form beside `בָּרָא II` before the gloss `to create`, and HW-roman keeps its I on that form, as U02097's alternate already does.
 
-Kept in PR #n: a reviewed-kept record (X8) on B01159, whose reason quotes your note.
+Kept in PR #177: a reviewed-kept record (X8) on B01159, whose reason quotes your note.
 
 ### `זְמַם`: G00527 (missing II)
 
@@ -216,7 +216,7 @@ Changed 2026-10-13: the question names G00529, and the "no" box says what it wou
 
 Recommendation: yes (high): you read no numeral beside G00529, its hOCR line `os ch.-same, lo muscle.` shows none where G00527's and G00531's show `]` and `111`, and no ruling supplies a II print leaves out.
 
-Kept in PR #n: a reviewed-kept record (X8) on G00527.
+Kept in PR #177: a reviewed-kept record (X8) on G00527.
 
 ### `חֵלֶף`: H01101 (`חֵלֶף` II)
 
@@ -241,7 +241,7 @@ You read no numeral beside H00780's alternate `חֵלֶף`, which is 321 entries
 
 Recommendation: tsere (high): the hOCR is unpointed (`חלף I m.`), but Jastrow's own two cross-references to this word, both for its `shoots`, spell it `חֵלֶף I` with a tsere, so the single hiriq reads as Sefaria's OCR slip.
 
-Applied in PR #n: P000582 respells H01100 `חִלֶף I` → `חֵלֶף I` (case 1, no annotation), and the name changes with it. H01101's X8 row clears. H01057 and H01105 still link to H01101; they are the question `חֵלֶף I` under Cross-reference numerals below.
+Applied in PR #177: P000582 respells H01100 `חִלֶף I` → `חֵלֶף I` (case 1, no annotation), and the name changes with it. H01101's X8 row clears. H01057 and H01105 still link to H01101; they are the question `חֵלֶף I` under Cross-reference numerals below.
 
 ### `חֲמַר`: H01222 (`חֲמַר` III; missing I, II)
 
@@ -268,7 +268,7 @@ You read no numeral beside H01219 or H01221. This is pile D's shape: the Hebrew 
 
 Recommendation: yes (high): the hOCR sets no numeral on either `ch.` line (`“WPT .ג same.`, `חמר ch. same`) and `ITT` on H01222, the shape of the four kept rows, and no ruling supplies the I and II that only the cross-references name.
 
-Kept in PR #n: a reviewed-kept record (X8) on H01222.
+Kept in PR #177: a reviewed-kept record (X8) on H01222.
 
 ### `טְבַע`: I00081 (`טְבַע` II)
 
@@ -299,7 +299,7 @@ Changed 2026-10-13: the question asked only about I00080; the cross-references a
 
 Recommendation: I00077 (medium): the hOCR shows no numeral on I00077, I00079 or I00080, and the only `טְבַע I` the dictionary names is I00077's `to sink`; ruling 10-06 gives that form the implied I.
 
-Applied in PR #n: P000583 gives I00077 `homograph: 1`, displayed `טְבַע I` as your note asks, with a `print-error` annotation naming I00121 and O00179 (case 2). P000590 moves O00179's `v. טְבַע I` from I00076 to I00077; I00121's `(טְבַע I)` has no link.
+Applied in PR #177: P000583 gives I00077 `homograph: 1`, displayed `טְבַע I` as your note asks, with a `print-error` annotation naming I00121 and O00179 (case 2). P000590 moves O00179's `v. טְבַע I` from I00076 to I00077; I00121's `(טְבַע I)` has no link.
 
 ### `שְׂרַף`: U02013 (`שְׂרַף` II)
 
@@ -327,7 +327,7 @@ You read no numeral beside U02004 or U02006. U02013 `שְׂרַף` II is glossed
 
 Recommendation: no numeral, implied I (medium): the hOCR shows none before U02012's `m. (שָׂרַף I) acrid substance`, U02013 is its `ch. same`, and it is the one unnumbered form of the spelling within the window ruling 10-06 reaches.
 
-Kept in PR #n: a reviewed-kept record (X10) on U02013, its reason from your note.
+Kept in PR #177: a reviewed-kept record (X10) on U02013, its reason from your note.
 
 ### `חוּל`: H00321 (`חוּל` II)
 
@@ -352,7 +352,7 @@ You read no numeral beside H00319, H00320 or H00322. Ruling 10-06 (taken after y
 
 Recommendation: H00319 (high): the hOCR sets no numeral on it, and Jastrow's own cross-references name the Hebrew verb `חוּל I` and H00320 its `ch.`, so ruling 10-06's implied I goes on H00319.
 
-Applied in PR #n: P000584 gives H00319 `homograph: 1`, displayed `חוּל I`, with a `print-error` annotation naming the three cites (case 2). P000591 moves H00731's `v. חוּל I ch.` from H00323 to H00320. H00355's and H00733's `(b. h.; חוּל I)` sit in `language_reference`, which no op edits, so they stay on H00323 and wait on review ledger L50.
+Applied in PR #177: P000584 gives H00319 `homograph: 1`, displayed `חוּל I`, with a `print-error` annotation naming the three cites (case 2). P000591 moves H00731's `v. חוּל I ch.` from H00323 to H00320. H00355's and H00733's `(b. h.; חוּל I)` sit in `language_reference`, which no op edits, so they stay on H00323 and wait on review ledger L50.
 
 ### `גִּיס`: C00773 (`גִּיס` II)
 
@@ -376,7 +376,7 @@ You answered "the gap is Jastrow's own". Ruling 10-06, taken after your read, st
 
 Recommendation: yes (medium): print leaves C00772 bare and numbers the next form II, same consonants and adjacent, which is the case ruling 10-06 decides; medium because two cross-references call the familiar word I.
 
-Kept in PR #n: a reviewed-kept record (X10) on C00773 with your note. Your "maybe an issue to dig in on" is recorded in review ledger L47, the textual-research list; no issue was touched.
+Kept in PR #177: a reviewed-kept record (X10) on C00773 with your note. Your "maybe an issue to dig in on" is recorded in review ledger L47, the textual-research list; no issue was touched.
 
 ### `הֲדָיָא`: E00114 (`הֲדָיָא` II)
 
@@ -399,7 +399,7 @@ You answered "the gap is Jastrow's own". X10 names E00113 `הֶדְיָא`, just
 
 Recommendation: yes (medium): you read no I anywhere, and E00113 is the unnumbered form with the same consonants just before the II, which is the case ruling 10-06 decides; the hOCR cannot show either numeral.
 
-Kept in PR #n: a reviewed-kept record (X10) on E00114.
+Kept in PR #177: a reviewed-kept record (X10) on E00114.
 
 ### `רוּם`: T00376 (`רוּם` II)
 
@@ -424,7 +424,7 @@ You answered "the gap is Jastrow's own". T00377's I sits on its alternate `רו�
 
 Recommendation: T00374 (medium): ABBYY sets no numeral on T00374 or T00375, ruling 10-06 puts the implied I on the first unnumbered form, and in the same shape at H00321 Jastrow's cross-references name the Hebrew verb I; here none does.
 
-Kept in PR #n: a reviewed-kept record (X10) on T00376.
+Kept in PR #177: a reviewed-kept record (X10) on T00376.
 
 ### `שִׁלְשֵׁל`: U01397 (`שִׁלְשֵׁל` II)
 
@@ -449,7 +449,7 @@ You answered "the gap is Jastrow's own". The hOCR sets `I` after U01396's second
 
 Recommendation: after the abbreviation (high): ABBYY reads `I,` after the second form, as on U01391's line, and HW-roman stores it there as U01391–U01393 store theirs; U01397's X10 row may then need a reviewed-kept record, as U02098's I on a form spelled apart has.
 
-Applied in PR #n: P000585 sets the I on U01396's alternate `שִׁילְ׳`, display `{0}, {1} I, {2}` (case 1); the name is unchanged. U01397's row moves from X10 to X8, since the I is on a form spelled apart, and is kept, as U02098's is. P000592–P000594 move the three `שִׁלְשֵׁל I` cites (U01387, U01388, U01399) from U01398 to U01396.
+Applied in PR #177: P000585 sets the I on U01396's alternate `שִׁילְ׳`, display `{0}, {1} I, {2}` (case 1); the name is unchanged. U01397's row moves from X10 to X8, since the I is on a form spelled apart, and is kept, as U02098's is. P000592–P000594 move the three `שִׁלְשֵׁל I` cites (U01387, U01388, U01399) from U01398 to U01396.
 
 ### `נְהִי`: N00260 (`נְהִי` II)
 
@@ -473,7 +473,7 @@ You ticked "print spells them differently, so the gap is real" and noted the dat
 
 Recommendation: no, kept (high): N00260's line reads `II m. (b.h.; v. preced.)`, so its I is N00259 `נְהֵי I`, pointed apart as 10-05 allows, and only N00261's second II keeps the detector from clearing the pair.
 
-Kept in PR #n: a reviewed-kept record (X8) on N00260.
+Kept in PR #177: a reviewed-kept record (X8) on N00260.
 
 ### `תַּכָּא`: V00523 (`תַּכָּא` II)
 
@@ -497,7 +497,7 @@ You read the I beside V00522's alternate `תַּכָּא`, and noted it landed i
 
 Recommendation: a comma, then the parenthesis (medium): ABBYY reads `fcCPl, (&G~ i),`, a comma after the first form and `(` before the alternate; medium because ABBYY can misread a comma.
 
-Applied in PR #n: P000586 reforms V00522's line to `תֻּכָּא, (תַּכָּא I)` (the alternate's `homograph: 1`, display `{0}, ({1} I)`), and P000587 takes ` I)` out of the gloss head (case 1).
+Applied in PR #177: P000586 reforms V00522's line to `תֻּכָּא, (תַּכָּא I)` (the alternate's `homograph: 1`, display `{0}, ({1} I)`), and P000587 takes ` I)` out of the gloss head (case 1).
 
 ### J00321 and J00327: the placeholder letter
 
@@ -519,7 +519,7 @@ Your notes: each headword is a long underline (about three letters wide) standin
 
 Recommendation: keep as stored (medium): the glosses already name every word the underline stands for, HW-prefix files the bare patah as an ending entry, and no ruling picks a character for print's rule, which is a mark of the page rather than a letter.
 
-Kept in PR #n: a reviewed-kept record (X1) on each. Your display note is quoted in both records and in the [tranche README](../admin/pipeline/patch/records/tranches/headword-round-2-2026-10-15/README.md): the data keeps print's patah, and how the app draws the underline is the app's question (ruling 10-13; `admin/entry/ANNOTATIONS.md` §5).
+Kept in PR #177: a reviewed-kept record (X1) on each. Your display note is quoted in both records and in the [tranche README](../admin/pipeline/patch/records/tranches/headword-round-2-2026-10-15/README.md): the data keeps print's patah, and how the app draws the underline is the app's question (ruling 10-13; `admin/entry/ANNOTATIONS.md` §5).
 
 ### S01780: the alternates `קִצָּא`, `קִי׳`
 
@@ -541,7 +541,7 @@ You gave the alternates as `קִצָּא` and `קִי׳`. The source holds `קִ
 
 Recommendation: yes, `קִצָּא` (high): your round-1 read gave the qamats, and Jastrow's own cross-reference to the word (S01120) spells it the same; the hOCR `5S22p` cannot show pointing.
 
-Applied in PR #n: P000588 rejoins `קִצ` + `ּא` → `קִצּא` (case 1), and P000589 respells it `קִצָּא` with an `illegible` annotation quoting your note (case 4). The X1 and X3 rows clear.
+Applied in PR #177: P000588 rejoins `קִצ` + `ּא` → `קִצּא` (case 1), and P000589 respells it `קִצָּא` with an `illegible` annotation quoting your note (case 4). The X1 and X3 rows clear.
 
 ## The first list (answered 2026-10-06)
 

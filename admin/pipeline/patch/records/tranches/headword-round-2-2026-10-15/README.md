@@ -1,7 +1,7 @@
 # Headword round 2 under ruling 10-13 (2026-10-15)
 
 Data PR (iv) of [`docs/correction-audit.md`](../../../../../../docs/correction-audit.md)
-§7, PR #n. It applies the maintainer's ticks on the 16 blocks of
+§7, PR #177. It applies the maintainer's ticks on the 16 blocks of
 [`docs/headword-worklist.md`](../../../../../../docs/headword-worklist.md)
 § Round 2 (ticked 2026-10-13, committed in PR #174), review ledger
 L46.
@@ -30,7 +30,7 @@ of the 11 rids had a patch before. `prompt_version` is
 `headword-round-2-2026-10-15`; every `snapshot` is `sha256:75bbc5ee…`.
 This directory holds only this README. 12 records join
 [`admin/pipeline/report/records/reviewed-kept.jsonl`](../../../../report/records/reviewed-kept.jsonl)
-(source `maintainer round 2 read 2026-10-13; PR #n`).
+(source `maintainer round 2 read 2026-10-13; PR #177`).
 
 - **Case 2, two `reform.homographs`** (P000583 I00077, P000584 H00319):
   `{form: 0, homograph: 1}`, display `{0} I`, and
