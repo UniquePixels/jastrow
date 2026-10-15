@@ -7,7 +7,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 | Publication | Rows |
 |---|---|
 | blocks | 0 |
-| defer | 2813 |
+| defer | 2812 |
 | note | 1597 |
 | catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
@@ -15,7 +15,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 
 _none_
 
-## Deferred (2813)
+## Deferred (2812)
 
 ### empty-body (2)
 
@@ -380,7 +380,7 @@ _none_
 - Q01624: פֵּרוּדָא, פֵּרוּדָא — headwords[1] repeats headwords[0] (פֵּרוּדָא) under NFC
 - U00076: שְׁבוֹיָיתָא, שְׁבוֹיָיתָא — headwords[1] repeats headwords[0] (שְׁבוֹיָיתָא) under NFC
 
-### homograph-roman-stranded-in-definition (14)
+### homograph-roman-stranded-in-definition (13)
 
 **What to do:** Read the print. If it sets the numeral beside the headword, a reviewed `reform` sets it with `homographs` (the headword text, which 37 live anchors name, is left alone) and a companion patch takes it out of the definition. Never write the numeral into the headword text.
 
@@ -390,7 +390,6 @@ _none_
 - V00003: senses[0].gloss opens "II"; headword carries no homograph
 - V00006: senses[0].gloss opens "II"; headword carries no homograph
 - V00138: senses[0].gloss opens "III"; headword carries no homograph
-- V00522: senses[0].gloss opens "I"; headword carries no homograph
 - U00997: senses[0].gloss opens "II"; headword carries no homograph
 - U00998: senses[0].gloss opens "III"; headword carries no homograph
 - U01004: senses[0].gloss opens "III"; headword carries no homograph

@@ -49,8 +49,8 @@ audit's predicate counts five more rows than §4's.
 | Class 3 doubled numbers | case 2: renumber, one annotation per changed label | 18 entries, 24 annotations | (iii), done in PR #176 |
 | S01849's `עָבַר Pi. 4)` | case 2: rewrite to `Pi. 5)`, annotated | 1 | (iii), done in PR #176 |
 | U01512's `a) … 2)` | case 3: `annotate`, `kept` | 1 | (iii), done in PR #176 |
-| S01780's half-printed qamats | case 4: ticked in round 2, annotated `illegible` | 1 | (iv) |
-| Round 2 (L46) | your ticks, applied under 10-13 | 16 questions | (iv) |
+| S01780's half-printed qamats | case 4: ticked in round 2, annotated `illegible` | 1 | (iv), done in PR #n |
+| Round 2 (L46) | your ticks, applied under 10-13 | 16 questions | (iv), done in PR #n |
 | Single-numeral cross-references whose target lacks the numeral | 222 determined retargets (case 1; the 10 above among them); 74 rows to read, in 48 worklist questions | 296 rows | (v) |
 | P00790's Hif. run | case 2: `a b c d f g h` → `a b c d e f g` | 1 | after L59 |
 | Past patches with no case | D00341's bracket move and G00675's disambiguator: no annotation | 3 | none |
@@ -368,7 +368,7 @@ sense number.
 |---|---|---|---|---|
 | P00790 | Hif. `a b c d`, with `f) g) h)` left in `d`'s text (L55) | 2 | waits on L59's lettered relabel: `a b c d f g h` → `a b c d e f g`, one annotation per changed child label (`printed` `f`, `g`, `h`), evidence `print skips e) (1081a); the run determines it` | [1081a · leaf 404](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$405/full/1400,/0/default.jpg) |
 | U01512 | Af. `1 2 · (a 2)`: the nest of P000543 | 3 | `annotate` on the nest's `2)` child, payload `{field: 'label'}`, annotation `{kind: 'kept', printed: '2', evidence: 'print sets a) then 2): read as 1) 2) or a) b); kept (ruling 10-12; your note "2)", 2026-10-12)', date: '2026-10-14'}`. To confirm in the PR: that an `annotate` target reaches a child a `nest` made. **Done in PR #176:** P000581; the target reaches the nested child with no code change | [1599a · leaf 922](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$923/full/1400,/0/default.jpg) |
-| S01780 | `קֵץ`, `קִצ`, `ּא`, `קִי׳`: the alternate torn in two | 4 | ticked in round 2 (working copy): `קִצָּא`, with your note that only part of the qamats printed. Two chained reviewed `reform`s, because a reform that changes the number of forms cannot carry an annotation: first rejoin `קִצ` + `ּא` (case 1, no annotation), then respell `קִצּא` → `קִצָּא` with `{kind: 'illegible', printed: 'קִצּא', evidence: 'only the vertical stroke of the qamats printed; S01120 spells the word קִצָּא', date: …}` | [1404a · leaf 727](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$728/full/1400,/0/default.jpg) |
+| S01780 | `קֵץ`, `קִצ`, `ּא`, `קִי׳`: the alternate torn in two | 4 | ticked in round 2 (working copy): `קִצָּא`, with your note that only part of the qamats printed. Two chained reviewed `reform`s, because a reform that changes the number of forms cannot carry an annotation: first rejoin `קִצ` + `ּא` (case 1, no annotation), then respell `קִצּא` → `קִצָּא` with `{kind: 'illegible', printed: 'קִצּא', evidence: 'only the vertical stroke of the qamats printed; S01120 spells the word קִצָּא', date: …}`. **Done in PR #n:** P000588 rejoins the form (no annotation), P000589 respells it with the `illegible` annotation, its evidence quoting your note; the two reforms chain in corpus order with no code change | [1404a · leaf 727](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$728/full/1400,/0/default.jpg) |
 
 ## 5. The 296 cross-reference numerals
 
@@ -733,9 +733,13 @@ The three unclassified:
 3. **(iii) Class 3 renumber.** Done in PR #176. 24 new `retag`s on
    18 entries, each annotated (P000556–P000579); S01849's `replace`
    (P000580); U01512's `annotate` (P000581).
-4. **(iv) Round 2 (L46)** once your ticks are committed: the 16
-   answers under 10-13, including the two text-proven implied Is
-   (H00319, I00077) and S01780's case-4 respelling.
+4. **(iv) Round 2 (L46).** Done in PR #n. The 16 answers under
+   10-13: 13 reviewed patches on 11 entries (P000582–P000594). The two
+   text-proven Is (H00319, I00077) are displayed and annotated, and
+   S01780's case-4 respelling is annotated `illegible`. H01100 is
+   respelled `חֵלֶף I`, U01396's and V00522's alternates take print's
+   I, and 5 cites are retargeted. 12 reviewed-kept records. H00355's
+   and H00733's `חוּל I` sit in `language_reference` and wait on L50.
 5. **(v) Cross-reference numerals.** First the 212 determined
    retargets not in (i) (10 of them wait on L50's op); then the 48
    worklist answers.
@@ -758,7 +762,10 @@ The three unclassified:
   `walkSenses` visits a sense's children and `buildTextChild` carries
   the draft), and that two chained `reform`s on one rid apply in order
   (S01780; their targets differ by hash, so the one-patch-per-target
-  rule does not refuse them).
+  rule does not refuse them; confirmed in PR #n with no code change:
+  `applyEntryPatches` applies a rid's patches in corpus order, each
+  on the entry the one before left, and tests in
+  `patch/annotation.test.ts` pin it).
 
 ## 8. How this was produced
 

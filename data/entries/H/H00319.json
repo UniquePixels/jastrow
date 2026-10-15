@@ -4,10 +4,22 @@
 	"sefariaHeadword": "חוּל",
 	"headwords": [
 		{
-			"text": "חוּל"
+			"text": "חוּל",
+			"homograph": 1,
+			"annotations": [
+				{
+					"field": "homograph",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "I",
+					"evidence": "Jastrow's text names `חוּל I`: H00355 `חוֹלֵל m. (b. h.; חוּל I) dancer`; H00733 `חַיִיל … (b. h.; חוּל I) [surrounding, protection,] army`; H00731 `חָיֵיל, v. חוּל I ch.` names H00320, this verb's `ch.` line, whose participle is `חָיֵיל`. Print sets no numeral beside it (maintainer print read of the 1903 scan, 2026-10-06 and 2026-10-13; scan 432b · leaf 455)",
+					"source": "P000584",
+					"date": "2026-10-15"
+				}
+			]
 		}
 	],
-	"display": "{0}",
+	"display": "{0} I",
 	"page": {
 		"number": 432,
 		"column": "b"

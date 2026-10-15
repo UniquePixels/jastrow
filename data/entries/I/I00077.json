@@ -4,10 +4,22 @@
 	"sefariaHeadword": "טְבַע",
 	"headwords": [
 		{
-			"text": "טְבַע"
+			"text": "טְבַע",
+			"homograph": 1,
+			"annotations": [
+				{
+					"field": "homograph",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "I",
+					"evidence": "Jastrow's text names `טְבַע I`: I00121 `טוֹבְעָנָא m. (טְבַע I) flood`; O00179 `Sabb. 108ᵇ, v. טְבַע I` (the Lake of Sodom). Print sets no numeral beside it (maintainer print read of the 1903 scan, 2026-10-06 and 2026-10-13; scan 518b · leaf 541)",
+					"source": "P000583",
+					"date": "2026-10-15"
+				}
+			]
 		}
 	],
-	"display": "{0}",
+	"display": "{0} I",
 	"page": {
 		"number": 518,
 		"column": "b"

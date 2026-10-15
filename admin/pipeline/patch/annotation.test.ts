@@ -536,6 +536,74 @@ describe('annotate through the apply gates', () => {
 	});
 });
 
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one chain, three views of it (apply, order, preflight); splitting it would scatter the fixture.
+describe('two reforms on one rid chain in corpus order', () => {
+	// S01780's shape (correction audit §4): a torn alternate rejoined by
+	// a reform that changes the number of forms, so it cannot carry an
+	// annotation, then the rejoined form respelled by a second reform
+	// that does. The second targets the block the first leaves.
+	const torn: SourceEntry = {
+		alt_headwords: ['קִצ', 'ּא', 'קִי׳'],
+		content: { senses: [{ definition: 'ch. same.' }] },
+		headword: 'קֵץ',
+		rid: 'A00001',
+	};
+	const joined = ['קֵץ', 'קִצּא', 'קִי׳'];
+	const respelled = ['קֵץ', 'קִצָּא', 'קִי׳'];
+	const ILLEGIBLE = { ...NOTE, kind: 'illegible', printed: 'קִצּא' };
+	const rejoin = (): SemanticPatch => {
+		const before = formsBlock(torn);
+		return human(
+			raw({
+				expected_before: before,
+				id: 'P000001',
+				op: 'reform',
+				payload: { forms: joined },
+				target: `forms:${contentAnchor(before)}`,
+			}),
+		);
+	};
+	const respell = (): SemanticPatch => {
+		const before = joined.join('\n');
+		return human(
+			raw({
+				annotation: ILLEGIBLE,
+				expected_before: before,
+				id: 'P000002',
+				op: 'reform',
+				payload: { forms: respelled },
+				target: `forms:${contentAnchor(before)}`,
+			}),
+		);
+	};
+
+	it('applies the rejoin, then the annotated respelling of the form it made', () => {
+		const result = applyEntryPatches(torn, [rejoin(), respell()]);
+		expect(result.problems).toEqual([]);
+		expect(result.annotated).toEqual(['P000002']);
+		expect(formsBlock(result.entry)).toBe(respelled.join('\n'));
+		expect(result.entry.formAnnotations).toEqual([
+			{ ...ILLEGIBLE, field: 'text', form: 1, source: 'P000002' },
+		] as never);
+	});
+
+	it('fails the respelling when it comes first: its block does not exist yet', () => {
+		const result = applyEntryPatches(torn, [respell(), rejoin()]);
+		expect(result.problems.map((p) => p.patchId)).toEqual(['P000002']);
+		expect(result.annotated).toEqual([]);
+		expect(formsBlock(result.entry)).toBe(joined.join('\n'));
+	});
+
+	it('passes the corpus preflight: the two targets differ by hash', () => {
+		expect(
+			corpusPreflight([rejoin(), respell()], [], PIN, {
+				escalations: 'defer',
+				reconcileOnly: [],
+			}),
+		).toEqual([]);
+	});
+});
+
 describe('corpusPreflight: an annotation is a person’s', () => {
 	it('refuses an annotation on an agent patch', () => {
 		const agent = parsePatch(raw({ ...retag, annotation: NOTE }));
