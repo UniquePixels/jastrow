@@ -133,7 +133,11 @@ for S01780's chained reforms in PR #177. No `replace` spans both.
 resolved to at the audit's sha: each key was read from the import's
 headword map and checked to resolve to the new rid before the patch
 was written. Gate 6 (internalTargets) accepts all of them: 32512/32512,
-`unresolved=0`. None had to be stopped.
+`unresolved=0`. None had to be stopped. Two keys keep Sefaria's stray
+comma, `בִּזְיוּנָא , II` (B00443, 2 rows) and `גַּוָּוזָא , II` (4
+rows): P000291 and P000292 reform those headword lines, but a reform
+moves only our headword, and the map keys on the line before any patch
+(`10-09 link key`), so the comma-less spelling resolves to nothing.
 
 ## What the re-import shows
 
