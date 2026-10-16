@@ -429,6 +429,15 @@ describe('join', () => {
 		['not after a space', '(v. X, ', '2)', '(v. X, 2) x'],
 		['not after an open paren', 'see (', '2)', 'see (2) x'],
 		['not before a dashed token', 'a. fr.', '—3)', 'a. fr.—3) x'],
+		// The visible text is read by the tokenizer, not one regex pass:
+		// a nested `<<i>i>` leaves a `>` the reader sees, so a space.
+		['after text a nested tag leaves', 'p. 57<<i>i>', '2)', 'p. 57<<i>i> 2) x'],
+		[
+			'not after a digit behind closing tags',
+			'p. <i><b>57</b></i>',
+			'2)',
+			'p. <i><b>57</b></i>2) x',
+		],
 	] as const)(
 		'restores the space before the numeral %s',
 		(_, previous, token, joined) => {

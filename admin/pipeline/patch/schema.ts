@@ -34,6 +34,7 @@
 import { createHash } from 'node:crypto';
 import { isIsoDate } from '../../entry/annotations.ts';
 import { parseHeadwordLine } from '../../entry/headwords.ts';
+import { serialize, tokenize } from '../../entry/html.ts';
 import type { Annotation } from '../../entry/types.ts';
 import { declaredRunReason } from '../body/lettered.ts';
 import type {
@@ -110,9 +111,6 @@ const TIGHT_AFTER_MARKER: RegExp = /^[\s,.:;)\]]/u;
  * S01040). Anything else gets print's space back: `(v. אָנַךְ 2)`,
  * `<i>Af.</i> 1)`. */
 const TIGHT_BEFORE_MARKER: RegExp = /[\s\d—([]$/u;
-/** A markup tag, skipped when a join reads the text before a marker:
- * what decides the space is what the reader sees, not an href. */
-const MARKUP_TAG: RegExp = /<[^<>]*>/gu;
 
 /** How sure the patch's author was, as the record states it. It is
  * provenance, not permission: nothing in the apply path branches on
@@ -2029,7 +2027,12 @@ function applyJoin(
  * A dashed token (`—3)`) is set tight by print, and an empty `before`
  * leaves nothing to space from. */
 function spaceBefore(before: string, token: string): '' | ' ' {
-	const visible = before.replace(MARKUP_TAG, '');
+	// What decides the space is what the reader sees, not an href: the
+	// entry tokenizer's text tokens, as `transform/no-new-text.ts`'s
+	// `stripTags` reads them, never a one-pass tag regex.
+	const visible = serialize(
+		tokenize(before).filter((piece) => piece.kind === 'text'),
+	);
 	return visible === '' ||
 		token.startsWith('—') ||
 		TIGHT_BEFORE_MARKER.test(visible)

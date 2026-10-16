@@ -120,11 +120,11 @@ Two code changes make P000820 possible (tests first):
    annotated or not (`authorshipProblems`, `patch/apply.ts`).
 2. **A declared run where the paren state is unclear**
    (`body/lettered.ts`, `declaredMarks`). The plain rule counts no
-   markers in such a text; a declared run is now held to every
-   candidate outside anchors instead, each exactly once, so a paren's
-   own letter (`(see b)`) still refuses a run that leaves it out. The
-   plain rule and a run in a text whose parens are clear are
-   unchanged.
+   markers in such a text; a declared run is now held to the markers
+   counted with each `)` that closes nothing skipped, each exactly
+   once, so a candidate inside a paren that does close (`(see b) …`)
+   stays out of the run, as in a clear text. The plain rule and a run
+   in a text whose parens are clear are unchanged.
 
 ## L61: the space before a joined marker's numeral
 
@@ -132,7 +132,7 @@ Sefaria minted a sense out of a cross-reference's `(v. X 2)` and lost
 print's space before the numeral as well as after it. #160 (L58) put
 the space back after the `)`. The space before is now the `join`'s
 too (`spaceBefore`, `patch/schema.ts`): one space before the token
-unless the visible text before it (tags skipped) ends in whitespace,
+unless the visible text before it (the tokenizer's text, tags skipped) ends in whitespace,
 a dash, `(`, `[` or a digit, or the token itself is dashed (`—3)`).
 
 The digit clause is what the five `4012)`-shaped rows read on the
