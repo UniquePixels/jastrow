@@ -34,6 +34,20 @@ type SenseAnnotationDraft = AnnotationNote &
 		| { field: 'gloss' | 'gloss-or-units' | 'units'; find: string }
 	);
 
+/** **NOT a Sefaria field.** A lettered run a reviewed `relabel` patch
+ * declared on the source sense whose text holds it (review ledger L59;
+ * ruling `10-13 correction policy`, case 2): `run` is print's letters
+ * as the text sets them, gap included, and `to` the labels the
+ * children take, `a`, `b`, `c`… The text is untouched: the build
+ * splits it at exactly `run` (`body/lettered.ts`), labels each child
+ * from `to`, and leaves a `label` draft (`note`, with print's letter as
+ * `printed`) on each child whose label departs from print's. */
+interface RelabelDraft {
+	note: AnnotationNote;
+	run: string[];
+	to: string[];
+}
+
 /** **NOT a Sefaria field.** An annotation on its way to a form of the
  * headword line, by the form's index in the parsed `headwords[]` (as
  * `SourceHomograph.form` is). */
@@ -64,6 +78,9 @@ interface SourceSense {
 	definition?: string;
 	grammar?: SourceGrammar;
 	number?: string;
+	/** **NOT a Sefaria field.** The lettered run a reviewed `relabel`
+	 * declared on this sense's text (`RelabelDraft`). */
+	relabel?: RelabelDraft;
 	senses?: SourceSense[];
 }
 
@@ -162,6 +179,7 @@ export type {
 	BodySense,
 	BodyStem,
 	FormAnnotationDraft,
+	RelabelDraft,
 	SenseAnnotationDraft,
 	SourceEntry,
 	SourceGrammar,

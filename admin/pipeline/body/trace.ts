@@ -18,6 +18,7 @@ import type {
 	BodyEntry,
 	BodySense,
 	BodyStem,
+	RelabelDraft,
 	SenseAnnotationDraft,
 	SourceEntry,
 	SourceSense,
@@ -25,7 +26,7 @@ import type {
 import { splitFormSection } from './form-sections.ts';
 import { parseMarker } from './grammar.ts';
 import { parseLabel } from './labels.ts';
-import { splitLettered } from './lettered.ts';
+import { letteredChildren, letteredSplit } from './lettered-children.ts';
 import { rejoinGlossHead } from './rejoin.ts';
 import { segmentUnits } from './units.ts';
 
@@ -48,11 +49,14 @@ interface Problem {
  * alongside `built` when the same text also produced a form-section
  * sibling sense (B12: Pl./Part. pass./Fem./Denom.) — the round-trip
  * verifier needs both halves to check the split reconstructs `original`
- * byte-for-byte. */
+ * byte-for-byte. `relabel` is the run a reviewed `relabel` declared on
+ * the text (L59), which the verifier must re-split by and whose `to`
+ * labels the children carry. */
 interface SensePair {
 	built: BodySense;
 	formSectionSibling?: BodySense;
 	original: string;
+	relabel?: Pick<RelabelDraft, 'run' | 'to'>;
 }
 
 /** Everything one entry's build produced, kept together so the
@@ -92,10 +96,14 @@ interface SenseLabel {
  * text: its label (`SenseLabel`) and the annotation drafts a reviewed
  * patch left on it (ANNOTATIONS.md §3). Both land on the host only, so
  * a `label` draft sits beside the label it describes, and a text draft
- * beside the gloss and units `finishEntry` will look for its text in. */
+ * beside the gloss and units `finishEntry` will look for its text in.
+ * A `relabel`'s run (`RelabelDraft`) is the one mark that reaches the
+ * children: it says where the text splits and what each child is
+ * labelled. */
 interface SenseMarks {
 	annotations?: SenseAnnotationDraft[];
 	label?: SenseLabel;
+	relabel?: RelabelDraft;
 }
 
 /** A source sense's marks: `resolveLabel` on its number, and a copy of
@@ -113,6 +121,7 @@ function senseMarks(
 			? {}
 			: { annotations: sense.annotations.map((a) => ({ ...a })) }),
 		...(label === undefined ? {} : { label }),
+		...(sense.relabel === undefined ? {} : { relabel: sense.relabel }),
 	};
 }
 
@@ -140,13 +149,6 @@ function resolveLabel(
 		: { label: parsed.label };
 }
 
-/** A lettered a)/b)/c) child sense: its own gloss + units, labeled by
- * the letter (design doc §2 senses row, B5). */
-function buildLetteredChild(item: { letter: string; text: string }): BodySense {
-	const { gloss, units } = segmentUnits(item.text);
-	return { gloss, label: item.letter, units };
-}
-
 /** A form-section item child (design doc §2 senses row, B12) is built
  * exactly like a lettered child (own gloss + units), just labeled by
  * its restarted number instead of a letter. */
@@ -172,9 +174,11 @@ function buildFormSectionChild(item: {
  * plain, stem child) goes through. `label` (and its star) lands on the
  * host only: lettered and form-section children take the letter or
  * restarted number their own split found, and the sibling none. The
- * annotation drafts (`SenseMarks`) land on the host too. */
+ * annotation drafts (`SenseMarks`) land on the host too. A `relabel`'s
+ * run (L59) is the exception: it reaches the lettered children, which
+ * take its labels and its drafts (`lettered-children.ts`). */
 function buildTextSense(text: string, marks: SenseMarks): BodySense[] {
-	const lettered = splitLettered(text);
+	const lettered = letteredSplit(text, marks.relabel);
 	const head = lettered ? lettered.head : text;
 	const formSection = splitFormSection(head);
 	const hostText = formSection ? formSection.host : head;
@@ -188,7 +192,7 @@ function buildTextSense(text: string, marks: SenseMarks): BodySense[] {
 			: { annotations: marks.annotations }),
 		...(lettered === null
 			? {}
-			: { senses: lettered.items.map(buildLetteredChild) }),
+			: { senses: letteredChildren(lettered, marks.relabel) }),
 	};
 	if (formSection === null) {
 		return [host];
@@ -217,6 +221,9 @@ function pushTextSense(
 			built: host,
 			original: text,
 			...(sibling === undefined ? {} : { formSectionSibling: sibling }),
+			...(marks.relabel === undefined
+				? {}
+				: { relabel: { run: marks.relabel.run, to: marks.relabel.to } }),
 		});
 	}
 	if (sibling !== undefined) {

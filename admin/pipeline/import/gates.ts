@@ -578,7 +578,9 @@ function checkPages(
 /** The annotation half of gate 10, both ways (ANNOTATIONS.md §2, "What
  * it cannot check"): every annotation on the entry names, as `source`,
  * a patch that applied to this rid carrying an `annotation`, and every
- * such patch wrote exactly one annotation on it. The contract alone
+ * such patch wrote exactly as many annotations on it as it owes: one,
+ * or for a `relabel` one per label it changed (`annotationsOwed`),
+ * which is how many times `applied` lists it. The contract alone
  * cannot ask either question — `admin/entry/` cannot read the patch
  * records — and this is the one place that holds both sides.
  *
@@ -592,6 +594,10 @@ function annotationProvenance(
 ): string[] {
 	const problems: string[] = [];
 	const wrote = new Map<string, number>();
+	const owed = new Map<string, number>();
+	for (const id of applied) {
+		owed.set(id, (owed.get(id) ?? 0) + 1);
+	}
 	const allowed = new Set(applied);
 	for (const { annotation, path } of entryAnnotations(entry)) {
 		wrote.set(annotation.source, (wrote.get(annotation.source) ?? 0) + 1);
@@ -601,11 +607,11 @@ function annotationProvenance(
 			);
 		}
 	}
-	for (const id of allowed) {
+	for (const [id, due] of owed) {
 		const count = wrote.get(id) ?? 0;
-		if (count !== 1) {
+		if (count !== due) {
 			problems.push(
-				`${entry.id}: patch ${id} applied with an annotation and wrote ${count} annotations; it writes exactly one`,
+				`${entry.id}: patch ${id} applied with an annotation and wrote ${count} annotations; it owes ${due}`,
 			);
 		}
 	}
@@ -622,7 +628,8 @@ function annotationProvenance(
  *
  * Each entry's mark also carries its annotations' provenance, both
  * ways (`annotationProvenance`), against `annotated`: rid → the
- * patches that applied to it carrying an `annotation`. Omitted, no
+ * patches that applied to it carrying an `annotation`, each once per
+ * annotation it owes. Omitted, no
  * patch applied one, so any annotation fails.
  *
  * This is the same contract a hand edit meets in CI's Validate job,

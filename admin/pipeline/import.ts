@@ -101,9 +101,9 @@ const REPAIR_PASSES: readonly PassName[] = ['binyan-cleanup'] as const;
  * per-entry bookkeeping already folded into the report, and holding
  * 32,512 of them would cost memory for nothing. */
 interface Composed {
-	/** Every patch that applied to this rid carrying an `annotation`
-	 * (`ComposeResult.annotated`): gate 10 checks the written entry's
-	 * annotations against it, both ways. */
+	/** Every patch that applied to this rid carrying an `annotation`,
+	 * once per annotation it owes (`ComposeResult.annotated`): gate 10
+	 * checks the written entry's annotations against it, both ways. */
 	annotated: string[];
 	/** The consumer-facing body `buildTrace` derived, under the
 	 * `consumer-output` phase. */

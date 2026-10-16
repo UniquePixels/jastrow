@@ -552,6 +552,151 @@ describe('nest', () => {
 	});
 });
 
+// L59: `relabel` declares a lettered run print gapped and the labels
+// its children take. It edits no text: the run rides the source sense
+// as a draft, and the build splits and labels at trace time.
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one table, one row per case; splitting it would scatter the rule it pins.
+describe('relabel', () => {
+	const gapped =
+		'lead.—<i>a</i>) one.—<i>b</i>) (v. Kal, c) two.—<i>c</i>) three.—<i>d</i>) four.—<i>f</i>) five.';
+	const RUN = ['a', 'b', 'c', 'd', 'f'];
+	const TO = ['a', 'b', 'c', 'd', 'e'];
+	const NOTE = {
+		date: '2026-10-16',
+		evidence: 'print skips e)',
+		kind: 'print-error',
+		printed: '',
+	} as const;
+	const relabelEntry = (over: Partial<SourceSense> = {}): SourceEntry => ({
+		content: {
+			senses: [
+				{ definition: 'head.' },
+				{ definition: gapped, number: '—2)', ...over },
+			],
+		},
+		headword: 'x',
+		rid: 'T00001',
+	});
+	const relabel = (over: Record<string, unknown> = {}): SemanticPatch => ({
+		...patchFor(gapped, '—2)', {
+			annotation: NOTE,
+			op: 'relabel',
+			payload: { run: RUN, to: TO },
+			...over,
+		}),
+		author: 'human',
+	});
+
+	it('applies: the text is untouched, the run rides the sense as a draft', () => {
+		const entry = relabelEntry();
+		const after = applyPatch(entry, relabel());
+		expect(after.content.senses[1]).toEqual({
+			definition: gapped,
+			number: '—2)',
+			relabel: {
+				note: { ...NOTE, source: 'P000001' },
+				run: RUN,
+				to: TO,
+			},
+		});
+		// No text is added: a label is not text, and the pool is
+		// byte-identical.
+		expect(flattenContent(after)).toBe(flattenContent(entry));
+		expect(entry.content.senses[1]).not.toHaveProperty('relabel');
+	});
+
+	// [case, record overrides, reason]
+	it.each([
+		[
+			'a run letter that is not one letter',
+			{ payload: { run: ['a', 'b)'], to: ['a', 'b'] } },
+			'relabel payload.run must be an array of single letters a–z',
+		],
+		[
+			'a to that is not an array',
+			{ payload: { run: RUN, to: 'abcde' } },
+			'relabel payload.to must be an array of single letters a–z',
+		],
+		[
+			'a run of one',
+			{ payload: { run: ['b'], to: ['a'] } },
+			'relabel payload.run must hold at least two letters',
+		],
+		[
+			'lengths that differ',
+			{ payload: { run: RUN, to: ['a', 'b', 'c', 'd'] } },
+			'relabel payload.to must be as long as payload.run',
+		],
+		[
+			'a to that is not consecutive from a',
+			{ payload: { run: RUN, to: ['a', 'b', 'c', 'e', 'f'] } },
+			'relabel payload.to must run a, b, c… from a',
+		],
+		[
+			'a run that repeats a letter',
+			{ payload: { run: ['a', 'b', 'b'], to: ['a', 'b', 'c'] } },
+			'relabel payload.run must not repeat a letter',
+		],
+		[
+			'a run that changes no label',
+			{ payload: { run: TO, to: TO } },
+			'relabel payload.run and payload.to are the same: it changes no label',
+		],
+		[
+			'no annotation',
+			{ annotation: undefined },
+			'relabel needs an annotation: every label it changes departs from print',
+		],
+		[
+			'a kept annotation',
+			{ annotation: { ...NOTE, kind: 'kept' } },
+			'relabel carries a print-error annotation: the run it corrects is print’s error',
+		],
+		[
+			'an annotation that states printed',
+			{ annotation: { ...NOTE, printed: 'f' } },
+			'relabel annotation.printed must be empty: the import reads each changed label’s printed letter from payload.run',
+		],
+	] as const)('refuses %s at parse', (_, over, reason) => {
+		expect(() => relabel(over)).toThrow(reason);
+	});
+
+	it('refuses a forms: target', () => {
+		expect(() => relabel({ target: `forms:${contentAnchor(gapped)}` })).toThrow(
+			'forms: targets are only for reform and annotate',
+		);
+	});
+
+	it.each([
+		[
+			'a run that is not what the text holds',
+			{ payload: { run: ['a', 'b', 'c', 'd', 'g'], to: TO } },
+			'the declared run a b c d g is not the counted markers of the text, a b c d f',
+		],
+		[
+			'a run that stops short of a marker the text holds',
+			{ payload: { run: ['a', 'b', 'c', 'f'], to: ['a', 'b', 'c', 'd'] } },
+			'the declared run a b c f is not the counted markers of the text, a b c d f',
+		],
+	] as const)('refuses %s at apply', (_, over, reason) => {
+		expect(() => applyPatch(relabelEntry(), relabel(over))).toThrow(reason);
+	});
+
+	it('refuses a target with children, grammar, or a run already declared', () => {
+		const child = { senses: [{ definition: 'c', number: 'a)' }] };
+		expect(() => applyPatch(relabelEntry(child), relabel())).toThrow(
+			'relabel target already has child senses (from another patch); a relabel’s children are built from its text',
+		);
+		expect(() =>
+			applyPatch(relabelEntry({ grammar: { verbal_stem: 'Pi.' } }), relabel()),
+		).toThrow('relabel target carries grammar');
+		const twice = applyPatch(relabelEntry(), relabel());
+		expect(() => applyPatch(twice, relabel())).toThrow(
+			'relabel target already carries a declared run (P000001)',
+		);
+	});
+});
+
 describe('retag', () => {
 	it('applies: adds a number to an unnumbered sense', () => {
 		const def = 'unnumbered sense with l) inside.';

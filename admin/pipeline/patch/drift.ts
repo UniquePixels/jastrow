@@ -22,7 +22,10 @@
  * `language_reference` addresses no sense either: its post-state is
  * the field reading as the patch leaves it. `annotate` changes
  * nothing, so it has no post-state at all: a moved target is always
- * `upstream-changed`, the loud failure the op exists for.
+ * `upstream-changed`, the loud failure the op exists for. Nor has
+ * `relabel` (review ledger L59): it edits no text, and the labels it
+ * gives are the build's, which no source sense can hold, so a moved
+ * target is a change for a person to re-judge, never a fix.
  */
 import type { SourceEntry, SourceSense } from '../types.ts';
 import {
@@ -191,9 +194,10 @@ function classifyDrift(
 	if (found !== 0 || patch.expected_occurrences !== 1) {
 		return 'upstream-changed';
 	}
-	if (patch.op === 'annotate') {
-		// A kept note describes text; with the text gone there is
-		// nothing for it to describe, and no post-state to find.
+	if (patch.op === 'annotate' || patch.op === 'relabel') {
+		// A kept note describes text, and a relabel declares a run over
+		// it; with the text gone there is nothing for either to stand
+		// on, and no post-state to find.
 		return 'upstream-changed';
 	}
 	if (patch.op === 'unref') {

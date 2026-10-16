@@ -1,11 +1,12 @@
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../types.ts';
-import { joinLettered, splitLettered } from './lettered.ts';
+import { declaredRunReason, joinLettered, splitLettered } from './lettered.ts';
 import { readSourceEntries } from './source.ts';
 
 // L53: the paren rule `parenFiltered` states, on synthetic cases and
 // on the two fixture entries it changed; L56: where `ascendingRun`
-// ends a run, on synthetic cases and on Q00140. Kept apart from
+// ends a run, on synthetic cases and on Q00140; L59: a run a reviewed
+// `relabel` declares, gap included, on P00790. Kept apart from
 // lettered.test.ts, which holds the marker shapes and the sweep.
 
 const FIXTURES = 'admin/pipeline/body/fixtures/lettered.jsonl';
@@ -183,5 +184,80 @@ describe('lettered fixtures the paren rule changed (L53)', () => {
 		]);
 		expect(parts.items[3]?.text).toContain('—<i>f</i>) ');
 		expect(joinLettered(parts)).toBe(definition);
+	});
+});
+
+// L59: a reviewed `relabel` declares print's run as the text holds it,
+// gap included, and the split honours it: exactly those counted
+// markers, in that order, and nothing else.
+describe('splitLettered with a declared run (L59 relabel)', () => {
+	const GAP = ['a', 'b', 'c', 'd', 'f', 'g', 'h'];
+	const text =
+		'lead.—<i>a</i>) one.—<i>b</i>) (v. Kal, c) two.—<i>c</i>) three.—<i>d</i>) (v. Kal, e) four.—<i>f</i>) five.—<i>g</i>) six.—<i>h</i>) seven.';
+
+	it('splits seven at a run print gapped, where the plain rule stops at d', () => {
+		expect(splitLettered(text)?.items.map((i) => i.letter)).toEqual([
+			'a',
+			'b',
+			'c',
+			'd',
+		]);
+		const parts = splitLettered(text, GAP);
+		expect(parts?.items.map((i) => i.letter)).toEqual(GAP);
+		expect(parts?.items.map((i) => i.text)).toEqual([
+			' one.—',
+			' (v. Kal, c) two.—',
+			' three.—',
+			' (v. Kal, e) four.—',
+			' five.—',
+			' six.—',
+			' seven.',
+		]);
+		expect(parts === null ? null : joinLettered(parts)).toBe(text);
+		expect(declaredRunReason(text, GAP)).toBeUndefined();
+	});
+});
+
+describe('declaredRunReason (L59 relabel)', () => {
+	const GAP = ['a', 'b', 'c', 'd', 'f', 'g', 'h'];
+	const text =
+		'lead.—<i>a</i>) one.—<i>b</i>) (v. Kal, c) two.—<i>c</i>) three.—<i>d</i>) (v. Kal, e) four.—<i>f</i>) five.—<i>g</i>) six.—<i>h</i>) seven.';
+
+	it("splits P00790's Hif. sense 2 into seven, each (v. Kal, x) kept in its sense", async () => {
+		const entry = await fixture('P00790');
+		const definition = entry.content.senses[2]?.senses?.[1]?.definition ?? '';
+		const parts = splitLettered(definition, GAP);
+		expect(parts?.items.map((i) => i.letter)).toEqual(GAP);
+		expect(parts?.items[3]?.text.startsWith(' (v. Kal, e) ')).toBe(true);
+		expect(parts?.items[3]?.text).not.toContain('<i>f</i>)');
+		expect(parts === null ? null : joinLettered(parts)).toBe(definition);
+	});
+
+	// [case, declared run, reason]
+	it.each([
+		[
+			'a run missing a marker the text holds',
+			['a', 'b', 'c', 'd', 'f', 'g'],
+			'the declared run a b c d f g is not the counted markers of the text, a b c d f g h',
+		],
+		[
+			'a run naming a letter print skipped',
+			['a', 'b', 'c', 'd', 'e', 'f', 'g'],
+			'the declared run a b c d e f g is not the counted markers of the text, a b c d f g h',
+		],
+		[
+			'a run out of print order',
+			['a', 'b', 'c', 'd', 'g', 'f', 'h'],
+			'the declared run a b c d g f h is not the counted markers of the text, a b c d f g h',
+		],
+	])('refuses %s', (_, run, reason) => {
+		expect(declaredRunReason(text, run)).toBe(reason);
+		expect(splitLettered(text, run)).toBeNull();
+	});
+
+	it('refuses a text whose paren state is unclear', () => {
+		expect(declaredRunReason(') a) one b) two', ['a', 'b'])).toBe(
+			'the paren state of the text is unclear, so its markers cannot be counted',
+		);
 	});
 });

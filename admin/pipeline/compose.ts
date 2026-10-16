@@ -102,8 +102,9 @@ interface ComposePatches {
  * runs compose different things. */
 interface ComposeResult {
 	/** Every patch that applied carrying an `annotation`, in apply
-	 * order: the patch side of gate 10's both-ways check (ANNOTATIONS.md
-	 * §2). */
+	 * order, once per annotation it owes (`annotationsOwed`: a
+	 * `relabel` owes one per label it changes): the patch side of gate
+	 * 10's both-ways check (ANNOTATIONS.md §2). */
 	annotated: string[];
 	/** Carry-over disposition: patches whose defect the healed corpus
 	 * already fixed (`absorbed`, dropped)
