@@ -119,6 +119,21 @@ describe('ocrSimilarity', () => {
 		expect(ocrSimilarity('אברקין', 'אברקיז')).toBeGreaterThan(0.9);
 	});
 
+	it('pairs a letter in every group it sits in, not just its first', () => {
+		// נ is in the uprights and in `גנ`; פ is in `בכפמ` and in `ףפ`
+		// (review ledger L35). Each later pair costs half, like the first.
+		expect(ocrSimilarity('גל', 'נל')).toBe(0.75);
+		expect(ocrSimilarity('ףא', 'פא')).toBe(0.75);
+		expect(ocrSimilarity('זל', 'נל')).toBe(0.75);
+		expect(ocrSimilarity('בא', 'פא')).toBe(0.75);
+	});
+
+	it('does not pair two letters that only share a third', () => {
+		// ג and ז each pair with נ, in different groups, never with each other.
+		expect(ocrSimilarity('גל', 'זל')).toBe(0.5);
+		expect(ocrSimilarity('ףא', 'בא')).toBe(0.5);
+	});
+
 	it('still scores an exact match 1', () => {
 		expect(ocrSimilarity('נטל', 'נטל')).toBe(1);
 	});
