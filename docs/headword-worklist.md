@@ -4357,3 +4357,112 @@ C01131 `גני`, where `גנח` sorts and `גנה` does not.
 
 Recommendation: yes (high): the numeral, its own text, the cites and
 the alphabet agree.
+
+## Scan reads for L65–L66 (2026-10-16)
+
+**Status:** 3 blocks wait on your ticks. Nothing is written until you
+tick; a later data PR turns each answer into a reviewed `replace`
+(case 1 of ruling `10-13 correction policy`, no annotation: the
+words are print's and the loss is Sefaria's). These are review ledger
+L65 and L66, left by PR #182 (`leftovers-2026-10-16`): the hOCR saw
+each word, but cannot read it well enough to write it, and a word is
+never guessed.
+
+They sit here rather than in `sense-worklist.md` because each is a
+headword's spelling in the text around it: a cite's display of
+M00725's headword (M02423), and the Biblical Hebrew word an etymology
+paren names, the headword's own root (M00712, Q01198). None changes a
+sense's shape.
+
+Volume 2's hOCR is ABBYY, which keeps the Latin and reads Hebrew as
+Latin glyphs, right to left: in `v. n<a II` (`v. מזה II`) the `a` is
+`מ`, the `<` is `ז` or `ו`, and the `n` is `ה`. Tick ONE box per
+bullet, a note only where a box asks for one; each `Recommendation:`
+names the box it would tick.
+
+| rid | stored | hOCR | question | recommendation |
+|---|---|---|---|---|
+| M02423 | `v. מַוֶּה II` (cite to M00725) | `v. n<a II.` | vav or zayin | zayin (medium) |
+| M00712 | `(denom. of מֶזֶג; b. h.) to mix` | `(denom. of Ma; b. h. T^a) to mix` | the dropped word before `)` | `מזג` (medium) |
+| Q01198 | `c. pl. (b. h.;) front, face` | `(b.h.; ftyz) front, face` | the dropped word before `)` | `פנה` (medium) |
+
+### `מַזֶּה II` in M02423's cite (L65)
+
+| rid | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| [M02423](https://jastrow.app/#rid:M02423) | `… they are as unfit for lustration as wood-ashes. Ber. 28ᵃ, a. e., v. מַוֶּה II.` | `as  wood-ashes.  Ber.  28a,  a.  e.,  v.  n<a  II.` | [831a · leaf 154](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$155/full/1400,/0/default.jpg) |
+
+P000817 (PR #182) re-aimed this cite at M00725 `מַזֶּה II`, the priest
+who sprinkles, whose own text cites the same `Ber. 28a`; the link is
+right. Its display still reads `מַוֶּה` with a vav, where the entry it
+names has a zayin. The same vav-for-zayin OCR glyph was on M00724's
+headword (`מַוֶּה I`), which P000359 corrected to `מַזֶּה I`. M02173's
+cite to the same entry already reads `מַזֶּה II`. The hOCR's `<`
+cannot tell the two letters apart.
+
+**Question.** Does print read `מַזֶּה II` (zayin) in M02423's last
+cite?
+
+- **M02423**
+  - [ ] `מַזֶּה` (zayin): the cite's display is respelled (case 1)
+  - [ ] `מַוֶּה` (vav), as stored: kept
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: `מַזֶּה` (zayin), medium: the entry it names, its
+sibling `מַזֶּה I` and M02173's cite all have the zayin, and the vav is
+the OCR glyph P000359 already fixed once; only the scan can show it.
+
+### The word before M00712's `)` (L66)
+
+| rid | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| [M00712](https://jastrow.app/#rid:M00712) | `(denom. of מֶזֶג; b. h.) to mix wine with water, spices &c.; to temper; …` | `AVD  (denom.  of  Ma;  b.  h.  T^a)  to  mix  icine  icith  xcater,` | [752b · leaf 75](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$76/full/1400,/0/default.jpg) |
+
+Sefaria dropped a Hebrew word and the `)` after `b. h.`; P000818
+(PR #182) put the `)` back, so the lettered run splits as print divides
+it, and left the word out. The hOCR sets three glyphs there, `T^a`,
+which read right to left as `מ`, `ז`, `ג`: the verb's own root, as
+the paren reads "denominative of `מֶזֶג`; Biblical Hebrew `מזג`". Whether
+print points it, and how, the hOCR cannot say.
+
+**Question.** What word does print set between `b. h.` and `)` in
+M00712's head?
+
+- **M00712**
+  - [ ] print reads `מזג` (unpointed)
+  - [ ] print reads something else (write it in the note, pointing included)
+  - [ ] no word there
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: print reads `מזג`, medium: three glyphs sit there on
+the hOCR and they read as the headword's consonants, the Biblical
+Hebrew word `b. h.` names; the pointing, if any, needs the scan.
+
+### The word before Q01198's `)` (L66)
+
+| rid | stored, tag-free | hOCR, verbatim | scan |
+|---|---|---|---|
+| [Q01198](https://jastrow.app/#rid:Q01198) | `c. pl. (b. h.;) front, face; countenance, person. Pesik. Baḥod., …` | `D  mile. pi. (b.h.;  ftyz)  front,  face; countenance, person.` | [1189a · leaf 512](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$513/full/1400,/0/default.jpg) |
+
+As in M00712, Sefaria dropped the word and the `)`, and P000819
+(PR #182) restored only the `)`. The hOCR reads `ftyz` after `b.h.;`,
+four glyphs where `פנה`, the root of `פָּנִים`, has three letters, so a
+glyph may be split or the word may be longer (`פנים`, `פנה`, pointed or
+not).
+
+**Question.** What word does print set between `(b. h.;` and `)` in
+Q01198's head?
+
+- **Q01198**
+  - [ ] print reads `פנה`
+  - [ ] print reads something else (write it in the note, pointing included)
+  - [ ] no word there
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: print reads `פנה`, medium: Jastrow names the root
+after `b. h.;` (`(b. h.; נָטַע) plantation`, M01035), and `פנה` is
+`פָּנִים`'s; the hOCR's four glyphs leave the length open, so this one
+needs the scan most.
