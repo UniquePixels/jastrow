@@ -107,14 +107,15 @@ as case 1 carries none.
 
 The reform and the four retargets are Sefaria's errors (an OCR glyph,
 and a linker that chose the nearest correctly spelled entry), and each
-rationale names case 1 and print evidence, so all five enter the
-Sefaria appendix once PR #183 (`bun data:sefaria`, not on this branch)
-merges. Run from #183's tree against this branch's records, the
-generator reads 299 appendix rows, these five among them: P000821 with
-the evidence `scan leaf 319` (its rationale says "scan read", which
-the filter's `print read` does not match, so the row carries the leaf
-and no date), and P000822–P000825 with `maintainer print read
-2026-10-16` and their own leaf.
+rationale names case 1 and print evidence, so all five are Sefaria
+appendix rows. `bun data:sefaria` (PR #183, merged into this branch)
+moves the appendix from 294 rows to 299
+([`docs/reports/sefaria-appendix.csv`](../../../../../../docs/reports/sefaria-appendix.csv)):
+`cross-reference-target` 167 → 171 and `headword-ocr-glyph` 4 → 5; the
+review list stays at 367. P000821's evidence reads `scan leaf 319`:
+its rationale says "scan read", which the filter's `print read` does
+not match, so the row carries the leaf and no date. P000822–P000825
+read `maintainer print read 2026-10-16` with their own leaf.
 
 ## The detector gap (review ledger L72)
 
