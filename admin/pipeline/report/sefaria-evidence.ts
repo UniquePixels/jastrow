@@ -355,8 +355,7 @@ function retargetProof(
 	const after = readAnchor(patch.payload.replace);
 	if (
 		before === undefined ||
-		after === undefined ||
-		before.outside !== after.outside ||
+		before.outside !== after?.outside ||
 		before.visible !== after.visible
 	) {
 		return {
