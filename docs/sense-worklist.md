@@ -726,6 +726,10 @@ dash) no longer exist in entry data: ruling `10-04 sense star` stores
 a label as `"2"` with no dash, and the app draws the dash by rule. The
 row's `blocking: true` and `candidate` are stale against that ruling;
 review ledger L54 records it for the catalogue.
+**2026-10-15 (L54):** the catalogue row is now `blocking: false`, with
+the ruling in its reason. Its route stays `transform` and its status
+`candidate`, as for every row whose rule is registered: the shipped
+core still runs, and the label drops the dash it writes.
 
 ---
 

@@ -608,7 +608,7 @@ Each row names the scan leaf; the page link opens the Internet Archive image. Th
 | | rid | stored | hOCR, verbatim | scan | question |
 |---|---|---|---|---|---|
 | | [D00616](https://jastrow.app/#rid:D00616) | `דימונ־ק־` | `“OI, +. יניק` | [300a · leaf 323](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$324/full/1400,/0/default.jpg) | Is the headword printed `דימונ־ק־` (two maqafs), or another notation such as `דימונ׳ק׳`? The hOCR line is illegible. |
-| | [S01339](https://jastrow.app/#rid:S01339) | `קְלִיסְטַנְרִ־` | `"""DUQD'Op m.(corrupt.ofquestionarius)ea-ec!^tOMer.` | [1375b · leaf 698](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$699/full/1400,/0/default.jpg) | A noun (`m.`) ending in a maqaf. Does print end the word in a maqaf or a letter (yod)? The page index puts it on 1376b; the hOCR line is on 1375b. |
+| | [S01339](https://jastrow.app/#rid:S01339) | `קְלִיסְטַנְרִ־` | `"""DUQD'Op m.(corrupt.ofquestionarius)ea-ec!^tOMer.` | [1376b · leaf 699](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$700/full/1400,/0/default.jpg) | A noun (`m.`) ending in a maqaf. Does print end the word in a maqaf or a letter (yod)? The page index puts it on 1376b, as the answer confirms; this link once gave 1375b, the page of the hOCR line it matched (corrected 2026-10-15, review ledger L45). |
 
 **Your answers** (tick one per row):
 
@@ -1038,7 +1038,7 @@ Here a vowel stands where the sequence neighbour has another one. That is usuall
 | rid | stored | hOCR, verbatim | scan |
 |---|---|---|---|
 | [P00476](https://jastrow.app/#rid:P00476) | `עֲטַר I` | `"TE25 I same. Targ. Ps. LXXIII, 6 '31` | [1064b · leaf 387](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$388/full/1400,/0/default.jpg) |
-| [P00477](https://jastrow.app/#rid:P00477) | `עַטַר II` | `Pa. "OB to abolish entirely. Targ. II Chr.` | [1065a · leaf 388](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$389/full/1400,/0/default.jpg) |
+| [P00477](https://jastrow.app/#rid:P00477) | `עַטַר II` | `Pa. "OB to abolish entirely. Targ. II Chr.` | [1064b · leaf 387](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$388/full/1400,/0/default.jpg) |
 | [P00478](https://jastrow.app/#rid:P00478) | `עֲטַר III` | `~l"^3? III (preced. wds., cmp. lap) [to whirl` | [1065a · leaf 388](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$389/full/1400,/0/default.jpg) |
 
 **Question.** `עֲטַר` (P00476, I) and `עַטַר` (P00477, II) are pointed differently: ע: hataf patah vs patah. Are both printed as stored?
@@ -2290,6 +2290,111 @@ at S00064 (`קְבל` IV, no patah); that question is in pile C.
   - [ ] a spelling here is wrong in print terms (say which rid and what you see in the note)
   - [ ] can't tell from the scan
   - note: 
+
+## X11: one-letter primaries (2026-10-15)
+
+The headword report's X11 shape (review ledger L39) names a primary of
+one consonant past its letter's opening entries: no word print sets,
+but a line Sefaria split at a vowel, as it split U00489's `שׁוּף`
+(rejoined in #179). Each is a name defect: the entry's URL name is
+the one letter. Two rows, both read on the scan 2026-10-15.
+
+### `חָ, רַ, ת`: H01792
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [H01792](https://jastrow.app/#rid:H01792) | `חָ`, `רַ`, `ת` | `DM conjempsir)toengrave. Part past Pere` | [507b · leaf 530](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$531/full/1400,/0/default.jpg) |
+
+Print sets one word, `חָרַת`, then `(b. h.; cmp. חָרַשׁ) to engrave`.
+
+**Question.** Is the headword `חָרַת`, one form?
+
+- **H01792**
+  - [ ] yes: rejoin the three forms as `חָרַת` (a reviewed patch, as #179 rejoined U00489)
+  - [ ] something else (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: rejoin as `חָרַת` (high): the scan sets one word, and the three stored pieces concatenate to it with no letter added or lost.
+
+### `תִּ, כְבּוֹסֶת`: V00524
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [V00524](https://jastrow.app/#rid:V00524) | `תִּ`, `כְבּוֹסֶת` | `nD"QD?l f. (033) washing (clothes). Ex. R. s. 23 "pX` | [1667b · leaf 990](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$991/full/1400,/0/default.jpg) |
+
+Print sets one word, `תִּכְבּוֹסֶת`, then `f. (כָּבַס) washing (clothes)`.
+
+**Question.** Is the headword `תִּכְבּוֹסֶת`, one form?
+
+- **V00524**
+  - [ ] yes: rejoin the two forms as `תִּכְבּוֹסֶת` (a reviewed patch)
+  - [ ] something else (say what you see in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: rejoin as `תִּכְבּוֹסֶת` (high): the scan sets one word, and the two stored pieces concatenate to it with no letter added or lost.
+
+## Textual-research candidates (for #153)
+
+Your notes asked for these rows to go to a textual-research issue
+(review ledger L47). Nothing here was posted: each row is written so
+you can paste it into [#153](https://github.com/UniquePixels/jastrow/issues/153)
+yourself, or into the separate issue A00312's note asks for. Your
+notes are quoted as written. The scan is the leaf the row's question
+linked.
+
+### X9: no mark in print (5, already in #153)
+
+You answered "print has no mark there" on each: two spellings of one
+numbered sequence that print points apart.
+
+| rid | headword | your note | scan |
+|---|---|---|---|
+| [A01420](https://jastrow.app/#rid:A01420) | `אִיסְטְוָוא` II (I is A01419 `אִיסטְוָוא`) | "This is likely a textual error but would require extensive research. I would love an issue oppened on it, as I think it is a fascinating question." | [leaf 77](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$78/full/1400,/0/default.jpg) |
+| [E00802](https://jastrow.app/#rid:E00802) | `הֲקָצָה` II (I is E00801 `הֲקָצה`) | "Another likley textual issue, add with other, fascinating I say....." | [leaf 387](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$388/full/1400,/0/default.jpg) |
+| [E00837](https://jastrow.app/#rid:E00837) | `הרְהוּן` II (I is E00836 `הִרְהוּן`) | "another to add to that textual issues research issue" | [leaf 389](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$390/full/1400,/0/default.jpg) |
+| [I00057](https://jastrow.app/#rid:I00057) | `טְבִיעָה` II (I is I00056 `טְבִיעה`) | "textual issue research" | [leaf 540](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$541/full/1400,/0/default.jpg) |
+| [P00959](https://jastrow.app/#rid:P00959) | `עֲנָוָה` II (I is P00958 `ענָוָה`) | "textual issue research" | [leaf 415](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$416/full/1400,/0/default.jpg) |
+
+### X8: a missing numeral print does not set (17)
+
+You answered "no numeral beside it" or "the gap is Jastrow's own" on
+each but C00610, where you answered that print sets I beside C00609
+`גִּיב`. Under ruling 10-13 the bare form stays bare unless Jastrow's own
+text names it `X I`. A00312's note asks for these in a different
+issue from the X9 five.
+
+| rid | headword | your note | scan |
+|---|---|---|---|
+| [A00312](https://jastrow.app/#rid:A00312) | `אַגְמָא` II; A00311 bare | "Legit missing, lets put ones like this in a differnt textual issues research issue." | [leaf 36](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$37/full/1400,/0/default.jpg) |
+| [A00890](https://jastrow.app/#rid:A00890) | `אוֹרְיָין` II; A00889 bare | "add to textual research issue" | [leaf 57](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$58/full/1400,/0/default.jpg) |
+| [A02042](https://jastrow.app/#rid:A02042) | `אֲמָנָה` II; A02041 bare | "add to resarch issue" | [leaf 101](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$102/full/1400,/0/default.jpg) |
+| [B00382](https://jastrow.app/#rid:B00382) | `בּוּרְסִי` II, and B00383 `בּוּרְסִי` II²; no I | "add to issue, likely a textual mistake" | [leaf 173](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$174/full/1400,/0/default.jpg) |
+| [B00538](https://jastrow.app/#rid:B00538) | `בִּיאָה` II; B00537/alt bare | "add to issue" | [leaf 182](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$183/full/1400,/0/default.jpg) |
+| [B00936](https://jastrow.app/#rid:B00936) | `בַּנַּאי` II; B00935 bare | "add to research issue" | [leaf 199](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$200/full/1400,/0/default.jpg) |
+| [C00177](https://jastrow.app/#rid:C00177) | `גְּדוּדִית` II; C00176 bare | "add to issue" | [leaf 233](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$234/full/1400,/0/default.jpg) |
+| [C00610](https://jastrow.app/#rid:C00610) | `גִּיב` II; C00609, which print numbers I | "add to issue" | [leaf 257](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$258/full/1400,/0/default.jpg) |
+| [D00443](https://jastrow.app/#rid:D00443) | `דִּי` II; D00442 bare | "add to issue" | [leaf 316](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$317/full/1400,/0/default.jpg) |
+| [E00114](https://jastrow.app/#rid:E00114) | `הֲדָיָא` II; no I | "add to issue" | [leaf 356](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$357/full/1400,/0/default.jpg) |
+| [H00433](https://jastrow.app/#rid:H00433) | `חוּצָה` II; H00432 bare | "add to issue" | [leaf 461](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$462/full/1400,/0/default.jpg) |
+| [H01222](https://jastrow.app/#rid:H01222) | `חֲמַר` III; no I, II on `חֲמַר` | "add to issue" | [leaf 503](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$504/full/1400,/0/default.jpg) |
+| [J00113](https://jastrow.app/#rid:J00113) | `יָהּ` II; J00112 bare | "add to issue" | [leaf 588](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$589/full/1400,/0/default.jpg) |
+| [O00995](https://jastrow.app/#rid:O00995) | `סְלִיקוּסְתָּא` II; O00994 bare | "add to issue" | [leaf 318](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$319/full/1400,/0/default.jpg) |
+| [Q00965](https://jastrow.app/#rid:Q00965) | `פְּלוּגְתָּא` II; Q00964 bare | "add to issue" | [leaf 500](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$501/full/1400,/0/default.jpg) |
+| [Q01399](https://jastrow.app/#rid:Q01399) | `פַּפָּא` II; Q01398 bare | "add to issue" | [leaf 526](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$527/full/1400,/0/default.jpg) |
+| [S00337](https://jastrow.app/#rid:S00337) | `קוּלְיָא` II; S00336 bare | "add to issue" | [leaf 651](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$652/full/1400,/0/default.jpg) |
+
+### Round 2: `גִּיס` (1)
+
+C00772 `גֵּיס` is bare before C00773 `גִּיס` II and C00774 `גִּיס` II.
+C00707 and C00710 name C00773 II, while C00841 `(v. גִּיס I) familiar`
+and K00444 call the familiar word I, which print numbers II. Kept bare
+in PR #177.
+
+| rid | headword | your note | scan |
+|---|---|---|---|
+| [C00773](https://jastrow.app/#rid:C00773) | `גִּיס` II, `גָּיֵיס` | "To much ambuiguity here honestly. So no implied anything, and maybe an issue to dig in on." | [leaf 263](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$264/full/1400,/0/default.jpg) |
 
 ## How this was produced
 
