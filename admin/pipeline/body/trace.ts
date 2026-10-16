@@ -26,7 +26,11 @@ import type {
 import { splitFormSection } from './form-sections.ts';
 import { parseMarker } from './grammar.ts';
 import { parseLabel } from './labels.ts';
-import { letteredChildren, letteredSplit } from './lettered-children.ts';
+import {
+	childOf,
+	letteredChildren,
+	letteredSplit,
+} from './lettered-children.ts';
 import { rejoinGlossHead } from './rejoin.ts';
 import { segmentUnits } from './units.ts';
 
@@ -176,23 +180,34 @@ function buildFormSectionChild(item: {
  * restarted number their own split found, and the sibling none. The
  * annotation drafts (`SenseMarks`) land on the host too. A `relabel`'s
  * run (L59) is the exception: it reaches the lettered children, which
- * take its labels and its drafts (`lettered-children.ts`). */
+ * take its labels and its drafts (`lettered-children.ts`); and so does
+ * a draft that names a lettered child (an `annotate`'s `child`, L67),
+ * which lands on that child, or is thrown if the text has none. */
 function buildTextSense(text: string, marks: SenseMarks): BodySense[] {
 	const lettered = letteredSplit(text, marks.relabel);
 	const head = lettered ? lettered.head : text;
 	const formSection = splitFormSection(head);
 	const hostText = formSection ? formSection.host : head;
 	const { gloss, units } = segmentUnits(hostText);
+	const drafts = marks.annotations ?? [];
+	const own = drafts.filter((d) => childOf(d) === undefined);
+	const forChildren = drafts.filter((d) => childOf(d) !== undefined);
+	const [unplaced] = forChildren;
+	if (lettered === null && unplaced !== undefined) {
+		throw new Error(
+			`${unplaced.source}: the annotate names child ${childOf(unplaced)}, and the text splits into no lettered children`,
+		);
+	}
 	const host: BodySense = {
 		gloss,
 		units,
 		...marks.label,
-		...(marks.annotations === undefined
-			? {}
-			: { annotations: marks.annotations }),
+		...(own.length === 0 ? {} : { annotations: own }),
 		...(lettered === null
 			? {}
-			: { senses: letteredChildren(lettered, marks.relabel) }),
+			: {
+					senses: letteredChildren(lettered, marks.relabel, forChildren),
+				}),
 	};
 	if (formSection === null) {
 		return [host];

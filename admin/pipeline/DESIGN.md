@@ -261,11 +261,20 @@ description; `validateEntry` (`admin/entry/validate.ts`) enforces it.
 `senses[]` is a tree of `{ label?, reconstructed?, gloss, units[],
 senses? }`, where a nested `senses` holds the same shape.
 
-`senses[0]`'s gloss carries the **gloss head**: a pure concatenation of
-`content.morphology` + `language_code` + `language_reference` + the
-first source sense's text in print order (`body/rejoin.ts`, whose
-offsets slice the pieces apart again inside the import and are never
-stored). What that makes `senses[0]` depends on the entry. In the
+`senses[0]`'s gloss carries the **gloss head**: `content.morphology` +
+`language_code` + `language_reference` + the first source sense's text,
+joined in print order (`body/rejoin.ts`, whose offsets slice the pieces
+apart again inside the import and are never stored). The join adds one
+thing, the space print sets between two fields, where Sefaria trimmed
+it off both edges (review ledger L69): one space when neither field
+spaces the edge they meet at, read on the visible text, unless print
+sets the two tight there (the next field opens on `, . : ; ! ? ) ]`, a
+dash or a closing quote, or the one before ends on `(`, `[` or a dash,
+or a number runs across). Measured at PR #185: 6,161 seams in 4,884
+entries took a space (`m.(b. h.;` → `m. (b. h.;`, 1,948 of them; `ch.
+same<i>to tie</i>` → `ch. same <i>to tie</i>`), and the re-import
+changed those 4,884 files by inserted spaces in `senses[0]`'s gloss
+alone. What that makes `senses[0]` depends on the entry. In the
 committed tree it is the entry's only sense, the whole definition, in
 29,209 entries; sense `1)` itself with the lead joined on in 1,030
 (38 of those are also the only sense); and an unlabelled lead before
@@ -625,7 +634,7 @@ The op grammar is `delete`, `join`, `move`, `nest`, `replace`,
 | `retag` | `sense[…]` | sets the sense's `number` | sense `label` |
 | `replace` | `sense[…]` or `language_reference:` | swaps one exact substring | sense `gloss` / `units[n]`; on `language_reference:`, `senses[0]`'s `gloss` |
 | `reform` | `forms:` | rewrites the headword line | form `homograph` (one `homographs` item) or `text` (the one form respelled) |
-| `annotate` | `sense[…]`, `forms:` or `language_reference:` | nothing: pins `expected_before` and records print's reading as kept | the field `payload.field` names (`gloss` only on `language_reference:`); `kept` only |
+| `annotate` | `sense[…]`, `forms:` or `language_reference:` | nothing: pins `expected_before` and records print's reading as kept | the field `payload.field` names (`gloss` only on `language_reference:`), on the lettered child `payload.child` names when it is set (L67); `kept` only |
 | `relabel` | `sense[…]` | no text: declares the lettered run print set, gap included, and the labels its children take | each child's `label` that `to` changes, one annotation each; `print-error` only; none when `to` is `run` (L57) |
 
 **`language_reference:<anchor>`** (review ledger L50) addresses the
@@ -639,6 +648,16 @@ sense is a stem, or that has none, has no sense to carry it and the
 apply refuses. The field is in the no-new-text pool (`flattenContent`).
 Drift calls it `upstream-fixed` only when the field reads exactly as
 the patch would leave it.
+
+**An `annotate` on a lettered child** (review ledger L67) targets the
+host sense and names the child by its built label, `payload.child`:
+the children are made by the build, after every patch. The draft
+rides the host's source sense and `body/lettered-children.ts` moves it
+onto the child with that label, throwing if none has it. The corpus
+preflight's one patch per `(rid, target)` (`validateCorpus`) admits
+several on one target only when each is an `annotate` or a `relabel`,
+the two ops that leave the text untouched and so cannot invalidate
+each other's anchor; J00403's P000820 and P000826 share one.
 
 **`annotation`** (ruling `10-13 correction policy`,
 [`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md) §3) is an
@@ -1450,8 +1469,10 @@ so cannot be inferred from reading the code that is there.
 26. **Unit segmentation never over-splits.** The terminator rule is
     deliberately conservative; its only failure mode is reading two
     units as one, never a false boundary (`body/units.ts:1-9`).
-27. **No separators are invented on rejoin** (`body/rejoin.ts:5`;
-    `:53` refuses an invented placeholder).
+27. **The rejoin invents no separator but print's space** (`body/rejoin.ts`,
+    `seam`): one space between two fields that print spaces and neither
+    kept (L69), nothing else, and a missing field contributes nothing,
+    never a placeholder.
 28. **The headword parser never moves or reassigns notation it cannot
     place.** A line whose grammar does not read is kept whole per item
     and flagged `headword-unparsed`, never partially parsed — *a line

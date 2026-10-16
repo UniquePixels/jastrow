@@ -161,9 +161,15 @@ interface PatchAnnotation {
  * `gloss`, `label` and `units` sit on a `sense[…]` target, and the
  * build finds the gloss or unit that holds `annotation.printed`;
  * `homograph` and `text` sit on a `forms:` target, on the parsed form
- * `form` names. */
+ * `form` names. A `gloss` or `units` note may name, as `child`, the
+ * lettered child of the target that holds the text (review ledger
+ * L67): the children exist only once the build splits the target's
+ * text (`body/lettered.ts`), so the target is the host, the draft
+ * rides it, and the build moves the draft onto the child whose label
+ * is `child` (`body/lettered-children.ts`). */
 type AnnotatePayload =
-	| { field: 'gloss' | 'label' | 'units' }
+	| { child?: string; field: 'gloss' | 'units' }
+	| { field: 'label' }
 	| { field: 'homograph' | 'text'; form: number };
 
 /** Split an in-text `—N)` run out of its host sense: the host keeps
@@ -637,6 +643,9 @@ function annotatePayloadReasons(p: Record<string, unknown>): string[] {
 			'annotate payload.field must be gloss, homograph, label, text or units',
 		];
 	}
+	if (p['child'] !== undefined) {
+		return annotateChildReasons(field, p['child']);
+	}
 	if (SENSE_FIELDS.has(field)) {
 		return p['form'] === undefined
 			? []
@@ -646,6 +655,20 @@ function annotatePayloadReasons(p: Record<string, unknown>): string[] {
 	return Number.isInteger(form) && (form as number) >= 0
 		? []
 		: ['annotate payload.form must be a form index (a non-negative integer)'];
+}
+
+/** `annotate`'s `child` (L67): a lettered child's label, on a text
+ * field. A child's label is not annotated here: a `relabel` states
+ * the labels its run's children take. */
+function annotateChildReasons(field: string, child: unknown): string[] {
+	if (field !== 'gloss' && field !== 'units') {
+		return ['annotate payload.child is only for gloss and units'];
+	}
+	return typeof child === 'string' && RUN_LETTER.test(child)
+		? []
+		: [
+				"annotate payload.child must be a lettered child's label, one letter a-z",
+			];
 }
 
 /** `delete`: a known scope, with a segment exactly when scope is
@@ -1328,6 +1351,14 @@ function annotateTargetReasons(raw: Record<string, unknown>): string[] {
 		return [];
 	}
 	if (onLanguageReference('annotate', raw['target'])) {
+		if (
+			(raw['payload'] as Record<string, unknown> | undefined)?.['child'] !==
+			undefined
+		) {
+			return [
+				'annotate on a language_reference: target takes no child: the gloss head it lands in is the host text, before any lettered child',
+			];
+		}
 		// The field is folded into `senses[0]`'s gloss head, so that is
 		// the one field a note on it can name. An unknown field already
 		// has its reason from the payload check.
@@ -1490,9 +1521,17 @@ interface CorpusProblem {
 	reason: string;
 }
 
+/** The ops that leave the target's text exactly as it was: `annotate`
+ * changes nothing, and `relabel` leaves a draft beside the text. Two
+ * of them on one target cannot invalidate each other's anchor, which
+ * is all the one-patch-per-target rule guards against, so a target
+ * may carry several (review ledger L67: J00403's kept `)` is noted on
+ * the sense P000820's relabel declares the run on). */
+const TEXT_KEEPING_OPS: ReadonlySet<string> = new Set(['annotate', 'relabel']);
+
 /** Corpus preflight over already-parsed patches: unique ids, one
- * patch per (rid, target). Reports every problem, not just the
- * first. */
+ * patch per (rid, target) unless every patch on it keeps the text
+ * (`TEXT_KEEPING_OPS`). Reports every problem, not just the first. */
 function validateCorpus(patches: readonly SemanticPatch[]): CorpusProblem[] {
 	const problems: CorpusProblem[] = [];
 	const byId = new Map<string, SemanticPatch[]>();
@@ -1510,7 +1549,7 @@ function validateCorpus(patches: readonly SemanticPatch[]): CorpusProblem[] {
 		}
 	}
 	for (const [key, group] of byTarget) {
-		if (group.length > 1) {
+		if (group.length > 1 && !group.every((p) => TEXT_KEEPING_OPS.has(p.op))) {
 			problems.push({
 				patchIds: group.map((p) => p.id),
 				reason: `overlapping patches on the same target (${key}) — the first apply invalidates the second's anchor; combine into one patch`,
@@ -1717,7 +1756,14 @@ function applyAnnotate(entry: SourceEntry, patch: AnnotatePatch): SourceEntry {
 		}
 		addSenseDraft(sense, { ...note, field: 'label' });
 	} else {
-		addSenseDraft(sense, { ...note, field: payload.field, find: note.printed });
+		addSenseDraft(sense, {
+			...note,
+			...('child' in payload && payload.child !== undefined
+				? { child: payload.child }
+				: {}),
+			field: payload.field,
+			find: note.printed,
+		});
 	}
 	return copy;
 }

@@ -1383,6 +1383,49 @@ describe('validateCorpus', () => {
 	});
 });
 
+describe('validateCorpus: ops that keep the text may share a target (L67)', () => {
+	// L67: J00403's kept `)` is annotated on the sense P000820's
+	// relabel targets. Neither op changes the text, so neither
+	// invalidates the other's anchor, and the pair may share it.
+	const kept = {
+		annotation: {
+			date: '2026-10-16',
+			evidence: 'e',
+			kind: 'kept',
+			printed: 'a)',
+		},
+		id: 'P000002',
+		op: 'annotate',
+	};
+	const lettered = 'x a) one.—b) two.';
+	const relabel = patchFor(lettered, '', {
+		op: 'relabel',
+		payload: { run: ['a', 'b'], to: ['a', 'b'] },
+	});
+
+	it('accepts an annotate on the target of a relabel: neither changes the text', () => {
+		const annotate = patchFor(lettered, '', {
+			...kept,
+			payload: { child: 'b', field: 'units' },
+		});
+		expect(validateCorpus([relabel, annotate])).toEqual([]);
+	});
+
+	it('still refuses an annotate on the target of a patch that changes the text', () => {
+		const replace = patchFor(lettered, '', {
+			op: 'replace',
+			payload: { find: 'one', replace: 'One' },
+		});
+		const annotate = patchFor(lettered, '', {
+			...kept,
+			payload: { field: 'gloss' },
+		});
+		expect(validateCorpus([replace, annotate]).map((p) => p.patchIds)).toEqual([
+			['P000001', 'P000002'],
+		]);
+	});
+});
+
 describe('countOccurrences', () => {
 	it('counts non-overlapping occurrences', () => {
 		expect(countOccurrences('—2) a —2) b', '—2)')).toBe(2);

@@ -681,3 +681,74 @@ describe('a relabel: the declared run splits and relabels (L59)', () => {
 		);
 	});
 });
+
+// L67: J00403's run `a) … d)` ends on a `)` print sets that closes
+// nothing (case 3, kept). The note on it is an `annotate` on the host
+// naming child `d`; the build moves the draft onto that child.
+const CHILD_TEXT =
+	'sea.—Esp. a) one.—b) two (only הים).—c) three.—d) four; v. זִיבָה).';
+const CHILD_KEPT = {
+	date: '2026-10-16',
+	evidence: 'print sets a ) that closes nothing',
+	kind: 'kept',
+	printed: 'זִיבָה).',
+	source: 'P000901',
+} as const;
+
+/** J00403's shape: the run declared whole, one draft naming `child`. */
+function childNoted(child: string, relabel = true): SourceEntry {
+	return {
+		content: {
+			senses: [
+				{
+					annotations: [
+						{ ...CHILD_KEPT, child, field: 'gloss', find: CHILD_KEPT.printed },
+					],
+					definition: CHILD_TEXT,
+					...(relabel
+						? {
+								relabel: {
+									run: ['a', 'b', 'c', 'd'],
+									source: 'P000900',
+									to: ['a', 'b', 'c', 'd'],
+								},
+							}
+						: {}),
+				},
+			],
+		},
+		headword: 'x',
+		rid: 'J00403',
+	};
+}
+
+describe('an annotate on a lettered child lands on the child (L67)', () => {
+	it('puts the draft on child d, and none on the host or its siblings', () => {
+		const source = childNoted('d');
+		const trace = buildTrace(source);
+		const [host] = trace.body.senses;
+		expect(host?.annotations).toBeUndefined();
+		expect(host?.senses?.map((s) => s.annotations)).toEqual([
+			undefined,
+			undefined,
+			undefined,
+			[{ ...CHILD_KEPT, field: 'gloss', find: CHILD_KEPT.printed }],
+		]);
+		expect(host?.senses?.[3]?.gloss).toContain(CHILD_KEPT.printed);
+		expect(evaluateRoundTrip(source, trace).lettered).toBe(true);
+	});
+});
+
+describe('an annotate on a lettered child that is not there (L67)', () => {
+	it('throws when no child carries the label the draft names', () => {
+		expect(() => buildTrace(childNoted('e'))).toThrow(
+			'P000901: the annotate names child e, and the split built a b c d',
+		);
+	});
+
+	it('throws when the text splits into no lettered children', () => {
+		expect(() => buildTrace(childNoted('d', false))).toThrow(
+			'P000901: the annotate names child d, and the text splits into no lettered children',
+		);
+	});
+});

@@ -184,6 +184,19 @@ path (`body/trace.ts`), and `finishEntry` writes `field` and `stored`
   `payload.form`, the parsed form's index; on a `language_reference:`
   target, `gloss` only, landing as a `replace`'s does. Only `kept`; `expected_before`
   pins the target, and a moved target is always `upstream-changed`.
+  **A lettered child** (review ledger L67, PR #185): the children exist
+  only once the build splits the host's text (`body/lettered.ts`), so
+  a note on a child's `gloss` or `units` targets the host and names
+  the child by its built label, `payload.child` (one letter; never on
+  `label`, a `forms:` target or a `language_reference:` one). The
+  draft rides the host's source sense, as a `relabel`'s run does, and
+  `body/lettered-children.ts` moves it onto the child with that
+  label; a label no child carries, or a text that splits into no
+  children, throws at the build rather than losing the note.
+  J00403's P000826 notes the `)` print sets in child `d`. An
+  `annotate` may share its target with a `relabel` (P000820 on the same
+  sense): neither changes the text, so neither invalidates the other's
+  anchor (`TEXT_KEEPING_OPS`, `patch/schema.ts`).
 - `relabel` (PR #180): one patch, several annotations. Its payload
   `{run, to}` is print's letters as the text holds them and the
   labels the children take; the apply leaves both on the source sense
