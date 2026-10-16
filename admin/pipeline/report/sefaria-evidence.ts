@@ -174,8 +174,14 @@ function skeleton(form: string): string {
 	return form.normalize('NFD').replaceAll(NOT_HEBREW_LETTER, '');
 }
 
+/** Append `value` to `key`'s list, in place. */
 function push<K, V>(map: Map<K, V[]>, key: K, value: V): void {
-	map.set(key, [...(map.get(key) ?? []), value]);
+	const list = map.get(key);
+	if (list === undefined) {
+		map.set(key, [value]);
+	} else {
+		list.push(value);
+	}
 }
 
 /** Every numeral a case-1 reviewed reform with print evidence sets on
