@@ -2,7 +2,7 @@
 
 The data rows of review ledger plan groups 5 and 11
 ([`docs/review-ledger.md`](../../../../../../docs/review-ledger.md)):
-L36, L51, L57 and L61, PR #n, under ruling `10-13 correction policy`
+L36, L51, L57 and L61, PR #182, under ruling `10-13 correction policy`
 ([`docs/decisions.md`](../../../../../../docs/decisions.md) §9). Every
 edit is classified by the ruling's four cases; evidence is Jastrow's
 printed text (the hOCR under `data/print/hocr/`, the page index under
