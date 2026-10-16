@@ -2,6 +2,14 @@
 
 ## Status
 
+**2026-10-16, found in study.** D00503 `*דֵּין` is `דֵּיו` in print
+(your scan read of 2026-10-16, 296a): an OCR nun for vav. PR #n
+respells it (P000821, case 1) and re-aims the four cites that spell
+`דֵּיו` from D00500 `דְּיוֹ` (ink) to it (review ledger L73). Nothing
+had flagged it; measuring that gap (L72) found 19 more headwords one
+OCR letter from Jastrow's own spelling, which wait on your scan read in
+§ [Cross-reference spellings (2026-10-16)](#cross-reference-spellings-2026-10-16).
+
 **2026-10-15 (b).** U00488 and U00489, the one pile B and #113 fix
 the pipeline could not express (review ledger L50), are applied in
 PR #179 through a new `language_reference:` patch target: U00488 is
@@ -3868,3 +3876,484 @@ T00434 (`Nidd. 42ᵃ, v. תְּפֵי I`) and V00848 `תְּפַף II` (`to spit
   - note: 
 
 Recommendation: V00815 is the I and V00816 takes II (high): the hOCR reads the II, and both cites quote V00815.
+
+## Cross-reference spellings (2026-10-16)
+
+**Status:** 19 entries in 17 blocks wait on your ticks. Nothing is
+written until you tick; a later data PR turns each "yes" into a
+reviewed `reform` (case 1, no annotation, as D00503's P000821 in PR #n)
+and re-aims the cites whose pointing names the corrected entry.
+
+A new list, from review ledger L72: headwords one OCR letter away from
+the spelling Jastrow's own cross-references use, where the alphabet
+agrees with Jastrow. D00503 `דֵּין` was the first: the scan reads
+`דֵּיו`, four cites spell it so, and Sefaria linked all four to D00500
+`דְּיוֹ` (ink) because the right entry was misspelled. Each block below
+has three witnesses: (1) cites whose text differs from the stored form
+by one letter of a pair the OCR confuses (`hebrew.ts`'s
+`CONFUSION_GROUPS`), (2) the stored spelling sorts outside its two
+neighbours in the source while the cites' spelling sorts between them,
+and (3) the entry's own text, where it helps. The hOCR rarely settles
+it: volume 1's Tesseract garbles the Hebrew of a headword, and volume
+2's ABBYY reads none; so each needs your scan read, as D00503 did.
+
+Tick ONE box per bullet, a note only where a box asks for one; each
+block's `Recommendation:` is a default you can accept by ticking the
+box it names. "Yes" renames the entry (U6: free before go-live).
+Confidence: high where all three witnesses agree; medium where two do.
+
+| rid | stored | Jastrow's text spells | neighbours (source order) | recommendation |
+|---|---|---|---|---|
+| A00021 | `אַכְאָבִית` | `אַבְאָבִית` (8 cites) | `אִבָּא` … `אבאטיס` | yes, bet (high) |
+| A03020 | `אֻרְיָה` | `אֻרְוָה` (3 cites) | `אָרוֹד` … `אַרְוָוד` | yes, vav (high) |
+| K00228 | `כּוֹזְכָא` | `כּוֹזְבָא` (1 cite; gloss `Koz’ba`) | `כּוֹזָב` … `כּוּזָה` | yes, bet (high) |
+| K00780 | `כַּלְקִירָא` | `כַּלְקִידָא` (1 cite) | `כַּלַּקְטֵירִין` … `כַּלְקִיס` | yes, dalet (high) |
+| U01011 | `שִׁופּוּט` | `שִׁיפּוּט` (1 cite) | `שִׂיפְוָונִיֹּות` … `שִׁיפּוּי` | yes, yod (high) |
+| H00980 | `חָלַך` | `חָלַד` (4 cites) | `חֲלַגְלוֹג` … `חֲלַד` | yes, dalet (high) |
+| P00609 | `עֵינָיָון` | `עֵינָוָון` (2 cites) | `עִינּוּג` … `עִינְוָון` | yes, vav (medium) |
+| R00152 | `צַיַּאר` | `צַוַּאר` (1 cite; `צַוָּאר` 4) | `צַוָּאר` … `צַוַּארְנוֹיָיתָא` | yes, vav (high) |
+| R00171 | `צְיַוח` | `צְוַוח` (3 cites) | `צָוַוח` … `צְוָוחָא` | yes, vav (high) |
+| S00216 | `קַיָּא` | `קַוָּא` (2 cites) | `קַו` … `קוּא` | yes, vav (high) |
+| U00721 | `שַׁהְרֵר` | `שַׁחְרֵר` (1 cite) | `שִׁחֲרֵר` … `שְׁחַרְתָּא` | yes, ḥet (high) |
+| U01223 | `שִׁלְחֵי` | `שִׁלְהֵי` (2 cites) | `שִׁלְהֲוֵי` … `שַׁלְהֵי I` | yes, he (high) |
+| P00855, P00856, P00860 | `עָמַך I`, `עָמַך II`, `עֶמֶך` | `עָמַד` (16 cites), `עֶמֶד` | `עמאוקו` … `*עֲמַד`; `עָמָד I` … `עֲמָדָה II` | yes, dalet, all three (high) |
+| A00718 | `אַיְנָא I` | `אֲוָנָא` (A00749) | `אוֹן` … `אֲוָנָא II` | yes, vav (medium) |
+| A01632 | `אֶושָּׁתָא` | `אִישְׁתָּא` (a neighbour's spelling) | `אִישַׁת` … `אֶישְׁתָּא` | yes, yod (medium) |
+| C00299 | `גּוּך` | `גּוּד` (C00300's spelling, 5 cites) | `גּוּגְמֵי` … `גּוּד` | yes, dalet (medium) |
+| C01130 | `גְּנַה II` | `גְּנַח` (6 cites; C00538 `גְּנַח II`) | `גְּנַח I` … `גני` | yes, ḥet (high) |
+
+Not asked: the measurement's other order-witnessed rows (review ledger
+L72). M01544 `מלו` (its gloss quotes `מלי גאלה`), N00084 `נְבִיָּוא`
+(`v. נְבִיָּא`) and R00169 `צַיָּואָה` are plausible but carry one
+witness each; L00051, L00602, V00140, V00485 and C01208 read as print's
+own spelling.
+
+### `אַבְאָבִית`: A00021 (stored `אַכְאָבִית`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [A00021](https://jastrow.app/#rid:A00021) | `אַכְאָבִית, אֲבָבִית, עַבְעָבִית, עֲבָבִית, עַוְעָוִית` | `עועוית שבבית MAY, ,אִבְבִית ,אבאבית` | [2b · leaf 25](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$26/full/1400,/0/default.jpg) |
+
+Eight cites spell the word `אַבְאָבִית` and Sefaria links all eight
+here: A01120, A01664 (`חמה וא׳, a vers. for אַבְאָבִית`), H00909,
+H00938, H01152, P00012, P00056 and P00237 (`v. אַבְאָבִית`). The hOCR's
+first word is `אבאבית`, and the entry stands between A00020 `אִבָּא`
+and A00022 `אבאטיס`, where `אבאבית` sorts and `אכאבית` (under `אכ`,
+p. 62) does not. Its alternates `אֲבָבִית, עַבְעָבִית` reduplicate the
+same `אב`.
+
+**Question.** Does print read `אַבְאָבִית` (bet) where A00021 stores
+`אַכְאָבִית`?
+
+- **A00021**
+  - [ ] yes: `אַבְאָבִית` (case 1; the name changes)
+  - [ ] no: print reads `אַכְאָבִית`; as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high): the hOCR, the alphabet and eight cites
+agree.
+
+### `אֻרְוָה`: A03020 (stored `אֻרְיָה`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [A03020](https://jastrow.app/#rid:A03020) | `אֻרְיָה` | `TPN f. (b. h.; v. אהּרְלָא 11( manger, crib.— Pl. רות` | [116a · leaf 139](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$140/full/1400,/0/default.jpg) |
+
+`f. (b. h.; v. אוּרְיָא II) manger, crib.—Pl. אֻרְווֹת`. The biblical
+word is `אֻרְוָה` (pl. `אֻרְוֹת`), and three cites spell it so, all
+linked here: A00863 (`v. אוּרְיָא II a. אֻרְוָה`), A00878 (`b. h.
+אֻרְוָה q. v.`) and A00879 (`ch. (= b. h. אֻרְוָה) crib`). The entry
+stands between A03019 `אָרוֹד` and A03021 `אַרְוָוד`: `ארוה` sorts
+there, `אריה` would follow `ארווד`. The hOCR misreads the headword.
+
+**Question.** Does print read `אֻרְוָה` (vav) where A03020 stores
+`אֻרְיָה`?
+
+- **A03020**
+  - [ ] yes: `אֻרְוָה` (case 1; the name changes)
+  - [ ] no: print reads `אֻרְיָה`; as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high): the cites, the plural and the alphabet
+agree.
+
+### `כּוֹזְבָא`: K00228 (stored `כּוֹזְכָא`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [K00228](https://jastrow.app/#rid:K00228) | `כּוֹזְכָא, כּוֹזְבָה, כּוֹזִיבָא` | `(Bar-) Koz’ ba, name of the leader of the Jewish uprising` | [618a · leaf 641](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$642/full/1400,/0/default.jpg) |
+
+Bar Kozba: the gloss transliterates `Koz’ba`, the alternates are
+`כּוֹזְבָה` and `כּוֹזִיבָא`, and K00230 reads `כּוֹזִיבָא, v.
+כּוֹזְבָא` (linked here). The entry stands between K00227 `כּוֹזָב`
+(`v. next w.`) and K00229 `כּוּזָה`; `כוזבא` sorts there, `כוזכא`
+after `כוזה`.
+
+**Question.** Does print read `כּוֹזְבָא` (bet) where K00228 stores
+`כּוֹזְכָא`?
+
+- **K00228**
+  - [ ] yes: `כּוֹזְבָא` (case 1; the name changes)
+  - [ ] no: print reads `כּוֹזְכָא`; as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high): the gloss, the alternates, the cite and
+the alphabet agree.
+
+### `כַּלְקִידָא`: K00780 (stored `כַּלְקִירָא`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [K00780](https://jastrow.app/#rid:K00780) | `כַּלְקִירָא` | `NT PD vas` | [645b · leaf 668](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$669/full/1400,/0/default.jpg) |
+| [K00782](https://jastrow.app/#rid:K00782) | `כלקירא` | `wae .+ ,כלקירא` | same |
+
+Both are `, v. כַּלְכִּיד`. K00753 reads `Y. Peah VIII, 21ᵃ top (סלק׳)
+כלקורא, read: כַּלְקִידָא` and Sefaria links it to K00780. K00780
+stands before K00781 `כַּלְקִיס`, where `כלקידא` sorts; K00782, after
+it, is where `כלקירא` sorts, and its hOCR reads `כלקירא`. So print
+likely sets both spellings, `ד` first.
+
+**Question.** Does print read `כַּלְקִידָא` (dalet) where K00780 stores
+`כַּלְקִירָא`?
+
+- **K00780**
+  - [ ] yes: `כַּלְקִידָא` (case 1; the name changes)
+  - [ ] no: print reads `כַּלְקִירָא` twice; as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high): the cite's `read:` and the alphabet agree,
+and K00782 keeps the `ר` spelling in its own place.
+
+### `שִׁיפּוּט`: U01011 (stored `שִׁופּוּט`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U01011](https://jastrow.app/#rid:U01011) | `שִׁופּוּט, שִׁפּ׳` | `13* S"1^ 5*CJ m. (L'B'O, v. XUBlO) childishness, folly,` | [1566a · leaf 889](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$890/full/1400,/0/default.jpg) |
+
+`m. (שפט, v. שִׁפְטָא) childishness, folly, vanity`. The stored form
+sets a hiriq before a bare vav, which no word does; U00497 reads `V.
+שִׁיפּוּט` (linked here), and the alternate `שִׁפּ׳` is the defective
+spelling of the same word. The entry stands between U01010
+`שִׂיפְוָונִיֹּות` and U01012 `שִׁיפּוּי`, where `שיפוט` sorts and
+`שופוט` does not.
+
+**Question.** Does print read `שִׁיפּוּט` (yod) where U01011 stores
+`שִׁופּוּט`?
+
+- **U01011**
+  - [ ] yes: `שִׁיפּוּט` (case 1; the name changes)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high): the pointing, the cite and the alphabet
+agree.
+
+### `חָלַד`: H00980 (stored `חָלַך`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [H00980](https://jastrow.app/#rid:H00980) | `חָלַך` | `om (emp. 55m) to undermine, cave, dig. Pes. 118` | [464b · leaf 487](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$488/full/1400,/0/default.jpg) |
+
+`(cmp. חלל) to undermine, cave, dig`, followed by H00981 `חֲלַד ch.
+same` and H00982 `חֶלֶד m. (b. h.; preced.) mould`. Four cites spell
+the Hebrew verb `חָלַד`, with this entry's qamats and patah, and
+Sefaria links them to H00981, the `ch.` line: E00561, H00330 (`f.
+(חָלַד; cmp. b. h. חֹלֶד)`), H00990 and U01212 (`contr. of שחלד, v.
+חָלַד`). The entry stands between H00979 `חֲלַגְלוֹג` and H00981
+`חֲלַד`, where `חלד` sorts and `חלך` does not.
+
+**Question.** Does print read `חָלַד` (dalet) where H00980 stores
+`חָלַך`?
+
+- **H00980**
+  - [ ] yes: `חָלַד` (case 1; the name changes, and the four cites move here)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high): `ch. same` names this word, and the cites
+and the alphabet agree.
+
+### `עֵינָוָון`: P00609 (stored `עֵינָיָון`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [P00609](https://jastrow.app/#rid:P00609) | `עֵינָיָון` | no line matched | [1072a · leaf 395](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$396/full/1400,/0/default.jpg) |
+
+`, pl. of עֵינָא`. P00602 and P00618 spell `עֵינָוָון` (P00618: `Pl.
+עֵינְוָותָא, עִינְוָתָא, עֵינָוָון`) and Sefaria links them to P00610
+`עִינְוָון, v. sub ענ׳`, the next entry. P00609 stands between P00608
+`עִינּוּג` and P00610 `עִינְוָון`, where `עינוון` sorts and `עיניון`
+does not. Less sure than the others: P00618's list is the plural of
+`ענוותא` (meekness), not of `עֵינָא`, so the cites may name P00610
+correctly and witness only the spelling.
+
+**Question.** Does print read `עֵינָוָון` (vav) where P00609 stores
+`עֵינָיָון`?
+
+- **P00609**
+  - [ ] yes: `עֵינָוָון` (case 1; the name changes; the cites stay on P00610)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (medium): the alphabet and the spelling agree; the
+cites' meaning does not settle it.
+
+### `צַוַּאר`: R00152 (stored `צַיַּאר`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [R00152](https://jastrow.app/#rid:R00152) | `צַיַּאר, צַוַּר, צַוְּרָא, צַוּו׳` | `IfvX, !>£» JS i'1-tj riS ch. same; mostly in pi.` | [1265b · leaf 588](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$589/full/1400,/0/default.jpg) |
+
+`ch. same; mostly in pl. constr. צַוְּורֵי, צַוְּרֵי`, after R00151
+`צַוָּאר` (neck). Every alternate has the vav, and R00176 reads `v.
+צַוַּאר`, this entry's patah (Sefaria links it to R00151). It stands
+between R00151 `צַוָּאר` and R00153 `צַוַּארְנוֹיָיתָא`, where `צואר`
+sorts and `ציאר` does not.
+
+**Question.** Does print read `צַוַּאר` (vav) where R00152 stores
+`צַיַּאר`?
+
+- **R00152**
+  - [ ] yes: `צַוַּאר` (case 1; the name changes)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high): `ch. same`, the alternates and the
+alphabet agree.
+
+### `צְוַוח`: R00171 (stored `צְיַוח`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [R00171](https://jastrow.app/#rid:R00171) | `צְיַוח, צְוַח` | `T^niXch. l)same. Targ. Gen. XXVII, 34. Targ.` | [1266b · leaf 589](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$590/full/1400,/0/default.jpg) |
+
+`ch. 1) same` after R00170 `צָוַוח` (to cry, shout). Its alternate is
+`צְוַח`, and three cites spell `צְוַוח` with this entry's sheva
+(M00338, S01995, U00220), linked to R00170. It stands between R00170
+`צָוַוח` and R00172 `צְוָוחָא`, where `צווח` sorts and `ציוח` does not.
+
+**Question.** Does print read `צְוַוח` (vav) where R00171 stores
+`צְיַוח`?
+
+- **R00171**
+  - [ ] yes: `צְוַוח` (case 1; the name changes, and the three cites move here)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high): `ch. same`, the alternate, the cites and
+the alphabet agree.
+
+### `קַוָּא`: S00216 (stored `קַיָּא`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [S00216](https://jastrow.app/#rid:S00216) | `קַיָּא` | `fc^P ch. (preced., v. P. Sm. 3510; cmp. 6M3) [circle,` | [1323a · leaf 646](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$647/full/1400,/0/default.jpg) |
+
+`ch. (preced., v. P. Sm. 3510; cmp. כַּוָּא) [circle, window,] web`,
+after S00215 `קַו` (line). S00308 and S00878 (`pl. קֵיוָן, v. קַוָּא`)
+spell `קַוָּא`, linked to S00217 `קוּא` (to spit). It stands between
+`קַו` and `קוּא`, where `קוא` sorts and `קיא` does not. Its own plural
+reads `קַיִּין`, likely the same slip.
+
+**Question.** Does print read `קַוָּא` (vav) where S00216 stores
+`קַיָּא`?
+
+- **S00216**
+  - [ ] yes: `קַוָּא` (case 1; the name changes, and the two cites move here)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: (and the plural `קַיִּין`?)
+
+Recommendation: yes (high): `preced.` names `קַו`, and `cmp. כַּוָּא`,
+the cites and the alphabet agree.
+
+### `שַׁחְרֵר`: U00721 (stored `שַׁהְרֵר`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U00721](https://jastrow.app/#rid:U00721) | `שַׁהְרֵר` | no line matched | [1552a · leaf 875](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$876/full/1400,/0/default.jpg) |
+
+`ch. same`, after U00720 `שִׁחֲרֵר` (to set free). U00000 lists
+Shafel forms `שִׁחֲרֵר, שַׁחְרֵר, שִׁלְהֵב`: its `שַׁחְרֵר` is this
+entry's pointing (Sefaria links it to U00720). It stands between
+U00720 and U00722 `שְׁחַרְתָּא`, where `שחרר` sorts and `שהרר` does
+not.
+
+**Question.** Does print read `שַׁחְרֵר` (ḥet) where U00721 stores
+`שַׁהְרֵר`?
+
+- **U00721**
+  - [ ] yes: `שַׁחְרֵר` (case 1; the name changes, and U00000's cite moves here)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high): `ch. same`, the cite and the alphabet
+agree.
+
+### `שִׁלְהֵי`: U01223 (stored `שִׁלְחֵי`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U01223](https://jastrow.app/#rid:U01223) | `שִׁלְחֵי, שִׁי׳` | `"•H JD, ntp m. pi. (used as sing.) (flbui) tail, end. Targ.` | [1578a · leaf 901](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$902/full/1400,/0/default.jpg) |
+
+`m. pl. (used as sing.) (שְׁלָה) tail, end`: the root `שלה` has a he.
+U00936 and U01215 (`denom. שִׁלְהֵי`) spell `שִׁלְהֵי`, linked to
+U01224 `שַׁלְהֵי I` (to weary). It stands between U01222 `שִׁלְהֲוֵי`
+and U01224 `שַׁלְהֵי I`, where `שלהי` sorts and `שלחי` does not.
+
+**Question.** Does print read `שִׁלְהֵי` (he) where U01223 stores
+`שִׁלְחֵי`?
+
+- **U01223**
+  - [ ] yes: `שִׁלְהֵי` (case 1; the name changes, and the two cites move here)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high): the root in its own etymology, the cites
+and the alphabet agree.
+
+### `עָמַד`: P00855, P00856, P00860 (stored `עָמַך`, `עֶמֶך`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [P00855](https://jastrow.app/#rid:P00855) | `עָמַך I` | `1123? I=^X, to estimate. Y. Naz. IX, end, 58a; Y. Snh.` | [1086a · leaf 409](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$410/full/1400,/0/default.jpg) |
+| [P00856](https://jastrow.app/#rid:P00856) | `עָמַך II` | no line matched | same |
+| [P00860](https://jastrow.app/#rid:P00860) | `עֶמֶך, עָמָך, עֲמָדָה` | no line matched | [1086b · leaf 409](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$410/full/1400,/0/default.jpg) |
+
+Already in [`sefaria-report.md`](sefaria-report.md) §1 (print `עָמַד
+I`, `עָמַד II`, `עֶמֶד`), and in § Cross-reference numerals, block
+`עָמַד II`, which sends the `ך` here. P00855 is `= אָמַד, to
+estimate`; P00856 is `(b. h.) to stand`; P00860 is `f., v. עוּמָד`
+with the alternate `עֲמָדָה`. Sixteen cites spell `עָמַד` and P00276
+`עֶמֶד`; Sefaria links them to P00859 `עָמָד I` (dung). The two verbs
+stand side by side, so each one's slip hides the other's from the
+alphabet check (L72's recall gap); P00860 passes it.
+
+**Question.** Does print read `ד` where these three store `ך`?
+
+- **P00855, P00856**
+  - [ ] yes: `עָמַד I`, `עָמַד II` (case 1; the names change)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+- **P00860**
+  - [ ] yes: `עֶמֶד, עָמָד` (case 1; the name changes)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes for all three (high): the sefaria-report's print
+read, the glosses and the cites agree. Which of the 16 cites name the
+verb, rather than P00859's noun, is the § Cross-reference numerals
+question's to settle.
+
+### `אַוְנָא`: A00718 (stored `אַיְנָא I`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [A00718](https://jastrow.app/#rid:A00718) | `אַיְנָא I, אַוְונָא, אֲוָונָא` | `425, ron, ,חון a. has, (מעון [circle], night-lodging, station` | [28a · leaf 51](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$52/full/1400,/0/default.jpg) |
+| [A00719](https://jastrow.app/#rid:A00719) | `אֲוָנָא II` | `NIN 11 NIN pr. n. pl. (v. foreg.) Avana, on the` | same |
+
+`m. (v. foreg. ws.; cmp. גנן, חָנָה, חוּן, a. עוֹנָה, מָעוֹן) [circle],
+night-lodging`, between A00717 `אוֹן` and A00719 `אֲוָנָא II` (Avana,
+`v. foreg.`). Its alternates are `אַוְונָא, אֲוָונָא`; the I pairs it
+with a `אונא` II; and A00749 (`cmp. אֲוָנָא`, linked here) spells it
+with a vav. Under `אי` it would stand pages later.
+
+**Question.** Does print read `אַוְנָא I` (vav) where A00718 stores
+`אַיְנָא I`?
+
+- **A00718**
+  - [ ] yes: `אַוְנָא I` (case 1; the name changes)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (medium): the numeral, the alternates and the
+alphabet agree; no cite has this form's own pointing.
+
+### `אֶישָּׁתָא`: A01632 (stored `אֶושָּׁתָא`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [A01632](https://jastrow.app/#rid:A01632) | `אֶושָּׁתָא` | `NODS fire, +. wes.` | [61a · leaf 84](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$85/full/1400,/0/default.jpg) |
+
+`fire, v. אֶשָּׁא`. The stored form sets a segol before a bare vav,
+which no word does; its neighbours are A01631 `אִישַׁת` and A01633
+`אֶישְׁתָּא` (six), where `אישתא` sorts and `אושתא` does not. No cite
+names it: the cites that spelled `אִישְׁתָּא` are A01633's.
+
+**Question.** Does print read `אֶישָּׁתָא` (yod) where A01632 stores
+`אֶושָּׁתָא`?
+
+- **A01632**
+  - [ ] yes: `אֶישָּׁתָא` (case 1; the name changes)
+  - [ ] no: print reads another spelling (say which in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (medium): the pointing and the alphabet agree;
+Jastrow's text has no cite of it.
+
+### `גּוּד`: C00299 (stored `גּוּך`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [C00299](https://jastrow.app/#rid:C00299) | `גּוּך` | `Voda, + 233. \| [2016]--.גָי (sec. r. of 38 1( to bind; denom. )1 גוד to form a. (גדוד (denom. of (2--[.גְּדזּד vis, fr. which` | [218a · leaf 241](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$242/full/1400,/0/default.jpg) |
+
+`(sec. r. of אָגַד I) to bind; denom. גִּיד.—[Polel גּוֹדֵד, fr. which
+גְּדוּד.]`, then `(denom. of גדוד) to form a faction`: a verb `גוד`.
+The next entries are C00300 `גּוּד, forms of גדד a. נגד` and C00301
+`*גּוֹד` (leather bag); five cites spell `גּוּד` (C00166, C00168,
+C00170, C00304, C00626), linked to C00300. C00299 stands between
+C00298 `גּוּגְמֵי` and C00300 `גּוּד`, where `גוד` sorts and `גוך`
+does not.
+
+**Question.** Does print read `גּוּד` (dalet) where C00299 stores
+`גּוּך`?
+
+- **C00299**
+  - [ ] yes: `גּוּד` (case 1; the name changes; a numeral beside it or C00300 goes in the note)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (medium): the gloss names the root `גוד` and the
+alphabet agrees; which of C00299 and C00300 the cites mean needs the
+page.
+
+### `גְּנַח II`: C01130 (stored `גְּנַה II`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [C01130](https://jastrow.app/#rid:C01130) | `*גְּנַה II` | `LL to cut, pass swiftly, Torg, Pe, VIII, ® Ar.` | [259a · leaf 282](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$283/full/1400,/0/default.jpg) |
+
+§ Cross-reference numerals, block `גְּנַח II`, asks whether C00538's
+`v. גְּנַח II` names this entry and sends its `ה` here. It is numbered
+II right after C01129 `גְּנַח I` (your 2026-10-06 note on its X8 row:
+"1129 Already has I"); its own text reads `גנח prob. misread for
+גוזז`; six cites spell `גְּנַח`. It stands between `גְּנַח I` and
+C01131 `גני`, where `גנח` sorts and `גנה` does not.
+
+**Question.** Does print read `גְּנַח II` (ḥet) where C01130 stores
+`גְּנַה II`?
+
+- **C01130**
+  - [ ] yes: `גְּנַח II` (case 1; the name changes)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high): the numeral, its own text, the cites and
+the alphabet agree.

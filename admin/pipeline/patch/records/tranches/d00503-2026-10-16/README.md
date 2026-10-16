@@ -116,8 +116,75 @@ the filter's `print read` does not match, so the row carries the leaf
 and no date), and P000822–P000825 with `maintainer print read
 2026-10-16` and their own leaf.
 
-## The detector gap
+## The detector gap (review ledger L72)
 
 Nothing flagged D00503, because the headword report compares headwords
 with each other, never with how Jastrow's own cross-references spell a
-word. Review ledger L72 measures that shape.
+word. A scratch script (not committed) measured that shape on `v2` at
+`fc444fa66`, over the 62,833 internal cites whose Hebrew text has two
+letters or more. "One confusion letter" is one substitution within a
+group of `CONFUSION_GROUPS` (`admin/entry/hebrew.ts`), every other
+letter equal; "pointed" also requires every mark equal.
+
+| Shape | Mode | Rows | Entries |
+|---|---|---|---|
+| 1: the cite differs from every form of its target, from one by one confusion letter | consonants | 326 | 276 |
+| 1 | pointed | 226 | 191 |
+| 2: the cite's consonants match its target, and an entry within five of the target has a form one confusion letter from the cite (none equal) | consonants | 8,547 | 2,755 |
+| 2 | pointed (the cite also differs from every target form) | 239 | 134 |
+
+The positive control holds: D00446, I00568 and Q01189 → D00500, with
+D00503 one letter away, are three shape 2 pointed rows on `v2`, and
+none on this branch (236 rows, 133 entries).
+
+**The first 15 pointed rows of each, in source order**, read against
+the entries, the hOCR and the scan links (no image downloaded):
+
+| # | Shape 1 row | Reading |
+|---|---|---|
+| 1 | A00081 `אַכְוַר׳` → A01675 (`… אַכְוַו׳`) | mislink: `v. אַכְוַר׳` names A01676 `אַכְוַרְנְקָא` |
+| 2 | A00411 `אַזְכָּרָח` → A00972 `אַזְכָּרָה` | OCR slip in the cite's text (`b. h.` is `אזכרה`) |
+| 3 | A00856 `צְפַרְרֵּעַ` → R00718 `צְפַרְדֵּעַ` | OCR slip in the cite's text (a dagesh in `ר`) |
+| 4–6 | A00863, A00878, A00879 `אֻרְוָה` → A03020 `אֻרְיָה` | **headword OCR**: A03020 sorts as `ארוה`, pl. `אֻרְווֹת` |
+| 7 | A00917 `ed. Ven. אַוְשָׁהָא` → A02303 `אַנְשָׁהָא` | Jastrow's variant reading; A02303 sorts as `אנש` |
+| 8 | A01050 `אַחֲרוֹנִית` → A00513 `אַהֲרוֹנִית` | mislink (last ≠ Aaronide) |
+| 9–10 | A01120, A01664 `אַבְאָבִית` → A00021 `אַכְאָבִית` | **headword OCR**: the hOCR and the alphabet read `אבאבית` |
+| 11 | A01168 `עִירָּנָא` → P00515 `עִידָּן …` | OCR slip in the cite's text (a dagesh in `ר`) |
+| 12 | A01671 `אַכְוַר׳` → A01675 | mislink, as row 1 |
+| 13 | A01702 `Var. lect. אַכְלְכָא` → A01702 itself | Jastrow's variant reading, linked to itself |
+| 14 | A02104 `read אַנְגִּירָא?` → A02990 `אַרְגִּירָא` | mislink (an emendation linked to a near word) |
+| 15 | A02446 `Pl. … אֲסִירֵי` → A02438 `אֲסִינֵי` | mislink (a plural linked to a stub) |
+
+Shape 1: 5 of 15 headword OCR (two entries), 5 mislinks, 3 slips in
+the cite's own text, 2 variant readings: 33%.
+
+| # | Shape 2 row (cite → target; the neighbour one letter away) | Reading |
+|---|---|---|
+| 1 | A00041 `אבדימא` → A00040; A00036 `אבדומא` | a different stub word; link right |
+| 2–9 | A00437, A00612, A00996, A01008 `אחז` → A01021; A01023 and A01024 `אחי` | a root cite beside a different root; link right (8 rows) |
+| 10 | A00742 `Mish. Nap. ותינייקי` → F00107; F00110 `ותירייקי` | Jastrow's variant stub; link right |
+| 11 | A01021 `sec. r. of חזז` → H00520; H00525 `חזי` | a different root; link right |
+| 12–13 | A01201 `v. זְמַר I` → G00539; G00536, G00538 `זְמַן` | a different word; link right |
+| 14 | A01525 `b. h. נָסַס` → N00953; N00954 `נָסַע` | a different word; link right |
+| 15 | A01672 `Rashi אבוז` → A00064; A00060 `אבוד` | Jastrow's variant stub; link right |
+
+Shape 2: 0 of 15. Both raw shapes are below the 70% bar.
+
+**The alphabet is the third witness.** Keeping only rows where the
+suspect form is the entry's `headwords[0]`, its stored spelling sorts
+outside its two neighbours in the source (finals read as medials) and
+the cite's spelling sorts between them, as D00503's `דין` fails and
+`דיו` fits between `דיו־` and `דֵּיוָא`:
+
+| Mode | Entries | Read as headword OCR |
+|---|---|---|
+| pointed, both shapes | 14: A00021, A03020, K00228, K00780, U01011 (shape 1); D00503, H00980, P00609, P00860, R00152, R00171, S00216, U00721, U01223 (shape 2) | 14 (P00609 medium) |
+| consonants, beyond those | 12: A00718, A01632, C00299, C01130, C01208, L00051, L00602, M01544, N00084, R00169, V00140, V00485 | 4 likely (A00718, A01632, C00299, C01130), 3 plausible (M01544, N00084, R00169), 4 not (L00051, L00602: stubs spelled as their own `v.` target; V00140, whose gloss `Tavakh` transliterates the stored letter; V00485 `תֵּיקֵי`, a real word out of order), C01208 unclear |
+
+Two misses show the witness's limit: P00855 and P00856 `עָמַך`
+(`docs/sefaria-report.md` §1) are shape 2 pointed rows, but they stand
+side by side, so each one's slip hides the other's from a check that
+reads only the immediate neighbours. The worklist section
+[`docs/headword-worklist.md` § Cross-reference spellings (2026-10-16)](../../../../../../docs/headword-worklist.md#cross-reference-spellings-2026-10-16)
+asks the 13 pointed rows (with P00855 and P00856) and the 4 likely
+consonant rows for a scan read.
