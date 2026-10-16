@@ -294,7 +294,12 @@ direction:
   its paren depths cannot be trusted. The run ends at the first
   counted marker that is not the next letter; no marker is skipped.
   So a run nested in the last item stays in that item's text
-  (Q00140's plural `a) b) c)` inside `b`).
+  (Q00140's plural `a) b) c)` inside `b`). A run print set with a gap
+  (P00790's Hif. `a) b) c) d) f) g) h)`) is split only where a
+  reviewed `relabel` patch declares it (§5 "Patch ops", review ledger
+  L59): the split then takes exactly the declared markers, which must
+  be every counted marker of the text in order, and the children take
+  the patch's labels (`body/lettered-children.ts`).
 - **Form sections.** `Pl.`, `Part. pass.`, `Fem.`, `Denom.`, `Du.`
   split out of their host sense into a sibling with restarted child
   senses, after the lettered split (`body/form-sections.ts`). Its
@@ -319,9 +324,9 @@ step, and refuses one on the first sense, whose text becomes the gloss
 head. Each child still goes through the same text split as
 any sense, so a stem sense can gain children: in the committed tree 38
 stem senses in 36 entries do, 36 of them a lettered run (P00790
-`stems[1].senses[1]`, `a)`–`d)`: print has no `e)`, so `f)`–`h)`
-are not a complete run and stay in `d`) and 2 a form-section
-sibling. The
+`stems[1].senses[1]`, `a`–`g`: print has no `e)`, so its `f) g) h)`
+split only by the reviewed `relabel` P000812, which labels them `e f
+g` with an annotation each) and 2 a form-section sibling. The
 schema allows it: a stem's `senses` are the same recursive `sense`
 shape as the entry's.
 
@@ -602,7 +607,7 @@ does not apply leaves both a row and a header count.
 ### Patch ops
 
 The op grammar is `delete`, `join`, `move`, `nest`, `replace`,
-`retag`, `split`, `reform`, `unref`, `annotate`.
+`retag`, `split`, `reform`, `unref`, `annotate`, `relabel`.
 
 | Op | Target | What it does | `annotation` |
 |---|---|---|---|
@@ -616,6 +621,7 @@ The op grammar is `delete`, `join`, `move`, `nest`, `replace`,
 | `replace` | `sense[…]` or `language_reference:` | swaps one exact substring | sense `gloss` / `units[n]`; on `language_reference:`, `senses[0]`'s `gloss` |
 | `reform` | `forms:` | rewrites the headword line | form `homograph` (one `homographs` item) or `text` (the one form respelled) |
 | `annotate` | `sense[…]`, `forms:` or `language_reference:` | nothing: pins `expected_before` and records print's reading as kept | the field `payload.field` names (`gloss` only on `language_reference:`); `kept` only |
+| `relabel` | `sense[…]` | no text: declares the lettered run print set, gap included, and the labels its children take | each child's `label` that `to` changes, one annotation each; `print-error` only, always |
 
 **`language_reference:<anchor>`** (review ledger L50) addresses the
 etymology paren Sefaria keeps in its own field (`(b. h.; X I)`, `ch. =
@@ -655,7 +661,33 @@ list that closes the sense nests; apply refuses a target with
 `grammar` or children, a lead that opens the target, and any marker
 not found where its order says. `split` makes a sibling; `nest` is the
 one op that makes a child. Where a form-section marker heads the list,
-`join`/`split` regrouping is enough and `nest` is not used. `reform` replaces the headword line, with
+`join`/`split` regrouping is enough and `nest` is not used.
+
+`relabel` (review ledger L59, PR #n) repairs a lettered run print set
+with a gap, which the plain rule cannot split past (§2 "Lettered
+items"). Its payload is `{run, to}`: `run` print's letters in the
+order the text holds them, `to` the labels the children take, the
+consecutive run from `a`, as long as `run`, and different from it.
+Lettered children are made by the build, after every patch, so the op
+edits no text: the apply checks that the target's counted markers read
+exactly `run` (`declaredRunReason`, `body/lettered.ts`) and leaves the
+pair on the source sense as a draft (`SourceSense.relabel`). The trace
+splits at exactly that run, labels each child from `to`, and gives
+each child whose label departs from print's letter a `label` draft
+with that letter as `printed` (`body/lettered-children.ts`); a run the
+text no longer holds there is thrown, never under-split. Apply refuses
+a stem header, a target with children (another patch's), and one that
+already carries a run. Reviewed and annotated always (`print-error`,
+`printed: ''`), so an agent relabel is refused at preflight. The
+no-new-text pool is byte-identical, since a label is not text; the
+target still resolves after apply, as an `annotate`'s does, and the
+post-apply assertion asks for the draft instead. Drift calls a moved
+target `upstream-changed`: no source sense can hold the labels it
+gives. A `split` that inserts the gap letter would be the wrong tool:
+it cuts a sibling from source text, and the children are not source
+senses at all. P000812 is the one record (P00790).
+
+`reform` replaces the headword line, with
 an optional `display` and an optional `gloss`; a `gloss` adds the
 entry's first sense and is refused when the entry already has one
 (#139, ruling `09-29 reform gloss`). Text relocated into an entry that
@@ -1097,8 +1129,10 @@ current-name and `sefariaHeadword` uniqueness, every rid-shaped cite
 ref names an entry, and page agreeing with the page-index row both
 ways. Each entry's mark also holds its annotations to the patches that
 applied to the rid carrying one (`ComposeResult.annotated`), both ways:
-every annotation names one as `source`, and each wrote exactly one. A
-clean run reads 32,513/32,513.
+every annotation names one as `source`, and each wrote exactly as many
+as it owes: one, or for a `relabel` one per label it changed, since
+the apply lists a patch once per annotation it owes. A clean run reads
+32,513/32,513.
 *Proves:* the import cannot write a tree CI's Validate job would
 refuse — the two run one validator, so they cannot disagree.
 *Cannot see:* anything about the source: every clause checks an entry

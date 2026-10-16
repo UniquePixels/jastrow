@@ -148,13 +148,64 @@
 						{
 							"gloss": " (v. Kal, e) <i>to succeed, profit</i>. ",
 							"units": [
-								"<cite ref=\"Sanhedrin 90b:16\">Snh. 90ᵇ</cite> <he>הֶעֱלֵיתֶם בידכם</he>, v. <cite ref=\"J00485\"><he>יָעַל</he></cite>.—<i>f</i>) <he>ה׳ חן</he> <i>to effect grace; to find favor</i>. ",
-								"<cite ref=\"Bereishit Rabbah 9\">Gen. R. s. 9</cite> <he>הלואי תהא מַעֲלַת חן לפני</he> … <he>כשם שהֶעֱלִית וכ׳</he> Oh, that thou wouldst find favor before me (please me) at all times, as thou dost now; a. e.—<i>g</i>) <he>ה׳ חֵמָה</he> [<i>to let anger rise</i>,] <i>to become angry</i>. ",
-								"<cite ref=\"Bereishit Rabbah 93:6\">Gen. R. s. 93</cite> <he>בשעה שהיה יהודה מעלה ח׳ וכ׳</he> whenever Judah got angry, the hair &c.; a. e.—<i>h</i>) (with or sub. <cite ref=\"A03028\"><he>ארוכה</he></cite>) <i>to heal up</i>. ",
+								"<cite ref=\"Sanhedrin 90b:16\">Snh. 90ᵇ</cite> <he>הֶעֱלֵיתֶם בידכם</he>, v. <cite ref=\"J00485\"><he>יָעַל</he></cite>.—"
+							],
+							"label": "d"
+						},
+						{
+							"gloss": " <he>ה׳ חן</he> <i>to effect grace; to find favor</i>. ",
+							"units": [
+								"<cite ref=\"Bereishit Rabbah 9\">Gen. R. s. 9</cite> <he>הלואי תהא מַעֲלַת חן לפני</he> … <he>כשם שהֶעֱלִית וכ׳</he> Oh, that thou wouldst find favor before me (please me) at all times, as thou dost now; a. e.—"
+							],
+							"label": "e",
+							"annotations": [
+								{
+									"field": "label",
+									"kind": "print-error",
+									"printed": "f",
+									"stored": "e",
+									"evidence": "print skips e) (1081a); the run determines it; ruling 10-13",
+									"source": "P000812",
+									"date": "2026-10-13"
+								}
+							]
+						},
+						{
+							"gloss": " <he>ה׳ חֵמָה</he> [<i>to let anger rise</i>,] <i>to become angry</i>. ",
+							"units": [
+								"<cite ref=\"Bereishit Rabbah 93:6\">Gen. R. s. 93</cite> <he>בשעה שהיה יהודה מעלה ח׳ וכ׳</he> whenever Judah got angry, the hair &c.; a. e.—"
+							],
+							"label": "f",
+							"annotations": [
+								{
+									"field": "label",
+									"kind": "print-error",
+									"printed": "g",
+									"stored": "f",
+									"evidence": "print skips e) (1081a); the run determines it; ruling 10-13",
+									"source": "P000812",
+									"date": "2026-10-13"
+								}
+							]
+						},
+						{
+							"gloss": " (with or sub. <cite ref=\"A03028\"><he>ארוכה</he></cite>) <i>to heal up</i>. ",
+							"units": [
 								"<cite ref=\"Chullin 77a:1\">Ḥull. 77ᵃ</cite>, v. <cite ref=\"A03029\"><he>אֲרוּכָה</he> II</cite>. ",
 								"<cite ref=\"Mishnah Sheviit 4:6\">Shebi. IV, 6</cite> <he>לא שיַעֲלֶה</he>, v. <cite ref=\"Q02061\"><he>פָּשַׁח</he></cite>; a. fr."
 							],
-							"label": "d"
+							"label": "g",
+							"annotations": [
+								{
+									"field": "label",
+									"kind": "print-error",
+									"printed": "h",
+									"stored": "g",
+									"evidence": "print skips e) (1081a); the run determines it; ruling 10-13",
+									"source": "P000812",
+									"date": "2026-10-13"
+								}
+							]
 						}
 					]
 				}

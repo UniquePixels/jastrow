@@ -52,7 +52,7 @@ audit's predicate counts five more rows than §4's.
 | S01780's half-printed qamats | case 4: ticked in round 2, annotated `illegible` | 1 | (iv), done in PR #177 |
 | Round 2 (L46) | your ticks, applied under 10-13 | 16 questions | (iv), done in PR #177 |
 | Single-numeral cross-references whose target lacks the numeral | 222 determined retargets (case 1; the 10 above among them); 74 rows to read, in 48 worklist questions | 296 rows | (v); determined half (v-a) done in PR #178: 196 retargets |
-| P00790's Hif. run | case 2: `a b c d f g h` → `a b c d e f g` | 1 | after L59 |
+| P00790's Hif. run | case 2: `a b c d f g h` → `a b c d e f g` | 1 | after L59; done in PR #n: the `relabel` P000812, 3 annotations |
 | Past patches with no case | D00341's bracket move and G00675's disambiguator: no annotation | 3 | none |
 
 The mechanisms the data PRs lack or must confirm are collected at the
@@ -360,13 +360,13 @@ sense number.
 | hit | text | names | disposition |
 |---|---|---|---|
 | S01849 `units[2]` | `v. עָבַר Pi. 4). Y. Shek. l. c.` | P00059's second Pi. `4)` (the city limits) | case 2: `replace` `{find: "4). Y. Shek.", replace: "5). Y. Shek."}`, the shortest balanced substring holding the `4)` that occurs once (the snapshot holds `4)` once in that definition), annotated `printed: "4). Y. Shek."`, evidence `P00059's Pi. run prints 4) twice; this names the second (the city limits)`. [1408b · leaf 731](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$732/full/1400,/0/default.jpg) |
-| P00791 `stems[0].senses[0]` | `preced.` then ` Hif. c) to balance` | P00790's Hif. `c)` | none: `c` keeps its letter under the L59 relabel (`a b c d` stay) |
+| P00791 `stems[0].senses[0]` | `preced.` then ` Hif. c) to balance` | P00790's Hif. `c)` | none: `c` keeps its letter under the L59 relabel (`a b c d` stay); confirmed in PR #n, P00791's file unchanged |
 
 ## 4. P00790, U01512 and S01780
 
 | rid | the data now | case | patch | scan |
 |---|---|---|---|---|
-| P00790 | Hif. `a b c d`, with `f) g) h)` left in `d`'s text (L55) | 2 | waits on L59's lettered relabel: `a b c d f g h` → `a b c d e f g`, one annotation per changed child label (`printed` `f`, `g`, `h`), evidence `print skips e) (1081a); the run determines it` | [1081a · leaf 404](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$405/full/1400,/0/default.jpg) |
+| P00790 | Hif. `a b c d`, with `f) g) h)` left in `d`'s text (L55) | 2 | waits on L59's lettered relabel: `a b c d f g h` → `a b c d e f g`, one annotation per changed child label (`printed` `f`, `g`, `h`), evidence `print skips e) (1081a); the run determines it`. **Done in PR #n:** the `relabel` P000812, payload `{run: [a b c d f g h], to: [a b c d e f g]}`; Hif. sense 2 has seven children `a`–`g`, and `e`, `f`, `g` carry `printed` `f`, `g`, `h`. The re-import changes P00790 alone | [1081a · leaf 404](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$405/full/1400,/0/default.jpg) |
 | U01512 | Af. `1 2 · (a 2)`: the nest of P000543 | 3 | `annotate` on the nest's `2)` child, payload `{field: 'label'}`, annotation `{kind: 'kept', printed: '2', evidence: 'print sets a) then 2): read as 1) 2) or a) b); kept (ruling 10-12; your note "2)", 2026-10-12)', date: '2026-10-14'}`. To confirm in the PR: that an `annotate` target reaches a child a `nest` made. **Done in PR #176:** P000581; the target reaches the nested child with no code change | [1599a · leaf 922](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$923/full/1400,/0/default.jpg) |
 | S01780 | `קֵץ`, `קִצ`, `ּא`, `קִי׳`: the alternate torn in two | 4 | ticked in round 2 (working copy): `קִצָּא`, with your note that only part of the qamats printed. Two chained reviewed `reform`s, because a reform that changes the number of forms cannot carry an annotation: first rejoin `קִצ` + `ּא` (case 1, no annotation), then respell `קִצּא` → `קִצָּא` with `{kind: 'illegible', printed: 'קִצּא', evidence: 'only the vertical stroke of the qamats printed; S01120 spells the word קִצָּא', date: …}`. **Done in PR #177:** P000588 rejoins the form (no annotation), P000589 respells it with the `illegible` annotation, its evidence quoting your note; the two reforms chain in corpus order with no code change | [1404a · leaf 727](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$728/full/1400,/0/default.jpg) |
 
@@ -789,7 +789,12 @@ The three unclassified:
    to the `ch.` line under ruling `10-15 ch. cross-reference`. The
    determined half is complete. The 74-row worklist half waits on the
    maintainer's ticks.
-6. **P00790**, after L59.
+6. **P00790**, after L59. Done in PR #n: L59's mechanism is the new
+   reviewed op `relabel`, and P000812 relabels the Hif. run
+   (`docs/correction-audit.md` §4;
+   [`../admin/pipeline/patch/records/tranches/lettered-relabel-2026-10-16/`](../admin/pipeline/patch/records/tranches/lettered-relabel-2026-10-16/README.md)).
+   Blessing: 98 annotations written (96 print-error, 1 kept, 1
+   illegible).
 
 **Mechanisms the data PRs lack or must confirm:**
 
@@ -804,6 +809,10 @@ The three unclassified:
   waiting after PR #178. Built in PR #179: `replace` and `annotate`
   take a `language_reference:<anchor>` target, and the 10 are
   applied; the 3 worklist cites can use it once ticked.
+- **No op relabels a lettered run** (L59): P00790's children are made
+  at trace time, after every patch, and patch markers are digits
+  only. Built in PR #n: `relabel`, a reviewed op that declares print's
+  run and the children's labels on the sense, and P000812 applies it.
 - **Removing an implied I needs no op**: retiring the reform restores
   the bare form. The PR's dry import should show only the numeral, the
   name and the X10 row moving.
