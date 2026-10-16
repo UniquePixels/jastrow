@@ -254,10 +254,35 @@ describe('declaredRunReason (L59 relabel)', () => {
 		expect(declaredRunReason(text, run)).toBe(reason);
 		expect(splitLettered(text, run)).toBeNull();
 	});
+});
 
-	it('refuses a text whose paren state is unclear', () => {
-		expect(declaredRunReason(') a) one b) two', ['a', 'b'])).toBe(
-			'the paren state of the text is unclear, so its markers cannot be counted',
+// L57: J00403's run, after which print sets a `)` that closes nothing.
+// The plain rule cannot count markers in such a text and leaves it
+// whole (B9); a declared run is a person's reading of the print, so it
+// is checked against every candidate outside anchors instead, each
+// still exactly once.
+describe('a declared run where the paren state is unclear (L57)', () => {
+	const STRAY =
+		'sea.—Esp. a) one.—b) two (only הים).—c) three.—d) four; Men. 64ᵇ, v. זִיבָה).';
+
+	it('splits at a declared run where the paren state is unclear', () => {
+		expect(splitLettered(STRAY)).toBeNull();
+		const parts = splitLettered(STRAY, ['a', 'b', 'c', 'd']);
+		expect(parts?.items.map((i) => i.text)).toEqual([
+			' one.—',
+			' two (only הים).—',
+			' three.—',
+			' four; Men. 64ᵇ, v. זִיבָה).',
+		]);
+		expect(parts === null ? null : joinLettered(parts)).toBe(STRAY);
+	});
+
+	it('refuses a declared run that is not every candidate where the paren state is unclear', () => {
+		expect(declaredRunReason(STRAY, ['a', 'b', 'c'])).toBe(
+			'the declared run a b c is not the candidate markers of the text (its paren state is unclear), a b c d',
+		);
+		expect(declaredRunReason(') a) one (see b) two', ['a'])).toBe(
+			'the declared run a is not the candidate markers of the text (its paren state is unclear), a b',
 		);
 	});
 });

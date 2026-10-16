@@ -12,7 +12,9 @@
  * A reviewed `relabel` patch (review ledger L59) may instead declare
  * the run print set, gap included (`declaredMarks`): the split then
  * takes exactly those counted markers, in that order, and the build
- * gives the children the patch's labels (`body/trace.ts`).
+ * gives the children the patch's labels (`body/trace.ts`). Where the
+ * paren state is unclear, a declared run is held to every candidate
+ * outside anchors instead (L57).
  *
  * That is the deliberate under-split failure mode (decision B5/B9):
  * an unsplit block is still readable, a wrongly split one is not.
@@ -264,17 +266,29 @@ function ascendingRun(marks: readonly Mark[]): Mark[] {
  * counted marker must be the declared run's, in its order: a marker
  * the run leaves out, or a letter it names that the text lacks, would
  * leave the split a guess. That covers "each marker exactly once",
- * since the payload validator refuses a run that repeats a letter. */
+ * since the payload validator refuses a run that repeats a letter.
+ *
+ * Where the paren state is unclear (`parenFiltered`: J00403's `)`,
+ * which print sets and which closes nothing, L57), the plain rule
+ * counts nothing and leaves the text whole. A declared run is a
+ * person's reading of the print, so it is held instead to every
+ * candidate outside anchors, each still exactly once: a paren's own
+ * letter (`(see b)`) is a candidate too, and a run that leaves it out
+ * is refused, so the fallback can only split where no candidate is in
+ * doubt. */
 function declaredMarks(text: string, run: readonly string[]): Mark[] | string {
-	const marks = findMarks(text);
-	if (marks === null) {
-		return 'the paren state of the text is unclear, so its markers cannot be counted';
-	}
-	const counted = marks.map((mark) => mark.letter).join(' ');
+	const counted = findMarks(text);
+	const marks =
+		counted ??
+		candidateMarks(text).filter((mark) => !insideAnchor(text, mark.index));
+	const letters = marks.map((mark) => mark.letter).join(' ');
 	const declared = run.join(' ');
-	return counted === declared
-		? marks
-		: `the declared run ${declared} is not the counted markers of the text, ${counted}`;
+	if (letters === declared) {
+		return marks;
+	}
+	return counted === null
+		? `the declared run ${declared} is not the candidate markers of the text (its paren state is unclear), ${letters}`
+		: `the declared run ${declared} is not the counted markers of the text, ${letters}`;
 }
 
 /** Why `text` does not split at the declared `run`, or undefined when

@@ -145,7 +145,7 @@ wrote it; the loader stamps `author`):
 | `reform` `forms` | case 2 (a misspelling Jastrow's own cross-reference spells right); case 4 | form `text` |
 | `replace` | case 2: a cross-reference retarget (08-15), a determined misprint | sense `gloss` / `units[n]`; on a `language_reference:` target, `senses[0]`'s `gloss` |
 | `annotate` (new; changes nothing, `expected_before` pins the field) | case 3 | any |
-| `relabel` (L59; built in PR #180) | case 2: a lettered run print set with a gap (P00790's Hif. `f) g) h)` → `e f g`) | each child's `label` that departs from print's letter, one annotation each |
+| `relabel` (L59; built in PR #180) | case 2: a lettered run print set with a gap (P00790's Hif. `f) g) h)` → `e f g`) | each child's `label` that departs from print's letter, one annotation each; none when `to` is `run` (L57) |
 | `split`, `join`, `nest`, `move`, `delete`, `unref` | never: they cut, rejoin, reorder or remove what Sefaria mis-segmented or duplicated | — |
 
 `annotate` exists so a `kept` note fails loudly when upstream rewrites
@@ -194,7 +194,12 @@ path (`body/trace.ts`), and `finishEntry` writes `field` and `stored`
   the patch's own `printed` must be `''`, since one string cannot
   state three letters, and its `kind` must be `print-error`. `stored`
   is the child's built label. P00790's P000812 writes three:
-  `printed` `f`, `g`, `h`, `stored` `e`, `f`, `g`.
+  `printed` `f`, `g`, `h`, `stored` `e`, `f`, `g`. A relabel whose
+  `to` is its `run` (review ledger L57, J00403's P000820) changes no
+  label: it declares a run print sets whole that the plain lettered
+  rule leaves unsplit, so it owes no annotation and the validator
+  refuses one. It is still reviewed only: `corpusPreflight` refuses a
+  relabel on an agent patch, annotated or not.
 
 Gate 10 then holds both sides: every annotation names a patch that
 applied to its rid carrying one, and every such patch wrote exactly

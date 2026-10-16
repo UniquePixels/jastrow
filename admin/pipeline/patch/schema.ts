@@ -82,6 +82,12 @@ const LANGUAGE_REFERENCE_OPS: ReadonlySet<unknown> = new Set([
 /** The closed sense-marker grammar (`N)` / `—N)`) — the only tokens a
  * patch may synthesize (spec §4.3, no-new-text validator). */
 const CLOSED_MARKER = /^—?\d{1,2}\)$/u;
+/** A `split`'s marker: the closed grammar, or print's starred sense
+ * marker (`—*2)`, ruling 10-04 sense star) that upstream left inside a
+ * definition (review ledger L36). A split synthesizes nothing: the
+ * token is cut from the text, exactly once, and becomes the sibling's
+ * number, which `body/labels.ts` reads with its star. */
+const SPLIT_MARKER = /^—?\*?\d{1,2}\)$/u;
 /** A list item's marker as `nest` carries it: the closed grammar,
  * print's star, or a single lowercase letter — the shapes
  * `body/labels.ts` parses into a label, so every child a nest makes
@@ -96,6 +102,17 @@ const RUN_LETTER = /^[a-z]$/u;
  * punctuation hard against the `)` (`preced. 2), being`, `Is. XL,
  * 1); a. fr.`). Any other text gets the one space back. */
 const TIGHT_AFTER_MARKER: RegExp = /^[\s,.:;)\]]/u;
+/** The last character of the text a `join` folds a marker after,
+ * where print sets the numeral tight against it (review ledger L61):
+ * a space already there, a dash or an open paren or bracket, or a
+ * digit, where the numeral ends a page, column or verse number and
+ * its `)` closes the paren (`P. Sm. 4012)`, U01674; `Gen. IV, 22)`,
+ * S01040). Anything else gets print's space back: `(v. אָנַךְ 2)`,
+ * `<i>Af.</i> 1)`. */
+const TIGHT_BEFORE_MARKER: RegExp = /[\s\d—([]$/u;
+/** A markup tag, skipped when a join reads the text before a marker:
+ * what decides the space is what the reader sees, not an href. */
+const MARKUP_TAG: RegExp = /<[^<>]*>/gu;
 
 /** How sure the patch's author was, as the record states it. It is
  * provenance, not permission: nothing in the apply path branches on
@@ -213,9 +230,12 @@ interface NestPayload {
  * (`SourceSense.relabel`), after checking that the sense's counted
  * markers read exactly `run`. The build splits at exactly those
  * markers, labels each child from `to`, and annotates each child whose
- * label departs from print's letter. Reviewed only, and always
- * annotated (`print-error`, `printed: ''`: the import reads each
- * changed label's printed letter from `run`). */
+ * label departs from print's letter. Reviewed only, and annotated
+ * whenever it changes a label (`print-error`, `printed: ''`: the
+ * import reads each changed label's printed letter from `run`). A run
+ * print sets whole that the plain rule leaves unsplit (review ledger
+ * L57, J00403) is declared with `to` equal to `run`: it only forces
+ * the split, and carries no annotation. */
 interface RelabelPayload {
 	run: string[];
 	to: string[];
@@ -700,9 +720,10 @@ function runLetters(value: unknown): value is string[] {
 }
 
 /** `relabel`: `run` and `to` letter arrays of one length, at least
- * two; `run` with no letter twice, since each must be found once; `to`
- * the consecutive run from `a`; and the two different, or nothing is
- * relabelled. */
+ * two; `run` with no letter twice, since each must be found once; and
+ * `to` the consecutive run from `a`. The two may be the same: a run
+ * print sets whole that the plain rule cannot split (review ledger
+ * L57, J00403) is declared to force the split, and relabels nothing. */
 function relabelPayloadReasons(p: Record<string, unknown>): string[] {
 	const { run, to } = p;
 	if (!(runLetters(run) && runLetters(to))) {
@@ -725,11 +746,6 @@ function relabelPayloadReasons(p: Record<string, unknown>): string[] {
 	}
 	if (to.some((letter, i) => letter !== String.fromCodePoint(97 + i))) {
 		reasons.push('relabel payload.to must run a, b, c… from a');
-	}
-	if (run.join('') === to.join('')) {
-		reasons.push(
-			'relabel payload.run and payload.to are the same: it changes no label',
-		);
 	}
 	return reasons;
 }
@@ -756,11 +772,12 @@ function retagPayloadReasons(p: Record<string, unknown>): string[] {
 	return [];
 }
 
-/** `split`: the marker must be a closed-grammar marker. */
+/** `split`: the marker must be a closed-grammar marker, starred or
+ * not (`SPLIT_MARKER`). */
 function splitPayloadReasons(p: Record<string, unknown>): string[] {
-	if (typeof p['marker'] !== 'string' || !CLOSED_MARKER.test(p['marker'])) {
+	if (typeof p['marker'] !== 'string' || !SPLIT_MARKER.test(p['marker'])) {
 		return [
-			'split payload.marker must match the closed marker grammar (N) / —N))',
+			'split payload.marker must match the closed marker grammar (N) / —N)), starred or not',
 		];
 	}
 	return [];
@@ -1145,12 +1162,26 @@ const ANNOTATED_OPS: ReadonlySet<string> = new Set([
 	'retag',
 ]);
 /** The ops that never stand without an annotation, and why: `annotate`
- * is one, and every label a `relabel` changes departs from print. */
+ * is one. A `relabel` needs one exactly when it changes a label
+ * (`relabelOwesAnnotation`). */
 const ANNOTATION_REQUIRED: Readonly<Record<string, string>> = {
 	annotate: 'annotate needs an annotation',
-	relabel:
-		'relabel needs an annotation: every label it changes departs from print',
 };
+
+/** Whether a `relabel` record changes any label, so owes an
+ * annotation: every label it changes departs from print, and one that
+ * changes none (`run` equal to `to`, L57) departs from nothing. A
+ * payload the validator refuses counts as changing, so the record is
+ * not also refused for its annotation. */
+function relabelOwesAnnotation(payload: Record<string, unknown>): boolean {
+	const { run, to } = payload;
+	return !(
+		Array.isArray(run) &&
+		Array.isArray(to) &&
+		run.length === to.length &&
+		run.every((letter, i) => letter === to[i])
+	);
+}
 /** The keys a patch's `annotation` holds; the import adds the rest. */
 const ANNOTATION_KEYS: ReadonlySet<string> = new Set([
 	'date',
@@ -1205,6 +1236,12 @@ function annotationShapeReasons(annotation: unknown): string[] {
 function annotatedOpReasons(raw: Record<string, unknown>): string[] {
 	const { annotation, op } = raw;
 	const payload = (raw['payload'] ?? {}) as Record<string, unknown>;
+	if (op === 'relabel') {
+		return relabelAnnotationReasons(
+			annotation as Record<string, unknown> | undefined,
+			relabelOwesAnnotation(payload),
+		);
+	}
 	if (annotation === undefined) {
 		const required = ANNOTATION_REQUIRED[op as string];
 		return required === undefined ? [] : [required];
@@ -1215,9 +1252,6 @@ function annotatedOpReasons(raw: Record<string, unknown>): string[] {
 		];
 	}
 	const kind = (annotation as Record<string, unknown>)['kind'];
-	if (op === 'relabel') {
-		return relabelAnnotationReasons(annotation as Record<string, unknown>);
-	}
 	if (op === 'annotate' && kind !== 'kept') {
 		return [
 			'annotate carries only a kept annotation: a correction belongs on the op that makes it',
@@ -1237,12 +1271,26 @@ function annotatedOpReasons(raw: Record<string, unknown>): string[] {
 	return [];
 }
 
-/** A `relabel`'s annotation: a correction (`print-error`), and no
+/** A `relabel`'s annotation: present exactly when the relabel changes
+ * a label (`owes`); then a correction (`print-error`), and no
  * `printed` of its own, since each changed child's printed letter is
  * the run's (`RelabelPayload`) and one string could not state three. */
 function relabelAnnotationReasons(
-	annotation: Record<string, unknown>,
+	annotation: Record<string, unknown> | undefined,
+	owes: boolean,
 ): string[] {
+	if (annotation === undefined) {
+		return owes
+			? [
+					'relabel needs an annotation: every label it changes departs from print',
+				]
+			: [];
+	}
+	if (!owes) {
+		return [
+			'a relabel that changes no label carries no annotation: it departs from no print',
+		];
+	}
 	const reasons: string[] = [];
 	if (annotation['kind'] !== 'print-error') {
 		reasons.push(
@@ -1815,7 +1863,7 @@ function applyRelabel(entry: SourceEntry, patch: RelabelPatch): SourceEntry {
 	if (sense.relabel !== undefined) {
 		throw new PatchApplyError(
 			patch.id,
-			`relabel target already carries a declared run (${sense.relabel.note.source})`,
+			`relabel target already carries a declared run (${sense.relabel.source})`,
 		);
 	}
 	const { run, to } = patch.payload;
@@ -1824,8 +1872,11 @@ function applyRelabel(entry: SourceEntry, patch: RelabelPatch): SourceEntry {
 		throw new PatchApplyError(patch.id, reason);
 	}
 	sense.relabel = {
-		note: annotationNote(patch, patch.annotation as PatchAnnotation),
+		...(patch.annotation === undefined
+			? {}
+			: { note: annotationNote(patch, patch.annotation) }),
 		run: [...run],
+		source: patch.id,
 		to: [...to],
 	};
 	return copy;
@@ -1960,8 +2011,9 @@ function applyJoin(
 			'preceding sibling has child senses; the joined text would land after them',
 		);
 	} else {
+		const before = previous.definition ?? '';
 		previous.definition =
-			(previous.definition ?? '') + foldMarker(token, definition);
+			before + spaceBefore(before, token) + foldMarker(token, definition);
 		position.siblings.splice(position.index, 1);
 	}
 }
@@ -1972,6 +2024,19 @@ function applyJoin(
  * already starts with whitespace or with punctuation print sets hard
  * against the `)`. Only that one space: the space print sets BEFORE
  * the numeral is not the fold's to restore. */
+/** The space print sets before a marker a `join` folds back after
+ * `before`, or none (`TIGHT_BEFORE_MARKER`, read on the visible text).
+ * A dashed token (`—3)`) is set tight by print, and an empty `before`
+ * leaves nothing to space from. */
+function spaceBefore(before: string, token: string): '' | ' ' {
+	const visible = before.replace(MARKUP_TAG, '');
+	return visible === '' ||
+		token.startsWith('—') ||
+		TIGHT_BEFORE_MARKER.test(visible)
+		? ''
+		: ' ';
+}
+
 function foldMarker(token: string, definition: string): string {
 	const gap =
 		definition === '' || TIGHT_AFTER_MARKER.test(definition) ? '' : ' ';

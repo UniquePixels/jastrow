@@ -182,6 +182,9 @@ describe('split', () => {
 		expect(() =>
 			patchFor(def, '1)', { op: 'split', payload: { marker: 'l)' } }),
 		).toThrow('closed marker grammar');
+		expect(() =>
+			patchFor(def, '1)', { op: 'split', payload: { marker: '—*a)' } }),
+		).toThrow('closed marker grammar');
 	});
 
 	it('fails loudly when the marker is not exactly once in the text', () => {
@@ -197,6 +200,31 @@ describe('split', () => {
 			payload: { marker: '—2)' },
 		});
 		expect(() => applyPatch(entry, patch)).toThrow('occurs 2 times');
+	});
+});
+
+describe('split at a starred marker', () => {
+	// L36: print's starred sense marker (`—*2)`, ruling 10-04 sense
+	// star) left inside a definition. The star is cut out of the text
+	// with the numeral, never added: the sibling's number is the token
+	// as the text held it, and the label the build reads off it keeps
+	// the star as `reconstructed`.
+	it('splits at a starred marker, the star kept on the token', () => {
+		const starred = 'same. Targ. Y. Gen. XXX, 37, v. next w.—*2) = brick.';
+		const entry: SourceEntry = {
+			content: { senses: [{ definition: starred, number: '1)' }] },
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const patch = patchFor(starred, '1)', {
+			op: 'split',
+			payload: { marker: '—*2)' },
+		});
+		const senses = applyPatch(entry, patch).content.senses;
+		expect(senses).toEqual([
+			{ definition: 'same. Targ. Y. Gen. XXX, 37, v. next w.', number: '1)' },
+			{ definition: ' = brick.', number: '—*2)' },
+		]);
 	});
 });
 
@@ -224,7 +252,7 @@ describe('join', () => {
 		const patch = patchFor(' Y) night', '2)', { op: 'join', payload: {} });
 		const after = applyPatch(entry, patch);
 		expect(after.content.senses).toEqual([
-			{ definition: 'see (v. X2) Y) night', number: '1)' },
+			{ definition: 'see (v. X 2) Y) night', number: '1)' },
 		]);
 	});
 
@@ -334,7 +362,7 @@ describe('join', () => {
 			rid: 'T00001',
 		};
 		expect(applyPatch(entry, join).content.senses[0]?.senses).toEqual([
-			{ definition: 'day2) night', number: 'a)' },
+			{ definition: 'day 2) night', number: 'a)' },
 		]);
 	});
 
@@ -376,13 +404,52 @@ describe('join', () => {
 		]);
 	});
 
+	// L61: Sefaria minted the sense out of a cross-reference's `(v. X 2)`
+	// and lost print's space BEFORE the numeral too. The join sets it
+	// back unless print sets the numeral tight: after whitespace, a
+	// dash, an open paren or bracket, or a digit, where the numeral is
+	// the end of a page, column or verse number and the `)` closes the
+	// paren (`P. Sm. 4012)`, U01674; `Gen. IV, 22)`, S01040, whose last
+	// digit is outside the link). The visible text decides, not markup.
+	it.each([
+		[
+			'after a Hebrew word in a link',
+			'v. <a href="/J">אָנַךְ</a>',
+			'2)',
+			'v. <a href="/J">אָנַךְ</a> 2) x',
+		],
+		['after a stem in italics', 'I, <i>Af.</i>', '1)', 'I, <i>Af.</i> 1) x'],
+		['not after a page number', 'P. Sm. 401', '2)', 'P. Sm. 4012) x'],
+		[
+			'not after a verse number in a link',
+			'<a href="/Genesis.4.2">Gen. IV, 2</a>',
+			'2)',
+			'<a href="/Genesis.4.2">Gen. IV, 2</a>2) x',
+		],
+		['not after a space', '(v. X, ', '2)', '(v. X, 2) x'],
+		['not after an open paren', 'see (', '2)', 'see (2) x'],
+		['not before a dashed token', 'a. fr.', '—3)', 'a. fr.—3) x'],
+	] as const)(
+		'restores the space before the numeral %s',
+		(_, previous, token, joined) => {
+			const entry = joinEntry(
+				{ definition: previous },
+				{ number: token, definition: 'x' },
+			);
+			const patch = patchFor('x', token, { op: 'join', payload: {} });
+			expect(applyPatch(entry, patch).content.senses).toEqual([
+				{ definition: joined, number: '1)' },
+			]);
+		},
+	);
+
 	it.each([[', <i>being raised</i>'], [') night'], ['; a. fr.']])(
 		'inserts no space before closing punctuation: %p',
 		(text) => {
 			const entry = joinEntry({}, { definition: text });
 			const patch = patchFor(text, '2)', { op: 'join', payload: {} });
 			expect(applyPatch(entry, patch).content.senses).toEqual([
-				{ definition: `day2)${text}`, number: '1)' },
+				{ definition: `day 2)${text}`, number: '1)' },
 			]);
 		},
 	);
@@ -596,6 +663,7 @@ describe('relabel', () => {
 			relabel: {
 				note: { ...NOTE, source: 'P000001' },
 				run: RUN,
+				source: 'P000001',
 				to: TO,
 			},
 		});
@@ -638,9 +706,9 @@ describe('relabel', () => {
 			'relabel payload.run must not repeat a letter',
 		],
 		[
-			'a run that changes no label',
+			'an annotation on a run that changes no label',
 			{ payload: { run: TO, to: TO } },
-			'relabel payload.run and payload.to are the same: it changes no label',
+			'a relabel that changes no label carries no annotation: it departs from no print',
 		],
 		[
 			'no annotation',
@@ -659,6 +727,32 @@ describe('relabel', () => {
 		],
 	] as const)('refuses %s at parse', (_, over, reason) => {
 		expect(() => relabel(over)).toThrow(reason);
+	});
+
+	// L57: a run print sets whole that the plain rule leaves unsplit
+	// (J00403's, after print's own stray `)`). Declared as print reads
+	// it, `run` equal to `to`, it only forces the split: no label
+	// departs from print, so it owes no annotation and carries none.
+	it('accepts a run that changes no label, unannotated: it only forces the split', () => {
+		const whole = 'lead.—a) one.—b) two.)';
+		const entry: SourceEntry = {
+			content: { senses: [{ definition: whole }] },
+			headword: 'x',
+			rid: 'T00001',
+		};
+		const patch: SemanticPatch = {
+			...patchFor(whole, '', {
+				op: 'relabel',
+				payload: { run: ['a', 'b'], to: ['a', 'b'] },
+			}),
+			author: 'human',
+		};
+		expect(patch.annotation).toBeUndefined();
+		expect(applyPatch(entry, patch).content.senses[0]?.relabel).toEqual({
+			run: ['a', 'b'],
+			source: 'P000001',
+			to: ['a', 'b'],
+		});
 	});
 
 	it('refuses a forms: target', () => {

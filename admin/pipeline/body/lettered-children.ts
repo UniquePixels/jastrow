@@ -36,7 +36,7 @@ function letteredSplit(
 		const reason =
 			declaredRunReason(text, relabel.run) ??
 			'the declared run does not split the text';
-		throw new Error(`${relabel.note.source}: ${reason}`);
+		throw new Error(`${relabel.source}: ${reason}`);
 	}
 	return parts;
 }
@@ -57,12 +57,13 @@ function letteredChildren(
 	return parts.items.map((item, i) => {
 		const label = relabel?.to[i] ?? item.letter;
 		const child = letteredChild(item.text, label);
-		if (relabel === undefined || label === item.letter) {
+		const note = relabel?.note;
+		if (note === undefined || label === item.letter) {
 			return child;
 		}
 		return {
 			...child,
-			annotations: [{ ...relabel.note, field: 'label', printed: item.letter }],
+			annotations: [{ ...note, field: 'label', printed: item.letter }],
 		};
 	});
 }

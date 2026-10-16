@@ -106,20 +106,27 @@ describe('validateNoNewText', () => {
 	});
 
 	// [name, sense 1 text, sense 2 text, sense 1 text after the join]:
-	// a join is the reverse of a split, and the one space it restores
-	// after the marker is the only byte it may add.
+	// a join is the reverse of a split, and the spaces it restores
+	// around the marker, one before (L61) and one after (L58), are the
+	// only bytes it may add.
 	const JOINS: [string, string, string, string][] = [
 		[
 			'a byte-conserving join',
-			'see (v. X',
+			'see (P. Sm. 401',
 			' Y) night',
-			'see (v. X2) Y) night',
+			'see (P. Sm. 4012) Y) night',
 		],
 		[
 			'the one space a join restores after the marker',
 			'see (v. X, Pi. ',
 			'night',
 			'see (v. X, Pi. 2) night',
+		],
+		[
+			'the two spaces a join restores around the marker',
+			'see (v. X',
+			'night',
+			'see (v. X 2) night',
 		],
 	];
 	for (const [name, first, second, joined] of JOINS) {

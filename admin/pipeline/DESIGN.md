@@ -299,7 +299,10 @@ direction:
   reviewed `relabel` patch declares it (§5 "Patch ops", review ledger
   L59): the split then takes exactly the declared markers, which must
   be every counted marker of the text in order, and the children take
-  the patch's labels (`body/lettered-children.ts`).
+  the patch's labels (`body/lettered-children.ts`). In a text whose
+  paren state is unclear a declared run is held to every candidate
+  outside anchors instead, each exactly once (L57: J00403's run, after
+  print's own stray `)`, declared with `to` equal to `run`).
 - **Form sections.** `Pl.`, `Part. pass.`, `Fem.`, `Denom.`, `Du.`
   split out of their host sense into a sibling with restarted child
   senses, after the lettered split (`body/form-sections.ts`). Its
@@ -611,8 +614,8 @@ The op grammar is `delete`, `join`, `move`, `nest`, `replace`,
 
 | Op | Target | What it does | `annotation` |
 |---|---|---|---|
-| `split` | `sense[…]` | cuts an in-text `—N)` run out as a sibling | never |
-| `join` | `sense[…]` | folds a sense back into the text it was cut from | never |
+| `split` | `sense[…]` | cuts an in-text `—N)` run out as a sibling; print's star rides on the token (`—*2)`, L36) | never |
+| `join` | `sense[…]` | folds a sense back into the text it was cut from, with print's space before the numeral (L61) and after the `)` (L58) | never |
 | `nest` | `sense[…]` | moves a restarted list under a new unlabelled sibling | never |
 | `move` | `sense[…]` | moves an exact segment beside an anchor | never |
 | `delete` | `sense[…]` | removes a segment or a whole sense | never |
@@ -621,7 +624,7 @@ The op grammar is `delete`, `join`, `move`, `nest`, `replace`,
 | `replace` | `sense[…]` or `language_reference:` | swaps one exact substring | sense `gloss` / `units[n]`; on `language_reference:`, `senses[0]`'s `gloss` |
 | `reform` | `forms:` | rewrites the headword line | form `homograph` (one `homographs` item) or `text` (the one form respelled) |
 | `annotate` | `sense[…]`, `forms:` or `language_reference:` | nothing: pins `expected_before` and records print's reading as kept | the field `payload.field` names (`gloss` only on `language_reference:`); `kept` only |
-| `relabel` | `sense[…]` | no text: declares the lettered run print set, gap included, and the labels its children take | each child's `label` that `to` changes, one annotation each; `print-error` only, always |
+| `relabel` | `sense[…]` | no text: declares the lettered run print set, gap included, and the labels its children take | each child's `label` that `to` changes, one annotation each; `print-error` only; none when `to` is `run` (L57) |
 
 **`language_reference:<anchor>`** (review ledger L50) addresses the
 etymology paren Sefaria keeps in its own field (`(b. h.; X I)`, `ch. =
@@ -667,7 +670,9 @@ one op that makes a child. Where a form-section marker heads the list,
 with a gap, which the plain rule cannot split past (§2 "Lettered
 items"). Its payload is `{run, to}`: `run` print's letters in the
 order the text holds them, `to` the labels the children take, the
-consecutive run from `a`, as long as `run`, and different from it.
+consecutive run from `a`, as long as `run`. The two may be the same
+(L57): a run print sets whole that the plain rule leaves unsplit, as
+J00403's after print's stray `)`, is declared only to force the split.
 Lettered children are made by the build, after every patch, so the op
 edits no text: the apply checks that the target's counted markers read
 exactly `run` (`declaredRunReason`, `body/lettered.ts`) and leaves the
@@ -677,15 +682,18 @@ each child whose label departs from print's letter a `label` draft
 with that letter as `printed` (`body/lettered-children.ts`); a run the
 text no longer holds there is thrown, never under-split. Apply refuses
 a stem header, a target with children (another patch's), and one that
-already carries a run. Reviewed and annotated always (`print-error`,
-`printed: ''`), so an agent relabel is refused at preflight. The
+already carries a run. Reviewed only, and annotated whenever it
+changes a label (`print-error`, `printed: ''`); one that changes none
+carries no annotation. `corpusPreflight` refuses a relabel on an
+agent patch either way. The
 no-new-text pool is byte-identical, since a label is not text; the
 target still resolves after apply, as an `annotate`'s does, and the
 post-apply assertion asks for the draft instead. Drift calls a moved
 target `upstream-changed`: no source sense can hold the labels it
 gives. A `split` that inserts the gap letter would be the wrong tool:
 it cuts a sibling from source text, and the children are not source
-senses at all. P000812 is the one record (P00790).
+senses at all. P000812 (P00790) and P000820 (J00403, no label
+changed) are the records.
 
 `reform` replaces the headword line, with
 an optional `display` and an optional `gloss`; a `gloss` adds the
