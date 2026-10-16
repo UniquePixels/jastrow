@@ -271,7 +271,8 @@ sizes the audit [L64].
 - [ ] `continuation-marker-em-dash-loss` is stale in the catalogue
       since ruling 10-04 sense star [L54]
 - [x] P00790's Hif. `f)`–`h)` stay in `d`: print skips `e)` [L55]
-      (ruled 10-10 print lettering gap; the repair is L59)
+      (ruled 10-10 print lettering gap; the repair is L59; since
+      PR #180 they are children `e f g`, annotated with print's letter)
 - [x] Q00140's lettered run takes `c)` from the plural's sub-run [L56]
       (PR #161)
 - [ ] Three real lettered runs left whole by the paren rule [L57]
