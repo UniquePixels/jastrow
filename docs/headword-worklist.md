@@ -3,7 +3,7 @@
 ## Status
 
 **2026-10-16, found in study.** D00503 `*דֵּין` is `דֵּיו` in print
-(your scan read of 2026-10-16, 296a): an OCR nun for vav. PR #n
+(your scan read of 2026-10-16, 296a): an OCR nun for vav. PR #184
 respells it (P000821, case 1) and re-aims the four cites that spell
 `דֵּיו` from D00500 `דְּיוֹ` (ink) to it (review ledger L73). Nothing
 had flagged it; measuring that gap (L72) found 19 more headwords one
@@ -3881,7 +3881,7 @@ Recommendation: V00815 is the I and V00816 takes II (high): the hOCR reads the I
 
 **Status:** 19 entries in 17 blocks wait on your ticks. Nothing is
 written until you tick; a later data PR turns each "yes" into a
-reviewed `reform` (case 1, no annotation, as D00503's P000821 in PR #n)
+reviewed `reform` (case 1, no annotation, as D00503's P000821 in PR #184)
 and re-aims the cites whose pointing names the corrected entry.
 
 A new list, from review ledger L72: headwords one OCR letter away from

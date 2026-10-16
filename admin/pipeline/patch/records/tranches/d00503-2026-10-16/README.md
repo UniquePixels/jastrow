@@ -1,6 +1,6 @@
 # D00503 `דֵּיו`: an OCR nun for vav (2026-10-16)
 
-Review ledger L73, PR #n, under ruling `10-13 correction policy`
+Review ledger L73, PR #184, under ruling `10-13 correction policy`
 ([`docs/decisions.md`](../../../../../../docs/decisions.md) §9), case
 1: a transcription error where print is right is corrected with no
 annotation; the patch rationale is the only trace.
