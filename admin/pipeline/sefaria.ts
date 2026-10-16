@@ -61,7 +61,7 @@ async function readLeaves(): Promise<Map<string, number>> {
 /** The page lookup the scan column reads. Volume is not in the entry
  * rows, so it comes from the page's column record: page numbers run
  * on across the two volumes, so a page names one volume. An entry runs
- * at most to the page the next one (in page-index order) starts on. */
+ * at most to the page the next rid starts on. */
 async function readPages(): Promise<PageLookup> {
 	const leaves = await readLeaves();
 	const volumeOf = new Map(
@@ -74,7 +74,10 @@ async function readPages(): Promise<PageLookup> {
 		string,
 		{ column: string; lastPage: number; page: number; volume: number }
 	>();
-	const inOrder = [...(await loadPageIndex())];
+	// Rid order is print order: an entry runs until the next rid starts.
+	const inOrder = [...(await loadPageIndex())].sort(([a], [b]) =>
+		a.localeCompare(b),
+	);
 	for (const [i, [rid, placement]] of inOrder.entries()) {
 		const volume = volumeOf.get(placement.number);
 		const next = inOrder[i + 1]?.[1].number ?? placement.number;

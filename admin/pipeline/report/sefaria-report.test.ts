@@ -187,8 +187,10 @@ describe('buildSefariaAppendix: one row per solid patch', () => {
 		expect(out.review[0]?.reason).toBe('not traceable to source');
 	});
 
-	it('names a row no longer in a re-fetched source', () => {
+	it('names a row no longer in a re-fetched source by its pin', () => {
 		const rec = record('A00001');
+		const same = buildSefariaAppendix(inputs([rec], [patch(REPLACE)]));
+		expect(same.review[0]?.reason).toBe('not traceable to source');
 		const moved = {
 			...inputs([rec], [patch(REPLACE)]),
 			snapshot: `sha256:${'b'.repeat(64)}`,
