@@ -466,6 +466,32 @@ describe('postApplyAssertions', () => {
 	});
 });
 
+describe('postApplyAssertions on a relabel', () => {
+	it('accepts a relabel, whose target still resolves, only with its run on the sense', () => {
+		// L59: a relabel edits no text, so the post-state is the run it
+		// left on the sense; an apply that left none did nothing.
+		const before: SourceEntry = {
+			...makeEntry(),
+			content: { senses: [{ definition: 'x a) one c) two' }] },
+		};
+		const relabel = {
+			...patchFor(before, 'relabel', { run: ['a', 'c'], to: ['a', 'b'] }),
+			annotation: {
+				date: '2026-10-16',
+				evidence: 'e',
+				kind: 'print-error',
+				printed: '',
+			},
+		} as SemanticPatch;
+		expect(() => postApplyAssertions(before, before, relabel)).toThrow(
+			'after apply, the relabel left no declared run on its target',
+		);
+		expect(() =>
+			postApplyAssertions(before, applyPatch(before, relabel), relabel),
+		).not.toThrow();
+	});
+});
+
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('applyCarryOver — Ruling F', () => {
 	it('absorbs a patch whose pre-state no longer resolves', () => {

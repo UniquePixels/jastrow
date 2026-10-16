@@ -9,6 +9,11 @@
  * letter (`ascendingRun`): a later run nested in the last item stays
  * in that item's text, and no marker is ever skipped (L56).
  *
+ * A reviewed `relabel` patch (review ledger L59) may instead declare
+ * the run print set, gap included (`declaredMarks`): the split then
+ * takes exactly those counted markers, in that order, and the build
+ * gives the children the patch's labels (`body/trace.ts`).
+ *
  * That is the deliberate under-split failure mode (decision B5/B9):
  * an unsplit block is still readable, a wrongly split one is not.
  * This module is the authoritative structural rule. A boolean
@@ -254,12 +259,58 @@ function ascendingRun(marks: readonly Mark[]): Mark[] {
 	return run;
 }
 
+/** The counted markers of `text` when they read exactly `run`, the
+ * run a reviewed `relabel` declares (L59), or why they do not. Every
+ * counted marker must be the declared run's, in its order: a marker
+ * the run leaves out, or a letter it names that the text lacks, would
+ * leave the split a guess. That covers "each marker exactly once",
+ * since the payload validator refuses a run that repeats a letter. */
+function declaredMarks(text: string, run: readonly string[]): Mark[] | string {
+	const marks = findMarks(text);
+	if (marks === null) {
+		return 'the paren state of the text is unclear, so its markers cannot be counted';
+	}
+	const counted = marks.map((mark) => mark.letter).join(' ');
+	const declared = run.join(' ');
+	return counted === declared
+		? marks
+		: `the declared run ${declared} is not the counted markers of the text, ${counted}`;
+}
+
+/** Why `text` does not split at the declared `run`, or undefined when
+ * it does: the check the `relabel` apply makes before it leaves the
+ * run on a sense, and the one the build would fail on. */
+function declaredRunReason(
+	text: string,
+	run: readonly string[],
+): string | undefined {
+	const marks = declaredMarks(text, run);
+	return typeof marks === 'string' ? marks : undefined;
+}
+
+/** The markers a split cuts at: the declared run's when there is one
+ * (`declaredMarks`), else the ascending run (`ascendingRun`); none
+ * when the text cannot be split. */
+function runOf(text: string, declared?: readonly string[]): Mark[] {
+	if (declared !== undefined) {
+		const marks = declaredMarks(text, declared);
+		return typeof marks === 'string' ? [] : marks;
+	}
+	const marks = findMarks(text);
+	return marks === null ? [] : ascendingRun(marks);
+}
+
 /** Split provable `a)…b)…c)…` runs into a head plus lettered items.
  * Returns null when fewer than two markers form an ascending run from
  * 'a', or when the text's paren state is unclear (`parenFiltered`) —
  * the under-split failure mode (B9): callers must leave the text
  * whole rather than guess. `joinLettered(splitLettered(text))` always
  * reconstructs `text` byte-for-byte when the result isn't null.
+ *
+ * With `declared` (a reviewed `relabel`'s run, L59), the run is
+ * exactly those markers (`declaredMarks`), and null means the text no
+ * longer holds them. Each item's `letter` is print's letter either
+ * way; the label the child takes is the build's to give.
  *
  * Lazy-span normalization: the source sometimes merges an italic gloss
  * and its marker into one `<i>…</i>` span (see `MARKER`'s shape
@@ -270,12 +321,11 @@ function ascendingRun(marks: readonly Mark[]): Mark[] {
  * re-opens `<i>` on its own item text. `joinLettered` strips exactly
  * these additions back off, keyed by each item's recorded raw marker —
  * so parts must keep marker/text/head together as split produced them. */
-function splitLettered(text: string): LetteredParts | null {
-	const marks = findMarks(text);
-	if (marks === null) {
-		return null;
-	}
-	const run = ascendingRun(marks);
+function splitLettered(
+	text: string,
+	declared?: readonly string[],
+): LetteredParts | null {
+	const run = runOf(text, declared);
 	const [first] = run;
 	if (run.length < 2 || first === undefined) {
 		return null;
@@ -327,4 +377,4 @@ function joinLettered(parts: LetteredParts): string {
 }
 
 export type { LetteredItem, LetteredParts };
-export { joinLettered, splitLettered };
+export { declaredRunReason, joinLettered, splitLettered };

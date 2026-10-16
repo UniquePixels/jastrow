@@ -327,3 +327,28 @@ describe('classifyDrift on a language_reference replace', () => {
 		);
 	});
 });
+
+// L59: a relabel changes no text, so the text it declares a run over
+// cannot be seen fixed upstream: Sefaria's dump sets no lettered child
+// senses for the build to label. A moved target is always a change.
+describe('classifyDrift on a relabel', () => {
+	const before = 'lead a) one b) two d) three.';
+	const relabel = patch({
+		expected_before: before,
+		op: 'relabel',
+		payload: { run: ['a', 'b', 'd'], to: ['a', 'b', 'c'] },
+		target: `sense[]:${contentAnchor(before)}`,
+	});
+
+	it.each<[string, string, DriftOutcome | undefined]>([
+		['undefined: the text reads as written', before, undefined],
+		[
+			'changed: the gap closed upstream',
+			'lead a) one b) two c) three.',
+			'upstream-changed',
+		],
+		['changed: the text moved', 'lead a) one b) two.', 'upstream-changed'],
+	])('is %s', (_name, definition, outcome) => {
+		expect(classifyDrift(entryWith({ definition }), relabel)).toBe(outcome);
+	});
+});

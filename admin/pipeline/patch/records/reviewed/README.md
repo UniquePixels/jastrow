@@ -53,7 +53,7 @@ writes the annotation on the form or sense it describes. Allowed on
 `retag` (the label), `replace` (the gloss or unit the replacement
 lands in; it must be balanced markup found exactly once there),
 `reform` (the one homograph its `homographs` sets, or the one form
-whose text it respells) and `annotate`. Refused on `split`, `join`,
+whose text it respells), `annotate` and `relabel`. Refused on `split`, `join`,
 `nest`, `move`, `delete` and `unref`, and on any patch outside this
 directory.
 
@@ -65,6 +65,18 @@ upstream rewrites what it describes. It carries only a `kept`
 annotation; a correction is annotated on the op that makes it. Like
 any patch, it may not share its target with another patch on the same
 rid.
+
+`relabel` (review ledger L59, PR #180) changes no text either. Its
+payload `{run, to}` declares the lettered run print set in the target
+sense's text, gap included (`run`, print's letters in the text's
+order), and the labels its children take (`to`, `a`, `b`, `c`… from
+`a`, as long as `run`). The apply refuses a `run` that is not every
+counted marker of the text in order; the build splits there and
+labels the children from `to`. It always carries a `print-error`
+annotation with `printed: ''`, and the import writes one annotation
+per child whose label changed, with print's letter as `printed`.
+P000812 (P00790's Hif. `a) b) c) d) f) g) h)` → `a b c d e f g`) is
+the first; [`../tranches/lettered-relabel-2026-10-16/`](../tranches/lettered-relabel-2026-10-16/README.md).
 
 Since PR #174 five carry one: the implied-I reforms P000343, P000344,
 P000348, P000353 and P000355, each a `print-error` on the I that
@@ -84,8 +96,9 @@ PR #176 26 more do (data PR (iii);
 numbers on 18 entries, each a `print-error` on the label; S01849's
 `replace` (P000580) moves its cross-reference `עָבַר Pi. 4)` to
 `Pi. 5)`; and U01512's `annotate` (P000581), the first, records the
-participle's `a) … 2)` as `kept`. The other data PRs follow (review
-ledger plan group 6b).
+participle's `a) … 2)` as `kept`. Since PR #180 P000812, the first
+`relabel`, writes three on P00790's Hif. sense 2 (`f g h` → `e f g`).
+The other data PRs follow (review ledger plan group 6b).
 
 On 2026-10-14 (PR #174) 9 more left: the implied-I reforms whose I no
 text of Jastrow's names (ruling 10-13 correction policy). In PR #175

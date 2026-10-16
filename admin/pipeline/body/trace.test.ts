@@ -568,3 +568,88 @@ describe('annotation drafts ride to the built sense', () => {
 		expect(body.senses.every((s) => !('annotations' in s))).toBe(true);
 	});
 });
+
+// L59: a reviewed `relabel` leaves the run print set and the labels its
+// children take on the source sense, and the build splits at exactly
+// that run, labels each child from `to` and annotates each label that
+// departs from print's letter. P00790's Hif. sense 2 is the real case.
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one fixture, three views of it (the build, the round trip, a stale run); splitting it would scatter the fixture.
+describe('a relabel: the declared run splits and relabels (L59)', () => {
+	const RUN = ['a', 'b', 'c', 'd', 'f', 'g', 'h'];
+	const TO = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+	const NOTE = {
+		date: '2026-10-16',
+		evidence: 'print skips e) (1081a); the run determines it',
+		kind: 'print-error',
+		printed: '',
+	} as const;
+
+	async function relabelled(run: string[] = RUN): Promise<SourceEntry> {
+		const entry = findFixture(await loadFixture('lettered.jsonl'), 'P00790');
+		const before = entry.content.senses[2]?.senses?.[1]?.definition ?? '';
+		const patch = parsePatch({
+			annotation: NOTE,
+			confidence: 'high',
+			defect_class: 'lettered-gap',
+			expected_before: before,
+			id: 'P000812',
+			op: 'relabel',
+			payload: { run, to: TO.slice(0, run.length) },
+			prompt_version: 'human-review',
+			rationale: 'r',
+			rid: 'P00790',
+			snapshot: `sha256:${'0'.repeat(64)}`,
+			target: `sense[—2)]:${contentAnchor(before)}`,
+		});
+		return applyPatch(entry, { ...patch, author: 'human' });
+	}
+
+	it('builds seven children labelled a to g, annotating e, f and g', async () => {
+		const entry = await relabelled();
+		const trace = buildTrace(entry);
+		const host = trace.body.stems?.[1]?.senses[1];
+		expect(trace.body.stems?.[1]?.stem).toBe('Hif.');
+		expect(host?.label).toBe('2');
+		expect(host?.annotations).toBeUndefined();
+		expect(host?.senses?.map((s) => s.label)).toEqual(TO);
+		expect(host?.senses?.map((s) => s.annotations?.[0]?.printed)).toEqual([
+			undefined,
+			undefined,
+			undefined,
+			undefined,
+			'f',
+			'g',
+			'h',
+		]);
+		expect(host?.senses?.[4]?.annotations).toEqual([
+			{ ...NOTE, field: 'label', printed: 'f', source: 'P000812' },
+		]);
+		const verdict = evaluateRoundTrip(entry, trace);
+		expect(verdict).toEqual({
+			formSection: true,
+			formSectionMarker: null,
+			lettered: true,
+			rejoin: true,
+			units: true,
+		});
+	});
+
+	it('fails the lettered round trip when a relabelled child is dropped', async () => {
+		const entry = await relabelled();
+		const trace = buildTrace(entry);
+		trace.body.stems?.[1]?.senses[1]?.senses?.pop();
+		expect(evaluateRoundTrip(entry, trace).lettered).toBe(false);
+	});
+
+	it('throws when the run a sense carries no longer splits its text', async () => {
+		const entry = await relabelled();
+		const sense = entry.content.senses[2]?.senses?.[1];
+		if (sense?.relabel === undefined) {
+			throw new Error('expected the relabel on the source sense');
+		}
+		sense.relabel = { ...sense.relabel, run: ['a', 'b', 'c', 'd', 'f', 'g'] };
+		expect(() => buildTrace(entry)).toThrow(
+			'P000812: the declared run a b c d f g is not the counted markers of the text, a b c d f g h',
+		);
+	});
+});

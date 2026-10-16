@@ -38,6 +38,7 @@ import {
 } from './manifest.ts';
 import { validateNoNewText } from './no-new-text.ts';
 import {
+	annotationsOwed,
 	applyPatch,
 	countTarget,
 	PatchApplyError,
@@ -45,6 +46,7 @@ import {
 	parsePatchLine,
 	type SemanticPatch,
 	validateCorpus,
+	walkSenses,
 } from './schema.ts';
 
 /** What `loadReviewedCorpus` finds in a reviewed patch directory: the
@@ -626,7 +628,9 @@ function reformChangedBesideForms(
  * old count, or (see `reformChangedBesideForms`) the line's layout or gloss. An
  * apply that left the entry byte-identical repaired nothing. `annotate`
  * is the exception: it repairs nothing by design, so its target must
- * resolve exactly as it did. */
+ * resolve exactly as it did. So is `relabel`, which edits no text: its
+ * target resolves as it did, and its post-state is the run it left on
+ * that sense (`leftRun`). */
 function postApplyAssertions(
 	before: SourceEntry,
 	after: SourceEntry,
@@ -651,6 +655,15 @@ function postApplyAssertions(
 		}
 		return;
 	}
+	if (patch.op === 'relabel') {
+		if (stale !== patch.expected_occurrences || !leftRun(after, patch.id)) {
+			throw new PatchApplyError(
+				patch.id,
+				'after apply, the relabel left no declared run on its target',
+			);
+		}
+		return;
+	}
 	if (
 		stale !== patch.expected_occurrences - 1 &&
 		!reformChangedBesideForms(before, after, patch)
@@ -662,12 +675,25 @@ function postApplyAssertions(
 	}
 }
 
+/** Whether exactly one sense of `entry` carries the run patch `id`
+ * declared: what a `relabel` leaves, since it changes no text. */
+function leftRun(entry: SourceEntry, id: string): boolean {
+	let found = 0;
+	for (const { sense } of walkSenses(entry)) {
+		if (sense.relabel?.note.source === id) {
+			found += 1;
+		}
+	}
+	return found === 1;
+}
+
 /** Apply one rid's patches in committed corpus order, chaining state.
  * Every problem is recorded (the failing patch is skipped, later
  * patches still try against the last good state) so a run reports
  * all drift at once. `annotated` lists, in apply order, every patch
- * that applied carrying an `annotation`: the patch side of gate 10's
- * both-ways check. Under `drift: 'outcome'` a patch whose
+ * that applied carrying an `annotation`, once per annotation it owes
+ * (`annotationsOwed`: one, or a `relabel`'s one per changed label): the
+ * patch side of gate 10's both-ways check. Under `drift: 'outcome'` a patch whose
  * precondition no longer holds is a `drifted` row instead of a
  * problem. */
 function applyEntryPatches(
@@ -695,7 +721,7 @@ function applyEntryPatches(
 		const result = tryApply(current, patch);
 		if (result.problem === undefined) {
 			current = result.entry;
-			if (patch.annotation !== undefined) {
+			for (let owed = annotationsOwed(patch); owed > 0; owed--) {
 				annotated.push(patch.id);
 			}
 		} else {

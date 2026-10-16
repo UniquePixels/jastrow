@@ -3,9 +3,9 @@
  * Semantic patch schema (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §4.3).
  *
- * One JSONL record per patch. Ten ops — `split`, `join`, `nest`,
- * `retag`, `move`, `delete`, `replace`, `reform`, `unref`, `annotate`
- * — each with its own payload shape. The seven sense ops address a sense by **marker token +
+ * One JSONL record per patch. Eleven ops — `split`, `join`, `nest`,
+ * `retag`, `move`, `delete`, `replace`, `reform`, `unref`, `annotate`,
+ * `relabel` — each with its own payload shape. The sense ops address a sense by **marker token +
  * content-hash anchor**, never by array index: an earlier structural
  * patch must not shift a later patch's target. `unref` instead
  * addresses one item of the entry's `refs[]`, by **exact value +
@@ -35,6 +35,7 @@ import { createHash } from 'node:crypto';
 import { isIsoDate } from '../../entry/annotations.ts';
 import { parseHeadwordLine } from '../../entry/headwords.ts';
 import type { Annotation } from '../../entry/types.ts';
+import { declaredRunReason } from '../body/lettered.ts';
 import type {
 	AnnotationNote,
 	SourceEntry,
@@ -87,6 +88,9 @@ const CLOSED_MARKER = /^—?\d{1,2}\)$/u;
  * has one. A nest synthesizes nothing: each token is cut from the
  * text, never added to it. */
 const NEST_MARKER = /^—?\*?(?:\d{1,2}|[a-z])\)$/u;
+/** One letter of a `relabel` run: the letter alone, as a lettered
+ * child's label stores it. */
+const RUN_LETTER = /^[a-z]$/u;
 /** Text that sits tight against a marker a `join` folds back: the
  * space print sets after `N)` is already there, or print sets
  * punctuation hard against the `)` (`preced. 2), being`, `Is. XL,
@@ -113,6 +117,7 @@ type PatchOp =
 	| 'move'
 	| 'nest'
 	| 'reform'
+	| 'relabel'
 	| 'replace'
 	| 'retag'
 	| 'split'
@@ -191,6 +196,29 @@ interface NestPayload {
 	 * first, each must occur exactly once in the text after `lead`,
 	 * and after the one before it. */
 	markers: string[];
+}
+
+/** Relabel the lettered run the target sense's text holds, where print
+ * skipped a letter (review ledger L59; ruling `10-13 correction
+ * policy`, case 2: P00790's Hif. `a) b) c) d) f) g) h)` becomes `a b c
+ * d e f g`). The plain lettered rule ends a run at the first letter out
+ * of sequence (`body/lettered.ts`, L56), so a gapped run never splits
+ * past the gap, and no other op can reach the children: they are made
+ * by the build, at trace time, after every patch.
+ *
+ * `run` is print's letters in the order the text sets them, gap
+ * included; `to` the labels the children take, `a`, `b`, `c`… from
+ * `a`, as long as `run`. The text is not touched — a label is not text
+ * — so the apply leaves the pair on the sense as a draft
+ * (`SourceSense.relabel`), after checking that the sense's counted
+ * markers read exactly `run`. The build splits at exactly those
+ * markers, labels each child from `to`, and annotates each child whose
+ * label departs from print's letter. Reviewed only, and always
+ * annotated (`print-error`, `printed: ''`: the import reads each
+ * changed label's printed letter from `run`). */
+interface RelabelPayload {
+	run: string[];
+	to: string[];
 }
 
 /** Remove one item from the entry's `refs[]` — the one op that
@@ -347,6 +375,10 @@ interface ReformPatch extends PatchBase {
 	op: 'reform';
 	payload: ReformPayload;
 }
+interface RelabelPatch extends PatchBase {
+	op: 'relabel';
+	payload: RelabelPayload;
+}
 interface UnrefPatch extends PatchBase {
 	op: 'unref';
 	payload: UnrefPayload;
@@ -364,17 +396,18 @@ type SemanticPatch =
 	| MovePatch
 	| NestPatch
 	| ReformPatch
+	| RelabelPatch
 	| ReplacePatch
 	| RetagPatch
 	| SplitPatch
 	| UnrefPatch;
 
 /** Every patch that edits a sense — all ops but `unref` and `reform`,
- * which address `refs[]` and the headword block, and `annotate`, which
- * edits nothing. */
+ * which address `refs[]` and the headword block, and `annotate` and
+ * `relabel`, which edit no text. */
 type SensePatch = Exclude<
 	SemanticPatch,
-	AnnotatePatch | ReformPatch | UnrefPatch
+	AnnotatePatch | ReformPatch | RelabelPatch | UnrefPatch
 >;
 
 /** A parsed `sense[<token>]:<anchor>` address. */
@@ -658,6 +691,49 @@ function nestPayloadReasons(p: Record<string, unknown>): string[] {
 	return reasons;
 }
 
+/** Whether `value` is an array of single letters (`RUN_LETTER`). */
+function runLetters(value: unknown): value is string[] {
+	return (
+		Array.isArray(value) &&
+		value.every((v) => typeof v === 'string' && RUN_LETTER.test(v))
+	);
+}
+
+/** `relabel`: `run` and `to` letter arrays of one length, at least
+ * two; `run` with no letter twice, since each must be found once; `to`
+ * the consecutive run from `a`; and the two different, or nothing is
+ * relabelled. */
+function relabelPayloadReasons(p: Record<string, unknown>): string[] {
+	const { run, to } = p;
+	if (!(runLetters(run) && runLetters(to))) {
+		return (['run', 'to'] as const)
+			.filter((key) => !runLetters(p[key]))
+			.map(
+				(key) =>
+					`relabel payload.${key} must be an array of single letters a–z`,
+			);
+	}
+	if (run.length < 2) {
+		return ['relabel payload.run must hold at least two letters'];
+	}
+	if (to.length !== run.length) {
+		return ['relabel payload.to must be as long as payload.run'];
+	}
+	const reasons: string[] = [];
+	if (new Set(run).size !== run.length) {
+		reasons.push('relabel payload.run must not repeat a letter');
+	}
+	if (to.some((letter, i) => letter !== String.fromCodePoint(97 + i))) {
+		reasons.push('relabel payload.to must run a, b, c… from a');
+	}
+	if (run.join('') === to.join('')) {
+		reasons.push(
+			'relabel payload.run and payload.to are the same: it changes no label',
+		);
+	}
+	return reasons;
+}
+
 /** `replace`: a non-empty find and a string replacement. */
 function replacePayloadReasons(p: Record<string, unknown>): string[] {
 	const reasons: string[] = [];
@@ -848,6 +924,7 @@ const PAYLOAD_VALIDATORS: Record<PatchOp, PayloadValidator> = {
 	join: joinPayloadReasons,
 	move: movePayloadReasons,
 	nest: nestPayloadReasons,
+	relabel: relabelPayloadReasons,
 	replace: replacePayloadReasons,
 	retag: retagPayloadReasons,
 	split: splitPayloadReasons,
@@ -867,6 +944,7 @@ const PATCH_OPS: PatchOp[] = [
 	'move',
 	'nest',
 	'reform',
+	'relabel',
 	'replace',
 	'retag',
 	'split',
@@ -1062,9 +1140,17 @@ function occurrenceReasons(raw: Record<string, unknown>): string[] {
 const ANNOTATED_OPS: ReadonlySet<string> = new Set([
 	'annotate',
 	'reform',
+	'relabel',
 	'replace',
 	'retag',
 ]);
+/** The ops that never stand without an annotation, and why: `annotate`
+ * is one, and every label a `relabel` changes departs from print. */
+const ANNOTATION_REQUIRED: Readonly<Record<string, string>> = {
+	annotate: 'annotate needs an annotation',
+	relabel:
+		'relabel needs an annotation: every label it changes departs from print',
+};
 /** The keys a patch's `annotation` holds; the import adds the rest. */
 const ANNOTATION_KEYS: ReadonlySet<string> = new Set([
 	'date',
@@ -1120,7 +1206,8 @@ function annotatedOpReasons(raw: Record<string, unknown>): string[] {
 	const { annotation, op } = raw;
 	const payload = (raw['payload'] ?? {}) as Record<string, unknown>;
 	if (annotation === undefined) {
-		return op === 'annotate' ? ['annotate needs an annotation'] : [];
+		const required = ANNOTATION_REQUIRED[op as string];
+		return required === undefined ? [] : [required];
 	}
 	if (!ANNOTATED_OPS.has(op as string)) {
 		return [
@@ -1128,6 +1215,9 @@ function annotatedOpReasons(raw: Record<string, unknown>): string[] {
 		];
 	}
 	const kind = (annotation as Record<string, unknown>)['kind'];
+	if (op === 'relabel') {
+		return relabelAnnotationReasons(annotation as Record<string, unknown>);
+	}
 	if (op === 'annotate' && kind !== 'kept') {
 		return [
 			'annotate carries only a kept annotation: a correction belongs on the op that makes it',
@@ -1145,6 +1235,41 @@ function annotatedOpReasons(raw: Record<string, unknown>): string[] {
 		];
 	}
 	return [];
+}
+
+/** A `relabel`'s annotation: a correction (`print-error`), and no
+ * `printed` of its own, since each changed child's printed letter is
+ * the run's (`RelabelPayload`) and one string could not state three. */
+function relabelAnnotationReasons(
+	annotation: Record<string, unknown>,
+): string[] {
+	const reasons: string[] = [];
+	if (annotation['kind'] !== 'print-error') {
+		reasons.push(
+			'relabel carries a print-error annotation: the run it corrects is print’s error',
+		);
+	}
+	if (annotation['printed'] !== '') {
+		reasons.push(
+			'relabel annotation.printed must be empty: the import reads each changed label’s printed letter from payload.run',
+		);
+	}
+	return reasons;
+}
+
+/** How many annotations a patch that applied must write: none without
+ * an `annotation`; for a `relabel`, one per child whose label departs
+ * from print's letter (`to` against `run`); otherwise one. Gate 10
+ * holds each patch to it (`import/gates.ts`). */
+function annotationsOwed(patch: SemanticPatch): number {
+	if (patch.annotation === undefined) {
+		return 0;
+	}
+	if (patch.op !== 'relabel') {
+		return 1;
+	}
+	const { run, to } = patch.payload;
+	return run.filter((letter, i) => letter !== to[i]).length;
 }
 
 /** An `annotate`'s field against its target: a form's field needs the
@@ -1411,6 +1536,9 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 	if (patch.op === 'annotate') {
 		return applyAnnotate(entry, patch);
 	}
+	if (patch.op === 'relabel') {
+		return applyRelabel(entry, patch);
+	}
 	if (patch.op === 'replace' && addressesLanguageReference(patch)) {
 		return applyReferenceReplace(entry, patch);
 	}
@@ -1662,11 +1790,52 @@ function applyUnref(entry: SourceEntry, patch: UnrefPatch): SourceEntry {
 	return copy;
 }
 
+/** `relabel`: leave the declared run on the target sense
+ * (`RelabelPayload`), its text untouched, once the sense's counted
+ * markers are shown to read exactly `run` (`declaredRunReason`, the
+ * check the build splits by). Refused on a stem header, which holds no
+ * text; on a sense with children, which another patch made and the
+ * build would put after the run's; and on a sense that already
+ * carries a run. */
+function applyRelabel(entry: SourceEntry, patch: RelabelPatch): SourceEntry {
+	const copy = structuredClone(entry);
+	const { sense } = locateSense(copy, patch);
+	if (sense.grammar !== undefined) {
+		throw new PatchApplyError(
+			patch.id,
+			'relabel target carries grammar: a stem header holds no lettered run',
+		);
+	}
+	if ((sense.senses ?? []).length > 0) {
+		throw new PatchApplyError(
+			patch.id,
+			'relabel target already has child senses (from another patch); a relabel’s children are built from its text',
+		);
+	}
+	if (sense.relabel !== undefined) {
+		throw new PatchApplyError(
+			patch.id,
+			`relabel target already carries a declared run (${sense.relabel.note.source})`,
+		);
+	}
+	const { run, to } = patch.payload;
+	const reason = declaredRunReason(sense.definition ?? '', run);
+	if (reason !== undefined) {
+		throw new PatchApplyError(patch.id, reason);
+	}
+	sense.relabel = {
+		note: annotationNote(patch, patch.annotation as PatchAnnotation),
+		run: [...run],
+		to: [...to],
+	};
+	return copy;
+}
+
 /** Resolve a sense patch's target in `copy` and assert its pre-state:
  * resolved count, occurrence index, and expected_before. */
 function locateSense(
 	copy: SourceEntry,
-	patch: AnnotatePatch | SensePatch,
+	patch: AnnotatePatch | RelabelPatch | SensePatch,
 ): SensePosition {
 	const target = parseTarget(patch.target);
 	const matches = resolveTarget(copy, target);
@@ -1983,6 +2152,7 @@ export type {
 	PatchOp,
 	PatchTarget,
 	ReformPayload,
+	RelabelPayload,
 	ReplacePayload,
 	RetagPayload,
 	SemanticPatch,
@@ -1992,6 +2162,7 @@ export type {
 };
 export {
 	addressesLanguageReference,
+	annotationsOwed,
 	applyPatch,
 	CLOSED_MARKER,
 	contentAnchor,

@@ -8,7 +8,8 @@ the contract's type, schema and checks (`annotations.ts`), the patch
 10's both-ways check. `implied` is retired and rule 3 changed in PR
 #174, the implied-I data PR, which writes the first five annotations
 (the proven implied Is); the other data changes are the follow-up PRs
-of §6 (PR #175 the RP8 marks, PR #176 the class 3 renumber). It
+of §6 (PR #175 the RP8 marks, PR #176 the class 3 renumber, PR #180
+P00790's lettered relabel). It
 lives beside the contract it extends because `docs/specs/` is retired
 ([`docs/glossary.md`](../../docs/glossary.md) § Retired terms) and a
 dated spec is not a live document.
@@ -144,7 +145,7 @@ wrote it; the loader stamps `author`):
 | `reform` `forms` | case 2 (a misspelling Jastrow's own cross-reference spells right); case 4 | form `text` |
 | `replace` | case 2: a cross-reference retarget (08-15), a determined misprint | sense `gloss` / `units[n]`; on a `language_reference:` target, `senses[0]`'s `gloss` |
 | `annotate` (new; changes nothing, `expected_before` pins the field) | case 3 | any |
-| a lettered relabel (L59; unbuilt) | case 2 | each child's `label` |
+| `relabel` (L59; built in PR #180) | case 2: a lettered run print set with a gap (P00790's Hif. `f) g) h)` → `e f g`) | each child's `label` that departs from print's letter, one annotation each |
 | `split`, `join`, `nest`, `move`, `delete`, `unref` | never: they cut, rejoin, reorder or remove what Sefaria mis-segmented or duplicated | — |
 
 `annotate` exists so a `kept` note fails loudly when upstream rewrites
@@ -183,10 +184,23 @@ path (`body/trace.ts`), and `finishEntry` writes `field` and `stored`
   `payload.form`, the parsed form's index; on a `language_reference:`
   target, `gloss` only, landing as a `replace`'s does. Only `kept`; `expected_before`
   pins the target, and a moved target is always `upstream-changed`.
+- `relabel` (PR #180): one patch, several annotations. Its payload
+  `{run, to}` is print's letters as the text holds them and the
+  labels the children take; the apply leaves both on the source sense
+  (`SourceSense.relabel`), the text untouched, and the build splits
+  at exactly `run` and labels the children from `to`
+  (`body/lettered-children.ts`). Each child whose label departs from
+  print's carries a `label` draft whose `printed` is print's letter;
+  the patch's own `printed` must be `''`, since one string cannot
+  state three letters, and its `kind` must be `print-error`. `stored`
+  is the child's built label. P00790's P000812 writes three:
+  `printed` `f`, `g`, `h`, `stored` `e`, `f`, `g`.
 
 Gate 10 then holds both sides: every annotation names a patch that
 applied to its rid carrying one, and every such patch wrote exactly
-one.
+as many as it owes, one, or for a `relabel` one per label its `to`
+changes (`annotationsOwed`, `patch/schema.ts`; the apply lists the
+patch once per annotation owed).
 `reviewed-kept.jsonl` stays what it is: the report's memory of detector
 rows. The label path needs care: a `retag` sets a SOURCE sense's
 `number`, and `body/trace.ts` turns it into `label`, so the annotation
@@ -204,7 +218,7 @@ Measured on the committed tree at `c9f572cfa` (32,512 entries) and the
 | Single-numeral cross-references whose numeral the target lacks | 291 of 3,829 cites | the cite's text is the evidence, the link target is not. 215 texts name I: 21 of them are linked to 14 targets that carry no numeral, which is candidate implied-I evidence once the text is read against the right entry; 194 are linked to a target numbered otherwise. 76 name II or higher. Each row is a read of the text: does it name a numeral print sets wrong, or did the linker pick the wrong entry? |
 | RP8 implied `1)` labels | 61 patches, 61 entries: 57 `retag` `implied-one`, 3 reviewed `retag` (B01321, C01169, U01787), 1 reviewed `replace` (D00072) | case 2, kept. They gain `printed: ''`, `stored: '1'` |
 | Class 3 doubled numbers | 18 entries, 20 patches (P000518–P000537): 17 "keep print's number", plus P00059 | case 2: renumber, one annotation per changed label (`1 2 2 3` → `1 2 3 4` writes two). P00059's `4 4 6` → `4 5 6` is confirmed by the maintainer (2026-10-14). S01849's `עָבַר Pi. 4)`, which names print's second 4 (the city limits), becomes `Pi. 5)`, annotated `printed: 4)`, `stored: 5)`, with P00059's doubled `4)` as the evidence. No other linked cross-reference names a sense in these 18 or in P00790 |
-| P00790 Hif. run | 1 | case 2: `a b c d f g h` → `a b c d e f g`, `print: f g h`. Needs L59's mechanism |
+| P00790 Hif. run | 1 | case 2: `a b c d f g h` → `a b c d e f g`, `print: f g h`. Needs L59's mechanism; done in PR #180 (P000812, a `relabel`, three annotations) |
 | U01512's `a) … 2)` (10-12) | 1 | case 3: `kept` |
 | S01780's half-printed qamats | 1 | case 4, pending round 2 |
 | `partial` forms | 2,494 on 2,275 entries | print's notation: no annotation |
@@ -256,7 +270,9 @@ reading is never lost.
    cross-reference; done in PR #176: 24 labels renumbered by annotated
    `retag`s, S01849's `Pi. 4)` → `Pi. 5)` by an annotated `replace`,
    and U01512's `a) … 2)` annotated `kept` by the first `annotate`, on
-   the child a `nest` made), P00790 (after L59), the RP8 marks
+   the child a `nest` made), P00790 (after L59; done in PR #180: the
+   `relabel` P000812, `f) g) h)` labelled `e f g`, three annotations),
+   the RP8 marks
    (61; done in PR #175: 24 retags annotated in place, 36 moved to
    `reviewed/` with their splits and annotated, D00072 converted to a
    `retag` + `split`), and round 2 (L46).

@@ -23,6 +23,7 @@ interface SensePairLike {
 	built: BodySense;
 	formSectionSibling?: BodySense;
 	original: string;
+	relabel?: { run: readonly string[]; to: readonly string[] };
 }
 
 interface TraceLike {
@@ -119,7 +120,8 @@ function reconstructHead(
 }
 
 /** Verifies the `lettered` rule for one pair: the built child senses
- * carry the right letters in the right order, and rejoining them via
+ * carry the right letters in the right order (a `relabel`'s `to`
+ * labels, where one declared the run), and rejoining them via
  * `joinLettered` reproduces the original text byte-for-byte — using the
  * form-section-aware `reconstructHead` for the `head` side, since a
  * form-section split may have carved part of that head out onto a
@@ -137,7 +139,8 @@ function checkLettered(
 		return false;
 	}
 	const lettersMatch = letteredParts.items.every(
-		(item, index) => children[index]?.label === item.letter,
+		(item, index) =>
+			children[index]?.label === (pair.relabel?.to[index] ?? item.letter),
 	);
 	if (!lettersMatch) {
 		return false;
@@ -234,7 +237,7 @@ function evaluateRoundTrip(e: SourceEntry, trace: TraceLike): RoundTripResult {
 	let formSection = true;
 	let formSectionMarker: string | null = null;
 	for (const pair of trace.pairs) {
-		const letteredParts = splitLettered(pair.original);
+		const letteredParts = splitLettered(pair.original, pair.relabel?.run);
 		const head = letteredParts ? letteredParts.head : pair.original;
 		const formSectionParts = splitFormSection(head);
 		if (formSectionParts !== null) {

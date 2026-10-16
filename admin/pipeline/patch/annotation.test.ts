@@ -536,6 +536,49 @@ describe('annotate through the apply gates', () => {
 	});
 });
 
+// L59: a relabel edits no text and changes no target, so it passes the
+// gates the way an annotate does, and it owes one annotation per label
+// it changes: gate 10 reads that count off `annotated`.
+describe('relabel through the apply gates', () => {
+	const gapped = 'lead a) one b) two d) three e) four.';
+	const entry = (): SourceEntry => ({
+		...makeEntry(),
+		content: { senses: [{ definition: gapped }] },
+	});
+	const record = raw({
+		annotation: NOTE,
+		expected_before: gapped,
+		op: 'relabel',
+		payload: { run: ['a', 'b', 'd', 'e'], to: ['a', 'b', 'c', 'd'] },
+		target: `sense[]:${contentAnchor(gapped)}`,
+	});
+	const relabel = (): SemanticPatch => human(record);
+
+	it('adds no text and passes the post-apply assertion', () => {
+		const before = entry();
+		const after = applyPatch(before, relabel());
+		expect(validateNoNewText(relabel(), before, after)).toEqual({ ok: true });
+		expect(() => postApplyAssertions(before, after, relabel())).not.toThrow();
+	});
+
+	it('is listed once per label it changes', () => {
+		const result = applyEntryPatches(entry(), [relabel()]);
+		expect(result.problems).toEqual([]);
+		expect(result.annotated).toEqual(['P000001', 'P000001']);
+	});
+
+	it('is refused unstamped: a relabel is a person’s', () => {
+		expect(
+			corpusPreflight([parsePatch(record)], [], PIN, {
+				escalations: 'defer',
+				reconcileOnly: [],
+			}).map((p) => p.reason),
+		).toEqual([
+			'an annotation on an agent patch: only a reviewed patch, written from the print, may carry one',
+		]);
+	});
+});
+
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one chain, three views of it (apply, order, preflight); splitting it would scatter the fixture.
 describe('two reforms on one rid chain in corpus order', () => {
 	// S01780's shape (correction audit §4): a torn alternate rejoined by

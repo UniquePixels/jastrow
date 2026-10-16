@@ -838,13 +838,13 @@ describe('checkContract (gate 10)', () => {
 				'an annotated patch that wrote none',
 				annotated(),
 				{ A00002: ['P000001'] },
-				'A00002: patch P000001 applied with an annotation and wrote 0 annotations; it writes exactly one',
+				'A00002: patch P000001 applied with an annotation and wrote 0 annotations; it owes 1',
 			],
 			[
 				'an annotated patch that wrote two',
 				annotated('P000001', 'P000001'),
 				{ A00002: ['P000001'] },
-				'A00002: patch P000001 applied with an annotation and wrote 2 annotations; it writes exactly one',
+				'A00002: patch P000001 applied with an annotation and wrote 2 annotations; it owes 1',
 			],
 		] as [string, Entry, Record<string, string[]>, string][])(
 			'reds the entry on %s',
@@ -854,5 +854,52 @@ describe('checkContract (gate 10)', () => {
 				expect(t.failures).toEqual([failure]);
 			},
 		);
+
+		// L59: a relabel owes one annotation per label it changes, and
+		// the apply lists it once per annotation owed, so the gate reads
+		// the count it expects off `applied` (P00790's relabel owes 3).
+		/** A00002 whose one sense holds `labels` as lettered children,
+		 * each annotated by P000001 as a relabelled label. */
+		const relabelled = (...labels: string[]): Entry => ({
+			...contractEntry('A00002', 'אבא'),
+			senses: [
+				{
+					gloss: 'g',
+					senses: labels.map((label) => ({
+						annotations: [
+							{
+								date: '2026-10-16',
+								evidence: 'print skips e)',
+								field: 'label' as const,
+								kind: 'print-error' as const,
+								printed: String.fromCodePoint(label.charCodeAt(0) + 1),
+								source: 'P000001',
+								stored: label,
+							},
+						],
+						gloss: 'g',
+						label,
+						units: [],
+					})),
+					units: [],
+				},
+			],
+		});
+		const owing3 = { A00002: ['P000001', 'P000001', 'P000001'] };
+
+		it('passes a relabel that wrote one annotation per label it changed', async () => {
+			expect(await run(relabelled('e', 'f', 'g'), owing3)).toEqual({
+				failures: [],
+				pass: 3,
+				total: 3,
+			});
+		});
+
+		it('reds a relabel that wrote fewer annotations than it owes', async () => {
+			const t = await run(relabelled('e', 'f'), owing3);
+			expect(t.failures).toEqual([
+				'A00002: patch P000001 applied with an annotation and wrote 2 annotations; it owes 3',
+			]);
+		});
 	});
 });
