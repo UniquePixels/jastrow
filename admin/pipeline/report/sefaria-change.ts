@@ -215,6 +215,7 @@ function uniqueSpan(
 	range: readonly [number, number],
 	fields: readonly RawField[],
 ): { field: string; from: number; span: string } | undefined {
+	let found: { field: string; from: number; span: string } | undefined;
 	for (const side of CONTEXT_SIDES) {
 		const [a, b] = widen(text, range, side);
 		const span = text.slice(a, b);
@@ -223,14 +224,16 @@ function uniqueSpan(
 			(n, f) => n + countOccurrences(f.text, span),
 			0,
 		);
-		if (count > 1) {
-			return;
-		}
 		if (count === 1 && holders[0] !== undefined) {
-			return { field: holders[0].path, from: a, span };
+			found = { field: holders[0].path, from: a, span };
+		}
+		// Once a width occurs at all, a narrower one occurs at least as
+		// often, so the search ends here either way.
+		if (count > 0) {
+			break;
 		}
 	}
-	return;
+	return found;
 }
 
 /** The text a sense-text op looks for, and what it makes of it. */

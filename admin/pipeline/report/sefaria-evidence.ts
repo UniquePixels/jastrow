@@ -74,9 +74,26 @@ const READ_DATE = /\bprint (?:read|check)\b[^.;]*?(?<date>\d{4}-\d{2}-\d{2})/iu;
 const WORKLIST = /docs\/[\w-]+-worklist\.md/u;
 const OPEN_ANCHOR = /<a\b/gu;
 const HREF = /\bhref="(?<href>[^"]*)"/u;
-const CITED = /^(?<word>.+?)\s+(?<numeral>[IVX]+)$/u;
-const ENDS_IN_NUMERAL = /(?:^|\s)(?<numeral>[IVX]+)$/u;
+const NUMERAL = /^[IVX]+$/u;
+const SPACE = /\s/u;
 const NOT_HEBREW_LETTER = /[^א-ת]/gu;
+
+/** `text` split at its last whitespace into the words before it and a
+ * trailing Roman numeral, or `undefined` when it ends in none. Scanned
+ * by index, not by a backtracking pattern. */
+function trailingNumeral(
+	text: string,
+): { numeral: string; word: string } | undefined {
+	const trimmed = text.trim();
+	let at = trimmed.length - 1;
+	while (at >= 0 && !SPACE.test(trimmed[at] ?? '')) {
+		at -= 1;
+	}
+	const numeral = trimmed.slice(at + 1);
+	return at > 0 && NUMERAL.test(numeral)
+		? { numeral, word: trimmed.slice(0, at).trim() }
+		: undefined;
+}
 
 // ------------------------------------------------- filter 1: case 1 only
 
@@ -108,13 +125,12 @@ function scopeReason(patch: SemanticPatch): Exclusion | undefined {
 	if (DEVIATION.test(patch.rationale)) {
 		return exclude('our deviation from print', 'rationale records a deviation');
 	}
-	if (PARTIAL.test(patch.rationale)) {
-		return exclude(
-			'partial: print not fully restored',
-			'the rationale says part of print’s text is not restored',
-		);
-	}
-	return;
+	return PARTIAL.test(patch.rationale)
+		? exclude(
+				'partial: print not fully restored',
+				'the rationale says part of print’s text is not restored',
+			)
+		: undefined;
 }
 
 // ------------------------------------------------- filter 2: evidence
@@ -255,7 +271,7 @@ function readAnchor(
 		start === undefined ||
 		tagEnd === -1 ||
 		close < tagEnd ||
-		html.indexOf('</a>', close + 1) !== -1
+		html.includes('</a>', close + 1)
 	) {
 		return;
 	}
@@ -312,15 +328,8 @@ function carriedForms(
 ): { form: string; source: string }[] {
 	const record = index.records.get(rid);
 	const own = (record === undefined ? [] : formsOf(record)).flatMap((form) => {
-		const m = ENDS_IN_NUMERAL.exec(form.trim());
-		return m?.groups?.['numeral'] === numeral
-			? [
-					{
-						form: form.trim().slice(0, -numeral.length).trim(),
-						source: 'Sefaria',
-					},
-				]
-			: [];
+		const m = trailingNumeral(form);
+		return m?.numeral === numeral ? [{ form: m.word, source: 'Sefaria' }] : [];
 	});
 	const restored = (index.restored.get(rid) ?? [])
 		.filter((r) => r.numeral === numeral)
@@ -354,9 +363,9 @@ function retargetProof(
 			failure: 'the patch changes more than one internal anchor’s link',
 		};
 	}
-	const cited = CITED.exec(after.visible)?.groups;
-	const word = cited?.['word'] ?? '';
-	const numeral = cited?.['numeral'] ?? '';
+	const cited = trailingNumeral(after.visible);
+	const word = cited?.word ?? '';
+	const numeral = cited?.numeral ?? '';
 	if (word === '') {
 		return { failure: `the cite's text "${after.visible}" names no numeral` };
 	}
@@ -378,7 +387,9 @@ function retargetProof(
 	const spelled = [
 		...(record === undefined ? [] : formsOf(record)),
 		...carried.map((c) => c.form),
-	].some((form) => nfc(form.replace(ENDS_IN_NUMERAL, '').trim()) === nfc(word));
+	].some(
+		(form) => nfc(trailingNumeral(form)?.word ?? form.trim()) === nfc(word),
+	);
 	if (!spelled) {
 		return { failure: `${now} has no form spelled "${word}"` };
 	}

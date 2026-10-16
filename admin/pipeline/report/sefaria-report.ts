@@ -148,23 +148,25 @@ function scanProblem(
 	pages: PageLookup,
 ): Exclusion | undefined {
 	const entry = pages.entries.get(patch.rid);
-	for (const linked of patch.rationale.matchAll(IIIF_ALL)) {
-		const volume = Number(linked.groups?.['volume']);
-		const leaf = Number(linked.groups?.['index']) - 1;
-		const page = pageOfLeaf(pages, volume, leaf);
-		if (
-			entry === undefined ||
-			page === undefined ||
-			page < entry.page ||
-			page > entry.lastPage
-		) {
-			return exclude(
+	const outside = [...patch.rationale.matchAll(IIIF_ALL)]
+		.map((linked) => {
+			const leaf = Number(linked.groups?.['index']) - 1;
+			const page = pageOfLeaf(pages, Number(linked.groups?.['volume']), leaf);
+			return { leaf, page };
+		})
+		.find(
+			({ page }) =>
+				entry === undefined ||
+				page === undefined ||
+				page < entry.page ||
+				page > entry.lastPage,
+		);
+	return outside === undefined
+		? undefined
+		: exclude(
 				'scan link outside the entry',
-				`leaf ${leaf} is p. ${page ?? '?'}; the entry is on p. ${entry?.page ?? '?'}–${entry?.lastPage ?? '?'}`,
+				`leaf ${outside.leaf} is p. ${outside.page ?? '?'}; the entry is on p. ${entry?.page ?? '?'}–${entry?.lastPage ?? '?'}`,
 			);
-		}
-	}
-	return;
 }
 
 /** The scan column: the leaf the rationale links, or else the leaf of
@@ -314,7 +316,7 @@ function parseSubmissions(text: string): Submission[] {
 
 // ---------------------------------------------------------- rendering
 
-const COLUMNS: readonly (keyof AppendixRow & string)[] = [
+const COLUMNS: readonly (keyof AppendixRow)[] = [
 	'rid',
 	'sefaria_oid',
 	'sefaria_headword',
@@ -329,7 +331,7 @@ const COLUMNS: readonly (keyof AppendixRow & string)[] = [
 	'submitted_batch',
 ];
 
-const REVIEW_COLUMNS: readonly (keyof ReviewRow & string)[] = [
+const REVIEW_COLUMNS: readonly (keyof ReviewRow)[] = [
 	'patch_id',
 	'rid',
 	'class',
@@ -340,11 +342,8 @@ const REVIEW_COLUMNS: readonly (keyof ReviewRow & string)[] = [
 
 const quote = (value: string): string => `"${value.replaceAll('"', '""')}"`;
 
-function csvOf<T>(
-	columns: readonly (keyof T & string)[],
-	rows: readonly T[],
-): string {
-	const lines = [columns.join(',')];
+function csvOf<T>(columns: readonly (keyof T)[], rows: readonly T[]): string {
+	const lines = [columns.map(String).join(',')];
 	for (const row of rows) {
 		lines.push(columns.map((c) => quote(String(row[c]))).join(','));
 	}
