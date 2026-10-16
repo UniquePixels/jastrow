@@ -641,6 +641,34 @@ describe('a relabel: the declared run splits and relabels (L59)', () => {
 		expect(evaluateRoundTrip(entry, trace).lettered).toBe(false);
 	});
 
+	// L57: a relabel whose `to` is its `run` forces a split the plain
+	// rule refuses and changes no label, so no child is annotated.
+	it('splits at a run that changes no label, annotating none', () => {
+		const text =
+			'sea.—Esp. a) one.—b) two (only הים).—c) three.—d) four; v. זִיבָה).';
+		const entry: SourceEntry = {
+			content: {
+				senses: [
+					{
+						definition: text,
+						relabel: {
+							run: ['a', 'b', 'c', 'd'],
+							source: 'P000900',
+							to: ['a', 'b', 'c', 'd'],
+						},
+					},
+				],
+			},
+			headword: 'x',
+			rid: 'J00403',
+		};
+		const trace = buildTrace(entry);
+		const host = trace.body.senses[0];
+		expect(host?.senses?.map((s) => s.label)).toEqual(['a', 'b', 'c', 'd']);
+		expect(host?.senses?.some((s) => s.annotations !== undefined)).toBe(false);
+		expect(evaluateRoundTrip(entry, trace).lettered).toBe(true);
+	});
+
 	it('throws when the run a sense carries no longer splits its text', async () => {
 		const entry = await relabelled();
 		const sense = entry.content.senses[2]?.senses?.[1];

@@ -361,6 +361,38 @@ interface PreflightOptions {
 	reconcileOnly?: readonly SemanticPatch[];
 }
 
+/** The patches only a person may write, written by an agent. An
+ * annotation states what print reads, so only a person who read it may
+ * write one (ANNOTATIONS.md §3); a relabel states print's run whether
+ * or not it changes a label (L57), so it is a person's too. The record
+ * cannot say who wrote it — the loader stamps `author` from the
+ * directory — so the preflight is the first place the two are seen
+ * together. */
+function authorshipProblems(patches: readonly SemanticPatch[]): ApplyProblem[] {
+	const problems: ApplyProblem[] = [];
+	for (const patch of patches) {
+		if (patch.author === 'human') {
+			continue;
+		}
+		if (patch.annotation !== undefined) {
+			problems.push({
+				patchId: patch.id,
+				reason:
+					'an annotation on an agent patch: only a reviewed patch, written from the print, may carry one',
+				rid: patch.rid,
+			});
+		} else if (patch.op === 'relabel') {
+			problems.push({
+				patchId: patch.id,
+				reason:
+					'a relabel on an agent patch: only a reviewed patch, written from the print, may declare a run',
+				rid: patch.rid,
+			});
+		}
+	}
+	return problems;
+}
+
 /**
  * Corpus-level preflight (spec §5.3): (a) every patch's snapshot pin
  * equals the current snapshot hash; (b) the corpus is internally
@@ -368,7 +400,8 @@ interface PreflightOptions {
  * exactly `options.reconcileOnly` (default: `patches`); (d) the replay
  * gate is open — no unresolved `needs_*` rows, unless
  * `options.escalations` is `'defer'`; (e) no patch but a reviewed one
- * carries an `annotation`. Reports every problem together.
+ * carries an `annotation` or is a `relabel` (`authorshipProblems`).
+ * Reports every problem together.
  * The per-patch `expected_before` / occurrence checks live in
  * `applyEntryPatches`, where the entries stream past.
  *
@@ -402,20 +435,7 @@ function corpusPreflight(
 			reason: problem.reason,
 		});
 	}
-	// An annotation states what print reads, so only a person who read
-	// it may write one (ANNOTATIONS.md §3). The record cannot say who
-	// wrote it — the loader stamps `author` from the directory — so
-	// this is the first place the two are seen together.
-	for (const patch of patches) {
-		if (patch.annotation !== undefined && patch.author !== 'human') {
-			problems.push({
-				patchId: patch.id,
-				reason:
-					'an annotation on an agent patch: only a reviewed patch, written from the print, may carry one',
-				rid: patch.rid,
-			});
-		}
-	}
+	problems.push(...authorshipProblems(patches));
 	for (const problem of reconcilePatches(
 		records,
 		options?.reconcileOnly ?? patches,
@@ -680,7 +700,7 @@ function postApplyAssertions(
 function leftRun(entry: SourceEntry, id: string): boolean {
 	let found = 0;
 	for (const { sense } of walkSenses(entry)) {
-		if (sense.relabel?.note.source === id) {
+		if (sense.relabel?.source === id) {
 			found += 1;
 		}
 	}
