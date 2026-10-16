@@ -119,6 +119,23 @@ export const REVIEW_REPORT_PATH = `${REPORTS_DIR}/review-report.md`;
 export const HEADWORD_ISSUES_DOC = `${REPORTS_DIR}/headword-issues.md`;
 export const HEADWORD_ISSUES_CSV = `${REPORTS_DIR}/headword-issues.csv`;
 
+/** The Sefaria appendix (`report/sefaria-report.ts`, decisions 10-16
+ * upstream report): the rows we send upstream, a summary, and every
+ * reviewed patch a filter kept out, with its reason. Written by
+ * `bun data:sefaria`, not by the import. */
+export const SEFARIA_APPENDIX_CSV = `${REPORTS_DIR}/sefaria-appendix.csv`;
+export const SEFARIA_APPENDIX_DOC = `${REPORTS_DIR}/sefaria-appendix.md`;
+export const SEFARIA_REVIEW_CSV = `${REPORTS_DIR}/sefaria-review.csv`;
+
+/** The submission log the appendix reads: one line per batch the
+ * maintainer sent to Sefaria. Hand-maintained, so it is a document
+ * beside the prose report, not a generated one. */
+export const SEFARIA_SUBMISSIONS_PATH = 'docs/sefaria-submissions.jsonl';
+
+/** The page index's column records, which carry each page's scan leaf
+ * (`PAGE_INDEX_PATH` carries each entry's page and column). */
+export const PAGE_COLUMNS_PATH = 'data/page-index/columns.jsonl';
+
 /** Where the pipeline's own design is written down, cited by the
  * headword report so a reader can reach the rules behind a row.
  *
