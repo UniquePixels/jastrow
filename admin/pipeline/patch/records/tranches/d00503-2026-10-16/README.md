@@ -112,10 +112,9 @@ appendix rows. `bun data:sefaria` (PR #183, merged into this branch)
 moves the appendix from 294 rows to 299
 ([`docs/reports/sefaria-appendix.csv`](../../../../../../docs/reports/sefaria-appendix.csv)):
 `cross-reference-target` 167 → 171 and `headword-ocr-glyph` 4 → 5; the
-review list stays at 367. P000821's evidence reads `scan leaf 319`:
-its rationale says "scan read", which the filter's `print read` does
-not match, so the row carries the leaf and no date. P000822–P000825
-read `maintainer print read 2026-10-16` with their own leaf.
+review list stays at 367. Every row's evidence reads `maintainer print
+read 2026-10-16` and a leaf: P000821's `scan leaf 319`, P000822–P000825
+their own entry's leaf.
 
 ## The detector gap (review ledger L72)
 
