@@ -71,8 +71,8 @@ const LEAF = /\bleaf (?<leaf>\d+)/u;
 const PRINT_READ = /\bprint (?:read|check)\b/iu;
 const READ_DATE = /\bprint (?:read|check)\b[^.;]*?(?<date>\d{4}-\d{2}-\d{2})/iu;
 const WORKLIST = /docs\/[\w-]+-worklist\.md/u;
-const ANCHOR =
-	/^(?<before>(?:(?!<a\b).)*)<a\b[^>]*\bhref="(?<href>[^"]*)"[^>]*>(?<inner>.*?)<\/a>(?<after>(?:(?!<a\b).)*)$/su;
+const OPEN_ANCHOR = /<a\b/gu;
+const HREF = /\bhref="(?<href>[^"]*)"/u;
 const TAG = /<[^>]*>/gu;
 const CITED = /^(?<word>.+?)\s+(?<numeral>[IVX]+)$/u;
 const ENDS_IN_NUMERAL = /(?:^|\s)(?<numeral>[IVX]+)$/u;
@@ -233,23 +233,36 @@ function indexSource(
 }
 
 /** The text outside one internal anchor, and the anchor's target and
- * visible text, or `undefined` unless the html holds exactly one. */
+ * visible text, or `undefined` unless the html holds exactly one
+ * anchor, closed once. */
 function readAnchor(
 	html: string,
 ): { outside: string; target: string; visible: string } | undefined {
-	const m = ANCHOR.exec(html);
-	const target = internalTarget(m?.groups?.['href'] ?? '');
-	if (m?.groups === undefined || target === undefined) {
+	const opens = [...html.matchAll(OPEN_ANCHOR)];
+	const start = opens[0]?.index;
+	const tagEnd = start === undefined ? -1 : html.indexOf('>', start);
+	const close = html.indexOf('</a>');
+	if (
+		opens.length !== 1 ||
+		start === undefined ||
+		tagEnd === -1 ||
+		close < tagEnd ||
+		html.indexOf('</a>', close + 1) !== -1
+	) {
 		return;
 	}
-	const inner = m.groups['inner'] ?? '';
-	if (inner.includes('<a ')) {
+	const href = HREF.exec(html.slice(start, tagEnd))?.groups?.['href'];
+	const target = internalTarget(href ?? '');
+	if (target === undefined) {
 		return;
 	}
 	return {
-		outside: `${m.groups['before']}\n${m.groups['after']}`,
+		outside: `${html.slice(0, start)}\n${html.slice(close + '</a>'.length)}`,
 		target,
-		visible: inner.replaceAll(TAG, '').trim(),
+		visible: html
+			.slice(tagEnd + 1, close)
+			.replaceAll(TAG, '')
+			.trim(),
 	};
 }
 

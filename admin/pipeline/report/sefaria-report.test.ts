@@ -420,6 +420,29 @@ describe('buildSefariaAppendix: a cross-reference retarget’s text proof', () =
 		);
 	});
 
+	it('reads an anchor with the same text after it in find and replace', () => {
+		const tail = patch({
+			defect_class: 'cross-reference-target',
+			expected_before: cite,
+			op: 'replace',
+			payload: { find: `${anchor('בָּב II')}.`, replace: `${anchor('בָּב')}.` },
+			rationale: 'Case 1 under 10-13',
+		});
+		const one = record('B00049', { alt_headwords: ['בָּבָא I'], headword: 'בָּב' });
+		const two = record('B00050', { headword: 'בָּב II' });
+		expect(
+			buildSefariaAppendix(inputs([citing, one, two], [tail])).rows,
+		).toHaveLength(1);
+		const changed = patch({
+			...tail,
+			payload: { find: `${anchor('בָּב II')}.`, replace: `${anchor('בָּב')};` },
+		});
+		expect(
+			buildSefariaAppendix(inputs([citing, one, two], [changed])).review[0]
+				?.detail,
+		).toBe('the patch changes more than one internal anchor’s link');
+	});
+
 	it('fails when no member carries it in Sefaria’s data', () => {
 		const one = record('B00049', { headword: 'בָּב' });
 		const two = record('B00050', { headword: 'בָּב II' });
