@@ -24,9 +24,15 @@
 		{
 			"gloss": " = <cite ref=\"A02548\">next w.</cite> ",
 			"units": [
-				"<cite ref=\"Onkelos Exodus 16:31\">Targ. O. Ex. XVI, 31</cite>.—*2) read <he>מִקְסוֹטֵירִין</he> (μυξωτῆρες as LXX Zach. IV, 12) <i>tubes, lamp-mozzles</i>. Targ. Zach. l. c."
+				"<cite ref=\"Onkelos Exodus 16:31\">Targ. O. Ex. XVI, 31</cite>."
 			],
 			"label": "1"
+		},
+		{
+			"gloss": " read <he>מִקְסוֹטֵירִין</he> (μυξωτῆρες as LXX Zach. IV, 12) <i>tubes, lamp-mozzles</i>. Targ. Zach. l. c.",
+			"units": [],
+			"label": "2",
+			"reconstructed": true
 		}
 	]
 }

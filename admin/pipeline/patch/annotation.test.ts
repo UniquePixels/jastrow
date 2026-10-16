@@ -579,6 +579,39 @@ describe('relabel through the apply gates', () => {
 	});
 });
 
+// L57: a relabel that changes no label (J00403's whole run) owes and
+// carries no annotation, so gate 10 lists it never; it is still a
+// person's reading of print, so an agent may not write one.
+describe('a relabel that changes no label through the apply gates', () => {
+	const whole = 'lead a) one b) two c) three.';
+	const unchanged = raw({
+		expected_before: whole,
+		op: 'relabel',
+		payload: { run: ['a', 'b', 'c'], to: ['a', 'b', 'c'] },
+		target: `sense[]:${contentAnchor(whole)}`,
+	});
+
+	it('is listed never when it changes no label', () => {
+		const result = applyEntryPatches(
+			{ ...makeEntry(), content: { senses: [{ definition: whole }] } },
+			[human(unchanged)],
+		);
+		expect(result.problems).toEqual([]);
+		expect(result.annotated).toEqual([]);
+	});
+
+	it('is refused unstamped even when it carries no annotation', () => {
+		expect(
+			corpusPreflight([parsePatch(unchanged)], [], PIN, {
+				escalations: 'defer',
+				reconcileOnly: [],
+			}).map((p) => p.reason),
+		).toEqual([
+			'a relabel on an agent patch: only a reviewed patch, written from the print, may declare a run',
+		]);
+	});
+});
+
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one chain, three views of it (apply, order, preflight); splitting it would scatter the fixture.
 describe('two reforms on one rid chain in corpus order', () => {
 	// S01780's shape (correction audit §4): a torn alternate rejoined by

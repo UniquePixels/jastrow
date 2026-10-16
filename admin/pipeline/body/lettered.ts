@@ -12,7 +12,9 @@
  * A reviewed `relabel` patch (review ledger L59) may instead declare
  * the run print set, gap included (`declaredMarks`): the split then
  * takes exactly those counted markers, in that order, and the build
- * gives the children the patch's labels (`body/trace.ts`).
+ * gives the children the patch's labels (`body/trace.ts`). Where the
+ * paren state is unclear, a declared run is held to the markers
+ * counted with each `)` that closes nothing skipped (L57).
  *
  * That is the deliberate under-split failure mode (decision B5/B9):
  * an unsplit block is still readable, a wrongly split one is not.
@@ -192,7 +194,11 @@ function parenEvents(
  * whose `)` was not the paren's close (`(see a) above)`) — and then
  * any earlier depth may be wrong, so the whole text stays unsplit:
  * the under-split failure direction (B9), never a guessed boundary. */
-function parenFiltered(text: string, marks: readonly Mark[]): Mark[] | null {
+function parenFiltered(
+	text: string,
+	marks: readonly Mark[],
+	skipStray = false,
+): Mark[] | null {
 	const candidates = [...marks, ...numberedMarks(text)];
 	const closers = new Map(
 		candidates.map((mark) => [mark.index + mark.marker.length - 1, mark]),
@@ -202,9 +208,10 @@ function parenFiltered(text: string, marks: readonly Mark[]): Mark[] | null {
 	for (const event of parenEvents(text, candidates)) {
 		if (typeof event === 'number') {
 			depth += depthStep(text[event], closers.get(event), inside);
-			if (depth < 0) {
+			if (depth < 0 && !skipStray) {
 				return null;
 			}
+			depth = Math.max(depth, 0);
 		} else if (depth > 0) {
 			inside.add(event);
 		}
@@ -229,11 +236,13 @@ function depthStep(
 
 /** Every counted marker in document order: the candidates outside
  * parens (`parenFiltered`) and anchors (`insideAnchor`), or null when
- * the paren state is unclear. Does not yet enforce ascending order —
- * that is `ascendingRun`'s job, which ends the run at the first
- * marker out of sequence. */
-function findMarks(text: string): Mark[] | null {
-	const outside = parenFiltered(text, candidateMarks(text));
+ * the paren state is unclear. With `skipStray` (a declared run only,
+ * L57), a `)` that closes nothing is skipped instead, so the text is
+ * never unclear. Does not yet enforce ascending order — that is
+ * `ascendingRun`'s job, which ends the run at the first marker out of
+ * sequence. */
+function findMarks(text: string, skipStray = false): Mark[] | null {
+	const outside = parenFiltered(text, candidateMarks(text), skipStray);
 	if (outside === null) {
 		return null;
 	}
@@ -264,17 +273,28 @@ function ascendingRun(marks: readonly Mark[]): Mark[] {
  * counted marker must be the declared run's, in its order: a marker
  * the run leaves out, or a letter it names that the text lacks, would
  * leave the split a guess. That covers "each marker exactly once",
- * since the payload validator refuses a run that repeats a letter. */
+ * since the payload validator refuses a run that repeats a letter.
+ *
+ * Where the paren state is unclear (`parenFiltered`: J00403's `)`,
+ * which print sets and which closes nothing, L57), the plain rule
+ * counts nothing and leaves the text whole. A declared run is a
+ * person's reading of the print, so it is held instead to the markers
+ * counted with each such `)` skipped, each still exactly once: a
+ * candidate inside a paren that does close (`(see b) …`) stays out of
+ * the count, as it does in a clear text. */
 function declaredMarks(text: string, run: readonly string[]): Mark[] | string {
-	const marks = findMarks(text);
-	if (marks === null) {
-		return 'the paren state of the text is unclear, so its markers cannot be counted';
-	}
-	const counted = marks.map((mark) => mark.letter).join(' ');
+	const clear = findMarks(text);
+	const marks = clear ?? findMarks(text, true) ?? [];
+	const letters = marks.map((mark) => mark.letter).join(' ');
 	const declared = run.join(' ');
-	return counted === declared
-		? marks
-		: `the declared run ${declared} is not the counted markers of the text, ${counted}`;
+	if (letters === declared) {
+		return marks;
+	}
+	const counted =
+		clear === null
+			? 'the counted markers of the text, each `)` that closes nothing skipped'
+			: 'the counted markers of the text';
+	return `the declared run ${declared} is not ${counted}, ${letters}`;
 }
 
 /** Why `text` does not split at the declared `run`, or undefined when
