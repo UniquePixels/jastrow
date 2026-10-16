@@ -66,7 +66,7 @@ annotation; a correction is annotated on the op that makes it. Like
 any patch, it may not share its target with another patch on the same
 rid.
 
-`relabel` (review ledger L59, PR #n) changes no text either. Its
+`relabel` (review ledger L59, PR #180) changes no text either. Its
 payload `{run, to}` declares the lettered run print set in the target
 sense's text, gap included (`run`, print's letters in the text's
 order), and the labels its children take (`to`, `a`, `b`, `c`… from
@@ -96,7 +96,7 @@ PR #176 26 more do (data PR (iii);
 numbers on 18 entries, each a `print-error` on the label; S01849's
 `replace` (P000580) moves its cross-reference `עָבַר Pi. 4)` to
 `Pi. 5)`; and U01512's `annotate` (P000581), the first, records the
-participle's `a) … 2)` as `kept`. Since PR #n P000812, the first
+participle's `a) … 2)` as `kept`. Since PR #180 P000812, the first
 `relabel`, writes three on P00790's Hif. sense 2 (`f g h` → `e f g`).
 The other data PRs follow (review ledger plan group 6b).
 

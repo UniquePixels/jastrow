@@ -663,7 +663,7 @@ not found where its order says. `split` makes a sibling; `nest` is the
 one op that makes a child. Where a form-section marker heads the list,
 `join`/`split` regrouping is enough and `nest` is not used.
 
-`relabel` (review ledger L59, PR #n) repairs a lettered run print set
+`relabel` (review ledger L59, PR #180) repairs a lettered run print set
 with a gap, which the plain rule cannot split past (§2 "Lettered
 items"). Its payload is `{run, to}`: `run` print's letters in the
 order the text holds them, `to` the labels the children take, the
