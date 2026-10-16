@@ -4361,9 +4361,11 @@ the alphabet agree.
 ## Scan reads for L65–L66 (2026-10-16)
 
 **Status:** 3 blocks wait on your ticks. Nothing is written until you
-tick; a later data PR turns each answer into a reviewed `replace`
-(case 1 of ruling `10-13 correction policy`, no annotation: the
-words are print's and the loss is Sefaria's). These are review ledger
+tick; a later data PR turns each answer that reads a word into a
+reviewed `replace` (case 1 of ruling `10-13 correction policy`, no
+annotation: the words are print's and the loss is Sefaria's). A
+"kept", "no word" or "can't tell" tick writes no text patch: it is
+recorded in the review ledger row (L65, L66). These are review ledger
 L65 and L66, left by PR #182 (`leftovers-2026-10-16`): the hOCR saw
 each word, but cannot read it well enough to write it, and a word is
 never guessed.
