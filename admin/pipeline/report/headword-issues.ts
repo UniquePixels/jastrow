@@ -1025,8 +1025,9 @@ function oneLetterRows(inOrder: readonly Entry[]): IssueRow[] {
 	let section = '';
 	let opening = false;
 	for (const entry of inOrder) {
-		if (entry.id[0] !== section) {
-			section = entry.id[0] ?? '';
+		const letter = entry.id.slice(0, 1);
+		if (letter !== section) {
+			section = letter;
 			opening = true;
 		}
 		const text = entry.headwords[0]?.text ?? '';
