@@ -191,16 +191,19 @@ function scanOf(patch: SemanticPatch, pages: PageLookup): string {
 	return `vol. ${entry.volume} p. ${entry.page}${entry.column} · leaf ${leaf} · ${scanUrl(entry.volume, leaf)} (entry start)`;
 }
 
-/** The first batch of the log that names the patch or its class. */
+/** The first batch of the log that names the patch, or names its
+ * class and was sent on or after the patch was first seen: a batch that
+ * sent a class cannot have sent a row found after it went out. */
 function batchOf(
 	patch: SemanticPatch,
 	submissions: readonly Submission[],
+	firstSeen: string,
 ): string {
 	return (
 		submissions.find(
 			(s) =>
 				(s.patch_ids ?? []).includes(patch.id) ||
-				(s.classes ?? []).includes(patch.defect_class),
+				((s.classes ?? []).includes(patch.defect_class) && firstSeen <= s.date),
 		)?.batch ?? ''
 	);
 }
@@ -253,7 +256,7 @@ function rowOf(
 		sefaria_headword: record.headword,
 		sefaria_oid: record._id.$oid,
 		sefaria_text: change.sefaria,
-		submitted_batch: batchOf(patch, inputs.submissions),
+		submitted_batch: batchOf(patch, inputs.submissions, firstSeen),
 	};
 }
 

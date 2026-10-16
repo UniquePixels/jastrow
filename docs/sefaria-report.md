@@ -85,8 +85,10 @@ array, as JSON.
 **The submission log** is [`sefaria-submissions.jsonl`](sefaria-submissions.jsonl),
 kept by hand: one line per batch sent, `{"batch", "date", "channel",
 "patch_ids" or "classes", "response"}` (`response` is `""` until one
-comes). The generator marks every row a batch names with that batch,
-so a row with an empty `submitted_batch` is new since the last
+comes). The generator marks every row a batch names with that batch:
+by its patch id, or by its class when the row was first seen on or
+before the batch's date (a class sent once does not cover rows found
+later). A row with an empty `submitted_batch` is new since the last
 submission. The log is empty: nothing has been sent yet.
 
 **Each class below says what it is** for the submission:

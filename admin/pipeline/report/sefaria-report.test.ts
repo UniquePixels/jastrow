@@ -468,6 +468,22 @@ describe('the submission log', () => {
 		expect(out.doc).toContain('| 2026-11-a | 2026-11-01 | email | 1 |');
 	});
 
+	it('marks a class batch only on rows first seen by its date', () => {
+		const rec = record('A00001', {
+			content: { senses: [{ definition: TEXT }] },
+		});
+		const log = (date: string): string =>
+			`{"batch":"b","date":"${date}","channel":"email","classes":["ocr-marker"],"response":""}`;
+		const sent = buildSefariaAppendix(
+			inputs([rec], [patch(REPLACE)], parseSubmissions(log('2026-10-10'))),
+		);
+		expect(sent.rows[0]?.submitted_batch).toBe('b');
+		const before = buildSefariaAppendix(
+			inputs([rec], [patch(REPLACE)], parseSubmissions(log('2026-10-09'))),
+		);
+		expect(before.rows[0]?.submitted_batch).toBe('');
+	});
+
 	it.each([
 		['{"batch":"x"}'],
 		['not json'],
