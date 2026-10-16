@@ -14,6 +14,7 @@
  *    (`evidenceOf`), or, for a cross-reference retarget, the cite's own
  *    words prove the target (`retargetProof`).
  */
+import { serialize, tokenize } from '../../entry/html.ts';
 import { internalTarget, linkKey } from '../import/cite.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import {
@@ -73,7 +74,6 @@ const READ_DATE = /\bprint (?:read|check)\b[^.;]*?(?<date>\d{4}-\d{2}-\d{2})/iu;
 const WORKLIST = /docs\/[\w-]+-worklist\.md/u;
 const OPEN_ANCHOR = /<a\b/gu;
 const HREF = /\bhref="(?<href>[^"]*)"/u;
-const TAG = /<[^>]*>/gu;
 const CITED = /^(?<word>.+?)\s+(?<numeral>[IVX]+)$/u;
 const ENDS_IN_NUMERAL = /(?:^|\s)(?<numeral>[IVX]+)$/u;
 const NOT_HEBREW_LETTER = /[^א-ת]/gu;
@@ -232,6 +232,14 @@ function indexSource(
 	};
 }
 
+/** What a reader sees of `html`: the entry tokenizer's text tokens,
+ * never a one-pass tag regex. */
+function visibleText(html: string): string {
+	return serialize(
+		tokenize(html).filter((piece) => piece.kind === 'text'),
+	).trim();
+}
+
 /** The text outside one internal anchor, and the anchor's target and
  * visible text, or `undefined` unless the html holds exactly one
  * anchor, closed once. */
@@ -259,10 +267,7 @@ function readAnchor(
 	return {
 		outside: `${html.slice(0, start)}\n${html.slice(close + '</a>'.length)}`,
 		target,
-		visible: html
-			.slice(tagEnd + 1, close)
-			.replaceAll(TAG, '')
-			.trim(),
+		visible: visibleText(html.slice(tagEnd + 1, close)),
 	};
 }
 
