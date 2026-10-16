@@ -300,9 +300,10 @@ direction:
   L59): the split then takes exactly the declared markers, which must
   be every counted marker of the text in order, and the children take
   the patch's labels (`body/lettered-children.ts`). In a text whose
-  paren state is unclear a declared run is held to every candidate
-  outside anchors instead, each exactly once (L57: J00403's run, after
-  print's own stray `)`, declared with `to` equal to `run`).
+  paren state is unclear a declared run is held to the markers counted
+  with each `)` that closes nothing skipped, each exactly once (L57:
+  J00403's run, after print's own stray `)`, declared with `to` equal
+  to `run`).
 - **Form sections.** `Pl.`, `Part. pass.`, `Fem.`, `Denom.`, `Du.`
   split out of their host sense into a sibling with restarted child
   senses, after the lettered split (`body/form-sections.ts`). Its

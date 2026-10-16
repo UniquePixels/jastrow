@@ -259,8 +259,9 @@ describe('declaredRunReason (L59 relabel)', () => {
 // L57: J00403's run, after which print sets a `)` that closes nothing.
 // The plain rule cannot count markers in such a text and leaves it
 // whole (B9); a declared run is a person's reading of the print, so it
-// is checked against every candidate outside anchors instead, each
-// still exactly once.
+// is checked against the markers counted with each such `)` skipped,
+// each still exactly once: a candidate inside a paren that does close
+// stays out.
 describe('a declared run where the paren state is unclear (L57)', () => {
 	const STRAY =
 		'sea.—Esp. a) one.—b) two (only הים).—c) three.—d) four; Men. 64ᵇ, v. זִיבָה).';
@@ -277,12 +278,21 @@ describe('a declared run where the paren state is unclear (L57)', () => {
 		expect(parts === null ? null : joinLettered(parts)).toBe(STRAY);
 	});
 
-	it('refuses a declared run that is not every candidate where the paren state is unclear', () => {
+	it('refuses a declared run that is not the markers counted past the stray paren', () => {
 		expect(declaredRunReason(STRAY, ['a', 'b', 'c'])).toBe(
-			'the declared run a b c is not the candidate markers of the text (its paren state is unclear), a b c d',
+			'the declared run a b c is not the counted markers of the text, each `)` that closes nothing skipped, a b c d',
 		);
-		expect(declaredRunReason(') a) one (see b) two', ['a'])).toBe(
-			'the declared run a is not the candidate markers of the text (its paren state is unclear), a b',
+	});
+
+	it('keeps a candidate inside a paren that closes out of the run', () => {
+		const text = 'a) first (see b) reference) c) last';
+		expect(splitLettered(text)).toBeNull();
+		expect(declaredRunReason(text, ['a', 'b', 'c'])).toBe(
+			'the declared run a b c is not the counted markers of the text, each `)` that closes nothing skipped, a c',
 		);
+		expect(splitLettered(text, ['a', 'c'])?.items.map((i) => i.text)).toEqual([
+			' first (see b) reference) ',
+			' last',
+		]);
 	});
 });
