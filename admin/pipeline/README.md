@@ -184,6 +184,20 @@ and A01345; the current blessing doc
 ([`import-blessing.md`](../../docs/reports/import-blessing.md), last
 regenerated 2026-10-03 by #146) shows all ten gates green.
 
+## The Sefaria appendix (`sefaria.ts`)
+
+```bash
+bun data:sefaria      # writes docs/reports/sefaria-appendix.{csv,md}, sefaria-review.csv
+```
+
+Not a stage: it reads the reviewed patch records, `data/source/`, the
+page index and `docs/sefaria-submissions.jsonl`, and writes the rows of
+the report we send Sefaria (`docs/sefaria-report.md`, ruling `10-16
+upstream report`) and the review list of every reviewed patch its four
+filters hold back. Run it after a reviewed patch changes or after a
+batch is logged. [`DESIGN.md`](DESIGN.md) § The Sefaria appendix has
+the filters.
+
 ## Compile — not this module (`admin/compile/`, not yet built)
 
 Compile is not a stage of this module. It will be its own module,
