@@ -1001,6 +1001,53 @@ function pointingRows(
 	return rows;
 }
 
+const ONE_LETTER_SHAPE = "X11 one-letter primary past its letter's opening";
+
+/** How many letters a form's text holds, marks aside. */
+function letterCount(text: string): number {
+	return (consonants(text).match(LETTERS) ?? []).join('').length;
+}
+
+/** One-consonant primaries that are not among their letter's opening
+ * entries.
+ *
+ * Every letter's section opens with entries of one consonant: the
+ * letter itself, its numeral value (`ח׳`) and its prefix uses (`וְ`,
+ * `בְּ־`). Past the first entry of two letters or more, a primary of
+ * one consonant is no word print sets: it is a line Sefaria split at
+ * a vowel, as it split U00489's `שׁוּף` into `ש` and `ׁוּף` (#113,
+ * rejoined in #179), and its name is that one letter. X1 sees such a
+ * split only when the next piece opens with a mark; `חָ, רַ, ת`
+ * (H01792) opens none (review ledger L39). An abbreviation (X7) or a
+ * prefix (X5) past the opening keeps its own shape. */
+function oneLetterRows(inOrder: readonly Entry[]): IssueRow[] {
+	const rows: IssueRow[] = [];
+	let section = '';
+	let opening = false;
+	for (const entry of inOrder) {
+		if (entry.id[0] !== section) {
+			section = entry.id[0] ?? '';
+			opening = true;
+		}
+		const text = entry.headwords[0]?.text ?? '';
+		const single = letterCount(text) <= 1;
+		opening &&= single;
+		if (opening || !single || GERESH.test(text) || text.includes(MAQAF)) {
+			continue;
+		}
+		rows.push({
+			flagged: false,
+			name: nameOf(entry),
+			note: `the line reads ${entry.headwords.map((f) => f.text).join(', ')}`,
+			rid: entry.id,
+			role: 'headword',
+			shape: ONE_LETTER_SHAPE,
+			text,
+		});
+	}
+	return rows;
+}
+
 /** A value made safe for one Markdown table cell: a `|` would split the
  * row into extra columns and a line break would end it. */
 function cell(value: string): string {
@@ -1195,6 +1242,7 @@ function buildHeadwordIssues(
 			sequences,
 		}),
 		...pointingRows(entries, inRidOrder, sequences),
+		...oneLetterRows(inRidOrder),
 	);
 	const split = splitKept(rows, kept);
 	return {

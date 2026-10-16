@@ -9,6 +9,7 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | H6 multi-word | 271 | 6 | 265 | 210 |
 | X1 starts with a vowel/dagesh mark | 1 | 0 | 1 | 0 |
 | X10 first homograph unnumbered: implied I candidate | 8 | 3 | 5 | 0 |
+| X11 one-letter primary past its letter's opening | 2 | 2 | 0 | 0 |
 | X5 maqaf fragment | 140 | 113 | 27 | 1 |
 | X6 abbreviated alt (ends ׳) | 2240 | 0 | 2240 | 1527 |
 | X7 abbreviation headword (׳/״) | 134 | 123 | 11 | 4 |
@@ -311,6 +312,13 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [N00343](https://jastrow.app/#rid:N00343) | headword | נוֹחַ | נוֹחַ II | N00342 נוֹחַ is a bare first form before a II; an I is set only where Jastrow's text names `נוֹחַ I` (10-13); 1 unnumbered: N00342=—; N00343=2; N00344=3 |  |
 | [O00124](https://jastrow.app/#rid:O00124) | alt | סַגִּיא | סַגִּי² | O00123/alt סַגִּיא is a bare first form before a II; an I is set only where Jastrow's text names `סַגִּיא I` (10-13); 1 unnumbered: O00123/alt=—; O00124/alt=2 |  |
 | [U01687](https://jastrow.app/#rid:U01687) | headword | שַׁעַר | שַׁעַר II | U01686 שַׁעַר is a bare first form before a II; an I is set only where Jastrow's text names `שַׁעַר I` (10-13); 1 unnumbered: U01686=—; U01687=2 |  |
+
+## X11 one-letter primary past its letter's opening (2)
+
+| rid | role | text | name | note | flagged |
+|---|---|---|---|---|---|
+| [H01792](https://jastrow.app/#rid:H01792) | headword | חָ | חָ | the line reads חָ, רַ, ת |  |
+| [V00524](https://jastrow.app/#rid:V00524) | headword | תִּ | תִּ | the line reads תִּ, כְבּוֹסֶת |  |
 
 ## X5 maqaf fragment (140)
 

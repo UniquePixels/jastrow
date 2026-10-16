@@ -294,6 +294,8 @@ shape,rid,role,text,name,note,processor_flagged,reviewed_kept
 "X10 first homograph unnumbered: implied I candidate","T00376","headword","רוּם","רוּם II","T00375 רוּם is a bare first form before a II; an I is set only where Jastrow's text names `רוּם I` (10-13); 3 unnumbered: T00374=—; T00375=—; T00376=2; T00377=—","false","no implied I here: neither T00374 `רוּם` (the Hebrew verb) nor T00375 (its `ch.` line) takes one (maintainer ticked ""neither: no implied I here; as stored: nothing to fix"", round 2, 2026-10-13), and no text of Jastrow's names `רוּם I` (ruling 10-13)"
 "X10 first homograph unnumbered: implied I candidate","U01687","headword","שַׁעַר","שַׁעַר II","U01686 שַׁעַר is a bare first form before a II; an I is set only where Jastrow's text names `שַׁעַר I` (10-13); 1 unnumbered: U01686=—; U01687=2","false",""
 "X10 first homograph unnumbered: implied I candidate","U02013","headword","שְׂרַף","שְׂרַף II","U02012 שְׂרָף is a bare first form before a II; an I is set only where Jastrow's text names `שְׂרָף I` (10-13); 2 unnumbered: U02004=—; U02006=—; U02013=2","false","print sets no numeral beside U02012 `שְׂרָף`, and it takes no implied I: the maintainer ticked ""something else""; note: ""no numeral, no implied"" (round 2, 2026-10-13). No text of Jastrow's names `שְׂרָף I` or `שְׂרַף I` (ruling 10-13)"
+"X11 one-letter primary past its letter's opening","H01792","headword","חָ","חָ","the line reads חָ, רַ, ת","false",""
+"X11 one-letter primary past its letter's opening","V00524","headword","תִּ","תִּ","the line reads תִּ, כְבּוֹסֶת","false",""
 "X5 maqaf fragment","A00007","headword","אִ־","אִ־","","false",""
 "X5 maqaf fragment","A00007","alt","אִי־","אִ־","","false",""
 "X5 maqaf fragment","A00007","alt","אֶ־","אִ־","","false",""
