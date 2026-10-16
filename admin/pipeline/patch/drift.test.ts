@@ -1,6 +1,7 @@
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; one describe per op's post-state, sharing the patch fixture.
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry, SourceSense } from '../types.ts';
-import { classifyDrift } from './drift.ts';
+import { classifyDrift, type DriftOutcome } from './drift.ts';
 import { contentAnchor, type SemanticPatch } from './schema.ts';
 
 const PIN = `sha256:${'a'.repeat(64)}`;
@@ -293,5 +294,36 @@ describe('classifyDrift on a reform that sets homographs', () => {
 				numbering,
 			),
 		).toBe('upstream-changed');
+	});
+});
+
+describe('classifyDrift on a language_reference replace', () => {
+	const before = ' I (b. h.; = x)';
+	const lifting = patch({
+		expected_before: before,
+		payload: { find: ' I (', replace: ' (' },
+		target: `language_reference:${contentAnchor(before)}`,
+	});
+	const withReference = (reference: string): SourceEntry => ({
+		...entryWith({ definition: 'to blow.' }),
+		language_reference: reference,
+	});
+
+	it.each<[string, string, DriftOutcome | undefined]>([
+		['undefined: the field reads as written', before, undefined],
+		[
+			'fixed: it reads as the patch leaves it',
+			' (b. h.; = x)',
+			'upstream-fixed',
+		],
+		['changed: it moved elsewhere', ' I (b. h.; = y)', 'upstream-changed'],
+	])('is %s', (_name, reference, outcome) => {
+		expect(classifyDrift(withReference(reference), lifting)).toBe(outcome);
+	});
+
+	it('is upstream-changed when the field is gone: the head lost its paren', () => {
+		expect(classifyDrift(entryWith({ definition: 'to blow.' }), lifting)).toBe(
+			'upstream-changed',
+		);
 	});
 });

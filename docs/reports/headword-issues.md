@@ -7,8 +7,8 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | Shape | Rows | Main | Alt | Flagged by the processor |
 |---|---|---|---|---|
 | H6 multi-word | 271 | 6 | 265 | 210 |
-| X1 starts with a vowel/dagesh mark | 2 | 0 | 2 | 0 |
-| X10 first homograph unnumbered: implied I candidate | 9 | 4 | 5 | 0 |
+| X1 starts with a vowel/dagesh mark | 1 | 0 | 1 | 0 |
+| X10 first homograph unnumbered: implied I candidate | 8 | 3 | 5 | 0 |
 | X5 maqaf fragment | 140 | 113 | 27 | 1 |
 | X6 abbreviated alt (ends ׳) | 2240 | 0 | 2240 | 1527 |
 | X7 abbreviation headword (׳/״) | 134 | 123 | 11 | 4 |
@@ -293,14 +293,13 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [E00007](https://jastrow.app/#rid:E00007) | alt | הֵא הֵא | הֵא II | two forms / reduplication |  |
 | [H01657](https://jastrow.app/#rid:H01657) | alt | חַר חַר | חַרְחַר | two forms / reduplication |  |
 
-## X1 starts with a vowel/dagesh mark (2)
+## X1 starts with a vowel/dagesh mark (1)
 
 | rid | role | text | name | note | flagged |
 |---|---|---|---|---|---|
-| [U00489](https://jastrow.app/#rid:U00489) | alt | ׁוּף | ש |  |  |
 | [V00518](https://jastrow.app/#rid:V00518) | alt | ּשַׁע | תִּישַׁע |  |  |
 
-## X10 first homograph unnumbered: implied I candidate (9)
+## X10 first homograph unnumbered: implied I candidate (8)
 
 | rid | role | text | name | note | flagged |
 |---|---|---|---|---|---|
@@ -311,7 +310,6 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [N00186](https://jastrow.app/#rid:N00186) | headword | נְגַר | נְגַר II | N00185 נְגַר is a bare first form before a II; an I is set only where Jastrow's text names `נְגַר I` (10-13); 1 unnumbered: N00185=—; N00186=2 |  |
 | [N00343](https://jastrow.app/#rid:N00343) | headword | נוֹחַ | נוֹחַ II | N00342 נוֹחַ is a bare first form before a II; an I is set only where Jastrow's text names `נוֹחַ I` (10-13); 1 unnumbered: N00342=—; N00343=2; N00344=3 |  |
 | [O00124](https://jastrow.app/#rid:O00124) | alt | סַגִּיא | סַגִּי² | O00123/alt סַגִּיא is a bare first form before a II; an I is set only where Jastrow's text names `סַגִּיא I` (10-13); 1 unnumbered: O00123/alt=—; O00124/alt=2 |  |
-| [U00490](https://jastrow.app/#rid:U00490) | headword | שׁוּף | שׁוּף II | U00488 שׁוּף is a bare first form before a II; an I is set only where Jastrow's text names `שׁוּף I` (10-13); 2 unnumbered: U00488=—; U00490=2; U00491=—; U00492=3 |  |
 | [U01687](https://jastrow.app/#rid:U01687) | headword | שַׁעַר | שַׁעַר II | U01686 שַׁעַר is a bare first form before a II; an I is set only where Jastrow's text names `שַׁעַר I` (10-13); 1 unnumbered: U01686=—; U01687=2 |  |
 
 ## X5 maqaf fragment (140)

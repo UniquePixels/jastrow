@@ -18,12 +18,15 @@
  * stated directly: `unref`'s is the item's absence (its target IS the
  * item, so `found === 0` is the fix), and `join`'s is its token and
  * text folded into a neighbour — some definition ending with, or
- * holding exactly once, `token + expected_before`. `annotate` changes
+ * holding exactly once, `token + expected_before`. A `replace` on
+ * `language_reference` addresses no sense either: its post-state is
+ * the field reading as the patch leaves it. `annotate` changes
  * nothing, so it has no post-state at all: a moved target is always
  * `upstream-changed`, the loud failure the op exists for.
  */
 import type { SourceEntry, SourceSense } from '../types.ts';
 import {
+	addressesLanguageReference,
 	applyPatch,
 	countOccurrences,
 	countTarget,
@@ -155,6 +158,26 @@ function reformDrift(
 		: 'upstream-changed';
 }
 
+/** Drift for a `replace` on `language_reference` whose field moved:
+ * `upstream-fixed` only when the field now reads exactly as the patch
+ * would leave it. A field that is gone is a change, not the fix: the
+ * gloss head lost text the patch only corrected. */
+function referenceDrift(
+	entry: SourceEntry,
+	patch: Extract<SemanticPatch, { op: 'replace' }>,
+): DriftOutcome {
+	const { find, replace } = patch.payload;
+	const before = patch.expected_before;
+	if (countOccurrences(before, find) !== 1) {
+		return 'upstream-changed';
+	}
+	const at = before.indexOf(find);
+	const after = before.slice(0, at) + replace + before.slice(at + find.length);
+	return entry.language_reference === after
+		? 'upstream-fixed'
+		: 'upstream-changed';
+}
+
 /** `undefined` when the patch's precondition holds on `entry`;
  * otherwise which kind of drift it is. */
 function classifyDrift(
@@ -178,6 +201,9 @@ function classifyDrift(
 	}
 	if (patch.op === 'reform') {
 		return reformDrift(entry, patch);
+	}
+	if (patch.op === 'replace' && addressesLanguageReference(patch)) {
+		return referenceDrift(entry, patch);
 	}
 	if (patch.op === 'join') {
 		return holdsFold(entry, patch) ? 'upstream-fixed' : 'upstream-changed';

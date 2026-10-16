@@ -4,13 +4,10 @@
 	"sefariaHeadword": "ש",
 	"headwords": [
 		{
-			"text": "ש"
-		},
-		{
-			"text": "ׁוּף"
+			"text": "שׁוּף"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0}",
 	"page": {
 		"number": 1538,
 		"column": "b"

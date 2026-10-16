@@ -9,7 +9,10 @@
  * content-hash anchor**, never by array index: an earlier structural
  * patch must not shift a later patch's target. `unref` instead
  * addresses one item of the entry's `refs[]`, by **exact value +
- * content-hash anchor** (`refs[<item>]:<anchor>`).
+ * content-hash anchor** (`refs[<item>]:<anchor>`); `reform` the
+ * headword block (`forms:<anchor>`); and `replace` or `annotate` may
+ * instead address the `language_reference` field
+ * (`language_reference:<anchor>`, review ledger L50).
  * `expected_before` (the target's exact current text — a sense's
  * definition, or the `refs[]` item) is the safety mechanism — apply
  * fails loudly on any mismatch, and that same loud mismatch is the
@@ -61,6 +64,20 @@ const REFS_TARGET = /^refs\[(?<item>.+)\]:(?<anchor>[0-9a-f]{8})$/u;
  * missed comma split into two), and an index would shift under them —
  * the failure the anchor design exists to prevent. */
 const FORMS_TARGET = /^forms:(?<anchor>[0-9a-f]{8})$/u;
+/** `language_reference:<anchor>` — the etymology paren Sefaria keeps in
+ * its own field (`(b. h.; X I)`, `ch. = h. X I`), which the import
+ * folds into the gloss head of `senses[0]` (`body/rejoin.ts`). Used by
+ * `replace` and `annotate` (review ledger L50). The field is one
+ * string, so like the headword block it is addressed whole and
+ * resolves once or not at all. */
+const LANGUAGE_REFERENCE_TARGET =
+	/^language_reference:(?<anchor>[0-9a-f]{8})$/u;
+/** The ops that may address `language_reference`: the one that edits
+ * text, and the one that pins a kept reading of it. */
+const LANGUAGE_REFERENCE_OPS: ReadonlySet<unknown> = new Set([
+	'annotate',
+	'replace',
+]);
 /** The closed sense-marker grammar (`N)` / `—N)`) — the only tokens a
  * patch may synthesize (spec §4.3, no-new-text validator). */
 const CLOSED_MARKER = /^—?\d{1,2}\)$/u;
@@ -439,6 +456,32 @@ function parseFormsTarget(target: string): PatchTarget {
 	return { anchor: m.groups['anchor'], token: '' };
 }
 
+/** Parse a `language_reference:<anchor>` address. */
+function parseLanguageReferenceTarget(target: string): PatchTarget {
+	const m = LANGUAGE_REFERENCE_TARGET.exec(target);
+	if (m?.groups?.['anchor'] === undefined) {
+		throw new PatchFormatError(`target "${target}"`, [
+			'expected language_reference:<8-hex-anchor>',
+		]);
+	}
+	return { anchor: m.groups['anchor'], token: '' };
+}
+
+/** Whether a record's op and target address `language_reference`. */
+function onLanguageReference(op: unknown, target: unknown): boolean {
+	return (
+		LANGUAGE_REFERENCE_OPS.has(op) &&
+		typeof target === 'string' &&
+		LANGUAGE_REFERENCE_TARGET.test(target)
+	);
+}
+
+/** Whether a patch addresses `language_reference` rather than a sense:
+ * a `replace` or an `annotate` on a `language_reference:` target. */
+function addressesLanguageReference(patch: SemanticPatch): boolean {
+	return onLanguageReference(patch.op, patch.target);
+}
+
 /** One position in an entry's sense tree: the sense plus the sibling
  * array holding it (what split/delete need to mutate). */
 interface SensePosition {
@@ -492,6 +535,11 @@ function countTarget(entry: SourceEntry, patch: SemanticPatch): number {
 		// 1 — the same question apply asks, kept in one place so drift
 		// and carry-over read it the same way.
 		return formsBlock(entry) === patch.expected_before ? 1 : 0;
+	}
+	if (addressesLanguageReference(patch)) {
+		// One field, so 0 or 1, as for the headword block. An entry
+		// without the field resolves nothing.
+		return entry.language_reference === patch.expected_before ? 1 : 0;
 	}
 	return resolveTarget(entry, parseTarget(patch.target)).length;
 }
@@ -860,6 +908,9 @@ function parseTargetFor(op: unknown, text: string): PatchTarget {
 	if (op === 'annotate' && FORMS_TARGET.test(text)) {
 		return parseFormsTarget(text);
 	}
+	if (onLanguageReference(op, text)) {
+		return parseLanguageReferenceTarget(text);
+	}
 	return op === 'reform' ? parseFormsTarget(text) : parseTarget(text);
 }
 
@@ -881,10 +932,14 @@ function readTarget(raw: Record<string, unknown>): {
 			raw['op'] !== 'reform' &&
 			raw['op'] !== 'annotate' &&
 			FORMS_TARGET.test(text);
+		const misplacedReference = LANGUAGE_REFERENCE_TARGET.test(text);
 		const misplaced =
 			(misplacedRefs ? 'refs[…] targets are only for unref' : undefined) ??
 			(misplacedForms
 				? 'forms: targets are only for reform and annotate'
+				: undefined) ??
+			(misplacedReference
+				? 'language_reference: targets are only for replace and annotate'
 				: undefined);
 		return { reasons: [misplaced ?? (e as Error).message] };
 	}
@@ -986,6 +1041,14 @@ function occurrenceReasons(raw: Record<string, unknown>): string[] {
 	) {
 		reasons.push(
 			'annotate on the forms: expected_occurrences and occurrence_index must both be 1',
+		);
+	}
+	if (
+		onLanguageReference(raw['op'], raw['target']) &&
+		(occurrences !== 1 || index !== 1)
+	) {
+		reasons.push(
+			'a language_reference: target resolves once: expected_occurrences and occurrence_index must both be 1',
 		);
 	}
 	return reasons;
@@ -1092,6 +1155,18 @@ function annotateTargetReasons(raw: Record<string, unknown>): string[] {
 	];
 	if (raw['op'] !== 'annotate' || typeof raw['target'] !== 'string') {
 		return [];
+	}
+	if (onLanguageReference('annotate', raw['target'])) {
+		// The field is folded into `senses[0]`'s gloss head, so that is
+		// the one field a note on it can name. An unknown field already
+		// has its reason from the payload check.
+		const known =
+			SENSE_FIELDS.has(field as string) || FORM_FIELDS.has(field as string);
+		return field === 'gloss' || !known
+			? []
+			: [
+					'annotate on a language_reference: target takes field gloss, the gloss head it is folded into',
+				];
 	}
 	const onForms = FORMS_TARGET.test(raw['target']);
 	if (FORM_FIELDS.has(field as string) && !onForms) {
@@ -1336,6 +1411,9 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 	if (patch.op === 'annotate') {
 		return applyAnnotate(entry, patch);
 	}
+	if (patch.op === 'replace' && addressesLanguageReference(patch)) {
+		return applyReferenceReplace(entry, patch);
+	}
 	const copy = structuredClone(entry);
 	const position = locateSense(copy, patch);
 	mutateSense(patch, position, position.sense.definition ?? '');
@@ -1379,12 +1457,72 @@ function addFormDraft(
 	entry.formAnnotations = [...(entry.formAnnotations ?? []), draft];
 }
 
+/** Assert `language_reference` still reads as `expected_before`. */
+function assertReference(entry: SourceEntry, patch: SemanticPatch): string {
+	const reference = entry.language_reference;
+	if (reference === undefined || reference !== patch.expected_before) {
+		throw new PatchApplyError(
+			patch.id,
+			'expected_before does not match language_reference — the source moved under the patch (maintenance track, spec §6)',
+		);
+	}
+	return reference;
+}
+
+/** The sense a `language_reference` annotation rides: source sense 0,
+ * the one the gloss head is built on (`buildTrace` carries its drafts
+ * to `senses[0]`). A stem in that place carries no drafts to the head,
+ * and an entry with no sense has none to carry, so both are refused
+ * rather than leaving an annotation gate 10 would find unwritten. */
+function headSense(entry: SourceEntry, patch: SemanticPatch): SourceSense {
+	const [first] = entry.content.senses;
+	if (first === undefined || first.grammar !== undefined) {
+		throw new PatchApplyError(
+			patch.id,
+			'an annotation on language_reference rides the gloss head, and the entry has no first text sense to carry it',
+		);
+	}
+	return first;
+}
+
+/** `replace` on `language_reference`: swap the one exact find inside
+ * the field. An annotation names the gloss of `senses[0]`, where the
+ * import folds the field (ANNOTATIONS.md §3). */
+function applyReferenceReplace(
+	entry: SourceEntry,
+	patch: ReplacePatch,
+): SourceEntry {
+	const reference = assertReference(entry, patch);
+	const { find, replace } = patch.payload;
+	const at = exactlyOnce(patch, reference, find, 'replace find');
+	const copy = structuredClone(entry);
+	copy.language_reference =
+		reference.slice(0, at) + replace + reference.slice(at + find.length);
+	if (patch.annotation !== undefined) {
+		addSenseDraft(headSense(copy, patch), {
+			...annotationNote(patch, patch.annotation),
+			field: 'gloss',
+			find: replace,
+		});
+	}
+	return copy;
+}
+
 /** `annotate`: assert the target still reads as `expected_before`, and
  * leave a draft for the field — nothing else changes. */
 function applyAnnotate(entry: SourceEntry, patch: AnnotatePatch): SourceEntry {
 	const copy = structuredClone(entry);
 	const note = annotationNote(patch, patch.annotation as PatchAnnotation);
 	const { payload } = patch;
+	if (addressesLanguageReference(patch)) {
+		assertReference(copy, patch);
+		addSenseDraft(headSense(copy, patch), {
+			...note,
+			field: 'gloss',
+			find: note.printed,
+		});
+		return copy;
+	}
 	if ('form' in payload) {
 		if (formsBlock(copy) !== patch.expected_before) {
 			throw new PatchApplyError(
@@ -1820,7 +1958,13 @@ function flattenContent(entry: SourceEntry): string {
 	// TEXT into the line, and `reformDisplayReasons` refuses that
 	// directly and by name: a `display` holding any Hebrew fails to
 	// parse, with the patch id beside it.
-	const parts: string[] = [formsBlock(entry), entry.content.morphology ?? ''];
+	// `language_reference` is in it for the reason the headword block
+	// is: `replace` edits it (review ledger L50).
+	const parts: string[] = [
+		formsBlock(entry),
+		entry.content.morphology ?? '',
+		entry.language_reference ?? '',
+	];
 	for (const { sense } of walkSenses(entry)) {
 		parts.push(sense.number ?? '', sense.definition ?? '');
 	}
@@ -1847,6 +1991,7 @@ export type {
 	UnrefPayload,
 };
 export {
+	addressesLanguageReference,
 	applyPatch,
 	CLOSED_MARKER,
 	contentAnchor,

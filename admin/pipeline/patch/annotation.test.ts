@@ -631,3 +631,95 @@ describe('corpusPreflight: an annotation is a person’s', () => {
 		).toEqual([]);
 	});
 });
+
+// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one table, one row per case; splitting it would scatter the rule it pins.
+describe('language_reference: the annotation lands on the gloss head', () => {
+	// The import folds the field into `senses[0]`'s gloss head
+	// (`body/rejoin.ts`), so its draft rides source sense 0, the sense
+	// that head is built on, and names the gloss.
+	const reference = ' (b. h.; = אבב)';
+	const withReference = (senses = makeEntry().content.senses): SourceEntry => ({
+		...makeEntry(),
+		content: { senses },
+		language_reference: reference,
+	});
+	const rawReference = (
+		over: Record<string, unknown>,
+	): Record<string, unknown> =>
+		raw({
+			expected_before: reference,
+			target: `language_reference:${contentAnchor(reference)}`,
+			...over,
+		});
+	const replaceReference = {
+		op: 'replace',
+		payload: { find: '= אבב', replace: '= אבא' },
+	};
+	const annotateReference = {
+		annotation: { ...KEPT, printed: 'אבב' },
+		op: 'annotate',
+		payload: { field: 'gloss' },
+	};
+
+	it('replace: a gloss draft on the first sense, finding the replacement', () => {
+		const after = applyPatch(
+			withReference(),
+			human(rawReference({ ...replaceReference, annotation: NOTE })),
+		);
+		expect(after.language_reference).toBe(' (b. h.; = אבא)');
+		expect(after.content.senses[0]?.annotations).toEqual([
+			{ ...NOTE, field: 'gloss', find: '= אבא', source: 'P000001' },
+		] as never);
+	});
+
+	it('annotate: a gloss draft on the first sense, the field untouched', () => {
+		const after = applyPatch(
+			withReference(),
+			human(rawReference(annotateReference)),
+		);
+		expect(after.language_reference).toBe(reference);
+		expect(after.content.senses[0]?.annotations).toEqual([
+			{
+				...KEPT,
+				field: 'gloss',
+				find: 'אבב',
+				printed: 'אבב',
+				source: 'P000001',
+			},
+		] as never);
+	});
+
+	it.each([
+		['the entry has no sense', []],
+		['the first sense is a stem', [{ definition: '', grammar: {} }]],
+	])('refuses an annotation where %s', (_name, senses) => {
+		expect(() =>
+			applyPatch(
+				withReference(senses as never),
+				human(rawReference(annotateReference)),
+			),
+		).toThrow(
+			'an annotation on language_reference rides the gloss head, and the entry has no first text sense to carry it',
+		);
+	});
+
+	it.each([
+		['label', { field: 'label' }],
+		['units', { field: 'units' }],
+		['a form field', { field: 'text', form: 0 }],
+	])(
+		'refuses annotate on %s: the field is folded into the gloss',
+		(_n, payload) => {
+			expect(reasons(rawReference({ ...annotateReference, payload }))).toEqual([
+				'annotate on a language_reference: target takes field gloss, the gloss head it is folded into',
+			]);
+		},
+	);
+
+	it('annotate fails loudly when the field it pins moved', () => {
+		const moved = { ...withReference(), language_reference: ' (b. h.)' };
+		expect(() =>
+			applyPatch(moved, human(rawReference(annotateReference))),
+		).toThrow('expected_before does not match language_reference');
+	});
+});
