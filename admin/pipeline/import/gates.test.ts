@@ -901,5 +901,39 @@ describe('checkContract (gate 10)', () => {
 				'A00002: patch P000001 applied with an annotation and wrote 2 annotations; it owes 3',
 			]);
 		});
+
+		// L67: an `annotate` naming a lettered child owes one annotation,
+		// and the gate finds it on the child, where the build put it.
+		it('counts an annotate whose note sits on lettered child d', async () => {
+			const kept = {
+				date: '2026-10-16',
+				evidence: 'print sets a ) that closes nothing',
+				field: 'units[0]' as const,
+				kind: 'kept' as const,
+				printed: ').',
+				source: 'P000001',
+				stored: ').',
+			};
+			const entry: Entry = {
+				...contractEntry('A00002', 'אבא'),
+				senses: [
+					{
+						gloss: 'g',
+						senses: ['a', 'b', 'c', 'd'].map((label) => ({
+							...(label === 'd' ? { annotations: [kept] } : {}),
+							gloss: 'g',
+							label,
+							units: label === 'd' ? ['v. x).'] : [],
+						})),
+						units: [],
+					},
+				],
+			};
+			expect(await run(entry, { A00002: ['P000001'] })).toEqual({
+				failures: [],
+				pass: 3,
+				total: 3,
+			});
+		});
 	});
 });

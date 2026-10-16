@@ -54,7 +54,7 @@
 {"disposition":"repaired","patches":["P000269"],"rid":"R00096"}
 {"disposition":"needs_human_judgment","escalation":"sense 4's \"[\" attaches to the end of sense 3 (print \"—[4)…\") — bracket move not yet decided (cmp. D00341)","patches":[],"rid":"R00519"}
 {"disposition":"repaired","patches":["P000271"],"rid":"S00490"}
-{"disposition":"repaired","patches":["P000272"],"rid":"S01040"}
+{"disposition":"repaired","patches":["P000272","P000827"],"rid":"S01040"}
 {"disposition":"repaired","patches":["P000274"],"rid":"S01230"}
 {"disposition":"repaired","patches":["P000275"],"rid":"S02030"}
 {"disposition":"repaired","patches":["P000276"],"rid":"U00261"}
@@ -491,7 +491,7 @@
 {"disposition":"repaired","patches":["P000817"],"rid":"M02423"}
 {"disposition":"repaired","patches":["P000818"],"rid":"M00712"}
 {"disposition":"repaired","patches":["P000819"],"rid":"Q01198"}
-{"disposition":"repaired","patches":["P000820"],"rid":"J00403"}
+{"disposition":"repaired","patches":["P000820","P000826"],"rid":"J00403"}
 {"disposition":"repaired","patches":["P000821"],"rid":"D00503"}
 {"disposition":"repaired","patches":["P000822","P000823"],"rid":"D00446"}
 {"disposition":"repaired","patches":["P000824"],"rid":"I00568"}

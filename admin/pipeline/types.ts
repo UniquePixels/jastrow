@@ -31,7 +31,14 @@ interface AnnotationNote {
 type SenseAnnotationDraft = AnnotationNote &
 	(
 		| { field: 'label' }
-		| { field: 'gloss' | 'gloss-or-units' | 'units'; find: string }
+		| {
+				/** The lettered child the text sits in (an `annotate`'s
+				 * `payload.child`, L67): the draft rides the host until the
+				 * build moves it onto that child. */
+				child?: string;
+				field: 'gloss' | 'gloss-or-units' | 'units';
+				find: string;
+		  }
 	);
 
 /** **NOT a Sefaria field.** A lettered run a reviewed `relabel` patch

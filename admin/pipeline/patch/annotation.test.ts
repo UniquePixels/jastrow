@@ -799,3 +799,101 @@ describe('language_reference: the annotation lands on the gloss head', () => {
 		).toThrow('expected_before does not match language_reference');
 	});
 });
+
+// L67: a lettered child exists only after the build splits its host's
+// text, so an `annotate` on one names the host as its target and the
+// child by its label (`payload.child`); the draft rides the host and
+// the build moves it onto the child (`body/lettered-children.ts`).
+describe('annotate on a lettered child: parsePatch (L67)', () => {
+	const onChild = (payload: Record<string, unknown>): Record<string, unknown> =>
+		raw({ annotation: KEPT, op: 'annotate', payload });
+
+	it.each([
+		['units', { child: 'd', field: 'units' }],
+		['gloss', { child: 'a', field: 'gloss' }],
+	])('takes a child on %s', (_name, payload) => {
+		expect(reasons(onChild(payload))).toEqual([]);
+		expect(parsePatch(onChild(payload)).payload).toEqual(payload as never);
+	});
+
+	it.each([
+		[
+			'a label',
+			{ child: 'd', field: 'label' },
+			'annotate payload.child is only for gloss and units',
+		],
+		[
+			'two letters',
+			{ child: 'dd', field: 'units' },
+			"annotate payload.child must be a lettered child's label, one letter a-z",
+		],
+		[
+			'a capital',
+			{ child: 'D', field: 'units' },
+			"annotate payload.child must be a lettered child's label, one letter a-z",
+		],
+		[
+			'a number',
+			{ child: 4, field: 'units' },
+			"annotate payload.child must be a lettered child's label, one letter a-z",
+		],
+	])('refuses a child on %s', (_name, payload, reason) => {
+		expect(reasons(onChild(payload))).toEqual([reason]);
+	});
+});
+
+describe('annotate on a lettered child: the targets that take none (L67)', () => {
+	it('refuses a child on a form field', () => {
+		expect(
+			reasons(
+				rawForms({
+					annotation: KEPT,
+					op: 'annotate',
+					payload: { child: 'd', field: 'text', form: 0 },
+				}),
+			),
+		).toEqual(['annotate payload.child is only for gloss and units']);
+	});
+
+	it('refuses a child on a language_reference: target', () => {
+		const reference = ' (b. h.; = אבא)';
+		expect(
+			reasons(
+				raw({
+					annotation: KEPT,
+					expected_before: reference,
+					op: 'annotate',
+					payload: { child: 'd', field: 'gloss' },
+					target: `language_reference:${contentAnchor(reference)}`,
+				}),
+			),
+		).toEqual([
+			'annotate on a language_reference: target takes no child: the gloss head it lands in is the host text, before any lettered child',
+		]);
+	});
+});
+
+describe('annotate on a lettered child: the draft rides the host (L67)', () => {
+	it('leaves the draft on the host, naming the child', () => {
+		const after = applyPatch(
+			makeEntry(),
+			human(
+				raw({
+					annotation: { ...KEPT, printed: 'Ber.' },
+					op: 'annotate',
+					payload: { child: 'd', field: 'units' },
+				}),
+			),
+		);
+		expect(after.content.senses[0]?.annotations).toEqual([
+			{
+				...KEPT,
+				child: 'd',
+				field: 'units',
+				find: 'Ber.',
+				printed: 'Ber.',
+				source: 'P000001',
+			},
+		] as never);
+	});
+});

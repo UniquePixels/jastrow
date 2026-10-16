@@ -53,7 +53,18 @@
 						"<cite ref=\"Zevachim 62b:8\">Zeb. 62ᵇ</cite>; <cite ref=\"Yoma 58b:1\">Yoma 58ᵇ</cite>; a. e.—Fem. form: <cite ref=\"J00406\"><he>יַמָּה</he></cite>. ",
 						"<cite ref=\"Jerusalem Talmud Shekalim 5:1:10\">Y. Shek. V, 48ᵈ</cite> <he>לְיַמָּתִי</he> (I offer a sacrifice) for my <i>yammah</i>, <he>סברין מימר שופעת כים</he> they thought she meant that she had a hemorrhage (flowing like a sea), <he>אמר לון בימה סכנת</he> said he to us, she was in danger on sea; <cite ref=\"Menachot 64b:5\">Men. 64ᵇ</cite>, v. <cite ref=\"G00262\"><he>זִיבָה</he></cite>)."
 					],
-					"label": "d"
+					"label": "d",
+					"annotations": [
+						{
+							"field": "units[1]",
+							"kind": "kept",
+							"printed": ").",
+							"stored": ").",
+							"evidence": "print sets a ) that closes nothing after v. זיבה (579b); kept as printed, ruling 10-13 case 3",
+							"source": "P000826",
+							"date": "2026-10-16"
+						}
+					]
 				}
 			]
 		}
