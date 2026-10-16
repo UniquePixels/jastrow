@@ -53,6 +53,7 @@ audit's predicate counts five more rows than §4's.
 | Round 2 (L46) | your ticks, applied under 10-13 | 16 questions | (iv), done in PR #177 |
 | Single-numeral cross-references whose target lacks the numeral | 222 determined retargets (case 1; the 10 above among them); 74 rows to read, in 48 worklist questions | 296 rows | (v); determined half (v-a) done in PR #178: 196 retargets |
 | P00790's Hif. run | case 2: `a b c d f g h` → `a b c d e f g` | 1 | after L59; done in PR #180: the `relabel` P000812, 3 annotations |
+| M00491's implied `1)`, which L36's split of its `—*2)` exposed | case 2: `retag`, annotated `printed: ''`, `stored: '1'`, as RP8's 61 | 1 | group 11 leftovers; done in PR #n: P000815 |
 | Past patches with no case | D00341's bracket move and G00675's disambiguator: no annotation | 3 | none |
 
 The mechanisms the data PRs lack or must confirm are collected at the
@@ -795,6 +796,18 @@ The three unclassified:
    [`../admin/pipeline/patch/records/tranches/lettered-relabel-2026-10-16/`](../admin/pipeline/patch/records/tranches/lettered-relabel-2026-10-16/README.md)).
    Blessing: 98 annotations written (96 print-error, 1 kept, 1
    illegible).
+7. **The group 11 data leftovers** (review ledger L36, L51, L57,
+   L61). Done in PR #n: 8 reviewed patches on 7 entries
+   (P000813–P000820) and a `join` rule. One is annotated: M00491's
+   first sense is unlabelled before print's `—*2)`, so splitting the
+   starred sense out leaves the RP8 shape, and P000815 numbers it
+   `1)` (case 2). The rest are case 1 or change no label: three
+   starred splits, one cite retarget, two restored `)`s, and a
+   `relabel` whose `to` is its `run` (J00403). The `join` now sets
+   print's space before the numeral as well as after it, which moves
+   20 entries by one space each, no patch. Blessing: 99 annotations
+   written (97 print-error, 1 kept, 1 illegible)
+   ([`../admin/pipeline/patch/records/tranches/leftovers-2026-10-16/`](../admin/pipeline/patch/records/tranches/leftovers-2026-10-16/README.md)).
 
 **Mechanisms the data PRs lack or must confirm:**
 
