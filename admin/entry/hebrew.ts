@@ -149,14 +149,14 @@ const CONFUSION_GROUPS: readonly string[] = [
 	'ףפ',
 ];
 
-const CONFUSION_OF = new Map<string, number>();
+/** Every group each letter sits in. A letter may sit in several (נ in
+ * the uprights and `גנ`, פ in `בכפמ` and `ףפ`), and each group pairs it
+ * with that group's letters only: two letters pair when they share a
+ * group, never through a third (review ledger L35). */
+const CONFUSION_OF = new Map<string, ReadonlySet<number>>();
 for (const [gi, group] of CONFUSION_GROUPS.entries()) {
 	for (const ch of group) {
-		// A letter may sit in several groups; the first is enough to pair it
-		// with its most frequent confusion partners.
-		if (!CONFUSION_OF.has(ch)) {
-			CONFUSION_OF.set(ch, gi);
-		}
+		CONFUSION_OF.set(ch, new Set([...(CONFUSION_OF.get(ch) ?? []), gi]));
 	}
 }
 
@@ -167,7 +167,10 @@ function substitutionCost(a: string, b: string): number {
 	}
 	const ga = CONFUSION_OF.get(a);
 	const gb = CONFUSION_OF.get(b);
-	return ga !== undefined && ga === gb ? 0.5 : 1;
+	if (ga === undefined || gb === undefined) {
+		return 1;
+	}
+	return [...ga].some((gi) => gb.has(gi)) ? 0.5 : 1;
 }
 
 /**

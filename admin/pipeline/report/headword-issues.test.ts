@@ -340,3 +340,57 @@ describe('buildHeadwordIssues: the X10 candidate', () => {
 		expect(note).toContain("Jastrow's text names `גִּבּ׳ I`");
 	});
 });
+
+describe('buildHeadwordIssues: X11 one-letter primary', () => {
+	// The opening of a letter's section: the letter, its numeral value
+	// and its prefix uses, each one consonant and all before the first
+	// word (review ledger L39).
+	const OPENING = [
+		withForms('H00000', ['ח']),
+		withForms('H00001', ['ח׳']),
+		withForms('F00002', ['וְ'], ['וּ']),
+		withForms('F00003', ['וַאֲדַר']),
+	];
+	const { csv: opening } = buildHeadwordIssues(OPENING, []);
+
+	it("a letter's opening entries are not reported", () => {
+		expect(rowsOf(opening, 'X11')).toEqual([]);
+	});
+
+	// The real entries: Sefaria split `חָרַת` and `תִּכְבּוֹסֶת` at a
+	// vowel, as it split U00489's `שׁוּף` before #179 rejoined it.
+	const { csv: split } = buildHeadwordIssues(
+		[
+			withForms('H00000', ['ח']),
+			withForms('H01791', ['חָרַשׁ']),
+			withForms('H01792', ['חָ'], ['רַ'], ['ת']),
+			withForms('V00523', ['תִּכְבּוֹן']),
+			withForms('V00524', ['תִּ'], ['כְבּוֹסֶת']),
+			withForms('V00525', ['ת']),
+		],
+		[],
+	);
+
+	it('a one-consonant primary past the opening is reported once', () => {
+		expect(rowsOf(split, 'X11')).toEqual([
+			['H01792', 'the line reads חָ, רַ, ת'],
+			['V00524', 'the line reads תִּ, כְבּוֹסֶת'],
+			['V00525', 'the line reads ת'],
+		]);
+	});
+
+	it('an abbreviation, a prefix or no letter past the opening is not X11', () => {
+		const { csv } = buildHeadwordIssues(
+			[
+				withForms('S00000', ['ק']),
+				withForms('S00010', ['קָבַל']),
+				withForms('S00011', ['ק׳']),
+				withForms('S00012', ['קָ־']),
+				// No letter at all (J00321's placeholder patah) is X1's.
+				withForms('S00013', ['\u05B7']),
+			],
+			[],
+		);
+		expect(rowsOf(csv, 'X11')).toEqual([]);
+	});
+});
