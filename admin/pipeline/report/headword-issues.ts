@@ -1030,9 +1030,10 @@ function oneLetterRows(inOrder: readonly Entry[]): IssueRow[] {
 			opening = true;
 		}
 		const text = entry.headwords[0]?.text ?? '';
-		const single = letterCount(text) <= 1;
-		opening &&= single;
-		if (opening || !single || GERESH.test(text) || text.includes(MAQAF)) {
+		const letters = letterCount(text);
+		opening &&= letters <= 1;
+		// No letter at all is X1's (a bare mark), not a split letter.
+		if (opening || letters !== 1 || GERESH.test(text) || text.includes(MAQAF)) {
 			continue;
 		}
 		rows.push({

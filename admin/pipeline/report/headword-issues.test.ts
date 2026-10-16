@@ -379,13 +379,15 @@ describe('buildHeadwordIssues: X11 one-letter primary', () => {
 		]);
 	});
 
-	it('an abbreviation or a prefix past the opening is not X11', () => {
+	it('an abbreviation, a prefix or no letter past the opening is not X11', () => {
 		const { csv } = buildHeadwordIssues(
 			[
 				withForms('S00000', ['ק']),
 				withForms('S00010', ['קָבַל']),
 				withForms('S00011', ['ק׳']),
 				withForms('S00012', ['קָ־']),
+				// No letter at all (J00321's placeholder patah) is X1's.
+				withForms('S00013', ['\u05B7']),
 			],
 			[],
 		);
