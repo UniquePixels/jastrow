@@ -270,7 +270,7 @@ it off both edges (review ledger L69): one space when neither field
 spaces the edge they meet at, read on the visible text, unless print
 sets the two tight there (the next field opens on `, . : ; ! ? ) ]`, a
 dash or a closing quote, or the one before ends on `(`, `[` or a dash,
-or a number runs across). Measured at PR #n: 6,161 seams in 4,884
+or a number runs across). Measured at PR #185: 6,161 seams in 4,884
 entries took a space (`m.(b. h.;` → `m. (b. h.;`, 1,948 of them; `ch.
 same<i>to tie</i>` → `ch. same <i>to tie</i>`), and the re-import
 changed those 4,884 files by inserted spaces in `senses[0]`'s gloss

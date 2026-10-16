@@ -184,7 +184,7 @@ path (`body/trace.ts`), and `finishEntry` writes `field` and `stored`
   `payload.form`, the parsed form's index; on a `language_reference:`
   target, `gloss` only, landing as a `replace`'s does. Only `kept`; `expected_before`
   pins the target, and a moved target is always `upstream-changed`.
-  **A lettered child** (review ledger L67, PR #n): the children exist
+  **A lettered child** (review ledger L67, PR #185): the children exist
   only once the build splits the host's text (`body/lettered.ts`), so
   a note on a child's `gloss` or `units` targets the host and names
   the child by its built label, `payload.child` (one letter; never on

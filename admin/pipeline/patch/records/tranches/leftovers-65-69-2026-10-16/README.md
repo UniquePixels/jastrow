@@ -2,7 +2,7 @@
 
 The rows PR #182 left in review ledger plan group 11
 ([`docs/review-ledger.md`](../../../../../../docs/review-ledger.md)):
-L65 to L69, PR #n, under ruling `10-13 correction policy`
+L65 to L69, PR #185, under ruling `10-13 correction policy`
 ([`docs/decisions.md`](../../../../../../docs/decisions.md) §9). Every
 edit is classified by the ruling's four cases; evidence is Jastrow's
 printed text (the hOCR under `data/print/hocr/`, the page index under
