@@ -492,6 +492,16 @@ describe('the submission log', () => {
 		expect(() => parseSubmissions(text)).toThrow('sefaria-submissions line 1');
 	});
 
+	it.each([['2026/10/16'], ['16-10-2026'], ['2026-13-01'], ['yesterday']])(
+		'refuses a date that is not a real YYYY-MM-DD: %s',
+		(date) => {
+			const bad = `{"batch":"b","date":"${date}","channel":"email","patch_ids":["P000001"],"response":""}`;
+			expect(() => parseSubmissions(bad)).toThrow(
+				`sefaria-submissions line 1: date "${date}" is not a YYYY-MM-DD date`,
+			);
+		},
+	);
+
 	it('reads an empty log as no batches', () => {
 		expect(parseSubmissions('')).toEqual([]);
 	});
