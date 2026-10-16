@@ -2338,10 +2338,12 @@ Recommendation: rejoin as `תִּכְבּוֹסֶת` (high): the scan sets one w
 ## Textual-research candidates (for #153)
 
 Your notes asked for these rows to go to a textual-research issue
-(review ledger L47). Nothing here was posted: each row is written so
-you can paste it into [#153](https://github.com/UniquePixels/jastrow/issues/153)
-yourself, or into the separate issue A00312's note asks for. Your
-notes are quoted as written. The scan is the leaf the row's question
+(review ledger L47). Nothing here was posted. The five X9 rows are
+already in [#153](https://github.com/UniquePixels/jastrow/issues/153)
+and are listed for reference only; the X8 rows and C00773 are new,
+written so you can paste them into #153 yourself, or into the
+separate issue A00312's note asks for. Your notes are quoted as
+written. The scan is the leaf the row's question
 linked.
 
 ### X9: no mark in print (5, already in #153)
