@@ -9,8 +9,9 @@ changes the data becomes a reviewed patch, and a "kept", "no word" or
 "can't tell" is recorded instead (a reviewed-kept record or the
 review ledger row), as each section's status says. The last section
 is not ticks: it is rows for you to paste into #153 (five of them are
-already there and are listed for reference). An
-item leaves this file when a PR applies it; its history (the answer,
+already there and are listed for reference). A ticked
+item leaves this file when a PR applies it, and the paste rows once
+you say they are posted; its history (the answer,
 what was written, the patch ids) lives in the worklists
 ([`headword-worklist.md`](headword-worklist.md),
 [`sense-worklist.md`](sense-worklist.md)) and the tranche READMEs
