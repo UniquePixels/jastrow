@@ -4,7 +4,12 @@ Every item that waits on the maintainer, and nothing else. Each block
 asks one question: tick ONE box per bullet, and write a `note:` only
 where the box you tick asks for one. A block's `Recommendation:` is a
 default you can accept by ticking the box it names. When you are
-done, say "checklist done", and the ticks are turned into patches. An
+done, say "checklist done", and a PR applies the ticks: an answer that
+changes the data becomes a reviewed patch, and a "kept", "no word" or
+"can't tell" is recorded instead (a reviewed-kept record or the
+review ledger row), as each section's status says. The last section
+is not ticks: it is rows for you to paste into #153 (five of them are
+already there and are listed for reference). An
 item leaves this file when a PR applies it; its history (the answer,
 what was written, the patch ids) lives in the worklists
 ([`headword-worklist.md`](headword-worklist.md),
