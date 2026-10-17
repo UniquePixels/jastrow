@@ -416,7 +416,8 @@ higher) reads 219 and 77 here with the five added.
 
 **The 74 rows to read** ((a) to read, (b), (c), (d)) are a new
 worklist section, one question per family and numeral, 48 questions:
-[`headword-worklist.md` § Cross-reference numerals (2026-10-14)](headword-worklist.md#cross-reference-numerals-2026-10-14).
+[`maintainer-checklist.md` § Cross-reference numerals (2026-10-14)](maintainer-checklist.md#cross-reference-numerals-2026-10-14),
+moved there from `headword-worklist.md` in PR #PRNUM.
 (b) is there too, beyond what (c) and (d) alone would need: a single
 bare member is a candidate, not a proof, and reading the 13 (b)
 families shows why (the bare member is sometimes the target itself or
@@ -710,7 +711,7 @@ table.
 
 ### 5.2 (b): one bare member (15)
 
-In the worklist, for the reason above; listed here as the population.
+In the worklist (since PR #PRNUM, [`maintainer-checklist.md`](maintainer-checklist.md) § Cross-reference numerals), for the reason above; listed here as the population.
 
 | # | citing rid | the cite in context | Sefaria links | the one bare member | family | scan |
 |---|---|---|---|---|---|---|
@@ -789,7 +790,9 @@ The three unclassified:
    and the two through the new `language_reference:` target, the 6
    to the `ch.` line under ruling `10-15 ch. cross-reference`. The
    determined half is complete. The 74-row worklist half waits on the
-   maintainer's ticks.
+   maintainer's ticks, in
+   [`maintainer-checklist.md`](maintainer-checklist.md) § Cross-reference
+   numerals since PR #PRNUM.
 6. **P00790**, after L59. Done in PR #180: L59's mechanism is the new
    reviewed op `relabel`, and P000812 relabels the Hif. run
    (`docs/correction-audit.md` §4;
