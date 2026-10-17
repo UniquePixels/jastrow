@@ -4,7 +4,7 @@
 
 **2026-10-16 (b), the open sections moved.** Everything here that
 waits on you is now in [`maintainer-checklist.md`](maintainer-checklist.md)
-(PR #PRNUM), cut from this file, not copied: § Cross-reference numerals
+(PR #186), cut from this file, not copied: § Cross-reference numerals
 (48 questions), § Cross-reference spellings (17 blocks), § Scan reads
 for L65–L66 (3 blocks), § X11 (2 blocks), and § Textual-research
 candidates, the rows you paste into #153. Each heading below keeps one
@@ -2311,11 +2311,11 @@ at S00064 (`קְבל` IV, no patah); that question is in pile C.
 
 ## X11: one-letter primaries (2026-10-15)
 
-Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § X11: one-letter primaries (2026-10-15) on 2026-10-16 (PR #PRNUM); it returns here as history when applied.
+Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § X11: one-letter primaries (2026-10-15) on 2026-10-16 (PR #186); it returns here as history when applied.
 
 ## Textual-research candidates (for #153)
 
-Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Textual-research candidates (for #153) on 2026-10-16 (PR #PRNUM); it returns here as history when pasted.
+Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Textual-research candidates (for #153) on 2026-10-16 (PR #186); it returns here as history when pasted.
 
 ## How this was produced
 
@@ -2407,12 +2407,12 @@ it: re-run the report before working this list.
 
 ## Cross-reference numerals (2026-10-14)
 
-Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals (2026-10-14) on 2026-10-16 (PR #PRNUM); it returns here as history when applied.
+Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals (2026-10-14) on 2026-10-16 (PR #186); it returns here as history when applied.
 
 ## Cross-reference spellings (2026-10-16)
 
-Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference spellings (2026-10-16) on 2026-10-16 (PR #PRNUM); it returns here as history when applied.
+Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference spellings (2026-10-16) on 2026-10-16 (PR #186); it returns here as history when applied.
 
 ## Scan reads for L65–L66 (2026-10-16)
 
-Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Scan reads for L65–L66 (2026-10-16) on 2026-10-16 (PR #PRNUM); it returns here as history when applied.
+Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Scan reads for L65–L66 (2026-10-16) on 2026-10-16 (PR #186); it returns here as history when applied.

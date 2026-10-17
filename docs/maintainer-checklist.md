@@ -11,7 +11,7 @@ what was written, the patch ids) lives in the worklists
 [`sense-worklist.md`](sense-worklist.md)) and the tranche READMEs
 under
 [`admin/pipeline/patch/records/tranches/`](../admin/pipeline/patch/records/tranches/).
-Started 2026-10-16 (PR #PRNUM) by moving the open sections out of
+Started 2026-10-16 (PR #186) by moving the open sections out of
 `headword-worklist.md`; `sense-worklist.md` has no unticked question.
 
 | section | items | source PR | ledger row |
