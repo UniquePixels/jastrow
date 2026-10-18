@@ -5,10 +5,11 @@
 **2026-10-18, the checklist split for go-live.** By your ruling of
 2026-10-18 (your blocker definition, review ledger § Definitions),
 [`maintainer-checklist.md`](maintainer-checklist.md) keeps § Cross-reference
-spellings, § X11 and the 8 cross-reference numeral questions you
-answered that day; the other 40 numeral questions and the 3 scan reads
-moved to [`post-go-live-review.md`](post-go-live-review.md), to be
-worked after go-live. The pointer lines below name both files.
+spellings, § X11, the 18 cross-reference numeral questions whose
+answer can rename an entry, and the 8 you answered that day; the other
+22 numeral questions and the 3 scan reads moved to
+[`post-go-live-review.md`](post-go-live-review.md), to be worked after
+go-live. The pointer lines below name both files.
 
 **2026-10-16 (b), the open sections moved.** Everything here that
 waits on you is now in [`maintainer-checklist.md`](maintainer-checklist.md)
@@ -2415,7 +2416,7 @@ it: re-run the report before working this list.
 
 ## Cross-reference numerals (2026-10-14)
 
-Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals (2026-10-14) on 2026-10-16 (PR #186), then split on 2026-10-18: the 8 questions answered that day are in [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals: answered 2026-10-18 (8), and the other 40, deferred past go-live, in [docs/post-go-live-review.md](post-go-live-review.md) § Cross-reference numerals (2026-10-14). Each returns here as history when applied.
+Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals (2026-10-14) on 2026-10-16 (PR #186), then split on 2026-10-18: the 8 questions answered that day are in [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals: answered 2026-10-18 (8), the 18 that may rename an entry in § Cross-reference numerals: may rename an entry (18) there, and the other 22, deferred past go-live, in [docs/post-go-live-review.md](post-go-live-review.md) § Cross-reference numerals (2026-10-14). Each returns here as history when applied.
 
 ## Cross-reference spellings (2026-10-16)
 

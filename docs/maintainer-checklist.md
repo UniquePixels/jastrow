@@ -6,11 +6,13 @@ under your blocker definition
 the pre-publication items, the answers that change a `headwords[0]`:
 the URL name is computed from it, and a name changed after go-live
 costs a redirect forever (U6; redirects are unbuilt, L23). That is
-§ Cross-reference spellings and § X11, 19 blocks. The 8
-cross-reference numeral questions you answered on 2026-10-18 stay too,
-since the work is done; the other 40 and the 3 scan reads for L65–L66
-moved, byte for byte, to [`post-go-live-review.md`](post-go-live-review.md),
-to be worked after go-live as GitHub issues. Each block asks one
+§ Cross-reference spellings and § X11, 19 blocks, and the 18
+cross-reference numeral questions whose answer can set a numeral on a
+`headwords[0]` (brought back by the same ruling). The 8 numeral
+questions you answered on 2026-10-18 stay too, since the work is done;
+the other 22 and the 3 scan reads for L65–L66 moved, byte for byte, to
+[`post-go-live-review.md`](post-go-live-review.md), to be worked after
+go-live as GitHub issues. Each block asks one
 question: tick ONE box per bullet, and write a `note:` only where the
 box you tick asks for one. A block's `Recommendation:` is a default
 you can accept by ticking the box it names. When you are done, say
@@ -32,6 +34,7 @@ Started 2026-10-16 (PR #186) by moving the open sections out of
 |---|---|---|---|
 | [Cross-reference spellings (2026-10-16)](#cross-reference-spellings-2026-10-16) | 17 blocks, 19 entries | #184 | L72 |
 | [X11: one-letter primaries (2026-10-15)](#x11-one-letter-primaries-2026-10-15) | 2 blocks | #181 | L39 |
+| [Cross-reference numerals: may rename an entry (18)](#cross-reference-numerals-may-rename-an-entry-18) | 18 questions, 31 cites | #173 | L64 |
 | [Cross-reference numerals: answered 2026-10-18 (8)](#cross-reference-numerals-answered-2026-10-18-8) | 8 questions, 9 cites, all ticked | #173 | L64 |
 | [Textual-research candidates (for #153)](#textual-research-candidates-for-153) | 18 rows to paste (23 listed; 5 already in #153) | #181 | L47 |
 
@@ -560,11 +563,542 @@ Print sets one word, `תִּכְבּוֹסֶת`, then `f. (כָּבַס) washing
 
 Recommendation: rejoin as `תִּכְבּוֹסֶת` (high): the scan sets one word, and the two stored pieces concatenate to it with no letter added or lost.
 
+## Cross-reference numerals: may rename an entry (18)
+
+These 18 questions are pre-publication: an answer can set a homograph
+numeral on `headwords[0]`, and the URL name is `headwords[0]` with its
+numeral, so the name changes. Changed after go-live, each would need a
+redirect, and redirects are unbuilt (U6, L23), so your ruling of
+2026-10-18 brought them back from
+[`post-go-live-review.md`](post-go-live-review.md); how to read the
+blocks is in that file's § Cross-reference numerals (2026-10-14).
+
+| cites | text | class | question in five words | recommendation | confidence |
+|---|---|---|---|---|---|
+| P00639 | `חֵיפָא III` | one bare member | where is חֵיפָא III? | kept | low |
+| N00660 | `נוֹחַ I` | target numbered otherwise | N00342 takes I? | yes: case 2 I | high |
+| O00123, O00154, O00159, O00249, O00550, O00554 | `סְגֵי I` | a carrier, not settled | which סְגֵי I, סַגִּי I? | O00120; O00123 takes I | high / medium |
+| P01275 | `עֵרָבוֹן II` | one bare member | P01273 takes II? | yes: case 2 II | high |
+| U00126, U00779, U00807 | `שַׁב I` | no carrier | U00059 is שַׁב I? | U00059; scan decides | high / low |
+| U00107, U00801 | `שְׁבַט II` | target numbered otherwise | U00105 is שְׁבַט II? | U00105 is the II | high |
+| U00362, U00518 | `שְׁוַוח II` | target numbered otherwise | U00344 II, U00345 III? | yes; III dropped | high |
+| U00835 | `שַׁוְיָא II` | one bare member | U00396 is שַׁוְיָא II? | U00396 is the II | high |
+| U01637 | `שׁוּעַ I` | no carrier | which entry is שׁוּעַ I? | U00475 | low |
+| N01120 | `שׁוּתָא III` | target numbered otherwise | U00583, and its numeral? | U00583; I, II dropped | medium / high |
+| U01064, U01066 | `שֵׁירוּתָא III` | target numbered otherwise | U01071 is the III? | yes; II, III dropped | high |
+| U01112, U02071 | `שִׁית IV` | one bare member | U01103 is שִׁית IV? | U01103 is the IV | high |
+| U01502 | `שָׁמִין II` | one bare member | print sets II on U01470? | yes: case 1 | high |
+| U01503 | `שָׁמֵן II` | target numbered otherwise | U01498 is שָׁמֵן II? | U01498 is the II | high |
+| U02059 | `שֵׁשׁ III` | one bare member | U02056 is שֵׁשׁ III? | U02056 is the III | high |
+| V00277, V00282 | `תּוֹר III` | target numbered otherwise | print sets III on V00275? | yes: case 1 | high |
+| V00570 | `תַּלְמָא II` | one bare member | print sets II on V00600? | yes: case 1 | high |
+| T00434, V00848 | `תְּפֵי I` | no carrier | V00815 I, V00816 II? | yes; II dropped | high |
+
+### `חֵיפָא III`: P00639 (one bare member)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [H00839](https://jastrow.app/#rid:H00839) | `חֵיפָא I` | `attack, Targ. Prov, XXVIII, 4 (h, text Dow), Ih, I, 8` | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
+| [H00840](https://jastrow.app/#rid:H00840) | `חֵיפָא II` | no line matched | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
+| [H00841](https://jastrow.app/#rid:H00841) | `חִיפָּא` | no line matched | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
+| [H00843](https://jastrow.app/#rid:H00843) | `חֵיפָה I, חֵיפָא, בֵּית ח׳` | `a harbor of the Mediterranean Sea, south of` | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [P00639](https://jastrow.app/#rid:P00639): …pr. n. m.ʿEfa, v. **חֵיפָא III**.… Sefaria links it to H00840 `חֵיפָא II`. [1073b · leaf 396](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$397/full/1400,/0/default.jpg)
+
+P00639 `עֵיפָא II` (pr. n. m. ʿEfa) reads `v. חֵיפָא III`; Sefaria links H00840 `חֵיפָא II` (pr. n. pl., v. Haifa). The family numbers I and II only; H00841 `חִיפָּא` (border in webs) is the only bare member and is no proper name.
+
+**Question.** Which entry is Jastrow's `חֵיפָא III`?
+
+- **P00639**
+  - [ ] none in the data: print's III names a word Sefaria lacks; the link stays (case 3: `kept` on the cite)
+  - [ ] H00840: print's `III` is a slip for `II` (case 2: the cite's text annotated)
+  - [ ] H00841 takes III (case 2)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: kept (low): a personal name ʿEfa matches no stored `חֵיפָא`; read the column for a third `חֵיפָא` line.
+
+### `נוֹחַ I`: N00660 (target numbered otherwise)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [N00340](https://jastrow.app/#rid:N00340) | `נוּחַ` | `"j (b. h.) to rest, lie; to be at ease, rest satisfied. —` | [885b · leaf 208](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$209/full/1400,/0/default.jpg) |
+| [N00341](https://jastrow.app/#rid:N00341) | `נוּחַ` | `vQ ch. same; part. pass. f»3. Targ. Y. Deut. XXII, 11` | [885b · leaf 208](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$209/full/1400,/0/default.jpg) |
+| [N00342](https://jastrow.app/#rid:N00342) | `נוֹחַ` | `nlO m. (b. h. ; preced.) rest; satisfaction. Tosef. Sot.` | [886b · leaf 209](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$210/full/1400,/0/default.jpg) |
+| [N00343](https://jastrow.app/#rid:N00343) | `נוֹחַ II, נוֹחָה` | no line matched | [886b · leaf 209](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$210/full/1400,/0/default.jpg) |
+| [N00344](https://jastrow.app/#rid:N00344) | `נוֹחַ III` | no line matched | [886b · leaf 209](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$210/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [N00660](https://jastrow.app/#rid:N00660): …m. = h. **נוֹחַ I**, … Sefaria links it to N00343 `נוֹחַ II, נוֹחָה`. [904a · leaf 227](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$228/full/1400,/0/default.jpg)
+
+N00660 `נְיָיח` (rest) reads `m. = h. נוֹחַ I`; Sefaria links N00343 `נוֹחַ II`. N00342 `נוֹחַ` (rest; satisfaction) is the noun meant, and the headword report already names it as N00343's implied-I candidate (X10). No numeral is visible before its `m.` in the hOCR (`nlO m. (b. h. ; preced.) rest`).
+
+**Question.** Does `נוֹחַ I` make N00342 the I?
+
+- **N00342**
+  - [ ] yes: N00342 takes I (case 2: Jastrow's text names `נוֹחַ I`; annotated, displayed) and the cite is retargeted
+  - [ ] print sets I beside N00342 (case 1)
+  - [ ] no (say why in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes, case 2 (high): the text names the I, the meaning matches, and X10 already points at N00342.
+
+### `סְגֵי I`: O00123, O00154, O00159, O00249, O00550, O00554 (a carrier, not settled)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [O00120](https://jastrow.app/#rid:O00120) | `סְגֵי, סְגָא I` | `VTn, 11) 1) io swell, rise, grow, spread, increase, thrive.` | [953b · leaf 276](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$277/full/1400,/0/default.jpg) |
+| [O00121](https://jastrow.app/#rid:O00121) | `סְגֵי, סְגָא II` | no line matched | [954a · leaf 277](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$278/full/1400,/0/default.jpg) |
+| [O00122](https://jastrow.app/#rid:O00122) | `סְגֵי III, סַגְיָא I` | `Targ. Gen. XXXII, 13 (12) Xg^D (0. ed. Vien. ">apa; some` | [954a · leaf 277](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$278/full/1400,/0/default.jpg) |
+| [O00123](https://jastrow.app/#rid:O00123) | `סַגִּי, סַגִּיא, סַגִּיאָה` | no line matched | [954a · leaf 277](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$278/full/1400,/0/default.jpg) |
+| [O00124](https://jastrow.app/#rid:O00124) | `סַגִּי, סַגִּיא II` | `is no way, it is impossible. Keth. 95 b Mb 13M"1 xbl '0 nb` | [954b · leaf 277](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$278/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [O00123](https://jastrow.app/#rid:O00123): …spreading, v. **סְגֵי I**. I.… Sefaria links it to O00121 `סְגֵי, סְגָא II`. [954a · leaf 277](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$278/full/1400,/0/default.jpg)
+- [O00154](https://jastrow.app/#rid:O00154): …m.(b. h.  v. **סְגֵי I**; cmp. רַב) grandee, chief, vi… Sefaria links it to O00121 `סְגֵי, סְגָא II`. [955b · leaf 278](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$279/full/1400,/0/default.jpg)
+- [O00159](https://jastrow.app/#rid:O00159): …f. pl. (v. **סְגֵי I**, cmp. מוּרְבִּית) [made of tw… Sefaria links it to O00121 `סְגֵי, סְגָא II`. hOCR: `ni'J^P f. pi. (v. i3p I, cmp. pia^a) [made of twigs,`. [955b · leaf 278](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$279/full/1400,/0/default.jpg)
+- [O00249](https://jastrow.app/#rid:O00249): …much, very, v. **סַגִּי I**.… Sefaria links it to O00124 `סַגִּי, סַגִּיא II`. [961a · leaf 284](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$285/full/1400,/0/default.jpg)
+- [O00550](https://jastrow.app/#rid:O00550): …m. (v. **סְגֵי I**; cmp. סוּגְיָינָא; for the ap… Sefaria links it to O00121 `סְגֵי, סְגָא II`. hOCR: `TO II m. (v. iad I; cmp. M^Mb; for the apocopate`. [975a · leaf 298](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$299/full/1400,/0/default.jpg)
+- [O00554](https://jastrow.app/#rid:O00554): …m. (constr. of סֵיגְוָא; **סְגֵי I**) plenty of, much; very. … Sefaria links it to O00121 `סְגֵי, סְגָא II`. hOCR: `WD, *lSO m. (constr. of Nia^d; ">ad I) plenty of, much;`. [975b · leaf 298](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$299/full/1400,/0/default.jpg)
+
+Five cites read `סְגֵי I` for `to grow, increase` (O00123 `spreading`, O00154 `grandee`, O00159, O00550, O00554 `plenty of, much`); Sefaria links them to O00121 `סְגֵי, סְגָא II`. Two entries carry I: O00120 `סְגֵי, סְגָא I` (to swell, rise, grow, increase) and O00122 `סְגֵי III, סַגְיָא I` (multitude), whose I numbers its alternate `סַגְיָא`. The sixth, O00249 `סוּגּוּ` (much, very), reads `v. סַגִּי I`; Sefaria links O00124 `סַגִּי, סַגִּיא II` (impossible), and O00123 `סַגִּי, סַגִּיא, סַגִּיאָה` is the bare member X10 names for O00124's I.
+
+**Question.** Which entries are `סְגֵי I` and `סַגִּי I`?
+
+- **O00123, O00154, O00159, O00550, O00554 (`סְגֵי I`)**
+  - [ ] O00120: retarget all five (case 1)
+  - [ ] O00122
+  - [ ] something else (say what in the note)
+  - [ ] can't tell from the scan
+  - note: 
+- **O00249 (`סַגִּי I`)**
+  - [ ] O00123 takes I (case 2: Jastrow's text names `סַגִּי I`; annotated) and the cite moves to it
+  - [ ] O00120 (the verb)
+  - [ ] something else (say what in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: O00120 for the five (high: its gloss is the meaning they quote); O00123 for O00249 (medium: the cite's spelling, and the form X10 names).
+
+### `עֵרָבוֹן II`: P01275 (one bare member)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [P01272](https://jastrow.app/#rid:P01272) | `עֵרָבוֹן, עֵי׳ I` | no line matched | [1112b · leaf 435](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$436/full/1400,/0/default.jpg) |
+| [P01273](https://jastrow.app/#rid:P01273) | `עֵרָבוֹן, עֵי׳` | `VCnS?, ^V m. (b. h.; 31SI) 1) pledge, earnest-money.` | [1112b · leaf 435](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$436/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [P01275](https://jastrow.app/#rid:P01275): …n transactions between a man and his neighbor (v. **עֵרָבוֹן II**); Yalk. ib. 150. … Sefaria links it to P01273 `עֵרָבוֹן, עֵי׳`. hOCR: `from going security in transactions between a man and`. [1113a · leaf 436](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$437/full/1400,/0/default.jpg)
+
+P01275 `עֲרֵבוּת` reads `(v. עֵרָבוֹן II)` for going security, and Sefaria links it to P01273 `עֵרָבוֹן, עֵי׳` (pledge), which carries no numeral; P01272 `עֵרָבוֹן, עֵי׳ I` (mingling) is the I. The hOCR shows none on P01273 (`VCnS?, ^V m. (b. h.; 31SI) 1) pledge`).
+
+**Question.** Does P01273 take II?
+
+- **P01273**
+  - [ ] yes: P01273 takes II (case 2: Jastrow's text names `עֵרָבוֹן II`; annotated, displayed); the link already points there
+  - [ ] print sets II beside P01273 (case 1)
+  - [ ] no: kept as printed (case 3)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes, case 2 (high): the family has an I and no II, and the text names the II with the meaning P01273 carries.
+
+### `שַׁב I`: U00126, U00779, U00807 (no carrier)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U00058](https://jastrow.app/#rid:U00058) | `שֵׁב` | no line matched | [1509b · leaf 832](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$833/full/1400,/0/default.jpg) |
+| [U00059](https://jastrow.app/#rid:U00059) | `שַׁב, שֵׁב, שֵׁיב` | `Targ/o. Gen. XXIX, 27, sq. ed. Berl. (oth. ed. Xn313i3 ;` | [1509b · leaf 832](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$833/full/1400,/0/default.jpg) |
+| [U00060](https://jastrow.app/#rid:U00060) | `שַׁב, שַׁבָּא, שׁוּבָּא` | no line matched | [1509b · leaf 832](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$833/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [U00126](https://jastrow.app/#rid:U00126): …, v. **שַׁב I**… Sefaria links it to U00060 `שַׁב, שַׁבָּא, שׁוּבָּא`. [1514a · leaf 837](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$838/full/1400,/0/default.jpg)
+- [U00779](https://jastrow.app/#rid:U00779): …seven, v. **שַׁב I**.… Sefaria links it to U00060 `שַׁב, שַׁבָּא, שׁוּבָּא`. [1556a · leaf 879](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$880/full/1400,/0/default.jpg)
+- [U00807](https://jastrow.app/#rid:U00807): …, v. **שַׁב I**… Sefaria links it to U00060 `שַׁב, שַׁבָּא, שׁוּבָּא`. [1557b · leaf 880](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$881/full/1400,/0/default.jpg)
+
+Three cites (U00126 `שְׁבִיסְרָאָה`, U00779 `שֵׁיב` seven, U00807 `שֵׁיבְסַר`) read `v. שַׁב I`; Sefaria links U00060 `שַׁב, שַׁבָּא, שׁוּבָּא` (pre-eminence). U00059 `שַׁב, שֵׁב, שֵׁיב` (= h. `שֶׁבַע`, seven) is the word all three quote. No member carries a numeral.
+
+**Question.** Which entry is Jastrow's `שַׁב I`, and does print number it?
+
+- **U00126, U00779, U00807**
+  - [ ] U00059, and print sets I on it and II on U00060: dropped by Sefaria (case 1); retarget the three
+  - [ ] U00059 takes I from these cites (case 2, annotated); retarget the three
+  - [ ] U00059, retarget only; no numeral set
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: U00059 (high for the target); the numeral is the scan's to decide (low).
+
+### `שְׁבַט II`: U00107, U00801 (target numbered otherwise)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U00102](https://jastrow.app/#rid:U00102) | `שָׁבַט` | `the weaving rod, to make the iveb close (v. Sm. Ant. s. v.` | [1512b · leaf 835](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$836/full/1400,/0/default.jpg) |
+| [U00103](https://jastrow.app/#rid:U00103) | `שְׁבַט I` | `»w I ch. (v. preced.) to strike tvith the rod, to beat.` | [1512b · leaf 835](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$836/full/1400,/0/default.jpg) |
+| [U00104](https://jastrow.app/#rid:U00104) | `שֵׁבֶט` | no line matched | [1512b · leaf 835](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$836/full/1400,/0/default.jpg) |
+| [U00105](https://jastrow.app/#rid:U00105) | `שְׁבַט, שִׁבְטָא, שֵׁיבַט, שִׁיבְטָא, שׁוּ׳` | `1 ) rod, sfa/f. Targ. Prov. XXII, 8. Ib. X, 13 (Ar. a. Levita` | [1513a · leaf 836](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$837/full/1400,/0/default.jpg) |
+| [U00106](https://jastrow.app/#rid:U00106) | `שְׁבָט` | `of the Jewish calendar, of thirty days, beginning between` | [1513a · leaf 836](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$837/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [U00107](https://jastrow.app/#rid:U00107): …, v. **שְׁבַט II**… Sefaria links it to U00103 `שְׁבַט I`. [1513a · leaf 836](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$837/full/1400,/0/default.jpg)
+- [U00801](https://jastrow.app/#rid:U00801): …, v. **שְׁבַט II**… Sefaria links it to U00103 `שְׁבַט I`. [1557b · leaf 880](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$881/full/1400,/0/default.jpg)
+
+U00107 `שִׁבְטָא` and U00801 `שֵׁיבַט, שִׁיבְטָא` read `v. שְׁבַט II`; Sefaria links U00103 `שְׁבַט I` (ch., to strike with the rod). Both citing headwords are alternates of U00105 `שְׁבַט, שִׁבְטָא, שֵׁיבַט, שִׁיבְטָא, שׁוּ׳` (rod, staff), which carries no numeral; the family has an I and no II.
+
+**Question.** Is U00105 Jastrow's `שְׁבַט II`?
+
+- **U00105**
+  - [ ] yes, print sets II on it: dropped by Sefaria (case 1); retarget both
+  - [ ] yes, print sets none: U00105 takes II (case 2, annotated); retarget both
+  - [ ] no (say which in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high for the target): the citing headwords are U00105's own alternates; the scan decides case 1 or 2.
+
+### `שְׁוַוח II`: U00362, U00518 (target numbered otherwise)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U00343](https://jastrow.app/#rid:U00343) | `שְׁוַוח I` | `XXVII, 25 ed. Lag. (some ed. n"r, corr. ace; ed. Wil.` | [1529b · leaf 852](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$853/full/1400,/0/default.jpg) |
+| [U00344](https://jastrow.app/#rid:U00344) | `שְׁוַוח, שְׁוַח, שׁוּחַ` | no line matched | [1529b · leaf 852](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$853/full/1400,/0/default.jpg) |
+| [U00345](https://jastrow.app/#rid:U00345) | `שְׁוַוח, שְׁוַח` | `m Vj III, nid m. (preced.) pit. Targ. Pa. VII, 16` | [1530a · leaf 853](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$854/full/1400,/0/default.jpg) |
+| [U00346](https://jastrow.app/#rid:U00346) | `שַׁוַּוח, שַׁוַּח` | `Targ. Job XXII, 29 tOrVHOa 'ID troubled on account of sin` | [1530a · leaf 853](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$854/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [U00362](https://jastrow.app/#rid:U00362): … ch. same, v. **שְׁוַוח II**.—Part. שָׁיֵחַ; f. שָׁיְחָא, … Sefaria links it to U00343 `שְׁוַוח I`. hOCR: `HID, ITtp ch. same, v.niyr II.— Part. tT^D; f. fctrrr,`. [1530b · leaf 853](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$854/full/1400,/0/default.jpg)
+- [U00518](https://jastrow.app/#rid:U00518): …, Targ. Ps. LXXIV, 3 משווק, משוק, v. **שְׁוַוח II**… Sefaria links it to U00343 `שְׁוַוח I`. hOCR: `p"l©, Targ. Ps. LXXIV, 3 pYlBO, plttJO, v. Wf*k} II.`. [1540b · leaf 863](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$864/full/1400,/0/default.jpg)
+
+U00362 `שׁוּחַ, שְׁיַח` (`ch. same, v. שְׁוַוח II`) and U00518 read `v. שְׁוַוח II`; Sefaria links U00343 `שְׁוַוח I`. U00344 `שְׁוַוח, שְׁוַח, שׁוּחַ` (= h. `שׁוּחַ`) is the II the first quotes. Sefaria dropped numerals in this family: the hOCR reads U00345 (pit) as `m Vj III, nid m. (preced.) pit.`, a III the data lacks.
+
+**Question.** Is U00344 Jastrow's `שְׁוַוח II` (and U00345 its III)?
+
+- **U00344**
+  - [ ] yes, and print sets II on it: case 1; retarget both cites
+  - [ ] yes, print sets none: U00344 takes II (case 2, annotated); retarget both
+  - [ ] no (say which in the note)
+  - [ ] can't tell from the scan
+  - note: 
+- **U00345**
+  - [ ] print sets III: dropped by Sefaria (case 1, `reform.homographs`, displayed)
+  - [ ] no numeral in print
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: U00344 is the II and U00345 takes III (high): the hOCR shows U00345's III, and U00362 is U00344's own `ch. same` spelling.
+
+### `שַׁוְיָא II`: U00835 (one bare member)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U00395](https://jastrow.app/#rid:U00395) | `שָׁוְי, שַׁוְיָא I` | no line matched | [1533a · leaf 856](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$857/full/1400,/0/default.jpg) |
+| [U00396](https://jastrow.app/#rid:U00396) | `שַׁוְיָא, שַׁוְויָא, שִׁיוְו׳, שִׁוּוּיָא, שִׁיוּוּ׳` | `Cy~) [that which is levelled, smooth,] couch. Targ. Y.` | [1533a · leaf 856](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$857/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [U00835](https://jastrow.app/#rid:U00835): …, v. **שַׁוְיָא II**… Sefaria links it to U00395 `שָׁוְי, שַׁוְיָא I`. [1558b · leaf 881](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$882/full/1400,/0/default.jpg)
+
+U00835 `שִׁיוְוָיא, שִׁיוּוּיָא` reads `v. שַׁוְיָא II`; Sefaria links U00395 `שָׁוְי, שַׁוְיָא I`. The citing headwords are alternates of U00396 `שַׁוְיָא, שַׁוְויָא, שִׁיוְו׳, …` (couch), the only bare member.
+
+**Question.** Is U00396 Jastrow's `שַׁוְיָא II`?
+
+- **U00396**
+  - [ ] yes, print sets II on it: case 1; retarget
+  - [ ] yes, print sets none: U00396 takes II (case 2, annotated); retarget
+  - [ ] no (say which in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high for the target): the citing headwords are U00396's alternates; the scan decides case 1 or 2.
+
+### `שׁוּעַ I`: U01637 (no carrier)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U00475](https://jastrow.app/#rid:U00475) | `שׁוּעַ` | no line matched | [1537b · leaf 860](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$861/full/1400,/0/default.jpg) |
+| [U00476](https://jastrow.app/#rid:U00476) | `שׁוּעַ` | `51123 oh. same, l)[to smooth over,] to plaster. Targ.O.` | [1538a · leaf 861](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$862/full/1400,/0/default.jpg) |
+| [U00477](https://jastrow.app/#rid:U00477) | `שָׁוַע` | no line matched | [1538a · leaf 861](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$862/full/1400,/0/default.jpg) |
+| [U00478](https://jastrow.app/#rid:U00478) | `שׁוֹעַ` | `E. introd.(E.Joh 1) (ref. to Is. XXII, 5) ^..."pp-ipa 1TI1D` | [1538a · leaf 861](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$862/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [U01637](https://jastrow.app/#rid:U01637): …Gen. R. s. 44 היה לבו רפה כש׳, v. **שׁוּעַ I**. … Sefaria links it to U00476 `שׁוּעַ`. [1610a · leaf 933](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$934/full/1400,/0/default.jpg)
+
+U01637 `שַׁעֲוָה` (wax) reads `v. שׁוּעַ I`; Sefaria links U00476 `שׁוּעַ` (ch. same, to smooth over, plaster). No member carries a numeral: U00475 `שׁוּעַ` (Hebrew, cmp. `שעע`), U00476 its `ch. same`, U00477 `שָׁוַע`, U00478 `שׁוֹעַ` (rock).
+
+**Question.** Which entry is Jastrow's `שׁוּעַ I`?
+
+- **U01637**
+  - [ ] U00475 (the Hebrew verb): retarget; numeral as print sets it (say in the note)
+  - [ ] U00476 (as linked): kept (case 3: `kept` on the cite)
+  - [ ] something else (say what in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: U00475 (low): `wax` derives from `to be smooth`; whether print numbers a `שׁוּעַ I, II` is for the scan.
+
+### `שׁוּתָא III`: N01120 (target numbered otherwise)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U00580](https://jastrow.app/#rid:U00580) | `שׁוּתָא I` | no line matched | [1544a · leaf 867](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$868/full/1400,/0/default.jpg) |
+| [U00581](https://jastrow.app/#rid:U00581) | `שׁוּתָא II` | `Handw., p. 648) [destruction,] shutha, a severe south wind;` | [1544a · leaf 867](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$868/full/1400,/0/default.jpg) |
+| [U00582](https://jastrow.app/#rid:U00582) | `שׁוּתָּא, שׁוּתָא` | `Pfl., p. 264) sproutings of the caper-tree. Ber. 36a C]b:£` | [1544a · leaf 867](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$868/full/1400,/0/default.jpg) |
+| [U00583](https://jastrow.app/#rid:U00583) | `שׁוּתָּא, שׁוּתָא` | `made of frame work or a block. B. Kam. 117a 'IB K1PP` | [1544a · leaf 867](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$868/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [N01120](https://jastrow.app/#rid:N01120): …B. Kam. 117ᵃ מנצו, v. **שׁוּתָא III**; a. e.… Sefaria links it to U00581 `שׁוּתָא II`. [928b · leaf 251](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$252/full/1400,/0/default.jpg)
+
+N01120 reads `B. Kam. 117ᵃ מנצו, v. שׁוּתָא III`; Sefaria links U00581 `שׁוּתָא II`. `B. Kam. 117ᵃ` is U00583's passage (trap made of frame work), and the hOCR shows Sefaria dropped two numerals: U00582 `fctrfittj I (or J^ritt?) f.` and U00583 `JtfTTlO II (or &CTO) f.`, print's `שׁוּתָּא I (or שׁוּתָא)` and `שׁוּתָּא II`.
+
+**Question.** Is U00583 the word the cite names, and what of its numeral?
+
+- **N01120**
+  - [ ] U00583: retarget; print's `III` in the cite stays (case 3: `kept`, since print numbers U00583 `II`)
+  - [ ] U00583: retarget; the cite's `III` is print's slip for `II` (case 2, annotated)
+  - [ ] something else (say what in the note)
+  - [ ] can't tell from the scan
+  - note: 
+- **U00582, U00583**
+  - [ ] print sets I on U00582 and II on U00583: dropped by Sefaria (case 1)
+  - [ ] no
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: U00583, kept (medium); U00582 I and U00583 II restored (high, from the hOCR).
+
+### `שֵׁירוּתָא III`: U01064, U01066 (target numbered otherwise)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U01069](https://jastrow.app/#rid:U01069) | `שֵׁירוּתָא, שֵׁר׳ I` | `angels (v. rt«5). Targ. Y. Gen. XVIII, 20; a. fr.` | [1569a · leaf 892](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$893/full/1400,/0/default.jpg) |
+| [U01070](https://jastrow.app/#rid:U01070) | `שֵׁירוּתָא, שֵׁר׳, שֵׁירוּ, שֵׁרוּ I` | `Targ. Jer. II, 3. Targ. Job VIII, 7; v. "sppa.` | [1569a · leaf 892](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$893/full/1400,/0/default.jpg) |
+| [U01071](https://jastrow.app/#rid:U01071) | `שֵׁירוּתָא, שֵׁר׳, שֵׁירוּ, שֵׁרוּ II` | `SnrP'4 *"K£3 III, T\% Tit II f. (r?) [nwf,` | [1569a · leaf 892](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$893/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [U01064](https://jastrow.app/#rid:U01064): …, v. **שֵׁירוּתָא III**… Sefaria links it to U01070 `שֵׁירוּתָא, שֵׁר׳, שֵׁירוּ, שֵׁרוּ I`. [1569a · leaf 892](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$893/full/1400,/0/default.jpg)
+- [U01066](https://jastrow.app/#rid:U01066): …, v. **שֵׁירוּתָא III**… Sefaria links it to U01070 `שֵׁירוּתָא, שֵׁר׳, שֵׁירוּ, שֵׁרוּ I`. [1569a · leaf 892](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$893/full/1400,/0/default.jpg)
+
+U01064 `שֵׁירָוָון` and U01066 `שִׁירְוָן` read `v. שֵׁירוּתָא III`; Sefaria links U01070 (beginning). The hOCR shows print numbering the family I, II, III on the first form: U01069 `… I ch. same`, U01070 `… HIE II, …, t")E3 I f. … beginning`, U01071 `… *"K£3 III, T\% Tit II f. … encampment` (meal, ration). Sefaria kept only the numerals on the last forms.
+
+**Question.** Is U01071 Jastrow's `שֵׁירוּתָא III`?
+
+- **U01064, U01066**
+  - [ ] yes: retarget both to U01071 (case 1)
+  - [ ] no (say which in the note)
+  - [ ] can't tell from the scan
+  - note: 
+- **U01070, U01071**
+  - [ ] print sets II on U01070's and III on U01071's first form: dropped by Sefaria (case 1)
+  - [ ] no
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes, and both numerals restored (high): the hOCR reads them, and `encampment` fits the cites.
+
+### `שִׁית IV`: U01112, U02071 (one bare member)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U01100](https://jastrow.app/#rid:U01100) | `שִׁית I` | `n*U I (b. h.; sec. r. of i"iV<U) to place, set, make.` | [1570a · leaf 893](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$894/full/1400,/0/default.jpg) |
+| [U01101](https://jastrow.app/#rid:U01101) | `שִׁית II` | `esp. Shith, a pit by the side of the altar into which the` | [1570a · leaf 893](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$894/full/1400,/0/default.jpg) |
+| [U01102](https://jastrow.app/#rid:U01102) | `שִׁית III` | `Tosef. ib. 1, 1 ; Erub. 18a; Ber. 40b (expl. DTlNri ',"173).` | [1570a · leaf 893](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$894/full/1400,/0/default.jpg) |
+| [U01103](https://jastrow.app/#rid:U01103) | `שִׁית, שֵׁית, שִׁיתָּא, שִׁיתָּה, שִׁתָּ׳` | `Targ. Gen. VII, 6 (0. ed. Berl. tVV ; ed.Vien. Pi^!). Ib. XXX, 20` | [1570a · leaf 893](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$894/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [U01112](https://jastrow.app/#rid:U01112): …, v. **שִׁית IV**… Sefaria links it to U01100 `שִׁית I`. [1570b · leaf 893](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$894/full/1400,/0/default.jpg)
+- [U02071](https://jastrow.app/#rid:U02071): …, six, v. **שִׁית IV**.… Sefaria links it to U01100 `שִׁית I`. [1636b · leaf 959](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$960/full/1400,/0/default.jpg)
+
+U01112 `שֵׁיתְסַר` and U02071 `שִׁתְּ, שֵׁת, שִׁתָּא` (six) read `v. שִׁית IV`; Sefaria links U01100 `שִׁית I`. U01103 `שִׁית, שֵׁית, …` (= h. `שֵׁשׁ`, six) is the word they quote and the only bare member after I, II, III.
+
+**Question.** Is U01103 Jastrow's `שִׁית IV`?
+
+- **U01103**
+  - [ ] yes, print sets IV on it: dropped by Sefaria (case 1); retarget both
+  - [ ] yes, print sets none: U01103 takes IV (case 2, annotated); retarget both
+  - [ ] no (say which in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high for the target): it is `six`; the scan decides case 1 or 2.
+
+### `שָׁמִין II`: U01502 (one bare member)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U01469](https://jastrow.app/#rid:U01469) | `שָׁמִין I` | `an Italian Isar (As). Kidd. 12* ''O? rWTl ^niO the 8hamin` | [1595b · leaf 918](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$919/full/1400,/0/default.jpg) |
+| [U01470](https://jastrow.app/#rid:U01470) | `שָׁמִין, שְׁמֵין` | `■pQti II, "fDp m. = h. ip/r, fat. Targ. Y. Gen.` | [1595b · leaf 918](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$919/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [U01502](https://jastrow.app/#rid:U01502): … c. (v. **שָׁמִין II**) fat, rich. … Sefaria links it to U01469 `שָׁמִין I`. [1598a · leaf 921](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$922/full/1400,/0/default.jpg)
+
+U01502 `שְׁמֵנָא` reads `c. (v. שָׁמִין II) fat, rich`; Sefaria links U01469 `שָׁמִין I` (a coin). U01470 `שָׁמִין, שְׁמֵין` (fat) is the II: the hOCR reads `■pQti II, "fDp m. = h. ip/r, fat.`, a numeral Sefaria dropped.
+
+**Question.** Does print set II on U01470?
+
+- **U01470**
+  - [ ] yes: U01470 takes II (case 1, `reform.homographs`, displayed) and the cite is retargeted
+  - [ ] no: U01470 takes II from the cite (case 2, annotated)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes, case 1 (high): the hOCR reads it.
+
+### `שָׁמֵן II`: U01503 (target numbered otherwise)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U01496](https://jastrow.app/#rid:U01496) | `שָׁמֵן I` | `"\|CtH3 I (b. h.) [to 6e smooth,] to be fat.` | [1597a · leaf 920](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$921/full/1400,/0/default.jpg) |
+| [U01497](https://jastrow.app/#rid:U01497) | `שְׁמֵן` | no line matched | [1597b · leaf 920](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$921/full/1400,/0/default.jpg) |
+| [U01498](https://jastrow.app/#rid:U01498) | `שָׁמֵן, שְׁמֵנָה, שְׁמֵי׳` | `rich. Keth. 61a 'O loa fat meat. Pes. 42*. Hull. 451' "^a` | [1597b · leaf 920](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$921/full/1400,/0/default.jpg) |
+| [U01499](https://jastrow.app/#rid:U01499) | `שְׁמַן` | no line matched | [1597b · leaf 920](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$921/full/1400,/0/default.jpg) |
+| [U01500](https://jastrow.app/#rid:U01500) | `שֶׁמֶן` | `TQ23 m. (b. h.; preced. wds.) oil, fat. Sabb. II, 1 'w` | [1597b · leaf 920](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$921/full/1400,/0/default.jpg) |
+| [U01501](https://jastrow.app/#rid:U01501) | `שִׁמָּן` | no line matched | [1598a · leaf 921](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$922/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [U01503](https://jastrow.app/#rid:U01503): …, v. **שָׁמֵן II**… Sefaria links it to U01496 `שָׁמֵן I`. [1598a · leaf 921](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$922/full/1400,/0/default.jpg)
+
+U01503 `שְׁמֵנָה` reads `v. שָׁמֵן II`; Sefaria links U01496 `שָׁמֵן I` (to be fat). U01503's headword is an alternate of U01498 `שָׁמֵן, שְׁמֵנָה, שְׁמֵי׳` (fat, rich), which carries no numeral; the family has an I and no II.
+
+**Question.** Is U01498 Jastrow's `שָׁמֵן II`?
+
+- **U01498**
+  - [ ] yes, print sets II on it: case 1; retarget
+  - [ ] yes, print sets none: U01498 takes II (case 2, annotated); retarget
+  - [ ] no (say which in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high for the target): the citing headword is its alternate; the scan decides case 1 or 2.
+
+### `שֵׁשׁ III`: U02059 (one bare member)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [U02054](https://jastrow.app/#rid:U02054) | `שֵׁשׁ I` | no line matched | [1635b · leaf 958](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$959/full/1400,/0/default.jpg) |
+| [U02055](https://jastrow.app/#rid:U02055) | `שֵׁשׁ II` | `':* rTWB . . . VB those things concerning which shesh is` | [1636a · leaf 959](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$960/full/1400,/0/default.jpg) |
+| [U02056](https://jastrow.app/#rid:U02056) | `שֵׁשׁ, שִׁשָּׁה` | `(Y. a. Bab. ed. 1251153) at six hours and a half (from sunrise).` | [1636a · leaf 959](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$960/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [U02059](https://jastrow.app/#rid:U02059): …, v. **שֵׁשׁ III**… Sefaria links it to U02055 `שֵׁשׁ II`. [1636a · leaf 959](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$960/full/1400,/0/default.jpg)
+
+U02059 `שִׁשִּׁים` (sixty) reads `v. שֵׁשׁ III`; Sefaria links U02055 `שֵׁשׁ II` (white linen). U02056 `שֵׁשׁ, שִׁשָּׁה` (six) is the only bare member after I, II.
+
+**Question.** Is U02056 Jastrow's `שֵׁשׁ III`?
+
+- **U02056**
+  - [ ] yes, print sets III on it: dropped by Sefaria (case 1); retarget
+  - [ ] yes, print sets none: U02056 takes III (case 2, annotated); retarget
+  - [ ] no (say which in the note)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high for the target): sixty is derived from six; the scan decides case 1 or 2.
+
+### `תּוֹר III`: V00277, V00282 (target numbered otherwise)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [V00271](https://jastrow.app/#rid:V00271) | `תּוּר I` | `"flr* I (b. h. ; v. illi) [to go around; cmp. )>btt,) to espy.` | [1656a · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg) |
+| [V00272](https://jastrow.app/#rid:V00272) | `תּוּר II` | `r\T\ II ch. (contr. of 15M, v. 112) to be awake. —` | [1656a · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg) |
+| [V00273](https://jastrow.app/#rid:V00273) | `תּוֹר I` | no line matched | [1656a · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg) |
+| [V00274](https://jastrow.app/#rid:V00274) | `תּוֹר II` | `1 IvlII m. (b.h.; onomatop.) turtle-dove. Kinn. II, 5` | [1656a · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg) |
+| [V00275](https://jastrow.app/#rid:V00275) | `תּוֹר, תּוֹרָא I` | `"IT) III, STlFl I m. = h. Titt, ox. Targ. Ex. XXI,` | [1656a · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [V00277](https://jastrow.app/#rid:V00277): …m. (denom. of **תּוֹר III**) ox-driver, plougher with oxe… Sefaria links it to V00274 `תּוֹר II`. hOCR: `fcO"iP]> nv) m. (denom. of Tinill) ox-driver, plougher`. [1656b · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg)
+- [V00282](https://jastrow.app/#rid:V00282): …m. (v. בָּאלָא; = תור ברא, v. **תּוֹר III**) aurochs. … Sefaria links it to V00274 `תּוֹר II`. [1656b · leaf 979](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$980/full/1400,/0/default.jpg)
+
+V00277 (`denom. of תּוֹר III`, ox-driver) and V00282 (`aurochs, v. תּוֹר III`) are linked to V00274 `תּוֹר II` (turtle-dove). V00275 `תּוֹר, תּוֹרָא I` (ox) is the III: the hOCR reads `"IT) III, STlFl I m. = h. Titt, ox.`, print's `תּוֹר III, תּוֹרָא I`. Sefaria kept the I on the alternate and dropped the III.
+
+**Question.** Does print set III on V00275's first form?
+
+- **V00275**
+  - [ ] yes: V00275 form 0 takes III (case 1, `reform.homographs`, displayed); retarget both cites
+  - [ ] no
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes (high): the hOCR reads it and both cites mean the ox.
+
+### `תַּלְמָא II`: V00570 (one bare member)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [V00599](https://jastrow.app/#rid:V00599) | `תְּלָמָא, תַּלְמָא I` | `H72b?,, NCTTl I ch.same. Targ. Job XXXI, 10. Targ.` | [1672a · leaf 995](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$996/full/1400,/0/default.jpg) |
+| [V00600](https://jastrow.app/#rid:V00600) | `תַּלְמָא, תְּלָאמָא` | `tf*£x»'_ II, kSCSx^i m. (Assyr. talimu, Del. Assyr.` | [1672a · leaf 995](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$996/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [V00570](https://jastrow.app/#rid:V00570): …, v. **תַּלְמָא II**… Sefaria links it to V00599 `תְּלָמָא, תַּלְמָא I`. [1670a · leaf 993](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$994/full/1400,/0/default.jpg)
+
+V00570 `תְּלָאמָא` reads `v. תַּלְמָא II`; Sefaria links V00599 `תְּלָמָא, תַּלְמָא I`. V00600 `תַּלְמָא, תְּלָאמָא` (twin) is the II: its alternate is the citing headword, and the hOCR reads `tf*£x»'_ II, kSCSx^i m. (Assyr. talimu`, a numeral Sefaria dropped.
+
+**Question.** Does print set II on V00600?
+
+- **V00600**
+  - [ ] yes: V00600 takes II (case 1, displayed); retarget
+  - [ ] no: V00600 takes II from the cite (case 2, annotated)
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: yes, case 1 (high): the hOCR reads it.
+
+### `תְּפֵי I`: T00434, V00848 (no carrier)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [V00815](https://jastrow.app/#rid:V00815) | `תְּפֵי, תְּפַף` | `you all spit with the same spittle, your opinions are all` | [1685b · leaf 1008](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$1009/full/1400,/0/default.jpg) |
+| [V00816](https://jastrow.app/#rid:V00816) | `תְּפֵי, תְּפָא` | `"©Fl II fctDT. (denom. of K"Bn) to set on for cooking.` | [1685b · leaf 1008](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$1009/full/1400,/0/default.jpg) |
+| [V00817](https://jastrow.app/#rid:V00817) | `תָּפִי, טָפִי` | no line matched | [1685b · leaf 1008](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$1009/full/1400,/0/default.jpg) |
+| [V00818](https://jastrow.app/#rid:V00818) | `תְּפִי, תַּפְיָא, תַּפְיָיה, תִּי׳` | no line matched | [1685b · leaf 1008](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$1009/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [T00434](https://jastrow.app/#rid:T00434): …יקא; ed. זיקא), v. חַמָּת. Ib. 99ᵇ; Nidd. 42ᵃ, v. **תְּפֵי I**.… Sefaria links it to V00816 `תְּפֵי, תְּפָא`. hOCR: `Ib. 99b; Nidd. 42a, v. ^BPiI.`. [1463b · leaf 786](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$787/full/1400,/0/default.jpg)
+- [V00848](https://jastrow.app/#rid:V00848): …to spit, v. **תְּפֵי I**.… Sefaria links it to V00816 `תְּפֵי, תְּפָא`. [1689a · leaf 1012](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$1013/full/1400,/0/default.jpg)
+
+T00434 (`Nidd. 42ᵃ, v. תְּפֵי I`) and V00848 `תְּפַף II` (`to spit, v. תְּפֵי I`) are linked to V00816 `תְּפֵי, תְּפָא` (to set on for cooking). V00815 `תְּפֵי, תְּפַף` (to spit; Nidd. 42ᵃ) is the word both quote. The hOCR reads V00816 as `"©Fl II fctDT.`, a II Sefaria dropped; V00815's line is not in the hOCR.
+
+**Question.** Is V00815 Jastrow's `תְּפֵי I` (and V00816 its II)?
+
+- **V00815**
+  - [ ] yes, print sets I on it: case 1; retarget both
+  - [ ] yes, print sets none: V00815 takes I (case 2, annotated); retarget both
+  - [ ] no (say which in the note)
+  - [ ] can't tell from the scan
+  - note: 
+- **V00816**
+  - [ ] print sets II: dropped by Sefaria (case 1, displayed)
+  - [ ] no
+  - [ ] can't tell from the scan
+  - note: 
+
+Recommendation: V00815 is the I and V00816 takes II (high): the hOCR reads the II, and both cites quote V00815.
+
 ## Cross-reference numerals: answered 2026-10-18 (8)
 
 **Status:** you ticked these 8 questions (9 cites) on 2026-10-18
-(commit `963e28b2b`); a data PR applies them. The other 40 questions
-of the 2026-10-14 list (65 cites) moved to
+(commit `963e28b2b`); a data PR applies them. Of the other 40
+questions of the 2026-10-14 list, the 18 that may rename an entry are
+in § Cross-reference numerals: may rename an entry (18) above, and 22
+(34 cites) moved to
 [`post-go-live-review.md` § Cross-reference numerals (2026-10-14)](post-go-live-review.md#cross-reference-numerals-2026-10-14)
 by your ruling of 2026-10-18, with the section's intro and how to read
 the blocks.
