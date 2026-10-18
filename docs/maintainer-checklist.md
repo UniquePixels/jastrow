@@ -143,7 +143,7 @@ The cite sits in A00627's own etymology: `(b. h., √אה, cmp. הא; v. חָו�
 **Question.** Is `אָוָה III` here Gesenius's entry?
 
 - **A00627**
-  - [ ] yes: Gesenius's `אָוָה III`; remove the link, keep the text (case 1, silent: 08-15's linker overreach)
+  - [x] yes: Gesenius's `אָוָה III`; remove the link, keep the text (case 1, silent: 08-15's linker overreach)
   - [ ] no: it names a Jastrow entry (say which in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -167,9 +167,9 @@ The dictionary has one `אִלְמָלֵא` (A01918) and no `אִלְמָלֵא 
 - **A01864**
   - [ ] print sets `I`: kept as printed; the link stays on A01918 (case 3: a `kept` annotation on the cite)
   - [ ] print sets no numeral: the `I` is Sefaria's; remove it from the cite (case 1)
-  - [ ] something else (say what in the note)
+  - [x] something else (say what in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: It is the number 1 referencing a sense. OCR error
 
 Recommendation: kept (low): nothing in the dictionary explains the `I`, and volume 1's hOCR does not reach the line.
 
@@ -190,7 +190,7 @@ A02360 `אִסְטוֹלִי` reads `v. אִסְטְלִי I, II`, naming both w
 
 - **A02378**
   - [ ] yes, and print sets I beside it: Sefaria dropped it (case 1: `reform.homographs`, displayed, no annotation); retarget the cite
-  - [ ] yes, and print sets no numeral: A02378 takes I from this cite (case 2: annotated `printed: ''`); retarget the cite
+  - [x] yes, and print sets no numeral: A02378 takes I from this cite (case 2: annotated `printed: ''`); retarget the cite
   - [ ] no: the cite names another word (say which)
   - [ ] can't tell from the scan
   - note: 
@@ -215,7 +215,7 @@ C00147 is `גַּבְתָּא`, an alternate of C00294 (`גּוּבְתָּא, �
 - **C00294**
   - [ ] print sets I on C00294 and II on C00295: both dropped by Sefaria (case 1)
   - [ ] print sets none: C00294 takes I from this cite (case 2, annotated); C00295 then has no II (say in the note if it should)
-  - [ ] kept as printed: no numeral on either (case 3: `kept` on the cite)
+  - [x] kept as printed: no numeral on either (case 3: `kept` on the cite)
   - [ ] can't tell from the scan
   - note: 
 
@@ -237,7 +237,7 @@ C00577's first gloss opens `, I ch.`: print sets `גִּזְרָא, גִּיזְ
 **Question.** Is the `I` at the head of C00577's gloss print's numeral for the line?
 
 - **C00577**
-  - [ ] yes: move it onto the form (`reform.homographs` + `replace` removing ` I` from the gloss head, case 1) and retarget H00303's cite to C00577
+  - [x] yes: move it onto the form (`reform.homographs` + `replace` removing ` I` from the gloss head, case 1) and retarget H00303's cite to C00577
   - [ ] no (say what it is in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -262,7 +262,7 @@ Two cites, C00841 `m. (v. גִּיס I) familiar` and K00444 `opp. גיס, v. ג
 **Question.** Do these two cites stay on C00773 as printed?
 
 - **C00841, K00444**
-  - [ ] yes: the link stays; print's `I` is kept (case 3: a `kept` annotation on each cite)
+  - [x] yes: the link stays; print's `I` is kept (case 3: a `kept` annotation on each cite)
   - [ ] C00772 takes I and both cites move to it (case 2)
   - [ ] something else (say what in the note)
   - [ ] can't tell from the scan
@@ -286,10 +286,10 @@ C00538 (`גְּזַז`, to cut) reads `v. גְּנַח II`. C01130, stored `גְ
 **Question.** Is C01130 Jastrow's `גְּנַח II`?
 
 - **C00538**
-  - [ ] yes: retarget to C01130 (case 1); C01130's `ה` goes to the headword list as an OCR question
+  - [x] yes: retarget to C01130 (case 1); C01130's `ה` goes to the headword list as an OCR question
   - [ ] no (say which in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: 1130 correct letter is chet, OCR error
 
 Recommendation: yes (high): C01130's gloss `to cut, pass swiftly` is the meaning C00538 refers to, and no other `גנח` II exists.
 
@@ -313,7 +313,7 @@ M00854 `מִחְטֵי` (delicate) reads `v. חֲטִי I`; Sefaria links H00616
 **Question.** Which entry is Jastrow's `חֲטִי I`?
 
 - **M00854**
-  - [ ] H00614 `חֲטִי` (`ch. same` of `חָטָה I`): retarget; no numeral set on it
+  - [x] H00614 `חֲטִי` (`ch. same` of `חָטָה I`): retarget; no numeral set on it
   - [ ] H00614, and it takes I (case 2, annotated)
   - [ ] H00613 `חָטָה I`: retarget there
   - [ ] can't tell from the scan
