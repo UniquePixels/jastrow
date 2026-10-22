@@ -616,7 +616,8 @@ P00639 `עֵיפָא II` (pr. n. m. ʿEfa) reads `v. חֵיפָא III`; Sefaria 
   - [ ] H00840: print's `III` is a slip for `II` (case 2: the cite's text annotated)
   - [ ] H00841 takes III (case 2)
   - [ ] can't tell from the scan
-  - note: Check 85 and analyze
+  - note: H00845 חֵיפָה III, pr. n. m. Ḥefa = עֵיפָא; retarget
+
 
 Recommendation: kept (low): a personal name ʿEfa matches no stored `חֵיפָא`; read the column for a third `חֵיפָא` line.
 
