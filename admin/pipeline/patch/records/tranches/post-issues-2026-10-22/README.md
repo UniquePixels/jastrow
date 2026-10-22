@@ -1,6 +1,6 @@
 # Post-issues fixes (2026-10-22)
 
-PR #n, under ruling `10-13 correction policy`
+PR #191, under ruling `10-13 correction policy`
 ([`docs/decisions.md`](../../../../../../docs/decisions.md) §9), case
 1 throughout: a transcription error where print is right is corrected
 with no annotation; the patch rationale is the only trace.

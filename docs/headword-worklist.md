@@ -7,7 +7,7 @@ The research rows are back here, in § Textual-research candidates
 (#190; the X9 five in #153) at the end of this file: #190, opened on
 your go, holds the 17 X8 rows and C00773, and #153 the X9 five. The
 rows pile A ruled legitimate never reached the reviewed-kept list, so
-the headword report kept showing them: PR #n records the 39 X8 rows of
+the headword report kept showing them: PR #191 records the 39 X8 rows of
 pile A's HW-roman list and N00186 (X10; pile A's print read, and no
 text of Jastrow's names `נְגַר I`). The report now reads X8 32 (1
 primary), X9 6 (1), X10 4 (1) and reviewed-kept 93. The three primaries
@@ -3229,7 +3229,7 @@ Recommendation: U00344 is the II and U00345 takes III (high): the hOCR shows U00
 
 Applied in PR #187: P000881 sets print's II on U00344 and P000882 print's III on U00345, displayed `שְׁוַוח III, שְׁוַח` (case 1); P000883 and P000884 move both cites from U00343 to U00344. U00344's line has a stray `)` and no `display`, so its II is stored and named, and shows once the layout is settled. Names `שְׁוַוח` → `שְׁוַוח II`, `שְׁוַוח²` → `שְׁוַוח III²`.
 
-Amended in PR #n (2026-10-22): the `)` is print's, and Sefaria dropped its `(`. The hOCR of 1529b reads the line `'mid  n,  n"u;,  (rno") .  h. n*,`, that is `שְׁוַוח II, שְׁוַח, (שׁוּחַ) = h. שׁוּחַ,`. P000881 now writes the last form `(שׁוּחַ)` (case 1) and supplies `display` `{0} II, {1}, ({2})`, so the II shows.
+Amended in PR #191 (2026-10-22): the `)` is print's, and Sefaria dropped its `(`. The hOCR of 1529b reads the line `'mid  n,  n"u;,  (rno") .  h. n*,`, that is `שְׁוַוח II, שְׁוַח, (שׁוּחַ) = h. שׁוּחַ,`. P000881 now writes the last form `(שׁוּחַ)` (case 1) and supplies `display` `{0} II, {1}, ({2})`, so the II shows.
 
 ### `שַׁוְיָא II`: U00835 (one bare member)
 
