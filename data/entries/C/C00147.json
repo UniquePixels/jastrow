@@ -15,7 +15,18 @@
 	"senses": [
 		{
 			"gloss": ", v. <cite ref=\"C00294\"><he>גּוּבְתָּא</he> I</cite>",
-			"units": []
+			"units": [],
+			"annotations": [
+				{
+					"field": "gloss",
+					"kind": "kept",
+					"printed": "גּוּבְתָּא",
+					"stored": "גּוּבְתָּא",
+					"evidence": "the cite `v. גּוּבְתָּא I` is kept as printed: print numbers neither C00294 nor C00295 (the maintainer's read 2026-10-18), so the I is either a numeral print never set on C00294 or a slip, and nothing in Jastrow's text settles which",
+					"source": "P000919",
+					"date": "2026-10-18"
+				}
+			]
 		}
 	]
 }

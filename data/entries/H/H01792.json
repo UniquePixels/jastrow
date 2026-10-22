@@ -4,16 +4,10 @@
 	"sefariaHeadword": "חָ",
 	"headwords": [
 		{
-			"text": "חָ"
-		},
-		{
-			"text": "רַ"
-		},
-		{
-			"text": "ת"
+			"text": "חָרַת"
 		}
 	],
-	"display": "{0}, {1}, {2}",
+	"display": "{0}",
 	"page": {
 		"number": 507,
 		"column": "b"

@@ -5,14 +5,26 @@
 	"headwords": [
 		{
 			"text": "עֵרָבוֹן",
-			"disambiguator": 2
+			"disambiguator": 2,
+			"homograph": 2,
+			"annotations": [
+				{
+					"field": "homograph",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "II",
+					"evidence": "P01275 `עֲרֵבוּת` reads `(v. עֵרָבוֹן II)` for going security, the meaning P01273 `עֵרָבוֹן, עֵי׳` carries (pledge); P01272 `עֵרָבוֹן, עֵי׳ I` (mingling) is the I, the family has no II, and the hOCR shows none on P01273 (`VCnS?, ^V m. (b. h.; 31SI) 1) pledge`); the link already points at P01273",
+					"source": "P000872",
+					"date": "2026-10-22"
+				}
+			]
 		},
 		{
 			"text": "עֵי׳",
 			"partial": true
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1112,
 		"column": "b"

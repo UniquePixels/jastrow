@@ -4,7 +4,18 @@
 	"sefariaHeadword": "צְיַוח",
 	"headwords": [
 		{
-			"text": "צְיַוח"
+			"text": "צְוַוח",
+			"annotations": [
+				{
+					"field": "text",
+					"kind": "illegible",
+					"printed": "צְיַוח",
+					"stored": "צְוַוח",
+					"evidence": "the maintainer's print read 2026-10-22: \"Same as above 2 items\" The note points at P00609's and R00152's: a letter neither a complete yod nor a vav. Its alternate is `צְוַח`, and three cites spell `צְוַוח` with this entry's sheva (M00338, S01995, U00220), which three companion patches move here from R00170; it stands between R00170 `צָוַוח` and R00172 `צְוָוחָא`, where `צווח` sorts and `ציוח` does not. 1266b · leaf 589.",
+					"source": "P000840",
+					"date": "2026-10-22"
+				}
+			]
 		},
 		{
 			"text": "צְוַח"

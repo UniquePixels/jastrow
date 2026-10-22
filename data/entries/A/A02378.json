@@ -4,7 +4,19 @@
 	"sefariaHeadword": "אִסְטַלִּי",
 	"headwords": [
 		{
-			"text": "אִסְטַלִּי"
+			"text": "אִסְטַלִּי",
+			"homograph": 1,
+			"annotations": [
+				{
+					"field": "homograph",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "I",
+					"evidence": "A02360 `אִסְטוֹלִי` reads `v. אִסְטְלִי I, II`, naming both words; A02379 `אִסְטְלִי, אִסְטוֹלִי, אִיסְ׳ II` is the II and A02378 `אִסְטַלִּי` (resting place) the only bare member; the maintainer read print as setting no numeral beside it",
+					"source": "P000917",
+					"date": "2026-10-18"
+				}
+			]
 		},
 		{
 			"text": "אִסְטוֹלִי"
@@ -14,7 +26,7 @@
 			"partial": true
 		}
 	],
-	"display": "{0}, {1}, {2}",
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 90,
 		"column": "b"

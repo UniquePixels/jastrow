@@ -4,7 +4,18 @@
 	"sefariaHeadword": "צַיַּאר",
 	"headwords": [
 		{
-			"text": "צַיַּאר"
+			"text": "צַוַּאר",
+			"annotations": [
+				{
+					"field": "text",
+					"kind": "illegible",
+					"printed": "צַיַּאר",
+					"stored": "צַוַּאר",
+					"evidence": "the maintainer's print read 2026-10-22: \"same issue as p609\" The note points at P00609's: a letter neither a complete yod nor a vav. Every alternate has the vav (`צַוַּר`, `צַוְּרָא`, `צַוּו׳`), and R00176 reads `v. צַוַּאר`, this entry's patah; it stands between R00151 `צַוָּאר` and R00153 `צַוַּארְנוֹיָיתָא`, where `צואר` sorts and `ציאר` does not. 1265b · leaf 588.",
+					"source": "P000839",
+					"date": "2026-10-22"
+				}
+			]
 		},
 		{
 			"text": "צַוַּר"

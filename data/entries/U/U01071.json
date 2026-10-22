@@ -9,7 +9,8 @@
 		},
 		{
 			"text": "שֵׁר׳",
-			"partial": true
+			"partial": true,
+			"homograph": 3
 		},
 		{
 			"text": "שֵׁירוּ"
@@ -19,7 +20,7 @@
 			"homograph": 2
 		}
 	],
-	"display": "{0}, {1}, {2}, {3} II",
+	"display": "{0}, {1} III, {2}, {3} II",
 	"page": {
 		"number": 1569,
 		"column": "a"

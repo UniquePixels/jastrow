@@ -4,7 +4,8 @@
 	"sefariaHeadword": "שַׁב",
 	"headwords": [
 		{
-			"text": "שַׁב"
+			"text": "שַׁב",
+			"homograph": 1
 		},
 		{
 			"text": "שֵׁב"
@@ -13,7 +14,7 @@
 			"text": "שֵׁיב"
 		}
 	],
-	"display": "{0}, {1}, {2}",
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 1509,
 		"column": "b"

@@ -4,7 +4,19 @@
 	"sefariaHeadword": "סַגִּי",
 	"headwords": [
 		{
-			"text": "סַגִּי"
+			"text": "סַגִּי",
+			"homograph": 1,
+			"annotations": [
+				{
+					"field": "homograph",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "I",
+					"evidence": "O00249 `סוּגּוּ` (much, very) reads `v. סַגִּי I`; O00124 `סַגִּי, סַגִּיא II` (impossible) is the II, and O00123 `סַגִּי, סַגִּיא, סַגִּיאָה` is the only bare member of the family, the one the headword report's X10 names for O00124's I",
+					"source": "P000870",
+					"date": "2026-10-22"
+				}
+			]
 		},
 		{
 			"text": "סַגִּיא"
@@ -13,7 +25,7 @@
 			"text": "סַגִּיאָה"
 		}
 	],
-	"display": "{0}, {1}, {2}",
+	"display": "{0} I, {1}, {2}",
 	"page": {
 		"number": 954,
 		"column": "a"
@@ -27,7 +39,7 @@
 			"units": []
 		},
 		{
-			"gloss": "<i>spreading</i>, v. <cite ref=\"O00121\"><he>סְגֵי</he> I</cite>. I.",
+			"gloss": "<i>spreading</i>, v. <cite ref=\"O00120\"><he>סְגֵי</he> I</cite>. I.",
 			"units": [],
 			"label": "1"
 		},

@@ -20,6 +20,17 @@
 				"<cite ref=\"Pesachim 72b\">Pes. 72ᵇ</cite> <he>כ׳ מינה</he> Ar. a. Ms. O. (v. Rabb. D. S. a. l. note, ed. <he>בזיז</he>) he is reserved towards her (not yet intimate). ",
 				"<cite ref=\"Yevamot 26a:13\">Yeb. 26ᵃ</cite> <he>דכ׳ בניה מיניה</he> Ar. (ed. <he>דב׳</he>) before him his son is shy. Ib. 112ᵃ top <he>מִיכְזַז כ׳ מינה</he> Ar. (ed. <he>מיב׳ ב׳</he>), opp. <cite ref=\"C00772\"><he>גיס</he></cite>, v. <cite ref=\"C00773\"><he>גִּיס</he> I</cite>. ",
 				"<cite ref=\"Niddah 15b:8\">Nidd. 15ᵇ</cite> <he>ילדה דכְזִיזָא למיטבל</he> (ed. <he>דב׳</he>) a young woman who is ashamed to go to the bath-house."
+			],
+			"annotations": [
+				{
+					"field": "units[1]",
+					"kind": "kept",
+					"printed": "גִּיס",
+					"stored": "גִּיס",
+					"evidence": "the cite `v. גִּיס I` is kept as printed: it quotes C00773's meaning (familiar), which print numbers II, and C00772 `גֵּיס` (spoils) is the family's only bare member; the maintainer's round 2 note on C00773 finds too much ambiguity for an implied I",
+					"source": "P000924",
+					"date": "2026-10-18"
+				}
 			]
 		}
 	]

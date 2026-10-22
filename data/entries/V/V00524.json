@@ -4,13 +4,10 @@
 	"sefariaHeadword": "תִּ",
 	"headwords": [
 		{
-			"text": "תִּ"
-		},
-		{
-			"text": "כְבּוֹסֶת"
+			"text": "תִּכְבּוֹסֶת"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0}",
 	"page": {
 		"number": 1667,
 		"column": "b"

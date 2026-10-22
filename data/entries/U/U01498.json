@@ -4,7 +4,8 @@
 	"sefariaHeadword": "שָׁמֵן",
 	"headwords": [
 		{
-			"text": "שָׁמֵן"
+			"text": "שָׁמֵן",
+			"homograph": 2
 		},
 		{
 			"text": "שְׁמֵנָה"
@@ -14,7 +15,7 @@
 			"partial": true
 		}
 	],
-	"display": "{0}, {1}, {2}",
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 1597,
 		"column": "b"

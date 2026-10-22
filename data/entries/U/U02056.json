@@ -4,13 +4,14 @@
 	"sefariaHeadword": "שֵׁשׁ",
 	"headwords": [
 		{
-			"text": "שֵׁשׁ"
+			"text": "שֵׁשׁ",
+			"homograph": 3
 		},
 		{
 			"text": "שִׁשָּׁה"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 1636,
 		"column": "a"

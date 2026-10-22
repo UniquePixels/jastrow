@@ -4,7 +4,8 @@
 	"sefariaHeadword": "שְׁבַט",
 	"headwords": [
 		{
-			"text": "שְׁבַט"
+			"text": "שְׁבַט",
+			"homograph": 2
 		},
 		{
 			"text": "שִׁבְטָא"
@@ -20,7 +21,7 @@
 			"partial": true
 		}
 	],
-	"display": "{0}, {1}, {2}, {3}, {4}",
+	"display": "{0} II, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1513,
 		"column": "a"

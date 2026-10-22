@@ -4,7 +4,18 @@
 	"sefariaHeadword": "אֻרְיָה",
 	"headwords": [
 		{
-			"text": "אֻרְיָה"
+			"text": "אֻרְוָה",
+			"annotations": [
+				{
+					"field": "text",
+					"kind": "illegible",
+					"printed": "אֻרְיָה",
+					"stored": "אֻרְוָה",
+					"evidence": "the maintainer's print read 2026-10-22: \"This is a case that needs annotation.  The print version has a scan error, such that the letter is missing the decender (does not even have the little bit that yod would have.)   Based on the cites and word order, I am confident in vav, but we want that noted.\" Three cites spell `אֻרְוָה`, all linked here (A00863, A00878, A00879); its plural is `אֻרְווֹת`; it stands between A03019 `אָרוֹד` and A03021 `אַרְוָוד`, where `ארוה` sorts. 116a · leaf 139.",
+					"source": "P000829",
+					"date": "2026-10-22"
+				}
+			]
 		}
 	],
 	"display": "{0}",

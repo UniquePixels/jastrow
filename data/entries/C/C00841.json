@@ -21,6 +21,17 @@
 			"gloss": "m. (v. <cite ref=\"C00773\"><he>גִּיס</he> I</cite>) <i>familiar</i>. ",
 			"units": [
 				"<cite ref=\"Yevamot 117b:3\">Yeb. 117ᵇ</cite> <he>דג׳ לה וכ׳</he> Ar. (ed. <he>דרגיש</he>) annoyance of family quarrels is familiar to her."
+			],
+			"annotations": [
+				{
+					"field": "gloss",
+					"kind": "kept",
+					"printed": "גִּיס",
+					"stored": "גִּיס",
+					"evidence": "the cite `v. גִּיס I` is kept as printed: it quotes C00773's meaning (familiar), which print numbers II, and C00772 `גֵּיס` (spoils) is the family's only bare member; the maintainer's round 2 note on C00773 finds too much ambiguity for an implied I",
+					"source": "P000923",
+					"date": "2026-10-18"
+				}
 			]
 		}
 	]

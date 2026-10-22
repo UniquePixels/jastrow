@@ -4,7 +4,8 @@
 	"sefariaHeadword": "שִׁית",
 	"headwords": [
 		{
-			"text": "שִׁית"
+			"text": "שִׁית",
+			"homograph": 4
 		},
 		{
 			"text": "שֵׁית"
@@ -20,7 +21,7 @@
 			"partial": true
 		}
 	],
-	"display": "{0}, {1}, {2}, {3}, {4}",
+	"display": "{0} IV, {1}, {2}, {3}, {4}",
 	"page": {
 		"number": 1570,
 		"column": "a"
