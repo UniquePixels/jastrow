@@ -4,10 +4,22 @@
 	"sefariaHeadword": "נוֹחַ",
 	"headwords": [
 		{
-			"text": "נוֹחַ"
+			"text": "נוֹחַ",
+			"homograph": 1,
+			"annotations": [
+				{
+					"field": "homograph",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "I",
+					"evidence": "N00660 `נְיָיח` (rest) reads `m. = h. נוֹחַ I`, the noun N00342 `נוֹחַ` (rest; satisfaction), and print sets no numeral beside N00342 (hOCR `nlO m. (b. h. ; preced.) rest`), before N00343 `נוֹחַ II, נוֹחָה` and N00344 `נוֹחַ III`",
+					"source": "P000863",
+					"date": "2026-10-22"
+				}
+			]
 		}
 	],
-	"display": "{0}",
+	"display": "{0} I",
 	"page": {
 		"number": 886,
 		"column": "b"

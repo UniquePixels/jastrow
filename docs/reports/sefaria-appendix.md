@@ -6,34 +6,36 @@ The rows are `sefaria-appendix.csv`; every patch a filter refused is
 in `sefaria-review.csv` with its reason. The filters, and how to read
 a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 
-**299 rows** (299 new, 0 submitted); 369 patches in the review list.
+**381 rows** (381 new, 0 submitted); 389 patches in the review list.
 
 ## Rows by class
 
 | class | rows | new | submitted |
 |---|---|---|---|
-| cross-reference-target | 171 | 171 | 0 |
+| cross-reference-target | 218 | 218 | 0 |
+| headword-numeral-dropped | 41 | 41 | 0 |
 | ocr-marker | 23 | 23 | 0 |
-| headword-numeral-dropped | 22 | 22 | 0 |
 | chopped-marker-with-residue | 18 | 18 | 0 |
+| headword-ocr-glyph | 18 | 18 | 0 |
 | first-sense-debris-stranding-language-label | 14 | 14 | 0 |
+| headword-numeral-in-gloss | 13 | 13 | 0 |
 | verse-paren-false-sense-split | 13 | 13 | 0 |
-| headword-numeral-in-gloss | 12 | 12 | 0 |
 | headword-ocr-pointing | 10 | 10 | 0 |
 | continuation-marker-fully-absent | 5 | 5 | 0 |
-| headword-ocr-glyph | 5 | 5 | 0 |
 | missing-number | 5 | 5 | 0 |
+| cross-reference-ocr-glyph | 1 | 1 | 0 |
+| cross-reference-overreach | 1 | 1 | 0 |
 | headword-torn | 1 | 1 | 0 |
 
 ## Excluded by reason
 
 | reason | patches |
 |---|---|
-| convention or our structure | 185 |
+| convention or our structure | 194 |
 | no print evidence | 133 |
 | not traceable to source | 37 |
-| not mechanical for op | 4 |
-| our correction (annotated) | 3 |
+| our correction (annotated) | 12 |
+| not mechanical for op | 6 |
 | our deviation from print | 2 |
 | partial: print not fully restored | 2 |
 | scan link outside the entry | 2 |

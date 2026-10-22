@@ -7,7 +7,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 | Publication | Rows |
 |---|---|
 | blocks | 0 |
-| defer | 2811 |
+| defer | 2810 |
 | note | 1597 |
 | catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
@@ -15,7 +15,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 
 _none_
 
-## Deferred (2811)
+## Deferred (2810)
 
 ### empty-body (2)
 
@@ -380,11 +380,10 @@ _none_
 - Q01624: פֵּרוּדָא, פֵּרוּדָא — headwords[1] repeats headwords[0] (פֵּרוּדָא) under NFC
 - U00076: שְׁבוֹיָיתָא, שְׁבוֹיָיתָא — headwords[1] repeats headwords[0] (שְׁבוֹיָיתָא) under NFC
 
-### homograph-roman-stranded-in-definition (12)
+### homograph-roman-stranded-in-definition (11)
 
 **What to do:** Read the print. If it sets the numeral beside the headword, a reviewed `reform` sets it with `homographs` (the headword text, which 37 live anchors name, is left alone) and a companion patch takes it out of the definition. Never write the numeral into the headword text.
 
-- C00577: senses[0].gloss opens "I"; headword carries no homograph
 - U01775: senses[0].gloss opens "II"; headword carries no homograph
 - V00003: senses[0].gloss opens "II"; headword carries no homograph
 - V00006: senses[0].gloss opens "II"; headword carries no homograph
@@ -4400,7 +4399,7 @@ _none_
 - U00976: שִׁינּוּקָא, שִׁנּ׳, שִׁירְנ׳, שִׁרְנ׳ — all 3 alternate(s) are partial; the entry has no alternate lookup key
 - U00984: שִׁיסּוּעַ, שִׁסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00992: שִׁיעוּרָא, שִׁע׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01011: שִׁופּוּט, שִׁפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01011: שִׁיפּוּט, שִׁפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U01012: שִׁיפּוּי, שִׁפּ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U01013: שִׁיפּוּי ², שִׁפּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U01015: שִׁיפּוּל, שִׁפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -4435,7 +4434,7 @@ _none_
 - U01213: שִׁלְדָּא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U01220: שַׁלְהוֹבָא, שַׁלְהֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U01222: שִׁלְהֲוֵי, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01223: שִׁלְחֵי, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01223: שִׁלְהֵי, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U01257: שְׁלוֹף, שְׁ׳ דּוֹץ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U01271: שִׁלְחָא, שִׁי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U01272: שִׁלְחָא ², שִׁי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key

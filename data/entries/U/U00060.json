@@ -5,7 +5,8 @@
 	"headwords": [
 		{
 			"text": "שַׁב",
-			"disambiguator": 2
+			"disambiguator": 2,
+			"homograph": 2
 		},
 		{
 			"text": "שַׁבָּא"
@@ -14,7 +15,7 @@
 			"text": "שׁוּבָּא"
 		}
 	],
-	"display": "{0}, {1}, {2}",
+	"display": "{0} II, {1}, {2}",
 	"page": {
 		"number": 1509,
 		"column": "b"

@@ -5,13 +5,14 @@
 	"headwords": [
 		{
 			"text": "שְׁוַוח",
-			"disambiguator": 2
+			"disambiguator": 2,
+			"homograph": 3
 		},
 		{
 			"text": "שְׁוַח"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} III, {1}",
 	"page": {
 		"number": 1530,
 		"column": "a"

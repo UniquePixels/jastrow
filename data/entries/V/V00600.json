@@ -4,13 +4,14 @@
 	"sefariaHeadword": "תַּלְמָא",
 	"headwords": [
 		{
-			"text": "תַּלְמָא"
+			"text": "תַּלְמָא",
+			"homograph": 2
 		},
 		{
 			"text": "תְּלָאמָא"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1672,
 		"column": "a"

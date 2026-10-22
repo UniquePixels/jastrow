@@ -4,13 +4,14 @@
 	"sefariaHeadword": "תְּפֵי",
 	"headwords": [
 		{
-			"text": "תְּפֵי"
+			"text": "תְּפֵי",
+			"homograph": 1
 		},
 		{
 			"text": "תְּפַף"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} I, {1}",
 	"page": {
 		"number": 1685,
 		"column": "b"

@@ -4,14 +4,15 @@
 	"sefariaHeadword": "תּוֹר",
 	"headwords": [
 		{
-			"text": "תּוֹר"
+			"text": "תּוֹר",
+			"homograph": 3
 		},
 		{
 			"text": "תּוֹרָא",
 			"homograph": 1
 		}
 	],
-	"display": "{0}, {1} I",
+	"display": "{0} III, {1} I",
 	"page": {
 		"number": 1656,
 		"column": "a"

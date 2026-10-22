@@ -51,7 +51,7 @@ audit's predicate counts five more rows than §4's.
 | U01512's `a) … 2)` | case 3: `annotate`, `kept` | 1 | (iii), done in PR #176 |
 | S01780's half-printed qamats | case 4: ticked in round 2, annotated `illegible` | 1 | (iv), done in PR #177 |
 | Round 2 (L46) | your ticks, applied under 10-13 | 16 questions | (iv), done in PR #177 |
-| Single-numeral cross-references whose target lacks the numeral | 222 determined retargets (case 1; the 10 above among them); 74 rows to read, in 48 worklist questions | 296 rows | (v); determined half (v-a) done in PR #178: 196 retargets |
+| Single-numeral cross-references whose target lacks the numeral | 222 determined retargets (case 1; the 10 above among them); 74 rows to read, in 48 worklist questions | 296 rows | (v); determined half (v-a) done in PR #178: 196 retargets; (v-b) in PR #179; the 26 pre-publication questions in PR #187 (22 deferred) |
 | P00790's Hif. run | case 2: `a b c d f g h` → `a b c d e f g` | 1 | after L59; done in PR #180: the `relabel` P000812, 3 annotations |
 | M00491's implied `1)`, which L36's split of its `—*2)` exposed | case 2: `retag`, annotated `printed: ''`, `stored: '1'`, as RP8's 61 | 1 | group 11 leftovers; done in PR #182: P000815 |
 | Past patches with no case | D00341's bracket move and G00675's disambiguator: no annotation | 3 | none |
@@ -416,7 +416,13 @@ higher) reads 219 and 77 here with the five added.
 
 **The 74 rows to read** ((a) to read, (b), (c), (d)) are a new
 worklist section, one question per family and numeral, 48 questions:
-[`headword-worklist.md` § Cross-reference numerals (2026-10-14)](headword-worklist.md#cross-reference-numerals-2026-10-14).
+moved from `headword-worklist.md` to `maintainer-checklist.md` in
+PR #186, then split on 2026-10-18: the 8 answered that day and the
+18 whose answer may rename an entry are applied in PR #187
+([`headword-worklist.md` § Applied from the maintainer checklist (2026-10-22)](headword-worklist.md#applied-from-the-maintainer-checklist-2026-10-22));
+and the other 22, deferred post go-live 2026-10-18 by the
+maintainer's blocker definition, in
+[`post-go-live-review.md` § Cross-reference numerals (2026-10-14)](post-go-live-review.md#cross-reference-numerals-2026-10-14).
 (b) is there too, beyond what (c) and (d) alone would need: a single
 bare member is a candidate, not a proof, and reading the 13 (b)
 families shows why (the bare member is sometimes the target itself or
@@ -710,7 +716,7 @@ table.
 
 ### 5.2 (b): one bare member (15)
 
-In the worklist, for the reason above; listed here as the population.
+In the worklist (since PR #186 [`maintainer-checklist.md`](maintainer-checklist.md); since 2026-10-18 its answered and its renaming questions there and the rest in [`post-go-live-review.md`](post-go-live-review.md) § Cross-reference numerals), for the reason above; listed here as the population.
 
 | # | citing rid | the cite in context | Sefaria links | the one bare member | family | scan |
 |---|---|---|---|---|---|---|
@@ -789,7 +795,25 @@ The three unclassified:
    and the two through the new `language_reference:` target, the 6
    to the `ch.` line under ruling `10-15 ch. cross-reference`. The
    determined half is complete. The 74-row worklist half waits on the
-   maintainer's ticks.
+   maintainer's ticks, in
+   [`maintainer-checklist.md`](maintainer-checklist.md) § Cross-reference
+   numerals since PR #186. Split 2026-10-18: the 8 questions answered
+   that day stay there (§ Cross-reference numerals: answered 2026-10-18
+   (8)), with the 18 that may rename an entry (31 cites; § Cross-reference
+   numerals: may rename an entry (18)); the other 22, 34 cites, are
+   deferred post go-live 2026-10-18 by the maintainer's blocker
+   definition; rows in [`post-go-live-review.md`](post-go-live-review.md).
+   PR #187 (2026-10-22) applies the answers on all 26 left in the
+   checklist: the 8 answered and the 18 that may rename an entry, 65
+   reviewed patches (P000863–P000926 and P000929,
+   [`../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)):
+   34 cites re-aimed and 19 numerals print sets restored (case 1), 4
+   numerals Jastrow's text names and N01120's `III` → `II` (case 2,
+   annotated), 4 cites kept (case 3, `annotate`), and A00627's
+   Gesenius cite delinked, A01864's `I` read as the digit `1` and
+   C00577's gloss-head I moved onto its form (case 1). P00639, answered
+   by note on 2026-10-22, follows as P000929: its cite re-aimed at
+   H00845 `חֵיפָה III` (case 1). The 22 stay deferred.
 6. **P00790**, after L59. Done in PR #180: L59's mechanism is the new
    reviewed op `relabel`, and P000812 relabels the Hif. run
    (`docs/correction-audit.md` §4;

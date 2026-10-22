@@ -5,13 +5,14 @@
 	"headwords": [
 		{
 			"text": "שׁוּתָּא",
-			"disambiguator": 2
+			"disambiguator": 2,
+			"homograph": 2
 		},
 		{
 			"text": "שׁוּתָא"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0} II, {1}",
 	"page": {
 		"number": 1544,
 		"column": "a"

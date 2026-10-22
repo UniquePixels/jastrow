@@ -139,6 +139,14 @@ describe('evidenceOf: the rationale names print evidence', () => {
 			'Companion (same print read, docs/headword-worklist.md at ed8261aaa)',
 			'maintainer print read (docs/headword-worklist.md)',
 		],
+		[
+			'Ticked in the maintainer print read (docs/maintainer-checklist.md at 5a94da667)',
+			'maintainer print read (docs/maintainer-checklist.md)',
+		],
+		[
+			'Ticked in the maintainer print read (docs/post-go-live-review.md)',
+			'maintainer print read (docs/post-go-live-review.md)',
+		],
 		['(Brian, print check 2026-09-20)', 'maintainer print read 2026-09-20'],
 		['review doc 01: upstream segmentation chopped it', ''],
 		['print sets `X V`', ''],

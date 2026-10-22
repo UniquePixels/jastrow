@@ -71,7 +71,11 @@ const HOCR = /\bhOCR\b/u;
 const LEAF = /\bleaf (?<leaf>\d+)/u;
 const PRINT_READ = /\bprint (?:read|check)\b/iu;
 const READ_DATE = /\bprint (?:read|check)\b[^.;]*?(?<date>\d{4}-\d{2}-\d{2})/iu;
-const WORKLIST = /docs\/[\w-]+-worklist\.md/u;
+/** Where a maintainer's print read is recorded: a worklist, or the
+ * checklist the open questions moved to (PR #186) and its post-go-live
+ * half (split 2026-10-18). */
+const WORKLIST =
+	/docs\/(?:[\w-]+-worklist|maintainer-checklist|post-go-live-review)\.md/u;
 const OPEN_ANCHOR = /<a\b/gu;
 const HREF = /\bhref="(?<href>[^"]*)"/u;
 const NUMERAL = /^[IVX]+$/u;

@@ -7,17 +7,18 @@
 			"text": "גִּזְרָא"
 		},
 		{
-			"text": "גִּיזְרָא"
+			"text": "גִּיזְרָא",
+			"homograph": 1
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0}, {1} I",
 	"page": {
 		"number": 232,
 		"column": "a"
 	},
 	"senses": [
 		{
-			"gloss": "<b>, </b>I ch. ",
+			"gloss": "<b>, </b>ch. ",
 			"units": []
 		},
 		{

@@ -4,8 +4,19 @@
 	"sefariaHeadword": "אַיְנָא I",
 	"headwords": [
 		{
-			"text": "אַיְנָא",
-			"homograph": 1
+			"text": "אַוְנָא",
+			"homograph": 1,
+			"annotations": [
+				{
+					"field": "text",
+					"kind": "illegible",
+					"printed": "אַיְנָא",
+					"stored": "אַוְנָא",
+					"evidence": "the maintainer's print read 2026-10-22: \"As above, print/scan issue, the letter is neither a complete yod or vav, based on other evidence vav is correct.\" Its alternates are `אַוְונָא, אֲוָונָא`; the I pairs it with A00719 `אֲוָנָא II` (Avana, `v. foreg.`); A00749 (`cmp. אֲוָנָא`, linked here) spells it with a vav; it stands between A00717 `אוֹן` and A00719, and under `אי` it would stand pages later. 28a · leaf 51.",
+					"source": "P000858",
+					"date": "2026-10-22"
+				}
+			]
 		},
 		{
 			"text": "אַוְונָא"
