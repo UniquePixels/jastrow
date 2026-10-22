@@ -27,11 +27,11 @@ evidence, and re-aiming a wrong link is case 1.
 
 ## Where the patches are
 
-**101 reviewed patches, P000828–P000928, on 94 entries**, appended to
+**102 reviewed patches, P000828–P000929, on 95 entries**, appended to
 [`../../reviewed/patches.jsonl`](../../reviewed/patches.jsonl), with
 the rid's patch ids in
 [`../../reviewed/manifest.jsonl`](../../reviewed/manifest.jsonl): a
-new `repaired` record for 91 rids, the ids appended to the existing
+new `repaired` record for 92 rids, the ids appended to the existing
 record for A03020, C01130 and P00856. `prompt_version` is
 `checklist-batch-1-2026-10-22`; every `snapshot` is `sha256:75bbc5ee…`.
 This directory holds only this README.
@@ -40,9 +40,9 @@ This directory holds only this README.
 |---|---|---|---|---|---|
 | A. Cross-reference spellings (17 blocks) | 35 | 26 | 0 | 0 | 8 |
 | B. X11 (2 blocks) | 2 | 2 | 0 | 0 | 0 |
-| C. Numerals that may rename (17 of 18) | 52 | 47 | 4 | 1 | 0 |
+| C. Numerals that may rename (18 of 18) | 53 | 48 | 4 | 1 | 0 |
 | D. Numerals answered 2026-10-18 (8) | 12 | 8 | 1 | 3 | 0 |
-| total | 101 | 83 | 5 | 4 | 8 |
+| total | 102 | 84 | 5 | 4 | 8 |
 
 A's 35th patch, P000927, is C00300's `disambiguator` (below), which
 no case covers: it changes no printed value.
@@ -139,7 +139,7 @@ P000589 (PR #177). The cites the block says move are re-aimed by case 1
 Each is a `reform` whose pieces concatenate byte for byte to the one
 word print sets, as U00489's P000811 (PR #179). The X11 rows clear.
 
-### C. Numerals that may rename an entry: 17 of 18
+### C. Numerals that may rename an entry: all 18
 
 A numeral print sets and Sefaria dropped is a case 1 `reform` with
 `homographs` and a `display` that shows it, the evidence the block's
@@ -148,10 +148,12 @@ numeral Jastrow's text names where print sets none is case 2, annotated
 `{kind: 'print-error', printed: '', evidence: <the cite>}`, as PR
 #174's implied Is. A numeral goes on the form print sets it beside: the
 first form, unless the hOCR or the note says otherwise. P00639
-`חֵיפָא III` is not ticked and stays.
+`חֵיפָא III` was answered by the maintainer's note of 2026-10-22, after
+the PR's first push, and is P000929, the last patch of the batch.
 
 | block | tick | case | patches | before → after | scan |
 |---|---|---|---|---|---|
+| `חֵיפָא III` | note: H00845 `חֵיפָה III`, retarget | 1 | P000929 | P00639: H00840 → H00845 (pr. n. m. Ḥefa, = עֵיפָא); text and numeral unchanged | 1073b · leaf 396 |
 | `נוֹחַ I` | N00342 takes I | 2; 1 | P000863; P000864 | N00342 `{0}` → `{0} I`; N00660: N00343 → N00342 | 886b · leaf 209 |
 | `סְגֵי I` | the five → O00120; O00123 takes `סַגִּי I` | 1; 2; 1 | P000865–P000869; P000870; P000871 | O00123, O00154, O00159, O00550, O00554: O00121 → O00120; O00123 `{0}, {1}, {2}` → `{0} I, {1}, {2}`; O00249: O00124 → O00123 | 953b · leaf 276; 954a · leaf 277 |
 | `עֵרָבוֹן II` | P01273 takes II | 2 | P000872 | P01273 `{0}, {1}` → `{0} II, {1}` (the link was already there) | 1112b · leaf 435 |
@@ -214,10 +216,10 @@ first form, unless the hOCR or the note says otherwise. P00639
 ## What changed
 
 The re-import (`rm -rf data/entries/[A-Z] && bun data:import && bun
-qa:format`) changes exactly the 94 patched entries, each by the field
+qa:format`) changes exactly the 95 patched entries, each by the field
 its patches name: a respelling moves one form's `text` (and the name);
 a rejoin the line's forms and `display`; a numeral one form's
-`homograph` and the `display`; a retarget one `ref` (46 cites: 45
+`homograph` and the `display`; a retarget one `ref` (47 cites: 46
 differ by `ref` only, and N01120's unit also takes its `II`); an annotation is added only where case 2, 3 or 4 applies
 (17). Everything else is byte-identical (checked by a script over the
 diffs).
@@ -273,7 +275,7 @@ collision):
 **Gates.** All green: names 65,024/65,024, internal targets (gate 6)
 32,512/32,512 with 0 unresolved, composition and contract (gate 10's
 both-ways annotation check) green; `bun data:validate` 0 problems.
-The blessing reads 769 reviewed, 814 applied (was 668, 713) and 117
+The blessing reads 770 reviewed, 815 applied (was 668, 713) and 117
 annotations written (102 print-error, 6 kept, 9 illegible; was 100:
 97, 2, 1). No `body/` or `transform/` code changed, so
 `transform:invariants` was not run.
@@ -294,9 +296,9 @@ records, 0 stale).
 
 ## Upstream
 
-`bun data:sefaria` moves the appendix from 299 rows to 380 (+81) and
-the review list from 369 to 389 (+20). The 81 are this PR's case 1
-patches with print evidence: 46 `cross-reference-target`, 19
+`bun data:sefaria` moves the appendix from 299 rows to 381 (+82) and
+the review list from 369 to 389 (+20). The 82 are this PR's case 1
+patches with print evidence: 47 `cross-reference-target`, 19
 `headword-numeral-dropped`, 13 `headword-ocr-glyph`, 1 each
 `cross-reference-ocr-glyph`, `cross-reference-overreach` and
 `headword-numeral-in-gloss`. The other 20 are the 17 annotated or

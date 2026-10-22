@@ -6,12 +6,11 @@ under your blocker definition
 the pre-publication items, the answers that change a `headwords[0]`:
 the URL name is computed from it, and a name changed after go-live
 costs a redirect forever (U6; redirects are unbuilt, L23). Since
-PR #187 (2026-10-22) that is one block, P00639 in § Cross-reference
-numerals: may rename an entry, which you left open with a note; none
-is held. PR #187 applied the rest of what you ticked, all 17 spelling
-blocks (C00299 after your ruling of 2026-10-22 on C00300), § X11, 17 of
-the 18 numeral questions and the 8 you answered on 2026-10-18; they
-are in
+PR #187 (2026-10-22) no block is left: PR #187 applied everything
+you answered, all 17 spelling blocks (C00299 after your ruling of
+2026-10-22 on C00300), § X11, all 18 numeral questions that may rename
+an entry (P00639 by your note of 2026-10-22) and the 8 you answered on
+2026-10-18; they are in
 [`headword-worklist.md`](headword-worklist.md) § Applied from the
 maintainer checklist (2026-10-22). The other 22 numeral questions and
 the 3 scan reads for L65–L66 moved, byte for byte, to
@@ -36,53 +35,7 @@ Started 2026-10-16 (PR #186) by moving the open sections out of
 
 | section | items | source PR | ledger row |
 |---|---|---|---|
-| [Cross-reference numerals: may rename an entry (18)](#cross-reference-numerals-may-rename-an-entry-18) | 1 question (P00639); 17 applied in PR #187 | #173 | L64 |
 | [Textual-research candidates (for #153)](#textual-research-candidates-for-153) | 18 rows to paste (23 listed; 5 already in #153) | #181 | L47 |
-
-## Cross-reference numerals: may rename an entry (18)
-
-**Status:** you ticked 17 of the 18; PR #187 applied them, and they
-moved to [`headword-worklist.md`](headword-worklist.md) § Applied from
-the maintainer checklist (2026-10-22). P00639 stays, unticked, with
-your note "Check 85 and analyze". The table keeps its row.
-
-These 18 questions are pre-publication: an answer can set a homograph
-numeral on `headwords[0]`, and the URL name is `headwords[0]` with its
-numeral, so the name changes. Changed after go-live, each would need a
-redirect, and redirects are unbuilt (U6, L23), so your ruling of
-2026-10-18 brought them back from
-[`post-go-live-review.md`](post-go-live-review.md); how to read the
-blocks is in that file's § Cross-reference numerals (2026-10-14).
-
-| cites | text | class | question in five words | recommendation | confidence |
-|---|---|---|---|---|---|
-| P00639 | `חֵיפָא III` | one bare member | where is חֵיפָא III? | kept | low |
-
-### `חֵיפָא III`: P00639 (one bare member)
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [H00839](https://jastrow.app/#rid:H00839) | `חֵיפָא I` | `attack, Targ. Prov, XXVIII, 4 (h, text Dow), Ih, I, 8` | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
-| [H00840](https://jastrow.app/#rid:H00840) | `חֵיפָא II` | no line matched | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
-| [H00841](https://jastrow.app/#rid:H00841) | `חִיפָּא` | no line matched | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
-| [H00843](https://jastrow.app/#rid:H00843) | `חֵיפָה I, חֵיפָא, בֵּית ח׳` | `a harbor of the Mediterranean Sea, south of` | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
-
-The cites, as the entries store them:
-
-- [P00639](https://jastrow.app/#rid:P00639): …pr. n. m.ʿEfa, v. **חֵיפָא III**.… Sefaria links it to H00840 `חֵיפָא II`. [1073b · leaf 396](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$397/full/1400,/0/default.jpg)
-
-P00639 `עֵיפָא II` (pr. n. m. ʿEfa) reads `v. חֵיפָא III`; Sefaria links H00840 `חֵיפָא II` (pr. n. pl., v. Haifa). The family numbers I and II only; H00841 `חִיפָּא` (border in webs) is the only bare member and is no proper name.
-
-**Question.** Which entry is Jastrow's `חֵיפָא III`?
-
-- **P00639**
-  - [ ] none in the data: print's III names a word Sefaria lacks; the link stays (case 3: `kept` on the cite)
-  - [ ] H00840: print's `III` is a slip for `II` (case 2: the cite's text annotated)
-  - [ ] H00841 takes III (case 2)
-  - [ ] can't tell from the scan
-  - note: Check 85 and analyze
-
-Recommendation: kept (low): a personal name ʿEfa matches no stored `חֵיפָא`; read the column for a third `חֵיפָא` line.
 
 ## Textual-research candidates (for #153)
 

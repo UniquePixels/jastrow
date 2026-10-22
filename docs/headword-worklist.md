@@ -3,17 +3,17 @@
 ## Status
 
 **2026-10-22, the checklist applied.** PR #187 applies your ticks in
-[`maintainer-checklist.md`](maintainer-checklist.md): 101 reviewed
-patches on 94 entries (P000828–P000928,
+[`maintainer-checklist.md`](maintainer-checklist.md): 102 reviewed
+patches on 95 entries (P000828–P000929,
 [`records/tranches/checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)),
 under ruling `10-13 correction policy`. All 17 cross-reference
 spelling blocks (19 entries; 7 annotated `illegible` where your note
-says the printed letter is defective), both X11 rejoins, 17 of the 18 numeral
+says the printed letter is defective), both X11 rejoins, all 18 numeral
 questions that may rename an entry and the 8 answered on 2026-10-18;
 42 names change. Each applied block moved here, to § Applied from the
 maintainer checklist (2026-10-22) at the end of this file, with a line
-saying what was written. One block waits in the checklist: P00639,
-which you left open. C00299 is applied after your ruling of 2026-10-22
+saying what was written. No block waits in the checklist: P00639 is
+applied after your note of 2026-10-22 (H00845). C00299 is applied after your ruling of 2026-10-22
 that C00300 is an unnumbered cross-reference stub, which takes a
 `disambiguator` for its name; your U00721 note, corrected the same day,
 makes that respelling case 1. After the re-import the report reads X11 0, X10 5, X8 71, X9 6
@@ -2434,7 +2434,7 @@ it: re-run the report before working this list.
 
 ## Cross-reference numerals (2026-10-14)
 
-Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals (2026-10-14) on 2026-10-16 (PR #186), then split on 2026-10-18: the 8 questions answered that day are in [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals: answered 2026-10-18 (8), the 18 that may rename an entry in § Cross-reference numerals: may rename an entry (18) there, and the other 22, deferred past go-live, in [docs/post-go-live-review.md](post-go-live-review.md) § Cross-reference numerals (2026-10-14). Each returns here as history when applied: the 8 answered and 17 of the 18 that may rename an entry are applied in PR #187 and are in § Applied from the maintainer checklist (2026-10-22) below; P00639 is still in the checklist.
+Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals (2026-10-14) on 2026-10-16 (PR #186), then split on 2026-10-18: the 8 questions answered that day are in [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals: answered 2026-10-18 (8), the 18 that may rename an entry in § Cross-reference numerals: may rename an entry (18) there, and the other 22, deferred past go-live, in [docs/post-go-live-review.md](post-go-live-review.md) § Cross-reference numerals (2026-10-14). Each returns here as history when applied: the 8 answered and the 18 that may rename an entry are applied in PR #187 and are in § Applied from the maintainer checklist (2026-10-22) below.
 
 ## Cross-reference spellings (2026-10-16)
 
@@ -2446,7 +2446,7 @@ Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Scan reads f
 
 ## Applied from the maintainer checklist (2026-10-22)
 
-Applied in PR #187: your ticks in [`maintainer-checklist.md`](maintainer-checklist.md), recorded 2026-10-18 (`963e28b2b`) and 2026-10-22 (`5a94da667`), as 101 reviewed patches on 94 entries (P000828–P000928, listed block by block in [`checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)). Each block below is moved from the checklist byte for byte, and ends with what was written. 42 entries take a new name; every gate is green.
+Applied in PR #187: your ticks in [`maintainer-checklist.md`](maintainer-checklist.md), recorded 2026-10-18 (`963e28b2b`) and 2026-10-22 (`5a94da667`), as 102 reviewed patches on 95 entries (P000828–P000929, listed block by block in [`checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)). Each block below is moved from the checklist byte for byte, and ends with what was written. 42 entries take a new name; every gate is green.
 
 **From § Cross-reference spellings (2026-10-16): all 17 blocks, 19 entries, with the section's introduction.** C00299 was held in PR #187's first push (its respelling is C00300's name) and applied after your ruling of 2026-10-22 on C00300.
 
@@ -2986,7 +2986,44 @@ Recommendation: rejoin as `תִּכְבּוֹסֶת` (high): the scan sets one w
 
 Applied in PR #187: P000862 rejoins V00524 `תִּ, כְבּוֹסֶת` → `תִּכְבּוֹסֶת` (case 1); the name `תִּ` becomes `תִּכְבּוֹסֶת` and the X11 row clears.
 
-**From § Cross-reference numerals: may rename an entry (18): 17 of the 18 questions.** P00639 `חֵיפָא III` is not ticked and stays in the checklist with the section's introduction and table.
+**From § Cross-reference numerals: may rename an entry (18): all 18 questions, with the section's introduction.** P00639 `חֵיפָא III` was answered by your note of 2026-10-22, after this PR's first push.
+
+These 18 questions are pre-publication: an answer can set a homograph
+numeral on `headwords[0]`, and the URL name is `headwords[0]` with its
+numeral, so the name changes. Changed after go-live, each would need a
+redirect, and redirects are unbuilt (U6, L23), so your ruling of
+2026-10-18 brought them back from
+[`post-go-live-review.md`](post-go-live-review.md); how to read the
+blocks is in that file's § Cross-reference numerals (2026-10-14).
+
+### `חֵיפָא III`: P00639 (one bare member)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [H00839](https://jastrow.app/#rid:H00839) | `חֵיפָא I` | `attack, Targ. Prov, XXVIII, 4 (h, text Dow), Ih, I, 8` | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
+| [H00840](https://jastrow.app/#rid:H00840) | `חֵיפָא II` | no line matched | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
+| [H00841](https://jastrow.app/#rid:H00841) | `חִיפָּא` | no line matched | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
+| [H00843](https://jastrow.app/#rid:H00843) | `חֵיפָה I, חֵיפָא, בֵּית ח׳` | `a harbor of the Mediterranean Sea, south of` | [459a · leaf 482](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$483/full/1400,/0/default.jpg) |
+
+The cites, as the entries store them:
+
+- [P00639](https://jastrow.app/#rid:P00639): …pr. n. m.ʿEfa, v. **חֵיפָא III**.… Sefaria links it to H00840 `חֵיפָא II`. [1073b · leaf 396](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$397/full/1400,/0/default.jpg)
+
+P00639 `עֵיפָא II` (pr. n. m. ʿEfa) reads `v. חֵיפָא III`; Sefaria links H00840 `חֵיפָא II` (pr. n. pl., v. Haifa). The family numbers I and II only; H00841 `חִיפָּא` (border in webs) is the only bare member and is no proper name.
+
+**Question.** Which entry is Jastrow's `חֵיפָא III`?
+
+- **P00639**
+  - [ ] none in the data: print's III names a word Sefaria lacks; the link stays (case 3: `kept` on the cite)
+  - [ ] H00840: print's `III` is a slip for `II` (case 2: the cite's text annotated)
+  - [ ] H00841 takes III (case 2)
+  - [ ] can't tell from the scan
+  - note: H00845 חֵיפָה III, pr. n. m. Ḥefa = עֵיפָא; retarget
+
+
+Recommendation: kept (low): a personal name ʿEfa matches no stored `חֵיפָא`; read the column for a third `חֵיפָא` line.
+
+Applied in PR #187: P000929 moves P00639's `v. חֵיפָא III` from H00840 to H00845 `חֵיפָה III`, pr. n. m. Ḥefa (= עֵיפָא), as your note of 2026-10-22 says (case 1); no numeral changes and the cite's text stays as printed. No name changes.
 
 ### `נוֹחַ I`: N00660 (target numbered otherwise)
 

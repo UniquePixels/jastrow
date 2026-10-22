@@ -32,7 +32,8 @@ changes only if print sets the numeral after the first (563 of the
 1,043 numbered entries with more than one form carry it there today).
 Under the blocker definition those answers are pre-publication, so
 the maintainer ruled on 2026-10-18 that the 18 go back to
-[`maintainer-checklist.md` § Cross-reference numerals: may rename an entry (18)](maintainer-checklist.md#cross-reference-numerals-may-rename-an-entry-18).
+`maintainer-checklist.md` § Cross-reference numerals: may rename an entry (18)
+(applied in PR #187: [`headword-worklist.md` § Applied from the maintainer checklist (2026-10-22)](headword-worklist.md#applied-from-the-maintainer-checklist-2026-10-22)).
 None of the 22 numeral questions left here sets a numeral on a
 `headwords[0]` (`נָוֶה III` sets its III on N00317's alternate
 `נָוֶוה`, as print does), and the scan reads change no headword, so
@@ -53,10 +54,9 @@ directly. One scan read answers both.
 ## Cross-reference numerals (2026-10-14)
 
 **Deferred 2026-10-18.** 22 of the section's 48 questions, 34 of
-its 74 cites. The 8 answered on 2026-10-18 and 17 of the 18 that
-may rename an entry were applied in PR #187 and are in
-[`headword-worklist.md` § Applied from the maintainer checklist (2026-10-22)](headword-worklist.md#applied-from-the-maintainer-checklist-2026-10-22); the 18th, P00639, is still in
-[`maintainer-checklist.md` § Cross-reference numerals: may rename an entry (18)](maintainer-checklist.md#cross-reference-numerals-may-rename-an-entry-18).
+its 74 cites. The 8 answered on 2026-10-18 and the 18 that may
+rename an entry were applied in PR #187 and are in
+[`headword-worklist.md` § Applied from the maintainer checklist (2026-10-22)](headword-worklist.md#applied-from-the-maintainer-checklist-2026-10-22).
 The text from **Status** to the table is the section's intro as written
 on 2026-10-14, so its counts (48 questions, 74 cites) are the whole
 list's; the table and the blocks are the 22.

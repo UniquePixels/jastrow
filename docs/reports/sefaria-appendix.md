@@ -6,13 +6,13 @@ The rows are `sefaria-appendix.csv`; every patch a filter refused is
 in `sefaria-review.csv` with its reason. The filters, and how to read
 a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 
-**380 rows** (380 new, 0 submitted); 389 patches in the review list.
+**381 rows** (381 new, 0 submitted); 389 patches in the review list.
 
 ## Rows by class
 
 | class | rows | new | submitted |
 |---|---|---|---|
-| cross-reference-target | 217 | 217 | 0 |
+| cross-reference-target | 218 | 218 | 0 |
 | headword-numeral-dropped | 41 | 41 | 0 |
 | ocr-marker | 23 | 23 | 0 |
 | chopped-marker-with-residue | 18 | 18 | 0 |
