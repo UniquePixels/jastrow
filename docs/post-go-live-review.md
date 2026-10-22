@@ -54,7 +54,7 @@ directly. One scan read answers both.
 
 **Deferred 2026-10-18.** 22 of the section's 48 questions, 34 of
 its 74 cites. The 8 answered on 2026-10-18 and 17 of the 18 that
-may rename an entry were applied in PR #n and are in
+may rename an entry were applied in PR #187 and are in
 [`headword-worklist.md` § Applied from the maintainer checklist (2026-10-22)](headword-worklist.md#applied-from-the-maintainer-checklist-2026-10-22); the 18th, P00639, is still in
 [`maintainer-checklist.md` § Cross-reference numerals: may rename an entry (18)](maintainer-checklist.md#cross-reference-numerals-may-rename-an-entry-18).
 The text from **Status** to the table is the section's intro as written

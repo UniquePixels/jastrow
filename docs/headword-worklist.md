@@ -2,7 +2,7 @@
 
 ## Status
 
-**2026-10-22, the checklist applied.** PR #n applies your ticks in
+**2026-10-22, the checklist applied.** PR #187 applies your ticks in
 [`maintainer-checklist.md`](maintainer-checklist.md): 99 reviewed
 patches on 92 entries (P000828–P000926,
 [`records/tranches/checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)),
@@ -2336,7 +2336,7 @@ at S00064 (`קְבל` IV, no patah); that question is in pile C.
 
 ## X11: one-letter primaries (2026-10-15)
 
-Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § X11: one-letter primaries (2026-10-15) on 2026-10-16 (PR #186); applied in PR #n, and both blocks are back in § Applied from the maintainer checklist (2026-10-22) below.
+Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § X11: one-letter primaries (2026-10-15) on 2026-10-16 (PR #186); applied in PR #187, and both blocks are back in § Applied from the maintainer checklist (2026-10-22) below.
 
 ## Textual-research candidates (for #153)
 
@@ -2432,11 +2432,11 @@ it: re-run the report before working this list.
 
 ## Cross-reference numerals (2026-10-14)
 
-Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals (2026-10-14) on 2026-10-16 (PR #186), then split on 2026-10-18: the 8 questions answered that day are in [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals: answered 2026-10-18 (8), the 18 that may rename an entry in § Cross-reference numerals: may rename an entry (18) there, and the other 22, deferred past go-live, in [docs/post-go-live-review.md](post-go-live-review.md) § Cross-reference numerals (2026-10-14). Each returns here as history when applied: the 8 answered and 17 of the 18 that may rename an entry are applied in PR #n and are in § Applied from the maintainer checklist (2026-10-22) below; P00639 is still in the checklist.
+Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals (2026-10-14) on 2026-10-16 (PR #186), then split on 2026-10-18: the 8 questions answered that day are in [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference numerals: answered 2026-10-18 (8), the 18 that may rename an entry in § Cross-reference numerals: may rename an entry (18) there, and the other 22, deferred past go-live, in [docs/post-go-live-review.md](post-go-live-review.md) § Cross-reference numerals (2026-10-14). Each returns here as history when applied: the 8 answered and 17 of the 18 that may rename an entry are applied in PR #187 and are in § Applied from the maintainer checklist (2026-10-22) below; P00639 is still in the checklist.
 
 ## Cross-reference spellings (2026-10-16)
 
-Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference spellings (2026-10-16) on 2026-10-16 (PR #186); 16 of its 17 blocks are applied in PR #n and are in § Applied from the maintainer checklist (2026-10-22) below. C00299 is held in the checklist: its respelling is C00300's name.
+Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference spellings (2026-10-16) on 2026-10-16 (PR #186); 16 of its 17 blocks are applied in PR #187 and are in § Applied from the maintainer checklist (2026-10-22) below. C00299 is held in the checklist: its respelling is C00300's name.
 
 ## Scan reads for L65–L66 (2026-10-16)
 
@@ -2444,7 +2444,7 @@ Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Scan reads f
 
 ## Applied from the maintainer checklist (2026-10-22)
 
-Applied in PR #n: your ticks in [`maintainer-checklist.md`](maintainer-checklist.md), recorded 2026-10-18 (`963e28b2b`) and 2026-10-22 (`5a94da667`), as 99 reviewed patches on 92 entries (P000828–P000926, listed block by block in [`checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)). Each block below is moved from the checklist byte for byte, and ends with what was written. 40 entries take a new name; every gate is green.
+Applied in PR #187: your ticks in [`maintainer-checklist.md`](maintainer-checklist.md), recorded 2026-10-18 (`963e28b2b`) and 2026-10-22 (`5a94da667`), as 99 reviewed patches on 92 entries (P000828–P000926, listed block by block in [`checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)). Each block below is moved from the checklist byte for byte, and ends with what was written. 40 entries take a new name; every gate is green.
 
 **From § Cross-reference spellings (2026-10-16): 16 of the 17 blocks, 18 of the 19 entries.** The section's introduction and table stay in the checklist with the one block it still holds, C00299, whose respelling `גּוּד` is C00300's name (held: it needs a numeral or a disambiguator, your call).
 
@@ -2474,7 +2474,7 @@ same `אב`.
 Recommendation: yes (high): the hOCR, the alphabet and eight cites
 agree.
 
-Applied in PR #n: P000828 respells A00021 `אַכְאָבִית` → `אַבְאָבִית` (case 1, no annotation); the name changes with it.
+Applied in PR #187: P000828 respells A00021 `אַכְאָבִית` → `אַבְאָבִית` (case 1, no annotation); the name changes with it.
 
 ### `אֻרְוָה`: A03020 (stored `אֻרְיָה`)
 
@@ -2501,7 +2501,7 @@ there, `אריה` would follow `ארווד`. The hOCR misreads the headword.
 Recommendation: yes (high): the cites, the plural and the alphabet
 agree.
 
-Applied in PR #n: P000829 respells A03020 `אֻרְיָה` → `אֻרְוָה`, annotated `illegible` with your note, the three cites and the alphabet (case 4, as your note asks); the name changes with it.
+Applied in PR #187: P000829 respells A03020 `אֻרְיָה` → `אֻרְוָה`, annotated `illegible` with your note, the three cites and the alphabet (case 4, as your note asks); the name changes with it.
 
 ### `כּוֹזְבָא`: K00228 (stored `כּוֹזְכָא`)
 
@@ -2527,7 +2527,7 @@ after `כוזה`.
 Recommendation: yes (high): the gloss, the alternates, the cite and
 the alphabet agree.
 
-Applied in PR #n: P000830 respells K00228 `כּוֹזְכָא` → `כּוֹזְבָא` (case 1, no annotation); the name changes with it.
+Applied in PR #187: P000830 respells K00228 `כּוֹזְכָא` → `כּוֹזְבָא` (case 1, no annotation); the name changes with it.
 
 ### `כַּלְקִידָא`: K00780 (stored `כַּלְקִירָא`)
 
@@ -2554,7 +2554,7 @@ likely sets both spellings, `ד` first.
 Recommendation: yes (high): the cite's `read:` and the alphabet agree,
 and K00782 keeps the `ר` spelling in its own place.
 
-Applied in PR #n: P000831 respells K00780 `כַּלְקִירָא` → `כַּלְקִידָא`, annotated `illegible` with your note, K00753's `read:` and the alphabet (case 4); the name changes with it. K00782 keeps `כלקירא`.
+Applied in PR #187: P000831 respells K00780 `כַּלְקִירָא` → `כַּלְקִידָא`, annotated `illegible` with your note, K00753's `read:` and the alphabet (case 4); the name changes with it. K00782 keeps `כלקירא`.
 
 ### `שִׁיפּוּט`: U01011 (stored `שִׁופּוּט`)
 
@@ -2581,7 +2581,7 @@ spelling of the same word. The entry stands between U01010
 Recommendation: yes (high): the pointing, the cite and the alphabet
 agree.
 
-Applied in PR #n: P000832 respells U01011 `שִׁופּוּט` → `שִׁיפּוּט` (case 1, no annotation); the name changes with it.
+Applied in PR #187: P000832 respells U01011 `שִׁופּוּט` → `שִׁיפּוּט` (case 1, no annotation); the name changes with it.
 
 ### `חָלַד`: H00980 (stored `חָלַך`)
 
@@ -2609,7 +2609,7 @@ Sefaria links them to H00981, the `ch.` line: E00561, H00330 (`f.
 Recommendation: yes (high): `ch. same` names this word, and the cites
 and the alphabet agree.
 
-Applied in PR #n: P000833 respells H00980 `חָלַך` → `חָלַד` (case 1, no annotation), and P000834–P000837 move the four cites (E00561, H00330, H00990, U01212) from H00981 to it; the name changes with it.
+Applied in PR #187: P000833 respells H00980 `חָלַך` → `חָלַד` (case 1, no annotation), and P000834–P000837 move the four cites (E00561, H00330, H00990, U01212) from H00981 to it; the name changes with it.
 
 ### `עֵינָוָון`: P00609 (stored `עֵינָיָון`)
 
@@ -2637,7 +2637,7 @@ correctly and witness only the spelling.
 Recommendation: yes (medium): the alphabet and the spelling agree; the
 cites' meaning does not settle it.
 
-Applied in PR #n: P000838 respells P00609 `עֵינָיָון` → `עֵינָוָון`, annotated `illegible` with your note (case 4); the cites stay on P00610, as ticked; the name changes with it.
+Applied in PR #187: P000838 respells P00609 `עֵינָיָון` → `עֵינָוָון`, annotated `illegible` with your note (case 4); the cites stay on P00610, as ticked; the name changes with it.
 
 ### `צַוַּאר`: R00152 (stored `צַיַּאר`)
 
@@ -2663,7 +2663,7 @@ sorts and `ציאר` does not.
 Recommendation: yes (high): `ch. same`, the alternates and the
 alphabet agree.
 
-Applied in PR #n: P000839 respells R00152 `צַיַּאר` → `צַוַּאר`, annotated `illegible` (case 4, your note: P00609's issue); the name changes with it. R00176's `v. צַוַּאר` still links R00151: no tick moves it.
+Applied in PR #187: P000839 respells R00152 `צַיַּאר` → `צַוַּאר`, annotated `illegible` (case 4, your note: P00609's issue); the name changes with it. R00176's `v. צַוַּאר` still links R00151: no tick moves it.
 
 ### `צְוַוח`: R00171 (stored `צְיַוח`)
 
@@ -2688,7 +2688,7 @@ Applied in PR #n: P000839 respells R00152 `צַיַּאר` → `צַוַּאר`,
 Recommendation: yes (high): `ch. same`, the alternate, the cites and
 the alphabet agree.
 
-Applied in PR #n: P000840 respells R00171 `צְיַוח` → `צְוַוח`, annotated `illegible` (case 4), and P000841–P000843 move the three cites (M00338, S01995, U00220) from R00170 to it; the name changes with it.
+Applied in PR #187: P000840 respells R00171 `צְיַוח` → `צְוַוח`, annotated `illegible` (case 4), and P000841–P000843 move the three cites (M00338, S01995, U00220) from R00170 to it; the name changes with it.
 
 ### `קַוָּא`: S00216 (stored `קַיָּא`)
 
@@ -2714,7 +2714,7 @@ reads `קַיִּין`, likely the same slip.
 Recommendation: yes (high): `preced.` names `קַו`, and `cmp. כַּוָּא`,
 the cites and the alphabet agree.
 
-Applied in PR #n: P000844 respells S00216 `קַיָּא` → `קַוָּא`, annotated `illegible` (case 4); P000845 and P000846 move S00308's and S00878's cites from S00217 to it; P000847 respells the plural in its text, `—Pl. קַיִּין` → `קַוִּין`, annotated `illegible` the same way (the plural is a cite Sefaria linked to S00939, which stays). The name changes with it.
+Applied in PR #187: P000844 respells S00216 `קַיָּא` → `קַוָּא`, annotated `illegible` (case 4); P000845 and P000846 move S00308's and S00878's cites from S00217 to it; P000847 respells the plural in its text, `—Pl. קַיִּין` → `קַוִּין`, annotated `illegible` the same way (the plural is a cite Sefaria linked to S00939, which stays). The name changes with it.
 
 ### `שַׁחְרֵר`: U00721 (stored `שַׁהְרֵר`)
 
@@ -2740,7 +2740,7 @@ not.
 Recommendation: yes (high): `ch. same`, the cite and the alphabet
 agree.
 
-Applied in PR #n: P000848 respells U00721 `שַׁהְרֵר` → `שַׁחְרֵר`, annotated `illegible` (case 4), and P000849 moves U00000's `שַׁחְרֵר` from U00720 to it; the name changes with it. Your note says "reish"; the tick, the cites and the alphabet say ḥet, so the patch follows the tick and quotes the note as written.
+Applied in PR #187: P000848 respells U00721 `שַׁהְרֵר` → `שַׁחְרֵר`, annotated `illegible` (case 4), and P000849 moves U00000's `שַׁחְרֵר` from U00720 to it; the name changes with it. Your note says "reish"; the tick, the cites and the alphabet say ḥet, so the patch follows the tick and quotes the note as written.
 
 ### `שִׁלְהֵי`: U01223 (stored `שִׁלְחֵי`)
 
@@ -2765,7 +2765,7 @@ and U01224 `שַׁלְהֵי I`, where `שלהי` sorts and `שלחי` does not.
 Recommendation: yes (high): the root in its own etymology, the cites
 and the alphabet agree.
 
-Applied in PR #n: P000850 respells U01223 `שִׁלְחֵי` → `שִׁלְהֵי` (case 1, no annotation), and P000851–P000853 move the cites from U01224 to it: U00936's, and U01215's two (one in each sense, both `denom.` of the noun); the name changes with it.
+Applied in PR #187: P000850 respells U01223 `שִׁלְחֵי` → `שִׁלְהֵי` (case 1, no annotation), and P000851–P000853 move the cites from U01224 to it: U00936's, and U01215's two (one in each sense, both `denom.` of the noun); the name changes with it.
 
 ### `עָמַד`: P00855, P00856, P00860 (stored `עָמַך`, `עֶמֶך`)
 
@@ -2802,7 +2802,7 @@ read, the glosses and the cites agree. Which of the 16 cites name the
 verb, rather than P00859's noun, is the § Cross-reference numerals
 question's to settle.
 
-Applied in PR #n: P000854 and P000855 respell P00855 and P00856 `עָמַך` → `עָמַד` (I and II), and P000856 and P000857 respell P00860's two forms, `עֶמֶך` → `עֶמֶד` and `עָמָך II` → `עָמָד II`, one patch per form (case 1, no annotation); the three names change. The 16 `עָמַד` cites are not moved.
+Applied in PR #187: P000854 and P000855 respell P00855 and P00856 `עָמַך` → `עָמַד` (I and II), and P000856 and P000857 respell P00860's two forms, `עֶמֶך` → `עֶמֶד` and `עָמָך II` → `עָמָד II`, one patch per form (case 1, no annotation); the three names change. The 16 `עָמַד` cites are not moved.
 
 ### `אַוְנָא`: A00718 (stored `אַיְנָא I`)
 
@@ -2829,7 +2829,7 @@ with a vav. Under `אי` it would stand pages later.
 Recommendation: yes (medium): the numeral, the alternates and the
 alphabet agree; no cite has this form's own pointing.
 
-Applied in PR #n: P000858 respells A00718 `אַיְנָא I` → `אַוְנָא I`, annotated `illegible` (case 4); the name changes with it. A00719's X8 gap closes (its reviewed-kept record is retired) and an X9 row opens: `אַוְנָא I` and `אֲוָנָא II` are one sequence pointed two ways.
+Applied in PR #187: P000858 respells A00718 `אַיְנָא I` → `אַוְנָא I`, annotated `illegible` (case 4); the name changes with it. A00719's X8 gap closes (its reviewed-kept record is retired) and an X9 row opens: `אַוְנָא I` and `אֲוָנָא II` are one sequence pointed two ways.
 
 ### `אֶישָּׁתָא`: A01632 (stored `אֶושָּׁתָא`)
 
@@ -2854,7 +2854,7 @@ names it: the cites that spelled `אִישְׁתָּא` are A01633's.
 Recommendation: yes (medium): the pointing and the alphabet agree;
 Jastrow's text has no cite of it.
 
-Applied in PR #n: P000859 respells A01632 `אֶושָּׁתָא` → `אֶישָּׁתָא` (case 1, no annotation); the name changes with it.
+Applied in PR #187: P000859 respells A01632 `אֶושָּׁתָא` → `אֶישָּׁתָא` (case 1, no annotation); the name changes with it.
 
 ### `גְּנַח II`: C01130 (stored `גְּנַה II`)
 
@@ -2881,7 +2881,7 @@ C01131 `גני`, where `גנח` sorts and `גנה` does not.
 Recommendation: yes (high): the numeral, its own text, the cites and
 the alphabet agree.
 
-Applied in PR #n: P000860 respells C01130 `*גְּנַה II` → `*גְּנַח II` (case 1, no annotation), and P000925 moves C00538's `v. גְּנַח II` to it (§ numerals answered 2026-10-18); the name changes with it. C01130's X8 gap closes and its reviewed-kept record is retired.
+Applied in PR #187: P000860 respells C01130 `*גְּנַה II` → `*גְּנַח II` (case 1, no annotation), and P000925 moves C00538's `v. גְּנַח II` to it (§ numerals answered 2026-10-18); the name changes with it. C01130's X8 gap closes and its reviewed-kept record is retired.
 
 **From § X11: one-letter primaries (2026-10-15): both blocks, with the section's introduction.**
 
@@ -2909,7 +2909,7 @@ Print sets one word, `חָרַת`, then `(b. h.; cmp. חָרַשׁ) to engrave`.
 
 Recommendation: rejoin as `חָרַת` (high): the scan sets one word, and the three stored pieces concatenate to it with no letter added or lost.
 
-Applied in PR #n: P000861 rejoins H01792 `חָ, רַ, ת` → `חָרַת` (case 1, as U00489); the name `חָ` becomes `חָרַת` and the X11 row clears.
+Applied in PR #187: P000861 rejoins H01792 `חָ, רַ, ת` → `חָרַת` (case 1, as U00489); the name `חָ` becomes `חָרַת` and the X11 row clears.
 
 ### `תִּ, כְבּוֹסֶת`: V00524
 
@@ -2929,7 +2929,7 @@ Print sets one word, `תִּכְבּוֹסֶת`, then `f. (כָּבַס) washing
 
 Recommendation: rejoin as `תִּכְבּוֹסֶת` (high): the scan sets one word, and the two stored pieces concatenate to it with no letter added or lost.
 
-Applied in PR #n: P000862 rejoins V00524 `תִּ, כְבּוֹסֶת` → `תִּכְבּוֹסֶת` (case 1); the name `תִּ` becomes `תִּכְבּוֹסֶת` and the X11 row clears.
+Applied in PR #187: P000862 rejoins V00524 `תִּ, כְבּוֹסֶת` → `תִּכְבּוֹסֶת` (case 1); the name `תִּ` becomes `תִּכְבּוֹסֶת` and the X11 row clears.
 
 **From § Cross-reference numerals: may rename an entry (18): 17 of the 18 questions.** P00639 `חֵיפָא III` is not ticked and stays in the checklist with the section's introduction and table.
 
@@ -2960,7 +2960,7 @@ N00660 `נְיָיח` (rest) reads `m. = h. נוֹחַ I`; Sefaria links N00343 
 
 Recommendation: yes, case 2 (high): the text names the I, the meaning matches, and X10 already points at N00342.
 
-Applied in PR #n: P000863 gives N00342 `homograph: 1`, displayed `נוֹחַ I`, annotated `print-error` naming N00660's cite (case 2), and P000864 moves the cite from N00343 to N00342 (case 1). Name `נוֹחַ` → `נוֹחַ I`.
+Applied in PR #187: P000863 gives N00342 `homograph: 1`, displayed `נוֹחַ I`, annotated `print-error` naming N00660's cite (case 2), and P000864 moves the cite from N00343 to N00342 (case 1). Name `נוֹחַ` → `נוֹחַ I`.
 
 ### `סְגֵי I`: O00123, O00154, O00159, O00249, O00550, O00554 (a carrier, not settled)
 
@@ -3000,7 +3000,7 @@ Five cites read `סְגֵי I` for `to grow, increase` (O00123 `spreading`, O001
 
 Recommendation: O00120 for the five (high: its gloss is the meaning they quote); O00123 for O00249 (medium: the cite's spelling, and the form X10 names).
 
-Applied in PR #n: P000865–P000869 move the five `סְגֵי I` cites (O00123, O00154, O00159, O00550, O00554) from O00121 to O00120 (case 1); P000870 gives O00123 `homograph: 1` on its first form, displayed `סַגִּי I, סַגִּיא, סַגִּיאָה`, annotated `print-error` naming O00249's cite (case 2), and P000871 moves O00249's `סַגִּי I` from O00124 to it. Name `סַגִּי` → `סַגִּי I`. O00124's row moves from X10 to X8 (its II sits on its alternate `סַגִּיא`).
+Applied in PR #187: P000865–P000869 move the five `סְגֵי I` cites (O00123, O00154, O00159, O00550, O00554) from O00121 to O00120 (case 1); P000870 gives O00123 `homograph: 1` on its first form, displayed `סַגִּי I, סַגִּיא, סַגִּיאָה`, annotated `print-error` naming O00249's cite (case 2), and P000871 moves O00249's `סַגִּי I` from O00124 to it. Name `סַגִּי` → `סַגִּי I`. O00124's row moves from X10 to X8 (its II sits on its alternate `סַגִּיא`).
 
 ### `עֵרָבוֹן II`: P01275 (one bare member)
 
@@ -3026,7 +3026,7 @@ P01275 `עֲרֵבוּת` reads `(v. עֵרָבוֹן II)` for going security, a
 
 Recommendation: yes, case 2 (high): the family has an I and no II, and the text names the II with the meaning P01273 carries.
 
-Applied in PR #n: P000872 gives P01273 `homograph: 2` on its first form, displayed `עֵרָבוֹן II, עֵי׳`, annotated `print-error` naming P01275's cite (case 2); the link was already there. Name `עֵרָבוֹן²` → `עֵרָבוֹן II²`. An X8 row opens for P01273: P01272's I sits on its alternate `עֵי׳`.
+Applied in PR #187: P000872 gives P01273 `homograph: 2` on its first form, displayed `עֵרָבוֹן II, עֵי׳`, annotated `print-error` naming P01275's cite (case 2); the link was already there. Name `עֵרָבוֹן²` → `עֵרָבוֹן II²`. An X8 row opens for P01273: P01272's I sits on its alternate `עֵי׳`.
 
 ### `שַׁב I`: U00126, U00779, U00807 (no carrier)
 
@@ -3055,7 +3055,7 @@ Three cites (U00126 `שְׁבִיסְרָאָה`, U00779 `שֵׁיב` seven, U00
 
 Recommendation: U00059 (high for the target); the numeral is the scan's to decide (low).
 
-Applied in PR #n: P000873 and P000874 set print's I on U00059 and II on U00060 (case 1), and P000875–P000877 move the three cites from U00060 to U00059. Names `שַׁב` → `שַׁב I`, `שַׁב²` → `שַׁב II²`.
+Applied in PR #187: P000873 and P000874 set print's I on U00059 and II on U00060 (case 1), and P000875–P000877 move the three cites from U00060 to U00059. Names `שַׁב` → `שַׁב I`, `שַׁב²` → `שַׁב II²`.
 
 ### `שְׁבַט II`: U00107, U00801 (target numbered otherwise)
 
@@ -3085,7 +3085,7 @@ U00107 `שִׁבְטָא` and U00801 `שֵׁיבַט, שִׁיבְטָא` read `
 
 Recommendation: yes (high for the target): the citing headwords are U00105's own alternates; the scan decides case 1 or 2.
 
-Applied in PR #n: P000878 sets print's II on U00105 (case 1), and P000879 and P000880 move both cites from U00103 to it. Name `שְׁבַט` → `שְׁבַט II`.
+Applied in PR #187: P000878 sets print's II on U00105 (case 1), and P000879 and P000880 move both cites from U00103 to it. Name `שְׁבַט` → `שְׁבַט II`.
 
 ### `שְׁוַוח II`: U00362, U00518 (target numbered otherwise)
 
@@ -3119,7 +3119,7 @@ U00362 `שׁוּחַ, שְׁיַח` (`ch. same, v. שְׁוַוח II`) and U0051
 
 Recommendation: U00344 is the II and U00345 takes III (high): the hOCR shows U00345's III, and U00362 is U00344's own `ch. same` spelling.
 
-Applied in PR #n: P000881 sets print's II on U00344 and P000882 print's III on U00345, displayed `שְׁוַוח III, שְׁוַח` (case 1); P000883 and P000884 move both cites from U00343 to U00344. U00344's line has a stray `)` and no `display`, so its II is stored and named, and shows once the layout is settled. Names `שְׁוַוח` → `שְׁוַוח II`, `שְׁוַוח²` → `שְׁוַוח III²`.
+Applied in PR #187: P000881 sets print's II on U00344 and P000882 print's III on U00345, displayed `שְׁוַוח III, שְׁוַח` (case 1); P000883 and P000884 move both cites from U00343 to U00344. U00344's line has a stray `)` and no `display`, so its II is stored and named, and shows once the layout is settled. Names `שְׁוַוח` → `שְׁוַוח II`, `שְׁוַוח²` → `שְׁוַוח III²`.
 
 ### `שַׁוְיָא II`: U00835 (one bare member)
 
@@ -3145,7 +3145,7 @@ U00835 `שִׁיוְוָיא, שִׁיוּוּיָא` reads `v. שַׁוְיָא
 
 Recommendation: yes (high for the target): the citing headwords are U00396's alternates; the scan decides case 1 or 2.
 
-Applied in PR #n: P000885 sets print's II on U00396's main headword (case 1), and P000886 moves the cite from U00395 to it. Name `שַׁוְיָא` → `שַׁוְיָא II`.
+Applied in PR #187: P000885 sets print's II on U00396's main headword (case 1), and P000886 moves the cite from U00395 to it. Name `שַׁוְיָא` → `שַׁוְיָא II`.
 
 ### `שׁוּעַ I`: U01637 (no carrier)
 
@@ -3173,7 +3173,7 @@ U01637 `שַׁעֲוָה` (wax) reads `v. שׁוּעַ I`; Sefaria links U00476 
 
 Recommendation: U00475 (low): `wax` derives from `to be smooth`; whether print numbers a `שׁוּעַ I, II` is for the scan.
 
-Applied in PR #n: P000887 moves the cite from U00476 to U00475 (case 1); no numeral is set, as your note asks, and P000888 annotates the cite's `שׁוּעַ I` `kept` with your note (case 3). No name changes.
+Applied in PR #187: P000887 moves the cite from U00476 to U00475 (case 1); no numeral is set, as your note asks, and P000888 annotates the cite's `שׁוּעַ I` `kept` with your note (case 3). No name changes.
 
 ### `שׁוּתָא III`: N01120 (target numbered otherwise)
 
@@ -3206,7 +3206,7 @@ N01120 reads `B. Kam. 117ᵃ מנצו, v. שׁוּתָא III`; Sefaria links U00
 
 Recommendation: U00583, kept (medium); U00582 I and U00583 II restored (high, from the hOCR).
 
-Applied in PR #n: P000889 and P000890 set print's I on U00582 and II on U00583 (case 1); P000891 moves N01120's cite from U00581 to U00583 (case 1), and P000892 sets its text `III` → `II`, annotated `print-error` `printed: 'III'` with your note, U00583 citing the same B. Kam. 117ᵃ (case 2). Names `שׁוּתָּא` → `שׁוּתָּא I`, `שׁוּתָּא²` → `שׁוּתָּא II²`.
+Applied in PR #187: P000889 and P000890 set print's I on U00582 and II on U00583 (case 1); P000891 moves N01120's cite from U00581 to U00583 (case 1), and P000892 sets its text `III` → `II`, annotated `print-error` `printed: 'III'` with your note, U00583 citing the same B. Kam. 117ᵃ (case 2). Names `שׁוּתָּא` → `שׁוּתָּא I`, `שׁוּתָּא²` → `שׁוּתָּא II²`.
 
 ### `שֵׁירוּתָא III`: U01064, U01066 (target numbered otherwise)
 
@@ -3239,7 +3239,7 @@ U01064 `שֵׁירָוָון` and U01066 `שִׁירְוָן` read `v. שֵׁי�
 
 Recommendation: yes, and both numerals restored (high): the hOCR reads them, and `encampment` fits the cites.
 
-Applied in PR #n: P000893 and P000894 set print's II on U01070 and III on U01071, each on the abbreviation `שֵׁר׳` as your note says (case 1, displayed `{0}, {1} II, …`); P000895 and P000896 move both cites from U01070 to U01071. No name changes.
+Applied in PR #187: P000893 and P000894 set print's II on U01070 and III on U01071, each on the abbreviation `שֵׁר׳` as your note says (case 1, displayed `{0}, {1} II, …`); P000895 and P000896 move both cites from U01070 to U01071. No name changes.
 
 ### `שִׁית IV`: U01112, U02071 (one bare member)
 
@@ -3268,7 +3268,7 @@ U01112 `שֵׁיתְסַר` and U02071 `שִׁתְּ, שֵׁת, שִׁתָּא` 
 
 Recommendation: yes (high for the target): it is `six`; the scan decides case 1 or 2.
 
-Applied in PR #n: P000897 sets print's IV on U01103 (case 1), and P000898 and P000899 move both cites from U01100 to it. Name `שִׁית` → `שִׁית IV`.
+Applied in PR #187: P000897 sets print's IV on U01103 (case 1), and P000898 and P000899 move both cites from U01100 to it. Name `שִׁית` → `שִׁית IV`.
 
 ### `שָׁמִין II`: U01502 (one bare member)
 
@@ -3293,7 +3293,7 @@ U01502 `שְׁמֵנָא` reads `c. (v. שָׁמִין II) fat, rich`; Sefaria l
 
 Recommendation: yes, case 1 (high): the hOCR reads it.
 
-Applied in PR #n: P000900 sets print's II on U01470 (case 1), and P000901 moves the cite from U01469 to it. Name `שָׁמִין` → `שָׁמִין II`.
+Applied in PR #187: P000900 sets print's II on U01470 (case 1), and P000901 moves the cite from U01469 to it. Name `שָׁמִין` → `שָׁמִין II`.
 
 ### `שָׁמֵן II`: U01503 (target numbered otherwise)
 
@@ -3323,7 +3323,7 @@ U01503 `שְׁמֵנָה` reads `v. שָׁמֵן II`; Sefaria links U01496 `שָ
 
 Recommendation: yes (high for the target): the citing headword is its alternate; the scan decides case 1 or 2.
 
-Applied in PR #n: P000902 sets print's II on U01498 (case 1), and P000903 moves the cite from U01496 to it. Name `שָׁמֵן` → `שָׁמֵן II`.
+Applied in PR #187: P000902 sets print's II on U01498 (case 1), and P000903 moves the cite from U01496 to it. Name `שָׁמֵן` → `שָׁמֵן II`.
 
 ### `שֵׁשׁ III`: U02059 (one bare member)
 
@@ -3350,7 +3350,7 @@ U02059 `שִׁשִּׁים` (sixty) reads `v. שֵׁשׁ III`; Sefaria links U02
 
 Recommendation: yes (high for the target): sixty is derived from six; the scan decides case 1 or 2.
 
-Applied in PR #n: P000904 sets print's III on U02056 (case 1), and P000905 moves the cite from U02055 to it. Name `שֵׁשׁ` → `שֵׁשׁ III`.
+Applied in PR #187: P000904 sets print's III on U02056 (case 1), and P000905 moves the cite from U02055 to it. Name `שֵׁשׁ` → `שֵׁשׁ III`.
 
 ### `תּוֹר III`: V00277, V00282 (target numbered otherwise)
 
@@ -3379,7 +3379,7 @@ V00277 (`denom. of תּוֹר III`, ox-driver) and V00282 (`aurochs, v. תּוֹ
 
 Recommendation: yes (high): the hOCR reads it and both cites mean the ox.
 
-Applied in PR #n: P000906 sets print's III on V00275's first form, displayed `תּוֹר III, תּוֹרָא I` (case 1), and P000907 and P000908 move both cites from V00274 to it. Name `תּוֹר` → `תּוֹר III`.
+Applied in PR #187: P000906 sets print's III on V00275's first form, displayed `תּוֹר III, תּוֹרָא I` (case 1), and P000907 and P000908 move both cites from V00274 to it. Name `תּוֹר` → `תּוֹר III`.
 
 ### `תַּלְמָא II`: V00570 (one bare member)
 
@@ -3404,7 +3404,7 @@ V00570 `תְּלָאמָא` reads `v. תַּלְמָא II`; Sefaria links V00599
 
 Recommendation: yes, case 1 (high): the hOCR reads it.
 
-Applied in PR #n: P000909 sets print's II on V00600 (case 1), and P000910 moves the cite from V00599 to it. Name `תַּלְמָא` → `תַּלְמָא II`.
+Applied in PR #187: P000909 sets print's II on V00600 (case 1), and P000910 moves the cite from V00599 to it. Name `תַּלְמָא` → `תַּלְמָא II`.
 
 ### `תְּפֵי I`: T00434, V00848 (no carrier)
 
@@ -3438,7 +3438,7 @@ T00434 (`Nidd. 42ᵃ, v. תְּפֵי I`) and V00848 `תְּפַף II` (`to spit
 
 Recommendation: V00815 is the I and V00816 takes II (high): the hOCR reads the II, and both cites quote V00815.
 
-Applied in PR #n: P000911 and P000912 set print's I on V00815 and II on V00816 (case 1), and P000913 and P000914 move both cites from V00816 to V00815. Names `תְּפֵי` → `תְּפֵי I`, `תְּפֵי²` → `תְּפֵי II²`.
+Applied in PR #187: P000911 and P000912 set print's I on V00815 and II on V00816 (case 1), and P000913 and P000914 move both cites from V00816 to V00815. Names `תְּפֵי` → `תְּפֵי I`, `תְּפֵי²` → `תְּפֵי II²`.
 
 **From § Cross-reference numerals: answered 2026-10-18 (8): the whole section, with its introduction and table.**
 
@@ -3485,7 +3485,7 @@ The cite sits in A00627's own etymology: `(b. h., √אה, cmp. הא; v. חָו�
 
 Recommendation: Gesenius (high): the words before it are `a. Ges. H. Dict. s. v.`; Jastrow numbers `אָוָה` I and II only.
 
-Applied in PR #n: P000915 takes the link off A00627's `אָוָה III`, leaving its text (case 1, silent: 08-15's linker overreach). It is a `replace`: the link is an anchor in the definition, which `unref` (a `refs[]` item) cannot reach.
+Applied in PR #187: P000915 takes the link off A00627's `אָוָה III`, leaving its text (case 1, silent: 08-15's linker overreach). It is a `replace`: the link is an anchor in the definition, which `unref` (a `refs[]` item) cannot reach.
 
 ### `אִלְמָלֵא I`: A01864 (one bare member)
 
@@ -3510,7 +3510,7 @@ The dictionary has one `אִלְמָלֵא` (A01918) and no `אִלְמָלֵא 
 
 Recommendation: kept (low): nothing in the dictionary explains the `I`, and volume 1's hOCR does not reach the line.
 
-Applied in PR #n: P000916 sets the cite's `I` → `1` (case 1, the OCR's digit), so it reads `cmp. אִלְמָלֵא 1`, the sense your note names, as A01864's sense 2 reads `cmp. אִלְמָלֵא 2`; the link stays on A01918.
+Applied in PR #187: P000916 sets the cite's `I` → `1` (case 1, the OCR's digit), so it reads `cmp. אִלְמָלֵא 1`, the sense your note names, as A01864's sense 2 reads `cmp. אִלְמָלֵא 2`; the link stays on A01918.
 
 ### `אִסְטְלִי I`: A02360 (one bare member)
 
@@ -3536,7 +3536,7 @@ A02360 `אִסְטוֹלִי` reads `v. אִסְטְלִי I, II`, naming both w
 
 Recommendation: yes, A02378 (medium): the cite names I and II side by side and A02378 is the only unnumbered member; the scan decides between case 1 and case 2.
 
-Applied in PR #n: P000917 gives A02378 `homograph: 1`, displayed `אִסְטַלִּי I, …`, annotated `print-error` `printed: ''` naming A02360's cite (case 2), and P000918 moves the cite from A02379 to it. Name `אִסְטַלִּי` → `אִסְטַלִּי I`.
+Applied in PR #187: P000917 gives A02378 `homograph: 1`, displayed `אִסְטַלִּי I, …`, annotated `print-error` `printed: ''` naming A02360's cite (case 2), and P000918 moves the cite from A02379 to it. Name `אִסְטַלִּי` → `אִסְטַלִּי I`.
 
 ### `גּוּבְתָּא I`: C00147 (no carrier)
 
@@ -3562,7 +3562,7 @@ C00147 is `גַּבְתָּא`, an alternate of C00294 (`גּוּבְתָּא, �
 
 Recommendation: C00294 is the I (medium): the cite comes from C00294's own alternate's entry; the scan decides whether print numbers them.
 
-Applied in PR #n: P000919 annotates C00147's cite `kept` (case 3); the link stays on C00294.
+Applied in PR #187: P000919 annotates C00147's cite `kept` (case 3); the link stays on C00294.
 
 ### `גִּזְרָא I`: H00303 (one bare member)
 
@@ -3587,7 +3587,7 @@ C00577's first gloss opens `, I ch.`: print sets `גִּזְרָא, גִּיזְ
 
 Recommendation: yes (high): the gloss head holds exactly the numeral the cite names, and the pattern is the one pile B's numerals-in-gloss repaired.
 
-Applied in PR #n: P000920 sets print's I on C00577's `גִּיזְרָא`, the form it follows, displayed `גִּזְרָא, גִּיזְרָא I` (case 1); P000921 takes it out of the gloss head, `<b>, </b>I ch.` → `<b>, </b>ch.`; P000922 moves H00303's cite from C00578 to C00577. No name changes; C00578's X10 row clears.
+Applied in PR #187: P000920 sets print's I on C00577's `גִּיזְרָא`, the form it follows, displayed `גִּזְרָא, גִּיזְרָא I` (case 1); P000921 takes it out of the gloss head, `<b>, </b>I ch.` → `<b>, </b>ch.`; P000922 moves H00303's cite from C00578 to C00577. No name changes; C00578's X10 row clears.
 
 ### `גִּיס I`: C00841, K00444 (one bare member)
 
@@ -3615,7 +3615,7 @@ Two cites, C00841 `m. (v. גִּיס I) familiar` and K00444 `opp. גיס, v. ג
 
 Recommendation: kept (high): the cites quote C00773's meaning, and your round 2 answer rules out an implied I here.
 
-Applied in PR #n: P000923 and P000924 annotate both cites `kept` (case 3); the links stay on C00773.
+Applied in PR #187: P000923 and P000924 annotate both cites `kept` (case 3); the links stay on C00773.
 
 ### `גְּנַח II`: C00538 (one bare member)
 
@@ -3640,7 +3640,7 @@ C00538 (`גְּזַז`, to cut) reads `v. גְּנַח II`. C01130, stored `גְ
 
 Recommendation: yes (high): C01130's gloss `to cut, pass swiftly` is the meaning C00538 refers to, and no other `גנח` II exists.
 
-Applied in PR #n: P000925 moves the cite from C01129 to C01130 (case 1), whose `ה` P000860 respells `ח` (§ Cross-reference spellings).
+Applied in PR #187: P000925 moves the cite from C01129 to C01130 (case 1), whose `ה` P000860 respells `ח` (§ Cross-reference spellings).
 
 ### `חֲטִי I`: M00854 (a carrier, not settled)
 
@@ -3670,4 +3670,4 @@ M00854 `מִחְטֵי` (delicate) reads `v. חֲטִי I`; Sefaria links H00616
 
 Recommendation: H00614, retarget only (medium): its spelling and meaning (tender) match; the family's Hebrew numbering I, II is complete, so no gap needs the text to fill it.
 
-Applied in PR #n: P000926 moves the cite from H00616 to H00614 (case 1); no numeral is set.
+Applied in PR #187: P000926 moves the cite from H00616 to H00614 (case 1); no numeral is set.

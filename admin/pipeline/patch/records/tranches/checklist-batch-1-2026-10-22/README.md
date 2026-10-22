@@ -1,6 +1,6 @@
 # The maintainer checklist, batch 1 (2026-10-22)
 
-PR #n. It applies the maintainer's ticks in
+PR #187. It applies the maintainer's ticks in
 [`docs/maintainer-checklist.md`](../../../../../../docs/maintainer-checklist.md)
 (recorded 2026-10-18, commit `963e28b2b`, and 2026-10-22, commit
 `5a94da667`): § Cross-reference spellings (review ledger L72), § X11

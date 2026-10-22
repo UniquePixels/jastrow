@@ -6,10 +6,10 @@ under your blocker definition
 the pre-publication items, the answers that change a `headwords[0]`:
 the URL name is computed from it, and a name changed after go-live
 costs a redirect forever (U6; redirects are unbuilt, L23). Since
-PR #n (2026-10-22) that is two blocks: C00299 in § Cross-reference
+PR #187 (2026-10-22) that is two blocks: C00299 in § Cross-reference
 spellings, held because its respelling is another entry's name, and
 P00639 in § Cross-reference numerals: may rename an entry, which you
-left open with a note. PR #n applied the rest of what you ticked, the
+left open with a note. PR #187 applied the rest of what you ticked, the
 other 16 spelling blocks, § X11, 17 of the 18 numeral questions and
 the 8 you answered on 2026-10-18; they are in
 [`headword-worklist.md`](headword-worklist.md) § Applied from the
@@ -36,13 +36,13 @@ Started 2026-10-16 (PR #186) by moving the open sections out of
 
 | section | items | source PR | ledger row |
 |---|---|---|---|
-| [Cross-reference spellings (2026-10-16)](#cross-reference-spellings-2026-10-16) | 1 block (C00299, held); 16 applied in PR #n | #184 | L72 |
-| [Cross-reference numerals: may rename an entry (18)](#cross-reference-numerals-may-rename-an-entry-18) | 1 question (P00639); 17 applied in PR #n | #173 | L64 |
+| [Cross-reference spellings (2026-10-16)](#cross-reference-spellings-2026-10-16) | 1 block (C00299, held); 16 applied in PR #187 | #184 | L72 |
+| [Cross-reference numerals: may rename an entry (18)](#cross-reference-numerals-may-rename-an-entry-18) | 1 question (P00639); 17 applied in PR #187 | #173 | L64 |
 | [Textual-research candidates (for #153)](#textual-research-candidates-for-153) | 18 rows to paste (23 listed; 5 already in #153) | #181 | L47 |
 
 ## Cross-reference spellings (2026-10-16)
 
-**Status:** you ticked all 17 blocks. PR #n applied 16 (18 entries:
+**Status:** you ticked all 17 blocks. PR #187 applied 16 (18 entries:
 case 1 `reform`s, or case 4 annotated `illegible` where your note says
 the printed letter is defective, and the cites re-aimed); they moved
 to [`headword-worklist.md`](headword-worklist.md) § Applied from the
@@ -104,7 +104,7 @@ Recommendation: yes (medium): the gloss names the root `גוד` and the
 alphabet agrees; which of C00299 and C00300 the cites mean needs the
 page.
 
-**Held in PR #n (2026-10-22).** Your "yes" makes C00299's name
+**Held in PR #187 (2026-10-22).** Your "yes" makes C00299's name
 `גּוּד`, which C00300 (`גּוּד, גּוֹד`) already holds, so the names gate
 refuses it, and the note sets no numeral beside either. The two lines
 need telling apart before the respelling can land: a numeral print sets
@@ -114,7 +114,7 @@ G00675). Nothing is written for C00299 until then.
 
 ## Cross-reference numerals: may rename an entry (18)
 
-**Status:** you ticked 17 of the 18; PR #n applied them, and they
+**Status:** you ticked 17 of the 18; PR #187 applied them, and they
 moved to [`headword-worklist.md`](headword-worklist.md) § Applied from
 the maintainer checklist (2026-10-22). P00639 stays, unticked, with
 your note "Check 85 and analyze". The table keeps its row.
