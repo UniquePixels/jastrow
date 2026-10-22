@@ -107,10 +107,10 @@ same `אב`.
 `אַכְאָבִית`?
 
 - **A00021**
-  - [ ] yes: `אַבְאָבִית` (case 1; the name changes)
+  - [x] yes: `אַבְאָבִית` (case 1; the name changes)
   - [ ] no: print reads `אַכְאָבִית`; as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: OCR issue
 
 Recommendation: yes (high): the hOCR, the alphabet and eight cites
 agree.
@@ -132,10 +132,10 @@ there, `אריה` would follow `ארווד`. The hOCR misreads the headword.
 `אֻרְיָה`?
 
 - **A03020**
-  - [ ] yes: `אֻרְוָה` (case 1; the name changes)
+  - [x] yes: `אֻרְוָה` (case 1; the name changes)
   - [ ] no: print reads `אֻרְיָה`; as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: This is a case that needs annotation.  The print version has a scan error, such that the letter is missing the decender (does not even have the little bit that yod would have.)   Based on the cites and word order, I am confident in vav, but we want that noted.
 
 Recommendation: yes (high): the cites, the plural and the alphabet
 agree.
@@ -156,10 +156,10 @@ after `כוזה`.
 `כּוֹזְכָא`?
 
 - **K00228**
-  - [ ] yes: `כּוֹזְבָא` (case 1; the name changes)
+  - [x] yes: `כּוֹזְבָא` (case 1; the name changes)
   - [ ] no: print reads `כּוֹזְכָא`; as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: OCR Error
 
 Recommendation: yes (high): the gloss, the alternates, the cite and
 the alphabet agree.
@@ -181,10 +181,10 @@ likely sets both spellings, `ד` first.
 `כַּלְקִירָא`?
 
 - **K00780**
-  - [ ] yes: `כַּלְקִידָא` (case 1; the name changes)
+  - [x] yes: `כַּלְקִידָא` (case 1; the name changes)
   - [ ] no: print reads `כַּלְקִירָא` twice; as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: This is another example of a scan error missing the decender.  I am certain dalet is correct, but lets annotate with the evidence.
 
 Recommendation: yes (high): the cite's `read:` and the alphabet agree,
 and K00782 keeps the `ר` spelling in its own place.
@@ -206,10 +206,10 @@ spelling of the same word. The entry stands between U01010
 `שִׁופּוּט`?
 
 - **U01011**
-  - [ ] yes: `שִׁיפּוּט` (case 1; the name changes)
+  - [x] yes: `שִׁיפּוּט` (case 1; the name changes)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: ocr error
 
 Recommendation: yes (high): the pointing, the cite and the alphabet
 agree.
@@ -232,10 +232,10 @@ Sefaria links them to H00981, the `ch.` line: E00561, H00330 (`f.
 `חָלַך`?
 
 - **H00980**
-  - [ ] yes: `חָלַד` (case 1; the name changes, and the four cites move here)
+  - [x] yes: `חָלַד` (case 1; the name changes, and the four cites move here)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: OCR Error
 
 Recommendation: yes (high): `ch. same` names this word, and the cites
 and the alphabet agree.
@@ -258,10 +258,10 @@ correctly and witness only the spelling.
 `עֵינָיָון`?
 
 - **P00609**
-  - [ ] yes: `עֵינָוָון` (case 1; the name changes; the cites stay on P00610)
+  - [x] yes: `עֵינָוָון` (case 1; the name changes; the cites stay on P00610)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: This is one of those print/scan issues.  The letter in question is neither a complete yod, or vav, based on word order though I am confident it is vav.  Anotate with evidence.
 
 Recommendation: yes (medium): the alphabet and the spelling agree; the
 cites' meaning does not settle it.
@@ -282,10 +282,10 @@ sorts and `ציאר` does not.
 `צַיַּאר`?
 
 - **R00152**
-  - [ ] yes: `צַוַּאר` (case 1; the name changes)
+  - [x] yes: `צַוַּאר` (case 1; the name changes)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: same issue as p609
 
 Recommendation: yes (high): `ch. same`, the alternates and the
 alphabet agree.
@@ -305,10 +305,10 @@ alphabet agree.
 `צְיַוח`?
 
 - **R00171**
-  - [ ] yes: `צְוַוח` (case 1; the name changes, and the three cites move here)
+  - [x] yes: `צְוַוח` (case 1; the name changes, and the three cites move here)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: Same as above 2 items
 
 Recommendation: yes (high): `ch. same`, the alternate, the cites and
 the alphabet agree.
@@ -329,10 +329,10 @@ reads `קַיִּין`, likely the same slip.
 `קַיָּא`?
 
 - **S00216**
-  - [ ] yes: `קַוָּא` (case 1; the name changes, and the two cites move here)
+  - [x] yes: `קַוָּא` (case 1; the name changes, and the two cites move here)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: (and the plural `קַיִּין`?)
+  - note: (and the plural `קַיִּין`?)   Same issue as above, and yes the plural as well.
 
 Recommendation: yes (high): `preced.` names `קַו`, and `cmp. כַּוָּא`,
 the cites and the alphabet agree.
@@ -353,10 +353,10 @@ not.
 `שַׁהְרֵר`?
 
 - **U00721**
-  - [ ] yes: `שַׁחְרֵר` (case 1; the name changes, and U00000's cite moves here)
+  - [x] yes: `שַׁחְרֵר` (case 1; the name changes, and U00000's cite moves here)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: This is also a print/scan error, but in this case it is clear the correct letter is reish.
 
 Recommendation: yes (high): `ch. same`, the cite and the alphabet
 agree.
@@ -376,10 +376,10 @@ and U01224 `שַׁלְהֵי I`, where `שלהי` sorts and `שלחי` does not.
 `שִׁלְחֵי`?
 
 - **U01223**
-  - [ ] yes: `שִׁלְהֵי` (case 1; the name changes, and the two cites move here)
+  - [x] yes: `שִׁלְהֵי` (case 1; the name changes, and the two cites move here)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: ocr error
 
 Recommendation: yes (high): the root in its own etymology, the cites
 and the alphabet agree.
@@ -404,15 +404,15 @@ alphabet check (L72's recall gap); P00860 passes it.
 **Question.** Does print read `ד` where these three store `ך`?
 
 - **P00855, P00856**
-  - [ ] yes: `עָמַד I`, `עָמַד II` (case 1; the names change)
+  - [x] yes: `עָמַד I`, `עָמַד II` (case 1; the names change)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: ocr error
 - **P00860**
-  - [ ] yes: `עֶמֶד, עָמָד` (case 1; the name changes)
+  - [x] yes: `עֶמֶד, עָמָד` (case 1; the name changes)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: ocr error
 
 Recommendation: yes for all three (high): the sefaria-report's print
 read, the glosses and the cites agree. Which of the 16 cites name the
@@ -436,10 +436,10 @@ with a vav. Under `אי` it would stand pages later.
 `אַיְנָא I`?
 
 - **A00718**
-  - [ ] yes: `אַוְנָא I` (case 1; the name changes)
+  - [x] yes: `אַוְנָא I` (case 1; the name changes)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: As above, print/scan issue, the letter is neither a complete yod or vav, based on other evidence vav is correct.
 
 Recommendation: yes (medium): the numeral, the alternates and the
 alphabet agree; no cite has this form's own pointing.
@@ -459,10 +459,10 @@ names it: the cites that spelled `אִישְׁתָּא` are A01633's.
 `אֶושָּׁתָא`?
 
 - **A01632**
-  - [ ] yes: `אֶישָּׁתָא` (case 1; the name changes)
+  - [x] yes: `אֶישָּׁתָא` (case 1; the name changes)
   - [ ] no: print reads another spelling (say which in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: ocr error
 
 Recommendation: yes (medium): the pointing and the alphabet agree;
 Jastrow's text has no cite of it.
@@ -485,10 +485,10 @@ does not.
 `גּוּך`?
 
 - **C00299**
-  - [ ] yes: `גּוּד` (case 1; the name changes; a numeral beside it or C00300 goes in the note)
+  - [x] yes: `גּוּד` (case 1; the name changes; a numeral beside it or C00300 goes in the note)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: OCR error
 
 Recommendation: yes (medium): the gloss names the root `גוד` and the
 alphabet agrees; which of C00299 and C00300 the cites mean needs the
@@ -511,10 +511,10 @@ C01131 `גני`, where `גנח` sorts and `גנה` does not.
 `גְּנַה II`?
 
 - **C01130**
-  - [ ] yes: `גְּנַח II` (case 1; the name changes)
+  - [x] yes: `גְּנַח II` (case 1; the name changes)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: 
+  - note: OCR error
 
 Recommendation: yes (high): the numeral, its own text, the cites and
 the alphabet agree.
@@ -538,10 +538,10 @@ Print sets one word, `חָרַת`, then `(b. h.; cmp. חָרַשׁ) to engrave`.
 **Question.** Is the headword `חָרַת`, one form?
 
 - **H01792**
-  - [ ] yes: rejoin the three forms as `חָרַת` (a reviewed patch, as #179 rejoined U00489)
+  - [x] yes: rejoin the three forms as `חָרַת` (a reviewed patch, as #179 rejoined U00489)
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+      - note: Either Sefaria or OCR Error
 
 Recommendation: rejoin as `חָרַת` (high): the scan sets one word, and the three stored pieces concatenate to it with no letter added or lost.
 
@@ -556,10 +556,10 @@ Print sets one word, `תִּכְבּוֹסֶת`, then `f. (כָּבַס) washing
 **Question.** Is the headword `תִּכְבּוֹסֶת`, one form?
 
 - **V00524**
-  - [ ] yes: rejoin the two forms as `תִּכְבּוֹסֶת` (a reviewed patch)
+  - [x] yes: rejoin the two forms as `תִּכְבּוֹסֶת` (a reviewed patch)
   - [ ] something else (say what you see in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: Either Sefaria or OCR error
 
 Recommendation: rejoin as `תִּכְבּוֹסֶת` (high): the scan sets one word, and the two stored pieces concatenate to it with no letter added or lost.
 
@@ -616,7 +616,7 @@ P00639 `עֵיפָא II` (pr. n. m. ʿEfa) reads `v. חֵיפָא III`; Sefaria 
   - [ ] H00840: print's `III` is a slip for `II` (case 2: the cite's text annotated)
   - [ ] H00841 takes III (case 2)
   - [ ] can't tell from the scan
-  - note: 
+  - note: Check 85 and analyze
 
 Recommendation: kept (low): a personal name ʿEfa matches no stored `חֵיפָא`; read the column for a third `חֵיפָא` line.
 
@@ -639,7 +639,7 @@ N00660 `נְיָיח` (rest) reads `m. = h. נוֹחַ I`; Sefaria links N00343 
 **Question.** Does `נוֹחַ I` make N00342 the I?
 
 - **N00342**
-  - [ ] yes: N00342 takes I (case 2: Jastrow's text names `נוֹחַ I`; annotated, displayed) and the cite is retargeted
+  - [x] yes: N00342 takes I (case 2: Jastrow's text names `נוֹחַ I`; annotated, displayed) and the cite is retargeted
   - [ ] print sets I beside N00342 (case 1)
   - [ ] no (say why in the note)
   - [ ] can't tell from the scan
@@ -671,13 +671,13 @@ Five cites read `סְגֵי I` for `to grow, increase` (O00123 `spreading`, O001
 **Question.** Which entries are `סְגֵי I` and `סַגִּי I`?
 
 - **O00123, O00154, O00159, O00550, O00554 (`סְגֵי I`)**
-  - [ ] O00120: retarget all five (case 1)
+  - [x] O00120: retarget all five (case 1)
   - [ ] O00122
   - [ ] something else (say what in the note)
   - [ ] can't tell from the scan
   - note: 
 - **O00249 (`סַגִּי I`)**
-  - [ ] O00123 takes I (case 2: Jastrow's text names `סַגִּי I`; annotated) and the cite moves to it
+  - [x] O00123 takes I (case 2: Jastrow's text names `סַגִּי I`; annotated) and the cite moves to it
   - [ ] O00120 (the verb)
   - [ ] something else (say what in the note)
   - [ ] can't tell from the scan
@@ -701,7 +701,7 @@ P01275 `עֲרֵבוּת` reads `(v. עֵרָבוֹן II)` for going security, a
 **Question.** Does P01273 take II?
 
 - **P01273**
-  - [ ] yes: P01273 takes II (case 2: Jastrow's text names `עֵרָבוֹן II`; annotated, displayed); the link already points there
+  - [x] yes: P01273 takes II (case 2: Jastrow's text names `עֵרָבוֹן II`; annotated, displayed); the link already points there
   - [ ] print sets II beside P01273 (case 1)
   - [ ] no: kept as printed (case 3)
   - [ ] can't tell from the scan
@@ -728,7 +728,7 @@ Three cites (U00126 `שְׁבִיסְרָאָה`, U00779 `שֵׁיב` seven, U00
 **Question.** Which entry is Jastrow's `שַׁב I`, and does print number it?
 
 - **U00126, U00779, U00807**
-  - [ ] U00059, and print sets I on it and II on U00060: dropped by Sefaria (case 1); retarget the three
+  - [x] U00059, and print sets I on it and II on U00060: dropped by Sefaria (case 1); retarget the three
   - [ ] U00059 takes I from these cites (case 2, annotated); retarget the three
   - [ ] U00059, retarget only; no numeral set
   - [ ] can't tell from the scan
@@ -756,7 +756,7 @@ U00107 `שִׁבְטָא` and U00801 `שֵׁיבַט, שִׁיבְטָא` read `
 **Question.** Is U00105 Jastrow's `שְׁבַט II`?
 
 - **U00105**
-  - [ ] yes, print sets II on it: dropped by Sefaria (case 1); retarget both
+  - [x] yes, print sets II on it: dropped by Sefaria (case 1); retarget both
   - [ ] yes, print sets none: U00105 takes II (case 2, annotated); retarget both
   - [ ] no (say which in the note)
   - [ ] can't tell from the scan
@@ -783,13 +783,13 @@ U00362 `שׁוּחַ, שְׁיַח` (`ch. same, v. שְׁוַוח II`) and U0051
 **Question.** Is U00344 Jastrow's `שְׁוַוח II` (and U00345 its III)?
 
 - **U00344**
-  - [ ] yes, and print sets II on it: case 1; retarget both cites
+  - [x] yes, and print sets II on it: case 1; retarget both cites
   - [ ] yes, print sets none: U00344 takes II (case 2, annotated); retarget both
   - [ ] no (say which in the note)
   - [ ] can't tell from the scan
   - note: 
 - **U00345**
-  - [ ] print sets III: dropped by Sefaria (case 1, `reform.homographs`, displayed)
+  - [x] print sets III: dropped by Sefaria (case 1, `reform.homographs`, displayed)
   - [ ] no numeral in print
   - [ ] can't tell from the scan
   - note: 
@@ -812,11 +812,11 @@ U00835 `שִׁיוְוָיא, שִׁיוּוּיָא` reads `v. שַׁוְיָא
 **Question.** Is U00396 Jastrow's `שַׁוְיָא II`?
 
 - **U00396**
-  - [ ] yes, print sets II on it: case 1; retarget
+  - [x] yes, print sets II on it: case 1; retarget
   - [ ] yes, print sets none: U00396 takes II (case 2, annotated); retarget
   - [ ] no (say which in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: II on main headword
 
 Recommendation: yes (high for the target): the citing headwords are U00396's alternates; the scan decides case 1 or 2.
 
@@ -838,11 +838,11 @@ U01637 `שַׁעֲוָה` (wax) reads `v. שׁוּעַ I`; Sefaria links U00476 
 **Question.** Which entry is Jastrow's `שׁוּעַ I`?
 
 - **U01637**
-  - [ ] U00475 (the Hebrew verb): retarget; numeral as print sets it (say in the note)
+  - [x] U00475 (the Hebrew verb): retarget; numeral as print sets it (say in the note)
   - [ ] U00476 (as linked): kept (case 3: `kept` on the cite)
   - [ ] something else (say what in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: Print does not number, and in this case I dont think we should number them due to ambiguity.  Having said that, 475 calls out wax in it entries so clearly it is the correct link.
 
 Recommendation: U00475 (low): `wax` derives from `to be smooth`; whether print numbers a `שׁוּעַ I, II` is for the scan.
 
@@ -865,12 +865,12 @@ N01120 reads `B. Kam. 117ᵃ מנצו, v. שׁוּתָא III`; Sefaria links U00
 
 - **N01120**
   - [ ] U00583: retarget; print's `III` in the cite stays (case 3: `kept`, since print numbers U00583 `II`)
-  - [ ] U00583: retarget; the cite's `III` is print's slip for `II` (case 2, annotated)
+  - [x] U00583: retarget; the cite's `III` is print's slip for `II` (case 2, annotated)
   - [ ] something else (say what in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: I am not clear on what you plan for the one I checked, so, the cite should target 583, the cite text should be updated II and anotated.  (Note that 583 acutally cites the same B Kama bit, which is good evidence.)
 - **U00582, U00583**
-  - [ ] print sets I on U00582 and II on U00583: dropped by Sefaria (case 1)
+  - [x] print sets I on U00582 and II on U00583: dropped by Sefaria (case 1)
   - [ ] no
   - [ ] can't tell from the scan
   - note: 
@@ -895,15 +895,16 @@ U01064 `שֵׁירָוָון` and U01066 `שִׁירְוָן` read `v. שֵׁי�
 **Question.** Is U01071 Jastrow's `שֵׁירוּתָא III`?
 
 - **U01064, U01066**
-  - [ ] yes: retarget both to U01071 (case 1)
+  - [x] yes: retarget both to U01071 (case 1)
   - [ ] no (say which in the note)
   - [ ] can't tell from the scan
   - note: 
 - **U01070, U01071**
-  - [ ] print sets II on U01070's and III on U01071's first form: dropped by Sefaria (case 1)
+  - [x] print sets II on U01070's and III on U01071's first form: dropped by Sefaria (case 1)
   - [ ] no
   - [ ] can't tell from the scan
-  - note: 
+  - note: numeral goes on the abbreviation שֵׁר׳, as U01069 stores its I
+
 
 Recommendation: yes, and both numerals restored (high): the hOCR reads them, and `encampment` fits the cites.
 
@@ -926,7 +927,7 @@ U01112 `שֵׁיתְסַר` and U02071 `שִׁתְּ, שֵׁת, שִׁתָּא` 
 **Question.** Is U01103 Jastrow's `שִׁית IV`?
 
 - **U01103**
-  - [ ] yes, print sets IV on it: dropped by Sefaria (case 1); retarget both
+  - [x] yes, print sets IV on it: dropped by Sefaria (case 1); retarget both
   - [ ] yes, print sets none: U01103 takes IV (case 2, annotated); retarget both
   - [ ] no (say which in the note)
   - [ ] can't tell from the scan
@@ -950,7 +951,7 @@ U01502 `שְׁמֵנָא` reads `c. (v. שָׁמִין II) fat, rich`; Sefaria l
 **Question.** Does print set II on U01470?
 
 - **U01470**
-  - [ ] yes: U01470 takes II (case 1, `reform.homographs`, displayed) and the cite is retargeted
+  - [x] yes: U01470 takes II (case 1, `reform.homographs`, displayed) and the cite is retargeted
   - [ ] no: U01470 takes II from the cite (case 2, annotated)
   - [ ] can't tell from the scan
   - note: 
@@ -977,7 +978,7 @@ U01503 `שְׁמֵנָה` reads `v. שָׁמֵן II`; Sefaria links U01496 `שָ
 **Question.** Is U01498 Jastrow's `שָׁמֵן II`?
 
 - **U01498**
-  - [ ] yes, print sets II on it: case 1; retarget
+  - [x] yes, print sets II on it: case 1; retarget
   - [ ] yes, print sets none: U01498 takes II (case 2, annotated); retarget
   - [ ] no (say which in the note)
   - [ ] can't tell from the scan
@@ -1002,7 +1003,7 @@ U02059 `שִׁשִּׁים` (sixty) reads `v. שֵׁשׁ III`; Sefaria links U02
 **Question.** Is U02056 Jastrow's `שֵׁשׁ III`?
 
 - **U02056**
-  - [ ] yes, print sets III on it: dropped by Sefaria (case 1); retarget
+  - [x] yes, print sets III on it: dropped by Sefaria (case 1); retarget
   - [ ] yes, print sets none: U02056 takes III (case 2, annotated); retarget
   - [ ] no (say which in the note)
   - [ ] can't tell from the scan
@@ -1030,7 +1031,7 @@ V00277 (`denom. of תּוֹר III`, ox-driver) and V00282 (`aurochs, v. תּוֹ
 **Question.** Does print set III on V00275's first form?
 
 - **V00275**
-  - [ ] yes: V00275 form 0 takes III (case 1, `reform.homographs`, displayed); retarget both cites
+  - [x] yes: V00275 form 0 takes III (case 1, `reform.homographs`, displayed); retarget both cites
   - [ ] no
   - [ ] can't tell from the scan
   - note: 
@@ -1053,7 +1054,7 @@ V00570 `תְּלָאמָא` reads `v. תַּלְמָא II`; Sefaria links V00599
 **Question.** Does print set II on V00600?
 
 - **V00600**
-  - [ ] yes: V00600 takes II (case 1, displayed); retarget
+  - [x] yes: V00600 takes II (case 1, displayed); retarget
   - [ ] no: V00600 takes II from the cite (case 2, annotated)
   - [ ] can't tell from the scan
   - note: 
@@ -1079,13 +1080,13 @@ T00434 (`Nidd. 42ᵃ, v. תְּפֵי I`) and V00848 `תְּפַף II` (`to spit
 **Question.** Is V00815 Jastrow's `תְּפֵי I` (and V00816 its II)?
 
 - **V00815**
-  - [ ] yes, print sets I on it: case 1; retarget both
+  - [x] yes, print sets I on it: case 1; retarget both
   - [ ] yes, print sets none: V00815 takes I (case 2, annotated); retarget both
   - [ ] no (say which in the note)
   - [ ] can't tell from the scan
   - note: 
 - **V00816**
-  - [ ] print sets II: dropped by Sefaria (case 1, displayed)
+  - [x] print sets II: dropped by Sefaria (case 1, displayed)
   - [ ] no
   - [ ] can't tell from the scan
   - note: 
