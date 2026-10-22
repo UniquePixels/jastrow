@@ -109,15 +109,16 @@ snapshot the original counts were taken from (re-measured 2026-10-16).
 
 ## 1. Headwords misread by OCR (three read ך where the print has ד)
 
-**Status:** rows: appendix classes `headword-ocr-glyph` (4 rows) and
+**Status:** rows: appendix classes `headword-ocr-glyph` (18 rows) and
 `headword-ocr-pointing` (10 rows). They hold the twelve OCR headwords of
 the maintainer's 2026-10-06 print read (A01310, A01319, A01964, C00649,
 D00501, D00616, H01579, J00737, M00724, M02601, M02739, P00218), each
-read against the scan, and two more: F00009 (print check 2026-09-20)
-and H01100 (round 2, 2026-10-13). The three entries below are **not**
-in the appendix: we hold no reviewed patch for them yet, so they are
-informational until one is written from a print read. **Count:** 14 appendix rows; 3 entries below
-(snapshot count).
+read against the scan, F00009 (print check 2026-09-20), H01100 (round
+2, 2026-10-13), and the checklist's spellings of 2026-10-22 (PR #187).
+The three entries below are among them: PR #187 respelled them from
+the maintainer's print read of 2026-10-22 (P000854–P000857, four rows,
+P00860's alternate included). **Count:** 28 appendix rows (generator,
+2026-10-22).
 
 A headword is also the string Sefaria's internal links name
 (`/Jastrow,_מַוֶּה I.1`), so a corrected headword needs the links that
@@ -147,10 +148,13 @@ still carry the ד spellings.
 
 **Status:** rows: appendix class `verse-paren-false-sense-split` (15
 rows: a citation's own verse number taken as a sense marker, each read
-on the scan). The 36 cross-reference-form entries listed below are
-**not** in the appendix: their records (review doc 01, 2026-08-05) name
-no print read, so they wait in the review list (`reviewed-join`, 36,
-`no print evidence`). **Count:** 15 appendix rows; 36 in the review list
+on the scan) and `reviewed-join` (17 rows: the 36 cross-reference-form
+entries listed below, review doc 01, 2026-08-05). Their records named
+no print read until PR #n quoted the hOCR line into 32 of them (review
+ledger L71); 17 are rows, 11 are held back as not traceable to
+Sefaria's string and 4 as a join into the entry's own head, and 4 wait
+for a scan read (`no print evidence`, maintainer checklist).
+**Count:** 32 appendix rows; 19 `reviewed-join` in the review list
 (generator, 2026-10-22); 2 more of the verse-paren class are held back
 because the text is not traceable to Sefaria's string. A01002's two
 (P000388, P000389) joined the appendix on 2026-10-22, once their
@@ -204,10 +208,16 @@ a verse number).
 `first-sense-debris-stranding-language-label` (14: print's first sense
 stored twice), `continuation-marker-fully-absent` (5) and
 `missing-number` (5), each read on the scan (sense worklist, maintainer
-2026-10-10/11). The example below (A00675) and the other review doc 01
-reinsertions (`reviewed-replace`, 18) name no print read and wait in the
-review list. **Count:** 65 appendix rows; 18 in the review list
-(generator, 2026-10-16).
+2026-10-10/11), and `reviewed-replace` (12 rows: review doc 01's
+reinsertions and review doc 02's bare-citation wraps, whose hOCR line
+PR #n quoted, review ledger L71). Of the other 6, 2 are held back as
+not traceable, 2 wait for a scan read, and 2 read against the patch in
+the hOCR: the example below is one of them. Print reads `p. 18; 261)
+1) Ulam`, the page `261` and then the marker (26a · leaf 49), so the
+fix shown, page `26` and a fused `1)`, is not print's (review ledger
+L75; L76 is Q02162's). **Count:** 77 appendix rows; 8 `reviewed-replace`
+in the review list, those 6 and 2 held back before (generator,
+2026-10-22).
 
 Entries whose numbered senses skip values (`1), 3), 4)`) or start
 past 1 without the unclosed-paren signature of issue 2 — usually a
@@ -406,7 +416,10 @@ arrays.) **Detection:** any `binyan_form` array containing `""`.
 
 ## 10. Damaged sense-number strings (6 occurrences)
 
-**Status:** rule-level: see pattern. The import reads the five ASCII
+**Status:** rule-level: see pattern, and rows: appendix class
+`reviewed-retag` (3 rows: O00408, U00745, U00939, whose hOCR shows the
+em dash, PR #n; M02309's and S02030's are held back as not traceable).
+The import reads the five ASCII
 `-2)` as `—2)` (`admin/pipeline/body/labels.ts`). D00341's `[1)` is
 repaired by a reviewed patch that also moves the bracket into the text,
 a recorded deviation from print, so it is held back. **Count:** 5 `-2)`
@@ -463,10 +476,14 @@ linker aims it at another homograph of X. Each row shows the anchor
 before and after; its visible text never changes, only the target. The
 evidence column gives the text proof (the only entry of X's family
 that carries `N`) or the print read. A01350 itself (below) is a
-different shape and has no reviewed patch. **Count:** 167 appendix
-rows; 63 more in the review list (55 whose proof does not hold in
-Sefaria's own data, among them every implied I that only our own
-correction numbers, and 8 not traceable to Sefaria's string).
+different shape and has no reviewed patch. Where the proof does not
+hold in Sefaria's own data (among them every implied I that only our
+own correction numbers), the evidence is print: PR #n quoted the
+cite's own hOCR line, with its numeral, into 16 (review ledger L71).
+**Count:** 235 appendix rows; 47 more in the review list (generator,
+2026-10-22): 38 wait for a scan read and 1 reads against the patch
+(U01063, review ledger L77), all `no print evidence`, and 8 are not
+traceable to Sefaria's string.
 
 **Entry `A01350` (אִימַּר), sense `—4)`:** the anchor wraps the text
 `כפר א׳` (K'far Imra, a place name) but targets the unrelated entry
@@ -656,7 +673,10 @@ NFC form; any inequality is an instance.
 ## 18. ר read for ד inside quoted text (`ורע` for `ודע`)
 
 **Status:** informational. One confirmed instance, still stored as
-Sefaria has it in our data; no reviewed patch yet, so no row.
+Sefaria has it in our data; no reviewed patch yet, so no row. The hOCR
+cannot supply one: it reads the quotation as Latin glyphs, `to refute.
+Ab.II, 14 '31 3il25ni25 na Wi that you may know` (1528a · leaf 851),
+and does not tell ר from ד (review ledger L71, 2026-10-22).
 **Count:** 1 (snapshot count).
 
 **Entries:** `U00311` (confirmed); the class is not yet counted
