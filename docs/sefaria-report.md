@@ -212,10 +212,9 @@ stored twice), `continuation-marker-fully-absent` (5) and
 reinsertions and review doc 02's bare-citation wraps, whose hOCR line
 PR #192 quoted, review ledger L71). Of the other 6, 2 are held back as
 not traceable, 2 wait for a scan read, and 2 read against the patch in
-the hOCR: the example below is one of them. Print reads `p. 18; 261)
-1) Ulam`, the page `261` and then the marker (26a · leaf 49), so the
-fix shown, page `26` and a fused `1)`, is not print's (review ledger
-L75; L76 is Q02162's). **Count:** 77 appendix rows; 8 `reviewed-replace`
+the hOCR: the example below is one of them, now shown as the hOCR reads
+it, pending the maintainer's scan read (review ledger L75; L76 is
+Q02162's). **Count:** 77 appendix rows; 8 `reviewed-replace`
 in the review list, those 6 and 2 held back before (generator,
 2026-10-22).
 
@@ -224,15 +223,19 @@ past 1 without the unclosed-paren signature of issue 2 — usually a
 sense marker fused into adjacent text.
 
 **Example — `A00675` (אוּלָם II):** the first sense's text contains
-`…Neub. Géogr. p. 18; 261)` — that is page `26` with the sense
-marker `1)` fused onto it (missing space), which is why the entry's
-only explicit number is `—2)`.
+`…Neub. Géogr. p. 18; 261) <i>Ulam</i>`, and the entry's only explicit
+number is `—2)`. Print sets the page `261)` and then the marker:
+the hOCR reads `Onom.; Neub. Géogr. p. 18; 261) 1) Ulam (Porta) a place`
+(26a · leaf 49). The marker `1)` is lost, not fused. (Our reviewed
+patch P000194 read `261)` as page `26` and a fused `1)`; the hOCR reads
+against it, so it is held back until the maintainer's scan read,
+review ledger L75.)
 
-**Fix (this entry):**
+**Fix (this entry), as the hOCR reads it:**
 
 ```diff
 - …Neub. Géogr. p. 18; 261) <i>Ulam</i> (Po…
-+ …Neub. Géogr. p. 18; 26 — split here into sense "1)": <i>Ulam</i> (Po…
++ …Neub. Géogr. p. 18; 261) — split here into sense "1)": <i>Ulam</i> (Po…
 ```
 
 i.e. the text from `1)` onward belongs in a new sense object with
@@ -469,7 +472,7 @@ may be mis-attached links.
 
 ## 13. Mis-targeted internal refLink (1 known)
 
-**Status:** rows: appendix class `cross-reference-target` (167 rows).
+**Status:** rows: appendix class `cross-reference-target` (235 rows).
 The systematic sweep this section asked for has been done for one
 shape: a cross-reference whose own words name `X N` while Sefaria's
 linker aims it at another homograph of X. Each row shows the anchor
