@@ -6,12 +6,12 @@ under your blocker definition
 the pre-publication items, the answers that change a `headwords[0]`:
 the URL name is computed from it, and a name changed after go-live
 costs a redirect forever (U6; redirects are unbuilt, L23). Since
-PR #187 (2026-10-22) that is two blocks: C00299 in § Cross-reference
-spellings, held because its respelling is another entry's name, and
-P00639 in § Cross-reference numerals: may rename an entry, which you
-left open with a note. PR #187 applied the rest of what you ticked, the
-other 16 spelling blocks, § X11, 17 of the 18 numeral questions and
-the 8 you answered on 2026-10-18; they are in
+PR #187 (2026-10-22) that is one block, P00639 in § Cross-reference
+numerals: may rename an entry, which you left open with a note; none
+is held. PR #187 applied the rest of what you ticked, all 17 spelling
+blocks (C00299 after your ruling of 2026-10-22 on C00300), § X11, 17 of
+the 18 numeral questions and the 8 you answered on 2026-10-18; they
+are in
 [`headword-worklist.md`](headword-worklist.md) § Applied from the
 maintainer checklist (2026-10-22). The other 22 numeral questions and
 the 3 scan reads for L65–L66 moved, byte for byte, to
@@ -36,81 +36,8 @@ Started 2026-10-16 (PR #186) by moving the open sections out of
 
 | section | items | source PR | ledger row |
 |---|---|---|---|
-| [Cross-reference spellings (2026-10-16)](#cross-reference-spellings-2026-10-16) | 1 block (C00299, held); 16 applied in PR #187 | #184 | L72 |
 | [Cross-reference numerals: may rename an entry (18)](#cross-reference-numerals-may-rename-an-entry-18) | 1 question (P00639); 17 applied in PR #187 | #173 | L64 |
 | [Textual-research candidates (for #153)](#textual-research-candidates-for-153) | 18 rows to paste (23 listed; 5 already in #153) | #181 | L47 |
-
-## Cross-reference spellings (2026-10-16)
-
-**Status:** you ticked all 17 blocks. PR #187 applied 16 (18 entries:
-case 1 `reform`s, or case 4 annotated `illegible` where your note says
-the printed letter is defective, and the cites re-aimed); they moved
-to [`headword-worklist.md`](headword-worklist.md) § Applied from the
-maintainer checklist (2026-10-22). C00299 is held: see its block. The
-table and the introduction below are kept for it.
-
-A new list, from review ledger L72: headwords one OCR letter away from
-the spelling Jastrow's own cross-references use, where the alphabet
-agrees with Jastrow. D00503 `דֵּין` was the first: the scan reads
-`דֵּיו`, four cites spell it so, and Sefaria linked all four to D00500
-`דְּיוֹ` (ink) because the right entry was misspelled. Each block below
-has three witnesses: (1) cites whose text differs from the stored form
-by one letter of a pair the OCR confuses (`hebrew.ts`'s
-`CONFUSION_GROUPS`), (2) the stored spelling sorts outside its two
-neighbours in the source while the cites' spelling sorts between them,
-and (3) the entry's own text, where it helps. The hOCR rarely settles
-it: volume 1's Tesseract garbles the Hebrew of a headword, and volume
-2's ABBYY reads none; so each needs your scan read, as D00503 did.
-
-Tick ONE box per bullet, a note only where a box asks for one; each
-block's `Recommendation:` is a default you can accept by ticking the
-box it names. "Yes" renames the entry (U6: free before go-live).
-Confidence: high where all three witnesses agree; medium where two do.
-
-| rid | stored | Jastrow's text spells | neighbours (source order) | recommendation |
-|---|---|---|---|---|
-| C00299 | `גּוּך` | `גּוּד` (C00300's spelling, 5 cites) | `גּוּגְמֵי` … `גּוּד` | yes, dalet (medium) |
-
-Not asked: the measurement's other order-witnessed rows (review ledger
-L72). M01544 `מלו` (its gloss quotes `מלי גאלה`), N00084 `נְבִיָּוא`
-(`v. נְבִיָּא`) and R00169 `צַיָּואָה` are plausible but carry one
-witness each; L00051, L00602, V00140, V00485 and C01208 read as print's
-own spelling.
-
-### `גּוּד`: C00299 (stored `גּוּך`)
-
-| rid | stored | hOCR, verbatim | scan |
-|---|---|---|---|
-| [C00299](https://jastrow.app/#rid:C00299) | `גּוּך` | `Voda, + 233. \| [2016]--.גָי (sec. r. of 38 1( to bind; denom. )1 גוד to form a. (גדוד (denom. of (2--[.גְּדזּד vis, fr. which` | [218a · leaf 241](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$242/full/1400,/0/default.jpg) |
-
-`(sec. r. of אָגַד I) to bind; denom. גִּיד.—[Polel גּוֹדֵד, fr. which
-גְּדוּד.]`, then `(denom. of גדוד) to form a faction`: a verb `גוד`.
-The next entries are C00300 `גּוּד, forms of גדד a. נגד` and C00301
-`*גּוֹד` (leather bag); five cites spell `גּוּד` (C00166, C00168,
-C00170, C00304, C00626), linked to C00300. C00299 stands between
-C00298 `גּוּגְמֵי` and C00300 `גּוּד`, where `גוד` sorts and `גוך`
-does not.
-
-**Question.** Does print read `גּוּד` (dalet) where C00299 stores
-`גּוּך`?
-
-- **C00299**
-  - [x] yes: `גּוּד` (case 1; the name changes; a numeral beside it or C00300 goes in the note)
-  - [ ] no: as stored (reviewed-kept)
-  - [ ] can't tell from the scan
-  - note: OCR error
-
-Recommendation: yes (medium): the gloss names the root `גוד` and the
-alphabet agrees; which of C00299 and C00300 the cites mean needs the
-page.
-
-**Held in PR #187 (2026-10-22).** Your "yes" makes C00299's name
-`גּוּד`, which C00300 (`גּוּד, גּוֹד`) already holds, so the names gate
-refuses it, and the note sets no numeral beside either. The two lines
-need telling apart before the respelling can land: a numeral print sets
-beside one of them (case 1, say which in the note), or, if print sets
-none, Sefaria's tool, a `disambiguator` on one (HW-xref-collision, as
-G00675). Nothing is written for C00299 until then.
 
 ## Cross-reference numerals: may rename an entry (18)
 

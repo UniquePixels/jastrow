@@ -3,18 +3,20 @@
 ## Status
 
 **2026-10-22, the checklist applied.** PR #187 applies your ticks in
-[`maintainer-checklist.md`](maintainer-checklist.md): 99 reviewed
-patches on 92 entries (P000828–P000926,
+[`maintainer-checklist.md`](maintainer-checklist.md): 101 reviewed
+patches on 94 entries (P000828–P000928,
 [`records/tranches/checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)),
-under ruling `10-13 correction policy`. 16 cross-reference spelling
-blocks (18 entries; 8 annotated `illegible` where your note says the
-printed letter is defective), both X11 rejoins, 17 of the 18 numeral
+under ruling `10-13 correction policy`. All 17 cross-reference
+spelling blocks (19 entries; 7 annotated `illegible` where your note
+says the printed letter is defective), both X11 rejoins, 17 of the 18 numeral
 questions that may rename an entry and the 8 answered on 2026-10-18;
-40 names change. Each applied block moved here, to § Applied from the
+42 names change. Each applied block moved here, to § Applied from the
 maintainer checklist (2026-10-22) at the end of this file, with a line
-saying what was written. Two blocks wait in the checklist: C00299,
-whose respelling `גּוּד` is C00300's name, and P00639, which you left
-open. After the re-import the report reads X11 0, X10 5, X8 71, X9 6
+saying what was written. One block waits in the checklist: P00639,
+which you left open. C00299 is applied after your ruling of 2026-10-22
+that C00300 is an unnumbered cross-reference stub, which takes a
+`disambiguator` for its name; your U00721 note, corrected the same day,
+makes that respelling case 1. After the re-import the report reads X11 0, X10 5, X8 71, X9 6
 and reviewed-kept 53 (A00719's and C01130's records retired: the
 respellings close their gaps).
 
@@ -2436,7 +2438,7 @@ Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-refere
 
 ## Cross-reference spellings (2026-10-16)
 
-Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference spellings (2026-10-16) on 2026-10-16 (PR #186); 16 of its 17 blocks are applied in PR #187 and are in § Applied from the maintainer checklist (2026-10-22) below. C00299 is held in the checklist: its respelling is C00300's name.
+Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Cross-reference spellings (2026-10-16) on 2026-10-16 (PR #186); all 17 blocks are applied in PR #187 (C00299 after your ruling of 2026-10-22 on C00300) and are in § Applied from the maintainer checklist (2026-10-22) below, with the section's introduction.
 
 ## Scan reads for L65–L66 (2026-10-16)
 
@@ -2444,9 +2446,33 @@ Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Scan reads f
 
 ## Applied from the maintainer checklist (2026-10-22)
 
-Applied in PR #187: your ticks in [`maintainer-checklist.md`](maintainer-checklist.md), recorded 2026-10-18 (`963e28b2b`) and 2026-10-22 (`5a94da667`), as 99 reviewed patches on 92 entries (P000828–P000926, listed block by block in [`checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)). Each block below is moved from the checklist byte for byte, and ends with what was written. 40 entries take a new name; every gate is green.
+Applied in PR #187: your ticks in [`maintainer-checklist.md`](maintainer-checklist.md), recorded 2026-10-18 (`963e28b2b`) and 2026-10-22 (`5a94da667`), as 101 reviewed patches on 94 entries (P000828–P000928, listed block by block in [`checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)). Each block below is moved from the checklist byte for byte, and ends with what was written. 42 entries take a new name; every gate is green.
 
-**From § Cross-reference spellings (2026-10-16): 16 of the 17 blocks, 18 of the 19 entries.** The section's introduction and table stay in the checklist with the one block it still holds, C00299, whose respelling `גּוּד` is C00300's name (held: it needs a numeral or a disambiguator, your call).
+**From § Cross-reference spellings (2026-10-16): all 17 blocks, 19 entries, with the section's introduction.** C00299 was held in PR #187's first push (its respelling is C00300's name) and applied after your ruling of 2026-10-22 on C00300.
+
+A new list, from review ledger L72: headwords one OCR letter away from
+the spelling Jastrow's own cross-references use, where the alphabet
+agrees with Jastrow. D00503 `דֵּין` was the first: the scan reads
+`דֵּיו`, four cites spell it so, and Sefaria linked all four to D00500
+`דְּיוֹ` (ink) because the right entry was misspelled. Each block below
+has three witnesses: (1) cites whose text differs from the stored form
+by one letter of a pair the OCR confuses (`hebrew.ts`'s
+`CONFUSION_GROUPS`), (2) the stored spelling sorts outside its two
+neighbours in the source while the cites' spelling sorts between them,
+and (3) the entry's own text, where it helps. The hOCR rarely settles
+it: volume 1's Tesseract garbles the Hebrew of a headword, and volume
+2's ABBYY reads none; so each needs your scan read, as D00503 did.
+
+Tick ONE box per bullet, a note only where a box asks for one; each
+block's `Recommendation:` is a default you can accept by ticking the
+box it names. "Yes" renames the entry (U6: free before go-live).
+Confidence: high where all three witnesses agree; medium where two do.
+
+Not asked: the measurement's other order-witnessed rows (review ledger
+L72). M01544 `מלו` (its gloss quotes `מלי גאלה`), N00084 `נְבִיָּוא`
+(`v. נְבִיָּא`) and R00169 `צַיָּואָה` are plausible but carry one
+witness each; L00051, L00602, V00140, V00485 and C01208 read as print's
+own spelling.
 
 ### `אַבְאָבִית`: A00021 (stored `אַכְאָבִית`)
 
@@ -2735,12 +2761,12 @@ not.
   - [x] yes: `שַׁחְרֵר` (case 1; the name changes, and U00000's cite moves here)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: This is also a print/scan error, but in this case it is clear the correct letter is reish.
+  - note: OCR Error
 
 Recommendation: yes (high): `ch. same`, the cite and the alphabet
 agree.
 
-Applied in PR #187: P000848 respells U00721 `שַׁהְרֵר` → `שַׁחְרֵר`, annotated `illegible` (case 4), and P000849 moves U00000's `שַׁחְרֵר` from U00720 to it; the name changes with it. Your note says "reish"; the tick, the cites and the alphabet say ḥet, so the patch follows the tick and quotes the note as written.
+Applied in PR #187: P000848 respells U00721 `שַׁהְרֵר` → `שַׁחְרֵר` (case 1, no annotation; your note, corrected 2026-10-22 in `664b370d0`: OCR error), and P000849 moves U00000's `שַׁחְרֵר` from U00720 to it; the name changes with it.
 
 ### `שִׁלְהֵי`: U01223 (stored `שִׁלְחֵי`)
 
@@ -2855,6 +2881,35 @@ Recommendation: yes (medium): the pointing and the alphabet agree;
 Jastrow's text has no cite of it.
 
 Applied in PR #187: P000859 respells A01632 `אֶושָּׁתָא` → `אֶישָּׁתָא` (case 1, no annotation); the name changes with it.
+
+### `גּוּד`: C00299 (stored `גּוּך`)
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [C00299](https://jastrow.app/#rid:C00299) | `גּוּך` | `Voda, + 233. \| [2016]--.גָי (sec. r. of 38 1( to bind; denom. )1 גוד to form a. (גדוד (denom. of (2--[.גְּדזּד vis, fr. which` | [218a · leaf 241](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$242/full/1400,/0/default.jpg) |
+
+`(sec. r. of אָגַד I) to bind; denom. גִּיד.—[Polel גּוֹדֵד, fr. which
+גְּדוּד.]`, then `(denom. of גדוד) to form a faction`: a verb `גוד`.
+The next entries are C00300 `גּוּד, forms of גדד a. נגד` and C00301
+`*גּוֹד` (leather bag); five cites spell `גּוּד` (C00166, C00168,
+C00170, C00304, C00626), linked to C00300. C00299 stands between
+C00298 `גּוּגְמֵי` and C00300 `גּוּד`, where `גוד` sorts and `גוך`
+does not.
+
+**Question.** Does print read `גּוּד` (dalet) where C00299 stores
+`גּוּך`?
+
+- **C00299**
+  - [x] yes: `גּוּד` (case 1; the name changes; a numeral beside it or C00300 goes in the note)
+  - [ ] no: as stored (reviewed-kept)
+  - [ ] can't tell from the scan
+  - note: OCR error
+
+Recommendation: yes (medium): the gloss names the root `גוד` and the
+alphabet agrees; which of C00299 and C00300 the cites mean needs the
+page.
+
+Applied in PR #187: your ruling of 2026-10-22 makes C00300 (`גּוּד, גּוֹד`, `forms of גדד a. נגד`) an unnumbered cross-reference stub, so P000927 gives C00300's first form `disambiguator: 2`, in the name only and never displayed (ruling 10-06 hidden superscript, as G00675's P000307; no numeral print does not set), and P000928 respells C00299 `גּוּך` → `גּוּד` (case 1, no annotation). Names: C00299 `גּוּך` → `גּוּד`, C00300 `גּוּד` → `גּוּד²`; C00300's five cites still resolve by its pre-patch link key.
 
 ### `גְּנַח II`: C01130 (stored `גְּנַה II`)
 

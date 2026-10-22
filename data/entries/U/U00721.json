@@ -4,18 +4,7 @@
 	"sefariaHeadword": "שַׁהְרֵר",
 	"headwords": [
 		{
-			"text": "שַׁחְרֵר",
-			"annotations": [
-				{
-					"field": "text",
-					"kind": "illegible",
-					"printed": "שַׁהְרֵר",
-					"stored": "שַׁחְרֵר",
-					"evidence": "the maintainer's print read 2026-10-22: \"This is also a print/scan error, but in this case it is clear the correct letter is reish.\" `ch. same` after U00720 `שִׁחֲרֵר` (to set free); U00000 lists Shafel forms `שִׁחֲרֵר, שַׁחְרֵר, שִׁלְהֵב`, whose `שַׁחְרֵר` is this entry's pointing and which a companion patch moves here from U00720; it stands between U00720 and U00722 `שְׁחַרְתָּא`, where `שחרר` sorts and `שהרר` does not. The tick reads ḥet; the note's \"reish\" names a letter the word already has twice. 1552a · leaf 875.",
-					"source": "P000848",
-					"date": "2026-10-22"
-				}
-			]
+			"text": "שַׁחְרֵר"
 		}
 	],
 	"display": "{0}",

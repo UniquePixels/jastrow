@@ -27,22 +27,25 @@ evidence, and re-aiming a wrong link is case 1.
 
 ## Where the patches are
 
-**99 reviewed patches, P000828–P000926, on 92 entries**, appended to
+**101 reviewed patches, P000828–P000928, on 94 entries**, appended to
 [`../../reviewed/patches.jsonl`](../../reviewed/patches.jsonl), with
 the rid's patch ids in
 [`../../reviewed/manifest.jsonl`](../../reviewed/manifest.jsonl): a
-new `repaired` record for 89 rids, the ids appended to the existing
+new `repaired` record for 91 rids, the ids appended to the existing
 record for A03020, C01130 and P00856. `prompt_version` is
 `checklist-batch-1-2026-10-22`; every `snapshot` is `sha256:75bbc5ee…`.
 This directory holds only this README.
 
 | | patches | case 1 | case 2 | case 3 | case 4 |
 |---|---|---|---|---|---|
-| A. Cross-reference spellings (16 of 17 blocks) | 33 | 24 | 0 | 0 | 9 |
+| A. Cross-reference spellings (17 blocks) | 35 | 26 | 0 | 0 | 8 |
 | B. X11 (2 blocks) | 2 | 2 | 0 | 0 | 0 |
 | C. Numerals that may rename (17 of 18) | 52 | 47 | 4 | 1 | 0 |
 | D. Numerals answered 2026-10-18 (8) | 12 | 8 | 1 | 3 | 0 |
-| total | 99 | 81 | 5 | 4 | 9 |
+| total | 101 | 83 | 5 | 4 | 8 |
+
+A's 35th patch, P000927, is C00300's `disambiguator` (below), which
+no case covers: it changes no printed value.
 
 Each rationale opens with the print read, its date and the checklist
 commit it was ticked at (`docs/maintainer-checklist.md at 5a94da667`
@@ -64,7 +67,7 @@ respelled entry by its old spelling still resolve.
 
 ## The blocks
 
-### A. Cross-reference spellings: 16 blocks, 18 entries
+### A. Cross-reference spellings: 17 blocks, 19 entries
 
 Plain "OCR error" notes are case 1 `reform`s with no annotation. Where
 the note says the printed glyph is defective ("scan error missing the
@@ -87,12 +90,13 @@ P000589 (PR #177). The cites the block says move are re-aimed by case 1
 | R00152 | yes, vav | 4 | P000839 | `צַיַּאר` → `צַוַּאר` (illegible) | 1265b · leaf 588 |
 | R00171 | yes, vav; three cites move | 4 | P000840; P000841–P000843 | `צְיַוח` → `צְוַוח` (illegible); M00338, S01995, U00220: R00170 → R00171 | 1266b · leaf 589 |
 | S00216 | yes, vav, and the plural; two cites move | 4 | P000844; P000845–P000846; P000847 | `קַיָּא` → `קַוָּא` (illegible); S00308, S00878: S00217 → S00216; the plural in its text `קַיִּין` → `קַוִּין` (illegible) | 1323a · leaf 646 |
-| U00721 | yes, ḥet; U00000's cite moves | 4 | P000848; P000849 | `שַׁהְרֵר` → `שַׁחְרֵר` (illegible); U00000's `שַׁחְרֵר`: U00720 → U00721 | 1552a · leaf 875 |
+| U00721 | yes, ḥet; U00000's cite moves | 1 | P000848; P000849 | `שַׁהְרֵר` → `שַׁחְרֵר`; U00000's `שַׁחְרֵר`: U00720 → U00721 | 1552a · leaf 875 |
 | U01223 | yes, he; the cites move | 1 | P000850; P000851–P000853 | `שִׁלְחֵי` → `שִׁלְהֵי`; U00936 and U01215's two: U01224 → U01223 | 1578a · leaf 901 |
 | P00855, P00856 | yes, dalet | 1 | P000854, P000855 | `עָמַך I` → `עָמַד I`, `עָמַך II` → `עָמַד II` | 1086a · leaf 409 |
 | P00860 | yes, dalet (both forms) | 1 | P000856, P000857 | `עֶמֶך, עָמָך II` → `עֶמֶד, עָמָד II` | 1086b · leaf 409 |
 | A00718 | yes, vav | 4 | P000858 | `אַיְנָא I` → `אַוְנָא I` (illegible) | 28a · leaf 51 |
 | A01632 | yes, yod | 1 | P000859 | `אֶושָּׁתָא` → `אֶישָּׁתָא` | 61a · leaf 84 |
+| C00299 | yes, dalet; C00300 is a stub (ruling 2026-10-22) | 1; none | P000928; P000927 | `גּוּך` → `גּוּד`; C00300 `גּוּד` takes `disambiguator: 2` | 218a · leaf 241 |
 | C01130 | yes, ḥet | 1 | P000860 (C00538's cite: P000925, § D) | `*גְּנַה II` → `*גְּנַח II` | 259a · leaf 282 |
 
 - **S00216's plural** sits in its text, `—Pl. קַיִּין`, an anchor
@@ -107,19 +111,23 @@ P000589 (PR #177). The cites the block says move are re-aimed by case 1
 - **P00860** takes two patches, one per form, so each respelling is
   its own appendix row (a reform that changes two forms is not
   mechanical for the appendix).
-- **U00721's note** reads "the correct letter is reish"; the tick reads
-  `שַׁחְרֵר` (ḥet for he), the letter the cites and the alphabet give,
-  and the word already has its two reshes. The patch follows the tick
-  and quotes the note verbatim in its evidence.
+- **U00721's note** first read "the correct letter is reish"; the
+  maintainer corrected it on 2026-10-22 (`664b370d0`, merged here) to
+  "OCR Error", so P000848 is case 1 with no annotation.
 - **Not moved:** P00609's cites stay on P00610, as ticked. R00176's
   `v. צַוַּאר` spells R00152's pointing and is linked to R00151; no
   tick moves it, so it is left for a later read.
-- **Held: C00299** (`גּוּך`, ticked "yes: `גּוּד`"). The respelled
-  name `גּוּד` is C00300's (`גּוּד, גּוֹד`), so the names gate would
-  fail; the tick's note gives no numeral for either, and telling the
-  two apart (a numeral print sets, or a disambiguator) is the
-  maintainer's call. The block stays in the checklist with a line
-  saying so.
+- **C00299 and C00300.** C00299's respelling `גּוּד` is C00300's
+  name (`גּוּד, גּוֹד`, `forms of גדד a. נגד`). The maintainer ruled
+  on 2026-10-22 that C00300 is an unnumbered cross-reference stub, so
+  print sets no numeral to tell the two apart, and none is invented:
+  P000927 rewrites C00300's first form as `גּוּד ²`, which the parser
+  reads as `disambiguator: 2`, stored and named, never displayed
+  (ruling `10-06 hidden superscript`; HW-xref-collision, as G00675's
+  P000307). Its `display` stays `{0}, {1}`, and its five cites still
+  resolve by the pre-patch link key `גּוּד`. P000928 then respells
+  C00299 (case 1). Names: C00299 `גּוּך` → `גּוּד`, C00300 `גּוּד` →
+  `גּוּד²`. The first push of this PR held the block until the ruling.
 
 ### B. X11: 2 blocks
 
@@ -206,15 +214,15 @@ first form, unless the hOCR or the note says otherwise. P00639
 ## What changed
 
 The re-import (`rm -rf data/entries/[A-Z] && bun data:import && bun
-qa:format`) changes exactly the 92 patched entries, each by the field
+qa:format`) changes exactly the 94 patched entries, each by the field
 its patches name: a respelling moves one form's `text` (and the name);
 a rejoin the line's forms and `display`; a numeral one form's
 `homograph` and the `display`; a retarget one `ref` (46 cites: 45
 differ by `ref` only, and N01120's unit also takes its `II`); an annotation is added only where case 2, 3 or 4 applies
-(18). Everything else is byte-identical (checked by a script over the
+(17). Everything else is byte-identical (checked by a script over the
 diffs).
 
-**40 names change**, and the names gate is green (65,024/65,024: no
+**42 names change**, and the names gate is green (65,024/65,024: no
 collision):
 
 | rid | before | after |
@@ -224,6 +232,8 @@ collision):
 | A01632 | `אֶושָּׁתָא` | `אֶישָּׁתָא` |
 | A02378 | `אִסְטַלִּי` | `אִסְטַלִּי I` |
 | A03020 | `אֻרְיָה` | `אֻרְוָה` |
+| C00299 | `גּוּך` | `גּוּד` |
+| C00300 | `גּוּד` | `גּוּד²` |
 | C01130 | `*גְּנַה II` | `*גְּנַח II` |
 | H00980 | `חָלַך` | `חָלַד` |
 | H01792 | `חָ` | `חָרַת` |
@@ -263,8 +273,8 @@ collision):
 **Gates.** All green: names 65,024/65,024, internal targets (gate 6)
 32,512/32,512 with 0 unresolved, composition and contract (gate 10's
 both-ways annotation check) green; `bun data:validate` 0 problems.
-The blessing reads 767 reviewed, 812 applied (was 668, 713) and 118
-annotations written (102 print-error, 6 kept, 10 illegible; was 100:
+The blessing reads 769 reviewed, 814 applied (was 668, 713) and 117
+annotations written (102 print-error, 6 kept, 9 illegible; was 100:
 97, 2, 1). No `body/` or `transform/` code changed, so
 `transform:invariants` was not run.
 
@@ -284,15 +294,17 @@ records, 0 stale).
 
 ## Upstream
 
-`bun data:sefaria` moves the appendix from 299 rows to 378 (+79) and
-the review list from 369 to 389 (+20). The 79 are this PR's case 1
+`bun data:sefaria` moves the appendix from 299 rows to 380 (+81) and
+the review list from 369 to 389 (+20). The 81 are this PR's case 1
 patches with print evidence: 46 `cross-reference-target`, 19
-`headword-numeral-dropped`, 11 `headword-ocr-glyph`, 1 each
+`headword-numeral-dropped`, 13 `headword-ocr-glyph`, 1 each
 `cross-reference-ocr-glyph`, `cross-reference-overreach` and
-`headword-numeral-in-gloss`. The other 20 are the 18 annotated or
-`annotate` patches (our corrections, out of scope) and the two X11
+`headword-numeral-in-gloss`. The other 20 are the 17 annotated or
+`annotate` patches (our corrections, out of scope), the two X11
 rejoins (a reform that changes the headword and the number of forms is
-not mechanical for the appendix, as U00489's was). The evidence filter
+not mechanical for the appendix, as U00489's was) and C00300's
+disambiguator (`headword-name-collision`, our URL tool, not Sefaria's
+error). The evidence filter
 also now reads a print read recorded in `docs/maintainer-checklist.md`
 or `docs/post-go-live-review.md` (`admin/pipeline/report/sefaria-evidence.ts`),
 as one recorded in a worklist.
