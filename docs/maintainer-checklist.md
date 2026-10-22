@@ -356,7 +356,7 @@ not.
   - [x] yes: `שַׁחְרֵר` (case 1; the name changes, and U00000's cite moves here)
   - [ ] no: as stored (reviewed-kept)
   - [ ] can't tell from the scan
-  - note: This is also a print/scan error, but in this case it is clear the correct letter is reish.
+  - note: OCR Error
 
 Recommendation: yes (high): `ch. same`, the cite and the alphabet
 agree.
