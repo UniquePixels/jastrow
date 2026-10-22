@@ -2,7 +2,7 @@
 
 One section waits on you as of 2026-10-22: [Scan reads for the
 Sefaria appendix (2026-10-22)](#scan-reads-for-the-sefaria-appendix-2026-10-22),
-30 blocks (review ledger L71, PR #n). It is not a pre-publication item
+30 blocks (review ledger L71, PR #192). It is not a pre-publication item
 unless a headword block's answer is "no". This file keeps the
 pre-publication items, by your ruling of 2026-10-18 under your blocker
 definition ([`review-ledger.md`](review-ledger.md) § Definitions): the
@@ -31,14 +31,14 @@ worklists ([`headword-worklist.md`](headword-worklist.md),
 
 | section | items | source PR | ledger row |
 |---|---|---|---|
-| [Scan reads for the Sefaria appendix (2026-10-22)](#scan-reads-for-the-sefaria-appendix-2026-10-22) | 30 blocks, 66 patches (4 read against the patch) | #n | L71 |
+| [Scan reads for the Sefaria appendix (2026-10-22)](#scan-reads-for-the-sefaria-appendix-2026-10-22) | 30 blocks, 66 patches (4 read against the patch) | #192 | L71 |
 
 ## Scan reads for the Sefaria appendix (2026-10-22)
 
-Review ledger L71, PR #n. The Sefaria appendix (`bun data:sefaria`)
+Review ledger L71, PR #192. The Sefaria appendix (`bun data:sefaria`)
 holds back a reviewed patch whose rationale names no print read
 (`no print evidence` in [`reports/sefaria-review.csv`](reports/sefaria-review.csv)).
-There were 133. PR #n quoted the hOCR line into the rationale of the
+There were 133. PR #192 quoted the hOCR line into the rationale of the
 67 whose line shows the fact (48 are now appendix rows; 19 wait on the
 appendix's traceability filter, not on evidence); the tranche README
 [`l71-evidence-2026-10-22`](../admin/pipeline/patch/records/tranches/l71-evidence-2026-10-22/README.md)

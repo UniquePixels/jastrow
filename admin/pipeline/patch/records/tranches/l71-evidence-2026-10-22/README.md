@@ -1,6 +1,6 @@
 # Print evidence for the held Sefaria rows (2026-10-22)
 
-PR #n, review ledger L71. The Sefaria appendix (`bun data:sefaria`,
+PR #192, review ledger L71. The Sefaria appendix (`bun data:sefaria`,
 [`../../../../report/sefaria-evidence.ts`](../../../../report/sefaria-evidence.ts))
 held back 133 reviewed patches as `no print evidence`: Sefaria's own
 errors whose rationale names no print read. The maintainer's bar for

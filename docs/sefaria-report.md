@@ -150,7 +150,7 @@ still carry the ד spellings.
 rows: a citation's own verse number taken as a sense marker, each read
 on the scan) and `reviewed-join` (17 rows: the 36 cross-reference-form
 entries listed below, review doc 01, 2026-08-05). Their records named
-no print read until PR #n quoted the hOCR line into 32 of them (review
+no print read until PR #192 quoted the hOCR line into 32 of them (review
 ledger L71); 17 are rows, 11 are held back as not traceable to
 Sefaria's string and 4 as a join into the entry's own head, and 4 wait
 for a scan read (`no print evidence`, maintainer checklist).
@@ -210,7 +210,7 @@ stored twice), `continuation-marker-fully-absent` (5) and
 `missing-number` (5), each read on the scan (sense worklist, maintainer
 2026-10-10/11), and `reviewed-replace` (12 rows: review doc 01's
 reinsertions and review doc 02's bare-citation wraps, whose hOCR line
-PR #n quoted, review ledger L71). Of the other 6, 2 are held back as
+PR #192 quoted, review ledger L71). Of the other 6, 2 are held back as
 not traceable, 2 wait for a scan read, and 2 read against the patch in
 the hOCR: the example below is one of them. Print reads `p. 18; 261)
 1) Ulam`, the page `261` and then the marker (26a · leaf 49), so the
@@ -418,7 +418,7 @@ arrays.) **Detection:** any `binyan_form` array containing `""`.
 
 **Status:** rule-level: see pattern, and rows: appendix class
 `reviewed-retag` (3 rows: O00408, U00745, U00939, whose hOCR shows the
-em dash, PR #n; M02309's and S02030's are held back as not traceable).
+em dash, PR #192; M02309's and S02030's are held back as not traceable).
 The import reads the five ASCII
 `-2)` as `—2)` (`admin/pipeline/body/labels.ts`). D00341's `[1)` is
 repaired by a reviewed patch that also moves the bracket into the text,
@@ -478,7 +478,7 @@ evidence column gives the text proof (the only entry of X's family
 that carries `N`) or the print read. A01350 itself (below) is a
 different shape and has no reviewed patch. Where the proof does not
 hold in Sefaria's own data (among them every implied I that only our
-own correction numbers), the evidence is print: PR #n quoted the
+own correction numbers), the evidence is print: PR #192 quoted the
 cite's own hOCR line, with its numeral, into 16 (review ledger L71).
 **Count:** 235 appendix rows; 47 more in the review list (generator,
 2026-10-22): 38 wait for a scan read and 1 reads against the patch
