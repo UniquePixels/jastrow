@@ -2,6 +2,22 @@
 
 ## Status
 
+**2026-10-22 (b), the issues recorded and the report reconciled.**
+The research rows are back here, in § Textual-research candidates
+(#190; the X9 five in #153) at the end of this file: #190, opened on
+your go, holds the 17 X8 rows and C00773, and #153 the X9 five. The
+rows pile A ruled legitimate never reached the reviewed-kept list, so
+the headword report kept showing them: PR #n records the 39 X8 rows of
+pile A's HW-roman list and N00186 (X10; pile A's print read, and no
+text of Jastrow's names `נְגַר I`). The report now reads X8 32 (1
+primary), X9 6 (1), X10 4 (1) and reviewed-kept 93. The three primaries
+left open are new questions: P01273 (its I sits on P01272's
+abbreviation `עֵי׳`, opened by PR #187's II), A00719 (`אַוְנָא` I and
+`אֲוָנָא` II pointed two ways since PR #187's respelling) and U01687
+(U01689 and U00991 name `שַׁעַר I`, market price, U01686's second
+meaning; review ledger L74). U00344's II is displayed (P000881
+amended: print sets its last form `(שׁוּחַ)`).
+
 **2026-10-22, the checklist applied.** PR #187 applies your ticks in
 [`maintainer-checklist.md`](maintainer-checklist.md): 102 reviewed
 patches on 95 entries (P000828–P000929,
@@ -45,7 +61,7 @@ respells it (P000821, case 1) and re-aims the four cites that spell
 `דֵּיו` from D00500 `דְּיוֹ` (ink) to it (review ledger L73). Nothing
 had flagged it; measuring that gap (L72) found 19 more headwords one
 OCR letter from Jastrow's own spelling, which wait on your scan read in
-§ [Cross-reference spellings (2026-10-16)](maintainer-checklist.md#cross-reference-spellings-2026-10-16).
+§ Cross-reference spellings (2026-10-16), applied in PR #187 and now in [§ Applied from the maintainer checklist (2026-10-22)](#applied-from-the-maintainer-checklist-2026-10-22).
 
 **2026-10-15 (b).** U00488 and U00489, the one pile B and #113 fix
 the pipeline could not express (review ledger L50), are applied in
@@ -2342,7 +2358,7 @@ Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § X11: one-let
 
 ## Textual-research candidates (for #153)
 
-Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Textual-research candidates (for #153) on 2026-10-16 (PR #186); it returns here as history when pasted.
+Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) on 2026-10-16 (PR #186); back here on 2026-10-22, when #190 was opened, as [§ Textual-research candidates (#190; the X9 five in #153)](#textual-research-candidates-190-the-x9-five-in-153) at the end of this file.
 
 ## How this was produced
 
@@ -3213,6 +3229,8 @@ Recommendation: U00344 is the II and U00345 takes III (high): the hOCR shows U00
 
 Applied in PR #187: P000881 sets print's II on U00344 and P000882 print's III on U00345, displayed `שְׁוַוח III, שְׁוַח` (case 1); P000883 and P000884 move both cites from U00343 to U00344. U00344's line has a stray `)` and no `display`, so its II is stored and named, and shows once the layout is settled. Names `שְׁוַוח` → `שְׁוַוח II`, `שְׁוַוח²` → `שְׁוַוח III²`.
 
+Amended in PR #n (2026-10-22): the `)` is print's, and Sefaria dropped its `(`. The hOCR of 1529b reads the line `'mid  n,  n"u;,  (rno") .  h. n*,`, that is `שְׁוַוח II, שְׁוַח, (שׁוּחַ) = h. שׁוּחַ,`. P000881 now writes the last form `(שׁוּחַ)` (case 1) and supplies `display` `{0} II, {1}, ({2})`, so the II shows.
+
 ### `שַׁוְיָא II`: U00835 (one bare member)
 
 | rid | stored | hOCR, verbatim | scan |
@@ -3763,3 +3781,60 @@ M00854 `מִחְטֵי` (delicate) reads `v. חֲטִי I`; Sefaria links H00616
 Recommendation: H00614, retarget only (medium): its spelling and meaning (tender) match; the family's Hebrew numbering I, II is complete, so no gap needs the text to fill it.
 
 Applied in PR #187: P000926 moves the cite from H00616 to H00614 (case 1); no numeral is set.
+
+## Textual-research candidates (#190; the X9 five in #153)
+
+The 17 X8 rows and C00773 are #190's rows (opened 2026-10-22 by the controller on the maintainer's go).
+The five X9 rows are #153's, listed for reference.
+
+### X9: no mark in print (5, already in #153)
+
+You answered "print has no mark there" on each: two spellings of one
+numbered sequence that print points apart.
+
+| rid | headword | your note | scan |
+|---|---|---|---|
+| [A01420](https://jastrow.app/#rid:A01420) | `אִיסְטְוָוא` II (I is A01419 `אִיסטְוָוא`) | "This is likely a textual error but would require extensive research. I would love an issue oppened on it, as I think it is a fascinating question." | [leaf 77](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$78/full/1400,/0/default.jpg) |
+| [E00802](https://jastrow.app/#rid:E00802) | `הֲקָצָה` II (I is E00801 `הֲקָצה`) | "Another likley textual issue, add with other, fascinating I say....." | [leaf 387](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$388/full/1400,/0/default.jpg) |
+| [E00837](https://jastrow.app/#rid:E00837) | `הרְהוּן` II (I is E00836 `הִרְהוּן`) | "another to add to that textual issues research issue" | [leaf 389](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$390/full/1400,/0/default.jpg) |
+| [I00057](https://jastrow.app/#rid:I00057) | `טְבִיעָה` II (I is I00056 `טְבִיעה`) | "textual issue research" | [leaf 540](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$541/full/1400,/0/default.jpg) |
+| [P00959](https://jastrow.app/#rid:P00959) | `עֲנָוָה` II (I is P00958 `ענָוָה`) | "textual issue research" | [leaf 415](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$416/full/1400,/0/default.jpg) |
+
+### X8: a missing numeral print does not set (17)
+
+You answered "no numeral beside it" or "the gap is Jastrow's own" on
+each but C00610, where you answered that print sets I beside C00609
+`גִּיב`. Under ruling 10-13 the bare form stays bare unless Jastrow's own
+text names it `X I`. A00312's note asks for these in a different
+issue from the X9 five.
+
+| rid | headword | your note | scan |
+|---|---|---|---|
+| [A00312](https://jastrow.app/#rid:A00312) | `אַגְמָא` II; A00311 bare | "Legit missing, lets put ones like this in a differnt textual issues research issue." | [leaf 36](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$37/full/1400,/0/default.jpg) |
+| [A00890](https://jastrow.app/#rid:A00890) | `אוֹרְיָין` II; A00889 bare | "add to textual research issue" | [leaf 57](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$58/full/1400,/0/default.jpg) |
+| [A02042](https://jastrow.app/#rid:A02042) | `אֲמָנָה` II; A02041 bare | "add to resarch issue" | [leaf 101](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$102/full/1400,/0/default.jpg) |
+| [B00382](https://jastrow.app/#rid:B00382) | `בּוּרְסִי` II, and B00383 `בּוּרְסִי` II²; no I | "add to issue, likely a textual mistake" | [leaf 173](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$174/full/1400,/0/default.jpg) |
+| [B00538](https://jastrow.app/#rid:B00538) | `בִּיאָה` II; B00537/alt bare | "add to issue" | [leaf 182](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$183/full/1400,/0/default.jpg) |
+| [B00936](https://jastrow.app/#rid:B00936) | `בַּנַּאי` II; B00935 bare | "add to research issue" | [leaf 199](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$200/full/1400,/0/default.jpg) |
+| [C00177](https://jastrow.app/#rid:C00177) | `גְּדוּדִית` II; C00176 bare | "add to issue" | [leaf 233](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$234/full/1400,/0/default.jpg) |
+| [C00610](https://jastrow.app/#rid:C00610) | `גִּיב` II; C00609, which print numbers I | "add to issue" | [leaf 257](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$258/full/1400,/0/default.jpg) |
+| [D00443](https://jastrow.app/#rid:D00443) | `דִּי` II; D00442 bare | "add to issue" | [leaf 316](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$317/full/1400,/0/default.jpg) |
+| [E00114](https://jastrow.app/#rid:E00114) | `הֲדָיָא` II; no I | "add to issue" | [leaf 356](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$357/full/1400,/0/default.jpg) |
+| [H00433](https://jastrow.app/#rid:H00433) | `חוּצָה` II; H00432 bare | "add to issue" | [leaf 461](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$462/full/1400,/0/default.jpg) |
+| [H01222](https://jastrow.app/#rid:H01222) | `חֲמַר` III; no I, II on `חֲמַר` | "add to issue" | [leaf 503](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$504/full/1400,/0/default.jpg) |
+| [J00113](https://jastrow.app/#rid:J00113) | `יָהּ` II; J00112 bare | "add to issue" | [leaf 588](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$589/full/1400,/0/default.jpg) |
+| [O00995](https://jastrow.app/#rid:O00995) | `סְלִיקוּסְתָּא` II; O00994 bare | "add to issue" | [leaf 318](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$319/full/1400,/0/default.jpg) |
+| [Q00965](https://jastrow.app/#rid:Q00965) | `פְּלוּגְתָּא` II; Q00964 bare | "add to issue" | [leaf 500](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$501/full/1400,/0/default.jpg) |
+| [Q01399](https://jastrow.app/#rid:Q01399) | `פַּפָּא` II; Q01398 bare | "add to issue" | [leaf 526](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$527/full/1400,/0/default.jpg) |
+| [S00337](https://jastrow.app/#rid:S00337) | `קוּלְיָא` II; S00336 bare | "add to issue" | [leaf 651](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$652/full/1400,/0/default.jpg) |
+
+### Round 2: `גִּיס` (1)
+
+C00772 `גֵּיס` is bare before C00773 `גִּיס` II and C00774 `גִּיס` II.
+C00707 and C00710 name C00773 II, while C00841 `(v. גִּיס I) familiar`
+and K00444 call the familiar word I, which print numbers II. Kept bare
+in PR #177.
+
+| rid | headword | your note | scan |
+|---|---|---|---|
+| [C00773](https://jastrow.app/#rid:C00773) | `גִּיס` II, `גָּיֵיס` | "To much ambuiguity here honestly. So no implied anything, and maybe an issue to dig in on." | [leaf 263](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$264/full/1400,/0/default.jpg) |

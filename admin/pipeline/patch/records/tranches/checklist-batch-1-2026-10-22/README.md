@@ -176,7 +176,10 @@ the PR's first push, and is P000929, the last patch of the batch.
   (`שׁוּחַ)`), so the source settles no layout (gate 2's unsettleable
   line, `paren-group-close-unknown`). P000881 sets the numeral and no
   display: the II is stored and in the name, and shows once the layout
-  is settled.
+  is settled. Amended 2026-10-22 (PR #n,
+  [`../post-issues-2026-10-22/`](../post-issues-2026-10-22/README.md)):
+  the `)` is print's, `(שׁוּחַ)`, and P000881 now restores the `(` and
+  supplies `display` `{0} II, {1}, ({2})`, so the II shows.
 - **U01637's kept note** and N01120's numeral are their own patches on
   the sense the retarget leaves (`expected_before` pins it), so each
   retarget stays a case 1 appendix row.

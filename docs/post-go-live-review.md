@@ -10,8 +10,8 @@ were ruled not to be. They moved here from
 byte for byte, not copied, so they can be worked later the same way:
 tick ONE box per bullet, a `note:` only where the box asks for one, and
 a block's `Recommendation:` names the box it would tick. Each section is
-the row list one GitHub issue links to (one issue per class; the drafts
-are in § Issue drafts, not yet opened). A ticked item leaves this file
+the row list one GitHub issue links to (one issue per class: #188 and
+#189, opened 2026-10-22; § Issues opened 2026-10-22). A ticked item leaves this file
 when a PR applies it, and its history goes to the worklists, as in the
 checklist.
 
@@ -43,7 +43,7 @@ nothing here renames an entry.
 |---|---|---|---|
 | [Cross-reference numerals (2026-10-14)](#cross-reference-numerals-2026-10-14) | 22 questions, 34 cites | #173 | L64 |
 | [Scan reads for L65–L66 (2026-10-16)](#scan-reads-for-l65l66-2026-10-16) | 3 blocks | #185 | L65, L66 |
-| [Issue drafts (for the maintainer to open)](#issue-drafts-for-the-maintainer-to-open) | 2 drafts | | L64, L65, L66 |
+| [Issues opened 2026-10-22](#issues-opened-2026-10-22) | 3 issues | | L47, L64, L65, L66 |
 
 One rid is asked twice: M02423's cite `v. מַוֶּה II`. Its numerals
 block (`מַוֶּה II`) was written before PR #182, whose P000817 re-aimed
@@ -52,6 +52,8 @@ letter, vav or zayin, which the § Scan reads block for L65 asks
 directly. One scan read answers both.
 
 ## Cross-reference numerals (2026-10-14)
+
+Issue: #188
 
 **Deferred 2026-10-18.** 22 of the section's 48 questions, 34 of
 its 74 cites. The 8 answered on 2026-10-18 and the 18 that may
@@ -726,6 +728,8 @@ Recommendation: U01735, retarget only (medium): the spelling is the ch. verb's.
 
 ## Scan reads for L65–L66 (2026-10-16)
 
+Issue: #189
+
 **Deferred 2026-10-18.** Moved here from
 [`maintainer-checklist.md`](maintainer-checklist.md) with the rest of
 this file; none of the three changes a headword. The text below is the
@@ -841,47 +845,8 @@ after `b. h.;` (`(b. h.; נָטַע) plantation`, M01035), and `פנה` is
 needs the scan most.
 
 
-## Issue drafts (for the maintainer to open)
+## Issues opened 2026-10-22
 
-Two drafts, one per class, under the repo's issue rule: an issue is one
-defect class or one decision, never a rid list, and links the section
-that holds its rows. Nothing has been opened; paste each title and body
-into a new issue when you choose, then say so and the issue numbers go
-into the sections above and the ledger rows.
-
-### Draft A: cross-reference numerals
-
-```markdown
-Title: Cross-reference numerals: 22 questions whose numeral the linked entry lacks
-
-A cite's text names a homograph numeral (`v. סְגֵי I`) that the entry Sefaria links it to does not carry.
-The correction audit (`docs/correction-audit.md` §5) found 296. Where the family holds exactly one entry
-with that numeral and the cite's spelling, the link is Sefaria's error and was retargeted (222, PRs #178, #179).
-The other 74 (48 questions) need a scan read of the family. 26 stay before go-live (8 answered, 18 that can
-rename an entry); this issue is the remaining 22 questions, 34 cites, one block per family and numeral named.
-
-Rows: [post-go-live-review.md § Cross-reference numerals](https://github.com/UniquePixels/jastrow/blob/v2/docs/post-go-live-review.md#cross-reference-numerals-2026-10-14)
-
-Deferred past go-live by the maintainer's ruling of 2026-10-18 under the blocker definition (review ledger L64).
-A worked row becomes a case 1 retarget (a reviewed `replace`, no annotation), or a reading kept or corrected
-under ruling `10-13 correction policy` (a `kept` annotation, or a case 2 numeral, annotated).
-None of the 22 sets a numeral on a `headwords[0]`, so none renames an entry; the 18 that could stay before go-live.
-```
-
-### Draft B: body-text scan reads
-
-```markdown
-Title: Body-text scan reads: a cite spelling and two dropped Hebrew words
-
-Three words in body text the hOCR saw but cannot read well enough to write; a word is never guessed.
-- M02423: its cite `v. מַוֶּה II` now links M00725 `מַזֶּה II` (P000817), but the text reads vav where print
-  may set zayin (hOCR `v. n<a II.`). Review ledger L65.
-- M00712 and Q01198: the `)` Sefaria dropped is restored (P000818, P000819), but the Hebrew word before it
-  is still missing (hOCR best readings `מזג`, `פנה`). Review ledger L66.
-
-Rows: [post-go-live-review.md § Scan reads for L65–L66](https://github.com/UniquePixels/jastrow/blob/v2/docs/post-go-live-review.md#scan-reads-for-l65l66-2026-10-16)
-
-Deferred past go-live by the maintainer's ruling of 2026-10-18: none changes a headword, so none renames an entry.
-Each needs a scan read. A word read becomes a case 1 `replace` (ruling `10-13 correction policy`, no annotation);
-a "kept", "no word" or "can't tell" is recorded on the ledger row.
-```
+- #188, Cross-reference numerals: this file's § Cross-reference numerals (2026-10-14).
+- #189, Body-text scan reads: this file's § Scan reads for L65–L66 (2026-10-16).
+- #190, Homograph numeral gaps the 1903 print does not set: the research rows in [`headword-worklist.md`](headword-worklist.md#textual-research-candidates-190-the-x9-five-in-153).

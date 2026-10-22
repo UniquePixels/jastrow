@@ -332,6 +332,7 @@ patch_id,rid,class,op,reason,detail
 "P000811","U00489","headword-torn","reform","not mechanical for op","the reform changes the headword and the number of forms together"
 "P000861","H01792","headword-torn","reform","not mechanical for op","the reform changes the headword and the number of forms together"
 "P000862","V00524","headword-torn","reform","not mechanical for op","the reform changes the headword and the number of forms together"
+"P000881","U00344","headword-numeral-dropped","reform","not mechanical for op","display ""{0} II, {1}, ({2})"" sets a layout"
 "P000370","G00652","continuation-marker-fully-absent","retag","not traceable to source","no raw sense reads as the target"
 "P000373","U01512","continuation-marker-fully-absent","retag","not traceable to source","no raw sense reads as the target"
 "P000395","C01063","verse-paren-false-sense-split","join","not traceable to source","no raw sense reads as the target"
@@ -386,5 +387,3 @@ patch_id,rid,class,op,reason,detail
 "P000216","D00341","reviewed-replace","replace","our deviation from print","rationale records a deviation"
 "P000818","M00712","unclosed-etymology-paren","replace","partial: print not fully restored","the rationale says part of print’s text is not restored"
 "P000819","Q01198","unclosed-etymology-paren","replace","partial: print not fully restored","the rationale says part of print’s text is not restored"
-"P000388","A01002","verse-paren-false-sense-split","join","scan link outside the entry","leaf 61 is p. 38; the entry is on p. 39–39"
-"P000389","A01002","verse-paren-false-sense-split","split","scan link outside the entry","leaf 61 is p. 38; the entry is on p. 39–39"
