@@ -6,20 +6,20 @@ The rows are `sefaria-appendix.csv`; every patch a filter refused is
 in `sefaria-review.csv` with its reason. The filters, and how to read
 a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 
-**381 rows** (381 new, 0 submitted); 389 patches in the review list.
+**383 rows** (383 new, 0 submitted); 388 patches in the review list.
 
 ## Rows by class
 
 | class | rows | new | submitted |
 |---|---|---|---|
-| cross-reference-target | 218 | 218 | 0 |
-| headword-numeral-dropped | 41 | 41 | 0 |
+| cross-reference-target | 219 | 219 | 0 |
+| headword-numeral-dropped | 40 | 40 | 0 |
 | ocr-marker | 23 | 23 | 0 |
 | chopped-marker-with-residue | 18 | 18 | 0 |
 | headword-ocr-glyph | 18 | 18 | 0 |
+| verse-paren-false-sense-split | 15 | 15 | 0 |
 | first-sense-debris-stranding-language-label | 14 | 14 | 0 |
 | headword-numeral-in-gloss | 13 | 13 | 0 |
-| verse-paren-false-sense-split | 13 | 13 | 0 |
 | headword-ocr-pointing | 10 | 10 | 0 |
 | continuation-marker-fully-absent | 5 | 5 | 0 |
 | missing-number | 5 | 5 | 0 |
@@ -35,10 +35,9 @@ a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 | no print evidence | 133 |
 | not traceable to source | 37 |
 | our correction (annotated) | 12 |
-| not mechanical for op | 6 |
+| not mechanical for op | 7 |
 | our deviation from print | 2 |
 | partial: print not fully restored | 2 |
-| scan link outside the entry | 2 |
 | our correction (10-13 case 2/3/4) | 1 |
 
 ## Submitted

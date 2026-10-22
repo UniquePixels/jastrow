@@ -159,7 +159,7 @@ the PR's first push, and is P000929, the last patch of the batch.
 | `עֵרָבוֹן II` | P01273 takes II | 2 | P000872 | P01273 `{0}, {1}` → `{0} II, {1}` (the link was already there) | 1112b · leaf 435 |
 | `שַׁב I` | print sets I on U00059, II on U00060 | 1 | P000873, P000874; P000875–P000877 | U00059 `{0} I, …`, U00060 `{0} II, …`; U00126, U00779, U00807: U00060 → U00059 | 1509b · leaf 832 |
 | `שְׁבַט II` | print sets II on U00105 | 1 | P000878; P000879, P000880 | U00105 `{0} II, …`; U00107, U00801: U00103 → U00105 | 1513a · leaf 836 |
-| `שְׁוַוח II` | print sets II on U00344, III on U00345 | 1 | P000881, P000882; P000883, P000884 | U00344 `homograph: 2` (no display: see below); U00345 `{0} III, {1}`; U00362, U00518: U00343 → U00344 | 1529b · leaf 852; 1530a · leaf 853 |
+| `שְׁוַוח II` | print sets II on U00344, III on U00345 | 1 | P000881, P000882; P000883, P000884 | U00344 `homograph: 2` (no display in PR #187; `{0} II, {1}, ({2})` since PR #191: see below); U00345 `{0} III, {1}`; U00362, U00518: U00343 → U00344 | 1529b · leaf 852; 1530a · leaf 853 |
 | `שַׁוְיָא II` | print sets II on the main headword | 1 | P000885; P000886 | U00396 `{0} II, …`; U00835: U00395 → U00396 | 1533a · leaf 856 |
 | `שׁוּעַ I` | U00475; no numeral | 1; 3 | P000887; P000888 | U01637: U00476 → U00475; its `שׁוּעַ I` kept, annotated | 1610a · leaf 933 |
 | `שׁוּתָא III` | U00583, `III` → `II` annotated; print sets I on U00582, II on U00583 | 1; 1; 2 | P000889, P000890; P000891; P000892 | U00582 `{0} I, {1}`, U00583 `{0} II, {1}`; N01120: U00581 → U00583, then its `III` → `II` | 1544a · leaf 867; 928b · leaf 251 |
@@ -176,7 +176,10 @@ the PR's first push, and is P000929, the last patch of the batch.
   (`שׁוּחַ)`), so the source settles no layout (gate 2's unsettleable
   line, `paren-group-close-unknown`). P000881 sets the numeral and no
   display: the II is stored and in the name, and shows once the layout
-  is settled.
+  is settled. Amended 2026-10-22 (PR #191,
+  [`../post-issues-2026-10-22/`](../post-issues-2026-10-22/README.md)):
+  the `)` is print's, `(שׁוּחַ)`, and P000881 now restores the `(` and
+  supplies `display` `{0} II, {1}, ({2})`, so the II shows.
 - **U01637's kept note** and N01120's numeral are their own patches on
   the sense the retarget leaves (`expected_before` pins it), so each
   retarget stays a case 1 appendix row.

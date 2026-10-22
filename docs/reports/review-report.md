@@ -7,7 +7,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 | Publication | Rows |
 |---|---|
 | blocks | 0 |
-| defer | 2810 |
+| defer | 2809 |
 | note | 1597 |
 | catalogued, not yet detected | 0 rows (0 classes, 0 entries) |
 
@@ -15,7 +15,7 @@ Names replace slugs (`docs/archive/specs/2026-09-21-url-names-design.md`): the s
 
 _none_
 
-## Deferred (2810)
+## Deferred (2809)
 
 ### empty-body (2)
 
@@ -2719,7 +2719,7 @@ _none_
 - V01111: p1705b (medium)
 - V01112: p1705b (medium)
 
-### paren-group-close-unknown (32)
+### paren-group-close-unknown (31)
 
 **What to do:** Read the printed line and add the display template by hand; two readings are possible from the source and neither is assumed. The entry renders without its grouping meanwhile.
 
@@ -2749,7 +2749,6 @@ _none_
 - S00146: קַדִּישׁ, (קָדִישׁ, קַדִּישָׁא I, קַדִּישָׁא, קַדִּישְׁתָּא — the line's parentheses do not balance, so the layout cannot be settled from the source
 - S01421: (קַלְקַנְתּוּם, קַלְקַנְתּוֹס, קַנְ׳ — the line's parentheses do not balance, so the layout cannot be settled from the source
 - U00300: שְׁהֵי, שְׁהָא, שְׁוָה) — the line's parentheses do not balance, so the layout cannot be settled from the source
-- U00344: שְׁוַוח, שְׁוַח, שׁוּחַ) — the line's parentheses do not balance, so the layout cannot be settled from the source
 - U00456: שׁוּמְּרָה, שׁוּמִּירָה) — the line's parentheses do not balance, so the layout cannot be settled from the source
 - U00857: שָׁיֵחַ, שְׁיַח, שִׁיחַ) — the line's parentheses do not balance, so the layout cannot be settled from the source
 - U00989: שְׁיַע, שְׁיָעָא, שִׁיעַ, שִׁיעָא), שְׁיַיע, שְׁיָיעָא — the line's parentheses do not balance, so the layout cannot be settled from the source

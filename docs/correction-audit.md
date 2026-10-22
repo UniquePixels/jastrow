@@ -422,7 +422,8 @@ PR #186, then split on 2026-10-18: the 8 answered that day and the
 ([`headword-worklist.md` § Applied from the maintainer checklist (2026-10-22)](headword-worklist.md#applied-from-the-maintainer-checklist-2026-10-22));
 and the other 22, deferred post go-live 2026-10-18 by the
 maintainer's blocker definition, in
-[`post-go-live-review.md` § Cross-reference numerals (2026-10-14)](post-go-live-review.md#cross-reference-numerals-2026-10-14).
+[`post-go-live-review.md` § Cross-reference numerals (2026-10-14)](post-go-live-review.md#cross-reference-numerals-2026-10-14),
+issue #188 since 2026-10-22.
 (b) is there too, beyond what (c) and (d) alone would need: a single
 bare member is a candidate, not a proof, and reading the 13 (b)
 families shows why (the bare member is sometimes the target itself or
@@ -802,7 +803,8 @@ The three unclassified:
    (8)), with the 18 that may rename an entry (31 cites; § Cross-reference
    numerals: may rename an entry (18)); the other 22, 34 cites, are
    deferred post go-live 2026-10-18 by the maintainer's blocker
-   definition; rows in [`post-go-live-review.md`](post-go-live-review.md).
+   definition; rows in [`post-go-live-review.md`](post-go-live-review.md)
+   (issue #188, 2026-10-22).
    PR #187 (2026-10-22) applies the answers on all 26 left in the
    checklist: the 8 answered and the 18 that may rename an entry, 65
    reviewed patches (P000863–P000926 and P000929,

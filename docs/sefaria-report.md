@@ -145,15 +145,16 @@ still carry the ד spellings.
 
 ## 2. Phantom sense boundaries (36 entries)
 
-**Status:** rows: appendix class `verse-paren-false-sense-split` (13
+**Status:** rows: appendix class `verse-paren-false-sense-split` (15
 rows: a citation's own verse number taken as a sense marker, each read
 on the scan). The 36 cross-reference-form entries listed below are
 **not** in the appendix: their records (review doc 01, 2026-08-05) name
 no print read, so they wait in the review list (`reviewed-join`, 36,
-`no print evidence`). **Count:** 13 appendix rows; 36 in the review list
-(generator, 2026-10-16); 2 more of the verse-paren class are held back
-because their rationale's scan link shows the neighbouring page, and 2
-because the text is not traceable to Sefaria's string.
+`no print evidence`). **Count:** 15 appendix rows; 36 in the review list
+(generator, 2026-10-22); 2 more of the verse-paren class are held back
+because the text is not traceable to Sefaria's string. A01002's two
+(P000388, P000389) joined the appendix on 2026-10-22, once their
+rationale named its own leaf (review ledger L70).
 
 The sense segmentation treats `N)` as a sense-number marker. In 36
 entries the matched `N)` is actually the tail of a parenthesized
