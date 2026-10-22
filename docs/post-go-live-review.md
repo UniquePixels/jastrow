@@ -11,7 +11,8 @@ byte for byte, not copied, so they can be worked later the same way:
 tick ONE box per bullet, a `note:` only where the box asks for one, and
 a block's `Recommendation:` names the box it would tick. Each section is
 the row list one GitHub issue links to (one issue per class: #188 and
-#189, opened 2026-10-22; § Issues opened 2026-10-22). A ticked item leaves this file
+#189, opened 2026-10-22 with #190, whose rows are in
+`headword-worklist.md`; § Issues opened 2026-10-22). A ticked item leaves this file
 when a PR applies it, and its history goes to the worklists, as in the
 checklist.
 
