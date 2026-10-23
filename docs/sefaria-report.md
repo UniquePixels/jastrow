@@ -100,7 +100,8 @@ submission. The log is empty: nothing has been sent yet.
 - `withdrawn`: not to be sent.
 
 Each count says which count it is: appendix rows and review-list
-patches are the generator's output (2026-10-16); an import count is a
+patches are the generator's output (2026-10-16, or the date the count
+gives); an import count is a
 transform rule's composed count in `reports/import-blessing.md`; a
 snapshot count is measured over `data/source/`, the 2026-07-04
 snapshot the original counts were taken from (re-measured 2026-10-16).
