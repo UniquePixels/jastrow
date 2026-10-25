@@ -111,10 +111,10 @@ What the hOCR shows: print reads `261) 1) Ulam`: the page number `261)` AND the 
 **Question.** Does print read `p. 18; 261) 1) Ulam`, the page `261` and then the marker `1)`?
 
 - **A00675** (P000194)
-  - [ ] yes: `261) 1)`; the patch is wrong, and a PR rewrites it to keep `261)` and insert ` 1)`
+  - [x] yes: `261) 1)`; the patch is wrong, and a PR rewrites it to keep `261)` and insert ` 1)`
   - [ ] no: print reads `26 1)` as the patch has it
   - [ ] can't tell from the scan
-  - note: 
+  - note:  I am going to need info on how these patches came into existence.  The fact that there are patches with clear errors like this worries me greatly.
 
 Recommendation: yes (high): the hOCR reads both, and the sense worklist already quotes A00675 as `p. 18; 261) 1) Ulam` (class 7's false hits).
 
@@ -131,7 +131,7 @@ What the hOCR shows: print reads `(Ez. XXXVII, 12); a. fr. — 2)`: the `—2)` 
 **Question.** Does print read `(Ez. XXXVII, 12); a. fr. — 2)`, the verse `12` with its `)` as well as the marker?
 
 - **Q02162** (P000268)
-  - [ ] yes: `12);` and `—2)`; a PR widens the patch to restore the verse and its link (Ezekiel 37:12)
+  - [x] yes: `12);` and `—2)`; a PR widens the patch to restore the verse and its link (Ezekiel 37:12)
   - [ ] no: print reads `XXXVII, 1;` as Sefaria has it
   - [ ] can't tell from the scan
   - note: 
@@ -151,7 +151,7 @@ What the hOCR shows: print numbers U01070 `II` on its first form (`HIE II`; PR #
 **Question.** With print setting `II` on U01070's first form and `III` on U01071's (your tick, PR #187), does `שֵׁירוּתָא II, III` name U01070 and U01071, so Sefaria's link was right?
 
 - **U01063** (P000760)
-  - [ ] yes: U01070; a PR withdraws P000760 and points the `III` at U01071
+  - [x] yes: U01070; a PR withdraws P000760 and points the `III` at U01071
   - [ ] no: keep the patch (say why in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -172,7 +172,7 @@ What the hOCR shows: the one parenthesized form, leftmost on the head line, read
 
 - **A02823** (P000308)
   - [ ] `(אַפְרִיקִי) אַפְרִיקָא I`, as the patch has it
-  - [ ] `(אַפְרִיקָא) אַפְרִיקִי I`, as the hOCR reads it (say so in the note)
+  - [x] `(אַפְרִיקָא) אַפְרִיקִי I`, as the hOCR reads it (say so in the note)
   - [ ] can't tell from the scan
   - note: 
 
@@ -194,12 +194,12 @@ Why held: A00882 `v. .1אורירן`: the numeral reads `1`; M01329 `Ar.(v. "p^i
 **Question.** Does print read `אוֹרְיָין I` at each cite?
 
 - **A00882** (P000544)
-  - [ ] yes: print reads `אוֹרְיָין I`
+  - [x] yes: print reads `אוֹרְיָין I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **M01329** (P000545)
-  - [ ] yes: print reads `אוֹרְיָין I`
+  - [x] yes: print reads `אוֹרְיָין I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -219,7 +219,7 @@ Why held: H01410 the cite's line is not found.
 **Question.** Does print read `אֲמָנָה I` at this cite?
 
 - **H01410** (P000546)
-  - [ ] yes: print reads `אֲמָנָה I`
+  - [x] yes: print reads `אֲמָנָה I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -239,7 +239,7 @@ Why held: D00595 the cite's line is not found.
 **Question.** Does print read `דִּי I` at this cite?
 
 - **D00595** (P000547)
-  - [ ] yes: print reads `דִּי I`
+  - [x] yes: print reads `דִּי I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -260,12 +260,12 @@ Why held: S01262 the cite's line is not found; S01321 `Vrtap i.`: the numeral re
 **Question.** Does print read `קוּלְיָא I` at each cite?
 
 - **S01262** (P000551)
-  - [ ] yes: print reads `קוּלְיָא I`
+  - [x] yes: print reads `קוּלְיָא I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **S01321** (P000552)
-  - [ ] yes: print reads `קוּלְיָא I`
+  - [x] yes: print reads `קוּלְיָא I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -285,7 +285,7 @@ Why held: O00179 the cite reads `I`, but print's `טְבַע I` may name I00076 
 **Question.** Does print read `טְבַע I` at this cite?
 
 - **O00179** (P000590)
-  - [ ] yes: print reads `טְבַע I`
+  - [x] yes: print reads `טְבַע I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -307,20 +307,20 @@ Why held: H00731 the numeral reads `1`; and the target is a `ch.` line (ruling 1
 **Question.** Does print read `חוּל I` at each cite?
 
 - **H00731** (P000591)
-  - [ ] yes: print reads `חוּל I`
+  - [x] yes: print reads `חוּל I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: ch.
 - **H00355** (P000807)
-  - [ ] yes: print reads `חוּל I`
+  - [x] yes: print reads `חוּל I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **H00733** (P000808)
-  - [ ] yes: print reads `חוּל I`
+  - [x] yes: print reads `חוּל I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: ch
 
 Recommendation: yes (medium): Sefaria's text reads `I` at all three; round 2 (PR #177) numbered H00319 `I` from Jastrow's text, these cites among it, and aimed H00731's `I ch.` at H00320 by your tick.
 
@@ -340,22 +340,22 @@ Why held: A00863 the cite's line is not found; A00887 `1 h. a. ch.`: the numeral
 **Question.** Does print read `אוּרְיָא II` at each cite?
 
 - **A00863** (P000595)
-  - [ ] yes: print reads `אוּרְיָא II`
+  - [x] yes: print reads `אוּרְיָא II`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **A00887** (P000596)
-  - [ ] yes: print reads `אוּרְיָא II`
+  - [x] yes: print reads `אוּרְיָא II`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **A03020** (P000599)
-  - [ ] yes: print reads `אוּרְיָא II`
+  - [x] yes: print reads `אוּרְיָא II`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: Do we have a correction recoreded for the yod that should be a vav, ocr issue.
 - **A00864** (P000791)
-  - [ ] yes: print reads `אוּרְיָא II`
+  - [x] yes: print reads `אוּרְיָא II`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -377,17 +377,17 @@ Why held: B00367 `emp. “Hal.`: the cite is misread; B01142 the cite is misread
 **Question.** Does print read `בּוֹר I` at each cite?
 
 - **B00367** (P000604)
-  - [ ] yes: print reads `בּוֹר I`
+  - [x] yes: print reads `בּוֹר I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **B01142** (P000609)
-  - [ ] yes: print reads `בּוֹר I`
+  - [x] yes: print reads `בּוֹר I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **B00335** (P000797)
-  - [ ] yes: print reads `בּוֹר I`
+  - [x] yes: print reads `בּוֹר I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -408,12 +408,12 @@ Why held: B00450 the cite's line is not found; B00453 the cite's line is not fou
 **Question.** Does print read `בִּזְיוּנָא II` at each cite?
 
 - **B00450** (P000605)
-  - [ ] yes: print reads `בִּזְיוּנָא II`
+  - [x] yes: print reads `בִּזְיוּנָא II`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **B00453** (P000606)
-  - [ ] yes: print reads `בִּזְיוּנָא II`
+  - [x] yes: print reads `בִּזְיוּנָא II`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -435,17 +435,17 @@ Why held: C00343 `vy. 81955 I.`: the numeral reads `I`, not `II`; C00351 `NTs 11
 **Question.** Does print read `גַּוָּוזָא II` at each cite?
 
 - **C00343** (P000613)
-  - [ ] yes: print reads `גַּוָּוזָא II`
+  - [x] yes: print reads `גַּוָּוזָא II`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **C00351** (P000614)
-  - [ ] yes: print reads `גַּוָּוזָא II`
+  - [x] yes: print reads `גַּוָּוזָא II`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **C01130** (P000615)
-  - [ ] yes: print reads `גַּוָּוזָא II`
+  - [x] yes: print reads `גַּוָּוזָא II`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -465,7 +465,7 @@ Why held: N00034 `1&0, v.-..:i. k`: no numeral.
 **Question.** Does print read `נִיר I` at this cite?
 
 - **N00034** (P000647)
-  - [ ] yes: print reads `נִיר I`
+  - [x] yes: print reads `נִיר I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -487,11 +487,11 @@ Why held: O00125 `v. w 11, in.`: the numerals read `11, in`; T00814 `v. "".".Oil
 
 - **O00125** (P000660)
   - [ ] yes: print reads `סְגֵי II`
-  - [ ] no (say what it reads in the note)
+  - [x] no (say what it reads in the note)
   - [ ] can't tell from the scan
-  - note: 
+  - note: סְגֵי II, III
 - **T00814** (P000743)
-  - [ ] yes: print reads `סְגֵי II`
+  - [x] yes: print reads `סְגֵי II`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -512,12 +512,12 @@ Why held: Q00440 `v. nSS IIL—`: the numeral reads `IIL`; R00399 `fiSXHI`: the 
 **Question.** Does print read `צִנָּה III` at each cite?
 
 - **Q00440** (P000695)
-  - [ ] yes: print reads `צִנָּה III`
+  - [x] yes: print reads `צִנָּה III`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **R00399** (P000708)
-  - [ ] yes: print reads `צִנָּה III`
+  - [x] yes: print reads `צִנָּה III`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -538,12 +538,12 @@ Why held: Q00538 `v. *p)l`: no numeral; T00895 `(v. wd`: no numeral.
 **Question.** Does print read `רְעִי I` at each cite?
 
 - **Q00538** (P000697)
-  - [ ] yes: print reads `רְעִי I`
+  - [x] yes: print reads `רְעִי I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **T00895** (P000744)
-  - [ ] yes: print reads `רְעִי I`
+  - [x] yes: print reads `רְעִי I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -565,17 +565,17 @@ Why held: Q01373 `v. na^ia HI ;`: the numeral reads `HI`; U00888 `=h. r*f$ m,`: 
 **Question.** Does print read `שִׁיטָּה III` at each cite?
 
 - **Q01373** (P000701)
-  - [ ] yes: print reads `שִׁיטָּה III`
+  - [x] yes: print reads `שִׁיטָּה III`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **U00888** (P000756)
-  - [ ] yes: print reads `שִׁיטָּה III`
+  - [x] yes: print reads `שִׁיטָּה III`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **U00888** (P000757)
-  - [ ] yes: print reads `שִׁיטָּה III`
+  - [x] yes: print reads `שִׁיטָּה III`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -599,27 +599,27 @@ Why held: B01157 `v. “31 ch.`: no numeral; and the target is a `ch.` line (rul
 **Question.** Does print read `בַּר I ch.` at each cite?
 
 - **B01157** (P000792)
-  - [ ] yes: print reads `בַּר I ch.`
+  - [x] yes: print reads `בַּר I ch.`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **B01160** (P000793)
-  - [ ] yes: print reads `בַּר I ch.`
+  - [x] yes: print reads `בַּר I ch.`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **B01215** (P000794)
-  - [ ] yes: print reads `בַּר I ch.`
+  - [x] yes: print reads `בַּר I ch.`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **B01237** (P000795)
-  - [ ] yes: print reads `בַּר I ch.`
+  - [x] yes: print reads `בַּר I ch.`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
 - **U02087** (P000796)
-  - [ ] yes: print reads `בַּר I ch.`
+  - [x] yes: print reads `בַּר I ch.`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -639,7 +639,7 @@ Why held: S00534 `(b. h.; yip or "ppl)`: the numeral reads `l`.
 **Question.** Does print read `קוּץ I` at this cite?
 
 - **S00534** (P000804)
-  - [ ] yes: print reads `קוּץ I`
+  - [x] yes: print reads `קוּץ I`
   - [ ] no (say what it reads in the note)
   - [ ] can't tell from the scan
   - note: 
@@ -661,26 +661,27 @@ Why held: A00913 `9) coening`: the label and the gloss are misread; A03277 mirro
 
 **Question.** Does print run on at the `‖` (the `N)` inside the parenthesis, no sense break)?
 
+PLEASE NOTE:  I AM HAVING BIDI ISSUES, SO FOR MY TRANSCRIPTIONS I AM REPLACING HEBREW LETTERS WITH X.
 - **A00913** (P000195)
   - [ ] yes: print runs on
   - [ ] no: print starts a sense there
   - [ ] can't tell from the scan
-  - note: 
+  - note: f. (v. XXX 2) evening,...  
 - **A03277** (P000203)
   - [ ] yes: print runs on
   - [ ] no: print starts a sense there
   - [ ] can't tell from the scan
-  - note: 
+  - note: Ar., XXXXX ed. f. (b.h. XXX Ps. LVIII, 9; XXX or XXX, v. XXX 2) [groping...
 - **B00656** (P000206)
   - [ ] yes: print runs on
   - [ ] no: print starts a sense there
   - [ ] can't tell from the scan
-  - note: 
+  - note: XXXXXX Ar. s. v. XXX 2) f. ...
 - **I00149** (P000223)
   - [ ] yes: print runs on
   - [ ] no: print starts a sense there
   - [ ] can't tell from the scan
-  - note: 
+  - note: f. (b. h. in pl.; XXXXX, v. XXXXX 2) [some-...
 
 Recommendation: yes (high): each `N)` follows a cross-reference whose parenthesis it closes, as in the 32 of this class whose hOCR reads it.
 
@@ -700,7 +701,7 @@ Why held: A01194 the Hebrew run is mirrored; the `)` the patch inserts is not re
   - [ ] yes: `(b. h.)`
   - [ ] no (say what it reads)
   - [ ] can't tell from the scan
-  - note: 
+  - note: f. (b. h. XXXX-XX XX, XXX XXXX, XX XX) who? ....
 
 Recommendation: yes (high): every `(b. h.` etymology closes before the gloss.
 
@@ -718,7 +719,7 @@ Why held: H00871 the `Ib.` is there, but a link target is not something print sh
 
 - **H00871** (P000221)
   - [ ] yes: Exodus 14
-  - [ ] no: they cite the Mekhilta (the patch is wrong, and a PR unwraps them)
+  - [x] no: they cite the Mekhilta (the patch is wrong, and a PR unwraps them)
   - [ ] can't tell from the scan
   - note: 
 
@@ -739,17 +740,17 @@ Why held: D00541 an absent citation: no hOCR line can show that print does not c
 **Question.** Does print's entry cite that place anywhere (an `Ib.` included)?
 
 - **D00541** (P000217)
-  - [ ] no: print cites no such place (the removal stands)
+  - [x] no: print cites no such place (the removal stands)
   - [ ] yes (say where)
   - [ ] can't tell from the scan
   - note: 
 - **M01355** (P000232)
-  - [ ] no: print cites no such place (the removal stands)
-  - [ ] yes (say where)
+  - [x] no: print cites no such place (the removal stands)
+  - [x] yes (say where)
   - [ ] can't tell from the scan
-  - note: 
+  - note: There is a Y. R. Shan. II 58a
 - **Q00890** (P000264)
-  - [ ] no: print cites no such place (the removal stands)
+  - [x] no: print cites no such place (the removal stands)
   - [ ] yes (say where)
   - [ ] can't tell from the scan
   - note: 
@@ -770,15 +771,16 @@ Why held: B00098 the bold headword is not read; no `V`; B00097 rests on B00098's
 **Question.** Does print set `בַּד V` at B00098?
 
 - **B00098** (P000290)
-  - [ ] yes: `בַּד V`
+  - [x] yes: `בַּד V`
   - [ ] no (say what it sets)
   - [ ] can't tell from the scan
   - note: 
 - **B00097** (P000306)
   - [ ] yes: `בַּד V`
-  - [ ] no (say what it sets)
+  - [x] no (say what it sets)
   - [ ] can't tell from the scan
-  - note: 
+  - note: IV
+  I am a little confused here as to why this was flag and what the concern is?
 
 Recommendation: yes (high): the doubled space is a data slip, and B00097 cites it as `next w.`.
 
@@ -798,17 +800,17 @@ Why held: B00443 `NON FS, I mn.`: the headword and numeral are misread; C00329 `
 
 - **B00443** (P000291)
   - [ ] yes: no comma
-  - [ ] no: print has the comma
+  - [x] no: print has the comma
   - [ ] can't tell from the scan
   - note: 
 - **C00329** (P000292)
   - [ ] yes: no comma
-  - [ ] no: print has the comma
+  - [x] no: print has the comma
   - [ ] can't tell from the scan
   - note: 
 - **M00447** (P000293)
   - [ ] yes: no comma
-  - [ ] no: print has the comma
+  - [x] no: print has the comma
   - [ ] can't tell from the scan
   - note: 
 
@@ -829,17 +831,17 @@ Why held: A02356 no readable head line; B00407 no readable head line; D00844 no 
 **Question.** Does print set `X I, II, v. …`, the last comma before the cross-reference?
 
 - **A02356** (P000294)
-  - [ ] yes
+  - [x] yes
   - [ ] no (say what it sets)
   - [ ] can't tell from the scan
-  - note: 
+  - note:  To be clear since this is somewhat ambigious, the comma is part of the headword line (larger and bold)
 - **B00407** (P000295)
-  - [ ] yes
+  - [x] yes
   - [ ] no (say what it sets)
   - [ ] can't tell from the scan
   - note: 
 - **D00844** (P000296)
-  - [ ] yes
+  - [x] yes
   - [ ] no (say what it sets)
   - [ ] can't tell from the scan
   - note: 
@@ -866,27 +868,27 @@ Why held: I00158 `FIPS £. (PS) spinning`: the two forms are not read; I00654 no
   - [ ] yes: two forms
   - [ ] no: print sets them as stored
   - [ ] can't tell from the scan
-  - note: 
+  - note: XXX or XXX, XXXX m. ...  ( I need your anaylsis here, but my gut feeling, especially for indexing is to list as alt, but set display as print)
 - **I00654** (P000298)
   - [ ] yes: two forms
   - [ ] no: print sets them as stored
   - [ ] can't tell from the scan
-  - note: 
+  - note: XXXXX XXXXX, v. ....
 - **M02116** (P000299)
   - [ ] yes: two forms
   - [ ] no: print sets them as stored
   - [ ] can't tell from the scan
-  - note: 
+  - note: XXXX, XXXXX m. ....
 - **A01161** (P000300)
   - [ ] yes: two forms
   - [ ] no: print sets them as stored
   - [ ] can't tell from the scan
-  - note: 
+  - note: XXXXX m., XXXX XXXXX (XXXXX) XXXXX f. ....
 - **M02868** (P000301)
   - [ ] yes: two forms
   - [ ] no: print sets them as stored
   - [ ] can't tell from the scan
-  - note: 
+  - note: XXXX, XXXXXX, XXXXXX m. ....
 
 Recommendation: yes (high): two complete spellings of one word, as the forms around them are set.
 
@@ -907,7 +909,7 @@ Why held: A01175 no readable head line; A01345 no readable head line.
   - [ ] yes
   - [ ] no (say what it sets)
   - [ ] can't tell from the scan
-  - note: 
+  - note: Both of these are formated as headwords. But in an earlier convo in which we looked at these, our feeling was that really it is one headword and a reference.  
 - **A01345** (P000310)
   - [ ] yes
   - [ ] no (say what it sets)
