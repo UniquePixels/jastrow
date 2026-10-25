@@ -88,6 +88,10 @@ const LATIN_RUN = /[A-Za-z]+/gu;
 /** The only Latin runs print sets on a headword line: a Roman numeral
  * and the two gender labels. Anything else is a text defect. */
 const LATIN_ALLOWED = /^(?:[IVXLC]+|[mf])$/u;
+/** Print's `or` between two spellings, as a template sets it: the word
+ * with a space either side (ruling 10-25 display or). Taken with its
+ * spaces so `for`, `or{1}` or a trailing `or` still count. */
+const OR_SEPARATOR = / or /gu;
 
 /** The notation of a line as a MULTISET: token → how many times the
  * line sets it. Every non-Hebrew, non-space character counts, with
@@ -104,16 +108,23 @@ const LATIN_ALLOWED = /^(?:[IVXLC]+|[mf])$/u;
  * design §1), so the source's comma count is not the line's; §4 rules
  * that the app supplies separators, and the template's `, ` is
  * supplied rather than recovered. Counting them would compare a number
- * the source does not carry against one the parser invented. */
+ * the source does not carry against one the parser invented.
+ *
+ * **So is print's ` or ` between two spellings** (ruling 10-25 display
+ * or): a separator the template supplies, like `, `, where print sets
+ * `X or Y`. Only the word with its spaces is skipped. A source line
+ * that holds `or` is unsettleable (`lineIsUnsettleable`), so its
+ * multiset is never compared, and the skip binds the written side. */
 function notationOf(line: string): Map<string, number> {
 	const counts = new Map<string, number>();
 	const bump = (token: string): void => {
 		counts.set(token, (counts.get(token) ?? 0) + 1);
 	};
-	for (const run of line.match(LATIN_RUN) ?? []) {
+	const notation = line.replaceAll(OR_SEPARATOR, ' ');
+	for (const run of notation.match(LATIN_RUN) ?? []) {
 		bump(run);
 	}
-	for (const ch of line.replace(LATIN_RUN, '')) {
+	for (const ch of notation.replace(LATIN_RUN, '')) {
 		const c = ch.codePointAt(0) ?? 0;
 		const hebrew =
 			(c >= 0x05_d0 && c <= 0x05_ea) ||

@@ -82,6 +82,26 @@ describe('rules 1–3 accept what the parser writes', () => {
 	});
 });
 
+describe("rules 1–3 accept print's `or` between spellings (10-25 display or)", () => {
+	const forms: FormObject[] = [
+		{ text: 'טְוִיָּיה' },
+		{ text: 'טְוִיָּה' },
+		{ text: 'טְוִויָּה' },
+	];
+
+	it.each([
+		['{0} or {1}, {2}', 0],
+		['{0} or {1} or {2}', 0],
+		['{0} or {1}, {2} II', 1],
+	])('%s', (display, problems) => {
+		// I00158's line (review ledger L83). `or` is literal notation, as
+		// a comma is; a numeral beside a form still needs its homograph.
+		expect(headwordShapeProblems(shaped(forms, display))).toHaveLength(
+			problems,
+		);
+	});
+});
+
 describe('rule 3 — the numeral clause', () => {
 	it('accepts TWO numerals beside a form that carries none', () => {
 		// §4's H1 row: a cross-reference naming two other entries. The

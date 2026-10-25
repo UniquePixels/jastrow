@@ -577,6 +577,7 @@ describe('checkHeadwordLine', () => {
 		items: readonly string[],
 		supplied: string,
 		written: string,
+		forms: readonly string[] = ['אָב', 'אַבָּא'],
 	): Tally {
 		const [headword = '', ...alts] = items;
 		const t: Tally = { failures: [], pass: 0, total: 0 };
@@ -590,7 +591,7 @@ describe('checkHeadwordLine', () => {
 			},
 			minimalEntry({
 				display: written,
-				headwords: [{ text: 'אָב' }, { text: 'אַבָּא' }],
+				headwords: forms.map((text) => ({ text })),
 			}),
 			t,
 		);
@@ -635,6 +636,30 @@ describe('checkHeadwordLine', () => {
 		const t = patched(['אָב', 'אַבָּא'], '({0}) {1}', '({0}) {1}');
 		expect(t.failures).toHaveLength(1);
 		expect(t.failures[0]).toContain('does not conserve');
+	});
+
+	it('accepts a supplied ` or ` between two spellings (10-25 display or)', () => {
+		// I00158, the probe of review ledger L83: print sets `X or Y, Z`,
+		// and `or` is a separator the template supplies, as the comma is.
+		const forms = ['טְוִיָּיה', 'טְוִיָּה', 'טְוִויָּה'];
+		const t = patched(forms, '{0} or {1}, {2}', '{0} or {1}, {2}', forms);
+		expect(t.failures).toEqual([]);
+		expect(t.total).toBe(5);
+	});
+
+	it.each([
+		['{0} and {1}', 'and×1'],
+		['{0} or {1} I', 'I×1'],
+		['{0} or {1} v.', 'v×1'],
+		['{0}or {1}', 'or×1'],
+		['{0} {1} or', 'or×1'],
+	])('still refuses the supplied template %s', (display, token) => {
+		// Only the literal ` or ` is a separator: any other Latin word, a
+		// numeral or a mark set beside it, and an `or` without its
+		// spaces is still notation the line does not carry.
+		const t = patched(['אָב', 'אַבָּא'], display, display);
+		expect(t.failures).toHaveLength(1);
+		expect(t.failures[0]).toContain(token);
 	});
 
 	it('fails a patch template the run altered on the way', () => {
