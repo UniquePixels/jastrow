@@ -90,7 +90,7 @@ by its patch id, or by its class when the row was first seen on or
 before the batch's date (a class sent once does not cover rows found
 later). A row with an empty `submitted_batch` is new since the last
 submission. The log is empty: nothing has been sent yet. **479 rows are
-ready to send** (generator, 2026-10-25, PR #n).
+ready to send** (generator, 2026-10-25, PR #194).
 
 **Each class below says what it is** for the submission:
 
@@ -734,7 +734,7 @@ from the maintainer's print read (2026-09-20, 2026-10-06, 2026-10-13,
 `headword-separator-anchor` (B00097's link that names that line),
 and `headword-two-forms` (M02868's alternate `מְשֵׁיזְבָא מְשֵׁיזִיב`,
 two spellings print separates with a comma; the maintainer's read of
-2026-10-25, PR #n).
+2026-10-25, PR #194).
 **Count:** 57 appendix rows (generator, 2026-10-25). 10 more are held back as not stated
 mechanically: two set a layout of parentheses around a form (U01268,
 V00522) that Sefaria's `headword` and `alt_headwords` cannot hold one

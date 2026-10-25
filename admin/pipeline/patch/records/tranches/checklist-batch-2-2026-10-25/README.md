@@ -221,7 +221,7 @@ are unaffected. Ruling HW-h1-sep's stray-comma half is reversed in
 
 ## E. Two spellings in one form: held (5)
 
-**Since PR #n** (ruling `10-25 display or`, tranche
+**Since PR #194** (ruling `10-25 display or`, tranche
 [`display-or-2026-10-25`](../display-or-2026-10-25/README.md)): four
 of the five are applied, and A01161 (P000300) stays held.
 

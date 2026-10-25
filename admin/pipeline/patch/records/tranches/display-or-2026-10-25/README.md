@@ -1,6 +1,6 @@
 # Display `or`: the two-spelling reforms (2026-10-25)
 
-PR #n, review ledger L83 and L84, under rulings `10-25 display or` and
+PR #194, review ledger L83 and L84, under rulings `10-25 display or` and
 `10-13 correction policy` ([`docs/decisions.md`](../../../../../../docs/decisions.md)),
 case 1 throughout: Sefaria fused spellings print sets apart (L83) or
 set a space print does not (L84); print is right, no annotation, and

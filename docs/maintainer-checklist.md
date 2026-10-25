@@ -3,7 +3,7 @@
 One section waits on you as of 2026-10-25: [Scan reads for the
 Sefaria appendix (2026-10-22)](#scan-reads-for-the-sefaria-appendix-2026-10-22),
 now 2 blocks (review ledger L71, L82, L83). PR #193 applied the other
-29 blocks, and PR #n four of the five two-spelling patches under ruling
+29 blocks, and PR #194 four of the five two-spelling patches under ruling
 `10-25 display or`; they are in [`headword-worklist.md`](headword-worklist.md)
 § Applied from the maintainer checklist (2026-10-25). Held: A01161's
 form order (1 patch) and M01355's `refs` item, asked again. Neither
@@ -35,11 +35,11 @@ worklists ([`headword-worklist.md`](headword-worklist.md),
 
 | section | items | source PR | ledger row |
 |---|---|---|---|
-| [Scan reads for the Sefaria appendix (2026-10-22)](#scan-reads-for-the-sefaria-appendix-2026-10-22) | 2 blocks, 2 patches (29 of the first 30 applied in PR #193, four of the 30th's five in PR #n) | #192, #193, #n | L71, L82, L83 |
+| [Scan reads for the Sefaria appendix (2026-10-22)](#scan-reads-for-the-sefaria-appendix-2026-10-22) | 2 blocks, 2 patches (29 of the first 30 applied in PR #193, four of the 30th's five in PR #194) | #192, #193, #194 | L71, L82, L83 |
 
 ## Scan reads for the Sefaria appendix (2026-10-22)
 
-Review ledger L71, PR #192; PR #193 applied 29 of the 30 blocks and 60 of the 66 patches, and PR #n four more (in [`headword-worklist.md`](headword-worklist.md) § Applied from the maintainer checklist (2026-10-25)). Two blocks are left: A01161's form order and M01355's `refs` item, asked again.
+Review ledger L71, PR #192; PR #193 applied 29 of the 30 blocks and 60 of the 66 patches, and PR #194 four more (in [`headword-worklist.md`](headword-worklist.md) § Applied from the maintainer checklist (2026-10-25)). Two blocks are left: A01161's form order and M01355's `refs` item, asked again.
 
 The hOCR is verbatim, invisible bidi marks included. Volume 1 is
 Tesseract (Hebrew runs mirrored, `I` read as `1` or `l`); volume 2 is
@@ -52,7 +52,7 @@ ABBYY (Hebrew read as Latin glyphs, numerals read well).
 
 #### Two spellings in one form: A01161
 
-Covers 1 patch (P000300). PR #n applied the other four under ruling `10-25 display or` (the block, byte for byte, is in [`headword-worklist.md`](headword-worklist.md) § Applied from the maintainer checklist (2026-10-25)): `display` may carry print's `or`, and every spelling stays a form. A01161 is left, because its order is not settled.
+Covers 1 patch (P000300). PR #194 applied the other four under ruling `10-25 display or` (the block, byte for byte, is in [`headword-worklist.md`](headword-worklist.md) § Applied from the maintainer checklist (2026-10-25)): `display` may carry print's `or`, and every spelling stays a form. A01161 is left, because its order is not settled.
 
 | rid | Sefaria's text | hOCR, verbatim | scan |
 |---|---|---|---|

@@ -2360,7 +2360,7 @@ Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § X11: one-let
 
 Applied in PR #193: your ticks and notes in [`maintainer-checklist.md`](maintainer-checklist.md) § Scan reads for the Sefaria appendix (2026-10-22), recorded 2026-10-25 (`5c6c13369`), on 66 reviewed patches, listed block by block, with every `X` mapping, in [`checklist-batch-2-2026-10-25/`](../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md). Each block below is moved from the checklist byte for byte, and ends with what was written. 47 patches take your read as evidence, 5 are rewritten from it, 8 are withdrawn and 1 is new (P000931); the appendix goes from 431 to 478 rows, and `no print evidence` from 66 to 6. One entry takes a new name (A02823, `אַפְרִיקָא`); every gate is green.
 
-**From § Scan reads for the Sefaria appendix (2026-10-22): 29 of 30 blocks, with the section's introduction.** Still in the checklist: § Two spellings in one form (5 patches; the display it asks for needs a rule change, review ledger L83) and M01355's `refs` item (P000232, review ledger L82), asked again. **Since PR #n, the 30th block too**, § Two spellings in one form, at the end of this section: four of its five patches are applied under ruling `10-25 display or`; A01161 (P000300) stays in the checklist.
+**From § Scan reads for the Sefaria appendix (2026-10-22): 29 of 30 blocks, with the section's introduction.** Still in the checklist: § Two spellings in one form (5 patches; the display it asks for needs a rule change, review ledger L83) and M01355's `refs` item (P000232, review ledger L82), asked again. **Since PR #194, the 30th block too**, § Two spellings in one form, at the end of this section: four of its five patches are applied under ruling `10-25 display or`; A01161 (P000300) stays in the checklist.
 
 Review ledger L71, PR #192. The Sefaria appendix (`bun data:sefaria`)
 holds back a reviewed patch whose rationale names no print read
@@ -3160,7 +3160,7 @@ Why held: B00443 `NON FS, I mn.`: the headword and numeral are misread; C00329 `
 
 Recommendation: yes (high): the entry before or after carries the other numeral of the pair.
 
-Applied in PR #193: P000291–P000293 are withdrawn, so the comma returns to `display` (`{0} , II`, `{0} , I`, with Sefaria's space before it: review ledger L84); forms, numerals and names are unchanged. Ruling HW-h1-sep's stray-comma half is reversed in `docs/decisions.md`. Since PR #n, three new reviewed reforms (P000932–P000934, case 1) drop that space, as the hOCR sets the comma on the word: `{0}, II`, `{0}, II`, `{0}, I`; forms, numerals and names unchanged.
+Applied in PR #193: P000291–P000293 are withdrawn, so the comma returns to `display` (`{0} , II`, `{0} , I`, with Sefaria's space before it: review ledger L84); forms, numerals and names are unchanged. Ruling HW-h1-sep's stray-comma half is reversed in `docs/decisions.md`. Since PR #194, three new reviewed reforms (P000932–P000934, case 1) drop that space, as the hOCR sets the comma on the word: `{0}, II`, `{0}, II`, `{0}, I`; forms, numerals and names unchanged.
 
 #### A gloss comma inside the headword
 
@@ -3295,7 +3295,7 @@ I00158: your line has `m.`, the entry's gloss `f.` (`f. (טָוָה) spinning`).
 
 Recommendation: yes on 1 (medium): `or` is print's own word between spellings, and it is the only literal the change admits; 2 is yours to read.
 
-Applied in PR #n, under ruling `10-25 display or` (`docs/decisions.md`; the maintainer ruled 2026-10-25 for Question 1's yes: every spelling a form, `display` in print's layout with ` or ` as literal text). Gate 2 now counts the run ` or ` as a separator it skips, as it skips the comma (`notationOf`, `admin/pipeline/import/gates.ts`). Your read is added to the four patches below (case 1: Sefaria fused the spellings, print is right, no annotation), each with its `X` mapping; the tranche README is [`display-or-2026-10-25/`](../admin/pipeline/patch/records/tranches/display-or-2026-10-25/README.md).
+Applied in PR #194, under ruling `10-25 display or` (`docs/decisions.md`; the maintainer ruled 2026-10-25 for Question 1's yes: every spelling a form, `display` in print's layout with ` or ` as literal text). Gate 2 now counts the run ` or ` as a separator it skips, as it skips the comma (`notationOf`, `admin/pipeline/import/gates.ts`). Your read is added to the four patches below (case 1: Sefaria fused the spellings, print is right, no annotation), each with its `X` mapping; the tranche README is [`display-or-2026-10-25/`](../admin/pipeline/patch/records/tranches/display-or-2026-10-25/README.md).
 
 - **I00158** (P000297): payload rewritten to the forms as stored, `טְוִיָּיה`, `טְוִיָּה`, `טְוִויָּה`, with display `{0} or {1}, {2}` (was `{0}, {1}, {2}`). Three runs, three forms, in order. Your `m.` against the stored `f.` is left as stored.
 - **I00654** (P000298): the same forms, `טְפֵילָה`, `טְפֵילָא`, with display `{0} {1}` (was `{0}, {1}`). Two runs of five, two five-letter forms, in order; `, v.` is the gloss.
