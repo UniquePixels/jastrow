@@ -88,11 +88,27 @@ const LATIN_RUN = /[A-Za-z]+/gu;
 /** The only Latin runs print sets on a headword line: a Roman numeral
  * and the two gender labels. Anything else is a text defect. */
 const LATIN_ALLOWED = /^(?:[IVXLC]+|[mf])$/u;
+/** A `{n}` slot with no capture, for cutting a template at its slots:
+ * `split` would otherwise splice the captured index into the pieces. */
+const SLOT_CUT = /\{\d+\}/u;
 /** Print's `or` between two spellings, as a template sets it: the word
- * with a space either side, after one slot and before the next, with
- * no slot between (ruling 10-25 display or). So `for`, `or{1}`, and an
- * `or` before the first form or after the last still count. */
-const OR_SEPARATOR = /(?<=\}[^{]*) or (?=[^{]*\{)/gu;
+ * with a space either side (ruling 10-25 display or). */
+const OR_SEPARATOR = ' or ';
+
+/** A template with its slots cut out and print's ` or ` dropped from
+ * every gap that stands BETWEEN two slots (`OR_SEPARATOR`). The first
+ * and last gaps keep theirs, so an `or` before the first form or after
+ * the last still counts, as do `for` and `or{1}`. Plain string work on
+ * the gaps rather than a lookaround pattern, which backtracks. */
+function cutSlots(display: string): string {
+	const gaps = display.split(SLOT_CUT);
+	const last = gaps.length - 1;
+	return gaps
+		.map((gap, at) =>
+			at > 0 && at < last ? gap.replaceAll(OR_SEPARATOR, ' ') : gap,
+		)
+		.join('');
+}
 
 /** The notation of a line as a MULTISET: token → how many times the
  * line sets it. Every non-Hebrew, non-space character counts, with
@@ -145,16 +161,14 @@ function notationOf(line: string): Map<string, number> {
  * the template never carries that glyph, so the forms are where mark 2
  * finds it; a superscript left in the template as well counts twice
  * and fails, and one dropped from both fails as lost. Print's ` or `
- * between two slots is a separator, not counted (`OR_SEPARATOR`). */
+ * between two slots is a separator, not counted ({@link cutSlots}). */
 function writtenNotation(entry: Entry, display: string): Map<string, number> {
 	const superscripts = entry.headwords
 		.map((f) =>
 			f.disambiguator === undefined ? '' : intToSup(f.disambiguator),
 		)
 		.join('');
-	return notationOf(
-		display.replace(OR_SEPARATOR, ' ').replace(SLOT, '') + superscripts,
-	);
+	return notationOf(cutSlots(display) + superscripts);
 }
 
 /** The notation the composed line carries: its own, plus each
