@@ -107,6 +107,14 @@ the gloss, replaced by a `retag` (P000554) and a `split` (P000555).
 Their bytes are at
 [`docs/archive/patches-retired-2026-10-14/`](../../../../../docs/archive/patches-retired-2026-10-14/README.md).
 
+On 2026-10-25 (PR #n, checklist batch 2) 8 more left, each withdrawn
+on the maintainer's scan read: P000221 (H00871's `Ib.` cite the
+Mekhilta, not Exodus 14), P000760 (U01063's `II` names U01070, as
+Sefaria links it), P000291–P000293 (print has the comma before the
+numeral) and P000294–P000296 (the trailing comma of `I, II,` is the
+headword line's). Their bytes are at
+[`docs/archive/patches-retired-2026-10-25/`](../../../../../docs/archive/patches-retired-2026-10-25/README.md).
+
 ## Rulings still in force
 
 Lifted verbatim from `data/patches/RUNBOOK.md` when that procedure was
@@ -147,10 +155,11 @@ The seeder ran once, on 2026-09-18, from commit 53e722b1. It was
 deleted in the commit that retired the `repairs.ts` tables, because it
 imported them; git history keeps it.
 
-Two patches carry bytes that transform rules produced when they ran
+Two patches carried bytes that transform rules produced when they ran
 on the repaired text: P000210 (C00062) inserts an rtl span, and
-P000221 (H00871) restores two `Exodus 14` links. A change to those
-rules can make these two patches report drift.
+P000221 (H00871) restored two `Exodus 14` links. A change to those
+rules can make P000210 report drift. P000221 was withdrawn on
+2026-10-25: the two `Ib.` cite the Mekhilta (review ledger L79).
 
 `repairs.ts`'s header used to keep a register of `deviation: true`
 repairs, places where v2 deliberately differs from the printed text
