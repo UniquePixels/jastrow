@@ -219,8 +219,11 @@ withdrawn). See that ruling and
 `display` is an optional template whose `{n}` inserts
 `headwords[n].text` and whose every other character is literal
 notation. It carries print's layout — parentheses, `?`, `…`, comma
-separators. It is **optional and never defaulted**: where the source
-cannot settle the layout the key is absent and the row is flagged.
+separators, and print's `or` between two spellings (ruling `10-25
+display or`: I00158 `{0} or {1}, {2}`; each spelling is still its own
+form and lookup key, and only a reviewed `reform` writes the word). It
+is **optional and never defaulted**: where the source cannot settle the
+layout the key is absent and the row is flagged.
 
 One parser reads the whole headword line in a single pass
 (`admin/entry/headwords.ts`, `parseHeadwordLine`). There is no per-item
@@ -1076,7 +1079,9 @@ adds two more marks.
 gone, because it cannot round-trip through a shape whose items no
 longer correspond 1:1 to the source's strings; **commas, excluded on
 both sides**, because the upstream split cut print's separators and did
-not keep them; an unsettleable line's notation; and which form a mark
+not keep them, and the separator ` or `, the word with a space either
+side between two slots, for the same reason (ruling `10-25 display or`; any other Latin
+word still counts); an unsettleable line's notation; and which form a mark
 belongs to beyond the multiset. Mark (b) is therefore the only thing
 standing between a placement correction and invented notation.
 
@@ -1483,7 +1488,8 @@ so cannot be inferred from reading the code that is there.
     A flagged row is a ticket, not a guess
     (`admin/entry/headword-rules.ts:262-267`; `import/publication.ts:80`).
     A reviewed patch may correct a **placement** but not the notation
-    (`import/gates.ts:244-260`).
+    (`import/gates.ts:244-260`), except a separator: a comma, or print's
+    ` or ` between two spellings (ruling `10-25 display or`).
 30. **Parenthesis placement is never corrected by the parser.** Only
     what the source shows is recorded
     (`admin/entry/headwords.ts:28-34`).
