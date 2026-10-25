@@ -89,7 +89,8 @@ comes). The generator marks every row a batch names with that batch:
 by its patch id, or by its class when the row was first seen on or
 before the batch's date (a class sent once does not cover rows found
 later). A row with an empty `submitted_batch` is new since the last
-submission. The log is empty: nothing has been sent yet.
+submission. The log is empty: nothing has been sent yet. **478 rows are
+ready to send** (generator, 2026-10-25, PR #193).
 
 **Each class below says what it is** for the submission:
 
@@ -149,14 +150,15 @@ still carry the ד spellings.
 
 **Status:** rows: appendix class `verse-paren-false-sense-split` (15
 rows: a citation's own verse number taken as a sense marker, each read
-on the scan) and `reviewed-join` (17 rows: the 36 cross-reference-form
+on the scan) and `reviewed-join` (20 rows: the 36 cross-reference-form
 entries listed below, review doc 01, 2026-08-05). Their records named
 no print read until PR #192 quoted the hOCR line into 32 of them (review
-ledger L71); 17 are rows, 11 are held back as not traceable to
-Sefaria's string and 4 as a join into the entry's own head, and 4 wait
-for a scan read (`no print evidence`, maintainer checklist).
-**Count:** 32 appendix rows; 19 `reviewed-join` in the review list
-(generator, 2026-10-22); 2 more of the verse-paren class are held back
+ledger L71); the other 4 took the maintainer's scan read of 2026-10-25
+(PR #193), each `N)` closing a cross-reference's parenthesis. Of the 36,
+20 are rows, 12 are held back as not traceable to Sefaria's string and
+4 as a join into the entry's own head.
+**Count:** 35 appendix rows; 16 `reviewed-join` in the review list
+(generator, 2026-10-25); 2 more of the verse-paren class are held back
 because the text is not traceable to Sefaria's string. A01002's two
 (P000388, P000389) joined the appendix on 2026-10-22, once their
 rationale named its own leaf (review ledger L70).
@@ -209,15 +211,16 @@ a verse number).
 `first-sense-debris-stranding-language-label` (14: print's first sense
 stored twice), `continuation-marker-fully-absent` (5) and
 `missing-number` (5), each read on the scan (sense worklist, maintainer
-2026-10-10/11), and `reviewed-replace` (12 rows: review doc 01's
+2026-10-10/11), and `reviewed-replace` (14 rows: review doc 01's
 reinsertions and review doc 02's bare-citation wraps, whose hOCR line
-PR #192 quoted, review ledger L71). Of the other 6, 2 are held back as
-not traceable, 2 wait for a scan read, and 2 read against the patch in
-the hOCR: the example below is one of them, now shown as the hOCR reads
-it, pending the maintainer's scan read (review ledger L75; L76 is
-Q02162's). **Count:** 77 appendix rows; 8 `reviewed-replace`
-in the review list, those 6 and 2 held back before (generator,
-2026-10-22).
+PR #192 quoted, review ledger L71, and the two the hOCR read against,
+rewritten from the maintainer's scan read of 2026-10-25, PR #193: the
+example below, review ledger L75, and Q02162's verse, L76). Of the
+others, 3 are held back as not traceable, A01194's `(b. h.)` as partial
+(print's Hebrew inside the parenthesis is not restored, L80), D00341's
+bracket as our deviation, and H00871's two Exodus links are withdrawn
+(its `Ib.` cite the Mekhilta, L79). **Count:** 79 appendix rows; 5
+`reviewed-replace` in the review list (generator, 2026-10-25).
 
 Entries whose numbered senses skip values (`1), 3), 4)`) or start
 past 1 without the unclosed-paren signature of issue 2 — usually a
@@ -228,9 +231,9 @@ sense marker fused into adjacent text.
 number is `—2)`. Print sets the page `261)` and then the marker:
 the hOCR reads `Onom.; Neub. Géogr. p. 18; 261) 1) Ulam (Porta) a place`
 (26a · leaf 49). The marker `1)` is lost, not fused. (Our reviewed
-patch P000194 read `261)` as page `26` and a fused `1)`; the hOCR reads
-against it, so it is held back until the maintainer's scan read,
-review ledger L75.)
+patch P000194 read `261)` as page `26` and a fused `1)`; the maintainer's
+scan read of 2026-10-25 confirms the hOCR, and PR #193 rewrote the patch
+to `261)` → `261) 1)`: the row is in the appendix, review ledger L75.)
 
 **Fix (this entry), as the hOCR reads it:**
 
@@ -240,8 +243,11 @@ review ledger L75.)
 ```
 
 i.e. the text from `1)` onward belongs in a new sense object with
-`"number": "1)"`. Each of the 35 needs an eyes-on read; list on
-request (we have reviewed them individually).
+`"number": "1)"`. The appendix row for this entry (P000194) states the
+first half only, the `1)` inserted after `261)` in the text; the split
+into a sense object is a further step our own data has not taken yet
+either (review ledger L81). Each of the 35 needs an eyes-on read; list
+on request (we have reviewed them individually).
 
 ---
 
@@ -459,21 +465,26 @@ entry headword (dangling internal links). List available on request.
 
 ## 12. `refs` items with no basis in the entry (3 items)
 
-**Status:** informational. The three removals are in our reviewed
-records (`reviewed-unref`), but they rest on a reading of the entry, not
-of print, so they wait in the review list (`no print evidence`).
-**Count:** 3 (reviewed records).
+**Status:** rows: appendix class `reviewed-unref` (2 rows: D00541,
+Q00890, each confirmed by the maintainer's scan read of 2026-10-25, PR
+#193). The third, M01355's, is held: its entry cites the place after all
+(below; review ledger L82). **Count:** 2 appendix rows; 1 in the review
+list (generator, 2026-10-25).
 
-`D00541` lists `Yoma 2a`, `Q00890` lists `Yoma 2a:3`, and `M01355`
-lists `Rosh Hashanah 23b` — in each case the entry's text contains no
-citation of that location (checked including `Ib.` resolution). They
-may be mis-attached links.
+`D00541` lists `Yoma 2a` and `Q00890` lists `Yoma 2a:3`; in each case
+the entry's text contains no citation of that location (checked
+including `Ib.` resolution, and against print). They may be
+mis-attached links. `M01355` lists `Rosh Hashanah 23b`, which our
+review of 2026-08-05 called baseless too, but the entry reads `Y. R.
+Hash. II, 58ᵃ top …; (Bab. ib. 23ᵇ; …)`, and `Bab. ib. 23ᵇ` is that
+Bavli page, unlinked in the text: the item is likely that cite, and is
+not sent.
 
 ---
 
 ## 13. Mis-targeted internal refLink (1 known)
 
-**Status:** rows: appendix class `cross-reference-target` (235 rows).
+**Status:** rows: appendix class `cross-reference-target` (273 rows).
 The systematic sweep this section asked for has been done for one
 shape: a cross-reference whose own words name `X N` while Sefaria's
 linker aims it at another homograph of X. Each row shows the anchor
@@ -484,10 +495,12 @@ different shape and has no reviewed patch. Where the proof does not
 hold in Sefaria's own data (among them every implied I that only our
 own correction numbers), the evidence is print: PR #192 quoted the
 cite's own hOCR line, with its numeral, into 16 (review ledger L71).
-**Count:** 235 appendix rows; 47 more in the review list (generator,
-2026-10-22): 38 wait for a scan read and 1 reads against the patch
-(U01063, review ledger L77), all `no print evidence`, and 8 are not
-traceable to Sefaria's string.
+The 38 that waited for a scan read took the maintainer's read of
+2026-10-25 (PR #193). U01063's retarget, which the hOCR read against, is
+withdrawn: its `שֵׁירוּתָא II` names U01070, as Sefaria links it, and its
+unlinked `III` is now linked to U01071 (review ledger L77).
+**Count:** 273 appendix rows; 9 more in the review list, all not
+traceable to Sefaria's string (generator, 2026-10-25).
 
 **Entry `A01350` (אִימַּר), sense `—4)`:** the anchor wraps the text
 `כפר א׳` (K'far Imra, a place name) but targets the unrelated entry
@@ -713,10 +726,13 @@ is how we expect the rest of the class to surface.
 
 ## 19. Homograph numerals dropped or moved, and torn alternates
 
-**Status:** rows: appendix classes `headword-numeral-dropped` (22 rows),
-`headword-numeral-in-gloss` (12 rows) and `headword-torn` (1 row), each
-from the maintainer's print read (2026-09-20, 2026-10-06, 2026-10-13).
-**Count:** 35 appendix rows. 4 more are held back as not stated
+**Status:** rows: appendix classes `headword-numeral-dropped` (40 rows),
+`headword-numeral-in-gloss` (13 rows) and `headword-torn` (1 row), each
+from the maintainer's print read (2026-09-20, 2026-10-06, 2026-10-13,
+2026-10-22), and two headword-line slips of 2026-10-25 (PR #193):
+`headword-separator` (B00098's doubled space before `V`) and
+`headword-separator-anchor` (B00097's link that names that line).
+**Count:** 56 appendix rows (generator, 2026-10-25). 4 more are held back as not stated
 mechanically: two set a layout of parentheses around a form (U01268,
 V00522) that Sefaria's `headword` and `alt_headwords` cannot hold one
 field at a time, and two rejoin a torn headword while changing the

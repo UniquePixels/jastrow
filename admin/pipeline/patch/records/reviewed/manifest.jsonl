@@ -19,7 +19,7 @@
 {"disposition":"repaired","patches":["P000217"],"rid":"D00541"}
 {"disposition":"repaired","patches":["P000218"],"rid":"G00655"}
 {"disposition":"repaired","patches":["P000219"],"rid":"H00709"}
-{"disposition":"repaired","patches":["P000220","P000221"],"rid":"H00871"}
+{"disposition":"repaired","patches":["P000220"],"rid":"H00871"}
 {"disposition":"repaired","patches":["P000222"],"rid":"I00137"}
 {"disposition":"repaired","patches":["P000223"],"rid":"I00149"}
 {"disposition":"repaired","patches":["P000224"],"rid":"I00753"}
@@ -68,12 +68,7 @@
 {"disposition":"repaired","patches":["P000288"],"rid":"V00704"}
 {"disposition":"repaired","patches":["P000289"],"rid":"V00765"}
 {"disposition":"repaired","patches":["P000290"],"rid":"B00098"}
-{"disposition":"repaired","patches":["P000291"],"rid":"B00443"}
-{"disposition":"repaired","patches":["P000292"],"rid":"C00329"}
-{"disposition":"repaired","patches":["P000293"],"rid":"M00447"}
-{"disposition":"repaired","patches":["P000294"],"rid":"A02356"}
-{"disposition":"repaired","patches":["P000295"],"rid":"B00407"}
-{"disposition":"repaired","patches":["P000296","P000620"],"rid":"D00844"}
+{"disposition":"repaired","patches":["P000620"],"rid":"D00844"}
 {"disposition":"repaired","patches":["P000297"],"rid":"I00158"}
 {"disposition":"repaired","patches":["P000298"],"rid":"I00654"}
 {"disposition":"repaired","patches":["P000299"],"rid":"M02116"}
@@ -436,7 +431,7 @@
 {"disposition":"repaired","patches":["P000756","P000757"],"rid":"U00888"}
 {"disposition":"repaired","patches":["P000758"],"rid":"U00973"}
 {"disposition":"repaired","patches":["P000759"],"rid":"U01060"}
-{"disposition":"repaired","patches":["P000760"],"rid":"U01063"}
+{"disposition":"repaired","patches":["P000931"],"rid":"U01063"}
 {"disposition":"repaired","patches":["P000761"],"rid":"U01241"}
 {"disposition":"repaired","patches":["P000762"],"rid":"U01271"}
 {"disposition":"repaired","patches":["P000763"],"rid":"U01298"}
