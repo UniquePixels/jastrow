@@ -653,10 +653,13 @@ describe('checkHeadwordLine', () => {
 		['{0} or {1} v.', 'v×1'],
 		['{0}or {1}', 'or×1'],
 		['{0} {1} or', 'or×1'],
+		['{0} {1} or ', 'or×1'],
+		[' or {0} {1}', 'or×1'],
 	])('still refuses the supplied template %s', (display, token) => {
-		// Only the literal ` or ` is a separator: any other Latin word, a
-		// numeral or a mark set beside it, and an `or` without its
-		// spaces is still notation the line does not carry.
+		// Only the literal ` or ` BETWEEN two slots is a separator: any
+		// other Latin word, a numeral or a mark set beside it, an `or`
+		// without its spaces, and one before the first form or after the
+		// last is still notation the line does not carry.
 		const t = patched(['אָב', 'אַבָּא'], display, display);
 		expect(t.failures).toHaveLength(1);
 		expect(t.failures[0]).toContain(token);

@@ -89,9 +89,10 @@ const LATIN_RUN = /[A-Za-z]+/gu;
  * and the two gender labels. Anything else is a text defect. */
 const LATIN_ALLOWED = /^(?:[IVXLC]+|[mf])$/u;
 /** Print's `or` between two spellings, as a template sets it: the word
- * with a space either side (ruling 10-25 display or). Taken with its
- * spaces so `for`, `or{1}` or a trailing `or` still count. */
-const OR_SEPARATOR = / or /gu;
+ * with a space either side, after one slot and before the next, with
+ * no slot between (ruling 10-25 display or). So `for`, `or{1}`, and an
+ * `or` before the first form or after the last still count. */
+const OR_SEPARATOR = /(?<=\}[^{]*) or (?=[^{]*\{)/gu;
 
 /** The notation of a line as a MULTISET: token → how many times the
  * line sets it. Every non-Hebrew, non-space character counts, with
@@ -111,20 +112,19 @@ const OR_SEPARATOR = / or /gu;
  * the source does not carry against one the parser invented.
  *
  * **So is print's ` or ` between two spellings** (ruling 10-25 display
- * or): a separator the template supplies, like `, `, where print sets
- * `X or Y`. Only the word with its spaces is skipped. A source line
- * that holds `or` is unsettleable (`lineIsUnsettleable`), so its
- * multiset is never compared, and the skip binds the written side. */
+ * or), a separator the template supplies like `, `; it is cut in
+ * {@link writtenNotation}, where the slots still show what it stands
+ * between. A source line that holds `or` is unsettleable
+ * (`lineIsUnsettleable`), so its multiset is never compared. */
 function notationOf(line: string): Map<string, number> {
 	const counts = new Map<string, number>();
 	const bump = (token: string): void => {
 		counts.set(token, (counts.get(token) ?? 0) + 1);
 	};
-	const notation = line.replaceAll(OR_SEPARATOR, ' ');
-	for (const run of notation.match(LATIN_RUN) ?? []) {
+	for (const run of line.match(LATIN_RUN) ?? []) {
 		bump(run);
 	}
-	for (const ch of notation.replace(LATIN_RUN, '')) {
+	for (const ch of line.replace(LATIN_RUN, '')) {
 		const c = ch.codePointAt(0) ?? 0;
 		const hebrew =
 			(c >= 0x05_d0 && c <= 0x05_ea) ||
@@ -144,14 +144,17 @@ function notationOf(line: string): Map<string, number> {
  * superscript the source set. Since ruling 10-06 hidden superscript
  * the template never carries that glyph, so the forms are where mark 2
  * finds it; a superscript left in the template as well counts twice
- * and fails, and one dropped from both fails as lost. */
+ * and fails, and one dropped from both fails as lost. Print's ` or `
+ * between two slots is a separator, not counted (`OR_SEPARATOR`). */
 function writtenNotation(entry: Entry, display: string): Map<string, number> {
 	const superscripts = entry.headwords
 		.map((f) =>
 			f.disambiguator === undefined ? '' : intToSup(f.disambiguator),
 		)
 		.join('');
-	return notationOf(display.replace(SLOT, '') + superscripts);
+	return notationOf(
+		display.replace(OR_SEPARATOR, ' ').replace(SLOT, '') + superscripts,
+	);
 }
 
 /** The notation the composed line carries: its own, plus each

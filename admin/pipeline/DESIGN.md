@@ -1080,7 +1080,7 @@ gone, because it cannot round-trip through a shape whose items no
 longer correspond 1:1 to the source's strings; **commas, excluded on
 both sides**, because the upstream split cut print's separators and did
 not keep them, and the separator ` or `, the word with a space either
-side, for the same reason (ruling `10-25 display or`; any other Latin
+side between two slots, for the same reason (ruling `10-25 display or`; any other Latin
 word still counts); an unsettleable line's notation; and which form a mark
 belongs to beyond the multiset. Mark (b) is therefore the only thing
 standing between a placement correction and invented notation.

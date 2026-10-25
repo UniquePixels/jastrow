@@ -24,9 +24,11 @@ The entry contract already accepted the template
 (`admin/entry/headword-rules.ts`; a test now says so). Gate 2 did not:
 on a settleable line a supplied template must conserve the line's
 notation, and `or` was counted as a Latin run the line lacks. The
-change is in `notationOf` (`admin/pipeline/import/gates.ts`): the run
-` or `, the word with a space either side (`OR_SEPARATOR`), is skipped
-as the comma is. The tests (`gates.test.ts`, `checkHeadwordLine`):
+change is in `admin/pipeline/import/gates.ts`: the run ` or `, the word
+with a space either side, after one slot and before the next
+(`OR_SEPARATOR`), is cut from the written side before `notationOf`
+counts it (`writtenNotation`), so it is skipped as the comma is. The
+tests (`gates.test.ts`, `checkHeadwordLine`):
 
 | supplied template | gate 2 |
 |---|---|
@@ -35,6 +37,7 @@ as the comma is. The tests (`gates.test.ts`, `checkHeadwordLine`):
 | `{0} or {1} I` | `[] → [I×1]` |
 | `{0} or {1} v.` | `[] → [v×1 .×1]` |
 | `{0}or {1}`, `{0} {1} or` | `[] → [or×1]`: no spaces, no separator |
+| `{0} {1} or `, ` or {0} {1}` | `[] → [or×1]`: not between two forms |
 
 A source line that carries `or` is still unsettleable
 (`lineIsUnsettleable` is unchanged), so the skip only ever reads a
