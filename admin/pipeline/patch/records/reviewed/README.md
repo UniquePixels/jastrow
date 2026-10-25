@@ -107,7 +107,7 @@ the gloss, replaced by a `retag` (P000554) and a `split` (P000555).
 Their bytes are at
 [`docs/archive/patches-retired-2026-10-14/`](../../../../../docs/archive/patches-retired-2026-10-14/README.md).
 
-On 2026-10-25 (PR #n, checklist batch 2) 8 more left, each withdrawn
+On 2026-10-25 (PR #193, checklist batch 2) 8 more left, each withdrawn
 on the maintainer's scan read: P000221 (H00871's `Ib.` cite the
 Mekhilta, not Exodus 14), P000760 (U01063's `II` names U01070, as
 Sefaria links it), P000291–P000293 (print has the comma before the

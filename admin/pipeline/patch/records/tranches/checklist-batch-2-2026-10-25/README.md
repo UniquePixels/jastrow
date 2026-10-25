@@ -1,6 +1,6 @@
 # Checklist batch 2: the Sefaria scan reads (2026-10-25)
 
-PR #n, review ledger L71 and L75–L79, under ruling `10-13 correction
+PR #193, review ledger L71 and L75–L79, under ruling `10-13 correction
 policy` ([`docs/decisions.md`](../../../../../../docs/decisions.md)),
 case 1 throughout: a transcription error where print is right is
 corrected with no annotation, and the patch rationale is the only

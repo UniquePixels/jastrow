@@ -2358,7 +2358,7 @@ Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § X11: one-let
 
 ## Applied from the maintainer checklist (2026-10-25)
 
-Applied in PR #n: your ticks and notes in [`maintainer-checklist.md`](maintainer-checklist.md) § Scan reads for the Sefaria appendix (2026-10-22), recorded 2026-10-25 (`5c6c13369`), on 66 reviewed patches, listed block by block, with every `X` mapping, in [`checklist-batch-2-2026-10-25/`](../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md). Each block below is moved from the checklist byte for byte, and ends with what was written. 47 patches take your read as evidence, 5 are rewritten from it, 8 are withdrawn and 1 is new (P000931); the appendix goes from 431 to 478 rows, and `no print evidence` from 66 to 6. One entry takes a new name (A02823, `אַפְרִיקָא`); every gate is green.
+Applied in PR #193: your ticks and notes in [`maintainer-checklist.md`](maintainer-checklist.md) § Scan reads for the Sefaria appendix (2026-10-22), recorded 2026-10-25 (`5c6c13369`), on 66 reviewed patches, listed block by block, with every `X` mapping, in [`checklist-batch-2-2026-10-25/`](../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md). Each block below is moved from the checklist byte for byte, and ends with what was written. 47 patches take your read as evidence, 5 are rewritten from it, 8 are withdrawn and 1 is new (P000931); the appendix goes from 431 to 478 rows, and `no print evidence` from 66 to 6. One entry takes a new name (A02823, `אַפְרִיקָא`); every gate is green.
 
 **From § Scan reads for the Sefaria appendix (2026-10-22): 29 of 30 blocks, with the section's introduction.** Still in the checklist: § Two spellings in one form (5 patches; the display it asks for needs a rule change, review ledger L83) and M01355's `refs` item (P000232, review ledger L82), asked again.
 
@@ -2410,7 +2410,7 @@ What the hOCR shows: print reads `261) 1) Ulam`: the page number `261)` AND the 
 
 Recommendation: yes (high): the hOCR reads both, and the sense worklist already quotes A00675 as `p. 18; 261) 1) Ulam` (class 7's false hits).
 
-Applied in PR #n: P000194 is rewritten in place, `261)` → `261) 1)` (case 1, your read as evidence; an appendix row). The `1)` stays in the first sense's text: a `split` needs its marker once in the sense, and `261) 1)` holds it twice (review ledger L81).
+Applied in PR #193: P000194 is rewritten in place, `261)` → `261) 1)` (case 1, your read as evidence; an appendix row). The `1)` stays in the first sense's text: a `split` needs its marker once in the sense, and `261) 1)` holds it twice (review ledger L81).
 
 #### Q02162 `פְּתִיחָה`: `Ez. XXXVII, 1` or `12)`
 
@@ -2432,7 +2432,7 @@ What the hOCR shows: print reads `(Ez. XXXVII, 12); a. fr. — 2)`: the `—2)` 
 
 Recommendation: yes (high): ABBYY reads digits well, and Ez. XXXVII, 12 is the verse about opening graves the gloss describes.
 
-Applied in PR #n: P000268 is widened in place: the verse `12`, the `)` after it, the cite re-aimed at Ezekiel 37:12, and `—2)` (case 1; an appendix row).
+Applied in PR #193: P000268 is widened in place: the verse `12`, the `)` after it, the cite re-aimed at Ezekiel 37:12, and `—2)` (case 1; an appendix row).
 
 #### U01063 `שֵׁירוּ`: which entry is `שֵׁירוּתָא II`
 
@@ -2454,7 +2454,7 @@ What the hOCR shows: print numbers U01070 `II` on its first form (`HIE II`; PR #
 
 Recommendation: yes (high): it is your own reading of the family in the `שֵׁירוּתָא III` block (PR #187), and the hOCR reads `HIE II` on U01070's line; P000760 (PR #178) predates it.
 
-Applied in PR #n: P000760 is withdrawn, so the `II` links U01070 again, as Sefaria had it; the new P000931 links the `III` to U01071 (case 1; an appendix row).
+Applied in PR #193: P000760 is withdrawn, so the `II` links U01070 again, as Sefaria had it; the new P000931 links the `III` to U01071 (case 1; an appendix row).
 
 #### A02823 `אַפְרִיקִי`: which form wears the parentheses
 
@@ -2476,7 +2476,7 @@ What the hOCR shows: the one parenthesized form, leftmost on the head line, read
 
 Recommendation: read the scan (low): the hOCR reads the parenthesized form's letters as `אפריקא`, leftmost on the line; HW-A02823's check of 2026-09-22 read the patch's way.
 
-Applied in PR #n: P000308 is rewritten in place: forms `(אַפְרִיקָא)`, `אַפְרִיקִי I` in print's order, display `({0}) {1} I` (case 1). `headwords[0]` is the first form print sets, so the name changes from `אַפְרִיקִי` to `אַפְרִיקָא`; the I is on `אַפְרִיקִי`, the I of A02824's `אַפְרִיקִי II`, so A02824's X8 reviewed-kept record is stale and removed. The generator holds it as `not mechanical for op` (a display that sets a layout), as it held the old one.
+Applied in PR #193: P000308 is rewritten in place: forms `(אַפְרִיקָא)`, `אַפְרִיקִי I` in print's order, display `({0}) {1} I` (case 1). `headwords[0]` is the first form print sets, so the name changes from `אַפְרִיקִי` to `אַפְרִיקָא`; the I is on `אַפְרִיקִי`, the I of A02824's `אַפְרִיקִי II`, so A02824's X8 reviewed-kept record is stale and removed. The generator holds it as `not mechanical for op` (a display that sets a layout), as it held the old one.
 
 ### Held for a scan read (62)
 
@@ -2506,7 +2506,7 @@ Why held: A00882 `v. .1אורירן`: the numeral reads `1`; M01329 `Ar.(v. "p^i
 
 Recommendation: yes (medium): Sefaria's text reads `I` at both cites and its own A00890 is `II`; the maintainer's print read of 2026-10-06 found no numeral beside A00889, and P000343 set its implied I.
 
-Applied in PR #n: your read is added to P000544 and P000545 (case 1); both targets stand; both are appendix rows.
+Applied in PR #193: your read is added to P000544 and P000545 (case 1); both targets stand; both are appendix rows.
 
 #### `אֲמָנָה I`: H01410
 
@@ -2528,7 +2528,7 @@ Why held: H01410 the cite's line is not found.
 
 Recommendation: yes (medium): Sefaria's text reads `I`, and Sefaria's own A02042 is `II`.
 
-Applied in PR #n: your read is added to P000546; the target stands; an appendix row.
+Applied in PR #193: your read is added to P000546; the target stands; an appendix row.
 
 #### `דִּי I`: D00595
 
@@ -2550,7 +2550,7 @@ Why held: D00595 the cite's line is not found.
 
 Recommendation: yes (medium): Sefaria's text reads `I`, and Sefaria's own D00443 is `II`.
 
-Applied in PR #n: your read is added to P000547; the target stands; an appendix row.
+Applied in PR #193: your read is added to P000547; the target stands; an appendix row.
 
 #### `קוּלְיָא I`: S01262, S01321
 
@@ -2578,7 +2578,7 @@ Why held: S01262 the cite's line is not found; S01321 `Vrtap i.`: the numeral re
 
 Recommendation: yes (medium): Sefaria's text reads `I`; print sets `II` on S00337 (`fcv"*p II, PS yp m. (preced.) ashes of an alkaline`, 1328a · leaf 651).
 
-Applied in PR #n: your read is added to P000551 and P000552; both targets stand; both are appendix rows.
+Applied in PR #193: your read is added to P000551 and P000552; both targets stand; both are appendix rows.
 
 #### `טְבַע I`: O00179
 
@@ -2600,7 +2600,7 @@ Why held: O00179 the cite reads `I`, but print's `טְבַע I` may name I00076 
 
 Recommendation: can't tell (low): print's `I` stands, but which of the two entries it names rests on the cite's vowels, which the hOCR does not read; a "no" keeps Sefaria's link.
 
-Applied in PR #n: your read is added to P000590: the cite `טְבַע I` is pointed as I00077 is, so the target stands; an appendix row.
+Applied in PR #193: your read is added to P000590: the cite `טְבַע I` is pointed as I00077 is, so the target stands; an appendix row.
 
 #### `חוּל I`: H00731, H00355, H00733
 
@@ -2634,7 +2634,7 @@ Why held: H00731 the numeral reads `1`; and the target is a `ch.` line (ruling 1
 
 Recommendation: yes (medium): Sefaria's text reads `I` at all three; round 2 (PR #177) numbered H00319 `I` from Jastrow's text, these cites among it, and aimed H00731's `I ch.` at H00320 by your tick.
 
-Applied in PR #n: your read is added to P000591, P000807 and P000808; all three are appendix rows. Your "ch." on H00731 is its cite's `ch.` (`v. חוּל I ch.`), the Aramaic line H00320, as linked. Your "ch" on H00733 does not match its cite, which reads `(b. h.; חוּל I)` in Sefaria and in the hOCR (454b · leaf 477: `>on, .ג חיל‎ (b. h.; חול‎ I) 1) [surrownding, ] ;`), so its target stays the Hebrew H00319, with H00355's; the rationale says so.
+Applied in PR #193: your read is added to P000591, P000807 and P000808; all three are appendix rows. Your "ch." on H00731 is its cite's `ch.` (`v. חוּל I ch.`), the Aramaic line H00320, as linked. Your "ch" on H00733 does not match its cite, which reads `(b. h.; חוּל I)` in Sefaria and in the hOCR (454b · leaf 477: `>on, .ג חיל‎ (b. h.; חול‎ I) 1) [surrownding, ] ;`), so its target stays the Hebrew H00319, with H00355's; the rationale says so.
 
 #### `אוּרְיָא II`: A00863, A00887, A03020, A00864
 
@@ -2674,7 +2674,7 @@ Why held: A00863 the cite's line is not found; A00887 `1 h. a. ch.`: the numeral
 
 Recommendation: yes (medium): Sefaria's own text reads `II` at all four.
 
-Applied in PR #n: your read is added to P000595, P000596, P000599 and P000791; all four are appendix rows. Your note on A03020: the yod-for-vav is recorded, P000829 (PR #187), an `illegible` annotation on `אֻרְוָה` with your note of 2026-10-22.
+Applied in PR #193: your read is added to P000595, P000596, P000599 and P000791; all four are appendix rows. Your note on A03020: the yod-for-vav is recorded, P000829 (PR #187), an `illegible` annotation on `אֻרְוָה` with your note of 2026-10-22.
 
 #### `בּוֹר I`: B00367, B01142, B00335
 
@@ -2708,7 +2708,7 @@ Why held: B00367 `emp. “Hal.`: the cite is misread; B01142 the cite is misread
 
 Recommendation: yes (medium): Sefaria's own text reads `I`, and Sefaria's B00333 is `II`.
 
-Applied in PR #n: your read is added to P000604, P000609 and P000797; all three are appendix rows.
+Applied in PR #193: your read is added to P000604, P000609 and P000797; all three are appendix rows.
 
 #### `בִּזְיוּנָא II`: B00450, B00453
 
@@ -2736,7 +2736,7 @@ Why held: B00450 the cite's line is not found; B00453 the cite's line is not fou
 
 Recommendation: yes (medium): Sefaria's own text reads `II`, and Sefaria's B00442 is `I`.
 
-Applied in PR #n: your read is added to P000605 and P000606; both are appendix rows. Their link key keeps Sefaria's ` , II`, now B00443's own line again (the stray comma block below).
+Applied in PR #193: your read is added to P000605 and P000606; both are appendix rows. Their link key keeps Sefaria's ` , II`, now B00443's own line again (the stray comma block below).
 
 #### `גַּוָּוזָא II`: C00343, C00351, C01130
 
@@ -2770,7 +2770,7 @@ Why held: C00343 `vy. 81955 I.`: the numeral reads `I`, not `II`; C00351 `NTs 11
 
 Recommendation: yes (medium) if the scan shows `II` at C00343: the hOCR reads `I.` there, so read that cite first.
 
-Applied in PR #n: your read is added to P000613, P000614 and P000615; all three are appendix rows.
+Applied in PR #193: your read is added to P000613, P000614 and P000615; all three are appendix rows.
 
 #### `נִיר I`: N00034
 
@@ -2792,7 +2792,7 @@ Why held: N00034 `1&0, v.-..:i. k`: no numeral.
 
 Recommendation: yes (medium): two other cites of `נִיר I` read `I` in the hOCR (P000651, P000738, now in the appendix).
 
-Applied in PR #n: your read is added to P000647; an appendix row.
+Applied in PR #193: your read is added to P000647; an appendix row.
 
 #### `סְגֵי II`: O00125, T00814
 
@@ -2820,7 +2820,7 @@ Why held: O00125 `v. w 11, in.`: the numerals read `11, in`; T00814 `v. "".".Oil
 
 Recommendation: yes (medium): Sefaria's own text reads `II`.
 
-Applied in PR #n: your note on O00125, `סְגֵי II, III`, is the stored text, so the `II` is confirmed: your read is added to P000660 and P000743; both are appendix rows. The `III` stays unlinked.
+Applied in PR #193: your note on O00125, `סְגֵי II, III`, is the stored text, so the `II` is confirmed: your read is added to P000660 and P000743; both are appendix rows. The `III` stays unlinked.
 
 #### `צִנָּה III`: Q00440, R00399
 
@@ -2848,7 +2848,7 @@ Why held: Q00440 `v. nSS IIL—`: the numeral reads `IIL`; R00399 `fiSXHI`: the 
 
 Recommendation: yes (medium): the hOCR reads `IIL` at Q00440, one stroke off `III`.
 
-Applied in PR #n: your read is added to P000695 and P000708; both are appendix rows.
+Applied in PR #193: your read is added to P000695 and P000708; both are appendix rows.
 
 #### `רְעִי I`: Q00538, T00895
 
@@ -2876,7 +2876,7 @@ Why held: Q00538 `v. *p)l`: no numeral; T00895 `(v. wd`: no numeral.
 
 Recommendation: yes (medium): T00013's cite of `רְעִי I` reads `I` in the hOCR (P000736, now in the appendix), and print sets `I` on T00892.
 
-Applied in PR #n: your read is added to P000697 and P000744; both are appendix rows.
+Applied in PR #193: your read is added to P000697 and P000744; both are appendix rows.
 
 #### `שִׁיטָּה III`: Q01373, U00888
 
@@ -2910,7 +2910,7 @@ Why held: Q01373 `v. na^ia HI ;`: the numeral reads `HI`; U00888 `=h. r*f$ m,`: 
 
 Recommendation: yes (medium): the hOCR reads `HI` at Q01373; U00383's cite reads `III` (P000749, now in the appendix), and print sets `III` on U00884.
 
-Applied in PR #n: your read is added to P000701, P000756 and P000757; all three are appendix rows.
+Applied in PR #193: your read is added to P000701, P000756 and P000757; all three are appendix rows.
 
 #### `בַּר I ch.`: B01157, B01160, B01215, B01237, U02087
 
@@ -2956,7 +2956,7 @@ Why held: B01157 `v. “31 ch.`: no numeral; and the target is a `ch.` line (rul
 
 Recommendation: yes (medium): U02087's cite reads `v. -a I ch.` in the hOCR; the `ch.` line is the maintainer's ruling 10-15.
 
-Applied in PR #n: your read is added to P000792–P000796; four are appendix rows, and P000794 (B01215) is held by the generator, not by evidence (`not traceable to source`).
+Applied in PR #193: your read is added to P000792–P000796; four are appendix rows, and P000794 (B01215) is held by the generator, not by evidence (`not traceable to source`).
 
 #### `קוּץ I`: S00534
 
@@ -2978,7 +2978,7 @@ Why held: S00534 `(b. h.; yip or "ppl)`: the numeral reads `l`.
 
 Recommendation: yes (medium): two other cites of `קוּץ I` read `I` in the hOCR (P000728, P000803, now in the appendix), and print sets `I` on S00528.
 
-Applied in PR #n: your read is added to P000804; an appendix row.
+Applied in PR #193: your read is added to P000804; an appendix row.
 
 #### Phantom sense boundaries, volume 1
 
@@ -3019,7 +3019,7 @@ PLEASE NOTE:  I AM HAVING BIDI ISSUES, SO FOR MY TRANSCRIPTIONS I AM REPLACING H
 
 Recommendation: yes (high): each `N)` follows a cross-reference whose parenthesis it closes, as in the 32 of this class whose hOCR reads it.
 
-Applied in PR #n: your transcriptions are added to P000195, P000203, P000206 and P000223, each mapped in the rationale: A00913 `XXX` = `אוֹר`; A03277 `XXXXX` = `אֵישׁוּת`, then `אֵשֶׁת`, `אוש`, `אשש`, `אשש`; B00656 `XXXXXX` = `בִּינִיתָא`, `XXX` = `בין`; I00149 `XXXXX` = `טפטפ׳`, `XXXXX` = `טִיפְטֵף` (you set no `=` before `טפטפ׳`, where Sefaria has one; the join does not touch it). Each `2)` closes a parenthesis, so the joins stand: three are appendix rows, and P000223 is held by the generator (`not traceable to source`).
+Applied in PR #193: your transcriptions are added to P000195, P000203, P000206 and P000223, each mapped in the rationale: A00913 `XXX` = `אוֹר`; A03277 `XXXXX` = `אֵישׁוּת`, then `אֵשֶׁת`, `אוש`, `אשש`, `אשש`; B00656 `XXXXXX` = `בִּינִיתָא`, `XXX` = `בין`; I00149 `XXXXX` = `טפטפ׳`, `XXXXX` = `טִיפְטֵף` (you set no `=` before `טפטפ׳`, where Sefaria has one; the join does not touch it). Each `2)` closes a parenthesis, so the joins stand: three are appendix rows, and P000223 is held by the generator (`not traceable to source`).
 
 #### A01194 `אֵיזֶה`: the `)` after `b. h.`
 
@@ -3041,7 +3041,7 @@ Why held: A01194 the Hebrew run is mirrored; the `)` the patch inserts is not re
 
 Recommendation: yes (high): every `(b. h.` etymology closes before the gloss.
 
-Applied in PR #n: your transcription is added to P000197: the `)` closes before `who?`, so the patch stands. Print also sets three Hebrew phrases inside the parenthesis (`XXXX-XX XX, XXX XXXX, XX XX`) that Sefaria lost and your `X`s cannot spell; they are not restored (review ledger L80), so the generator holds the row as partial.
+Applied in PR #193: your transcription is added to P000197: the `)` closes before `who?`, so the patch stands. Print also sets three Hebrew phrases inside the parenthesis (`XXXX-XX XX, XXX XXXX, XX XX`) that Sefaria lost and your `X`s cannot spell; they are not restored (review ledger L80), so the generator holds the row as partial.
 
 #### H00871 `חִירָה`: the two `Ib.` after the Mekhilta
 
@@ -3063,7 +3063,7 @@ Why held: H00871 the `Ib.` is there, but a link target is not something print sh
 
 Recommendation: no (medium): `Ib.` after `Mekh. B’shall. s. 1` reads as the Mekhilta; the `Ex. XIV, 2` is inside its parenthesis.
 
-Applied in PR #n: P000221 is withdrawn, so both `Ib.` are bare again, as Sefaria has them: Sefaria leaves the `Mekh.` cite itself unlinked, so there is no Mekhilta ref to re-aim them at. The two units that began at the Exodus links fold back into the gloss; the text is unchanged.
+Applied in PR #193: P000221 is withdrawn, so both `Ib.` are bare again, as Sefaria has them: Sefaria leaves the `Mekh.` cite itself unlinked, so there is no Mekhilta ref to re-aim them at. The two units that began at the Exodus links fold back into the gloss; the text is unchanged.
 
 #### `refs` items with no basis in the entry
 
@@ -3097,7 +3097,7 @@ Why held: D00541 an absent citation: no hOCR line can show that print does not c
 
 Recommendation: no (high): the review of 2026-08-05 checked each entry's text, `Ib.` included; the scan read only confirms it.
 
-Applied in PR #n: your read is added to P000217 and P000264; both removals stand and are appendix rows. M01355 is held: you ticked both boxes, and the entry's own text, after `Y. R. Hash. II, 58ᵃ top`, reads `(Bab. ib. 23ᵇ; Tosef. ib. II (I), 2 …)`, which is the Bavli Rosh Hashanah 23b the `refs` item names. P000232 takes no evidence (review ledger L82), and the question is back in the checklist. The Yerushalmi cite is plain text, not a link, so there is nothing to re-aim.
+Applied in PR #193: your read is added to P000217 and P000264; both removals stand and are appendix rows. M01355 is held: you ticked both boxes, and the entry's own text, after `Y. R. Hash. II, 58ᵃ top`, reads `(Bab. ib. 23ᵇ; Tosef. ib. II (I), 2 …)`, which is the Bavli Rosh Hashanah 23b the `refs` item names. P000232 takes no evidence (review ledger L82), and the question is back in the checklist. The Yerushalmi cite is plain text, not a link, so there is nothing to re-aim.
 
 #### `בַּד V` (B00098) and the link that names it (B00097)
 
@@ -3126,7 +3126,7 @@ Why held: B00098 the bold headword is not read; no `V`; B00097 rests on B00098's
 
 Recommendation: yes (high): the doubled space is a data slip, and B00097 cites it as `next w.`.
 
-Applied in PR #n: your read is added to P000290 and P000306; both stand and are appendix rows. Why it was flagged: neither rationale named a print read, and P000306 rests on B00098's `V`. Your `IV` is B00097's own numeral (`בַּד IV`); its `next w.` is B00098 `בַּד V`, which the link names.
+Applied in PR #193: your read is added to P000290 and P000306; both stand and are appendix rows. Why it was flagged: neither rationale named a print read, and P000306 rests on B00098's `V`. Your `IV` is B00097's own numeral (`בַּד IV`); its `next w.` is B00098 `בַּד V`, which the link names.
 
 #### A stray comma before the numeral
 
@@ -3160,7 +3160,7 @@ Why held: B00443 `NON FS, I mn.`: the headword and numeral are misread; C00329 `
 
 Recommendation: yes (high): the entry before or after carries the other numeral of the pair.
 
-Applied in PR #n: P000291–P000293 are withdrawn, so the comma returns to `display` (`{0} , II`, `{0} , I`, with Sefaria's space before it: review ledger L84); forms, numerals and names are unchanged. Ruling HW-h1-sep's stray-comma half is reversed in `docs/decisions.md`.
+Applied in PR #193: P000291–P000293 are withdrawn, so the comma returns to `display` (`{0} , II`, `{0} , I`, with Sefaria's space before it: review ledger L84); forms, numerals and names are unchanged. Ruling HW-h1-sep's stray-comma half is reversed in `docs/decisions.md`.
 
 #### A gloss comma inside the headword
 
@@ -3194,7 +3194,7 @@ Why held: A02356 no readable head line; B00407 no readable head line; D00844 no 
 
 Recommendation: yes (high): the gloss is the cross-reference `v. … I, II`.
 
-Applied in PR #n: P000294–P000296 are withdrawn. They dropped the comma your note places in the headword line: the gloss begins ` v.`, so the entries read `X I, II v. …`. Without them the source line parses as `{0} I, II,`, the comma back in the bold line; names are unchanged.
+Applied in PR #193: P000294–P000296 are withdrawn. They dropped the comma your note places in the headword line: the gloss begins ` v.`, so the entries read `X I, II v. …`. Without them the source line parses as `{0} I, II,`, the comma back in the bold line; names are unchanged.
 
 #### `X = Y` heads
 
@@ -3222,7 +3222,7 @@ Why held: A01175 no readable head line; A01345 no readable head line.
 
 Recommendation: yes (high): `=` introduces a gloss throughout the dictionary.
 
-Applied in PR #n: P000309 and P000310 are amended in place: X stays the one headword and `= Y` is a cross-reference in the gloss head, now linked: A01175's `אֶדְרְעָא` to A00477 (`אֶדְרַע, אֶדְרְעָא`), A01345's `הִמְנוֹן` to E00628; the rationales say "a reference, not a gloss" and carry your read (case 1). The generator holds both as `not mechanical for op`, as before.
+Applied in PR #193: P000309 and P000310 are amended in place: X stays the one headword and `= Y` is a cross-reference in the gloss head, now linked: A01175's `אֶדְרְעָא` to A00477 (`אֶדְרַע, אֶדְרְעָא`), A01345's `הִמְנוֹן` to E00628; the rationales say "a reference, not a gloss" and carry your read (case 1). The generator holds both as `not mechanical for op`, as before.
 
 ## Textual-research candidates (for #153)
 

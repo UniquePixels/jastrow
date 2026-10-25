@@ -1,7 +1,7 @@
 # Retired patch records (2026-10-25)
 
 `reviewed/patches.jsonl` holds the 8 reviewed patches that left
-`admin/pipeline/patch/records/reviewed/patches.jsonl` in PR #n
+`admin/pipeline/patch/records/reviewed/patches.jsonl` in PR #193
 (checklist batch 2, review ledger L71, L77, L79), each withdrawn on the
 maintainer's scan read of 2026-10-25
 ([`docs/headword-worklist.md`](../../headword-worklist.md) § Applied

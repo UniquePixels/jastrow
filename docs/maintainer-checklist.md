@@ -2,7 +2,7 @@
 
 One section waits on you as of 2026-10-25: [Scan reads for the
 Sefaria appendix (2026-10-22)](#scan-reads-for-the-sefaria-appendix-2026-10-22),
-now 2 blocks (review ledger L71, L82, L83). PR #n applied the other
+now 2 blocks (review ledger L71, L82, L83). PR #193 applied the other
 29 blocks; they are in [`headword-worklist.md`](headword-worklist.md)
 § Applied from the maintainer checklist (2026-10-25). Held: § Two
 spellings in one form (5 patches), whose display needs a rule change
@@ -35,11 +35,11 @@ worklists ([`headword-worklist.md`](headword-worklist.md),
 
 | section | items | source PR | ledger row |
 |---|---|---|---|
-| [Scan reads for the Sefaria appendix (2026-10-22)](#scan-reads-for-the-sefaria-appendix-2026-10-22) | 2 blocks, 6 patches (29 of the first 30 applied in PR #n) | #192, #n | L71, L82, L83 |
+| [Scan reads for the Sefaria appendix (2026-10-22)](#scan-reads-for-the-sefaria-appendix-2026-10-22) | 2 blocks, 6 patches (29 of the first 30 applied in PR #193) | #192, #193 | L71, L82, L83 |
 
 ## Scan reads for the Sefaria appendix (2026-10-22)
 
-Review ledger L71, PR #192; PR #n applied 29 of the 30 blocks and 60 of the 66 patches (in [`headword-worklist.md`](headword-worklist.md) § Applied from the maintainer checklist (2026-10-25)). Two blocks are left: the five two-spelling headwords, held for a rule, and M01355's `refs` item, asked again.
+Review ledger L71, PR #192; PR #193 applied 29 of the 30 blocks and 60 of the 66 patches (in [`headword-worklist.md`](headword-worklist.md) § Applied from the maintainer checklist (2026-10-25)). Two blocks are left: the five two-spelling headwords, held for a rule, and M01355's `refs` item, asked again.
 
 The hOCR is verbatim, invisible bidi marks included. Volume 1 is
 Tesseract (Hebrew runs mirrored, `I` read as `1` or `l`); volume 2 is
@@ -94,7 +94,7 @@ Why held: I00158 `FIPS £. (PS) spinning`: the two forms are not read; I00654 no
 
 Recommendation: yes (high): two complete spellings of one word, as the forms around them are set.
 
-**Held in PR #n.** Your notes are read, with your gut and its analysis: store every spelling as a form, so each is a lookup key, and set `display` to print's layout, with `or` as literal text where print sets it. The entry contract accepts that (`admin/entry/headword-rules.ts`), but the import's gate 2 does not: a template a patch supplies must keep the line's notation, and `or` is a word the source line does not carry (`gates.ts`, `checkHeadwordLine`; a probe of I00158's `{0} or {1}, {2}` fails with `[] → [or×1]`). The smallest change is to let `or` pass that count the way the comma does, with a ruling first (review ledger L83; the change and a test sketch are in the tranche README [`checklist-batch-2-2026-10-25`](../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md) § E). Your `X` runs, mapped to the stored forms by word count and order:
+**Held in PR #193.** Your notes are read, with your gut and its analysis: store every spelling as a form, so each is a lookup key, and set `display` to print's layout, with `or` as literal text where print sets it. The entry contract accepts that (`admin/entry/headword-rules.ts`), but the import's gate 2 does not: a template a patch supplies must keep the line's notation, and `or` is a word the source line does not carry (`gates.ts`, `checkHeadwordLine`; a probe of I00158's `{0} or {1}, {2}` fails with `[] → [or×1]`). The smallest change is to let `or` pass that count the way the comma does, with a ruling first (review ledger L83; the change and a test sketch are in the tranche README [`checklist-batch-2-2026-10-25`](../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md) § E). Your `X` runs, mapped to the stored forms by word count and order:
 
 | rid | your line | forms, in order | print's display | stored today |
 |---|---|---|---|---|

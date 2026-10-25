@@ -92,7 +92,7 @@ print.
 ### Read against the patch (4): not amended
 
 Applied since: the maintainer's scan read of 2026-10-25 settled all
-five (with L79), and PR #n rewrote, widened or withdrew each; see
+five (with L79), and PR #193 rewrote, widened or withdrew each; see
 [`../checklist-batch-2-2026-10-25/`](../checklist-batch-2-2026-10-25/README.md).
 
 Review ledger L75–L78. Each is listed in the checklist's

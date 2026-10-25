@@ -90,7 +90,7 @@ by its patch id, or by its class when the row was first seen on or
 before the batch's date (a class sent once does not cover rows found
 later). A row with an empty `submitted_batch` is new since the last
 submission. The log is empty: nothing has been sent yet. **478 rows are
-ready to send** (generator, 2026-10-25, PR #n).
+ready to send** (generator, 2026-10-25, PR #193).
 
 **Each class below says what it is** for the submission:
 
@@ -154,7 +154,7 @@ on the scan) and `reviewed-join` (20 rows: the 36 cross-reference-form
 entries listed below, review doc 01, 2026-08-05). Their records named
 no print read until PR #192 quoted the hOCR line into 32 of them (review
 ledger L71); the other 4 took the maintainer's scan read of 2026-10-25
-(PR #n), each `N)` closing a cross-reference's parenthesis. Of the 36,
+(PR #193), each `N)` closing a cross-reference's parenthesis. Of the 36,
 20 are rows, 12 are held back as not traceable to Sefaria's string and
 4 as a join into the entry's own head.
 **Count:** 35 appendix rows; 16 `reviewed-join` in the review list
@@ -214,7 +214,7 @@ stored twice), `continuation-marker-fully-absent` (5) and
 2026-10-10/11), and `reviewed-replace` (14 rows: review doc 01's
 reinsertions and review doc 02's bare-citation wraps, whose hOCR line
 PR #192 quoted, review ledger L71, and the two the hOCR read against,
-rewritten from the maintainer's scan read of 2026-10-25, PR #n: the
+rewritten from the maintainer's scan read of 2026-10-25, PR #193: the
 example below, review ledger L75, and Q02162's verse, L76). Of the
 others, 3 are held back as not traceable, A01194's `(b. h.)` as partial
 (print's Hebrew inside the parenthesis is not restored, L80), D00341's
@@ -232,7 +232,7 @@ number is `—2)`. Print sets the page `261)` and then the marker:
 the hOCR reads `Onom.; Neub. Géogr. p. 18; 261) 1) Ulam (Porta) a place`
 (26a · leaf 49). The marker `1)` is lost, not fused. (Our reviewed
 patch P000194 read `261)` as page `26` and a fused `1)`; the maintainer's
-scan read of 2026-10-25 confirms the hOCR, and PR #n rewrote the patch
+scan read of 2026-10-25 confirms the hOCR, and PR #193 rewrote the patch
 to `261)` → `261) 1)`: the row is in the appendix, review ledger L75.)
 
 **Fix (this entry), as the hOCR reads it:**
@@ -464,7 +464,7 @@ entry headword (dangling internal links). List available on request.
 
 **Status:** rows: appendix class `reviewed-unref` (2 rows: D00541,
 Q00890, each confirmed by the maintainer's scan read of 2026-10-25, PR
-#n). The third, M01355's, is held: its entry cites the place after all
+#193). The third, M01355's, is held: its entry cites the place after all
 (below; review ledger L82). **Count:** 2 appendix rows; 1 in the review
 list (generator, 2026-10-25).
 
@@ -493,7 +493,7 @@ hold in Sefaria's own data (among them every implied I that only our
 own correction numbers), the evidence is print: PR #192 quoted the
 cite's own hOCR line, with its numeral, into 16 (review ledger L71).
 The 38 that waited for a scan read took the maintainer's read of
-2026-10-25 (PR #n). U01063's retarget, which the hOCR read against, is
+2026-10-25 (PR #193). U01063's retarget, which the hOCR read against, is
 withdrawn: its `שֵׁירוּתָא II` names U01070, as Sefaria links it, and its
 unlinked `III` is now linked to U01071 (review ledger L77).
 **Count:** 273 appendix rows; 9 more in the review list, all not
@@ -726,7 +726,7 @@ is how we expect the rest of the class to surface.
 **Status:** rows: appendix classes `headword-numeral-dropped` (40 rows),
 `headword-numeral-in-gloss` (13 rows) and `headword-torn` (1 row), each
 from the maintainer's print read (2026-09-20, 2026-10-06, 2026-10-13,
-2026-10-22), and two headword-line slips of 2026-10-25 (PR #n):
+2026-10-22), and two headword-line slips of 2026-10-25 (PR #193):
 `headword-separator` (B00098's doubled space before `V`) and
 `headword-separator-anchor` (B00097's link that names that line).
 **Count:** 56 appendix rows (generator, 2026-10-25). 4 more are held back as not stated
