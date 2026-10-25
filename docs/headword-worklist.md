@@ -2360,7 +2360,7 @@ Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § X11: one-let
 
 Applied in PR #193: your ticks and notes in [`maintainer-checklist.md`](maintainer-checklist.md) § Scan reads for the Sefaria appendix (2026-10-22), recorded 2026-10-25 (`5c6c13369`), on 66 reviewed patches, listed block by block, with every `X` mapping, in [`checklist-batch-2-2026-10-25/`](../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md). Each block below is moved from the checklist byte for byte, and ends with what was written. 47 patches take your read as evidence, 5 are rewritten from it, 8 are withdrawn and 1 is new (P000931); the appendix goes from 431 to 478 rows, and `no print evidence` from 66 to 6. One entry takes a new name (A02823, `אַפְרִיקָא`); every gate is green.
 
-**From § Scan reads for the Sefaria appendix (2026-10-22): 29 of 30 blocks, with the section's introduction.** Still in the checklist: § Two spellings in one form (5 patches; the display it asks for needs a rule change, review ledger L83) and M01355's `refs` item (P000232, review ledger L82), asked again.
+**From § Scan reads for the Sefaria appendix (2026-10-22): 29 of 30 blocks, with the section's introduction.** Still in the checklist: § Two spellings in one form (5 patches; the display it asks for needs a rule change, review ledger L83) and M01355's `refs` item (P000232, review ledger L82), asked again. **Since PR #n, the 30th block too**, § Two spellings in one form, at the end of this section: four of its five patches are applied under ruling `10-25 display or`; A01161 (P000300) stays in the checklist.
 
 Review ledger L71, PR #192. The Sefaria appendix (`bun data:sefaria`)
 holds back a reviewed patch whose rationale names no print read
@@ -3160,7 +3160,7 @@ Why held: B00443 `NON FS, I mn.`: the headword and numeral are misread; C00329 `
 
 Recommendation: yes (high): the entry before or after carries the other numeral of the pair.
 
-Applied in PR #193: P000291–P000293 are withdrawn, so the comma returns to `display` (`{0} , II`, `{0} , I`, with Sefaria's space before it: review ledger L84); forms, numerals and names are unchanged. Ruling HW-h1-sep's stray-comma half is reversed in `docs/decisions.md`.
+Applied in PR #193: P000291–P000293 are withdrawn, so the comma returns to `display` (`{0} , II`, `{0} , I`, with Sefaria's space before it: review ledger L84); forms, numerals and names are unchanged. Ruling HW-h1-sep's stray-comma half is reversed in `docs/decisions.md`. Since PR #n, three new reviewed reforms (P000932–P000934, case 1) drop that space, as the hOCR sets the comma on the word: `{0}, II`, `{0}, II`, `{0}, I`; forms, numerals and names unchanged.
 
 #### A gloss comma inside the headword
 
@@ -3223,6 +3223,86 @@ Why held: A01175 no readable head line; A01345 no readable head line.
 Recommendation: yes (high): `=` introduces a gloss throughout the dictionary.
 
 Applied in PR #193: P000309 and P000310 are amended in place: X stays the one headword and `= Y` is a cross-reference in the gloss head, now linked: A01175's `אֶדְרְעָא` to A00477 (`אֶדְרַע, אֶדְרְעָא`), A01345's `הִמְנוֹן` to E00628; the rationales say "a reference, not a gloss" and carry your read (case 1). The generator holds both as `not mechanical for op`, as before.
+
+#### Two spellings in one form
+
+Covers 5 patches (P000297, P000298, P000299, P000300, P000301). The patches' claim: print sets the two spellings as two forms, a comma between them.
+
+| rid | Sefaria's text | hOCR, verbatim | scan |
+|---|---|---|---|
+| [I00158](https://jastrow.app/#rid:I00158) | `טְוִיָּיה טְוִיָּה` (alt `טְוִויָּה`) | `FIPS £. (PS) spinning, Babb, 74".‏ > ח` | [523b · leaf 546](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$547/full/1400,/0/default.jpg) |
+| [I00654](https://jastrow.app/#rid:I00654) | `טְפֵילָה טְפֵילָא` | no readable line | [547a · leaf 570](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$571/full/1400,/0/default.jpg) |
+| [M02116](https://jastrow.app/#rid:M02116) | `מַעְיָינָא מַעְיָנָא` | `fcO^Q S j"^Q ch. same, belly, ivomb, bowels. Targ.` | [816a · leaf 139](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$140/full/1400,/0/default.jpg) |
+| [A01161](https://jastrow.app/#rid:A01161) | `אֵידֵין` (alt `אֵידְנָא, אַיְידָא אֵידָא, (אַיְידִי)`) | no readable line | [45a · leaf 68](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$69/full/1400,/0/default.jpg) |
+| [M02868](https://jastrow.app/#rid:M02868) | `מְשֵׁיזֵב` (alt `מְשֵׁיזְבָא מְשֵׁיזִיב`) | no readable line | [852a · leaf 175](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$176/full/1400,/0/default.jpg) |
+
+Why held: I00158 `FIPS £. (PS) spinning`: the two forms are not read; I00654 no readable head line; M02116 `fcO^Q S j"^Q ch. same`: the two forms are not read; A01161 no readable head line; M02868 no readable head line.
+
+**Question.** Does print separate the two spellings with a comma?
+
+- **I00158** (P000297)
+  - [ ] yes: two forms
+  - [ ] no: print sets them as stored
+  - [ ] can't tell from the scan
+  - note: XXX or XXX, XXXX m. ...  ( I need your anaylsis here, but my gut feeling, especially for indexing is to list as alt, but set display as print)
+- **I00654** (P000298)
+  - [ ] yes: two forms
+  - [ ] no: print sets them as stored
+  - [ ] can't tell from the scan
+  - note: XXXXX XXXXX, v. ....
+- **M02116** (P000299)
+  - [ ] yes: two forms
+  - [ ] no: print sets them as stored
+  - [ ] can't tell from the scan
+  - note: XXXX, XXXXX m. ....
+- **A01161** (P000300)
+  - [ ] yes: two forms
+  - [ ] no: print sets them as stored
+  - [ ] can't tell from the scan
+  - note: XXXXX m., XXXX XXXXX (XXXXX) XXXXX f. ....
+- **M02868** (P000301)
+  - [ ] yes: two forms
+  - [ ] no: print sets them as stored
+  - [ ] can't tell from the scan
+  - note: XXXX, XXXXXX, XXXXXX m. ....
+
+Recommendation: yes (high): two complete spellings of one word, as the forms around them are set.
+
+**Held in PR #193.** Your notes are read, with your gut and its analysis: store every spelling as a form, so each is a lookup key, and set `display` to print's layout, with `or` as literal text where print sets it. The entry contract accepts that (`admin/entry/headword-rules.ts`), but the import's gate 2 does not: a template a patch supplies must keep the line's notation, and `or` is a word the source line does not carry (`gates.ts`, `checkHeadwordLine`; a probe of I00158's `{0} or {1}, {2}` fails with `[] → [or×1]`). The smallest change is to let `or` pass that count the way the comma does, with a ruling first (review ledger L83; the change and a test sketch are in the tranche README [`checklist-batch-2-2026-10-25`](../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md) § E). Your `X` runs, mapped to the stored forms by word count and order:
+
+| rid | your line | forms, in order | print's display | stored today |
+|---|---|---|---|---|
+| I00158 | `XXX or XXX, XXXX m. ...` | `טְוִיָּיה`, `טְוִיָּה`, `טְוִויָּה` | `{0} or {1}, {2}` (needs the rule) | `{0}, {1}, {2}` |
+| I00654 | `XXXXX XXXXX, v. ....` | `טְפֵילָה`, `טְפֵילָא` (no comma between; `, v.` is the gloss) | `{0} {1}` | `{0}, {1}` |
+| M02116 | `XXXX, XXXXX m. ....` | `מַעְיָינָא`, `מַעְיָנָא` | `{0}, {1}` | the same |
+| M02868 | `XXXX, XXXXXX, XXXXXX m. ....` | `מְשֵׁיזֵב`, `מְשֵׁיזְבָא`, `מְשֵׁיזִיב` | `{0}, {1}, {2}` | the same |
+| A01161 | `XXXXX m., XXXX XXXXX (XXXXX) XXXXX f. ....` | `אֵידֵין`, then `אֵידָא` (the one four-letter form), then `אֵידְנָא` or `אַיְידָא`, `(אַיְידִי)`, and the other | not settled | `{0}, {1}, {2}, {3}, ({4})` |
+
+I00158: your line has `m.`, the entry's gloss `f.` (`f. (טָוָה) spinning`).
+
+**Question 1.** May `display` carry print's `or` between two spellings (a ruling, then the gate change with its tests)?
+
+- [ ] yes: allow `or`; a PR writes I00158 `{0} or {1}, {2}`, I00654 `{0} {1}`, and confirms M02116 and M02868 as stored
+- [ ] no: keep `or` out of `display`; a PR writes I00654 `{0} {1}`, confirms M02116 and M02868, and leaves I00158 as stored
+- note:
+
+**Question 2.** A01161: which form stands right after `אֵידָא`, before `(אַיְידִי)`?
+
+- [ ] `אֵידְנָא` (then `(אַיְידִי) אַיְידָא f.`)
+- [ ] `אַיְידָא` (then `(אַיְידִי) אֵידְנָא f.`)
+- [ ] can't tell from the scan
+- note:
+
+Recommendation: yes on 1 (medium): `or` is print's own word between spellings, and it is the only literal the change admits; 2 is yours to read.
+
+Applied in PR #n, under ruling `10-25 display or` (`docs/decisions.md`; the maintainer ruled 2026-10-25 for Question 1's yes: every spelling a form, `display` in print's layout with ` or ` as literal text). Gate 2 now counts the run ` or ` as a separator it skips, as it skips the comma (`notationOf`, `admin/pipeline/import/gates.ts`). Your read is added to the four patches below (case 1: Sefaria fused the spellings, print is right, no annotation), each with its `X` mapping; the tranche README is [`display-or-2026-10-25/`](../admin/pipeline/patch/records/tranches/display-or-2026-10-25/README.md).
+
+- **I00158** (P000297): payload rewritten to the forms as stored, `טְוִיָּיה`, `טְוִיָּה`, `טְוִויָּה`, with display `{0} or {1}, {2}` (was `{0}, {1}, {2}`). Three runs, three forms, in order. Your `m.` against the stored `f.` is left as stored.
+- **I00654** (P000298): the same forms, `טְפֵילָה`, `טְפֵילָא`, with display `{0} {1}` (was `{0}, {1}`). Two runs of five, two five-letter forms, in order; `, v.` is the gloss.
+- **M02116** (P000299) and **M02868** (P000301): confirmed; their entries already show print's layout (`{0}, {1}`, `{0}, {1}, {2}`). Both patches are kept with their payloads unchanged, because each is what splits the fused spellings into forms; your read is their evidence, and M02868's is now an appendix row.
+- **A01161** (P000300): still in the checklist, Question 2 only (review ledger L83): the order of `אֵידְנָא` and `אַיְידָא` is not settled by the `X` runs.
+
+No name changes: every `headwords[0]` is the one stored. The appendix goes from 478 to 479 rows (P000301); `no print evidence` goes from 6 to 2 (P000232, P000300). I00158, I00654 and M02116 are held back as `not mechanical for op` (their reforms change the headword and the number of forms together, or set a layout).
 
 ## Textual-research candidates (for #153)
 

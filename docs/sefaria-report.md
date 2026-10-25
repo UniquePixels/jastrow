@@ -89,8 +89,8 @@ comes). The generator marks every row a batch names with that batch:
 by its patch id, or by its class when the row was first seen on or
 before the batch's date (a class sent once does not cover rows found
 later). A row with an empty `submitted_batch` is new since the last
-submission. The log is empty: nothing has been sent yet. **478 rows are
-ready to send** (generator, 2026-10-25, PR #193).
+submission. The log is empty: nothing has been sent yet. **479 rows are
+ready to send** (generator, 2026-10-25, PR #n).
 
 **Each class below says what it is** for the submission:
 
@@ -731,12 +731,20 @@ is how we expect the rest of the class to surface.
 from the maintainer's print read (2026-09-20, 2026-10-06, 2026-10-13,
 2026-10-22), and two headword-line slips of 2026-10-25 (PR #193):
 `headword-separator` (B00098's doubled space before `V`) and
-`headword-separator-anchor` (B00097's link that names that line).
-**Count:** 56 appendix rows (generator, 2026-10-25). 4 more are held back as not stated
+`headword-separator-anchor` (B00097's link that names that line),
+and `headword-two-forms` (M02868's alternate `מְשֵׁיזְבָא מְשֵׁיזִיב`,
+two spellings print separates with a comma; the maintainer's read of
+2026-10-25, PR #n).
+**Count:** 57 appendix rows (generator, 2026-10-25). 10 more are held back as not stated
 mechanically: two set a layout of parentheses around a form (U01268,
 V00522) that Sefaria's `headword` and `alt_headwords` cannot hold one
-field at a time, and two rejoin a torn headword while changing the
-number of forms (Q00752, U00489). S01780 is held back too: its final
+field at a time, two rejoin a torn headword while changing the
+number of forms (Q00752, U00489), three split two fused spellings:
+I00654 and M02116 change the headword and the number of forms
+together, and I00158's template sets print's `or` between them; and
+three change only our `display`, dropping Sefaria's space before the
+comma of `X , II` (B00443, C00329, M00447), a reform that changes no
+form. S01780 is held back too: its final
 spelling is our best reading of illegible print.
 
 Print sets a homograph numeral on the headword line (`שְׁבַע I, שׁוּבַע

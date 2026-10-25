@@ -221,6 +221,10 @@ are unaffected. Ruling HW-h1-sep's stray-comma half is reversed in
 
 ## E. Two spellings in one form: held (5)
 
+**Since PR #n** (ruling `10-25 display or`, tranche
+[`display-or-2026-10-25`](../display-or-2026-10-25/README.md)): four
+of the five are applied, and A01161 (P000300) stays held.
+
 The maintainer's gut, which the brief endorsed: store every spelling as
 a form (each a lookup key) and set `display` to print's layout, with
 `or` as literal text where print has it. The entry contract accepts
