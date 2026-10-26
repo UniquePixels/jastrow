@@ -24,6 +24,10 @@
 import { readdirSync } from 'node:fs';
 import { HOCR_DIR } from '../paths.ts';
 
+/** The shortest quote that can locate anything: a marker like `1)` or
+ * an OCR `l)` occurs on nearly every leaf, so it witnesses nothing. */
+const MIN_QUOTE = 12;
+
 /** The two Internet Archive items the page index is pinned to, by
  * volume. */
 const HOCR_ITEMS: Readonly<Record<1 | 2, string>> = {
@@ -117,7 +121,7 @@ function chunkPath(
 			return `${dir}/${name}`;
 		}
 	}
-	return;
+	return undefined;
 }
 
 /** The text lines of one leaf of one volume's hOCR, or `undefined`
@@ -157,4 +161,4 @@ function quoteOnLeaf(lines: readonly string[], quote: string): boolean {
 	return needle !== '' && collapse(lines.join(' ')).includes(needle);
 }
 
-export { HOCR_ITEMS, leafLines, quoteOnLeaf };
+export { HOCR_ITEMS, leafLines, MIN_QUOTE, quoteOnLeaf };

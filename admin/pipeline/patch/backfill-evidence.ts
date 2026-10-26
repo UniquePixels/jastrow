@@ -52,7 +52,7 @@ import {
 	PRINT_READ,
 	READ_DATE,
 } from '../report/sefaria-evidence.ts';
-import { leafLines, quoteOnLeaf } from './hocr.ts';
+import { leafLines, MIN_QUOTE, quoteOnLeaf } from './hocr.ts';
 import {
 	leafOutsideEntry,
 	type PageLookup,
@@ -82,10 +82,6 @@ const COMPANION_READ = /^Companion to (?<id>P\d{6}) \(same print read\b/u;
  * …`, `(hOCR, 62a · leaf 85, 2026-10-22): "…"`, `the hOCR reads it so
  * (26a · leaf 49: "…"`). */
 const HOCR_INTRO = /\bhOCR\b[^`"]{0,60}?:\s*(?=[`"])/u;
-/** The shortest quote that can locate anything: a marker like `1)` or
- * an OCR `l)` occurs on nearly every leaf, so it witnesses nothing. */
-const MIN_QUOTE = 12;
-
 type Raw = Record<string, unknown> & {
 	annotation?: { evidence: string };
 	id: string;

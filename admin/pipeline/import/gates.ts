@@ -14,7 +14,7 @@ import {
 	schemaValidator,
 	validateCorpus,
 } from '../../entry/validate.ts';
-import { quoteOnLeaf } from '../patch/hocr.ts';
+import { MIN_QUOTE, quoteOnLeaf } from '../patch/hocr.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import type { BodyEntry, SourceEntry } from '../types.ts';
 import { linkKey } from './cite.ts';
@@ -754,6 +754,11 @@ function quoteProblems(
 	where: string,
 	quote: string,
 ): string[] {
+	if (quote.trim().length < MIN_QUOTE) {
+		return [
+			`the quote is under ${MIN_QUOTE} characters and locates nothing: "${quote}"`,
+		];
+	}
 	if (lines === undefined) {
 		return [`the hOCR has no ${where}`];
 	}

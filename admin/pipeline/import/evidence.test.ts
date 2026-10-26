@@ -66,6 +66,12 @@ type Located = readonly [
 const LOCATED: readonly Located[] = [
 	['an hOCR line on its leaf', hocr(85, '928 2) affliction'), true, ''],
 	[
+		'an hOCR quote too short to locate',
+		hocr(85, '928 2)'),
+		false,
+		'the quote is under 12 characters',
+	],
+	[
 		'an hOCR quote the leaf lacks',
 		hocr(85, '928 2) afflictions'),
 		false,

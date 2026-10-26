@@ -237,9 +237,11 @@ survivors follow, the 51 hOCR-only (H1, H2) before the rest. The
 signatures this table replaces: no print evidence at all, 253; class A
 survivors, 65 (51 hOCR-only, 9 maintainer read, 5 conventions).
 
-- [ ] Batch the 166 cite-retargets by family; each needs a print read
-      or an explicit "text-only, accepted" evidence kind. Batches
-      C1–C5.
+- [ ] Batch the 166 cite-retargets by family; each is a `replace` of a cite, so it
+      needs `maintainer-read`, `hOCR` (Latin text only) or
+      `jastrow-text` evidence (the target entry's own numeral), or is
+      withdrawn; a batch never leaves a member `sefaria-only` without
+      `pending`. Batches C1–C5.
 - [ ] Re-read the 65 class-A survivors against a scan crop (the 51
       hOCR-only ones first). Batches H1–H3.
 - [ ] Re-read the 66 doc-08-seed patches. Batch D1.
