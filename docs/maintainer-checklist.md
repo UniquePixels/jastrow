@@ -64,7 +64,7 @@ Your note: `XXXXX m., XXXX XXXXX (XXXXX) XXXXX f. ....`. Five runs, five forms, 
 
 - **A01161** (P000300)
   - [ ] `אֵידְנָא` (then `(אַיְידִי) אַיְידָא f.`)
-  - [ ] `אַיְידָא` (then `(אַיְידִי) אֵידְנָא f.`)
+  - [x] `אַיְידָא` (then `(אַיְידִי) אֵידְנָא f.`)
   - [ ] can't tell from the scan
   - note:
 
@@ -83,9 +83,9 @@ Why asked again: right after the Yerushalmi you found, the entry cites `Bab. ib.
 **Question.** Does print read `(Bab. ib. 23ᵇ; …)` after `Y. R. Hash. II, 58ᵃ top`?
 
 - **M01355** (P000232)
-  - [ ] yes: `Bab. ib. 23ᵇ` (the removal is wrong; a PR withdraws P000232)
+  - [x] yes: `Bab. ib. 23ᵇ` (the removal is wrong; a PR withdraws P000232)
   - [ ] no: print cites no Bavli 23b (the removal stands; say what it reads in the note)
   - [ ] can't tell from the scan
-  - note:
+  - note: Yup that one is totaly on me, I missed that!
 
 Recommendation: yes (high): the cite is in Sefaria's own text of the entry, and `ib.` there can only be Rosh Hashanah.
