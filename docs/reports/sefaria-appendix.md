@@ -6,7 +6,7 @@ The rows are `sefaria-appendix.csv`; every patch a filter refused is
 in `sefaria-review.csv` with its reason. The filters, and how to read
 a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 
-**479 rows** (479 new, 0 submitted); 288 patches in the review list.
+**479 rows** (479 new, 0 submitted); 289 patches in the review list.
 
 ## Rows by class
 
@@ -39,7 +39,7 @@ a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 | reason | patches |
 |---|---|
 | convention or our structure | 194 |
-| not traceable to source | 54 |
+| not traceable to source | 55 |
 | not mechanical for op | 20 |
 | our correction (annotated) | 12 |
 | partial: print not fully restored | 3 |

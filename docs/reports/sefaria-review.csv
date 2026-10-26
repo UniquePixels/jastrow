@@ -269,6 +269,7 @@ patch_id,rid,class,op,reason,detail
 "P000790","V01117","cross-reference-target","replace","not traceable to source","the find and its context are not once in the raw record"
 "P000794","B01215","cross-reference-target","replace","not traceable to source","the find and its context are not once in the raw record"
 "P000827","S01040","reviewed-replace","replace","not traceable to source","the find and its context are not once in the raw record"
+"P000935","A00675","missing-number","split","not traceable to source","the find and its context are not once in the raw record"
 "P000588","S01780","headword-torn","reform","our correction (10-13 case 2/3/4)","case 4"
 "P000209","B01321","reviewed-retag","retag","our correction (annotated)","print-error annotation"
 "P000212","C01169","reviewed-retag","retag","our correction (annotated)","print-error annotation"

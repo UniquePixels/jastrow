@@ -203,6 +203,58 @@ describe('split', () => {
 	});
 });
 
+describe('split after a digit (L81)', () => {
+	// A numbered marker `N)` is not a marker when a digit stands right
+	// before its numeral: then it is the tail of a longer number. Print
+	// sets A00675's page `261)` and then the marker `1)`; the `1)` of
+	// the page is no marker, so the split's marker is there once.
+	const one = (definition: string): SourceEntry => ({
+		content: { senses: [{ definition }] },
+		headword: 'x',
+		rid: 'T00001',
+	});
+	const splitAt = (definition: string, marker: string): SourceSense[] =>
+		applyPatch(
+			one(definition),
+			patchFor(definition, '', { op: 'split', payload: { marker } }),
+		).content.senses;
+
+	it('splits `261) 1) Ulam` once, at the second `1)`', () => {
+		const text = 'Neub. Géogr. p. 18; 261) 1) <i>Ulam</i> (Porta) a place';
+		expect(splitAt(text, '1)')).toEqual([
+			{ definition: 'Neub. Géogr. p. 18; 261) ' },
+			{ definition: ' <i>Ulam</i> (Porta) a place', number: '1)' },
+		]);
+	});
+
+	it('still refuses two real markers', () => {
+		expect(() => splitAt('1) a. Ber. 6ᵇ; 1) b.', '1)')).toThrow(
+			'occurs 2 times',
+		);
+	});
+
+	it('still splits `26 1)`, the page and the marker apart', () => {
+		expect(splitAt('p. 18; 26 1) <i>Ulam</i>', '1)')).toEqual([
+			{ definition: 'p. 18; 26 ' },
+			{ definition: ' <i>Ulam</i>', number: '1)' },
+		]);
+	});
+
+	it('leaves a `—1)` after a digit a marker: the dash opens it', () => {
+		expect(splitAt('Ib. 5—1) to go.', '—1)')).toEqual([
+			{ definition: 'Ib. 5' },
+			{ definition: ' to go.', number: '—1)' },
+		]);
+	});
+
+	it('refuses a marker that is only ever the tail of a number', () => {
+		expect(() => splitAt('p. 18; 261) <i>Ulam</i>', '1)')).toThrow(
+			'occurs 0 times',
+		);
+		expect(() => splitAt('Ber. 11) x', '1)')).toThrow('occurs 0 times');
+	});
+});
+
 describe('split at a starred marker', () => {
 	// L36: print's starred sense marker (`—*2)`, ruling 10-04 sense
 	// star) left inside a definition. The star is cut out of the text

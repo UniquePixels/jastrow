@@ -628,7 +628,7 @@ The op grammar is `delete`, `join`, `move`, `nest`, `replace`,
 
 | Op | Target | What it does | `annotation` |
 |---|---|---|---|
-| `split` | `sense[…]` | cuts an in-text `—N)` run out as a sibling; print's star rides on the token (`—*2)`, L36) | never |
+| `split` | `sense[…]` | cuts an in-text `—N)` run out as a sibling; print's star rides on the token (`—*2)`, L36); an `N)` a digit precedes is the tail of a number (a page `261)`), not the marker, so it is neither counted nor cut (`markerOffsets`, L81) | never |
 | `join` | `sense[…]` | folds a sense back into the text it was cut from, with print's space before the numeral (L61) and after the `)` (L58) | never |
 | `nest` | `sense[…]` | moves a restarted list under a new unlabelled sibling | never |
 | `move` | `sense[…]` | moves an exact segment beside an anchor | never |

@@ -21,11 +21,16 @@ accepted patch already targets its exact `(rid, target)`.
 
 ## What is still here
 
-`patches.jsonl` holds the five patches the run carries and applies:
-P000018, P000025, P000027, P000031, P000050.
+`patches.jsonl` holds the four patches the run carries and applies:
+P000018, P000025, P000031, P000050. P000027 (A00675's `split` at `1)`,
+pinned to the `26 1)` text) was absorbed once PR #193 rewrote P000194
+to print's `261) 1)`, and retired in PR #n with its `repaired` record
+to [`docs/archive/patches-retired-2026-10-25/tranches/tranche-01/`](../../../../../../docs/archive/patches-retired-2026-10-25/README.md);
+the reviewed split P000935 takes its place (review ledger L81).
 
-`manifest.jsonl` holds 1,455 records — the sweep's judgment on every
-entry it read, less the 45 `repaired` records whose patches retired.
+`manifest.jsonl` holds 1,454 records — the sweep's judgment on every
+entry it read, less the 46 `repaired` records whose patches retired
+(45 on 2026-09-22, A00675's in PR #n).
 Nine of them are `needs_*` escalations that had carried a retired
 patch: the escalation, the rid and the disposition are untouched, and
 only the reference to the patch is gone. The retired patch's own text

@@ -266,6 +266,51 @@ describe('buildSefariaAppendix: one row per solid patch', () => {
 		expect(row?.corrected_text).toBe(row?.sefaria_text.replace('—2)', '‖—2)'));
 	});
 
+	it('locates a split’s marker as the patch does: never the tail of a number (L81)', () => {
+		// A raw record that holds print's `261) 1)`: the row cuts at the
+		// marker, not at the page's `1)`.
+		const def = 'Neub. Géogr. p. 18; 261) 1) <i>Ulam</i> (Porta) a place';
+		const split = patch({
+			expected_before: def,
+			op: 'split',
+			payload: { marker: '1)' },
+		});
+		const held = record('A00001', {
+			content: { senses: [{ definition: def }] },
+		});
+		const [row] = buildSefariaAppendix(inputs([held], [split])).rows;
+		expect(row?.sefaria_text).toContain('261) 1)');
+		expect(row?.corrected_text).toBe(
+			row?.sefaria_text.replace('261) 1)', '261) ‖1)'),
+		);
+		// A00675 as Sefaria holds it: the marker is not in the raw
+		// record at all (P000194 inserts it), so the split is not
+		// Sefaria's to fix and goes to review, never onto the page.
+		const lost = record('A00001', {
+			content: { senses: [{ definition: def.replace('261) 1)', '261)') }] },
+		});
+		const out = buildSefariaAppendix(inputs([lost], [split]));
+		expect(out.rows).toEqual([]);
+		expect(out.review[0]?.reason).toBe('not traceable to source');
+		// Two real markers are still not once.
+		const twice = '1) a. Ber. 6ᵇ; 1) b. Ib. 7ᵃ and more text here';
+		const both = buildSefariaAppendix(
+			inputs(
+				[record('A00001', { content: { senses: [{ definition: twice }] } })],
+				[
+					patch({
+						expected_before: twice,
+						op: 'split',
+						payload: { marker: '1)' },
+					}),
+				],
+			),
+		);
+		expect(both.review[0]?.detail).toBe(
+			'the find is not once in expected_before',
+		);
+	});
+
 	it('writes a retag on an unnumbered sense as (absent) → the number', () => {
 		const def = 'to move, shake, tremble. Pesik. R. s. 26';
 		const rec = record('A00001', {
