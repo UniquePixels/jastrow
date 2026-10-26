@@ -847,7 +847,10 @@ declares characters it does not remove, fails. The blessing's "Patch
 loss" line counts the patches that remove anything and the codepoints
 removed, reviewed and agent apart; an agent patch is counted and not
 gated, since the no-new-text floor holds it and no author stands
-behind its record. The field was backfilled on the 115 reviewed
+behind its record. `removes` and `TEXT_CHANGING` (10-26) answer
+different questions: a `retag` is not text-changing, since a label is
+not text, yet gate 12 still sees the label characters a retag takes
+out, and 30 retags declare them. The field was backfilled on the 115 reviewed
 records that remove characters, mechanically
 ([`removes-backfill-2026-10-26`](patch/records/tranches/removes-backfill-2026-10-26/README.md)).
 
