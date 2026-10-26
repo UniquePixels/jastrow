@@ -486,7 +486,7 @@ Expected first line: `32 6489`.
 - [ ] **Step 2: Write `research-backlog.md`**
 
 `git mv docs/v2/review-queue.md docs/v2/research-backlog.md`, then edit:
-- Title `# Research backlog`; intro: what research left open, hand-written, imported into the tracker once one is chosen and then archived with the rest of the research (maintainer, 2026-09-18); pipeline review items are in the generated [review-report.md](review-report.md), not here.
+- Title `# Research backlog`; intro: what research left open, hand-written, imported into the tracker once one is chosen and then archived with the rest of the research (maintainer, 2026-09-18); pipeline review items are in the generated [review-report.md](../../reports/review-report.md), not here.
 - Delete the old lists 1–4 and 9 (pipeline output now) and renumber 5–8 as 1–4; keep their text, counts and sources.
 - Keep the coverage section, dropping the "Detector rows" line of its first table.
 - Add `## Blocks the v2 cutover (step 11)`: one paragraph citing sweep-tiering T6 and the 2026-08-15 triage (spec §11 step 11), then the table from Step 1 with header `| Class | Route | Catalogued |`.

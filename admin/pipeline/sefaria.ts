@@ -93,15 +93,23 @@ async function readPages(): Promise<PageLookup> {
 	return { entries, leaves };
 }
 
+/** Builds the Sefaria appendix from the reviewed patches, the source,
+ * the page index and the submission log, and writes its CSV, its
+ * document and the review list under `docs/reports/`. */
 async function main(): Promise<void> {
 	const corpus = await loadReviewedCorpus();
 	const log = Bun.file(SEFARIA_SUBMISSIONS_PATH);
+	if (!(await log.exists())) {
+		throw new Error(
+			`${SEFARIA_SUBMISSIONS_PATH} is missing: the submission log must exist (empty when no batch has been sent)`,
+		);
+	}
 	const appendix = buildSefariaAppendix({
 		pages: await readPages(),
 		patches: corpus.patches,
 		snapshot: `sha256:${(await computeSnapshot()).combined}`,
 		source: await readRaw(),
-		submissions: parseSubmissions((await log.exists()) ? await log.text() : ''),
+		submissions: parseSubmissions(await log.text()),
 	});
 	await Bun.write(SEFARIA_APPENDIX_CSV, appendix.csv);
 	await Bun.write(SEFARIA_APPENDIX_DOC, appendix.doc);

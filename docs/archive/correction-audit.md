@@ -1,8 +1,8 @@
 # Correction audit under ruling 10-13
 
 This is the audit that ruling `10-13 correction policy`
-([`decisions.md`](decisions.md) §9) requires and
-[`admin/entry/ANNOTATIONS.md`](../admin/entry/ANNOTATIONS.md) §4 sized:
+([`decisions.md`](../decisions.md) §9) requires and
+[`admin/entry/ANNOTATIONS.md`](../../admin/entry/ANNOTATIONS.md) §4 sized:
 every population the ruling touches, row by row, with the disposition
 under the ruling's four cases and the patch a data PR writes for it.
 It is a hand-written audit, not a generated report, and it changes
@@ -65,7 +65,7 @@ end of §7.
 with a `display` and an annotation, the nine retired with a
 reviewed-kept record each, the ten retargets P000544–P000553, and
 `implied` retired from the contract. The tranche README,
-[`admin/pipeline/patch/records/tranches/implied-i-2026-10-14/`](../admin/pipeline/patch/records/tranches/implied-i-2026-10-14/README.md),
+[`admin/pipeline/patch/records/tranches/implied-i-2026-10-14/`](../../admin/pipeline/patch/records/tranches/implied-i-2026-10-14/README.md),
 records the result. One correction to the table below: the nine
 withdrawals change eight names, not nine. B00537's name is its primary
 `בִּיָּא`; its I was on the alternate `בִּיאָה`.
@@ -188,7 +188,7 @@ copy, and go in data PR (iv) with the same patch shape as the five.
 ## 2. RP8's implied `1)` (61 patches)
 
 **Done in PR #175** (data PR (ii);
-[`admin/pipeline/patch/records/tranches/rp8-marks-2026-10-14/`](../admin/pipeline/patch/records/tranches/rp8-marks-2026-10-14/README.md)):
+[`admin/pipeline/patch/records/tranches/rp8-marks-2026-10-14/`](../../admin/pipeline/patch/records/tranches/rp8-marks-2026-10-14/README.md)):
 24 retags annotated in place, 36 moved to `reviewed/` with their 37
 `implied-one` splits, D00072 converted (P000554, P000555); the
 blessing reads 66 annotations. Two corrections to what follows: the
@@ -303,14 +303,14 @@ other 57 keep their lead. No new op is needed.
 **Done in PR #176** (data PR (iii)): the 24 `retag`s are P000556–P000579,
 S01849's `replace` is P000580, and every list below now reads as its
 "after" column
-([tranche README](../admin/pipeline/patch/records/tranches/class3-renumber-2026-10-15/README.md)).
+([tranche README](../../admin/pipeline/patch/records/tranches/class3-renumber-2026-10-15/README.md)).
 The two searches, re-run there on the re-imported tree, find the same
 184 links and the same two hits.
 
 Ruling 10-13 flips class 3's "keep print's number": each run is
 renumbered, one annotation per changed label. The table reads the
 committed labels (they match the right-hand lists of
-[the class 3 README](../admin/pipeline/patch/records/tranches/class3-2026-10-12/README.md))
+[the class 3 README](../../admin/pipeline/patch/records/tranches/class3-2026-10-12/README.md))
 and renumbers every label after the doubled one to previous + 1. Each
 changed label is one reviewed `retag`, appended after the entry's
 splits (P000518–P000537) and targeting the source sense as they left
@@ -440,7 +440,7 @@ gloss head). Each block says so.
 **Done in PR #178** (data PR (v-a)): 196 retargets, P000595–P000790 on
 184 entries, each a `replace` of the source anchor as below, with no
 annotation
-([`tranches/cite-retargets-2026-10-15/`](../admin/pipeline/patch/records/tranches/cite-retargets-2026-10-15/README.md)).
+([`tranches/cite-retargets-2026-10-15/`](../../admin/pipeline/patch/records/tranches/cite-retargets-2026-10-15/README.md)).
 The set was recomputed at `b70aab115` by this section's predicate,
 which reproduces this table row for row at `98804214d`, and reads 215
 determined there. **Out, 10:** the ten of §1.2 (rows 3, 34, 44, 57,
@@ -461,7 +461,7 @@ the definition the first leaves. All 30 `†` keys resolved (gate 6).
 The predicate after: 287 cites → 91, 215 determined → 19.
 
 **The 16, done in PR #179** (data PR (v-b),
-[`tranches/language-reference-2026-10-15/`](../admin/pipeline/patch/records/tranches/language-reference-2026-10-15/README.md)).
+[`tranches/language-reference-2026-10-15/`](../../admin/pipeline/patch/records/tranches/language-reference-2026-10-15/README.md)).
 The 10 `language_reference` rows are retargeted by a `replace` on the
 new `language_reference:` target (review ledger L50; P000797–P000806),
 with H00355 and H00733 `חוּל I)` → H00319 from PR #177 (P000807,
@@ -808,7 +808,7 @@ The three unclassified:
    PR #187 (2026-10-22) applies the answers on all 26 left in the
    checklist: the 8 answered and the 18 that may rename an entry, 65
    reviewed patches (P000863–P000926 and P000929,
-   [`../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)):
+   [`../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/`](../../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)):
    34 cites re-aimed and 19 numerals print sets restored (case 1), 4
    numerals Jastrow's text names and N01120's `III` → `II` (case 2,
    annotated), 4 cites kept (case 3, `annotate`), and A00627's
@@ -819,7 +819,7 @@ The three unclassified:
 6. **P00790**, after L59. Done in PR #180: L59's mechanism is the new
    reviewed op `relabel`, and P000812 relabels the Hif. run
    (`docs/correction-audit.md` §4;
-   [`../admin/pipeline/patch/records/tranches/lettered-relabel-2026-10-16/`](../admin/pipeline/patch/records/tranches/lettered-relabel-2026-10-16/README.md)).
+   [`../admin/pipeline/patch/records/tranches/lettered-relabel-2026-10-16/`](../../admin/pipeline/patch/records/tranches/lettered-relabel-2026-10-16/README.md)).
    Blessing: 98 annotations written (96 print-error, 1 kept, 1
    illegible).
 7. **The group 11 data leftovers** (review ledger L36, L51, L57,
@@ -833,7 +833,7 @@ The three unclassified:
    print's space before the numeral as well as after it, which moves
    20 entries by one space each, no patch. Blessing: 99 annotations
    written (97 print-error, 1 kept, 1 illegible)
-   ([`../admin/pipeline/patch/records/tranches/leftovers-2026-10-16/`](../admin/pipeline/patch/records/tranches/leftovers-2026-10-16/README.md)).
+   ([`../admin/pipeline/patch/records/tranches/leftovers-2026-10-16/`](../../admin/pipeline/patch/records/tranches/leftovers-2026-10-16/README.md)).
 
 **Mechanisms the data PRs lack or must confirm:**
 

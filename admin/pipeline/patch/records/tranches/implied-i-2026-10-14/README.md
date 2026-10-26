@@ -1,6 +1,6 @@
 # Implied I under ruling 10-13 (2026-10-14)
 
-Data PR (i) of [`docs/correction-audit.md`](../../../../../../docs/correction-audit.md)
+Data PR (i) of [`docs/archive/correction-audit.md`](../../../../../../docs/archive/correction-audit.md)
 §7, PR #174. It settles the 14 implied Is that PR #155 set (P000342–P000355,
 [`../headword-print-read-2026-10-06/`](../headword-print-read-2026-10-06/README.md))
 against the amended ruling, retargets the 10 cross-references that
@@ -24,7 +24,7 @@ Jastrow's, so the retarget is case 1: corrected silently, the patch
 
 Print sets no numeral beside any of the 14: the maintainer read every
 one on 2026-10-06 ("no numeral beside it"). The audit
-([`correction-audit.md`](../../../../../../docs/correction-audit.md)
+([`correction-audit.md`](../../../../../../docs/archive/correction-audit.md)
 §1) collected every `<cite>` whose text is a form's consonants followed
 by `I`, whatever its link target, and every plain-text `<he>X</he> I`.
 

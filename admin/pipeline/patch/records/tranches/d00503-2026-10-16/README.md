@@ -185,6 +185,6 @@ Two misses show the witness's limit: P00855 and P00856 `עָמַך`
 (`docs/sefaria-report.md` §1) are shape 2 pointed rows, but they stand
 side by side, so each one's slip hides the other's from a check that
 reads only the immediate neighbours. The worklist section
-[`docs/headword-worklist.md` § Cross-reference spellings (2026-10-16)](../../../../../../docs/headword-worklist.md#cross-reference-spellings-2026-10-16)
+[`docs/headword-worklist.md` § Cross-reference spellings (2026-10-16)](../../../../../../docs/archive/headword-worklist.md#cross-reference-spellings-2026-10-16)
 asks the 13 pointed rows (with P00855 and P00856) and the 4 likely
 consonant rows for a scan read.

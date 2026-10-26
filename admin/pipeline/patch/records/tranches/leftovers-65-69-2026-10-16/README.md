@@ -1,7 +1,7 @@
 # Group 11 leftovers L65–L69 (2026-10-16)
 
 The rows PR #182 left in review ledger plan group 11
-([`docs/review-ledger.md`](../../../../../../docs/review-ledger.md)):
+([`docs/archive/review-ledger.md`](../../../../../../docs/archive/review-ledger.md)):
 L65 to L69, PR #185, under ruling `10-13 correction policy`
 ([`docs/decisions.md`](../../../../../../docs/decisions.md) §9). Every
 edit is classified by the ruling's four cases; evidence is Jastrow's
@@ -21,7 +21,7 @@ This directory holds only this README.
 
 | Row | rid | What print reads | Case | Change |
 |---|---|---|---|---|
-| L65 | M02423 | `v. מזה II` (hOCR `v. n<a II.`, 831a): vav or zayin cannot be read | 1 if zayin | none: a scan read, [`docs/headword-worklist.md`](../../../../../../docs/headword-worklist.md) § Scan reads for L65–L66 |
+| L65 | M02423 | `v. מזה II` (hOCR `v. n<a II.`, 831a): vav or zayin cannot be read | 1 if zayin | none: a scan read, [`docs/archive/headword-worklist.md`](../../../../../../docs/archive/headword-worklist.md) § Scan reads for L65–L66 |
 | L66 | M00712, Q01198 | `b. h. T^a)` (752b), `(b.h.; ftyz)` (1189a): a word the hOCR sees and cannot read | 1 | none: a scan read, same section |
 | L67 | J00403 | `Men. 64b, v. זיבה).`, a `)` that closes nothing (579b) | 3 | P000826 `annotate`, `kept`, on child `d` |
 | L68 | S01040 | `cmp. תובל קין Gen. IV, 22) artist` (1363b) | 1 | P000827 `replace`, the cite re-aimed at Genesis 4:22 |
@@ -31,7 +31,7 @@ This directory holds only this README.
 
 The hOCR saw each word and cannot settle it, and a word is never
 guessed, so each is a block in
-[`docs/headword-worklist.md`](../../../../../../docs/headword-worklist.md)
+[`docs/archive/headword-worklist.md`](../../../../../../docs/archive/headword-worklist.md)
 § Scan reads for L65–L66 (2026-10-16), with the stored text, the hOCR
 line, the scan and the tick options. They go there rather than to
 `sense-worklist.md` because each is a headword's spelling in the text

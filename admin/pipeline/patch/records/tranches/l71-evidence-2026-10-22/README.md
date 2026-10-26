@@ -96,7 +96,7 @@ five (with L79), and PR #193 rewrote, widened or withdrew each; see
 [`../checklist-batch-2-2026-10-25/`](../checklist-batch-2-2026-10-25/README.md).
 
 Review ledger L75–L78. Each is listed in the checklist's
-[Read against the patch](../../../../../../docs/maintainer-checklist.md#read-against-the-patch-4)
+[Read against the patch](../../../../../../docs/archive/maintainer-checklist.md#read-against-the-patch-4)
 for the maintainer.
 
 - **P000194, A00675**: print reads `p. 18; 261) 1) Ulam`, the page
@@ -134,7 +134,7 @@ The hOCR line is garbled (volume 1's Tesseract reads `I` as `1` or
 absent citation; a numeral print sets on a bold Hebrew headword; a
 `ch.` line that ruling 10-15, not print, picks; a cite whose vowels
 decide between two entries). They are the checklist's
-[Scan reads for the Sefaria appendix (2026-10-22)](../../../../../../docs/maintainer-checklist.md#scan-reads-for-the-sefaria-appendix-2026-10-22):
+[Scan reads for the Sefaria appendix (2026-10-22)](../../../../../../docs/archive/maintainer-checklist.md#scan-reads-for-the-sefaria-appendix-2026-10-22):
 26 blocks, grouped by cross-reference family (17 blocks, 38 patches)
 and by class (9 blocks, 24 patches), plus the 4 above.
 

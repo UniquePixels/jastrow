@@ -1,7 +1,7 @@
 # Group D patch sets of 2026-10-10
 
 The maintainer ticked the Group D sense worklist
-([`docs/sense-worklist.md`](../../../../../../docs/sense-worklist.md)) on
+([`docs/archive/sense-worklist.md`](../../../../../../docs/archive/sense-worklist.md)) on
 2026-10-10; the ticked worklist is the one committed at `8914fce25`. For
 classes 5–8 he ticked "write a reviewed patch set", each with the note
 "as recomended". For the implied-`1)` rows his note reads "As per your

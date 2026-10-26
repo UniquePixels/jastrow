@@ -410,7 +410,7 @@ re-derivation.
   than a copy of the ref. What blocks a rule is that **no candidate
   MECHANISM survives its own members** — all 11 duplicates are `I` at
   p = 5.9 × 10⁻⁵ — and a transform must know why it is deleting.
-  Audit: [`post-anchor-numeral-duplication.md`](../../data/patches/catalogue-audit/post-anchor-numeral-duplication.md).
+  Audit: [`post-anchor-numeral-duplication.md`](catalogue-audit/post-anchor-numeral-duplication.md).
 - **`superscript-subsection-contradicts-link-sub-section` (38 occ / 33
   ent) — a NEW row, `judgment` from birth**, split off
   `superscript-subsection-stranded-outside-anchor`, whose boundary
@@ -418,7 +418,7 @@ re-derivation.
   of 38: nothing mechanical recovers the right value. Its predicate is
   written against the POST-transform shape `<sup>N</sup></a>`, because
   a snapshot-shape predicate measures zero once this batch lands.
-  Audit: [`superscript-subsection-stranded.md`](../../data/patches/catalogue-audit/superscript-subsection-stranded.md).
+  Audit: [`superscript-subsection-stranded.md`](catalogue-audit/superscript-subsection-stranded.md).
 
 The same audit leaves **77 occurrences / 70 entries genuinely
 undisposed**: the sub-section-less slice whose parent row's prose

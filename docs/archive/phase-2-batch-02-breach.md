@@ -154,7 +154,7 @@ of the failure and the superseded outputs withheld. It returned **0
 patches**: the bad patch is gone and the correct one was not written.
 The batch then passed the error gate at 0.0% on four patches and was
 committed. Full record:
-[`data/patches/tranches/residue-01/report-batch-02.md`](../../data/patches/tranches/residue-01/report-batch-02.md).
+`data/patches/tranches/residue-01/report-batch-02.md`.
 
 A second hazard surfaced during remediation. Ingest renumbers accepted
 patches corpus-unique, so dropping A00475's patch freed `P000080` and

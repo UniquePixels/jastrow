@@ -1,13 +1,13 @@
 # The maintainer checklist, batch 1 (2026-10-22)
 
 PR #187. It applies the maintainer's ticks in
-[`docs/maintainer-checklist.md`](../../../../../../docs/maintainer-checklist.md)
+[`docs/archive/maintainer-checklist.md`](../../../../../../docs/archive/maintainer-checklist.md)
 (recorded 2026-10-18, commit `963e28b2b`, and 2026-10-22, commit
 `5a94da667`): § Cross-reference spellings (review ledger L72), § X11
 (L39), § Cross-reference numerals: may rename an entry (18) and
 § Cross-reference numerals: answered 2026-10-18 (8) (L64). Each
 applied block moved out of the checklist into
-[`docs/headword-worklist.md`](../../../../../../docs/headword-worklist.md)
+[`docs/archive/headword-worklist.md`](../../../../../../docs/archive/headword-worklist.md)
 § Applied from the maintainer checklist (2026-10-22), with a line
 saying what was written.
 

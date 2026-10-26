@@ -1,6 +1,6 @@
 # Cross-reference retargets under ruling 10-13 (2026-10-15)
 
-Data PR (v-a) of [`docs/correction-audit.md`](../../../../../../docs/correction-audit.md)
+Data PR (v-a) of [`docs/archive/correction-audit.md`](../../../../../../docs/archive/correction-audit.md)
 §7: the determined cross-reference retargets of §5.1, PR #178. Review
 ledger L64; plan group 6b, "Cross-reference numerals".
 
@@ -44,7 +44,7 @@ table of §5.1. At `b70aab115` it reads 287 cites and 215 determined:
   round 2 tick (that PR's README, block H00321), so it stays. H01057
   and H01105 `v. חֵלֶף I` became determined when PR #177 respelled
   H01100 `חֵלֶף I`; they are the open worklist question `חֵלֶף I`
-  ([`headword-worklist.md` § Cross-reference numerals](../../../../../../docs/headword-worklist.md#cross-reference-numerals-2026-10-14)),
+  ([`headword-worklist.md` § Cross-reference numerals](../../../../../../docs/archive/headword-worklist.md#cross-reference-numerals-2026-10-14)),
   so they wait on its tick. PR #177's other four retargets (O00179,
   U01387, U01388, U01399) were never in the population (their old
   targets carry the numeral), and the Is it set on I00077, U01396 and

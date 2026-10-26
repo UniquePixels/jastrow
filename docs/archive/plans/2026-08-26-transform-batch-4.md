@@ -6,7 +6,7 @@
 >
 > **This plan is HISTORICAL. Every task below is completed; do not re-run one.**
 > The batch report is the record of what actually shipped:
-> [`docs/v2/transform-batch-4.md`](../../v2/transform-batch-4.md).
+> [`docs/v2/transform-batch-4.md`](../transform-batch-4.md).
 >
 > **DELIVERED SCOPE: six registered `Rule` objects, disposing of eight of the
 > ten catalogue rows** — not the seven rules over ten rows this plan was

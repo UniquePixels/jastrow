@@ -303,7 +303,7 @@ text locus 2125 | tokenised 2119 | gap 6 | A00253, A00409, A01394, M01940, Q0015
 **100 occurrences are left with the mark in the wrong slot**, and they
 are recorded as residue rather than counted as coverage. Reproduce with
 the `SCOPE`-switched register printed in
-[`catalogue-audit/ascii-quote-as-gershayim-in-body.md`](../../data/patches/catalogue-audit/ascii-quote-as-gershayim-in-body.md)
+[`catalogue-audit/ascii-quote-as-gershayim-in-body.md`](catalogue-audit/ascii-quote-as-gershayim-in-body.md)
 ("The decline register"):
 
 ```text

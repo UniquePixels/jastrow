@@ -8,7 +8,7 @@ U01689's `= h. שַׁעַר I, 2, market price` and U00991's `v. שַׁעַר I`
 (ruling 10-13, case 2). PR #196 displays it with an annotation
 (P000936; name `שַׁעַר I`) and re-aims the two cites from the verb
 U01679 at it (P000937, P000938;
-[`records/tranches/l74-l80-2026-10-25/`](../admin/pipeline/patch/records/tranches/l74-l80-2026-10-25/README.md)).
+[`records/tranches/l74-l80-2026-10-25/`](../../admin/pipeline/patch/records/tranches/l74-l80-2026-10-25/README.md)).
 U01687 leaves the report: X10 reads 3 (0 primary).
 
 **2026-10-22 (b), the issues recorded and the report reconciled.**
@@ -30,7 +30,7 @@ amended: print sets its last form `(שׁוּחַ)`).
 **2026-10-22, the checklist applied.** PR #187 applies your ticks in
 [`maintainer-checklist.md`](maintainer-checklist.md): 102 reviewed
 patches on 95 entries (P000828–P000929,
-[`records/tranches/checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)),
+[`records/tranches/checklist-batch-1-2026-10-22/`](../../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)),
 under ruling `10-13 correction policy`. All 17 cross-reference
 spelling blocks (19 entries; 7 annotated `illegible` where your note
 says the printed letter is defective), both X11 rejoins, all 18 numeral
@@ -83,7 +83,7 @@ of [`correction-audit.md`](correction-audit.md) §7, under ruling `10-13
 correction policy`: each of the 16 blocks below ends with what was
 written. **6 are patched**, 13 reviewed patches on 11 entries
 (P000582–P000594, listed in
-[`records/tranches/headword-round-2-2026-10-15/`](../admin/pipeline/patch/records/tranches/headword-round-2-2026-10-15/README.md)):
+[`records/tranches/headword-round-2-2026-10-15/`](../../admin/pipeline/patch/records/tranches/headword-round-2-2026-10-15/README.md)):
 H00319 and I00077 take the I Jastrow's text names, displayed and
 annotated; H01100 is respelled `חֵלֶף I`; U01396's and V00522's
 alternates take the I print sets; S01780's alternate is rejoined and
@@ -122,7 +122,7 @@ recommendation, and the round opens with a summary table.
 [PR #156](https://github.com/UniquePixels/jastrow/pull/156): **57 reviewed
 patches on 49 entries** (P000311–P000367), each with your answer, the
 hOCR line and the scan leaf, listed in
-[`records/tranches/headword-print-read-2026-10-06/`](../admin/pipeline/patch/records/tranches/headword-print-read-2026-10-06/README.md).
+[`records/tranches/headword-print-read-2026-10-06/`](../../admin/pipeline/patch/records/tranches/headword-print-read-2026-10-06/README.md).
 #155 wrote 48 of them; the nine OCR spellings on headwords that live
 links name (P000359–P000367) followed in #156, once ruling `10-09 link
 key` let links resolve by the spelling before patches (review ledger
@@ -597,7 +597,7 @@ Your notes: each headword is a long underline (about three letters wide) standin
 
 Recommendation: keep as stored (medium): the glosses already name every word the underline stands for, HW-prefix files the bare patah as an ending entry, and no ruling picks a character for print's rule, which is a mark of the page rather than a letter.
 
-Kept in PR #177: a reviewed-kept record (X1) on each. Your display note is quoted in both records and in the [tranche README](../admin/pipeline/patch/records/tranches/headword-round-2-2026-10-15/README.md): the data keeps print's patah, and how the app draws the underline is the app's question (ruling 10-13; `admin/entry/ANNOTATIONS.md` §5).
+Kept in PR #177: a reviewed-kept record (X1) on each. Your display note is quoted in both records and in the [tranche README](../../admin/pipeline/patch/records/tranches/headword-round-2-2026-10-15/README.md): the data keeps print's patah, and how the app draws the underline is the app's question (ruling 10-13; `admin/entry/ANNOTATIONS.md` §5).
 
 ### S01780: the alternates `קִצָּא`, `קִי׳`
 
@@ -633,7 +633,7 @@ tool.
 
 `docs/reports/headword-issues.md` lists 382 rows whose role is
 `headword` (H6 6, X1 2, X5 115, X7 123, X8 104, X9 32). Most are settled by
-rulings already in [`decisions.md`](decisions.md). This file sorts
+rulings already in [`decisions.md`](../decisions.md). This file sorts
 them so only the rows that truly need the print are left for you, with
 the print evidence beside each one. Nothing here changes entry data.
 
@@ -659,7 +659,7 @@ the print evidence beside each one. Nothing here changes entry data.
 X8 is worked per family: each X8 row is one family of entries spelled
 alike, and its fix often lands on a sibling rid, not the row's own.
 X9 is worked per sequence: each X9 row is one place where a numbered
-sequence changes its pointing ([decisions](decisions.md) 10-05).
+sequence changes its pointing ([decisions](../decisions.md) 10-05).
 Pile B is untouched, but one of its rows is now X9: U01774, the
 family check for U01772. The sequence rule pairs U01774 `שְׁפַל` II
 with U01771 `שָׁפֵל` I, while the hOCR reads U01772 `שְׁפַל` as I.
@@ -697,7 +697,7 @@ Each row names the scan leaf; the page link opens the Internet Archive image. Th
 
 ### X9 Pointing: a mark is missing on one spelling (15)
 
-Each of these was an X8 row while the report keyed a family on its exact spelling. Its numerals run once through a sequence of one consonant skeleton ([decisions](decisions.md) 10-05), so the numbering is complete; the pointing is what is left. One spelling lacks a mark its sequence neighbour has, letter for letter, so one stored headword is likely a slip. On `headwords[0]` the fix changes that entry's URL name. Nothing is inferred: the print decides.
+Each of these was an X8 row while the report keyed a family on its exact spelling. Its numerals run once through a sequence of one consonant skeleton ([decisions](../decisions.md) 10-05), so the numbering is complete; the pointing is what is left. One spelling lacks a mark its sequence neighbour has, letter for letter, so one stored headword is likely a slip. On `headwords[0]` the fix changes that entry's URL name. Nothing is inferred: the print decides.
 
 #### `אִילפָא` I, `אִילְפָא` II (row [A01311](https://jastrow.app/#rid:A01311))
 
@@ -2251,9 +2251,9 @@ on every row, so a count that matches a ruling is not the only proof.
   such as `אל״ף` and `בי״ת` are among the 78.
 - **HW-truncated, 34 rows.** 34 primaries. This ruling is no longer
   in `decisions.md`: the 2026-09-22 prune moved it to
-  [`archive/decisions-2026-09-22.md`](archive/decisions-2026-09-22.md)
+  [`archive/decisions-2026-09-22.md`](decisions-2026-09-22.md)
   although it governs 34 live primaries (ledger L37). Its home is
-  [`archive/headword-design.md`](archive/headword-design.md) §4.
+  [`archive/headword-design.md`](headword-design.md) §4.
 - **HW-abbrev-primary, 3 rows; HW-phrase-hw, 3 rows.** Both match by
   rid (K00107, P00137, A02002; A00436, A01881, C00517).
 - **HW-redup, 3; HW-spaced, 8.** None is a primary today; all 11 are
@@ -2367,17 +2367,17 @@ Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § X11: one-let
 
 ## Applied from the maintainer checklist (2026-10-25)
 
-Applied in PR #193: your ticks and notes in [`maintainer-checklist.md`](maintainer-checklist.md) § Scan reads for the Sefaria appendix (2026-10-22), recorded 2026-10-25 (`5c6c13369`), on 66 reviewed patches, listed block by block, with every `X` mapping, in [`checklist-batch-2-2026-10-25/`](../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md). Each block below is moved from the checklist byte for byte, and ends with what was written. 47 patches take your read as evidence, 5 are rewritten from it, 8 are withdrawn and 1 is new (P000931); the appendix goes from 431 to 478 rows, and `no print evidence` from 66 to 6. One entry takes a new name (A02823, `אַפְרִיקָא`); every gate is green.
+Applied in PR #193: your ticks and notes in [`maintainer-checklist.md`](maintainer-checklist.md) § Scan reads for the Sefaria appendix (2026-10-22), recorded 2026-10-25 (`5c6c13369`), on 66 reviewed patches, listed block by block, with every `X` mapping, in [`checklist-batch-2-2026-10-25/`](../../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md). Each block below is moved from the checklist byte for byte, and ends with what was written. 47 patches take your read as evidence, 5 are rewritten from it, 8 are withdrawn and 6 are held unchanged; 1 more is new (P000931); the appendix goes from 431 to 478 rows, and `no print evidence` from 66 to 6. One entry takes a new name (A02823, `אַפְרִיקָא`); every gate is green.
 
 **From § Scan reads for the Sefaria appendix (2026-10-22): 29 of 30 blocks, with the section's introduction.** Still in the checklist: § Two spellings in one form (5 patches; the display it asks for needs a rule change, review ledger L83) and M01355's `refs` item (P000232, review ledger L82), asked again. **Since PR #194, the 30th block too**, § Two spellings in one form, at the end of this section: four of its five patches are applied under ruling `10-25 display or`; A01161 (P000300) stays in the checklist. **Since PR #196, the last two blocks**, asked again and answered 2026-10-25 (`efc91fc8e`), at the end of this section: A01161's form order and M01355's `refs` item. The checklist holds no blocks.
 
 Review ledger L71, PR #192. The Sefaria appendix (`bun data:sefaria`)
 holds back a reviewed patch whose rationale names no print read
-(`no print evidence` in [`reports/sefaria-review.csv`](reports/sefaria-review.csv)).
+(`no print evidence` in [`reports/sefaria-review.csv`](../reports/sefaria-review.csv)).
 There were 133. PR #192 quoted the hOCR line into the rationale of the
 67 whose line shows the fact (48 are now appendix rows; 19 wait on the
 appendix's traceability filter, not on evidence); the tranche README
-[`l71-evidence-2026-10-22`](../admin/pipeline/patch/records/tranches/l71-evidence-2026-10-22/README.md)
+[`l71-evidence-2026-10-22`](../../admin/pipeline/patch/records/tranches/l71-evidence-2026-10-22/README.md)
 lists all 133. These blocks are the other 66: 62 where the hOCR is
 garbled, missing or cannot show the claim, and first, 4 where it reads
 **against** the patch.
@@ -3279,7 +3279,7 @@ Why held: I00158 `FIPS £. (PS) spinning`: the two forms are not read; I00654 no
 
 Recommendation: yes (high): two complete spellings of one word, as the forms around them are set.
 
-**Held in PR #193.** Your notes are read, with your gut and its analysis: store every spelling as a form, so each is a lookup key, and set `display` to print's layout, with `or` as literal text where print sets it. The entry contract accepts that (`admin/entry/headword-rules.ts`), but the import's gate 2 does not: a template a patch supplies must keep the line's notation, and `or` is a word the source line does not carry (`gates.ts`, `checkHeadwordLine`; a probe of I00158's `{0} or {1}, {2}` fails with `[] → [or×1]`). The smallest change is to let `or` pass that count the way the comma does, with a ruling first (review ledger L83; the change and a test sketch are in the tranche README [`checklist-batch-2-2026-10-25`](../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md) § E). Your `X` runs, mapped to the stored forms by word count and order:
+**Held in PR #193.** Your notes are read, with your gut and its analysis: store every spelling as a form, so each is a lookup key, and set `display` to print's layout, with `or` as literal text where print sets it. The entry contract accepts that (`admin/entry/headword-rules.ts`), but the import's gate 2 does not: a template a patch supplies must keep the line's notation, and `or` is a word the source line does not carry (`gates.ts`, `checkHeadwordLine`; a probe of I00158's `{0} or {1}, {2}` fails with `[] → [or×1]`). The smallest change is to let `or` pass that count the way the comma does, with a ruling first (review ledger L83; the change and a test sketch are in the tranche README [`checklist-batch-2-2026-10-25`](../../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md) § E). Your `X` runs, mapped to the stored forms by word count and order:
 
 | rid | your line | forms, in order | print's display | stored today |
 |---|---|---|---|---|
@@ -3306,7 +3306,7 @@ I00158: your line has `m.`, the entry's gloss `f.` (`f. (טָוָה) spinning`).
 
 Recommendation: yes on 1 (medium): `or` is print's own word between spellings, and it is the only literal the change admits; 2 is yours to read.
 
-Applied in PR #194, under ruling `10-25 display or` (`docs/decisions.md`; the maintainer ruled 2026-10-25 for Question 1's yes: every spelling a form, `display` in print's layout with ` or ` as literal text). Gate 2 now counts the run ` or ` between two forms as a separator it skips, as it skips the comma (`writtenNotation`, `admin/pipeline/import/gates.ts`). Your read is added to the four patches below (case 1: Sefaria fused the spellings, print is right, no annotation), each with its `X` mapping; the tranche README is [`display-or-2026-10-25/`](../admin/pipeline/patch/records/tranches/display-or-2026-10-25/README.md).
+Applied in PR #194, under ruling `10-25 display or` (`docs/decisions.md`; the maintainer ruled 2026-10-25 for Question 1's yes: every spelling a form, `display` in print's layout with ` or ` as literal text). Gate 2 now counts the run ` or ` between two forms as a separator it skips, as it skips the comma (`writtenNotation`, `admin/pipeline/import/gates.ts`). Your read is added to the four patches below (case 1: Sefaria fused the spellings, print is right, no annotation), each with its `X` mapping; the tranche README is [`display-or-2026-10-25/`](../../admin/pipeline/patch/records/tranches/display-or-2026-10-25/README.md).
 
 - **I00158** (P000297): payload rewritten to the forms as stored, `טְוִיָּיה`, `טְוִיָּה`, `טְוִויָּה`, with display `{0} or {1}, {2}` (was `{0}, {1}, {2}`). Three runs, three forms, in order. Your `m.` against the stored `f.` is left as stored.
 - **I00654** (P000298): the same forms, `טְפֵילָה`, `טְפֵילָא`, with display `{0} {1}` (was `{0}, {1}`). Two runs of five, two five-letter forms, in order; `, v.` is the gloss.
@@ -3357,7 +3357,7 @@ Why asked again: right after the Yerushalmi you found, the entry cites `Bab. ib.
 
 Recommendation: yes (high): the cite is in Sefaria's own text of the entry, and `ib.` there can only be Rosh Hashanah.
 
-Applied in PR #196: you ticked yes; your note: "Yup that one is totaly on me, I missed that!". P000232 is withdrawn, its bytes moved to [`docs/archive/patches-retired-2026-10-25/`](archive/patches-retired-2026-10-25/README.md), and M01355's manifest record, which named only it, is removed: Sefaria's `refs` item `Rosh Hashanah 23b` stands, the place `Bab. ib. 23ᵇ` cites (review ledger L82). `refs` never reaches our entry files, so no entry changes; the patch was never an appendix row, and nothing is sent.
+Applied in PR #196: you ticked yes; your note: "Yup that one is totaly on me, I missed that!". P000232 is withdrawn, its bytes moved to [`docs/archive/patches-retired-2026-10-25/`](patches-retired-2026-10-25/README.md), and M01355's manifest record, which named only it, is removed: Sefaria's `refs` item `Rosh Hashanah 23b` stands, the place `Bab. ib. 23ᵇ` cites (review ledger L82). `refs` never reaches our entry files, so no entry changes; the patch was never an appendix row, and nothing is sent.
 
 ## Textual-research candidates (for #153)
 
@@ -3382,7 +3382,7 @@ can be pointed two ways (`אֱגוֹרָא` I, Aramaic; `אֲגוֹרָא` II, a
 loan). The exact key reported such a sequence as a gap, and the old
 pointing section asked whether print spells the two alike: the wrong
 question. On 2026-10-05 the report changed to number by sequence
-([decisions](decisions.md) 10-05) and this list follows it. 32 primary
+([decisions](../decisions.md) 10-05) and this list follows it. 32 primary
 X8 rows became X9: 25 from that section (P00476 and P00477 now one
 row), A01698 and M02008 from pile A, the four pile D rows and pile B's
 U01774; B01014 is new, a sequence the exact key had hidden. The X9
@@ -3465,7 +3465,7 @@ Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § Scan reads f
 
 ## Applied from the maintainer checklist (2026-10-22)
 
-Applied in PR #187: your ticks in [`maintainer-checklist.md`](maintainer-checklist.md), recorded 2026-10-18 (`963e28b2b`) and 2026-10-22 (`5a94da667`), as 102 reviewed patches on 95 entries (P000828–P000929, listed block by block in [`checklist-batch-1-2026-10-22/`](../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)). Each block below is moved from the checklist byte for byte, and ends with what was written. 42 entries take a new name; every gate is green.
+Applied in PR #187: your ticks in [`maintainer-checklist.md`](maintainer-checklist.md), recorded 2026-10-18 (`963e28b2b`) and 2026-10-22 (`5a94da667`), as 102 reviewed patches on 95 entries (P000828–P000929, listed block by block in [`checklist-batch-1-2026-10-22/`](../../admin/pipeline/patch/records/tranches/checklist-batch-1-2026-10-22/README.md)). Each block below is moved from the checklist byte for byte, and ends with what was written. 42 entries take a new name; every gate is green.
 
 **From § Cross-reference spellings (2026-10-16): all 17 blocks, 19 entries, with the section's introduction.** C00299 was held in PR #187's first push (its respelling is C00300's name) and applied after your ruling of 2026-10-22 on C00300.
 
@@ -3820,7 +3820,7 @@ Applied in PR #187: P000850 respells U01223 `שִׁלְחֵי` → `שִׁלְה
 | [P00856](https://jastrow.app/#rid:P00856) | `עָמַך II` | no line matched | same |
 | [P00860](https://jastrow.app/#rid:P00860) | `עֶמֶך, עָמָך, עֲמָדָה` | no line matched | [1086b · leaf 409](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$410/full/1400,/0/default.jpg) |
 
-Already in [`sefaria-report.md`](sefaria-report.md) §1 (print `עָמַד
+Already in [`sefaria-report.md`](../sefaria-report.md) §1 (print `עָמַד
 I`, `עָמַד II`, `עֶמֶד`), and in § Cross-reference numerals, block
 `עָמַד II`, which sends the `ך` here. P00855 is `= אָמַד, to
 estimate`; P00856 is `(b. h.) to stand`; P00860 is `f., v. עוּמָד`

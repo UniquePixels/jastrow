@@ -1,7 +1,7 @@
 # Class 3 nest patches of 2026-10-12
 
 The maintainer ticked the class 3 scan review
-([`docs/sense-worklist.md`](../../../../../../docs/sense-worklist.md),
+([`docs/archive/sense-worklist.md`](../../../../../../docs/archive/sense-worklist.md),
 § `Class 3 scan review (2026-10-11)`) on 2026-10-12. Eighteen ticks
 were splits, applied in PR #166 ([`../class3-2026-10-12/`](../class3-2026-10-12/README.md)).
 This directory records the other four, the "nest" ticks: A00982,

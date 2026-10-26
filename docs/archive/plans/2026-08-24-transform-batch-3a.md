@@ -31,7 +31,7 @@ at move together.
 >   the box on that task.
 >
 > Everything the plan *produced* is in
-> [the batch report](../../v2/transform-batch-3a.md), which is the
+> [the batch report](../transform-batch-3a.md), which is the
 > document to read.
 
 **Architecture:** One predicate (an ASCII `"` with a Hebrew letter on
@@ -1256,7 +1256,7 @@ Expected: 32,512/32,512, 0 schema failures, 0 quarantines.
 - [ ] **Step 4: Write the batch report**
 
 `docs/v2/transform-batch-3a.md`, following
-[transform-batch-2.md](../../v2/transform-batch-2.md)'s shape: what
+[transform-batch-2.md](../transform-batch-2.md)'s shape: what
 shipped, what it repaired, what it declined and why, what the audit
 harness said, and what a re-run will find. State the decline register
 as residue, not as coverage.

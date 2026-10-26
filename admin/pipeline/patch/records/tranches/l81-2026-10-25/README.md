@@ -4,9 +4,9 @@ PR #195, review ledger L81, under ruling `10-13 correction policy`
 ([`docs/decisions.md`](../../../../../../docs/decisions.md)), case 1:
 Sefaria lost A00675's `1)`, print is right, no annotation. The
 evidence is the maintainer's scan read of 2026-10-25
-([`docs/maintainer-checklist.md`](../../../../../../docs/maintainer-checklist.md)
+([`docs/archive/maintainer-checklist.md`](../../../../../../docs/archive/maintainer-checklist.md)
 § Scan reads for the Sefaria appendix, block A00675; applied in
-[`docs/headword-worklist.md`](../../../../../../docs/headword-worklist.md)
+[`docs/archive/headword-worklist.md`](../../../../../../docs/archive/headword-worklist.md)
 § Applied from the maintainer checklist (2026-10-25)): print reads
 `p. 18; 261) 1) Ulam (Porta) a place`, the page `261)` and then the
 marker `1)` (26a · leaf 49).

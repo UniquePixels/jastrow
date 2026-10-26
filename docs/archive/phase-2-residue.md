@@ -357,7 +357,7 @@ The sweep prompt said otherwise. v4's hint table described this kind
 as *"31 corpus-wide, all inspected ones spurious"* — true of what had
 been inspected, false of the class, and a prior that would have had a
 2.3 agent mark I00311 spurious for the same reason the detector did.
-Corrected in [`sweep-v5.md`](../../admin/pipeline/research/prompts/sweep-v5.md),
+Corrected in `sweep-v5.md`,
 along with the `v. sub` carve-out, which v4 also contradicts.
 
 ## Two discrepancies this run surfaced

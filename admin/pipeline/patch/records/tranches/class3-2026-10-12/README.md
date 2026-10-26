@@ -1,7 +1,7 @@
 # Class 3 split patches of 2026-10-12
 
 The maintainer ticked the class 3 scan review
-([`docs/sense-worklist.md`](../../../../../../docs/sense-worklist.md),
+([`docs/archive/sense-worklist.md`](../../../../../../docs/archive/sense-worklist.md),
 § `Class 3 scan review (2026-10-11)`) on 2026-10-12, one box per
 entry for the 22 rows the review detector `self-numbered-intext-marker`
 reports (PR #163). For 17 entries he ticked "split here and keep
