@@ -34,6 +34,7 @@ function greenReport(): Report {
 		patchOutcomes: [],
 		patches: {
 			absorbed: 0,
+			absorbedUnclaimed: 0,
 			accepted: 0,
 			applied: 0,
 			carried: 0,

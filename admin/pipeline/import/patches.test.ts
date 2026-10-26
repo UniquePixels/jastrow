@@ -1,6 +1,6 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
-import type { ComposeResult } from '../compose.ts';
+import { type ComposeResult, composeEntry } from '../compose.ts';
 import type {
 	AcceptedCorpus,
 	ApplyProblem,
@@ -9,6 +9,8 @@ import type {
 import { patchesByRid } from '../patch/apply.ts';
 import type { EntryResult } from '../patch/manifest.ts';
 import { contentAnchor, type SemanticPatch } from '../patch/schema.ts';
+import type { Rule, TransformResult } from '../transform/types.ts';
+import type { SourceEntry } from '../types.ts';
 import {
 	markMissingTargets,
 	type PatchGroups,
@@ -44,11 +46,13 @@ function patch(overrides: Partial<SemanticPatch> = {}): SemanticPatch {
 
 /** A `ComposeResult` stub for `recordPatchOutcomes`: only the three
  * fields it reads (`patchProblems`, `patchDrift`,
- * `carryOver.absorbed`) need real values; everything else is a
+ * `carryOver.absorbed`, `carryOver.claimed`) need real values;
+ * everything else is a
  * minimal stub typed via `as ComposeResult`. */
 function composeResult(overrides: {
 	absorbed?: string[];
 	carried?: string[];
+	claimed?: { patchId: string; rule: string }[];
 	patchDrift?: PatchDrift[];
 	patchProblems?: ApplyProblem[];
 }): ComposeResult {
@@ -56,6 +60,7 @@ function composeResult(overrides: {
 		carryOver: {
 			absorbed: overrides.absorbed ?? [],
 			carried: overrides.carried ?? [],
+			claimed: overrides.claimed ?? [],
 		},
 		patchDrift: overrides.patchDrift ?? [],
 		patchesApplied: 0,
@@ -194,14 +199,42 @@ describe('recordPatchOutcomes', () => {
 		expect(patchRows[0]?.kind).toBe('upstream-changed');
 	});
 
-	it('superseded: a carry-over absorbed patch gets a superseded outcome and no row', () => {
+	it('superseded: an absorbed patch a rule claims gets a superseded outcome and no row', () => {
+		const p1 = patch({ id: 'P1', rid: RID });
+		const report = createReport();
+		recordPatchOutcomes(
+			RID,
+			[p1],
+			composeResult({
+				absorbed: ['P1'],
+				claimed: [{ patchId: 'P1', rule: 'some-rule' }],
+			}),
+			report,
+		);
+		expect(report.patchOutcomes).toEqual([
+			{ outcome: 'superseded', patchId: 'P1', rid: RID },
+		]);
+		expect(report.rows.filter((r) => r.bucket === 'patch')).toEqual([]);
+		expect(report.patches.absorbedUnclaimed).toBe(0);
+	});
+
+	it('absorbed and unclaimed: superseded, and a patch-absorbed row naming the target', () => {
 		const p1 = patch({ id: 'P1', rid: RID });
 		const report = createReport();
 		recordPatchOutcomes(RID, [p1], composeResult({ absorbed: ['P1'] }), report);
 		expect(report.patchOutcomes).toEqual([
 			{ outcome: 'superseded', patchId: 'P1', rid: RID },
 		]);
-		expect(report.rows.filter((r) => r.bucket === 'patch')).toEqual([]);
+		expect(report.rows).toEqual([
+			{
+				bucket: 'patch',
+				detail: `P1 (ocr-marker): carry-over target ${p1.target} is found 0 times and no transform rule claims it; recorded superseded`,
+				kind: 'patch-absorbed',
+				rid: RID,
+				severity: 'review',
+			},
+		]);
+		expect(report.patches.absorbedUnclaimed).toBe(1);
 	});
 
 	it('failed: a patch with an apply problem gets no outcome and no row', () => {
@@ -242,6 +275,7 @@ describe('recordPatchOutcomes', () => {
 		const report = createReport();
 		const result = composeResult({
 			absorbed: ['P3'],
+			claimed: [{ patchId: 'P3', rule: 'some-rule' }],
 			patchDrift: [{ outcome: 'upstream-changed', patchId: 'P2', rid: RID }],
 			patchProblems: [{ patchId: 'P4', reason: 'broke' }],
 		});
@@ -386,5 +420,97 @@ describe('recordConsolidatedAway', () => {
 			},
 		]);
 		expect(report.patches.consolidatedAway).toBe(1);
+	});
+});
+
+/** Tranche-01's P000027 on A00675, cut down: Sefaria's sense reads the
+ * page `261)` and has lost print's `1)`. The reviewed replace (P000194)
+ * puts the `1)` back, so the carry-over split pinned to Sefaria's text
+ * finds its target 0 times. Until 2026-10-26 that was a `superseded`
+ * outcome and nothing else. */
+const A00675 = 'Géogr. p. 18; 261) <i>Ulam</i> (Porta) a place in Gilead';
+const a00675: SourceEntry = {
+	content: { senses: [{ definition: A00675 }] },
+	headword: 'אוּלָם II',
+	rid: 'A00675',
+};
+const p000194: SemanticPatch = {
+	author: 'human',
+	defect_class: 'reviewed-replace',
+	expected_before: A00675,
+	expected_occurrences: 1,
+	id: 'P000194',
+	occurrence_index: 1,
+	op: 'replace',
+	payload: { find: '261)', replace: '261) 1)' },
+	prompt_version: 'test',
+	rationale: 'fixture',
+	rid: 'A00675',
+	snapshot: PIN,
+	target: `sense[]:${contentAnchor(A00675)}`,
+};
+const p000027 = patch({
+	defect_class: 'swallowed-marker',
+	expected_before: A00675,
+	id: 'P000027',
+	op: 'split',
+	payload: { marker: '1)' },
+	rid: 'A00675',
+});
+/** A text rule that sets the `1)` itself, as a registered rule would
+ * if one claimed the class. */
+const restoresMarker: Rule = {
+	allows: [' 1)'],
+	apply: (entry: SourceEntry): TransformResult => {
+		const [sense] = entry.content.senses;
+		if (sense?.definition !== A00675) {
+			return { entry, records: [] };
+		}
+		const definition = A00675.replace('261)', '261) 1)');
+		return {
+			entry: { ...entry, content: { senses: [{ ...sense, definition }] } },
+			records: [{ detail: 'marker', rid: entry.rid, ruleId: 'test-marker' }],
+		};
+	},
+	id: 'test-marker',
+	phase: 'text-repairs',
+};
+
+describe('absorption is loud (P000027)', () => {
+	it('a carry-over a reviewed patch absorbed yields a patch-absorbed row', () => {
+		const result = composeEntry(
+			a00675,
+			{ carryOver: [p000027], drift: 'outcome', reviewed: [p000194] },
+			[],
+		);
+		expect(result.carryOver.absorbed).toEqual(['P000027']);
+		expect(result.carryOver.claimed).toEqual([]);
+		const report = createReport();
+		recordPatchOutcomes('A00675', [p000194, p000027], result, report);
+		expect(report.rows.map((r) => [r.kind, r.detail])).toEqual([
+			[
+				'patch-absorbed',
+				`P000027 (swallowed-marker): carry-over target ${p000027.target} is found 0 times and no transform rule claims it; recorded superseded`,
+			],
+		]);
+		expect(report.patches.absorbedUnclaimed).toBe(1);
+	});
+
+	it('a carry-over a transform rule absorbed is claimed and stays quiet', () => {
+		const result = composeEntry(
+			a00675,
+			{ carryOver: [p000027], drift: 'outcome' },
+			[restoresMarker],
+		);
+		expect(result.carryOver.absorbed).toEqual(['P000027']);
+		expect(result.carryOver.claimed).toEqual([
+			{ patchId: 'P000027', rule: 'test-marker' },
+		]);
+		const report = createReport();
+		recordPatchOutcomes('A00675', [p000027], result, report);
+		expect(report.rows).toEqual([]);
+		expect(report.patchOutcomes).toEqual([
+			{ outcome: 'superseded', patchId: 'P000027', rid: 'A00675' },
+		]);
 	});
 });

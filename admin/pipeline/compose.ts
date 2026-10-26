@@ -18,7 +18,7 @@ import {
 	type PatchDrift,
 	type PatchLoss,
 } from './patch/apply.ts';
-import type { SemanticPatch } from './patch/schema.ts';
+import { countTarget, type SemanticPatch } from './patch/schema.ts';
 import { RULES } from './transform/registry.ts';
 import { applyTransforms } from './transform/run.ts';
 import type { Rule, TransformRecord } from './transform/types.ts';
@@ -107,11 +107,19 @@ interface ComposeResult {
 	 * `relabel` owes one per label it changes): the patch side of gate
 	 * 10's both-ways check (ANNOTATIONS.md §2). */
 	annotated: string[];
-	/** Carry-over disposition: patches whose defect the healed corpus
-	 * already fixed (`absorbed`, dropped)
-	 * vs. still present (`carried`, applied). Empty when no carry-over
-	 * group was passed. */
-	carryOver: { absorbed: string[]; carried: string[] };
+	/** Carry-over disposition: patches whose target the composed entry
+	 * no longer holds (`absorbed`, dropped) vs. still present
+	 * (`carried`, applied). `claimed` names, for each absorbed patch a
+	 * registered transform rule absorbed, that rule (`absorbingRule`);
+	 * an absorbed patch it does not name went silent by some other
+	 * road (a patch before it rewrote its target, or the export did),
+	 * and the import gives it a `patch-absorbed` row. Empty when no
+	 * carry-over group was passed. */
+	carryOver: {
+		absorbed: string[];
+		carried: string[];
+		claimed: { patchId: string; rule: string }[];
+	};
 	/** The entry after text-repairs, structural-repairs and
 	 * patch-apply. */
 	entry: SourceEntry;
@@ -245,6 +253,60 @@ function applyPatchSets(
 	};
 }
 
+/** The registered transform rule that rewrote a carry-over patch's
+ * target away, or `undefined` when none did. A carry-over patch is
+ * pre-patch stage: authored against `applyRepairs`' output, before any
+ * rule. So its target is counted on that output, then after each rule
+ * of the two transform phases in turn, in the order `composeEntry`
+ * runs them, and the rule after which it first resolves 0 times is the
+ * one that claims it. A target already gone before the first rule (the
+ * export changed), or still there after the last (a patch removed it),
+ * is claimed by no rule. Replayed only for an absorbed patch, so it
+ * costs a rule pass per such entry, not per run. */
+function absorbingRule(
+	source: SourceEntry,
+	patch: SemanticPatch,
+	rules: readonly Rule[] = RULES,
+): string | undefined {
+	let { entry } = applyRepairs(source);
+	if (countTarget(entry, patch) === 0) {
+		return;
+	}
+	for (const phase of ['text-repairs', 'structural-repairs'] as const) {
+		for (const rule of rules) {
+			if (rule.phase !== phase) {
+				continue;
+			}
+			({ entry } = applyTransforms(entry, phase, [rule]));
+			if (countTarget(entry, patch) === 0) {
+				return rule.id;
+			}
+		}
+	}
+	return;
+}
+
+/** For each absorbed carry-over patch, the rule that claims it
+ * (`absorbingRule`); absorbed patches no rule claims are left out. */
+function claimedAbsorptions(
+	source: SourceEntry,
+	absorbed: readonly string[],
+	carryOver: readonly SemanticPatch[] | undefined,
+	rules: readonly Rule[],
+): { patchId: string; rule: string }[] {
+	const claimed: { patchId: string; rule: string }[] = [];
+	for (const patch of carryOver ?? []) {
+		if (!absorbed.includes(patch.id)) {
+			continue;
+		}
+		const rule = absorbingRule(source, patch, rules);
+		if (rule !== undefined) {
+			claimed.push({ patchId: patch.id, rule });
+		}
+	}
+	return claimed;
+}
+
 /** One entry through the first three phases of the committed manifest
  * (spec §5): the general `applyRepairs` cleanup then text rules,
  * structural rules, then the reviewed, accepted and carry-over
@@ -280,7 +342,16 @@ function composeEntry(
 	);
 	return {
 		annotated: patched.annotated,
-		carryOver: { absorbed: patched.absorbed, carried: patched.carried },
+		carryOver: {
+			absorbed: patched.absorbed,
+			carried: patched.carried,
+			claimed: claimedAbsorptions(
+				source,
+				patched.absorbed,
+				patches?.carryOver,
+				rules,
+			),
+		},
 		entry: patched.entry,
 		linkHeadword: structural.entry.headword,
 		losses: patched.losses,
@@ -294,4 +365,4 @@ function composeEntry(
 }
 
 export type { ComposePatches, ComposeResult, PhaseTracker };
-export { composeEntry, TransformFailure };
+export { absorbingRule, composeEntry, TransformFailure };

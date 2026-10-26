@@ -31,7 +31,13 @@ const DRIFT_DETAIL: Record<DriftOutcome, string> = {
 
 /** One outcome row per patch this entry was offered (spec §3.3). A
  * drifted patch is also a review row and a header count; a patch that
- * failed its apply gate gets no outcome — it is a fault row instead. */
+ * failed its apply gate gets no outcome — it is a fault row instead.
+ * An absorbed carry-over patch is `superseded`, and unless a
+ * registered transform rule claims its target
+ * (`ComposeResult.carryOver.claimed`) it is also a `patch-absorbed`
+ * review row and one on `patches.absorbedUnclaimed`: a patch whose
+ * target went missing by any other road (a reviewed patch rewrote the
+ * text, as P000194 did under tranche-01's P000027) is never silent. */
 function recordPatchOutcomes(
 	rid: string,
 	offered: readonly SemanticPatch[],
@@ -41,6 +47,9 @@ function recordPatchOutcomes(
 	const failed = new Set(result.patchProblems.map((p) => p.patchId));
 	const drifted = new Map(result.patchDrift.map((d) => [d.patchId, d.outcome]));
 	const absorbed = new Set(result.carryOver.absorbed);
+	const claimed = new Map(
+		result.carryOver.claimed.map((c) => [c.patchId, c.rule]),
+	);
 	for (const patch of offered) {
 		const drift = drifted.get(patch.id);
 		if (drift !== undefined) {
@@ -63,6 +72,16 @@ function recordPatchOutcomes(
 				patchId: patch.id,
 				rid,
 			});
+			if (!claimed.has(patch.id)) {
+				report.rows.push({
+					bucket: 'patch',
+					detail: `${patch.id} (${patch.defect_class}): carry-over target ${patch.target} is found 0 times and no transform rule claims it; recorded superseded`,
+					kind: 'patch-absorbed',
+					rid,
+					severity: 'review',
+				});
+				report.patches.absorbedUnclaimed++;
+			}
 		} else if (!failed.has(patch.id)) {
 			report.patchOutcomes.push({ outcome: 'applied', patchId: patch.id, rid });
 			if (patch.evidence?.pending === true) {

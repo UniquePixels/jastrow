@@ -31,7 +31,11 @@ describe('composeEntry', () => {
 		).toBe(true);
 		expect(result.patchesApplied).toBe(0);
 		expect(result.patchProblems).toEqual([]);
-		expect(result.carryOver).toEqual({ absorbed: [], carried: [] });
+		expect(result.carryOver).toEqual({
+			absorbed: [],
+			carried: [],
+			claimed: [],
+		});
 	});
 
 	it('raises TransformFailure when a structural rule breaks its gate', async () => {
