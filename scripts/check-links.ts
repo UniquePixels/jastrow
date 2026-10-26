@@ -159,6 +159,9 @@ function linksOf(text: string): { line: number; link: string }[] {
 	return found;
 }
 
+/** Checks every tracked markdown file, prints each dead link as
+ * `DEAD in <file>:<line>: <target>`, then a one-line tally, and exits 1
+ * when any link is dead. */
 async function main(): Promise<void> {
 	const present = presentPaths();
 	const files = [...present]
