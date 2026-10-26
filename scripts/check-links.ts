@@ -36,12 +36,12 @@ const FENCE = /^\s{0,3}(?<fence>`{3,}|~{3,})/u;
 const SCHEME = /^[a-z][a-z\d+.-]*:/iu;
 const SUFFIX = /[#?]/u;
 
-/** A code-unit order, the same on every machine. */
-function byCodeUnit(a: string, b: string): number {
-	if (a < b) {
-		return -1;
+/** Code-unit order: stable across machines, unlike a locale collation. */
+function byCodeUnit(a: string, b: string): -1 | 0 | 1 {
+	if (a === b) {
+		return 0;
 	}
-	return a > b ? 1 : 0;
+	return a < b ? -1 : 1;
 }
 
 /** `git ls-files` with `args`, one path per element. */
