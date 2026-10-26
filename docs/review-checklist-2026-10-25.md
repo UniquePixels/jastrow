@@ -29,12 +29,17 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
       the admin tool?** If so the Sefaria appendix's only input
       (patch records) freezes, unless the "diff entries against
       source" generator (09-21 ruling) is designed. → gates group 5.
-- [ ] **D4 — Patch evidence policy.** Accept a mandatory `evidence`
+- [x] **D4 — Patch evidence policy.** Accept a mandatory `evidence`
       object on every reviewed patch, with the import refusing
       `sefaria-only` evidence on any op that changes text? And what
       happens to the 253 live patches that name no print evidence
       (166 cite-retargets, 66 doc-08-seed, 21 others): re-read, hold,
       or accept as text-only by class? → gates groups 1–3.
+      Decided 2026-10-26 (Brian): yes, mandatory, and the import
+      refuses `sefaria-only` on a text-changing op; the patches with
+      no print evidence keep applying as `sefaria-only` with `pending:
+      true` and are re-read in group 3's batches. Ruling
+      `10-26 patch evidence` in [`decisions.md`](decisions.md).
 - [ ] **D5 — Print images.** Keep `dictionaryoftarg0{1,2}jastuoft`
       pinned as the *evidence* source (453 IIIF links and 505 leaf
       cites in patch records depend on its leaf numbering) and add the
