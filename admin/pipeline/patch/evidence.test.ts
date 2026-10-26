@@ -66,6 +66,8 @@ const REFUSED: readonly Refused[] = [
 	['hOCR, no leaf', `{${HOCR},"quote":"a line"}`, 'needs evidence.leaf'],
 	['jastrow-text, no quote', '{"kind":"jastrow-text"}', 'needs evidence.quote'],
 	['an unknown kind', '{"kind":"vibes"}', 'evidence.kind must be'],
+	['an inherited name as kind', '{"kind":"toString"}', 'evidence.kind must be'],
+	['a non-string kind', '{"kind":1}', 'evidence.kind must be'],
 	[
 		'pending hOCR',
 		`{${HOCR},"leaf":8,"quote":"q","volume":1,"pending":true}`,

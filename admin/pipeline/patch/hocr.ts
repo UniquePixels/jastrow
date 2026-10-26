@@ -168,4 +168,4 @@ function quoteOnLeaf(lines: readonly string[], quote: string): boolean {
 	return needle !== '' && collapse(lines.join(' ')).includes(needle);
 }
 
-export { HOCR_ITEMS, leafLines, MIN_QUOTE, quoteOnLeaf };
+export { collapse, HOCR_ITEMS, leafLines, MIN_QUOTE, quoteOnLeaf };

@@ -52,7 +52,7 @@ import {
 	PRINT_READ,
 	READ_DATE,
 } from '../report/sefaria-evidence.ts';
-import { leafLines, MIN_QUOTE, quoteOnLeaf } from './hocr.ts';
+import { collapse, leafLines, MIN_QUOTE, quoteOnLeaf } from './hocr.ts';
 import {
 	leafOutsideEntry,
 	type PageLookup,
@@ -138,7 +138,7 @@ async function hocrEvidence(
 	if (leaf === undefined) {
 		return 'no leaf';
 	}
-	if (quote === undefined || quote.trim().length < MIN_QUOTE) {
+	if (quote === undefined || collapse(quote).length < MIN_QUOTE) {
 		return 'no quote';
 	}
 	const noted = VOLUME_NOTE.exec(after)?.groups?.['volume'];

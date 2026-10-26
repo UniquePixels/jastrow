@@ -72,6 +72,12 @@ const LOCATED: readonly Located[] = [
 		'the quote is under 12 characters',
 	],
 	[
+		'an hOCR quote padded with spaces',
+		hocr(85, '928            2)'),
+		false,
+		'the quote is under 12 characters',
+	],
+	[
 		'an hOCR quote the leaf lacks',
 		hocr(85, '928 2) afflictions'),
 		false,

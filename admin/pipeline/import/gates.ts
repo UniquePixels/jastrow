@@ -14,7 +14,7 @@ import {
 	schemaValidator,
 	validateCorpus,
 } from '../../entry/validate.ts';
-import { MIN_QUOTE, quoteOnLeaf } from '../patch/hocr.ts';
+import { collapse, MIN_QUOTE, quoteOnLeaf } from '../patch/hocr.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import type { BodyEntry, SourceEntry } from '../types.ts';
 import { linkKey } from './cite.ts';
@@ -773,7 +773,9 @@ function quoteProblems(
 	where: string,
 	quote: string,
 ): string[] {
-	if (quote.trim().length < MIN_QUOTE) {
+	// Measured as matched (whitespace collapsed, bidi marks dropped), so
+	// interior spaces cannot pad a short quote up to the minimum.
+	if (collapse(quote).length < MIN_QUOTE) {
 		return [
 			`the quote is under ${MIN_QUOTE} characters and locates nothing: "${quote}"`,
 		];

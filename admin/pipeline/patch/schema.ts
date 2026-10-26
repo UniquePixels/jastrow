@@ -1300,9 +1300,12 @@ function evidenceReasons(raw: Record<string, unknown>): string[] {
 	const reasons = Object.keys(e)
 		.filter((key) => !EVIDENCE_KEYS.has(key))
 		.map((key) => `evidence.${key} is not an evidence field`);
-	const required = EVIDENCE_REQUIRES[e['kind'] as EvidenceKind] as
-		| readonly string[]
-		| undefined;
+	const kind = e['kind'];
+	// An own key only: an inherited name such as `toString` is not a kind.
+	const required =
+		typeof kind === 'string' && Object.hasOwn(EVIDENCE_REQUIRES, kind)
+			? EVIDENCE_REQUIRES[kind as EvidenceKind]
+			: undefined;
 	if (required === undefined) {
 		reasons.push(
 			'evidence.kind must be hOCR, jastrow-text, maintainer-read or sefaria-only',
