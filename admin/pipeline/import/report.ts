@@ -12,7 +12,8 @@ import { type Tally, tally } from './gates.ts';
 /** The blessing gates, in report order (migrate spec §4.1; gate
  * 10, `contract`, is ruling `09-30 entry contract`; gate 11,
  * `evidenceLocator`, is ruling `10-26 patch evidence`; gate 12,
- * `declaredLoss`, is the review checklist's loss report). The
+ * `declaredLoss`, is the review checklist's loss report; gate 13,
+ * `citeNumeral`, its cite-numeral agreement). The
  * list is the single definition: `GateName` derives from it, and
  * `createReport` seeds a tally for every member up front, so a gate the
  * run never reached shows as 0/0 instead of going missing. A red gate
@@ -30,6 +31,7 @@ const GATE_NAMES = [
 	'contract',
 	'evidenceLocator',
 	'declaredLoss',
+	'citeNumeral',
 ] as const;
 
 /** One gate's name. Derived from `GATE_NAMES` rather than written out,
@@ -119,6 +121,11 @@ interface Report {
 	 * counted over the entries as written, so the blessing says how
 	 * many departures from print the tree records. */
 	annotations: Record<Annotation['kind'], number>;
+	/** Gate 13's counts (`checkCiteNumerals`): the numeraled internal
+	 * cites checked, the allowlist rows that kept a failing one, and how
+	 * many of those are pending a print read (review checklist group
+	 * 3). */
+	citeNumerals: { checked: number; kept: number; pending: number };
 	entries: number;
 	gates: Record<GateName, Tally>;
 	/** Patch accounting (Ruling F; consolidation spec §4.2). Every skip
@@ -190,6 +197,7 @@ function createReport(): Report {
 	) as Record<GateName, Tally>;
 	return {
 		annotations: { illegible: 0, kept: 0, 'print-error': 0 },
+		citeNumerals: { checked: 0, kept: 0, pending: 0 },
 		entries: 0,
 		gates,
 		patchOutcomes: [],
@@ -372,6 +380,8 @@ function blessingHeader(report: Report): string[] {
 		`Patch evidence: ${report.patches.pending} applied on \`sefaria-only\` evidence pending a re-read, ${report.patches.provisional} provisional held back.`,
 		'',
 		lossLine(report.patches.loss),
+		'',
+		`Cite numerals: ${report.citeNumerals.checked} internal cites name a homograph numeral; ${report.citeNumerals.kept} whose target lacks it are on the allowlist, ${report.citeNumerals.pending} of them pending a print read (review checklist group 3).`,
 		'',
 		annotationLine(report.annotations),
 		'',

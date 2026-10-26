@@ -29,6 +29,7 @@ function greenReport(): Report {
 	) as Record<GateName, Tally>;
 	return {
 		annotations: { illegible: 0, kept: 0, 'print-error': 0 },
+		citeNumerals: { checked: 0, kept: 0, pending: 0 },
 		entries: 1,
 		gates,
 		patchOutcomes: [],

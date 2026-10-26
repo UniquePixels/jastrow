@@ -1157,7 +1157,7 @@ tool obliged to do that does not exist. **UNBUILT.**
 
 ## 9. The gates
 
-Twelve gates, defined as one list — `GATE_NAMES` in
+Thirteen gates, defined as one list — `GATE_NAMES` in
 `import/report.ts` — from which `GateName` derives and from which
 `createReport` seeds a tally each, so a gate cannot silently go
 missing. `isGreen` requires each gate to have been **reached**
@@ -1316,6 +1316,29 @@ text moved within the entry, which removes nothing; a codepoint
 removed in one place and added in another, which nets to zero; and an
 agent patch, which is counted on the blessing's "Patch loss" line and
 not marked.
+
+**13. `citeNumeral`** (`import/cite-numeral.ts`, `checkCiteNumerals`;
+review checklist 2026-10-25, group 2). One mark per internal anchor of
+the composed entries whose visible text ends in a homograph numeral
+(`v. חוּל I`, print's `)` inside the anchor allowed) or whose
+`data-ref` names one, read before markup translation so the
+`data-ref` is still there; plus one failing mark per stale allowlist
+row.
+*Proves:* the target the link resolves to (by the link key, as gate 6)
+carries every numeral named on one of its forms; or is the `ch.` line
+under it (ruling `10-15 ch. cross-reference`: the target carries no
+numeral, its first gloss opens `ch.`, and the entry before it in rid
+order carries the numeral); or the cite is on the allowlist,
+[`patch/records/cite-numeral-kept/`](patch/records/cite-numeral-kept/README.md),
+which holds 10-13 case 3 cites kept as printed and genuine mismatches
+`pending` a print read (review checklist group 3), and whose every row
+must match a failing cite, or it is stale and fails. An implied I
+needs no clause: since 10-13 it is a stored `homograph: 1`. The
+blessing's "Cite numerals" line gives the count checked, kept and
+pending.
+*Cannot see:* whether the numeral is print's: a cite and a target that
+agree on Sefaria's numeral pass together; a cite with no numeral; and
+which `ch.` line a cite means beyond the one right after the carrier.
 
 ### What no gate sees
 

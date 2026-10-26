@@ -143,7 +143,7 @@ resolution, `sefariaHeadword` (Sefaria's own headword, verbatim, the
 field the URL routes key on), and the print-locator (`page`/`column`)
 enrichment. Its code is one of three buckets — rules (detect + fix,
 general), patches (one entry's judged fix), or review detectors
-(detect only) — per [`DESIGN.md`](DESIGN.md) §6. Gated by the twelve
+(detect only) — per [`DESIGN.md`](DESIGN.md) §6. Gated by the thirteen
 blessing gates of [`DESIGN.md`](DESIGN.md) §9; a red gate refuses to
 write. Gate 10 holds what the run would write to the entry contract
 in [`admin/entry/`](../entry/README.md) — the same check
@@ -154,7 +154,7 @@ Every run ends in a report a person reads before the output ships —
 the import report `data/source/import-report.json`, rendered as
 the blessing doc
 [`docs/reports/import-blessing.md`](../../docs/reports/import-blessing.md).
-The report holds the twelve gate tallies, one row per review item, patch
+The report holds the thirteen gate tallies, one row per review item, patch
 re-judgment or pipeline fault, and a composed count per rule, plus an
 outcome per patch — see [`DESIGN.md`](DESIGN.md) §5 for the four
 outcome values and what each means. `bun data:import --strict`
