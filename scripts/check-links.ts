@@ -34,8 +34,7 @@ const CODE_SPAN = /(?<ticks>`+)(?:[^\n]|\n(?![ \t]*\n))*?\k<ticks>/gu;
 const NOT_NEWLINE = /[^\n]/gu;
 const FENCE = /^\s{0,3}(?<fence>`{3,}|~{3,})/u;
 const SCHEME = /^[a-z][a-z\d+.-]*:/iu;
-const SUFFIX = /[#?].*$/u;
-const TRAILING_SLASH = /\/+$/u;
+const SUFFIX = /[#?]/u;
 
 /** `git ls-files` with `args`, one path per element. */
 function gitFiles(args: readonly string[]): string[] {
@@ -55,6 +54,7 @@ function gitFiles(args: readonly string[]): string[] {
 function presentPaths(): Set<string> {
 	const deleted = new Set(gitFiles(['--deleted']));
 	const present = new Set<string>();
+	present.add('.'); // the repo root, for a link to `./` or `../`
 	for (const file of gitFiles(['--cached', '--others', '--exclude-standard'])) {
 		if (deleted.has(file)) {
 			continue;
@@ -69,13 +69,23 @@ function presentPaths(): Set<string> {
 	return present;
 }
 
+/** `path` less any trailing slashes. */
+function withoutTrailingSlashes(path: string): string {
+	let end = path.length;
+	while (end > 0 && path.charAt(end - 1) === '/') {
+		end -= 1;
+	}
+	return path.slice(0, end);
+}
+
 /** The repo path `link` in `file` points at, or `undefined` for a link
  * this check does not test: an absolute URL, a bare fragment. */
 function resolveLink(file: string, link: string): string | undefined {
 	if (SCHEME.test(link)) {
 		return;
 	}
-	let target = link.replace(SUFFIX, '');
+	const cut = link.search(SUFFIX);
+	let target = cut === -1 ? link : link.slice(0, cut);
 	if (target === '') {
 		return;
 	}
@@ -85,7 +95,7 @@ function resolveLink(file: string, link: string): string | undefined {
 		// A malformed escape is tested as written.
 	}
 	const base = target.startsWith('/') ? '.' : dirname(file);
-	return normalize(join(base, target)).replace(TRAILING_SLASH, '');
+	return withoutTrailingSlashes(normalize(join(base, target)));
 }
 
 /** `text` with every fenced block and code span blanked, its line
@@ -100,7 +110,10 @@ function withoutCode(text: string): string {
 		if (fence !== undefined) {
 			if (open === undefined) {
 				open = fence;
-			} else if (fence[0] === open[0] && fence.length >= open.length) {
+			} else if (
+				fence.startsWith(open.charAt(0)) &&
+				fence.length >= open.length
+			) {
 				open = undefined;
 			}
 			return '';
@@ -131,7 +144,7 @@ async function main(): Promise<void> {
 	const present = presentPaths();
 	const files = [...present]
 		.filter((path) => path.endsWith('.md') && !EXEMPT.has(path))
-		.sort();
+		.sort((a, b) => (a < b ? -1 : a > b ? 1 : 0));
 	const texts = await Promise.all(files.map((file) => Bun.file(file).text()));
 	let checked = 0;
 	const dead: string[] = [];
