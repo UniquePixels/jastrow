@@ -58,6 +58,7 @@ import {
 	type PageLookup,
 	readPageLookup,
 } from './locator.ts';
+import { firstQuote } from './quote.ts';
 import type { PatchEvidence } from './schema.ts';
 
 const PATCHES = `${REVIEWED_DIR}/patches.jsonl`;
@@ -69,7 +70,6 @@ const VOLUME_NOTE = /\bvol\. (?<volume>[12])\b/u;
  * where a terminator follows it (`;`, `,`, `)`, ` /`, a full stop
  * ending a sentence, or the end), so a quote holding a stray `"` of
  * the OCR's own is read whole. */
-const QUOTED = /`(?<tick>[^`]+)`|"(?<dq>.+?)"(?=[;,)]| \/|\.(?:\s|$)|$)/u;
 /** The next sense's marker, which determines an implied `1)`. */
 const FOLLOWING_MARKER = /—\*?\d{1,2}\)/u;
 /** The run a renumber reads its new number from, as the rationale
@@ -129,10 +129,9 @@ async function hocrEvidence(
 	const intro = HOCR_INTRO.exec(raw.rationale);
 	const at = intro?.index ?? raw.rationale.search(HOCR);
 	const after = raw.rationale.slice(at);
-	const quoted = QUOTED.exec(
+	const quote = firstQuote(
 		intro === null ? after : after.slice(intro[0].length),
-	)?.groups;
-	const quote = quoted?.['tick'] ?? quoted?.['dq'];
+	);
 	const linked = linkedLeaves(raw.rationale);
 	const named = [...after.matchAll(LEAF_ALL)][0]?.groups?.['leaf'];
 	const leaf = named === undefined ? linked[0]?.leaf : Number(named);
@@ -176,7 +175,7 @@ async function derive(raw: Raw, pages: PageLookup): Promise<Derived> {
 			evidence: {
 				date,
 				kind: 'maintainer-read',
-				...(locator ?? {}),
+				...locator,
 				reader: 'Brian',
 			},
 		};
@@ -212,8 +211,8 @@ function table(
 	rows: readonly { column: string; row: string }[],
 	rowTitle: string,
 ): string[] {
-	const columns = [...new Set(rows.map((r) => r.column))].sort();
-	const rowKeys = [...new Set(rows.map((r) => r.row))].sort();
+	const columns = [...new Set(rows.map((r) => r.column))].sort(byCodeUnit);
+	const rowKeys = [...new Set(rows.map((r) => r.row))].sort(byCodeUnit);
 	const count = (row: string, column: string): number =>
 		rows.filter((r) => r.row === row && r.column === column).length;
 	return [
@@ -292,10 +291,12 @@ async function main(): Promise<void> {
 		);
 	}
 	const pages = await readPageLookup();
-	const derived = new Map<string, Derived>();
-	for (const raw of records) {
-		derived.set(raw.id, await derive(raw, pages));
-	}
+	const derivedAll = await Promise.all(
+		records.map((raw) => derive(raw, pages)),
+	);
+	const derived = new Map(
+		records.map((raw, index) => [raw.id, derivedAll[index] as Derived]),
+	);
 	const inherited = inheritCompanionReads(records, derived);
 	const out: string[] = [];
 	const tally: TallyRow[] = [];
@@ -322,6 +323,14 @@ async function main(): Promise<void> {
 		await Bun.write(PATCHES, `${out.join('\n')}\n`);
 		console.log(`wrote ${PATCHES}`);
 	}
+}
+
+/** Code-unit order: stable across machines, unlike a locale collation. */
+function byCodeUnit(a: string, b: string): -1 | 0 | 1 {
+	if (a === b) {
+		return 0;
+	}
+	return a < b ? -1 : 1;
 }
 
 if (import.meta.main) {

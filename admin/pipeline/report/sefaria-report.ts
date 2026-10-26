@@ -139,7 +139,7 @@ function scanProblem(
 			return exclude('scan link outside the entry', outside);
 		}
 	}
-	return;
+	return undefined;
 }
 
 /** The scan column: the leaf the rationale links, or else the leaf of

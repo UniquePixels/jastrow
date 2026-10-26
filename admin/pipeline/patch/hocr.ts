@@ -101,7 +101,15 @@ function parseChunk(html: string): Map<number, string[]> {
 
 /** Parsed chunks, by file path: each chunk is gunzipped and parsed at
  * most once per process. */
-const cache = new Map<string, Map<number, string[]>>();
+/** One parse per chunk, keyed by path. The promise is cached, not its
+ * result, so callers that race for one chunk share one gunzip. */
+const cache = new Map<string, Promise<Map<number, string[]>>>();
+
+/** `path` gunzipped and parsed into its leaves. */
+async function readChunk(path: string): Promise<Map<number, string[]>> {
+	const bytes = new Uint8Array(await Bun.file(path).arrayBuffer());
+	return parseChunk(new TextDecoder().decode(Bun.gunzipSync(bytes)));
+}
 
 /** The chunk file of `volume` that holds `leaf`, or `undefined` when
  * no chunk's range holds it. */
@@ -138,11 +146,10 @@ async function leafLines(
 	}
 	let leaves = cache.get(path);
 	if (leaves === undefined) {
-		const bytes = new Uint8Array(await Bun.file(path).arrayBuffer());
-		leaves = parseChunk(new TextDecoder().decode(Bun.gunzipSync(bytes)));
+		leaves = readChunk(path);
 		cache.set(path, leaves);
 	}
-	return leaves.get(leaf);
+	return (await leaves).get(leaf);
 }
 
 /** `text` without its bidi controls, every whitespace run collapsed

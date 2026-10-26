@@ -485,8 +485,7 @@ function corpusPreflight(
 			reason: problem.reason,
 		});
 	}
-	problems.push(...authorshipProblems(patches));
-	problems.push(...evidenceProblems(patches));
+	problems.push(...authorshipProblems(patches), ...evidenceProblems(patches));
 	for (const problem of reconcilePatches(
 		records,
 		options?.reconcileOnly ?? patches,

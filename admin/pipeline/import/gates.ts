@@ -718,33 +718,52 @@ async function checkEvidenceLocators(
 	sources: EvidenceSources,
 ): Promise<Tally> {
 	const t = tally();
-	for (const patch of patches) {
-		const { evidence } = patch;
-		if (evidence?.leaf === undefined || evidence.volume === undefined) {
-			continue;
-		}
-		const { leaf, volume } = evidence;
-		const problems: string[] = [];
-		const outside = sources.outside(patch.rid, volume, leaf);
-		if (outside !== undefined) {
-			problems.push(`vol. ${volume} ${outside}`);
-		}
-		if (evidence.kind === 'hOCR') {
-			problems.push(
-				...quoteProblems(
-					await sources.leafLines(volume, leaf),
-					`vol. ${volume} leaf ${leaf}`,
-					evidence.quote ?? '',
-				),
-			);
-		}
+	const located = patches.filter(
+		(patch) =>
+			patch.evidence?.leaf !== undefined && patch.evidence.volume !== undefined,
+	);
+	// The leaves are read in parallel (the hOCR reader shares one parse
+	// per chunk); the marks are made in patch order.
+	const problems = await Promise.all(
+		located.map((patch) => locatorProblems(patch, sources)),
+	);
+	for (const [index, patch] of located.entries()) {
+		const found = problems[index] ?? [];
 		mark(
 			t,
-			problems.length === 0,
-			`${patch.rid}: ${patch.id}: ${problems.join('; ')}`,
+			found.length === 0,
+			`${patch.rid}: ${patch.id}: ${found.join('; ')}`,
 		);
 	}
 	return t;
+}
+
+/** Why one patch's evidence does not locate: the leaf lies outside the
+ * entry, or an `hOCR` quote is not on it. Empty when it locates. */
+async function locatorProblems(
+	patch: SemanticPatch,
+	sources: EvidenceSources,
+): Promise<string[]> {
+	const { evidence } = patch;
+	if (evidence?.leaf === undefined || evidence.volume === undefined) {
+		return [];
+	}
+	const { leaf, volume } = evidence;
+	const problems: string[] = [];
+	const outside = sources.outside(patch.rid, volume, leaf);
+	if (outside !== undefined) {
+		problems.push(`vol. ${volume} ${outside}`);
+	}
+	if (evidence.kind === 'hOCR') {
+		problems.push(
+			...quoteProblems(
+				await sources.leafLines(volume, leaf),
+				`vol. ${volume} leaf ${leaf}`,
+				evidence.quote ?? '',
+			),
+		);
+	}
+	return problems;
 }
 
 /** Why an `hOCR` quote is not on the leaf `where` names, given that
