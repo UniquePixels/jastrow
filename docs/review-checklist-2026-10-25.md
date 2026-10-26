@@ -115,23 +115,34 @@ commit by commit):
 | E | One human misread the print, no second reader | 1 | P000308 |
 | F | A partial repair accepted as complete | 1 | P000881 |
 
-- [ ] `patch/schema.ts`: add a mandatory `evidence` object
+Landed 2026-10-26 on `feat/patch-evidence` (stacked on
+`chore/archive-last-cycle-docs`), ruling `10-26 patch evidence`. The
+backfill marked 247 records pending, not 253; the tranche README
+[`evidence-backfill-2026-10-26`](../admin/pipeline/patch/records/tranches/evidence-backfill-2026-10-26/README.md)
+gives the difference by predicate. The re-import changed no entry
+file; gate 11, `evidenceLocator`, read 399/399.
+
+- [x] `patch/schema.ts`: add a mandatory `evidence` object
       `{kind: maintainer-read | hOCR | jastrow-text | sefaria-only,
       leaf?, quote?, reader?, date}`. Remove `confidence` (770 of 770
       are `high`; it carries no information).
-- [ ] `patch/apply.ts`: refuse `sefaria-only` evidence on any op that
+- [x] `patch/apply.ts`: refuse `sefaria-only` evidence on any op that
       changes text. Would have blocked classes A and B (14 of 22).
-- [ ] Backfill: fill `evidence` mechanically for the ~517 records the
+- [x] Backfill: fill `evidence` mechanically for the ~517 records the
       existing `sefaria-evidence.ts` regexes can classify; the 253 with
       no print evidence get `sefaria-only` pending group 3.
-- [ ] Move the appendix's leaf-belongs-to-rid check and a verbatim
+- [x] Move the appendix's leaf-belongs-to-rid check and a verbatim
       hOCR-quote check from `report/sefaria-evidence.ts` into import
       gates, so they run at authoring, not only at appendix time
       (would have caught P000388/389).
 - [ ] Add a `provisional` status the import refuses to apply; set it
       whenever the evidence filter holds a patch or a ledger row is
       open (P000221 and P000232 stayed applied while in doubt).
-- [ ] Document the hOCR's limit where evidence is defined: vol. 2's
+      Half done: `status: 'provisional'` exists and the import holds
+      it back (a `patch-provisional` row, `blocks`). Nothing sets it:
+      none is provisional today, and setting it when a dispute opens
+      is a process rule still to write (group 2's `DESIGN.md` rules).
+- [x] Document the hOCR's limit where evidence is defined: vol. 2's
       hOCR (ABBYY 8) contains **zero Hebrew characters**; vol. 1's
       (Tesseract heb+eng) is garbled on Hebrew. An hOCR quote is
       evidence for Latin text, numerals and punctuation only, never
@@ -174,21 +185,70 @@ same session or its own.
 Maintainer work in batches, each batch its own PR, using the group 2
 checklist format. Depends on D4.
 
-| Signature | Count | Reproduce |
-|---|---|---|
-| No print evidence at all | 253 | `jq -r 'select((.rationale\|test("(?i)hOCR\|print read\|print check\|scan read\|scan crop\|leaf [0-9]"))\|not)\|.prompt_version' reviewed/patches.jsonl \| sort \| uniq -c` |
-| Class A survivors (`human-review-2026-08-05`) | 65 (51 hOCR-only, 9 maintainer read, 5 conventions) | same filter on `prompt_version` |
-| Retargets proven only by family-number inference | 171 of 284 | patches agent's `stale.py` (scratchpad) |
-| Retargets whose family has a homograph reform | 63 | same |
+Since 2026-10-26 (ruling `10-26 patch evidence`, group 1) every
+reviewed record carries `evidence`, and the 247 the backfill could not
+tie to print are `sefaria-only` with `pending: true`: they still apply,
+and the blessing counts them. A batch below is **one future PR** that
+reads its members against the print, sets each one's `evidence` to a
+real kind (`maintainer-read` for a scan read; `hOCR` only for a
+Latin-only claim, quoted verbatim; `jastrow-text` where Jastrow's own
+text decides) and removes `pending`, or withdraws the patch. The import
+then refuses any of them left on `sefaria-only`. Nobody has re-read
+anything yet. Why 247 and not the 253 below, by predicate:
+[`evidence-backfill-2026-10-26`](../admin/pipeline/patch/records/tranches/evidence-backfill-2026-10-26/README.md).
+
+Every predicate runs over `admin/pipeline/patch/records/reviewed/patches.jsonl`
+with these definitions (`fam` is the first letter of the cite word's
+consonants, the family the cite names, ruling 10-05):
+
+```bash
+P=admin/pipeline/patch/records/reviewed/patches.jsonl
+D='def fam: .rationale | capture("cite.s text reads [\"`](?<w>[^\"`]+)[\"`]").w | explode | map(select(. >= 1488 and . <= 1514)) | implode | .[0:1];
+def retarget: .evidence.pending and .prompt_version == "cite-retargets-2026-10-15";
+def classA: .prompt_version == "human-review-2026-08-05";
+def hocrOnly: classA and (.rationale | test("hOCR")) and .evidence.kind != "maintainer-read";
+def other: .evidence.pending and (.prompt_version | test("^(language-reference|headword-round-2|headword-edges)|^(doc-08-runs|v7|v10)$"));
+def unverified: .evidence.pending and (.rationale | test("hOCR")) and (classA | not);
+def rest: .evidence.pending and ((retarget or classA or .prompt_version == "doc-08-seed" or other or unverified) | not);'
+jq -r "$D select(<predicate>) | .id" $P
+```
+
+| Order | Batch | Predicate | Records (pending) | Entries | Reading aid |
+|---|---|---|---|---|---|
+| 1 | C1 cite retargets א–ז | `retarget and fam >= "א" and fam <= "ז"` | 31 (31), 14 families | 30 | the citing line's hOCR for the cite's Roman numeral (Latin, so the hOCR can witness it); the scan crop at the page index's leaf where the line is garbled or the word is in doubt |
+| 2 | C2 cite retargets ח–נ | `retarget and fam >= "ח" and fam <= "נ"` | 39 (39), 23 families | 37 | as C1 |
+| 3 | C3 cite retargets ס–ע | `retarget and fam >= "ס" and fam <= "ע"` | 40 (40), 12 families | 35 | as C1 |
+| 4 | C4 cite retargets פ–ר | `retarget and fam >= "פ" and fam <= "ר"` | 29 (29), 20 families | 27 | as C1 |
+| 5 | C5 cite retargets ש–ת | `retarget and fam >= "ש" and fam <= "ת"` | 27 (27), 15 families | 26 | as C1 |
+| 6 | H1 class A, hOCR only, A–O | `hocrOnly and .rid < "P"` | 26 (0) | 26 | the scan crop at the page index's leaf: these were decided on Sefaria's text and their `hOCR` evidence vouches for Latin only, so a Hebrew claim becomes `maintainer-read` |
+| 7 | H2 class A, hOCR only, P–V | `hocrOnly and .rid >= "P"` | 25 (1) | 25 | as H1 |
+| 8 | H3 class A, the rest | `classA and (hocrOnly \| not)` | 14 (2) | 13 | the scan crop; 9 are already `maintainer-read` (2026-10-25) and need only a look, 3 are `jastrow-text` implied `1)`s, 2 (D00341) are pending |
+| 9 | D1 doc-08 seed | `.prompt_version == "doc-08-seed"` | 66 (33) | 33 | the scan crop of the first sense: print sets no `1)` before the `—2)`; each entry is a split (pending) and its retag (`jastrow-text`), read once |
+| 10 | O1 the other no-evidence patches | `other` | 15 (15) | 14 | the scan crop; the hOCR line for a numeral or a cite |
+| 11 | O2 hOCR named but not checkable | `unverified` | 26 (26) | 20 | the hOCR line the rationale names, re-quoted verbatim, for a Latin-only claim; else the scan crop |
+| 12 | O3 the remainder | `rest` | 4 (4) | 4 | per row: P000555 (a split, scan link only), P000580 (a cite renumber the maintainer confirmed), P000581 (an `annotate`), P000927 (a disambiguator ruling) |
+
+The cite retargets go first, split by the family's first letter so a
+family is read once, in one batch, and no batch holds more than 40.
+Of the 284 retargets, 171 rest only on the family-number inference and
+63 sit in a family a homograph reform touched (patches agent's
+`stale.py`); a batch reads those first within itself. The class A
+survivors follow, the 51 hOCR-only (H1, H2) before the rest. The
+signatures this table replaces: no print evidence at all, 253; class A
+survivors, 65 (51 hOCR-only, 9 maintainer read, 5 conventions).
 
 - [ ] Batch the 166 cite-retargets by family; each needs a print read
-      or an explicit "text-only, accepted" evidence kind.
+      or an explicit "text-only, accepted" evidence kind. Batches
+      C1–C5.
 - [ ] Re-read the 65 class-A survivors against a scan crop (the 51
-      hOCR-only ones first).
-- [ ] Re-read the 66 doc-08-seed patches.
+      hOCR-only ones first). Batches H1–H3.
+- [ ] Re-read the 66 doc-08-seed patches. Batch D1.
 - [ ] Triage the 21 remaining no-evidence patches (language-reference
       5, human-review 5, headword-round-2 3, doc-08-runs 3, v7 2,
-      v10 2, headword-edges 1).
+      v10 2, headword-edges 1). Batch O1; human-review's 5 are in H3,
+      and 6 of the 21 are `jastrow-text` now.
+- [ ] Re-read the 26 records whose hOCR claim did not check (batch O2)
+      and the 4 left (batch O3).
 - [ ] Resolve the doc-01 contradiction: its header says the
       numbering-gap rows were "hand-verified against print", the L71
       provenance says none of the 67 named a print read.
