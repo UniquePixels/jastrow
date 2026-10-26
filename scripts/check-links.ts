@@ -36,6 +36,14 @@ const FENCE = /^\s{0,3}(?<fence>`{3,}|~{3,})/u;
 const SCHEME = /^[a-z][a-z\d+.-]*:/iu;
 const SUFFIX = /[#?]/u;
 
+/** A code-unit order, the same on every machine. */
+function byCodeUnit(a: string, b: string): number {
+	if (a < b) {
+		return -1;
+	}
+	return a > b ? 1 : 0;
+}
+
 /** `git ls-files` with `args`, one path per element. */
 function gitFiles(args: readonly string[]): string[] {
 	const run = Bun.spawnSync(['git', 'ls-files', '-z', ...args]);
@@ -144,7 +152,7 @@ async function main(): Promise<void> {
 	const present = presentPaths();
 	const files = [...present]
 		.filter((path) => path.endsWith('.md') && !EXEMPT.has(path))
-		.sort((a, b) => (a < b ? -1 : a > b ? 1 : 0));
+		.sort(byCodeUnit);
 	const texts = await Promise.all(files.map((file) => Bun.file(file).text()));
 	let checked = 0;
 	const dead: string[] = [];
