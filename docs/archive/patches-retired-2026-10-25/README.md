@@ -11,9 +11,12 @@ line's bytes, moved. The tranche README
 has the whole batch. A ninth, P000232, followed in PR #196 (review
 ledger L82), appended last.
 
-Withdrawing a patch needs no op: each one changed Sefaria's text or
-line, so retiring it returns the entry to the snapshot's reading, which
-print confirms.
+Withdrawing a patch needs no op. The first eight each changed Sefaria's
+text or headword line, so retiring one returns the entry to the
+snapshot's reading, which print confirms. P000232 is different: it
+only removed an item from Sefaria's `refs` list, which never reaches an
+entry file (ruling B7). Withdrawing it restores that `refs` item as the
+import sees it; no entry file changes.
 
 | Patch | Rid | What it did | Why it is wrong | `manifest.jsonl` |
 |---|---|---|---|---|
