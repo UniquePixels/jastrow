@@ -32,7 +32,7 @@ const LINK = /\]\(\s*<?(?<target>[^)\s>]+)/gu;
  * across line breaks but not across a blank line (a paragraph end). */
 const CODE_SPAN = /(?<ticks>`+)(?:[^\n]|\n(?![ \t]*\n))*?\k<ticks>/gu;
 const NOT_NEWLINE = /[^\n]/gu;
-const FENCE = /^\s{0,3}(?:```|~~~)/u;
+const FENCE = /^\s{0,3}(?<fence>`{3,}|~{3,})/u;
 const SCHEME = /^[a-z][a-z\d+.-]*:/iu;
 const SUFFIX = /[#?].*$/u;
 const TRAILING_SLASH = /\/+$/u;
@@ -91,13 +91,21 @@ function resolveLink(file: string, link: string): string | undefined {
 /** `text` with every fenced block and code span blanked, its line
  * breaks kept so a line number still points at the source. */
 function withoutCode(text: string): string {
-	let fenced = false;
+	// The open fence, if any: a closing fence must use the same character
+	// and be at least as long (CommonMark section 4.5), so a shorter run inside
+	// the block stays code.
+	let open: string | undefined;
 	const lines = text.split('\n').map((line) => {
-		if (FENCE.test(line)) {
-			fenced = !fenced;
+		const fence = FENCE.exec(line)?.groups?.['fence'];
+		if (fence !== undefined) {
+			if (open === undefined) {
+				open = fence;
+			} else if (fence[0] === open[0] && fence.length >= open.length) {
+				open = undefined;
+			}
 			return '';
 		}
-		return fenced ? '' : line;
+		return open === undefined ? line : '';
 	});
 	return lines
 		.join('\n')
