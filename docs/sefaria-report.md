@@ -466,13 +466,13 @@ entry headword (dangling internal links). List available on request.
 
 ---
 
-## 12. `refs` items with no basis in the entry (3 items)
+## 12. `refs` items with no basis in the entry (2 items)
 
 **Status:** rows: appendix class `reviewed-unref` (2 rows: D00541,
 Q00890, each confirmed by the maintainer's scan read of 2026-10-25, PR
-#193). The third, M01355's, is held: its entry cites the place after all
-(below; review ledger L82). **Count:** 2 appendix rows; 1 in the review
-list (generator, 2026-10-25).
+#193). A third, M01355's, was ours in error: its entry cites the place
+after all, and the patch that removed it is withdrawn (below; PR #196,
+review ledger L82). **Count:** 2 appendix rows (generator, 2026-10-25).
 
 `D00541` lists `Yoma 2a` and `Q00890` lists `Yoma 2a:3`; in each case
 the entry's text contains no citation of that location (checked
@@ -480,8 +480,9 @@ including `Ib.` resolution, and against print). They may be
 mis-attached links. `M01355` lists `Rosh Hashanah 23b`, which our
 review of 2026-08-05 called baseless too, but the entry reads `Y. R.
 Hash. II, 58ᵃ top …; (Bab. ib. 23ᵇ; …)`, and `Bab. ib. 23ᵇ` is that
-Bavli page, unlinked in the text: the item is likely that cite, and is
-not sent.
+Bavli page, unlinked in the text: the item is that cite (the
+maintainer's scan read of 2026-10-25), so it is not sent and our patch
+is withdrawn.
 
 ---
 

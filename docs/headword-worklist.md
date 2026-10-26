@@ -2369,7 +2369,7 @@ Moved to [docs/maintainer-checklist.md](maintainer-checklist.md) § X11: one-let
 
 Applied in PR #193: your ticks and notes in [`maintainer-checklist.md`](maintainer-checklist.md) § Scan reads for the Sefaria appendix (2026-10-22), recorded 2026-10-25 (`5c6c13369`), on 66 reviewed patches, listed block by block, with every `X` mapping, in [`checklist-batch-2-2026-10-25/`](../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md). Each block below is moved from the checklist byte for byte, and ends with what was written. 47 patches take your read as evidence, 5 are rewritten from it, 8 are withdrawn and 1 is new (P000931); the appendix goes from 431 to 478 rows, and `no print evidence` from 66 to 6. One entry takes a new name (A02823, `אַפְרִיקָא`); every gate is green.
 
-**From § Scan reads for the Sefaria appendix (2026-10-22): 29 of 30 blocks, with the section's introduction.** Still in the checklist: § Two spellings in one form (5 patches; the display it asks for needs a rule change, review ledger L83) and M01355's `refs` item (P000232, review ledger L82), asked again. **Since PR #194, the 30th block too**, § Two spellings in one form, at the end of this section: four of its five patches are applied under ruling `10-25 display or`; A01161 (P000300) stays in the checklist.
+**From § Scan reads for the Sefaria appendix (2026-10-22): 29 of 30 blocks, with the section's introduction.** Still in the checklist: § Two spellings in one form (5 patches; the display it asks for needs a rule change, review ledger L83) and M01355's `refs` item (P000232, review ledger L82), asked again. **Since PR #194, the 30th block too**, § Two spellings in one form, at the end of this section: four of its five patches are applied under ruling `10-25 display or`; A01161 (P000300) stays in the checklist. **Since PR #196, the last two blocks**, asked again and answered 2026-10-25 (`efc91fc8e`), at the end of this section: A01161's form order and M01355's `refs` item. The checklist holds no blocks.
 
 Review ledger L71, PR #192. The Sefaria appendix (`bun data:sefaria`)
 holds back a reviewed patch whose rationale names no print read
@@ -3314,6 +3314,50 @@ Applied in PR #194, under ruling `10-25 display or` (`docs/decisions.md`; the ma
 - **A01161** (P000300): still in the checklist, Question 2 only (review ledger L83): the order of `אֵידְנָא` and `אַיְידָא` is not settled by the `X` runs.
 
 No name changes: every `headwords[0]` is the one stored. The appendix goes from 478 to 479 rows (P000301); `no print evidence` goes from 6 to 2 (P000232, P000300). I00158, I00654 and M02116 are held back as `not mechanical for op` (their reforms change the headword and the number of forms together, or set a layout).
+
+#### Two spellings in one form: A01161
+
+Covers 1 patch (P000300). PR #194 applied the other four under ruling `10-25 display or` (the block, byte for byte, is in [`headword-worklist.md`](headword-worklist.md) § Applied from the maintainer checklist (2026-10-25)): `display` may carry print's `or`, and every spelling stays a form. A01161 is left, because its order is not settled.
+
+| rid | Sefaria's text | hOCR, verbatim | scan |
+|---|---|---|---|
+| [A01161](https://jastrow.app/#rid:A01161) | `אֵידֵין` (alt `אֵידְנָא, אַיְידָא אֵידָא, (אַיְידִי)`) | no readable line | [45a · leaf 68](https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$69/full/1400,/0/default.jpg) |
+
+Your note: `XXXXX m., XXXX XXXXX (XXXXX) XXXXX f. ....`. Five runs, five forms, but print's order is not Sefaria's: the first run is `אֵידֵין`, the four-letter run is `אֵידָא` (the only four-letter form, fourth in Sefaria), `(XXXXX)` is `אַיְידִי`, and the two five-letter runs either side of it are `אֵידְנָא` and `אַיְידָא`, in an order nothing in the note shows. Stored today: `{0}, {1}, {2}, {3}, ({4})`.
+
+**Question.** A01161: which form stands right after `אֵידָא`, before `(אַיְידִי)`?
+
+- **A01161** (P000300)
+  - [ ] `אֵידְנָא` (then `(אַיְידִי) אַיְידָא f.`)
+  - [x] `אַיְידָא` (then `(אַיְידִי) אֵידְנָא f.`)
+  - [ ] can't tell from the scan
+  - note:
+
+Recommendation: none: this one is yours to read.
+
+Applied in PR #196: you ticked `אַיְידָא` (then `(אַיְידִי) אֵידְנָא f.`), so print sets `אֵידֵין m., אֵידָא אַיְידָא (אַיְידִי) אֵידְנָא f.`. P000300 is amended in place: its forms are now in print's order, `אֵידֵין`, `אֵידָא`, `אַיְידָא`, `(אַיְידִי)`, `אֵידְנָא`, with print's layout `{0}, {1} {2} ({3}) {4}` (was `{0}, {1}, {2}, {3}, ({4})`; case 1, no annotation). The `m.` and `f.` are grammar, not display text; the `m.` after `אֵידֵין` is in neither Sefaria's text nor ours, and the patch does not add it. `headwords[0]` is still `אֵידֵין`, so the name is unchanged. The generator holds the row as `not mechanical for op` (it sets a layout), as it does I00158's and A02823's.
+
+#### M01355 `מִכְוַור`: the `refs` item `Rosh Hashanah 23b`
+
+Covers 1 patch (P000232). The patch removes Sefaria's `refs` item `Rosh Hashanah 23b` as a place the entry never cites (review doc 02, 2026-08-05). You ticked both boxes in the first round ("no: the removal stands" and "yes"), with the note "There is a Y. R. Shan. II 58a".
+
+| rid | stored | hOCR, verbatim | scan |
+|---|---|---|---|
+| [M01355](https://jastrow.app/#rid:M01355) | `…—Y. R. Hash. II, 58ᵃ top הרי מ׳ וגדור; (Bab. ib. 23ᵇ; Tosef. ib. II (I), 2 חרים וכייר), v. גְּדוֹר; …` | no readable line | [781b · leaf 104](https://iiif.archive.org/iiif/dictionaryoftarg02jastuoft$105/full/1400,/0/default.jpg) |
+
+Why asked again: right after the Yerushalmi you found, the entry cites `Bab. ib. 23ᵇ`, the Babylonian Rosh Hashanah 23b, and that is the place Sefaria's `refs` item names. Sefaria's text leaves the cite unlinked. If print reads `Bab. ib. 23ᵇ` there, the item has a basis and the removal is wrong. `refs` never reaches our entry files, so nothing in our data changes either way; the answer decides only what is sent to Sefaria (review ledger L82).
+
+**Question.** Does print read `(Bab. ib. 23ᵇ; …)` after `Y. R. Hash. II, 58ᵃ top`?
+
+- **M01355** (P000232)
+  - [x] yes: `Bab. ib. 23ᵇ` (the removal is wrong; a PR withdraws P000232)
+  - [ ] no: print cites no Bavli 23b (the removal stands; say what it reads in the note)
+  - [ ] can't tell from the scan
+  - note: Yup that one is totaly on me, I missed that!
+
+Recommendation: yes (high): the cite is in Sefaria's own text of the entry, and `ib.` there can only be Rosh Hashanah.
+
+Applied in PR #196: you ticked yes; your note: "Yup that one is totaly on me, I missed that!". P000232 is withdrawn, its bytes moved to [`docs/archive/patches-retired-2026-10-25/`](archive/patches-retired-2026-10-25/README.md), and M01355's manifest record, which named only it, is removed: Sefaria's `refs` item `Rosh Hashanah 23b` stands, the place `Bab. ib. 23ᵇ` cites (review ledger L82). `refs` never reaches our entry files, so no entry changes; the patch was never an appendix row, and nothing is sent.
 
 ## Textual-research candidates (for #153)
 

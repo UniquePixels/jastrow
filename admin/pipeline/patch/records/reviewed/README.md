@@ -112,7 +112,8 @@ on the maintainer's scan read: P000221 (H00871's `Ib.` cite the
 Mekhilta, not Exodus 14), P000760 (U01063's `II` names U01070, as
 Sefaria links it), P000291–P000293 (print has the comma before the
 numeral) and P000294–P000296 (the trailing comma of `I, II,` is the
-headword line's). Their bytes are at
+headword line's). P000232 followed in PR #196 (M01355's `refs` item: the
+entry cites `Bab. ib. 23ᵇ`, review ledger L82). Their bytes are at
 [`docs/archive/patches-retired-2026-10-25/`](../../../../../docs/archive/patches-retired-2026-10-25/README.md).
 
 ## Rulings still in force

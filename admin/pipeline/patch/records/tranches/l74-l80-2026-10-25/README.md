@@ -1,13 +1,19 @@
-# L74 and L80: two maintainer reads (2026-10-25)
+# L74, L80, L82, L83: four maintainer reads (2026-10-25)
 
-PR #196, review ledger L74 and L80, under ruling `10-13 correction
-policy` ([`docs/decisions.md`](../../../../../../docs/decisions.md)).
-Two reads of the scan the maintainer made on 2026-10-25: U01686 takes
+PR #196, review ledger L74, L80, L82 and L83, under ruling `10-13
+correction policy` ([`docs/decisions.md`](../../../../../../docs/decisions.md)).
+Four reads of the scan the maintainer made on 2026-10-25: U01686 takes
 the I Jastrow's own text names (case 2, annotated), the two cites that
 name it are re-aimed at it (case 1), and A01194 gets back the three
-Hebrew phrases Sefaria lost inside `(b. h. …)` (case 1). Every patch is
-in [`../../reviewed/`](../../reviewed/), `prompt_version`
-`l74-l80-2026-10-25`, snapshot `sha256:75bbc5ee…`.
+Hebrew phrases Sefaria lost inside `(b. h. …)` (case 1). The last two
+checklist blocks, answered on `docs/checklist-batch-3` (`efc91fc8e`,
+merged here): A01161's forms are set in print's order (case 1), and
+P000232, which removed a `refs` item M01355's text cites, is
+withdrawn. `docs/maintainer-checklist.md` now holds no blocks; both
+are in `docs/headword-worklist.md` § Applied from the maintainer
+checklist (2026-10-25). Every patch is in
+[`../../reviewed/`](../../reviewed/); the new ones have
+`prompt_version` `l74-l80-2026-10-25`, snapshot `sha256:75bbc5ee…`.
 
 ## What changed
 
@@ -17,9 +23,12 @@ in [`../../reviewed/`](../../reviewed/), `prompt_version`
 | new | P000937 | U01689 `שַׁעֲרָא` II | `replace`: the cite's link U01679 → U01686 | 1 |
 | new | P000938 | U00991 `שִׁיעוּר` | `replace`: the cite's link U01679 → U01686 | 1 |
 | amended in place: payload and rationale | P000197 | A01194 `אֵיזֶה` | `replace`: `h. <` → the three phrases and the `)` | 1 |
+| amended in place: payload and rationale | P000300 | A01161 `אֵידֵין` | `reform`: the forms in print's order, `display` `{0}, {1} {2} ({3}) {4}` | 1 |
+| withdrawn, bytes moved to [`docs/archive/patches-retired-2026-10-25/`](../../../../../../docs/archive/patches-retired-2026-10-25/README.md) | P000232 | M01355 `מִכְוַור` | `unref` of `Rosh Hashanah 23b` | — |
 
 Manifest: U01686, U01689 and U00991 are new `repaired` records naming
-their patch; A01194 still names P000197 alone.
+their patch; A01194 still names P000197 alone, and A01161 P000300.
+M01355's record, which named only P000232, is removed.
 
 ## L74: U01686 `שַׁעַר` takes the I
 
@@ -112,9 +121,57 @@ Text conservation: the new file is the old one with exactly
 ` <he>אֵיזֶה</he>=<he>אֵי זֶה</he>, <he>אֵיזֶה הוּא</he>, <he>אֵי זוּ</he>`
 inserted after `(b. h.` (script-checked: 73 characters, nothing else in the file moves).
 
+## L83: A01161's form order
+
+The maintainer's line (`XXXXX m., XXXX XXXXX (XXXXX) XXXXX f. ....`,
+2026-10-22) fixed every form but two; on 2026-10-25 he ticked
+`אַיְידָא` (then `(אַיְידִי) אֵידְנָא f.`). Print sets:
+
+```text
+אֵידֵין m., אֵידָא אַיְידָא (אַיְידִי) אֵידְנָא f.
+```
+
+P000300 is amended in place (id, target, `expected_before`, snapshot
+and `prompt_version` unchanged). Its payload was the legacy
+`{headword, alt_headwords}`, the split alone in Sefaria's order; it is
+now `{display, forms}`:
+
+| | forms | display |
+|---|---|---|
+| before | `אֵידֵין`, `אֵידְנָא`, `אַיְידָא`, `אֵידָא`, `(אַיְידִי)` | `{0}, {1}, {2}, {3}, ({4})` |
+| after | `אֵידֵין`, `אֵידָא`, `אַיְידָא`, `(אַיְידִי)`, `אֵידְנָא` | `{0}, {1} {2} ({3}) {4}` |
+
+The separators follow his line: a comma after the first form (print's
+`m.,`), a space between the others (`XXXX XXXXX (XXXXX) XXXXX`). The
+`m.` and `f.` are grammar, not display text. No committed `display`
+carries a gender label, although rule 3 would allow one beside a form
+that has a `gender`: lines with a label between forms keep it in the
+gloss head or `grammar`, as A01194's `m., אֵיזוּ f.` does. Sefaria
+keeps only the `f.` (its `morphology`, our `grammar.gender` and
+gloss head `f. (h. …`); the `m.` after `אֵידֵין` is in neither
+Sefaria's text nor ours, and this patch does not add it. The display
+rules and gate 2 accept the template (`headwordLine` green). Every
+spelling stays a form, and `headwords[0]` is still `אֵידֵין`, so the
+name is unchanged (`nameOf` `אֵידֵין` before and after). The appendix
+holds the row as `not mechanical for op` (it sets a layout), as it does
+I00158's and A02823's.
+
+## L82: P000232 withdrawn
+
+P000232 removed M01355's `refs` item `Rosh Hashanah 23b` as baseless
+(review doc 02, 2026-08-05). The entry cites it: `Y. R. Hash. II, 58ᵃ
+top …; (Bab. ib. 23ᵇ; Tosef. ib. II (I), 2 …)`, where `Bab. ib. 23ᵇ`
+is the Bavli Rosh Hashanah 23b, unlinked in Sefaria's text. The
+maintainer ticked yes on 2026-10-25 (his note: "Yup that one is totaly
+on me, I missed that!"). Withdrawing needs no op: the line moved, bytes
+unchanged, to the archive, so Sefaria's item stands. `refs` never
+reaches our entry files (ruling B7), so no entry file changes; P000232
+was never an appendix row (`no print evidence`), so nothing is sent
+either way.
+
 ## Verification
 
-- `bun data:import` into an emptied `data/entries/` (the drift-check
+- First pass (L74, L80): `bun data:import` into an emptied `data/entries/` (the drift-check
   procedure: clear the letter directories, import, `bun qa:format`),
   then `git status` against the committed tree: four entry files
   differ, `A01194`, `U00991`, `U01686`, `U01689`; every gate green
@@ -134,3 +191,13 @@ inserted after `(b. h.` (script-checked: 73 characters, nothing else in the file
   `reviewed-replace` row (it was held as `partial: print not fully
   restored`). P000936 is in the review list as our convention (the
   implied homograph I, case 2), as its annotation requires.
+- Second pass (L82, L83), the same procedure: one more entry file
+  differs, `A01161`, and only in the order of `headwords` and in
+  `display` (the same five form objects; every other field equal,
+  script-checked). M01355's file is unchanged, as expected. Every gate
+  green (`headwordLine` 97632/97632). Patch corpus 771 → 770 reviewed,
+  815 → 814 applied; annotations 118.
+- `bun data:validate`: 0 problems. `bun data:sefaria`: 482 appendix
+  rows, unchanged; the review list 289 → 288 (P000232 gone; P000300 moves
+  from `no print evidence` to `not mechanical for op`), and
+  `no print evidence` 2 → 0.

@@ -8,7 +8,8 @@ maintainer's scan read of 2026-10-25
 from the maintainer checklist (2026-10-25)). Every line is the original
 line's bytes, moved. The tranche README
 [`checklist-batch-2-2026-10-25`](../../../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md)
-has the whole batch.
+has the whole batch. A ninth, P000232, followed in PR #196 (review
+ledger L82), appended last.
 
 Withdrawing a patch needs no op: each one changed Sefaria's text or
 line, so retiring it returns the entry to the snapshot's reading, which
@@ -24,6 +25,7 @@ print confirms.
 | P000294 | A02356 `אִסְטְוָוא` | dropped the trailing comma of `I, II,` (and the doubled space) | the comma is print's, in the bold of the headword line; the gloss begins ` v.`, so it was lost | record removed |
 | P000295 | B00407 `בְּזָא` | the same | the same | record removed |
 | P000296 | D00844 `דִּלְמָא` | the same | the same | D00844 names P000620 alone |
+| P000232 | M01355 `מִכְוַור` | removed Sefaria's `refs` item `Rosh Hashanah 23b` as baseless (review doc 02) | the entry cites `Bab. ib. 23ᵇ`, that Bavli page; the maintainer's scan read of 2026-10-25 (L82). Withdrawn in PR #196 ([`l74-l80-2026-10-25`](../../../admin/pipeline/patch/records/tranches/l74-l80-2026-10-25/README.md)) | record removed |
 
 The doubled space the gloss-comma patches also closed needs no patch:
 the parser reads `X  I, II,` as `{0} I, II,`.
