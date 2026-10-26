@@ -28,7 +28,7 @@ print confirms.
 The doubled space the gloss-comma patches also closed needs no patch:
 the parser reads `X  I, II,` as `{0} I, II,`.
 
-## Tranche-01's P000027 (PR #n)
+## Tranche-01's P000027 (PR #195)
 
 `tranches/tranche-01/patches.jsonl` holds P000027, A00675's agent
 `split` at `1)`, and `tranches/tranche-01/manifest.jsonl` the

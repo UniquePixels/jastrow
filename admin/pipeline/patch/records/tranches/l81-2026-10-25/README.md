@@ -1,6 +1,6 @@
 # L81: a split's marker after a digit (2026-10-25)
 
-PR #n, review ledger L81, under ruling `10-13 correction policy`
+PR #195, review ledger L81, under ruling `10-13 correction policy`
 ([`docs/decisions.md`](../../../../../../docs/decisions.md)), case 1:
 Sefaria lost A00675's `1)`, print is right, no annotation. The
 evidence is the maintainer's scan read of 2026-10-25
