@@ -12,7 +12,7 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
 
 ## Decisions (Brian, before the sessions that depend on them)
 
-- [ ] **D1 — `docs/decisions.md` is the live rulings ledger, not a relic.**
+- [x] **D1 — `docs/decisions.md` is the live rulings ledger, not a relic.**
       Its own header says "A new ruling is a row here first" and
       "This file holds only what still binds the pipeline". 116
       tracked references name it (52 patch rationales, 8 Biome
@@ -49,37 +49,47 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
 One session, small PR. Blocks nothing else but every other group's
 docs will cite the wrong paths until it lands.
 
-- [ ] Resolve D1; if restoring, `git mv docs/archive/decisions.md docs/`.
-- [ ] Decide the same for `review-ledger.md` (this checklist is its
+Landed 2026-10-26 on `chore/archive-last-cycle-docs`. Of the 12 moved
+files, 6 stayed archived (correction-audit, headword-worklist,
+maintainer-checklist, post-go-live-review, review-ledger,
+sense-worklist); `decisions.md`, the submission log and the three
+generated reports went back. The "65 dead links" below counted
+`decisions.md` as moved; the real toll was 42 retargeted, 32 rebased
+inside the moved files, 3 in other archived docs, plus 15 that were
+already dead. `bun docs:links` now runs in `bun qa` and CI.
+
+
+- [x] Resolve D1; if restoring, `git mv docs/archive/decisions.md docs/`.
+- [x] Decide the same for `review-ledger.md` (this checklist is its
       successor; archiving it is fine, but `.claude/CLAUDE.md:17` must
       then point here).
-- [ ] `admin/pipeline/paths.ts:133` — `SEFARIA_SUBMISSIONS_PATH` still
+- [x] `admin/pipeline/paths.ts:133` — `SEFARIA_SUBMISSIONS_PATH` still
       reads `docs/sefaria-submissions.jsonl`; `sefaria.ts:98–104`
       treats a missing log as empty with no message. Move the path or
       the file back, and make a missing log an error.
-- [ ] `admin/pipeline/paths.ts:112–120` — the import still writes
+- [x] `admin/pipeline/paths.ts:112–120` — the import still writes
       `import-blessing`, `review-report`, `headword-issues.{md,csv}`
       into `docs/reports/`; the archived copies will drift. Either
       stop generating them (group 5) or leave them live, not both.
-- [ ] `report/sefaria-evidence.ts:78` regex matches `docs/<x>-worklist.md`,
+- [x] `report/sefaria-evidence.ts:78` regex matches `docs/<x>-worklist.md`,
       `maintainer-checklist.md`, `post-go-live-review.md` inside
       rationales. 389 rationale lines and 14 appendix rows cite those
       paths. Decide: leave rationales as historical strings (and say
       so in the appendix README), or extend the regex to `docs/archive/`.
-- [ ] Fix the 65 dead markdown links in live docs: `admin/pipeline/README.md`
+- [x] Fix the 65 dead markdown links in live docs: `admin/pipeline/README.md`
       (7), `DESIGN.md` (4), `docs/glossary.md` (3), one each in
       `README.md`, `CONTRIBUTING.md`, `admin/entry/README.md`,
       `ANNOTATIONS.md`, `ideas.md`, `sefaria-report.md`, and 44 across
       22 tranche READMEs.
-- [ ] Rebase the relative links inside the moved files (decisions 78,
+- [x] Rebase the relative links inside the moved files (decisions 78,
       headword-worklist 15, correction-audit 10, maintainer-checklist 1,
       sense-worklist 1), per `docs/archive/README.md:53`'s own rule.
-- [ ] Turn the shell snippet in `docs/archive/README.md:62–72` into a
+- [x] Turn the shell snippet in `docs/archive/README.md:62–72` into a
       script (`bun docs:links`) and a CI step, so a move cannot break
       links silently again. 21 links were already dead before this move.
-- [ ] Update `.claude/CLAUDE.md`: lines 15 (PR range ends at #147),
+- [x] Update `.claude/CLAUDE.md`: lines 15 (PR range ends at #147),
       17, 18 (`compile.ts` → `admin/compile/`), 22, 24.
-- [ ] Commit on a branch off `v2`, not on `v2`.
+- [x] Commit on a branch off `v2`, not on `v2`.
 
 ## Group 1 — Patch evidence: schema and gates
 
