@@ -197,6 +197,15 @@ then refuses any of them left on `sefaria-only`. Nobody has re-read
 anything yet. Why 247 and not the 253 below, by predicate:
 [`evidence-backfill-2026-10-26`](../admin/pipeline/patch/records/tranches/evidence-backfill-2026-10-26/README.md).
 
+**Block template.** Each batch README's maintainer blocks follow
+[`DESIGN.md` §5 "Patch process"](../admin/pipeline/DESIGN.md#patch-process):
+one block per patch and one tick per block (no section approvals), the
+whole entry in view, the hOCR line and the scan crop link at the page
+index's leaf shown first and the proposal never by default, a block
+with both boxes ticked sent back, a second read wherever the hOCR and
+the scan read disagree, and the characters a patch removes shown from
+its `removes`.
+
 Every predicate runs over `admin/pipeline/patch/records/reviewed/patches.jsonl`
 with these definitions (`fam` is the first letter of the cite word's
 consonants, the family the cite names, ruling 10-05):

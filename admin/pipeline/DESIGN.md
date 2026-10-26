@@ -820,6 +820,10 @@ bytes Sefaria's text lacks (a restored marker, a lost word, a
 respelled form), and gates 7, 9 and 10 went red. What a reviewed
 patch removes is the loss report's question, below.
 
+`confidence` left with this ruling: all 770 reviewed records said
+`high`. The validator no longer reads it, and the agent tranches'
+records that still carry it are not refused for it.
+
 ### The loss report
 
 The mirror of no-new-text, with no exemption: for every patch that
@@ -847,9 +851,48 @@ behind its record. The field was backfilled on the 115 reviewed
 records that remove characters, mechanically
 ([`removes-backfill-2026-10-26`](patch/records/tranches/removes-backfill-2026-10-26/README.md)).
 
-`confidence` left with this ruling: all 770 reviewed records said
-`high`. The validator no longer reads it, and the agent tranches'
-records that still carry it are not refused for it.
+### Patch process
+
+The rules a reviewed patch is written and approved under (review
+checklist 2026-10-25, group 2). Most have no code behind them; each
+closes a way a wrong patch reached `reviewed/` in #152–#196, named
+beside it. The evidence rule (above) and gates 11 and 12 are the
+half the import enforces.
+
+- **No blanket section approvals.** A maintainer's tick approves the
+  one block it sits in. "Approve the section", "as above" or a tick
+  on a heading approves nothing: each patch gets its own read (class
+  B: a ruling generalised from Sefaria's string shape and applied to
+  nine entries no one read).
+- **No cut-down context.** A reviewer sees the whole entry the patch
+  edits, as it stands before the patch, not the matched substring or a
+  trimmed window. A defect the window hides is a defect the read
+  cannot see (P000881, a partial repair accepted as complete).
+- **A seeder never writes a `reviewed` patch from a rule's output.**
+  A script may propose; what it proposes from a transform rule's or a
+  detector's output is a tranche patch or a worklist row, and becomes
+  `reviewed` only through a person's read of the print. P000221 came
+  from the step-8 seeder, which turned a rule's output into a reviewed
+  record with a boilerplate "print has" rationale (class A).
+- **The maintainer block** (the checklist block a person ticks) shows,
+  by default, the hOCR line and the scan crop link at the leaf the
+  page index gives the entry, **never the proposal**: the reader
+  writes what print reads, and the patch is drawn from that, not
+  ticked into agreement with it. A proposal, where one exists, sits
+  below the read and collapsed.
+  - **A block with both boxes ticked is refused**, never resolved to
+    either: it goes back to the reader.
+  - **When the hOCR and a scan read disagree, a second read is
+    required** before a patch is written, by a second reader or a
+    second look at a higher-resolution crop, and both reads are
+    recorded in the evidence (P000308: one misread, no second reader).
+  - **A patch that removes visible characters shows them**: the block
+    prints its `removes` (the loss report, above), so the reader
+    approves the loss as well as the change.
+- **A patch under dispute is `status: provisional`** from the moment a
+  ledger row or a review questions it, until the row closes: the
+  import holds it back rather than ship text in doubt (P000221 and
+  P000232 stayed applied while in doubt).
 
 ---
 
@@ -1184,7 +1227,12 @@ template never carries one, ruling 10-06 hidden superscript);
 (c) `display` is absent exactly for a line the gate independently
 judges unsettleable (`lineIsUnsettleable`). A patch-supplied template
 adds two more marks.
-*Cannot see:* byte regeneration of Sefaria's split items — deliberately
+*Cannot see:* whether the line is print's. Every mark reads the
+composed line, Sefaria's as the transforms and any reviewed `reform`
+leave it, so the gate checks a patch against Sefaria's source line: a
+patch that matches Sefaria passes however print reads. Ruling `10-26
+patch evidence` closes that (§5 "Patch evidence"; gate 11). Nor
+byte regeneration of Sefaria's split items — deliberately
 gone, because it cannot round-trip through a shape whose items no
 longer correspond 1:1 to the source's strings; **commas, excluded on
 both sides**, because the upstream split cut print's separators and did
@@ -1766,7 +1814,7 @@ so cannot be inferred from reading the code that is there.
 
 ### Process rules with no code enforcement
 
-These four are real constraints and nothing in the module checks them.
+These five are real constraints and nothing in the module checks them.
 
 58. **No sense is renumbered while nothing addresses a sense.** The
     measurement behind it: 0 of 71,376 internal refs carry a sense
@@ -1782,3 +1830,9 @@ These four are real constraints and nothing in the module checks them.
 61. **The admin tool does not create patches.** An admin edit is a file
     edit, never a patch record. The admin tool does not exist yet;
     when it does, this is the contract it inherits.
+62. **A reviewed patch is written under the patch process** (§5
+    "Patch process"): no blanket approvals, no cut-down context, no
+    seeder turning a rule's output into a `reviewed` patch, and the
+    maintainer block's read-first rules. The import sees only their
+    trace: the evidence a patch states (gate 11) and the loss it
+    declares (gate 12).

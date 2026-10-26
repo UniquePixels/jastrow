@@ -266,7 +266,19 @@ function lineIsUnsettleable(line: string): boolean {
  *    exactly for a line this gate independently judges unsettleable.
  *    Without it marks 1 and 2 could both pass on a run that quietly
  *    stopped writing `display` at all, since mark 2 has nothing to
- *    compare when the template is missing. */
+ *    compare when the template is missing.
+ *
+ * **Its blind spot: the print.** Every mark compares the written entry
+ * against the composed line, which is Sefaria's line as the transforms
+ * and any reviewed `reform` leave it. So the gate checks a patch
+ * against Sefaria's source line, never against print: a patch whose
+ * line matches Sefaria's passes all three marks however print reads,
+ * and a patch that agrees with Sefaria's error is as green as one that
+ * corrects it. Nothing here can tell them apart. What closes that is
+ * ruling `10-26 patch evidence`: every reviewed patch states its print
+ * evidence, a text-changing one may not stand on `sefaria-only`
+ * unless it is `pending` a re-read, and gate 11 (`evidenceLocator`)
+ * holds the stated leaf and hOCR quote to the entry. */
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: gate 2's three marks in one place; each is only meaningful against the other two.
 function checkHeadwordLine(
 	composed: SourceEntry,
