@@ -161,6 +161,8 @@ function byCodeUnit(a: string, b: string): -1 | 0 | 1 {
 	return a < b ? -1 : 1;
 }
 
+/** The composed entries by id, and for each the entry before it in
+ * rid order (the one a `ch.` line follows in print). */
 function indexTargets(entries: readonly Entry[]): Targets {
 	const byId = new Map(entries.map((e) => [e.id, e]));
 	const order = [...byId.keys()].sort(byCodeUnit);

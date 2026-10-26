@@ -68,6 +68,9 @@ async function computeLosses(): Promise<{
 	};
 }
 
+/** Computes what each reviewed patch removes, writes it as `removes`
+ * on the records that remove anything (`--write`), prints the table,
+ * and refuses to run on records that already carry the field. */
 async function main(): Promise<void> {
 	const write = process.argv.includes('--write');
 	const lines = (await Bun.file(PATCHES).text()).split('\n').filter(Boolean);
