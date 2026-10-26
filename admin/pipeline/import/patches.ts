@@ -29,6 +29,35 @@ const DRIFT_DETAIL: Record<DriftOutcome, string> = {
 		'the source already reads as this patch leaves it; archive the patch',
 };
 
+/** An absorbed carry-over patch: `superseded`, and always a
+ * `patch-absorbed` row. A claim (`rule`, the transform rule after
+ * which the target first resolved 0 times) is a hint in the row, not
+ * proof the defect is fixed, since a rule that only rewrote the anchor
+ * text would claim it too; a patch with no hint also counts on
+ * `patches.absorbedUnclaimed`. */
+function recordAbsorbed(
+	rid: string,
+	patch: SemanticPatch,
+	rule: string | undefined,
+	report: Report,
+): void {
+	report.patchOutcomes.push({ outcome: 'superseded', patchId: patch.id, rid });
+	const who =
+		rule === undefined
+			? 'no transform rule claims it'
+			: `transform rule ${rule} claims it (a hint: it rewrote the target away, which is not proof it fixed the defect)`;
+	report.rows.push({
+		bucket: 'patch',
+		detail: `${patch.id} (${patch.defect_class}): carry-over target ${patch.target} is found 0 times and ${who}; recorded superseded`,
+		kind: 'patch-absorbed',
+		rid,
+		severity: 'review',
+	});
+	if (rule === undefined) {
+		report.patches.absorbedUnclaimed++;
+	}
+}
+
 /** One outcome row per patch this entry was offered (spec §3.3). A
  * drifted patch is also a review row and a header count; a patch that
  * failed its apply gate gets no outcome — it is a fault row instead.
@@ -68,30 +97,7 @@ function recordPatchOutcomes(
 				report.patches.upstreamChanged++;
 			}
 		} else if (absorbed.has(patch.id)) {
-			report.patchOutcomes.push({
-				outcome: 'superseded',
-				patchId: patch.id,
-				rid,
-			});
-			// Every absorbed patch is a row: a claim is a hint (the rule after
-			// which the target first resolved 0 times), not proof the defect
-			// is fixed, since a rule that only rewrote the anchor text would
-			// claim it too.
-			const rule = claimed.get(patch.id);
-			const who =
-				rule === undefined
-					? 'no transform rule claims it'
-					: `transform rule ${rule} claims it (a hint: it rewrote the target away, which is not proof it fixed the defect)`;
-			report.rows.push({
-				bucket: 'patch',
-				detail: `${patch.id} (${patch.defect_class}): carry-over target ${patch.target} is found 0 times and ${who}; recorded superseded`,
-				kind: 'patch-absorbed',
-				rid,
-				severity: 'review',
-			});
-			if (rule === undefined) {
-				report.patches.absorbedUnclaimed++;
-			}
+			recordAbsorbed(rid, patch, claimed.get(patch.id), report);
 		} else if (!failed.has(patch.id)) {
 			report.patchOutcomes.push({ outcome: 'applied', patchId: patch.id, rid });
 			if (patch.evidence?.pending === true) {
