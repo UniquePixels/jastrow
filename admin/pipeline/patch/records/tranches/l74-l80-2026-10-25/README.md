@@ -114,8 +114,10 @@ inserted after `(b. h.` (script-checked: 73 characters, nothing else in the file
 
 ## Verification
 
-- `bun data:import` from an empty `data/entries/`: four entry files
-  changed, `A01194`, `U00991`, `U01686`, `U01689`; every gate green
+- `bun data:import` into an emptied `data/entries/` (the drift-check
+  procedure: clear the letter directories, import, `bun qa:format`),
+  then `git status` against the committed tree: four entry files
+  differ, `A01194`, `U00991`, `U01686`, `U01689`; every gate green
   (`textConservation` 278545/278545, `internalTargets` 32512/32512,
   `names` 65024/65024, `headwordLine` 97630/97630). Each file was
   script-checked against the committed one: U01686 differs only in
