@@ -55,7 +55,6 @@ describe('composeEntry', () => {
 		const source = await loadFixture('C01331');
 		const missing = 'text this entry does not carry';
 		const drifting = {
-			confidence: 'high',
 			defect_class: 'test-drift',
 			expected_before: missing,
 			expected_occurrences: 1,
@@ -94,7 +93,6 @@ describe('composeEntry', () => {
 		// only because the loader stamps it `author: 'human'`.
 		const reviewedPatch: SemanticPatch = {
 			author: 'human',
-			confidence: 'high',
 			defect_class: 't',
 			expected_before: 'a b',
 			expected_occurrences: 1,
@@ -111,7 +109,6 @@ describe('composeEntry', () => {
 		// Accepted's `expected_before` is "a c" — it only resolves once
 		// the reviewed patch above has already landed.
 		const acceptedPatch: SemanticPatch = {
-			confidence: 'high',
 			defect_class: 't',
 			expected_before: 'a c',
 			expected_occurrences: 1,
@@ -146,7 +143,6 @@ describe('composeEntry', () => {
 		};
 		const reform: SemanticPatch = {
 			author: 'human',
-			confidence: 'high',
 			defect_class: 'headword-ocr-glyph',
 			expected_before: was,
 			expected_occurrences: 1,

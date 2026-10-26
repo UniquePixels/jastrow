@@ -40,7 +40,6 @@ function line(record: unknown): string {
 /** A minimal corpus patch for reconciliation tests. */
 function makePatch(id: string, rid: string): SemanticPatch {
 	return {
-		confidence: 'high',
 		defect_class: 'ocr-marker',
 		expected_before: 'l) emergency',
 		expected_occurrences: 1,

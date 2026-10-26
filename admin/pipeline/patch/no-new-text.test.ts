@@ -33,7 +33,6 @@ function patchFor(
 	overrides: Record<string, unknown>,
 ): SemanticPatch {
 	return parsePatch({
-		confidence: 'high',
 		defect_class: 'test-class',
 		expected_before: definition,
 		id: 'P000001',

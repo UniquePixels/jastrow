@@ -59,7 +59,6 @@ function makeEntry(): SourceEntry {
 function raw(over: Record<string, unknown>): Record<string, unknown> {
 	const before = 'to be first. Ber. 2ᵃ.';
 	return {
-		confidence: 'high',
 		defect_class: 'test',
 		expected_before: before,
 		id: 'P000001',

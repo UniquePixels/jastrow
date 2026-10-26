@@ -48,7 +48,6 @@ function senseAt(definition: string, token = ''): string {
 function patch(fields: Record<string, unknown>): SemanticPatch {
 	const before = (fields['expected_before'] as string | undefined) ?? '';
 	return {
-		confidence: 'high',
 		defect_class: 'ocr-marker',
 		expected_occurrences: 1,
 		id: 'P000001',

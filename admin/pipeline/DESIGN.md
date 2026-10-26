@@ -742,6 +742,41 @@ correction rewrites the headword string, and since ruling `10-09 link
 key` that dangles nothing: links resolve by the line before patches
 (§2 "The markup vocabulary", review ledger L49).
 
+### Patch evidence
+
+Ruling `10-26 patch evidence` (`docs/decisions.md`). Every reviewed
+patch states where its print evidence comes from, as `evidence`
+(`PatchEvidence`, `patch/schema.ts`):
+
+| `kind` | means | must state |
+|---|---|---|
+| `maintainer-read` | a person read the scan | `reader`, `date` |
+| `hOCR` | a line of `data/print/hocr/`, quoted verbatim | `volume`, `leaf`, `quote` |
+| `jastrow-text` | Jastrow's own text determines the change (10-13 case 2): the `—2)` after an implied `1)`, the run a renumber reads | `quote` |
+| `sefaria-only` | nothing but Sefaria's text | nothing; `pending: true` allowed |
+
+`leaf` and `volume` locate the evidence on the two scans the page
+index is pinned to, always together, on any kind; IIIF's `$n` is leaf
+`n − 1`. `pending` is allowed only on `sefaria-only`. The validator
+refuses an unknown key, a kind without what it must state, and a
+malformed value; whether a patch must carry `evidence` at all is the
+preflight's, since only the loader knows who wrote it.
+
+**Text-changing ops.** `TEXT_CHANGING` (`patch/schema.ts`) names the
+ops that change what a reader sees, a word, a sense boundary, a
+headword, a `refs` item or a link's target: `replace`, `reform`,
+`unref`, `delete`, `move`, `split`, `join` and `nest`. `retag` and
+`relabel` set labels, which are not text (above), and `annotate`
+changes nothing. A text-changing patch may not stand on `sefaria-only`
+evidence unless it is `pending`.
+
+**`status: provisional`** marks a patch under dispute. It stays valid
+and in the corpus, and the import does not apply it.
+
+`confidence` left with this ruling: all 770 reviewed records said
+`high`. The validator no longer reads it, and the agent tranches'
+records that still carry it are not refused for it.
+
 ---
 
 ## 6. Repairs and detectors
