@@ -283,7 +283,7 @@ function absorbingRule(
 			}
 		}
 	}
-	return;
+	return undefined;
 }
 
 /** For each absorbed carry-over patch, the rule that claims it

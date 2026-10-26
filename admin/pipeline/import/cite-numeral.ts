@@ -44,7 +44,6 @@ const DATA_REF = /^Jastrow, (?<hw>.*?)(?: \d+)?$/u;
 /** A numeral at the end of that headword. */
 const REF_NUMERAL = /\s(?<n>[IVX]+)$/u;
 /** A `ch.` line's gloss opens so (ruling 10-15). */
-const CH_LINE = /^ch\./u;
 const HREF = /\bhref="(?<v>[^"]*)"/u;
 const DATA_REF_ATTR = /\bdata-ref="(?<v>[^"]*)"/u;
 /** Roman numeral → number, as far as any family runs. */
@@ -115,7 +114,9 @@ function isChLine(
 ): boolean {
 	return (
 		target.headwords.every((form) => form.homograph === undefined) &&
-		CH_LINE.test(textOf(target.senses[0]?.gloss ?? '').trim()) &&
+		textOf(target.senses[0]?.gloss ?? '')
+			.trim()
+			.startsWith('ch.') &&
 		carries(before, n)
 	);
 }
@@ -152,9 +153,17 @@ interface Targets {
 }
 
 /** Index the finished entries by rid and by predecessor. */
+/** Code-unit order: stable across machines, unlike a locale collation. */
+function byCodeUnit(a: string, b: string): -1 | 0 | 1 {
+	if (a === b) {
+		return 0;
+	}
+	return a < b ? -1 : 1;
+}
+
 function indexTargets(entries: readonly Entry[]): Targets {
 	const byId = new Map(entries.map((e) => [e.id, e]));
-	const order = [...byId.keys()].sort();
+	const order = [...byId.keys()].sort(byCodeUnit);
 	const before = new Map<string, Entry>();
 	for (const [i, id] of order.entries()) {
 		const prior = byId.get(order[i - 1] ?? '');
