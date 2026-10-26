@@ -34,6 +34,7 @@ import { finishEntry } from './import/finish.ts';
 import {
 	checkChain,
 	checkContract,
+	checkEvidenceLocators,
 	checkHeadwordLine,
 	checkNames,
 	checkPages,
@@ -48,6 +49,7 @@ import {
 	type PatchGroups,
 	recordConsolidatedAway,
 	recordPatchOutcomes,
+	recordProvisional,
 } from './import/patches.ts';
 import { classifyRows } from './import/publication.ts';
 import {
@@ -73,8 +75,12 @@ import {
 	loadReviewedCorpus,
 	patchesByRid,
 	reviewedManifestProblems,
+	splitProvisional,
 	stalePins,
 } from './patch/apply.ts';
+import { leafLines } from './patch/hocr.ts';
+import { leafOutsideEntry, readPageLookup } from './patch/locator.ts';
+import type { SemanticPatch } from './patch/schema.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
 import {
 	BLESSING_PATH,
@@ -172,11 +178,24 @@ async function preparePatches(
 		),
 	);
 	recordConsolidatedAway(accepted, report);
+	// A provisional patch passes the preflight like any other, then is
+	// held back from the apply: counted and listed, never applied.
+	const sets = [reviewed.patches, accepted.patches, accepted.carryOver].map(
+		splitProvisional,
+	);
+	recordProvisional(
+		sets.flatMap((set) => set.held),
+		report,
+	);
+	const [toReview = [], toAccept = [], toCarry = []] = sets.map(
+		(set) => set.apply,
+	);
 	return {
-		accepted: patchesByRid(accepted.patches),
-		carryOver: patchesByRid(accepted.carryOver),
+		accepted: patchesByRid(toAccept),
+		carryOver: patchesByRid(toCarry),
 		drift: options.drift,
-		reviewed: patchesByRid(reviewed.patches),
+		located: toReview.filter((p) => p.evidence?.leaf !== undefined),
+		reviewed: patchesByRid(toReview),
 	};
 }
 
@@ -292,7 +311,36 @@ async function composeAll(
 	}
 	report.rules = rules.rows();
 	markMissingTargets(groups, report);
+	// After the loop, when every patch outcome is in.
+	await checkLocators(groups.located, report);
 	return composed;
+}
+
+/** Gate 11 (`checkEvidenceLocators`) over the located reviewed
+ * patches that APPLIED: a held, drifted or failed patch puts nothing
+ * in the entry, so its locator vouches for nothing written. Reads the
+ * page lookup and, for each `hOCR` quote, that leaf's hOCR chunk. */
+async function checkLocators(
+	located: readonly SemanticPatch[],
+	report: Report,
+): Promise<void> {
+	const applied = new Set(
+		report.patchOutcomes
+			.filter((o) => o.outcome === 'applied')
+			.map((o) => o.patchId),
+	);
+	const pages = await readPageLookup();
+	report.gates.evidenceLocator = await checkEvidenceLocators(
+		located.filter((p) => applied.has(p.id)),
+		{
+			leafLines,
+			outside: (
+				rid: string,
+				volume: number,
+				leaf: number,
+			): string | undefined => leafOutsideEntry(pages, rid, volume, leaf),
+		},
+	);
 }
 
 /** Gate 9's `orphan-ref-unbased` fault: every `REPAIRED_ORPHAN_ITEMS`
@@ -596,6 +644,9 @@ function printGates(report: Report): void {
 	console.log(`unresolved=${report.unresolved.length} ${kindCounts}`);
 	console.log(
 		`stalePins=${report.snapshot.stalePins} upstreamFixed=${report.patches.upstreamFixed} upstreamChanged=${report.patches.upstreamChanged}`,
+	);
+	console.log(
+		`evidence pending=${report.patches.pending} provisional=${report.patches.provisional}`,
 	);
 	console.log(
 		`report written to ${IMPORT_REPORT_PATH}; evidence to ${BLESSING_PATH}; review to ${REVIEW_REPORT_PATH}; headword issues to ${HEADWORD_ISSUES_DOC}, ${HEADWORD_ISSUES_CSV}`,

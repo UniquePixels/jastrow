@@ -126,6 +126,14 @@ const KIND_RULES: ReadonlyArray<readonly [string, Publication, string]> = [
 		'defer',
 		'Compare the dropped patch against the kept one; if it fixed something the kept one does not, re-file it as a reviewed patch.',
 	],
+	// Ruling 10-26 patch evidence: a `status: 'provisional'` patch is
+	// under dispute and held back, so the entry shows Sefaria's text
+	// where a reviewed fix may be due.
+	[
+		'patch-provisional',
+		'blocks',
+		'Settle the dispute against the print: give the patch its evidence and drop its status, or withdraw it.',
+	],
 ];
 
 /** The lookup behind every publication decision: the detected classes

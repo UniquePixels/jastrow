@@ -770,8 +770,28 @@ headword, a `refs` item or a link's target: `replace`, `reform`,
 changes nothing. A text-changing patch may not stand on `sefaria-only`
 evidence unless it is `pending`.
 
+**What the import does with it.** The corpus preflight
+(`evidenceProblems`, `patch/apply.ts`) refuses, with the patch id and
+rid, a reviewed patch with no `evidence` and any text-changing patch
+on `sefaria-only` evidence that is not `pending`; the run stops before
+any entry is read. A `pending` patch applies like any other, and the
+report counts the ones that applied (`patches.pending`, on the
+blessing's "Patch evidence" line). Gate 11, `evidenceLocator` (§9),
+checks every applied patch's locator and every `hOCR` quote.
+
 **`status: provisional`** marks a patch under dispute. It stays valid
-and in the corpus, and the import does not apply it.
+and in the corpus and passes the preflight, then `splitProvisional`
+holds it out of the apply set: it is never applied, and each is a
+`patch-provisional` row (`blocks`) and one on `patches.provisional`.
+One that reaches the apply anyway is a `patch-failed` fault. None is
+provisional today.
+
+**The no-new-text exemption stays.** A reviewed patch is still exempt
+from the no-new-text floor (`newTextProblem`): with the exemption
+removed, a dry run on 2026-10-26 failed 139 reviewed patches that add
+bytes Sefaria's text lacks (a restored marker, a lost word, a
+respelled form), and gates 7, 9 and 10 went red. What a reviewed
+patch removes is the loss report's question (review checklist group 2).
 
 `confidence` left with this ruling: all 770 reviewed records said
 `high`. The validator no longer reads it, and the agent tranches'
@@ -1083,7 +1103,7 @@ tool obliged to do that does not exist. **UNBUILT.**
 
 ## 9. The gates
 
-Ten gates, defined as one list — `GATE_NAMES` in
+Eleven gates, defined as one list — `GATE_NAMES` in
 `import/report.ts` — from which `GateName` derives and from which
 `createReport` seeds a tally each, so a gate cannot silently go
 missing. `isGreen` requires each gate to have been **reached**
@@ -1212,10 +1232,27 @@ exempt on purpose. Its name and `sefariaHeadword` clauses overlap gate
 7 and its page clause overlaps gate 8; the overlap is the point, since
 this is the half a hand edit meets without the snapshot.
 
+**11. `evidenceLocator`** (`import/gates.ts`,
+`checkEvidenceLocators`; ruling `10-26 patch evidence`). One mark per
+applied patch whose `evidence` names a `leaf`.
+*Proves:* the leaf shows the patch's entry, its page between the
+entry's own and the page the next entry starts on (`leafOutsideEntry`,
+`patch/locator.ts`, the check the Sefaria appendix's scan column
+makes); and an `hOCR` quote occurs on that leaf's hOCR text
+(`patch/hocr.ts`), verbatim but for whitespace and the invisible bidi
+marks. Evidence read off another leaf is not evidence for this entry
+(P000388/389).
+*Cannot see:* whether the quote proves the change: it is located, not
+read. Nor a Hebrew reading, which no hOCR quote witnesses (§5 "Patch
+evidence"), nor a patch whose evidence names no leaf, which is not
+marked. The page index is best effort, so an entry whose next
+neighbour starts on the same page cannot be located on the page
+after.
+
 ### What no gate sees
 
 Collected, because this is the list a future reader needs and will not
-assemble from the ten entries above:
+assemble from the eleven entries above:
 
 - **Text relocated across fields.** Two senses swapping definitions, or
   headword text moved into a definition, is invisible to all three
@@ -1271,7 +1308,9 @@ at the head of that kind's section.
 corrected in the admin tool after go-live.* It is stated in
 `publication.ts` and printed in the report header.
 
-- `blocks` — `headword-unparsed`, `upstream-changed`, `upstream-fixed`.
+- `blocks` — `headword-unparsed`, `upstream-changed`, `upstream-fixed`,
+  `patch-provisional` (a disputed patch held back, ruling `10-26 patch
+  evidence`).
 - `defer` — `headword-duplicate-form`, `paren-group-close-unknown`,
   `markup-carry`, `page-confidence-low`, `page-confidence-medium`,
   `review-deferred`, `patch-consolidated-away`, plus the seven detected

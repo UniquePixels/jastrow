@@ -34,6 +34,11 @@
  * Pure: the caller (`admin/pipeline/sefaria.ts`) reads the files and
  * writes the three documents.
  */
+import {
+	leafOutsideEntry,
+	type PageLookup,
+	pageOfLeaf,
+} from '../patch/locator.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import {
 	ABSENT,
@@ -61,18 +66,6 @@ interface Submission {
 	date: string;
 	patch_ids?: string[];
 	response: string;
-}
-
-/** The page index, as the scan column reads it: each rid's page,
- * column and volume, the page the next entry starts on (`lastPage`,
- * the furthest page this one can run to), and each page's scan leaf
- * (`volume:page` → leaf). */
-interface PageLookup {
-	entries: ReadonlyMap<
-		string,
-		{ column: string; lastPage: number; page: number; volume: number }
-	>;
-	leaves: ReadonlyMap<string, number>;
 }
 
 /** Everything one build reads. `snapshot` is the source's pin as it is
@@ -128,18 +121,6 @@ const IIIF_ALL = new RegExp(IIIF.source, 'gu');
 const scanUrl = (volume: number, leaf: number): string =>
 	`https://iiif.archive.org/iiif/dictionaryoftarg0${volume}jastuoft$${leaf + 1}/full/1400,/0/default.jpg`;
 
-/** The page a scan leaf shows, from the page index's column records. */
-function pageOfLeaf(
-	pages: PageLookup,
-	volume: number,
-	leaf: number,
-): number | undefined {
-	const hit = [...pages.leaves].find(
-		([key, l]) => l === leaf && key.startsWith(`${volume}:`),
-	);
-	return hit === undefined ? undefined : Number(hit[0].split(':')[1]);
-}
-
 /** Every scan the rationale links must show a page the entry is on
  * (its own page to the page the next entry starts on): evidence read off
  * another leaf is not evidence for this entry. */
@@ -147,26 +128,18 @@ function scanProblem(
 	patch: SemanticPatch,
 	pages: PageLookup,
 ): Exclusion | undefined {
-	const entry = pages.entries.get(patch.rid);
-	const outside = [...patch.rationale.matchAll(IIIF_ALL)]
-		.map((linked) => {
-			const leaf = Number(linked.groups?.['index']) - 1;
-			const page = pageOfLeaf(pages, Number(linked.groups?.['volume']), leaf);
-			return { leaf, page };
-		})
-		.find(
-			({ page }) =>
-				entry === undefined ||
-				page === undefined ||
-				page < entry.page ||
-				page > entry.lastPage,
+	for (const linked of patch.rationale.matchAll(IIIF_ALL)) {
+		const outside = leafOutsideEntry(
+			pages,
+			patch.rid,
+			Number(linked.groups?.['volume']),
+			Number(linked.groups?.['index']) - 1,
 		);
-	return outside === undefined
-		? undefined
-		: exclude(
-				'scan link outside the entry',
-				`leaf ${outside.leaf} is p. ${outside.page ?? '?'}; the entry is on p. ${entry?.page ?? '?'}–${entry?.lastPage ?? '?'}`,
-			);
+		if (outside !== undefined) {
+			return exclude('scan link outside the entry', outside);
+		}
+	}
+	return;
 }
 
 /** The scan column: the leaf the rationale links, or else the leaf of
@@ -509,7 +482,6 @@ function buildSefariaAppendix(inputs: AppendixInputs): SefariaAppendix {
 export type {
 	AppendixInputs,
 	AppendixRow,
-	PageLookup,
 	ReviewRow,
 	SefariaAppendix,
 	Submission,

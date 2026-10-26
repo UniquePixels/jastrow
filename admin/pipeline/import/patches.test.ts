@@ -72,6 +72,7 @@ describe('markMissingTargets', () => {
 			accepted: patchesByRid([accepted]),
 			carryOver: patchesByRid([carryOver]),
 			drift: 'outcome',
+			located: [],
 			reviewed: new Map(),
 		};
 		const report = createReport();
@@ -98,6 +99,7 @@ describe('markMissingTargets', () => {
 			accepted: new Map(),
 			carryOver: new Map(),
 			drift: 'outcome',
+			located: [],
 			reviewed: patchesByRid([reviewed]),
 		};
 		const report = createReport();
@@ -123,6 +125,7 @@ describe('markMissingTargets', () => {
 			accepted: new Map(),
 			carryOver: new Map(),
 			drift: 'outcome',
+			located: [],
 			reviewed: new Map(),
 		};
 		const report = createReport();

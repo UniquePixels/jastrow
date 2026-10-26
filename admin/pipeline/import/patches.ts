@@ -14,6 +14,10 @@ interface PatchGroups {
 	accepted: Map<string, SemanticPatch[]>;
 	carryOver: Map<string, SemanticPatch[]>;
 	drift: DriftMode;
+	/** The reviewed patches whose `evidence` names a scan leaf, for
+	 * gate 11 (`checkEvidenceLocators`), which checks those that
+	 * applied. */
+	located: SemanticPatch[];
 	/** Human-authored patches (consolidation spec §4.2, step 8), applied
 	 * before `accepted`. */
 	reviewed: Map<string, SemanticPatch[]>;
@@ -61,6 +65,9 @@ function recordPatchOutcomes(
 			});
 		} else if (!failed.has(patch.id)) {
 			report.patchOutcomes.push({ outcome: 'applied', patchId: patch.id, rid });
+			if (patch.evidence?.pending === true) {
+				report.patches.pending++;
+			}
 		}
 	}
 }
@@ -123,6 +130,26 @@ function recordConsolidatedAway(
 	}
 }
 
+/** The `status: 'provisional'` patches the run held back
+ * (`splitProvisional`, `patch/apply.ts`): each a `patch-provisional`
+ * row and one on the header count, so a patch the run does not apply
+ * is never silent. */
+function recordProvisional(
+	held: readonly SemanticPatch[],
+	report: Report,
+): void {
+	for (const patch of held) {
+		report.rows.push({
+			bucket: 'patch',
+			detail: `${patch.id} (${patch.defect_class}): provisional, not applied`,
+			kind: 'patch-provisional',
+			rid: patch.rid,
+			severity: 'review',
+		});
+		report.patches.provisional++;
+	}
+}
+
 /** A patch whose rid never streamed past targets a nonexistent entry.
  * Recorded on gate 9 rather than thrown, so the report lists it beside
  * every other composition problem — and as a `## Pipeline faults` row
@@ -153,4 +180,9 @@ function markMissingTargets(groups: PatchGroups, report: Report): void {
 }
 
 export type { PatchGroups };
-export { markMissingTargets, recordConsolidatedAway, recordPatchOutcomes };
+export {
+	markMissingTargets,
+	recordConsolidatedAway,
+	recordPatchOutcomes,
+	recordProvisional,
+};

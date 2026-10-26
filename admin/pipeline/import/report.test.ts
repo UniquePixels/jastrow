@@ -38,6 +38,8 @@ function greenReport(): Report {
 			applied: 0,
 			carried: 0,
 			consolidatedAway: 0,
+			pending: 0,
+			provisional: 0,
 			reviewed: 0,
 			upstreamChanged: 0,
 			upstreamFixed: 0,
