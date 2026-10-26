@@ -273,8 +273,8 @@ After publish the answer depends on D2 and D3. 85% of the unit tests
 - [ ] Give `patch/snapshot.ts` a package.json script.
 - [ ] Write down the reproducibility claim with a date: the last
       0-drift measurement (10-02) lives only in session memory.
-      `admin/pipeline/README.md:16` says "last `--write` 2026-09-29
-      (#139)"; entries changed in 28 commits since.
+      `admin/pipeline/README.md` now dates the last `--write` (#196,
+      2026-10-25) but still cites no drift measurement.
 - [ ] If D2 is "no": at publish, tag `archive/v2-import-<date>` and
       remove the import, transform rules, patch records and their
       tests from the live tree, keeping what `data:sefaria` imports
@@ -341,8 +341,9 @@ No live code parses hOCR; the page-index build that did is archived.
 
 - [ ] `CONTRIBUTING.md:71` omits `🚀 release` from the commit types
       (`.claude/CLAUDE.md:81` and `.coderabbit.yaml` have it).
-- [ ] `admin/pipeline/README.md:182–185`: blessing "last regenerated
+- [x] `admin/pipeline/README.md:182–185`: blessing "last regenerated
       2026-10-03 by #146"; it changed in 28 commits since, latest #196.
+      Done in group 0 (#197).
 - [ ] `docs/archive/README.md:47, :53`: both claims (live ledger
       elsewhere; all archive links work) are false after the move.
 - [ ] `docs/ideas.md` row "Candidate rows can go invisible to

@@ -28,11 +28,17 @@ const EXEMPT: ReadonlySet<string> = new Set([
 	'docs/archive/decisions-2026-09-22.md',
 ]);
 const LINK = /\]\(\s*<?(?<target>[^)\s>]+)/gu;
+/** A reference definition, `[label]: target "title"`, which a
+ * reference-style link `[text][label]` resolves through. */
+const REF_DEF = /^\s{0,3}\[[^\]]+\]:\s*<?(?<target>[^\s>]+)/u;
 /** A code span: a run of backticks to the next run of the same length,
  * across line breaks but not across a blank line (a paragraph end). */
-const CODE_SPAN = /(?<ticks>`+)(?:[^\n]|\n(?![ \t]*\n))*?\k<ticks>/gu;
+const CODE_SPAN =
+	/(?<!`)(?<ticks>`+)(?!`)(?:[^\n]|\n(?![ \t]*\n))*?(?<!`)\k<ticks>(?!`)/gu;
 const NOT_NEWLINE = /[^\n]/gu;
 const FENCE = /^\s{0,3}(?<fence>`{3,}|~{3,})/u;
+/** A closing fence: the run alone on its line, bar whitespace. */
+const FENCE_CLOSE = /^\s{0,3}(?:`{3,}|~{3,})\s*$/u;
 const SCHEME = /^[a-z][a-z\d+.-]*:/iu;
 const SUFFIX = /[#?]/u;
 
@@ -120,7 +126,8 @@ function withoutCode(text: string): string {
 				open = fence;
 			} else if (
 				fence.startsWith(open.charAt(0)) &&
-				fence.length >= open.length
+				fence.length >= open.length &&
+				FENCE_CLOSE.test(line)
 			) {
 				open = undefined;
 			}
@@ -138,6 +145,10 @@ function withoutCode(text: string): string {
 function linksOf(text: string): { line: number; link: string }[] {
 	const found: { line: number; link: string }[] = [];
 	for (const [index, line] of withoutCode(text).split('\n').entries()) {
+		const definition = REF_DEF.exec(line)?.groups?.['target'];
+		if (definition !== undefined) {
+			found.push({ line: index + 1, link: definition });
+		}
 		for (const match of line.matchAll(LINK)) {
 			const link = match.groups?.['target'];
 			if (link !== undefined) {
