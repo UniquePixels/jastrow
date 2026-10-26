@@ -16,6 +16,7 @@ import {
 	createPhaseTracker,
 	type DriftMode,
 	type PatchDrift,
+	type PatchLoss,
 } from './patch/apply.ts';
 import type { SemanticPatch } from './patch/schema.ts';
 import { RULES } from './transform/registry.ts';
@@ -120,6 +121,9 @@ interface ComposeResult {
 	 * moves `entry.headword` and never this, so the links naming
 	 * Sefaria's spelling still find the entry. */
 	linkHeadword: string;
+	/** One row per patch that applied, with the visible codepoints it
+	 * removed (`PatchLoss`): the loss report, and gate 12's input. */
+	losses: PatchLoss[];
 	/** Patches skipped because their precondition no longer holds
 	 * (`drift: 'outcome'` only; always empty otherwise). */
 	patchDrift: PatchDrift[];
@@ -141,6 +145,7 @@ interface PatchedEntry {
 	carried: string[];
 	drifted: PatchDrift[];
 	entry: SourceEntry;
+	losses: PatchLoss[];
 	problems: ApplyProblem[];
 }
 
@@ -163,6 +168,7 @@ function applyPatchSets(
 					annotated: [] as string[],
 					drifted: [] as PatchDrift[],
 					entry,
+					losses: [] as PatchLoss[],
 					problems: [] as ApplyProblem[],
 				}
 			: applyEntryPatches(entry, reviewed, patches?.drift);
@@ -178,6 +184,7 @@ function applyPatchSets(
 					annotated: [] as string[],
 					drifted: [] as PatchDrift[],
 					entry: afterReviewed.entry,
+					losses: [] as PatchLoss[],
 					problems: [] as ApplyProblem[],
 				}
 			: applyEntryPatches(afterReviewed.entry, accepted, patches?.drift);
@@ -195,6 +202,7 @@ function applyPatchSets(
 			carried: [],
 			drifted: [...afterReviewed.drifted, ...afterAccepted.drifted],
 			entry: afterAccepted.entry,
+			losses: [...afterReviewed.losses, ...afterAccepted.losses],
 			problems: [...afterReviewed.problems, ...afterAccepted.problems],
 		};
 	}
@@ -228,6 +236,7 @@ function applyPatchSets(
 			...carry.drifted,
 		],
 		entry: carry.entry,
+		losses: [...afterReviewed.losses, ...afterAccepted.losses, ...carry.losses],
 		problems: [
 			...afterReviewed.problems,
 			...afterAccepted.problems,
@@ -274,6 +283,7 @@ function composeEntry(
 		carryOver: { absorbed: patched.absorbed, carried: patched.carried },
 		entry: patched.entry,
 		linkHeadword: structural.entry.headword,
+		losses: patched.losses,
 		patchDrift: patched.drifted,
 		patchesApplied: patched.applied,
 		patchProblems: patched.problems,

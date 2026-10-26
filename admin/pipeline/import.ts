@@ -48,6 +48,7 @@ import {
 	markMissingTargets,
 	type PatchGroups,
 	recordConsolidatedAway,
+	recordLosses,
 	recordPatchOutcomes,
 	recordProvisional,
 } from './import/patches.ts';
@@ -235,6 +236,7 @@ function composeOne(
 			result,
 			report,
 		);
+		recordLosses(reviewed ?? [], result, report);
 		for (const problem of result.patchProblems) {
 			report.rows.push({
 				bucket: 'pipeline',
@@ -647,6 +649,10 @@ function printGates(report: Report): void {
 	);
 	console.log(
 		`evidence pending=${report.patches.pending} provisional=${report.patches.provisional}`,
+	);
+	const { loss } = report.patches;
+	console.log(
+		`loss reviewed=${loss.reviewed.patches}/${loss.reviewed.codepoints} agent=${loss.agent.patches}/${loss.agent.codepoints}`,
 	);
 	console.log(
 		`report written to ${IMPORT_REPORT_PATH}; evidence to ${BLESSING_PATH}; review to ${REVIEW_REPORT_PATH}; headword issues to ${HEADWORD_ISSUES_DOC}, ${HEADWORD_ISSUES_CSV}`,

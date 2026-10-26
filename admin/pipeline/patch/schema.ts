@@ -443,6 +443,13 @@ interface PatchBase {
 	occurrence_index: number;
 	prompt_version: string;
 	rationale: string;
+	/** The visible characters the patch removes from its entry, as its
+	 * author declares them: order and whitespace free, compared as a
+	 * multiset. Gate 12, `declaredLoss` (`import/gates.ts`), holds a
+	 * reviewed patch's declaration to what the apply removed
+	 * (`removedCodepoints`, `loss.ts`), both ways. Absent on a patch
+	 * that removes nothing visible. */
+	removes?: string;
 	rid: string;
 	snapshot: string;
 	/** `provisional`: a patch under dispute. It stays valid and in the
@@ -1191,7 +1198,7 @@ function anchorReasons(
 }
 
 /** Reasons from the provenance fields: rationale, defect_class,
- * snapshot pin, prompt_version, status. `confidence` left with ruling
+ * snapshot pin, prompt_version, status, removes. `confidence` left with ruling
  * `10-26 patch evidence` (770 of 770 reviewed records said `high`); a
  * record that still carries one is not refused for it, since nothing
  * reads it. */
@@ -1202,6 +1209,9 @@ function metadataReasons(raw: Record<string, unknown>): string[] {
 	}
 	if (!nonEmptyString(raw['rationale'])) {
 		reasons.push('rationale must be a non-empty string');
+	}
+	if ('removes' in raw && !nonEmptyString(raw['removes'])) {
+		reasons.push('removes, when present, must be a non-empty string');
 	}
 	if (!nonEmptyString(raw['defect_class'])) {
 		reasons.push('defect_class must be a non-empty string');
@@ -1680,6 +1690,7 @@ function parsePatch(value: unknown): SemanticPatch {
 		payload: raw['payload'],
 		prompt_version: raw['prompt_version'],
 		rationale: raw['rationale'],
+		...(raw['removes'] === undefined ? {} : { removes: raw['removes'] }),
 		rid: raw['rid'],
 		snapshot: raw['snapshot'],
 		...(raw['status'] === undefined ? {} : { status: raw['status'] }),

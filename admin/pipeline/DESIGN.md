@@ -800,7 +800,34 @@ from the no-new-text floor (`newTextProblem`): with the exemption
 removed, a dry run on 2026-10-26 failed 139 reviewed patches that add
 bytes Sefaria's text lacks (a restored marker, a lost word, a
 respelled form), and gates 7, 9 and 10 went red. What a reviewed
-patch removes is the loss report's question (review checklist group 2).
+patch removes is the loss report's question, below.
+
+### The loss report
+
+The mirror of no-new-text, with no exemption: for every patch that
+applies, `removedCodepoints` (`patch/loss.ts`) takes the visible
+codepoints the apply removed from the entry, as a multiset. The pool
+is the transform tier's (`fieldsOf`, which holds `display` and the
+grammar fields the patch floor's `flattenContent` does not) plus every
+`refs` item, which no no-new-text pool holds. Tags are stripped,
+whitespace and the invisible format characters (`\p{Cf}`, bidi marks)
+dropped, and a `display` template's `{n}` slots cut. A moved word
+removes nothing; `l)` → `1)` removes an `l`; an `unref` removes its
+item. Each applied patch's row is a `PatchLoss` on
+`ComposeResult.losses`.
+
+A reviewed patch **declares** what it removes, in `removes` (a string,
+order and whitespace free, compared as a multiset), and gate 12,
+`declaredLoss` (§9), holds the declaration to the computation for
+every applied reviewed patch: one that removes nothing visible needs
+no `removes`; one that removes characters it does not declare, or
+declares characters it does not remove, fails. The blessing's "Patch
+loss" line counts the patches that remove anything and the codepoints
+removed, reviewed and agent apart; an agent patch is counted and not
+gated, since the no-new-text floor holds it and no author stands
+behind its record. The field was backfilled on the 115 reviewed
+records that remove characters, mechanically
+([`removes-backfill-2026-10-26`](patch/records/tranches/removes-backfill-2026-10-26/README.md)).
 
 `confidence` left with this ruling: all 770 reviewed records said
 `high`. The validator no longer reads it, and the agent tranches'
@@ -1112,7 +1139,7 @@ tool obliged to do that does not exist. **UNBUILT.**
 
 ## 9. The gates
 
-Eleven gates, defined as one list — `GATE_NAMES` in
+Twelve gates, defined as one list — `GATE_NAMES` in
 `import/report.ts` — from which `GateName` derives and from which
 `createReport` seeds a tally each, so a gate cannot silently go
 missing. `isGreen` requires each gate to have been **reached**
@@ -1258,10 +1285,24 @@ marked. The page index is best effort, so an entry whose next
 neighbour starts on the same page cannot be located on the page
 after.
 
+**12. `declaredLoss`** (`import/gates.ts`, `markDeclaredLoss`; the
+loss report, §5). One mark per applied reviewed patch.
+*Proves:* the patch's `removes` names exactly the visible codepoints
+the apply took out of the entry (`removedCodepoints`,
+`patch/loss.ts`), as a multiset, `refs` and `display` included;
+a patch that removes nothing declares nothing. A reviewed patch is
+exempt from the no-new-text floor, so this is the one gate that sees
+what it takes away.
+*Cannot see:* whether the removal is right, only that it is declared;
+text moved within the entry, which removes nothing; a codepoint
+removed in one place and added in another, which nets to zero; and an
+agent patch, which is counted on the blessing's "Patch loss" line and
+not marked.
+
 ### What no gate sees
 
 Collected, because this is the list a future reader needs and will not
-assemble from the eleven entries above:
+assemble from the gate entries above:
 
 - **Text relocated across fields.** Two senses swapping definitions, or
   headword text moved into a definition, is invisible to all three

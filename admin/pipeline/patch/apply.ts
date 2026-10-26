@@ -29,6 +29,7 @@ import { existsSync } from 'node:fs';
 import { REVIEWED_DIR, TRANCHES_DIR } from '../paths.ts';
 import type { SourceEntry } from '../types.ts';
 import { classifyDrift, type DriftOutcome } from './drift.ts';
+import { removedCodepoints } from './loss.ts';
 import {
 	type EntryResult,
 	isNeeds,
@@ -226,6 +227,15 @@ interface ApplyProblem {
  * research track has always treated it and as `--strict` restores.
  * `outcome`: a `PatchDrift` row — not a problem; the run continues. */
 type DriftMode = 'outcome' | 'problem';
+
+/** What one applied patch removed from its entry (`removedCodepoints`,
+ * `loss.ts`): the visible codepoints, empty when it removed none. One
+ * per applied patch, the loss report's row and gate 12's input. */
+interface PatchLoss {
+	patchId: string;
+	removed: string;
+	rid: string;
+}
 
 /** One patch skipped because its precondition no longer holds. */
 interface PatchDrift {
@@ -763,7 +773,9 @@ function leftRun(entry: SourceEntry, id: string): boolean {
  * all drift at once. `annotated` lists, in apply order, every patch
  * that applied carrying an `annotation`, once per annotation it owes
  * (`annotationsOwed`: one, or a `relabel`'s one per changed label): the
- * patch side of gate 10's both-ways check. Under `drift: 'outcome'` a patch whose
+ * patch side of gate 10's both-ways check. `losses` holds one row per
+ * patch that applied, with what it removed (`PatchLoss`). Under
+ * `drift: 'outcome'` a patch whose
  * precondition no longer holds is a `drifted` row instead of a
  * problem. */
 function applyEntryPatches(
@@ -774,11 +786,13 @@ function applyEntryPatches(
 	annotated: string[];
 	drifted: PatchDrift[];
 	entry: SourceEntry;
+	losses: PatchLoss[];
 	problems: ApplyProblem[];
 } {
 	let current = entry;
 	const annotated: string[] = [];
 	const drifted: PatchDrift[] = [];
+	const losses: PatchLoss[] = [];
 	const problems: ApplyProblem[] = [];
 	for (const patch of patches) {
 		if (drift === 'outcome') {
@@ -790,6 +804,11 @@ function applyEntryPatches(
 		}
 		const result = tryApply(current, patch);
 		if (result.problem === undefined) {
+			losses.push({
+				patchId: patch.id,
+				removed: removedCodepoints(current, result.entry),
+				rid: patch.rid,
+			});
 			current = result.entry;
 			for (let owed = annotationsOwed(patch); owed > 0; owed--) {
 				annotated.push(patch.id);
@@ -798,7 +817,7 @@ function applyEntryPatches(
 			problems.push(result.problem);
 		}
 	}
-	return { annotated, drifted, entry: current, problems };
+	return { annotated, drifted, entry: current, losses, problems };
 }
 
 /** Apply one patch to `current` with every gate (post-apply
@@ -885,6 +904,7 @@ function applyCarryOver(
 	annotated: string[];
 	carried: string[];
 	drifted: PatchDrift[];
+	losses: PatchLoss[];
 	problems: ApplyProblem[];
 } {
 	let current = entry;
@@ -892,6 +912,7 @@ function applyCarryOver(
 	const annotated: string[] = [];
 	const carried: string[] = [];
 	const drifted: PatchDrift[] = [];
+	const losses: PatchLoss[] = [];
 	const problems: ApplyProblem[] = [];
 	const ordered = [...patches].sort((a, b) => a.id.localeCompare(b.id));
 	for (const patch of ordered) {
@@ -921,9 +942,18 @@ function applyCarryOver(
 		const result = applyEntryPatches(current, [patch]);
 		current = result.entry;
 		annotated.push(...result.annotated);
+		losses.push(...result.losses);
 		problems.push(...result.problems);
 	}
-	return { absorbed, annotated, carried, drifted, entry: current, problems };
+	return {
+		absorbed,
+		annotated,
+		carried,
+		drifted,
+		entry: current,
+		losses,
+		problems,
+	};
 }
 
 /** Group a corpus by rid, preserving committed order within each
@@ -950,6 +980,7 @@ export type {
 	CorpusStage,
 	DriftMode,
 	PatchDrift,
+	PatchLoss,
 	PhaseName,
 	PreflightOptions,
 	ReviewedCorpus,

@@ -38,6 +38,10 @@ function greenReport(): Report {
 			applied: 0,
 			carried: 0,
 			consolidatedAway: 0,
+			loss: {
+				agent: { codepoints: 0, patches: 0 },
+				reviewed: { codepoints: 0, patches: 0 },
+			},
 			pending: 0,
 			provisional: 0,
 			reviewed: 0,

@@ -5,7 +5,7 @@ import type { ComposeResult } from '../compose.ts';
 import type { AcceptedCorpus, DriftMode } from '../patch/apply.ts';
 import type { DriftOutcome } from '../patch/drift.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
-import { mark } from './gates.ts';
+import { mark, markDeclaredLoss } from './gates.ts';
 import type { Report } from './report.ts';
 
 /** The rid-grouped patch sets `composeOne` applies (Ruling F), and the
@@ -68,6 +68,31 @@ function recordPatchOutcomes(
 			if (patch.evidence?.pending === true) {
 				report.patches.pending++;
 			}
+		}
+	}
+}
+
+/** The loss report for one entry (`ComposeResult.losses`): each
+ * applied patch that removed visible codepoints is counted, reviewed
+ * and agent apart, and every applied reviewed patch is one mark on
+ * gate 12, `declaredLoss`, its `removes` held to what it removed. An
+ * agent patch is counted, not gated: the no-new-text floor already
+ * holds it, and its record has no author to declare anything. */
+function recordLosses(
+	reviewed: readonly SemanticPatch[],
+	result: Pick<ComposeResult, 'losses'>,
+	report: Report,
+): void {
+	const byId = new Map(reviewed.map((patch) => [patch.id, patch]));
+	for (const loss of result.losses) {
+		const patch = byId.get(loss.patchId);
+		const side = patch === undefined ? 'agent' : 'reviewed';
+		if (loss.removed !== '') {
+			report.patches.loss[side].patches++;
+			report.patches.loss[side].codepoints += [...loss.removed].length;
+		}
+		if (patch !== undefined) {
+			markDeclaredLoss(report.gates.declaredLoss, patch, loss.removed);
 		}
 	}
 }
@@ -183,6 +208,7 @@ export type { PatchGroups };
 export {
 	markMissingTargets,
 	recordConsolidatedAway,
+	recordLosses,
 	recordPatchOutcomes,
 	recordProvisional,
 };
