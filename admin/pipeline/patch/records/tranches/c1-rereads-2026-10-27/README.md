@@ -1674,15 +1674,21 @@ scan's.
 A follow-up PR sets each record's `evidence` from its tick, removes
 `pending`, and changes nothing else in the record:
 
-- **confirm** → `{"kind": "maintainer-read", "reader", "date",
-  "volume", "leaf"}`, the leaf the block names. Where the hOCR line
+- **confirm** → `evidence.kind` `maintainer-read`, with `reader`,
+  `date`, `volume` and `leaf` (the leaf the block names), e.g.
+  `{"date": "2026-10-28", "kind": "maintainer-read", "leaf": 57,
+  "reader": "Brian", "volume": 1}`. Where the hOCR line
   above reads the numeral, it may be quoted in the rationale as well;
   the `kind` stays the read.
 - **withdraw** → the record leaves `reviewed/patches.jsonl` for
   `docs/archive/patches-retired-<date>/`, and the cite's link goes
   back to Sefaria's target.
 - A block with both boxes ticked, or a `Read:` line that disagrees with
-  the hOCR line, goes back for a second read and is not applied.
+  the hOCR line, goes back for a second read. Its record is left as it
+  is, `sefaria-only` and `pending`, so the import keeps applying it as
+  it does today; only its evidence update waits. A retarget the read
+  puts in dispute is set `status: provisional` in that PR, which holds
+  it out of the apply (DESIGN §5 "Patch process").
 
 The from-scratch import (`rm -rf data/entries/[A-Z] && bun data:import
 && bun qa:format`) is the witness: a confirm changes no entry file, and
