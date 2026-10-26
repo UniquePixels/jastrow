@@ -154,29 +154,44 @@ file; gate 11, `evidenceLocator`, read 399/399.
 Smaller gates, each closing one class. Can follow group 1 in the
 same session or its own.
 
-- [ ] A **loss report**, mirror of `no-new-text`, with no exemption
+Landed 2026-10-26 on `feat/patch-process-gates` (off `v2` after #198).
+Two new gates, both green: 12, `declaredLoss` (770/770), and 13,
+`citeNumeral` (8,938/8,938). The loss computation finds 115 reviewed
+patches that remove characters, not 19: the 19 are its `replace`s,
+and the tranche README
+[`removes-backfill-2026-10-26`](../admin/pipeline/patch/records/tranches/removes-backfill-2026-10-26/README.md)
+gives the other 96 by op. Of the 45 cites that fail on stored numerals
+(the 40 of 3,554 below over sense glosses and units, plus 5 in
+`stems`), 8 pass as `ch.` lines under ruling 10-15, 4 are kept cites
+(10-13 case 3), and 33 are the #188 mismatches, allowlisted `pending`
+for a group 3 batch
+([`cite-numeral-kept`](../admin/pipeline/patch/records/cite-numeral-kept/README.md)).
+No carry-over patch is absorbed today, so the new `patch-absorbed`
+row has no members. The re-import changed no entry file.
+
+- [x] A **loss report**, mirror of `no-new-text`, with no exemption
       for reviewed patches (`apply.ts:374, 787` exempt `author ===
       'human'`). Lists the codepoints each patch removes, `refs` and
       `display` included; the record must declare them and the
       checklist block must show them. 19 live `replace` patches remove
       visible characters today (mostly OCR `l)`→`1)`).
-- [ ] **Absorption is loud**: a carry-over patch whose target is found
+- [x] **Absorption is loud**: a carry-over patch whose target is found
       0 times is recorded `superseded` with no report row
       (`import/patches.ts`). Record it absorbed only when a transform
       rule claims the target; otherwise write a review row (P000027).
-- [ ] **Cite-numeral agreement gate**: every numeraled cite must hit a
+- [x] **Cite-numeral agreement gate**: every numeraled cite must hit a
       target carrying that homograph, or have a reviewed-kept record.
       40 of 3,554 cites fail today; some are legitimate (`ch.` lines
       under 10-15, implied I) and need an allowlist.
-- [ ] `import/gates.ts` gate 2 (`headwordLine`) checks a patch against
+- [x] `import/gates.ts` gate 2 (`headwordLine`) checks a patch against
       Sefaria's line, so a patch matching Sefaria passes. Note the
       blind spot in the gate's docstring; the fix is group 1's
       evidence requirement.
-- [ ] Checklist rules for the maintainer blocks: show the hOCR line
+- [x] Checklist rules for the maintainer blocks: show the hOCR line
       and scan crop, never the proposal, as the default; refuse a block
       with both boxes ticked; when hOCR and a scan read disagree,
       require a second read.
-- [ ] Process rule in `DESIGN.md`: no blanket section approvals, no
+- [x] Process rule in `DESIGN.md`: no blanket section approvals, no
       cut-down context, and a seeder never turns a rule's output into a
       `reviewed` patch (P000221 came from the step-8 seeder).
 

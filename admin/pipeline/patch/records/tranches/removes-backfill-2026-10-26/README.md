@@ -94,12 +94,22 @@ codepoints.
 
 ## The witness
 
-A dry import with the backfilled records (`bun data:import:dry`), the
-run's own lines:
+The re-import at the end of the branch (review checklist group 2
+complete, gates 12 and 13 in place):
+
+```bash
+rm -rf data/entries/[A-Z] && bun data:import && bun qa:format
+git status --short data/entries | wc -l   # 0
+git diff --stat -- data/entries           # empty
+```
+
+The run's own lines:
 
 ```text
 gate declaredLoss=770/770 failures=0
+gate citeNumeral=8938/8938 failures=0
 loss reviewed=115/468 agent=11/565
+wrote 32512 entry files under data/entries
 ```
 
 and the blessing's line:
@@ -107,3 +117,6 @@ and the blessing's line:
 ```text
 Patch loss: 115 reviewed patch(es) remove visible characters, 468 codepoint(s) in all, each declared in `removes`; 11 agent patch(es) remove 565.
 ```
+
+The regenerated blessing differed from the committed one only by the
+gate rows and the count lines, so it was not kept.
