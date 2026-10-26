@@ -755,6 +755,15 @@ patch states where its print evidence comes from, as `evidence`
 | `jastrow-text` | Jastrow's own text determines the change (10-13 case 2): the `—2)` after an implied `1)`, the run a renumber reads | `quote` |
 | `sefaria-only` | nothing but Sefaria's text | nothing; `pending: true` allowed |
 
+**What an hOCR quote witnesses: Latin text, numerals, punctuation and
+position only.** Vol. 2's hOCR (ABBYY FineReader 8) contains no Hebrew
+character, and vol. 1's (Tesseract `heb+eng`) garbles Hebrew, often
+mirrored. An `hOCR` quote can show a gloss, a cite, a sense number, a
+Roman numeral or a mark, and where on the leaf it sits; it never
+vouches for a Hebrew reading, which needs a `maintainer-read` of the
+scan crop ([`data/print/hocr/README.md`](../../data/print/hocr/README.md),
+"What the hOCR can witness"; ruling `10-26 patch evidence`).
+
 `leaf` and `volume` locate the evidence on the two scans the page
 index is pinned to, always together, on any kind; IIIF's `$n` is leaf
 `n − 1`. `pending` is allowed only on `sefaria-only`. The validator
