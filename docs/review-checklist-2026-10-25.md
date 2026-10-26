@@ -275,6 +275,11 @@ survivors, 65 (51 hOCR-only, 9 maintainer read, 5 conventions).
       and 6 of the 21 are `jastrow-text` now.
 - [ ] Re-read the 26 records whose hOCR claim did not check (batch O2)
       and the 4 left (batch O3).
+- [ ] **D01114** (data PR, 10-13 case 1): after P000512–P000514 the
+      entry still holds an in-text `—4) as preced. 3)` inside sense 3;
+      print sets `—4)` as its own sense. Needs a `split` companion
+      patch with evidence. Found by the local CodeRabbit pass on
+      2026-10-26; not a group 2 change.
 - [ ] Resolve the doc-01 contradiction: its header says the
       numbering-gap rows were "hand-verified against print", the L71
       provenance says none of the 67 named a print read.
