@@ -246,9 +246,9 @@ i.e. the text from `1)` onward belongs in a new sense object with
 `"number": "1)"`. The appendix row for this entry (P000194) states the
 first half only, the `1)` inserted after `261)` in the text, since
 Sefaria's record holds no `1)` to split. Our own data takes the second
-step too since PR #195: the reviewed split P000935 cuts the `1)` out as
-sense 1, the `1)` of the page `261)` read as part of the number (review
-ledger L81). Each of the 35 needs an eyes-on read; list on request (we
+step too since PR #195: the reviewed split P000935 cuts out the marker
+`1)` that follows the page as sense 1, and the page `261)` keeps its
+own `1)`, which is part of the number (review ledger L81). Each of the 35 needs an eyes-on read; list on request (we
 have reviewed them individually).
 
 ---
