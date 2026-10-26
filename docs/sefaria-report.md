@@ -89,8 +89,8 @@ comes). The generator marks every row a batch names with that batch:
 by its patch id, or by its class when the row was first seen on or
 before the batch's date (a class sent once does not cover rows found
 later). A row with an empty `submitted_batch` is new since the last
-submission. The log is empty: nothing has been sent yet. **479 rows are
-ready to send** (generator, 2026-10-25, PR #194).
+submission. The log is empty: nothing has been sent yet. **482 rows are
+ready to send** (generator, 2026-10-25, PR #196).
 
 **Each class below says what it is** for the submission:
 
@@ -211,15 +211,16 @@ a verse number).
 `first-sense-debris-stranding-language-label` (14: print's first sense
 stored twice), `continuation-marker-fully-absent` (5) and
 `missing-number` (5), each read on the scan (sense worklist, maintainer
-2026-10-10/11), and `reviewed-replace` (14 rows: review doc 01's
+2026-10-10/11), and `reviewed-replace` (15 rows: review doc 01's
 reinsertions and review doc 02's bare-citation wraps, whose hOCR line
 PR #192 quoted, review ledger L71, and the two the hOCR read against,
 rewritten from the maintainer's scan read of 2026-10-25, PR #193: the
-example below, review ledger L75, and Q02162's verse, L76). Of the
-others, 3 are held back as not traceable, A01194's `(b. h.)` as partial
-(print's Hebrew inside the parenthesis is not restored, L80), D00341's
-bracket as our deviation, and H00871's two Exodus links are withdrawn
-(its `Ib.` cite the Mekhilta, L79). **Count:** 79 appendix rows; 5
+example below, review ledger L75, and Q02162's verse, L76; and A01194's
+`(b. h. …)`, whose three Hebrew phrases Sefaria lost are restored from
+the maintainer's scan read of 2026-10-25, PR #196, L80). Of the others,
+3 are held back as not traceable, D00341's bracket as our deviation, and
+H00871's two Exodus links are withdrawn (its `Ib.` cite the Mekhilta,
+L79). **Count:** 80 appendix rows; 4
 `reviewed-replace` in the review list (generator, 2026-10-25).
 
 Entries whose numbered senses skip values (`1), 3), 4)`) or start
@@ -486,7 +487,7 @@ not sent.
 
 ## 13. Mis-targeted internal refLink (1 known)
 
-**Status:** rows: appendix class `cross-reference-target` (273 rows).
+**Status:** rows: appendix class `cross-reference-target` (275 rows).
 The systematic sweep this section asked for has been done for one
 shape: a cross-reference whose own words name `X N` while Sefaria's
 linker aims it at another homograph of X. Each row shows the anchor
@@ -500,8 +501,11 @@ cite's own hOCR line, with its numeral, into 16 (review ledger L71).
 The 38 that waited for a scan read took the maintainer's read of
 2026-10-25 (PR #193). U01063's retarget, which the hOCR read against, is
 withdrawn: its `שֵׁירוּתָא II` names U01070, as Sefaria links it, and its
-unlinked `III` is now linked to U01071 (review ledger L77).
-**Count:** 273 appendix rows; 9 more in the review list, all not
+unlinked `III` is now linked to U01071 (review ledger L77). The two
+cites that name `שַׁעַר I`, market price (U01689, U00991), are re-aimed
+from the verb U01679 `שָׁעַר I` at the noun U01686 on the maintainer's
+read of 2026-10-25 (PR #196, review ledger L74).
+**Count:** 275 appendix rows; 9 more in the review list, all not
 traceable to Sefaria's string (generator, 2026-10-25).
 
 **Entry `A01350` (אִימַּר), sense `—4)`:** the anchor wraps the text

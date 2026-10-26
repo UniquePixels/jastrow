@@ -6,21 +6,21 @@ The rows are `sefaria-appendix.csv`; every patch a filter refused is
 in `sefaria-review.csv` with its reason. The filters, and how to read
 a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 
-**479 rows** (479 new, 0 submitted); 289 patches in the review list.
+**482 rows** (482 new, 0 submitted); 289 patches in the review list.
 
 ## Rows by class
 
 | class | rows | new | submitted |
 |---|---|---|---|
-| cross-reference-target | 273 | 273 | 0 |
+| cross-reference-target | 275 | 275 | 0 |
 | headword-numeral-dropped | 40 | 40 | 0 |
 | ocr-marker | 23 | 23 | 0 |
 | reviewed-join | 20 | 20 | 0 |
 | chopped-marker-with-residue | 18 | 18 | 0 |
 | headword-ocr-glyph | 18 | 18 | 0 |
+| reviewed-replace | 15 | 15 | 0 |
 | verse-paren-false-sense-split | 15 | 15 | 0 |
 | first-sense-debris-stranding-language-label | 14 | 14 | 0 |
-| reviewed-replace | 14 | 14 | 0 |
 | headword-numeral-in-gloss | 13 | 13 | 0 |
 | headword-ocr-pointing | 10 | 10 | 0 |
 | continuation-marker-fully-absent | 5 | 5 | 0 |
@@ -38,13 +38,13 @@ a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 
 | reason | patches |
 |---|---|
-| convention or our structure | 194 |
+| convention or our structure | 195 |
 | not traceable to source | 55 |
 | not mechanical for op | 20 |
 | our correction (annotated) | 12 |
-| partial: print not fully restored | 3 |
 | no print evidence | 2 |
 | our deviation from print | 2 |
+| partial: print not fully restored | 2 |
 | our correction (10-13 case 2/3/4) | 1 |
 
 ## Submitted

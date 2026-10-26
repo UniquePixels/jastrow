@@ -2,6 +2,15 @@
 
 ## Status
 
+**2026-10-25, U01686's I.** You read the scan (1612b): print sets no
+numeral on U01686 `שַׁעַר`, and the I is set on Jastrow's own text,
+U01689's `= h. שַׁעַר I, 2, market price` and U00991's `v. שַׁעַר I`
+(ruling 10-13, case 2). PR #196 displays it with an annotation
+(P000936; name `שַׁעַר I`) and re-aims the two cites from the verb
+U01679 at it (P000937, P000938;
+[`records/tranches/l74-l80-2026-10-25/`](../admin/pipeline/patch/records/tranches/l74-l80-2026-10-25/README.md)).
+U01687 leaves the report: X10 reads 3 (0 primary).
+
 **2026-10-22 (b), the issues recorded and the report reconciled.**
 The research rows are back here, in § Textual-research candidates
 (#190; the X9 five in #153) at the end of this file: #190, opened on
@@ -3042,6 +3051,8 @@ Why held: A01194 the Hebrew run is mirrored; the `)` the patch inserts is not re
 Recommendation: yes (high): every `(b. h.` etymology closes before the gloss.
 
 Applied in PR #193: your transcription is added to P000197: the `)` closes before `who?`, so the patch stands. Print also sets three Hebrew phrases inside the parenthesis (`XXXX-XX XX, XXX XXXX, XX XX`) that Sefaria lost and your `X`s cannot spell; they are not restored (review ledger L80), so the generator holds the row as partial.
+
+Restored in PR #196 from your scan crop of 46b (2026-10-25): P000197 now inserts `אֵיזֶה=אֵי זֶה, אֵיזֶה הוּא, אֵי זוּ` after `b. h.`, each phrase its own Hebrew run, and closes the parenthesis after them; the row is an appendix row (review ledger L80).
 
 #### H00871 `חִירָה`: the two `Ib.` after the Mekhilta
 
