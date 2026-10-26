@@ -27,3 +27,14 @@ print confirms.
 
 The doubled space the gloss-comma patches also closed needs no patch:
 the parser reads `X  I, II,` as `{0} I, II,`.
+
+## Tranche-01's P000027 (PR #195)
+
+`tranches/tranche-01/patches.jsonl` holds P000027, A00675's agent
+`split` at `1)`, and `tranches/tranche-01/manifest.jsonl` the
+`repaired` record that named it; both are the original lines' bytes,
+moved. Its `expected_before` is the old `26 1)` text, which PR #193's
+P000194 no longer makes, so the import absorbed it (`superseded`). The
+reviewed split P000935 takes its place, now that a split's marker
+never follows a digit (review ledger L81,
+[`l81-2026-10-25`](../../../admin/pipeline/patch/records/tranches/l81-2026-10-25/README.md)).

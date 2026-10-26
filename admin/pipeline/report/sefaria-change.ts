@@ -13,7 +13,9 @@
  *   context from `expected_before`, must occur exactly once across the
  *   raw definitions (or `language_reference`, for a patch that
  *   addresses it). A span the transforms changed, or one that occurs
- *   twice, is not traceable.
+ *   twice, is not traceable. A split's marker is found as the patch
+ *   finds it (`markerOffsets`): an `N)` a digit precedes is the tail of
+ *   a number, not the marker (review ledger L81).
  * - `retag` and `join`: the raw sense whose number is the target's
  *   token and whose definition is `expected_before`, exactly, once. A
  *   `join`'s text is the pipeline's own `applyPatch` on the raw record,
@@ -31,6 +33,7 @@ import {
 	addressesLanguageReference,
 	applyPatch,
 	countOccurrences,
+	markerOffsets,
 	PatchApplyError,
 } from '../patch/schema.ts';
 import type { SourceEntry, SourceSense } from '../types.ts';
@@ -236,23 +239,60 @@ function uniqueSpan(
 	return found;
 }
 
-/** The text a sense-text op looks for, and what it makes of it. */
-function textEdit(
-	patch: SemanticPatch,
-): { edit: (found: string) => string; needle: string } | undefined {
+/** Every non-overlapping offset of `needle` in `text`. */
+function occurrenceOffsets(text: string, needle: string): number[] {
+	const offsets: number[] = [];
+	if (needle === '') {
+		return offsets;
+	}
+	let at = text.indexOf(needle);
+	while (at !== -1) {
+		offsets.push(at);
+		at = text.indexOf(needle, at + needle.length);
+	}
+	return offsets;
+}
+
+/** The text a sense-text op looks for, what it makes of it, and where
+ * in a text it stands: every occurrence of a find or segment, but only
+ * the occurrences of a split's marker that the patch itself would cut
+ * (`markerOffsets`, review ledger L81), so the row and the import read
+ * the same `1)`. */
+function textEdit(patch: SemanticPatch):
+	| {
+			edit: (found: string) => string;
+			needle: string;
+			offsets: (text: string) => number[];
+	  }
+	| undefined {
 	switch (patch.op) {
-		case 'replace':
-			return { edit: () => patch.payload.replace, needle: patch.payload.find };
-		case 'delete':
-			return patch.payload.scope === 'segment' &&
-				patch.payload.segment !== undefined
-				? { edit: () => '', needle: patch.payload.segment }
+		case 'replace': {
+			const needle = patch.payload.find;
+			return {
+				edit: () => patch.payload.replace,
+				needle,
+				offsets: (text: string): number[] => occurrenceOffsets(text, needle),
+			};
+		}
+		case 'delete': {
+			const { scope, segment } = patch.payload;
+			return scope === 'segment' && segment !== undefined
+				? {
+						edit: () => '',
+						needle: segment,
+						offsets: (text: string): number[] =>
+							occurrenceOffsets(text, segment),
+					}
 				: undefined;
-		case 'split':
+		}
+		case 'split': {
+			const needle = patch.payload.marker;
 			return {
 				edit: (found: string): string => BOUNDARY + found,
-				needle: patch.payload.marker,
+				needle,
+				offsets: (text: string): number[] => markerOffsets(text, needle),
 			};
+		}
 		default:
 			return;
 	}
@@ -269,13 +309,14 @@ function textChange(
 		return exclude('not mechanical for op', `${patch.op} of a whole sense`);
 	}
 	const before = patch.expected_before;
-	if (countOccurrences(before, op.needle) !== 1) {
+	const hits = op.offsets(before);
+	const [start] = hits;
+	if (hits.length !== 1 || start === undefined) {
 		return exclude(
 			'not traceable to source',
 			'the find is not once in expected_before',
 		);
 	}
-	const start = before.indexOf(op.needle);
 	const end = start + op.needle.length;
 	const found = uniqueSpan(before, [start, end], textFields(patch, record));
 	if (found === undefined) {

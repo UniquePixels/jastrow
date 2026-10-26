@@ -89,6 +89,9 @@ const CLOSED_MARKER = /^—?\d{1,2}\)$/u;
  * token is cut from the text, exactly once, and becomes the sibling's
  * number, which `body/labels.ts` reads with its star. */
 const SPLIT_MARKER = /^—?\*?\d{1,2}\)$/u;
+/** One digit: the character a split's numeral may not follow
+ * (`markerOffsets`). */
+const DIGIT = /\d/u;
 /** A list item's marker as `nest` carries it: the closed grammar,
  * print's star, or a single lowercase letter — the shapes
  * `body/labels.ts` parses into a label, so every child a nest makes
@@ -1601,6 +1604,30 @@ function exactlyOnce(
 	return definition.indexOf(needle);
 }
 
+/** Every offset at which `marker` stands as a sense marker in `text`:
+ * each non-overlapping occurrence, less those whose numeral a digit
+ * immediately precedes (review ledger L81). A digit before `1)` makes
+ * it the tail of a longer number — print's page `261)`, a verse, a
+ * column — not a marker, so A00675's `p. 18; 261) 1) Ulam` holds the
+ * marker `1)` once. A `—1)` or `*1)` opens on its own mark, so a digit
+ * before it is not before the numeral and the rule never reaches it.
+ * The character is read in code, not by a lookbehind. */
+function markerOffsets(text: string, marker: string): number[] {
+	const offsets: number[] = [];
+	if (marker === '') {
+		return offsets;
+	}
+	const numeralFirst = DIGIT.test(marker.charAt(0));
+	let at = text.indexOf(marker);
+	while (at !== -1) {
+		if (!(numeralFirst && DIGIT.test(text.charAt(at - 1)))) {
+			offsets.push(at);
+		}
+		at = text.indexOf(marker, at + marker.length);
+	}
+	return offsets;
+}
+
 /** Apply one patch to an entry, returning a repaired deep copy. Pure:
  * the input entry is never mutated. Every assertion — target
  * resolution, occurrence count, expected_before, in-definition
@@ -2201,14 +2228,23 @@ function applyReplace(
 }
 
 /** `split`: cut the definition at the marker and insert the tail as a
- * new sibling numbered by the marker. */
+ * new sibling numbered by the marker. The marker must stand once as a
+ * marker (`markerOffsets`): an `N)` a digit precedes is part of a
+ * number and is neither counted nor cut. */
 function applySplit(
 	patch: SplitPatch,
 	position: SensePosition,
 	definition: string,
 ): void {
 	const { marker } = patch.payload;
-	const at = exactlyOnce(patch, definition, marker, 'split marker');
+	const offsets = markerOffsets(definition, marker);
+	const [at] = offsets;
+	if (offsets.length !== 1 || at === undefined) {
+		throw new PatchApplyError(
+			patch.id,
+			`split marker "${marker}" occurs ${offsets.length} times in the target definition as a marker (not after a digit); expected exactly 1`,
+		);
+	}
 	const sibling: SourceSense = {
 		definition: definition.slice(at + marker.length),
 		number: marker,
@@ -2284,6 +2320,7 @@ export {
 	countTarget,
 	flattenContent,
 	formsBlock,
+	markerOffsets,
 	PATCH_ID,
 	PatchApplyError,
 	PatchFormatError,
