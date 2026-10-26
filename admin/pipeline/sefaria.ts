@@ -40,6 +40,9 @@ async function readRaw(): Promise<Map<string, RawRecord>> {
 	return records;
 }
 
+/** Builds the Sefaria appendix from the reviewed patches, the source,
+ * the page index and the submission log, and writes its CSV, its
+ * document and the review list under `docs/reports/`. */
 async function main(): Promise<void> {
 	const corpus = await loadReviewedCorpus();
 	const log = Bun.file(SEFARIA_SUBMISSIONS_PATH);
