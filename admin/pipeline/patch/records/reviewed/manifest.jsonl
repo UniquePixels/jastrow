@@ -27,7 +27,6 @@
 {"disposition":"needs_human_judgment","escalation":"print sense 5 label missing and note is unresolved (01: \"does not have the 5 label\") — eyes-on","patches":[],"rid":"K00081"}
 {"disposition":"repaired","patches":["P000228"],"rid":"K01188"}
 {"disposition":"repaired","patches":["P000230"],"rid":"L00346"}
-{"disposition":"repaired","patches":["P000232"],"rid":"M01355"}
 {"disposition":"repaired","patches":["P000233"],"rid":"M02309"}
 {"disposition":"repaired","patches":["P000234"],"rid":"N00327"}
 {"disposition":"repaired","patches":["P000236"],"rid":"N00740"}
@@ -587,3 +586,6 @@
 {"disposition":"repaired","patches":["P000932"],"rid":"B00443"}
 {"disposition":"repaired","patches":["P000933"],"rid":"C00329"}
 {"disposition":"repaired","patches":["P000934"],"rid":"M00447"}
+{"disposition":"repaired","patches":["P000936"],"rid":"U01686"}
+{"disposition":"repaired","patches":["P000937"],"rid":"U01689"}
+{"disposition":"repaired","patches":["P000938"],"rid":"U00991"}

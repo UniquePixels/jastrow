@@ -4,10 +4,22 @@
 	"sefariaHeadword": "שַׁעַר",
 	"headwords": [
 		{
-			"text": "שַׁעַר"
+			"text": "שַׁעַר",
+			"homograph": 1,
+			"annotations": [
+				{
+					"field": "homograph",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "I",
+					"evidence": "Jastrow's text names שַׁעַר I: U01689 \"= h. שַׁעַר I, 2, market price\" and U00991 \"v. שַׁעַר I\" (market prices), both U01686's sense 2; print sets no numeral (1612b, maintainer scan read 2026-10-25)",
+					"source": "P000936",
+					"date": "2026-10-25"
+				}
+			]
 		}
 	],
-	"display": "{0}",
+	"display": "{0} I",
 	"page": {
 		"number": 1612,
 		"column": "b"
