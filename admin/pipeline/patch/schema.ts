@@ -115,14 +115,6 @@ const TIGHT_AFTER_MARKER: RegExp = /^[\s,.:;)\]]/u;
  * `<i>Af.</i> 1)`. */
 const TIGHT_BEFORE_MARKER: RegExp = /[\s\d—([]$/u;
 
-/** How sure the patch's author was, as the record states it. It is
- * provenance, not permission: nothing in the apply path branches on
- * it, because what a patch may do is settled by the validators and by
- * `author` (a reviewed patch is exempt from the no-new-text floor,
- * a confident one is not). A low-confidence patch that passes every
- * check still applies; the value is there for whoever reads the
- * corpus back. */
-type Confidence = 'high' | 'low' | 'med';
 /** The kind of repair a patch makes. It is the discriminant of
  * `SemanticPatch`, so each op's payload type travels with it, and the
  * key every payload validator is registered under in
@@ -140,6 +132,93 @@ type PatchOp =
 	| 'retag'
 	| 'split'
 	| 'unref';
+
+/** Which ops change what a reader sees as TEXT — a word, a mark, the
+ * sense the words stand in, a headword, a `refs` item or the entry a
+ * cite links to — and so may not stand on Sefaria's text alone (ruling
+ * `10-26 patch evidence`): the import refuses one whose `evidence` is
+ * `sefaria-only` unless it is `pending` a re-read
+ * (`evidenceProblems`, `apply.ts`). Typed `Record<PatchOp, …>`, so an
+ * op added without a verdict here does not compile.
+ *
+ * Text-changing:
+ * - `replace` swaps an exact substring: the words, or, on an anchor,
+ *   the entry a cite links to (the 166 cite retargets). Class A of
+ *   the 2026-10-25 review (P000194, P000197, P000221, P000268).
+ * - `reform` rewrites the headword line. Class B (P000291–P000300).
+ * - `unref` removes a `refs[]` item, a reference the entry carried.
+ *   Class A (P000232).
+ * - `delete` removes a segment or a whole sense.
+ * - `move` reorders the words of a definition.
+ * - `split` cuts a definition at an in-text marker: the marker leaves
+ *   the gloss and the text after it becomes a sense of its own. No
+ *   byte is added, but the reader sees different sense text. Class D
+ *   (P000389).
+ * - `join` folds a sense back into the definition before it, adding
+ *   its marker and print's spaces to that text. Class D (P000388).
+ * - `nest` cuts a restarted list out of a sense into a new sibling's
+ *   children: a `split` that makes children.
+ *
+ * Not text-changing:
+ * - `retag` sets a sense's `number` token, from the closed marker
+ *   grammar, and nothing else: no word, no sense boundary, no link.
+ *   A label is not text (DESIGN.md §5, `relabel`). The number is
+ *   determined by the run Jastrow's own
+ *   text sets (an implied `1)` before a `—2)`, a renumber after a
+ *   doubled `4)`; ruling `10-13 correction policy`, case 2), so its
+ *   normal evidence is `jastrow-text`.
+ * - `relabel` declares the labels a lettered run's children take;
+ *   it edits no text (DESIGN.md §5).
+ * - `annotate` changes nothing: it records a print reading kept. */
+const TEXT_CHANGING: Readonly<Record<PatchOp, boolean>> = {
+	annotate: false,
+	delete: true,
+	join: true,
+	move: true,
+	nest: true,
+	reform: true,
+	relabel: false,
+	replace: true,
+	retag: false,
+	split: true,
+	unref: true,
+};
+
+/** Where a reviewed patch's print evidence comes from (ruling `10-26
+ * patch evidence`):
+ * - `maintainer-read`: a person read the scan; `reader` and `date`
+ *   say who and when. The only kind that can witness a Hebrew reading.
+ * - `hOCR`: a line of the print hOCR (`data/print/hocr/`), quoted
+ *   verbatim as `quote` from leaf `leaf` of volume `volume`. It
+ *   witnesses Latin text, numerals, punctuation and position only:
+ *   vol. 2's hOCR holds no Hebrew at all, and vol. 1's garbles it.
+ *   The import checks the quote is on that leaf (`evidenceLocator`).
+ * - `jastrow-text`: Jastrow's own text elsewhere in the entry or the
+ *   corpus determines the change, as `quote` (the `—2)` after an
+ *   implied `1)`, a run with a doubled number). Ruling `10-13
+ *   correction policy`, case 2.
+ * - `sefaria-only`: nothing but Sefaria's text. Refused on a
+ *   text-changing op (`TEXT_CHANGING`) unless `pending`: the 2026-10-26
+ *   backfill marked every record it could not tie to print so, and
+ *   each re-read batch removes the flag from its members.
+ *
+ * `leaf` and `volume` locate the print evidence on the scans the page
+ * index is pinned to (IIIF `$n` is leaf `n − 1`), always together; the
+ * import checks the leaf shows the patch's entry. */
+type EvidenceKind =
+	| 'hOCR'
+	| 'jastrow-text'
+	| 'maintainer-read'
+	| 'sefaria-only';
+interface PatchEvidence {
+	date?: string;
+	kind: EvidenceKind;
+	leaf?: number;
+	pending?: true;
+	quote?: string;
+	reader?: string;
+	volume?: 1 | 2;
+}
 
 /** What a reviewed patch states about the print reading it departs
  * from or keeps (ANNOTATIONS.md §3; ruling `10-13 correction
@@ -347,8 +426,11 @@ interface PatchBase {
 	 * `admin/pipeline/patch/records/reviewed/` holds patches a person wrote from a print
 	 * check, and they may add bytes. A record never carries it. */
 	author?: 'human';
-	confidence: Confidence;
 	defect_class: string;
+	/** Where the change's print evidence comes from (`PatchEvidence`).
+	 * Every reviewed patch carries one (`corpusPreflight` refuses a
+	 * reviewed patch without it); an agent patch has none. */
+	evidence?: PatchEvidence;
 	/** Exact current definition of the target sense; apply fails
 	 * loudly on mismatch. */
 	expected_before: string;
@@ -363,6 +445,12 @@ interface PatchBase {
 	rationale: string;
 	rid: string;
 	snapshot: string;
+	/** `provisional`: a patch under dispute. It stays valid and in the
+	 * corpus, but the import does not apply it; it is counted and
+	 * listed as a `patch-provisional` row until the dispute is settled
+	 * (ruling `10-26 patch evidence`). Absent on every patch that
+	 * applies. */
+	status?: 'provisional';
 	target: string;
 }
 
@@ -1102,12 +1190,15 @@ function anchorReasons(
 	return reasons;
 }
 
-/** Reasons from the provenance fields: confidence, rationale,
- * defect_class, snapshot pin, prompt_version. */
+/** Reasons from the provenance fields: rationale, defect_class,
+ * snapshot pin, prompt_version, status. `confidence` left with ruling
+ * `10-26 patch evidence` (770 of 770 reviewed records said `high`); a
+ * record that still carries one is not refused for it, since nothing
+ * reads it. */
 function metadataReasons(raw: Record<string, unknown>): string[] {
 	const reasons: string[] = [];
-	if (!['high', 'low', 'med'].includes(raw['confidence'] as string)) {
-		reasons.push('confidence must be high, med, or low');
+	if ('status' in raw && raw['status'] !== 'provisional') {
+		reasons.push('status, when present, must be provisional');
 	}
 	if (!nonEmptyString(raw['rationale'])) {
 		reasons.push('rationale must be a non-empty string');
@@ -1125,6 +1216,106 @@ function metadataReasons(raw: Record<string, unknown>): string[] {
 		reasons.push('prompt_version must be a non-empty string');
 	}
 	return reasons;
+}
+
+/** What each evidence kind must state beside `kind`: who read the
+ * scan and when; where the hOCR line is and what it reads; the text of
+ * Jastrow's that determines the change. `sefaria-only` states nothing. */
+const EVIDENCE_REQUIRES: Readonly<
+	Record<EvidenceKind, readonly (keyof PatchEvidence)[]>
+> = {
+	hOCR: ['leaf', 'quote', 'volume'],
+	'jastrow-text': ['quote'],
+	'maintainer-read': ['date', 'reader'],
+	'sefaria-only': [],
+};
+const EVIDENCE_KEYS: ReadonlySet<string> = new Set([
+	'date',
+	'kind',
+	'leaf',
+	'pending',
+	'quote',
+	'reader',
+	'volume',
+]);
+
+/** Reasons the locator — `leaf` and `volume`, which name a leaf only
+ * together — is malformed. */
+function evidenceLocatorReasons(e: Record<string, unknown>): string[] {
+	const reasons: string[] = [];
+	if (
+		'leaf' in e &&
+		!(Number.isInteger(e['leaf']) && (e['leaf'] as number) >= 0)
+	) {
+		reasons.push('evidence.leaf must be a non-negative integer');
+	}
+	if ('volume' in e && e['volume'] !== 1 && e['volume'] !== 2) {
+		reasons.push('evidence.volume must be 1 or 2');
+	}
+	if ('leaf' in e !== 'volume' in e) {
+		reasons.push('evidence.leaf and evidence.volume go together');
+	}
+	return reasons;
+}
+
+/** Reasons the value of each present evidence field is malformed,
+ * whatever the kind. */
+function evidenceFieldReasons(e: Record<string, unknown>): string[] {
+	const reasons = evidenceLocatorReasons(e);
+	for (const key of ['quote', 'reader'] as const) {
+		if (key in e && !nonEmptyString(e[key])) {
+			reasons.push(`evidence.${key} must be a non-empty string`);
+		}
+	}
+	if ('date' in e && !(typeof e['date'] === 'string' && isIsoDate(e['date']))) {
+		reasons.push('evidence.date must be an ISO date (YYYY-MM-DD)');
+	}
+	if (
+		'pending' in e &&
+		(e['pending'] !== true || e['kind'] !== 'sefaria-only')
+	) {
+		reasons.push('evidence.pending is true, and only on sefaria-only evidence');
+	}
+	return reasons;
+}
+
+/** Reasons a present `evidence` is malformed (`PatchEvidence`): an
+ * object of known keys, a known kind with everything that kind must
+ * state, and well-formed fields. Whether a patch must carry one, and
+ * whether its op may stand on `sefaria-only`, are the preflight's
+ * (`apply.ts`), which knows who wrote it. */
+function evidenceReasons(raw: Record<string, unknown>): string[] {
+	const evidence = raw['evidence'];
+	if (evidence === undefined) {
+		return [];
+	}
+	if (
+		typeof evidence !== 'object' ||
+		evidence === null ||
+		Array.isArray(evidence)
+	) {
+		return ['evidence must be an object'];
+	}
+	const e = evidence as Record<string, unknown>;
+	const reasons = Object.keys(e)
+		.filter((key) => !EVIDENCE_KEYS.has(key))
+		.map((key) => `evidence.${key} is not an evidence field`);
+	const kind = e['kind'];
+	// An own key only: an inherited name such as `toString` is not a kind.
+	const required =
+		typeof kind === 'string' && Object.hasOwn(EVIDENCE_REQUIRES, kind)
+			? EVIDENCE_REQUIRES[kind as EvidenceKind]
+			: undefined;
+	if (required === undefined) {
+		reasons.push(
+			'evidence.kind must be hOCR, jastrow-text, maintainer-read or sefaria-only',
+		);
+	} else {
+		for (const key of required.filter((k) => !(k in e))) {
+			reasons.push(`${String(e['kind'])} evidence needs evidence.${key}`);
+		}
+	}
+	return [...reasons, ...evidenceFieldReasons(e)];
 }
 
 /** Reasons from expected_occurrences and occurrence_index (each
@@ -1466,6 +1657,7 @@ function parsePatch(value: unknown): SemanticPatch {
 		...metadataReasons(raw),
 		...occurrenceReasons(raw),
 		...annotationReasons(raw),
+		...evidenceReasons(raw),
 	];
 	const occurrences = raw['expected_occurrences'] ?? 1;
 	const index = raw['occurrence_index'] ?? 1;
@@ -1478,8 +1670,8 @@ function parsePatch(value: unknown): SemanticPatch {
 		...(raw['annotation'] === undefined
 			? {}
 			: { annotation: raw['annotation'] }),
-		confidence: raw['confidence'],
 		defect_class: raw['defect_class'],
+		...(raw['evidence'] === undefined ? {} : { evidence: raw['evidence'] }),
 		expected_before: raw['expected_before'],
 		expected_occurrences: occurrences,
 		id: raw['id'],
@@ -1490,6 +1682,7 @@ function parsePatch(value: unknown): SemanticPatch {
 		rationale: raw['rationale'],
 		rid: raw['rid'],
 		snapshot: raw['snapshot'],
+		...(raw['status'] === undefined ? {} : { status: raw['status'] }),
 		target: raw['target'],
 	} as SemanticPatch;
 }
@@ -2292,13 +2485,14 @@ function flattenContent(entry: SourceEntry): string {
 
 export type {
 	AnnotatePayload,
-	Confidence,
 	CorpusProblem,
 	DeletePayload,
+	EvidenceKind,
 	JoinPayload,
 	MovePayload,
 	NestPayload,
 	PatchAnnotation,
+	PatchEvidence,
 	PatchOp,
 	PatchTarget,
 	ReformPayload,
@@ -2330,6 +2524,7 @@ export {
 	RID,
 	resolveTarget,
 	senseTarget,
+	TEXT_CHANGING,
 	validateCorpus,
 	walkSenses,
 };

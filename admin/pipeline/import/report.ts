@@ -9,8 +9,9 @@ import { IMPORT_REPORT_PATH } from '../paths.ts';
 import type { Unresolved } from './cite.ts';
 import { type Tally, tally } from './gates.ts';
 
-/** The ten blessing gates, in report order (migrate spec §4.1; gate
- * 10, `contract`, is ruling `09-30 entry contract`). The
+/** The eleven blessing gates, in report order (migrate spec §4.1; gate
+ * 10, `contract`, is ruling `09-30 entry contract`; gate 11,
+ * `evidenceLocator`, is ruling `10-26 patch evidence`). The
  * list is the single definition: `GateName` derives from it, and
  * `createReport` seeds a tally for every member up front, so a gate the
  * run never reached shows as 0/0 instead of going missing. A red gate
@@ -26,6 +27,7 @@ const GATE_NAMES = [
 	'pages',
 	'composition',
 	'contract',
+	'evidenceLocator',
 ] as const;
 
 /** One gate's name. Derived from `GATE_NAMES` rather than written out,
@@ -123,6 +125,13 @@ interface Report {
 		 * spec §4.2: silent skipping is never allowed). Each also gets a
 		 * `patch-consolidated-away` row. */
 		consolidatedAway: number;
+		/** Applied patches whose evidence is `sefaria-only` with
+		 * `pending: true` (ruling `10-26 patch evidence`): they apply
+		 * until a group 3 re-read batch gives each a real kind. */
+		pending: number;
+		/** `status: 'provisional'` patches held back, not applied; each
+		 * also gets a `patch-provisional` row. */
+		provisional: number;
 		/** Human-authored patches loaded from `admin/pipeline/patch/records/reviewed/`
 		 * (consolidation spec §4.2, step 8) — applied before `accepted`,
 		 * counted separately since Ruling C keeps one manifest row per
@@ -171,6 +180,8 @@ function createReport(): Report {
 			applied: 0,
 			carried: 0,
 			consolidatedAway: 0,
+			pending: 0,
+			provisional: 0,
 			reviewed: 0,
 			upstreamChanged: 0,
 			upstreamFixed: 0,
@@ -333,6 +344,8 @@ function blessingHeader(report: Report): string[] {
 		`Snapshot \`${report.snapshot.pin}\`: ${report.snapshot.stalePins} patch(es) pinned to a different snapshot, each judged by its own \`expected_before\`.`,
 		'',
 		`Patch corpus: ${report.patches.reviewed} reviewed, ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed, ${report.patches.carried} carried, ${report.patches.consolidatedAway} consolidated away, ${report.patches.upstreamFixed} upstream-fixed, ${report.patches.upstreamChanged} upstream-changed.`,
+		'',
+		`Patch evidence: ${report.patches.pending} applied on \`sefaria-only\` evidence pending a re-read, ${report.patches.provisional} provisional held back.`,
 		'',
 		annotationLine(report.annotations),
 		'',

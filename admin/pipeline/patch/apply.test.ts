@@ -45,7 +45,6 @@ function makeEntry(): SourceEntry {
 function ocrPatch(overrides: Partial<SemanticPatch> = {}): SemanticPatch {
 	const expected = 'l) emergency. Nidd. 9b';
 	return {
-		confidence: 'high',
 		defect_class: 'ocr-marker',
 		expected_before: expected,
 		expected_occurrences: 1,
@@ -69,7 +68,6 @@ function ocrPatch(overrides: Partial<SemanticPatch> = {}): SemanticPatch {
 function displayOnlyReform(): SemanticPatch {
 	const expected = 'test-word';
 	return {
-		confidence: 'high',
 		defect_class: 'headword-paren-placement',
 		expected_before: expected,
 		expected_occurrences: 1,
@@ -89,7 +87,6 @@ function displayOnlyReform(): SemanticPatch {
 function retagPatch(): SemanticPatch {
 	const expected = 'pressure, need, v. dochak.';
 	return {
-		confidence: 'high',
 		defect_class: 'lost-marker',
 		expected_before: expected,
 		expected_occurrences: 1,
@@ -120,7 +117,6 @@ function patchFor(
 	}
 	const definition = sense.definition ?? '';
 	return {
-		confidence: 'high',
 		defect_class: 't',
 		expected_before: definition,
 		expected_occurrences: 1,

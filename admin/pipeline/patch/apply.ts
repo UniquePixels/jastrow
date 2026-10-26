@@ -45,6 +45,7 @@ import {
 	PatchFormatError,
 	parsePatchLine,
 	type SemanticPatch,
+	TEXT_CHANGING,
 	validateCorpus,
 	walkSenses,
 } from './schema.ts';
@@ -393,6 +394,53 @@ function authorshipProblems(patches: readonly SemanticPatch[]): ApplyProblem[] {
 	return problems;
 }
 
+/** The evidence rule (ruling `10-26 patch evidence`): every reviewed
+ * patch states its print evidence, and no patch changes what a reader
+ * sees (`TEXT_CHANGING`) on Sefaria's text alone, unless it is marked
+ * `pending` a re-read. A pending patch still applies; the import
+ * counts it. */
+function evidenceProblems(patches: readonly SemanticPatch[]): ApplyProblem[] {
+	const problems: ApplyProblem[] = [];
+	for (const patch of patches) {
+		const { evidence } = patch;
+		if (evidence === undefined) {
+			if (patch.author === 'human') {
+				problems.push({
+					patchId: patch.id,
+					reason:
+						'a reviewed patch with no evidence: every reviewed patch states where its print evidence comes from (ruling 10-26 patch evidence)',
+					rid: patch.rid,
+				});
+			}
+		} else if (
+			evidence.kind === 'sefaria-only' &&
+			evidence.pending !== true &&
+			TEXT_CHANGING[patch.op]
+		) {
+			problems.push({
+				patchId: patch.id,
+				reason: `a ${patch.op} on sefaria-only evidence: an op that changes text needs print evidence, or pending: true until its re-read (ruling 10-26 patch evidence)`,
+				rid: patch.rid,
+			});
+		}
+	}
+	return problems;
+}
+
+/** A patch set split into what applies and what is held: a `status:
+ * 'provisional'` patch is under dispute, so the import does not apply
+ * it, and counts and lists it instead (`import/patches.ts`). Order is
+ * kept within each half. */
+function splitProvisional(patches: readonly SemanticPatch[]): {
+	apply: SemanticPatch[];
+	held: SemanticPatch[];
+} {
+	return {
+		apply: patches.filter((p) => p.status !== 'provisional'),
+		held: patches.filter((p) => p.status === 'provisional'),
+	};
+}
+
 /**
  * Corpus-level preflight (spec §5.3): (a) every patch's snapshot pin
  * equals the current snapshot hash; (b) the corpus is internally
@@ -400,7 +448,9 @@ function authorshipProblems(patches: readonly SemanticPatch[]): ApplyProblem[] {
  * exactly `options.reconcileOnly` (default: `patches`); (d) the replay
  * gate is open — no unresolved `needs_*` rows, unless
  * `options.escalations` is `'defer'`; (e) no patch but a reviewed one
- * carries an `annotation` or is a `relabel` (`authorshipProblems`).
+ * carries an `annotation` or is a `relabel` (`authorshipProblems`);
+ * (f) every reviewed patch carries `evidence`, and none changes text
+ * on `sefaria-only` evidence unless `pending` (`evidenceProblems`).
  * Reports every problem together.
  * The per-patch `expected_before` / occurrence checks live in
  * `applyEntryPatches`, where the entries stream past.
@@ -435,7 +485,7 @@ function corpusPreflight(
 			reason: problem.reason,
 		});
 	}
-	problems.push(...authorshipProblems(patches));
+	problems.push(...authorshipProblems(patches), ...evidenceProblems(patches));
 	for (const problem of reconcilePatches(
 		records,
 		options?.reconcileOnly ?? patches,
@@ -758,6 +808,18 @@ function tryApply(
 	current: SourceEntry,
 	patch: SemanticPatch,
 ): { entry: SourceEntry; problem?: undefined } | { problem: ApplyProblem } {
+	if (patch.status === 'provisional') {
+		// The import holds these back before any apply
+		// (`splitProvisional`); one that got here bypassed the hold.
+		return {
+			problem: {
+				patchId: patch.id,
+				reason:
+					'a provisional patch reached the apply: hold it with splitProvisional',
+				rid: patch.rid,
+			},
+		};
+	}
 	try {
 		const next = applyPatch(current, patch);
 		postApplyAssertions(current, next, patch);
@@ -907,5 +969,6 @@ export {
 	patchesByRid,
 	postApplyAssertions,
 	reviewedManifestProblems,
+	splitProvisional,
 	stalePins,
 };

@@ -429,9 +429,13 @@ export type { SourceIndex };
 export {
 	evidenceFor,
 	evidenceOf,
+	HOCR,
 	indexSource,
+	LEAF,
 	NOT_UPSTREAM_CLASSES,
 	NOT_UPSTREAM_OPS,
+	PRINT_READ,
+	READ_DATE,
 	retargetProof,
 	scopeReason,
 };

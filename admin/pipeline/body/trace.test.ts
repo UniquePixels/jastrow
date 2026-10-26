@@ -505,7 +505,6 @@ describe('annotation drafts ride to the built sense', () => {
 		const before = sense?.definition ?? '';
 		const patch = parsePatch({
 			annotation: NOTE,
-			confidence: 'high',
 			defect_class: 'test',
 			expected_before: before,
 			id: 'P000009',
@@ -589,7 +588,6 @@ describe('a relabel: the declared run splits and relabels (L59)', () => {
 		const before = entry.content.senses[2]?.senses?.[1]?.definition ?? '';
 		const patch = parsePatch({
 			annotation: NOTE,
-			confidence: 'high',
 			defect_class: 'lettered-gap',
 			expected_before: before,
 			id: 'P000812',

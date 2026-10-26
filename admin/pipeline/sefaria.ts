@@ -12,11 +12,10 @@
  *
  * Run: bun data:sefaria
  */
-import { loadPageIndex } from '../entry/page.ts';
 import { loadReviewedCorpus } from './patch/apply.ts';
+import { readPageLookup } from './patch/locator.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
 import {
-	PAGE_COLUMNS_PATH,
 	SEFARIA_APPENDIX_CSV,
 	SEFARIA_APPENDIX_DOC,
 	SEFARIA_REVIEW_CSV,
@@ -26,7 +25,6 @@ import {
 import type { RawRecord } from './report/sefaria-change.ts';
 import {
 	buildSefariaAppendix,
-	type PageLookup,
 	parseSubmissions,
 } from './report/sefaria-report.ts';
 
@@ -42,57 +40,6 @@ async function readRaw(): Promise<Map<string, RawRecord>> {
 	return records;
 }
 
-/** Each page's scan leaf, from the column records. */
-async function readLeaves(): Promise<Map<string, number>> {
-	const leaves = new Map<string, number>();
-	for (const line of (await Bun.file(PAGE_COLUMNS_PATH).text()).split('\n')) {
-		if (line.trim() !== '') {
-			const row = JSON.parse(line) as {
-				leaf: number;
-				page: number;
-				volume: number;
-			};
-			leaves.set(`${row.volume}:${row.page}`, row.leaf);
-		}
-	}
-	return leaves;
-}
-
-/** The page lookup the scan column reads. Volume is not in the entry
- * rows, so it comes from the page's column record: page numbers run
- * on across the two volumes, so a page names one volume. An entry runs
- * at most to the page the next rid starts on. */
-async function readPages(): Promise<PageLookup> {
-	const leaves = await readLeaves();
-	const volumeOf = new Map(
-		[...leaves.keys()].map((key) => {
-			const [volume = '', page = ''] = key.split(':');
-			return [Number(page), Number(volume)];
-		}),
-	);
-	const entries = new Map<
-		string,
-		{ column: string; lastPage: number; page: number; volume: number }
-	>();
-	// Rid order is print order: an entry runs until the next rid starts.
-	const inOrder = [...(await loadPageIndex())].sort(([a], [b]) =>
-		a.localeCompare(b),
-	);
-	for (const [i, [rid, placement]] of inOrder.entries()) {
-		const volume = volumeOf.get(placement.number);
-		const next = inOrder[i + 1]?.[1].number ?? placement.number;
-		if (volume !== undefined) {
-			entries.set(rid, {
-				column: placement.column,
-				lastPage: Math.max(next, placement.number),
-				page: placement.number,
-				volume,
-			});
-		}
-	}
-	return { entries, leaves };
-}
-
 /** Builds the Sefaria appendix from the reviewed patches, the source,
  * the page index and the submission log, and writes its CSV, its
  * document and the review list under `docs/reports/`. */
@@ -105,7 +52,7 @@ async function main(): Promise<void> {
 		);
 	}
 	const appendix = buildSefariaAppendix({
-		pages: await readPages(),
+		pages: await readPageLookup(),
 		patches: corpus.patches,
 		snapshot: `sha256:${(await computeSnapshot()).combined}`,
 		source: await readRaw(),

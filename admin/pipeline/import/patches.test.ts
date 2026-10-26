@@ -26,7 +26,6 @@ const RID = 'D00001';
 function patch(overrides: Partial<SemanticPatch> = {}): SemanticPatch {
 	const before = overrides.expected_before ?? 'anything';
 	return {
-		confidence: 'high',
 		defect_class: 'ocr-marker',
 		expected_before: before,
 		expected_occurrences: 1,
@@ -73,6 +72,7 @@ describe('markMissingTargets', () => {
 			accepted: patchesByRid([accepted]),
 			carryOver: patchesByRid([carryOver]),
 			drift: 'outcome',
+			located: [],
 			reviewed: new Map(),
 		};
 		const report = createReport();
@@ -99,6 +99,7 @@ describe('markMissingTargets', () => {
 			accepted: new Map(),
 			carryOver: new Map(),
 			drift: 'outcome',
+			located: [],
 			reviewed: patchesByRid([reviewed]),
 		};
 		const report = createReport();
@@ -124,6 +125,7 @@ describe('markMissingTargets', () => {
 			accepted: new Map(),
 			carryOver: new Map(),
 			drift: 'outcome',
+			located: [],
 			reviewed: new Map(),
 		};
 		const report = createReport();

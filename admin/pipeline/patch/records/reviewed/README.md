@@ -16,6 +16,11 @@ the unresolved finding as `escalation`.
   stamps every patch here `author: 'human'`. That exempts it from the
   no-new-text floor, so a reviewed patch may add bytes (a reinserted
   marker, a wrapping anchor).
+- Every patch here carries `evidence`, where its print evidence comes
+  from (ruling `10-26 patch evidence`; `admin/pipeline/DESIGN.md` §5
+  "Patch evidence"), and the import refuses one without it. How the
+  field was first filled, and which records are `pending` a re-read, is
+  [`../tranches/evidence-backfill-2026-10-26/`](../tranches/evidence-backfill-2026-10-26/README.md).
 - They apply first in `patch-apply`, after both transform phases and
   before any agent patch. They are outside Ruling C: that ruling's
   one-record-per-rid rule is for agent tranches, and some rids here

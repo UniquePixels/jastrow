@@ -742,6 +742,70 @@ correction rewrites the headword string, and since ruling `10-09 link
 key` that dangles nothing: links resolve by the line before patches
 (§2 "The markup vocabulary", review ledger L49).
 
+### Patch evidence
+
+Ruling `10-26 patch evidence` (`docs/decisions.md`). Every reviewed
+patch states where its print evidence comes from, as `evidence`
+(`PatchEvidence`, `patch/schema.ts`):
+
+| `kind` | means | must state |
+|---|---|---|
+| `maintainer-read` | a person read the scan | `reader`, `date` |
+| `hOCR` | a line of `data/print/hocr/`, quoted verbatim | `volume`, `leaf`, `quote` |
+| `jastrow-text` | Jastrow's own text determines the change (10-13 case 2): the `—2)` after an implied `1)`, the run a renumber reads | `quote` |
+| `sefaria-only` | nothing but Sefaria's text | nothing; `pending: true` allowed |
+
+**What an hOCR quote witnesses: Latin text, numerals, punctuation and
+position only.** Vol. 2's hOCR (ABBYY FineReader 8) contains no Hebrew
+character, and vol. 1's (Tesseract `heb+eng`) garbles Hebrew, often
+mirrored. An `hOCR` quote can show a gloss, a cite, a sense number, a
+Roman numeral or a mark, and where on the leaf it sits; it never
+vouches for a Hebrew reading, which needs a `maintainer-read` of the
+scan crop ([`data/print/hocr/README.md`](../../data/print/hocr/README.md),
+"What the hOCR can witness"; ruling `10-26 patch evidence`).
+
+`leaf` and `volume` locate the evidence on the two scans the page
+index is pinned to, always together, on any kind; IIIF's `$n` is leaf
+`n − 1`. `pending` is allowed only on `sefaria-only`. The validator
+refuses an unknown key, a kind without what it must state, and a
+malformed value; whether a patch must carry `evidence` at all is the
+preflight's, since only the loader knows who wrote it.
+
+**Text-changing ops.** `TEXT_CHANGING` (`patch/schema.ts`) names the
+ops that change what a reader sees, a word, a sense boundary, a
+headword, a `refs` item or a link's target: `replace`, `reform`,
+`unref`, `delete`, `move`, `split`, `join` and `nest`. `retag` and
+`relabel` set labels, which are not text (above), and `annotate`
+changes nothing. A text-changing patch may not stand on `sefaria-only`
+evidence unless it is `pending`.
+
+**What the import does with it.** The corpus preflight
+(`evidenceProblems`, `patch/apply.ts`) refuses, with the patch id and
+rid, a reviewed patch with no `evidence` and any text-changing patch
+on `sefaria-only` evidence that is not `pending`; the run stops before
+any entry is read. A `pending` patch applies like any other, and the
+report counts the ones that applied (`patches.pending`, on the
+blessing's "Patch evidence" line). Gate 11, `evidenceLocator` (§9),
+checks every applied patch's locator and every `hOCR` quote.
+
+**`status: provisional`** marks a patch under dispute. It stays valid
+and in the corpus and passes the preflight, then `splitProvisional`
+holds it out of the apply set: it is never applied, and each is a
+`patch-provisional` row (`blocks`) and one on `patches.provisional`.
+One that reaches the apply anyway is a `patch-failed` fault. None is
+provisional today.
+
+**The no-new-text exemption stays.** A reviewed patch is still exempt
+from the no-new-text floor (`newTextProblem`): with the exemption
+removed, a dry run on 2026-10-26 failed 139 reviewed patches that add
+bytes Sefaria's text lacks (a restored marker, a lost word, a
+respelled form), and gates 7, 9 and 10 went red. What a reviewed
+patch removes is the loss report's question (review checklist group 2).
+
+`confidence` left with this ruling: all 770 reviewed records said
+`high`. The validator no longer reads it, and the agent tranches'
+records that still carry it are not refused for it.
+
 ---
 
 ## 6. Repairs and detectors
@@ -1048,7 +1112,7 @@ tool obliged to do that does not exist. **UNBUILT.**
 
 ## 9. The gates
 
-Ten gates, defined as one list — `GATE_NAMES` in
+Eleven gates, defined as one list — `GATE_NAMES` in
 `import/report.ts` — from which `GateName` derives and from which
 `createReport` seeds a tally each, so a gate cannot silently go
 missing. `isGreen` requires each gate to have been **reached**
@@ -1177,10 +1241,27 @@ exempt on purpose. Its name and `sefariaHeadword` clauses overlap gate
 7 and its page clause overlaps gate 8; the overlap is the point, since
 this is the half a hand edit meets without the snapshot.
 
+**11. `evidenceLocator`** (`import/gates.ts`,
+`checkEvidenceLocators`; ruling `10-26 patch evidence`). One mark per
+applied patch whose `evidence` names a `leaf`.
+*Proves:* the leaf shows the patch's entry, its page between the
+entry's own and the page the next entry starts on (`leafOutsideEntry`,
+`patch/locator.ts`, the check the Sefaria appendix's scan column
+makes); and an `hOCR` quote occurs on that leaf's hOCR text
+(`patch/hocr.ts`), verbatim but for whitespace and the invisible bidi
+marks. Evidence read off another leaf is not evidence for this entry
+(P000388/389).
+*Cannot see:* whether the quote proves the change: it is located, not
+read. Nor a Hebrew reading, which no hOCR quote witnesses (§5 "Patch
+evidence"), nor a patch whose evidence names no leaf, which is not
+marked. The page index is best effort, so an entry whose next
+neighbour starts on the same page cannot be located on the page
+after.
+
 ### What no gate sees
 
 Collected, because this is the list a future reader needs and will not
-assemble from the ten entries above:
+assemble from the eleven entries above:
 
 - **Text relocated across fields.** Two senses swapping definitions, or
   headword text moved into a definition, is invisible to all three
@@ -1236,7 +1317,9 @@ at the head of that kind's section.
 corrected in the admin tool after go-live.* It is stated in
 `publication.ts` and printed in the report header.
 
-- `blocks` — `headword-unparsed`, `upstream-changed`, `upstream-fixed`.
+- `blocks` — `headword-unparsed`, `upstream-changed`, `upstream-fixed`,
+  `patch-provisional` (a disputed patch held back, ruling `10-26 patch
+  evidence`).
 - `defer` — `headword-duplicate-form`, `paren-group-close-unknown`,
   `markup-carry`, `page-confidence-low`, `page-confidence-medium`,
   `review-deferred`, `patch-consolidated-away`, plus the seven detected

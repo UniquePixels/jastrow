@@ -1,7 +1,7 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: the blessing gates in one place, so the set a run checks is readable at a glance.
-/** Gates 2, 3, 5, 6, 7, 8 of migrate spec §4.1 and gate 10, each a
- * tally. Gate 1 (body round-trips), 4 (schema) and 9 (composition
- * failures) live with the composer and the CLI. */
+/** Gates 2, 3, 5, 6, 7, 8 of migrate spec §4.1, gate 10 and gate 11,
+ * each a tally. Gate 1 (body round-trips), 4 (schema) and 9
+ * (composition failures) live with the composer and the CLI. */
 
 import { entryAnnotations } from '../../entry/annotations.ts';
 import { intToRoman, intToSup } from '../../entry/headwords.ts';
@@ -14,6 +14,8 @@ import {
 	schemaValidator,
 	validateCorpus,
 } from '../../entry/validate.ts';
+import { collapse, MIN_QUOTE, quoteOnLeaf } from '../patch/hocr.ts';
+import type { SemanticPatch } from '../patch/schema.ts';
 import type { BodyEntry, SourceEntry } from '../types.ts';
 import { linkKey } from './cite.ts';
 
@@ -694,10 +696,103 @@ async function checkContract(
 	return t;
 }
 
-export type { Tally };
+/** What gate 11 reads besides the patches: whether a leaf shows a
+ * rid's entry (`leafOutsideEntry`, `patch/locator.ts`, bound to the
+ * page lookup) and a leaf's hOCR lines (`leafLines`, `patch/hocr.ts`).
+ * Handed in, so a test can supply both without the page index or the
+ * hOCR. */
+interface EvidenceSources {
+	leafLines: (volume: 1 | 2, leaf: number) => Promise<string[] | undefined>;
+	outside: (rid: string, volume: number, leaf: number) => string | undefined;
+}
+
+/** Gate 11, `evidenceLocator` (ruling `10-26 patch evidence`): one
+ * mark per applied patch whose `evidence` names a leaf. The leaf must
+ * show the patch's entry (its page to the page the next entry starts
+ * on, by the page index), and an `hOCR` quote must be on that leaf,
+ * verbatim but for whitespace and bidi marks (`quoteOnLeaf`). Evidence
+ * read off another leaf is not evidence for this entry (P000388/389).
+ * A patch with no leaf is not marked: there is nothing to locate. */
+async function checkEvidenceLocators(
+	patches: readonly SemanticPatch[],
+	sources: EvidenceSources,
+): Promise<Tally> {
+	const t = tally();
+	const located = patches.filter(
+		(patch) =>
+			patch.evidence?.leaf !== undefined && patch.evidence.volume !== undefined,
+	);
+	// The leaves are read in parallel (the hOCR reader shares one parse
+	// per chunk); the marks are made in patch order.
+	const problems = await Promise.all(
+		located.map((patch) => locatorProblems(patch, sources)),
+	);
+	for (const [index, patch] of located.entries()) {
+		const found = problems[index] ?? [];
+		mark(
+			t,
+			found.length === 0,
+			`${patch.rid}: ${patch.id}: ${found.join('; ')}`,
+		);
+	}
+	return t;
+}
+
+/** Why one patch's evidence does not locate: the leaf lies outside the
+ * entry, or an `hOCR` quote is not on it. Empty when it locates. */
+async function locatorProblems(
+	patch: SemanticPatch,
+	sources: EvidenceSources,
+): Promise<string[]> {
+	const { evidence } = patch;
+	if (evidence?.leaf === undefined || evidence.volume === undefined) {
+		return [];
+	}
+	const { leaf, volume } = evidence;
+	const problems: string[] = [];
+	const outside = sources.outside(patch.rid, volume, leaf);
+	if (outside !== undefined) {
+		problems.push(`vol. ${volume} ${outside}`);
+	}
+	if (evidence.kind === 'hOCR') {
+		problems.push(
+			...quoteProblems(
+				await sources.leafLines(volume, leaf),
+				`vol. ${volume} leaf ${leaf}`,
+				evidence.quote ?? '',
+			),
+		);
+	}
+	return problems;
+}
+
+/** Why an `hOCR` quote is not on the leaf `where` names, given that
+ * leaf's lines (`undefined`: the hOCR has no such leaf). */
+function quoteProblems(
+	lines: readonly string[] | undefined,
+	where: string,
+	quote: string,
+): string[] {
+	// Measured as matched (whitespace collapsed, bidi marks dropped), so
+	// interior spaces cannot pad a short quote up to the minimum.
+	if (collapse(quote).length < MIN_QUOTE) {
+		return [
+			`the quote is under ${MIN_QUOTE} characters and locates nothing: "${quote}"`,
+		];
+	}
+	if (lines === undefined) {
+		return [`the hOCR has no ${where}`];
+	}
+	return quoteOnLeaf(lines, quote)
+		? []
+		: [`the quote is not on ${where}: "${quote}"`];
+}
+
+export type { EvidenceSources, Tally };
 export {
 	checkChain,
 	checkContract,
+	checkEvidenceLocators,
 	checkHeadwordLine,
 	checkNames,
 	checkPages,

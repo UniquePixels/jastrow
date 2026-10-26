@@ -11,7 +11,6 @@ const OCR_BEFORE = 'l) emergency. Nidd. 9b';
 function patch(overrides: Partial<SemanticPatch> = {}): SemanticPatch {
 	const before = overrides.expected_before ?? OCR_BEFORE;
 	return {
-		confidence: 'high',
 		defect_class: 'ocr-marker',
 		expected_before: before,
 		expected_occurrences: 1,

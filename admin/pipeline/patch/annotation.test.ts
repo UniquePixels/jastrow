@@ -59,7 +59,6 @@ function makeEntry(): SourceEntry {
 function raw(over: Record<string, unknown>): Record<string, unknown> {
 	const before = 'to be first. Ber. 2ᵃ.';
 	return {
-		confidence: 'high',
 		defect_class: 'test',
 		expected_before: before,
 		id: 'P000001',
@@ -92,9 +91,12 @@ function reasons(record: Record<string, unknown>): string[] {
 	}
 }
 
-/** A parsed patch, stamped human as the reviewed loader stamps it. */
+/** A parsed patch, stamped human as the reviewed loader stamps it,
+ * with the print read every reviewed patch states (ruling `10-26 patch
+ * evidence`) unless the record gives its own. */
 function human(record: Record<string, unknown>): SemanticPatch {
-	return { ...parsePatch(record), author: 'human' };
+	const evidence = { date: '2026-10-26', kind: 'maintainer-read', reader: 'T' };
+	return { ...parsePatch({ evidence, ...record }), author: 'human' };
 }
 
 const retag = { op: 'retag', payload: { number: '1)' } };

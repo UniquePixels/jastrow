@@ -46,6 +46,28 @@ matches `leaf` in `data/page-index/`.
 Chunks are gzipped with no name and a zero timestamp, so re-running the split
 reproduces the same bytes.
 
+## What the hOCR can witness
+
+**Latin text, numerals, punctuation and position only, never a Hebrew
+reading.** Vol. 2's hOCR (ABBYY FineReader 8) contains no Hebrew
+character at all: its Hebrew is read as Latin noise (`n^p^'D, 'n3E`).
+Vol. 1's (Tesseract 5 `heb+eng`) does carry Hebrew, but garbled and
+often mirrored. Counted over the whole of each (2026-10-26), vol. 2
+holds 0 Hebrew letters (U+05D0–U+05EA) and vol. 1 311,375.
+
+So a quote from here can show an English gloss, a citation, a sense
+number, a Roman numeral, a parenthesis or a comma, and where on the
+leaf they sit; it cannot show how a Hebrew word is spelled or pointed.
+A Hebrew reading needs a person's read of the scan, recorded as
+`maintainer-read` evidence. This is the rule a reviewed patch's
+`evidence` follows (ruling `10-26 patch evidence` in
+[`docs/decisions.md`](../../../docs/decisions.md);
+[`admin/pipeline/DESIGN.md`](../../../admin/pipeline/DESIGN.md) §5
+"Patch evidence"). The import reads these files for one check only,
+gate 11 (`evidenceLocator`): an `hOCR` quote must occur verbatim on the
+leaf it names, whitespace and invisible bidi marks aside
+([`admin/pipeline/patch/hocr.ts`](../../../admin/pipeline/patch/hocr.ts)).
+
 ## Reassembling and verifying
 
 Concatenating a volume's chunks in name order gives back IA's file exactly:

@@ -54,7 +54,6 @@ function patchFor(
 	overrides: Record<string, unknown>,
 ): ReturnType<typeof parsePatch> {
 	return parsePatch({
-		confidence: 'high',
 		defect_class: 'test-class',
 		expected_before: definition,
 		id: 'P000001',
@@ -104,7 +103,6 @@ describe('parsePatch', () => {
 	it('collects every problem, not just the first', () => {
 		expect(() =>
 			parsePatch({
-				confidence: 'certain',
 				defect_class: '',
 				expected_before: 'x',
 				id: 'nope',
