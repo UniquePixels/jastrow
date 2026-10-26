@@ -26,6 +26,8 @@ import { buildTrace } from './body/trace.ts';
 import { composeEntry, TransformFailure } from './compose.ts';
 import { biomeBinary } from './import/biome.ts';
 import { buildHeadwordMap } from './import/cite.ts';
+import { checkCiteNumerals } from './import/cite-numeral.ts';
+import { parseCiteNumeralKept } from './import/cite-numeral-kept.ts';
 import {
 	checkSilentClasses,
 	detectClasses,
@@ -48,6 +50,7 @@ import {
 	markMissingTargets,
 	type PatchGroups,
 	recordConsolidatedAway,
+	recordLosses,
 	recordPatchOutcomes,
 	recordProvisional,
 } from './import/patches.ts';
@@ -84,6 +87,7 @@ import type { SemanticPatch } from './patch/schema.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
 import {
 	BLESSING_PATH,
+	CITE_NUMERAL_KEPT_PATH,
 	HEADWORD_ISSUES_CSV,
 	HEADWORD_ISSUES_DOC,
 	ENTRIES_DIR as OUT_DIR,
@@ -235,6 +239,7 @@ function composeOne(
 			result,
 			report,
 		);
+		recordLosses(reviewed ?? [], result, report);
 		for (const problem of result.patchProblems) {
 			report.rows.push({
 				bucket: 'pipeline',
@@ -397,6 +402,31 @@ async function buildIndexes(
 		pages,
 	);
 	return { headwordMap, pages, sefariaHeadwords };
+}
+
+/** The two gates that read the FINISHED entries, so run after pass 2.
+ * Gate 7 against a fresh read of the snapshot (URL names spec §5.2);
+ * gate 13 (`checkCiteNumerals`), the composed anchors, whose
+ * `data-ref` is gone from the finished text, against the finished
+ * targets' numerals, with the allowlist read from
+ * `CITE_NUMERAL_KEPT_PATH`. */
+async function checkFinished(
+	composed: readonly Composed[],
+	indexes: Indexes,
+	entries: readonly Entry[],
+	report: Report,
+): Promise<void> {
+	const result = checkCiteNumerals(
+		composed.map((c) => c.entry),
+		{
+			headwordMap: indexes.headwordMap,
+			kept: parseCiteNumeralKept(await Bun.file(CITE_NUMERAL_KEPT_PATH).text()),
+			targets: entries,
+		},
+	);
+	report.gates.citeNumeral = result.tally;
+	report.citeNumerals = result.counts;
+	report.gates.names = checkNames(entries, await loadSourceHeadwords());
 }
 
 /** rid → Sefaria's `headword`, read FRESH from the snapshot for gate
@@ -648,6 +678,10 @@ function printGates(report: Report): void {
 	console.log(
 		`evidence pending=${report.patches.pending} provisional=${report.patches.provisional}`,
 	);
+	const { loss } = report.patches;
+	console.log(
+		`loss reviewed=${loss.reviewed.patches}/${loss.reviewed.codepoints} agent=${loss.agent.patches}/${loss.agent.codepoints}`,
+	);
 	console.log(
 		`report written to ${IMPORT_REPORT_PATH}; evidence to ${BLESSING_PATH}; review to ${REVIEW_REPORT_PATH}; headword issues to ${HEADWORD_ISSUES_DOC}, ${HEADWORD_ISSUES_CSV}`,
 	);
@@ -706,9 +740,7 @@ async function main(): Promise<void> {
 	// After pass 2, which pushed the last class row: a registered class
 	// with no row is a fault on gate 9, never a quiet absence.
 	checkSilentClasses(report);
-	// Gate 7 reads the FINISHED entries, so it runs after pass 2 and
-	// against a fresh read of the snapshot (URL names spec §5.2).
-	report.gates.names = checkNames(entries, await loadSourceHeadwords());
+	await checkFinished(composed, indexes, entries, report);
 	const normalized = normalizeAll(entries);
 	// Gate 10 reads what `writeAll` would write (the normalized entries,
 	// at their paths), and the patches that applied with an annotation.

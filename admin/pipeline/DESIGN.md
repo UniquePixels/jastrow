@@ -583,6 +583,25 @@ them in patch-id order after the rid's accepted patches:
 `found === 0` → `absorbed`; `found === expected_occurrences` →
 `carried`; **any other count is a problem, never a silent drop**.
 
+**Absorption is loud** (review checklist 2026-10-25, group 2). A
+target found 0 times says only that the text is gone, not who took
+it. `absorbingRule` (`compose.ts`) asks, for each absorbed patch,
+whether a registered transform rule did: the target is counted on
+`applyRepairs`' output (the stage a carry-over patch was authored
+against), then after each rule of the two transform phases in turn,
+and the rule after which it first resolves 0 times claims it
+(`carryOver.claimed`). Only an absorbed patch is replayed, so this
+costs a rule pass per such entry. A claim is a hint, not proof: a
+rule that only rewrote the anchor text resolves the target away just
+the same, so no absorbed patch is quiet. Every one is a
+`patch-absorbed` review row (`blocks`) naming the patch, the rid and
+the missing target, and the claiming rule when there is one; one whose
+target a patch before it rewrote (tranche-01's P000027, absorbed by
+the reviewed P000194 from PR #193 until its retirement in #195, with
+no row), or the export changed, has no rule to name and counts on
+`patches.absorbedUnclaimed`, which the blessing's "Patch corpus" line
+shows beside the absorbed total.
+
 **Patch outcomes.** Every patch offered to an entry — reviewed,
 accepted or carry-over alike — resolves to exactly one of four values
 in the report's `patchOutcomes` (`PatchOutcome`, `import/report.ts`):
@@ -591,7 +610,8 @@ last two are `DriftOutcome`). `recordPatchOutcomes`
 (`import/patches.ts`) assigns it: a drifted patch takes its drift
 outcome; an absorbed carry-over patch is `superseded` **by
 construction** — absorption decided it, not `classifyDrift`, so it is
-never drift-classified even though it never applied; everything else
+never drift-classified even though it never applied, and it is a
+`patch-absorbed` row as well; everything else
 that didn't fail its apply gate is `applied`, carried carry-over
 included. A patch that fails its apply gate gets **no outcome at
 all** — it is skipped in that count and instead becomes a `kind:
@@ -800,11 +820,84 @@ from the no-new-text floor (`newTextProblem`): with the exemption
 removed, a dry run on 2026-10-26 failed 139 reviewed patches that add
 bytes Sefaria's text lacks (a restored marker, a lost word, a
 respelled form), and gates 7, 9 and 10 went red. What a reviewed
-patch removes is the loss report's question (review checklist group 2).
+patch removes is the loss report's question, below.
 
 `confidence` left with this ruling: all 770 reviewed records said
 `high`. The validator no longer reads it, and the agent tranches'
 records that still carry it are not refused for it.
+
+### The loss report
+
+The mirror of no-new-text, with no exemption: for every patch that
+applies, `removedCodepoints` (`patch/loss.ts`) takes the visible
+codepoints the apply removed from the entry, as a multiset. The pool
+is the transform tier's (`fieldsOf`, which holds `display` and the
+grammar fields the patch floor's `flattenContent` does not) plus every
+`refs` item, which no no-new-text pool holds. Tags are stripped,
+whitespace and the invisible format characters (`\p{Cf}`, bidi marks)
+dropped, and a `display` template's `{n}` slots cut. A moved word
+removes nothing; `l)` → `1)` removes an `l`; an `unref` removes its
+item. Each applied patch's row is a `PatchLoss` on
+`ComposeResult.losses`.
+
+A reviewed patch **declares** what it removes, in `removes` (a string,
+order and whitespace free, compared as a multiset), and gate 12,
+`declaredLoss` (§9), holds the declaration to the computation for
+every applied reviewed patch: one that removes nothing visible needs
+no `removes`; one that removes characters it does not declare, or
+declares characters it does not remove, fails. The blessing's "Patch
+loss" line counts the patches that remove anything and the codepoints
+removed, reviewed and agent apart; an agent patch is counted and not
+gated, since the no-new-text floor holds it and no author stands
+behind its record. `removes` and `TEXT_CHANGING` (10-26) answer
+different questions: a `retag` is not text-changing, since a label is
+not text, yet gate 12 still sees the label characters a retag takes
+out, and 30 retags declare them. The field was backfilled on the 115 reviewed
+records that remove characters, mechanically
+([`removes-backfill-2026-10-26`](patch/records/tranches/removes-backfill-2026-10-26/README.md)).
+
+### Patch process
+
+The rules a reviewed patch is written and approved under (review
+checklist 2026-10-25, group 2). Most have no code behind them; each
+closes a way a wrong patch reached `reviewed/` in #152–#196, named
+beside it. The evidence rule (above) and gates 11 and 12 are the
+half the import enforces.
+
+- **No blanket section approvals.** A maintainer's tick approves the
+  one block it sits in. "Approve the section", "as above" or a tick
+  on a heading approves nothing: each patch gets its own read (class
+  B: a ruling generalised from Sefaria's string shape and applied to
+  nine entries no one read).
+- **No cut-down context.** A reviewer sees the whole entry the patch
+  edits, as it stands before the patch, not the matched substring or a
+  trimmed window. A defect the window hides is a defect the read
+  cannot see (P000881, a partial repair accepted as complete).
+- **A seeder never writes a `reviewed` patch from a rule's output.**
+  A script may propose; what it proposes from a transform rule's or a
+  detector's output is a tranche patch or a worklist row, and becomes
+  `reviewed` only through a person's read of the print. P000221 came
+  from the step-8 seeder, which turned a rule's output into a reviewed
+  record with a boilerplate "print has" rationale (class A).
+- **The maintainer block** (the checklist block a person ticks) shows,
+  by default, the hOCR line and the scan crop link at the leaf the
+  page index gives the entry, **never the proposal**: the reader
+  writes what print reads, and the patch is drawn from that, not
+  ticked into agreement with it. A proposal, where one exists, sits
+  below the read and collapsed.
+  - **A block with both boxes ticked is refused**, never resolved to
+    either: it goes back to the reader.
+  - **When the hOCR and a scan read disagree, a second read is
+    required** before a patch is written, by a second reader or a
+    second look at a higher-resolution crop, and both reads are
+    recorded in the evidence (P000308: one misread, no second reader).
+  - **A patch that removes visible characters shows them**: the block
+    prints its `removes` (the loss report, above), so the reader
+    approves the loss as well as the change.
+- **A patch under dispute is `status: provisional`** from the moment a
+  ledger row or a review questions it, until the row closes: the
+  import holds it back rather than ship text in doubt (P000221 and
+  P000232 stayed applied while in doubt).
 
 ---
 
@@ -1112,7 +1205,7 @@ tool obliged to do that does not exist. **UNBUILT.**
 
 ## 9. The gates
 
-Eleven gates, defined as one list — `GATE_NAMES` in
+Thirteen gates, defined as one list — `GATE_NAMES` in
 `import/report.ts` — from which `GateName` derives and from which
 `createReport` seeds a tally each, so a gate cannot silently go
 missing. `isGreen` requires each gate to have been **reached**
@@ -1139,7 +1232,12 @@ template never carries one, ruling 10-06 hidden superscript);
 (c) `display` is absent exactly for a line the gate independently
 judges unsettleable (`lineIsUnsettleable`). A patch-supplied template
 adds two more marks.
-*Cannot see:* byte regeneration of Sefaria's split items — deliberately
+*Cannot see:* whether the line is print's. Every mark reads the
+composed line, Sefaria's as the transforms and any reviewed `reform`
+leave it, so the gate checks a patch against Sefaria's source line: a
+patch that matches Sefaria passes however print reads. Ruling `10-26
+patch evidence` closes that (§5 "Patch evidence"; gate 11). Nor
+byte regeneration of Sefaria's split items — deliberately
 gone, because it cannot round-trip through a shape whose items no
 longer correspond 1:1 to the source's strings; **commas, excluded on
 both sides**, because the upstream split cut print's separators and did
@@ -1258,10 +1356,47 @@ marked. The page index is best effort, so an entry whose next
 neighbour starts on the same page cannot be located on the page
 after.
 
+**12. `declaredLoss`** (`import/gates.ts`, `markDeclaredLoss`; the
+loss report, §5). One mark per applied reviewed patch.
+*Proves:* the patch's `removes` names exactly the visible codepoints
+the apply took out of the entry (`removedCodepoints`,
+`patch/loss.ts`), as a multiset, `refs` and `display` included;
+a patch that removes nothing declares nothing. A reviewed patch is
+exempt from the no-new-text floor, so this is the one gate that sees
+what it takes away.
+*Cannot see:* whether the removal is right, only that it is declared;
+text moved within the entry, which removes nothing; a codepoint
+removed in one place and added in another, which nets to zero; and an
+agent patch, which is counted on the blessing's "Patch loss" line and
+not marked.
+
+**13. `citeNumeral`** (`import/cite-numeral.ts`, `checkCiteNumerals`;
+review checklist 2026-10-25, group 2). One mark per internal anchor of
+the composed entries whose visible text ends in a homograph numeral
+(`v. חוּל I`, print's `)` inside the anchor allowed) or whose
+`data-ref` names one, read before markup translation so the
+`data-ref` is still there; plus one failing mark per stale allowlist
+row.
+*Proves:* the target the link resolves to (by the link key, as gate 6)
+carries every numeral named on one of its forms; or is the `ch.` line
+under it (ruling `10-15 ch. cross-reference`: the target carries no
+numeral, its first gloss opens `ch.`, and the entry before it in rid
+order carries the numeral); or the cite is on the allowlist,
+[`patch/records/cite-numeral-kept/`](patch/records/cite-numeral-kept/README.md),
+which holds 10-13 case 3 cites kept as printed and genuine mismatches
+`pending` a print read (review checklist group 3), and whose every row
+must match a failing cite, or it is stale and fails. An implied I
+needs no clause: since 10-13 it is a stored `homograph: 1`. The
+blessing's "Cite numerals" line gives the count checked, kept and
+pending.
+*Cannot see:* whether the numeral is print's: a cite and a target that
+agree on Sefaria's numeral pass together; a cite with no numeral; and
+which `ch.` line a cite means beyond the one right after the carrier.
+
 ### What no gate sees
 
 Collected, because this is the list a future reader needs and will not
-assemble from the eleven entries above:
+assemble from the gate entries above:
 
 - **Text relocated across fields.** Two senses swapping definitions, or
   headword text moved into a definition, is invisible to all three
@@ -1319,7 +1454,8 @@ corrected in the admin tool after go-live.* It is stated in
 
 - `blocks` — `headword-unparsed`, `upstream-changed`, `upstream-fixed`,
   `patch-provisional` (a disputed patch held back, ruling `10-26 patch
-  evidence`).
+  evidence`), `patch-absorbed` (a carry-over patch whose target is
+  gone, §5).
 - `defer` — `headword-duplicate-form`, `paren-group-close-unknown`,
   `markup-carry`, `page-confidence-low`, `page-confidence-medium`,
   `review-deferred`, `patch-consolidated-away`, plus the seven detected
@@ -1683,7 +1819,7 @@ so cannot be inferred from reading the code that is there.
 
 ### Process rules with no code enforcement
 
-These four are real constraints and nothing in the module checks them.
+These five are real constraints and nothing in the module checks them.
 
 58. **No sense is renumbered while nothing addresses a sense.** The
     measurement behind it: 0 of 71,376 internal refs carry a sense
@@ -1699,3 +1835,9 @@ These four are real constraints and nothing in the module checks them.
 61. **The admin tool does not create patches.** An admin edit is a file
     edit, never a patch record. The admin tool does not exist yet;
     when it does, this is the contract it inherits.
+62. **A reviewed patch is written under the patch process** (§5
+    "Patch process"): no blanket approvals, no cut-down context, no
+    seeder turning a rule's output into a `reviewed` patch, and the
+    maintainer block's read-first rules. The import sees only their
+    trace: the evidence a patch states (gate 11) and the loss it
+    declares (gate 12).

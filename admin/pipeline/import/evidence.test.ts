@@ -135,7 +135,7 @@ describe('recordPatchOutcomes counts the pending patches that applied', () => {
 		const report = createReport();
 		const pending: PatchEvidence = { kind: 'sefaria-only', pending: true };
 		const result = {
-			carryOver: { absorbed: [], carried: [] },
+			carryOver: { absorbed: [], carried: [], claimed: [] },
 			patchDrift: [],
 			patchProblems: [{ patchId: 'P000002', reason: 'x', rid: RID }],
 		} as unknown as ComposeResult;

@@ -9,9 +9,11 @@ import { IMPORT_REPORT_PATH } from '../paths.ts';
 import type { Unresolved } from './cite.ts';
 import { type Tally, tally } from './gates.ts';
 
-/** The eleven blessing gates, in report order (migrate spec §4.1; gate
+/** The blessing gates, in report order (migrate spec §4.1; gate
  * 10, `contract`, is ruling `09-30 entry contract`; gate 11,
- * `evidenceLocator`, is ruling `10-26 patch evidence`). The
+ * `evidenceLocator`, is ruling `10-26 patch evidence`; gate 12,
+ * `declaredLoss`, is the review checklist's loss report; gate 13,
+ * `citeNumeral`, its cite-numeral agreement). The
  * list is the single definition: `GateName` derives from it, and
  * `createReport` seeds a tally for every member up front, so a gate the
  * run never reached shows as 0/0 instead of going missing. A red gate
@@ -28,6 +30,8 @@ const GATE_NAMES = [
 	'composition',
 	'contract',
 	'evidenceLocator',
+	'declaredLoss',
+	'citeNumeral',
 ] as const;
 
 /** One gate's name. Derived from `GATE_NAMES` rather than written out,
@@ -95,6 +99,13 @@ interface PatchOutcomeRow {
 	rid: string;
 }
 
+/** Patches that removed visible codepoints, and the codepoints they
+ * removed in all. */
+interface LossTally {
+	codepoints: number;
+	patches: number;
+}
+
 /** THE REPORT CONTRACT. One import run's complete account of itself:
  * every gate as a tally, every review and fault row, rule counts,
  * patch outcomes and the snapshot it read.
@@ -110,12 +121,21 @@ interface Report {
 	 * counted over the entries as written, so the blessing says how
 	 * many departures from print the tree records. */
 	annotations: Record<Annotation['kind'], number>;
+	/** Gate 13's counts (`checkCiteNumerals`): the numeraled internal
+	 * cites checked, the allowlist rows that kept a failing one, and how
+	 * many of those are pending a print read (review checklist group
+	 * 3). */
+	citeNumerals: { checked: number; kept: number; pending: number };
 	entries: number;
 	gates: Record<GateName, Tally>;
 	/** Patch accounting (Ruling F; consolidation spec §4.2). Every skip
 	 * is counted here as well as listed as a row. */
 	patches: {
 		absorbed: number;
+		/** Absorbed carry-over patches no registered transform rule
+		 * claims (`absorbingRule`, `compose.ts`). Every absorbed patch is a
+		 * `patch-absorbed` row; this counts the ones without even a hint. */
+		absorbedUnclaimed: number;
 		accepted: number;
 		applied: number;
 		carried: number;
@@ -125,6 +145,12 @@ interface Report {
 		 * spec §4.2: silent skipping is never allowed). Each also gets a
 		 * `patch-consolidated-away` row. */
 		consolidatedAway: number;
+		/** The loss report (`PatchLoss`, `patch/apply.ts`): the applied
+		 * patches that removed visible codepoints, and how many they
+		 * removed in all, reviewed and agent apart. A reviewed one's
+		 * `removes` declares them (gate 12); an agent one's is not
+		 * declared, and the no-new-text floor holds what it adds. */
+		loss: { agent: LossTally; reviewed: LossTally };
 		/** Applied patches whose evidence is `sefaria-only` with
 		 * `pending: true` (ruling `10-26 patch evidence`): they apply
 		 * until a group 3 re-read batch gives each a real kind. */
@@ -171,15 +197,21 @@ function createReport(): Report {
 	) as Record<GateName, Tally>;
 	return {
 		annotations: { illegible: 0, kept: 0, 'print-error': 0 },
+		citeNumerals: { checked: 0, kept: 0, pending: 0 },
 		entries: 0,
 		gates,
 		patchOutcomes: [],
 		patches: {
 			absorbed: 0,
+			absorbedUnclaimed: 0,
 			accepted: 0,
 			applied: 0,
 			carried: 0,
 			consolidatedAway: 0,
+			loss: {
+				agent: { codepoints: 0, patches: 0 },
+				reviewed: { codepoints: 0, patches: 0 },
+			},
 			pending: 0,
 			provisional: 0,
 			reviewed: 0,
@@ -343,13 +375,24 @@ function blessingHeader(report: Report): string[] {
 		'',
 		`Snapshot \`${report.snapshot.pin}\`: ${report.snapshot.stalePins} patch(es) pinned to a different snapshot, each judged by its own \`expected_before\`.`,
 		'',
-		`Patch corpus: ${report.patches.reviewed} reviewed, ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed, ${report.patches.carried} carried, ${report.patches.consolidatedAway} consolidated away, ${report.patches.upstreamFixed} upstream-fixed, ${report.patches.upstreamChanged} upstream-changed.`,
+		`Patch corpus: ${report.patches.reviewed} reviewed, ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed (each a \`patch-absorbed\` row; ${report.patches.absorbedUnclaimed} claimed by no transform rule), ${report.patches.carried} carried, ${report.patches.consolidatedAway} consolidated away, ${report.patches.upstreamFixed} upstream-fixed, ${report.patches.upstreamChanged} upstream-changed.`,
 		'',
 		`Patch evidence: ${report.patches.pending} applied on \`sefaria-only\` evidence pending a re-read, ${report.patches.provisional} provisional held back.`,
+		'',
+		lossLine(report.patches.loss),
+		'',
+		`Cite numerals: ${report.citeNumerals.checked} internal cites name a homograph numeral; ${report.citeNumerals.kept} whose target lacks it are on the allowlist, ${report.citeNumerals.pending} of them pending a print read (review checklist group 3).`,
 		'',
 		annotationLine(report.annotations),
 		'',
 	];
+}
+
+/** The blessing's one line on the loss report: the applied patches
+ * that removed visible characters and the codepoints removed, reviewed
+ * (each declared in `removes`, gate 12) and agent apart. */
+function lossLine(loss: Report['patches']['loss']): string {
+	return `Patch loss: ${loss.reviewed.patches} reviewed patch(es) remove visible characters, ${loss.reviewed.codepoints} codepoint(s) in all, each declared in \`removes\`; ${loss.agent.patches} agent patch(es) remove ${loss.agent.codepoints}.`;
 }
 
 /** The blessing's one line on annotations: the total, then each kind. */
@@ -451,6 +494,7 @@ function renderBlessing(report: Report, samples: readonly Sample[]): string {
 
 export type {
 	GateName,
+	LossTally,
 	PatchOutcome,
 	PatchOutcomeRow,
 	Publication,

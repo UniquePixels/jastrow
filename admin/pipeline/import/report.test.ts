@@ -29,15 +29,21 @@ function greenReport(): Report {
 	) as Record<GateName, Tally>;
 	return {
 		annotations: { illegible: 0, kept: 0, 'print-error': 0 },
+		citeNumerals: { checked: 0, kept: 0, pending: 0 },
 		entries: 1,
 		gates,
 		patchOutcomes: [],
 		patches: {
 			absorbed: 0,
+			absorbedUnclaimed: 0,
 			accepted: 0,
 			applied: 0,
 			carried: 0,
 			consolidatedAway: 0,
+			loss: {
+				agent: { codepoints: 0, patches: 0 },
+				reviewed: { codepoints: 0, patches: 0 },
+			},
 			pending: 0,
 			provisional: 0,
 			reviewed: 0,

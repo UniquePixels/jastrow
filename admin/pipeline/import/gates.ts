@@ -1,5 +1,5 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: the blessing gates in one place, so the set a run checks is readable at a glance.
-/** Gates 2, 3, 5, 6, 7, 8 of migrate spec §4.1, gate 10 and gate 11,
+/** Gates 2, 3, 5, 6, 7, 8 of migrate spec §4.1, gates 10, 11 and 12,
  * each a tally. Gate 1 (body round-trips), 4 (schema) and 9
  * (composition failures) live with the composer and the CLI. */
 
@@ -15,6 +15,7 @@ import {
 	validateCorpus,
 } from '../../entry/validate.ts';
 import { collapse, MIN_QUOTE, quoteOnLeaf } from '../patch/hocr.ts';
+import { lossMismatch } from '../patch/loss.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import type { BodyEntry, SourceEntry } from '../types.ts';
 import { linkKey } from './cite.ts';
@@ -265,7 +266,19 @@ function lineIsUnsettleable(line: string): boolean {
  *    exactly for a line this gate independently judges unsettleable.
  *    Without it marks 1 and 2 could both pass on a run that quietly
  *    stopped writing `display` at all, since mark 2 has nothing to
- *    compare when the template is missing. */
+ *    compare when the template is missing.
+ *
+ * **Its blind spot: the print.** Every mark compares the written entry
+ * against the composed line, which is Sefaria's line as the transforms
+ * and any reviewed `reform` leave it. So the gate checks a patch
+ * against Sefaria's source line, never against print: a patch whose
+ * line matches Sefaria's passes all three marks however print reads,
+ * and a patch that agrees with Sefaria's error is as green as one that
+ * corrects it. Nothing here can tell them apart. What closes that is
+ * ruling `10-26 patch evidence`: every reviewed patch states its print
+ * evidence, a text-changing one may not stand on `sefaria-only`
+ * unless it is `pending` a re-read, and gate 11 (`evidenceLocator`)
+ * holds the stated leaf and hOCR quote to the entry. */
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: gate 2's three marks in one place; each is only meaningful against the other two.
 function checkHeadwordLine(
 	composed: SourceEntry,
@@ -788,6 +801,34 @@ function quoteProblems(
 		: [`the quote is not on ${where}: "${quote}"`];
 }
 
+/** Gate 12, `declaredLoss` (review checklist 2026-10-25, group 2):
+ * one mark per applied reviewed patch. `removed` is what the apply
+ * took out of the entry, its visible codepoints (`removedCodepoints`,
+ * `patch/loss.ts`), and the patch's `removes` must declare exactly
+ * that, as a multiset: nothing when it removed nothing, and neither a
+ * codepoint it removed and did not declare nor one it declared and
+ * did not remove. The no-new-text floor exempts a reviewed patch, so
+ * this is the one check that sees what a reviewed patch takes away.
+ * *Cannot see:* whether the removal is right — only that its author
+ * said what it is; and text moved within the entry, which removes
+ * nothing. */
+function markDeclaredLoss(
+	t: Tally,
+	patch: Pick<SemanticPatch, 'id' | 'removes' | 'rid'>,
+	removed: string,
+): void {
+	const { undeclared, unremoved } = lossMismatch(patch.removes ?? '', removed);
+	const reasons = [
+		...(undeclared === '' ? [] : [`removes "${undeclared}" undeclared`]),
+		...(unremoved === '' ? [] : [`declares "${unremoved}" it does not remove`]),
+	];
+	mark(
+		t,
+		reasons.length === 0,
+		`${patch.rid}: ${patch.id}: ${reasons.join('; ')}`,
+	);
+}
+
 export type { EvidenceSources, Tally };
 export {
 	checkChain,
@@ -798,6 +839,7 @@ export {
 	checkPages,
 	checkTextConservation,
 	mark,
+	markDeclaredLoss,
 	tally,
 	textOf,
 };

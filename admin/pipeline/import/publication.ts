@@ -126,6 +126,18 @@ const KIND_RULES: ReadonlyArray<readonly [string, Publication, string]> = [
 		'defer',
 		'Compare the dropped patch against the kept one; if it fixed something the kept one does not, re-file it as a reviewed patch.',
 	],
+	// Review checklist 2026-10-25, group 2: a carry-over patch whose
+	// target is gone, with or without a transform rule claiming it (a
+	// claim is a hint, not proof the defect is fixed). Its
+	// precondition failed by another road (a patch before it rewrote
+	// the text, or the export changed), so whether its defect is still
+	// there is unknown: the same fact as `upstream-changed`, which
+	// blocks (`import/patches.ts`'s `recordPatchOutcomes`).
+	[
+		'patch-absorbed',
+		'blocks',
+		'Read the entry: if the defect the patch fixed is still there, re-file it as a reviewed patch against the current text; otherwise retire it from its tranche.',
+	],
 	// Ruling 10-26 patch evidence: a `status: 'provisional'` patch is
 	// under dispute and held back, so the entry shows Sefaria's text
 	// where a reviewed fix may be due.

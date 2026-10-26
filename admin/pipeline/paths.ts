@@ -74,6 +74,11 @@ export const REVIEWED_DIR = `${PATCH_DIR}/reviewed`;
  * "catalogued, not yet detected"), so a review report can list both. */
 export const PATTERNS_PATH = `${PATCH_DIR}/patterns.jsonl`;
 
+/** The cite-numeral allowlist (`import/cite-numeral.ts`, gate 13):
+ * cites whose homograph numeral the target does not carry, kept as
+ * printed or pending a print read; README beside it. */
+export const CITE_NUMERAL_KEPT_PATH = `${PATCH_DIR}/cite-numeral-kept/kept.jsonl`;
+
 /** Report definition, not data: inputs a generated report reads
  * besides the run itself. */
 const REPORT_RECORDS_DIR = 'admin/pipeline/report/records';

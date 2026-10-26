@@ -5,7 +5,7 @@ import type { ComposeResult } from '../compose.ts';
 import type { AcceptedCorpus, DriftMode } from '../patch/apply.ts';
 import type { DriftOutcome } from '../patch/drift.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
-import { mark } from './gates.ts';
+import { mark, markDeclaredLoss } from './gates.ts';
 import type { Report } from './report.ts';
 
 /** The rid-grouped patch sets `composeOne` applies (Ruling F), and the
@@ -29,9 +29,45 @@ const DRIFT_DETAIL: Record<DriftOutcome, string> = {
 		'the source already reads as this patch leaves it; archive the patch',
 };
 
+/** An absorbed carry-over patch: `superseded`, and always a
+ * `patch-absorbed` row. A claim (`rule`, the transform rule after
+ * which the target first resolved 0 times) is a hint in the row, not
+ * proof the defect is fixed, since a rule that only rewrote the anchor
+ * text would claim it too; a patch with no hint also counts on
+ * `patches.absorbedUnclaimed`. */
+function recordAbsorbed(
+	rid: string,
+	patch: SemanticPatch,
+	rule: string | undefined,
+	report: Report,
+): void {
+	report.patchOutcomes.push({ outcome: 'superseded', patchId: patch.id, rid });
+	const who =
+		rule === undefined
+			? 'no transform rule claims it'
+			: `transform rule ${rule} claims it (a hint: it rewrote the target away, which is not proof it fixed the defect)`;
+	report.rows.push({
+		bucket: 'patch',
+		detail: `${patch.id} (${patch.defect_class}): carry-over target ${patch.target} is found 0 times and ${who}; recorded superseded`,
+		kind: 'patch-absorbed',
+		rid,
+		severity: 'review',
+	});
+	if (rule === undefined) {
+		report.patches.absorbedUnclaimed++;
+	}
+}
+
 /** One outcome row per patch this entry was offered (spec §3.3). A
  * drifted patch is also a review row and a header count; a patch that
- * failed its apply gate gets no outcome — it is a fault row instead. */
+ * failed its apply gate gets no outcome — it is a fault row instead.
+ * An absorbed carry-over patch is `superseded` and always a
+ * `patch-absorbed` review row; the row names the registered transform
+ * rule that claims its target (`ComposeResult.carryOver.claimed`) as
+ * a hint, and a patch no rule claims, whose target went missing by
+ * another road (a reviewed patch rewrote the text, as P000194 did
+ * under tranche-01's P000027), also counts on
+ * `patches.absorbedUnclaimed`. No absorbed patch is silent. */
 function recordPatchOutcomes(
 	rid: string,
 	offered: readonly SemanticPatch[],
@@ -41,6 +77,9 @@ function recordPatchOutcomes(
 	const failed = new Set(result.patchProblems.map((p) => p.patchId));
 	const drifted = new Map(result.patchDrift.map((d) => [d.patchId, d.outcome]));
 	const absorbed = new Set(result.carryOver.absorbed);
+	const claimed = new Map(
+		result.carryOver.claimed.map((c) => [c.patchId, c.rule]),
+	);
 	for (const patch of offered) {
 		const drift = drifted.get(patch.id);
 		if (drift !== undefined) {
@@ -58,16 +97,37 @@ function recordPatchOutcomes(
 				report.patches.upstreamChanged++;
 			}
 		} else if (absorbed.has(patch.id)) {
-			report.patchOutcomes.push({
-				outcome: 'superseded',
-				patchId: patch.id,
-				rid,
-			});
+			recordAbsorbed(rid, patch, claimed.get(patch.id), report);
 		} else if (!failed.has(patch.id)) {
 			report.patchOutcomes.push({ outcome: 'applied', patchId: patch.id, rid });
 			if (patch.evidence?.pending === true) {
 				report.patches.pending++;
 			}
+		}
+	}
+}
+
+/** The loss report for one entry (`ComposeResult.losses`): each
+ * applied patch that removed visible codepoints is counted, reviewed
+ * and agent apart, and every applied reviewed patch is one mark on
+ * gate 12, `declaredLoss`, its `removes` held to what it removed. An
+ * agent patch is counted, not gated: the no-new-text floor already
+ * holds it, and its record has no author to declare anything. */
+function recordLosses(
+	reviewed: readonly SemanticPatch[],
+	result: Pick<ComposeResult, 'losses'>,
+	report: Report,
+): void {
+	const byId = new Map(reviewed.map((patch) => [patch.id, patch]));
+	for (const loss of result.losses) {
+		const patch = byId.get(loss.patchId);
+		const side = patch === undefined ? 'agent' : 'reviewed';
+		if (loss.removed !== '') {
+			report.patches.loss[side].patches++;
+			report.patches.loss[side].codepoints += [...loss.removed].length;
+		}
+		if (patch !== undefined) {
+			markDeclaredLoss(report.gates.declaredLoss, patch, loss.removed);
 		}
 	}
 }
@@ -183,6 +243,7 @@ export type { PatchGroups };
 export {
 	markMissingTargets,
 	recordConsolidatedAway,
+	recordLosses,
 	recordPatchOutcomes,
 	recordProvisional,
 };

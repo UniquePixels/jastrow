@@ -16,8 +16,9 @@ import {
 	createPhaseTracker,
 	type DriftMode,
 	type PatchDrift,
+	type PatchLoss,
 } from './patch/apply.ts';
-import type { SemanticPatch } from './patch/schema.ts';
+import { countTarget, type SemanticPatch } from './patch/schema.ts';
 import { RULES } from './transform/registry.ts';
 import { applyTransforms } from './transform/run.ts';
 import type { Rule, TransformRecord } from './transform/types.ts';
@@ -106,11 +107,20 @@ interface ComposeResult {
 	 * `relabel` owes one per label it changes): the patch side of gate
 	 * 10's both-ways check (ANNOTATIONS.md §2). */
 	annotated: string[];
-	/** Carry-over disposition: patches whose defect the healed corpus
-	 * already fixed (`absorbed`, dropped)
-	 * vs. still present (`carried`, applied). Empty when no carry-over
+	/** Carry-over disposition: patches whose target the composed entry
+	 * no longer holds (`absorbed`, dropped) vs. still present
+	 * (`carried`, applied). `claimed` names, for each absorbed patch a
+	 * registered transform rule absorbed, that rule (`absorbingRule`),
+	 * as a hint: every absorbed patch gets a `patch-absorbed` row, and
+	 * the row names the rule when there is one. An absorbed patch no
+	 * rule names went silent by some other road (a patch before it
+	 * rewrote its target, or the export did). Empty when no carry-over
 	 * group was passed. */
-	carryOver: { absorbed: string[]; carried: string[] };
+	carryOver: {
+		absorbed: string[];
+		carried: string[];
+		claimed: { patchId: string; rule: string }[];
+	};
 	/** The entry after text-repairs, structural-repairs and
 	 * patch-apply. */
 	entry: SourceEntry;
@@ -120,6 +130,9 @@ interface ComposeResult {
 	 * moves `entry.headword` and never this, so the links naming
 	 * Sefaria's spelling still find the entry. */
 	linkHeadword: string;
+	/** One row per patch that applied, with the visible codepoints it
+	 * removed (`PatchLoss`): the loss report, and gate 12's input. */
+	losses: PatchLoss[];
 	/** Patches skipped because their precondition no longer holds
 	 * (`drift: 'outcome'` only; always empty otherwise). */
 	patchDrift: PatchDrift[];
@@ -141,6 +154,7 @@ interface PatchedEntry {
 	carried: string[];
 	drifted: PatchDrift[];
 	entry: SourceEntry;
+	losses: PatchLoss[];
 	problems: ApplyProblem[];
 }
 
@@ -163,6 +177,7 @@ function applyPatchSets(
 					annotated: [] as string[],
 					drifted: [] as PatchDrift[],
 					entry,
+					losses: [] as PatchLoss[],
 					problems: [] as ApplyProblem[],
 				}
 			: applyEntryPatches(entry, reviewed, patches?.drift);
@@ -178,6 +193,7 @@ function applyPatchSets(
 					annotated: [] as string[],
 					drifted: [] as PatchDrift[],
 					entry: afterReviewed.entry,
+					losses: [] as PatchLoss[],
 					problems: [] as ApplyProblem[],
 				}
 			: applyEntryPatches(afterReviewed.entry, accepted, patches?.drift);
@@ -195,6 +211,7 @@ function applyPatchSets(
 			carried: [],
 			drifted: [...afterReviewed.drifted, ...afterAccepted.drifted],
 			entry: afterAccepted.entry,
+			losses: [...afterReviewed.losses, ...afterAccepted.losses],
 			problems: [...afterReviewed.problems, ...afterAccepted.problems],
 		};
 	}
@@ -228,12 +245,71 @@ function applyPatchSets(
 			...carry.drifted,
 		],
 		entry: carry.entry,
+		losses: [...afterReviewed.losses, ...afterAccepted.losses, ...carry.losses],
 		problems: [
 			...afterReviewed.problems,
 			...afterAccepted.problems,
 			...carry.problems,
 		],
 	};
+}
+
+/** The registered transform rule that rewrote a carry-over patch's
+ * target away, or `undefined` when none did. A carry-over patch is
+ * pre-patch stage: authored against `applyRepairs`' output, before any
+ * rule. So its target is counted on that output, then after each rule
+ * of the two transform phases in turn, in the order `composeEntry`
+ * runs them, and the rule after which it first resolves 0 times is the
+ * one that claims it. A target already gone before the first rule (the
+ * export changed), or still there after the last (a patch removed it),
+ * is claimed by no rule. Replayed only for an absorbed patch, so it
+ * costs a rule pass per such entry, not per run.
+ * *Cannot see:* whether the rule fixed the defect. A rule that only
+ * rewrote the anchor text (a `sense[…]` target's content anchor, say)
+ * resolves the target away just the same, so a claim is a hint for
+ * the reader of the `patch-absorbed` row, never a reason to omit it. */
+function absorbingRule(
+	source: SourceEntry,
+	patch: SemanticPatch,
+	rules: readonly Rule[] = RULES,
+): string | undefined {
+	let { entry } = applyRepairs(source);
+	if (countTarget(entry, patch) === 0) {
+		return;
+	}
+	for (const phase of ['text-repairs', 'structural-repairs'] as const) {
+		for (const rule of rules) {
+			if (rule.phase !== phase) {
+				continue;
+			}
+			({ entry } = applyTransforms(entry, phase, [rule]));
+			if (countTarget(entry, patch) === 0) {
+				return rule.id;
+			}
+		}
+	}
+	return undefined;
+}
+
+/** For each absorbed carry-over patch, the rule that claims it
+ * (`absorbingRule`); absorbed patches no rule claims are left out. */
+function claimedAbsorptions(
+	source: SourceEntry,
+	absorbed: readonly string[],
+	carryOver: readonly SemanticPatch[] | undefined,
+	rules: readonly Rule[],
+): { patchId: string; rule: string }[] {
+	const claimed: { patchId: string; rule: string }[] = [];
+	for (const patch of carryOver ?? []) {
+		if (!absorbed.includes(patch.id)) {
+			continue;
+		}
+		const rule = absorbingRule(source, patch, rules);
+		if (rule !== undefined) {
+			claimed.push({ patchId: patch.id, rule });
+		}
+	}
+	return claimed;
 }
 
 /** One entry through the first three phases of the committed manifest
@@ -271,9 +347,19 @@ function composeEntry(
 	);
 	return {
 		annotated: patched.annotated,
-		carryOver: { absorbed: patched.absorbed, carried: patched.carried },
+		carryOver: {
+			absorbed: patched.absorbed,
+			carried: patched.carried,
+			claimed: claimedAbsorptions(
+				source,
+				patched.absorbed,
+				patches?.carryOver,
+				rules,
+			),
+		},
 		entry: patched.entry,
 		linkHeadword: structural.entry.headword,
+		losses: patched.losses,
 		patchDrift: patched.drifted,
 		patchesApplied: patched.applied,
 		patchProblems: patched.problems,
@@ -284,4 +370,4 @@ function composeEntry(
 }
 
 export type { ComposePatches, ComposeResult, PhaseTracker };
-export { composeEntry, TransformFailure };
+export { absorbingRule, composeEntry, TransformFailure };
