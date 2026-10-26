@@ -27,18 +27,21 @@ function doubleQuotedRun(text: string, at: number): string | undefined {
 	return undefined;
 }
 
+/** The run the character at `at` opens, if it opens one. */
+function runAt(text: string, at: number): string | undefined {
+	const open = text.charAt(at);
+	if (open === '`') {
+		return backtickRun(text, at);
+	}
+	return open === '"' ? doubleQuotedRun(text, at) : undefined;
+}
+
 /** The first quoted span of `text`, scanned from the left: a backticked
  * run, or a double-quoted one. Index arithmetic, where a lazy `.+?`
  * with a lookahead backtracked; the readings are the same. */
 function firstQuote(text: string): string | undefined {
 	for (let at = 0; at < text.length; at += 1) {
-		const open = text.charAt(at);
-		const run =
-			open === '`'
-				? backtickRun(text, at)
-				: open === '"'
-					? doubleQuotedRun(text, at)
-					: undefined;
+		const run = runAt(text, at);
 		if (run !== undefined) {
 			return run;
 		}
