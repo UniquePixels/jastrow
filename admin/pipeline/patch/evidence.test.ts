@@ -128,7 +128,7 @@ describe('evidence: each kind states what it needs', () => {
 
 describe('status: provisional is the only value', () => {
 	it('carries provisional through', () => {
-		const status = parsePatch(record({ status: 'provisional' })).status;
+		const { status } = parsePatch(record({ status: 'provisional' }));
 		expect(status).toBe('provisional');
 	});
 

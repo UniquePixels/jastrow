@@ -702,8 +702,8 @@ async function checkContract(
  * Handed in, so a test can supply both without the page index or the
  * hOCR. */
 interface EvidenceSources {
-	leafLines(volume: 1 | 2, leaf: number): Promise<string[] | undefined>;
-	outside(rid: string, volume: number, leaf: number): string | undefined;
+	leafLines: (volume: 1 | 2, leaf: number) => Promise<string[] | undefined>;
+	outside: (rid: string, volume: number, leaf: number) => string | undefined;
 }
 
 /** Gate 11, `evidenceLocator` (ruling `10-26 patch evidence`): one
