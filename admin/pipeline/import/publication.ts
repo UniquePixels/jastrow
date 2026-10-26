@@ -127,7 +127,8 @@ const KIND_RULES: ReadonlyArray<readonly [string, Publication, string]> = [
 		'Compare the dropped patch against the kept one; if it fixed something the kept one does not, re-file it as a reviewed patch.',
 	],
 	// Review checklist 2026-10-25, group 2: a carry-over patch whose
-	// target is gone and that no transform rule claims. Its
+	// target is gone, with or without a transform rule claiming it (a
+	// claim is a hint, not proof the defect is fixed). Its
 	// precondition failed by another road (a patch before it rewrote
 	// the text, or the export changed), so whether its defect is still
 	// there is unknown: the same fact as `upstream-changed`, which

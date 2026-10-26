@@ -591,14 +591,16 @@ whether a registered transform rule did: the target is counted on
 against), then after each rule of the two transform phases in turn,
 and the rule after which it first resolves 0 times claims it
 (`carryOver.claimed`). Only an absorbed patch is replayed, so this
-costs a rule pass per such entry. A claimed patch is quiet: the rule
-fixed what the patch would have. An unclaimed one, whose target a
-patch before it rewrote (tranche-01's P000027, absorbed by the
-reviewed P000194 from PR #193 until its retirement in #195, with no
-row), or the export changed, is a `patch-absorbed` review row
-(`blocks`) naming the patch, the rid and the missing target, and one
-on `patches.absorbedUnclaimed`, which the blessing's "Patch corpus"
-line shows beside the absorbed total.
+costs a rule pass per such entry. A claim is a hint, not proof: a
+rule that only rewrote the anchor text resolves the target away just
+the same, so no absorbed patch is quiet. Every one is a
+`patch-absorbed` review row (`blocks`) naming the patch, the rid and
+the missing target, and the claiming rule when there is one; one whose
+target a patch before it rewrote (tranche-01's P000027, absorbed by
+the reviewed P000194 from PR #193 until its retirement in #195, with
+no row), or the export changed, has no rule to name and counts on
+`patches.absorbedUnclaimed`, which the blessing's "Patch corpus" line
+shows beside the absorbed total.
 
 **Patch outcomes.** Every patch offered to an entry — reviewed,
 accepted or carry-over alike — resolves to exactly one of four values
@@ -608,8 +610,8 @@ last two are `DriftOutcome`). `recordPatchOutcomes`
 (`import/patches.ts`) assigns it: a drifted patch takes its drift
 outcome; an absorbed carry-over patch is `superseded` **by
 construction** — absorption decided it, not `classifyDrift`, so it is
-never drift-classified even though it never applied, and unless a rule
-claims it it is a `patch-absorbed` row as well; everything else
+never drift-classified even though it never applied, and it is a
+`patch-absorbed` row as well; everything else
 that didn't fail its apply gate is `applied`, carried carry-over
 included. A patch that fails its apply gate gets **no outcome at
 all** — it is skipped in that count and instead becomes a `kind:
@@ -1452,8 +1454,8 @@ corrected in the admin tool after go-live.* It is stated in
 
 - `blocks` — `headword-unparsed`, `upstream-changed`, `upstream-fixed`,
   `patch-provisional` (a disputed patch held back, ruling `10-26 patch
-  evidence`), `patch-absorbed` (a carry-over patch whose target is gone
-  and that no transform rule claims, §5).
+  evidence`), `patch-absorbed` (a carry-over patch whose target is
+  gone, §5).
 - `defer` — `headword-duplicate-form`, `paren-group-close-unknown`,
   `markup-carry`, `page-confidence-low`, `page-confidence-medium`,
   `review-deferred`, `patch-consolidated-away`, plus the seven detected

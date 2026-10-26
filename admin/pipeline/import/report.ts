@@ -133,8 +133,8 @@ interface Report {
 	patches: {
 		absorbed: number;
 		/** Absorbed carry-over patches no registered transform rule
-		 * claims (`absorbingRule`, `compose.ts`): each also a
-		 * `patch-absorbed` row. */
+		 * claims (`absorbingRule`, `compose.ts`). Every absorbed patch is a
+		 * `patch-absorbed` row; this counts the ones without even a hint. */
 		absorbedUnclaimed: number;
 		accepted: number;
 		applied: number;
@@ -375,7 +375,7 @@ function blessingHeader(report: Report): string[] {
 		'',
 		`Snapshot \`${report.snapshot.pin}\`: ${report.snapshot.stalePins} patch(es) pinned to a different snapshot, each judged by its own \`expected_before\`.`,
 		'',
-		`Patch corpus: ${report.patches.reviewed} reviewed, ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed (${report.patches.absorbedUnclaimed} claimed by no transform rule, each a \`patch-absorbed\` row), ${report.patches.carried} carried, ${report.patches.consolidatedAway} consolidated away, ${report.patches.upstreamFixed} upstream-fixed, ${report.patches.upstreamChanged} upstream-changed.`,
+		`Patch corpus: ${report.patches.reviewed} reviewed, ${report.patches.accepted} accepted, ${report.patches.applied} applied, ${report.patches.absorbed} carry-over absorbed (each a \`patch-absorbed\` row; ${report.patches.absorbedUnclaimed} claimed by no transform rule), ${report.patches.carried} carried, ${report.patches.consolidatedAway} consolidated away, ${report.patches.upstreamFixed} upstream-fixed, ${report.patches.upstreamChanged} upstream-changed.`,
 		'',
 		`Patch evidence: ${report.patches.pending} applied on \`sefaria-only\` evidence pending a re-read, ${report.patches.provisional} provisional held back.`,
 		'',

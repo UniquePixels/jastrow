@@ -199,7 +199,7 @@ describe('recordPatchOutcomes', () => {
 		expect(patchRows[0]?.kind).toBe('upstream-changed');
 	});
 
-	it('superseded: an absorbed patch a rule claims gets a superseded outcome and no row', () => {
+	it('superseded: an absorbed patch a rule claims gets a superseded outcome and a row naming the rule', () => {
 		const p1 = patch({ id: 'P1', rid: RID });
 		const report = createReport();
 		recordPatchOutcomes(
@@ -214,7 +214,15 @@ describe('recordPatchOutcomes', () => {
 		expect(report.patchOutcomes).toEqual([
 			{ outcome: 'superseded', patchId: 'P1', rid: RID },
 		]);
-		expect(report.rows.filter((r) => r.bucket === 'patch')).toEqual([]);
+		expect(report.rows).toEqual([
+			{
+				bucket: 'patch',
+				detail: `P1 (ocr-marker): carry-over target ${p1.target} is found 0 times and transform rule some-rule claims it (a hint: it rewrote the target away, which is not proof it fixed the defect); recorded superseded`,
+				kind: 'patch-absorbed',
+				rid: RID,
+				severity: 'review',
+			},
+		]);
 		expect(report.patches.absorbedUnclaimed).toBe(0);
 	});
 
@@ -286,8 +294,10 @@ describe('recordPatchOutcomes', () => {
 			{ outcome: 'superseded', patchId: 'P3', rid: RID },
 		]);
 		const patchRows = report.rows.filter((r) => r.bucket === 'patch');
-		expect(patchRows).toHaveLength(1);
-		expect(patchRows[0]?.kind).toBe('upstream-changed');
+		expect(patchRows.map((r) => r.kind)).toEqual([
+			'upstream-changed',
+			'patch-absorbed',
+		]);
 
 		// Invariant: outcome rows + problems with a patch id among the
 		// offered set === offered count. No offered patch is silently
@@ -496,7 +506,7 @@ describe('absorption is loud (P000027)', () => {
 		expect(report.patches.absorbedUnclaimed).toBe(1);
 	});
 
-	it('a carry-over a transform rule absorbed is claimed and stays quiet', () => {
+	it('a carry-over a transform rule absorbed is claimed, and its row names the rule', () => {
 		const result = composeEntry(
 			a00675,
 			{ carryOver: [p000027], drift: 'outcome' },
@@ -508,7 +518,12 @@ describe('absorption is loud (P000027)', () => {
 		]);
 		const report = createReport();
 		recordPatchOutcomes('A00675', [p000027], result, report);
-		expect(report.rows).toEqual([]);
+		expect(report.rows).toHaveLength(1);
+		expect(report.rows[0]?.kind).toBe('patch-absorbed');
+		expect(report.rows[0]?.detail).toContain(
+			'transform rule test-marker claims it',
+		);
+		expect(report.patches.absorbedUnclaimed).toBe(0);
 		expect(report.patchOutcomes).toEqual([
 			{ outcome: 'superseded', patchId: 'P000027', rid: 'A00675' },
 		]);

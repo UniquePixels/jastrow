@@ -110,11 +110,12 @@ interface ComposeResult {
 	/** Carry-over disposition: patches whose target the composed entry
 	 * no longer holds (`absorbed`, dropped) vs. still present
 	 * (`carried`, applied). `claimed` names, for each absorbed patch a
-	 * registered transform rule absorbed, that rule (`absorbingRule`);
-	 * an absorbed patch it does not name went silent by some other
-	 * road (a patch before it rewrote its target, or the export did),
-	 * and the import gives it a `patch-absorbed` row. Empty when no
-	 * carry-over group was passed. */
+	 * registered transform rule absorbed, that rule (`absorbingRule`),
+	 * as a hint: every absorbed patch gets a `patch-absorbed` row, and
+	 * the row names the rule when there is one. An absorbed patch no
+	 * rule names went silent by some other road (a patch before it
+	 * rewrote its target, or the export did). Empty when no carry-over
+	 * group was passed. */
 	carryOver: {
 		absorbed: string[];
 		carried: string[];
@@ -262,7 +263,11 @@ function applyPatchSets(
  * one that claims it. A target already gone before the first rule (the
  * export changed), or still there after the last (a patch removed it),
  * is claimed by no rule. Replayed only for an absorbed patch, so it
- * costs a rule pass per such entry, not per run. */
+ * costs a rule pass per such entry, not per run.
+ * *Cannot see:* whether the rule fixed the defect. A rule that only
+ * rewrote the anchor text (a `sense[…]` target's content anchor, say)
+ * resolves the target away just the same, so a claim is a hint for
+ * the reader of the `patch-absorbed` row, never a reason to omit it. */
 function absorbingRule(
 	source: SourceEntry,
 	patch: SemanticPatch,
