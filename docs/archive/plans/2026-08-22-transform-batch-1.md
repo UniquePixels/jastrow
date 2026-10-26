@@ -1791,6 +1791,6 @@ count before the maintainer withdrew the row (spec §5.2). The abbrev
 split it created was reverted with it — the whole row is `judgment`, so
 there is no residue row to carry.
 
-Per [feedback_pre_pr_review](memory) run the full local review battery
+Per feedback_pre_pr_review run the full local review battery
 before opening the PR — cloud CodeRabbit is skipped on this repo, so
 local review is the only one.

@@ -5,13 +5,13 @@ policy` ([`docs/decisions.md`](../../../../../../docs/decisions.md)),
 case 1 throughout: a transcription error where print is right is
 corrected with no annotation, and the patch rationale is the only
 trace. It applies the maintainer's ticks in
-[`docs/maintainer-checklist.md`](../../../../../../docs/maintainer-checklist.md)
+[`docs/archive/maintainer-checklist.md`](../../../../../../docs/archive/maintainer-checklist.md)
 § Scan reads for the Sefaria appendix (2026-10-22), recorded on
 `docs/checklist-batch-2` (`5c6c13369`): 30 blocks, 66 patches, the ones
 PR #192's tranche README
 [`l71-evidence-2026-10-22`](../l71-evidence-2026-10-22/README.md) left
 held. The applied blocks are now in
-[`docs/headword-worklist.md`](../../../../../../docs/headword-worklist.md)
+[`docs/archive/headword-worklist.md`](../../../../../../docs/archive/headword-worklist.md)
 § Applied from the maintainer checklist (2026-10-25).
 
 Every patch the maintainer confirmed carries, appended to its

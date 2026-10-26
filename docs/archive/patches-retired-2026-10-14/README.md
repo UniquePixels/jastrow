@@ -3,7 +3,7 @@
 `reviewed/patches.jsonl` holds the 9 reviewed `reform` patches that
 left `admin/pipeline/patch/records/reviewed/patches.jsonl` in PR #174,
 and D00072's `replace` P000214, which left in PR #175 (below)
-(data PR (i) of [`docs/correction-audit.md`](../../correction-audit.md)
+(data PR (i) of [`docs/archive/correction-audit.md`](../correction-audit.md)
 §7). Every line is the original line's bytes, moved. Each of the
 nine rids' `manifest.jsonl` record in `reviewed/` was removed with it:
 it named only this patch.
@@ -46,7 +46,7 @@ P000348, P000353, P000355) stay, amended in place: see
 ## P000214 (PR #175)
 
 A tenth line followed in PR #175 (data PR (ii) of
-[`docs/correction-audit.md`](../../correction-audit.md) §7): P000214,
+[`docs/archive/correction-audit.md`](../correction-audit.md) §7): P000214,
 the reviewed `replace` on D00072 that wrote the implied `1)` into the
 gloss (`.) <i>` → `.) 1) <i>`; review doc 01, `repairs.ts`
 `IMPLIED_ONE_TEXT`). Its bytes are moved unchanged. D00072's

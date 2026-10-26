@@ -1,7 +1,7 @@
 # The lettered relabel (2026-10-16)
 
 P00790 after L59, the last item of
-[`docs/correction-audit.md`](../../../../../../docs/correction-audit.md)
+[`docs/archive/correction-audit.md`](../../../../../../docs/archive/correction-audit.md)
 §7, PR #180: a new reviewed op, `relabel`, and its first record. Review
 ledger L59 (closed here), L55 and L60 (closed here), L64; ruling
 `10-13 correction policy`, case 2, which superseded `10-10 print

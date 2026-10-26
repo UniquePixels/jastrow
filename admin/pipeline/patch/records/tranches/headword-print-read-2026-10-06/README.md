@@ -3,7 +3,7 @@
 The maintainer read the 1903 scan (Internet Archive, University of
 Toronto copy: `dictionaryoftarg01jastuoft`, `dictionaryoftarg02jastuoft`)
 against the 96 answer blocks of
-[`docs/headword-worklist.md`](../../../../../../docs/headword-worklist.md)
+[`docs/archive/headword-worklist.md`](../../../../../../docs/archive/headword-worklist.md)
 and ticked them on 2026-10-06; the ticked worklist is the one committed
 at `ed8261aaa` (PR #154). This directory records the patches those
 answers decided. Rows whose answer was "nothing to fix" are on the

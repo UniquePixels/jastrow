@@ -73,9 +73,10 @@ const PRINT_READ = /\bprint (?:read|check)\b/iu;
 const READ_DATE = /\bprint (?:read|check)\b[^.;]*?(?<date>\d{4}-\d{2}-\d{2})/iu;
 /** Where a maintainer's print read is recorded: a worklist, or the
  * checklist the open questions moved to (PR #186) and its post-go-live
- * half (split 2026-10-18). */
+ * half (split 2026-10-18). All of them moved to `docs/archive/` on
+ * 2026-10-26; a rationale may name either path. */
 const WORKLIST =
-	/docs\/(?:[\w-]+-worklist|maintainer-checklist|post-go-live-review)\.md/u;
+	/docs\/(?:archive\/)?(?:[\w-]+-worklist|maintainer-checklist|post-go-live-review)\.md/u;
 const OPEN_ANCHOR = /<a\b/gu;
 const HREF = /\bhref="(?<href>[^"]*)"/u;
 const NUMERAL = /^[IVX]+$/u;

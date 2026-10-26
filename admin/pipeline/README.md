@@ -14,7 +14,7 @@ this way, is [`DESIGN.md`](DESIGN.md).
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
 | Print locator index | `page-index/build.ts` | built 2026-08-17, data committed; tool archived at `refs/tags/archive/v2-research-2026-09` | none — one-time build; admin tool corrects entries afterward |
-| Import (source data → entry data) | `import.ts` | working; complete as of 2026-09-22, last `--write` 2026-09-29 (#139) | on demand, re-runnable |
+| Import (source data → entry data) | `import.ts` | working; complete as of 2026-09-22, last `--write` 2026-10-25 (#196) | on demand, re-runnable |
 | Compile (entry data → compiled data) | `admin/compile/` | designed, **not built — next**; its own module beside this one, not a stage of it (ruling `10-04 compile home`) | every deploy |
 
 Every ruling behind the module, with what it drops, is indexed in
@@ -179,10 +179,10 @@ v2 (HW-schema). It is the run that carried every code change since
 entries) and NFC on write (164 strings in 150 files). A second dry run
 over the written tree reproduced the same nine tallies and the same
 generated docs, byte for byte. Gate 10 (`contract`) came with #141.
-The last `--write` was 2026-09-29 (#139), which changed only A01175
-and A01345; the current blessing doc
+The last `--write` was 2026-10-25 (#196), which changed A01161,
+A01194, U00991, U01686 and U01689; the current blessing doc
 ([`import-blessing.md`](../../docs/reports/import-blessing.md), last
-regenerated 2026-10-03 by #146) shows all ten gates green.
+regenerated 2026-10-25 by #196) shows all ten gates green.
 
 ## The Sefaria appendix (`sefaria.ts`)
 

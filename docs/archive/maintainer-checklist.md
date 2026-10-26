@@ -30,4 +30,4 @@ instead (a reviewed-kept record or the review ledger row). A ticked
 item leaves this file when a PR applies it; its history lives in the
 worklists ([`headword-worklist.md`](headword-worklist.md),
 [`sense-worklist.md`](sense-worklist.md)) and the tranche READMEs under
-[`admin/pipeline/patch/records/tranches/`](../admin/pipeline/patch/records/tranches/).
+[`admin/pipeline/patch/records/tranches/`](../../admin/pipeline/patch/records/tranches/).

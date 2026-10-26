@@ -12,10 +12,14 @@ pipeline under `admin/pipeline/` and the entry contract under
 yet** — `app/` is a placeholder.
 
 **The pipeline has been complete since 2026-09-22** (#116–#131).
-Since then #132–#147 (to 2026-10-04) made the import a standalone
+Since then #132–#196 (to 2026-10-25) made the import a standalone
 module, moved the entry contract out to `admin/entry/`, and closed the
-2026-10-02 review's pipeline gaps (`docs/review-ledger.md`).
-`compile.ts`, the admin tool and the app are the next efforts, and each
+2026-10-02 review's pipeline gaps; #148–#196 were correction cycles
+(headword, sense and cite patches, the Sefaria appendix's L71
+evidence, the display `or` rule). Open work is in
+`docs/review-checklist-2026-10-25.md`; the ledger it replaced is
+archived at `docs/archive/review-ledger.md`.
+`admin/compile/`, the admin tool and the app are the next efforts, and each
 is separate work — a change to one is not a change to the pipeline.
 Compile will be its own module, `admin/compile/`, importing only
 `admin/entry/`; `app/` imports nothing under `admin/` (ruling

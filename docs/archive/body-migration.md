@@ -151,7 +151,7 @@ citation number (the reinsert class). That population mixes two causes
 with different fixes: 36 chop phantoms (rejoined — their `2)` was never
 a sense, so nothing is implied) and the genuine print convention (the 4
 implied-one inserts above). Register #16 in
-[upstream-issues.md](upstream-issues.md) is corrected accordingly; the
+[upstream-issues.md](../upstream-issues.md) is corrected accordingly; the
 chop class is now its own register row. After repairs, 8 lists still
 start at 2: the 7 reinsert rows (their restored `1)` is in-text; the
 upstream sense boundary remains swallowed) and deferred D00470.

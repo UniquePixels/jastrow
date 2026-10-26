@@ -3,8 +3,8 @@
 Retired research documents and one-time investigation artifacts,
 moved here by the 2026-09 pipeline consolidation, step 6
 (2026-09-16). Nothing here is part of the live pipeline
-(`admin/pipeline/README.md`) or gated by CI — kept for institutional
-record only.
+(`admin/pipeline/README.md`) or gated by CI beyond its links
+(`bun docs:links`) — kept for institutional record only.
 
 The code counterpart lives at `refs/tags/archive/v2-research-2026-09`:
 ~36 source files and 27 tests (the `admin/pipeline/research/` tree,
@@ -40,6 +40,20 @@ document set was cut to six and everything else moved here.
 `sefaria-report.md` and `upstream-issues.md` stayed live and are in
 `docs/`.
 
+## The 2026-10 correction cycle (2026-10-26)
+
+The cycle's working documents moved here when it closed:
+`correction-audit.md`, `headword-worklist.md`, `sense-worklist.md`,
+`maintainer-checklist.md`, `post-go-live-review.md` and
+`review-ledger.md`. The open work they still carried is in
+[`../review-checklist-2026-10-25.md`](../review-checklist-2026-10-25.md),
+which replaces `review-ledger.md`. `docs/decisions.md` stayed live.
+Their relative links were rebased on the way in, and the links that
+named them elsewhere now point here. Patch rationales in
+`admin/pipeline/patch/records/` still name the old `docs/` paths and
+are left as historical strings; the Sefaria appendix's evidence regex
+accepts either path.
+
 ## Why the links in `decisions-2026-09-22.md` are dead, and stay dead
 
 **Do not repair relative links in
@@ -56,21 +70,13 @@ whole-directory exemption this check used to carry was too broad: it
 is exactly why 43 links across 14 of those other documents, broken by
 the 2026-09-23 module-boundary move, went unnoticed instead of failing
 a check. So the exemption now names the one file whose dead links are
-deliberate, not the directory:
+deliberate, not the directory.
 
-```sh
-# Every tracked markdown file except decisions-2026-09-22.md, which is
-# exempt BY DESIGN — see the section above.
-git ls-files '*.md' | grep -v '^docs/archive/decisions-2026-09-22\.md$' | while read -r f; do
-  grep -oE '\]\([^)#][^)]*\)' "$f" | tr -d '()]' | while read -r l; do
-    case "$l" in http*|mailto:*) continue;; esac
-    t=${l%%#*}                       # strip the fragment
-    [ -n "$t" ] || continue
-    d=$(dirname "$f")
-    [ -e "$d/$t" ] || echo "DEAD in $f: $l"
-  done
-done
-```
+The check is `bun docs:links` ([`scripts/check-links.ts`](../../scripts/check-links.ts)),
+run by `bun qa` and by CI's Links job. It walks every tracked markdown
+file except `decisions-2026-09-22.md`, which is exempt BY DESIGN (see
+the section above), and skips links inside code spans and fenced
+blocks, which are not links.
 
 Three things about it are load-bearing, and an earlier hand-written
 version of this check got each of them wrong:

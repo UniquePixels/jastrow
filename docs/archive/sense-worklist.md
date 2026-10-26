@@ -62,7 +62,7 @@ every label after each doubled one with 24 annotated `retag`s
 `4 5 6`), rewrites S01849's cross-reference `עָבַר Pi. 4)` to `Pi. 5)`
 (P000580), and annotates U01512's `a) … 2)` as `kept` (P000581). Each
 block below says what it did
-([tranche README](../admin/pipeline/patch/records/tranches/class3-renumber-2026-10-15/README.md)).
+([tranche README](../../admin/pipeline/patch/records/tranches/class3-renumber-2026-10-15/README.md)).
 
 How I chose each recommendation, so the rows read the same way:
 

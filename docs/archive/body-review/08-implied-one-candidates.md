@@ -18,7 +18,7 @@ land in the `REJECTED` disposition with that reason.
 Decision cells are **folded into the research sweep** (research
 process spec §8 — the default) rather than finished manually.
 Implied-one is a cataloged defect class in the sweep prompt
-([sweep-v1.md](../../../admin/pipeline/research/prompts/sweep-v1.md));
+(sweep-v1.md);
 sweep agents decide the blank rows under that class. The 53 decided
 rows carry into the prompt as binding pre-decided inputs the sweep
 must not contradict. This doc was carried onto the research branch

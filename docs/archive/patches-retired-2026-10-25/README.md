@@ -4,7 +4,7 @@
 `admin/pipeline/patch/records/reviewed/patches.jsonl` in PR #193
 (checklist batch 2, review ledger L71, L77, L79), each withdrawn on the
 maintainer's scan read of 2026-10-25
-([`docs/headword-worklist.md`](../../headword-worklist.md) § Applied
+([`docs/archive/headword-worklist.md`](../headword-worklist.md) § Applied
 from the maintainer checklist (2026-10-25)). Every line is the original
 line's bytes, moved. The tranche README
 [`checklist-batch-2-2026-10-25`](../../../admin/pipeline/patch/records/tranches/checklist-batch-2-2026-10-25/README.md)

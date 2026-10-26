@@ -279,7 +279,7 @@ standing; that is the honest cost of the ruling, not an oversight.
 708 numeral-article anchors, doing four different jobs. Per the
 maintainer ruling of 2026-08-23 every one is registered with a query, a
 count and rids in
-[`geresh-abbrev-arms.md`](../../data/patches/catalogue-audit/geresh-abbrev-arms.md)
+[`geresh-abbrev-arms.md`](catalogue-audit/geresh-abbrev-arms.md)
 rather than dropped: variant readings (152/123, a real defect no row
 owns), `ר׳` = Rabbi in a non-resh host (20/19), the numeral articles'
 own cross-links (18/18, **not a defect** — convention), the swallowed

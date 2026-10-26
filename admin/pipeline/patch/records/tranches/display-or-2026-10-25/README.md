@@ -8,7 +8,7 @@ the patch rationale is the only trace. It applies the five
 two-spelling reforms that
 [`checklist-batch-2-2026-10-25`](../checklist-batch-2-2026-10-25/README.md)
 § E held, except A01161. The applied block is in
-[`docs/headword-worklist.md`](../../../../../../docs/headword-worklist.md)
+[`docs/archive/headword-worklist.md`](../../../../../../docs/archive/headword-worklist.md)
 § Applied from the maintainer checklist (2026-10-25).
 
 ## The ruling and the gate

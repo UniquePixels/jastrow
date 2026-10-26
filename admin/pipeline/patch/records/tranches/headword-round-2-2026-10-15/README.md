@@ -1,8 +1,8 @@
 # Headword round 2 under ruling 10-13 (2026-10-15)
 
-Data PR (iv) of [`docs/correction-audit.md`](../../../../../../docs/correction-audit.md)
+Data PR (iv) of [`docs/archive/correction-audit.md`](../../../../../../docs/archive/correction-audit.md)
 §7, PR #177. It applies the maintainer's ticks on the 16 blocks of
-[`docs/headword-worklist.md`](../../../../../../docs/headword-worklist.md)
+[`docs/archive/headword-worklist.md`](../../../../../../docs/archive/headword-worklist.md)
 § Round 2 (ticked 2026-10-13, committed in PR #174), review ledger
 L46.
 
