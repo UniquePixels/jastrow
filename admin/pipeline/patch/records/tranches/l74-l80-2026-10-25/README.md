@@ -2,8 +2,8 @@
 
 PR #196, review ledger L74, L80, L82 and L83, under ruling `10-13
 correction policy` ([`docs/decisions.md`](../../../../../../docs/decisions.md)).
-Four reads of the scan the maintainer made on 2026-10-25: U01686 takes
-the I Jastrow's own text names (case 2, annotated), the two cites that
+The maintainer's four scan reads of 2026-10-25. U01686 gets the
+homograph I that Jastrow's own text gives it (case 2, annotated); the two cites that
 name it are re-aimed at it (case 1), and A01194 gets back the three
 Hebrew phrases Sefaria lost inside `(b. h. …)` (case 1). The last two
 checklist blocks, answered on `docs/checklist-batch-3` (`efc91fc8e`,
@@ -140,6 +140,12 @@ now `{display, forms}`:
 |---|---|---|
 | before | `אֵידֵין`, `אֵידְנָא`, `אַיְידָא`, `אֵידָא`, `(אַיְידִי)` | `{0}, {1}, {2}, {3}, ({4})` |
 | after | `אֵידֵין`, `אֵידָא`, `אַיְידָא`, `(אַיְידִי)`, `אֵידְנָא` | `{0}, {1} {2} ({3}) {4}` |
+
+A `reform`'s `forms` are the headword line's items as the source sets
+them, so `(אַיְידִי)` keeps its parentheses there; the parser moves them
+into `display` and stores the form as `אַיְידִי` (rule 4), as it did
+before and as A02823's P000308 does with `(אַפְרִיקָא)`. The entry file
+has `{3}` = `אַיְידִי` and displays `(אַיְידִי)` once.
 
 The separators follow his line: a comma after the first form (print's
 `m.,`), a space between the others (`XXXX XXXXX (XXXXX) XXXXX`). The
