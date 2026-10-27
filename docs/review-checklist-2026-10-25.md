@@ -286,7 +286,7 @@ survivors, 65 (51 hOCR-only, 9 maintainer read, 5 conventions).
       words, linked to B01160 and G00102 (`maintainer-read` 192b · leaf 215;
       hOCR line `…ch,, a. MNI2; cmp. Ot Pi. 2) to` for the Latin). Found
       by the maintainer's scan read during the C1 re-reads, 2026-10-27;
-      PR #NNN.
+      PR #201.
 - [ ] Resolve the doc-01 contradiction: its header says the
       numbering-gap rows were "hand-verified against print", the L71
       provenance says none of the 67 named a print read.

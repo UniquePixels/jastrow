@@ -90,7 +90,7 @@ by its patch id, or by its class when the row was first seen on or
 before the batch's date (a class sent once does not cover rows found
 later). A row with an empty `submitted_batch` is new since the last
 submission. The log is empty: nothing has been sent yet. **483 rows are
-ready to send** (generator, 2026-10-27, PR #NNN).
+ready to send** (generator, 2026-10-27, PR #201).
 
 **Each class below says what it is** for the submission:
 
@@ -220,7 +220,7 @@ that restore lost words, not a marker: A01194's `(b. h. …)`, whose
 three Hebrew phrases are restored from the maintainer's scan read of
 2026-10-25, PR #196, L80, and B01237's sense *4, whose
 `a. בָּרָאָה; cmp. זָהַם` before `Pi. 2)` is restored from the
-maintainer's scan read of 2026-10-27, PR #NNN). Of the others, 3 are
+maintainer's scan read of 2026-10-27, PR #201). Of the others, 3 are
 held back as not traceable, D00341's bracket as our deviation, and
 H00871's two Exodus links are withdrawn (its `Ib.` cite the Mekhilta,
 L79). **Count:** 81 appendix rows; 4

@@ -1,6 +1,6 @@
 # B01237: the words Sefaria lost in sense *4 (2026-10-27)
 
-PR #NNN, under ruling `10-13 correction policy`
+PR #201, under ruling `10-13 correction policy`
 ([`docs/decisions.md`](../../../../../../docs/decisions.md)), case 1:
 print is right, Sefaria's text lost words, no annotation. Found by
 the maintainer reading the scan of B01237 `ברי, בְּרָא` (192b · leaf
