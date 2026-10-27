@@ -1652,6 +1652,52 @@ only family member numbered I is G00361 "זִימָּה, זִמָּה I".
 
 Read (Brian, 2026-10-27): confirmed by tick, no free-text read.
 
+## Head-line reads for the two C1 reforms (added 2026-10-27, before PR #200 merges)
+
+P000940 and P000941 say print sets **no** `I` on the first form of these
+two entries (`printed: ''`), on the strength of the cross-references
+alone. Neither head line had been read on the scan; the maintainer
+read both on 2026-10-27, one tick each.
+
+#### A02412 · P000940
+
+- **Entry**: A02412, vol. 1, 91b, leaf 114. Stored before the patch:
+  `אִסְטְרַטְיָא, אִיסְ׳ I` (the I after the abbreviation only).
+  After the patch: `אִסְטְרַטְיָא I, אִיסְ׳ I`.
+- **Scan crop**: https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$115/full/1400,/0/default.jpg
+- **hOCR line** (vol. 1 leaf 114, lines 48–49; Latin-only, the Hebrew is
+  garbled):
+  ```text
+  NRTTOON, “ON ד‎ + (expareia, im the sense of
+  atprzéetoy) camp, encampment, — =
+  ```
+  No `I` is read anywhere on the head line.
+- **Question**: where does print set the numeral on this head line?
+
+- [x] no I beside the first form, only after `אִיסְ׳` (the patch is right as written)
+- [ ] print sets `I` beside the first form too (the annotation should be `kept`/dropped, not `print-error`)
+- [ ] print sets no `I` on this line at all
+
+Read (Brian, 2026-10-27): confirmed by tick, no free-text read.
+
+#### B00049 · P000941
+
+- **Entry**: B00049, vol. 1, 136a, leaf 159. Stored before the patch:
+  `בָּב, בָּאב, בָּבָא I`. After the patch: `בָּב I, בָּאב, בָּבָא I`.
+- **Scan crop**: https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$160/full/1400,/0/default.jpg
+- **hOCR line** (vol. 1 leaf 159, line 100; Latin-only):
+  ```text
+  בא באב בב‎ m. (reduplic. of ,בא‎ v. בוא‎ ; emp.
+  ```
+  No `I` is read on the head line (the next entry, `בָּב II`, reads `II` on line 113).
+- **Question**: where does print set the numeral on this head line?
+
+- [x] no I beside the first form, only after `בָּבָא` (the patch is right as written)
+- [ ] print sets `I` beside the first form too (the annotation should be `kept`/dropped, not `print-error`)
+- [ ] print sets no `I` on this line at all
+
+Read (Brian, 2026-10-27): confirmed by tick, no free-text read.
+
 ## Summary
 
 | | count |
@@ -1757,8 +1803,11 @@ Each carries a `print-error` annotation on form 0 (`printed: ''`,
 `removes` (gate 12 agrees: nothing visible is removed), and one
 `repaired` record in `../../reviewed/manifest.jsonl`. The `leaf` is the
 patched entry's own (gate 11 holds a locator to the patch's rid), not
-the citing entry's; no print read of either headword line is recorded,
-so the evidence is the cites. The names change: A02412 `אִסְטְרַטְיָא` →
+the citing entry's. The maintainer read both head lines on the scan
+on 2026-10-27 (§ Head-line reads for the two C1 reforms): print sets
+`I` only after `אִיסְ׳` (91b · leaf 114) and only after `בָּבָא` (136a ·
+leaf 159), none beside the first form, so `printed: ''` rests on that
+read as well as on the cites. The names change: A02412 `אִסְטְרַטְיָא` →
 `אִסְטְרַטְיָא I` (A02413 is `אִסְטְרַטְיָא II`), B00049 `בָּב` → `בָּב I`
 (B00050 is `בָּב II`; B00051 `בָּבָא I` is a different word); no name
 collides (`bun data:validate`, 0 problems).
