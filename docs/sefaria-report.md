@@ -215,12 +215,13 @@ stored twice), `continuation-marker-fully-absent` (5) and
 reinsertions and review doc 02's bare-citation wraps, whose hOCR line
 PR #192 quoted, review ledger L71, and the two the hOCR read against,
 rewritten from the maintainer's scan read of 2026-10-25, PR #193: the
-example below, review ledger L75, and Q02162's verse, L76; and A01194's
-`(b. h. …)`, whose three Hebrew phrases Sefaria lost are restored from
-the maintainer's scan read of 2026-10-25, PR #196, L80; and B01237's
-sense *4, whose `a. בָּרָאָה; cmp. זָהַם` before `Pi. 2)` Sefaria lost,
-restored from the maintainer's scan read of 2026-10-27, PR #NNN). Of the others,
-3 are held back as not traceable, D00341's bracket as our deviation, and
+example below, review ledger L75, and Q02162's verse, L76; and two
+that restore lost words, not a marker: A01194's `(b. h. …)`, whose
+three Hebrew phrases are restored from the maintainer's scan read of
+2026-10-25, PR #196, L80, and B01237's sense *4, whose
+`a. בָּרָאָה; cmp. זָהַם` before `Pi. 2)` is restored from the
+maintainer's scan read of 2026-10-27, PR #NNN). Of the others, 3 are
+held back as not traceable, D00341's bracket as our deviation, and
 H00871's two Exodus links are withdrawn (its `Ib.` cite the Mekhilta,
 L79). **Count:** 81 appendix rows; 4
 `reviewed-replace` in the review list (generator, 2026-10-25).
