@@ -89,8 +89,8 @@ comes). The generator marks every row a batch names with that batch:
 by its patch id, or by its class when the row was first seen on or
 before the batch's date (a class sent once does not cover rows found
 later). A row with an empty `submitted_batch` is new since the last
-submission. The log is empty: nothing has been sent yet. **482 rows are
-ready to send** (generator, 2026-10-25, PR #196).
+submission. The log is empty: nothing has been sent yet. **483 rows are
+ready to send** (generator, 2026-10-27, PR #NNN).
 
 **Each class below says what it is** for the submission:
 
@@ -211,16 +211,18 @@ a verse number).
 `first-sense-debris-stranding-language-label` (14: print's first sense
 stored twice), `continuation-marker-fully-absent` (5) and
 `missing-number` (5), each read on the scan (sense worklist, maintainer
-2026-10-10/11), and `reviewed-replace` (15 rows: review doc 01's
+2026-10-10/11), and `reviewed-replace` (16 rows: review doc 01's
 reinsertions and review doc 02's bare-citation wraps, whose hOCR line
 PR #192 quoted, review ledger L71, and the two the hOCR read against,
 rewritten from the maintainer's scan read of 2026-10-25, PR #193: the
 example below, review ledger L75, and Q02162's verse, L76; and A01194's
 `(b. h. …)`, whose three Hebrew phrases Sefaria lost are restored from
-the maintainer's scan read of 2026-10-25, PR #196, L80). Of the others,
+the maintainer's scan read of 2026-10-25, PR #196, L80; and B01237's
+sense *4, whose `a. בָּרָאָה; cmp. זָהַם` before `Pi. 2)` Sefaria lost,
+restored from the maintainer's scan read of 2026-10-27, PR #NNN). Of the others,
 3 are held back as not traceable, D00341's bracket as our deviation, and
 H00871's two Exodus links are withdrawn (its `Ib.` cite the Mekhilta,
-L79). **Count:** 80 appendix rows; 4
+L79). **Count:** 81 appendix rows; 4
 `reviewed-replace` in the review list (generator, 2026-10-25).
 
 Entries whose numbered senses skip values (`1), 3), 4)`) or start

@@ -280,6 +280,13 @@ survivors, 65 (51 hOCR-only, 9 maintainer read, 5 conventions).
       print sets `—4)` as its own sense. Needs a `split` companion
       patch with evidence. Found by the local CodeRabbit pass on
       2026-10-26; not a group 2 change.
+- [x] **B01237** (data PR, 10-13 case 1): sense *4 lost `a. בָּרָאָה; cmp. זָהַם`
+      between `ch.,` and `Pi. 2)` in Sefaria's text, so `Pi. 2)` read as
+      `בַּר I ch.`'s; in print it is זָהַם's (G00102). P000939 restores the
+      words, linked to B01160 and G00102 (`maintainer-read` 192b · leaf 215;
+      hOCR line `…ch,, a. MNI2; cmp. Ot Pi. 2) to` for the Latin). Found
+      by the maintainer's scan read during the C1 re-reads, 2026-10-27;
+      PR #NNN.
 - [ ] Resolve the doc-01 contradiction: its header says the
       numbering-gap rows were "hand-verified against print", the L71
       provenance says none of the 67 named a print read.
