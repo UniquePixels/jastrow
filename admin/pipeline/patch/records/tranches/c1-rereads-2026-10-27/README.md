@@ -3,8 +3,11 @@
 Group 3, batch 1 of 12, of
 [`docs/review-checklist-2026-10-25.md`](../../../../../../docs/review-checklist-2026-10-25.md):
 the 31 pending cite retargets whose family starts with א–ז, one
-maintainer block each. **No patch record, entry or checklist change.**
-This directory holds only this README; a later PR applies the reads.
+maintainer block each, with the maintainer's reads of 2026-10-27 and
+their application (§ Applied). This directory holds only this README;
+the records changed are in
+[`../../reviewed/patches.jsonl`](../../reviewed/patches.jsonl) and
+[`../../reviewed/manifest.jsonl`](../../reviewed/manifest.jsonl).
 
 ## Why these 31
 
@@ -1691,30 +1694,109 @@ scan's.
 | דִּיסְתָּנָא | D01149, H01243, H01325, T00665 | P000621, P000626, P000627, P000741 | 349, 504, 508, 798 | y, y, y, y (reads numeral) |
 | זִימָּה | U00736 | P000754 | 875 | y (reads numeral) |
 
-## After the reads
+## Applied (2026-10-27)
 
-A follow-up PR sets each record's `evidence` from its tick, removes
-`pending`, and changes nothing else in the record:
+The maintainer's reads of 2026-10-27, applied in PR #200. Every one of
+the 31 blocks got a scan read (the maintainer, 2026-10-27). Four `Read:`
+lines in the בָּב family say only "as above", which by DESIGN §5 "Patch
+process" approves nothing on its own; the confirms of those four rest
+on the maintainer's statement that each block was read, recorded here.
 
-- **confirm** → `evidence.kind` `maintainer-read`, with `reader`,
-  `date`, `volume` and `leaf` (the leaf the block names), e.g.
-  `{"date": "2026-10-28", "kind": "maintainer-read", "leaf": 57,
-  "reader": "Brian", "volume": 1}`. Where the hOCR line
-  above reads the numeral, it may be quoted in the rationale as well;
-  the `kind` stays the read.
-- **withdraw** → the record leaves `reviewed/patches.jsonl` for
-  `docs/archive/patches-retired-<date>/`, and the cite's link goes
-  back to Sefaria's target.
-- A block with both boxes ticked, or a `Read:` line that disagrees with
-  the hOCR line, goes back for a second read. Its record is left as it
-  is, `sefaria-only` and `pending`, so the import keeps applying it as
-  it does today; only its evidence update waits. A retarget the read
-  puts in dispute is set `status: provisional` in that PR, which holds
-  it out of the apply (DESIGN §5 "Patch process").
+**A. 29 confirmed.** Each record's `evidence` becomes
+`{"date": "2026-10-27", "kind": "maintainer-read", "leaf": L, "reader":
+"Brian", "volume": V}`, with the leaf of the block's hOCR line (A00895,
+which has none, takes the entry's leaf 57; O01224's cite is on leaf
+330, the entry's second page); `pending` is removed and nothing else
+in the record changes. The 22 ticked in the working copy: D00003
+P000616, D00003 P000617, P00118 P000682, A00895 P000597, B00211
+P000602, B00981 P000608, O01224 P000675, B00224 P000603, B00564
+P000607, P00150 P000683, V00196 P000782, H00519 P000624, D00353
+P000618, D00361 P000619, D00844 P000620, U01409 P000765, U01539
+P000767, D01149 P000621, H01243 P000626, H01325 P000627, T00665
+P000741, U00736 P000754. The 6 of families אִסְטְרַטְיָא and בָּב, whose
+boxes the working copy left blank: A02560 P000598, O01590 P000678,
+B00051 P000600, B00058 P000601, M02321 P000640, S01439 P000727. And
+C00269 P000612: the maintainer first read the `href` as needing the I
+that P000321's reform gives C00609; links resolve by `sefariaHeadword`
+(ruling `10-09 link key`), C00609's key is `גִּיב`, and the patch is
+right as written.
 
-The from-scratch import (`rm -rf data/entries/[A-Z] && bun data:import
-&& bun qa:format`) is the witness: a confirm changes no entry file, and
-each withdraw changes one cite `ref` in its entry.
+**B. 2 re-aimed at B01153, not withdrawn.** B01237 P000610 (sense —3,
+`(v. בַּר I, בָּרָא)`) and N00106 P000648 (`(cmp. בַּר I; corresp. to h.
+סִיב)`). The maintainer's read: the line is Aramaic, so the cite names
+the `ch.` line B01153 `בַּר, בָּר, בָּרָא`, not Hebrew B01152 `בַּר I`.
+Each `payload.replace` now aims at B01153 by its link key, as P000795
+does (`href="/Jastrow,_בַּר.1" data-ref="Jastrow, בַּר 1"`); `find`,
+`expected_before` and `target` are unchanged; the `rationale` carries a
+2026-10-27 amendment; `evidence` is the maintainer's read (192b · leaf
+215, 870b · leaf 193). This goes beyond 10-15's letter: neither cite
+carries `ch.`, and the target rests on the maintainer's read of the
+line's language.
+
+**B01153 takes no homograph.** The maintainer asked (N00106's note)
+whether the cites are evidence enough to give B01153 an I. The answer
+is no: by 10-15 a `ch.` line carries no numeral, and `בַּר I` would
+collide with B01152 `בַּר I` in the names gate (`nameCollisions`,
+`admin/entry/validate.ts`).
+
+**C. 2 new reform patches, implied I by Jastrow's cross-references**
+(10-13 case 2, the shape of PR #174's implied Is, as P000863). The cites
+of families אִסְטְרַטְיָא and בָּב are Jastrow's own text naming the bare
+form as I; by ruling 10-05 a numeral numbers a consonant sequence, so
+the `I` print sets after `אִיסְ׳` / `בָּבָא` numbers that form, not the
+first.
+
+| id | rid | payload | display | cites (`annotation.evidence`) | `evidence` |
+|---|---|---|---|---|---|
+| P000940 | A02412 `אִסְטְרַטְיָא, אִיסְ׳ I` | `homographs: [{form: 0, homograph: 1}]`, forms unchanged | `{0}, {1} I` → `{0} I, {1} I` | A02560, O01590 | `jastrow-text`, quote `= אִסְטְרַטְיָא I, camp, station`, vol. 1 leaf 114 |
+| P000941 | B00049 `בָּב, בָּאב, בָּבָא I` | `homographs: [{form: 0, homograph: 1}]`, forms unchanged | `{0}, {1}, {2} I` → `{0} I, {1}, {2} I` | B00051, B00058, M02321, S01439 | `jastrow-text`, quote `v. בָּב I a. בָּבִיתָא`, vol. 1 leaf 159 |
+
+Each carries a `print-error` annotation on form 0 (`printed: ''`,
+`stored: 'I'`, dated 2026-10-27), `defect_class`
+`headword-implied-one`, `prompt_version` `c1-rereads-2026-10-27`, no
+`removes` (gate 12 agrees: nothing visible is removed), and one
+`repaired` record in `../../reviewed/manifest.jsonl`. The `leaf` is the
+patched entry's own (gate 11 holds a locator to the patch's rid), not
+the citing entry's; no print read of either headword line is recorded,
+so the evidence is the cites. The names change: A02412 `אִסְטְרַטְיָא` →
+`אִסְטְרַטְיָא I` (A02413 is `אִסְטְרַטְיָא II`), B00049 `בָּב` → `בָּב I`
+(B00050 is `בָּב II`; B00051 `בָּבָא I` is a different word); no name
+collides (`bun data:validate`, 0 problems).
+
+With the families numbered I/II, X8 no longer fires on A02413 and
+B00050, so their two reviewed-kept records (`X8 homograph numbering
+gap`, "the family's missing numeral is stored where the source attaches
+it") went stale and are removed from
+`admin/pipeline/report/records/reviewed-kept.jsonl`, as PR #193 removed
+A02824's (92 → 90 records, 0 stale).
+
+**The witness.** `rm -rf data/entries/[A-Z] && bun data:import && bun
+qa:format` changes exactly four entry files: B01237 and N00106 (one
+cite `ref` each, B01152 → B01153), A02412 and B00049 (`homograph: 1`
+and its annotation on form 0, and the `display`). The 29 confirms
+change no entry. `bun data:validate`: 32,512 files, 0 problems.
+
+**The import blessing**, against a dry run of `v2` at `08936112f`:
+`patches.pending` 247 → 216 (measured); reviewed patches 771 → 773,
+applied 815 → 817; annotations 118 → 120 (print-error 103 → 105);
+gate 11 `evidenceLocator` 400 → 433 marks, gate 12 `declaredLoss` 771
+→ 773, gate 13 `citeNumeral` 8,938, all green; `internalTargets`
+32,512 / 32,512 unchanged; loss unchanged (reviewed 115 patches / 468
+codepoints, agent 11 / 565). The Sefaria appendix stays at 483 rows;
+B01237's and N00106's rows take the new target and `scan leaf`
+evidence, and the two reforms join the review list (288 → 290,
+`convention or our structure`).
+
+The batch, reproduced:
+
+```bash
+P=admin/pipeline/patch/records/reviewed/patches.jsonl
+IDS='["P000597","P000598","P000600","P000601","P000602","P000603","P000607","P000608","P000610","P000612","P000616","P000617","P000618","P000619","P000620","P000621","P000624","P000626","P000627","P000640","P000648","P000675","P000678","P000682","P000683","P000727","P000741","P000754","P000765","P000767","P000782"]'
+jq -c --argjson ids "$IDS" 'select((.id as $i | $ids | index($i)) or .prompt_version == "c1-rereads-2026-10-27") | {id, rid, op, evidence}' $P
+```
+
+33 records: the 31, each `maintainer-read` 2026-10-27 with no
+`pending`, and P000940, P000941.
 
 ## For the maintainer
 
@@ -1726,3 +1808,6 @@ of the word's family. Recommendation: a scan read for all 31, since no
 one has read the cite word in print for any of them. Default if
 unanswered: all 31 are read against the scan, as the blocks are set
 up.
+
+**Answered (2026-10-27):** all 31 were read against the scan (the
+maintainer, 2026-10-27); § Applied.
