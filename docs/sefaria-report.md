@@ -508,7 +508,12 @@ withdrawn: its `שֵׁירוּתָא II` names U01070, as Sefaria links it, and 
 unlinked `III` is now linked to U01071 (review ledger L77). The two
 cites that name `שַׁעַר I`, market price (U01689, U00991), are re-aimed
 from the verb U01679 `שָׁעַר I` at the noun U01686 on the maintainer's
-read of 2026-10-25 (PR #196, review ledger L74).
+read of 2026-10-25 (PR #196, review ledger L74). The two cites that
+read `בַּר I` in an Aramaic line (B01237's sense —3, N00106) are
+re-aimed from the Hebrew B01152 `בַּר I` at the `ch.` line B01153 on
+the maintainer's scan read of 2026-10-27 (PR #200): neither cite
+carries `ch.`, so the target rests on the line's language, and the
+row's evidence is the scan.
 **Count:** 275 appendix rows; 9 more in the review list, all not
 traceable to Sefaria's string (generator, 2026-10-25).
 

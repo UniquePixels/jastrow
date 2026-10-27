@@ -4,7 +4,19 @@
 	"sefariaHeadword": "אִסְטְרַטְיָא",
 	"headwords": [
 		{
-			"text": "אִסְטְרַטְיָא"
+			"text": "אִסְטְרַטְיָא",
+			"homograph": 1,
+			"annotations": [
+				{
+					"field": "homograph",
+					"kind": "print-error",
+					"printed": "",
+					"stored": "I",
+					"evidence": "Jastrow's text names `אִסְטְרַטְיָא I`: A02560 `= אִסְטְרַטְיָא I, camp, station`; O01590 `(= אִסְטְרַטְיָא I) camp, station` (maintainer scan read of each cite, 2026-10-27, C1 re-read). The line, as Sefaria transcribes it, sets its only `I` after `אִיסְ׳`, which by ruling 10-05 numbers that form's consonant sequence, not `אִסְטְרַטְיָא`'s. Head line read by the maintainer on the scan, 2026-10-27 (91b · leaf 114): print sets I only after `אִיסְ׳`, none beside the first form",
+					"source": "P000940",
+					"date": "2026-10-27"
+				}
+			]
 		},
 		{
 			"text": "אִיסְ׳",
@@ -12,7 +24,7 @@
 			"partial": true
 		}
 	],
-	"display": "{0}, {1} I",
+	"display": "{0} I, {1} I",
 	"page": {
 		"number": 91,
 		"column": "b"
