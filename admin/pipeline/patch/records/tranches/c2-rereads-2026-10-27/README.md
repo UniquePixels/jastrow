@@ -910,9 +910,9 @@ Read: ________________________________ (what print shows, incl. `ch.` if present
   The entry is a one-line cross-reference in 615b. Lines 41–45 are five
   short lines after K00169 (which ends on line 40), where print sets
   K00170 to K00174, five cross-references with little Latin beyond `v.`;
-  their Hebrew is garbled and none reads a numeral. By order line 42
-  would be K00171's, but nothing on it ties it to this cite, so the hOCR
-  witnesses nothing here.
+  their Hebrew is garbled and none reads a Roman numeral. By order line
+  42 would be K00171's, but nothing on it ties it to this cite, so the
+  hOCR witnesses nothing here.
 - **The cite as Sefaria has it**: `, v. כָּהֵן I`
   Sefaria links K00166 `כָּהֵן` (no numeral on any form).
 - **The patch's target**: K00165 `כָּהֵן, כָּהֵין, כַּהֲנָא I` (numeral
@@ -1074,6 +1074,9 @@ Read: ________________________________ (what print shows, incl. `ch.` if present
   2, `כִּי׳`).
   **The numeral sits on a later form**: form 2, `כִּי׳`, not the cite's
   `כִּנָּרָא` (form 1); see "Numeral on a later form" above.
+  The proposal's two anchors look alike but differ in the nun's vowel:
+  `href` and `data-ref` move from K00877's link key `כִּנְּרָא` (sheva)
+  to K00876's `כִּנָּרָא` (qamats) (ruling `10-09 link key`).
 - **Removes**: none (the visible text is unchanged; only the link target
   moves).
 
