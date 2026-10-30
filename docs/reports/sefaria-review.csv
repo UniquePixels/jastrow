@@ -194,8 +194,6 @@ patch_id,rid,class,op,reason,detail
 "P000924","K00444","cross-reference-numeral-kept","annotate","convention or our structure","annotate: records a print read; changes nothing"
 "P000927","C00300","headword-name-collision","reform","convention or our structure","our URL disambiguator (HW-xref-collision)"
 "P000936","U01686","headword-implied-one","reform","convention or our structure","Jastrow’s convention: the implied homograph I (10-13 case 2)"
-"P000940","A02412","headword-implied-one","reform","convention or our structure","Jastrow’s convention: the implied homograph I (10-13 case 2)"
-"P000941","B00049","headword-implied-one","reform","convention or our structure","Jastrow’s convention: the implied homograph I (10-13 case 2)"
 "P000226","J00301","reviewed-join","join","not mechanical for op","join into its own head"
 "P000245","O01360","reviewed-join","join","not mechanical for op","join into its own head"
 "P000257","P01088","reviewed-join","join","not mechanical for op","join into its own head"

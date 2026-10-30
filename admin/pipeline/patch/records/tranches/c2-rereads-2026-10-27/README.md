@@ -2207,15 +2207,28 @@ entry's (the two rids the rationale names); the target carries the
 cite's numeral on a headword and the Sefaria-linked entry does not. 0
 problems.
 
-**The reform question is open.** 34 blocks have the target's numeral
-on a later form than the cite spells ("Numeral on a later form"): 22
-where an abbreviation `X׳` carries it, across 12 families, and 12
-where a distinct full form does, across 7 families; the other 5 blocks
-(G00734, H01653, M02691, R00805, V00547) need nothing. Whether any of
-the 19 families takes a reform giving the cited form the numeral (10-13
-case 2, as P000940 and P000941 in C1) is the maintainer's batch-rule
-question, unanswered when this was applied; its answer is a later
-commit on this PR. No reform patch is part of these 39.
+**The reform question is closed: no reforms.** 34 blocks have the
+target's numeral on a later form than the cite spells ("Numeral on a
+later form"): 22 where an abbreviation `X׳` carries it, across 12
+families, and 12 where a distinct full form does, across 7 families;
+the other 5 blocks (G00734, H01653, M02691, R00805, V00547) need
+nothing. The maintainer's answer (2026-10-30): "I have ONLY ever agreed
+to adding a I when it is COMPLETELY absent." That is ruling `10-30 one
+numeral per line` ([`docs/decisions.md`](../../../../../../docs/decisions.md)
+§10): a numeral print sets anywhere on a headword line, on an
+abbreviation or a variant form, is the line's numeral, and no patch
+adds one to another form of that line. None of the 19 families takes a
+reform; the 34 notes stand as observations only, and the 39 confirmed
+retargets are the whole batch.
+
+**C1's two reforms retired.** By the same ruling, C1's P000940
+(A02412) and P000941 (B00049), which gave the first form an I beside
+the later form's, were a mistake. Both records and their `repaired`
+manifest records move, bytes unchanged, to
+[`docs/archive/patches-retired-2026-10-30/`](../../../../../../docs/archive/patches-retired-2026-10-30/README.md);
+the two X8 reviewed-kept records they staled (A02413, B00050) are
+restored byte-exact from `08936112f`, and the import reports them
+current (92 records, 0 stale). The C1 README carries the amendment.
 
 **The witness.** `rm -rf data/entries/[A-Z] && bun data:import && bun
 qa:format` changes no entry file: a confirm changes only a record's
@@ -2231,6 +2244,18 @@ appendix (483 rows) and the review list (290) byte-identical: the
 appendix's evidence column is read from the rationale
 (`evidenceOf`, `admin/pipeline/report/sefaria-evidence.ts`), which a
 confirm does not change.
+
+**The retirement's witness.** The from-scratch import changes exactly
+`A/A02412.json` and `B/B00049.json`, each byte-identical to its
+version at `08936112f` (`git diff 08936112f -- data/entries/A/A02412.json
+data/entries/B/B00049.json` is empty); `bun data:validate`, 0 problems.
+Blessing: reviewed patches 773 → 771, applied 817 → 815, annotations
+120 → 118 (print-error 105 → 103), `headwordLine` 97,636 → 97,632,
+gate 11 472 → 470, gate 12 773 → 771, all green; `patches.pending`
+stays 177. Headword issues return to 2,919 rows and both headword-issue
+reports to their `08936112f` bytes. `bun data:sefaria`: the review
+list loses the two reforms' `convention or our structure` rows (290 →
+288); the appendix stays at 483.
 
 The batch, reproduced:
 

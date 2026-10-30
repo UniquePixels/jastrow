@@ -1654,6 +1654,11 @@ Read (Brian, 2026-10-27): confirmed by tick, no free-text read.
 
 ## Head-line reads for the two C1 reforms (added 2026-10-27, before PR #200 merges)
 
+**Amended 2026-10-30.** The two reforms these reads supported, P000940
+and P000941, are retired under ruling `10-30 one numeral per line`
+(PR #202; [`docs/archive/patches-retired-2026-10-30/`](../../../../../../docs/archive/patches-retired-2026-10-30/README.md)). The reads stand as
+records of print: each line's one I is after its later form.
+
 P000940 and P000941 say print sets **no** `I` on the first form of these
 two entries (`printed: ''`), on the strength of the cross-references
 alone. Neither head line had been read on the scan; the maintainer
@@ -1741,6 +1746,20 @@ scan's.
 | זִימָּה | U00736 | P000754 | 875 | y (reads numeral) |
 
 ## Applied (2026-10-27)
+
+**Amended 2026-10-30.** The two reform patches of C below, P000940
+(A02412) and P000941 (B00049), are retired under ruling `10-30 one
+numeral per line` ([`docs/decisions.md`](../../../../../../docs/decisions.md)
+§10): the maintainer has only ever agreed to adding an I where a
+headword line carries no numeral at all, and each of these lines
+already carries one, on its later form. Both records and their
+manifest records moved to
+[`docs/archive/patches-retired-2026-10-30/`](../../../../../../docs/archive/patches-retired-2026-10-30/README.md) (PR #202);
+A02412 and B00049 return byte-identical to their state before PR #200,
+and the two X8 reviewed-kept records C removed (A02413, B00050) are
+restored. A and B stand, including the six cites aimed at A02412 and
+B00049, which resolve by `sefariaHeadword`. What follows is the record
+as applied on 2026-10-27.
 
 The maintainer's reads of 2026-10-27, applied in PR #200. Every one of
 the 31 blocks got a scan read (the maintainer, 2026-10-27). Four `Read:`
