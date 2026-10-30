@@ -270,6 +270,9 @@ survivors, 65 (51 hOCR-only, 9 maintainer read, 5 conventions).
     (B01237, N00106), 2 reform patches giving A02412 and B00049
     homograph I by Jastrow's cross-references (10-13 case 2); 31
     records no longer `pending` (247 → 216).
+  - C2 done 2026-10-30 (PR #202): 39 confirmed, 0 withdrawn; 39
+    records no longer `pending` (216 → 177); reform question for 19
+    families open on the PR.
 - [ ] Re-read the 65 class-A survivors against a scan crop (the 51
       hOCR-only ones first). Batches H1–H3.
 - [ ] Re-read the 66 doc-08-seed patches. Batch D1.

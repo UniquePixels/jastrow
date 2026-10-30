@@ -3,10 +3,11 @@
 Group 3, batch 2 of 12, of
 [`docs/review-checklist-2026-10-25.md`](../../../../../../docs/review-checklist-2026-10-25.md):
 the 39 pending cite retargets whose family starts with ח–נ, one
-maintainer block each. **No patch record, entry or checklist change.**
-This directory holds only this README; a later commit applies the reads,
-as C1's did ([`c1-rereads-2026-10-27`](../c1-rereads-2026-10-27/README.md),
-PR #200).
+maintainer block each, with the maintainer's reads of 2026-10-30 and
+their application (§ Applied), as C1's were
+([`c1-rereads-2026-10-27`](../c1-rereads-2026-10-27/README.md), PR #200).
+This directory holds only this README; the records changed are in
+[`../../reviewed/patches.jsonl`](../../reviewed/patches.jsonl).
 
 ## Why these 39
 
@@ -27,7 +28,7 @@ the word's family that lacks the numeral, and the patch re-aims it at
 the one member that carries it. No print was read when they were
 written. The read turns each into `maintainer-read` (a scan read),
 `hOCR` (a Latin-only claim, quoted verbatim) or `jastrow-text`, or
-withdraws the patch, or re-aims it (see "After the reads").
+withdraws the patch, or re-aims it (§ Applied).
 
 ## The set
 
@@ -2181,41 +2182,62 @@ scan's.
 | נִסְכָּא | N00704 | P000652 | 229 | y |
 | נֵצֶר | R00805 | P000716 | 628 | y (reads numeral) |
 
-## After the reads
+## Applied (2026-10-30)
 
-A follow-up commit on this PR sets each record from its tick, removes
-`pending`, and changes nothing else in the record unless the read
-re-aims it:
+The maintainer's reads of 2026-10-30, applied in PR #202. All 39
+blocks are ticked `confirm` (C00041's tick, typed `co nfirm` in the
+working copy, counts as one); no `Read:` line was filled, so each
+reads "confirmed by tick, no free-text read", as C1's silent confirms
+did. The one note, under L00351 (P000636), is quoted on its `Read:`
+line and resolved there.
 
-- **confirm** → `evidence.kind` `maintainer-read`, with `reader`,
-  `date`, `volume` and `leaf` (the leaf of the block's hOCR line, or
-  the entry's leaf where there is none), e.g.
-  `{"date": "2026-10-28", "kind": "maintainer-read", "leaf": 638,
-  "reader": "Brian", "volume": 1}`. Where the hOCR line above reads
-  the numeral, it may be quoted in the rationale as well; the `kind`
-  stays the read.
-- **withdraw** → the record leaves `reviewed/patches.jsonl` for
-  `docs/archive/patches-retired-<date>/`, and the cite's link goes
-  back to Sefaria's target.
-- **re-aim** → where the read names a different target (in C1, a
-  withdraw tick whose `Read:` line named it: the maintainer read
-  B01237's and N00106's lines as Aramaic and re-aimed both at the
-  `ch.` line B01153), `payload.replace` aims at the read's
-  target by its link key; `find`, `expected_before` and `target` are
-  unchanged; the `rationale` carries a dated amendment paragraph; and
-  `evidence` is the maintainer's read, as for a confirm.
-- A block with both boxes ticked, or a `Read:` line that disagrees with
-  the hOCR line, goes back for a second read. Its record is left as it
-  is, `sefaria-only` and `pending`, so the import keeps applying it as
-  it does today; only its evidence update waits. A retarget the read
-  puts in dispute is set `status: provisional` in that commit, which
-  holds it out of the apply (DESIGN §5 "Patch process").
+**39 confirmed, 0 withdrawn, 0 re-aimed.** Each record's `evidence`
+becomes `{"date": "2026-10-30", "kind": "maintainer-read", "leaf": L,
+"reader": "Brian", "volume": V}`, with the leaf of the block's hOCR
+line (K00162 and K00171, which have none, take the entry's leaf 638);
+`pending` is removed and nothing else in the record changes.
 
-A read that says print sets the numeral only after a later form (see
-"Numeral on a later form") is a separate, new `reform` record under
-10-13 case 2, as P000940 and P000941 were in C1, with its own evidence;
-it does not change the retarget.
+**The proposals, checked by script (2026-10-30).** The maintainer did
+not check every proposal, and asked that they be made sure of. On all
+39: each is a `replace` whose `find` differs from its `replace` and
+sits in its `expected_before`; the visible text (tags stripped) is
+the same on both sides; each new `href` and `data-ref` is the target
+entry's `sefariaHeadword`, and each old one the Sefaria-linked
+entry's (the two rids the rationale names); the target carries the
+cite's numeral on a headword and the Sefaria-linked entry does not. 0
+problems.
 
-The from-scratch import (`rm -rf data/entries/[A-Z] && bun data:import
-&& bun qa:format`) is the witness: a confirm changes no entry file, and
-each withdraw or re-aim changes one cite `ref` in its entry.
+**The reform question is open.** 34 blocks have the target's numeral
+on a later form than the cite spells ("Numeral on a later form"): 22
+where an abbreviation `X׳` carries it, across 12 families, and 12
+where a distinct full form does, across 7 families; the other 5 blocks
+(G00734, H01653, M02691, R00805, V00547) need nothing. Whether any of
+the 19 families takes a reform giving the cited form the numeral (10-13
+case 2, as P000940 and P000941 in C1) is the maintainer's batch-rule
+question, unanswered when this was applied; its answer is a later
+commit on this PR. No reform patch is part of these 39.
+
+**The witness.** `rm -rf data/entries/[A-Z] && bun data:import && bun
+qa:format` changes no entry file: a confirm changes only a record's
+evidence. `bun data:validate`: 32,512 files, 0 problems.
+
+**The import blessing**, against a dry run of `v2` at `079ef2a2d`:
+`patches.pending` 216 → 177 (measured); gate 11 `evidenceLocator`
+433 → 472 marks (the 39 new locators), gate 12 `declaredLoss` 773
+and gate 13 `citeNumeral` 8,938 unchanged, all green; everything
+else unchanged (reviewed 773, applied 817, annotations 120, loss,
+headword issues 2,917 rows). `bun data:sefaria` regenerates the
+appendix (483 rows) and the review list (290) byte-identical: the
+appendix's evidence column is read from the rationale
+(`evidenceOf`, `admin/pipeline/report/sefaria-evidence.ts`), which a
+confirm does not change.
+
+The batch, reproduced:
+
+```bash
+P=admin/pipeline/patch/records/reviewed/patches.jsonl
+IDS='["P000611","P000622","P000623","P000625","P000628","P000629","P000630","P000631","P000632","P000633","P000634","P000635","P000636","P000637","P000638","P000639","P000643","P000644","P000645","P000646","P000649","P000652","P000654","P000655","P000656","P000657","P000665","P000705","P000706","P000716","P000719","P000726","P000732","P000735","P000742","P000766","P000773","P000783","P000790"]'
+jq -c --argjson ids "$IDS" 'select(.id as $i | $ids | index($i)) | {id, rid, evidence}' $P
+```
+
+39 records, each `maintainer-read` 2026-10-30 with no `pending`.
