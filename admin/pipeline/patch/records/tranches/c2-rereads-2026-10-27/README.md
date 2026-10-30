@@ -111,6 +111,11 @@ for the target's head line, whether print sets the numeral beside the
 cited form too; a reform is a separate record and not part of the
 confirm.
 
+**Answered 2026-10-30: no reform.** Ruling `10-30 one numeral per
+line` (§ Applied) closes this: a numeral print sets anywhere on a head
+line is the line's, so no reform gives the cited form one, and C1's
+P000940 and P000941 are retired, not examples to follow.
+
 **Conventions in the blocks.** A headword is the entry's `display`
 with its forms filled in; "numeral I on form 2" names the form that
 carries it, which is often not the cite's spelling (the audit's
