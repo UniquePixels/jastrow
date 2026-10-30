@@ -30,8 +30,9 @@ The from-scratch import changes exactly `A/A02412.json` and
 
 The six C1 cite retargets that aim at these two entries (P000598,
 P000678; P000600, P000601, P000640, P000727) stand: a link resolves by
-`sefariaHeadword` (ruling `10-09 link key`), which the reforms never
-changed. The two X8 reviewed-kept records the reforms had staled
+its link key, the headword line as the transforms leave it before any
+patch (ruling `10-09 link key`), which a reform's `homographs` never
+changes. The two X8 reviewed-kept records the reforms had staled
 (A02413, B00050: "the family's missing numeral is stored where the
 source attaches it") are restored to
 `admin/pipeline/report/records/reviewed-kept.jsonl`, byte-exact from

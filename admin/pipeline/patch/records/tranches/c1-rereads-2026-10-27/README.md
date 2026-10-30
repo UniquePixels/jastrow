@@ -1111,7 +1111,7 @@ member numbered I is C00609 "גִּיב I, גּוּב".
 
 Read (Brian, 2026-10-27): Your patch is bad.  Since there is another patch that will lable C00609 with I, this patch needs to use that.
 
-Resolved (2026-10-27): the patch is right as written. Links resolve by `sefariaHeadword` (ruling `10-09 link key`), and C00609's key is `גִּיב` whatever numeral P000321's reform displays, so `href="/Jastrow,_גִּיב.1"` already names C00609. Confirm ticked on the maintainer's decision of 2026-10-27; the working copy left both boxes blank.
+Resolved (2026-10-27): the patch is right as written. Links resolve by its link key, the headword line as the transforms leave it before any patch (ruling `10-09 link key`), which a reform's `homographs` never changes, and C00609's key is `גִּיב` whatever numeral P000321's reform displays, so `href="/Jastrow,_גִּיב.1"` already names C00609. Confirm ticked on the maintainer's decision of 2026-10-27; the working copy left both boxes blank.
 
 ### Family גִּשְׁתָּא
 
@@ -1758,7 +1758,9 @@ manifest records moved to
 A02412 and B00049 return byte-identical to their state before PR #200,
 and the two X8 reviewed-kept records C removed (A02413, B00050) are
 restored. A and B stand, including the six cites aimed at A02412 and
-B00049, which resolve by `sefariaHeadword`. What follows is the record
+B00049, which resolve by their link key, the headword line as the
+transforms leave it before any patch (ruling `10-09 link key`), which
+a reform's `homographs` never changes. What follows is the record
 as applied on 2026-10-27.
 
 The maintainer's reads of 2026-10-27, applied in PR #200. Every one of
@@ -1782,8 +1784,10 @@ P000741, U00736 P000754. The 6 of families אִסְטְרַטְיָא and בָּ
 boxes the working copy left blank: A02560 P000598, O01590 P000678,
 B00051 P000600, B00058 P000601, M02321 P000640, S01439 P000727. And
 C00269 P000612: the maintainer first read the `href` as needing the I
-that P000321's reform gives C00609; links resolve by `sefariaHeadword`
-(ruling `10-09 link key`), C00609's key is `גִּיב`, and the patch is
+that P000321's reform gives C00609; a link resolves by its link key,
+the headword line as the transforms leave it before any patch (ruling
+`10-09 link key`), which a reform's `homographs` never changes;
+C00609's key is `גִּיב`, and the patch is
 right as written.
 
 **B. 2 re-aimed at B01153, not withdrawn.** B01237 P000610 (sense —3,

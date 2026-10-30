@@ -78,7 +78,7 @@ garbled**; this is not repeated per block. Each quoted line is copied
 by script from `leafLines` (`admin/pipeline/patch/hocr.ts`), invisible
 bidi marks included; the note under it quotes fragments with those
 marks dropped. Where the hOCR reads the numeral as `1`, `l`, `L` or a
-lower-case `i`, fuses it into the garbled word, or does not read it at
+lowercase `i`, fuses it into the garbled word, or does not read it at
 all, that is the OCR's reading: the scan decides. Where the hOCR and
 the scan read disagree, a second read is needed.
 
@@ -513,7 +513,7 @@ Read (Brian, 2026-10-30): confirmed by tick, no free-text read.
 
   Line 24 is the entry's head and its Y. Kil. reference (`cb. same,
   capsules, pods.`); line 25 is the cite, `v. mufpr; i.`, the numeral as
-  a lower-case `i`. No `I` is read.
+  a lowercase `i`. No `I` is read.
 - **The cite as Sefaria has it**: `, capsules, pods. Y. Kil. I, 27ᵃ
   קְצָצוֹי, v. חֲרוּבָא I.`
   Sefaria links H01614 `חֲרוּבָא, חֲרוּבָה II, כפר ח׳` (numeral II on
@@ -771,7 +771,7 @@ Read (Brian, 2026-10-30): confirmed by tick, no free-text read.
   cord, v. Ron i] to be rich, plentiful. ;‏
   ```
 
-  The cite reads `cord, v. Ron i]`, the numeral as a lower-case `i`. No
+  The cite reads `cord, v. Ron i]`, the numeral as a lowercase `i`. No
   `I` is read.
 - **The cite as Sefaria has it**: `[to be strong; denom. יֶתֶר cord, v.
   יִתְרָא I,] to be rich, plentiful.`
@@ -1483,7 +1483,7 @@ Read (Brian, 2026-10-30): confirmed by tick, no free-text read.
   Krayo, arena, v.-*roi.
   ```
 
-  The cite reads `v.-*roi.`, a lower-case `i` fused to the garbled word.
+  The cite reads `v.-*roi.`, a lowercase `i` fused to the garbled word.
   No `I` is read.
 - **The cite as Sefaria has it**: `, v. מְחִי I`
   Sefaria links M00859 `מְחִי, מְחָא II` (numeral II on form 2,
@@ -1786,7 +1786,7 @@ Read (Brian, 2026-10-30): confirmed by tick, no free-text read.
   v. -,tni»sina i. [ib. rrma mwn, Ms. m. 2 nanxa.]— 3) (cmp.
   ```
 
-  The cite reads `v. -,tni»sina i.`, the numeral as a lower-case `i`. No
+  The cite reads `v. -,tni»sina i.`, the numeral as a lowercase `i`. No
   `I` is read.
 - **The cite as Sefaria has it**: `…f. מוּצְהֶבֶת. Yoma 38ᵃ (some ed.
   מְצוּהֶבֶת Pu.), v. נְחוּשְׁתָּן I. [Ib. והיתה מאירה, Ms. M. 2
