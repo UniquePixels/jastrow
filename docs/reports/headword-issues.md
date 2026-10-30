@@ -14,7 +14,7 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | X7 abbreviation headword (׳/״) | 134 | 123 | 11 | 4 |
 | X8 homograph numbering gap | 32 | 1 | 31 | 0 |
 | X9 pointing differs within a numbered sequence | 6 | 1 | 5 | 0 |
-| Reviewed, kept | 90 | 90 | 0 | 0 |
+| Reviewed, kept | 92 | 92 | 0 | 0 |
 | Reviewed, kept: stale records | 0 | | | |
 
 ## H6 multi-word (271)
@@ -553,7 +553,7 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [A02403](https://jastrow.app/#rid:A02403) | alt | אִיצְ׳ | אַסְטְרוֹלוֹגְיָא |  | yes |
 | [A02407](https://jastrow.app/#rid:A02407) | alt | אִיסְ׳ | אִסְטְרוֹפוֹמָטָא |  | yes |
 | [A02408](https://jastrow.app/#rid:A02408) | alt | אִיסְטְ׳ | אִסְטְרָטָא |  |  |
-| [A02412](https://jastrow.app/#rid:A02412) | alt | אִיסְ׳ | אִסְטְרַטְיָא I |  | yes |
+| [A02412](https://jastrow.app/#rid:A02412) | alt | אִיסְ׳ | אִסְטְרַטְיָא |  | yes |
 | [A02413](https://jastrow.app/#rid:A02413) | alt | אִיסְ׳ | אִסְטְרַטְיָא II |  |  |
 | [A02422](https://jastrow.app/#rid:A02422) | alt | אִיסְ׳ | אִסְטַרְיָא |  |  |
 | [A02422](https://jastrow.app/#rid:A02422) | alt | אִצְ׳ | אִסְטַרְיָא |  |  |
@@ -2884,7 +2884,7 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [U01388](https://jastrow.app/#rid:U01388) | alt | שִׁלִּשׁ | שָׁלַשׁ² | vowels differ: ל (letter 2) tsere and dagesh vs hiriq and dagesh (U01387/alt vs U01388/alt); sequence U01387/alt=1 שִׁלֵּשׁ, U01388/alt=2 שִׁלִּשׁ |  |
 | [T00893](https://jastrow.app/#rid:T00893) | alt | רְיעִי | רְעִי² | vowels differ: ר (letter 1) tsere vs sheva (T00892/alt vs T00893/alt); sequence T00892/alt=1 רֵיעִי, T00893/alt=2 רְיעִי |  |
 
-## Reviewed, kept (90)
+## Reviewed, kept (92)
 
 Rows read against the print and found right as stored, from `admin/pipeline/report/records/reviewed-kept.jsonl` (decisions 10-06 reviewed kept). They are out of their shape's count, not out of the report: a wrong record is still a row here.
 
@@ -2909,7 +2909,9 @@ Rows read against the print and found right as stored, from `admin/pipeline/repo
 | [S01339](https://jastrow.app/#rid:S01339) | headword | X5 maqaf fragment | קְלִיסְטַנְרִ־ | קְלִיסְטַנְרִ־ |  | print has it as stored. Note: correct page is 1376b |  |
 | [A01735](https://jastrow.app/#rid:A01735) | headword | X8 homograph numbering gap | אַכְסָן | *אַכְסָן II | missing 1; 1 unnumbered: A01734=—; A01735=2 | the family's missing numeral is stored where the source attaches it, the I on A01734's form `אַכְסְנָא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
 | [A02363](https://jastrow.app/#rid:A02363) | headword | X8 homograph numbering gap | אִסְטוֹמְכָא | אִסְטוֹמְכָא II | missing 1; 1 unnumbered: A02362=—; A02363=2 | the family's missing numeral is stored where the source attaches it, the I on A02362's form `אִי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [A02413](https://jastrow.app/#rid:A02413) | headword | X8 homograph numbering gap | אִסְטְרַטְיָא | אִסְטְרַטְיָא II | missing 1; 1 unnumbered: A02412=—; A02413=2 | the family's missing numeral is stored where the source attaches it, the I on A02412's form `אִיסְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
 | [A03217](https://jastrow.app/#rid:A03217) | headword | X8 homograph numbering gap | אָרַע | *אָרַע II | missing 1; 1 unnumbered: A03215=—; A03217=2 | A03215 `אָרַע` (to strike against, from `רעע`) is a word of its own outside the I, II run: the maintainer ticked "a word of its own outside the run; as stored: nothing to fix" (round 2, 2026-10-13). Print numbers the Hebrew A03217 II and the Aramaic A03216 I, A03218 II, and sets no numeral beside A03215 |  |
+| [B00050](https://jastrow.app/#rid:B00050) | headword | X8 homograph numbering gap | בָּב | בָּב II | missing 1; 1 unnumbered: B00049=—; B00050=2 | the family's missing numeral is stored where the source attaches it, the I on B00049's form `בָּבָא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
 | [B00382](https://jastrow.app/#rid:B00382) | headword | X8 homograph numbering gap | בּוּרְסִי | בּוּרְסִי II | missing 1; 0 unnumbered: B00382=2; B00383=2 | the gap is Jastrow's own: nothing to fix. Note: add to issue, likely a textual mistake |  |
 | [B00560](https://jastrow.app/#rid:B00560) | headword | X8 homograph numbering gap | בִּיזָּא | בִּיזָּא I | missing 2; 1 unnumbered: B00560=1; B00561=—; B00562=3 | the family's missing numeral is stored where the source attaches it, the II on B00561's form `בִּזָּא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
 | [B01159](https://jastrow.app/#rid:B01159) | headword | X8 homograph numbering gap | בְּרָא | בְּרָא II | missing 1; 2 unnumbered: B01154/alt=—; B01159=2; B01237/alt=— | B01158's gloss head `, בְּרָא I to create, v. ברי` is a cross-reference, not a second form of B01158's line, and the family has no gap to fill: the maintainer ticked "no, it is a cross-reference: ... nothing to fix"; note: "not a gap either, just a reference" (round 2, 2026-10-13) |  |
