@@ -93,8 +93,10 @@ Checked by script on all 40:
 Each block gives the entry, the scan link at the leaf the page index
 gives it, and the hOCR line that holds the cite, first. The proposal
 is last and collapsed. Read the print, then tick **one** box and write
-what print shows on the `Read:` line. A block with both boxes ticked
-goes back to the reader
+what print shows on the `Read:` line. To re-aim a cite at another
+target, tick withdraw and name that target on the `Read:` line, as C1's
+B01237 and N00106 were (see "After the reads"). A block with both boxes
+ticked goes back to the reader
 ([`DESIGN.md` §5 "Patch process"](../../../../DESIGN.md#patch-process)).
 
 **What the hOCR can witness.** Latin text, numerals, punctuation and
