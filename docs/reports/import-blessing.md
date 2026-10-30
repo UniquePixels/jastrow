@@ -6,7 +6,7 @@ Snapshot `sha256:75bbc5ee7ab863b80b144c5fe176492b9bbcc8719cad83264ff8027092719ad
 
 Patch corpus: 771 reviewed, 40 accepted, 815 applied, 0 carry-over absorbed (each a `patch-absorbed` row; 0 claimed by no transform rule), 4 carried, 0 consolidated away, 0 upstream-fixed, 0 upstream-changed.
 
-Patch evidence: 177 applied on `sefaria-only` evidence pending a re-read, 0 provisional held back.
+Patch evidence: 137 applied on `sefaria-only` evidence pending a re-read, 0 provisional held back.
 
 Patch loss: 115 reviewed patch(es) remove visible characters, 468 codepoint(s) in all, each declared in `removes`; 11 agent patch(es) remove 565.
 
@@ -28,7 +28,7 @@ Annotations: 118 written (103 print-error, 6 kept, 9 illegible).
 | pages | 32512 / 32512 | 0 |
 | composition | 65031 / 65031 | 0 |
 | contract | 32513 / 32513 | 0 |
-| evidenceLocator | 470 / 470 | 0 |
+| evidenceLocator | 510 / 510 | 0 |
 | declaredLoss | 771 / 771 | 0 |
 | citeNumeral | 8938 / 8938 | 0 |
 
