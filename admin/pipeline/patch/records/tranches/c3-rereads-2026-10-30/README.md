@@ -86,7 +86,7 @@ Checked by script on all 40:
 - none of the 40 cites is followed by `ch.` in the entry as it stands.
 
 `removes` is absent on all 195 records of `cite-retargets-2026-10-15`
-(96 of them still pending: C3's, C4's and C5's), so every block's
+(96 of them pending at `45fced487`: C3's, C4's and C5's), so every block's
 **Removes** line says none.
 
 ## How to read a block

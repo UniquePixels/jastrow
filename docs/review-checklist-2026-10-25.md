@@ -208,8 +208,9 @@ reads its members against the print, sets each one's `evidence` to a
 real kind (`maintainer-read` for a scan read; `hOCR` only for a
 Latin-only claim, quoted verbatim; `jastrow-text` where Jastrow's own
 text decides) and removes `pending`, or withdraws the patch. The import
-then refuses any of them left on `sefaria-only`. Nobody has re-read
-anything yet. Why 247 and not the 253 below, by predicate:
+then refuses any of them left on `sefaria-only`. Nobody had re-read
+anything on 2026-10-26; each batch's line below records its reads since.
+Why 247 and not the 253 below, by predicate:
 [`evidence-backfill-2026-10-26`](../admin/pipeline/patch/records/tranches/evidence-backfill-2026-10-26/README.md).
 
 **Block template.** Each batch README's maintainer blocks follow
