@@ -7,7 +7,6 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | Shape | Rows | Main | Alt | Flagged by the processor |
 |---|---|---|---|---|
 | H6 multi-word | 271 | 6 | 265 | 210 |
-| X1 starts with a vowel/dagesh mark | 1 | 0 | 1 | 0 |
 | X10 first homograph unnumbered: implied I candidate | 3 | 0 | 3 | 0 |
 | X5 maqaf fragment | 140 | 113 | 27 | 1 |
 | X6 abbreviated alt (ends ׳) | 2240 | 0 | 2240 | 1527 |
@@ -292,12 +291,6 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 | [D00004](https://jastrow.app/#rid:D00004) | alt | דא דא | דָּא II | two forms / reduplication |  |
 | [E00007](https://jastrow.app/#rid:E00007) | alt | הֵא הֵא | הֵא II | two forms / reduplication |  |
 | [H01657](https://jastrow.app/#rid:H01657) | alt | חַר חַר | חַרְחַר | two forms / reduplication |  |
-
-## X1 starts with a vowel/dagesh mark (1)
-
-| rid | role | text | name | note | flagged |
-|---|---|---|---|---|---|
-| [V00518](https://jastrow.app/#rid:V00518) | alt | ּשַׁע | תִּישַׁע |  |  |
 
 ## X10 first homograph unnumbered: implied I candidate (3)
 

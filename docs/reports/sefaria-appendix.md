@@ -6,7 +6,7 @@ The rows are `sefaria-appendix.csv`; every patch a filter refused is
 in `sefaria-review.csv` with its reason. The filters, and how to read
 a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 
-**469 rows** (469 new, 0 submitted); 302 patches in the review list.
+**471 rows** (471 new, 0 submitted); 302 patches in the review list.
 
 ## Rows by class
 
@@ -18,7 +18,7 @@ a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 | reviewed-join | 19 | 19 | 0 |
 | chopped-marker-with-residue | 18 | 18 | 0 |
 | headword-ocr-glyph | 18 | 18 | 0 |
-| reviewed-replace | 16 | 16 | 0 |
+| reviewed-replace | 17 | 17 | 0 |
 | verse-paren-false-sense-split | 13 | 13 | 0 |
 | headword-numeral-in-gloss | 12 | 12 | 0 |
 | headword-ocr-pointing | 10 | 10 | 0 |
@@ -26,12 +26,12 @@ a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 | continuation-marker-fully-absent | 5 | 5 | 0 |
 | missing-number | 4 | 4 | 0 |
 | reviewed-retag | 3 | 3 | 0 |
+| headword-torn | 2 | 2 | 0 |
 | reviewed-unref | 2 | 2 | 0 |
 | cross-reference-ocr-glyph | 1 | 1 | 0 |
 | cross-reference-overreach | 1 | 1 | 0 |
 | headword-separator | 1 | 1 | 0 |
 | headword-separator-anchor | 1 | 1 | 0 |
-| headword-torn | 1 | 1 | 0 |
 | headword-two-forms | 1 | 1 | 0 |
 
 ## Excluded by reason
