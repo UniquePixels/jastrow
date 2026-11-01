@@ -535,7 +535,9 @@ Facts (ocr agent, each from `archive.org/metadata/<id>`):
 The printed page number is the same in every 1903 copy, so
 `data/page-index/entries.jsonl` (32,512 rows, all with page and
 column) survives any switch. Only `leaf`/`volume` are scan-specific.
-No live code parses hOCR; the page-index build that did is archived.
+No live code parses hOCR to build the page index (that build is
+archived); gate 11 (`evidenceLocator`, via `admin/pipeline/patch/hocr.ts`)
+does read the committed chunks to hold an `hOCR` quote to its leaf.
 
 Started 2026-11-01 on `claude/checklist-g6-print-8be947`: the four
 boxes that need no decision, and the scan comparison. D5 and D6 are

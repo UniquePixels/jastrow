@@ -83,8 +83,14 @@ read, so Claremont is clearly better on those leaves and not worse on
 any. A switch costs the `columns.jsonl` leaf remap (vol. 1 shifts by
 two leaves: the same page sits two leaves later, vol. 2 keeps the same
 offset under a new identifier), the
-IIIF regex in `sefaria-report.ts`, an amendment tranche for the IIIF
-links and leaf cites in the reviewed records (the checklist counts 453
-and 505; counted 2026-11-01 under `records/reviewed/`: 454 IIIF URLs
-in rationale text and 566 `leaf` fields in evidence objects), and a
-re-run of the L71 quote check.
+IIIF regex in `sefaria-report.ts`, an amendment tranche for every
+scan coordinate in the reviewed records, and a re-run of the L71 quote
+check. What that tranche would touch, counted 2026-11-01 under
+`records/reviewed/` at `a95a655e2`: 454 `jastuoft` IIIF URLs in
+rationale text, 566 `leaf` fields in `evidence` objects (the set gate
+11 checks), and 555 "leaf *n*" mentions in rationale prose. The
+checklist's 453 and 505 were counted at the review commit `e29a0e933`,
+before the 10-26 evidence backfill: 453 is the IIIF URLs then (one
+has been added since); 505 matches none of the three counts above at
+that commit (453 URLs, 550 prose mentions, no `evidence` objects yet),
+so its predicate is unstated and the 566 is the number to plan on.
