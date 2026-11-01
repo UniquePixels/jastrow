@@ -49,11 +49,17 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
       no print evidence keep applying as `sefaria-only` with `pending:
       true` and are re-read in group 3's batches. Ruling
       `10-26 patch evidence` in [`decisions.md`](decisions.md).
-- [ ] **D5 — Print images.** Keep `dictionaryoftarg0{1,2}jastuoft`
+- [x] **D5 — Print images.** Keep `dictionaryoftarg0{1,2}jastuoft`
       pinned as the *evidence* source (453 IIIF links and 505 leaf
       cites in patch records depend on its leaf numbering) and add the
       `Jastrow` item only for *display* at page + 15, as v1 does?
       → gates group 6.
+      Decided 2026-11-01 (Brian): "keep jastuoft". Evidence stays
+      pinned, nothing in the tree moves; `Jastrow` for display at
+      IIIF index = page + 15 when the app is written. Ruling
+      `11-01 print images` in [`decisions.md`](decisions.md), decided
+      with [`reports/scan-comparison-2026-11-01.md`](reports/scan-comparison-2026-11-01.md)
+      in view.
 - [ ] **D6 — Hebrew OCR.** Reaffirm the 2026-09-04 ruling (no own-OCR
       error detection), or reopen it with the Latin-only diff pilot
       first? → gates group 6.
@@ -543,9 +549,13 @@ asked one at a time in that session's wrap-up box.
       personal address) and the stamp `www.hebrewbooks.org` in
       `Jastrow_djvu.txt`. The facts are now recorded where the next
       reader looks, `data/print/hocr/README.md` ("Other uploads").
-- [ ] Resolve D5. If "evidence stays pinned, `Jastrow` for display":
+- [x] Resolve D5. If "evidence stays pinned, `Jastrow` for display":
       add the display mapping (page + 15) when the app is written and
       nothing else changes.
+      Decided 2026-11-01 (Brian): "keep jastuoft". Evidence stays
+      pinned and nothing else changes; the display mapping (IIIF index
+      = page + 15 on the `Jastrow` item) is added when the app is
+      written. Ruling `11-01 print images`.
 - [ ] Compare the Claremont 2021 pair with `jastuoft` by eye on 5–10
       known-blurry leaves before ruling any switch out; the agent
       could not view images. A switch costs: `columns.jsonl` leaf
