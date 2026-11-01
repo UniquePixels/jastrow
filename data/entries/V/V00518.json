@@ -5,22 +5,16 @@
 	"headwords": [
 		{
 			"text": "תִּישַׁע"
-		},
-		{
-			"text": "ת"
-		},
-		{
-			"text": "ּשַׁע"
 		}
 	],
-	"display": "{0}, {1}, {2}",
+	"display": "{0}",
 	"page": {
 		"number": 1667,
 		"column": "a"
 	},
 	"senses": [
 		{
-			"gloss": " ch.",
+			"gloss": "v. <cite ref=\"V01106\"><he>תְּשַׁע</he></cite> ch.",
 			"units": []
 		}
 	]
