@@ -38,7 +38,9 @@ filters hold:
    in `admin/pipeline/report/sefaria-evidence.ts`).
 2. **Print evidence**: an hOCR line, a scan read, or, for a
    cross-reference retarget, Jastrow's own text (the cite reads `X N`
-   and exactly one entry of X's family carries `N`).
+   and exactly one entry of X's family carries `N` in Sefaria's data,
+   or carries it once a print-read row of this appendix restores the
+   numeral Sefaria dropped; the evidence column names that row).
 3. **Traceable to Sefaria's string**: the changed text, with its
    context, occurs exactly once in the raw field of Sefaria's record.
 4. **Still there** in the source as fetched: a row Sefaria has since
