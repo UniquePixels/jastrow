@@ -226,7 +226,7 @@ the app: a `pending` patch applies and is counted in the blessing
 (`patch/apply.ts`, "A pending patch still applies"), so the committed
 tree is complete with the re-reads undone. C1–C5 finish now because
 they are in flight. H1–H3, D1, O1–O3 and the D01114 split are
-**tracked for after publish**, one issue (opened on Brian's go), not
+**tracked for after publish** as issues #207–#211 (opened on Brian's go), not
 scheduled before the app. The measured yield so far: 2 wrong in 139
 read (C1–C4), both re-aimed cites.
 
@@ -312,19 +312,19 @@ survivors, 65 (51 hOCR-only, 9 maintainer read, 5 conventions).
     records no longer `pending` (108 → 81). No cite retarget stays
     `pending`.
 - [ ] Re-read the 65 class-A survivors against a scan crop (the 51
-      hOCR-only ones first). Batches H1–H3.
-- [ ] Re-read the 66 doc-08-seed patches. Batch D1.
+      hOCR-only ones first). Batches H1–H3; issue #207.
+- [ ] Re-read the 66 doc-08-seed patches. Batch D1; issue #208.
 - [ ] Triage the 21 remaining no-evidence patches (language-reference
       5, human-review 5, headword-round-2 3, doc-08-runs 3, v7 2,
       v10 2, headword-edges 1). Batch O1; human-review's 5 are in H3,
-      and 6 of the 21 are `jastrow-text` now.
+      and 6 of the 21 are `jastrow-text` now. Issue #210.
 - [ ] Re-read the 26 records whose hOCR claim did not check (batch O2)
-      and the 4 left (batch O3).
+      and the 4 left (batch O3). Issues #209 (O2) and #210 (O3).
 - [ ] **D01114** (data PR, 10-13 case 1): after P000512–P000514 the
       entry still holds an in-text `—4) as preced. 3)` inside sense 3;
       print sets `—4)` as its own sense. Needs a `split` companion
       patch with evidence. Found by the local CodeRabbit pass on
-      2026-10-26; not a group 2 change.
+      2026-10-26; not a group 2 change. Issue #211.
 - [x] **B01237** (data PR, 10-13 case 1): sense *4 lost `a. בָּרָאָה; cmp. זָהַם`
       between `ch.,` and `Pi. 2)` in Sefaria's text, so `Pi. 2)` read as
       `בַּר I ch.`'s; in print it is זָהַם's (G00102). P000939 restores the
