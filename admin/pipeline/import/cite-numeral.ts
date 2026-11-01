@@ -28,6 +28,7 @@
  */
 import { intToRoman } from '../../entry/headwords.ts';
 import { tokenize } from '../../entry/html.ts';
+import { byCodeUnit } from '../../entry/order.ts';
 import type { Entry } from '../../entry/types.ts';
 import { fieldsOf } from '../transform/no-new-text.ts';
 import type { SourceEntry } from '../types.ts';
@@ -150,15 +151,6 @@ function keyOf(rid: string, ref: string, cite: string): string {
 interface Targets {
 	before: ReadonlyMap<string, Entry>;
 	byId: ReadonlyMap<string, Entry>;
-}
-
-/** Index the finished entries by rid and by predecessor. */
-/** Code-unit order: stable across machines, unlike a locale collation. */
-function byCodeUnit(a: string, b: string): -1 | 0 | 1 {
-	if (a === b) {
-		return 0;
-	}
-	return a < b ? -1 : 1;
 }
 
 /** The composed entries by id, and for each the entry before it in

@@ -22,6 +22,7 @@ need lives here.
 | `names.ts` | an entry's name, derived from `headwords[0]`, and name collisions |
 | `page.ts` | the page-index loader |
 | `html.ts` | the tokenizer every markup field is read with — the transforms' too |
+| `order.ts` | `byCodeUnit`, the one string comparator every sorted list in the repo uses: code-unit order, the same on every machine |
 | `paths.ts` | the three paths the contract reads; the pipeline's `paths.ts` re-exports them |
 
 The schema itself is `data/schema/entry.schema.json`, read at run

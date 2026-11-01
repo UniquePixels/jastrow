@@ -45,6 +45,7 @@
  *   bun admin/pipeline/patch/backfill-evidence.ts --write   # rewrite patches.jsonl
  */
 import process from 'node:process';
+import { byCodeUnit } from '../../entry/order.ts';
 import { REVIEWED_DIR } from '../paths.ts';
 import {
 	HOCR,
@@ -323,14 +324,6 @@ async function main(): Promise<void> {
 		await Bun.write(PATCHES, `${out.join('\n')}\n`);
 		console.log(`wrote ${PATCHES}`);
 	}
-}
-
-/** Code-unit order: stable across machines, unlike a locale collation. */
-function byCodeUnit(a: string, b: string): -1 | 0 | 1 {
-	if (a === b) {
-		return 0;
-	}
-	return a < b ? -1 : 1;
 }
 
 if (import.meta.main) {

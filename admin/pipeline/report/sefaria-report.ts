@@ -34,6 +34,8 @@
  * Pure: the caller (`admin/pipeline/sefaria.ts`) reads the files and
  * writes the three documents.
  */
+
+import { isIsoDate } from '../../entry/annotations.ts';
 import {
 	leafOutsideEntry,
 	type PageLookup,
@@ -236,19 +238,6 @@ function rowOf(
 // ----------------------------------------------------------- the log
 
 const SUBMISSION_STRINGS = ['batch', 'channel', 'date'] as const;
-const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/u;
-
-/** Whether `text` is a real calendar date written `YYYY-MM-DD`: the
- * shape, and a day that exists (`2026-13-01` and `2026-02-30` do not).
- * `batchOf` compares these strings, so a date in any other form would
- * compare wrongly without a word. */
-function isIsoDate(text: string): boolean {
-	if (!ISO_DATE.test(text)) {
-		return false;
-	}
-	const date = new Date(`${text}T00:00:00Z`);
-	return !Number.isNaN(date.getTime()) && date.toISOString().startsWith(text);
-}
 
 function listOf(value: unknown): string[] | undefined {
 	return Array.isArray(value) && value.every((v) => typeof v === 'string')

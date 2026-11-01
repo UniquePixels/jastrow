@@ -32,6 +32,7 @@ import { checkAnnotations } from './annotations.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
 import { tokenize } from './html.ts';
 import { nameCollisions } from './names.ts';
+import { byCodeUnit } from './order.ts';
 import type { PagePlacement } from './page.ts';
 import { ENTRIES_DIR, SCHEMA_PATH } from './paths.ts';
 import { type Entry, type Sense, VERBATIM_FIELDS } from './types.ts';
@@ -118,14 +119,6 @@ async function loadEntryFiles(
 		files: files.toSorted((a, b) => byCodeUnit(a.path, b.path)),
 		problems: problems.toSorted(byCodeUnit),
 	};
-}
-
-/** Code-unit order: stable across machines, unlike a locale collation. */
-function byCodeUnit(a: string, b: string): -1 | 0 | 1 {
-	if (a === b) {
-		return 0;
-	}
-	return a < b ? -1 : 1;
 }
 
 /** A `<` or `>` outside a tag. Hoisted per useTopLevelRegex. */

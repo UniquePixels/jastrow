@@ -13,7 +13,7 @@
 
 import { serialize, type Token, tokenize } from '../../../entry/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
-import { type Anchor, anchors, unlink } from '../links.ts';
+import { type Anchor, anchors, leadOf, unlink, usable } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex.
@@ -56,30 +56,6 @@ const ARUCH_CUE = /\bAr\.(?:\s*Compl\.)?\s*ed\.\s*$/u;
  * `patterns.jsonl` write-back is outstanding.
  */
 const RABBI_CUE = /[(,]\s*R\.\s*$/u;
-
-/**
- * Every preceding TEXT token's value, concatenated up to `open` — the
- * immediate lexical context an apparatus or rabbi-name cue must sit at
- * the tail of. Mirrors `links.ts`'s `displayOf`, but reads the text
- * BEFORE an anchor rather than inside one.
- */
-function leadOf(tokens: readonly Token[], open: number): string {
-	let text = '';
-	for (const token of tokens.slice(0, open)) {
-		if (token.kind === 'text') {
-			text += token.value;
-		}
-	}
-	return text;
-}
-
-/** Whether `anchor` is one `unlink` will accept — the same three
- * refusals `retarget`/`unlink` throw on (`links.ts`), checked here so
- * a rule's predicate can skip such an anchor rather than crash on
- * it. */
-function usable(anchor: Anchor): boolean {
-	return !(anchor.malformed || anchor.interior) && anchor.close !== -1;
-}
 
 /**
  * Drop every anchor in one definition that `match` selects.

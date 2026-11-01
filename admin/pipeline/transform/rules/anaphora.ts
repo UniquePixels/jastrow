@@ -329,7 +329,13 @@
 
 import { serialize, type Token, tokenize } from '../../../entry/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
-import { type Anchor, anchors, retarget, type Target } from '../links.ts';
+import {
+	type Anchor,
+	anchors,
+	retarget,
+	type Target,
+	usable,
+} from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex.
@@ -498,15 +504,6 @@ const HREF_LOCUS = /\.\d+(?:\.\d+)*(?:-\d+(?:\.\d+)*)?$/u;
  * (`docs/archive/retired-corpus-checks.md`).
  */
 const INTERVENING_CITATION = /[ᵃᵇᶜᵈ]|\b[IVXLC]+,|\bl\.\s?c\.|\bs\.\s*\d/u;
-
-/** Whether an anchor is one `retarget` will accept — the same three
- * refusals `links.ts` throws on, checked here so the predicate can
- * skip rather than crash. Mirrors `rules/unlink.ts`'s `usable`;
- * restated rather than imported because that copy is private to the
- * unlink family and this rule reads it for a different editor. */
-function usable(anchor: Anchor): boolean {
-	return !(anchor.malformed || anchor.interior) && anchor.close !== -1;
-}
 
 /** Whether this anchor is a member of the row: a bare anaphor pointing
  * at the sink. */
@@ -1294,5 +1291,4 @@ export {
 	TARGUM_WORKS,
 	targumAnaphora,
 	textBetween,
-	usable,
 };

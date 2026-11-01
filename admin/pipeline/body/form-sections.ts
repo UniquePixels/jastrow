@@ -55,6 +55,7 @@
  * window holds a genuine run wins — one section split per sense text,
  * same as the original Pl.-only behavior.
  */
+import { insideAnchor } from './lettered.ts';
 
 interface FormSectionItem {
 	label: string;
@@ -76,13 +77,6 @@ interface FormSectionParts {
 	intro: string;
 	items: FormSectionItem[];
 	marker: string;
-}
-
-/** An `<a href="/x">…</a>` anchor's visible text can itself contain a
- * digit run immediately before `)` by coincidence — shares `lettered.ts`'s
- * reasoning for excluding anchor-interior hits. */
-function insideAnchor(text: string, index: number): boolean {
-	return text.lastIndexOf('<a ', index) > text.lastIndexOf('</a>', index);
 }
 
 interface Mark {
