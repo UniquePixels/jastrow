@@ -13,13 +13,15 @@ index. Use only the two items below.
 
 Two other open items are worth naming so nobody re-derives them. `Jastrow`
 is a HebrewBooks.org PDF of both volumes (the stamp is in its OCR text),
-uploaded in 2024 by a member of the public; 1,752 leaves at 2110 × 2858,
+uploaded in 2024 by a member of the public; 1,752 leaves at about 2110 × 2858
+(the size varies a little by leaf),
 printed page = IIIF index − 15, no volume break; its only OCR is Tesseract
 5.3 (`lat+eng+heb`), it has no ABBYY file and names no source library. v1
 used it for page images. `dictionaryoftarg0001jast` / `dictionaryoftarg0002unse`
 are the Claremont School of Theology 2021 scans (718 / 1,068 leaves,
-Tesseract 5.0, 2314 × 3256 and 2488 × 3561); vol. 1's leaf runs two behind
-`jastuoft`'s, vol. 2's matches it. Sharpness by eye on ten pages:
+Tesseract 5.0, 2314 × 3256 and 2488 × 3561); for the same printed page
+vol. 1's leaf number is two greater than `jastuoft`'s (page = leaf − 25
+against leaf − 23), vol. 2's is the same (page = leaf + 677). Sharpness by eye on ten pages:
 [`docs/reports/scan-comparison-2026-11-01.md`](../../../docs/reports/scan-comparison-2026-11-01.md).
 
 ## Source

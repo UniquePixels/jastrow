@@ -519,7 +519,7 @@ Facts (ocr agent, each from `archive.org/metadata/<id>`):
 |---|---|---|---|---|---|
 | `dictionaryoftarg01jastuoft` | 1 | Robarts/UofT 2009, Canon 1Ds 400 ppi, 2774×3710 | 718 | Tesseract 5.0 `heb+eng` | in use; largest pixel size of any open item |
 | `dictionaryoftarg02jastuoft` | 2 | same | 1,070 | ABBYY FineReader 8, no Hebrew | in use; **0 Hebrew chars** |
-| `Jastrow` | 1+2 | HebrewBooks.org PDF, 2012 pdfsam merge, uploaded 2024 by a member of the public; 2100×2850 | 1,752 | Tesseract 5.3 `lat+eng+heb` | v1's display images; **no ABBYY file**; page = IIIF index − 15 (0-based leaf − 14), no volume break |
+| `Jastrow` | 1+2 | HebrewBooks.org PDF, 2012 pdfsam merge, uploaded 2024 by a member of the public; about 2110×2858, varies by leaf | 1,752 | Tesseract 5.3 `lat+eng+heb` | v1's display images; **no ABBYY file**; page = IIIF index − 15 (0-based leaf − 14), no volume break |
 | `dictionaryoftarg0001jast` + `dictionaryoftarg0002unse` | 1, 2 | Claremont School of Theology / IA Cebu 2021, 350 / 360 ppi, 2314×3256 / 2488×3561 | 718 / 1,068 | Tesseract 5.0 | the only other open, both-volume, library scan |
 | `adictionarytarg00jastgoog` | 2 | Google/Harvard 2007, 1135×1544 | 1,065 | Tesseract | low resolution |
 
@@ -576,7 +576,8 @@ asked one at a time in that session's wrap-up box.
       pagination" is too strong; every 1903 copy and `Jastrow` share
       it, only leaf numbering differs. Reprints are lending-only and
       unverified.
-      Done 2026-11-01: rewritten to say exactly that.
+      Done 2026-11-01: rewritten to say that, with volume segmentation
+      named beside leaf numbering as the other scan-specific thing.
 - [x] Record in `data/print/hocr/README.md` what the hOCR can witness
       (group 1's last item) so no future rationale cites it for a
       Hebrew reading.

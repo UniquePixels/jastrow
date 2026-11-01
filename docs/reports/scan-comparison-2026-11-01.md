@@ -81,7 +81,8 @@ vol. 1 leaves (pp. 293 and 645) `jastuoft` is out of focus and the
 pointing cannot be resolved, while Claremont is sharp on every leaf
 read, so Claremont is clearly better on those leaves and not worse on
 any. A switch costs the `columns.jsonl` leaf remap (vol. 1 shifts by
-two leaves, vol. 2 keeps the same offset under a new identifier), the
+two leaves: the same page sits two leaves later, vol. 2 keeps the same
+offset under a new identifier), the
 IIIF regex in `sefaria-report.ts`, an amendment tranche for the IIIF
 links and leaf cites in the reviewed records (the checklist counts 453
 and 505; counted 2026-11-01 under `records/reviewed/`: 454 IIIF URLs
