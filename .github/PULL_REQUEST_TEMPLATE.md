@@ -13,7 +13,7 @@ See CONTRIBUTING.md for the full guidelines.
 - [ ] Commits are signed off (`git commit -s`) — DCO
 - [ ] `bun qa` passes
 - [ ] Transform rule change (registered, reclassified or reordered):
-      `bun run transform:invariants` run locally — `bun qa` cannot see it
+      `bun rebuild:invariants` run locally — `bun qa` cannot see it
 
 ## Data changes (delete this section if no `data/**` files changed)
 

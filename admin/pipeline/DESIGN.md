@@ -96,7 +96,8 @@ whose table predates the module. Where each is described:
 
 ### Commands
 
-- `bun data:fetch` — source acquisition (§3).
+- `bun rebuild:fetch` — source acquisition (§3). `data:fetch` is an
+  alias.
 - `bun data:import` — the import run; writes entry data (it passes
   `--write`, which refuses unless `data/entries/` is empty) and runs
   `biome format` over it as its last step.
@@ -110,9 +111,18 @@ whose table predates the module. Where each is described:
   each named file's own checks only. CI's Validate job. Exits non-zero
   on any problem.
 - `bun qa` — format, lint, unit tests, `tsc`.
-- `bun run transform:invariants` — the two corpus-tier invariant
-  tests (§4).
-- `bun run transform:count` — the per-rule, rule-alone count.
+- `bun rebuild:invariants` — the two corpus-tier invariant tests
+  (§4). `transform:invariants` is an alias.
+- `bun rebuild:count` — the per-rule, rule-alone count.
+  `transform:count` is an alias.
+- `bun rebuild:pin` — verify the snapshot pin against
+  `patch/records/snapshot.lock`; `--write` rewrites the lock (§3, "The
+  snapshot pin").
+
+The `rebuild:*` prefix (2026-10-31, review checklist group 5) marks the
+scripts that rebuild the repository's data from scratch or guard a
+rule change, as against the everyday `qa*` and `data:validate`. The
+older names stay as aliases so nothing that cites them breaks.
 
 `bun data:compile` and `compile.ts` do not exist. **UNBUILT.**
 Everything assigned to compile — the route map, the browse index,
@@ -185,7 +195,7 @@ and code now use the same words.
 `bun test` splits by filename, and since 2026-10-31 the split is
 asserted at the one door to the corpus: `readSourceEntries()` with no
 path throws under a `*.test.ts` (`Bun.main` is the running test file),
-naming `transform:invariants`, so a corpus-reading test left named
+naming `rebuild:invariants`, so a corpus-reading test left named
 `*.test.ts` fails instead of showing up as a slow `Test` job. The unit tier is `*.test.ts` and runs in
 `bun qa` and in CI. The committed entry data is not a unit test: CI's
 Validate job runs `bun data:validate` over it. The invariant tier is
@@ -193,7 +203,7 @@ Validate job runs `bun data:validate` over it. The invariant tier is
 `transform/registry.order.corpus.test.ts`, run locally before
 rule-code changes; `bun qa` cannot see them. Per-PR CI never reads
 `data/source/`, and a new corpus-reading test has to be added to
-`transform:invariants` by hand.
+`rebuild:invariants` by hand.
 
 ---
 
@@ -456,7 +466,7 @@ upstream — the module normalizes only what it writes, on write
 
 ### The snapshot pin
 
-`patch/snapshot.ts` computes a sha256 over `SNAPSHOT_FILES`
+`patch/snapshot.ts` (`bun rebuild:pin`) computes a sha256 over `SNAPSHOT_FILES`
 (`jastrow-dictionary.jsonl` then `lexicons.json`, fixed order), folded
 with their paths so a rename or a reorder changes the value. It is
 committed at `patch/records/snapshot.lock`, and **every patch record
@@ -558,7 +568,7 @@ composed-pipeline link-count delta.
 ### Rule counts
 
 A rule's count in the run report is **composed**: each rule sees the
-text the rules before it left, so it is not `transform:count`'s
+text the rules before it left, so it is not `rebuild:count`'s
 rule-alone figure. A rule firing many times on one entry counts as one
 entry. A count of zero is information — either Sefaria fixed it or the
 rule is dead — and every registered rule gets a row, zeros included.

@@ -45,8 +45,8 @@ Tool versions are pinned in `.mise.toml` (Bun 1.4.3, Biome 2.5.15);
 with [mise](https://mise.jdx.dev) installed, `mise install` then
 `bun install` is the whole setup.
 
-The normal run is `data:fetch` then `data:import`: pull the current
-export, process it, read the report.
+The normal run is `rebuild:fetch` (alias `data:fetch`) then
+`data:import`: pull the current export, process it, read the report.
 
 `data:import` writes entry data; `data:import:dry` runs every stage
 and gate but writes no entry data. Every run produces four documents,
@@ -67,6 +67,24 @@ Two flags change what a run will refuse:
 - `--strict` promotes a stale snapshot pin and a drifted patch
   precondition from report rows to refusals. See
   [`DESIGN.md`](DESIGN.md) §3, "The snapshot pin".
+
+### The from-scratch scripts (`rebuild:*`)
+
+The `rebuild:*` scripts rebuild the repository's data from scratch or
+guard a rule change; nothing under this prefix runs on an everyday PR.
+The older names are aliases for the same commands, kept so documents
+and memory that cite them stay true.
+
+| Script | Runs | Alias |
+|---|---|---|
+| `bun rebuild:fetch` | `fetch.ts`: download the current Sefaria export into `data/source/` | `data:fetch` |
+| `bun rebuild:pin` | `patch/snapshot.ts`: verify the snapshot pin; `--write` rewrites `patch/records/snapshot.lock` | none before 2026-10-31 |
+| `bun rebuild:count` | `transform/count.ts`: the per-rule, rule-alone count over the snapshot | `transform:count` |
+| `bun rebuild:invariants` | the two corpus-tier invariant tests (commutation, registry order), ~4 min | `transform:invariants` |
+
+`data:import` keeps its name: it is the live editing loop until the
+update run exists (ruling `10-31 update run deferred`), not a
+from-scratch rebuild.
 
 ### Running it on different data
 

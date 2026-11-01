@@ -34,7 +34,7 @@ date, and what it drops — see [`decisions.md`](decisions.md).
 
 | Term | Meaning | Where |
 |---|---|---|
-| **source data** | Sefaria's export of the dictionary: entries, lexicons and manifest, as `data:fetch` downloads it | `data/source/` |
+| **source data** | Sefaria's export of the dictionary: entries, lexicons and manifest, as `rebuild:fetch` (alias `data:fetch`) downloads it | `data/source/` |
 | **snapshot** | the one version of the source data committed in the repo, the version the committed entry data was imported from | `data/source/` |
 | **entry data** | one JSON file per dictionary entry. `data:import` makes it; people and the admin tool then edit it | `data/entries/<letter>/<rid>.json` |
 | **compiled data** | entry data built into the files the web app loads | not built yet |
@@ -46,7 +46,7 @@ date, and what it drops — see [`decisions.md`](decisions.md).
 
 | Name | What it does |
 |---|---|
-| **fetch** (`data:fetch`) | downloads the current Sefaria export into `data/source/` |
+| **fetch** (`rebuild:fetch`, alias `data:fetch`) | downloads the current Sefaria export into `data/source/` |
 | **import** (`data:import`) | turns source data, reference data and correction data into entry data, checks it, and writes a report |
 | **dry import** (`data:import:dry`) | the same run with no entry data written: every check and every report, nothing in `data/entries/` |
 | **validate** (`data:validate`) | holds entry data to the entry contract (`admin/entry/`): every file under `data/entries/` and the page index, or only the named files' own checks. CI's Validate job; writes nothing |
@@ -57,10 +57,12 @@ the next, plus the one that checks entry data where it lies. Step 10
 gave it to `fetch` and `import` and reserved it for `compile`;
 `data:validate` took it on 2026-09-30 (ruling `09-30 entry contract`),
 named for the data it reads rather than a module, because the entry
-contract belongs to every writer, not to the pipeline. Every other script
-keeps a prefix naming the module it runs — `transform:count`,
-`transform:invariants` — or checks the repo (`qa`,
-`qa:*`). `body:dry-run` and `pageindex:verify` left with the one-shot
+contract belongs to every writer, not to the pipeline. The `rebuild:`
+prefix (2026-10-31) groups the scripts that rebuild the data from
+scratch or guard a rule change — `rebuild:fetch`, `rebuild:pin`,
+`rebuild:count`, `rebuild:invariants`; `data:fetch`, `transform:count`
+and `transform:invariants` stay as aliases. Every other script
+checks the repo (`qa`, `qa:*`). `body:dry-run` and `pageindex:verify` left with the one-shot
 tools they ran (2026-09-22); `patch:replay` left with `patch/apply-cli.ts`
 the same day (Brian's ruling — see the retired terms below). `headword:issues` folded into the import on 2026-09-27: every run
 now writes the headword-issues report beside the others.
@@ -149,7 +151,7 @@ What a run reports for each patch:
 | **unit tier** | every `*.test.ts`: fast (~2 s), run by `bun qa` and CI's **Test** job. The committed entry data is not in it: CI's **Validate** job (`bun data:validate`) checks that |
 | **hand-written example test** | a test that feeds a rule a small fixed input and checks its output. Never reads the source data |
 | **entry data validation** | the safeguard over every entry file: schema, file path, allowed tags, balanced markup, no markup in plain-text fields, unique current names and unique `sefariaHeadword` ([URL names spec](archive/specs/2026-09-21-url-names-design.md) §5.2), internal link targets, page matches the page index both ways, every stored string in NFC (except `sefariaHeadword`). The entry contract, `admin/entry/`: runs in CI's **Validate** job (`bun data:validate`) and as import's gate 10, `contract` — not in the unit tier |
-| **invariant check** | a test of rule *code* that needs the whole snapshot: commutation, and registry order's classes earned over the data. Run locally with `bun run transform:invariants` before rule-code PRs; not CI. Registry order's static assertions run in `bun qa` |
+| **invariant check** | a test of rule *code* that needs the whole snapshot: commutation, and registry order's classes earned over the data. Run locally with `bun rebuild:invariants` (alias `transform:invariants`) before rule-code PRs; not CI. Registry order's static assertions run in `bun qa` |
 | **corpus tier** | retired by the consolidation spec's step 5. The only files still named `*.corpus.test.ts` are the two invariant checks, `transform/commutation.corpus.test.ts` and `transform/registry.order.corpus.test.ts` |
 
 ## Retired terms

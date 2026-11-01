@@ -30,7 +30,8 @@ jobs:
             command: echo "::add-matcher::.github/matchers/tsc.json" && bun tsc --noEmit --skipLibCheck --pretty false
           # Every non-corpus *.test.ts, in about two seconds. Never reads
           # data/source/ (consolidation spec R9); the two invariant checks
-          # run locally with `bun run transform:invariants`.
+          # run locally with `bun run rebuild:invariants`
+          # (`transform:invariants` is an alias).
           - name: Test
             command: bun qa:test
           # The entry contract (admin/entry/) over every file under

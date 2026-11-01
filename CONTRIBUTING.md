@@ -93,8 +93,13 @@ Two checks of rule *code* need the whole source snapshot and take
 several minutes, so they run on your machine rather than in CI:
 
 ```bash
-bun run transform:invariants
+bun run rebuild:invariants
 ```
+
+(`transform:invariants` is an alias for the same command. The
+`rebuild:*` scripts are the ones that rebuild the repository's data from
+scratch, as against the everyday `qa*` and `data:validate`; see
+`admin/pipeline/README.md`, "The from-scratch scripts".)
 
 Run it before opening a PR that registers a transform rule, changes
 what a rule matches, or reorders `admin/pipeline/transform/registry.ts`.
@@ -105,7 +110,7 @@ order (commutation) and that each rule's class is earned over the data
 A test that reads the source snapshot MUST be named `*.corpus.test.ts`,
 MUST take its entries from
 `admin/pipeline/transform/rules/corpus-fixture.ts`, and MUST be added to
-`transform:invariants`. Nothing checks this; a corpus read left in a
+`rebuild:invariants`. Nothing checks this; a corpus read left in a
 `*.test.ts` just makes CI's `Test` job slow. An example built from real entries belongs in a
 `*.test.ts` with the entries in a committed fixture file.
 
