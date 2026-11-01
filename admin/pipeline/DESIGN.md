@@ -167,9 +167,11 @@ and code now use the same words.
 
 ### Test tiers
 
-`bun test` splits by filename, and the split is a convention: a
-corpus-reading test left named `*.test.ts` shows up as a slow `Test`
-job, not as a failure. The unit tier is `*.test.ts` and runs in
+`bun test` splits by filename, and since 2026-10-31 the split is
+asserted at the one door to the corpus: `readSourceEntries()` with no
+path throws under a `*.test.ts` (`Bun.main` is the running test file),
+naming `transform:invariants`, so a corpus-reading test left named
+`*.test.ts` fails instead of showing up as a slow `Test` job. The unit tier is `*.test.ts` and runs in
 `bun qa` and in CI. The committed entry data is not a unit test: CI's
 Validate job runs `bun data:validate` over it. The invariant tier is
 `transform/commutation.corpus.test.ts` and
@@ -1785,9 +1787,8 @@ so cannot be inferred from reading the code that is there.
 48. **CI never reads the source data and never runs import**, and CI
     never rewrites or commits. The module's single write of anything
     outside `data/entries/` content is `formatEntries`. The tier
-    boundary is a filename convention that nothing asserts: a corpus
-    read left in a `*.test.ts` shows up as a slow `Test` job (§1, Test
-    tiers).
+    boundary is asserted where the corpus is read: `readSourceEntries()`
+    with no path refuses under a `*.test.ts` (§1, Test tiers).
 49. **A failing entry is dropped, not emitted from source bytes.**
     `composeOne` catches, reds gate 9, files a `composition-failed`
     fault row, and the entry never reaches pass 2 — so the run refuses

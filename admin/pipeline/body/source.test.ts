@@ -1,6 +1,11 @@
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../types.ts';
-import { linesOf, parseSourceEntry, readSourceEntries } from './source.ts';
+import {
+	linesOf,
+	parseSourceEntry,
+	readSourceEntries,
+	refusesDefaultPath,
+} from './source.ts';
 
 const TEST_DIR = '.cache/test';
 
@@ -124,5 +129,27 @@ describe('readSourceEntries', () => {
 		]);
 		expect(seen[0]?.headword).toBe('אָב');
 		expect(seen[2]?.content.senses[0]?.definition).toBe('law, teaching');
+	});
+});
+
+describe('the tier guard', () => {
+	it('refuses the default path under a unit test file and nowhere else', () => {
+		expect(refusesDefaultPath('/repo/admin/pipeline/body/source.test.ts')).toBe(
+			true,
+		);
+		expect(
+			refusesDefaultPath(
+				'/repo/admin/pipeline/transform/commutation.corpus.test.ts',
+			),
+		).toBe(false);
+		expect(refusesDefaultPath('/repo/admin/pipeline/import.ts')).toBe(false);
+	});
+
+	it('throws, naming transform:invariants, when this unit test streams the whole snapshot', async () => {
+		// This file is a *.test.ts, so `Bun.main` makes the guard fire: the
+		// positive control that the refusal is live, not only computable.
+		await expect(readSourceEntries().next()).rejects.toThrow(
+			/transform:invariants/u,
+		);
 	});
 });

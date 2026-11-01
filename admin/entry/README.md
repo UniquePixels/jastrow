@@ -3,7 +3,8 @@
 What a file under `data/entries/` must be, however it got there: the
 import's write, the admin tool's save, or a hand edit. The import
 ([the pipeline](../pipeline/README.md)) is one caller; CI is
-another; the admin tool, when it is written, is the third. So the
+another; the editor (`admin/editor/`, ruling `10-31 editor home`),
+when it is written, is the third. So the
 contract is its own module, and it depends on nothing in the
 pipeline (ruling `09-30 entry contract`,
 [`docs/decisions.md`](../../docs/decisions.md)). Compile, when it is
