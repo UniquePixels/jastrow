@@ -8,7 +8,10 @@ compile entry data into compiled data on every deploy.
 `import.ts` is permanent and re-runnable — a run regenerates a
 candidate tree and a report; it never silently overwrites edited
 entry data. The design behind every stage, including why it works
-this way, is [`DESIGN.md`](DESIGN.md).
+this way, is [`DESIGN.md`](DESIGN.md), which is also the README of
+`import/`, `import/detectors/`, `patch/`, `report/`, `transform/` and
+`transform/rules/` (its §1, "Directories"); `body/` has
+[its own](body/README.md).
 
 | Stage | Tool | Status | Runs |
 |---|---|---|---|

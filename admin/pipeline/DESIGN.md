@@ -79,6 +79,21 @@ computes a relative link to it from the report's own directory rather
 than pasting one, so moving either document cannot produce a dead
 link.
 
+### Directories
+
+This document is the README of the module's subdirectories; none has
+one of its own except `body/` ([`body/README.md`](body/README.md)),
+whose table predates the module. Where each is described:
+
+| Directory | What it holds | Where |
+|---|---|---|
+| `import/` | the run's own stages — markup translation, cite resolution, headword finish, normalization, the gates, patch accounting, the report and the blessing doc | §1 "The import run, stage by stage", §9, §10 |
+| `import/detectors/` | the review detectors: detect only, one defect class per file, `classes.ts` the registry | §6 |
+| `patch/` | the patch grammar (`schema.ts`), apply, drift, loss, evidence and the snapshot pin; `records/` is the import definition (tranches, reviewed patches, the class catalogue, the pin) | §5 |
+| `report/` | the generated documents: headword issues, the reviewed-kept list, the Sefaria appendix | §10 |
+| `transform/` | the rule engine: registry, run, commutation, the text and link floors, the link-target gate | §4, §6 |
+| `transform/rules/` | the rules themselves, one file each, with `corpus-fixture.ts` for the corpus tier | §4 |
+
 ### Commands
 
 - `bun data:fetch` — source acquisition (§3).
