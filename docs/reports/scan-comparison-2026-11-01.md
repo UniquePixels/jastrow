@@ -74,9 +74,12 @@ the same pages, for a three-way view:
 ## Conclusion
 
 On the eight leaves where the pinned scan is in focus the two pairs
-are about the same: `jastuoft` carries 15–20 % more pixels per leaf
-and is a little larger on pointing, Claremont has a little more
-contrast, and vol. 2 is equal on all four pages. On two of the six
+are about the same: `jastuoft`'s leaf is 20 % wider in vol. 1 and
+9 % wider in vol. 2 (37 % and 17 % more pixels per leaf, from the
+native sizes above) and so a little larger on pointing, Claremont has
+a little more contrast, and vol. 2 is equal in sharpness on all four
+pages, the one physical difference being the crease on `jastuoft`'s
+p. 1265. On two of the six
 vol. 1 leaves (pp. 293 and 645) `jastuoft` is out of focus and the
 pointing cannot be resolved, while Claremont is sharp on every leaf
 read, so Claremont is clearly better on those leaves and not worse on

@@ -56,7 +56,10 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
       → gates group 6.
       Decided 2026-11-01 (Brian): "keep jastuoft". Evidence stays
       pinned, nothing in the tree moves; `Jastrow` for display at
-      IIIF index = page + 15 when the app is written. Ruling
+      IIIF index = page + 15 when the app is written. (The 453 and
+      505 above are the review's counts at `e29a0e933`, before the
+      evidence backfill; today it is 454 IIIF URLs and 566 evidence
+      `leaf` fields, see the report's conclusion.) Ruling
       `11-01 print images` in [`decisions.md`](decisions.md), decided
       with [`reports/scan-comparison-2026-11-01.md`](reports/scan-comparison-2026-11-01.md)
       in view.
