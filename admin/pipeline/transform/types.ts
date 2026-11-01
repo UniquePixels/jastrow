@@ -517,7 +517,7 @@ interface Rule {
 	 *   corpus specifically so a violation throws a `TypeError` naming
 	 *   the mutating call instead of silently corrupting later
 	 *   results. */
-	apply(entry: SourceEntry): TransformResult;
+	apply: (entry: SourceEntry) => TransformResult;
 	/** Must match an `id` in admin/pipeline/patch/records/patterns.jsonl. */
 	id: string;
 	phase: TransformPhase;

@@ -80,8 +80,12 @@ interface EntryResult {
 /** A manifest record (or line) that failed validation, with every
  * reason — never just the first. */
 class ManifestFormatError extends Error {
-	readonly reasons: string[];
-	constructor(context: string, reasons: string[], options?: ErrorOptions) {
+	public readonly reasons: string[];
+	public constructor(
+		context: string,
+		reasons: string[],
+		options?: ErrorOptions,
+	) {
 		super(`${context}: ${reasons.join('; ')}`, options);
 		this.name = 'ManifestFormatError';
 		this.reasons = reasons;

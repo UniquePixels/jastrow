@@ -1,4 +1,5 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: one patch grammar: every op's validator beside the union it discriminates.
+// biome-ignore-all lint/style/noExcessiveClassesPerFile: the two error classes stay beside the validator that throws them.
 /**
  * Semantic patch schema (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §4.3).
@@ -540,8 +541,12 @@ interface PatchTarget {
 
 /** A patch that failed schema validation, with every reason. */
 class PatchFormatError extends Error {
-	readonly reasons: string[];
-	constructor(context: string, reasons: string[], options?: ErrorOptions) {
+	public readonly reasons: string[];
+	public constructor(
+		context: string,
+		reasons: string[],
+		options?: ErrorOptions,
+	) {
 		super(`${context}: ${reasons.join('; ')}`, options);
 		this.name = 'PatchFormatError';
 		this.reasons = reasons;
@@ -551,8 +556,8 @@ class PatchFormatError extends Error {
 /** A patch whose application failed its assertions (target
  * resolution, expected_before, occurrence counts). */
 class PatchApplyError extends Error {
-	readonly patchId: string;
-	constructor(patchId: string, message: string) {
+	public readonly patchId: string;
+	public constructor(patchId: string, message: string) {
 		super(`${patchId}: ${message}`);
 		this.name = 'PatchApplyError';
 		this.patchId = patchId;
@@ -1630,7 +1635,7 @@ function readLegacyReform(raw: Record<string, unknown>): void {
 	// single-form payload that parses, and then `applyReform` would
 	// delete every alternate on the entry. A malformed record is left
 	// alone so the new validator rejects it by name.
-	if (!nonEmptyString(p['headword']) || !Array.isArray(p['alt_headwords'])) {
+	if (!(nonEmptyString(p['headword']) && Array.isArray(p['alt_headwords']))) {
 		return;
 	}
 	// The legacy spelling predates `display`, `gloss` and `homographs`, and the

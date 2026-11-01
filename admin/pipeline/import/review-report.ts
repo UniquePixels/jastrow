@@ -167,9 +167,4 @@ function renderReviewReport(
 	].join('\n');
 }
 
-export {
-	loadUndetectedClasses,
-	PATTERNS_PATH,
-	renderReviewReport,
-	undetectedClasses,
-};
+export { loadUndetectedClasses, renderReviewReport, undetectedClasses };

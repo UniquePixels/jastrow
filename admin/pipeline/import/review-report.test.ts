@@ -1,12 +1,12 @@
 import { describe, expect, it } from 'bun:test';
 import type { Pattern } from '../patch/patterns.ts';
+import { PATTERNS_PATH } from '../paths.ts';
 import { DETECTED_CLASSES } from './detectors/classes.ts';
 import { classifyRows } from './publication.ts';
 import type { Report } from './report.ts';
 import { createReport, lineRow } from './report.ts';
 import {
 	loadUndetectedClasses,
-	PATTERNS_PATH,
 	renderReviewReport,
 	undetectedClasses,
 } from './review-report.ts';

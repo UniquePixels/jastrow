@@ -931,9 +931,9 @@ function unnumberedBetween(
  * between them (P00476-P00478). */
 function spellingChanges(
 	members: readonly NumberedForm[],
-): Array<[NumberedForm, NumberedForm]> {
+): [NumberedForm, NumberedForm][] {
 	const seen = new Set<string>();
-	const changes: Array<[NumberedForm, NumberedForm]> = [];
+	const changes: [NumberedForm, NumberedForm][] = [];
 	for (const [i, b] of members.entries()) {
 		const a = members[i - 1];
 		if (a === undefined || a.text === b.text) {

@@ -1,3 +1,4 @@
+// biome-ignore-all lint/style/useExportsLast: constants are grouped by section (read / read and written / written), each exported where it is documented.
 /**
  * The module's boundary, declared once.
  *

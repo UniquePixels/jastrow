@@ -610,22 +610,41 @@ asked one at a time in that session's wrap-up box.
 
 ## Group 7 — Docs drift and small hygiene
 
-- [ ] `CONTRIBUTING.md:71` omits `🚀 release` from the commit types
+- [x] `CONTRIBUTING.md:71` omits `🚀 release` from the commit types
       (`.claude/CLAUDE.md:81` and `.coderabbit.yaml` have it).
+      Done 2026-11-01 (group 7): added; the three lists agree.
 - [x] `admin/pipeline/README.md:182–185`: blessing "last regenerated
       2026-10-03 by #146"; it changed in 28 commits since, latest #196.
       Done in group 0 (#197).
-- [ ] `docs/archive/README.md:47, :53`: both claims (live ledger
+- [x] `docs/archive/README.md:47, :53`: both claims (live ledger
       elsewhere; all archive links work) are false after the move.
-- [ ] `docs/ideas.md` row "Candidate rows can go invisible to
+      Done 2026-11-01 (group 7): #197 had made both true again
+      (`docs/decisions.md` restored; `bun docs:links` exempts only
+      `decisions-2026-09-22.md`). Every other claim in the file checked
+      against the tree: "byte-verbatim copy" corrected (a 21-line banner
+      sits over a verbatim body), the live ledger named, and the
+      `patch/records/` layout sentence brought to the current tree.
+- [x] `docs/ideas.md` row "Candidate rows can go invisible to
       `coverage()`": six measured candidates sit only in an archived
       document; needs untriaged catalogue rows or a gate.
-- [ ] CI: no workflow sets `timeout-minutes` (360-min default);
+      Done 2026-11-01 (group 7): no untriaged state exists that any
+      consumer reads (an unrouted `candidate` row is dropped by the
+      review report and unseen by `coverage()`; no live row is one), so
+      no catalogue row was added; the ideas row now names the archived
+      section and its six sources. A gate is out of scope.
+- [x] CI: no workflow sets `timeout-minutes` (360-min default);
       harden-runner is v2.17.0 in ci-lint and v2.15.0 in the other
       two. Align.
-- [ ] 91 Biome infos (`useExpect` 28, `useDestructuring` 16,
+      Done 2026-11-01 (group 7): 15 min on quality, dependency-review
+      and scorecard, 30 on CodeQL; last 10 runs' step work peaked at
+      42 s / 31 s / 69 s / 105 s. harden-runner v2.17.0 everywhere.
+- [x] 91 Biome infos (`useExpect` 28, `useDestructuring` 16,
       `useNamedCaptureGroup` 16, …): decide per rule whether to
       promote to warn or turn off.
+      Done 2026-11-01 (group 7): 94 infos → 0. Ten rules fixed and
+      promoted to warn (plus `noConsole` info → warn); `useExpect`,
+      `useDestructuring`, `useNamedCaptureGroup` off, reasons in
+      `CONTRIBUTING.md` (biome.json takes no comments).
 
 ## Positive findings (no action)
 

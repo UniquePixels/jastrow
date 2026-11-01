@@ -103,7 +103,7 @@ function zArray(s: string): number[] {
  * or 0. `z[k] >= k` is exactly that condition. */
 function squarePrefix(s: string): number {
 	const z = zArray(s);
-	for (let k = s.length >> 1; k >= MIN_OPENING; k--) {
+	for (let k = Math.floor(s.length / 2); k >= MIN_OPENING; k--) {
 		if ((z[k] as number) >= k) {
 			return k;
 		}

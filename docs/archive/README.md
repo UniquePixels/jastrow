@@ -17,9 +17,11 @@ were archived to that branch and tag rather than deleted.
 [`patches-retired-2026-09-22/`](patches-retired-2026-09-22/) is a later
 arrival; so are the plans, the verbatim decisions copy, and everything
 the module-boundary sweep brought in (below).
-`admin/pipeline/patch/records/` now holds only the records the import
-run applies, plus the `needs_*` escalations it defers (Brian's ruling,
-2026-09-22). The 72 patch records it no longer applies — 61
+Since then `admin/pipeline/patch/records/` has held only what the
+import run reads: the tranches and reviewed patches it applies, with
+the `needs_*` escalations it defers (Brian's ruling, 2026-09-22), the
+class catalogue `patterns.jsonl`, the snapshot pin and the cite-numeral
+allowlist. The 72 patch records it no longer applies — 61
 `superseded`, 11 consolidated away — and the sweep-era research residue
 moved there, byte-exact, under the directory layout they had. That
 directory's README lists every moved record with its rid, source
@@ -63,11 +65,13 @@ accepts either path.
 
 **Do not repair relative links in
 [`decisions-2026-09-22.md`](decisions-2026-09-22.md).** It is a
-byte-verbatim copy of `docs/decisions.md` as it stood before the
-2026-09-22 cut. It holds 56 relative links, written to resolve from
+verbatim copy of `docs/decisions.md` as it stood at `9ec15d66a`, before
+the 2026-09-22 cut, under a 20-line banner and one blank line that are
+its only addition. It holds 56 relative links, written to resolve from
 `docs/`; 36 of them do not resolve from here, and that is the intended
-state. Its whole value is being diffable against the live ledger, and
-rewriting one link in it destroys that.
+state. Its whole value is being diffable against the live ledger,
+`docs/decisions.md` (restored to that path by #197 after the 2026-10-25
+move), and rewriting one link in it destroys that.
 
 Every OTHER document under `docs/archive/` is expected to have working
 relative links, rebased to its new location when it moved here. The

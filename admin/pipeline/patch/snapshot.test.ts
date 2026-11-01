@@ -19,13 +19,13 @@
  * needs only the lock.
  */
 import { describe, expect, it } from 'bun:test';
+import { LOCK_PATH } from '../paths.ts';
 import {
 	buildLock,
 	combineHashes,
 	computeSnapshot,
 	describeMismatches,
 	diffSnapshot,
-	LOCK_PATH,
 	parseLock,
 } from './snapshot.ts';
 
