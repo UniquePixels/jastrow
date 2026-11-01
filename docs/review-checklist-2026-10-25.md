@@ -347,41 +347,83 @@ Import graph, `admin/entry/` ← pipeline source files:
 | `headword-rules.ts` | 305 | 0 | contract, reached via validate |
 | `hebrew.ts` | 213 | **0** | **dead** |
 
-- [ ] Delete `admin/entry/hebrew.ts` (+ test) or name its consumer.
+Landed 2026-10-31 on `claude/checklist-g4-structure-ba43cc`, one PR
+against `v2`. `bun run transform:invariants` run locally after the
+rule-touching boxes (2 and 6); `bun data:validate` 32,512 files, 0
+problems after box 4. Ruling `10-31 editor home` added for box 7.
+
+- [x] Delete `admin/entry/hebrew.ts` (+ test) or name its consumer.
       `data/page-index/README.md:17–18` says "the import still needs
       them" — false; the only user was the archived page-index build.
-- [ ] Deduplicate: `isIsoDate` (`entry/annotations.ts`,
+      Done 2026-10-31: deleted with its test (0 importers; the only
+      users were the archived build's `spine.ts`/`verify.ts`); the
+      page-index README and two DESIGN.md passages corrected.
+- [x] Deduplicate: `isIsoDate` (`entry/annotations.ts`,
       `report/sefaria-report.ts`), `byCodeUnit` (`entry/validate.ts`,
       `transform/rules/point-claims.ts`), `usable` (5 rules),
       `leadOf` (`misc-links.ts`, `unlink.ts`), `insideAnchor`
       (`body/form-sections.ts`, `body/lettered.ts`).
-- [ ] Rename `admin/pipeline/lib.ts` (tar/BSON/stream/sha256 I/O for
+      Done 2026-10-31: `byCodeUnit` → `admin/entry/order.ts` (also
+      `patch/backfill-evidence.ts`, `import/cite-numeral.ts`,
+      `scripts/check-links.ts` had copies); `isIsoDate` → the contract's;
+      `usable` and `leadOf` → `transform/links.ts`; `insideAnchor`
+      exported from `body/lettered.ts`.
+- [x] Rename `admin/pipeline/lib.ts` (tar/BSON/stream/sha256 I/O for
       fetch and snapshot only) to what it is, e.g. `archive-io.ts`.
-- [ ] Move `import/biome.ts` and `formatEntries` to the entry contract:
+      Done 2026-10-31: `archive-io.ts` (+ test); `fetch.ts`,
+      `patch/snapshot.ts`, README updated.
+- [x] Move `import/biome.ts` and `formatEntries` to the entry contract:
       Biome is the single formatter for `data/entries/` and the editor
       must format on save too; that is entry-writer behaviour.
-- [ ] Fix `import/markup.ts:3` ("over `transform/html.ts` tokens" →
+      Done 2026-10-31: `admin/entry/format.ts` (+ test) holds
+      `biomeBinary` and `formatEntries(dir = ENTRIES_DIR)`; the import
+      imports both. `bun data:validate`: 0 problems.
+- [x] Fix `import/markup.ts:3` ("over `transform/html.ts` tokens" →
       `admin/entry/html.ts`).
-- [ ] Same-name hazards: `stripTags` (regex loop in `body/sense-walk.ts`
+      Done 2026-10-31.
+- [x] Same-name hazards: `stripTags` (regex loop in `body/sense-walk.ts`
       vs tokenizer in `transform/no-new-text.ts`), three different
       `walkSenses`, `legacyTagEnd` returning −1 vs `null`. Rename or
       unify each pair.
-- [ ] Name the editing tool `admin/editor/` and add its Biome override
+      Done 2026-10-31, renamed, none unified (no pair is
+      behaviour-identical): `stripTagsLegacy` (sense-walk);
+      `walkSourceSenses` / `walkSensePositions` / `walkEntrySenses`;
+      `legacyTagEndOrNull` (cite.ts).
+- [x] Name the editing tool `admin/editor/` and add its Biome override
       (itself, `admin/entry/`, and `lib/` if one exists) **before**
       writing any of it. A new `admin/<x>/` has no boundary rule today.
-- [ ] Guard the tier split: a unit test calling `readSourceEntries()`
+      Done 2026-10-31: four `biome.json` overrides mirroring
+      `admin/compile/`'s; ruling `10-31 editor home`; a probe file
+      importing `../pipeline/paths.ts` failed lint at depths 1 and 2.
+- [x] Guard the tier split: a unit test calling `readSourceEntries()`
       with no argument would read all 32,512 source entries and only a
       slow CI job would notice. Make the default path refuse under
       `bun test` unless the file is `*.corpus.test.ts`.
-- [ ] Add a README to `import/`, `patch/`, `report/`, `transform/`,
+      Done 2026-10-31: `readSourceEntries()` with no path throws when
+      `Bun.main` is a `*.test.ts` that is not `*.corpus.test.ts`, naming
+      `transform:invariants`; `refusesDefaultPath` unit-tested on both
+      tiers, the live guard fired from `source.test.ts`.
+- [x] Add a README to `import/`, `patch/`, `report/`, `transform/`,
       `transform/rules/` (33 files) and `import/detectors/`, or state in
       `DESIGN.md` that it is their README.
-- [ ] 17 source files over 500 LOC, two over 2,000
+      Done 2026-10-31: DESIGN.md §1 "Directories" names itself their
+      README with one row per directory; linked from
+      `admin/pipeline/README.md`.
+- [x] 17 source files over 500 LOC, two over 2,000
       (`transform/link-target.ts` 2535, `patch/schema.ts` 2335); 39
       files carry `biome-ignore-all noExcessiveLinesPerFile`. Decide
       whether to split the two largest or accept the suppressions.
-- [ ] Remove the empty untracked `admin/pipeline/migrate/` and the
+      Decided 2026-10-31: accepted; splitting is churn with no reader.
+      Both files state in their own suppression why they are one file
+      (the gate's evidence beside its clause; every op's validator beside
+      the union), neither has a section seam, and no pure move was found.
+- [x] Remove the empty untracked `admin/pipeline/migrate/` and the
       stray `.claude/.cc-writes` dirs (harness artifacts, local only).
+      Done 2026-10-31 as far as it goes: `admin/pipeline/migrate/` is
+      already gone from the main checkout. `.claude/.cc-writes` is the
+      Claude desktop harness's own directory, recreated at every session
+      start and write-protected by its sandbox; it is untracked, so there
+      is nothing to commit, and `rmdir` from a session is refused.
 
 ## Group 5 — Script lifecycle
 

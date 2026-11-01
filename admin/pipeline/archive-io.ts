@@ -1,6 +1,8 @@
 /**
- * Streaming primitives for pipeline scripts: exact-length reads over
- * chunked streams, tar member extraction, and BSON file decoding.
+ * Archive I/O for `fetch.ts` and the snapshot pin (`patch/snapshot.ts`),
+ * and nothing else: exact-length reads over chunked streams, tar member
+ * extraction, BSON file decoding and sha256. Named `lib.ts` until
+ * 2026-10-31; it was never a general library.
  */
 import { createHash } from 'node:crypto';
 import { BSON, type Document } from 'bson';

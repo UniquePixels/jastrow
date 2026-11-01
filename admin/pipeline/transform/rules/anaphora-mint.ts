@@ -142,14 +142,13 @@
 
 import { type Token, tokenize } from '../../../entry/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
-import { type Anchor, anchors } from '../links.ts';
+import { type Anchor, anchors, usable } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 import {
 	gapBetween,
 	INTERVENING_CITATION,
 	isCitation,
 	isSpentAnaphor,
-	usable,
 } from './anaphora.ts';
 
 /** Must match an `id` in admin/pipeline/patch/records/patterns.jsonl, and an entry in

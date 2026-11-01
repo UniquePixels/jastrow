@@ -16,7 +16,7 @@ import {
 } from '../../../entry/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
-import { type Anchor, anchors, retarget } from '../links.ts';
+import { type Anchor, anchors, retarget, usable } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /**
@@ -296,15 +296,6 @@ const CHAPTER_HALAKHA = /^(?<work>.+) \d+:(?<halakha>\d+)$/u;
 interface Split {
 	primary: Anchor;
 	variant: Anchor;
-}
-
-/** Whether either editor would touch this anchor — the same three
- * refusals `links.ts`'s `assertUsable` throws on, tested rather than
- * caught so a pair can be SKIPPED instead of aborting the field.
- * Measured 0 corpus-wide in either role; the guard is fail-closed
- * against a re-fetch, not a live population. */
-function usable(anchor: Anchor): boolean {
-	return !(anchor.malformed || anchor.interior) && anchor.close !== -1;
 }
 
 /**

@@ -5,7 +5,7 @@ import {
 	ChunkReader,
 	extractTargets,
 	tarString,
-} from './lib.ts';
+} from './archive-io.ts';
 
 const TEST_DIR = '.cache/test';
 

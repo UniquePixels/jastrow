@@ -647,7 +647,7 @@ interface SensePosition {
 
 /** Walk every sense in document order (each sense before its
  * children), yielding mutable positions. */
-function* walkSenses(entry: SourceEntry): Generator<SensePosition> {
+function* walkSensePositions(entry: SourceEntry): Generator<SensePosition> {
 	function* walk(siblings: SourceSense[]): Generator<SensePosition> {
 		for (const [index, sense] of siblings.entries()) {
 			yield { index, sense, siblings };
@@ -666,7 +666,7 @@ function resolveTarget(
 	target: PatchTarget,
 ): SensePosition[] {
 	const matches: SensePosition[] = [];
-	for (const position of walkSenses(entry)) {
+	for (const position of walkSensePositions(entry)) {
 		const token = position.sense.number ?? '';
 		if (
 			token === target.token &&
@@ -2488,7 +2488,7 @@ function flattenContent(entry: SourceEntry): string {
 		entry.content.morphology ?? '',
 		entry.language_reference ?? '',
 	];
-	for (const { sense } of walkSenses(entry)) {
+	for (const { sense } of walkSensePositions(entry)) {
 		parts.push(sense.number ?? '', sense.definition ?? '');
 	}
 	return parts.join('');
@@ -2537,5 +2537,5 @@ export {
 	senseTarget,
 	TEXT_CHANGING,
 	validateCorpus,
-	walkSenses,
+	walkSensePositions,
 };

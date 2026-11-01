@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { type BiomeLookup, biomeBinary } from './biome.ts';
+import { type BiomeLookup, biomeBinary } from './format.ts';
 
 const MANIFEST = '/repo/node_modules/@biomejs/biome/package.json';
 const INSTALLED = '/repo/node_modules/@biomejs/biome/bin/biome';

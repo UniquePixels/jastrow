@@ -157,6 +157,23 @@ function displayOf(
 	return text;
 }
 
+/**
+ * Every preceding TEXT token's value, concatenated up to `open` — the
+ * immediate lexical context an apparatus or rabbi-name cue must sit at
+ * the tail of. Mirrors `displayOf` above, but reads the text BEFORE an
+ * anchor rather than inside one. Moved here from `rules/unlink.ts`
+ * 2026-10-31; `rules/misc-links.ts` had restated it.
+ */
+function leadOf(tokens: readonly Token[], open: number): string {
+	let text = '';
+	for (const token of tokens.slice(0, open)) {
+		if (token.kind === 'text') {
+			text += token.value;
+		}
+	}
+	return text;
+}
+
 function buildAnchor(
 	tokens: readonly Token[],
 	open: number,
@@ -254,6 +271,14 @@ function assertUsable(anchor: Anchor): void {
 	}
 }
 
+/** Whether an anchor is one `retarget`/`unlink` will accept: the three
+ * refusals `assertUsable` throws on, as a predicate, so a rule can skip
+ * such an anchor instead of crashing on it. One copy here since the third
+ * review (2026-10-31); six rules used to restate it. */
+function usable(anchor: Anchor): boolean {
+	return !(anchor.malformed || anchor.interior) && anchor.close !== -1;
+}
+
 /** Replace one attribute's VALUE span in place, leaving the quote
  * style, the attribute name, whitespace and every other attribute
  * exactly as written. */
@@ -343,4 +368,4 @@ function unlink(tokens: readonly Token[], anchor: Anchor): Token[] {
 }
 
 export type { Anchor, Target };
-export { anchors, retarget, unlink };
+export { anchors, leadOf, retarget, unlink, usable };

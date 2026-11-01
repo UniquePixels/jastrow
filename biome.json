@@ -575,6 +575,110 @@
 			}
 		},
 		{
+			"includes": ["admin/editor/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../**",
+											"!../entry/**",
+											"../entry/**/../**",
+											"./**/../**",
+											"**/../**/../**"
+										],
+										"message": "admin/editor/ may import only itself and admin/entry/ (docs/decisions.md, 10-31 editor home)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["admin/editor/*/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../../**",
+											"!../../entry/**",
+											"../../entry/**/../**",
+											"./**/../**",
+											"**/../**/../**/../**"
+										],
+										"message": "admin/editor/ may import only itself and admin/entry/ (docs/decisions.md, 10-31 editor home)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["admin/editor/*/*/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../../../**",
+											"!../../../entry/**",
+											"../../../entry/**/../**",
+											"./**/../**",
+											"**/../**/../**/../**/../**"
+										],
+										"message": "admin/editor/ may import only itself and admin/entry/ (docs/decisions.md, 10-31 editor home)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["admin/editor/*/*/*/**/*.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": [
+											"../../../../**",
+											"!../../../../entry/**",
+											"../../../../entry/**/../**",
+											"./**/../**",
+											"**/../**/../**/../**/../**/../**"
+										],
+										"message": "admin/editor/ may import only itself and admin/entry/ (docs/decisions.md, 10-31 editor home)."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
 			"includes": ["app/*"],
 			"linter": {
 				"rules": {

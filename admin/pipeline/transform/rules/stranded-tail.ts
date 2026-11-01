@@ -131,21 +131,12 @@ import type { Token } from '../../../entry/html.ts';
 import { serialize, tokenize } from '../../../entry/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Anchor } from '../links.ts';
-import { anchors } from '../links.ts';
+import { anchors, usable } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex.
 const LEADING_DIGITS_RE = /^(?<digits>\d+)/u;
 const DISPLAY_ENDS_DIGIT_RE = /\d$/u;
-
-/** The same three refusals `links.ts`'s `assertUsable` throws on,
- * checked here (as `unlink.ts`'s private `usable` does) so a rule's
- * predicate can skip such an anchor rather than crash on it: this
- * module never calls `retarget`/`unlink`, so it never gets that
- * assertion for free. */
-function usable(anchor: Anchor): boolean {
-	return !(anchor.malformed || anchor.interior) && anchor.close !== -1;
-}
 
 /**
  * Whether `anchor`'s `</a>` is immediately followed by `<sup>`, one

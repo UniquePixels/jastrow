@@ -47,10 +47,12 @@ const HREF_LENIENT = /href="(?<slash>\/)?(?<target>[^"]*)/u;
 const DATA_REF = /data-ref="(?<value>[^"]+)"/u;
 
 /** The legacy quote-blind tag end: one past the first `>` at or after
- * `start`, or `null` when the string holds no `>` at all. This is what the
+ * `start`, or `null` when the string holds no `>` at all. `OrNull` because
+ * `admin/entry/html.ts` has a `legacyTagEnd` with the same reading that
+ * answers -1 instead; the two are not interchangeable. This is what the
  * old `[^>]*` regex read, and it is what `findTagEnd` falls back to once a
  * quoted value proves damaged. */
-function legacyTagEnd(text: string, start: number): number | null {
+function legacyTagEndOrNull(text: string, start: number): number | null {
 	const legacy = text.indexOf('>', start);
 	return legacy === -1 ? null : legacy + 1;
 }
@@ -80,7 +82,7 @@ function findTagEnd(text: string, start: number): number | null {
 			if (ch === quote) {
 				quote = null;
 			} else if (ch === '<') {
-				return legacyTagEnd(text, start);
+				return legacyTagEndOrNull(text, start);
 			}
 			continue;
 		}
@@ -90,7 +92,7 @@ function findTagEnd(text: string, start: number): number | null {
 		}
 		quote = step;
 	}
-	return legacyTagEnd(text, start);
+	return legacyTagEndOrNull(text, start);
 }
 
 interface OpenTag {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { walkSenses } from './sense-walk.ts';
+import { walkSourceSenses } from './sense-walk.ts';
 import { segmentUnits } from './units.ts';
 
 const CITE = (ref: string, txt: string): string =>
@@ -112,7 +112,7 @@ describe('segmentUnits fixture sweep', () => {
 			for (const line of lines) {
 				const entry = JSON.parse(line);
 				let senseIndex = 0;
-				for (const sense of walkSenses(entry.content.senses)) {
+				for (const sense of walkSourceSenses(entry.content.senses)) {
 					const definition = sense.definition ?? '';
 					const { gloss, units } = segmentUnits(definition);
 					const got = `${gloss}${units.join('')}`;

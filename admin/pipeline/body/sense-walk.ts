@@ -42,7 +42,7 @@ type Boundary =
  * that same run: it differs on 360 of those slices and changes 5
  * boundary classifications. `sense-walk.test.ts` carries the regex as
  * an oracle so the equivalence stays pinned. */
-const stripTagsOnce = (text: string): string => {
+const stripTagsLegacyOnce = (text: string): string => {
 	let out = '';
 	let kept = 0;
 	let open = text.indexOf('<');
@@ -74,13 +74,18 @@ const stripTagsOnce = (text: string): string => {
  * class admits `<`, an earlier `<` always wins the leftmost match, so
  * no pass can hand the next one a tag it didn't already have. That is
  * why the fixed point costs nothing — and it is still what answers
- * the CodeQL rule, so it stays. */
-const stripTags = (text: string): string => {
+ * the CodeQL rule, so it stays.
+ *
+ * `Legacy` because this is the old `<[^>]+>` reading, kept byte-for-byte
+ * for `classifyBoundary`; the tokenizer-based strip every transform
+ * rule uses is `transform/no-new-text.ts`'s `stripTags`, and the two
+ * differ on damaged markup. Renamed 2026-10-31 so the names differ. */
+const stripTagsLegacy = (text: string): string => {
 	let out = text;
 	let prev: string;
 	do {
 		prev = out;
-		out = stripTagsOnce(out);
+		out = stripTagsLegacyOnce(out);
 	} while (out !== prev);
 	return out;
 };
@@ -89,7 +94,7 @@ const stripTags = (text: string): string => {
  * anchor into the punctuation class it ends on. Empty text means the
  * anchor opens its sense outright. */
 function classifyBoundary(before: string): Boundary {
-	const t = stripTags(before).trimEnd();
+	const t = stripTagsLegacy(before).trimEnd();
 	if (t === '') {
 		return 'sense-start';
 	}
@@ -108,16 +113,21 @@ function classifyBoundary(before: string): Boundary {
 	return 'embedded';
 }
 
-/** Depth-first walk over a sense tree, yielding every node including
- * nested sub-senses. Shared with later tasks (grammar/labels/units). */
-function* walkSenses(senses: SourceSense[]): Generator<SourceSense> {
+/** Depth-first walk over a SOURCE sense tree, yielding every node
+ * including nested sub-senses. Shared with later tasks
+ * (grammar/labels/units). One of three sense walks that shared the name
+ * `walkSenses` until 2026-10-31: `patch/schema.ts`'s
+ * `walkSensePositions` yields mutable positions over a `SourceEntry`,
+ * `import/detectors/senses.ts`'s `walkEntrySenses` walks a finished
+ * `Entry`. */
+function* walkSourceSenses(senses: SourceSense[]): Generator<SourceSense> {
 	for (const sense of senses) {
 		yield sense;
 		if (sense.senses) {
-			yield* walkSenses(sense.senses);
+			yield* walkSourceSenses(sense.senses);
 		}
 	}
 }
 
 export type { Boundary };
-export { classifyBoundary, stripTags, walkSenses };
+export { classifyBoundary, stripTagsLegacy, walkSourceSenses };

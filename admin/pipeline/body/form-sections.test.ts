@@ -4,7 +4,7 @@ import type { SourceEntry } from '../types.ts';
 import type { FormSectionParts } from './form-sections.ts';
 import { joinFormSection, splitFormSection } from './form-sections.ts';
 import { splitLettered } from './lettered.ts';
-import { walkSenses } from './sense-walk.ts';
+import { walkSourceSenses } from './sense-walk.ts';
 import { readSourceEntries } from './source.ts';
 
 const PLURAL_FIXTURES = 'admin/pipeline/body/fixtures/plural.jsonl';
@@ -101,7 +101,7 @@ function sweepFixtures(entries: SourceEntry[]): SweepResult {
 	const markersByRid: Record<string, string> = {};
 	for (const entry of entries) {
 		let senseIndex = 0;
-		for (const sense of walkSenses(entry.content.senses)) {
+		for (const sense of walkSourceSenses(entry.content.senses)) {
 			const head = formSectionInputHead(sense.definition ?? '');
 			const parts = splitFormSection(head);
 			if (parts !== null) {

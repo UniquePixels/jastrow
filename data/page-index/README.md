@@ -14,10 +14,11 @@ Fourteen files left for that tag: `build.ts`, `align.ts`, `bands.ts`,
 `columns.ts`, `spine.ts`, `layout.ts`, `monotonic.ts`, `emit.ts`,
 `hocr.ts`, `verify.ts`, and the four of those with their own tests
 (`align.test.ts`, `bands.test.ts`, `columns.test.ts`,
-`monotonic.test.ts`). `hebrew.ts` and its test remain in the live
-tree, because the import still needs them — even though `hebrew.ts`
-was itself part of the build, imported by both `spine.ts` and
-`verify.ts`.
+`monotonic.test.ts`). `hebrew.ts` and its test stayed in the live tree
+as `admin/entry/hebrew.ts` until 2026-10-31, when the third review found
+nothing imported them (the import never did; only the build's
+`spine.ts` and `verify.ts` had). Both were deleted; the tag holds them
+with the rest of the build.
 
 ## Files
 

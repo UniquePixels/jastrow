@@ -59,7 +59,7 @@
 
 import { serialize, type Token, tokenize } from '../../../entry/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
-import { type Anchor, anchors, unlink } from '../links.ts';
+import { type Anchor, anchors, unlink, usable } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 
 /** Which spelling of the target the two layers must share. The
@@ -72,14 +72,6 @@ type Which = 'dataRef' | 'href';
 
 const LANG_ID = 'nonsense-dup-anchor';
 const DEF_ID = 'nested-anchor-swallows-punctuation';
-
-/** Whether `anchor` is one `unlink` will accept — the same three
- * refusals `assertUsable` throws on (`links.ts`), checked here so the
- * pair walk can skip a malformed, interior or unclosed anchor rather
- * than crash on it. Mirrors `rules/unlink.ts`'s `usable`. */
-function usable(anchor: Anchor): boolean {
-	return !(anchor.malformed || anchor.interior) && anchor.close !== -1;
-}
 
 /** Whether `inner` sits strictly inside `outer`'s token span.
  *

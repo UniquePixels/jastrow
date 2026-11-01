@@ -8,7 +8,10 @@ compile entry data into compiled data on every deploy.
 `import.ts` is permanent and re-runnable — a run regenerates a
 candidate tree and a report; it never silently overwrites edited
 entry data. The design behind every stage, including why it works
-this way, is [`DESIGN.md`](DESIGN.md).
+this way, is [`DESIGN.md`](DESIGN.md), which is also the README of
+`import/`, `import/detectors/`, `patch/`, `report/`, `transform/` and
+`transform/rules/` (its §1, "Directories"); `body/` has
+[its own](body/README.md).
 
 | Stage | Tool | Status | Runs |
 |---|---|---|---|
@@ -103,7 +106,8 @@ The dump is ~2.4 GB compressed (~10+ GB unpacked), so `fetch.ts`
 streams it: gunzip + tar parsing happen in memory and only the three
 lexicon collections are written to disk (`.cache/sefaria/`, gitignored).
 The download is cancelled as soon as all targets are captured.
-Streaming primitives live in `lib.ts` (unit-tested).
+Streaming primitives live in `archive-io.ts` (unit-tested; named
+`lib.ts` until 2026-10-31).
 
 ### One Jastrow lexicon (not two)
 

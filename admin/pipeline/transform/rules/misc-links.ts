@@ -203,7 +203,7 @@ import type { Token } from '../../../entry/html.ts';
 import { serialize, tokenize } from '../../../entry/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Anchor } from '../links.ts';
-import { anchors } from '../links.ts';
+import { anchors, leadOf } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 import { unlinkOverDefinitions } from './unlink.ts';
 
@@ -247,22 +247,6 @@ function skeleton(s: string): string {
  * member of this row's target takes. Captures the headword portion so
  * its skeleton can be compared to the display's. */
 const TARGET_RE = /^Jastrow, (?<hw>\D+?) \d+$/u;
-
-/** Every preceding TEXT token's value, concatenated up to `open` —
- * mirrors `rules/unlink.ts`'s private `leadOf`, restated here rather
- * than imported because that copy is not exported and this module's
- * needs (finding a "Pl." label, not a fixed cue regex) are shaped
- * differently enough that sharing one helper would blur both call
- * sites' intent. */
-function leadOf(tokens: readonly Token[], open: number): string {
-	let text = '';
-	for (const token of tokens.slice(0, open)) {
-		if (token.kind === 'text') {
-			text += token.value;
-		}
-	}
-	return text;
-}
 
 /** The nearest preceding "Pl."/"pl." label's END index in `lead`, or
  * `undefined` if none exists. Scans the WHOLE lead rather than a fixed

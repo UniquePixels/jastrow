@@ -448,10 +448,10 @@
  */
 
 import { type Token, tokenize } from '../../entry/html.ts';
+import { byCodeUnit } from '../../entry/order.ts';
 import type { SourceEntry } from '../types.ts';
 import { type Anchor, anchors } from './links.ts';
 import { fieldsOf } from './no-new-text.ts';
-import { byCodeUnit } from './rules/point-claims.ts';
 import type { TransformResult } from './types.ts';
 
 /** One declared composition (`TransformResult.composed`). */

@@ -61,9 +61,8 @@ runs the same pipeline over its own data by editing that one file.
 
 **One outward dependency: `admin/entry/`.** The entry contract — the
 entry types, the headword parser and its six rules, names, the
-page-index loader, the HTML tokenizer, the Hebrew match keys and the
-validator — is its own
-module beside this one (ruling `09-30 entry contract`), because the
+page-index loader, the HTML tokenizer and the validator — is its
+own module beside this one (ruling `09-30 entry contract`), because the
 import is only one of its callers: CI runs it over the committed tree,
 and the admin tool will run it on save. The import may depend on it;
 it may depend on nothing here. Biome's `noRestrictedImports` enforces
@@ -79,6 +78,21 @@ module's `paths.ts` re-exports rather than spelling again.
 computes a relative link to it from the report's own directory rather
 than pasting one, so moving either document cannot produce a dead
 link.
+
+### Directories
+
+This document is the README of the module's subdirectories; none has
+one of its own except `body/` ([`body/README.md`](body/README.md)),
+whose table predates the module. Where each is described:
+
+| Directory | What it holds | Where |
+|---|---|---|
+| `import/` | the run's own stages — markup translation, cite resolution, headword finish, normalization, the gates, patch accounting, the report and the blessing doc | §1 "The import run, stage by stage", §9, §10 |
+| `import/detectors/` | the review detectors: detect only, one defect class per file, `classes.ts` the registry | §6 |
+| `patch/` | the patch grammar (`schema.ts`), apply, drift, loss, evidence and the snapshot pin; `records/` is the import definition (tranches, reviewed patches, the class catalogue, the pin) | §5 |
+| `report/` | the generated documents: headword issues, the reviewed-kept list, the Sefaria appendix | §10 |
+| `transform/` | the rule engine: registry, run, commutation, the text and link floors, the link-target gate | §4, §6 |
+| `transform/rules/` | the rules themselves, one file each, with `corpus-fixture.ts` for the corpus tier | §4 |
 
 ### Commands
 
@@ -168,9 +182,11 @@ and code now use the same words.
 
 ### Test tiers
 
-`bun test` splits by filename, and the split is a convention: a
-corpus-reading test left named `*.test.ts` shows up as a slow `Test`
-job, not as a failure. The unit tier is `*.test.ts` and runs in
+`bun test` splits by filename, and since 2026-10-31 the split is
+asserted at the one door to the corpus: `readSourceEntries()` with no
+path throws under a `*.test.ts` (`Bun.main` is the running test file),
+naming `transform:invariants`, so a corpus-reading test left named
+`*.test.ts` fails instead of showing up as a slow `Test` job. The unit tier is `*.test.ts` and runs in
 `bun qa` and in CI. The committed entry data is not a unit test: CI's
 Validate job runs `bun data:validate` over it. The invariant tier is
 `transform/commutation.corpus.test.ts` and
@@ -1188,7 +1204,8 @@ with an a/b column; it cannot prove the placement is *correct*, and a
 low confidence is a review row, never a gate failure.
 
 Matching an OCR'd running head against a headword requires three
-neutralizations (`admin/entry/hebrew.ts`): **all combining marks are
+neutralizations (`hebrew.ts` of the page-index build, archived at
+`refs/tags/archive/v2-research-2026-09`): **all combining marks are
 stripped**, because Jastrow sets running heads sometimes vocalised and
 sometimes bare and Tesseract drops or invents niqqud freely;
 disambiguators are removed for matching but preserved on the record;
@@ -1545,7 +1562,9 @@ failed, never into the appendix:
 
 Entry data has exactly one formatter, and it is the project's: Biome
 formats `data/entries/`, and the pipeline formats **last**, as the
-write's final step (`formatEntries`). `biome.json` therefore carries
+write's final step (`formatEntries`, in the entry contract's
+`admin/entry/format.ts` since 2026-10-31 so the editor's save formats
+the same way). `biome.json` therefore carries
 `data/entries/**/*.json` in `files.includes` deliberately — the rest of
 `data/` is excluded — with an override that disables the **linter**
 there, because the files are data and not code. Contributors run
@@ -1729,7 +1748,7 @@ so cannot be inferred from reading the code that is there.
 35. **No vowel is inferred from OCR.** All marks are stripped before an
     OCR'd running head is matched against a headword, because Tesseract
     drops and invents niqqud freely; the page index never carries an
-    inferred point (`admin/entry/hebrew.ts:9`).
+    inferred point (`hebrew.ts:9` of the archived page-index build).
 
 ### What individual repairs refuse
 
@@ -1783,9 +1802,8 @@ so cannot be inferred from reading the code that is there.
 48. **CI never reads the source data and never runs import**, and CI
     never rewrites or commits. The module's single write of anything
     outside `data/entries/` content is `formatEntries`. The tier
-    boundary is a filename convention that nothing asserts: a corpus
-    read left in a `*.test.ts` shows up as a slow `Test` job (§1, Test
-    tiers).
+    boundary is asserted where the corpus is read: `readSourceEntries()`
+    with no path refuses under a `*.test.ts` (§1, Test tiers).
 49. **A failing entry is dropped, not emitted from source bytes.**
     `composeOne` catches, reds gate 9, files a `composition-failed`
     fault row, and the entry never reaches pass 2 — so the run refuses

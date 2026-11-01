@@ -397,4 +397,4 @@ function joinLettered(parts: LetteredParts): string {
 }
 
 export type { LetteredItem, LetteredParts };
-export { declaredRunReason, joinLettered, splitLettered };
+export { declaredRunReason, insideAnchor, joinLettered, splitLettered };

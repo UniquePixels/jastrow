@@ -37,7 +37,7 @@ import {
 	PatchApplyError,
 	parseTarget,
 	type SemanticPatch,
-	walkSenses,
+	walkSensePositions,
 } from './schema.ts';
 
 /** What `classifyDrift` concluded about a patch whose precondition no
@@ -105,7 +105,7 @@ function sameSense(got: SourceSense, want: SourceSense): boolean {
 
 /** Whether `run` appears as consecutive siblings anywhere in the tree. */
 function holdsRun(entry: SourceEntry, run: readonly SourceSense[]): boolean {
-	for (const { index, siblings } of walkSenses(entry)) {
+	for (const { index, siblings } of walkSensePositions(entry)) {
 		const matches = run.every((want, k) => {
 			const got = siblings[index + k];
 			return got !== undefined && sameSense(got, want);
@@ -124,7 +124,7 @@ function holdsRun(entry: SourceEntry, run: readonly SourceSense[]): boolean {
 function holdsFold(entry: SourceEntry, patch: SemanticPatch): boolean {
 	const folded = parseTarget(patch.target).token + patch.expected_before;
 	let found = 0;
-	for (const { sense } of walkSenses(entry)) {
+	for (const { sense } of walkSensePositions(entry)) {
 		found += countOccurrences(sense.definition ?? '', folded);
 	}
 	return found === 1;

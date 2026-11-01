@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../types.ts';
 import { parseLabel, printLabel } from './labels.ts';
-import { walkSenses } from './sense-walk.ts';
+import { walkSourceSenses } from './sense-walk.ts';
 import { parseSourceEntry } from './source.ts';
 
 describe('parseLabel', () => {
@@ -95,7 +95,7 @@ const EXPECTED_QUARANTINE = new Set<string>([
 function tallyLabels(entries: Iterable<SourceEntry>): Map<string, number> {
 	const seen = new Map<string, number>();
 	for (const entry of entries) {
-		for (const sense of walkSenses(entry.content.senses)) {
+		for (const sense of walkSourceSenses(entry.content.senses)) {
 			if (sense.number !== undefined) {
 				seen.set(sense.number, (seen.get(sense.number) ?? 0) + 1);
 			}

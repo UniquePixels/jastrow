@@ -10,27 +10,10 @@
  */
 
 import { tokenize } from '../../../entry/html.ts';
+import { byCodeUnit } from '../../../entry/order.ts';
 import type { SourceEntry } from '../../types.ts';
 import { anchors } from '../links.ts';
 import { fieldsOf } from '../no-new-text.ts';
-
-/**
- * Two strings ordered by UTF-16 code unit.
- *
- * EXPLICIT, AND NOT `localeCompare`, WHICH IS WHAT SONAR'S S2871
- * SUGGESTS. The sort below exists to make a rule's declarations
- * REPRODUCIBLE — the same entry must yield the same claim list on every
- * machine and every run — and a locale-sensitive comparator is the one
- * thing that cannot promise that: its order for Hebrew depends on the
- * ICU data the runtime happens to carry. Code-unit order is total,
- * stable and environment-independent, which is the whole requirement.
- */
-function byCodeUnit(left: string, right: string): -1 | 0 | 1 {
-	if (left === right) {
-		return 0;
-	}
-	return left < right ? -1 : 1;
-}
 
 /**
  * Every `href` and `data-ref` the entry's input holds, deduplicated and
@@ -51,4 +34,4 @@ function inputTargets(entry: SourceEntry): string[] {
 	return [...found].sort(byCodeUnit);
 }
 
-export { byCodeUnit, inputTargets };
+export { inputTargets };

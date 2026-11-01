@@ -23,6 +23,7 @@
  */
 import { dirname, join, normalize } from 'node:path';
 import process from 'node:process';
+import { byCodeUnit } from '../admin/entry/order.ts';
 
 const EXEMPT: ReadonlySet<string> = new Set([
 	'docs/archive/decisions-2026-09-22.md',
@@ -41,14 +42,6 @@ const FENCE = /^\s{0,3}(?<fence>`{3,}|~{3,})/u;
 const FENCE_CLOSE = /^\s{0,3}(?:`{3,}|~{3,})\s*$/u;
 const SCHEME = /^[a-z][a-z\d+.-]*:/iu;
 const SUFFIX = /[#?]/u;
-
-/** Code-unit order: stable across machines, unlike a locale collation. */
-function byCodeUnit(a: string, b: string): -1 | 0 | 1 {
-	if (a === b) {
-		return 0;
-	}
-	return a < b ? -1 : 1;
-}
 
 /** `git ls-files` with `args`, one path per element. */
 function gitFiles(args: readonly string[]): string[] {
