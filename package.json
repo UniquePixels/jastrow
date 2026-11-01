@@ -4,7 +4,7 @@
 	"description": "A progressive web app for browsing and searching Marcus Jastrow's *Dictionary of the Targumim, the Talmud Babli and Yerushalmi, and the Midrashic Literature* (1903).",
 	"type": "module",
 	"scripts": {
-		"data:fetch": "bun admin/pipeline/fetch.ts",
+		"data:fetch": "bun run rebuild:fetch",
 		"data:import": "bun admin/pipeline/import.ts --write",
 		"data:import:dry": "bun admin/pipeline/import.ts",
 		"data:sefaria": "bun admin/pipeline/sefaria.ts",
@@ -16,8 +16,12 @@
 		"qa:lint": "biome check --error-on-warnings",
 		"qa:test": "bun test --path-ignore-patterns='**/*.corpus.test.ts'",
 		"qa:tsc": "tsc --noEmit --skipLibCheck",
-		"transform:count": "bun admin/pipeline/transform/count.ts",
-		"transform:invariants": "bun test admin/pipeline/transform/commutation.corpus.test.ts admin/pipeline/transform/registry.order.corpus.test.ts"
+		"rebuild:count": "bun admin/pipeline/transform/count.ts",
+		"rebuild:fetch": "bun admin/pipeline/fetch.ts",
+		"rebuild:invariants": "bun test admin/pipeline/transform/commutation.corpus.test.ts admin/pipeline/transform/registry.order.corpus.test.ts",
+		"rebuild:pin": "bun admin/pipeline/patch/snapshot.ts",
+		"transform:count": "bun run rebuild:count",
+		"transform:invariants": "bun run rebuild:invariants"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.15",

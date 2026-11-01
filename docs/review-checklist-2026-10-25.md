@@ -446,14 +446,24 @@ After publish the answer depends on D2 and D3. 85% of the unit tests
 
 - [x] Resolve D2 and D3 and record them as rulings. Done 2026-10-31:
       `10-31 update run deferred` in `decisions.md`.
-- [ ] Add a `rebuild:*` script group (`rebuild:fetch`, `rebuild:pin`,
+- [x] Add a `rebuild:*` script group (`rebuild:fetch`, `rebuild:pin`,
       `rebuild:count`, `rebuild:invariants`) so a reader can tell the
-      everyday scripts from the from-scratch ones.
-- [ ] Give `patch/snapshot.ts` a package.json script.
-- [ ] Write down the reproducibility claim with a date: the last
+      everyday scripts from the from-scratch ones. Done 2026-10-31:
+      `package.json` has the four; `data:fetch`, `transform:count` and
+      `transform:invariants` stay as aliases (`bun run rebuild:*`), and
+      every mention in CI, `CONTRIBUTING.md`, the PR template,
+      `.claude/CLAUDE.md`, the pipeline README and DESIGN and the
+      glossary names the `rebuild:*` form.
+- [x] Give `patch/snapshot.ts` a package.json script. Done 2026-10-31:
+      `bun rebuild:pin` (verify; `--write` passes through to the lock).
+- [x] Write down the reproducibility claim with a date: the last
       0-drift measurement (10-02) lives only in session memory.
       `admin/pipeline/README.md` now dates the last `--write` (#196,
-      2026-10-25) but still cites no drift measurement.
+      2026-10-25) but still cites no drift measurement. Done
+      2026-10-31: measured at `d30aaac86` (#212) — letter directories
+      cleared, `bun data:import`, `bun qa:format`, `git status --short
+      data/entries | wc -l` = 0 over 32,512 files, 13 gates green; the
+      sentence is in the README beside the last-`--write` one.
 - [x] If D2 is "no": at publish, tag `archive/v2-import-<date>` and
       remove the import, transform rules, patch records and their
       tests from the live tree, keeping what `data:sefaria` imports
@@ -465,10 +475,15 @@ After publish the answer depends on D2 and D3. 85% of the unit tests
       scheduled for the admin-system effort, after the app is live;
       the merge path is written then, not before publish. Nothing to
       do in this cycle; the box stays open for that effort.
-- [ ] Decide whether `docs/reports/{import-blessing,review-report,
+- [x] Decide whether `docs/reports/{import-blessing,review-report,
       headword-issues}` remain generated outputs (then un-archive them)
-      or stop being written (then remove the write paths).
-- [ ] **One Sefaria deliverable.** Six Sefaria/upstream report files
+      or stop being written (then remove the write paths). Found
+      2026-10-31: they were never archived — `paths.ts` writes all four
+      (`.md` ×3 + `.csv`) to `docs/reports/`, the committed copies are
+      there, and the drift run above rewrote them byte-identically. D2
+      keeps the import live, so they stay generated outputs where the
+      writer puts them; nothing to move or remove.
+- [x] **One Sefaria deliverable.** Six Sefaria/upstream report files
       sit in two places (added 2026-10-26, Brian's ask). Hand-written and
       overlapping: `docs/sefaria-report.md` (779 lines, nothing in the
       pipeline feeds it) and `docs/upstream-issues.md` (45 lines, last
@@ -482,7 +497,19 @@ After publish the answer depends on D2 and D3. 85% of the unit tests
       the script writes them, and close the `docs/ideas.md` row "Refresh
       `sefaria-report.md` before filing". D3 is closed (2026-10-31):
       the generated rows come from the patch records as they stand at
-      publish.
+      publish. Done 2026-10-31: the deliverable is
+      `reports/sefaria-appendix.csv` plus `docs/sefaria-report.md`, now a
+      114-line cover note (who, where the rows come from and the four
+      filters, the CSV columns, the six rule-level patterns with their
+      detections, the log, contact). The 787-line class prose is
+      `docs/archive/sefaria-report-2026-10-27.md` with a header;
+      `docs/upstream-issues.md` is removed — every register row was a
+      section of that report (the header maps #1–#20), so nothing was
+      left to fold. Links repointed (`bun docs:links` 0 dead), the
+      review-list reason string cites the archived §16, the `ideas.md`
+      row is deleted (that file's way of closing). Ruling `10-16
+      upstream report` still says "hand-written class prose"; its
+      amendment row is the controller's, not this session's.
 
 ## Group 6 — Print sources and OCR
 

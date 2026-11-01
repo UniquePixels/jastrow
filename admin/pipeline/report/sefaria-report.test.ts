@@ -151,6 +151,18 @@ describe('evidenceOf: the rationale names print evidence', () => {
 			'maintainer print read (docs/archive/headword-worklist.md)',
 		],
 		['(Brian, print check 2026-09-20)', 'maintainer print read 2026-09-20'],
+		// A negated hOCR mention is not hOCR evidence (PR #213).
+		['not found in the hOCR; scan 97b · leaf 120', 'scan leaf 120'],
+		[
+			'Evidence: hOCR for C00609: `not found in the hOCR`; scan 234a · leaf 257',
+			'scan leaf 257',
+		],
+		['the hOCR cannot read it (`T^a`), so it waits on a scan read', ''],
+		// One positive mention witnesses, whatever a later one says.
+		[
+			'hOCR: `1) pr.`; Tesseract garbled the rest, so the hOCR does not show it; scan 50a · leaf 73',
+			'hOCR; scan leaf 73',
+		],
 		['review doc 01: upstream segmentation chopped it', ''],
 		['print sets `X V`', ''],
 	])('%s → %s', (rationale, evidence) => {
