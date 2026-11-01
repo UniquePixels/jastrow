@@ -68,6 +68,15 @@ const RULING_10_13 = /\b10-13\b/u;
 const DEVIATION = /\brecorded deviation\b/u;
 const PARTIAL = /\bnot restored\b/u;
 const HOCR = /\bhOCR\b/u;
+const HOCR_MENTIONS = /\bhOCR\b/gu;
+/** A mention of the hOCR that says it did NOT witness the text — the
+ * 40 characters before it end in `not … in the`, or it is followed by
+ * `cannot` / `does not` / `did not`, or by a quoted `not found in the
+ * hOCR` — is not evidence (CodeRabbit on PR #213: P000374's
+ * "not found in the hOCR" was labelled `hOCR`). */
+const HOCR_NEGATED_BEFORE = /\bnot(?: \w+){0,3} in the $/u;
+const HOCR_NEGATED_AFTER =
+	/^(?:\s+(?:cannot|does not|did not|has no|is not)\b|[^`]{0,30}`not found in the hOCR`)/u;
 const LEAF = /\bleaf (?<leaf>\d+)/u;
 const PRINT_READ = /\bprint (?:read|check)\b/iu;
 const READ_DATE = /\bprint (?:read|check)\b[^.;]*?(?<date>\d{4}-\d{2}-\d{2})/iu;
@@ -140,6 +149,28 @@ function scopeReason(patch: SemanticPatch): Exclusion | undefined {
 
 // ------------------------------------------------- filter 2: evidence
 
+/** Whether the rationale names an hOCR read that witnesses the text:
+ * at least one mention of the hOCR that is not negated. A rationale
+ * that quotes an hOCR line and then says the hOCR cannot read a word
+ * still witnesses; one whose every mention is "not found in the hOCR"
+ * does not. */
+function hocrWitnesses(rationale: string): boolean {
+	for (const mention of rationale.matchAll(HOCR_MENTIONS)) {
+		const before = rationale.slice(
+			Math.max(0, mention.index - 40),
+			mention.index,
+		);
+		const after = rationale.slice(
+			mention.index + mention[0].length,
+			mention.index + mention[0].length + 60,
+		);
+		if (!(HOCR_NEGATED_BEFORE.test(before) || HOCR_NEGATED_AFTER.test(after))) {
+			return true;
+		}
+	}
+	return false;
+}
+
 /** The print evidence a rationale names, or `''`: a maintainer print
  * read with its date (or, where none is given, the worklist it was
  * read in), an hOCR read, a scan leaf. */
@@ -154,7 +185,7 @@ function evidenceOf(rationale: string): string {
 			parts.push(`maintainer print read (${worklist})`);
 		}
 	}
-	if (HOCR.test(rationale)) {
+	if (hocrWitnesses(rationale)) {
 		parts.push('hOCR');
 	}
 	const leaf = LEAF.exec(rationale)?.groups?.['leaf'];

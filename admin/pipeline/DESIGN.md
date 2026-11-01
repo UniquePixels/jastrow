@@ -460,7 +460,7 @@ itself, which is why it is not hashed into the pin).
 
 Documents are emitted **unmodified**. `data/source/` is a faithful
 snapshot, which is why it still holds the 201 non-NFC strings
-[sefaria-report §17](../../docs/sefaria-report.md) reports
+[the archived Sefaria report §17](../../docs/archive/sefaria-report-2026-10-27.md#17-combining-marks-stored-out-of-canonical-nfc-order-201-strings-175-entries) reports
 upstream — the module normalizes only what it writes, on write
 ([#110](https://github.com/UniquePixels/jastrow/issues/110), §11).
 
