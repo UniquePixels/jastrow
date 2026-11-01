@@ -49,6 +49,7 @@ function patch(fields: Record<string, unknown>): SemanticPatch {
 	const before = (fields['expected_before'] as string | undefined) ?? '';
 	return {
 		defect_class: 'ocr-marker',
+		evidence: { kind: 'hOCR' },
 		expected_occurrences: 1,
 		id: 'P000001',
 		occurrence_index: 1,
@@ -239,6 +240,47 @@ describe('buildSefariaAppendix: one row per solid patch', () => {
 			inputs([rec], [patch({ ...REPLACE, rationale: `${HOCR} (${URL})` })]),
 		);
 		expect(here.rows[0]?.scan).toBe(`vol. 1 p. 50 · leaf 73 · ${URL}`);
+	});
+
+	it('holds back a sefaria-only record whatever its prose names', () => {
+		const rec = record('A00001', {
+			content: { senses: [{ definition: TEXT }] },
+		});
+		const prose = `not found in the hOCR; scan 50a · leaf 73 (${URL})`;
+		const pending = buildSefariaAppendix(
+			inputs(
+				[rec],
+				[
+					patch({
+						...REPLACE,
+						evidence: { kind: 'sefaria-only', pending: true },
+						rationale: prose,
+					}),
+				],
+			),
+		);
+		expect(pending.rows).toHaveLength(0);
+		expect(pending.review[0]?.reason).toBe('no print evidence');
+		expect(pending.review[0]?.detail).toBe(
+			'evidence.kind is sefaria-only, pending a re-read',
+		);
+		const read = buildSefariaAppendix(
+			inputs(
+				[rec],
+				[
+					patch({
+						...REPLACE,
+						evidence: { date: '2026-10-25', kind: 'maintainer-read', reader: 'Brian' },
+						rationale: prose,
+					}),
+				],
+			),
+		);
+		expect(read.rows[0]?.evidence).toBe('scan leaf 73');
+		const none = buildSefariaAppendix(
+			inputs([rec], [patch({ ...REPLACE, evidence: undefined, rationale: prose })]),
+		);
+		expect(none.review[0]?.detail).toBe('evidence.kind is none');
 	});
 
 	it('sends a patch with no print evidence to review', () => {

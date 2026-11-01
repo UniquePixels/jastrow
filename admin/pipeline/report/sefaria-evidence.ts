@@ -10,9 +10,12 @@
  *    recorded deviation, or a repair that leaves part of print's text
  *    unrestored), never Jastrow's convention or a structure of our own
  *    (`NOT_UPSTREAM_CLASSES`, `NOT_UPSTREAM_OPS`).
- * 2. **Evidence** (`evidenceFor`): the rationale names print evidence
- *    (`evidenceOf`), or, for a cross-reference retarget, the cite's own
- *    words prove the target (`retargetProof`).
+ * 2. **Evidence** (`evidenceFor`): the record's `evidence.kind` is a
+ *    print read or Jastrow's text, never `sefaria-only`
+ *    (`evidenceKindAdmits`, ruling 10-26 as amended 2026-10-31), AND the
+ *    rationale names print evidence (`evidenceOf`), or, for a
+ *    cross-reference retarget, the cite's own words prove the target
+ *    (`retargetProof`).
  */
 import { serialize, tokenize } from '../../entry/html.ts';
 import { internalTarget, linkKey } from '../import/cite.ts';
@@ -149,6 +152,16 @@ function scopeReason(patch: SemanticPatch): Exclusion | undefined {
 
 // ------------------------------------------------- filter 2: evidence
 
+/** Whether the record's `evidence.kind` can carry an appendix row: a
+ * print read (`hOCR`, `maintainer-read`) or Jastrow's own text. A
+ * `sefaria-only` record, `pending` or not, is held back whatever its
+ * rationale prose names (a scan URL is a locator, not a reading); it
+ * returns once its re-read gives it a real kind (issues #207–#210). */
+function evidenceKindAdmits(patch: SemanticPatch): boolean {
+	const kind = patch.evidence?.kind;
+	return kind === 'hOCR' || kind === 'maintainer-read' || kind === 'jastrow-text';
+}
+
 /** Whether the rationale names an hOCR read that witnesses the text:
  * at least one mention of the hOCR that is not negated. A rationale
  * that quotes an hOCR line and then says the hOCR cannot read a word
@@ -246,6 +259,7 @@ function restoredNumerals(
 		if (
 			patch.op !== 'reform' ||
 			scopeReason(patch) !== undefined ||
+			!evidenceKindAdmits(patch) ||
 			evidenceOf(patch.rationale) === ''
 		) {
 			continue;
@@ -443,6 +457,11 @@ function evidenceFor(
 	patch: SemanticPatch,
 	index: SourceIndex,
 ): { evidence: string } | Exclusion {
+	if (!evidenceKindAdmits(patch)) {
+		const kind = patch.evidence?.kind ?? 'none';
+		const pending = patch.evidence?.pending === true ? ', pending a re-read' : '';
+		return exclude('no print evidence', `evidence.kind is ${kind}${pending}`);
+	}
 	const printed = evidenceOf(patch.rationale);
 	if (printed !== '') {
 		return { evidence: printed };
@@ -459,6 +478,7 @@ function evidenceFor(
 export type { SourceIndex };
 export {
 	evidenceFor,
+	evidenceKindAdmits,
 	evidenceOf,
 	HOCR,
 	indexSource,

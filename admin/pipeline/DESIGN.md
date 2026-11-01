@@ -1543,7 +1543,11 @@ failed, never into the appendix:
    or op of Jastrow's convention or our structure
    (`NOT_UPSTREAM_CLASSES`, `NOT_UPSTREAM_OPS`, both explicit and
    tested).
-2. **Evidence.** The rationale names an hOCR read, a scan leaf, or a
+2. **Evidence.** The record's `evidence.kind` is `hOCR`,
+   `maintainer-read` or `jastrow-text` — a `sefaria-only` record,
+   `pending` or not, is held back whatever its rationale names (ruling
+   `10-26 patch evidence` as amended 2026-10-31) — and the rationale
+   names an hOCR read, a scan leaf, or a
    maintainer print read with its date or worklist; or, for a
    `cross-reference-target` retarget, the text proof: the cite reads
    `X N`, the old and new links resolve to two entries, and the new one
