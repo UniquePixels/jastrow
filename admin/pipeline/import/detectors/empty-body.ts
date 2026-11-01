@@ -23,7 +23,7 @@
 import type { Entry } from '../../../entry/types.ts';
 import { textOf } from '../gates.ts';
 import { type ClassRow, entryRow } from './row.ts';
-import { fieldsOf, walkSenses } from './senses.ts';
+import { fieldsOf, walkEntrySenses } from './senses.ts';
 
 /** Report `kind` for an entry with no body text. */
 const EMPTY_BODY = 'empty-body';
@@ -39,7 +39,7 @@ function showsAnything(entry: Entry): boolean {
 	if ((entry.stems ?? []).length > 0) {
 		return true;
 	}
-	for (const at of walkSenses(entry)) {
+	for (const at of walkEntrySenses(entry)) {
 		if (at.sense.label !== undefined && at.sense.label.trim() !== '') {
 			return true;
 		}

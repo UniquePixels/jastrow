@@ -19,7 +19,7 @@
 import type { Entry } from '../../../entry/types.ts';
 import { textOf } from '../gates.ts';
 import { type ClassRow, entryRow } from './row.ts';
-import { fieldsOf, type SenseAt, walkSenses } from './senses.ts';
+import { fieldsOf, type SenseAt, walkEntrySenses } from './senses.ts';
 
 /** Catalogue id and report `kind` for a sense whose own text ends
  * with a bare `[` — the reader sees a bracket open and never close,
@@ -38,7 +38,7 @@ function ownText(at: SenseAt): string {
 
 /** One row per entry naming every sense whose text ends with `[`. */
 function detectStrandedOpenBracket(entry: Entry): ClassRow[] {
-	const sites = [...walkSenses(entry)]
+	const sites = [...walkEntrySenses(entry)]
 		.filter((at) => ownText(at).trimEnd().endsWith('['))
 		.map((at) => `${at.path}: text ends with a bare "["`);
 	return entryRow(entry, STRANDED_OPEN_BRACKET, sites);

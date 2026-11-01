@@ -2,7 +2,7 @@ import { describe, expect, it } from 'bun:test';
 import type { SourceEntry } from '../types.ts';
 import type { LetteredParts } from './lettered.ts';
 import { joinLettered, splitLettered } from './lettered.ts';
-import { walkSenses } from './sense-walk.ts';
+import { walkSourceSenses } from './sense-walk.ts';
 import { readSourceEntries } from './source.ts';
 
 const FIXTURES = 'admin/pipeline/body/fixtures/lettered.jsonl';
@@ -57,7 +57,7 @@ function sweepFixtures(entries: SourceEntry[]): SweepResult {
 	let splitCount = 0;
 	for (const entry of entries) {
 		let senseIndex = 0;
-		for (const sense of walkSenses(entry.content.senses)) {
+		for (const sense of walkSourceSenses(entry.content.senses)) {
 			const definition = sense.definition ?? '';
 			const parts = splitLettered(definition);
 			if (parts !== null) {

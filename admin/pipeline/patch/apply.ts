@@ -48,7 +48,7 @@ import {
 	type SemanticPatch,
 	TEXT_CHANGING,
 	validateCorpus,
-	walkSenses,
+	walkSensePositions,
 } from './schema.ts';
 
 /** What `loadReviewedCorpus` finds in a reviewed patch directory: the
@@ -759,7 +759,7 @@ function postApplyAssertions(
  * declared: what a `relabel` leaves, since it changes no text. */
 function leftRun(entry: SourceEntry, id: string): boolean {
 	let found = 0;
-	for (const { sense } of walkSenses(entry)) {
+	for (const { sense } of walkSensePositions(entry)) {
 		if (sense.relabel?.source === id) {
 			found += 1;
 		}

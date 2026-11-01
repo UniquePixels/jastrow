@@ -50,7 +50,7 @@
 import { tokenize } from '../../../entry/html.ts';
 import type { Entry } from '../../../entry/types.ts';
 import { type ClassRow, entryRow } from './row.ts';
-import { fieldsOf, type SenseAt, walkSenses } from './senses.ts';
+import { fieldsOf, type SenseAt, walkEntrySenses } from './senses.ts';
 
 /** Catalogue id and report `kind` for a sense holding its own number
  * in its text. */
@@ -153,7 +153,7 @@ function sitesIn(at: SenseAt): string[] {
 /** One row per entry naming every numbered sense whose text carries
  * its own number as an in-text marker. */
 function detectSelfNumberedIntextMarker(entry: Entry): ClassRow[] {
-	const sites = [...walkSenses(entry)]
+	const sites = [...walkEntrySenses(entry)]
 		.filter((at) => NUMBERED_LABEL.test(at.sense.label ?? ''))
 		.flatMap(sitesIn);
 	return entryRow(entry, SELF_NUMBERED_INTEXT_MARKER, sites);

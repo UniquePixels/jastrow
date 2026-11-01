@@ -56,7 +56,7 @@ interface Sequence {
 /** Every sense sequence of the entry, in document order: the top
  * level, each sense's children, then each stem's sequence the same
  * way. The class is about two NEIGHBOURS in one sequence, which
- * `walkSenses` does not give. */
+ * `walkEntrySenses` does not give. */
 function* sequencesOf(entry: Entry): Generator<Sequence> {
 	function* from(senses: readonly Sense[], at: string): Generator<Sequence> {
 		yield { at, senses };

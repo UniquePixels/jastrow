@@ -1,11 +1,15 @@
 import { describe, expect, it } from 'bun:test';
 import type { SourceSense } from '../types.ts';
 import type { Boundary } from './sense-walk.ts';
-import { classifyBoundary, stripTags, walkSenses } from './sense-walk.ts';
+import {
+	classifyBoundary,
+	stripTagsLegacy,
+	walkSourceSenses,
+} from './sense-walk.ts';
 
 // The pattern the scanner replaced. `[^>]+` is what backtracks.
 const TAGS = /<[^>]+>/gu;
-/** `stripTags` as it was before the linear scanner replaced it
+/** `stripTagsLegacy` as it was before the linear scanner replaced it
  * (SonarCloud typescript:S8786). Kept here as the oracle: the
  * scanner's only contract is that it strips to the same fixed point,
  * byte for byte, so every case below is asserted against this as well
@@ -50,13 +54,13 @@ const CASES: [string, string][] = [
 ];
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
-describe('stripTags', () => {
+describe('stripTagsLegacy', () => {
 	it.each(CASES)('strips %j to %j', (input, expected) => {
-		expect(stripTags(input)).toBe(expected);
+		expect(stripTagsLegacy(input)).toBe(expected);
 	});
 
 	it.each(CASES)('agrees with the old regex on %j', (input) => {
-		expect(stripTags(input)).toBe(stripTagsByRegex(input));
+		expect(stripTagsLegacy(input)).toBe(stripTagsByRegex(input));
 	});
 
 	// Two ways the pair could come apart, one alphabet each.
@@ -91,7 +95,7 @@ describe('stripTags', () => {
 			for (let i = 0; i < length; i += 1) {
 				input += alphabet[next() % alphabet.length];
 			}
-			expect(stripTags(input)).toBe(stripTagsByRegex(input));
+			expect(stripTagsLegacy(input)).toBe(stripTagsByRegex(input));
 		}
 	});
 
@@ -100,8 +104,8 @@ describe('stripTags', () => {
 	// an earlier pass.
 	it('leaves no strippable tag behind', () => {
 		for (const [input] of CASES) {
-			const once = stripTags(input);
-			expect(stripTags(once)).toBe(once);
+			const once = stripTagsLegacy(input);
+			expect(stripTagsLegacy(once)).toBe(once);
 		}
 	});
 
@@ -114,7 +118,7 @@ describe('stripTags', () => {
 	it('is linear on a long run of `<` with no `>`', () => {
 		const pathological = '<'.repeat(200_000);
 		const started = performance.now();
-		expect(stripTags(pathological)).toBe(pathological);
+		expect(stripTagsLegacy(pathological)).toBe(pathological);
 		expect(performance.now() - started).toBeLessThan(1000);
 	});
 });
@@ -137,13 +141,13 @@ describe('classifyBoundary', () => {
 	});
 });
 
-describe('walkSenses', () => {
+describe('walkSourceSenses', () => {
 	it('yields every node depth-first, parents before children', () => {
 		const tree = [
 			{ definition: 'a', senses: [{ definition: 'a1' }, { definition: 'a2' }] },
 			{ definition: 'b' },
 		] as unknown as SourceSense[];
-		expect([...walkSenses(tree)].map((s) => s.definition)).toEqual([
+		expect([...walkSourceSenses(tree)].map((s) => s.definition)).toEqual([
 			'a',
 			'a1',
 			'a2',
@@ -152,6 +156,6 @@ describe('walkSenses', () => {
 	});
 
 	it('yields nothing for an empty tree', () => {
-		expect([...walkSenses([])]).toHaveLength(0);
+		expect([...walkSourceSenses([])]).toHaveLength(0);
 	});
 });

@@ -15,7 +15,7 @@ import {
 	type SemanticPatch,
 	senseTarget,
 	validateCorpus,
-	walkSenses,
+	walkSensePositions,
 } from './schema.ts';
 
 const SNAPSHOT = `sha256:${'0'.repeat(64)}`;
@@ -85,7 +85,7 @@ describe('target addressing', () => {
 	});
 
 	it('walks nested senses in document order', () => {
-		const definitions = [...walkSenses(makeEntry())].map(
+		const definitions = [...walkSensePositions(makeEntry())].map(
 			(p) => p.sense.definition,
 		);
 		expect(definitions[2]).toBe('parent sense.');

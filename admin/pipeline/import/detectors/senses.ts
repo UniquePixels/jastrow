@@ -29,7 +29,7 @@ function* walkSequence(
 }
 
 /** Every sense of the entry: the top-level tree, then each stem's. */
-function* walkSenses(entry: Entry): Generator<SenseAt> {
+function* walkEntrySenses(entry: Entry): Generator<SenseAt> {
 	yield* walkSequence(entry.senses, 'senses');
 	for (const [i, stem] of (entry.stems ?? []).entries()) {
 		yield* walkSequence(stem.senses, `stems[${i}].senses`);
@@ -51,10 +51,10 @@ function* fieldsOf({ path, sense }: SenseAt): Generator<[string, string]> {
 
 /** Every markup field of the entry, in document order. */
 function* markupFields(entry: Entry): Generator<[string, string]> {
-	for (const at of walkSenses(entry)) {
+	for (const at of walkEntrySenses(entry)) {
 		yield* fieldsOf(at);
 	}
 }
 
 export type { SenseAt };
-export { fieldsOf, markupFields, walkSenses, walkSequence };
+export { fieldsOf, markupFields, walkEntrySenses, walkSequence };
