@@ -49,14 +49,26 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
       no print evidence keep applying as `sefaria-only` with `pending:
       true` and are re-read in group 3's batches. Ruling
       `10-26 patch evidence` in [`decisions.md`](decisions.md).
-- [ ] **D5 — Print images.** Keep `dictionaryoftarg0{1,2}jastuoft`
+- [x] **D5 — Print images.** Keep `dictionaryoftarg0{1,2}jastuoft`
       pinned as the *evidence* source (453 IIIF links and 505 leaf
       cites in patch records depend on its leaf numbering) and add the
       `Jastrow` item only for *display* at page + 15, as v1 does?
       → gates group 6.
-- [ ] **D6 — Hebrew OCR.** Reaffirm the 2026-09-04 ruling (no own-OCR
+      Decided 2026-11-01 (Brian): "keep jastuoft". Evidence stays
+      pinned, nothing in the tree moves; `Jastrow` for display at
+      IIIF index = page + 15 when the app is written. (The 453 and
+      505 above are the review's counts at `e29a0e933`, before the
+      evidence backfill; today it is 454 IIIF URLs and 566 evidence
+      `leaf` fields, see the report's conclusion.) Ruling
+      `11-01 print images` in [`decisions.md`](decisions.md), decided
+      with [`reports/scan-comparison-2026-11-01.md`](reports/scan-comparison-2026-11-01.md)
+      in view.
+- [x] **D6 — Hebrew OCR.** Reaffirm the 2026-09-04 ruling (no own-OCR
       error detection), or reopen it with the Latin-only diff pilot
       first? → gates group 6.
+      Decided 2026-11-01 (Brian): "Reaffirm, no own OCR". Ruling
+      `11-01 no own OCR` in [`decisions.md`](decisions.md) (the
+      2026-09-04 ruling had no row there; this is its record).
 
 ## Group 0 — Land the archive move cleanly
 
@@ -519,29 +531,52 @@ Facts (ocr agent, each from `archive.org/metadata/<id>`):
 |---|---|---|---|---|---|
 | `dictionaryoftarg01jastuoft` | 1 | Robarts/UofT 2009, Canon 1Ds 400 ppi, 2774×3710 | 718 | Tesseract 5.0 `heb+eng` | in use; largest pixel size of any open item |
 | `dictionaryoftarg02jastuoft` | 2 | same | 1,070 | ABBYY FineReader 8, no Hebrew | in use; **0 Hebrew chars** |
-| `Jastrow` | 1+2 | HebrewBooks.org PDF, 2012 pdfsam merge, uploaded 2024 by a member of the public; 2100×2850 | 1,752 | Tesseract 5.3 `lat+eng+heb` | v1's display images; **no ABBYY file**; page = leaf − 15, no volume break |
-| `dictionaryoftarg0001jast` + `dictionaryoftarg0002unse` | 1, 2 | Claremont School of Theology / IA Cebu 2021, 350 ppi | 718 / 1,068 | Tesseract 5.0 | the only other open, both-volume, library scan |
+| `Jastrow` | 1+2 | HebrewBooks.org PDF, 2012 pdfsam merge, uploaded 2024 by a member of the public; about 2110×2858, varies by leaf | 1,752 | Tesseract 5.3 `lat+eng+heb` | v1's display images; **no ABBYY file**; page = IIIF index − 15 (0-based leaf − 14), no volume break |
+| `dictionaryoftarg0001jast` + `dictionaryoftarg0002unse` | 1, 2 | Claremont School of Theology / IA Cebu 2021, 350 / 360 ppi, 2314×3256 / 2488×3561 | 718 / 1,068 | Tesseract 5.0 | the only other open, both-volume, library scan |
 | `adictionarytarg00jastgoog` | 2 | Google/Harvard 2007, 1135×1544 | 1,065 | Tesseract | low resolution |
 
 The printed page number is the same in every 1903 copy, so
 `data/page-index/entries.jsonl` (32,512 rows, all with page and
 column) survives any switch. Only `leaf`/`volume` are scan-specific.
-No live code parses hOCR; the page-index build that did is archived.
+No live code parses hOCR to build the page index (that build is
+archived); gate 11 (`evidenceLocator`, via `admin/pipeline/patch/hocr.ts`)
+does read the committed chunks to hold an `hOCR` quote to its leaf.
 
-- [ ] Correct the premise in the brief: the `Jastrow` item has no
+Started 2026-11-01 on `claude/checklist-g6-print-8be947`: the four
+boxes that need no decision, and the scan comparison. D5 and D6 are
+asked one at a time in that session's wrap-up box.
+
+- [x] Correct the premise in the brief: the `Jastrow` item has no
       ABBYY output (Tesseract 5.3 only) and names no source library;
       its origin is the HebrewBooks.org stamp in the OCR text. The
       "third" URL was the same item as the second.
-- [ ] Resolve D5. If "evidence stays pinned, `Jastrow` for display":
+      Done 2026-11-01: the premise was the brief's alone; no file in
+      the tree ever stated it (grepped `docs/`, `data/`, `admin/`).
+      Re-checked against `archive.org/metadata/Jastrow` (files: no
+      `_abbyy`, `ocr: tesseract 5.3.0`, `contributor` empty, uploader a
+      personal address) and the stamp `www.hebrewbooks.org` in
+      `Jastrow_djvu.txt`. The facts are now recorded where the next
+      reader looks, `data/print/hocr/README.md` ("Other uploads").
+- [x] Resolve D5. If "evidence stays pinned, `Jastrow` for display":
       add the display mapping (page + 15) when the app is written and
       nothing else changes.
-- [ ] Compare the Claremont 2021 pair with `jastuoft` by eye on 5–10
+      Decided 2026-11-01 (Brian): "keep jastuoft". Evidence stays
+      pinned and nothing else changes; the display mapping (IIIF index
+      = page + 15 on the `Jastrow` item) is added when the app is
+      written. Ruling `11-01 print images`.
+- [x] Compare the Claremont 2021 pair with `jastuoft` by eye on 5–10
       known-blurry leaves before ruling any switch out; the agent
       could not view images. A switch costs: `columns.jsonl` leaf
       remap (~1 h), the IIIF regex in `sefaria-report.ts`, an
       amendment tranche for 453 IIIF links and 505 leaf cites, and a
       re-run of the L71 quote check.
-- [ ] Resolve D6. Recommendation: do not re-OCR. Use (i) locating
+      Done 2026-11-01: ten pages read at native resolution from both
+      pairs (plus `Jastrow` on two), report in
+      [`reports/scan-comparison-2026-11-01.md`](reports/scan-comparison-2026-11-01.md).
+      About the same on eight leaves; `jastuoft` out of focus on two
+      vol. 1 leaves (pp. 293, 645) where Claremont is sharp; vol. 2
+      equal and on the same leaf offset. Feeds D5.
+- [x] Resolve D6. Recommendation: do not re-OCR. Use (i) locating
       entries is solved by Latin anchoring (96.1% exact on the checked
       range); use (ii) adjudicating a few characters is a human crop
       read, and a VLM read is a hint, never evidence under the "no
@@ -549,19 +584,29 @@ No live code parses hOCR; the page-index build that did is archived.
       Sefaria is the only use needing pointed-Hebrew OCR, and no
       engine on offer does pointing well. All 482 appendix rows came
       from structural analysis, none from an OCR diff.
-- [ ] If D6 reopens use (iii): first a Latin-only diff with the
+      Decided 2026-11-01 (Brian): "Reaffirm, no own OCR". Ruling
+      `11-01 no own OCR`.
+- [x] If D6 reopens use (iii): first a Latin-only diff with the
       existing hOCR (vol. 2's ABBYY keeps English, cites and sense
       numbers), then a 20-column VLM pilot checked by eye, then
       measure the real Sefaria Hebrew error rate before spending more.
       Order of magnitude for ~3,400 column crops on the Batch API:
       Sonnet 5.5 ~$100, Opus 5.5 ~$200.
-- [ ] `data/page-index/README.md`: "Reprints do **not** share this
+      Closed 2026-11-01 without action: D6 reaffirmed ("Reaffirm, no
+      own OCR"), so the pilot is not run.
+- [x] `data/page-index/README.md`: "Reprints do **not** share this
       pagination" is too strong; every 1903 copy and `Jastrow` share
       it, only leaf numbering differs. Reprints are lending-only and
       unverified.
-- [ ] Record in `data/print/hocr/README.md` what the hOCR can witness
+      Done 2026-11-01: rewritten to say that, with volume segmentation
+      named beside leaf numbering as the other scan-specific thing.
+- [x] Record in `data/print/hocr/README.md` what the hOCR can witness
       (group 1's last item) so no future rationale cites it for a
       Hebrew reading.
+      Done 2026-11-01: group 1 had written the section ("What the hOCR
+      can witness", with the whole-file counts 0 vs 311,375); it now
+      also says no rationale may cite an hOCR line for a Hebrew
+      reading, nor the other items' Tesseract output.
 
 ## Group 7 — Docs drift and small hygiene
 
