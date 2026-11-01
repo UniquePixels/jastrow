@@ -6,7 +6,7 @@ The rows are `sefaria-appendix.csv`; every patch a filter refused is
 in `sefaria-review.csv` with its reason. The filters, and how to read
 a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 
-**483 rows** (483 new, 0 submitted); 288 patches in the review list.
+**469 rows** (469 new, 0 submitted); 302 patches in the review list.
 
 ## Rows by class
 
@@ -14,17 +14,17 @@ a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 |---|---|---|---|
 | cross-reference-target | 275 | 275 | 0 |
 | headword-numeral-dropped | 40 | 40 | 0 |
-| ocr-marker | 23 | 23 | 0 |
-| reviewed-join | 20 | 20 | 0 |
+| ocr-marker | 19 | 19 | 0 |
+| reviewed-join | 19 | 19 | 0 |
 | chopped-marker-with-residue | 18 | 18 | 0 |
 | headword-ocr-glyph | 18 | 18 | 0 |
 | reviewed-replace | 16 | 16 | 0 |
-| verse-paren-false-sense-split | 15 | 15 | 0 |
-| first-sense-debris-stranding-language-label | 14 | 14 | 0 |
-| headword-numeral-in-gloss | 13 | 13 | 0 |
+| verse-paren-false-sense-split | 13 | 13 | 0 |
+| headword-numeral-in-gloss | 12 | 12 | 0 |
 | headword-ocr-pointing | 10 | 10 | 0 |
+| first-sense-debris-stranding-language-label | 9 | 9 | 0 |
 | continuation-marker-fully-absent | 5 | 5 | 0 |
-| missing-number | 5 | 5 | 0 |
+| missing-number | 4 | 4 | 0 |
 | reviewed-retag | 3 | 3 | 0 |
 | reviewed-unref | 2 | 2 | 0 |
 | cross-reference-ocr-glyph | 1 | 1 | 0 |
@@ -39,8 +39,9 @@ a row, are in [`../sefaria-report.md`](../sefaria-report.md).
 | reason | patches |
 |---|---|
 | convention or our structure | 195 |
-| not traceable to source | 55 |
+| not traceable to source | 53 |
 | not mechanical for op | 21 |
+| no print evidence | 16 |
 | our correction (annotated) | 12 |
 | our deviation from print | 2 |
 | partial: print not fully restored | 2 |

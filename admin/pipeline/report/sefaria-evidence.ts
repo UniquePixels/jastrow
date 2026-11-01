@@ -10,13 +10,17 @@
  *    recorded deviation, or a repair that leaves part of print's text
  *    unrestored), never Jastrow's convention or a structure of our own
  *    (`NOT_UPSTREAM_CLASSES`, `NOT_UPSTREAM_OPS`).
- * 2. **Evidence** (`evidenceFor`): the rationale names print evidence
- *    (`evidenceOf`), or, for a cross-reference retarget, the cite's own
- *    words prove the target (`retargetProof`).
+ * 2. **Evidence** (`evidenceFor`): the record's `evidence` object is the
+ *    authority (DESIGN §5): a row needs `kind` `maintainer-read`, `hOCR`
+ *    or `jastrow-text`, never `sefaria-only` (`evidenceKindAdmits`,
+ *    ruling 10-26 as amended 2026-10-31). The rationale prose only words
+ *    the evidence column (`evidenceOf`), falling back to the object
+ *    (`evidenceFromRecord`); a cross-reference retarget's text proof
+ *    (`retargetProof`) is checked against Sefaria's data, not the prose.
  */
 import { serialize, tokenize } from '../../entry/html.ts';
 import { internalTarget, linkKey } from '../import/cite.ts';
-import type { SemanticPatch } from '../patch/schema.ts';
+import type { PatchEvidence, SemanticPatch } from '../patch/schema.ts';
 import {
 	type Exclusion,
 	exclude,
@@ -149,6 +153,18 @@ function scopeReason(patch: SemanticPatch): Exclusion | undefined {
 
 // ------------------------------------------------- filter 2: evidence
 
+/** Whether the record's `evidence.kind` can carry an appendix row: a
+ * print read (`hOCR`, `maintainer-read`) or Jastrow's own text. A
+ * `sefaria-only` record, `pending` or not, is held back whatever its
+ * rationale prose names (a scan URL is a locator, not a reading); it
+ * returns once its re-read gives it a real kind (issues #207–#210). */
+function evidenceKindAdmits(patch: SemanticPatch): boolean {
+	const kind = patch.evidence?.kind;
+	return (
+		kind === 'hOCR' || kind === 'maintainer-read' || kind === 'jastrow-text'
+	);
+}
+
 /** Whether the rationale names an hOCR read that witnesses the text:
  * at least one mention of the hOCR that is not negated. A rationale
  * that quotes an hOCR line and then says the hOCR cannot read a word
@@ -236,17 +252,19 @@ function push<K, V>(map: Map<K, V[]>, key: K, value: V): void {
 	}
 }
 
-/** Every numeral a case-1 reviewed reform with print evidence sets on
- * a form, by rid. */
+/** Every numeral a case-1 reviewed reform with PRINT evidence (`hOCR` or
+ * `maintainer-read`; a `jastrow-text` reform is not print-backed) sets
+ * on a form, by rid. The evidence object decides, not the prose. */
 function restoredNumerals(
 	patches: readonly SemanticPatch[],
 ): Map<string, Restored[]> {
 	const out = new Map<string, Restored[]>();
 	for (const patch of patches) {
+		const kind = patch.evidence?.kind;
 		if (
 			patch.op !== 'reform' ||
 			scopeReason(patch) !== undefined ||
-			evidenceOf(patch.rationale) === ''
+			(kind !== 'hOCR' && kind !== 'maintainer-read')
 		) {
 			continue;
 		}
@@ -438,27 +456,65 @@ function retargetProof(
 	};
 }
 
-/** The evidence column for a patch, or the exclusion when it has none. */
+/** The evidence column worded from the record's `evidence` object, for
+ * a rationale whose prose names no print read: the object admitted the
+ * row, so it also states the evidence. */
+function evidenceFromRecord(evidence: PatchEvidence): string {
+	if (evidence.kind === 'hOCR') {
+		return evidence.leaf === undefined
+			? 'hOCR'
+			: `hOCR; scan leaf ${evidence.leaf}`;
+	}
+	if (evidence.kind === 'maintainer-read') {
+		return evidence.date === undefined
+			? 'maintainer print read'
+			: `maintainer print read ${evidence.date}`;
+	}
+	return evidence.quote === undefined
+		? 'Jastrow’s text'
+		: `Jastrow’s text: ${evidence.quote}`;
+}
+
+/** The evidence column for a patch, or the exclusion when its record
+ * cannot carry a row. The `evidence` object decides. A `jastrow-text`
+ * retarget's claim is its text proof, so that proof is checked first,
+ * whatever the prose names, and words the column; it is held back when
+ * the proof fails in Sefaria's data. Otherwise the prose, then the
+ * retarget proof, then the object itself word the column. */
 function evidenceFor(
 	patch: SemanticPatch,
 	index: SourceIndex,
 ): { evidence: string } | Exclusion {
-	const printed = evidenceOf(patch.rationale);
-	if (printed !== '') {
-		return { evidence: printed };
+	const evidence = patch.evidence;
+	if (evidence === undefined || !evidenceKindAdmits(patch)) {
+		const kind = evidence?.kind ?? 'none';
+		const pending = evidence?.pending === true ? ', pending a re-read' : '';
+		return exclude('no print evidence', `evidence.kind is ${kind}${pending}`);
 	}
-	if (patch.defect_class === 'cross-reference-target') {
+	const retarget = patch.defect_class === 'cross-reference-target';
+	if (retarget && evidence.kind === 'jastrow-text') {
 		const proof = retargetProof(patch, index);
 		return 'proof' in proof
 			? { evidence: proof.proof }
 			: exclude('no print evidence', proof.failure);
 	}
-	return exclude('no print evidence', 'the rationale names no print read');
+	const printed = evidenceOf(patch.rationale);
+	if (printed !== '') {
+		return { evidence: printed };
+	}
+	if (retarget) {
+		const proof = retargetProof(patch, index);
+		if ('proof' in proof) {
+			return { evidence: proof.proof };
+		}
+	}
+	return { evidence: evidenceFromRecord(evidence) };
 }
 
 export type { SourceIndex };
 export {
 	evidenceFor,
+	evidenceKindAdmits,
 	evidenceOf,
 	HOCR,
 	indexSource,

@@ -16,9 +16,13 @@
  *    citing 10-13 case 2/3/4, or a recorded deviation), never
  *    Jastrow's convention or our own structure (`NOT_UPSTREAM_CLASSES`,
  *    `NOT_UPSTREAM_OPS`).
- * 2. **Evidence** (`evidenceOf`, `retargetProof`): the rationale names
- *    print evidence (an hOCR read, a scan leaf, a maintainer print read
- *    with its date or worklist), or, for a cross-reference retarget,
+ * 2. **Evidence** (`evidenceKindAdmits`, `evidenceOf`, `retargetProof`):
+ *    the record's `evidence.kind` is `hOCR`, `maintainer-read` or
+ *    `jastrow-text` — never `sefaria-only`, pending or not. The prose
+ *    words the evidence column (an hOCR read, a scan leaf, a
+ *    maintainer print read with its date or worklist), the object
+ *    itself when the prose names none; or, for a
+ *    cross-reference retarget,
  *    the cite's own words name `X N` and exactly one entry of the
  *    family carries `N` in Sefaria's own data.
  * 3. **Traceable to Sefaria's raw string** (`changeOf`): the patch's
