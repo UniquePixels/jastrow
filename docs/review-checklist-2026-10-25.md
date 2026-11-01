@@ -278,6 +278,9 @@ survivors, 65 (51 hOCR-only, 9 maintainer read, 5 conventions).
     records no longer `pending` (177 → 137).
   - C4 done 2026-10-31 (PR #204): 29 confirmed, 0 withdrawn; 29
     records no longer `pending` (137 → 108).
+  - C5 done 2026-10-31 (PR #205): 27 confirmed, 0 withdrawn; 27
+    records no longer `pending` (108 → 81). No cite retarget stays
+    `pending`.
 - [ ] Re-read the 65 class-A survivors against a scan crop (the 51
       hOCR-only ones first). Batches H1–H3.
 - [ ] Re-read the 66 doc-08-seed patches. Batch D1.
