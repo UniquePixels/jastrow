@@ -23,6 +23,7 @@ need lives here.
 | `page.ts` | the page-index loader |
 | `html.ts` | the tokenizer every markup field is read with — the transforms' too |
 | `order.ts` | `byCodeUnit`, the one string comparator every sorted list in the repo uses: code-unit order, the same on every machine |
+| `format.ts` | the formatter: `formatEntries` runs Biome over `data/entries/` as the last step of any write, `biomeBinary` finds the pinned Biome (the project's dependency first, then PATH) |
 | `paths.ts` | the three paths the contract reads; the pipeline's `paths.ts` re-exports them |
 
 The schema itself is `data/schema/entry.schema.json`, read at run

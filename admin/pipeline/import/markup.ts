@@ -1,6 +1,6 @@
 /**
  * Markup translation (migrate spec §2.2): the source's six tags into
- * the entry vocabulary, over `transform/html.ts` tokens so text bytes
+ * the entry vocabulary, over `admin/entry/html.ts` tokens so text bytes
  * are never touched. Anchors become `<cite ref>`; what `ref` holds is
  * the resolver's decision (`cite.ts`), not this module's.
  */

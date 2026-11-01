@@ -1,5 +1,10 @@
 /**
- * Where to spawn biome from for the entry-data format step.
+ * The entry contract's formatter: Biome, run over `data/entries/` as
+ * the last step of any write — the import's (`formatEntries`) and, when
+ * it exists, the editor's save. Moved here from `import/biome.ts`
+ * 2026-10-31.
+ *
+ * Where to spawn biome from:
  * `import.ts` (then `migrate.ts`) used to name
  * `node_modules/.bin/biome` literally, which resolves only when the
  * process CWD is the repo root and only when
@@ -14,6 +19,7 @@
  */
 import { existsSync, readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
+import { ENTRIES_DIR } from './paths.ts';
 
 const BIOME_PACKAGE = '@biomejs/biome';
 
@@ -83,5 +89,26 @@ function biomeBinary(
 	);
 }
 
+/** Biome is the one formatter for entry data (consolidation spec R5), so
+ * formatting is the write's last step. It runs here rather than as a
+ * second command in the `data:import` script: `bun run` appends
+ * extra arguments to the LAST command, so `bun data:import
+ * --write` handed `--write` to biome and migrate ran dry (PR #88).
+ * Which biome is `biomeBinary`'s question, not a literal path's: the
+ * import's `main` resolves one before composing, so its spawn here
+ * cannot be the step that discovers there is none. In the entry
+ * contract (2026-10-31) rather than the import because the editor's
+ * save has to format the same way: a formatted file is part of what an
+ * entry file is. */
+function formatEntries(dir: string = ENTRIES_DIR): void {
+	const result = Bun.spawnSync([biomeBinary(), 'format', '--write', dir], {
+		stderr: 'inherit',
+		stdout: 'inherit',
+	});
+	if (result.exitCode !== 0) {
+		throw new Error(`biome format exited ${result.exitCode}`);
+	}
+}
+
 export type { BiomeLookup };
-export { biomeBinary };
+export { biomeBinary, formatEntries };

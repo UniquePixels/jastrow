@@ -103,7 +103,8 @@ The dump is ~2.4 GB compressed (~10+ GB unpacked), so `fetch.ts`
 streams it: gunzip + tar parsing happen in memory and only the three
 lexicon collections are written to disk (`.cache/sefaria/`, gitignored).
 The download is cancelled as soon as all targets are captured.
-Streaming primitives live in `lib.ts` (unit-tested).
+Streaming primitives live in `archive-io.ts` (unit-tested; named
+`lib.ts` until 2026-10-31).
 
 ### One Jastrow lexicon (not two)
 

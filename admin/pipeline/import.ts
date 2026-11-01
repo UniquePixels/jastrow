@@ -16,6 +16,7 @@ import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import process from 'node:process';
 import type { ValidateFunction } from 'ajv';
+import { biomeBinary, formatEntries } from '../entry/format.ts';
 import { loadPageIndex, type PagePlacement } from '../entry/page.ts';
 import type { Entry } from '../entry/types.ts';
 import { ENTRY_FILE_GLOB, schemaValidator } from '../entry/validate.ts';
@@ -24,7 +25,6 @@ import { evaluateRoundTrip } from './body/round-trip.ts';
 import { readSourceEntries } from './body/source.ts';
 import { buildTrace } from './body/trace.ts';
 import { composeEntry, TransformFailure } from './compose.ts';
-import { biomeBinary } from './import/biome.ts';
 import { buildHeadwordMap } from './import/cite.ts';
 import { checkCiteNumerals } from './import/cite-numeral.ts';
 import { parseCiteNumeralKept } from './import/cite-numeral-kept.ts';
@@ -577,24 +577,6 @@ async function refuseUnlessEmpty(dir: string = OUT_DIR): Promise<void> {
 	}
 }
 
-/** Biome is the one formatter for entry data (consolidation spec R5), so
- * formatting is the write's last step. It runs here rather than as a
- * second command in the `data:import` script: `bun run` appends
- * extra arguments to the LAST command, so `bun data:import
- * --write` handed `--write` to biome and migrate ran dry (PR #88).
- * Which biome is `biomeBinary`'s question, not a literal path's:
- * `main` has already resolved one, so this spawn cannot be the step
- * that discovers there is none. */
-function formatEntries(): void {
-	const result = Bun.spawnSync([biomeBinary(), 'format', '--write', OUT_DIR], {
-		stderr: 'inherit',
-		stdout: 'inherit',
-	});
-	if (result.exitCode !== 0) {
-		throw new Error(`biome format exited ${result.exitCode}`);
-	}
-}
-
 /** The entries as they will reach disk, and how much NFC changed. */
 interface Normalized {
 	entries: Entry[];
@@ -644,7 +626,7 @@ async function writeAll(normalized: Normalized, report: Report): Promise<void> {
 		writeFileSync(file, `${JSON.stringify(entry, null, '\t')}\n`);
 		report.written++;
 	}
-	formatEntries();
+	formatEntries(OUT_DIR);
 	await writeReport(report);
 	console.log(`wrote ${report.written} entry files under ${OUT_DIR}`);
 	console.log(

@@ -21,7 +21,7 @@ import {
 	extractTargets,
 	freshWriter,
 	sha256,
-} from './lib.ts';
+} from './archive-io.ts';
 import {
 	LEXICONS_PATH,
 	MANIFEST_PATH,

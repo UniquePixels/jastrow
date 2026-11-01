@@ -15,7 +15,7 @@
  */
 import { createHash } from 'node:crypto';
 import process from 'node:process';
-import { sha256 } from '../lib.ts';
+import { sha256 } from '../archive-io.ts';
 import { LOCK_PATH, SNAPSHOT_FILES } from '../paths.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex — no state (`g`/`y`)

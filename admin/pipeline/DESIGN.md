@@ -1545,7 +1545,9 @@ failed, never into the appendix:
 
 Entry data has exactly one formatter, and it is the project's: Biome
 formats `data/entries/`, and the pipeline formats **last**, as the
-write's final step (`formatEntries`). `biome.json` therefore carries
+write's final step (`formatEntries`, in the entry contract's
+`admin/entry/format.ts` since 2026-10-31 so the editor's save formats
+the same way). `biome.json` therefore carries
 `data/entries/**/*.json` in `files.includes` deliberately — the rest of
 `data/` is excluded — with an override that disables the **linter**
 there, because the files are data and not code. Contributors run
