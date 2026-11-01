@@ -1838,11 +1838,11 @@ default.
 ## Applied (2026-10-31)
 
 The maintainer's reads of 2026-10-31, applied in PR #205. All 27
-blocks are ticked `confirm`; no `Read:` line was filled and no block
-carries a note, so each reads "confirmed by tick, no free-text read",
-as C1's to C4's silent confirms did. U00526's P000750 was left
-unticked on the first pass; asked, the maintainer answered "Confirm"
-the same day, and its `Read:` line records the follow-up.
+blocks are ticked `confirm`; the maintainer wrote on no `Read:` line
+and no block carries a note, so 26 `Read:` lines record "confirmed by
+tick, no free-text read", as C1's to C4's silent confirms did. The
+27th, U00526's P000750, records a follow-up: the first pass left that
+block unticked; asked, the maintainer answered "Confirm" the same day.
 
 **27 confirmed, 0 withdrawn, 0 re-aimed.** Each record's `evidence`
 becomes `{"date": "2026-10-31", "kind": "maintainer-read", "leaf": L,
