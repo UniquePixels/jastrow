@@ -93,7 +93,7 @@ function filler(letter: string, first: number, count: number): Entry[] {
 }
 
 /** The csv's rows of one shape, as `[rid, note]`. */
-function rowsOf(csv: string, shape: string): Array<[string, string]> {
+function rowsOf(csv: string, shape: string): [string, string][] {
 	return csv
 		.trim()
 		.split('\n')
@@ -154,9 +154,7 @@ const DOUBLED = [
 	withForms('B00006', ['\u05D1\u05B8\u05B8\u05D0', 2]),
 ];
 // [case, entries, X8 rids, X9 rows as [rid, how the note opens]]
-const SEQUENCE_CASES: Array<
-	[string, Entry[], string[], Array<[string, string]>]
-> = [
+const SEQUENCE_CASES: [string, Entry[], string[], [string, string][]][] = [
 	[
 		'אֱגוֹרָא I, אֲגוֹרָא II',
 		AGORA,
@@ -231,9 +229,7 @@ describe('buildHeadwordIssues: homograph numerals number a sequence', () => {
 // names the candidate, but an I is set only where Jastrow's text names
 // it. `[case, entries, X8 rids, X10 rows as [rid, the candidate the note
 // opens with]]`.
-const CANDIDATE_CASES: Array<
-	[string, Entry[], string[], Array<[string, string]>]
-> = [
+const CANDIDATE_CASES: [string, Entry[], string[], [string, string][]][] = [
 	[
 		'an unnumbered form just before a II',
 		AGMA,

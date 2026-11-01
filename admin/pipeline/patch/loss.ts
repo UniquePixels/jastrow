@@ -84,7 +84,7 @@ function removedCodepoints(before: SourceEntry, after: SourceEntry): string {
 	while (
 		end < was.length - start &&
 		end < now.length - start &&
-		was[was.length - 1 - end] === now[now.length - 1 - end]
+		was.at(-(1 + end)) === now.at(-(1 + end))
 	) {
 		end++;
 	}

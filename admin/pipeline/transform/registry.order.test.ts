@@ -697,7 +697,7 @@ describe('registry order', () => {
 			(rule) => rule.id,
 		);
 		expect(at('trailing-whitespace-definition')).toBe(
-			ids.indexOf(textIds[textIds.length - 1] as string),
+			ids.indexOf(textIds.at(-1) as string),
 		);
 		// And the structural rules really are after it, so the phase
 		// filter is not doing the work of an ordering nobody checked.

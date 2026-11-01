@@ -70,20 +70,20 @@ describe('parseManifestLine', () => {
 	});
 
 	it('rejects a bad rid and a bad disposition together', () => {
+		let caught: unknown;
 		try {
 			parseManifestLine(
 				line({ disposition: 'fixed', patches: [], rid: 'nope' }),
 				1,
 			);
-			throw new Error('expected ManifestFormatError');
 		} catch (e) {
-			if (!(e instanceof ManifestFormatError)) {
-				throw e;
-			}
-			expect(e.reasons).toHaveLength(2);
-			expect(e.reasons[0]).toContain('rid');
-			expect(e.reasons[1]).toContain('disposition');
+			caught = e;
 		}
+		expect(caught).toBeInstanceOf(ManifestFormatError);
+		const { reasons } = caught as ManifestFormatError;
+		expect(reasons).toHaveLength(2);
+		expect(reasons[0]).toContain('rid');
+		expect(reasons[1]).toContain('disposition');
 	});
 
 	it('rejects a clean entry carrying patches', () => {

@@ -80,8 +80,8 @@ interface RuleCount {
  * plain number would get that wrong, and the error would look exactly
  * like a rule that fires more often than it does. */
 interface RuleCounter {
-	add(rule: string, rid: string): void;
-	rows(): RuleCount[];
+	add: (rule: string, rid: string) => void;
+	rows: () => RuleCount[];
 }
 
 /** What became of a patch the run offered to an entry. `applied` and
@@ -509,7 +509,6 @@ export {
 	createReport,
 	createRuleCounter,
 	GATE_NAMES,
-	IMPORT_REPORT_PATH,
 	isGreen,
 	lineRow,
 	renderBlessing,

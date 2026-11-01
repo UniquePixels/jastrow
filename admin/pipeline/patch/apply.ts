@@ -167,7 +167,7 @@ type PhaseName = (typeof PHASE_MANIFEST)[number]['name'];
 
 /** A pipeline stage ran out of the committed order. */
 class PhaseViolation extends Error {
-	constructor(message: string) {
+	public constructor(message: string) {
 		super(message);
 		this.name = 'PhaseViolation';
 	}
@@ -175,7 +175,7 @@ class PhaseViolation extends Error {
 
 /** Order-enforcing wrapper around the pipeline stages. */
 interface PhaseTracker {
-	run<T>(name: PhaseName, work: () => T): T;
+	run: <T>(name: PhaseName, work: () => T) => T;
 }
 
 /** Runtime enforcement of the phase manifest: each `run` asserts its

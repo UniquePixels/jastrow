@@ -181,7 +181,5 @@ export {
 	computeSnapshot,
 	describeMismatches,
 	diffSnapshot,
-	LOCK_PATH,
 	parseLock,
-	SNAPSHOT_FILES,
 };
