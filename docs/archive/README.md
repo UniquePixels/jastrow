@@ -66,12 +66,12 @@ accepts either path.
 **Do not repair relative links in
 [`decisions-2026-09-22.md`](decisions-2026-09-22.md).** It is a
 verbatim copy of `docs/decisions.md` as it stood at `9ec15d66a`, before
-the 2026-09-22 cut, under a 21-line banner that is its only addition.
-It holds 56 relative links, written to resolve from `docs/`; 36 of them
-do not resolve from here, and that is the intended state. Its whole
-value is being diffable against the live ledger, `docs/decisions.md`
-(restored to that path by #197 after the 2026-10-25 move), and
-rewriting one link in it destroys that.
+the 2026-09-22 cut, under a 20-line banner and one blank line that are
+its only addition. It holds 56 relative links, written to resolve from
+`docs/`; 36 of them do not resolve from here, and that is the intended
+state. Its whole value is being diffable against the live ledger,
+`docs/decisions.md` (restored to that path by #197 after the 2026-10-25
+move), and rewriting one link in it destroys that.
 
 Every OTHER document under `docs/archive/` is expected to have working
 relative links, rebased to its new location when it moved here. The
