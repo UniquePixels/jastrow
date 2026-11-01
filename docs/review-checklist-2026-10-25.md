@@ -276,6 +276,8 @@ survivors, 65 (51 hOCR-only, 9 maintainer read, 5 conventions).
     per line, C1's P000940/P000941 retired.
   - C3 done 2026-10-30 (PR #203): 40 confirmed, 0 withdrawn; 40
     records no longer `pending` (177 → 137).
+  - C4 done 2026-10-31 (PR #204): 29 confirmed, 0 withdrawn; 29
+    records no longer `pending` (137 → 108).
 - [ ] Re-read the 65 class-A survivors against a scan crop (the 51
       hOCR-only ones first). Batches H1–H3.
 - [ ] Re-read the 66 doc-08-seed patches. Batch D1.
