@@ -266,12 +266,12 @@ family member numbered I is U00524 "שׁוּקָא I, שׁוּקָה".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שׁוּקָא I` and the numeral names the target
+- [x] confirm — print reads `שׁוּקָא I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed on follow-up (the first pass left the block unticked); no free-text read.
 
 ### Family שָׁחוֹר
 
@@ -323,12 +323,12 @@ family member numbered I is U00627 "שָׁחוֹר I, שְׁחוֹרָה".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שָׁחוֹר I` and the numeral names the target
+- [x] confirm — print reads `שָׁחוֹר I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 #### U00706 · P000753
 
@@ -374,12 +374,12 @@ family member numbered I is U00627 "שָׁחוֹר I, שְׁחוֹרָה".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שָׁחוֹר I` and the numeral names the target
+- [x] confirm — print reads `שָׁחוֹר I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 #### U00864 · P000755
 
@@ -427,12 +427,12 @@ family member numbered I is U00627 "שָׁחוֹר I, שְׁחוֹרָה".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שָׁחוֹר I` and the numeral names the target
+- [x] confirm — print reads `שָׁחוֹר I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 #### V00601 · P000784
 
@@ -478,12 +478,12 @@ family member numbered I is U00627 "שָׁחוֹר I, שְׁחוֹרָה".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שָׁחוֹר I` and the numeral names the target
+- [x] confirm — print reads `שָׁחוֹר I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 #### V01081 · P000789
 
@@ -528,12 +528,12 @@ family member numbered I is U00627 "שָׁחוֹר I, שְׁחוֹרָה".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שָׁחוֹר I` and the numeral names the target
+- [x] confirm — print reads `שָׁחוֹר I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family שִׁידָּא
 
@@ -586,12 +586,12 @@ family member numbered I is U00820 "שִׁידָּא I, שִׁדָּא".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שִׁידָּא I` and the numeral names the
+- [x] confirm — print reads `שִׁידָּא I` and the numeral names the
   target above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family שֶׁלַח
 
@@ -644,12 +644,12 @@ member numbered I is U01267 "שֶׁלַח I".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שֶׁלַח I` and the numeral names the target
+- [x] confirm — print reads `שֶׁלַח I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family שָׁנָה
 
@@ -709,12 +709,12 @@ member numbered I is U01570 "שָׁנָה I".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שָׁנָה I` and the numeral names the target
+- [x] confirm — print reads `שָׁנָה I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 #### U01568 · P000769
 
@@ -762,12 +762,12 @@ member numbered I is U01570 "שָׁנָה I".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שָׁנָה I` and the numeral names the target
+- [x] confirm — print reads `שָׁנָה I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 #### V00072 · P000777
 
@@ -820,12 +820,12 @@ member numbered I is U01570 "שָׁנָה I".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שָׁנָה I` and the numeral names the target
+- [x] confirm — print reads `שָׁנָה I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family שְׁרַק
 
@@ -880,12 +880,12 @@ member numbered I is U02021 "שְׁרַק I, שְׁרֵיק".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שְׁרַק I` and the numeral names the target
+- [x] confirm — print reads `שְׁרַק I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 #### U02027 · P000775
 
@@ -934,12 +934,12 @@ member numbered I is U02021 "שְׁרַק I, שְׁרֵיק".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שְׁרַק I` and the numeral names the target
+- [x] confirm — print reads `שְׁרַק I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family תְּנֵי
 
@@ -1001,12 +1001,12 @@ patch leaves.
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `תְּנֵי I` and the numeral names the target
+- [x] confirm — print reads `תְּנֵי I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 #### V00728 · P000786
 
@@ -1059,12 +1059,12 @@ the definition as Sefaria has it, and once after P000785 applies.
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `תְּנֵי I` and the numeral names the target
+- [x] confirm — print reads `תְּנֵי I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family שִׁבְקָא
 
@@ -1115,12 +1115,12 @@ only family member numbered I is U00170 "שִׁבְקָא, שִׁי׳ I".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שִׁבְקָא I` and the numeral names the
+- [x] confirm — print reads `שִׁבְקָא I` and the numeral names the
   target above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family שִׁיפּוּי
 
@@ -1172,12 +1172,12 @@ the only family member numbered I is U01012 "שִׁיפּוּי, שִׁפּ׳ I"
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שִׁיפּוּי I` and the numeral names the
+- [x] confirm — print reads `שִׁיפּוּי I` and the numeral names the
   target above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 #### U01714 · P000772
 
@@ -1226,12 +1226,12 @@ the only family member numbered I is U01012 "שִׁיפּוּי, שִׁפּ׳ I"
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שִׁיפּוּי I` and the numeral names the
+- [x] confirm — print reads `שִׁיפּוּי I` and the numeral names the
   target above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family שִׁיקּוּר
 
@@ -1284,12 +1284,12 @@ family member numbered I is U01046 "שִׁיקּוּר, שִׁקּ׳ I".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שִׁיקּוּר I` and the numeral names the
+- [x] confirm — print reads `שִׁיקּוּר I` and the numeral names the
   target above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family שִׁלְיָא
 
@@ -1345,12 +1345,12 @@ only family member numbered I is U01295 "שִׁלְיָא, שִׁלְיָיא, �
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שִׁלְיָא I` and the numeral names the
+- [x] confirm — print reads `שִׁלְיָא I` and the numeral names the
   target above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family שְׁלֵיוָא
 
@@ -1418,12 +1418,12 @@ text reads "שְׁלֵיוָא I", Sefaria links U01306 "שְׁלֵיוָא, ש�
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `שְׁלֵיוָא I` and the numeral names the
+- [x] confirm — print reads `שְׁלֵיוָא I` and the numeral names the
   target above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family תִּגְרָא
 
@@ -1482,12 +1482,12 @@ only family member numbered I is V00092 "תִּגְרָא, תִּי׳ I".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `תִּגְרָא I` and the numeral names the
+- [x] confirm — print reads `תִּגְרָא I` and the numeral names the
   target above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 #### V00100 · P000779
 
@@ -1532,12 +1532,12 @@ only family member numbered I is V00092 "תִּגְרָא, תִּי׳ I".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `תִּגְרָא I` and the numeral names the
+- [x] confirm — print reads `תִּגְרָא I` and the numeral names the
   target above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 #### V00101 · P000780
 
@@ -1583,12 +1583,12 @@ only family member numbered I is V00092 "תִּגְרָא, תִּי׳ I".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `תִּגְרָא I` and the numeral names the
+- [x] confirm — print reads `תִּגְרָא I` and the numeral names the
   target above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 #### V00155 · P000781
 
@@ -1635,12 +1635,12 @@ only family member numbered I is V00092 "תִּגְרָא, תִּי׳ I".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `תִּגְרָא I` and the numeral names the
+- [x] confirm — print reads `תִּגְרָא I` and the numeral names the
   target above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family תִּכְלָא
 
@@ -1694,12 +1694,12 @@ family member numbered II is V00542 "תִּכְלָא, תִּי׳ II".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `תִּכְלָא II` and the numeral names the
+- [x] confirm — print reads `תִּכְלָא II` and the numeral names the
   target above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ### Family תְּרֵי
 
@@ -1759,12 +1759,12 @@ only family member numbered I is V00979 "תְּרֵי, תְּרָא I".
 
 **The maintainer's read**:
 
-- [ ] confirm — print reads `תְּרֵי I` and the numeral names the target
+- [x] confirm — print reads `תְּרֵי I` and the numeral names the target
   above
 - [ ] withdraw — print reads otherwise, or the cite is `ch.` (10-15), or
   the target is wrong
 
-Read: ________________________________ (what print shows, incl. `ch.` if present; date; second-read note if hOCR and scan disagree)
+Read (Brian, 2026-10-31): confirmed by tick, no free-text read.
 
 ## Summary
 
