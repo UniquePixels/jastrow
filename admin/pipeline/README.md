@@ -204,7 +204,13 @@ generated docs, byte for byte. Gate 10 (`contract`) came with #141.
 The last `--write` was 2026-10-25 (#196), which changed A01161,
 A01194, U00991, U01686 and U01689; the current blessing doc
 ([`import-blessing.md`](../../docs/reports/import-blessing.md), last
-regenerated 2026-10-25 by #196) shows all ten gates green.
+regenerated 2026-10-25 by #196) shows all ten gates green. **The
+reproducibility claim, dated:** on 2026-10-31, at commit `d30aaac86`
+(#212), the from-scratch import (`data/entries/[A-Z]` cleared,
+`bun data:import`, `bun qa:format`) reproduced the committed tree
+byte for byte — `git status --short data/entries` printed nothing over
+the 32,512 files, all 13 gates green, and the three generated docs
+under `docs/reports/` came back unchanged (review checklist group 5).
 
 ## The Sefaria appendix (`sefaria.ts`)
 
