@@ -169,7 +169,7 @@ rules can make P000210 report drift. P000221 was withdrawn on
 
 `repairs.ts`'s header used to keep a register of `deviation: true`
 repairs, places where v2 deliberately differs from the printed text
-(upstream-issues register #16). That register now lives in the
+(archived Sefaria report §16, `docs/archive/sefaria-report-2026-10-27.md`). That register now lives in the
 reviewed patches' `rationale`: the implied `1)` labels (B01321,
 C01169, U01787, D00072) and D00341's bracket move. Since PR #175 the
 implied `1)` labels also carry a `print-error` annotation each, and

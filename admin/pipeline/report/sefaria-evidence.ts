@@ -45,7 +45,7 @@ const NOT_UPSTREAM_CLASSES: ReadonlyMap<string, string> = new Map([
 	['headword-name-collision', 'our URL disambiguator (HW-xref-collision)'],
 	[
 		'implied-one',
-		'Jastrow’s convention: print omits an implied 1) (report §16)',
+		'Jastrow’s convention: print omits an implied 1) (archived report §16, docs/archive/sefaria-report-2026-10-27.md)',
 	],
 	['lettered-gap', 'print’s lettering gap, relabelled (10-13 case 2)'],
 	['lettered-whole-run', 'our lettered-child structure (relabel)'],

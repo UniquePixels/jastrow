@@ -37,8 +37,13 @@ document set was cut to six and everything else moved here.
 | `headword-design.md`, `research-backlog.md`, `retired-corpus-checks.md`, `url-routes.md` | the research documents that were under `docs/v2/`. `headword-design.md`'s design now lives in `DESIGN.md` §2; code docstrings that cite `retired-corpus-checks.md` point here |
 
 `docs/v2/`, `docs/specs/` and `docs/superpowers/` no longer exist.
-`sefaria-report.md` and `upstream-issues.md` stayed live and are in
-`docs/`.
+`sefaria-report.md` and `upstream-issues.md` stayed live in `docs/`
+until 2026-10-31, when review checklist group 5 made the Sefaria
+deliverable the generated appendix rows plus a short cover note:
+the 787-line class-by-class report is
+[`sefaria-report-2026-10-27.md`](sefaria-report-2026-10-27.md) here,
+and `upstream-issues.md` was removed (every register row was one of
+that report's sections; the archived header maps them).
 
 ## The 2026-10 correction cycle (2026-10-26)
 

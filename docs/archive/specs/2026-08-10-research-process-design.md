@@ -250,7 +250,7 @@ files consumed by the admin tool and compiler.
    always run clean against current Sefaria data.
 
 Findings that are genuine Sefaria errors feed
-[upstream-issues.md](../../upstream-issues.md) — upstream may fix
+[upstream-issues.md](../sefaria-report-2026-10-27.md) (retired 2026-10-31 into the archived Sefaria report) — upstream may fix
 them for free over time, at which point step 5 retires our patch.
 
 ## 7. Known limits

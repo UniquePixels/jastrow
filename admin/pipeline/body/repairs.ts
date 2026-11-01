@@ -41,7 +41,8 @@ function* walkSensesDeep(list: SourceSense[]): Generator<SourceSense> {
 }
 
 /** Drop empty strings and trim stray spaces in binyan_form arrays
- * (06 decision; upstream-issues #9/#17). Corpus-wide, not rid-keyed. */
+ * (06 decision; archived Sefaria report §9, docs/archive/sefaria-report-2026-10-27.md).
+ * Corpus-wide, not rid-keyed. */
 function cleanBinyanForms(entry: SourceEntry, records: RepairRecord[]): void {
 	for (const sense of walkSensesDeep(entry.content.senses)) {
 		const forms = sense.grammar?.binyan_form;
