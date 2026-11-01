@@ -60,9 +60,12 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
       `11-01 print images` in [`decisions.md`](decisions.md), decided
       with [`reports/scan-comparison-2026-11-01.md`](reports/scan-comparison-2026-11-01.md)
       in view.
-- [ ] **D6 — Hebrew OCR.** Reaffirm the 2026-09-04 ruling (no own-OCR
+- [x] **D6 — Hebrew OCR.** Reaffirm the 2026-09-04 ruling (no own-OCR
       error detection), or reopen it with the Latin-only diff pilot
       first? → gates group 6.
+      Decided 2026-11-01 (Brian): "Reaffirm, no own OCR". Ruling
+      `11-01 no own OCR` in [`decisions.md`](decisions.md) (the
+      2026-09-04 ruling had no row there; this is its record).
 
 ## Group 0 — Land the archive move cleanly
 
@@ -556,7 +559,7 @@ asked one at a time in that session's wrap-up box.
       pinned and nothing else changes; the display mapping (IIIF index
       = page + 15 on the `Jastrow` item) is added when the app is
       written. Ruling `11-01 print images`.
-- [ ] Compare the Claremont 2021 pair with `jastuoft` by eye on 5–10
+- [x] Compare the Claremont 2021 pair with `jastuoft` by eye on 5–10
       known-blurry leaves before ruling any switch out; the agent
       could not view images. A switch costs: `columns.jsonl` leaf
       remap (~1 h), the IIIF regex in `sefaria-report.ts`, an
@@ -568,7 +571,7 @@ asked one at a time in that session's wrap-up box.
       About the same on eight leaves; `jastuoft` out of focus on two
       vol. 1 leaves (pp. 293, 645) where Claremont is sharp; vol. 2
       equal and on the same leaf offset. Feeds D5.
-- [ ] Resolve D6. Recommendation: do not re-OCR. Use (i) locating
+- [x] Resolve D6. Recommendation: do not re-OCR. Use (i) locating
       entries is solved by Latin anchoring (96.1% exact on the checked
       range); use (ii) adjudicating a few characters is a human crop
       read, and a VLM read is a hint, never evidence under the "no
@@ -576,12 +579,16 @@ asked one at a time in that session's wrap-up box.
       Sefaria is the only use needing pointed-Hebrew OCR, and no
       engine on offer does pointing well. All 482 appendix rows came
       from structural analysis, none from an OCR diff.
-- [ ] If D6 reopens use (iii): first a Latin-only diff with the
+      Decided 2026-11-01 (Brian): "Reaffirm, no own OCR". Ruling
+      `11-01 no own OCR`.
+- [x] If D6 reopens use (iii): first a Latin-only diff with the
       existing hOCR (vol. 2's ABBYY keeps English, cites and sense
       numbers), then a 20-column VLM pilot checked by eye, then
       measure the real Sefaria Hebrew error rate before spending more.
       Order of magnitude for ~3,400 column crops on the Batch API:
       Sonnet 5.5 ~$100, Opus 5.5 ~$200.
+      Closed 2026-11-01 without action: D6 reaffirmed ("Reaffirm, no
+      own OCR"), so the pilot is not run.
 - [x] `data/page-index/README.md`: "Reprints do **not** share this
       pagination" is too strong; every 1903 copy and `Jastrow` share
       it, only leaf numbering differs. Reprints are lending-only and
