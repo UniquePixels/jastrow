@@ -280,11 +280,11 @@ survivors follow, the 51 hOCR-only (H1, H2) before the rest. The
 signatures this table replaces: no print evidence at all, 253; class A
 survivors, 65 (51 hOCR-only, 9 maintainer read, 5 conventions).
 
-- [ ] Batch the 166 cite-retargets by family; each is a `replace` of a cite, so it
+- [x] Batch the 166 cite-retargets by family; each is a `replace` of a cite, so it
       needs `maintainer-read`, `hOCR` (Latin text only) or
       `jastrow-text` evidence (the target entry's own numeral), or is
       withdrawn; a batch never leaves a member `sefaria-only` without
-      `pending`. Batches C1–C5.
+      `pending`. Batches C1–C5, all done 2026-10-31.
   - C1 done 2026-10-27 (PR #200): 29 confirmed, 2 re-aimed at B01153
     (B01237, N00106), 2 reform patches giving A02412 and B00049
     homograph I by Jastrow's cross-references (10-13 case 2); 31
@@ -296,6 +296,9 @@ survivors, 65 (51 hOCR-only, 9 maintainer read, 5 conventions).
     records no longer `pending` (177 → 137).
   - C4 done 2026-10-31 (PR #204): 29 confirmed, 0 withdrawn; 29
     records no longer `pending` (137 → 108).
+  - C5 done 2026-10-31 (PR #205): 27 confirmed, 0 withdrawn; 27
+    records no longer `pending` (108 → 81). No cite retarget stays
+    `pending`.
 - [ ] Re-read the 65 class-A survivors against a scan crop (the 51
       hOCR-only ones first). Batches H1–H3.
 - [ ] Re-read the 66 doc-08-seed patches. Batch D1.
