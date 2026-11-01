@@ -38,8 +38,8 @@ filters hold:
    in `admin/pipeline/report/sefaria-evidence.ts`).
 2. **Print evidence**: the record's `evidence.kind` is a print read
    or Jastrow's text, never Sefaria's text alone (a record still
-   waiting for its re-read is held back, whatever its notes say), and
-   the rationale names it: an hOCR line, a scan read, or, for a
+   waiting for its re-read is held back, whatever its notes say); the
+   evidence column names it: an hOCR line, a scan read, or, for a
    cross-reference retarget, Jastrow's own text (the cite reads `X N`
    and exactly one entry of X's family carries `N` in Sefaria's data,
    or carries it once a print-read row of this appendix restores the

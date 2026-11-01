@@ -270,7 +270,11 @@ describe('buildSefariaAppendix: one row per solid patch', () => {
 				[
 					patch({
 						...REPLACE,
-						evidence: { date: '2026-10-25', kind: 'maintainer-read', reader: 'Brian' },
+						evidence: {
+							date: '2026-10-25',
+							kind: 'maintainer-read',
+							reader: 'Brian',
+						},
 						rationale: prose,
 					}),
 				],
@@ -278,19 +282,39 @@ describe('buildSefariaAppendix: one row per solid patch', () => {
 		);
 		expect(read.rows[0]?.evidence).toBe('scan leaf 73');
 		const none = buildSefariaAppendix(
-			inputs([rec], [patch({ ...REPLACE, evidence: undefined, rationale: prose })]),
+			inputs(
+				[rec],
+				[patch({ ...REPLACE, evidence: undefined, rationale: prose })],
+			),
 		);
 		expect(none.review[0]?.detail).toBe('evidence.kind is none');
 	});
 
-	it('sends a patch with no print evidence to review', () => {
+	it('words the evidence from the record when the prose names none', () => {
 		const rec = record('A00001', {
 			content: { senses: [{ definition: TEXT }] },
 		});
-		const out = buildSefariaAppendix(
+		const hocr = buildSefariaAppendix(
 			inputs([rec], [patch({ ...REPLACE, rationale: 'review doc 01' })]),
 		);
-		expect(out.review[0]?.reason).toBe('no print evidence');
+		expect(hocr.rows[0]?.evidence).toBe('hOCR');
+		const read = buildSefariaAppendix(
+			inputs(
+				[rec],
+				[
+					patch({
+						...REPLACE,
+						evidence: {
+							date: '2026-10-25',
+							kind: 'maintainer-read',
+							reader: 'Brian',
+						},
+						rationale: 'review doc 01',
+					}),
+				],
+			),
+		);
+		expect(read.rows[0]?.evidence).toBe('maintainer print read 2026-10-25');
 	});
 
 	it('writes a delete that empties the field as (empty)', () => {
@@ -474,6 +498,7 @@ describe('buildSefariaAppendix: a cross-reference retarget’s text proof', () =
 	const cite = `v. ${anchor('בָּב II')}.`;
 	const retarget = patch({
 		defect_class: 'cross-reference-target',
+		evidence: { kind: 'jastrow-text', quote: 'בָּב I' },
 		expected_before: cite,
 		op: 'replace',
 		payload: { find: anchor('בָּב II'), replace: anchor('בָּב') },
@@ -535,6 +560,7 @@ describe('buildSefariaAppendix: a cross-reference retarget’s text proof', () =
 	it('reads an anchor with the same text after it in find and replace', () => {
 		const tail = patch({
 			defect_class: 'cross-reference-target',
+			evidence: { kind: 'jastrow-text', quote: 'בָּב I' },
 			expected_before: cite,
 			op: 'replace',
 			payload: { find: `${anchor('בָּב II')}.`, replace: `${anchor('בָּב')}.` },
@@ -560,6 +586,22 @@ describe('buildSefariaAppendix: a cross-reference retarget’s text proof', () =
 		const two = record('B00050', { headword: 'בָּב II' });
 		const out = buildSefariaAppendix(inputs([citing, one, two], [retarget]));
 		expect(out.review[0]?.reason).toBe('no print evidence');
+		const read = buildSefariaAppendix(
+			inputs(
+				[citing, one, two],
+				[
+					patch({
+						...retarget,
+						evidence: {
+							date: '2026-10-25',
+							kind: 'maintainer-read',
+							reader: 'Brian',
+						},
+					}),
+				],
+			),
+		);
+		expect(read.rows[0]?.evidence).toBe('maintainer print read 2026-10-25');
 	});
 });
 

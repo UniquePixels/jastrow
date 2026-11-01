@@ -18,9 +18,10 @@
  *    `NOT_UPSTREAM_OPS`).
  * 2. **Evidence** (`evidenceKindAdmits`, `evidenceOf`, `retargetProof`):
  *    the record's `evidence.kind` is `hOCR`, `maintainer-read` or
- *    `jastrow-text` — never `sefaria-only`, pending or not — and the
- *    rationale names print evidence (an hOCR read, a scan leaf, a
- *    maintainer print read with its date or worklist), or, for a
+ *    `jastrow-text` — never `sefaria-only`, pending or not. The prose
+ *    words the evidence column (an hOCR read, a scan leaf, a
+ *    maintainer print read with its date or worklist), the object
+ *    itself when the prose names none; or, for a
  *    cross-reference retarget,
  *    the cite's own words name `X N` and exactly one entry of the
  *    family carries `N` in Sefaria's own data.

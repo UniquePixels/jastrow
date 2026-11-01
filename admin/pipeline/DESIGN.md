@@ -834,6 +834,16 @@ report counts the ones that applied (`patches.pending`, on the
 blessing's "Patch evidence" line). Gate 11, `evidenceLocator` (§9),
 checks every applied patch's locator and every `hOCR` quote.
 
+**What the Sefaria appendix does with it.** The `evidence` object is
+the authority (2026-10-31): `bun data:sefaria` admits a record by its
+`evidence.kind` alone — `maintainer-read`, `hOCR` or `jastrow-text`,
+never `sefaria-only` — and the rationale prose supplies the evidence
+column's text, falling back to the object when it names none; the
+prose never admits or excludes a row. A cross-reference retarget's
+text proof is checked against Sefaria's data, not the prose, and a
+`jastrow-text` retarget whose proof fails is held back ("The Sefaria
+appendix", §10).
+
 **`status: provisional`** marks a patch under dispute. It stays valid
 and in the corpus and passes the preflight, then `splitProvisional`
 holds it out of the apply set: it is never applied, and each is a
@@ -1546,9 +1556,10 @@ failed, never into the appendix:
 2. **Evidence.** The record's `evidence.kind` is `hOCR`,
    `maintainer-read` or `jastrow-text` — a `sefaria-only` record,
    `pending` or not, is held back whatever its rationale names (ruling
-   `10-26 patch evidence` as amended 2026-10-31) — and the rationale
-   names an hOCR read, a scan leaf, or a
-   maintainer print read with its date or worklist; or, for a
+   `10-26 patch evidence` as amended 2026-10-31; the object is the
+   authority, §5) — and the rationale words the evidence column: an hOCR read, a scan leaf, or a
+   maintainer print read with its date or worklist, else the object
+   itself; or, for a
    `cross-reference-target` retarget, the text proof: the cite reads
    `X N`, the old and new links resolve to two entries, and the new one
    is the only entry of the old one's family run (consonants equal,
