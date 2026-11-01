@@ -1,4 +1,4 @@
-# C4: cite retargets פ–ר, maintainer re-read (2026-10-30)
+# C4: cite retargets פ–ר, maintainer re-read (prepared 2026-10-30, read 2026-10-31)
 
 Group 3, batch 4 of 12, of
 [`docs/review-checklist-2026-10-25.md`](../../../../../../docs/review-checklist-2026-10-25.md):
