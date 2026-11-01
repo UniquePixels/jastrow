@@ -1854,10 +1854,14 @@ re-aims it:
   `ch.` line B01153), `payload.replace` aims at the read's
   target by its link key; `find`, `expected_before` and `target` are
   unchanged; the `rationale` carries a dated amendment paragraph; and
-  `evidence` is the maintainer's read, as for a confirm. A re-aim or
-  withdraw of P000785 changes the definition P000786 applies on, so
-  P000786's `expected_before` and `target` follow it in the same
-  commit.
+  `evidence` is the maintainer's read, as for a confirm.
+- **the V00728 pair** → P000786 applies on the definition P000785
+  leaves, so a re-aim or withdraw of P000785 changes P000786 in the
+  same commit: its `expected_before` and `target` are recomputed from
+  the definition P000785 then leaves, and on a withdraw, where its
+  `find` matches both cites again, its `occurrence_index` and
+  `expected_occurrences` are set to the second of two. A confirm of
+  P000785 changes nothing in P000786.
 - A block with both boxes ticked, or a `Read:` line that disagrees with
   the hOCR line, goes back for a second read. Its record is left as it
   is, `sefaria-only` and `pending`, so the import keeps applying it as
