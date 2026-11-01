@@ -19,16 +19,25 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
       boundary messages, `.claude/CLAUDE.md`). Restore it to `docs/`,
       or decide that rulings now live somewhere else and say where.
       → gates group 0.
-- [ ] **D2 — Will the update run (R11, three-way merge) ever be built?**
+- [x] **D2 — Will the update run (R11, three-way merge) ever be built?**
       It is UNBUILT (`DESIGN.md` §11 items 46–47); `--write` refuses a
       populated tree (`import.ts:494`). After the first post-publish
       hand edit the import can only run by deleting `data/entries/`.
       Yes → import stays live. No → import is archived to a tag at
       publish. → gates group 5.
-- [ ] **D3 — After publish, do Sefaria-error corrections go only through
+      Decided 2026-10-31 (Brian): yes, later. The update run is built
+      with the admin system, after the app is live; the import stays
+      live and is not archived at publish. Ruling
+      `10-31 update run deferred` in [`decisions.md`](decisions.md).
+- [x] **D3 — After publish, do Sefaria-error corrections go only through
       the admin tool?** If so the Sefaria appendix's only input
       (patch records) freezes, unless the "diff entries against
       source" generator (09-21 ruling) is designed. → gates group 5.
+      Closed 2026-10-31: already answered by ruling 09-21 admin edits
+      (admin edits are file edits, never patches). The appendix is
+      generated from the patch records as they stand at publish; the
+      generator is designed with the admin system if wanted. Recorded
+      in the `10-31 update run deferred` row.
 - [x] **D4 — Patch evidence policy.** Accept a mandatory `evidence`
       object on every reviewed patch, with the import refusing
       `sefaria-only` evidence on any op that changes text? And what
@@ -199,6 +208,15 @@ row has no members. The re-import changed no entry file.
 
 Maintainer work in batches, each batch its own PR, using the group 2
 checklist format. Depends on D4.
+
+**Scope, 2026-10-31 (Brian).** None of this group blocks the import or
+the app: a `pending` patch applies and is counted in the blessing
+(`patch/apply.ts`, "A pending patch still applies"), so the committed
+tree is complete with the re-reads undone. C1–C5 finish now because
+they are in flight. H1–H3, D1, O1–O3 and the D01114 split are
+**tracked for after publish**, one issue (opened on Brian's go), not
+scheduled before the app. The measured yield so far: 2 wrong in 139
+read (C1–C4), both re-aimed cites.
 
 Since 2026-10-26 (ruling `10-26 patch evidence`, group 1) every
 reviewed record carries `evidence`, and the 247 the backfill could not
@@ -375,13 +393,14 @@ After publish the answer depends on D2 and D3. 85% of the unit tests
 | `qa*`, `data:validate`, ci-lint, CodeQL, Scorecard | every PR, forever | keep |
 | `data:sefaria` | future event (Sefaria sync) | keep; fix path (group 0) |
 | `data:fetch` | future event | `rebuild:*` script group |
-| `data:import`, `data:import:dry` | live until publish | then tag or `rebuild:*` per D2 |
+| `data:import`, `data:import:dry` | live, stays live (D2) | `rebuild:*` naming; R11 with the admin system |
 | `transform:count`, `transform:invariants` | rule-change guard | `rebuild:*` now |
 | `patch/snapshot.ts` | has no script | add `rebuild:pin` |
 | report generators (blessing, review-report, headword-issues, reviewed-kept) | import-only | go with the import |
 | `patch/records/`, `transform/rules/` | the import's definition | go with the import |
 
-- [ ] Resolve D2 and D3 and record them as rulings.
+- [x] Resolve D2 and D3 and record them as rulings. Done 2026-10-31:
+      `10-31 update run deferred` in `decisions.md`.
 - [ ] Add a `rebuild:*` script group (`rebuild:fetch`, `rebuild:pin`,
       `rebuild:count`, `rebuild:invariants`) so a reader can tell the
       everyday scripts from the from-scratch ones.
@@ -390,12 +409,17 @@ After publish the answer depends on D2 and D3. 85% of the unit tests
       0-drift measurement (10-02) lives only in session memory.
       `admin/pipeline/README.md` now dates the last `--write` (#196,
       2026-10-25) but still cites no drift measurement.
-- [ ] If D2 is "no": at publish, tag `archive/v2-import-<date>` and
+- [x] If D2 is "no": at publish, tag `archive/v2-import-<date>` and
       remove the import, transform rules, patch records and their
       tests from the live tree, keeping what `data:sefaria` imports
       (`patch/apply`, `patch/snapshot`, `patch/schema`, `import/cite`).
+      Closed without action 2026-10-31: D2 is "yes, later", the import
+      is not archived.
 - [ ] If D2 is "yes": schedule R11 and write the merge path into
-      `DESIGN.md` before publish.
+      `DESIGN.md` before publish. Amended 2026-10-31: R11 is
+      scheduled for the admin-system effort, after the app is live;
+      the merge path is written then, not before publish. Nothing to
+      do in this cycle; the box stays open for that effort.
 - [ ] Decide whether `docs/reports/{import-blessing,review-report,
       headword-issues}` remain generated outputs (then un-archive them)
       or stop being written (then remove the write paths).
@@ -411,7 +435,9 @@ After publish the answer depends on D2 and D3. 85% of the unit tests
       hand-written cover note), fold `upstream-issues.md` into
       `sefaria-report.md` or retire it, leave the generated three where
       the script writes them, and close the `docs/ideas.md` row "Refresh
-      `sefaria-report.md` before filing". Depends on D3.
+      `sefaria-report.md` before filing". D3 is closed (2026-10-31):
+      the generated rows come from the patch records as they stand at
+      publish.
 
 ## Group 6 — Print sources and OCR
 
