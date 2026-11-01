@@ -11,6 +11,17 @@ different leaf counts, for example `DictionaryOfTargumsTalmudsAndMidrashlit.inde
 (700/704 and 1,034/1,065 leaves). Their leaf numbers do not line up with the page
 index. Use only the two items below.
 
+Two other open items are worth naming so nobody re-derives them. `Jastrow`
+is a HebrewBooks.org PDF of both volumes (the stamp is in its OCR text),
+uploaded in 2024 by a member of the public; 1,752 leaves at 2110 × 2858,
+printed page = IIIF index − 15, no volume break; its only OCR is Tesseract
+5.3 (`lat+eng+heb`), it has no ABBYY file and names no source library. v1
+used it for page images. `dictionaryoftarg0001jast` / `dictionaryoftarg0002unse`
+are the Claremont School of Theology 2021 scans (718 / 1,068 leaves,
+Tesseract 5.0, 2314 × 3256 and 2488 × 3561); vol. 1's leaf runs two behind
+`jastuoft`'s, vol. 2's matches it. Sharpness by eye on ten pages:
+[`docs/reports/scan-comparison-2026-11-01.md`](../../../docs/reports/scan-comparison-2026-11-01.md).
+
 ## Source
 
 Scanned 2009 by the University of Toronto, Robarts Library; sponsored by the
@@ -59,7 +70,9 @@ So a quote from here can show an English gloss, a citation, a sense
 number, a Roman numeral, a parenthesis or a comma, and where on the
 leaf they sit; it cannot show how a Hebrew word is spelled or pointed.
 A Hebrew reading needs a person's read of the scan, recorded as
-`maintainer-read` evidence. This is the rule a reviewed patch's
+`maintainer-read` evidence; no rationale may cite an hOCR line for one,
+and the same goes for the other items' Tesseract output (`Jastrow`,
+the Claremont pair), none of which is in the repo. This is the rule a reviewed patch's
 `evidence` follows (ruling `10-26 patch evidence` in
 [`docs/decisions.md`](../../../docs/decisions.md);
 [`admin/pipeline/DESIGN.md`](../../../admin/pipeline/DESIGN.md) §5

@@ -519,8 +519,8 @@ Facts (ocr agent, each from `archive.org/metadata/<id>`):
 |---|---|---|---|---|---|
 | `dictionaryoftarg01jastuoft` | 1 | Robarts/UofT 2009, Canon 1Ds 400 ppi, 2774×3710 | 718 | Tesseract 5.0 `heb+eng` | in use; largest pixel size of any open item |
 | `dictionaryoftarg02jastuoft` | 2 | same | 1,070 | ABBYY FineReader 8, no Hebrew | in use; **0 Hebrew chars** |
-| `Jastrow` | 1+2 | HebrewBooks.org PDF, 2012 pdfsam merge, uploaded 2024 by a member of the public; 2100×2850 | 1,752 | Tesseract 5.3 `lat+eng+heb` | v1's display images; **no ABBYY file**; page = leaf − 15, no volume break |
-| `dictionaryoftarg0001jast` + `dictionaryoftarg0002unse` | 1, 2 | Claremont School of Theology / IA Cebu 2021, 350 ppi | 718 / 1,068 | Tesseract 5.0 | the only other open, both-volume, library scan |
+| `Jastrow` | 1+2 | HebrewBooks.org PDF, 2012 pdfsam merge, uploaded 2024 by a member of the public; 2100×2850 | 1,752 | Tesseract 5.3 `lat+eng+heb` | v1's display images; **no ABBYY file**; page = IIIF index − 15 (0-based leaf − 14), no volume break |
+| `dictionaryoftarg0001jast` + `dictionaryoftarg0002unse` | 1, 2 | Claremont School of Theology / IA Cebu 2021, 350 / 360 ppi, 2314×3256 / 2488×3561 | 718 / 1,068 | Tesseract 5.0 | the only other open, both-volume, library scan |
 | `adictionarytarg00jastgoog` | 2 | Google/Harvard 2007, 1135×1544 | 1,065 | Tesseract | low resolution |
 
 The printed page number is the same in every 1903 copy, so
@@ -528,10 +528,21 @@ The printed page number is the same in every 1903 copy, so
 column) survives any switch. Only `leaf`/`volume` are scan-specific.
 No live code parses hOCR; the page-index build that did is archived.
 
-- [ ] Correct the premise in the brief: the `Jastrow` item has no
+Started 2026-11-01 on `claude/checklist-g6-print-8be947`: the four
+boxes that need no decision, and the scan comparison. D5 and D6 are
+asked one at a time in that session's wrap-up box.
+
+- [x] Correct the premise in the brief: the `Jastrow` item has no
       ABBYY output (Tesseract 5.3 only) and names no source library;
       its origin is the HebrewBooks.org stamp in the OCR text. The
       "third" URL was the same item as the second.
+      Done 2026-11-01: the premise was the brief's alone; no file in
+      the tree ever stated it (grepped `docs/`, `data/`, `admin/`).
+      Re-checked against `archive.org/metadata/Jastrow` (files: no
+      `_abbyy`, `ocr: tesseract 5.3.0`, `contributor` empty, uploader a
+      personal address) and the stamp `www.hebrewbooks.org` in
+      `Jastrow_djvu.txt`. The facts are now recorded where the next
+      reader looks, `data/print/hocr/README.md` ("Other uploads").
 - [ ] Resolve D5. If "evidence stays pinned, `Jastrow` for display":
       add the display mapping (page + 15) when the app is written and
       nothing else changes.
@@ -541,6 +552,12 @@ No live code parses hOCR; the page-index build that did is archived.
       remap (~1 h), the IIIF regex in `sefaria-report.ts`, an
       amendment tranche for 453 IIIF links and 505 leaf cites, and a
       re-run of the L71 quote check.
+      Done 2026-11-01: ten pages read at native resolution from both
+      pairs (plus `Jastrow` on two), report in
+      [`reports/scan-comparison-2026-11-01.md`](reports/scan-comparison-2026-11-01.md).
+      About the same on eight leaves; `jastuoft` out of focus on two
+      vol. 1 leaves (pp. 293, 645) where Claremont is sharp; vol. 2
+      equal and on the same leaf offset. Feeds D5.
 - [ ] Resolve D6. Recommendation: do not re-OCR. Use (i) locating
       entries is solved by Latin anchoring (96.1% exact on the checked
       range); use (ii) adjudicating a few characters is a human crop
@@ -555,13 +572,18 @@ No live code parses hOCR; the page-index build that did is archived.
       measure the real Sefaria Hebrew error rate before spending more.
       Order of magnitude for ~3,400 column crops on the Batch API:
       Sonnet 5.5 ~$100, Opus 5.5 ~$200.
-- [ ] `data/page-index/README.md`: "Reprints do **not** share this
+- [x] `data/page-index/README.md`: "Reprints do **not** share this
       pagination" is too strong; every 1903 copy and `Jastrow` share
       it, only leaf numbering differs. Reprints are lending-only and
       unverified.
-- [ ] Record in `data/print/hocr/README.md` what the hOCR can witness
+      Done 2026-11-01: rewritten to say exactly that.
+- [x] Record in `data/print/hocr/README.md` what the hOCR can witness
       (group 1's last item) so no future rationale cites it for a
       Hebrew reading.
+      Done 2026-11-01: group 1 had written the section ("What the hOCR
+      can witness", with the whole-file counts 0 vs 311,375); it now
+      also says no rationale may cite an hOCR line for a Hebrew
+      reading, nor the other items' Tesseract output.
 
 ## Group 7 — Docs drift and small hygiene
 

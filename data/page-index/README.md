@@ -81,8 +81,12 @@ first.
 
 ## Scan coordinates
 
-Pinned to the Internet Archive scans of the 1903 two-volume set. Reprints do
-**not** share this pagination.
+Pinned to the Internet Archive scans of the 1903 two-volume set. Every 1903
+copy prints the same page numbers, and so does the `Jastrow` item (a
+HebrewBooks.org PDF of the same edition), so `page` and `column` hold across
+scans; only the leaf numbering differs from scan to scan, so `leaf` and
+`volume` are specific to the two items below. Later reprints are
+lending-only on archive.org and their pagination has not been checked.
 
 | Volume | IA identifier | Leaves | `printedPage` |
 |---|---|---|---|
