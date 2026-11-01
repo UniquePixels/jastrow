@@ -68,7 +68,7 @@ including AI-assisted work.
 <emoji> <type>([scope]): <description>
 ```
 
-Types: `🦄 new` / `🌈 improve` / `🦠 fix` / `🧺 chore` / `📖 doc` / `🚦 ci`
+Types: `🦄 new` / `🌈 improve` / `🦠 fix` / `🧺 chore` / `🚀 release` / `📖 doc` / `🚦 ci`
 
 Example: `🦠 fix(ui): correct search input focus on mobile`
 
@@ -80,6 +80,15 @@ All commits must include a sign-off line (`git commit -s`).
 - Biome handles linting and formatting (`bun qa:lint`, `bun qa:format`)
 - Tabs for indentation, single quotes for strings
 - Run `bun qa` before every commit — format, lint, unit tests, `tsc`
+- `bun qa:lint` prints only errors and warnings: every Biome rule whose
+  default level is `info` is either promoted to `warn` or turned off in
+  `biome.json` (which cannot hold comments, so the three that are off
+  are explained here). `useExpect`: test helpers such as `expectLine`
+  in `admin/entry/headwords.test.ts` wrap `expect` on purpose, for
+  Sonar's duplication gate. `useDestructuring`: `senses[0]` named by
+  index is deliberate — the position is the point. `useNamedCaptureGroup`:
+  naming a group means rewriting every `match[n]` consumer in rule code
+  the corpus baselines pin.
 
 ## Tests
 
