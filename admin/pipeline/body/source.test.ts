@@ -143,6 +143,11 @@ describe('the tier guard', () => {
 			),
 		).toBe(false);
 		expect(refusesDefaultPath('/repo/admin/pipeline/import.ts')).toBe(false);
+		// Bun's discovery runs these too, and `qa:test` excludes only corpus
+		// files, so a corpus read under any of them would be the unit tier.
+		for (const name of ['a.spec.ts', 'a_test.ts', 'a_spec.ts', 'a.test.tsx']) {
+			expect(refusesDefaultPath(`/repo/${name}`)).toBe(true);
+		}
 	});
 
 	it('throws, naming transform:invariants, when this unit test streams the whole snapshot', async () => {

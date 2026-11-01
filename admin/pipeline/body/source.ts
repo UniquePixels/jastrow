@@ -6,6 +6,10 @@
 import { SOURCE_PATH } from '../paths.ts';
 import type { SourceEntry } from '../types.ts';
 
+/** Every filename `bun test` discovers (its four patterns, any JS/TS
+ * extension). Hoisted per useTopLevelRegex. */
+const UNIT_TEST_FILE = /[._](?:test|spec)\.[cm]?[jt]sx?$/u;
+
 /** Parse one JSONL line into a `SourceEntry`. */
 function parseSourceEntry(line: string): SourceEntry {
 	return JSON.parse(line) as SourceEntry;
@@ -39,11 +43,13 @@ async function* linesOf(
 /** The test-tier split (`DESIGN.md` §1, Test tiers), asserted rather
  * than left to filename convention: under `bun test`, `Bun.main` is
  * the test file being run, and only a `*.corpus.test.ts` may stream
- * the whole snapshot — the unit tier (`*.test.ts`, `bun qa`, CI's
- * `Test` job) may not. `main` is a parameter so the unit test can
- * pose both tiers. */
+ * the whole snapshot — the unit tier (`bun qa`, CI's `Test` job) may
+ * not. The unit tier is every file Bun's discovery runs, not only the
+ * `*.test.ts` the repo's convention names: `*_test.*`, `*.spec.*` and
+ * `*_spec.*` too, since `qa:test` excludes corpus files and nothing
+ * else. `main` is a parameter so the unit test can pose both tiers. */
 function refusesDefaultPath(main: string): boolean {
-	return main.endsWith('.test.ts') && !main.endsWith('.corpus.test.ts');
+	return UNIT_TEST_FILE.test(main) && !main.endsWith('.corpus.test.ts');
 }
 
 /** Stream every entry from the source JSONL, one line at a time. Never
@@ -58,7 +64,7 @@ function refusesDefaultPath(main: string): boolean {
 async function* readSourceEntries(path?: string): AsyncGenerator<SourceEntry> {
 	if (path === undefined && refusesDefaultPath(Bun.main)) {
 		throw new Error(
-			`readSourceEntries() with no path streams all 32,512 source entries, which a *.test.ts (the unit tier) may not do: pass a fixture path, or name the file *.corpus.test.ts and add it to \`bun run transform:invariants\` (admin/pipeline/DESIGN.md §1, Test tiers); running as ${Bun.main}`,
+			`readSourceEntries() with no path streams all 32,512 source entries, which a unit-tier test file may not do: pass a fixture path, or name the file *.corpus.test.ts and add it to \`bun run transform:invariants\` (admin/pipeline/DESIGN.md §1, Test tiers); running as ${Bun.main}`,
 		);
 	}
 	for await (const line of linesOf(Bun.file(path ?? SOURCE_PATH).stream())) {
