@@ -586,6 +586,16 @@ describe('buildSefariaAppendix: a cross-reference retarget’s text proof', () =
 		const two = record('B00050', { headword: 'בָּב II' });
 		const out = buildSefariaAppendix(inputs([citing, one, two], [retarget]));
 		expect(out.review[0]?.reason).toBe('no print evidence');
+		// A jastrow-text retarget's claim is the proof: prose naming a
+		// print read does not stand in for it (PR #214 review).
+		const prosed = buildSefariaAppendix(
+			inputs(
+				[citing, one, two],
+				[patch({ ...retarget, rationale: `${HOCR}; the cite reads בָּב I` })],
+			),
+		);
+		expect(prosed.rows).toHaveLength(0);
+		expect(prosed.review[0]?.reason).toBe('no print evidence');
 		const read = buildSefariaAppendix(
 			inputs(
 				[citing, one, two],

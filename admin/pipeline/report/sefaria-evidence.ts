@@ -252,18 +252,19 @@ function push<K, V>(map: Map<K, V[]>, key: K, value: V): void {
 	}
 }
 
-/** Every numeral a case-1 reviewed reform with print evidence sets on
- * a form, by rid. */
+/** Every numeral a case-1 reviewed reform with PRINT evidence (`hOCR` or
+ * `maintainer-read`; a `jastrow-text` reform is not print-backed) sets
+ * on a form, by rid. The evidence object decides, not the prose. */
 function restoredNumerals(
 	patches: readonly SemanticPatch[],
 ): Map<string, Restored[]> {
 	const out = new Map<string, Restored[]>();
 	for (const patch of patches) {
+		const kind = patch.evidence?.kind;
 		if (
 			patch.op !== 'reform' ||
 			scopeReason(patch) !== undefined ||
-			!evidenceKindAdmits(patch) ||
-			evidenceOf(patch.rationale) === ''
+			(kind !== 'hOCR' && kind !== 'maintainer-read')
 		) {
 			continue;
 		}
@@ -475,10 +476,11 @@ function evidenceFromRecord(evidence: PatchEvidence): string {
 }
 
 /** The evidence column for a patch, or the exclusion when its record
- * cannot carry a row. The `evidence` object decides; the prose, then
- * the retarget proof, then the object itself word the column. A
- * `jastrow-text` retarget whose text proof fails in Sefaria's data is
- * held back: its claim is that proof. */
+ * cannot carry a row. The `evidence` object decides. A `jastrow-text`
+ * retarget's claim is its text proof, so that proof is checked first,
+ * whatever the prose names, and words the column; it is held back when
+ * the proof fails in Sefaria's data. Otherwise the prose, then the
+ * retarget proof, then the object itself word the column. */
 function evidenceFor(
 	patch: SemanticPatch,
 	index: SourceIndex,
@@ -489,20 +491,24 @@ function evidenceFor(
 		const pending = evidence?.pending === true ? ', pending a re-read' : '';
 		return exclude('no print evidence', `evidence.kind is ${kind}${pending}`);
 	}
+	const retarget = patch.defect_class === 'cross-reference-target';
+	if (retarget && evidence.kind === 'jastrow-text') {
+		const proof = retargetProof(patch, index);
+		return 'proof' in proof
+			? { evidence: proof.proof }
+			: exclude('no print evidence', proof.failure);
+	}
 	const printed = evidenceOf(patch.rationale);
 	if (printed !== '') {
 		return { evidence: printed };
 	}
-	if (patch.defect_class !== 'cross-reference-target') {
-		return { evidence: evidenceFromRecord(evidence) };
+	if (retarget) {
+		const proof = retargetProof(patch, index);
+		if ('proof' in proof) {
+			return { evidence: proof.proof };
+		}
 	}
-	const proof = retargetProof(patch, index);
-	if ('proof' in proof) {
-		return { evidence: proof.proof };
-	}
-	return evidence.kind === 'jastrow-text'
-		? exclude('no print evidence', proof.failure)
-		: { evidence: evidenceFromRecord(evidence) };
+	return { evidence: evidenceFromRecord(evidence) };
 }
 
 export type { SourceIndex };
