@@ -640,7 +640,8 @@ asked one at a time in that session's wrap-up box.
       offsets moved to `admin/pipeline/patch/scan.ts`; the loader
       moved from `admin/entry/` to `admin/pipeline/page-index.ts`;
       `data:validate` no longer compares pages; the import no longer
-      raises `page-confidence-*` rows (the class is one issue).
+      raises `page-confidence-*` rows (the class is
+      [#219](https://github.com/UniquePixels/jastrow/issues/219)).
 
 ## Group 7 — Docs drift and small hygiene
 
