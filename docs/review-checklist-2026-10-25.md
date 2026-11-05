@@ -642,6 +642,13 @@ asked one at a time in that session's wrap-up box.
       `data:validate` no longer compares pages; the import no longer
       raises `page-confidence-*` rows (the class is
       [#219](https://github.com/UniquePixels/jastrow/issues/219)).
+- [x] Five entries around p. 415 in the wrong column. Found
+      2026-11-05 while checking the rebuilt map: G00731–G00732 on 414b,
+      G00735 on 415b and G00740–G00741 on 415a, all `medium`; the scan
+      puts the first three on 415a and the last two on 415b.
+      Done 2026-11-05 on `fix/page-index-683`: three block rows and
+      five entry files corrected (3,396 rows), recorded in
+      `data/page-index/README.md` "Corrections since the build".
 
 ## Group 7 — Docs drift and small hygiene
 

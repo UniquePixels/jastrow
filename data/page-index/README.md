@@ -8,7 +8,7 @@ Ruling `11-05 page index` in [`docs/decisions.md`](../../docs/decisions.md).
 
 ## `columns.jsonl`
 
-One row per printed **block**, in print order (3,397 rows):
+One row per printed **block**, in print order (3,396 rows):
 
 ```json
 {"column":"a","first":"A00000","last":"A00012","page":1}
@@ -71,6 +71,14 @@ Each is read off the scan and recorded here.
   offset read as a "p. 690" that vol. 2 also prints. The scan shows
   both in p. 683 column b, under the running head כתת. Vol. 1's text
   ends on p. 683; vol. 2 opens on p. 685.
+- **2026-11-05, five entries around p. 415.** The build had זרף and
+  זְרַף (G00731–G00732) on p. 414b, זְרַק ch. (G00735) on p. 415b and
+  זֵתָא and זֵתִים (G00740–G00741) on p. 415a, all `medium`. The scan
+  shows p. 414b ending with זַרְעִית ch. (G00730); p. 415a opening with
+  זרף, under the running head זרף, through זְרַק ch.; and p. 415b
+  running from זִרְקְתָא to זֵתִים, above the ח heading. The three
+  rows now read 414b G00723–G00730, 415a G00731–G00735 and 415b
+  G00736–G00741, and the five entry files match.
 
 ## Rights
 
