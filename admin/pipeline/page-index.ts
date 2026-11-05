@@ -72,8 +72,7 @@ function parseBlock(line: string): Block {
 		!Number.isInteger(page) ||
 		page < 1 ||
 		first === undefined ||
-		last === undefined ||
-		first.letter !== last.letter ||
+		first.letter !== last?.letter ||
 		first.number > last.number
 	) {
 		throw new Error(`page index row rejected: ${line}`);
