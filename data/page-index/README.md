@@ -24,7 +24,7 @@ with the rest of the build.
 
 | File | Rows | What it is |
 |---|---|---|
-| `columns.jsonl` | 3,370 | One record per printed column — **the deliverable** |
+| `columns.jsonl` | 3,369 | One record per printed column — **the deliverable** |
 | `entries.jsonl` | 32,512 | Page + column for every headword |
 | `letters.json` | 22 | Where each Hebrew letter's section starts, to column granularity |
 | `build-report.json` | — | Counts and derived offsets from the last build |
@@ -39,7 +39,7 @@ with the rest of the build.
 
 | Field | Meaning |
 |---|---|
-| `page` | Printed page number, 1–1704 |
+| `page` | Printed page number, 1–1705 |
 | `column` | `a` = left, `b` = right |
 | `headword`, `rid` | The first entry **beginning** in this column, keyed to Sefaria's `rid` |
 | `continuedFrom` | `rid` of the previous entry, whose text usually runs over into the top of this column |
@@ -152,10 +152,10 @@ Known limits:
 
 - **All 22 letters start in column a**, as the layout requires — a standing
   check on the reading order.
-- **248 of 3,618 blocks carry no head.** Most are front and back matter; some
+- **249 of 3,618 blocks carry no head.** Most are front and back matter; some
   are real columns wholly occupied by one long entry.
-- **`confidence: medium`** (680 columns) means the two bracketing anchors
-  disagreed about the column and the nearer one was taken. **`low`** (27) means
+- **`confidence: medium`** (679 columns) means the two bracketing anchors
+  disagreed about the column and the nearer one was taken. **`low`** (26) means
   the nearest anchor was more than 40 tokens away. Treat both as needing review.
 - The guide-word check is weak in aggregate because the header OCR is poor, but
   it is decisive per-page, and it caught two real errors during development
@@ -165,6 +165,24 @@ The eleven read by eye: pp. 226a, 227a, 776a, 900a, 900b, 19a, 134a, 134b, the
 ח heading on p.415, the ה heading on p.327, and p.326 confirmed to carry *no*
 heading (every entry on it is ד) — the last of which falsified an earlier
 geometric guess.
+
+### Corrections since the build
+
+The files are no longer exactly the build's output. Each hand
+correction is listed here, read off the scan.
+
+- **2026-11-05, vol. 1's last two entries.** The build placed כָּתַת
+  (K01393) and כְּתַת (K01394) on vol. 1 leaf 713 — the back cover —
+  which the offset turns into a "p.690" that vol. 2 also prints. Volume
+  1's text ends on leaf 706 (p.683); leaves 707–712 are blank or
+  library stamps. The scan shows both entries in p.683 column b, under
+  the running head כתת. Both rows now read p.683b, `confidence: high`
+  (read off the scan, not placed by the build), in `entries.jsonl` and
+  in their files under `data/entries/K/`. In `columns.jsonl` the two
+  leaf-713 rows are gone and a p.683b row (leaf 706, guide OCR `rrs`)
+  replaces them. `build-report.json`'s counts are recounted from the
+  corrected files. Monotonicity held throughout: the bad placement was
+  in order, just on a page that is not text.
 
 ### This index disagrees with the shipped `p` field
 

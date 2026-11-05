@@ -1352,6 +1352,7 @@
 {"column":"a","confidence":"low","continuedFrom":"K01366","guideOcr":"כ","headword":"כָּתְכָּתִין","leaf":705,"letter":"כ","letterChange":false,"page":682,"rid":"K01367","volume":1}
 {"column":"b","confidence":"high","continuedFrom":"K01382","guideOcr":"ד","headword":"כַּתָּפָא","leaf":705,"letter":"כ","letterChange":false,"page":682,"rid":"K01383","volume":1}
 {"column":"a","confidence":"medium","continuedFrom":"K01391","guideOcr":"crs 3","headword":"כְּתַשׁ","leaf":706,"letter":"כ","letterChange":false,"page":683,"rid":"K01392","volume":1}
+{"column":"b","confidence":"high","continuedFrom":"K01392","guideOcr":"rrs","headword":"כָּתַת","leaf":706,"letter":"כ","letterChange":false,"page":683,"rid":"K01393","volume":1}
 {"column":"a","confidence":"medium","continuedFrom":"K01394","guideOcr":"","headword":"ל","leaf":8,"letter":"ל","letterChange":true,"page":685,"rid":"L00000","volume":2}
 {"column":"b","confidence":"high","continuedFrom":"L00007","guideOcr":"","headword":"לָאָה","leaf":8,"letter":"ל","letterChange":true,"page":685,"rid":"L00008","volume":2}
 {"column":"a","confidence":"high","continuedFrom":"L00009","guideOcr":"Mfb","headword":"לֵאוּ","leaf":9,"letter":"ל","letterChange":false,"page":686,"rid":"L00010","volume":2}
@@ -1362,9 +1363,7 @@
 {"column":"b","confidence":"high","continuedFrom":"L00061","guideOcr":"■*b","headword":"לִבְזָה","leaf":11,"letter":"ל","letterChange":false,"page":688,"rid":"L00062","volume":2}
 {"column":"a","confidence":"high","continuedFrom":"L00066","guideOcr":"«^b","headword":"לָבִיא","leaf":12,"letter":"ל","letterChange":false,"page":689,"rid":"L00067","volume":2}
 {"column":"b","confidence":"high","continuedFrom":"L00084","guideOcr":"rt","headword":"לַבְלֵב I","leaf":12,"letter":"ל","letterChange":false,"page":689,"rid":"L00085","volume":2}
-{"column":"a","confidence":"low","continuedFrom":"K01392","guideOcr":"","headword":"כָּתַת","leaf":713,"letter":"כ","letterChange":false,"page":690,"rid":"K01393","volume":1}
 {"column":"a","confidence":"high","continuedFrom":"L00094","guideOcr":"«","headword":"לָבַן II","leaf":13,"letter":"ל","letterChange":false,"page":690,"rid":"L00095","volume":2}
-{"column":"b","confidence":"medium","continuedFrom":"K01393","guideOcr":"","headword":"כְּתַת","leaf":713,"letter":"כ","letterChange":false,"page":690,"rid":"K01394","volume":1}
 {"column":"b","confidence":"high","continuedFrom":"L00096","guideOcr":"n:ab","headword":"לָבָן I","leaf":13,"letter":"ל","letterChange":false,"page":690,"rid":"L00097","volume":2}
 {"column":"a","confidence":"high","continuedFrom":"L00103","guideOcr":"n:ab","headword":"לִבְנָה","leaf":14,"letter":"ל","letterChange":false,"page":691,"rid":"L00104","volume":2}
 {"column":"b","confidence":"high","continuedFrom":"L00117","guideOcr":"tthb","headword":"לָבַשׁ","leaf":14,"letter":"ל","letterChange":false,"page":691,"rid":"L00118","volume":2}

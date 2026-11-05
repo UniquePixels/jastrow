@@ -14253,8 +14253,8 @@
 {"column":"b","confidence":"high","headword":"כֹּתֶרֶת","page":682,"rid":"K01390","volume":1}
 {"column":"b","confidence":"high","headword":"כָּתַשׁ","page":682,"rid":"K01391","volume":1}
 {"column":"a","confidence":"medium","headword":"כְּתַשׁ","page":683,"rid":"K01392","volume":1}
-{"column":"a","confidence":"low","headword":"כָּתַת","page":690,"rid":"K01393","volume":1}
-{"column":"b","confidence":"medium","headword":"כְּתַת","page":690,"rid":"K01394","volume":1}
+{"column":"b","confidence":"high","headword":"כָּתַת","page":683,"rid":"K01393","volume":1}
+{"column":"b","confidence":"high","headword":"כְּתַת","page":683,"rid":"K01394","volume":1}
 {"column":"a","confidence":"medium","headword":"ל","page":685,"rid":"L00000","volume":2}
 {"column":"a","confidence":"high","headword":"ל׳","page":685,"rid":"L00001","volume":2}
 {"column":"a","confidence":"high","headword":"לְ־","page":685,"rid":"L00002","volume":2}
