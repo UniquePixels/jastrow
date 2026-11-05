@@ -69,6 +69,18 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
       Decided 2026-11-01 (Brian): "Reaffirm, no own OCR". Ruling
       `11-01 no own OCR` in [`decisions.md`](decisions.md) (the
       2026-09-04 ruling had no row there; this is its record).
+- [ ] **D7 — How does `hOCR` patch evidence name its place without a
+      scan leaf?** Ruling `11-05 page index` takes scan information out
+      of the page index, but gate 11 (`evidenceLocator`) still holds
+      each of the 223 `hOCR` quotes to a `jastuoft` leaf, and the
+      reviewed records carry 566 `leaf` fields and 454 IIIF links. The
+      two answers on the table, 2026-11-05: keep the hOCR behind a
+      self-contained print layer that answers "is this quote on page
+      N?", so records cite only a page; or retire `hOCR` as an
+      evidence kind, re-cite those records by page, and archive the
+      hOCR with the build. Brian, 2026-11-05: "Keep the OCR for the
+      moment"; the OCR discussion is not finished. → gates the
+      page-index rebuild in group 6.
 
 ## Group 0 — Land the archive move cleanly
 
@@ -607,6 +619,21 @@ asked one at a time in that session's wrap-up box.
       can witness", with the whole-file counts 0 vs 311,375); it now
       also says no rationale may cite an hOCR line for a Hebrew
       reading, nor the other items' Tesseract output.
+- [x] Printed pp. 685–690 were placed in both volumes. Found
+      2026-11-05: the build put K01393 and K01394, vol. 1's last two
+      entries, on leaf 713, the back cover. The scan shows both in
+      p.683 column b. Both volume offsets are right, and no other
+      such jump appears in rid order.
+      Done 2026-11-05 on `fix/page-index-683`: both rows moved to
+      p.683b in `entries.jsonl` and their entry files; `columns.jsonl`
+      swaps the two leaf-713 rows for one p.683b row; recorded in
+      `data/page-index/README.md` "Corrections since the build",
+      which also corrects the last page to 1705.
+- [ ] Rebuild `data/page-index/` to ruling `11-05 page index`: one
+      column map (page, column, first and last rid beginning there),
+      no scan fields; the build's research output to the archive.
+      Waits on D7, since gate 11 reads `columns.jsonl` for leaf ↔
+      page until then.
 
 ## Group 7 — Docs drift and small hygiene
 
