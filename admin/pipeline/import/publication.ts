@@ -89,16 +89,6 @@ const KIND_RULES: ReadonlyArray<readonly [string, Publication, string]> = [
 		'Nothing to do: the composer closed the tag; the row records where the run crossed a unit boundary.',
 	],
 	[
-		'page-confidence-low',
-		'defer',
-		'Check the placement against the print and correct it in the admin tool after go-live; no URL depends on it.',
-	],
-	[
-		'page-confidence-medium',
-		'defer',
-		'Check the placement against the print and correct it in the admin tool after go-live; no URL depends on it.',
-	],
-	[
 		'review-deferred',
 		'defer',
 		'Answer the sense-structure question in the admin tool after go-live; the entry renders meanwhile.',

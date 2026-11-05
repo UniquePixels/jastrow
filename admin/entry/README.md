@@ -21,11 +21,10 @@ need lives here.
 | `validate-cli.ts` | `bun data:validate` |
 | `headwords.ts`, `headword-rules.ts` | the headword-line parser and the six shape rules |
 | `names.ts` | an entry's name, derived from `headwords[0]`, and name collisions |
-| `page.ts` | the page-index loader |
 | `html.ts` | the tokenizer every markup field is read with — the transforms' too |
 | `order.ts` | `byCodeUnit`, the one string comparator every sorted list in the repo uses: code-unit order, the same on every machine |
 | `format.ts` | the formatter: `formatEntries` runs Biome over `data/entries/` as the last step of any write, `biomeBinary` finds the pinned Biome (the project's dependency first, then PATH) |
-| `paths.ts` | the three paths the contract reads; the pipeline's `paths.ts` re-exports them |
+| `paths.ts` | the two paths the contract reads; the pipeline's `paths.ts` re-exports them |
 
 The schema itself is `data/schema/entry.schema.json`, read at run
 time so a reader that is not TypeScript can hold a file to it too.
@@ -46,11 +45,12 @@ identifier field; every stored string in NFC, except
 `sefariaHeadword`, which keeps Sefaria's bytes.
 
 Across the tree (`validateCorpus`): names and `sefariaHeadword` are
-unique in NFC; every rid-shaped cite names an entry that exists; and
-each entry's page is its page-index row, both ways.
+unique in NFC; and every rid-shaped cite names an entry that exists.
+An entry's `page` is its own record: the page index is an import
+input, and nothing here compares the two (ruling `11-05 page index`).
 
-It checks an entry against itself, the tree and the page index —
-never against the source. What only the source can answer is the
+It checks an entry against itself and the tree — never against the
+source. What only the source can answer is the
 import's other gates; see the pipeline's
 [`DESIGN.md`](../pipeline/DESIGN.md) §9.
 

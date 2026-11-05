@@ -73,7 +73,6 @@ function inputs(
 			entries: new Map([
 				['A00001', { column: 'a', lastPage: 50, page: 50, volume: 1 }],
 			]),
-			leaves: new Map([['1:50', 73]]),
 		},
 		patches,
 		snapshot: PIN,

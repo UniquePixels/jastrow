@@ -5,7 +5,7 @@
  *
  * The hOCR is kept byte-exact under `data/print/hocr/<item>/` in
  * gzipped chunks of 100 leaves (`data/print/hocr/README.md`). A leaf
- * is one `ocr_page` (`id="page_NNNNNN"`, the leaf number the page index
+ * is one `ocr_page` (`id="page_NNNNNN"`, the leaf number `scan.ts`
  * and the IIIF links use, IIIF's `$n` being leaf `n − 1`). A line is
  * one `ocr_line` (or `ocr_textfloat`, `ocr_header`, `ocr_caption`):
  * its words' text, HTML entities decoded, each trimmed and joined by
@@ -23,17 +23,11 @@
  */
 import { readdirSync } from 'node:fs';
 import { HOCR_DIR } from '../paths.ts';
+import { SCANS } from './scan.ts';
 
 /** The shortest quote that can locate anything: a marker like `1)` or
  * an OCR `l)` occurs on nearly every leaf, so it witnesses nothing. */
 const MIN_QUOTE = 12;
-
-/** The two Internet Archive items the page index is pinned to, by
- * volume. */
-const HOCR_ITEMS: Readonly<Record<1 | 2, string>> = {
-	1: 'dictionaryoftarg01jastuoft',
-	2: 'dictionaryoftarg02jastuoft',
-};
 
 /** A chunk's name: the first and last leaf it holds. */
 const CHUNK = /^leaves-(?<first>\d{4})-(?<last>\d{4})\.html\.gz$/u;
@@ -118,7 +112,7 @@ function chunkPath(
 	leaf: number,
 	root: string,
 ): string | undefined {
-	const dir = `${root}/${HOCR_ITEMS[volume]}`;
+	const dir = `${root}/${SCANS[volume].item}`;
 	for (const name of readdirSync(dir)) {
 		const m = CHUNK.exec(name);
 		if (
@@ -168,4 +162,4 @@ function quoteOnLeaf(lines: readonly string[], quote: string): boolean {
 	return needle !== '' && collapse(lines.join(' ')).includes(needle);
 }
 
-export { collapse, HOCR_ITEMS, leafLines, MIN_QUOTE, quoteOnLeaf };
+export { collapse, leafLines, MIN_QUOTE, quoteOnLeaf };

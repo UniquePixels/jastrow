@@ -11,19 +11,15 @@
  * Biome's `noRestrictedImports` (`biome.json`) keeps the module's
  * imports inside `admin/pipeline/` and `admin/entry/`.
  *
- * The three paths the entry contract reads — the entries, the schema
- * and the page index — are declared by `admin/entry/paths.ts` and
+ * The two paths the entry contract reads — the entries and the
+ * schema — are declared by `admin/entry/paths.ts` and
  * re-exported here, not re-spelled: `admin/entry/` is the one module
  * this one depends on, and a second literal is how two modules start
  * reading different trees.
  */
 
-// biome-ignore lint/performance/noBarrelFile: three constants the entry contract owns, re-exported so the pipeline names each path once; this file declares its own paths and is not a barrel.
-export {
-	ENTRIES_DIR,
-	PAGE_INDEX_PATH,
-	SCHEMA_PATH,
-} from '../entry/paths.ts';
+// biome-ignore lint/performance/noBarrelFile: two constants the entry contract owns, re-exported so the pipeline names each path once; this file declares its own paths and is not a barrel.
+export { ENTRIES_DIR, SCHEMA_PATH } from '../entry/paths.ts';
 
 // ---------------------------------------------------------------- read
 
@@ -138,11 +134,13 @@ export const SEFARIA_REVIEW_CSV = `${REPORTS_DIR}/sefaria-review.csv`;
  * beside the prose report, not a generated one. */
 export const SEFARIA_SUBMISSIONS_PATH = 'docs/sefaria-submissions.jsonl';
 
-/** The page index's column records, which carry each page's scan leaf
- * (`PAGE_INDEX_PATH` carries each entry's page and column). */
-export const PAGE_COLUMNS_PATH = 'data/page-index/columns.jsonl';
+/** The page index (ruling `11-05 page index`): one row per printed
+ * block, its page, column and the first and last rid that begin in it.
+ * An import input; after the import an entry file's `page` is the
+ * record. */
+export const PAGE_INDEX_PATH = 'data/page-index/columns.jsonl';
 
-/** The raw hOCR of the two scans the page index is pinned to, one
+/** The raw hOCR of the two evidence scans (`patch/scan.ts`), one
  * directory per Internet Archive item, gzipped in chunks of 100 leaves
  * (`data/print/hocr/README.md`). Read by the import's evidence-locator
  * gate (`patch/hocr.ts`), never by `bun qa:test` or `data:validate`. */

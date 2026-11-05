@@ -47,7 +47,7 @@ function sample(): Report {
 	const report = createReport();
 	report.entries = 3;
 	report.rows = [
-		lineRow('A00003: p1a (medium)', 'page-confidence-medium'),
+		lineRow('A00003: senses[1]: deferred', 'review-deferred'),
 		lineRow('A00001: ?אִיבּוּס — grammar did not parse', 'headword-unparsed'),
 		lineRow('A00002: senses[0].gloss: carried i', 'markup-carry'),
 		lineRow('A00004: boom', 'finish-failed', 'pipeline', 'fault'),
@@ -73,8 +73,8 @@ function sampleForOrdering(): Report {
 			'A00011: אב — all 1 alternate(s) are partial',
 			'headword-partial-only',
 		),
-		lineRow('A00012: p1a (medium)', 'page-confidence-medium'),
-		lineRow('A00013: p2b (medium)', 'page-confidence-medium'),
+		lineRow('A00012: senses[1]: deferred', 'review-deferred'),
+		lineRow('A00013: senses[2]: deferred', 'review-deferred'),
 	];
 	classifyRows(report);
 	return report;
@@ -185,11 +185,11 @@ describe('renderReviewReport', () => {
 				'',
 				'- A00002: senses[0].gloss: carried i',
 				'',
-				'### page-confidence-medium (1)',
+				'### review-deferred (1)',
 				'',
-				'**What to do:** Check the placement against the print and correct it in the admin tool after go-live; no URL depends on it.',
+				'**What to do:** Answer the sense-structure question in the admin tool after go-live; the entry renders meanwhile.',
 				'',
-				'- A00003: p1a (medium)',
+				'- A00003: senses[1]: deferred',
 				'',
 				'## Notes (0)',
 				'',

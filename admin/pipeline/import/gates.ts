@@ -7,13 +7,13 @@ import { entryAnnotations } from '../../entry/annotations.ts';
 import { intToRoman, intToSup } from '../../entry/headwords.ts';
 import { tokenize } from '../../entry/html.ts';
 import { nameCollisions } from '../../entry/names.ts';
-import type { PagePlacement } from '../../entry/page.ts';
 import type { Entry } from '../../entry/types.ts';
 import {
 	checkEntry,
 	schemaValidator,
 	validateCorpus,
 } from '../../entry/validate.ts';
+import type { PagePlacement } from '../page-index.ts';
 import { collapse, MIN_QUOTE, quoteOnLeaf } from '../patch/hocr.ts';
 import { lossMismatch } from '../patch/loss.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
@@ -606,7 +606,9 @@ function checkNames(
 	return t;
 }
 
-/** Gate 8: every entry has a page row with an a/b column. */
+/** Gate 8: the page index places every entry, and places nothing that
+ * is not an entry (its ranges name rids by number, so a range that runs
+ * past the corpus would otherwise go unseen). */
 function checkPages(
 	rids: readonly string[],
 	pages: ReadonlyMap<string, PagePlacement>,
@@ -614,6 +616,14 @@ function checkPages(
 	const t = tally();
 	for (const rid of rids) {
 		mark(t, pages.has(rid), `${rid}: no page`);
+	}
+	const known = new Set(rids);
+	for (const rid of pages.keys()) {
+		mark(
+			t,
+			known.has(rid),
+			`${rid}: placed by the page index, not in the source`,
+		);
 	}
 	return t;
 }
@@ -665,7 +675,7 @@ function annotationProvenance(
  * run is about to write — the NORMALIZED entries, each at the path
  * `pathOf` will write it to. One mark per entry for its own checks,
  * plus ONE mark for the corpus checks (names, `sefariaHeadword`, cite
- * targets, the page index both ways), each of whose problems is listed
+ * targets), each of whose problems is listed
  * as its own failure. A clean run reads 32,513/32,513; a corpus
  * problem shows as a missing pass, never as `N/N` beside a failure.
  *
@@ -681,7 +691,6 @@ function annotationProvenance(
  * assume the shape, and a schema failure is already a red mark. */
 async function checkContract(
 	entries: readonly Entry[],
-	pages: ReadonlyMap<string, PagePlacement>,
 	pathOf: (rid: string) => string,
 	annotated: ReadonlyMap<string, readonly string[]> = new Map(),
 ): Promise<Tally> {
@@ -700,7 +709,7 @@ async function checkContract(
 			valid.push(shaped);
 		}
 	}
-	const corpus = validateCorpus(valid, pages);
+	const corpus = validateCorpus(valid);
 	t.total++;
 	if (corpus.length === 0) {
 		t.pass++;

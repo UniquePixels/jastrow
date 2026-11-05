@@ -69,18 +69,19 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
       Decided 2026-11-01 (Brian): "Reaffirm, no own OCR". Ruling
       `11-01 no own OCR` in [`decisions.md`](decisions.md) (the
       2026-09-04 ruling had no row there; this is its record).
-- [ ] **D7 — How does `hOCR` patch evidence name its place without a
-      scan leaf?** Ruling `11-05 page index` takes scan information out
-      of the page index, but gate 11 (`evidenceLocator`) still holds
-      each of the 223 `hOCR` quotes to a `jastuoft` leaf, and the
-      reviewed records carry 566 `leaf` fields and 454 IIIF links. The
-      two answers on the table, 2026-11-05: keep the hOCR behind a
-      self-contained print layer that answers "is this quote on page
-      N?", so records cite only a page; or retire `hOCR` as an
-      evidence kind, re-cite those records by page, and archive the
-      hOCR with the build. Brian, 2026-11-05: "Keep the OCR for the
-      moment"; the OCR discussion is not finished. → gates the
-      page-index rebuild in group 6.
+- [ ] **D7 — Should patch evidence name a scan leaf at all?** Since
+      ruling `11-05 page index` the page index holds no scan data and
+      the `jastuoft` offsets live in `admin/pipeline/patch/scan.ts`,
+      which gate 11 (`evidenceLocator`) reads to hold each of the 223
+      `hOCR` quotes to its leaf. The reviewed records still carry 566
+      `leaf` fields and 454 IIIF links. The two answers on the table,
+      2026-11-05: keep the hOCR behind that print layer and have
+      records cite a page, the layer finding the leaf; or retire
+      `hOCR` as an evidence kind, re-cite those records by page, and
+      archive the hOCR with the build. Brian, 2026-11-05: "Keep the OCR
+      for the moment"; the OCR discussion is not finished. Does not
+      gate the page-index rebuild (done the same day: the leaf was
+      never the page index's to keep).
 
 ## Group 0 — Land the archive move cleanly
 
@@ -629,11 +630,17 @@ asked one at a time in that session's wrap-up box.
       swaps the two leaf-713 rows for one p.683b row; recorded in
       `data/page-index/README.md` "Corrections since the build",
       which also corrects the last page to 1705.
-- [ ] Rebuild `data/page-index/` to ruling `11-05 page index`: one
-      column map (page, column, first and last rid beginning there),
+- [x] Rebuild `data/page-index/` to ruling `11-05 page index`: one
+      block map (page, column, first and last rid beginning there),
       no scan fields; the build's research output to the archive.
-      Waits on D7, since gate 11 reads `columns.jsonl` for leaf ↔
-      page until then.
+      Done 2026-11-05 on `fix/page-index-683`: `columns.jsonl` is
+      3,397 block rows, reproducing every placement of the archived
+      `entries.jsonl` (32,512 of 32,512); the build's five files are
+      in `docs/archive/page-index-build-2026-08-17/`; the `jastuoft`
+      offsets moved to `admin/pipeline/patch/scan.ts`; the loader
+      moved from `admin/entry/` to `admin/pipeline/page-index.ts`;
+      `data:validate` no longer compares pages; the import no longer
+      raises `page-confidence-*` rows (the class is one issue).
 
 ## Group 7 — Docs drift and small hygiene
 

@@ -40,11 +40,8 @@
  */
 
 import { isIsoDate } from '../../entry/annotations.ts';
-import {
-	leafOutsideEntry,
-	type PageLookup,
-	pageOfLeaf,
-} from '../patch/locator.ts';
+import { leafOutsideEntry, type PageLookup } from '../patch/locator.ts';
+import { leafOfPage, pageOfLeaf } from '../patch/scan.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import {
 	ABSENT,
@@ -155,15 +152,12 @@ function scanOf(patch: SemanticPatch, pages: PageLookup): string {
 	if (linked !== null) {
 		const volume = Number(linked.groups?.['volume']);
 		const leaf = Number(linked.groups?.['index']) - 1;
-		const page = pageOfLeaf(pages, volume, leaf);
+		const page = pageOfLeaf(volume, leaf);
 		const where = page === undefined ? '' : `p. ${page} · `;
 		return `vol. ${volume} ${where}leaf ${leaf} · ${linked[0]}`;
 	}
 	const entry = pages.entries.get(patch.rid);
-	const leaf =
-		entry === undefined
-			? undefined
-			: pages.leaves.get(`${entry.volume}:${entry.page}`);
+	const leaf = entry === undefined ? undefined : leafOfPage(entry.page)?.leaf;
 	if (entry === undefined || leaf === undefined) {
 		return '';
 	}

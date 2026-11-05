@@ -125,19 +125,11 @@ describe('createRuleCounter', () => {
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('renderBlessing', () => {
-	// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 	it('renders every section, rows as "rid: detail" under their own heading', () => {
 		const report = greenReport();
 		report.rows = [
 			lineRow('A00002: ambiguous vocalization', 'headword-unparsed'),
 			lineRow('A00002: senses[0].gloss: carried i', 'markup-carry'),
-			{
-				bucket: 'review',
-				detail: 'p12a (low)',
-				kind: 'page-confidence-low',
-				rid: 'A00003',
-				severity: 'review',
-			},
 			{
 				bucket: 'patch',
 				detail: 'P000001 (ocr-marker): re-judge',
@@ -178,12 +170,8 @@ describe('renderBlessing', () => {
 		expect(section('Headword review')).toContain(
 			'- A00002: ambiguous vocalization',
 		);
-		expect(section('Headword review')).not.toContain('p12a');
 		expect(section('Markup carried across unit boundaries')).toContain(
 			'- A00002: senses[0].gloss: carried i',
-		);
-		expect(section('Page placements needing review')).toContain(
-			'- A00003: p12a (low)',
 		);
 		expect(section('Patches needing re-judgment')).toContain(
 			'- A00005: P000001 (ocr-marker): re-judge',

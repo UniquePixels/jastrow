@@ -32,7 +32,7 @@ it does not own, plus reports about what it did.
 | `data/source/jastrow-dictionary.jsonl` | the Sefaria export, verbatim, 32,512 entries |
 | `data/source/lexicons.json` | the lexicon registry record that travels with it |
 | `data/source/manifest.json` | provenance about the fetch — dump URL, ETag, Last-Modified, fetch time, sha256 and entry count per output. Not snapshot content, so not hashed into the pin |
-| `data/page-index/entries.jsonl` | page, column and confidence per rid, built from the print hOCR |
+| `data/page-index/columns.jsonl` | the page index: one row per printed block, its page, column and the first and last rid beginning in it (§8) |
 | [`data/schema/entry.schema.json`](../../data/schema/entry.schema.json) | the entry contract, read at run time |
 
 **Import definition** (inside the module, read and written):
@@ -61,7 +61,7 @@ runs the same pipeline over its own data by editing that one file.
 
 **One outward dependency: `admin/entry/`.** The entry contract — the
 entry types, the headword parser and its six rules, names, the
-page-index loader, the HTML tokenizer and the validator — is its
+HTML tokenizer and the validator — is its
 own module beside this one (ruling `09-30 entry contract`), because the
 import is only one of its callers: CI runs it over the committed tree,
 and the admin tool will run it on save. The import may depend on it;
@@ -107,7 +107,7 @@ whose table predates the module. Where each is described:
   promotes a stale snapshot pin and a drifted patch precondition from
   report rows to refusals.
 - `bun data:validate` — the entry contract (`admin/entry/`) over every
-  file under `data/entries/` and the page index; with file arguments,
+  file under `data/entries/`; with file arguments,
   each named file's own checks only. CI's Validate job. Exits non-zero
   on any problem.
 - `bun qa` — format, lint, unit tests, `tsc`.
@@ -409,7 +409,7 @@ byte-preserving in the text and fails gate 6; the fix is a patch.
 There is no link-kind (`k`) field. The markers stay in the text.
 
 Not stored, deliberately: `refs`, `quotes`, `slug`, any URL, any
-page-confidence field, and the current name (§7). A cross-reference
+placement confidence, and the current name (§7). A cross-reference
 entry is an ordinary entry with one unlabeled sense whose gloss is the
 pointer text — there is no dedicated field, and classifying that shape
 for presentation is a compile concern. **UNBUILT.**
@@ -810,9 +810,11 @@ vouches for a Hebrew reading, which needs a `maintainer-read` of the
 scan crop ([`data/print/hocr/README.md`](../../data/print/hocr/README.md),
 "What the hOCR can witness"; ruling `10-26 patch evidence`).
 
-`leaf` and `volume` locate the evidence on the two scans the page
-index is pinned to, always together, on any kind; IIIF's `$n` is leaf
-`n − 1`. `pending` is allowed only on `sefaria-only`. The validator
+`leaf` and `volume` locate the evidence on the evidence scan
+(`patch/scan.ts`, ruling `11-01 print images`), always together, on
+any kind; IIIF's `$n` is leaf `n − 1`. Whether a record should name a
+leaf at all, now that the page index holds none, is open (third review
+checklist, D7). `pending` is allowed only on `sefaria-only`. The validator
 refuses an unknown key, a kind without what it must state, and a
 malformed value; whether a patch must carry `evidence` at all is the
 preflight's, since only the loader knows who wrote it.
@@ -916,8 +918,8 @@ half the import enforces.
   from the step-8 seeder, which turned a rule's output into a reviewed
   record with a boilerplate "print has" rationale (class A).
 - **The maintainer block** (the checklist block a person ticks) shows,
-  by default, the hOCR line and the scan crop link at the leaf the
-  page index gives the entry, **never the proposal**: the reader
+  by default, the hOCR line and the scan crop link at the leaf of the
+  page the page index gives the entry (`patch/scan.ts`), **never the proposal**: the reader
   writes what print reads, and the patch is drawn from that, not
   ticked into agreement with it. A proposal, where one exists, sits
   below the read and collapsed.
@@ -1206,37 +1208,39 @@ suffix and never stores it.
 
 ## 8. Page placement
 
-`data/page-index/entries.jsonl` carries one row per rid: page number,
-column and a confidence value. It was built once from the print hOCR;
-the build tool is archived, and entry-level corrections are made by
-hand thereafter.
+`data/page-index/columns.jsonl` is the page index (ruling `11-05 page
+index`): one row per printed block, in print order, giving its page,
+its column and the first and last rid that begin in it. A block is a
+column, except on a page where a letter changes, whose full-width
+heading splits each column into a top block (the old letter) and a
+bottom block (the new); each gets its own row. Rid order is print
+order and rids run without gaps within a letter, so a row's range
+names every rid in it. The format and the reading order are in
+[`data/page-index/README.md`](../../data/page-index/README.md).
 
-`admin/entry/page.ts` loads the index; `finishEntry` copies
-`page: { number, column }` onto the entry by rid. All 32,512 rids are present; a duplicate rid throws.
+It is an import input and nothing more. `page-index.ts` loads it and
+refuses a row that is malformed, runs backwards or across a letter, or
+is out of print order (which is what stops a rid being placed twice);
+`finishEntry` copies `page: { number, column }` onto the entry by rid.
+After the import the entry file's `page` is the record: nothing reads
+the index to look a page up, `data:validate` does not compare the two,
+and an admin-tool page edit touches only the entry file.
 
-**Confidence is read and never written onto the entry.** `high`,
-`medium` and `low` become `page-confidence-*` review rows and nothing
-else. The schema carries no confidence field and entry data does not
-either.
+It holds no scan information. A leaf, an Internet Archive identifier
+or an image link belongs to one scan; the evidence scan's offsets live
+in `patch/scan.ts` beside its hOCR (§5 "Patch evidence").
 
-The placement is best-effort. Gate 8 proves every entry *has* a row
-with an a/b column; it cannot prove the placement is *correct*, and a
-low confidence is a review row, never a gate failure.
-
-Matching an OCR'd running head against a headword requires three
-neutralizations (`hebrew.ts` of the page-index build, archived at
-`refs/tags/archive/v2-research-2026-09`): **all combining marks are
-stripped**, because Jastrow sets running heads sometimes vocalised and
-sometimes bare and Tesseract drops or invents niqqud freely;
-disambiguators are removed for matching but preserved on the record;
-and a second, looser key folds final forms, which Tesseract confuses
-often enough to be worth carrying. The page index therefore never
-carries an inferred point.
-
-Entry data and the page index must agree **both ways**:
-`admin/entry/validate.ts`'s `checkPages` is the one check a hand edit
-meets, and an edit that changes a page must also update the index. The
-tool obliged to do that does not exist. **UNBUILT.**
+It was derived once from a deterministic alignment of the print hOCR
+against the Sefaria text, whose tool is archived at
+`refs/tags/archive/v2-research-2026-09` and whose own files (the
+per-headword rows, a per-placement confidence, the guide-word OCR, the
+letter starts) are in
+[`docs/archive/page-index-build-2026-08-17/`](../../docs/archive/page-index-build-2026-08-17/README.md).
+That build never carried an inferred vowel point: running heads were
+matched with all combining marks stripped. The placement is best
+effort; gate 8 proves every entry is placed and nothing else is, not
+that a placement is right. Corrections read off the scan are made in
+the index and listed in its README.
 
 ---
 
@@ -1335,9 +1339,9 @@ equals Sefaria's. Outside an import run nothing can ask, because
 per-PR CI never reads `data/source/`.
 
 **8. `pages`** (`import/gates.ts`).
-*Proves:* every entry has a page-index row with an a/b column.
-*Cannot see:* whether the placement is correct. Confidence is a review
-row, never a gate failure.
+*Proves:* the page index places every entry, and places no rid that is
+not an entry (its ranges name rids by number).
+*Cannot see:* whether a placement is correct.
 
 **9. `composition`** — the fault gate, marked from six sites: patch
 apply problems, a composer throw, unbased orphan-ref obligations,
@@ -1358,9 +1362,8 @@ rules, the annotation clause, the closed tag vocabulary and balance
 per field, no markup in a plain field, every stored string in NFC —
 plus one mark for
 `validateCorpus`, each of whose findings is listed as a failure:
-current-name and `sefariaHeadword` uniqueness, every rid-shaped cite
-ref names an entry, and page agreeing with the page-index row both
-ways. Each entry's mark also holds its annotations to the patches that
+current-name and `sefariaHeadword` uniqueness, and every rid-shaped
+cite ref names an entry. Each entry's mark also holds its annotations to the patches that
 applied to the rid carrying one (`ComposeResult.annotated`), both ways:
 every annotation names one as `source`, and each wrote exactly as many
 as it owes: one, or for a `relabel` one per label it changed, since
@@ -1369,7 +1372,7 @@ the apply lists a patch once per annotation it owes. A clean run reads
 *Proves:* the import cannot write a tree CI's Validate job would
 refuse — the two run one validator, so they cannot disagree.
 *Cannot see:* anything about the source: every clause checks an entry
-against itself, the tree and the page index, so a faithful-looking
+against itself and the tree, so a faithful-looking
 entry that lost text upstream passes. It also cannot see whether
 `sefariaHeadword` is NFC — it is Sefaria's bytes (`VERBATIM_FIELDS`),
 exempt on purpose. Its name and `sefariaHeadword` clauses overlap gate
@@ -1379,7 +1382,8 @@ this is the half a hand edit meets without the snapshot.
 **11. `evidenceLocator`** (`import/gates.ts`,
 `checkEvidenceLocators`; ruling `10-26 patch evidence`). One mark per
 applied patch whose `evidence` names a `leaf`.
-*Proves:* the leaf shows the patch's entry, its page between the
+*Proves:* the leaf shows the patch's entry, its page (by the evidence
+scan's offset, `patch/scan.ts`) between the
 entry's own and the page the next entry starts on (`leafOutsideEntry`,
 `patch/locator.ts`, the check the Sefaria appendix's scan column
 makes); and an `hOCR` quote occurs on that leaf's hOCR text
@@ -1494,8 +1498,7 @@ corrected in the admin tool after go-live.* It is stated in
   evidence`), `patch-absorbed` (a carry-over patch whose target is
   gone, §5).
 - `defer` — `headword-duplicate-form`, `paren-group-close-unknown`,
-  `markup-carry`, `page-confidence-low`, `page-confidence-medium`,
-  `review-deferred`, `patch-consolidated-away`, plus the seven detected
+  `markup-carry`, `review-deferred`, `patch-consolidated-away`, plus the seven detected
   classes (`empty-body`, the five catalogued blocking classes, and
   `inflection-sublist-numbering-flattened`, a Group D class ruled a
   detector on 2026-10-10). The other Group D detector,
@@ -1539,7 +1542,8 @@ own script, `bun data:sefaria` (`sefaria.ts`, building on
 `report/sefaria-report.ts`, `report/sefaria-evidence.ts` and
 `report/sefaria-change.ts`). It is not a stage of the import: it reads
 only committed inputs (the reviewed patch records, `data/source/`, the
-page index and the hand-kept submission log
+page index, the evidence scan's offsets (`patch/scan.ts`) and the
+hand-kept submission log
 `docs/sefaria-submissions.jsonl`) and none of a run's state, so it
 runs in a second, and the maintainer can regenerate it after logging
 a batch without re-importing.
@@ -1609,8 +1613,9 @@ six headword shape rules; the closed tag vocabulary and balanced
 markup per field; no markup in plain identifier fields; and every
 stored string in NFC, except `sefariaHeadword`, which keeps Sefaria's
 bytes. Across the tree (`validateCorpus`): current-name uniqueness in
-NFC; `sefariaHeadword` uniqueness; every rid-shaped cite ref names an
-existing entry; and page agreeing with the page-index row both ways.
+NFC; `sefariaHeadword` uniqueness; and every rid-shaped cite ref names
+an existing entry. An entry's `page` is its own record and is not
+checked against the page index (ruling `11-05 page index`).
 
 What a hand edit does **not** meet is anything that needs the source:
 gates 1–3, 5 and 9, and gate 7's clause that `sefariaHeadword` still
@@ -1851,7 +1856,8 @@ so cannot be inferred from reading the code that is there.
     steps.
 52. **The current name is never stored.**
 53. **No URLs are stored** in entry data.
-54. **No page-confidence field is written onto an entry.**
+54. **No placement confidence is stored**, in entry data or in the
+    page index; the build's own is archived with it (§8).
 55. **No link-kind (`k`) typing at import.** The markers stay in the
     text.
 56. **No deeper-than-entry addressing.** Every internal target

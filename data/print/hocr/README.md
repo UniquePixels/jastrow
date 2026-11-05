@@ -1,15 +1,16 @@
 # Print hOCR
 
-The raw OCR of the two scans that `data/page-index/` is pinned to, kept in the
-repo so the page index can always be re-checked against the exact bytes it was
-built from. Internet Archive re-runs OCR on items (vol. 1 was re-done with
+The raw OCR of the two evidence scans (ruling `11-01 print images`), kept in
+the repo because the page index was built from these exact bytes and the
+import's evidence gate reads them. Internet Archive re-runs OCR on items (vol. 1 was re-done with
 Tesseract 5 in 2021), so fetching again later may return a different file with
 the same name.
 
 Other uploads of the 1903 set on archive.org are **different scans** with
 different leaf counts, for example `DictionaryOfTargumsTalmudsAndMidrashlit.index.aramhebJastrow.1903.2vols`
-(700/704 and 1,034/1,065 leaves). Their leaf numbers do not line up with the page
-index. Use only the two items below.
+(700/704 and 1,034/1,065 leaves). Their leaf numbers do not line up with the
+offsets in `admin/pipeline/patch/scan.ts`. Use only the two items below as
+evidence.
 
 Two other open items are worth naming so nobody re-derives them. `Jastrow`
 is a HebrewBooks.org PDF of both volumes (the stamp is in its OCR text),
@@ -54,7 +55,7 @@ The cuts fall immediately before a `<div class="ocr_page">`, so each chunk
 holds whole pages. The first chunk also carries the document `<head>`, and the
 last one carries the closing tags. A chunk is therefore **not** a standalone
 HTML document. Leaf `n` is in the chunk whose range contains `n`; the numbering
-matches `leaf` in `data/page-index/`.
+matches the leaf offsets in `admin/pipeline/patch/scan.ts`.
 
 Chunks are gzipped with no name and a zero timestamp, so re-running the split
 reproduces the same bytes.

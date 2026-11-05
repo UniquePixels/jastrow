@@ -1,13 +1,13 @@
 /**
  * `bun data:validate` — the entry contract over files on disk.
  *
- * With no arguments it validates the whole of `data/entries/` against
- * the page index: every file's own checks, then the corpus checks.
+ * With no arguments it validates the whole of `data/entries/`: every
+ * file's own checks, then the corpus checks.
  * This is CI's Validate job, and the check a hand edit meets.
  *
  * With file arguments it runs only each file's own checks
- * (`validateEntry`). The corpus checks — unique names, cite targets,
- * the page index — are about the tree, not a file, so they need the
+ * (`validateEntry`). The corpus checks — unique names and cite
+ * targets — are about the tree, not a file, so they need the
  * whole of it: run without arguments for those.
  *
  * Prints every problem, one per line, and exits non-zero on any.
@@ -16,7 +16,6 @@
  */
 import { relative, resolve } from 'node:path';
 import process from 'node:process';
-import { loadPageIndex } from './page.ts';
 import { ENTRIES_DIR } from './paths.ts';
 import { loadEntryFiles, validateEntries, validateEntry } from './validate.ts';
 
@@ -51,7 +50,7 @@ async function validateTree(): Promise<{
 	problems: string[];
 }> {
 	const { files, problems } = await loadEntryFiles();
-	problems.push(...(await validateEntries(files, await loadPageIndex())));
+	problems.push(...(await validateEntries(files)));
 	return { checked: files.length, problems };
 }
 

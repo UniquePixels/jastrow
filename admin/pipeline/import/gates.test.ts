@@ -707,19 +707,23 @@ describe('checkHeadwordLine', () => {
 describe('checkPages', () => {
 	it('fails a missing rid', () => {
 		const pages = new Map([
-			[
-				'A00001',
-				{ column: 'a' as const, confidence: 'high' as const, number: 1 },
-			],
-			[
-				'A00003',
-				{ column: 'b' as const, confidence: 'high' as const, number: 2 },
-			],
+			['A00001', { column: 'a' as const, number: 1 }],
+			['A00003', { column: 'b' as const, number: 2 }],
 		]);
 		const t = checkPages(['A00001', 'A00002', 'A00003'], pages);
 		expect(t.failures).toEqual(['A00002: no page']);
-		expect(t.pass).toBe(2);
-		expect(t.total).toBe(3);
+		expect(t.pass).toBe(4);
+		expect(t.total).toBe(5);
+	});
+	it('fails a placed rid the source does not have', () => {
+		const pages = new Map([
+			['A00001', { column: 'a' as const, number: 1 }],
+			['A00002', { column: 'a' as const, number: 1 }],
+		]);
+		const t = checkPages(['A00001'], pages);
+		expect(t.failures).toEqual([
+			'A00002: placed by the page index, not in the source',
+		]);
 	});
 });
 
@@ -734,17 +738,11 @@ describe('checkContract (gate 10)', () => {
 		page: { number: 1, column: 'a' },
 		senses: [{ gloss, units: [] }],
 	});
-	const high = { column: 'a', confidence: 'high', number: 1 } as const;
-	const pages = new Map([
-		['A00001', high],
-		['A00002', high],
-	]);
 	const home = (rid: string): string => `${rid.charAt(0)}/${rid}.json`;
 
 	it('marks each entry and the corpus once, green on a valid tree', async () => {
 		const t = await checkContract(
 			[contractEntry('A00001', 'אב'), contractEntry('A00002', 'אבא')],
-			pages,
 			home,
 		);
 		expect(t).toEqual({ failures: [], pass: 3, total: 3 });
@@ -758,7 +756,6 @@ describe('checkContract (gate 10)', () => {
 				// canonical order.
 				contractEntry('A00002', 'אבא', 'ש\u05C1\u05B8'),
 			],
-			pages,
 			home,
 		);
 		expect(t).toEqual({
@@ -771,7 +768,6 @@ describe('checkContract (gate 10)', () => {
 	it('reds the entry when the write path is not its home', async () => {
 		const t = await checkContract(
 			[contractEntry('A00001', 'אב'), contractEntry('A00002', 'אבא')],
-			pages,
 			(rid) => `x/${rid}.json`,
 		);
 		expect(t.pass).toBe(1);
@@ -783,7 +779,6 @@ describe('checkContract (gate 10)', () => {
 	it('reds the corpus mark and lists each corpus problem', async () => {
 		const t = await checkContract(
 			[contractEntry('A00001', 'אב'), contractEntry('A00002', 'אב')],
-			pages,
 			home,
 		);
 		expect(t.pass).toBe(2);
@@ -826,7 +821,6 @@ describe('checkContract (gate 10)', () => {
 		): Promise<Tally> =>
 			checkContract(
 				[contractEntry('A00001', 'אב'), entry],
-				pages,
 				home,
 				new Map(Object.entries(applied)),
 			);
