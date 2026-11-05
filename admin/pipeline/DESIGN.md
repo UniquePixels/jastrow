@@ -838,7 +838,7 @@ on `sefaria-only` evidence that is not `pending`; the run stops before
 any entry is read. A `pending` patch applies like any other, and the
 report counts the ones that applied (`patches.pending`, on the
 blessing's "Patch evidence" line). Gate 11, `evidenceLocator` (§9),
-checks every applied patch's locator and every `hOCR` quote.
+checks that every applied patch's cited page is one its entry is on.
 
 **What the Sefaria appendix does with it.** The `evidence` object is
 the authority (2026-10-31): `bun data:sefaria` admits a record by its

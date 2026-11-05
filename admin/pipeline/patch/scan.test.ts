@@ -34,11 +34,13 @@ describe('pageOfUrl', () => {
 	it.each(LINKED)('reads p. %d back from its link', (page, url) => {
 		expect(pageOfUrl(url)).toBe(page);
 	});
-	it('refuses a page outside its volume and a foreign link', () => {
-		expect([
-			pageOfUrl(`${BASE}1jastuoft/page/776`),
-			pageOfUrl('https://archive.org/details/Jastrow/page/10'),
-		]).toEqual([undefined, undefined]);
+	it.each([
+		['a page outside its volume', `${BASE}1jastuoft/page/776`],
+		['a foreign item', 'https://archive.org/details/Jastrow/page/10'],
+		['a label the viewer lacks', `${BASE}1jastuoft/page/683`],
+		['a leaf index for a labelled page', `${BASE}1jastuoft/page/n33`],
+	])('refuses %s', (_, url) => {
+		expect(pageOfUrl(url)).toBeUndefined();
 	});
 });
 

@@ -8,7 +8,9 @@
 > live page index is now one block map,
 > [`data/page-index/columns.jsonl`](../../../data/page-index/README.md),
 > derived from `entries.jsonl` here (with the p.683 correction below
-> applied); it places every rid exactly as `entries.jsonl` does. The
+> applied) and then corrected around p. 415 (five entries; see the live
+> README's "Corrections since the build"). Every other rid it places
+> exactly as `entries.jsonl` does. The
 > paths in this README name the files where they used to live.
 
 The first headword beginning in each printed column of Marcus Jastrow's

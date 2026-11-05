@@ -71,9 +71,7 @@ function inputs(
 ): AppendixInputs {
 	return {
 		pages: {
-			entries: new Map([
-				['A00001', { column: 'a', lastPage: 50, page: 50, volume: 1 }],
-			]),
+			entries: new Map([['A00001', { column: 'a', lastPage: 50, page: 50 }]]),
 		},
 		patches,
 		snapshot: PIN,

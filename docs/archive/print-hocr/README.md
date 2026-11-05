@@ -9,9 +9,9 @@
 > `data/print/hocr/`. The provenance and rights below still describe the
 > evidence scan the patch records link to.
 
-The raw OCR of the two evidence scans (ruling `11-01 print images`), kept in
-the repo because the page index was built from these exact bytes and the
-import's evidence gate reads them. Internet Archive re-runs OCR on items (vol. 1 was re-done with
+The raw OCR of the two evidence scans (ruling `11-01 print images`). It was
+kept in the repo, until 2026-11-05, because the page index was built from these
+exact bytes and the import's evidence gate read them. Internet Archive re-runs OCR on items (vol. 1 was re-done with
 Tesseract 5 in 2021), so fetching again later may return a different file with
 the same name.
 
@@ -88,10 +88,12 @@ the Claremont pair), none of which is in the repo. This is the rule a reviewed p
 `evidence` follows (ruling `10-26 patch evidence` in
 [`docs/decisions.md`](../../decisions.md);
 [`admin/pipeline/DESIGN.md`](../../../admin/pipeline/DESIGN.md) §5
-"Patch evidence"). The import reads these files for one check only,
-gate 11 (`evidenceLocator`): an `hOCR` quote must occur verbatim on the
-leaf it names, whitespace and invisible bidi marks aside
-(`admin/pipeline/patch/hocr.ts`, removed with the files).
+"Patch evidence"). Until 2026-11-05 the import read these files for one
+check only, gate 11 (`evidenceLocator`): an `hOCR` quote had to occur
+verbatim on the leaf it named, whitespace and invisible bidi marks aside
+(`admin/pipeline/patch/hocr.ts`, removed with the files). Gate 11 now
+checks only that the cited printed page is the entry's; a quote is a
+citation a person checks against the scan.
 
 ## Reassembling and verifying
 

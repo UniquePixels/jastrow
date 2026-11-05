@@ -34,6 +34,21 @@ describe('parsePageIndex', () => {
 		expect(pages.get('B00001')).toEqual({ column: 'a', number: 134 });
 		expect(pages.size).toBe(6);
 	});
+	it('names a line that is not JSON', () => {
+		expect(() => parsePageIndex('{"column":\n')).toThrow(
+			/page index row rejected/u,
+		);
+	});
+	it('lets column a follow b where a letter starts (p. 415)', () => {
+		const pages = parsePageIndex(
+			text([
+				block('a', 'G00731', 'G00735', 415),
+				block('b', 'G00736', 'G00741', 415),
+				block('a', 'H00000', 'H00006', 415),
+			]),
+		);
+		expect(pages.get('H00000')).toEqual({ column: 'a', number: 415 });
+	});
 	it('keeps two blocks of one column apart (a letter-change page)', () => {
 		const pages = parsePageIndex(
 			text([
@@ -46,13 +61,16 @@ describe('parsePageIndex', () => {
 			{ column: 'a', number: 275 },
 		]);
 	});
+});
+
+describe('parsePageIndex refuses', () => {
 	it.each([
 		['a column other than a/b', block('c', 'A00000', 'A00001', 1)],
 		['a non-integer page', block('a', 'A00000', 'A00001', 1.5)],
 		['a malformed rid', block('a', 'A0000', 'A00001', 1)],
 		['a backwards range', block('a', 'A00002', 'A00001', 1)],
 		['a range across a letter', block('a', 'A00000', 'B00001', 1)],
-	])('refuses %s', (_, row) => {
+	])('%s', (_, row) => {
 		expect(() => parsePageIndex(text([row]))).toThrow(
 			/page index row rejected/u,
 		);
@@ -63,10 +81,14 @@ describe('parsePageIndex', () => {
 			[block('a', 'A00000', 'A00002', 1), block('b', 'A00002', 'A00003', 1)],
 		],
 		[
+			'a column that runs backwards within a letter',
+			[block('b', 'A00013', 'A00014', 1), block('a', 'A00015', 'A00016', 1)],
+		],
+		[
 			'a page that runs backwards',
 			[block('a', 'A00000', 'A00002', 2), block('b', 'A00003', 'A00004', 1)],
 		],
-	])('refuses %s', (_, rows) => {
+	])('%s', (_, rows) => {
 		expect(() => parsePageIndex(text(rows))).toThrow(/out of print order/u);
 	});
 });

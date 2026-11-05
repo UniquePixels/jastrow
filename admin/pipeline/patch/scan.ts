@@ -77,8 +77,9 @@ function pageUrl(page: number): string | undefined {
 	return `https://archive.org/details/${item}/page/${at}`;
 }
 
-/** The printed page a link from `pageUrl` opens, or `undefined` when it
- * opens no dictionary page of its volume. */
+/** The printed page a link opens, or `undefined` when it is not a link
+ * `pageUrl` would build: a page outside its volume, a label the viewer
+ * lacks (p. 683 by label), or a leaf index for a labelled page. */
 function pageOfUrl(url: string): number | undefined {
 	const m = PAGE_URL.exec(url);
 	if (m?.groups === undefined) {
@@ -88,7 +89,11 @@ function pageOfUrl(url: string): number | undefined {
 	const number = Number(m.groups['number']);
 	const page =
 		m.groups['n'] === 'n' ? number - SCANS[volume].leafOffset : number;
-	return volumeOfPage(page) === volume ? page : undefined;
+	// Only a link the builder would make: the viewer opens an unlabelled
+	// page by leaf index alone, and a labelled one by its label.
+	return volumeOfPage(page) === volume && pageUrl(page) === m[0]
+		? page
+		: undefined;
 }
 
 /** Every evidence-scan link in `text`, in order. */

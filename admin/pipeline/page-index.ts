@@ -43,50 +43,89 @@ function ridParts(
 		: { letter: m.groups['letter'] ?? '', number: Number(m.groups['number']) };
 }
 
+/** One block row, checked on its own. */
+interface Block {
+	column: 'a' | 'b';
+	first: string;
+	last: string;
+	letter: string;
+	numbers: readonly [first: number, last: number];
+	page: number;
+}
+
+/** `line` as a block, or a thrown error naming it: not JSON, a column
+ * other than `a`/`b`, a page that is not a positive integer, a
+ * malformed rid, or a range that runs backwards or across a letter. */
+function parseBlock(line: string): Block {
+	let row: BlockRow;
+	try {
+		row = JSON.parse(line) as BlockRow;
+	} catch (error) {
+		throw new Error(`page index row rejected: ${line}`, { cause: error });
+	}
+	const { column, page } = row;
+	const first = ridParts(row.first);
+	const last = ridParts(row.last);
+	if (
+		(column !== 'a' && column !== 'b') ||
+		typeof page !== 'number' ||
+		!Number.isInteger(page) ||
+		page < 1 ||
+		first === undefined ||
+		last === undefined ||
+		first.letter !== last.letter ||
+		first.number > last.number
+	) {
+		throw new Error(`page index row rejected: ${line}`);
+	}
+	return {
+		column,
+		first: row.first as string,
+		last: row.last as string,
+		letter: first.letter,
+		numbers: [first.number, last.number],
+		page,
+	};
+}
+
+/** Whether `block` follows `previous` in print order: its first rid
+ * after the other's last (which is what keeps a rid from being placed
+ * twice), its page no earlier, and on the same page a later column,
+ * unless a letter starts there (a letter heading splits a page, and the
+ * bottom blocks follow the top ones, a after b). */
+function follows(block: Block, previous: Block): boolean {
+	if (block.first <= previous.last || block.page < previous.page) {
+		return false;
+	}
+	return (
+		block.page > previous.page ||
+		block.column > previous.column ||
+		block.letter !== previous.letter
+	);
+}
+
 /** rid → page placement, from the block rows in `text`. A row is
- * refused, naming its line, when its column is not `a`/`b`, its page is
- * not a positive integer, its rids are malformed, its range runs
- * backwards or across a letter, or it does not follow the row before
- * it in print order: its first rid after the last row's last, its page
- * no earlier. The last check is what keeps a rid from being placed
- * twice. */
+ * refused, naming its line, when it is malformed (`parseBlock`) or
+ * out of print order (`follows`). */
 function parsePageIndex(text: string): Map<string, PagePlacement> {
 	const pages = new Map<string, PagePlacement>();
-	let previous: { last: string; page: number } | undefined;
+	let previous: Block | undefined;
 	for (const line of text.split('\n')) {
 		if (line.trim() === '') {
 			continue;
 		}
-		const row = JSON.parse(line) as BlockRow;
-		const { column, page } = row;
-		const first = ridParts(row.first);
-		const last = ridParts(row.last);
-		if (
-			(column !== 'a' && column !== 'b') ||
-			typeof page !== 'number' ||
-			!Number.isInteger(page) ||
-			page < 1 ||
-			first === undefined ||
-			last === undefined ||
-			first.letter !== last.letter ||
-			first.number > last.number
-		) {
-			throw new Error(`page index row rejected: ${line}`);
-		}
-		const firstRid = row.first as string;
-		if (
-			previous !== undefined &&
-			(firstRid <= previous.last || page < previous.page)
-		) {
+		const block = parseBlock(line);
+		if (previous !== undefined && !follows(block, previous)) {
 			throw new Error(`page index row out of print order: ${line}`);
 		}
-		for (let n = first.number; n <= last.number; n++) {
-			pages.set(`${first.letter}${String(n).padStart(5, '0')}`, {
-				column,
-				number: page,
+		const [from, to] = block.numbers;
+		for (let n = from; n <= to; n++) {
+			pages.set(`${block.letter}${String(n).padStart(5, '0')}`, {
+				column: block.column,
+				number: block.page,
 			});
 		}
-		previous = { last: row.last as string, page };
+		previous = block;
 	}
 	return pages;
 }
