@@ -13,7 +13,6 @@ import { recordPatchOutcomes, recordProvisional } from './patches.ts';
 import { createReport } from './report.ts';
 
 const RID = 'A00001';
-const LINE = 'IT m. (v. 928 2) affliction,';
 
 /** A replace patch on `RID` with the given evidence and id. */
 function patch(id: string, evidence?: PatchEvidence): SemanticPatch {
@@ -34,27 +33,24 @@ function patch(id: string, evidence?: PatchEvidence): SemanticPatch {
 	} as SemanticPatch;
 }
 
-/** Leaf 85 of vol. 1 shows `RID` and holds `LINE`; nothing else does. */
+/** Page 62 shows `RID`; no other page does. */
 const SOURCES: EvidenceSources = {
-	leafLines: (volume: 1 | 2, leaf: number): Promise<string[] | undefined> =>
-		Promise.resolve(volume === 1 && leaf === 85 ? [LINE] : undefined),
-	outside: (rid: string, volume: number, leaf: number): string | undefined =>
-		rid === RID && volume === 1 && leaf === 85
+	outside: (rid: string, page: number): string | undefined =>
+		rid === RID && page === 62
 			? undefined
-			: `leaf ${leaf} is p. 9; the entry is on p. 62–62`,
+			: `p. ${page} is not the entry's (p. 62–62)`,
 };
 
-const hocr = (leaf: number, quote: string): PatchEvidence => ({
+const ocr = (page: number): PatchEvidence => ({
 	kind: 'hOCR',
-	leaf,
-	quote,
-	volume: 1,
+	page,
+	quote: '928 2) affliction',
 });
-const read = (leaf?: number): PatchEvidence => ({
+const read = (page?: number): PatchEvidence => ({
 	date: '2026-10-25',
 	kind: 'maintainer-read',
 	reader: 'B',
-	...(leaf === undefined ? {} : { leaf, volume: 1 }),
+	...(page === undefined ? {} : { page }),
 });
 
 type Located = readonly [
@@ -64,52 +60,26 @@ type Located = readonly [
 	failure: string,
 ];
 const LOCATED: readonly Located[] = [
-	['an hOCR line on its leaf', hocr(85, '928 2) affliction'), true, ''],
-	[
-		'an hOCR quote too short to locate',
-		hocr(85, '928 2)'),
-		false,
-		'the quote is under 12 characters',
-	],
-	[
-		'an hOCR quote padded with spaces',
-		hocr(85, '928            2)'),
-		false,
-		'the quote is under 12 characters',
-	],
-	[
-		'an hOCR quote the leaf lacks',
-		hocr(85, '928 2) afflictions'),
-		false,
-		'the quote is not on vol. 1 leaf 85',
-	],
-	[
-		'an hOCR leaf off the entry',
-		hocr(86, LINE),
-		false,
-		'vol. 1 leaf 86 is p. 9',
-	],
-	['a located read on its leaf', read(85), true, ''],
-	['a located read off the entry', read(12), false, 'vol. 1 leaf 12 is p. 9'],
+	["an OCR read on the entry's page", ocr(62), true, ''],
+	['an OCR read off the entry', ocr(9), false, "p. 9 is not the entry's"],
+	["a located read on the entry's page", read(62), true, ''],
+	['a located read off the entry', read(12), false, "p. 12 is not the entry's"],
 ];
 
 describe('checkEvidenceLocators (gate 11)', () => {
-	it.each(LOCATED)('%s', async (_name, evidence, passes, failure) => {
-		const t = await checkEvidenceLocators(
-			[patch('P000001', evidence)],
-			SOURCES,
-		);
+	it.each(LOCATED)('%s', (_name, evidence, passes, failure) => {
+		const t = checkEvidenceLocators([patch('P000001', evidence)], SOURCES);
 		expect([t.pass, t.total]).toEqual([passes ? 1 : 0, 1]);
 		expect(t.failures.join('\n')).toContain(failure);
 	});
 
-	it('marks nothing for evidence without a leaf', async () => {
+	it('marks nothing for evidence without a page', () => {
 		const unlocated = [
 			patch('P000001', read()),
 			patch('P000002', { kind: 'sefaria-only', pending: true }),
 			patch('P000003'),
 		];
-		expect(await checkEvidenceLocators(unlocated, SOURCES)).toEqual({
+		expect(checkEvidenceLocators(unlocated, SOURCES)).toEqual({
 			failures: [],
 			pass: 0,
 			total: 0,

@@ -5,7 +5,6 @@
  * planted defect at a time, and that it names the defect it found.
  */
 import { describe, expect, it } from 'bun:test';
-import type { PagePlacement } from './page.ts';
 import { type Entry, SCHEMA_VERSION } from './types.ts';
 import {
 	type EntryFile,
@@ -45,12 +44,6 @@ function tree(...entries: Entry[]): EntryFile[] {
 		entry: e,
 		path: `${e.id.charAt(0)}/${e.id}.json`,
 	}));
-}
-
-function pagesFor(...ids: string[]): Map<string, PagePlacement> {
-	return new Map(
-		ids.map((id) => [id, { column: 'a', confidence: 'high', number: 1 }]),
-	);
 }
 
 const A = (): Entry =>
@@ -94,9 +87,7 @@ describe('markupProblems', () => {
 describe('validateEntries', () => {
 	it('a valid tree has no problems', async () => {
 		const files = tree(A(), B());
-		expect(await validateEntries(files, pagesFor('A00001', 'A00002'))).toEqual(
-			[],
-		);
+		expect(await validateEntries(files)).toEqual([]);
 	});
 
 	it('reports a schema failure by path and drops the entry from the corpus checks', async () => {
@@ -104,10 +95,9 @@ describe('validateEntries', () => {
 			{ entry: { id: 'A00001' }, path: 'A/A00001.json' },
 			...tree(B()),
 		];
-		const problems = await validateEntries(files, pagesFor('A00001', 'A00002'));
-		expect(problems).toHaveLength(2);
+		const problems = await validateEntries(files);
+		expect(problems).toHaveLength(1);
 		expect(problems[0]).toStartWith('A/A00001.json: schema: ');
-		expect(problems[1]).toBe('page-index row A00001 has no entry');
 	});
 
 	it.each([
@@ -229,11 +219,6 @@ describe('validateEntries', () => {
 			}),
 			'A00002: stems[0].forms[0]: unclosed: he',
 		],
-		[
-			'a page edited in the entry alone',
-			tree(A(), { ...B(), page: { number: 2, column: 'b' } }),
-			'A00002: page p2b but the page index says p1a',
-		],
 		// The §3.1 rules, one planted defect each. Rule 4 halts; its
 		// findings appear in the notation and markup cases above, and
 		// its own controls live in `headword-rules.test.ts`.
@@ -269,9 +254,7 @@ describe('validateEntries', () => {
 			'A00002: headwords[1] is partial with no full sibling, so the entry has no lookup key (§3.1 rule 5)',
 		],
 	])('reports %s', async (_name, files, expected) => {
-		expect(await validateEntries(files, pagesFor('A00001', 'A00002'))).toEqual(
-			[expected].flat(),
-		);
+		expect(await validateEntries(files)).toEqual([expected].flat());
 	});
 
 	it('reads files at every depth, so a misplaced one is reported', async () => {
@@ -284,20 +267,9 @@ describe('validateEntries', () => {
 			'A/old/A00003.json',
 			'A00002.json',
 		]);
-		expect(
-			await validateEntries(files, pagesFor('A00001', 'A00002', 'A00003')),
-		).toEqual([
+		expect(await validateEntries(files)).toEqual([
 			'A/old/A00003.json: id A00003 belongs at A/A00003.json',
 			'A00002.json: id A00002 belongs at A/A00002.json',
-		]);
-	});
-
-	it('reports page-index coverage both ways', async () => {
-		expect(
-			await validateEntries(tree(A(), B()), pagesFor('A00001', 'A00003')),
-		).toEqual([
-			'A00002: no page-index row (entry has p1a)',
-			'page-index row A00003 has no entry',
 		]);
 	});
 });
@@ -402,16 +374,14 @@ describe('the two halves', () => {
 	it('validateEntry answers only what one file can: a dangling cite is not its finding', async () => {
 		const dangling = entry('A00002', 'אבא', '<cite ref="A09999">x</cite>');
 		expect(await validateEntry(dangling, 'A/A00002.json')).toEqual([]);
-		expect(
-			validateCorpus([A(), dangling], pagesFor('A00001', 'A00002')),
-		).toEqual(['A00002: senses[0].gloss: cite ref A09999 names no entry']);
+		expect(validateCorpus([A(), dangling])).toEqual([
+			'A00002: senses[0].gloss: cite ref A09999 names no entry',
+		]);
 	});
 
 	it('validateCorpus answers only what the tree can: markup is not its finding', () => {
 		const bad = { ...B(), senses: [{ gloss: '<he>x', units: [] }] };
-		expect(validateCorpus([A(), bad], pagesFor('A00001', 'A00002'))).toEqual(
-			[],
-		);
+		expect(validateCorpus([A(), bad])).toEqual([]);
 	});
 
 	it('validateEntry reports a schema failure by path and stops there', async () => {

@@ -16,7 +16,7 @@ this way, is [`DESIGN.md`](DESIGN.md), which is also the README of
 | Stage | Tool | Status | Runs |
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
-| Print locator index | `page-index/build.ts` | built 2026-08-17, data committed; tool archived at `refs/tags/archive/v2-research-2026-09` | none — one-time build; admin tool corrects entries afterward |
+| Print locator index | `page-index/build.ts` | built 2026-08-17; tool archived at `refs/tags/archive/v2-research-2026-09`, its files in `docs/archive/page-index-build-2026-08-17/`; reduced 2026-11-05 to the block map in `data/page-index/` (ruling `11-05 page index`) | none — one-time build; the import reads the map, and entry files are the record after |
 | Import (source data → entry data) | `import.ts` | working; complete as of 2026-09-22, last `--write` 2026-10-25 (#196) | on demand, re-runnable |
 | Compile (entry data → compiled data) | `admin/compile/` | designed, **not built — next**; its own module beside this one, not a stage of it (ruling `10-04 compile home`) | every deploy |
 
@@ -37,7 +37,7 @@ original sketch it was derived from was archived 2026-09-21 as
 | Directory | Contents | Committed | Who writes it |
 |---|---|---|---|
 | `data/source/` | Sefaria snapshot | yes | `fetch.ts` |
-| `data/page-index/` | print locators (page/column) — reference data | yes | `page-index/build.ts` (archived at `refs/tags/archive/v2-research-2026-09`); admin tool corrects |
+| `data/page-index/` | the page index: page and column per printed block, an import input with no scan data — reference data | yes | derived from the archived `page-index/build.ts` output; corrections read off the scan |
 
 ### Running it
 
@@ -219,7 +219,8 @@ bun data:sefaria      # writes docs/reports/sefaria-appendix.{csv,md}, sefaria-r
 ```
 
 Not a stage: it reads the reviewed patch records, `data/source/`, the
-page index and `docs/sefaria-submissions.jsonl`, and writes the rows of
+page index, the evidence scan's page links (`patch/scan.ts`) and
+`docs/sefaria-submissions.jsonl`, and writes the rows of
 the report we send Sefaria (`docs/sefaria-report.md`, ruling `10-16
 upstream report`) and the review list of every reviewed patch its four
 filters hold back. Run it after a reviewed patch changes or after a

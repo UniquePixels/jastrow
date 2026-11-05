@@ -17,7 +17,6 @@ import { dirname } from 'node:path';
 import process from 'node:process';
 import type { ValidateFunction } from 'ajv';
 import { biomeBinary, formatEntries } from '../entry/format.ts';
-import { loadPageIndex, type PagePlacement } from '../entry/page.ts';
 import type { Entry } from '../entry/types.ts';
 import { ENTRY_FILE_GLOB, schemaValidator } from '../entry/validate.ts';
 import type { PassName } from './body/repairs.ts';
@@ -71,6 +70,7 @@ import {
 	loadUndetectedClasses,
 	renderReviewReport,
 } from './import/review-report.ts';
+import { loadPageIndex, type PagePlacement } from './page-index.ts';
 import {
 	corpusPreflight,
 	loadAcceptedCorpus,
@@ -80,8 +80,7 @@ import {
 	splitProvisional,
 	stalePins,
 } from './patch/apply.ts';
-import { leafLines } from './patch/hocr.ts';
-import { leafOutsideEntry, readPageLookup } from './patch/locator.ts';
+import { pageOutsideEntry, readPageLookup } from './patch/locator.ts';
 import type { SemanticPatch } from './patch/schema.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
 import {
@@ -198,7 +197,7 @@ async function preparePatches(
 		accepted: patchesByRid(toAccept),
 		carryOver: patchesByRid(toCarry),
 		drift: options.drift,
-		located: toReview.filter((p) => p.evidence?.leaf !== undefined),
+		located: toReview.filter((p) => p.evidence?.page !== undefined),
 		reviewed: patchesByRid(toReview),
 	};
 }
@@ -324,7 +323,7 @@ async function composeAll(
 /** Gate 11 (`checkEvidenceLocators`) over the located reviewed
  * patches that APPLIED: a held, drifted or failed patch puts nothing
  * in the entry, so its locator vouches for nothing written. Reads the
- * page lookup and, for each `hOCR` quote, that leaf's hOCR chunk. */
+ * page lookup. */
 async function checkLocators(
 	located: readonly SemanticPatch[],
 	report: Report,
@@ -335,15 +334,11 @@ async function checkLocators(
 			.map((o) => o.patchId),
 	);
 	const pages = await readPageLookup();
-	report.gates.evidenceLocator = await checkEvidenceLocators(
+	report.gates.evidenceLocator = checkEvidenceLocators(
 		located.filter((p) => applied.has(p.id)),
 		{
-			leafLines,
-			outside: (
-				rid: string,
-				volume: number,
-				leaf: number,
-			): string | undefined => leafOutsideEntry(pages, rid, volume, leaf),
+			outside: (rid: string, page: number): string | undefined =>
+				pageOutsideEntry(pages, rid, page),
 		},
 	);
 }
@@ -509,16 +504,6 @@ function finishAll(
 			validate(finished.entry) === true,
 			`${c.source.rid}: ${JSON.stringify(validate.errors)}`,
 		);
-		const page = indexes.pages.get(c.source.rid);
-		if (page !== undefined && page.confidence !== 'high') {
-			report.rows.push({
-				bucket: 'review',
-				detail: `p${page.number}${page.column} (${page.confidence})`,
-				kind: `page-confidence-${page.confidence}`,
-				rid: c.source.rid,
-				severity: 'review',
-			});
-		}
 		entries.push(finished.entry);
 		if (i % stride === 0 && samples.length < SAMPLE_COUNT) {
 			samples.push({
@@ -728,7 +713,6 @@ async function main(): Promise<void> {
 	// at their paths), and the patches that applied with an annotation.
 	report.gates.contract = await checkContract(
 		normalized.entries,
-		indexes.pages,
 		entryFile,
 		new Map(composed.map((c) => [c.source.rid, c.annotated])),
 	);

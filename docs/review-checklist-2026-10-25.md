@@ -69,6 +69,28 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
       Decided 2026-11-01 (Brian): "Reaffirm, no own OCR". Ruling
       `11-01 no own OCR` in [`decisions.md`](decisions.md) (the
       2026-09-04 ruling had no row there; this is its record).
+- [x] **D7 — Should patch evidence name a scan leaf at all?** Since
+      ruling `11-05 page index` the page index holds no scan data and
+      the `jastuoft` offsets live in `admin/pipeline/patch/scan.ts`,
+      which gate 11 (`evidenceLocator`) reads to hold each of the 223
+      `hOCR` quotes to its leaf. The reviewed records still carry 566
+      `leaf` fields and 454 IIIF links. The two answers on the table,
+      2026-11-05: keep the hOCR behind that print layer and have
+      records cite a page, the layer finding the leaf; or retire
+      `hOCR` as an evidence kind, re-cite those records by page, and
+      archive the hOCR with the build. Brian, 2026-11-05: "Keep the OCR
+      for the moment"; the OCR discussion is not finished. Does not
+      gate the page-index rebuild (done the same day: the leaf was
+      never the page index's to keep).
+      Decided 2026-11-05 (Brian): the agent data effort is over and
+      future patches are people's corrections, backported from
+      entries, so evidence cites a printed page and a link, checked by
+      a person. "Convert to pages" and "Remove from the tree": the 568
+      record leaves became pages and the 454 IIIF links archive.org
+      page links; gate 11 checks only the page; the hOCR, its reader,
+      the quote matcher and the backfill script are gone (tag
+      `archive/print-hocr-2026-11-05`). Rulings `10-26 patch
+      evidence` and `11-05 page index`.
 
 ## Group 0 — Land the archive move cleanly
 
@@ -607,6 +629,35 @@ asked one at a time in that session's wrap-up box.
       can witness", with the whole-file counts 0 vs 311,375); it now
       also says no rationale may cite an hOCR line for a Hebrew
       reading, nor the other items' Tesseract output.
+- [x] Printed pp. 685–690 were placed in both volumes. Found
+      2026-11-05: the build put K01393 and K01394, vol. 1's last two
+      entries, on leaf 713, the back cover. The scan shows both in
+      p.683 column b. Both volume offsets are right, and no other
+      such jump appears in rid order.
+      Done 2026-11-05 on `fix/page-index-683`: both rows moved to
+      p.683b in `entries.jsonl` and their entry files; `columns.jsonl`
+      swaps the two leaf-713 rows for one p.683b row; recorded in
+      `data/page-index/README.md` "Corrections since the build",
+      which also corrects the last page to 1705.
+- [x] Rebuild `data/page-index/` to ruling `11-05 page index`: one
+      block map (page, column, first and last rid beginning there),
+      no scan fields; the build's research output to the archive.
+      Done 2026-11-05 on `fix/page-index-683`: `columns.jsonl` is
+      3,397 block rows, reproducing every placement of the archived
+      `entries.jsonl` (32,512 of 32,512); the build's five files are
+      in `docs/archive/page-index-build-2026-08-17/`; the `jastuoft`
+      offsets moved to `admin/pipeline/patch/scan.ts`; the loader
+      moved from `admin/entry/` to `admin/pipeline/page-index.ts`;
+      `data:validate` no longer compares pages; the import no longer
+      raises `page-confidence-*` rows (the class is
+      [#219](https://github.com/UniquePixels/jastrow/issues/219)).
+- [x] Five entries around p. 415 in the wrong column. Found
+      2026-11-05 while checking the rebuilt map: G00731–G00732 on 414b,
+      G00735 on 415b and G00740–G00741 on 415a, all `medium`; the scan
+      puts the first three on 415a and the last two on 415b.
+      Done 2026-11-05 on `fix/page-index-683`: three block rows and
+      five entry files corrected (3,396 rows), recorded in
+      `data/page-index/README.md` "Corrections since the build".
 
 ## Group 7 — Docs drift and small hygiene
 

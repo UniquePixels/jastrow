@@ -189,11 +189,11 @@ const TEXT_CHANGING: Readonly<Record<PatchOp, boolean>> = {
  * patch evidence`):
  * - `maintainer-read`: a person read the scan; `reader` and `date`
  *   say who and when. The only kind that can witness a Hebrew reading.
- * - `hOCR`: a line of the print hOCR (`data/print/hocr/`), quoted
- *   verbatim as `quote` from leaf `leaf` of volume `volume`. It
- *   witnesses Latin text, numerals, punctuation and position only:
- *   vol. 2's hOCR holds no Hebrew at all, and vol. 1's garbles it.
- *   The import checks the quote is on that leaf (`evidenceLocator`).
+ * - `hOCR`: an OCR read of printed page `page`, quoted as `quote`.
+ *   It witnesses Latin text, numerals, punctuation and position only,
+ *   never a Hebrew reading. A person checks it against the scan; since
+ *   ruling `11-05 page index` no committed OCR is kept to check it by
+ *   machine.
  * - `jastrow-text`: Jastrow's own text elsewhere in the entry or the
  *   corpus determines the change, as `quote` (the `—2)` after an
  *   implied `1)`, a run with a doubled number). Ruling `10-13
@@ -203,9 +203,10 @@ const TEXT_CHANGING: Readonly<Record<PatchOp, boolean>> = {
  *   backfill marked every record it could not tie to print so, and
  *   each re-read batch removes the flag from its members.
  *
- * `leaf` and `volume` locate the print evidence on the scans the page
- * index is pinned to (IIIF `$n` is leaf `n − 1`), always together; the
- * import checks the leaf shows the patch's entry. */
+ * `page` is the printed page the evidence is read off, on any kind;
+ * the import checks it is a page the patch's entry is on
+ * (`evidenceLocator`). A link to it on a scan is built from the page
+ * (`scan.ts`), never stored as a scan coordinate. */
 type EvidenceKind =
 	| 'hOCR'
 	| 'jastrow-text'
@@ -214,11 +215,10 @@ type EvidenceKind =
 interface PatchEvidence {
 	date?: string;
 	kind: EvidenceKind;
-	leaf?: number;
+	page?: number;
 	pending?: true;
 	quote?: string;
 	reader?: string;
-	volume?: 1 | 2;
 }
 
 /** What a reviewed patch states about the print reading it departs
@@ -1234,12 +1234,12 @@ function metadataReasons(raw: Record<string, unknown>): string[] {
 }
 
 /** What each evidence kind must state beside `kind`: who read the
- * scan and when; where the hOCR line is and what it reads; the text of
+ * scan and when; which page the OCR read is off and what it reads; the text of
  * Jastrow's that determines the change. `sefaria-only` states nothing. */
 const EVIDENCE_REQUIRES: Readonly<
 	Record<EvidenceKind, readonly (keyof PatchEvidence)[]>
 > = {
-	hOCR: ['leaf', 'quote', 'volume'],
+	hOCR: ['page', 'quote'],
 	'jastrow-text': ['quote'],
 	'maintainer-read': ['date', 'reader'],
 	'sefaria-only': [],
@@ -1247,30 +1247,19 @@ const EVIDENCE_REQUIRES: Readonly<
 const EVIDENCE_KEYS: ReadonlySet<string> = new Set([
 	'date',
 	'kind',
-	'leaf',
+	'page',
 	'pending',
 	'quote',
 	'reader',
-	'volume',
 ]);
 
-/** Reasons the locator — `leaf` and `volume`, which name a leaf only
- * together — is malformed. */
+/** Reasons the locator, `page`, is malformed: a printed page is a
+ * positive integer. */
 function evidenceLocatorReasons(e: Record<string, unknown>): string[] {
-	const reasons: string[] = [];
-	if (
-		'leaf' in e &&
-		!(Number.isInteger(e['leaf']) && (e['leaf'] as number) >= 0)
-	) {
-		reasons.push('evidence.leaf must be a non-negative integer');
-	}
-	if ('volume' in e && e['volume'] !== 1 && e['volume'] !== 2) {
-		reasons.push('evidence.volume must be 1 or 2');
-	}
-	if ('leaf' in e !== 'volume' in e) {
-		reasons.push('evidence.leaf and evidence.volume go together');
-	}
-	return reasons;
+	return 'page' in e &&
+		!(Number.isInteger(e['page']) && (e['page'] as number) >= 1)
+		? ['evidence.page must be a positive integer']
+		: [];
 }
 
 /** Reasons the value of each present evidence field is malformed,

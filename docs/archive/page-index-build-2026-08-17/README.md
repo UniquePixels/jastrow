@@ -1,0 +1,221 @@
+# Jastrow page/column index — the 2026-08-17 build (archived)
+
+> **Archived 2026-11-05** by ruling `11-05 page index`
+> ([`../../decisions.md`](../../decisions.md)). These are the build's
+> own files as they stood in `data/page-index/` before the rebuild:
+> the per-headword rows, the per-column records with their scan leaf
+> and research fields, the letter starts and the build report. The
+> live page index is now one block map,
+> [`data/page-index/columns.jsonl`](../../../data/page-index/README.md),
+> derived from `entries.jsonl` here (with the p.683 correction below
+> applied) and then corrected around p. 415 (five entries; see the live
+> README's "Corrections since the build"). Every other rid it places
+> exactly as `entries.jsonl` does. The
+> paths in this README name the files where they used to live.
+
+The first headword beginning in each printed column of Marcus Jastrow's
+*Dictionary of the Targumim…* (London: Luzac, 1903), plus the page and column
+of every one of the 32,512 headwords.
+
+Built by `admin/pipeline/page-index/build.ts` (a one-time build;
+archived at `refs/tags/archive/v2-research-2026-09`). Its checker,
+`page-index/verify.ts`, was archived to the same tag on 2026-09-22: it
+compared a build against v1 `--prior` data that the v2 tree no longer
+holds.
+
+Fourteen files left for that tag: `build.ts`, `align.ts`, `bands.ts`,
+`columns.ts`, `spine.ts`, `layout.ts`, `monotonic.ts`, `emit.ts`,
+`hocr.ts`, `verify.ts`, and the four of those with their own tests
+(`align.test.ts`, `bands.test.ts`, `columns.test.ts`,
+`monotonic.test.ts`). `hebrew.ts` and its test stayed in the live tree
+as `admin/entry/hebrew.ts` until 2026-10-31, when the third review found
+nothing imported them (the import never did; only the build's
+`spine.ts` and `verify.ts` had). Both were deleted; the tag holds them
+with the rest of the build.
+
+## Files
+
+| File | Rows | What it is |
+|---|---|---|
+| `columns.jsonl` | 3,369 | One record per printed column — **the deliverable** |
+| `entries.jsonl` | 32,512 | Page + column for every headword |
+| `letters.json` | 22 | Where each Hebrew letter's section starts, to column granularity |
+| `build-report.json` | — | Counts and derived offsets from the last build |
+
+### `columns.jsonl`
+
+```json
+{"column":"a","confidence":"high","continuedFrom":"C00540","guideOcr":"גורדייתא",
+ "headword":"גּוֹרְדַּיְיתָא","leaf":250,"letter":"ג","letterChange":false,
+ "page":227,"rid":"C00541","volume":1}
+```
+
+| Field | Meaning |
+|---|---|
+| `page` | Printed page number, 1–1705 |
+| `column` | `a` = left, `b` = right |
+| `headword`, `rid` | The first entry **beginning** in this column, keyed to Sefaria's `rid` |
+| `continuedFrom` | `rid` of the previous entry, whose text usually runs over into the top of this column |
+| `letter` | Hebrew letter section this entry belongs to |
+| `letterChange` | `true` if this page carries a full-width letter heading (see below) |
+| `volume`, `leaf` | Internet Archive scan coordinates (see *Scan coordinates*) |
+| `guideOcr` | The guide word as Tesseract read it — evidence, not input (see *Accuracy*) |
+| `confidence` | `high` / `medium` / `low` — see *Confidence* |
+
+## What "first headword" means
+
+The first entry that **begins** in the column. A column normally opens partway
+through the previous entry, and `continuedFrom` names that entry.
+
+This is the same convention Jastrow himself uses for the guide word printed at
+the top of each page. On p.227 the left column opens mid-entry, continuing
+`גּוֹרְדְּיָינִי` from p.226, and the printed guide word is `גורדייתא` — the entry
+that starts a third of the way down the column, not the text at the top of it.
+
+## Letter changes split the page horizontally, not by column
+
+When Jastrow starts a new letter mid-page he does **not** break at the column.
+The old letter fills the top of the page across *both* columns, a full-width
+letter heading follows, and the new letter fills the bottom across *both*.
+
+On p.134 that means column a holds aleph words at the top and beth words at the
+bottom, and so does column b. Reading order is therefore **a-top, b-top,
+a-bottom, b-bottom** — four blocks, not two.
+
+A consequence worth stating: since the lower band begins at the lower-*left*
+block, **every one of the 22 letters starts in column a**. Any index claiming a
+letter starts in column b has the reading order wrong.
+
+21 pages carry such a heading (one per letter change; א needs none). They are
+flagged with `letterChange: true` in `columns.jsonl`, and their column heads are
+still the first headword *beginning* in that physical column — which on a
+letter-change page belongs to the **old** letter, since the top band comes
+first.
+
+## Scan coordinates
+
+Pinned to the Internet Archive scans of the 1903 two-volume set. Every 1903
+copy prints the same page numbers, and so does the `Jastrow` item (a
+HebrewBooks.org PDF of the same edition), so `page` and `column` hold across
+scans. What differs from scan to scan is the leaf numbering and how the
+volumes are cut (`Jastrow` has no volume break; the Claremont vol. 2 has
+1,068 leaves to this scan's 1,070), so `leaf` and `volume` are specific to
+the two items below. Later reprints are
+lending-only on archive.org and their pagination has not been checked.
+
+| Volume | IA identifier | Leaves | `printedPage` |
+|---|---|---|---|
+| 1 | `dictionaryoftarg01jastuoft` | 718 | `leaf − 23` |
+| 2 | `dictionaryoftarg02jastuoft` | 1070 | `leaf + 677` |
+
+Both offsets were derived from the page numbers the print carries, agreeing on
+252/355 readable leaves in vol. 1 and 873/946 in vol. 2, with no competing
+value; the runners-up are all digit-corruption (`677` misread as `77`). Both
+were then confirmed visually against the scans.
+
+A leaf's image is `https://iiif.archive.org/iiif/<identifier>$<leaf+1>/full/1400,/0/default.jpg`.
+
+The hOCR both scans were read from is kept, byte-exact, in
+[`data/print/hocr/`](../print-hocr/README.md).
+
+## Method
+
+A deterministic script chain — no model was involved at any stage.
+Tesseract cannot read Jastrow's small pointed Hebrew reliably, so the build does
+not try to *recognise* headwords. Instead it *aligns*:
+
+1. Sefaria's `rid` sorts the 32,512 entries into print order (22 contiguous
+   letter runs, no gaps).
+2. Both volumes' hOCR is read as one continuous book; each page is split at the
+   gutter into two columns — or into four blocks where a letter heading divides
+   it horizontally.
+3. 4-grams of Latin words unique to both streams give 386,354 anchor points,
+   reduced to a strictly monotonic chain. Jastrow's English glosses and citation
+   strings OCR well and are highly distinctive.
+4. Each entry is placed by shifting from its nearest anchor at the local
+   OCR-to-reference token ratio (~1.5, not 1 — Tesseract turns much of the
+   Hebrew into Latin-looking noise that the tokeniser keeps).
+5. Placements are projected onto the nearest non-decreasing sequence, since the
+   print cannot put entry *i+1* before entry *i*.
+
+The build runs **twice**. The first pass reads every page as two columns and
+says which leaf each letter change lands on. Each letter section opens with an
+essay on the letter itself — "He, the fifth letter of the Alphabet" — so that
+line is then located in the OCR, which fixes the heading's leaf and height
+exactly. The second pass re-reads those 21 pages as four blocks and pins each
+letter's first entry to the top of its lower-left block.
+
+Locating the heading by *geometry* was tried first and is not reliable: keying
+on a wide vertical gap in both columns fires on 65 leaves in volume 1 alone,
+because OCR dropping lines leaves gaps that look the same. Tightened, it still
+put ה's heading on p.326 — a page whose every entry is ד.
+
+## Accuracy
+
+The prior-data comparisons need `--prior <dir>` on v2; see `verify.ts`.
+
+| Check | Result |
+|---|---|
+| Prior hand-made columns, pp. 1–235 (5,508 entries) | **96.1%** exact page+column |
+| Printed guide words, where OCR'd (209 pages) | 60.3% confirm; the rest are mostly unreadable OCR, not contradictions |
+| Column heads / layouts read off the scans by eye | 11 of 11 correct |
+| Monotonicity | guaranteed structurally |
+
+Known limits:
+
+- **All 22 letters start in column a**, as the layout requires — a standing
+  check on the reading order.
+- **249 of 3,618 blocks carry no head.** Most are front and back matter; some
+  are real columns wholly occupied by one long entry.
+- **`confidence: medium`** (679 columns) means the two bracketing anchors
+  disagreed about the column and the nearer one was taken. **`low`** (26) means
+  the nearest anchor was more than 40 tokens away. Treat both as needing review.
+- The guide-word check is weak in aggregate because the header OCR is poor, but
+  it is decisive per-page, and it caught two real errors during development
+  (pp. 10 and 19).
+
+The eleven read by eye: pp. 226a, 227a, 776a, 900a, 900b, 19a, 134a, 134b, the
+ח heading on p.415, the ה heading on p.327, and p.326 confirmed to carry *no*
+heading (every entry on it is ד) — the last of which falsified an earlier
+geometric guess.
+
+### Corrections since the build
+
+The files are no longer exactly the build's output. Each hand
+correction is listed here, read off the scan.
+
+- **2026-11-05, vol. 1's last two entries.** The build placed כָּתַת
+  (K01393) and כְּתַת (K01394) on vol. 1 leaf 713 — the back cover —
+  which the offset turns into a "p.690" that vol. 2 also prints. Volume
+  1's text ends on leaf 706 (p.683); leaves 707–712 are blank or
+  library stamps. The scan shows both entries in p.683 column b, under
+  the running head כתת. Both rows now read p.683b, `confidence: high`
+  (read off the scan, not placed by the build), in `entries.jsonl` and
+  in their files under `data/entries/K/`. In `columns.jsonl` the two
+  leaf-713 rows are gone and a p.683b row (leaf 706, guide OCR `rrs`)
+  replaces them. `build-report.json`'s counts are recounted from the
+  corrected files. Monotonicity held throughout: the bad placement was
+  in order, just on a page that is not text.
+
+### This index disagrees with the shipped `p` field
+
+The `p` field in v1's `data/jastrow-part*.jsonl` (the v1 app's data, on the
+`main` branch — nothing on `v2` reads it) is **one page low throughout volume
+2** (every page from 677 on). That was diagnosed, not assumed: volume 2's leaf
+99 prints the page number `776`, and its text — "two kinds of wheat", and the
+entry `מִנּוּי` opening the right column — matches the scan of that leaf. So the
+offset is `776 − 99 = 677`; the shipped data implies 676.
+
+The effect on the comparison is stark: volume 1 entries agree with the shipped
+`p` on ~96% of rows, while volume 2 entries differ by exactly +1 on ~93%.
+
+The shipped `col` field covers only pp. 1–235 and is `?` for the other 83% of
+entries.
+
+## Rights
+
+Derived from the scans in [`data/print/hocr/`](../print-hocr/README.md) —
+public domain, with everything else under `data/`. Credit for the
+scans is owed upstream: the University of Toronto's Robarts Library,
+sponsored by the Ontario Council of University Libraries, hosted by
+the Internet Archive. See that README for the full provenance.

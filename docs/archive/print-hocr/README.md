@@ -1,15 +1,25 @@
-# Print hOCR
+# Print hOCR (archived)
 
-The raw OCR of the two scans that `data/page-index/` is pinned to, kept in the
-repo so the page index can always be re-checked against the exact bytes it was
-built from. Internet Archive re-runs OCR on items (vol. 1 was re-done with
+> **Archived 2026-11-05** by ruling `11-05 page index`
+> ([`../../decisions.md`](../../decisions.md)). The hOCR files this README
+> describes were removed from the tree once nothing read them: the page
+> index they built is now a block map with no scan data, and patch
+> evidence cites a printed page, checked by a person against the scan.
+> They are at the tag `archive/print-hocr-2026-11-05`, under
+> `data/print/hocr/`. The provenance and rights below still describe the
+> evidence scan the patch records link to.
+
+The raw OCR of the two evidence scans (ruling `11-01 print images`). It was
+kept in the repo, until 2026-11-05, because the page index was built from these
+exact bytes and the import's evidence gate read them. Internet Archive re-runs OCR on items (vol. 1 was re-done with
 Tesseract 5 in 2021), so fetching again later may return a different file with
 the same name.
 
 Other uploads of the 1903 set on archive.org are **different scans** with
 different leaf counts, for example `DictionaryOfTargumsTalmudsAndMidrashlit.index.aramhebJastrow.1903.2vols`
-(700/704 and 1,034/1,065 leaves). Their leaf numbers do not line up with the page
-index. Use only the two items below.
+(700/704 and 1,034/1,065 leaves). Their leaf numbers do not line up with the
+offsets in `admin/pipeline/patch/scan.ts`. Use only the two items below as
+evidence.
 
 Two other open items are worth naming so nobody re-derives them. `Jastrow`
 is a HebrewBooks.org PDF of both volumes (the stamp is in its OCR text),
@@ -22,7 +32,7 @@ are the Claremont School of Theology 2021 scans (718 / 1,068 leaves,
 Tesseract 5.0, 2314 × 3256 and 2488 × 3561); for the same printed page
 vol. 1's leaf number is two greater than `jastuoft`'s (page = leaf − 25
 against leaf − 23), vol. 2's is the same (page = leaf + 677). Sharpness by eye on ten pages:
-[`docs/reports/scan-comparison-2026-11-01.md`](../../../docs/reports/scan-comparison-2026-11-01.md).
+[`docs/reports/scan-comparison-2026-11-01.md`](../../reports/scan-comparison-2026-11-01.md).
 
 ## Source
 
@@ -54,7 +64,7 @@ The cuts fall immediately before a `<div class="ocr_page">`, so each chunk
 holds whole pages. The first chunk also carries the document `<head>`, and the
 last one carries the closing tags. A chunk is therefore **not** a standalone
 HTML document. Leaf `n` is in the chunk whose range contains `n`; the numbering
-matches `leaf` in `data/page-index/`.
+matches the leaf offsets in `admin/pipeline/patch/scan.ts`.
 
 Chunks are gzipped with no name and a zero timestamp, so re-running the split
 reproduces the same bytes.
@@ -76,12 +86,14 @@ A Hebrew reading needs a person's read of the scan, recorded as
 and the same goes for the other items' Tesseract output (`Jastrow`,
 the Claremont pair), none of which is in the repo. This is the rule a reviewed patch's
 `evidence` follows (ruling `10-26 patch evidence` in
-[`docs/decisions.md`](../../../docs/decisions.md);
+[`docs/decisions.md`](../../decisions.md);
 [`admin/pipeline/DESIGN.md`](../../../admin/pipeline/DESIGN.md) §5
-"Patch evidence"). The import reads these files for one check only,
-gate 11 (`evidenceLocator`): an `hOCR` quote must occur verbatim on the
-leaf it names, whitespace and invisible bidi marks aside
-([`admin/pipeline/patch/hocr.ts`](../../../admin/pipeline/patch/hocr.ts)).
+"Patch evidence"). Until 2026-11-05 the import read these files for one
+check only, gate 11 (`evidenceLocator`): an `hOCR` quote had to occur
+verbatim on the leaf it named, whitespace and invisible bidi marks aside
+(`admin/pipeline/patch/hocr.ts`, removed with the files). Gate 11 now
+checks only that the cited printed page is the entry's; a quote is a
+citation a person checks against the scan.
 
 ## Reassembling and verifying
 

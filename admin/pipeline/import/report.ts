@@ -444,13 +444,6 @@ function blessingReviews(report: Report): string[] {
 			'none',
 		),
 		'',
-		'## Page placements needing review',
-		'',
-		list(
-			rowLines(report, (r) => r.kind.startsWith('page-confidence-')),
-			'none',
-		),
-		'',
 		'## Patches needing re-judgment',
 		'',
 		list(

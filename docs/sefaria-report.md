@@ -71,7 +71,7 @@ Sefaria.
 | `sefaria_text` | Sefaria's current string, verbatim: a substring of the field with enough context to occur once |
 | `corrected_text` | the same span as the printed page has it |
 | `evidence` | the print read or the text proof |
-| `scan` | the page image (Internet Archive, 1903 edition, University of Toronto copy), with volume, page and leaf |
+| `scan` | the page image (Internet Archive, 1903 edition, University of Toronto copy), linked by printed page |
 | `patch_id` | our record's id |
 | `first_seen` | the date of the review that found it |
 | `submitted_batch` | the batch that sent it; empty for a row not yet sent |

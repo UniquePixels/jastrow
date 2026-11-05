@@ -4,8 +4,8 @@
  * contract`): what every file under `data/entries/` must satisfy,
  * however it got there — the import's write, the admin tool's save or
  * a hand edit. The import's other gates check its output against its
- * SOURCE; these check an entry against ITSELF, the rest of the tree
- * and the page index, so they are the only checks a hand edit meets.
+ * SOURCE; these check an entry against ITSELF and the rest of the
+ * tree, so they are the only checks a hand edit meets.
  *
  * Two halves, because a caller holding one file and a caller holding
  * the tree need different things:
@@ -15,10 +15,11 @@
  *   the annotation clause (`annotations.ts`), markup vocabulary and
  *   balance, no markup in a plain field, and every stored string in
  *   NFC — an annotation's strings included.
- * - `validateCorpus(entries, pages)` — what only the whole tree can
- *   answer: names and `sefariaHeadword` are unique, every rid-shaped
- *   cite names an entry, and each entry's page is its page-index row,
- *   both ways.
+ * - `validateCorpus(entries)` — what only the whole tree can answer:
+ *   names and `sefariaHeadword` are unique, and every rid-shaped cite
+ *   names an entry. An entry's `page` is its own record (ruling
+ *   `11-05 page index`): the page index is an import input, and
+ *   nothing here compares the two.
  *
  * `validateEntries` runs both over a loaded tree. The import's
  * `contract` gate runs both halves before it writes; `bun
@@ -33,7 +34,6 @@ import { headwordShapeProblems } from './headword-rules.ts';
 import { tokenize } from './html.ts';
 import { nameCollisions } from './names.ts';
 import { byCodeUnit } from './order.ts';
-import type { PagePlacement } from './page.ts';
 import { ENTRIES_DIR, SCHEMA_PATH } from './paths.ts';
 import { type Entry, type Sense, VERBATIM_FIELDS } from './types.ts';
 
@@ -401,33 +401,6 @@ function checkCiteTargets(
 	}
 }
 
-/** An entry's page is the page index's row, both ways (R2: the index is
- * the input a rebuild reads, so a page edited in the entry alone is lost). */
-function checkPages(
-	entries: readonly Entry[],
-	ids: ReadonlySet<string>,
-	pages: ReadonlyMap<string, PagePlacement>,
-	problems: string[],
-): void {
-	for (const { id, page } of entries) {
-		const row = pages.get(id);
-		const has =
-			page === undefined ? 'none' : `p${page.number}${page.column ?? ''}`;
-		if (row === undefined) {
-			problems.push(`${id}: no page-index row (entry has ${has})`);
-		} else if (page?.number !== row.number || page.column !== row.column) {
-			problems.push(
-				`${id}: page ${has} but the page index says p${row.number}${row.column}`,
-			);
-		}
-	}
-	for (const rid of pages.keys()) {
-		if (!ids.has(rid)) {
-			problems.push(`page-index row ${rid} has no entry`);
-		}
-	}
-}
-
 /** The §3.1 rules over one entry's form/display pair (headword design
  * §3.1, `headword-rules.ts`). They are checked HERE rather than in the
  * parser because they hold however the entry got there — a hand edit
@@ -505,10 +478,7 @@ async function validateEntry(entry: unknown, path: string): Promise<string[]> {
 
 /** Every check that needs the whole tree, over entries that already
  * passed the schema; an empty list is a consistent tree. */
-function validateCorpus(
-	entries: readonly Entry[],
-	pages: ReadonlyMap<string, PagePlacement>,
-): string[] {
+function validateCorpus(entries: readonly Entry[]): string[] {
 	const problems: string[] = [];
 	checkNames(entries, problems);
 	checkSefariaHeadwords(entries, problems);
@@ -516,17 +486,13 @@ function validateCorpus(
 	for (const entry of entries) {
 		checkCiteTargets(entry, ids, problems);
 	}
-	checkPages(entries, ids, pages, problems);
 	return problems;
 }
 
 /** Both halves over one loaded tree: each file's own checks, then the
  * corpus checks over the files that passed the schema. An empty list
  * is a valid tree. */
-async function validateEntries(
-	files: readonly EntryFile[],
-	pages: ReadonlyMap<string, PagePlacement>,
-): Promise<string[]> {
+async function validateEntries(files: readonly EntryFile[]): Promise<string[]> {
 	const problems: string[] = [];
 	const entries: Entry[] = [];
 	const schema = await schemaValidator();
@@ -537,7 +503,7 @@ async function validateEntries(
 			entries.push(valid);
 		}
 	}
-	problems.push(...validateCorpus(entries, pages));
+	problems.push(...validateCorpus(entries));
 	return problems;
 }
 

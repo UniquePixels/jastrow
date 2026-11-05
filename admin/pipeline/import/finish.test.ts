@@ -34,12 +34,7 @@ const body: BodyEntry = {
 };
 const context = {
 	headwordMap: new Map([['אָב I', 'A00013']]),
-	pages: new Map([
-		[
-			'A00014',
-			{ column: 'a' as const, confidence: 'high' as const, number: 2 },
-		],
-	]),
+	pages: new Map([['A00014', { column: 'a' as const, number: 2 }]]),
 	sefariaHeadwords: new Map([['A00014', 'אָב II']]),
 };
 

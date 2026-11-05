@@ -9,7 +9,6 @@ import {
 	intToRoman,
 	parseHeadwordLine,
 } from '../../entry/headwords.ts';
-import type { PagePlacement } from '../../entry/page.ts';
 import {
 	type Annotation,
 	type Entry,
@@ -17,6 +16,7 @@ import {
 	SCHEMA_VERSION,
 	type Sense,
 } from '../../entry/types.ts';
+import type { PagePlacement } from '../page-index.ts';
 import type {
 	BodyEntry,
 	BodySense,

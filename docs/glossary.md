@@ -49,7 +49,7 @@ date, and what it drops — see [`decisions.md`](decisions.md).
 | **fetch** (`rebuild:fetch`, alias `data:fetch`) | downloads the current Sefaria export into `data/source/` |
 | **import** (`data:import`) | turns source data, reference data and correction data into entry data, checks it, and writes a report |
 | **dry import** (`data:import:dry`) | the same run with no entry data written: every check and every report, nothing in `data/entries/` |
-| **validate** (`data:validate`) | holds entry data to the entry contract (`admin/entry/`): every file under `data/entries/` and the page index, or only the named files' own checks. CI's Validate job; writes nothing |
+| **validate** (`data:validate`) | holds entry data to the entry contract (`admin/entry/`): every file under `data/entries/`, or only the named files' own checks. CI's Validate job; writes nothing |
 | **compile** (`data:compile`) | turns entry data into compiled data. Not built |
 
 The `data:` prefix groups the commands that move data from one form to
@@ -150,7 +150,7 @@ What a run reports for each patch:
 |---|---|
 | **unit tier** | every `*.test.ts`: fast (~2 s), run by `bun qa` and CI's **Test** job. The committed entry data is not in it: CI's **Validate** job (`bun data:validate`) checks that |
 | **hand-written example test** | a test that feeds a rule a small fixed input and checks its output. Never reads the source data |
-| **entry data validation** | the safeguard over every entry file: schema, file path, allowed tags, balanced markup, no markup in plain-text fields, unique current names and unique `sefariaHeadword` ([URL names spec](archive/specs/2026-09-21-url-names-design.md) §5.2), internal link targets, page matches the page index both ways, every stored string in NFC (except `sefariaHeadword`). The entry contract, `admin/entry/`: runs in CI's **Validate** job (`bun data:validate`) and as import's gate 10, `contract` — not in the unit tier |
+| **entry data validation** | the safeguard over every entry file: schema, file path, allowed tags, balanced markup, no markup in plain-text fields, unique current names and unique `sefariaHeadword` ([URL names spec](archive/specs/2026-09-21-url-names-design.md) §5.2), internal link targets, every stored string in NFC (except `sefariaHeadword`). The entry contract, `admin/entry/`: runs in CI's **Validate** job (`bun data:validate`) and as import's gate 10, `contract` — not in the unit tier |
 | **invariant check** | a test of rule *code* that needs the whole snapshot: commutation, and registry order's classes earned over the data. Run locally with `bun rebuild:invariants` (alias `transform:invariants`) before rule-code PRs; not CI. Registry order's static assertions run in `bun qa` |
 | **corpus tier** | retired by the consolidation spec's step 5. The only files still named `*.corpus.test.ts` are the two invariant checks, `transform/commutation.corpus.test.ts` and `transform/registry.order.corpus.test.ts` |
 

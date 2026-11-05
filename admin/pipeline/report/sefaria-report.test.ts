@@ -23,10 +23,11 @@ import {
 } from './sefaria-report.ts';
 
 const PIN = `sha256:${'a'.repeat(64)}`;
-const HOCR = 'hOCR vol. 1 p. 50a: `x`; scan 50a · leaf 73';
 const READ = 'Maintainer print read of the 1903 scan, 2026-10-06';
-const URL =
-	'https://iiif.archive.org/iiif/dictionaryoftarg01jastuoft$74/full/1400,/0/default.jpg';
+const URL = 'https://archive.org/details/dictionaryoftarg01jastuoft/page/50';
+const HOCR = 'hOCR vol. 1 p. 50a: `x`; scan 50a';
+/** `HOCR` with its scan link, as a converted record words it. */
+const LINKED = `${HOCR} (${URL})`;
 
 /** A raw record as `data/source/` stores it. */
 function record(rid: string, extra: Partial<RawRecord> = {}): RawRecord {
@@ -70,10 +71,7 @@ function inputs(
 ): AppendixInputs {
 	return {
 		pages: {
-			entries: new Map([
-				['A00001', { column: 'a', lastPage: 50, page: 50, volume: 1 }],
-			]),
-			leaves: new Map([['1:50', 73]]),
+			entries: new Map([['A00001', { column: 'a', lastPage: 50, page: 50 }]]),
 		},
 		patches,
 		snapshot: PIN,
@@ -133,7 +131,7 @@ describe('scopeReason: case 1 only', () => {
 
 describe('evidenceOf: the rationale names print evidence', () => {
 	it.each([
-		[HOCR, 'hOCR; scan leaf 73'],
+		[LINKED, 'hOCR; scan p. 50'],
 		[`${READ} (docs/headword-worklist.md)`, 'maintainer print read 2026-10-06'],
 		[
 			'Companion (same print read, docs/headword-worklist.md at ed8261aaa)',
@@ -153,16 +151,19 @@ describe('evidenceOf: the rationale names print evidence', () => {
 		],
 		['(Brian, print check 2026-09-20)', 'maintainer print read 2026-09-20'],
 		// A negated hOCR mention is not hOCR evidence (PR #213).
-		['not found in the hOCR; scan 97b · leaf 120', 'scan leaf 120'],
 		[
-			'Evidence: hOCR for C00609: `not found in the hOCR`; scan 234a · leaf 257',
-			'scan leaf 257',
+			`not found in the hOCR; scan 97b (${URL.replace('/50', '/97')})`,
+			'scan p. 97',
+		],
+		[
+			`Evidence: hOCR for C00609: \`not found in the hOCR\`; scan 234a (${URL.replace('/50', '/234')})`,
+			'scan p. 234',
 		],
 		['the hOCR cannot read it (`T^a`), so it waits on a scan read', ''],
 		// One positive mention witnesses, whatever a later one says.
 		[
-			'hOCR: `1) pr.`; Tesseract garbled the rest, so the hOCR does not show it; scan 50a · leaf 73',
-			'hOCR; scan leaf 73',
+			`hOCR: \`1) pr.\`; Tesseract garbled the rest, so the hOCR does not show it; scan 50a (${URL})`,
+			'hOCR; scan p. 50',
 		],
 		['review doc 01: upstream segmentation chopped it', ''],
 		['print sets `X V`', ''],
@@ -188,7 +189,7 @@ describe('buildSefariaAppendix: one row per solid patch', () => {
 		expect(TEXT).toContain(row?.sefaria_text ?? '∅');
 		expect(row?.sefaria_oid).toBe('oid-A00001');
 		expect(row?.first_seen).toBe('2026-10-10');
-		expect(row?.scan).toBe(`vol. 1 p. 50a · leaf 73 · ${URL} (entry start)`);
+		expect(row?.scan).toBe(`p. 50a · ${URL} (entry start)`);
 		expect(row?.submitted_batch).toBe('');
 	});
 
@@ -228,25 +229,25 @@ describe('buildSefariaAppendix: one row per solid patch', () => {
 		const rec = record('A00001', {
 			content: { senses: [{ definition: TEXT }] },
 		});
-		const elsewhere = URL.replace('$74', '$75');
+		const elsewhere = URL.replace('/50', '/51');
 		const out = buildSefariaAppendix(
 			inputs(
 				[rec],
-				[patch({ ...REPLACE, rationale: `${HOCR} (${elsewhere})` })],
+				[patch({ ...REPLACE, rationale: LINKED.replace(URL, elsewhere) })],
 			),
 		);
 		expect(out.review[0]?.reason).toBe('scan link outside the entry');
 		const here = buildSefariaAppendix(
-			inputs([rec], [patch({ ...REPLACE, rationale: `${HOCR} (${URL})` })]),
+			inputs([rec], [patch({ ...REPLACE, rationale: LINKED })]),
 		);
-		expect(here.rows[0]?.scan).toBe(`vol. 1 p. 50 · leaf 73 · ${URL}`);
+		expect(here.rows[0]?.scan).toBe(`p. 50 · ${URL}`);
 	});
 
 	it('holds back a sefaria-only record whatever its prose names', () => {
 		const rec = record('A00001', {
 			content: { senses: [{ definition: TEXT }] },
 		});
-		const prose = `not found in the hOCR; scan 50a · leaf 73 (${URL})`;
+		const prose = `not found in the hOCR; scan 50a (${URL})`;
 		const pending = buildSefariaAppendix(
 			inputs(
 				[rec],
@@ -280,7 +281,7 @@ describe('buildSefariaAppendix: one row per solid patch', () => {
 				],
 			),
 		);
-		expect(read.rows[0]?.evidence).toBe('scan leaf 73');
+		expect(read.rows[0]?.evidence).toBe('scan p. 50');
 		const none = buildSefariaAppendix(
 			inputs(
 				[rec],

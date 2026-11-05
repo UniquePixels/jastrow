@@ -19,7 +19,7 @@
  * 2. **Evidence** (`evidenceKindAdmits`, `evidenceOf`, `retargetProof`):
  *    the record's `evidence.kind` is `hOCR`, `maintainer-read` or
  *    `jastrow-text` — never `sefaria-only`, pending or not. The prose
- *    words the evidence column (an hOCR read, a scan leaf, a
+ *    words the evidence column (an hOCR read, a scan page, a
  *    maintainer print read with its date or worklist), the object
  *    itself when the prose names none; or, for a
  *    cross-reference retarget,
@@ -40,11 +40,8 @@
  */
 
 import { isIsoDate } from '../../entry/annotations.ts';
-import {
-	leafOutsideEntry,
-	type PageLookup,
-	pageOfLeaf,
-} from '../patch/locator.ts';
+import { type PageLookup, pageOutsideEntry } from '../patch/locator.ts';
+import { pageOfUrl, pageUrl, pageUrls } from '../patch/scan.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import {
 	ABSENT,
@@ -118,29 +115,21 @@ interface SefariaAppendix {
 }
 
 const DATE = /\d{4}-\d{2}-\d{2}/u;
-const IIIF =
-	/https:\/\/iiif\.archive\.org\/iiif\/dictionaryoftarg0(?<volume>[12])jastuoft\$(?<index>\d+)\/full\/[^\s)]+/u;
-const IIIF_ALL = new RegExp(IIIF.source, 'gu');
-
 // ---------------------------------------------------------------- rows
-
-const scanUrl = (volume: number, leaf: number): string =>
-	`https://iiif.archive.org/iiif/dictionaryoftarg0${volume}jastuoft$${leaf + 1}/full/1400,/0/default.jpg`;
 
 /** Every scan the rationale links must show a page the entry is on
  * (its own page to the page the next entry starts on): evidence read off
- * another leaf is not evidence for this entry. */
+ * another page is not evidence for this entry. */
 function scanProblem(
 	patch: SemanticPatch,
 	pages: PageLookup,
 ): Exclusion | undefined {
-	for (const linked of patch.rationale.matchAll(IIIF_ALL)) {
-		const outside = leafOutsideEntry(
-			pages,
-			patch.rid,
-			Number(linked.groups?.['volume']),
-			Number(linked.groups?.['index']) - 1,
-		);
+	for (const url of pageUrls(patch.rationale)) {
+		const page = pageOfUrl(url);
+		const outside =
+			page === undefined
+				? `${url} opens no dictionary page`
+				: pageOutsideEntry(pages, patch.rid, page);
 		if (outside !== undefined) {
 			return exclude('scan link outside the entry', outside);
 		}
@@ -148,26 +137,20 @@ function scanProblem(
 	return undefined;
 }
 
-/** The scan column: the leaf the rationale links, or else the leaf of
- * the page the entry starts on (page index), marked so. */
+/** The scan column: the page the rationale links, or else the page the
+ * entry starts on (page index), marked so. */
 function scanOf(patch: SemanticPatch, pages: PageLookup): string {
-	const linked = IIIF.exec(patch.rationale);
-	if (linked !== null) {
-		const volume = Number(linked.groups?.['volume']);
-		const leaf = Number(linked.groups?.['index']) - 1;
-		const page = pageOfLeaf(pages, volume, leaf);
-		const where = page === undefined ? '' : `p. ${page} · `;
-		return `vol. ${volume} ${where}leaf ${leaf} · ${linked[0]}`;
+	const [url] = pageUrls(patch.rationale);
+	if (url !== undefined) {
+		const page = pageOfUrl(url);
+		return page === undefined ? url : `p. ${page} · ${url}`;
 	}
 	const entry = pages.entries.get(patch.rid);
-	const leaf =
-		entry === undefined
-			? undefined
-			: pages.leaves.get(`${entry.volume}:${entry.page}`);
-	if (entry === undefined || leaf === undefined) {
+	const start = entry === undefined ? undefined : pageUrl(entry.page);
+	if (entry === undefined || start === undefined) {
 		return '';
 	}
-	return `vol. ${entry.volume} p. ${entry.page}${entry.column} · leaf ${leaf} · ${scanUrl(entry.volume, leaf)} (entry start)`;
+	return `p. ${entry.page}${entry.column} · ${start} (entry start)`;
 }
 
 /** The first batch of the log that names the patch, or names its
