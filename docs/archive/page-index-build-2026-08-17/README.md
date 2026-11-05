@@ -114,7 +114,7 @@ were then confirmed visually against the scans.
 A leaf's image is `https://iiif.archive.org/iiif/<identifier>$<leaf+1>/full/1400,/0/default.jpg`.
 
 The hOCR both scans were read from is kept, byte-exact, in
-[`data/print/hocr/`](../../../data/print/hocr/README.md).
+[`data/print/hocr/`](../print-hocr/README.md).
 
 ## Method
 
@@ -212,7 +212,7 @@ entries.
 
 ## Rights
 
-Derived from the scans in [`data/print/hocr/`](../../../data/print/hocr/README.md) —
+Derived from the scans in [`data/print/hocr/`](../print-hocr/README.md) —
 public domain, with everything else under `data/`. Credit for the
 scans is owed upstream: the University of Toronto's Robarts Library,
 sponsored by the Ontario Council of University Libraries, hosted by

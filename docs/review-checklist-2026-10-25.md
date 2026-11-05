@@ -69,7 +69,7 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
       Decided 2026-11-01 (Brian): "Reaffirm, no own OCR". Ruling
       `11-01 no own OCR` in [`decisions.md`](decisions.md) (the
       2026-09-04 ruling had no row there; this is its record).
-- [ ] **D7 — Should patch evidence name a scan leaf at all?** Since
+- [x] **D7 — Should patch evidence name a scan leaf at all?** Since
       ruling `11-05 page index` the page index holds no scan data and
       the `jastuoft` offsets live in `admin/pipeline/patch/scan.ts`,
       which gate 11 (`evidenceLocator`) reads to hold each of the 223
@@ -82,6 +82,15 @@ the working tree. Gates at that state: `qa:lint` 0 errors,
       for the moment"; the OCR discussion is not finished. Does not
       gate the page-index rebuild (done the same day: the leaf was
       never the page index's to keep).
+      Decided 2026-11-05 (Brian): the agent data effort is over and
+      future patches are people's corrections, backported from
+      entries, so evidence cites a printed page and a link, checked by
+      a person. "Convert to pages" and "Remove from the tree": the 568
+      record leaves became pages and the 454 IIIF links archive.org
+      page links; gate 11 checks only the page; the hOCR, its reader,
+      the quote matcher and the backfill script are gone (tag
+      `archive/print-hocr-2026-11-05`). Rulings `10-26 patch
+      evidence` and `11-05 page index`.
 
 ## Group 0 — Land the archive move cleanly
 

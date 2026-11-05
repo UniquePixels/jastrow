@@ -18,9 +18,10 @@ README.
 
 ## How it was filled
 
-Mechanically, by [`../../../backfill-evidence.ts`](../../../backfill-evidence.ts),
-kept as the record and refusing to run again once any record carries
-`evidence`. It reads each rationale with the regexes the Sefaria
+Mechanically, by `admin/pipeline/patch/backfill-evidence.ts`, which
+refused to run again once any record carried `evidence`. It was
+removed on 2026-11-05 with the hOCR it read (ruling `11-05 page
+index`); it is at the tag `archive/print-hocr-2026-11-05`. It reads each rationale with the regexes the Sefaria
 appendix already reads it by (`report/sefaria-evidence.ts`), first
 match wins:
 

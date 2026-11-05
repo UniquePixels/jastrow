@@ -80,8 +80,7 @@ import {
 	splitProvisional,
 	stalePins,
 } from './patch/apply.ts';
-import { leafLines } from './patch/hocr.ts';
-import { leafOutsideEntry, readPageLookup } from './patch/locator.ts';
+import { pageOutsideEntry, readPageLookup } from './patch/locator.ts';
 import type { SemanticPatch } from './patch/schema.ts';
 import { computeSnapshot } from './patch/snapshot.ts';
 import {
@@ -198,7 +197,7 @@ async function preparePatches(
 		accepted: patchesByRid(toAccept),
 		carryOver: patchesByRid(toCarry),
 		drift: options.drift,
-		located: toReview.filter((p) => p.evidence?.leaf !== undefined),
+		located: toReview.filter((p) => p.evidence?.page !== undefined),
 		reviewed: patchesByRid(toReview),
 	};
 }
@@ -324,7 +323,7 @@ async function composeAll(
 /** Gate 11 (`checkEvidenceLocators`) over the located reviewed
  * patches that APPLIED: a held, drifted or failed patch puts nothing
  * in the entry, so its locator vouches for nothing written. Reads the
- * page lookup and, for each `hOCR` quote, that leaf's hOCR chunk. */
+ * page lookup. */
 async function checkLocators(
 	located: readonly SemanticPatch[],
 	report: Report,
@@ -335,15 +334,11 @@ async function checkLocators(
 			.map((o) => o.patchId),
 	);
 	const pages = await readPageLookup();
-	report.gates.evidenceLocator = await checkEvidenceLocators(
+	report.gates.evidenceLocator = checkEvidenceLocators(
 		located.filter((p) => applied.has(p.id)),
 		{
-			leafLines,
-			outside: (
-				rid: string,
-				volume: number,
-				leaf: number,
-			): string | undefined => leafOutsideEntry(pages, rid, volume, leaf),
+			outside: (rid: string, page: number): string | undefined =>
+				pageOutsideEntry(pages, rid, page),
 		},
 	);
 }

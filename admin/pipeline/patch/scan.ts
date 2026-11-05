@@ -1,30 +1,31 @@
 /**
- * The evidence scan: the two Internet Archive items reviewed patches
- * cite (ruling `11-01 print images`), and where each volume's printed
- * pages fall on their leaves.
+ * Links to the evidence scan: the two Internet Archive items reviewed
+ * patches cite (ruling `11-01 print images`), addressed by printed
+ * page.
  *
- * Scan information lives here, beside the hOCR read from the same two
- * items, and nowhere in the page index (ruling `11-05 page index`): a
- * printed page number holds in every copy of the 1903 edition, while a
- * leaf belongs to one scan. A leaf converts to a page by one offset per
- * volume, checked on 2026-11-05 against every column the old page index
- * recorded (3,369 of 3,369).
+ * Evidence names a printed page, which every copy of the 1903 edition
+ * shares; a link is how a reader reaches that page on one scan, and is
+ * built here and nowhere else (ruling `11-05 page index`). The book
+ * viewer opens an item at a printed page by its label,
+ * `…/details/<item>/page/<page>`. Internet Archive labels every text
+ * page of both items except eleven (`UNLABELLED`, read from each
+ * item's `_page_numbers.json` on 2026-11-05, whose 1,723 labels all
+ * agreed with the offsets below); those open by leaf index,
+ * `…/page/n<leaf>`, which is the only use of `leafOffset`.
  *
- * `firstPage`–`lastPage` is the dictionary's text in that volume. Vol. 1
- * ends on p. 683 (leaf 706; leaves 707–717 are blank, stamped or the
- * cover) and vol. 2 opens on p. 685 (leaf 8) and ends on p. 1705
- * (leaf 1028; the Addenda follow). A leaf outside that range is not a
- * dictionary page.
+ * `firstPage`–`lastPage` is the dictionary's text in each volume:
+ * vol. 1 ends on p. 683 and vol. 2 opens on p. 685 and ends on
+ * p. 1705, where the Addenda follow.
  */
 
 interface Scan {
-	/** The printed page's first text page in this volume. */
+	/** The first printed text page in this volume. */
 	firstPage: number;
 	/** The Internet Archive identifier. */
 	item: string;
-	/** The printed page's last text page in this volume. */
+	/** The last printed text page in this volume. */
 	lastPage: number;
-	/** Leaf minus printed page, the same on every text leaf. */
+	/** Leaf index minus printed page, the same on every text leaf. */
 	leafOffset: number;
 }
 
@@ -43,7 +44,17 @@ const SCANS: Readonly<Record<1 | 2, Scan>> = {
 	},
 };
 
+/** Text pages the viewer has no label for. */
+const UNLABELLED: ReadonlySet<number> = new Set([
+	1, 2, 3, 4, 5, 6, 7, 8, 9, 683, 685,
+]);
+
 const VOLUMES = [1, 2] as const;
+
+/** A link to one page of the evidence scan, in either form. */
+const PAGE_URL =
+	/https:\/\/archive\.org\/details\/dictionaryoftarg0(?<volume>[12])jastuoft\/page\/(?<n>n?)(?<number>\d+)/u;
+const PAGE_URL_ALL = new RegExp(PAGE_URL.source, 'gu');
 
 /** The printed volume a page is in, or `undefined` for a number that is
  * no dictionary page. */
@@ -54,23 +65,35 @@ function volumeOfPage(page: number): 1 | 2 | undefined {
 	);
 }
 
-/** The printed page a leaf of `volume` shows, or `undefined` when the
- * leaf is not a dictionary page of that volume. */
-function pageOfLeaf(volume: number, leaf: number): number | undefined {
-	if (volume !== 1 && volume !== 2) {
+/** The link that opens printed page `page` on the evidence scan, or
+ * `undefined` for a number that is no dictionary page. */
+function pageUrl(page: number): string | undefined {
+	const volume = volumeOfPage(page);
+	if (volume === undefined) {
 		return undefined;
 	}
-	const page = leaf - SCANS[volume].leafOffset;
+	const { item, leafOffset } = SCANS[volume];
+	const at = UNLABELLED.has(page) ? `n${page + leafOffset}` : String(page);
+	return `https://archive.org/details/${item}/page/${at}`;
+}
+
+/** The printed page a link from `pageUrl` opens, or `undefined` when it
+ * opens no dictionary page of its volume. */
+function pageOfUrl(url: string): number | undefined {
+	const m = PAGE_URL.exec(url);
+	if (m?.groups === undefined) {
+		return undefined;
+	}
+	const volume = Number(m.groups['volume']) as 1 | 2;
+	const number = Number(m.groups['number']);
+	const page =
+		m.groups['n'] === 'n' ? number - SCANS[volume].leafOffset : number;
 	return volumeOfPage(page) === volume ? page : undefined;
 }
 
-/** The volume and leaf a printed page is on, or `undefined` for a
- * number that is no dictionary page. */
-function leafOfPage(page: number): { leaf: number; volume: 1 | 2 } | undefined {
-	const volume = volumeOfPage(page);
-	return volume === undefined
-		? undefined
-		: { leaf: page + SCANS[volume].leafOffset, volume };
+/** Every evidence-scan link in `text`, in order. */
+function pageUrls(text: string): string[] {
+	return [...text.matchAll(PAGE_URL_ALL)].map((m) => m[0]);
 }
 
-export { leafOfPage, pageOfLeaf, SCANS, volumeOfPage };
+export { pageOfUrl, pageUrl, pageUrls, SCANS, volumeOfPage };

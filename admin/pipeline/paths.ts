@@ -140,12 +140,6 @@ export const SEFARIA_SUBMISSIONS_PATH = 'docs/sefaria-submissions.jsonl';
  * record. */
 export const PAGE_INDEX_PATH = 'data/page-index/columns.jsonl';
 
-/** The raw hOCR of the two evidence scans (`patch/scan.ts`), one
- * directory per Internet Archive item, gzipped in chunks of 100 leaves
- * (`data/print/hocr/README.md`). Read by the import's evidence-locator
- * gate (`patch/hocr.ts`), never by `bun qa:test` or `data:validate`. */
-export const HOCR_DIR = 'data/print/hocr';
-
 /** Where the pipeline's own design is written down, cited by the
  * headword report so a reader can reach the rules behind a row.
  *

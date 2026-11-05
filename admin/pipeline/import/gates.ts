@@ -14,7 +14,6 @@ import {
 	validateCorpus,
 } from '../../entry/validate.ts';
 import type { PagePlacement } from '../page-index.ts';
-import { collapse, MIN_QUOTE, quoteOnLeaf } from '../patch/hocr.ts';
 import { lossMismatch } from '../patch/loss.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import type { BodyEntry, SourceEntry } from '../types.ts';
@@ -718,96 +717,39 @@ async function checkContract(
 	return t;
 }
 
-/** What gate 11 reads besides the patches: whether a leaf shows a
- * rid's entry (`leafOutsideEntry`, `patch/locator.ts`, bound to the
- * page lookup) and a leaf's hOCR lines (`leafLines`, `patch/hocr.ts`).
- * Handed in, so a test can supply both without the page index or the
- * hOCR. */
+/** What gate 11 reads besides the patches: whether a printed page
+ * shows a rid's entry (`pageOutsideEntry`, `patch/locator.ts`, bound
+ * to the page lookup). Handed in, so a test can supply it without the
+ * page index. */
 interface EvidenceSources {
-	leafLines: (volume: 1 | 2, leaf: number) => Promise<string[] | undefined>;
-	outside: (rid: string, volume: number, leaf: number) => string | undefined;
+	outside: (rid: string, page: number) => string | undefined;
 }
 
 /** Gate 11, `evidenceLocator` (ruling `10-26 patch evidence`): one
- * mark per applied patch whose `evidence` names a leaf. The leaf must
- * show the patch's entry (its page to the page the next entry starts
- * on, by the page index), and an `hOCR` quote must be on that leaf,
- * verbatim but for whitespace and bidi marks (`quoteOnLeaf`). Evidence
- * read off another leaf is not evidence for this entry (P000388/389).
- * A patch with no leaf is not marked: there is nothing to locate. */
-async function checkEvidenceLocators(
+ * mark per applied patch whose `evidence` names a page. The page must
+ * be one the patch's entry is on (its page to the page the next entry
+ * starts on, by the page index): evidence read off another page is not
+ * evidence for this entry (P000388/389). A patch with no page is not
+ * marked: there is nothing to locate. What the page reads is a
+ * person's check against the scan, not this gate's (ruling `11-05
+ * page index`). */
+function checkEvidenceLocators(
 	patches: readonly SemanticPatch[],
 	sources: EvidenceSources,
-): Promise<Tally> {
+): Tally {
 	const t = tally();
-	const located = patches.filter(
-		(patch) =>
-			patch.evidence?.leaf !== undefined && patch.evidence.volume !== undefined,
-	);
-	// The leaves are read in parallel (the hOCR reader shares one parse
-	// per chunk); the marks are made in patch order.
-	const problems = await Promise.all(
-		located.map((patch) => locatorProblems(patch, sources)),
-	);
-	for (const [index, patch] of located.entries()) {
-		const found = problems[index] ?? [];
-		mark(
-			t,
-			found.length === 0,
-			`${patch.rid}: ${patch.id}: ${found.join('; ')}`,
-		);
+	for (const patch of patches) {
+		const page = patch.evidence?.page;
+		if (page !== undefined) {
+			const outside = sources.outside(patch.rid, page);
+			mark(
+				t,
+				outside === undefined,
+				`${patch.rid}: ${patch.id}: ${outside ?? ''}`,
+			);
+		}
 	}
 	return t;
-}
-
-/** Why one patch's evidence does not locate: the leaf lies outside the
- * entry, or an `hOCR` quote is not on it. Empty when it locates. */
-async function locatorProblems(
-	patch: SemanticPatch,
-	sources: EvidenceSources,
-): Promise<string[]> {
-	const { evidence } = patch;
-	if (evidence?.leaf === undefined || evidence.volume === undefined) {
-		return [];
-	}
-	const { leaf, volume } = evidence;
-	const problems: string[] = [];
-	const outside = sources.outside(patch.rid, volume, leaf);
-	if (outside !== undefined) {
-		problems.push(`vol. ${volume} ${outside}`);
-	}
-	if (evidence.kind === 'hOCR') {
-		problems.push(
-			...quoteProblems(
-				await sources.leafLines(volume, leaf),
-				`vol. ${volume} leaf ${leaf}`,
-				evidence.quote ?? '',
-			),
-		);
-	}
-	return problems;
-}
-
-/** Why an `hOCR` quote is not on the leaf `where` names, given that
- * leaf's lines (`undefined`: the hOCR has no such leaf). */
-function quoteProblems(
-	lines: readonly string[] | undefined,
-	where: string,
-	quote: string,
-): string[] {
-	// Measured as matched (whitespace collapsed, bidi marks dropped), so
-	// interior spaces cannot pad a short quote up to the minimum.
-	if (collapse(quote).length < MIN_QUOTE) {
-		return [
-			`the quote is under ${MIN_QUOTE} characters and locates nothing: "${quote}"`,
-		];
-	}
-	if (lines === undefined) {
-		return [`the hOCR has no ${where}`];
-	}
-	return quoteOnLeaf(lines, quote)
-		? []
-		: [`the quote is not on ${where}: "${quote}"`];
 }
 
 /** Gate 12, `declaredLoss` (review checklist 2026-10-25, group 2):

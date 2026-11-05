@@ -797,24 +797,28 @@ patch states where its print evidence comes from, as `evidence`
 | `kind` | means | must state |
 |---|---|---|
 | `maintainer-read` | a person read the scan | `reader`, `date` |
-| `hOCR` | a line of `data/print/hocr/`, quoted verbatim | `volume`, `leaf`, `quote` |
+| `hOCR` | an OCR read of a printed page, quoted | `page`, `quote` |
 | `jastrow-text` | Jastrow's own text determines the change (10-13 case 2): the `—2)` after an implied `1)`, the run a renumber reads | `quote` |
 | `sefaria-only` | nothing but Sefaria's text | nothing; `pending: true` allowed |
 
 **What an hOCR quote witnesses: Latin text, numerals, punctuation and
-position only.** Vol. 2's hOCR (ABBYY FineReader 8) contains no Hebrew
-character, and vol. 1's (Tesseract `heb+eng`) garbles Hebrew, often
-mirrored. An `hOCR` quote can show a gloss, a cite, a sense number, a
-Roman numeral or a mark, and where on the leaf it sits; it never
-vouches for a Hebrew reading, which needs a `maintainer-read` of the
-scan crop ([`data/print/hocr/README.md`](../../data/print/hocr/README.md),
-"What the hOCR can witness"; ruling `10-26 patch evidence`).
+position only.** The evidence scan's OCR (vol. 2's ABBYY FineReader 8,
+with no Hebrew character; vol. 1's Tesseract `heb+eng`, which garbles
+Hebrew) can show a gloss, a cite, a sense number, a Roman numeral or a
+mark, and where on the page it sits; it never vouches for a Hebrew
+reading, which needs a `maintainer-read` of the scan
+([`docs/archive/print-hocr/README.md`](../../docs/archive/print-hocr/README.md),
+"What the hOCR can witness"; ruling `10-26 patch evidence`). The OCR
+itself is no longer kept in the tree (ruling `11-05 page index`): a
+quote is a citation a person checks against the scan, not a string a
+gate matches.
 
-`leaf` and `volume` locate the evidence on the evidence scan
-(`patch/scan.ts`, ruling `11-01 print images`), always together, on
-any kind; IIIF's `$n` is leaf `n − 1`. Whether a record should name a
-leaf at all, now that the page index holds none, is open (third review
-checklist, D7). `pending` is allowed only on `sefaria-only`. The validator
+`page` is the printed page the evidence is read off, on any kind: a
+printed page holds in every copy of the edition, where a scan leaf
+holds in one. A rationale links that page on the evidence scan
+(`archive.org/details/<item>/page/<page>`, built and read by
+`patch/scan.ts`, ruling `11-01 print images`); no record stores a
+scan coordinate (third review checklist, D7). `pending` is allowed only on `sefaria-only`. The validator
 refuses an unknown key, a kind without what it must state, and a
 malformed value; whether a patch must carry `evidence` at all is the
 preflight's, since only the loader knows who wrote it.
@@ -918,8 +922,8 @@ half the import enforces.
   from the step-8 seeder, which turned a rule's output into a reviewed
   record with a boilerplate "print has" rationale (class A).
 - **The maintainer block** (the checklist block a person ticks) shows,
-  by default, the hOCR line and the scan crop link at the leaf of the
-  page the page index gives the entry (`patch/scan.ts`), **never the proposal**: the reader
+  by default, the scan link to the page the page index gives the entry
+  (`patch/scan.ts`), **never the proposal**: the reader
   writes what print reads, and the patch is drawn from that, not
   ticked into agreement with it. A proposal, where one exists, sits
   below the read and collapsed.
@@ -1227,8 +1231,8 @@ the index to look a page up, `data:validate` does not compare the two,
 and an admin-tool page edit touches only the entry file.
 
 It holds no scan information. A leaf, an Internet Archive identifier
-or an image link belongs to one scan; the evidence scan's offsets live
-in `patch/scan.ts` beside its hOCR (§5 "Patch evidence").
+or an image link belongs to one scan; how a printed page is linked on
+the evidence scan is `patch/scan.ts` (§5 "Patch evidence").
 
 It was derived once from a deterministic alignment of the print hOCR
 against the Sefaria text, whose tool is archived at
@@ -1381,19 +1385,16 @@ this is the half a hand edit meets without the snapshot.
 
 **11. `evidenceLocator`** (`import/gates.ts`,
 `checkEvidenceLocators`; ruling `10-26 patch evidence`). One mark per
-applied patch whose `evidence` names a `leaf`.
-*Proves:* the leaf shows the patch's entry, its page (by the evidence
-scan's offset, `patch/scan.ts`) between the
-entry's own and the page the next entry starts on (`leafOutsideEntry`,
+applied patch whose `evidence` names a `page`.
+*Proves:* the page is one the patch's entry is on, between the entry's
+own and the page the next entry starts on (`pageOutsideEntry`,
 `patch/locator.ts`, the check the Sefaria appendix's scan column
-makes); and an `hOCR` quote occurs on that leaf's hOCR text
-(`patch/hocr.ts`), verbatim but for whitespace and the invisible bidi
-marks. Evidence read off another leaf is not evidence for this entry
+makes). Evidence read off another page is not evidence for this entry
 (P000388/389).
-*Cannot see:* whether the quote proves the change: it is located, not
-read. Nor a Hebrew reading, which no hOCR quote witnesses (§5 "Patch
-evidence"), nor a patch whose evidence names no leaf, which is not
-marked. The page index is best effort, so an entry whose next
+*Cannot see:* what the page reads: a quote is a citation a person
+checks against the scan (ruling `11-05 page index`), and no Hebrew
+reading is an OCR quote's to witness (§5 "Patch evidence"). Nor a
+patch whose evidence names no page, which is not marked. The page index is best effort, so an entry whose next
 neighbour starts on the same page cannot be located on the page
 after.
 
@@ -1542,7 +1543,7 @@ own script, `bun data:sefaria` (`sefaria.ts`, building on
 `report/sefaria-report.ts`, `report/sefaria-evidence.ts` and
 `report/sefaria-change.ts`). It is not a stage of the import: it reads
 only committed inputs (the reviewed patch records, `data/source/`, the
-page index, the evidence scan's offsets (`patch/scan.ts`) and the
+page index, the evidence scan's page links (`patch/scan.ts`) and the
 hand-kept submission log
 `docs/sefaria-submissions.jsonl`) and none of a run's state, so it
 runs in a second, and the maintainer can regenerate it after logging
@@ -1561,7 +1562,7 @@ failed, never into the appendix:
    `maintainer-read` or `jastrow-text` — a `sefaria-only` record,
    `pending` or not, is held back whatever its rationale names (ruling
    `10-26 patch evidence` as amended 2026-10-31; the object is the
-   authority, §5) — and the rationale words the evidence column: an hOCR read, a scan leaf, or a
+   authority, §5) — and the rationale words the evidence column: an hOCR read, a scan page, or a
    maintainer print read with its date or worklist, else the object
    itself; or, for a
    `cross-reference-target` retarget, the text proof: the cite reads

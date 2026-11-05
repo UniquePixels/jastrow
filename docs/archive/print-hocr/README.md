@@ -1,4 +1,13 @@
-# Print hOCR
+# Print hOCR (archived)
+
+> **Archived 2026-11-05** by ruling `11-05 page index`
+> ([`../../decisions.md`](../../decisions.md)). The hOCR files this README
+> describes were removed from the tree once nothing read them: the page
+> index they built is now a block map with no scan data, and patch
+> evidence cites a printed page, checked by a person against the scan.
+> They are at the tag `archive/print-hocr-2026-11-05`, under
+> `data/print/hocr/`. The provenance and rights below still describe the
+> evidence scan the patch records link to.
 
 The raw OCR of the two evidence scans (ruling `11-01 print images`), kept in
 the repo because the page index was built from these exact bytes and the
@@ -23,7 +32,7 @@ are the Claremont School of Theology 2021 scans (718 / 1,068 leaves,
 Tesseract 5.0, 2314 × 3256 and 2488 × 3561); for the same printed page
 vol. 1's leaf number is two greater than `jastuoft`'s (page = leaf − 25
 against leaf − 23), vol. 2's is the same (page = leaf + 677). Sharpness by eye on ten pages:
-[`docs/reports/scan-comparison-2026-11-01.md`](../../../docs/reports/scan-comparison-2026-11-01.md).
+[`docs/reports/scan-comparison-2026-11-01.md`](../../reports/scan-comparison-2026-11-01.md).
 
 ## Source
 
@@ -77,12 +86,12 @@ A Hebrew reading needs a person's read of the scan, recorded as
 and the same goes for the other items' Tesseract output (`Jastrow`,
 the Claremont pair), none of which is in the repo. This is the rule a reviewed patch's
 `evidence` follows (ruling `10-26 patch evidence` in
-[`docs/decisions.md`](../../../docs/decisions.md);
+[`docs/decisions.md`](../../decisions.md);
 [`admin/pipeline/DESIGN.md`](../../../admin/pipeline/DESIGN.md) §5
 "Patch evidence"). The import reads these files for one check only,
 gate 11 (`evidenceLocator`): an `hOCR` quote must occur verbatim on the
 leaf it names, whitespace and invisible bidi marks aside
-([`admin/pipeline/patch/hocr.ts`](../../../admin/pipeline/patch/hocr.ts)).
+(`admin/pipeline/patch/hocr.ts`, removed with the files).
 
 ## Reassembling and verifying
 

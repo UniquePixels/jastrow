@@ -49,10 +49,9 @@ ways: every entry placed, and nothing placed that is not an entry.
 
 **No scan information.** A leaf number, an Internet Archive identifier
 or an image link belongs to one scan, and scans change. Pages are what
-the print fixes. The scan the patch evidence cites, and how its leaves
-map to pages, is in
-[`admin/pipeline/patch/scan.ts`](../../admin/pipeline/patch/scan.ts),
-beside its OCR in [`../print/hocr/`](../print/hocr/README.md).
+the print fixes. How a printed page is linked on the scan the patch
+evidence cites is
+[`admin/pipeline/patch/scan.ts`](../../admin/pipeline/patch/scan.ts).
 
 **No research output.** How the map was built (a deterministic
 alignment of the scans' OCR against the Sefaria text), how accurate
@@ -83,5 +82,5 @@ Each is read off the scan and recorded here.
 ## Rights
 
 Derived from public-domain scans; see
-[`../print/hocr/README.md`](../print/hocr/README.md) for their
-provenance and the credit owed upstream.
+[`docs/archive/print-hocr/README.md`](../../docs/archive/print-hocr/README.md)
+for their provenance and the credit owed upstream.

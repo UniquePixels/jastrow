@@ -18,8 +18,10 @@
  *    (`evidenceFromRecord`); a cross-reference retarget's text proof
  *    (`retargetProof`) is checked against Sefaria's data, not the prose.
  */
+
 import { serialize, tokenize } from '../../entry/html.ts';
 import { internalTarget, linkKey } from '../import/cite.ts';
+import { pageOfUrl, pageUrls } from '../patch/scan.ts';
 import type { PatchEvidence, SemanticPatch } from '../patch/schema.ts';
 import {
 	type Exclusion,
@@ -81,7 +83,6 @@ const HOCR_MENTIONS = /\bhOCR\b/gu;
 const HOCR_NEGATED_BEFORE = /\bnot(?: \w+){0,3} in the $/u;
 const HOCR_NEGATED_AFTER =
 	/^(?:\s+(?:cannot|does not|did not|has no|is not)\b|[^`]{0,30}`not found in the hOCR`)/u;
-const LEAF = /\bleaf (?<leaf>\d+)/u;
 const PRINT_READ = /\bprint (?:read|check)\b/iu;
 const READ_DATE = /\bprint (?:read|check)\b[^.;]*?(?<date>\d{4}-\d{2}-\d{2})/iu;
 /** Where a maintainer's print read is recorded: a worklist, or the
@@ -189,7 +190,7 @@ function hocrWitnesses(rationale: string): boolean {
 
 /** The print evidence a rationale names, or `''`: a maintainer print
  * read with its date (or, where none is given, the worklist it was
- * read in), an hOCR read, a scan leaf. */
+ * read in), an hOCR read, a scan page. */
 function evidenceOf(rationale: string): string {
 	const parts: string[] = [];
 	if (PRINT_READ.test(rationale)) {
@@ -204,9 +205,10 @@ function evidenceOf(rationale: string): string {
 	if (hocrWitnesses(rationale)) {
 		parts.push('hOCR');
 	}
-	const leaf = LEAF.exec(rationale)?.groups?.['leaf'];
-	if (leaf !== undefined) {
-		parts.push(`scan leaf ${leaf}`);
+	const [url] = pageUrls(rationale);
+	const page = url === undefined ? undefined : pageOfUrl(url);
+	if (page !== undefined) {
+		parts.push(`scan p. ${page}`);
 	}
 	return parts.join('; ');
 }
@@ -461,9 +463,9 @@ function retargetProof(
  * row, so it also states the evidence. */
 function evidenceFromRecord(evidence: PatchEvidence): string {
 	if (evidence.kind === 'hOCR') {
-		return evidence.leaf === undefined
+		return evidence.page === undefined
 			? 'hOCR'
-			: `hOCR; scan leaf ${evidence.leaf}`;
+			: `hOCR; scan p. ${evidence.page}`;
 	}
 	if (evidence.kind === 'maintainer-read') {
 		return evidence.date === undefined
@@ -518,7 +520,6 @@ export {
 	evidenceOf,
 	HOCR,
 	indexSource,
-	LEAF,
 	NOT_UPSTREAM_CLASSES,
 	NOT_UPSTREAM_OPS,
 	PRINT_READ,

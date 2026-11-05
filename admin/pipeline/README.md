@@ -219,7 +219,7 @@ bun data:sefaria      # writes docs/reports/sefaria-appendix.{csv,md}, sefaria-r
 ```
 
 Not a stage: it reads the reviewed patch records, `data/source/`, the
-page index, the evidence scan's offsets (`patch/scan.ts`) and
+page index, the evidence scan's page links (`patch/scan.ts`) and
 `docs/sefaria-submissions.jsonl`, and writes the rows of
 the report we send Sefaria (`docs/sefaria-report.md`, ruling `10-16
 upstream report`) and the review list of every reviewed patch its four
