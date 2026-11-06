@@ -575,10 +575,10 @@ const ANY_GERSHAYIM = /\u05f4/gu;
  * the input, so a rule whose own predicate drifted wider would be
  * caught here rather than rubber-stamped. That is why the widening is
  * confined to the TOLERANCE class and why this must NOT import
- * `HEBREW_ATOM` from `html.ts`, architecturally legal though that
+ * `HEBREW_ATOM` from `hebrew.ts`, architecturally legal though that
  * would be: a gate whose predicate is the rule's predicate can no
  * longer catch a rule that widened its own, and would silently follow
- * any future widening of the tokenizer's Hebrew class. The three
+ * any future widening of `hebrew.ts`'s Hebrew class. The three
  * remaining divergences are deliberate and stay — the rule admits
  * presentation forms (U+FB1D–U+FB4F), `׳`/`״` themselves and bare
  * points as FLANKS; this gate admits none of them.

@@ -189,7 +189,7 @@ import { unlinkOverDefinitions } from './unlink.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex.
 
-/** `html.ts`'s `HEBREW` decomposed into the two halves this module
+/** `hebrew.ts`'s `HEBREW` decomposed into the two halves this module
  * has to tell apart, on the ranges its docstring documents: U+05D0–
  * U+05EA the letters (final forms included), U+0591–U+05C7 the points
  * and accents. Importing `HEBREW` whole would not do — a stub is a

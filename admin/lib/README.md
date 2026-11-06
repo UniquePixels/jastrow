@@ -10,7 +10,8 @@ from another admin module.
 
 | File | What it holds |
 |---|---|
-| `html.ts` | the tokenizer every markup field is read with, plus the Hebrew character classes and span helpers built on it |
+| `html.ts` | the tokenizer every markup field is read with, and the tag-span helpers built on it |
+| `hebrew.ts` | the Hebrew character classes (`HEBREW`, `HEBREW_ATOM`) and `hebrewRuns`, which finds Hebrew runs inside a text value |
 | `compare-by-code-unit.ts` | `compareByCodeUnit`, the comparator every string sort passes: code-unit order, the same on every machine; never `localeCompare` |
 
 Tests live in `__tests__/`.

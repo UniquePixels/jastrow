@@ -18,12 +18,11 @@
  * trip here is a bug in the rule, never a reason for an allowance.
  */
 
+import { HEBREW, hebrewRuns } from '../../../lib/hebrew.ts';
 import type { Token } from '../../../lib/html.ts';
 import {
 	attributeInterior,
 	DIR_RTL,
-	HEBREW,
-	hebrewRuns,
 	opensScope,
 	serialize,
 	tokenize,
