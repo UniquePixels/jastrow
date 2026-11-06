@@ -20,8 +20,9 @@ import { EntrySchema } from './schema.ts';
  * the schema is `EntrySchema` unchanged. */
 function fileSchema(): Record<string, unknown> {
 	const header = ['$schema', '$id', 'title', 'description'];
+	const inHeader = new Set(header);
 	const keys = Object.keys(EntrySchema);
-	const order = [...header, ...keys.filter((key) => !header.includes(key))];
+	const order = [...header, ...keys.filter((key) => !inHeader.has(key))];
 	const schema: Readonly<Record<string, unknown>> = { ...EntrySchema };
 	return Object.fromEntries(order.map((key) => [key, schema[key]]));
 }
