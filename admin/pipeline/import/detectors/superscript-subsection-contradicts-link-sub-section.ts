@@ -16,7 +16,7 @@
  * chapter never disagrees; only the second component is ever in
  * dispute.
  */
-import type { Entry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/schema.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { markupFields } from './senses.ts';
 

@@ -49,7 +49,7 @@
  * Idempotent: NFC is a fixed point, so a second run rewrites nothing.
  */
 
-import { VERBATIM_FIELDS } from '../../entry/types.ts';
+import { VERBATIM_FIELDS } from '../../entry/schema.ts';
 
 /** What one normalization pass changed. `strings` counts the values
  * rewritten, not the values visited. */
@@ -68,7 +68,7 @@ function normalizeString(value: string, count: NormalizeCount): string {
 
 /** Walk any JSON value, normalizing every string it holds — except
  * under `VERBATIM_FIELDS` (the entry contract's list, `admin/entry/
- * types.ts`). Gate 7 asserts `sefariaHeadword` byte for byte against
+ * schema.ts`). Gate 7 asserts `sefariaHeadword` byte for byte against
  * the snapshot BEFORE this step runs, so nothing downstream would
  * catch a normalization of it. The snapshot holds no non-NFC headword
  * today, which is why this is a guard rather than a repair — the next

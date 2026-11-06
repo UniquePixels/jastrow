@@ -34,8 +34,13 @@ import { headwordShapeProblems } from './headword-rules.ts';
 import { tokenize } from './html.ts';
 import { nameCollisions } from './names.ts';
 import { byCodeUnit } from './order.ts';
-import { ENTRIES_DIR, SCHEMA_PATH } from './paths.ts';
-import { type Entry, type Sense, VERBATIM_FIELDS } from './types.ts';
+import { ENTRIES_DIR } from './paths.ts';
+import {
+	type Entry,
+	EntrySchema,
+	type Sense,
+	VERBATIM_FIELDS,
+} from './schema.ts';
 
 /** The entry markup vocabulary (migrate spec §2.2): `markup.ts` keeps
  * four source tags and translates the other two into `he` and `cite`. */
@@ -62,23 +67,19 @@ const MARKUP_CHAR = /[<>]/u;
 /** The compiled validator, memoised by `schemaValidator`. */
 let compiled: ValidateFunction<Entry> | undefined;
 
-/** Ajv, compiled once against the schema `paths.ts` names.
+/** Ajv, compiled once against `EntrySchema` (`schema.ts`).
  *
- * A runtime read rather than a compile-time import: the schema is the
- * language-neutral half of the contract, and `paths.ts` is the one
- * place that says where it is. The cost is that TypeScript no longer
- * checks the schema literal at build — `schema.test.ts` and Ajv's own
- * `strict: true` carry that instead. The `Entry` type parameter is a
- * claim that a file the schema passes IS an `Entry`;
- * `schema-parity.test.ts` is what holds the two to it.
+ * `EntrySchema` is JSON Schema as it stands and `Entry` is derived
+ * from it, so the type parameter below is the schema's own type, not a
+ * claim held by a separate test (ruling `11-05 schema source`).
  *
  * Exported so the import's schema gate compiles this validator rather
  * than a second copy of it. */
-async function schemaValidator(): Promise<ValidateFunction<Entry>> {
+function schemaValidator(): ValidateFunction<Entry> {
 	compiled ??= new Ajv2020({
 		allErrors: true,
 		strict: true,
-	}).compile<Entry>(await Bun.file(SCHEMA_PATH).json());
+	}).compile<Entry>(EntrySchema);
 	return compiled;
 }
 
@@ -471,8 +472,8 @@ function checkEntry(
 /** Every check one entry file can answer on its own; an empty list is
  * a valid file. `path` is where the file sits relative to
  * `data/entries/` (`A/A00013.json`). */
-async function validateEntry(entry: unknown, path: string): Promise<string[]> {
-	const [, problems] = checkEntry(await schemaValidator(), entry, path);
+function validateEntry(entry: unknown, path: string): string[] {
+	const [, problems] = checkEntry(schemaValidator(), entry, path);
 	return problems;
 }
 
@@ -492,10 +493,10 @@ function validateCorpus(entries: readonly Entry[]): string[] {
 /** Both halves over one loaded tree: each file's own checks, then the
  * corpus checks over the files that passed the schema. An empty list
  * is a valid tree. */
-async function validateEntries(files: readonly EntryFile[]): Promise<string[]> {
+function validateEntries(files: readonly EntryFile[]): string[] {
 	const problems: string[] = [];
 	const entries: Entry[] = [];
-	const schema = await schemaValidator();
+	const schema = schemaValidator();
 	for (const { entry, path } of files) {
 		const [valid, found] = checkEntry(schema, entry, path);
 		problems.push(...found);

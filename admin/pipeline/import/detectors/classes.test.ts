@@ -3,7 +3,7 @@ import {
 	type Entry,
 	SCHEMA_VERSION,
 	type Sense,
-} from '../../../entry/types.ts';
+} from '../../../entry/schema.ts';
 import { PUBLICATION } from '../publication.ts';
 import { createReport, type Report } from '../report.ts';
 import {

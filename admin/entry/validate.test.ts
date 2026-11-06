@@ -5,7 +5,7 @@
  * planted defect at a time, and that it names the defect it found.
  */
 import { describe, expect, it } from 'bun:test';
-import { type Entry, SCHEMA_VERSION } from './types.ts';
+import { type Entry, SCHEMA_VERSION } from './schema.ts';
 import {
 	type EntryFile,
 	entryFields,
@@ -85,17 +85,17 @@ describe('markupProblems', () => {
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('validateEntries', () => {
-	it('a valid tree has no problems', async () => {
+	it('a valid tree has no problems', () => {
 		const files = tree(A(), B());
-		expect(await validateEntries(files)).toEqual([]);
+		expect(validateEntries(files)).toEqual([]);
 	});
 
-	it('reports a schema failure by path and drops the entry from the corpus checks', async () => {
+	it('reports a schema failure by path and drops the entry from the corpus checks', () => {
 		const files: EntryFile[] = [
 			{ entry: { id: 'A00001' }, path: 'A/A00001.json' },
 			...tree(B()),
 		];
-		const problems = await validateEntries(files);
+		const problems = validateEntries(files);
 		expect(problems).toHaveLength(1);
 		expect(problems[0]).toStartWith('A/A00001.json: schema: ');
 	});
@@ -253,8 +253,8 @@ describe('validateEntries', () => {
 			}),
 			'A00002: headwords[1] is partial with no full sibling, so the entry has no lookup key (§3.1 rule 5)',
 		],
-	])('reports %s', async (_name, files, expected) => {
-		expect(await validateEntries(files)).toEqual([expected].flat());
+	])('reports %s', (_name, files, expected) => {
+		expect(validateEntries(files)).toEqual([expected].flat());
 	});
 
 	it('reads files at every depth, so a misplaced one is reported', async () => {
@@ -267,7 +267,7 @@ describe('validateEntries', () => {
 			'A/old/A00003.json',
 			'A00002.json',
 		]);
-		expect(await validateEntries(files)).toEqual([
+		expect(validateEntries(files)).toEqual([
 			'A/old/A00003.json: id A00003 belongs at A/A00003.json',
 			'A00002.json: id A00002 belongs at A/A00002.json',
 		]);
@@ -283,12 +283,9 @@ describe('the NFC clause', () => {
 		expect(NOT_NFC.normalize('NFD')).toBe(NFC.normalize('NFD'));
 	});
 
-	it('passes the same word in NFC', async () => {
+	it('passes the same word in NFC', () => {
 		expect(
-			await validateEntry(
-				entry('A00001', 'אב', `gloss ${NFC}`),
-				'A/A00001.json',
-			),
+			validateEntry(entry('A00001', 'אב', `gloss ${NFC}`), 'A/A00001.json'),
 		).toEqual([]);
 	});
 
@@ -351,29 +348,26 @@ describe('the NFC clause', () => {
 		],
 	])(
 		'fires on a decomposed spelling in %s, naming the field',
-		async (_name, planted, field) => {
-			expect(await validateEntry(planted, 'A/A00001.json')).toEqual([
+		(_name, planted, field) => {
+			expect(validateEntry(planted, 'A/A00001.json')).toEqual([
 				`A00001: ${field}: not NFC`,
 			]);
 		},
 	);
 
-	it('does not ask sefariaHeadword to be NFC — it is Sefaria’s bytes', async () => {
+	it('does not ask sefariaHeadword to be NFC — it is Sefaria’s bytes', () => {
 		// `VERBATIM_FIELDS`: the import's NFC write leaves this field
 		// alone, so the contract must not refuse what the import writes.
 		expect(
-			await validateEntry(
-				{ ...A(), sefariaHeadword: NOT_NFC },
-				'A/A00001.json',
-			),
+			validateEntry({ ...A(), sefariaHeadword: NOT_NFC }, 'A/A00001.json'),
 		).toEqual([]);
 	});
 });
 
 describe('the two halves', () => {
-	it('validateEntry answers only what one file can: a dangling cite is not its finding', async () => {
+	it('validateEntry answers only what one file can: a dangling cite is not its finding', () => {
 		const dangling = entry('A00002', 'אבא', '<cite ref="A09999">x</cite>');
-		expect(await validateEntry(dangling, 'A/A00002.json')).toEqual([]);
+		expect(validateEntry(dangling, 'A/A00002.json')).toEqual([]);
 		expect(validateCorpus([A(), dangling])).toEqual([
 			'A00002: senses[0].gloss: cite ref A09999 names no entry',
 		]);
@@ -384,8 +378,8 @@ describe('the two halves', () => {
 		expect(validateCorpus([A(), bad])).toEqual([]);
 	});
 
-	it('validateEntry reports a schema failure by path and stops there', async () => {
-		const problems = await validateEntry({ id: 'A00001' }, 'A/A00001.json');
+	it('validateEntry reports a schema failure by path and stops there', () => {
+		const problems = validateEntry({ id: 'A00001' }, 'A/A00001.json');
 		expect(problems).toHaveLength(1);
 		expect(problems[0]).toStartWith('A/A00001.json: schema: ');
 	});
@@ -395,12 +389,12 @@ describe('validateEntry: an I set by correction (10-13)', () => {
 	// Ruling 10-13 correction policy retired 10-06's `implied`: an I
 	// set by correction is a plain `homograph: 1` with a `homograph`
 	// annotation, and it is displayed like any other numeral.
-	it('validateEntry refuses implied, a field the contract no longer has', async () => {
+	it('validateEntry refuses implied, a field the contract no longer has', () => {
 		const planted = {
 			...A(),
 			headwords: [{ homograph: 1, implied: true, text: 'אב' }],
 		};
-		const problems = await validateEntry(planted, 'A/A00001.json');
+		const problems = validateEntry(planted, 'A/A00001.json');
 		expect(problems).toHaveLength(1);
 		expect(problems[0]).toContain('implied');
 	});
@@ -427,12 +421,12 @@ describe('validateEntry: an I set by correction (10-13)', () => {
 		],
 	});
 
-	it('validateEntry passes an I set by correction that display numbers', async () => {
-		expect(await validateEntry(provenI('{0} I'), 'A/A00001.json')).toEqual([]);
+	it('validateEntry passes an I set by correction that display numbers', () => {
+		expect(validateEntry(provenI('{0} I'), 'A/A00001.json')).toEqual([]);
 	});
 
-	it('validateEntry refuses an I set by correction that display hides', async () => {
-		const problems = await validateEntry(provenI('{0}'), 'A/A00001.json');
+	it('validateEntry refuses an I set by correction that display hides', () => {
+		const problems = validateEntry(provenI('{0}'), 'A/A00001.json');
 		expect(problems).toHaveLength(1);
 		expect(problems[0]).toContain('rule 3');
 	});
@@ -464,8 +458,8 @@ describe('gender exclusivity (HW-gender)', () => {
 			{ ...pair([], ['', '']), grammar: { gender: 'm' } },
 		],
 		['a gender on every headword', pair(['m', 'f'], [' m.', ' f.'])],
-	] as [string, Entry][])('passes %s', async (_name, planted) => {
-		expect(await validateEntry(planted, 'A/A00001.json')).toEqual([]);
+	] as [string, Entry][])('passes %s', (_name, planted) => {
+		expect(validateEntry(planted, 'A/A00001.json')).toEqual([]);
 	});
 
 	it.each([
@@ -493,8 +487,8 @@ describe('gender exclusivity (HW-gender)', () => {
 		],
 	] as [string, Entry, string[]][])(
 		'refuses %s',
-		async (_name, planted, expected) => {
-			expect(await validateEntry(planted, 'A/A00001.json')).toEqual(expected);
+		(_name, planted, expected) => {
+			expect(validateEntry(planted, 'A/A00001.json')).toEqual(expected);
 		},
 	);
 });

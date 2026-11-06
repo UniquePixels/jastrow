@@ -16,7 +16,7 @@
  * rejoin the span, and only the print page says how far it reaches.
  */
 
-import type { Entry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/schema.ts';
 import { textOf } from '../gates.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { fieldsOf, type SenseAt, walkEntrySenses } from './senses.ts';

@@ -26,7 +26,7 @@
  * are pipeline data, and only the import's gate 10 holds both sides.
  */
 import { intToRoman } from './headwords.ts';
-import type { Annotation, Entry, FormObject, Sense } from './types.ts';
+import type { Annotation, Entry, FormObject, Sense } from './schema.ts';
 
 /** `YYYY-MM-DD`, the shape the schema's `date` pattern holds; whether
  * the day exists is `isIsoDate`'s second half. */

@@ -20,7 +20,7 @@
  * corrects the entry after go-live without moving its URL.
  */
 
-import type { Entry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/schema.ts';
 import { textOf } from '../gates.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { fieldsOf, walkEntrySenses } from './senses.ts';

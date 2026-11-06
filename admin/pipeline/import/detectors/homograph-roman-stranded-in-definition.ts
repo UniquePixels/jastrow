@@ -22,7 +22,7 @@
  * eight were repaired so from the 2026-10-06 reads.
  */
 
-import type { Entry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/schema.ts';
 import { textOf } from '../gates.ts';
 import { type ClassRow, entryRow } from './row.ts';
 

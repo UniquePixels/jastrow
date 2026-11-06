@@ -7,7 +7,7 @@
 import { describe, expect, it } from 'bun:test';
 import { headwordShapeProblems, textDefects } from './headword-rules.ts';
 import { parseHeadwordLine } from './headwords.ts';
-import type { Annotation, Entry, FormObject } from './types.ts';
+import type { Annotation, Entry, FormObject } from './schema.ts';
 
 /** An entry as the rules read it: the id, the forms and the template. */
 function shaped(

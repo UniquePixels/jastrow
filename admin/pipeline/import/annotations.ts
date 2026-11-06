@@ -8,7 +8,7 @@
  * the value as written.
  */
 import { intToRoman } from '../../entry/headwords.ts';
-import type { Annotation, FormObject, Sense } from '../../entry/types.ts';
+import type { Annotation, FormObject, Sense } from '../../entry/schema.ts';
 import { countOccurrences } from '../patch/schema.ts';
 import type {
 	AnnotationNote,

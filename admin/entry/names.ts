@@ -13,7 +13,7 @@
  * rename reached only `nameOf` — which is the point of the split.
  */
 import { intToRoman, intToSup } from './headwords.ts';
-import type { Entry, FormObject } from './types.ts';
+import type { Entry, FormObject } from './schema.ts';
 
 /** Print notation that is ABOUT the word rather than part of it, and
  * so is dropped from the name alone (spec §4): `(`, `)`, `?` and `,`.

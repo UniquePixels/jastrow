@@ -1,16 +1,16 @@
 # Schema — the entry contract
 
 `entry.schema.json` is what every file under `data/entries/` must
-satisfy. It is the specification: the documents describe it, this
-defines it.
+satisfy.
 
-Hand-authored by this project. Read at run time by the entry
-contract through `admin/entry/paths.ts` (the pipeline's `paths.ts`
-re-exports it). `admin/entry/schema.test.ts` tests what it accepts
-and refuses; `admin/entry/schema-parity.test.ts` holds every object
-here to the `Entry` type in `admin/entry/types.ts`: same keys, same
-required keys, same literal values. A change to one is a failing
-`bun qa` until the other follows.
+**Generated, never edited by hand.** The source is
+`admin/entry/schema.ts` (ruling `11-05 schema source`); `bun
+schema:build` writes this file from it, and `bun schema:check`, run
+by `bun qa` and CI, fails when the committed copy is stale. It is
+committed so an editor has it without a build: `.vscode/settings.json`
+maps `data/entries/` to it for IntelliSense, with each field's
+`description` as its hover text. `admin/entry/schema.test.ts` tests
+what it accepts and refuses.
 
 It lives here, beside the data it describes, rather than with the code
 that happens to produce that data today — the admin tool and the app

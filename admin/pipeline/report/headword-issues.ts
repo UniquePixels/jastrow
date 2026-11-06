@@ -23,7 +23,7 @@
 import { dirname, relative } from 'node:path';
 import { intToSup, isHeadwordReviewKind } from '../../entry/headwords.ts';
 import { nameOf } from '../../entry/names.ts';
-import type { Entry, FormObject } from '../../entry/types.ts';
+import type { Entry, FormObject } from '../../entry/schema.ts';
 import {
 	DESIGN_PATH,
 	HEADWORD_ISSUES_DOC,

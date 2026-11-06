@@ -29,7 +29,7 @@
 import { intToRoman } from '../../entry/headwords.ts';
 import { tokenize } from '../../entry/html.ts';
 import { byCodeUnit } from '../../entry/order.ts';
-import type { Entry } from '../../entry/types.ts';
+import type { Entry } from '../../entry/schema.ts';
 import { fieldsOf } from '../transform/no-new-text.ts';
 import type { SourceEntry } from '../types.ts';
 import { internalTarget, linkKey } from './cite.ts';

@@ -2,7 +2,7 @@
  * target's stored numerals, the `ch.` line of ruling 10-15, and the
  * allowlist. */
 import { describe, expect, it } from 'bun:test';
-import type { Entry } from '../../entry/types.ts';
+import type { Entry } from '../../entry/schema.ts';
 import type { SourceEntry } from '../types.ts';
 import { checkCiteNumerals, numeralsOf } from './cite-numeral.ts';
 import {

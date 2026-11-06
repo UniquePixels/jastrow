@@ -98,8 +98,8 @@ already appends the numeral. `reconstructed`, `partial` and
 the third is Sefaria's, so none of them is a correction.
 
 **What `validateEntry` checks** (`admin/entry/annotations.ts`, called
-from `validate.ts` beside `checkGender`; schema and
-`schema-parity.test.ts` in step). The shape is the schema's (enums,
+from `validate.ts` beside `checkGender`; the shape in
+`schema.ts`). The shape is the schema's (enums,
 patterns, a non-empty `evidence`, a list never `[]`); the rest is
 code:
 

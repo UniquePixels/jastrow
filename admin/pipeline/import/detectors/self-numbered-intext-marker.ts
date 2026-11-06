@@ -48,7 +48,7 @@
  */
 
 import { tokenize } from '../../../entry/html.ts';
-import type { Entry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/schema.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { fieldsOf, type SenseAt, walkEntrySenses } from './senses.ts';
 

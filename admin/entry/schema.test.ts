@@ -3,9 +3,9 @@ import Ajv2020 from 'ajv/dist/2020';
 import { SCHEMA_PATH } from './paths.ts';
 import { validateEntry } from './validate.ts';
 
-// A runtime read, like the module's own two load sites: the schema
-// is handed to the module through paths.ts, not compiled in, so this
-// is the one place a change to its shape is checked at all.
+// The committed, generated file: what an editor and a reader that is
+// not TypeScript see. `bun schema:check` holds it to schema.ts, so
+// these cases test the schema the contract validates with too.
 const ajv = new Ajv2020({ allErrors: true, strict: true });
 const validate = ajv.compile(await Bun.file(SCHEMA_PATH).json());
 
@@ -86,7 +86,7 @@ describe('entry.schema.json valid entries', () => {
 		expect(validate(fullEntry), JSON.stringify(validate.errors)).toBe(true);
 	});
 
-	it('accepts an entry carrying both genders, which only validateEntry refuses (HW-gender)', async () => {
+	it('accepts an entry carrying both genders, which only validateEntry refuses (HW-gender)', () => {
 		const both = {
 			...minimalEntry,
 			headwords: [{ text: 'אָב', gender: 'm' }],
@@ -94,7 +94,7 @@ describe('entry.schema.json valid entries', () => {
 			grammar: { gender: 'm' },
 		};
 		expect(validate(both), JSON.stringify(validate.errors)).toBe(true);
-		expect(await validateEntry(both, 'A/A00014.json')).toEqual([
+		expect(validateEntry(both, 'A/A00014.json')).toEqual([
 			'A00014: grammar.gender beside a form gender on headwords [0]; an entry carries one or the other, never both (HW-gender)',
 		]);
 	});

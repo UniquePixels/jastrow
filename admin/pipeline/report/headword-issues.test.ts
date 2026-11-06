@@ -1,6 +1,6 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
-import type { Entry } from '../../entry/types.ts';
+import type { Entry } from '../../entry/schema.ts';
 import { buildHeadwordIssues } from './headword-issues.ts';
 
 // Two entries whose primary headword is a maqaf fragment (X5), so each

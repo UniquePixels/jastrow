@@ -19,7 +19,7 @@ import {
 	type FormObject,
 	SCHEMA_VERSION,
 	type Sense,
-} from './types.ts';
+} from './schema.ts';
 import { validateEntry } from './validate.ts';
 
 const PATH = 'A/A00001.json';
@@ -76,8 +76,8 @@ const onSense = (...notes: Annotation[]): Entry =>
 	base({}, { annotations: notes });
 
 /** What the contract says about one planted entry. */
-async function problemsOf(entry: unknown): Promise<string[]> {
-	return await validateEntry(entry, PATH);
+function problemsOf(entry: unknown): string[] {
+	return validateEntry(entry, PATH);
 }
 
 describe('annotations: what passes', () => {
@@ -118,8 +118,8 @@ describe('annotations: what passes', () => {
 				],
 			},
 		],
-	] as [string, Entry][])('%s', async (_name, entry) => {
-		expect(await problemsOf(entry)).toEqual([]);
+	] as [string, Entry][])('%s', (_name, entry) => {
+		expect(problemsOf(entry)).toEqual([]);
 	});
 });
 
@@ -157,15 +157,12 @@ describe('annotations: the schema half', () => {
 			onSense({ ...note(), source: undefined } as unknown as Annotation),
 			'required',
 		],
-	] as [string, Entry, string][])(
-		'refuses %s',
-		async (_name, entry, keyword) => {
-			const problems = await problemsOf(entry);
-			expect(problems).toHaveLength(1);
-			expect(problems[0]).toStartWith(`${PATH}: schema: `);
-			expect(problems[0]).toContain(keyword);
-		},
-	);
+	] as [string, Entry, string][])('refuses %s', (_name, entry, keyword) => {
+		const problems = problemsOf(entry);
+		expect(problems).toHaveLength(1);
+		expect(problems[0]).toStartWith(`${PATH}: schema: `);
+		expect(problems[0]).toContain(keyword);
+	});
 });
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one table, one row per check; splitting it would scatter the clause it pins.
@@ -253,8 +250,8 @@ describe('annotations: the code half', () => {
 			onSense(note(), n('gloss', 'fther', 'father')),
 			'senses[0]: 2 annotations on gloss; at most one per field',
 		],
-	] as [string, Entry, string][])('refuses %s', async (_name, entry, tail) => {
-		expect(await problemsOf(entry)).toEqual([`A00001: ${tail}`]);
+	] as [string, Entry, string][])('refuses %s', (_name, entry, tail) => {
+		expect(problemsOf(entry)).toEqual([`A00001: ${tail}`]);
 	});
 });
 

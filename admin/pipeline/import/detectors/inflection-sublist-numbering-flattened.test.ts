@@ -3,7 +3,7 @@ import {
 	type Entry,
 	SCHEMA_VERSION,
 	type Sense,
-} from '../../../entry/types.ts';
+} from '../../../entry/schema.ts';
 import { detectInflectionSublistFlattened } from './inflection-sublist-numbering-flattened.ts';
 
 /** One sense; `units` defaults to none so a fixture states only the

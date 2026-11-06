@@ -2,46 +2,48 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"$id": "https://jastrow.app/schema/entry.schema.json",
 	"title": "Jastrow v2 entry",
-	"description": "Machine-readable spec of the v2 entry body model (docs/archive/specs/2026-07-11-entry-body-model-design.md §2, decision B11) at schemaVersion 2 — the headword-design §2 shape, where headwords[] and an optional display template replace headword/altHeadwords. This schema is the documented generic spec of the format; examples in the design doc illustrate it, they do not define it.",
+	"description": "One entry of Jastrow’s dictionary at schemaVersion 2 (headword design §2). Generated from admin/entry/schema.ts by bun schema:build; never edit this file by hand.",
 	"type": "object",
-	"additionalProperties": false,
 	"required": ["schemaVersion", "id", "sefariaHeadword", "headwords", "senses"],
 	"properties": {
 		"schemaVersion": {
-			"description": "The entry-file format version. 2 is the headword-design §2 shape, ruled 2026-09-21. Stamped on every file so a reader can tell the versions apart without inferring it from which keys are present.",
-			"const": 2
+			"type": "number",
+			"const": 2,
+			"description": "The entry-file format version. 2 is the headword-design §2 shape, ruled 2026-09-21. Stamped on every file so a reader can tell the versions apart without inferring it from which keys are present."
 		},
 		"id": {
 			"type": "string",
+			"description": "The rid, which the entry is addressed by. The name is not stored: it is derived from headwords[0], so it cannot drift from the headword (URL names spec §5.1).",
 			"pattern": "^[A-Z]\\d{5}$"
 		},
 		"sefariaHeadword": {
-			"description": "Sefaria's headword for this rid, byte for byte (URL names spec §5.1, U3). Import is the only writer.",
 			"type": "string",
+			"description": "Sefaria's headword for this rid, byte for byte (URL names spec §5.1, U3). Import is the only writer.",
 			"minLength": 1
 		},
 		"formerNames": {
-			"description": "Names this entry has published under and no longer holds (URL names spec §5.1, U6). Absent until publication: nothing writes it yet.",
 			"type": "array",
 			"items": {
 				"type": "string",
 				"minLength": 1
-			}
+			},
+			"description": "Names this entry has published under and no longer holds (URL names spec §5.1, U6). Absent until publication: nothing writes it yet."
 		},
 		"headwords": {
-			"description": "Every form print sets on the headword line, in its order. headwords[0] is the primary form: the name, the search key and every link derive from it (headword design §2).",
 			"type": "array",
-			"minItems": 1,
-			"items": { "$ref": "#/$defs/formObject" }
+			"items": {
+				"$ref": "#/$defs/formObject"
+			},
+			"description": "Every form print sets on the headword line, in its order. headwords[0] is the primary form: the name, the search key and every link derive from it (headword design §2).",
+			"minItems": 1
 		},
 		"display": {
-			"description": "How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). It never carries a disambiguator's superscript (ruling 10-06 hidden superscript). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
 			"type": "string",
+			"description": "How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). It never carries a disambiguator's superscript (ruling 10-06 hidden superscript). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
 			"minLength": 1
 		},
 		"page": {
 			"type": "object",
-			"additionalProperties": false,
 			"required": ["number"],
 			"properties": {
 				"number": {
@@ -49,41 +51,45 @@
 					"minimum": 1
 				},
 				"column": {
-					"type": "string",
 					"enum": ["a", "b"]
 				}
-			}
+			},
+			"additionalProperties": false,
+			"description": "Where print sets this entry: page, and column a or b. The entry file is the record (ruling 11-05 page index)."
 		},
 		"grammar": {
 			"type": "object",
-			"additionalProperties": false,
-			"minProperties": 1,
 			"properties": {
 				"gender": {
-					"type": "string",
 					"enum": ["m", "f", "c"]
 				},
 				"number": {
-					"type": "string",
 					"enum": ["pl", "du"]
 				},
-				"pos": { "type": "string" }
-			}
+				"pos": {
+					"type": "string",
+					"description": "Part of speech. Declared, with no producer: no entry carries it (docs/ideas.md, Schema)."
+				}
+			},
+			"additionalProperties": false,
+			"minProperties": 1
 		},
 		"senses": {
 			"type": "array",
-			"minItems": 1,
-			"items": { "$ref": "#/$defs/sense" }
+			"items": {
+				"$ref": "#/$defs/sense"
+			},
+			"minItems": 1
 		},
 		"stems": {
 			"type": "array",
 			"items": {
 				"type": "object",
-				"additionalProperties": false,
 				"required": ["stem", "forms", "senses"],
 				"properties": {
 					"stem": {
 						"type": "string",
+						"description": "The stem label print gives (Pa., Hithpa., …).",
 						"minLength": 1
 					},
 					"forms": {
@@ -91,21 +97,25 @@
 						"items": {
 							"type": "string",
 							"minLength": 1
-						}
+						},
+						"description": "The headword forms this stem governs."
 					},
 					"senses": {
 						"type": "array",
-						"items": { "$ref": "#/$defs/sense" }
+						"items": {
+							"$ref": "#/$defs/sense"
+						}
 					}
-				}
+				},
+				"additionalProperties": false,
+				"description": "A binyan section of a written entry. Sibling to the entry's own senses, so both can be present on one entry."
 			}
 		}
 	},
+	"additionalProperties": false,
 	"$defs": {
 		"annotation": {
-			"description": "One departure from print, or one print reading checked and kept, on the object whose field it describes (admin/entry/ANNOTATIONS.md §2; ruling 10-13 correction policy). printed is print's reading ('' where print sets nothing), stored what the field holds (for gloss and units[n], the substring the note is about). kind: print-error (case 2), kept (case 3: printed equals stored), illegible (case 4). source is the patch that wrote it. What the schema cannot express — the field resolves on its object, stored agrees with the field, kept iff printed equals stored, one annotation per field, a real calendar date — admin/entry/annotations.ts enforces.",
 			"type": "object",
-			"additionalProperties": false,
 			"required": [
 				"field",
 				"kind",
@@ -117,99 +127,129 @@
 			],
 			"properties": {
 				"field": {
-					"description": "Which field of its object: text or homograph on a form; gloss, label or units[n] on a sense.",
 					"type": "string",
+					"description": "Which field of its object: text or homograph on a form; gloss, label or units[n] on a sense.",
 					"pattern": "^(?:gloss|homograph|label|text|units\\[(?:0|[1-9]\\d*)\\])$"
 				},
 				"kind": {
-					"type": "string",
-					"enum": ["illegible", "kept", "print-error"]
+					"enum": ["illegible", "kept", "print-error"],
+					"description": "print-error (case 2, corrected), kept (case 3, kept as printed, so printed equals stored) or illegible (case 4, our best reading)."
 				},
-				"printed": { "type": "string" },
-				"stored": { "type": "string" },
-				"evidence": {
-					"description": "Case 2: the proof. Case 3: the readings. Case 4: why.",
+				"printed": {
 					"type": "string",
+					"description": "Print's reading of the field; '' where print sets nothing. A homograph is written as print writes it (I), a label as its token without ) (5)."
+				},
+				"stored": {
+					"type": "string",
+					"description": "What the field holds. For gloss and units[n], the substring the note is about."
+				},
+				"evidence": {
+					"type": "string",
+					"description": "Case 2: the proof. Case 3: the readings. Case 4: why.",
 					"minLength": 1
 				},
 				"source": {
-					"description": "The patch that wrote it.",
 					"type": "string",
+					"description": "The patch that wrote it.",
 					"pattern": "^P\\d{6}$"
 				},
 				"date": {
-					"description": "YYYY-MM-DD of the print read or the ruling.",
 					"type": "string",
+					"description": "YYYY-MM-DD of the print read or the ruling.",
 					"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
 				}
-			}
+			},
+			"additionalProperties": false,
+			"description": "One departure from print, or one print reading checked and kept, on the object whose field it describes (admin/entry/ANNOTATIONS.md §2; ruling 10-13 correction policy). printed is print's reading ('' where print sets nothing), stored what the field holds (for gloss and units[n], the substring the note is about). kind: print-error (case 2), kept (case 3: printed equals stored), illegible (case 4). source is the patch that wrote it. What the schema cannot express — the field resolves on its object, stored agrees with the field, kept iff printed equals stored, one annotation per field, a real calendar date — admin/entry/annotations.ts enforces."
 		},
 		"annotations": {
-			"description": "Absent when there are none, never [].",
 			"type": "array",
-			"minItems": 1,
-			"items": { "$ref": "#/$defs/annotation" }
+			"items": {
+				"$ref": "#/$defs/annotation"
+			},
+			"description": "Absent when there are none, never [].",
+			"minItems": 1
 		},
 		"formObject": {
 			"type": "object",
-			"additionalProperties": false,
 			"required": ["text"],
 			"properties": {
-				"annotations": { "$ref": "#/$defs/annotations" },
+				"annotations": {
+					"$ref": "#/$defs/annotations"
+				},
 				"text": {
 					"type": "string",
+					"description": "The form as clean Hebrew: meaning only. Everything print sets around the forms lives in the entry’s display.",
 					"minLength": 1
 				},
 				"homograph": {
-					"description": "The Roman numeral beside this form, as a number. Part of the name, and always shown in display. Print sets it, or (ruling 10-13 correction policy) Jastrow's own text names it and a homograph annotation says so.",
 					"type": "integer",
+					"description": "The Roman numeral beside this form, as a number. Part of the name, and always shown in display. Print sets it, or (ruling 10-13 correction policy) Jastrow's own text names it and a homograph annotation says so.",
 					"minimum": 1
 				},
 				"disambiguator": {
-					"description": "Sefaria's superscript number, telling apart two lines print sets alike. Part of the name, never shown in display: print sets no superscript (ruling 10-06 hidden superscript).",
 					"type": "integer",
+					"description": "Sefaria's superscript number, telling apart two lines print sets alike. Part of the name, never shown in display: print sets no superscript (ruling 10-06 hidden superscript).",
 					"minimum": 1
 				},
 				"reconstructed": {
-					"description": "Print stars this form as a reconstructed word (headword design §3.1 rule 3). Only ever true.",
-					"const": true
+					"type": "boolean",
+					"const": true,
+					"description": "Print stars this form as a reconstructed word (headword design §3.1 rule 3). Only ever true."
 				},
 				"gender": {
-					"description": "This form's gender label, as print sets it beside the form (headword design §4). An entry carries at most one of a per-form gender on EVERY headword or a grammar.gender, never both, and neither is inherited (ruling HW-gender). This schema cannot express it; admin/entry/validate.ts enforces it.",
-					"type": "string",
-					"enum": ["m", "f"]
+					"enum": ["f", "m"],
+					"description": "This form's gender label, as print sets it beside the form (headword design §4). An entry carries at most one of a per-form gender on EVERY headword or a grammar.gender, never both, and neither is inherited (ruling HW-gender). This schema cannot express it; admin/entry/validate.ts enforces it."
 				},
 				"partial": {
-					"description": "This form is shown exactly as printed and is never a lookup key (headword design §2): an ending after an ellipsis, or a phrase holding an abbreviated word. Only ever true.",
-					"const": true
+					"type": "boolean",
+					"const": true,
+					"description": "This form is shown exactly as printed and is never a lookup key (headword design §2): an ending after an ellipsis, or a phrase holding an abbreviated word. Only ever true."
 				}
-			}
+			},
+			"additionalProperties": false,
+			"description": "One headword form. It holds only meaning; how print sets the forms around each other is the entry’s display (headword design §2, §3.1)."
 		},
 		"sense": {
 			"type": "object",
-			"additionalProperties": false,
 			"required": ["gloss", "units"],
-			"dependentRequired": { "reconstructed": ["label"] },
 			"properties": {
-				"annotations": { "$ref": "#/$defs/annotations" },
+				"annotations": {
+					"$ref": "#/$defs/annotations"
+				},
 				"label": {
 					"type": "string",
 					"minLength": 1
 				},
 				"reconstructed": {
-					"description": "Print stars this sense's number (*2)), as it stars a reconstructed headword form (ruling 10-04 sense star). Only ever true, and only beside a label. The dash print sets before a later sense is not stored.",
-					"const": true
+					"type": "boolean",
+					"const": true,
+					"description": "Print stars this sense's number (*2)), as it stars a reconstructed headword form (ruling 10-04 sense star). Only ever true, and only beside a label. The dash print sets before a later sense is not stored."
 				},
-				"gloss": { "type": "string" },
+				"gloss": {
+					"type": "string",
+					"description": "The sense's own head text. On the entry's senses[0] it is the lead text, usually the whole definition (ruling 10-04 lead text)."
+				},
 				"units": {
 					"type": "array",
-					"items": { "type": "string" }
+					"items": {
+						"type": "string"
+					},
+					"description": "The sense's numbered or lettered parts."
 				},
 				"senses": {
 					"type": "array",
-					"items": { "$ref": "#/$defs/sense" }
+					"items": {
+						"$ref": "#/$defs/sense"
+					},
+					"description": "Sub-senses."
 				}
-			}
+			},
+			"additionalProperties": false,
+			"dependentRequired": {
+				"reconstructed": ["label"]
+			},
+			"description": "One sense of a written entry. Every label is an explicit string, so a reader that drops an empty lead renumbers nothing (ruling 10-04 lead text)."
 		}
 	}
 }

@@ -70,9 +70,9 @@ both directions (the per-depth overrides at the end of `biome.json`):
 import specifiers are matched as written, not resolved, so each
 directory depth spells its own climb out of the module. A file one
 level deeper than any override today fails loudly rather than slipping
-through. `admin/entry/paths.ts` declares the three paths the contract
-reads (`ENTRIES_DIR`, `SCHEMA_PATH`, `PAGE_INDEX_PATH`), which this
-module's `paths.ts` re-exports rather than spelling again.
+through. `admin/entry/paths.ts` declares where the entries live
+(`ENTRIES_DIR`), which this module's `paths.ts` re-exports rather than
+spelling again; the schema is code, `admin/entry/schema.ts`.
 
 `DESIGN_PATH` points at this file. `report/headword-issues.ts`
 computes a relative link to it from the report's own directory rather

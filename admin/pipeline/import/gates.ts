@@ -7,7 +7,7 @@ import { entryAnnotations } from '../../entry/annotations.ts';
 import { intToRoman, intToSup } from '../../entry/headwords.ts';
 import { tokenize } from '../../entry/html.ts';
 import { nameCollisions } from '../../entry/names.ts';
-import type { Entry } from '../../entry/types.ts';
+import type { Entry } from '../../entry/schema.ts';
 import {
 	checkEntry,
 	schemaValidator,
@@ -21,7 +21,7 @@ import { linkKey } from './cite.ts';
 
 /** A gate result: a count against a fixed total, plus the failing
  * lines. An import concept, not an entry one — it stayed here when the
- * entry shapes moved to `admin/entry/types.ts`. */
+ * entry shapes moved to the entry contract (`admin/entry/schema.ts`). */
 interface Tally {
 	failures: string[];
 	pass: number;
@@ -688,14 +688,14 @@ function annotationProvenance(
  * so the import cannot write a tree that job would refuse. The corpus
  * half reads only entries that passed the schema: the checks after it
  * assume the shape, and a schema failure is already a red mark. */
-async function checkContract(
+function checkContract(
 	entries: readonly Entry[],
 	pathOf: (rid: string) => string,
 	annotated: ReadonlyMap<string, readonly string[]> = new Map(),
-): Promise<Tally> {
+): Tally {
 	const t = tally();
 	const valid: Entry[] = [];
-	const schema = await schemaValidator();
+	const schema = schemaValidator();
 	for (const entry of entries) {
 		const [shaped, problems] = checkEntry(schema, entry, pathOf(entry.id));
 		if (shaped !== undefined) {

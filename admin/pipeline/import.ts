@@ -16,7 +16,7 @@ import { dirname } from 'node:path';
 import process from 'node:process';
 import type { ValidateFunction } from 'ajv';
 import { biomeBinary, formatEntries } from '../entry/format.ts';
-import type { Entry } from '../entry/types.ts';
+import type { Entry } from '../entry/schema.ts';
 import { ENTRY_FILE_GLOB, schemaValidator } from '../entry/validate.ts';
 import type { PassName } from './body/repairs.ts';
 import { evaluateRoundTrip } from './body/round-trip.ts';
@@ -691,7 +691,7 @@ async function main(): Promise<void> {
 	}
 	// The entry contract's own compiled schema, not a second copy of
 	// it: gate 4 and gate 10 cannot disagree about what the schema is.
-	const validate: ValidateFunction = await schemaValidator();
+	const validate: ValidateFunction = schemaValidator();
 	const report = createReport();
 	const composed = await composeAll(report, options);
 	checkOrphanRefs(composed, report);
@@ -704,7 +704,7 @@ async function main(): Promise<void> {
 	const normalized = normalizeAll(entries);
 	// Gate 10 reads what `writeAll` would write (the normalized entries,
 	// at their paths), and the patches that applied with an annotation.
-	report.gates.contract = await checkContract(
+	report.gates.contract = checkContract(
 		normalized.entries,
 		entryFile,
 		new Map(composed.map((c) => [c.source.rid, c.annotated])),
