@@ -1,0 +1,30 @@
+{
+	"planPath": "docs/specs/2026-11-05-canonical-fetch-plan.md",
+	"tasks": [
+		{
+			"id": 1,
+			"subject": "Task 1: Readers refuse a duplicate rid",
+			"status": "pending"
+		},
+		{
+			"id": 2,
+			"subject": "Task 2: familyRun reads rid order",
+			"status": "pending",
+			"blockedBy": [1]
+		},
+		{
+			"id": 3,
+			"subject": "Task 3: Canonical writer in the fetch",
+			"status": "pending",
+			"blockedBy": [2]
+		},
+		{
+			"id": 4,
+			"subject": "Task 4: Rewrite source, prove same data",
+			"status": "pending",
+			"blockedBy": [3]
+		}
+	],
+	"note": "Each task's Goal, Files, Acceptance Criteria, Verify and json:metadata live in the plan file; read it there.",
+	"lastUpdated": "2026-11-05T19:40:00-06:00"
+}
