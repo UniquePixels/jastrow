@@ -10,7 +10,7 @@
  * key order, not whitespace, which is Biome's to settle.
  */
 import process from 'node:process';
-import { biomeBinary } from './format.ts';
+import { biomeFormat } from '../lib/biome-format.ts';
 import { SCHEMA_PATH } from './paths.ts';
 import { EntrySchema } from './schema.ts';
 
@@ -60,16 +60,14 @@ async function main(): Promise<void> {
 		return undefined;
 	}
 	await Bun.write(SCHEMA_PATH, schemaText());
-	const format = Bun.spawnSync(
-		[biomeBinary(), 'format', '--write', SCHEMA_PATH],
-		{ stderr: 'inherit', stdout: 'inherit' },
-	);
-	if (format.exitCode === 0) {
-		console.log(`wrote ${SCHEMA_PATH}`);
-	} else {
-		console.error(`biome format exited ${format.exitCode}`);
+	try {
+		biomeFormat(SCHEMA_PATH);
+	} catch (error) {
+		console.error((error as Error).message);
 		process.exitCode = 1;
+		return undefined;
 	}
+	console.log(`wrote ${SCHEMA_PATH}`);
 	return undefined;
 }
 

@@ -1581,9 +1581,8 @@ failed, never into the appendix:
 
 Entry data has exactly one formatter, and it is the project's: Biome
 formats `data/entries/`, and the pipeline formats **last**, as the
-write's final step (`formatEntries`, in the entry contract's
-`admin/entry/format.ts` since 2026-10-31 so the editor's save formats
-the same way). `biome.json` therefore carries
+write's final step (`biomeFormat`, in `admin/lib/biome-format.ts`
+since 2026-11-06, so the admin tool's save formats the same way). `biome.json` therefore carries
 `data/entries/**/*.json` in `files.includes` deliberately — the rest of
 `data/` is excluded — with an override that disables the **linter**
 there, because the files are data and not code. Contributors run
@@ -1821,7 +1820,7 @@ so cannot be inferred from reading the code that is there.
     enforced by refusal, not by merge (see 46).
 48. **CI never reads the source data and never runs import**, and CI
     never rewrites or commits. The module's single write of anything
-    outside `data/entries/` content is `formatEntries`. The tier
+    outside `data/entries/` content is `biomeFormat`. The tier
     boundary is asserted where the corpus is read: `readSourceEntries()`
     with no path refuses under a `*.test.ts` (§1, Test tiers).
 49. **A failing entry is dropped, not emitted from source bytes.**

@@ -1,8 +1,10 @@
 /**
- * The entry contract's formatter: Biome, run over `data/entries/` as
- * the last step of any write — the import's (`formatEntries`) and, when
- * it exists, the editor's save. Moved here from `import/biome.ts`
- * 2026-10-31.
+ * Run the project's Biome formatter over a path: `biomeFormat`, and
+ * `biomeBinary`, which finds the Biome to run. Every write of a
+ * Biome-formatted file the tree commits ends here — the import's entry
+ * files, the generated entry schema, and later the admin tool's save.
+ * Moved from `import/biome.ts` to `admin/entry/format.ts` 2026-10-31,
+ * and to `admin/lib/` 2026-11-06: it is a helper, not entry-specific.
  *
  * Where to spawn biome from:
  * `import.ts` (then `migrate.ts`) used to name
@@ -19,7 +21,6 @@
  */
 import { existsSync, readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
-import { ENTRIES_DIR } from './paths.ts';
 
 const BIOME_PACKAGE = '@biomejs/biome';
 
@@ -89,19 +90,17 @@ function biomeBinary(
 	);
 }
 
-/** Biome is the one formatter for entry data (consolidation spec R5), so
- * formatting is the write's last step. It runs here rather than as a
- * second command in the `data:import` script: `bun run` appends
- * extra arguments to the LAST command, so `bun data:import
- * --write` handed `--write` to biome and migrate ran dry (PR #88).
- * Which biome is `biomeBinary`'s question, not a literal path's: the
- * import's `main` resolves one before composing, so its spawn here
- * cannot be the step that discovers there is none. In the entry
- * contract (2026-10-31) rather than the import because the editor's
- * save has to format the same way: a formatted file is part of what an
- * entry file is. */
-function formatEntries(dir: string = ENTRIES_DIR): void {
-	const result = Bun.spawnSync([biomeBinary(), 'format', '--write', dir], {
+/** Format `path` (a file or a directory) with Biome, in place; throws
+ * when Biome exits non-zero. Biome is the one formatter for entry data
+ * (consolidation spec R5), so formatting is a write's last step. It
+ * runs here rather than as a second command in a `package.json`
+ * script: `bun run` appends extra arguments to the LAST command, so
+ * `bun data:import --write` handed `--write` to biome and migrate ran
+ * dry (PR #88). Which biome is `biomeBinary`'s question, not a literal
+ * path's: a write run resolves one before it starts, so the spawn here
+ * cannot be the step that discovers there is none. */
+function biomeFormat(path: string): void {
+	const result = Bun.spawnSync([biomeBinary(), 'format', '--write', path], {
 		stderr: 'inherit',
 		stdout: 'inherit',
 	});
@@ -111,4 +110,4 @@ function formatEntries(dir: string = ENTRIES_DIR): void {
 }
 
 export type { BiomeLookup };
-export { biomeBinary, formatEntries };
+export { biomeBinary, biomeFormat };

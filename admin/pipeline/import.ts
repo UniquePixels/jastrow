@@ -14,7 +14,6 @@
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import process from 'node:process';
-import { biomeBinary, formatEntries } from '../entry/format.ts';
 import type { Entry } from '../entry/schema.ts';
 import {
 	ENTRY_FILE_GLOB,
@@ -22,6 +21,7 @@ import {
 	schemaErrors,
 	schemaValidator,
 } from '../entry/validate.ts';
+import { biomeBinary, biomeFormat } from '../lib/biome-format.ts';
 import type { PassName } from './body/repairs.ts';
 import { evaluateRoundTrip } from './body/round-trip.ts';
 import { readSourceEntries } from './body/source.ts';
@@ -611,7 +611,7 @@ async function writeAll(normalized: Normalized, report: Report): Promise<void> {
 		writeFileSync(file, `${JSON.stringify(entry, null, '\t')}\n`);
 		report.written++;
 	}
-	formatEntries(OUT_DIR);
+	biomeFormat(OUT_DIR);
 	await writeReport(report);
 	console.log(`wrote ${report.written} entry files under ${OUT_DIR}`);
 	console.log(
@@ -691,7 +691,7 @@ async function main(): Promise<void> {
 	if (options.write) {
 		await refuseUnlessEmpty();
 		// Resolved before anything is composed, though it is not used
-		// until `formatEntries` at the very end: a run that cannot find a
+		// until `biomeFormat` at the very end: a run that cannot find a
 		// biome refuses here, rather than after 32,512 unformatted files
 		// are already on disk.
 		biomeBinary();
