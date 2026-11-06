@@ -447,8 +447,8 @@
  *   redrawing it, and the `untouched` fast path inherits it too.
  */
 
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import { type Token, tokenize } from '../../entry/html.ts';
-import { byCodeUnit } from '../../entry/order.ts';
 import type { SourceEntry } from '../types.ts';
 import { type Anchor, anchors } from './links.ts';
 import { fieldsOf } from './no-new-text.ts';
@@ -1468,7 +1468,7 @@ function pointDelta(
 	const after = pointsOf(target);
 	const before = pointsOf(from);
 	const marks = [...new Set([...after.keys(), ...before.keys()])].sort(
-		byCodeUnit,
+		compareByCodeUnit,
 	);
 	return {
 		gained: marks.find((m) => (after.get(m) ?? 0) > (before.get(m) ?? 0)),

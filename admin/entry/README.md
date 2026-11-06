@@ -23,8 +23,8 @@ need lives here.
 | `headwords.ts`, `headword-rules.ts` | the headword-line parser and the six shape rules |
 | `names.ts` | an entry's name, derived from `headwords[0]`, and name collisions |
 | `html.ts` | the tokenizer every markup field is read with — the transforms' too |
-| `order.ts` | `byCodeUnit`, the one string comparator every sorted list in the repo uses: code-unit order, the same on every machine |
 | `format.ts` | the formatter: `formatEntries` runs Biome over `data/entries/` as the last step of any write, `biomeBinary` finds the pinned Biome (the project's dependency first, then PATH) |
+| `compare-by-code-unit.ts` | `compareByCodeUnit`, the comparator every string sort passes: code-unit order, the same on every machine; never `localeCompare` |
 | `paths.ts` | where the entries and the generated schema live; the pipeline's `paths.ts` re-exports `ENTRIES_DIR` |
 
 The schema is written once, in `schema.ts`. A TypeBox schema is JSON

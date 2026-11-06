@@ -17,7 +17,7 @@
  */
 import { mkdir } from 'node:fs/promises';
 import { type Document, EJSON } from 'bson';
-import { byCodeUnit } from '../entry/order.ts';
+import { compareByCodeUnit } from '../entry/compare-by-code-unit.ts';
 import {
 	bsonDocuments,
 	ChunkReader,
@@ -132,7 +132,7 @@ async function emitRegistry(progress: (msg: string) => void): Promise<string> {
 	}
 	const registryPath = LEXICONS_PATH;
 	const sorted = [...registry].sort((a, b) =>
-		byCodeUnit(a['name'] as string, b['name'] as string),
+		compareByCodeUnit(a['name'] as string, b['name'] as string),
 	);
 	await Bun.write(
 		registryPath,

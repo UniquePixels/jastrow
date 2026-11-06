@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../../entry/compare-by-code-unit.ts';
 import {
 	type Entry,
 	SCHEMA_VERSION,
@@ -200,7 +201,7 @@ describe('detectClasses', () => {
 				stems: [{ forms: [], senses: [], stem: 'Ithpa.' }],
 			}),
 		);
-		expect(rows.map((r) => r.kind).toSorted()).toEqual([
+		expect(rows.map((r) => r.kind).toSorted(compareByCodeUnit)).toEqual([
 			'empty-stem-section',
 			'homograph-roman-stranded-in-definition',
 			'stranded-open-bracket',

@@ -1,5 +1,6 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import { type Pattern, parsePatterns } from '../patch/patterns.ts';
 import { PATTERNS_PATH } from '../paths.ts';
 import {
@@ -43,8 +44,8 @@ describe('registry coverage', () => {
 	// catalogue, so a misspelt id drops out here. Each entry cites the
 	// ruling.
 	it('every retired row is a catalogue row and cites its ruling', () => {
-		expect(coverage(catalogue).retired.toSorted()).toEqual(
-			RETIRED.map((r) => r.row).toSorted(),
+		expect(coverage(catalogue).retired.toSorted(compareByCodeUnit)).toEqual(
+			RETIRED.map((r) => r.row).toSorted(compareByCodeUnit),
 		);
 		for (const row of RETIRED) {
 			expect(row.by).toMatch(/2026-09-2[01]/u);

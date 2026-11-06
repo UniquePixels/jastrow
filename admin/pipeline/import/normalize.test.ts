@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import { normalizeForWrite } from './normalize.ts';
 
 /**
@@ -39,8 +40,8 @@ describe('normalizeForWrite', () => {
 
 	it('conserves every code point when Hebrew reorders', () => {
 		const [value] = normalizeForWrite({ text: MARKS_OUT_OF_ORDER });
-		expect([...value.text].toSorted()).toEqual(
-			[...MARKS_OUT_OF_ORDER].toSorted(),
+		expect([...value.text].toSorted(compareByCodeUnit)).toEqual(
+			[...MARKS_OUT_OF_ORDER].toSorted(compareByCodeUnit),
 		);
 	});
 

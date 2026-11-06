@@ -5,6 +5,7 @@
  * planted defect at a time, and that it names the defect it found.
  */
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../compare-by-code-unit.ts';
 import { type Entry, SCHEMA_VERSION } from '../schema.ts';
 import {
 	type EntryFile,
@@ -591,9 +592,9 @@ describe('entryFields', () => {
 		expect([...stringPaths(FULL, '')]).toContain(
 			'headwords[1].annotations[0].stored',
 		);
-		expect([...entryFields(FULL)].map((f) => f.path).toSorted()).toEqual(
-			expected.toSorted(),
-		);
+		expect(
+			[...entryFields(FULL)].map((f) => f.path).toSorted(compareByCodeUnit),
+		).toEqual(expected.toSorted(compareByCodeUnit));
 	});
 
 	it('marks the identifier and label fields plain, the rest markup', () => {

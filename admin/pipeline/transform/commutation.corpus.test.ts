@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import { parsePatterns } from '../patch/patterns.ts';
 import { PATTERNS_PATH } from '../paths.ts';
 import { nonCommutingPairs, type PairStats } from './commutation.ts';
@@ -97,10 +98,15 @@ describe('the registry commutes except where the catalogue says otherwise', () =
 		// later for a different reason. Same lesson `unaccountedEdges`
 		// carries for `entangledWith`: a recorded relationship must
 		// produce a validated check or a reported problem, never silence.
-		const live = new Set(pairs.map((p) => [...p.ids].sort().join(' × ')));
+		const live = new Set(
+			pairs.map((p) => [...p.ids].sort(compareByCodeUnit).join(' × ')),
+		);
 		expect(
 			ORDERED.filter(
-				(row) => !live.has([row.after, row.before].sort().join(' × ')),
+				(row) =>
+					!live.has(
+						[row.after, row.before].sort(compareByCodeUnit).join(' × '),
+					),
 			).map((row) => `${row.before} → ${row.after}`),
 		).toEqual([]);
 

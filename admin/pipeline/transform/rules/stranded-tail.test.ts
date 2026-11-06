@@ -9,6 +9,7 @@
  * `docs/archive/retired-corpus-checks.md`.
  */
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../../entry/compare-by-code-unit.ts';
 import { tokenize } from '../../../entry/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { anchors } from '../links.ts';
@@ -46,7 +47,7 @@ function anchorCount(entry: SourceEntry): number {
 function anchorTags(entry: SourceEntry): string[] {
 	return fieldsOf(entry)
 		.flatMap((field) => anchors(tokenize(field)).map((a) => a.tag))
-		.sort();
+		.sort(compareByCodeUnit);
 }
 
 describe('superscriptInsideAnchor', () => {
