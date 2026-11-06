@@ -3,7 +3,8 @@
  * wrote it, written once (ruling `11-05 schema source`).
  *
  * Every constant below is a TypeBox schema, which is JSON Schema as it
- * stands: Ajv validates against `EntrySchema` itself, and
+ * stands: TypeBox's validator checks entries against `EntrySchema`
+ * itself, and
  * `schema-build.ts` writes it out as `data/schema/entry.schema.json`
  * for editors (IntelliSense on an entry file) and any reader that is
  * not TypeScript. The types (`Entry`, `Sense`, …) are derived from the

@@ -38,6 +38,14 @@ function note(over: Partial<Annotation> = {}): Annotation {
 	};
 }
 
+/** `annotation` with its `source` key left out, not set to
+ * `undefined`: a key that is present holds a value, and JSON cannot
+ * hold `undefined`. */
+function withoutSource(annotation: Annotation): Annotation {
+	const { source: _source, ...rest } = annotation;
+	return rest as Annotation;
+}
+
 /** The one entry every case plants into: form I with a display that
  * sets it, and one labelled sense with two units. */
 function base(
@@ -152,11 +160,7 @@ describe('annotations: the schema half', () => {
 			onSense({ ...note(), extra: 1 } as Annotation),
 			'additionalProperties',
 		],
-		[
-			'a missing key',
-			onSense({ ...note(), source: undefined } as unknown as Annotation),
-			'required',
-		],
+		['a missing key', onSense(withoutSource(note())), 'required'],
 	] as [string, Entry, string][])('refuses %s', (_name, entry, keyword) => {
 		const problems = problemsOf(entry);
 		expect(problems).toHaveLength(1);

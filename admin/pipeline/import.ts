@@ -14,10 +14,14 @@
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import process from 'node:process';
-import type { ValidateFunction } from 'ajv';
 import { biomeBinary, formatEntries } from '../entry/format.ts';
 import type { Entry } from '../entry/schema.ts';
-import { ENTRY_FILE_GLOB, schemaValidator } from '../entry/validate.ts';
+import {
+	ENTRY_FILE_GLOB,
+	type EntryValidator,
+	schemaErrors,
+	schemaValidator,
+} from '../entry/validate.ts';
 import type { PassName } from './body/repairs.ts';
 import { evaluateRoundTrip } from './body/round-trip.ts';
 import { readSourceEntries } from './body/source.ts';
@@ -438,7 +442,7 @@ function finishAll(
 	composed: readonly Composed[],
 	indexes: Indexes,
 	report: Report,
-	validate: ValidateFunction,
+	validate: EntryValidator,
 ): { samples: Sample[]; entries: Entry[] } {
 	const entries: Entry[] = [];
 	const samples: Sample[] = [];
@@ -492,10 +496,13 @@ function finishAll(
 			finished.entry,
 			report.gates.textConservation,
 		);
+		const shaped = validate.check(finished.entry);
 		mark(
 			report.gates.schema,
-			validate(finished.entry) === true,
-			`${c.source.rid}: ${JSON.stringify(validate.errors)}`,
+			shaped,
+			shaped
+				? ''
+				: `${c.source.rid}: ${schemaErrors(validate, finished.entry)}`,
 		);
 		entries.push(finished.entry);
 		if (i % stride === 0 && samples.length < SAMPLE_COUNT) {
@@ -691,7 +698,7 @@ async function main(): Promise<void> {
 	}
 	// The entry contract's own compiled schema, not a second copy of
 	// it: gate 4 and gate 10 cannot disagree about what the schema is.
-	const validate: ValidateFunction = schemaValidator();
+	const validate = schemaValidator();
 	const report = createReport();
 	const composed = await composeAll(report, options);
 	checkOrphanRefs(composed, report);

@@ -1299,10 +1299,9 @@ composed-against-finished, never a rule against its own input, which
 is why `transform/no-lost-text.ts` exists. Nor the source label: a
 star the body never built is equal on both sides.
 
-**4. `schema`** (Ajv 2020, `strict: true`, `allErrors: true`, compiled
-at run time from `data/schema/entry.schema.json` by the entry
-contract's `schemaValidator` — the same compiled validator gate 10
-uses).
+**4. `schema`** (TypeBox's validator, compiled once from
+`EntrySchema` in `admin/entry/schema.ts` by the entry contract's
+`schemaValidator` — the same compiled validator gate 10 uses).
 *Proves:* every finished entry satisfies the schema.
 *Cannot see:* anything the schema does not constrain. The module does
 not own the contract, it is handed one; gate 10 holds the rest of it.

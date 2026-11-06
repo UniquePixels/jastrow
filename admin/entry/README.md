@@ -28,8 +28,9 @@ need lives here.
 | `paths.ts` | where the entries and the generated schema live; the pipeline's `paths.ts` re-exports `ENTRIES_DIR` |
 
 The schema is written once, in `schema.ts`. A TypeBox schema is JSON
-Schema as it stands, so Ajv validates against it directly, and the
-types are derived from it, so the two cannot disagree.
+Schema as it stands, so TypeBox's own validator checks entries
+against it directly (ruling `11-06 schema validator`), and the types
+are derived from it, so the two cannot disagree.
 `data/schema/entry.schema.json` is generated from it and committed,
 never edited by hand: it gives an editor IntelliSense on an entry file
 (`.vscode/settings.json` maps `data/entries/` to it, and each field's

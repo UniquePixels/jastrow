@@ -1,18 +1,28 @@
 import { describe, expect, it } from 'bun:test';
-import Ajv2020 from 'ajv/dist/2020';
+import { Compile } from 'typebox/schema';
 import { SCHEMA_PATH } from './paths.ts';
 import { validateEntry } from './validate.ts';
 
 // The committed, generated file: what an editor and a reader that is
 // not TypeScript see. `bun schema:check` holds it to schema.ts, so
 // these cases test the schema the contract validates with too.
-const ajv = new Ajv2020({ allErrors: true, strict: true });
-const validate = ajv.compile(await Bun.file(SCHEMA_PATH).json());
+const file = Compile(await Bun.file(SCHEMA_PATH).json());
 
-/** Where the last `validate` call failed, one instance path per
- * error; `/` stands for the entry itself. */
-function errorPaths(): string[] {
-	return (validate.errors ?? []).map((error) => error.instancePath || '/');
+/** Whether `value` passes the committed file. */
+function validate(value: unknown): boolean {
+	return file.Check(value);
+}
+
+/** Why `value` fails the committed file, as JSON, for a failed
+ * expectation's message. */
+function errorsOf(value: unknown): string {
+	return JSON.stringify(file.Errors(value)[1]);
+}
+
+/** Where `value` fails, one instance path per error; `/` stands for
+ * the entry itself. */
+function errorPaths(value: unknown): string[] {
+	return file.Errors(value)[1].map((error) => error.instancePath || '/');
 }
 
 type Fixture = Record<string, unknown>;
@@ -79,11 +89,11 @@ const deepRecursionEntry: Fixture = {
 
 describe('entry.schema.json valid entries', () => {
 	it('accepts a minimal valid entry', () => {
-		expect(validate(minimalEntry), JSON.stringify(validate.errors)).toBe(true);
+		expect(validate(minimalEntry), errorsOf(minimalEntry)).toBe(true);
 	});
 
 	it('accepts a full-featured entry', () => {
-		expect(validate(fullEntry), JSON.stringify(validate.errors)).toBe(true);
+		expect(validate(fullEntry), errorsOf(fullEntry)).toBe(true);
 	});
 
 	it('accepts an entry carrying both genders, which only validateEntry refuses (HW-gender)', () => {
@@ -93,14 +103,14 @@ describe('entry.schema.json valid entries', () => {
 			display: '{0} m.',
 			grammar: { gender: 'm' },
 		};
-		expect(validate(both), JSON.stringify(validate.errors)).toBe(true);
+		expect(validate(both), errorsOf(both)).toBe(true);
 		expect(validateEntry(both, 'A/A00014.json')).toEqual([
 			'A00014: grammar.gender beside a form gender on headwords [0]; an entry carries one or the other, never both (HW-gender)',
 		]);
 	});
 
 	it('accepts a sense nested two levels deep', () => {
-		expect(validate(deepRecursionEntry), JSON.stringify(validate.errors)).toBe(
+		expect(validate(deepRecursionEntry), errorsOf(deepRecursionEntry)).toBe(
 			true,
 		);
 	});
@@ -255,7 +265,7 @@ describe('entry.schema.json invalid entries', () => {
 	for (const { name, entry, errorPath } of invalidCases) {
 		it(`rejects ${name}`, () => {
 			expect(validate(entry)).toBe(false);
-			expect(errorPaths()).toContain(errorPath);
+			expect(errorPaths(entry)).toContain(errorPath);
 		});
 	}
 });

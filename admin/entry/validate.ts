@@ -27,8 +27,8 @@
  * committed tree; the admin tool, when it is written, is the third
  * caller.
  */
-import type { ValidateFunction } from 'ajv';
-import Ajv2020 from 'ajv/dist/2020';
+import type { TLocalizedValidationError } from 'typebox/error';
+import { Compile } from 'typebox/schema';
 import { checkAnnotations } from './annotations.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
 import { tokenize } from './html.ts';
@@ -64,23 +64,42 @@ const CLOSE = /^<\/([a-z]+)>$/u;
 const RID = /^[A-Z]\d{5}$/u;
 const MARKUP_CHAR = /[<>]/u;
 
-/** The compiled validator, memoised by `schemaValidator`. */
-let compiled: ValidateFunction<Entry> | undefined;
+/** The entry schema, compiled: `check` answers whether a value is an
+ * entry, and `errors` says why not. Call `errors` only after `check`
+ * fails; it validates again. */
+interface EntryValidator {
+	check: (value: unknown) => value is Entry;
+	errors: (value: unknown) => TLocalizedValidationError[];
+}
 
-/** Ajv, compiled once against `EntrySchema` (`schema.ts`).
+/** The compiled validator, memoised by `schemaValidator`. */
+let compiled: EntryValidator | undefined;
+
+/** TypeBox's validator, compiled once against `EntrySchema`
+ * (`schema.ts`).
  *
  * `EntrySchema` is JSON Schema as it stands and `Entry` is derived
- * from it, so the type parameter below is the schema's own type, not a
- * claim held by a separate test (ruling `11-05 schema source`).
+ * from it, so the guard below narrows to the schema's own type, not to
+ * a claim held by a separate test (ruling `11-05 schema source`).
  *
  * Exported so the import's schema gate compiles this validator rather
  * than a second copy of it. */
-function schemaValidator(): ValidateFunction<Entry> {
-	compiled ??= new Ajv2020({
-		allErrors: true,
-		strict: true,
-	}).compile<Entry>(EntrySchema);
+function schemaValidator(): EntryValidator {
+	if (compiled === undefined) {
+		const validator = Compile(EntrySchema);
+		compiled = {
+			check: (value: unknown): value is Entry => validator.Check(value),
+			errors: (value: unknown): TLocalizedValidationError[] =>
+				validator.Errors(value)[1],
+		};
+	}
 	return compiled;
+}
+
+/** Why `value` fails the schema, as JSON: one record per error, each
+ * naming the keyword, the instance path and a message. */
+function schemaErrors(schema: EntryValidator, value: unknown): string {
+	return JSON.stringify(schema.errors(value));
 }
 
 /** One entry file as read: its path relative to `data/entries/`
@@ -449,12 +468,12 @@ function checkGender(entry: Entry, problems: string[]): void {
  * after it assume the shape. Synchronous, so a caller walking 32,512
  * entries compiles once and awaits nothing per entry. */
 function checkEntry(
-	schema: ValidateFunction<Entry>,
+	schema: EntryValidator,
 	entry: unknown,
 	path: string,
 ): [Entry | undefined, string[]] {
-	if (!schema(entry)) {
-		return [undefined, [`${path}: schema: ${JSON.stringify(schema.errors)}`]];
+	if (!schema.check(entry)) {
+		return [undefined, [`${path}: schema: ${schemaErrors(schema, entry)}`]];
 	}
 	const problems: string[] = [];
 	const home = homePath(entry.id);
@@ -508,7 +527,7 @@ function validateEntries(files: readonly EntryFile[]): string[] {
 	return problems;
 }
 
-export type { EntryField, EntryFile };
+export type { EntryField, EntryFile, EntryValidator };
 export {
 	checkEntry,
 	ENTRY_FILE_GLOB,
@@ -516,6 +535,7 @@ export {
 	loadEntryFiles,
 	markupProblems,
 	RID,
+	schemaErrors,
 	schemaValidator,
 	VOCABULARY,
 	validateCorpus,
