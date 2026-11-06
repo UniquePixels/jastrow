@@ -8,7 +8,7 @@
  * writes, or whether it would overwrite a half-written entry tree.
  * That is what is asserted here.
  *
- * Nothing in this file reads `data/source/` (consolidation spec R9) or
+ * Nothing in this file reads `data/sources/sefaria/` (consolidation spec R9) or
  * touches `data/entries/`: the write guard runs against a temp
  * directory this test creates and removes, and every report below is
  * hand-built. The unit tier stays a fast tier.

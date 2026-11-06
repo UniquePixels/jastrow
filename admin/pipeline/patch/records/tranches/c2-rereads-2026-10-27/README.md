@@ -60,7 +60,7 @@ pending), so every block's **Removes** line says none.
 ## How to read a block
 
 Each block gives the entry, the scan link at the leaf the page index
-([`data/page-index/`](../../../../../../data/page-index/README.md))
+([`data/page-index/`](../../../../../../data/sources/page-index/README.md))
 gives it, and the hOCR line that holds the cite, first. The proposal
 is last and collapsed. Read the print, then tick **one** box and write
 what print shows on the `Read:` line. A block with both boxes ticked
@@ -123,7 +123,7 @@ carries it, which is often not the cite's spelling (the audit's
 stripped, cut to about 60 characters before the cite and 40 after; the
 whole entry is in the entry file. IIIF's `$n` is leaf `n − 1`, so leaf
 `L` links as `$L+1`
-([`data/page-index/README.md`](../../../../../../data/page-index/README.md),
+([`data/page-index/README.md`](../../../../../../data/sources/page-index/README.md),
 "Scan coordinates").
 
 ## Reading order

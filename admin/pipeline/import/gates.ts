@@ -576,7 +576,7 @@ function checkChain(
  *   nobody, and would otherwise be reachable by no URL at all.
  * - **verbatim** compares the written `sefariaHeadword` against the
  *   source snapshot line for the same rid. It lives on the import
- *   path alone because per-PR CI never reads `data/source/` (R9).
+ *   path alone because per-PR CI never reads `data/sources/sefaria/` (R9).
  *   What it witnesses is this run's write path — that the rid → value
  *   map reached the right entry and nothing downstream rewrote the
  *   field. A hand edit to a COMMITTED entry is a different question:

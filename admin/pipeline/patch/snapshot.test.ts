@@ -4,7 +4,7 @@
  * This file used to call `computeSnapshot` with no argument four
  * times. That defaults to the module's fixed snapshot file list and
  * so read the 41 MB pinned corpus from the unit tier — the tier that
- * consolidation spec R9 says never reads `data/source/` (review
+ * consolidation spec R9 says never reads `data/sources/sefaria/` (review
  * 2026-09-21, report-code §6). The function takes its paths, so the two
  * tiny fixtures beside this file exercise the same code with known
  * bytes and a pinned hash — a stronger assertion than "deterministic
@@ -105,8 +105,11 @@ describe('mismatch reporting', () => {
 	const locked = {
 		combined: 'x'.repeat(64),
 		files: [
-			{ path: 'data/source/jastrow-dictionary.jsonl', sha256: 'a'.repeat(64) },
-			{ path: 'data/source/lexicons.json', sha256: 'b'.repeat(64) },
+			{
+				path: 'data/sources/sefaria/jastrow-dictionary.jsonl',
+				sha256: 'a'.repeat(64),
+			},
+			{ path: 'data/sources/sefaria/lexicons.json', sha256: 'b'.repeat(64) },
 		],
 	};
 
@@ -115,16 +118,16 @@ describe('mismatch reporting', () => {
 			combined: 'y'.repeat(64),
 			files: [
 				{
-					path: 'data/source/jastrow-dictionary.jsonl',
+					path: 'data/sources/sefaria/jastrow-dictionary.jsonl',
 					sha256: 'c'.repeat(64),
 				},
-				{ path: 'data/source/lexicons.json', sha256: 'd'.repeat(64) },
+				{ path: 'data/sources/sefaria/lexicons.json', sha256: 'd'.repeat(64) },
 			],
 		};
 		const mismatches = diffSnapshot(locked, current);
 		expect(mismatches.map((m) => m.path)).toEqual([
-			'data/source/jastrow-dictionary.jsonl',
-			'data/source/lexicons.json',
+			'data/sources/sefaria/jastrow-dictionary.jsonl',
+			'data/sources/sefaria/lexicons.json',
 		]);
 	});
 
@@ -133,15 +136,15 @@ describe('mismatch reporting', () => {
 			combined: 'y'.repeat(64),
 			files: [
 				{
-					path: 'data/source/jastrow-dictionary.jsonl',
+					path: 'data/sources/sefaria/jastrow-dictionary.jsonl',
 					sha256: 'a'.repeat(64),
 				},
-				{ path: 'data/source/new-file.json', sha256: 'e'.repeat(64) },
+				{ path: 'data/sources/sefaria/new-file.json', sha256: 'e'.repeat(64) },
 			],
 		};
 		const paths = diffSnapshot(locked, current).map((m) => m.path);
-		expect(paths).toContain('data/source/lexicons.json');
-		expect(paths).toContain('data/source/new-file.json');
+		expect(paths).toContain('data/sources/sefaria/lexicons.json');
+		expect(paths).toContain('data/sources/sefaria/new-file.json');
 	});
 
 	it('points to the maintenance-track rebase, not re-locking', () => {
@@ -149,20 +152,26 @@ describe('mismatch reporting', () => {
 			{
 				actual: 'c'.repeat(64),
 				expected: 'a'.repeat(64),
-				path: 'data/source/jastrow-dictionary.jsonl',
+				path: 'data/sources/sefaria/jastrow-dictionary.jsonl',
 			},
 		]);
-		expect(message).toContain('data/source/jastrow-dictionary.jsonl');
+		expect(message).toContain('data/sources/sefaria/jastrow-dictionary.jsonl');
 		expect(message).toContain('maintenance-track');
 		expect(message).toContain('Do not re-lock');
 	});
 });
 
 describe('combineHashes', () => {
-	it('changes when a path is renamed, even with identical content hashes', () => {
+	it('ignores a moved or renamed path when the content is the same', () => {
 		const files = [{ path: 'a', sha256: 'a'.repeat(64) }];
 		const renamed = [{ path: 'b', sha256: 'a'.repeat(64) }];
-		expect(combineHashes(files)).not.toBe(combineHashes(renamed));
+		expect(combineHashes(files)).toBe(combineHashes(renamed));
+	});
+
+	it('changes when a content hash changes', () => {
+		const files = [{ path: 'a', sha256: 'a'.repeat(64) }];
+		const edited = [{ path: 'a', sha256: 'c'.repeat(64) }];
+		expect(combineHashes(files)).not.toBe(combineHashes(edited));
 	});
 
 	it('changes when file order changes', () => {

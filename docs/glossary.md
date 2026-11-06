@@ -34,11 +34,11 @@ date, and what it drops — see [`decisions.md`](decisions.md).
 
 | Term | Meaning | Where |
 |---|---|---|
-| **source data** | Sefaria's export of the dictionary: entries, lexicons and manifest, as `rebuild:fetch` (alias `data:fetch`) downloads it | `data/source/` |
-| **snapshot** | the one version of the source data committed in the repo, the version the committed entry data was imported from | `data/source/` |
+| **source data** | Sefaria's export of the dictionary: entries, lexicons and manifest, as `rebuild:fetch` (alias `data:fetch`) downloads it | `data/sources/sefaria/` |
+| **snapshot** | the one version of the source data committed in the repo, the version the committed entry data was imported from | `data/sources/sefaria/` |
 | **entry data** | one JSON file per dictionary entry. `data:import` makes it; people and the admin tool then edit it | `data/entries/<letter>/<rid>.json` |
 | **compiled data** | entry data built into the files the web app loads | not built yet |
-| **reference data** | our own lookup inputs that import reads alongside the source data: the print page and column index. May grow | `data/page-index/` |
+| **reference data** | our own lookup inputs that import reads alongside the source data: the print page and column index. May grow | `data/sources/page-index/` |
 | **correction data** | our own per-entry fixes that import applies: patches. The patch records moved inside the module on 2026-09-22 | `admin/pipeline/patch/records/` |
 | **report** | evidence a run produces, not data: the import report, the blessing doc, build reports | see [The import run](#the-import-run) |
 
@@ -46,7 +46,7 @@ date, and what it drops — see [`decisions.md`](decisions.md).
 
 | Name | What it does |
 |---|---|
-| **fetch** (`rebuild:fetch`, alias `data:fetch`) | downloads the current Sefaria export into `data/source/` |
+| **fetch** (`rebuild:fetch`, alias `data:fetch`) | downloads the current Sefaria export into `data/sources/sefaria/` |
 | **import** (`data:import`) | turns source data, reference data and correction data into entry data, checks it, and writes a report |
 | **dry import** (`data:import:dry`) | the same run with no entry data written: every check and every report, nothing in `data/entries/` |
 | **validate** (`data:validate`) | holds entry data to the entry contract (`admin/entry/`): every file under `data/entries/`, or only the named files' own checks. CI's Validate job; writes nothing |
@@ -75,7 +75,7 @@ now writes the headword-issues report beside the others.
 | **write run** | `bun data:import` (which passes `--write`): writes entry data, then formats it with Biome. Refuses unless `data/entries/` is empty, and refuses if any gate is red |
 | **`--strict`** | makes a run refuse on a stale pin or a patch whose precondition no longer holds, instead of reporting them. Right for the committed snapshot, wrong for a new export |
 | **gate** | one of ten pass/total tallies import checks on every run: `bodyRoundTrips`, `headwordLine`, `textConservation`, `schema`, `chain`, `internalTargets`, `names`, `pages`, `composition`, `contract` |
-| **import report** | the structured result of a run: gate tallies, rule counts, patch outcomes, report rows. Not committed (`data/source/import-report.json`) |
+| **import report** | the structured result of a run: gate tallies, rule counts, patch outcomes, report rows. Not committed (`data/sources/sefaria/import-report.json`) |
 | **blessing doc** | the import report rendered for a person to read before accepting a run. Committed with the entry data it describes (`docs/reports/import-blessing.md`) |
 | **report row** | one finding in the report, shaped `{ rid, bucket, kind, severity, detail }`. `bucket` is `review` (a data judgment), `patch` (a patch to re-judge) or `pipeline` (a code fault) |
 | **rule count** | how often one rule fired in a run, and on how many entries. *Composed*: each rule sees the text the rules before it left, so it can differ from the rule run alone |

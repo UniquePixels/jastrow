@@ -68,7 +68,7 @@ tier fails there instead of showing up as a slow CI `Test` job.
 | Unit | `*.test.ts` | `bun qa:test` | `bun qa`; CI `Test` | ~2 s |
 | Invariants | `transform/{commutation,registry.order}.corpus.test.ts` | `bun run rebuild:invariants` (alias `transform:invariants`) | local, before rule-code PRs | ~4 min |
 
-Per-PR CI never reads `data/source/` (consolidation spec R9). Registering,
+Per-PR CI never reads `data/sources/sefaria/` (consolidation spec R9). Registering,
 reclassifying or reordering a transform rule needs
 `bun run rebuild:invariants` run locally — `bun qa` cannot see it.
 A new corpus-reading test must be added to that script. The two research

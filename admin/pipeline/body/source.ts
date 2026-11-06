@@ -1,5 +1,5 @@
 /**
- * Streaming reader for `data/source/jastrow-dictionary.jsonl` (32,512
+ * Streaming reader for `data/sources/sefaria/jastrow-dictionary.jsonl` (32,512
  * entries, ~41 MB). Every later body-model module reads entries through
  * this instead of loading the file into memory.
  */

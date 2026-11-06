@@ -67,7 +67,7 @@ interface FormAnnotationDraft extends AnnotationNote {
 }
 
 /** Upstream shapes (Sefaria dump,
- * `data/source/jastrow-dictionary.jsonl`), restricted to the fields
+ * `data/sources/sefaria/jastrow-dictionary.jsonl`), restricted to the fields
  * the body model reads. */
 interface SourceGrammar {
 	binyan_form?: string[];

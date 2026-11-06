@@ -4,7 +4,7 @@ Which printed page and column of Marcus Jastrow's *Dictionary of the
 Targumim…* (London: Luzac, 1903) each entry begins in. An input to the
 import, which writes each entry's `page` from it; after the import the
 entry file's `page` is the record, and nothing looks a page up here.
-Ruling `11-05 page index` in [`docs/decisions.md`](../../docs/decisions.md).
+Ruling `11-05 page index` in [`docs/decisions.md`](../../../docs/decisions.md).
 
 ## `columns.jsonl`
 
@@ -51,15 +51,44 @@ ways: every entry placed, and nothing placed that is not an entry.
 or an image link belongs to one scan, and scans change. Pages are what
 the print fixes. How a printed page is linked on the scan the patch
 evidence cites is
-[`admin/pipeline/patch/scan.ts`](../../admin/pipeline/patch/scan.ts).
+[`admin/pipeline/patch/scan.ts`](../../../admin/pipeline/patch/scan.ts).
 
-**No research output.** How the map was built (a deterministic
-alignment of the scans' OCR against the Sefaria text), how accurate
-it is, the per-entry confidence, the guide-word OCR and the letter
-starts are all in the archived build,
-[`docs/archive/page-index-build-2026-08-17/`](../../docs/archive/page-index-build-2026-08-17/README.md).
-Those files are the map's provenance; this file is derived from that
-build's `entries.jsonl`, with the corrections below.
+**No research output.** The per-entry confidence, the guide-word OCR,
+the letter starts and the build report are in the archived build (see
+"Provenance").
+
+## Provenance
+
+1. **Scans.** The University of Toronto copy of the 1903 edition, as
+   scanned by the Internet Archive (`dictionaryoftarg01jastuoft`,
+   `dictionaryoftarg02jastuoft`), with Tesseract hOCR of every leaf.
+2. **Build, 2026-08-17.** A deterministic script chain placed each
+   entry. No model was used. Tesseract can't read the small pointed
+   Hebrew, so the build aligned text instead of recognising
+   headwords:
+   - Sefaria's `rid` order gives print order.
+   - 4-grams of Latin words that occur once in both the OCR and the
+     Sefaria text served as anchors (Jastrow's glosses and citations
+     OCR well).
+   - Each entry was placed from its nearest anchor and kept in
+     non-decreasing print order.
+   - A second pass pinned each letter's first entry under its
+     full-width heading.
+
+   Checked against hand-made columns for pp. 1–235, the build put
+   96.1% of entries (5,508) on the exact page and column.
+3. **Rebuild, 2026-11-05.** Ruling `11-05 page index` reduced the
+   build's per-headword rows to this block map and dropped its scan
+   fields. The new map places all 32,512 entries exactly as those rows
+   did, apart from the corrections below.
+4. **Corrections.** Each is read off the scan by a person and listed
+   below. Placements the build marked uncertain are tracked as one
+   issue,
+   [#219](https://github.com/UniquePixels/jastrow/issues/219).
+
+The build's code is at the tag `archive/v2-research-2026-09`. Its
+files and full method are in
+[`docs/archive/page-index-build-2026-08-17/`](../../../docs/archive/page-index-build-2026-08-17/README.md).
 
 ## Corrections since the build
 
@@ -82,5 +111,5 @@ Each is read off the scan and recorded here.
 ## Rights
 
 Derived from public-domain scans; see
-[`docs/archive/print-hocr/README.md`](../../docs/archive/print-hocr/README.md)
+[`docs/archive/print-hocr/README.md`](../../../docs/archive/print-hocr/README.md)
 for their provenance and the credit owed upstream.

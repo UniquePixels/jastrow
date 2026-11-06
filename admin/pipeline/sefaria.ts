@@ -5,7 +5,7 @@
  * review list of every patch a filter kept out.
  *
  * Its own script, not a stage of the import: it reads only committed
- * inputs (the reviewed records, `data/source/`, the page index and the
+ * inputs (the reviewed records, `data/sources/sefaria/`, the page index and the
  * submission log) and none of a run's in-memory state, so it takes
  * seconds where the import takes minutes, and it can be regenerated
  * after the maintainer logs a batch without re-importing anything.

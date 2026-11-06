@@ -118,7 +118,7 @@ describe('checkNoLostText', () => {
 
 // `run.ts` looks the allowance up by a plain `LOSS_ALLOWANCES.get(rule.id)`,
 // so a rule rename drops its allowance silently — and because per-PR CI
-// never reads `data/source/` (spec R9), the only witness would be a full
+// never reads `data/sources/sefaria/` (spec R9), the only witness would be a full
 // `bun data:import`. These two assertions put that witness in the 2 s tier.
 describe('LOSS_ALLOWANCES', () => {
 	it('names only rules that are registered', () => {

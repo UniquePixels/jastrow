@@ -18,7 +18,7 @@
  * lessons warn about (three prior mislinks in this batch each came
  * from an unverified boundary), and it does not survive a read of the
  * bytes: `plural_form` is a separate, PLAIN-TEXT array —
- * `grep -c '"plural_form":\[[^]]*<a ' data/source/jastrow-dictionary.jsonl`
+ * `grep -c '"plural_form":\[[^]]*<a ' data/sources/sefaria/jastrow-dictionary.jsonl`
  * returns 0, corpus-wide. It carries no markup at all and cannot hold
  * an anchor. What the brief's prose meant, informally, is the
  * definition-embedded "—Pl. X, Y." construct Jastrow prints inline —

@@ -29,10 +29,10 @@ it does not own, plus reports about what it did.
 
 | Path | What it holds |
 |---|---|
-| `data/source/jastrow-dictionary.jsonl` | the Sefaria export, verbatim, 32,512 entries |
-| `data/source/lexicons.json` | the lexicon registry record that travels with it |
-| `data/source/manifest.json` | provenance about the fetch — dump URL, ETag, Last-Modified, fetch time, sha256 and entry count per output. Not snapshot content, so not hashed into the pin |
-| `data/page-index/columns.jsonl` | the page index: one row per printed block, its page, column and the first and last rid beginning in it (§8) |
+| `data/sources/sefaria/jastrow-dictionary.jsonl` | the Sefaria export, verbatim, 32,512 entries |
+| `data/sources/sefaria/lexicons.json` | the lexicon registry record that travels with it |
+| `data/sources/sefaria/manifest.json` | provenance about the fetch — dump URL, ETag, Last-Modified, fetch time, sha256 and entry count per output. Not snapshot content, so not hashed into the pin |
+| `data/sources/page-index/columns.jsonl` | the page index: one row per printed block, its page, column and the first and last rid beginning in it (§8) |
 | [`data/schema/entry.schema.json`](../../data/schema/entry.schema.json) | the entry contract, read at run time |
 
 **Import definition** (inside the module, read and written):
@@ -46,7 +46,7 @@ under `data/`.
 | Path | What it is |
 |---|---|
 | `data/entries/<L>/<rid>.json` | one file per entry, `<L>` the rid's first letter |
-| `data/source/import-report.json` | the machine-readable account of one run |
+| `data/sources/sefaria/import-report.json` | the machine-readable account of one run |
 | [`docs/reports/import-blessing.md`](../../docs/reports/import-blessing.md) | the evidence a person reads before accepting a run |
 | [`docs/reports/review-report.md`](../../docs/reports/review-report.md) | one row per item a person must judge |
 | [`docs/reports/headword-issues.md`](../../docs/reports/headword-issues.md), `docs/reports/headword-issues.csv` | every headword and alternate form a headword rule would have to rule on, one section per shape (`report/headword-issues.ts`); the CSV holds the same rows |
@@ -202,7 +202,7 @@ Validate job runs `bun data:validate` over it. The invariant tier is
 `transform/commutation.corpus.test.ts` and
 `transform/registry.order.corpus.test.ts`, run locally before
 rule-code changes; `bun qa` cannot see them. Per-PR CI never reads
-`data/source/`, and a new corpus-reading test has to be added to
+`data/sources/sefaria/`, and a new corpus-reading test has to be added to
 `rebuild:invariants` by hand.
 
 ---
@@ -458,7 +458,7 @@ documents, verbatim, in dump order), `lexicons.json` (the lexicon
 registry record) and `manifest.json` (provenance about the fetch
 itself, which is why it is not hashed into the pin).
 
-Documents are emitted **unmodified**. `data/source/` is a faithful
+Documents are emitted **unmodified**. `data/sources/sefaria/` is a faithful
 snapshot, which is why it still holds the 201 non-NFC strings
 [the archived Sefaria report §17](../../docs/archive/sefaria-report-2026-10-27.md#17-combining-marks-stored-out-of-canonical-nfc-order-201-strings-175-entries) reports
 upstream — the module normalizes only what it writes, on write
@@ -1212,7 +1212,7 @@ suffix and never stores it.
 
 ## 8. Page placement
 
-`data/page-index/columns.jsonl` is the page index (ruling `11-05 page
+`data/sources/page-index/columns.jsonl` is the page index (ruling `11-05 page
 index`): one row per printed block, in print order, giving its page,
 its column and the first and last rid that begin in it. A block is a
 column, except on a page where a letter changes, whose full-width
@@ -1220,7 +1220,7 @@ heading splits each column into a top block (the old letter) and a
 bottom block (the new); each gets its own row. Rid order is print
 order and rids run without gaps within a letter, so a row's range
 names every rid in it. The format and the reading order are in
-[`data/page-index/README.md`](../../data/page-index/README.md).
+[`data/sources/page-index/README.md`](../../data/sources/page-index/README.md).
 
 It is an import input and nothing more. `page-index.ts` loads it and
 refuses a row that is malformed, runs backwards or across a letter, or
@@ -1340,7 +1340,7 @@ that wrote it, so nothing downstream can have rewritten the field
 unnoticed.
 *Cannot see:* whether a **committed** entry's `sefariaHeadword` still
 equals Sefaria's. Outside an import run nothing can ask, because
-per-PR CI never reads `data/source/`.
+per-PR CI never reads `data/sources/sefaria/`.
 
 **8. `pages`** (`import/gates.ts`).
 *Proves:* the page index places every entry, and places no rid that is
@@ -1469,7 +1469,7 @@ assemble from the gate entries above:
 - **A source sense dropped at index 0.** The import joins the gloss
   head onto source sense 0, so dropping an empty one there consumes
   sense 1 invisibly to both text-level gates (§2).
-- **A data regression in CI.** Per-PR CI never reads `data/source/` and
+- **A data regression in CI.** Per-PR CI never reads `data/sources/sefaria/` and
   never runs import, so it cannot see one. That is a deliberate,
   stated cost. What CI does see is the committed tree against the entry
   contract (`bun data:validate`) — gate 10's clauses, never a
@@ -1542,7 +1542,7 @@ send upstream (ruling `10-16 upstream report`), are generated by their
 own script, `bun data:sefaria` (`sefaria.ts`, building on
 `report/sefaria-report.ts`, `report/sefaria-evidence.ts` and
 `report/sefaria-change.ts`). It is not a stage of the import: it reads
-only committed inputs (the reviewed patch records, `data/source/`, the
+only committed inputs (the reviewed patch records, `data/sources/sefaria/`, the
 page index, the evidence scan's page links (`patch/scan.ts`) and the
 hand-kept submission log
 `docs/sefaria-submissions.jsonl`) and none of a run's state, so it
@@ -1850,7 +1850,7 @@ so cannot be inferred from reading the code that is there.
     NFC only ever produces a canonically equivalent string, so no
     assertion guards it: the `NFD(before) == NFD(after)` check it once
     carried is that equivalence restated and could not fire (review
-    ledger L10). `data/source/` is never touched.
+    ledger L10). `data/sources/sefaria/` is never touched.
 51. **No canonicalization of stored text at lookup time.** NFC is a
     *comparison* key in `names.ts` and `cite.ts` (where `linkKey` also
     collapses whitespace runs); nothing stored is rewritten by those

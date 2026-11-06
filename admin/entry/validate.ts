@@ -348,7 +348,7 @@ function checkNames(entries: readonly Entry[], problems: string[]): void {
  * it, so two entries holding one value would make that URL ambiguous.
  *
  * Whether the value still EQUALS Sefaria's is a different question and
- * cannot be asked here: per-PR CI never reads `data/source/` (R9), so
+ * cannot be asked here: per-PR CI never reads `data/sources/sefaria/` (R9), so
  * it is import's gate 7. This check is the half a hand edit can be
  * caught by without the snapshot. */
 function checkSefariaHeadwords(

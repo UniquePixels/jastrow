@@ -55,7 +55,7 @@ const run = (e: SourceEntry): { entry: SourceEntry; records: unknown[] } =>
 	applyTransforms(e, 'text-repairs', [ibAnaphora]);
 
 /** A00445 אַדְרָא, excerpt — the catalogue's worked example, bytes from
- * `data/source/jastrow-dictionary.jsonl`. Three anchors: a `Jastrow, …`
+ * `data/sources/sefaria/jastrow-dictionary.jsonl`. Three anchors: a `Jastrow, …`
  * cross-reference (skipped — a headword is not a place), the Yerushalmi
  * citation that IS the antecedent, and the bare `Ib.` that fell to the
  * sink. The antecedent's `href` carries no leading slash while the

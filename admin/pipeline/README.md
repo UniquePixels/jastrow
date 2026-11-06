@@ -16,7 +16,7 @@ this way, is [`DESIGN.md`](DESIGN.md), which is also the README of
 | Stage | Tool | Status | Runs |
 |---|---|---|---|
 | Source acquisition | `fetch.ts` | working | on demand, re-runnable |
-| Print locator index | `page-index/build.ts` | built 2026-08-17; tool archived at `refs/tags/archive/v2-research-2026-09`, its files in `docs/archive/page-index-build-2026-08-17/`; reduced 2026-11-05 to the block map in `data/page-index/` (ruling `11-05 page index`) | none — one-time build; the import reads the map, and entry files are the record after |
+| Print locator index | `page-index/build.ts` | built 2026-08-17; tool archived at `refs/tags/archive/v2-research-2026-09`, its files in `docs/archive/page-index-build-2026-08-17/`; reduced 2026-11-05 to the block map in `data/sources/page-index/` (ruling `11-05 page index`) | none — one-time build; the import reads the map, and entry files are the record after |
 | Import (source data → entry data) | `import.ts` | working; complete as of 2026-09-22, last `--write` 2026-10-25 (#196) | on demand, re-runnable |
 | Compile (entry data → compiled data) | `admin/compile/` | designed, **not built — next**; its own module beside this one, not a stage of it (ruling `10-04 compile home`) | every deploy |
 
@@ -36,8 +36,8 @@ original sketch it was derived from was archived 2026-09-21 as
 
 | Directory | Contents | Committed | Who writes it |
 |---|---|---|---|
-| `data/source/` | Sefaria snapshot | yes | `fetch.ts` |
-| `data/page-index/` | the page index: page and column per printed block, an import input with no scan data — reference data | yes | derived from the archived `page-index/build.ts` output; corrections read off the scan |
+| `data/sources/sefaria/` | Sefaria snapshot | yes | `fetch.ts` |
+| `data/sources/page-index/` | the page index: page and column per printed block, an import input with no scan data — reference data | yes | derived from the archived `page-index/build.ts` output; corrections read off the scan |
 
 ### Running it
 
@@ -54,7 +54,7 @@ dry or not:
 
 | Document | What it is |
 |---|---|
-| `data/source/import-report.json` | the machine-readable report (gitignored) |
+| `data/sources/sefaria/import-report.json` | the machine-readable report (gitignored) |
 | [`docs/reports/import-blessing.md`](../../docs/reports/import-blessing.md) | the evidence a person reads before accepting a run |
 | [`docs/reports/review-report.md`](../../docs/reports/review-report.md) | one row per item a person must judge |
 | [`docs/reports/headword-issues.md`](../../docs/reports/headword-issues.md) (+ `.csv`) | every headword shape a headword rule has to rule on |
@@ -77,7 +77,7 @@ and memory that cite them stay true.
 
 | Script | Runs | Alias |
 |---|---|---|
-| `bun rebuild:fetch` | `fetch.ts`: download the current Sefaria export into `data/source/` | `data:fetch` |
+| `bun rebuild:fetch` | `fetch.ts`: download the current Sefaria export into `data/sources/sefaria/` | `data:fetch` |
 | `bun rebuild:pin` | `patch/snapshot.ts`: verify the snapshot pin; `--write` rewrites `patch/records/snapshot.lock` | none before 2026-10-31 |
 | `bun rebuild:count` | `transform/count.ts`: the per-rule, rule-alone count over the snapshot | `transform:count` |
 | `bun rebuild:invariants` | the two corpus-tier invariant tests (commutation, registry order), ~4 min | `transform:invariants` |
@@ -136,7 +136,7 @@ it: the 2026-07-04 dump has no `lexicon` record and zero
 `lexicon_entry` docs under that name. Only `Jastrow Dictionary`
 (32,512 entries) exists and is emitted.
 
-### Outputs (`data/source/`, committed)
+### Outputs (`data/sources/sefaria/`, committed)
 
 | File | Contents |
 |------|----------|
@@ -145,7 +145,7 @@ it: the 2026-07-04 dump has no `lexicon` record and zero
 | `manifest.json` | Provenance: dump URL, ETag, Last-Modified, fetch time, sha256 + entry count per output |
 
 Documents are emitted **unmodified** — no transformation happens in
-this stage, so `data/source/` is a faithful snapshot of the source.
+this stage, so `data/sources/sefaria/` is a faithful snapshot of the source.
 `word_form.bson` is cached for later use (search word forms) but not
 yet emitted.
 
@@ -173,7 +173,7 @@ in [`admin/entry/`](../entry/README.md) — the same check
 given, and it never silently overwrites hand edits in entry data.
 
 Every run ends in a report a person reads before the output ships —
-the import report `data/source/import-report.json`, rendered as
+the import report `data/sources/sefaria/import-report.json`, rendered as
 the blessing doc
 [`docs/reports/import-blessing.md`](../../docs/reports/import-blessing.md).
 The report holds the thirteen gate tallies, one row per review item, patch
@@ -188,7 +188,7 @@ lookup, the duplicate-form check — normalizes to NFC first, because
 combining-mark order varies in the source and a byte-exact match on
 Hebrew is a bug. The write step is also the one place stored text is
 rewritten, and only into its NFC spelling, which is canonically the
-same text; `data/source/` is never touched. See [`DESIGN.md`](DESIGN.md) §11, "What is never stored, and
+same text; `data/sources/sefaria/` is never touched. See [`DESIGN.md`](DESIGN.md) §11, "What is never stored, and
 where text is rewritten".
 
 **Last full rewrite 2026-09-22, with all nine gates of the time
@@ -218,7 +218,7 @@ under `docs/reports/` came back unchanged (review checklist group 5).
 bun data:sefaria      # writes docs/reports/sefaria-appendix.{csv,md}, sefaria-review.csv
 ```
 
-Not a stage: it reads the reviewed patch records, `data/source/`, the
+Not a stage: it reads the reviewed patch records, `data/sources/sefaria/`, the
 page index, the evidence scan's page links (`patch/scan.ts`) and
 `docs/sefaria-submissions.jsonl`, and writes the rows of
 the report we send Sefaria (`docs/sefaria-report.md`, ruling `10-16

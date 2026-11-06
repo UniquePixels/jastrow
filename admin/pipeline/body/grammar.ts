@@ -15,7 +15,7 @@ import type { BodyEntry } from '../types.ts';
 type GrammarIndex = NonNullable<BodyEntry['grammar']>;
 
 /**
- * The closed vocabulary observed in `data/source/body-census-report.json`
+ * The closed vocabulary observed in `data/sources/sefaria/body-census-report.json`
  * `.markers` (value → corpus count):
  *   'm.'          6,970  gender only
  *   'f.'          4,175  gender only

@@ -48,12 +48,14 @@ async function hashSnapshotFiles(
 }
 
 /** Fold the per-file hashes into the single canonical pin value: a
- * sha256 over `<path> sha256:<hash>` lines in file order. Folding the
- * paths in means a renamed or reordered file changes the pin. */
+ * sha256 over `sha256:<hash>` lines in file order. Only content is
+ * folded in, so moving or renaming a source file leaves every patch's
+ * pin intact; reordering the files still changes it. The lock's paths
+ * are for the mismatch report only. */
 function combineHashes(files: readonly FileHash[]): string {
 	const hash = createHash('sha256');
 	for (const file of files) {
-		hash.update(`${file.path} sha256:${file.sha256}\n`);
+		hash.update(`sha256:${file.sha256}\n`);
 	}
 	return hash.digest('hex');
 }

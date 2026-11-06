@@ -13,7 +13,7 @@ feeding Stage 2 (import).
 
 | Tool | Job | Status |
 |---|---|---|
-| `source.ts` | Streaming reader for `data/source/jastrow-dictionary.jsonl` | done |
+| `source.ts` | Streaming reader for `data/sources/sefaria/jastrow-dictionary.jsonl` | done |
 | `cite.ts` | Citation detector | done |
 | `census.ts` | Corpus-wide census of sense shapes/markup, to size later rules | archived at `refs/tags/archive/v2-research-2026-09` |
 | `rejoin.ts` | Rejoin split/lettered sense fragments | done |
@@ -42,7 +42,7 @@ for await (const entry of readSourceEntries()) {
 }
 ```
 
-Streams `data/source/jastrow-dictionary.jsonl` (32,512 entries, ~41 MB)
+Streams `data/sources/sefaria/jastrow-dictionary.jsonl` (32,512 entries, ~41 MB)
 line by line — chunks are decoded and split on `\n` as they arrive, so
 the file is never held in memory whole. `parseSourceEntry()` parses a
 single JSONL line; `readSourceEntries(path?)` is the generator, path

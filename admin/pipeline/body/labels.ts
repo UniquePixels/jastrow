@@ -11,7 +11,7 @@
  * `grammar.ts`'s `parseMarker` convention).
  *
  * Value space measured across the full corpus (32,512 entries,
- * `data/source/jastrow-dictionary.jsonl`, 10,186 sense.number
+ * `data/sources/sefaria/jastrow-dictionary.jsonl`, 10,186 sense.number
  * occurrences, 22 distinct values): every value is `N)` (bare digits,
  * 4,631 occurrences across "1)".."4)"), `—N)` (em-dash prefixed, 5,442
  * occurrences across "—1)".."—10)"), or `*N)` (star prefixed, no dash
