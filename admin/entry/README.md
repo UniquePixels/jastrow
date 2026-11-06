@@ -24,7 +24,7 @@ need lives here.
 | `names.ts` | an entry's name, derived from `headwords[0]`, and name collisions |
 | `html.ts` | the tokenizer every markup field is read with — the transforms' too |
 | `format.ts` | the formatter: `formatEntries` runs Biome over `data/entries/` as the last step of any write, `biomeBinary` finds the pinned Biome (the project's dependency first, then PATH) |
-| `compare-strings.ts` | `compareStrings`, for sorting objects by a string field in code-unit order (a bare `.sort()`'s order); never `localeCompare` |
+| `compare-by-code-unit.ts` | `compareByCodeUnit`, the comparator every string sort passes: code-unit order, the same on every machine; never `localeCompare` |
 | `paths.ts` | where the entries and the generated schema live; the pipeline's `paths.ts` re-exports `ENTRIES_DIR` |
 
 The schema is written once, in `schema.ts`. A TypeBox schema is JSON

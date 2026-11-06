@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import type { SourceEntry } from '../types.ts';
 import {
 	changingRids,
@@ -148,7 +149,10 @@ describe('nonCommutingPairs', () => {
 		const corpus = [entryOf('A1', 'ends with a dot..')];
 		const found = nonCommutingPairs([dotToBang, killLastChar], corpus);
 		expect(found).toHaveLength(1);
-		expect(found[0]?.ids.sort()).toEqual(['dot-to-bang', 'kill-last-char']);
+		expect(found[0]?.ids.sort(compareByCodeUnit)).toEqual([
+			'dot-to-bang',
+			'kill-last-char',
+		]);
 		expect(found[0]?.sampleRid).toBe('A1');
 	});
 
@@ -179,7 +183,10 @@ describe('the union skip', () => {
 		expect(changingRids(wrapHebrew, corpus).size).toBe(0);
 		const found = nonCommutingPairs([unlinkAnchor, wrapHebrew], corpus);
 		expect(found).toHaveLength(1);
-		expect(found[0]?.ids.toSorted()).toEqual(['unlink-anchor', 'wrap-hebrew']);
+		expect(found[0]?.ids.toSorted(compareByCodeUnit)).toEqual([
+			'unlink-anchor',
+			'wrap-hebrew',
+		]);
 		expect(found[0]?.sampleRid).toBe('A1');
 	});
 

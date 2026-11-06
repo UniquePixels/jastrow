@@ -6,7 +6,7 @@
  * Evidence read off another page is not evidence for this entry.
  */
 
-import { compareStrings } from '../../entry/compare-strings.ts';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import { loadPageIndex } from '../page-index.ts';
 
 /** The page index, as a page check reads it: each rid's page and
@@ -28,7 +28,7 @@ async function readPageLookup(): Promise<PageLookup> {
 	>();
 	// Rid order is print order: an entry runs until the next rid starts.
 	const inOrder = [...(await loadPageIndex())].sort(([a], [b]) =>
-		compareStrings(a, b),
+		compareByCodeUnit(a, b),
 	);
 	for (const [i, [rid, placement]] of inOrder.entries()) {
 		const next = inOrder[i + 1]?.[1].number ?? placement.number;

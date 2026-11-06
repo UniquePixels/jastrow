@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../../entry/compare-by-code-unit.ts';
 import type { SourceEntry } from '../../types.ts';
 import {
 	COLLIDING_HEADWORD,
@@ -32,9 +33,9 @@ describe('migrateHolam', () => {
 	// survives, which is also why `checkNoNewText` is blind to this rule
 	// and the corpus gate has to carry the argument.
 	it('preserves the codepoint multiset exactly', () => {
-		expect([...(migrateHolam(BAD) ?? '')].sort().join('')).toBe(
-			[...BAD].sort().join(''),
-		);
+		expect(
+			[...(migrateHolam(BAD) ?? '')].sort(compareByCodeUnit).join(''),
+		).toBe([...BAD].sort(compareByCodeUnit).join(''));
 	});
 
 	// THE CORRECT SPELLING IS THE FIXED POINT. 43,664 holam males in the

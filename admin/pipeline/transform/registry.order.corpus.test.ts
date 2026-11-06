@@ -14,6 +14,7 @@
  * registers, reclassifies or reorders a rule.
  */
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import { tokenize } from '../../entry/html.ts';
 import type { SourceEntry } from '../types.ts';
 import { anchors } from './links.ts';
@@ -146,14 +147,16 @@ function everDeclared(kind: string): string[] {
 	return [...DECLARED]
 		.filter(([, kinds]) => kinds.has(kind))
 		.map(([id]) => id)
-		.toSorted();
+		.toSorted(compareByCodeUnit);
 }
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('the classification is earned, not declared', () => {
 	it('exactly the UNLINK rules ever remove an anchor', async () => {
 		await scan();
-		expect(everDeclared('unlinks')).toEqual([...UNLINK].toSorted());
+		expect(everDeclared('unlinks')).toEqual(
+			[...UNLINK].toSorted(compareByCodeUnit),
+		);
 		// 360 s: the file may be first in its shard and pay the fixture
 		// cold start (~110 s on CI) plus its own tables.
 	}, 360_000);
@@ -257,7 +260,9 @@ describe('the classification is earned, not declared', () => {
 
 	it('exactly the GLYPH rules ever correct a target in place', async () => {
 		await scan();
-		expect(everDeclared('glyphCorrected')).toEqual([...GLYPH].toSorted());
+		expect(everDeclared('glyphCorrected')).toEqual(
+			[...GLYPH].toSorted(compareByCodeUnit),
+		);
 	}, 180_000);
 
 	// `RESTORE` earned on `GLYPH`'s mechanism: gate case 6 licenses a
@@ -268,7 +273,9 @@ describe('the classification is earned, not declared', () => {
 	// name in this set that never declares one fails too.
 	it('exactly the RESTORE rules ever restore a target from damaged bytes', async () => {
 		await scan();
-		expect(everDeclared('restored')).toEqual([...RESTORE].toSorted());
+		expect(everDeclared('restored')).toEqual(
+			[...RESTORE].toSorted(compareByCodeUnit),
+		);
 	}, 180_000);
 
 	// `CORROBORATE` earned on the same mechanism as `GLYPH` and
@@ -291,7 +298,9 @@ describe('the classification is earned, not declared', () => {
 	// assertion now names the drift, and the allowlist stops it.
 	it('exactly the CORROBORATE rules ever mint a corroborated target', async () => {
 		await scan();
-		expect(everDeclared('corroborated')).toEqual([...CORROBORATE].toSorted());
+		expect(everDeclared('corroborated')).toEqual(
+			[...CORROBORATE].toSorted(compareByCodeUnit),
+		);
 	}, 180_000);
 
 	// `VOUCH` earned on the same mechanism, and carrying the same job as
@@ -302,7 +311,9 @@ describe('the classification is earned, not declared', () => {
 	// so this assertion names the drift and the allowlist stops it.
 	it('exactly the VOUCH rules ever vouch a target from another entry', async () => {
 		await scan();
-		expect(everDeclared('vouched')).toEqual([...VOUCH].toSorted());
+		expect(everDeclared('vouched')).toEqual(
+			[...VOUCH].toSorted(compareByCodeUnit),
+		);
 	}, 180_000);
 
 	// `POINT` earned on the same mechanism as the four above it. Case 9's
@@ -313,7 +324,9 @@ describe('the classification is earned, not declared', () => {
 	// this assertion names the drift and the allowlist stops it.
 	it('exactly the POINT rules ever repair a target’s pointing', async () => {
 		await scan();
-		expect(everDeclared('pointed')).toEqual([...POINT].toSorted());
+		expect(everDeclared('pointed')).toEqual(
+			[...POINT].toSorted(compareByCodeUnit),
+		);
 	}, 180_000);
 
 	it('no NEITHER or WRAP rule removes an anchor or moves a target', async () => {
@@ -340,8 +353,8 @@ describe('the classification is earned, not declared', () => {
 		await scan();
 		const moversOnly = [...MOVED_A_WRAPPER]
 			.filter((id) => !MOVED_TEXT.has(id))
-			.toSorted();
-		expect(moversOnly).toEqual([...WRAP].toSorted());
+			.toSorted(compareByCodeUnit);
+		expect(moversOnly).toEqual([...WRAP].toSorted(compareByCodeUnit));
 	}, 180_000);
 
 	/**

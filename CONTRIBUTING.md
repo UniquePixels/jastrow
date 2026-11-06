@@ -89,13 +89,15 @@ All commits must include a sign-off line (`git commit -s`).
   index is deliberate — the position is the point. `useNamedCaptureGroup`:
   naming a group means rewriting every `match[n]` consumer in rule code
   the corpus baselines pin.
-- Sort strings with a bare `.sort()` / `.toSorted()`. Its UTF-16
-  code-unit order is the same on every machine; `localeCompare`
-  depends on the runtime's ICU data, so `admin/` never uses it. To
-  sort objects by a string field, use `compareStrings` from
-  `admin/entry/compare-strings.ts`, the same order as a comparator.
-  Sonar's S2871 flags the bare call, so that rule is off for this
-  project rather than coded around.
+- Every `.sort()` / `.toSorted()` passes a compare function (Biome's
+  `useArraySortCompare`, Sonar's S2871): without one, JavaScript
+  compares elements as strings, so a list that stops being strings
+  sorts wrongly without an error. For strings, pass `compareByCodeUnit`
+  from `admin/entry/compare-by-code-unit.ts` (`ids.sort(compareByCodeUnit)`,
+  or per field for objects). It orders by UTF-16 code unit, the same on
+  every machine; `localeCompare` depends on the runtime's ICU data, so
+  `admin/` never uses it. Biome's type inference does not see every
+  call, so Sonar remains the backstop.
 
 ## Tests
 

@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import {
 	type Annotation,
 	type Entry,
@@ -64,7 +65,9 @@ describe('createReport', () => {
 
 	it('zeroes every gate', () => {
 		const report = createReport();
-		expect(Object.keys(report.gates).sort()).toEqual([...GATE_NAMES].sort());
+		expect(Object.keys(report.gates).sort(compareByCodeUnit)).toEqual(
+			[...GATE_NAMES].sort(compareByCodeUnit),
+		);
 		for (const name of GATE_NAMES) {
 			expect(report.gates[name]).toEqual({ failures: [], pass: 0, total: 0 });
 		}

@@ -68,6 +68,8 @@
  *   attribution, not about output" — but a reader consulting this
  *   list should not have to infer it from `compose()`'s docstring.
  */
+
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import type { SourceEntry } from '../types.ts';
 import type { Rule } from './types.ts';
 
@@ -371,7 +373,7 @@ function nonCommutingPairs(
 		stats.inertRules = [...changing]
 			.filter(([, rids]) => rids.size === 0)
 			.map(([id]) => id)
-			.toSorted();
+			.toSorted(compareByCodeUnit);
 	}
 	return tally.found;
 }

@@ -20,6 +20,7 @@
  * file past its line budget.
  */
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../../entry/compare-by-code-unit.ts';
 import { tokenize } from '../../../entry/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { type Anchor, anchors } from '../links.ts';
@@ -51,7 +52,7 @@ const usable = (html: string): boolean =>
 
 /** Codepoints of a string, sorted — equal multisets mean the rewrite
  * only moved bytes around. */
-const bag = (s: string): string[] => [...s].sort();
+const bag = (s: string): string[] => [...s].sort(compareByCodeUnit);
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
 describe('unterminatedHref', () => {

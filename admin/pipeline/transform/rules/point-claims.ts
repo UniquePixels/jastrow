@@ -9,6 +9,7 @@
  * to it.
  */
 
+import { compareByCodeUnit } from '../../../entry/compare-by-code-unit.ts';
 import { tokenize } from '../../../entry/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { anchors } from '../links.ts';
@@ -30,7 +31,7 @@ function inputTargets(entry: SourceEntry): string[] {
 		}
 	}
 	found.delete('');
-	return [...found].sort();
+	return [...found].sort(compareByCodeUnit);
 }
 
 export { inputTargets };

@@ -26,7 +26,7 @@
  * escalations import deliberately defers.
  */
 import { existsSync } from 'node:fs';
-import { compareStrings } from '../../entry/compare-strings.ts';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import { REVIEWED_DIR, TRANCHES_DIR } from '../paths.ts';
 import type { SourceEntry } from '../types.ts';
 import { classifyDrift, type DriftOutcome } from './drift.ts';
@@ -888,7 +888,7 @@ function applyCarryOver(
 	const drifted: PatchDrift[] = [];
 	const losses: PatchLoss[] = [];
 	const problems: ApplyProblem[] = [];
-	const ordered = [...patches].sort((a, b) => compareStrings(a.id, b.id));
+	const ordered = [...patches].sort((a, b) => compareByCodeUnit(a.id, b.id));
 	for (const patch of ordered) {
 		const found = countTarget(current, patch);
 		if (found === 0) {

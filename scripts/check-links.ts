@@ -23,6 +23,7 @@
  */
 import { dirname, join, normalize } from 'node:path';
 import process from 'node:process';
+import { compareByCodeUnit } from '../admin/entry/compare-by-code-unit.ts';
 
 const EXEMPT: ReadonlySet<string> = new Set([
 	'docs/archive/decisions-2026-09-22.md',
@@ -158,7 +159,7 @@ async function main(): Promise<void> {
 	const present = presentPaths();
 	const files = [...present]
 		.filter((path) => path.endsWith('.md') && !EXEMPT.has(path))
-		.sort();
+		.sort(compareByCodeUnit);
 	const texts = await Promise.all(files.map((file) => Bun.file(file).text()));
 	let checked = 0;
 	const dead: string[] = [];

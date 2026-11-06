@@ -1,5 +1,6 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import type { SourceEntry } from '../types.ts';
 import type { FormSectionParts } from './form-sections.ts';
 import { joinFormSection, splitFormSection } from './form-sections.ts';
@@ -118,7 +119,7 @@ function sweepFixtures(entries: SourceEntry[]): SweepResult {
 	return {
 		markersByRid,
 		mismatches,
-		splitRids: [...splitRids].sort(),
+		splitRids: [...splitRids].sort(compareByCodeUnit),
 	};
 }
 
@@ -287,7 +288,9 @@ describe('fixture sweep (fixtures/form-sections.jsonl)', () => {
 
 		const { markersByRid, mismatches, splitRids } = sweepFixtures(entries);
 		expect(mismatches).toEqual([]);
-		expect(splitRids).toEqual(Object.keys(FORM_SECTION_SPLITS).sort());
+		expect(splitRids).toEqual(
+			Object.keys(FORM_SECTION_SPLITS).sort(compareByCodeUnit),
+		);
 		expect(markersByRid).toEqual(FORM_SECTION_SPLITS);
 	});
 });

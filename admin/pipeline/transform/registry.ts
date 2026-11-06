@@ -7,7 +7,7 @@
  * neither is a silent skip, and the gate fails on it.
  */
 
-import { compareStrings } from '../../entry/compare-strings.ts';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import type { Pattern } from '../patch/patterns.ts';
 import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
 import { unlinkedBareAnaphor } from './rules/anaphora-mint.ts';
@@ -870,7 +870,7 @@ function entangledClusters(
 			.toSorted((a, b) => a - b);
 		const stale = ids
 			.filter((id) => !(known.has(id) || index.has(id)))
-			.toSorted();
+			.toSorted(compareByCodeUnit);
 		// The walk starts from a registered id, so `at` always holds at
 		// least one position and `Math.max` below is never called on an
 		// empty list. Two registered members is the ORDER question; a
@@ -879,13 +879,13 @@ function entangledClusters(
 		if (at.length >= 2 || stale.length > 0) {
 			clusters.push({
 				at,
-				ids: ids.toSorted(),
+				ids: ids.toSorted(compareByCodeUnit),
 				stale,
 			});
 		}
 	}
 	return clusters.toSorted((a, b) =>
-		compareStrings(a.ids[0] ?? '', b.ids[0] ?? ''),
+		compareByCodeUnit(a.ids[0] ?? '', b.ids[0] ?? ''),
 	);
 }
 
@@ -994,11 +994,11 @@ function unaccountedEdges(
 				continue;
 			}
 			found.add(
-				`${[row.id, other].toSorted().join(' ~ ')}: recorded entanglement is invisible to the adjacency gate`,
+				`${[row.id, other].toSorted(compareByCodeUnit).join(' ~ ')}: recorded entanglement is invisible to the adjacency gate`,
 			);
 		}
 	}
-	return [...found].toSorted();
+	return [...found].toSorted(compareByCodeUnit);
 }
 
 export type { Cluster, Coverage, Ordered };

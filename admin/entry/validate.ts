@@ -30,7 +30,7 @@
 import type { TLocalizedValidationError } from 'typebox/error';
 import { Compile } from 'typebox/schema';
 import { checkAnnotations } from './annotations.ts';
-import { compareStrings } from './compare-strings.ts';
+import { compareByCodeUnit } from './compare-by-code-unit.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
 import { tokenize } from './html.ts';
 import { nameCollisions } from './names.ts';
@@ -136,8 +136,8 @@ async function loadEntryFiles(
 	);
 	// Reads settle in any order; the report must not.
 	return {
-		files: files.toSorted((a, b) => compareStrings(a.path, b.path)),
-		problems: problems.toSorted(),
+		files: files.toSorted((a, b) => compareByCodeUnit(a.path, b.path)),
+		problems: problems.toSorted(compareByCodeUnit),
 	};
 }
 

@@ -4,6 +4,7 @@
  * is one tuple, the evidence as JSON text, so the tables repeat no
  * keys. */
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import type { SourceEntry } from '../types.ts';
 import {
 	applyEntryPatches,
@@ -149,8 +150,8 @@ describe('TEXT_CHANGING: which ops may not stand on Sefaria alone', () => {
 	});
 
 	it('names every op the grammar has', () => {
-		expect(Object.keys(TEXT_CHANGING).sort()).toEqual(
-			OPS.map(([op]) => op).sort(),
+		expect(Object.keys(TEXT_CHANGING).sort(compareByCodeUnit)).toEqual(
+			OPS.map(([op]) => op).sort(compareByCodeUnit),
 		);
 	});
 });

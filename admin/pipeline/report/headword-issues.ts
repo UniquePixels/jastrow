@@ -21,7 +21,7 @@
  * sorting).
  */
 import { dirname, relative } from 'node:path';
-import { compareStrings } from '../../entry/compare-strings.ts';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import { intToSup, isHeadwordReviewKind } from '../../entry/headwords.ts';
 import { nameOf } from '../../entry/names.ts';
 import type { Entry, FormObject } from '../../entry/schema.ts';
@@ -755,7 +755,7 @@ function homographGapRows({
 	const rows: IssueRow[] = [];
 	for (const [text, family] of spellingFamilies(entries)) {
 		const members = [...family].sort((a, b) =>
-			compareStrings(formLabel(a), formLabel(b)),
+			compareByCodeUnit(formLabel(a), formLabel(b)),
 		);
 		const { missing, numbers } = numbering(members);
 		const first = members.find((m) => m.homograph !== undefined);
@@ -940,7 +940,7 @@ function spellingChanges(
 		if (a === undefined || a.text === b.text) {
 			continue;
 		}
-		const pair = [a.text, b.text].sort().join('|');
+		const pair = [a.text, b.text].sort(compareByCodeUnit).join('|');
 		if (!seen.has(pair)) {
 			seen.add(pair);
 			changes.push([a, b]);
@@ -1078,8 +1078,8 @@ const STALE_SECTION = 'Reviewed, kept: stale records';
 function renderKept(split: KeptSplit<IssueRow>): string[] {
 	const kept = [...split.kept].sort(
 		(a, b) =>
-			compareStrings(a.row.shape, b.row.shape) ||
-			compareStrings(a.row.rid, b.row.rid),
+			compareByCodeUnit(a.row.shape, b.row.shape) ||
+			compareByCodeUnit(a.row.rid, b.row.rid),
 	);
 	const lines = [
 		'',
@@ -1124,7 +1124,7 @@ function render(split: KeptSplit<IssueRow>): string {
 	for (const row of split.open) {
 		byShape.set(row.shape, [...(byShape.get(row.shape) ?? []), row]);
 	}
-	const shapes = [...byShape.keys()].sort();
+	const shapes = [...byShape.keys()].sort(compareByCodeUnit);
 	// Computed, not pasted: HEADWORD_ISSUES_DOC and DESIGN_PATH live in
 	// different directories (docs/reports/ and admin/pipeline/), so a
 	// hardcoded same-directory link would break the moment either one
@@ -1148,7 +1148,8 @@ function render(split: KeptSplit<IssueRow>): string {
 	];
 	for (const shape of shapes) {
 		const group = [...(byShape.get(shape) ?? [])].sort(
-			(a, b) => compareStrings(a.note, b.note) || compareStrings(a.rid, b.rid),
+			(a, b) =>
+				compareByCodeUnit(a.note, b.note) || compareByCodeUnit(a.rid, b.rid),
 		);
 		lines.push(
 			'',
@@ -1177,7 +1178,8 @@ function renderCsv(split: KeptSplit<IssueRow>): string {
 		'shape,rid,role,text,name,note,processor_flagged,reviewed_kept',
 	];
 	const rows = [...split.open, ...split.kept.map((k) => k.row)].toSorted(
-		(a, b) => compareStrings(a.shape, b.shape) || compareStrings(a.rid, b.rid),
+		(a, b) =>
+			compareByCodeUnit(a.shape, b.shape) || compareByCodeUnit(a.rid, b.rid),
 	);
 	for (const row of rows) {
 		lines.push(
@@ -1222,7 +1224,9 @@ function buildHeadwordIssues(
 ): HeadwordIssues {
 	classifyEveryShape();
 	const flagged = flaggedRids(reportRows);
-	const inRidOrder = [...finished].sort((a, b) => compareStrings(a.id, b.id));
+	const inRidOrder = [...finished].sort((a, b) =>
+		compareByCodeUnit(a.id, b.id),
+	);
 	const entries = new Map(inRidOrder.map((entry) => [entry.id, entry]));
 	const rows: IssueRow[] = [];
 	for (const entry of inRidOrder) {

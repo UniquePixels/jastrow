@@ -7,6 +7,7 @@
  * first filter it failed, never in the appendix.
  */
 import { describe, expect, it } from 'bun:test';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import { contentAnchor } from '../patch/schema.ts';
 import type { RawRecord } from './sefaria-change.ts';
@@ -86,7 +87,7 @@ const REPLACE: Record<string, unknown> = {
 
 describe('scopeReason: case 1 only', () => {
 	it('names every class that is not Sefaria’s error', () => {
-		expect([...NOT_UPSTREAM_CLASSES.keys()].sort()).toEqual([
+		expect([...NOT_UPSTREAM_CLASSES.keys()].sort(compareByCodeUnit)).toEqual([
 			'cross-reference-numeral',
 			'headword-illegible-pointing',
 			'headword-implied-one',
@@ -96,7 +97,7 @@ describe('scopeReason: case 1 only', () => {
 			'lettered-whole-run',
 			'self-numbered-intext-marker',
 		]);
-		expect([...NOT_UPSTREAM_OPS.keys()].sort()).toEqual([
+		expect([...NOT_UPSTREAM_OPS.keys()].sort(compareByCodeUnit)).toEqual([
 			'annotate',
 			'nest',
 			'relabel',

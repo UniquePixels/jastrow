@@ -4,7 +4,7 @@
  * emit a row. The admin tool's tracker integration reads the deferred
  * rows. */
 
-import { compareStrings } from '../../entry/compare-strings.ts';
+import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import { type Pattern, parsePatterns } from '../patch/patterns.ts';
 import { PATTERNS_PATH } from '../paths.ts';
 import { DETECTED_CLASSES } from './detectors/classes.ts';
@@ -50,7 +50,7 @@ function undetectedClasses(
 				!detected.has(r.id),
 		)
 		.toSorted(
-			(a, b) => b.corpusCount - a.corpusCount || compareStrings(a.id, b.id),
+			(a, b) => b.corpusCount - a.corpusCount || compareByCodeUnit(a.id, b.id),
 		);
 }
 
@@ -79,7 +79,9 @@ function section(title: string, rows: readonly ReportRow[]): string[] {
 	}
 	// Code-unit order: the committed report reads the same on every
 	// machine.
-	const kinds = [...new Set(rows.map((r) => r.kind))].toSorted();
+	const kinds = [...new Set(rows.map((r) => r.kind))].toSorted(
+		compareByCodeUnit,
+	);
 	return [
 		...head,
 		...kinds.flatMap((kind, i) => {
