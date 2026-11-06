@@ -61,7 +61,7 @@ function ridGuard(path: string): (rid: unknown, line: number) => void {
 	const lines = new Map<string, number>();
 	return (rid: unknown, line: number): void => {
 		if (typeof rid !== 'string') {
-			throw new Error(`missing rid at line ${line} of ${path}`);
+			throw new TypeError(`missing rid at line ${line} of ${path}`);
 		}
 		const first = lines.get(rid);
 		if (first !== undefined) {

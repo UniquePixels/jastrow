@@ -166,15 +166,22 @@ async function emitEntries(
 		if (docs.length === 0) {
 			// Same drift guard as the registry: a renamed parent_lexicon
 			// must not produce an empty snapshot that looks like success.
+			// Checked for every lexicon before any file is written.
 			throw new Error(`no entries found for lexicon "${lexicon}"`);
 		}
-		const lines = sortByRid(docs).map(
-			(doc) => `${canonicalJson(EJSON.serialize(doc, { relaxed: true }))}\n`,
-		);
-		await Bun.write(JASTROW_LEXICONS.get(lexicon) as string, lines.join(''));
-		counts.set(lexicon, docs.length);
-		progress(`wrote ${JASTROW_LEXICONS.get(lexicon)} (${docs.length} entries)`);
 	}
+	await Promise.all(
+		[...collected].map(async ([lexicon, docs]) => {
+			const lines = sortByRid(docs).map(
+				(doc) => `${canonicalJson(EJSON.serialize(doc, { relaxed: true }))}\n`,
+			);
+			await Bun.write(JASTROW_LEXICONS.get(lexicon) as string, lines.join(''));
+			counts.set(lexicon, docs.length);
+			progress(
+				`wrote ${JASTROW_LEXICONS.get(lexicon)} (${docs.length} entries)`,
+			);
+		}),
+	);
 	return counts;
 }
 

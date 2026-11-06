@@ -44,7 +44,9 @@ function requireRid<T extends Record<string, unknown>>(
 	doc: T,
 ): T & { rid: string } {
 	if (typeof doc['rid'] !== 'string') {
-		throw new Error(`lexicon_entry ${String(doc['_id'])} has no string rid`);
+		throw new TypeError(
+			`lexicon_entry ${String(doc['_id'])} has no string rid`,
+		);
 	}
 	return doc as T & { rid: string };
 }
