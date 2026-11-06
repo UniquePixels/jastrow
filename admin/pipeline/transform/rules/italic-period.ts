@@ -34,7 +34,7 @@
  * BODY (`Part. pass`, `—Pl`) — so `isLabel` can be asked about a run
  * body, about that body's final token, or about both. These rules ask
  * only about the whole body, and the choice is measured rather than
- * assumed (task-2-report.md, over the pinned snapshot):
+ * assumed (task-2-report.md, over the committed snapshot):
  *
  * - widening to `isLabel(finalToken)` ADDS 87 occurrences to
  *   `labelPeriodInside`, of which 25 (28.7%) are ordinary glosses —
@@ -70,7 +70,7 @@
  * The vocabulary holds single letters and short transliterations
  * (`a i n s t y k r p f m sh C H M T Z gl hard Par`), and a rule
  * wanting zero false positives might reasonably want to exclude them.
- * Measured as whole run bodies on the pinned snapshot they are 80
+ * Measured as whole run bodies on the committed snapshot they are 80
  * period-outside occurrences against 43 already period-inside, and
  * every one inspected is Jastrow's headword-initial abbreviation in
  * running text — `a metal <i>k</i>.`, `the Tyrian <i>M</i>.`, `three

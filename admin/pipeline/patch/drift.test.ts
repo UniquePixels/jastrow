@@ -4,7 +4,6 @@ import type { SourceEntry, SourceSense } from '../types.ts';
 import { classifyDrift, type DriftOutcome } from './drift.ts';
 import { contentAnchor, type SemanticPatch } from './schema.ts';
 
-const PIN = `sha256:${'a'.repeat(64)}`;
 const OCR_BEFORE = 'l) emergency. Nidd. 9b';
 
 /** A replace patch fixing an OCR `l)` → `1)`, overridable per test. */
@@ -21,7 +20,6 @@ function patch(overrides: Partial<SemanticPatch> = {}): SemanticPatch {
 		prompt_version: 'v1',
 		rationale: 'fixture',
 		rid: 'D00436',
-		snapshot: PIN,
 		target: `sense[]:${contentAnchor(before)}`,
 		...overrides,
 	} as SemanticPatch;

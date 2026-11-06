@@ -22,7 +22,6 @@ import {
 	parseSubmissions,
 } from './sefaria-report.ts';
 
-const PIN = `sha256:${'a'.repeat(64)}`;
 const READ = 'Maintainer print read of the 1903 scan, 2026-10-06';
 const URL = 'https://archive.org/details/dictionaryoftarg01jastuoft/page/50';
 const HOCR = 'hOCR vol. 1 p. 50a: `x`; scan 50a';
@@ -57,7 +56,6 @@ function patch(fields: Record<string, unknown>): SemanticPatch {
 		prompt_version: 'group-d-2026-10-10',
 		rationale: HOCR,
 		rid: 'A00001',
-		snapshot: PIN,
 		target: senseAt(before),
 		...fields,
 	} as unknown as SemanticPatch;
@@ -74,7 +72,6 @@ function inputs(
 			entries: new Map([['A00001', { column: 'a', lastPage: 50, page: 50 }]]),
 		},
 		patches,
-		snapshot: PIN,
 		source: new Map(records.map((r) => [r.rid, r])),
 		submissions,
 	};
@@ -210,19 +207,6 @@ describe('buildSefariaAppendix: one row per solid patch', () => {
 		});
 		const out = buildSefariaAppendix(inputs([rec], [patch(REPLACE)]));
 		expect(out.review[0]?.reason).toBe('not traceable to source');
-	});
-
-	it('names a row no longer in a re-fetched source by its pin', () => {
-		const rec = record('A00001');
-		const same = buildSefariaAppendix(inputs([rec], [patch(REPLACE)]));
-		expect(same.review[0]?.reason).toBe('not traceable to source');
-		const moved = {
-			...inputs([rec], [patch(REPLACE)]),
-			snapshot: `sha256:${'b'.repeat(64)}`,
-		};
-		expect(buildSefariaAppendix(moved).review[0]?.reason).toBe(
-			'no longer in source',
-		);
 	});
 
 	it('sends a patch whose scan link shows another page to review', () => {

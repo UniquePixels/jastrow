@@ -94,7 +94,7 @@ import type { Rule, TransformResult } from '../types.ts';
  * ## The falsifier, reproduced
  *
  * If Jastrow's print set the paren inside the italic type, the
- * reverse polarity would appear too. Measured on the pinned snapshot:
+ * reverse polarity would appear too. Measured on the committed snapshot:
  * 47,073 italic runs, 47,063 paren-balanced, **10 with a surplus `)`
  * and 0 with a surplus `(`**. A 0.02% one-directional tail is what a
  * boundary-drift defect predicts and what a print convention cannot.

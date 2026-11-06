@@ -19,7 +19,6 @@ import {
 } from './patches.ts';
 import { createReport } from './report.ts';
 
-const PIN = `sha256:${'a'.repeat(64)}`;
 const MISSING_RID = 'Z99999';
 const RID = 'D00001';
 
@@ -38,7 +37,6 @@ function patch(overrides: Partial<SemanticPatch> = {}): SemanticPatch {
 		prompt_version: 'v1',
 		rationale: 'fixture',
 		rid: MISSING_RID,
-		snapshot: PIN,
 		target: `sense[]:${contentAnchor(before)}`,
 		...overrides,
 	} as SemanticPatch;
@@ -456,7 +454,6 @@ const p000194: SemanticPatch = {
 	prompt_version: 'test',
 	rationale: 'fixture',
 	rid: 'A00675',
-	snapshot: PIN,
 	target: `sense[]:${contentAnchor(A00675)}`,
 };
 const p000027 = patch({

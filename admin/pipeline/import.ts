@@ -8,9 +8,8 @@
  * Run: bun data:import [--strict]      (writes: passes --write)
  *      bun data:import:dry [--strict]  (dry run)
  *
- * A stale snapshot pin is one count in the report header; a patch whose
- * precondition no longer holds is a report row. `--strict` makes either
- * refuse the run (consolidation spec §4.2).
+ * A patch whose precondition no longer holds is a report row;
+ * `--strict` makes it refuse the run (consolidation spec §4.2).
  */
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
@@ -78,11 +77,9 @@ import {
 	patchesByRid,
 	reviewedManifestProblems,
 	splitProvisional,
-	stalePins,
 } from './patch/apply.ts';
 import { pageOutsideEntry, readPageLookup } from './patch/locator.ts';
 import type { SemanticPatch } from './patch/schema.ts';
-import { computeSnapshot } from './patch/snapshot.ts';
 import {
 	BLESSING_PATH,
 	CITE_NUMERAL_KEPT_PATH,
@@ -141,15 +138,14 @@ interface Indexes {
 /** Preflight the accepted patch corpus and group it by rid. The full
  * apply set (accepted + carry-over, Ruling F) is corpus-checked
  * together, the manifest reconciles against the accepted set only, and
- * every escalation defers to post-go-live (Ruling D). A stale snapshot
- * pin is counted, not refused, unless `--strict` (consolidation §4.2). */
+ * every escalation defers to post-go-live (Ruling D). */
 async function preparePatches(
 	report: Report,
 	options: RunOptions,
 ): Promise<PatchGroups> {
 	const accepted = await loadAcceptedCorpus();
 	const reviewed = await loadReviewedCorpus();
-	// Reviewed patches join the pin/id/target preflight (id uniqueness,
+	// Reviewed patches join the id/target preflight (id uniqueness,
 	// no overlapping targets); their manifest lives in the reviewed
 	// directory, not the accepted one `reconcileOnly` names, so it is
 	// reconciled separately against the reviewed patches alone.
@@ -158,11 +154,8 @@ async function preparePatches(
 		...accepted.patches,
 		...accepted.carryOver,
 	];
-	const pin = `sha256:${(await computeSnapshot()).combined}`;
-	report.snapshot = { pin, stalePins: stalePins(applySet, pin).length };
-	const preflight = corpusPreflight(applySet, accepted.records, pin, {
+	const preflight = corpusPreflight(applySet, accepted.records, {
 		escalations: 'defer',
-		pins: options.pins,
 		reconcileOnly: accepted.patches,
 	});
 	preflight.push(...reviewedManifestProblems(reviewed));
@@ -620,7 +613,7 @@ async function writeAll(normalized: Normalized, report: Report): Promise<void> {
 }
 
 /** The run summary on stdout: one line per gate, the row-kind counts
- * alongside the unresolved total, the stale-pin/drift line, and where
+ * alongside the unresolved total, the drift line, and where
  * the written evidence went. */
 function printGates(report: Report): void {
 	for (const [name, t] of Object.entries(report.gates)) {
@@ -640,7 +633,7 @@ function printGates(report: Report): void {
 	const kindCounts = [...kinds].map(([k, n]) => `${k}=${n}`).join(' ');
 	console.log(`unresolved=${report.unresolved.length} ${kindCounts}`);
 	console.log(
-		`stalePins=${report.snapshot.stalePins} upstreamFixed=${report.patches.upstreamFixed} upstreamChanged=${report.patches.upstreamChanged}`,
+		`upstreamFixed=${report.patches.upstreamFixed} upstreamChanged=${report.patches.upstreamChanged}`,
 	);
 	console.log(
 		`evidence pending=${report.patches.pending} provisional=${report.patches.provisional}`,
@@ -684,8 +677,8 @@ async function writeHeadwordIssues(
  *
  * `--write` adds the empty-tree guard (`refuseUnlessEmpty`) and
  * re-runs every gate, refusing on any red one. `--strict` promotes a
- * stale snapshot pin and a drifted patch precondition from report
- * rows to refusals (consolidation spec §4.2). */
+ * drifted patch precondition from a report row to a refusal
+ * (consolidation spec §4.2). */
 async function main(): Promise<void> {
 	const options = runOptions(process.argv);
 	if (options.write) {

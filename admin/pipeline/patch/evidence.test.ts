@@ -19,7 +19,6 @@ import {
 } from './schema.ts';
 
 const DEFINITION = 'to test. Ber. 6ᵇ.';
-const SNAPSHOT = `sha256:${'0'.repeat(64)}`;
 
 /** A valid retag record with `extra` fields merged in. */
 function record(extra: Record<string, unknown>): Record<string, unknown> {
@@ -32,7 +31,6 @@ function record(extra: Record<string, unknown>): Record<string, unknown> {
 		prompt_version: 'v1',
 		rationale: 'test rationale',
 		rid: 'T00001',
-		snapshot: SNAPSHOT,
 		target: `sense[]:${contentAnchor(DEFINITION)}`,
 		...extra,
 	};
@@ -204,7 +202,7 @@ const PREFLIGHT: readonly Preflight[] = [
 describe('corpusPreflight: the evidence rule', () => {
 	it.each(PREFLIGHT)('%s', (_name, fields, reviewed, refusal) => {
 		const patch = loaded(fields, reviewed);
-		const problems = corpusPreflight([patch], [], SNAPSHOT, {
+		const problems = corpusPreflight([patch], [], {
 			escalations: 'defer',
 			reconcileOnly: [],
 		});

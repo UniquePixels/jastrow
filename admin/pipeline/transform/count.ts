@@ -2,13 +2,13 @@
  * The corpus-count audit (spec §4). TEST-TIER — `import.ts` never
  * calls this and never reads a catalogue count.
  *
- * Each rule runs ALONE against the pinned snapshot. Composed counts
+ * Each rule runs ALONE against the committed source. Composed counts
  * would be meaningless: rule 40's count drifts because rules 1–39
  * already edited the text.
  *
- * When the snapshot moves, this SKIPS rather than reporting up to 80
- * false mismatches. Re-pinning is a deliberate re-baseline, not a
- * break.
+ * A new Sefaria export moves these counts, and the deltas then name
+ * which rules it moved; re-baselining the catalogue is a deliberate
+ * step, not something this audit does.
  *
  * `hit` below counts ENTRIES a rule touches, not instances within
  * them — a rule that fires three times inside one entry still counts
@@ -39,8 +39,7 @@
 import { readSourceEntries } from '../body/source.ts';
 import type { Pattern } from '../patch/patterns.ts';
 import { parsePatterns } from '../patch/patterns.ts';
-import { computeSnapshot, parseLock } from '../patch/snapshot.ts';
-import { LOCK_PATH, PATTERNS_PATH } from '../paths.ts';
+import { PATTERNS_PATH } from '../paths.ts';
 import type { SourceEntry } from '../types.ts';
 import { RULES } from './registry.ts';
 import type { Rule } from './types.ts';
@@ -103,16 +102,6 @@ function reportRow(
 }
 
 async function main(): Promise<void> {
-	const pinned = parseLock(await Bun.file(LOCK_PATH).text());
-	const actual = await computeSnapshot();
-	if (pinned.combined !== actual.combined) {
-		console.log(
-			`pinned snapshot stale — lock sha256:${pinned.combined}, source sha256:${actual.combined}.\n` +
-				'Counts are measured against the pinned corpus; skipping.\n' +
-				'Re-baseline deliberately, then re-run.',
-		);
-		return;
-	}
 	const catalogue = new Map<string, Pattern>(
 		parsePatterns(await Bun.file(PATTERNS_PATH).text()).map((row) => [
 			row.id,

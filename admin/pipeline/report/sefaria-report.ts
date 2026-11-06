@@ -7,7 +7,7 @@
  * The maintainer's bar, verbatim: "this is my reputation here, so
  * whatever is sent to them must be solid and verified. No slop, no
  * garbage, no ambiguous etc. Just solid, errors from OCR or Sefaria
- * parsing." It is built in as four hard filters, applied in order. A
+ * parsing." It is built in as three hard filters, applied in order. A
  * patch that fails one goes to the review list with that filter's
  * reason, never into the appendix:
  *
@@ -29,11 +29,9 @@
  *    text, with its context, occurs exactly once in the RAW source
  *    record of the same rid. Patches apply after the transforms, so
  *    `expected_before` is post-transform text; where the transforms
- *    changed it, or it occurs twice, the row is not traceable.
- * 4. **Still present upstream**: the same check, read against the
- *    source as it is now. A re-fetch that fixed the error leaves the
- *    text absent, and the patch's own snapshot pin, which then differs
- *    from the source's, names the reason `no longer in source`.
+ *    changed it, or it occurs twice, the row is not traceable. The
+ *    source is read as it is now, so a re-fetch that fixed the error
+ *    leaves the text absent and the row untraceable too.
  *
  * Pure: the caller (`admin/pipeline/sefaria.ts`) reads the files and
  * writes the three documents.
@@ -71,12 +69,10 @@ interface Submission {
 	response: string;
 }
 
-/** Everything one build reads. `snapshot` is the source's pin as it is
- * now (`sha256:<hex>`). */
+/** Everything one build reads. */
 interface AppendixInputs {
 	pages: PageLookup;
 	patches: readonly SemanticPatch[];
-	snapshot: string;
 	source: ReadonlyMap<string, RawRecord>;
 	submissions: readonly Submission[];
 }
@@ -194,10 +190,7 @@ function rowOf(
 	}
 	const change = changeOf(patch, record);
 	if (isExclusion(change)) {
-		return change.reason === 'not traceable to source' &&
-			patch.snapshot !== inputs.snapshot
-			? exclude('no longer in source', `pinned to ${patch.snapshot}`)
-			: change;
+		return change;
 	}
 	if (change.sefaria === change.corrected) {
 		return exclude('no change in Sefaria’s fields', change.field);
@@ -417,7 +410,7 @@ function render(
 	return `${lines.join('\n')}\n`;
 }
 
-/** Every reviewed patch through the four filters, rendered. */
+/** Every reviewed patch through the three filters, rendered. */
 function buildSefariaAppendix(inputs: AppendixInputs): SefariaAppendix {
 	const index = indexSource(inputs.source, inputs.patches);
 	const rows: AppendixRow[] = [];

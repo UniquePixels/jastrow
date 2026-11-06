@@ -58,7 +58,7 @@
  * one, in place. Every `״` in the output is one this call put there,
  * whatever the input held — so the allowance's blast radius is bounded
  * by the predicate rather than by the corpus fact that U+05F4 occurs 0
- * times in the pinned snapshot. That corpus fact is true of the
+ * times in the committed snapshot. That corpus fact is true of the
  * snapshot and false under composition, since `run.ts` feeds each rule
  * the previous rule's output and `gershayimInBody` runs in the same
  * phase.

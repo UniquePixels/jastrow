@@ -50,7 +50,6 @@ function makePatch(id: string, rid: string): SemanticPatch {
 		prompt_version: 'v1',
 		rationale: 'OCR glyph confusion',
 		rid,
-		snapshot: `sha256:${'a'.repeat(64)}`,
 		target: `sense[]:${'0'.repeat(8)}`,
 	};
 }

@@ -513,7 +513,6 @@ describe('annotation drafts ride to the built sense', () => {
 			prompt_version: 'human-review',
 			rationale: 'r',
 			rid: 'A00014',
-			snapshot: `sha256:${'0'.repeat(64)}`,
 			target: `sense[${token}]:${contentAnchor(before)}`,
 		});
 		return applyPatch(entry, { ...patch, author: 'human' });
@@ -596,7 +595,6 @@ describe('a relabel: the declared run splits and relabels (L59)', () => {
 			prompt_version: 'human-review',
 			rationale: 'r',
 			rid: 'P00790',
-			snapshot: `sha256:${'0'.repeat(64)}`,
 			target: `sense[—2)]:${contentAnchor(before)}`,
 		});
 		return applyPatch(entry, { ...patch, author: 'human' });

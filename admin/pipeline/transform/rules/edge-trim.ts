@@ -18,7 +18,7 @@
  * rendered text. A pure MOVE across the tag boundary does not: the
  * doubling is a property of the two spaces' rendered adjacency, and
  * moving one of them from one side of a tag to the other leaves them
- * just as adjacent. Measured on the pinned snapshot, the move changes
+ * just as adjacent. Measured on the committed snapshot, the move changes
  * the rendered text of 0 of the row's 304 entries.
  *
  * But the row's own consequence clause is true of only PART of its

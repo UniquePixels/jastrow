@@ -2,7 +2,7 @@
 /**
  * What a reviewed patch changes in Sefaria's own record, stated on the
  * raw source string (`docs/decisions.md`, 10-16 upstream report): the
- * appendix's third and fourth filters.
+ * appendix's third filter.
  *
  * Patches apply after the transforms, so a patch's `expected_before` is
  * post-transform text, not Sefaria's string. Each op is located in the
@@ -49,7 +49,6 @@ interface RawRecord extends SourceEntry {
 type Reason =
 	| 'convention or our structure'
 	| 'no change in Sefaria’s fields'
-	| 'no longer in source'
 	| 'no print evidence'
 	| 'no source record'
 	| 'no tranche date'

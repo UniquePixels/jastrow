@@ -14,7 +14,7 @@ function first(list: readonly Anchor[]): Anchor {
 	return anchor;
 }
 
-/** A00135, verbatim from the pinned snapshot. */
+/** A00135, verbatim from the committed snapshot. */
 const GRAETZ =
 	'a district of Peræa (v. Graetz, Gesch. d. ' +
 	'<a class="refLink" href="/Judges.2.2" data-ref="Judges 2:2">Jud. II, 2</a>).';

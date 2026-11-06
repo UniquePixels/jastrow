@@ -69,7 +69,6 @@ describe('composeEntry', () => {
 			prompt_version: 'v1',
 			rationale: 'drift fixture',
 			rid: 'C01331',
-			snapshot: `sha256:${'a'.repeat(64)}`,
 			target: `sense[]:${contentAnchor(missing)}`,
 		} as SemanticPatch;
 		const outcome = composeEntry(source, {
@@ -107,7 +106,6 @@ describe('composeEntry', () => {
 			prompt_version: 'test',
 			rationale: 't',
 			rid: 'Y00001',
-			snapshot: `sha256:${'0'.repeat(64)}`,
 			target: `sense[1)]:${contentAnchor('a b')}`,
 		};
 		// Accepted's `expected_before` is "a c" — it only resolves once
@@ -123,7 +121,6 @@ describe('composeEntry', () => {
 			prompt_version: 'test',
 			rationale: 't',
 			rid: 'Y00001',
-			snapshot: `sha256:${'0'.repeat(64)}`,
 			target: `sense[1)]:${contentAnchor('a c')}`,
 		};
 		const result = composeEntry(source, {
@@ -157,7 +154,6 @@ describe('composeEntry', () => {
 			prompt_version: 'test',
 			rationale: 't',
 			rid: 'M00724',
-			snapshot: `sha256:${'0'.repeat(64)}`,
 			target: `forms:${contentAnchor(was)}`,
 		};
 		const result = composeEntry(source, { reviewed: [reform] });

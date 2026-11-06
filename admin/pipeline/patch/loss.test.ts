@@ -112,7 +112,6 @@ function replace(extra: Record<string, unknown>): Record<string, unknown> {
 		prompt_version: 'v1',
 		rationale: 'test rationale',
 		rid: 'T00001',
-		snapshot: `sha256:${'0'.repeat(64)}`,
 		target: `sense[1)]:${contentAnchor('x l) y')}`,
 		...extra,
 	};

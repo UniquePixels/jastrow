@@ -2,19 +2,16 @@
  * Command-line options for `bun data:import[:dry]` (consolidation spec
  * §4.2). Resolved here rather than inline in `main` so the `--strict`
  * switch is tested: a regression that stopped reading it would let
- * `--write` run with stale pins skipped and drifted patches reported
- * instead of refused.
+ * `--write` run with drifted patches reported instead of refused.
  */
 import type { DriftMode } from '../patch/apply.ts';
 
 /** The switches one `bun data:import` run was started with. `drift`
- * and `pins` are not switches of their own: both follow from
- * `--strict`, which the run keeps beside them. */
+ * is not a switch of its own: it follows from `--strict`, which the
+ * run keeps beside it. */
 interface RunOptions {
 	/** What a patch whose precondition no longer holds becomes. */
 	drift: DriftMode;
-	/** Whether a stale snapshot pin fails the patch preflight. */
-	pins: 'block' | 'skip';
 	strict: boolean;
 	write: boolean;
 }
@@ -26,7 +23,6 @@ function runOptions(argv: readonly string[]): RunOptions {
 	const strict = argv.includes('--strict');
 	return {
 		drift: strict ? 'problem' : 'outcome',
-		pins: strict ? 'block' : 'skip',
 		strict,
 		write: argv.includes('--write'),
 	};

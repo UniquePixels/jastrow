@@ -19,7 +19,6 @@
 		"rebuild:count": "bun admin/pipeline/transform/count.ts",
 		"rebuild:fetch": "bun admin/pipeline/fetch.ts",
 		"rebuild:invariants": "bun test admin/pipeline/transform/commutation.corpus.test.ts admin/pipeline/transform/registry.order.corpus.test.ts",
-		"rebuild:pin": "bun admin/pipeline/patch/snapshot.ts",
 		"transform:count": "bun run rebuild:count",
 		"transform:invariants": "bun run rebuild:invariants"
 	},

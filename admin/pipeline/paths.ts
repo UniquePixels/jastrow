@@ -33,18 +33,8 @@ export const SOURCE_PATH = `${SOURCE_DIR}/jastrow-dictionary.jsonl`;
 export const LEXICONS_PATH = `${SOURCE_DIR}/lexicons.json`;
 
 /** Provenance about the fetch — dump URL, ETag, Last-Modified, fetch
- * time, sha256 and entry count per output. Not snapshot content, so
- * not hashed into the pin (see `SNAPSHOT_FILES`). */
+ * time, sha256 and entry count per output. */
 export const MANIFEST_PATH = `${SOURCE_DIR}/manifest.json`;
-
-/** The two files a patch record pins itself to — exactly what
- * `data:fetch` emits from the Sefaria dump, in fixed (alphabetical)
- * order. `manifest.json` is provenance about the fetch,
- * `edit-replay.jsonl` is admin-tool history (archived 2026-09-22 to
- * `docs/archive/source-reports-2026-09-22/`, not deleted), and
- * `*-report.json` files are pipeline output — none of them are
- * snapshot content, so none of them are hashed. */
-export const SNAPSHOT_FILES = [SOURCE_PATH, LEXICONS_PATH] as const;
 
 // --------------------------------------------------- read and written
 
@@ -84,12 +74,6 @@ const REPORT_RECORDS_DIR = 'admin/pipeline/report/records';
  * reviewed kept): headword-issues rows a person read against the print
  * and found right as stored. */
 export const REVIEWED_KEPT_PATH = `${REPORT_RECORDS_DIR}/reviewed-kept.jsonl`;
-
-/** Where the committed snapshot pin lives. One fixed path, not an
- * option: the value every patch record pins itself to has to be the
- * same one for everybody, so `--write` writes here and verification
- * reads here. */
-export const LOCK_PATH = `${PATCH_DIR}/snapshot.lock`;
 
 // ------------------------------------------------------------- written
 

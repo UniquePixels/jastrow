@@ -28,7 +28,6 @@ function patch(id: string, evidence?: PatchEvidence): SemanticPatch {
 		prompt_version: 'v1',
 		rationale: 'fixture',
 		rid: RID,
-		snapshot: `sha256:${'a'.repeat(64)}`,
 		target: `sense[]:${contentAnchor('x')}`,
 	} as SemanticPatch;
 }

@@ -33,9 +33,10 @@ plus this README:
 | `lexicons.json` | Sefaria's lexicon metadata, unmodified |
 | `manifest.json` | this pipeline's record of the fetch, written by `data:fetch` (`fetch.ts`) |
 
-The two Sefaria files above are the snapshot every patch record pins
-itself to (`admin/pipeline/patch/records/snapshot.lock`). Nothing else
-here is hashed, because nothing else is source.
+The two Sefaria files above are the source the import reads. No patch
+record pins a hash of them (ruling `11-05 no pin`): git is the record
+of which bytes are here, and `manifest.json` carries each file's
+sha256 from the fetch.
 
 Two further names are sometimes seen here. Both are gitignored —
 local run output, never source, never committed:
