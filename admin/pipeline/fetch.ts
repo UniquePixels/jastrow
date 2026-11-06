@@ -17,7 +17,6 @@
  */
 import { mkdir } from 'node:fs/promises';
 import { type Document, EJSON } from 'bson';
-import { byCodeUnit } from '../entry/order.ts';
 import {
 	bsonDocuments,
 	ChunkReader,
@@ -131,9 +130,10 @@ async function emitRegistry(progress: (msg: string) => void): Promise<string> {
 		);
 	}
 	const registryPath = LEXICONS_PATH;
-	const sorted = [...registry].sort((a, b) =>
-		byCodeUnit(a['name'] as string, b['name'] as string),
-	);
+	const sorted = [...registry].sort((a, b) => {
+		const [left, right] = [a['name'] as string, b['name'] as string];
+		return left < right ? -1 : Number(left > right);
+	});
 	await Bun.write(
 		registryPath,
 		`${canonicalJson(EJSON.serialize(sorted, { relaxed: true }), '\t')}\n`,

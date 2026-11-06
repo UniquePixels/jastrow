@@ -28,7 +28,6 @@
  */
 import { intToRoman } from '../../entry/headwords.ts';
 import { tokenize } from '../../entry/html.ts';
-import { byCodeUnit } from '../../entry/order.ts';
 import type { Entry } from '../../entry/schema.ts';
 import { fieldsOf } from '../transform/no-new-text.ts';
 import type { SourceEntry } from '../types.ts';
@@ -157,7 +156,7 @@ interface Targets {
  * rid order (the one a `ch.` line follows in print). */
 function indexTargets(entries: readonly Entry[]): Targets {
 	const byId = new Map(entries.map((e) => [e.id, e]));
-	const order = [...byId.keys()].sort(byCodeUnit);
+	const order = [...byId.keys()].sort();
 	const before = new Map<string, Entry>();
 	for (const [i, id] of order.entries()) {
 		const prior = byId.get(order[i - 1] ?? '');

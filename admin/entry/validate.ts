@@ -33,7 +33,6 @@ import { checkAnnotations } from './annotations.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
 import { tokenize } from './html.ts';
 import { nameCollisions } from './names.ts';
-import { byCodeUnit } from './order.ts';
 import { ENTRIES_DIR } from './paths.ts';
 import {
 	type Entry,
@@ -136,8 +135,10 @@ async function loadEntryFiles(
 	);
 	// Reads settle in any order; the report must not.
 	return {
-		files: files.toSorted((a, b) => byCodeUnit(a.path, b.path)),
-		problems: problems.toSorted(byCodeUnit),
+		files: files.toSorted((a, b) =>
+			a.path < b.path ? -1 : Number(a.path > b.path),
+		),
+		problems: problems.toSorted(),
 	};
 }
 

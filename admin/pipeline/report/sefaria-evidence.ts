@@ -20,7 +20,6 @@
  */
 
 import { serialize, tokenize } from '../../entry/html.ts';
-import { byCodeUnit } from '../../entry/order.ts';
 import { internalTarget, linkKey } from '../import/cite.ts';
 import { pageOfUrl, pageUrls } from '../patch/scan.ts';
 import type { PatchEvidence, SemanticPatch } from '../patch/schema.ts';
@@ -290,7 +289,7 @@ function indexSource(
 	const byKey = new Map<string, string[]>();
 	const bySkeleton = new Map<string, string[]>();
 	const position = new Map<string, number>();
-	for (const [index, rid] of [...records.keys()].sort(byCodeUnit).entries()) {
+	for (const [index, rid] of [...records.keys()].sort().entries()) {
 		position.set(rid, index);
 	}
 	for (const record of records.values()) {

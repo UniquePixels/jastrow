@@ -448,7 +448,6 @@
  */
 
 import { type Token, tokenize } from '../../entry/html.ts';
-import { byCodeUnit } from '../../entry/order.ts';
 import type { SourceEntry } from '../types.ts';
 import { type Anchor, anchors } from './links.ts';
 import { fieldsOf } from './no-new-text.ts';
@@ -1467,9 +1466,7 @@ function pointDelta(
 ): { gained: string | undefined; lost: string | undefined } {
 	const after = pointsOf(target);
 	const before = pointsOf(from);
-	const marks = [...new Set([...after.keys(), ...before.keys()])].sort(
-		byCodeUnit,
-	);
+	const marks = [...new Set([...after.keys(), ...before.keys()])].sort();
 	return {
 		gained: marks.find((m) => (after.get(m) ?? 0) > (before.get(m) ?? 0)),
 		lost: marks.find((m) => (after.get(m) ?? 0) < (before.get(m) ?? 0)),

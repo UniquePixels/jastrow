@@ -89,6 +89,10 @@ All commits must include a sign-off line (`git commit -s`).
   index is deliberate — the position is the point. `useNamedCaptureGroup`:
   naming a group means rewriting every `match[n]` consumer in rule code
   the corpus baselines pin.
+- Sort strings with a bare `.sort()` / `.toSorted()`. Its UTF-16
+  code-unit order is the same on every machine; `localeCompare`
+  depends on the runtime's ICU data. Sonar's S2871 flags the bare
+  call, so that rule is off for this project rather than coded around.
 
 ## Tests
 

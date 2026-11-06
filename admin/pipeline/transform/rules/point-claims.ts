@@ -10,7 +10,6 @@
  */
 
 import { tokenize } from '../../../entry/html.ts';
-import { byCodeUnit } from '../../../entry/order.ts';
 import type { SourceEntry } from '../../types.ts';
 import { anchors } from '../links.ts';
 import { fieldsOf } from '../no-new-text.ts';
@@ -31,7 +30,7 @@ function inputTargets(entry: SourceEntry): string[] {
 		}
 	}
 	found.delete('');
-	return [...found].sort(byCodeUnit);
+	return [...found].sort();
 }
 
 export { inputTargets };
