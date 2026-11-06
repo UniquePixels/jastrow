@@ -18,8 +18,6 @@ import {
 	walkSensePositions,
 } from './schema.ts';
 
-const SNAPSHOT = `sha256:${'0'.repeat(64)}`;
-
 /** A small entry exercising every shape the ops touch: an in-text
  * `—2)` run, an unnumbered sense, a nested child, and a duplicated
  * pair. */
@@ -60,7 +58,6 @@ function patchFor(
 		prompt_version: 'v1',
 		rationale: 'test rationale',
 		rid: 'T00001',
-		snapshot: SNAPSHOT,
 		target: `sense[${token}]:${contentAnchor(definition)}`,
 		...overrides,
 	});
@@ -111,7 +108,6 @@ describe('parsePatch', () => {
 				prompt_version: '',
 				rationale: '',
 				rid: 'lowercase',
-				snapshot: 'md5:beef',
 				target: `sense[]:${contentAnchor('x')}`,
 			}),
 		).toThrow(/id must match.*rid must match.*op must be one of/su);

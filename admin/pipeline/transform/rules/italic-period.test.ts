@@ -111,7 +111,7 @@ describe('italicGlossPeriodOutside', () => {
  * whole run body, its final token, or both — and they test the WHOLE
  * BODY.
  *
- * The measurement, over the pinned snapshot: widening either rule to
+ * The measurement, over the committed snapshot: widening either rule to
  * `isLabel(finalToken)` adds 87 occurrences to the period-outside
  * population of which 25 (28.7%) are ordinary glosses, and removes 32
  * from the period-inside population of which 13 (40.6%) are ordinary

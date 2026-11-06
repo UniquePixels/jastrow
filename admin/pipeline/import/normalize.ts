@@ -41,8 +41,8 @@
  * `ḫ`, `ṇ`, `Ἀ`, `ά`) do compose, which changes the code point count
  * and nothing a reader sees.
  *
- * **`data/sources/sefaria/` is never touched.** The snapshot is pinned by
- * sha256 and belongs upstream; its own 201 non-NFC strings are
+ * **`data/sources/sefaria/` is never touched.** The snapshot is
+ * Sefaria's export and belongs upstream; its own 201 non-NFC strings are
  * reported to Sefaria, not repaired here. Nor is the one field an
  * entry copies from it verbatim — see `VERBATIM_FIELDS`.
  *

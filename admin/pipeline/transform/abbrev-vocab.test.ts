@@ -29,7 +29,7 @@ const AUDIT_LABELS = [
 ];
 
 /**
- * The re-derivation against the pinned snapshot — measuring the corpus
+ * The re-derivation against the committed snapshot — measuring the corpus
  * afresh and requiring the frozen `ABBREVIATIONS` set unchanged — was
  * retired in consolidation step 5 and is listed in
  * `docs/archive/retired-corpus-checks.md`.

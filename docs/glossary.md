@@ -59,8 +59,8 @@ gave it to `fetch` and `import` and reserved it for `compile`;
 named for the data it reads rather than a module, because the entry
 contract belongs to every writer, not to the pipeline. The `rebuild:`
 prefix (2026-10-31) groups the scripts that rebuild the data from
-scratch or guard a rule change — `rebuild:fetch`, `rebuild:pin`,
-`rebuild:count`, `rebuild:invariants`; `data:fetch`, `transform:count`
+scratch or guard a rule change — `rebuild:fetch`, `rebuild:count`,
+`rebuild:invariants`; `data:fetch`, `transform:count`
 and `transform:invariants` stay as aliases. Every other script
 checks the repo (`qa`, `qa:*`). `body:dry-run` and `pageindex:verify` left with the one-shot
 tools they ran (2026-09-22); `patch:replay` left with `patch/apply-cli.ts`
@@ -73,7 +73,7 @@ now writes the headword-issues report beside the others.
 |---|---|
 | **dry run** | `bun data:import:dry`: checks and reports, and writes no entry data. It does rewrite the import report, the blessing doc, the review doc and the headword-issues report |
 | **write run** | `bun data:import` (which passes `--write`): writes entry data, then formats it with Biome. Refuses unless `data/entries/` is empty, and refuses if any gate is red |
-| **`--strict`** | makes a run refuse on a stale pin or a patch whose precondition no longer holds, instead of reporting them. Right for the committed snapshot, wrong for a new export |
+| **`--strict`** | makes a run refuse on a patch whose precondition no longer holds, instead of reporting it. Right for the committed snapshot, wrong for a new export |
 | **gate** | one of ten pass/total tallies import checks on every run: `bodyRoundTrips`, `headwordLine`, `textConservation`, `schema`, `chain`, `internalTargets`, `names`, `pages`, `composition`, `contract` |
 | **import report** | the structured result of a run: gate tallies, rule counts, patch outcomes, report rows. Not committed (`data/sources/sefaria/import-report.json`) |
 | **blessing doc** | the import report rendered for a person to read before accepting a run. Committed with the entry data it describes (`docs/reports/import-blessing.md`) |
@@ -114,7 +114,6 @@ Everything import runs is one of three **buckets**:
 | **stage** | the text a tranche was swept against. `pre-patch`: repaired text before any transform rule existed. `healed`: text after both text and structural repairs, the state patches apply against today |
 | **accepted patch** | a `healed`-stage patch, the latest per entry |
 | **carry-over patch** | a `pre-patch`-stage patch from `pilot/` or `tranche-01`. Applied after the accepted patches, unless an accepted patch already covers the same entry and target |
-| **pin** | the snapshot hash a patch was written against. A **stale pin** names a different snapshot; it is counted in the report header, not refused (except under `--strict`) |
 
 What a run reports for each patch:
 

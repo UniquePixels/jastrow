@@ -14,7 +14,6 @@
  */
 import { loadReviewedCorpus } from './patch/apply.ts';
 import { readPageLookup } from './patch/locator.ts';
-import { computeSnapshot } from './patch/snapshot.ts';
 import {
 	SEFARIA_APPENDIX_CSV,
 	SEFARIA_APPENDIX_DOC,
@@ -54,7 +53,6 @@ async function main(): Promise<void> {
 	const appendix = buildSefariaAppendix({
 		pages: await readPageLookup(),
 		patches: corpus.patches,
-		snapshot: `sha256:${(await computeSnapshot()).combined}`,
 		source: await readRaw(),
 		submissions: parseSubmissions(await log.text()),
 	});

@@ -14,7 +14,6 @@ import {
 	postApplyAssertions,
 	type ReviewedCorpus,
 	reviewedManifestProblems,
-	stalePins,
 } from './apply.ts';
 import type { EntryResult } from './manifest.ts';
 import { parseManifest } from './manifest.ts';
@@ -24,8 +23,6 @@ import {
 	type SemanticPatch,
 	senseTarget,
 } from './schema.ts';
-
-const PIN = `sha256:${'a'.repeat(64)}`;
 
 /** Two-sense entry: an OCR `l)` first sense and a healthy second. */
 function makeEntry(): SourceEntry {
@@ -55,7 +52,6 @@ function ocrPatch(overrides: Partial<SemanticPatch> = {}): SemanticPatch {
 		prompt_version: 'v1',
 		rationale: 'OCR l) for 1)',
 		rid: 'D00436',
-		snapshot: PIN,
 		target: `sense[]:${contentAnchor(expected)}`,
 		...overrides,
 	} as SemanticPatch;
@@ -78,7 +74,6 @@ function displayOnlyReform(): SemanticPatch {
 		prompt_version: 'v1',
 		rationale: 'the print sets the parentheses on the headword',
 		rid: 'D00436',
-		snapshot: PIN,
 		target: `forms:${contentAnchor(expected)}`,
 	} as SemanticPatch;
 }
@@ -97,7 +92,6 @@ function retagPatch(): SemanticPatch {
 		prompt_version: 'v1',
 		rationale: 'normalize dash form',
 		rid: 'D00436',
-		snapshot: PIN,
 		target: `sense[—2)]:${contentAnchor(expected)}`,
 	} as SemanticPatch;
 }
@@ -127,7 +121,6 @@ function patchFor(
 		prompt_version: 'test',
 		rationale: 't',
 		rid: entry.rid,
-		snapshot: `sha256:${'0'.repeat(64)}`,
 		target: senseTarget(sense),
 	} as SemanticPatch;
 }
@@ -187,14 +180,13 @@ describe('corpusPreflight', () => {
 				rid: 'D00436',
 			}),
 		);
-		expect(corpusPreflight(patches, records, PIN)).toEqual([]);
+		expect(corpusPreflight(patches, records)).toEqual([]);
 	});
 
-	it('reports every stale pin, corpus problem, and gate block together', () => {
-		const stale = `sha256:${'b'.repeat(64)}`;
+	it('reports every corpus problem and gate block together', () => {
 		const patches = [
-			ocrPatch({ snapshot: stale }),
-			ocrPatch({ id: 'P000003', snapshot: stale }), // duplicate target too
+			ocrPatch(),
+			ocrPatch({ id: 'P000003' }), // duplicate target
 		];
 		const records = parseManifest(
 			[
@@ -211,14 +203,10 @@ describe('corpusPreflight', () => {
 				}),
 			].join('\n'),
 		);
-		const problems = corpusPreflight(patches, records, PIN);
+		const problems = corpusPreflight(patches, records);
 		const reasons = problems.map((p) => p.reason);
-		expect(reasons.filter((r) => r.includes('snapshot pin'))).toHaveLength(2);
 		expect(reasons.some((r) => r.includes('overlapping patches'))).toBe(true);
 		expect(reasons.some((r) => r.includes('unresolved needs_*'))).toBe(true);
-		expect(reasons.some((r) => r.includes('maintenance-track rebase'))).toBe(
-			true,
-		);
 	});
 });
 
@@ -235,14 +223,14 @@ describe('corpusPreflight — escalations policy (Ruling D)', () => {
 	}
 
 	it('blocks by default on an unresolved needs_* record', () => {
-		const problems = corpusPreflight([], unresolvedRecord(), PIN);
+		const problems = corpusPreflight([], unresolvedRecord());
 		expect(problems.some((p) => p.reason.includes('unresolved needs_*'))).toBe(
 			true,
 		);
 	});
 
 	it("reports nothing under {escalations: 'defer'}", () => {
-		const problems = corpusPreflight([], unresolvedRecord(), PIN, {
+		const problems = corpusPreflight([], unresolvedRecord(), {
 			escalations: 'defer',
 		});
 		expect(problems).toEqual([]);
@@ -565,35 +553,6 @@ describe('patchesByRid', () => {
 			'P000002',
 		]);
 		expect(groups.get('A00001')?.map((p) => p.id)).toEqual(['P000009']);
-	});
-});
-
-describe('stalePins / corpusPreflight pins option (consolidation §4.2)', () => {
-	const stale = `sha256:${'b'.repeat(64)}`;
-
-	it('lists the patches pinned to a different snapshot', () => {
-		const patches = [ocrPatch({ snapshot: stale }), retagPatch()];
-		expect(stalePins(patches, PIN).map((p) => p.id)).toEqual(['P000001']);
-	});
-
-	it("skips only the pin check under pins: 'skip'", () => {
-		const patches = [
-			ocrPatch({ snapshot: stale }),
-			ocrPatch({ id: 'P000003', snapshot: stale }),
-		];
-		const records = parseManifest(
-			JSON.stringify({
-				disposition: 'repaired',
-				patches: ['P000001', 'P000003'],
-				rid: 'D00436',
-			}),
-		);
-		const reasons = corpusPreflight(patches, records, PIN, {
-			escalations: 'defer',
-			pins: 'skip',
-		}).map((p) => p.reason);
-		expect(reasons.some((r) => r.includes('snapshot pin'))).toBe(false);
-		expect(reasons.some((r) => r.includes('overlapping patches'))).toBe(true);
 	});
 });
 

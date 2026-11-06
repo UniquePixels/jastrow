@@ -25,7 +25,6 @@ import {
 	type SemanticPatch,
 } from './schema.ts';
 
-const PIN = `sha256:${'0'.repeat(64)}`;
 const NOTE: Record<string, string> = {
 	date: '2026-10-13',
 	evidence: 'a 2) follows an unlabelled first sense',
@@ -65,7 +64,6 @@ function raw(over: Record<string, unknown>): Record<string, unknown> {
 		prompt_version: 'human-review',
 		rationale: 'r',
 		rid: 'A00001',
-		snapshot: PIN,
 		target: `sense[]:${contentAnchor(before)}`,
 		...over,
 	};
@@ -571,7 +569,7 @@ describe('relabel through the apply gates', () => {
 
 	it('is refused unstamped: a relabel is a person’s', () => {
 		expect(
-			corpusPreflight([parsePatch(record)], [], PIN, {
+			corpusPreflight([parsePatch(record)], [], {
 				escalations: 'defer',
 				reconcileOnly: [],
 			}).map((p) => p.reason),
@@ -604,7 +602,7 @@ describe('a relabel that changes no label through the apply gates', () => {
 
 	it('is refused unstamped even when it carries no annotation', () => {
 		expect(
-			corpusPreflight([parsePatch(unchanged)], [], PIN, {
+			corpusPreflight([parsePatch(unchanged)], [], {
 				escalations: 'defer',
 				reconcileOnly: [],
 			}).map((p) => p.reason),
@@ -674,7 +672,7 @@ describe('two reforms on one rid chain in corpus order', () => {
 
 	it('passes the corpus preflight: the two targets differ by hash', () => {
 		expect(
-			corpusPreflight([rejoin(), respell()], [], PIN, {
+			corpusPreflight([rejoin(), respell()], [], {
 				escalations: 'defer',
 				reconcileOnly: [],
 			}),
@@ -686,7 +684,7 @@ describe('corpusPreflight: an annotation is a person’s', () => {
 	it('refuses an annotation on an agent patch', () => {
 		const agent = parsePatch(raw({ ...retag, annotation: NOTE }));
 		expect(
-			corpusPreflight([agent], [], PIN, {
+			corpusPreflight([agent], [], {
 				escalations: 'defer',
 				reconcileOnly: [],
 			}),
@@ -702,7 +700,7 @@ describe('corpusPreflight: an annotation is a person’s', () => {
 
 	it('passes the same patch stamped human', () => {
 		expect(
-			corpusPreflight([human(raw({ ...retag, annotation: NOTE }))], [], PIN, {
+			corpusPreflight([human(raw({ ...retag, annotation: NOTE }))], [], {
 				escalations: 'defer',
 				reconcileOnly: [],
 			}),

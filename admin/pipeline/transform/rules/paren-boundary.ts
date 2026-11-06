@@ -214,7 +214,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * would see 0 splits and repair 0 primaries.
  *
  * That failure is invisible to every check this module has.
- * `count.ts` measures each rule ALONE against the pinned snapshot, so
+ * `count.ts` measures each rule ALONE against the committed snapshot, so
  * it would keep reporting 414 while the composed import repaired
  * nothing — green everywhere, nothing done, which is the worst shape
  * a defect can take here. The commutation gate reports the
@@ -254,7 +254,7 @@ import type { Rule, TransformRecord, TransformResult } from '../types.ts';
  * A VARIANT is an anchor whose stripped display matches
  * `^[IVXLC]+\),\s*\d+$`; its PRIMARY is the anchor immediately
  * preceding it in document order within the same field. Measured over
- * `fieldsOf` on the pinned snapshot, reproducing the catalogue write-
+ * `fieldsOf` on the committed snapshot, reproducing the catalogue write-
  * back to the digit: **525 pairs / 493 entries**, of which **414 occ /
  * 391 ent** have a chapter-only primary and **111 occ / 107 ent** a
  * disagreeing one. The OCCURRENCE split is additive (414 + 111 = 525);
@@ -498,7 +498,7 @@ function moveCloseParenOut(text: string): { moved: number; out: string } {
  * read off `anchors()` rather than off the raw HTML: the display opens
  * with `(`, the anchor holds no inner markup (the catalogue's
  * `[^<]*`), and the text immediately after the `</a>` opens with `)`.
- * Measured on the pinned snapshot it reproduces the row exactly —
+ * Measured on the committed snapshot it reproduces the row exactly —
  * **225 occurrences / 214 entries** — with **0 members carrying inner
  * markup**, **0 unusable**, and **0 whose display is left unbalanced
  * once the leading `(` is discounted**.

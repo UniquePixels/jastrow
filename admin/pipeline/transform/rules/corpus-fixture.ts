@@ -45,7 +45,7 @@ let sourceMemo: readonly SourceEntry[] | undefined;
 let repairedMemo: readonly SourceEntry[] | undefined;
 let composedMemo: readonly SourceEntry[] | undefined;
 
-/** Every entry of the pinned snapshot, unrepaired and untransformed. */
+/** Every entry of the committed snapshot, unrepaired and untransformed. */
 async function sourceEntries(): Promise<readonly SourceEntry[]> {
 	if (sourceMemo === undefined) {
 		const entries: SourceEntry[] = [];

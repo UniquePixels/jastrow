@@ -64,9 +64,8 @@ Two flags change what a run will refuse:
 - `--write` (which `data:import` passes for you) writes
   `data/entries/`, and refuses unless that directory is **empty** — a stand-in for the update run this module does not
   yet have. See [`DESIGN.md`](DESIGN.md) §11.
-- `--strict` promotes a stale snapshot pin and a drifted patch
-  precondition from report rows to refusals. See
-  [`DESIGN.md`](DESIGN.md) §3, "The snapshot pin".
+- `--strict` promotes a drifted patch precondition from a report row
+  to a refusal. See [`DESIGN.md`](DESIGN.md) §3, "No snapshot pin".
 
 ### The from-scratch scripts (`rebuild:*`)
 
@@ -78,7 +77,6 @@ and memory that cite them stay true.
 | Script | Runs | Alias |
 |---|---|---|
 | `bun rebuild:fetch` | `fetch.ts`: download the current Sefaria export into `data/sources/sefaria/` | `data:fetch` |
-| `bun rebuild:pin` | `patch/snapshot.ts`: verify the snapshot pin; `--write` rewrites `patch/records/snapshot.lock` | none before 2026-10-31 |
 | `bun rebuild:count` | `transform/count.ts`: the per-rule, rule-alone count over the snapshot | `transform:count` |
 | `bun rebuild:invariants` | the two corpus-tier invariant tests (commutation, registry order), ~4 min | `transform:invariants` |
 
@@ -180,7 +178,7 @@ The report holds the thirteen gate tallies, one row per review item, patch
 re-judgment or pipeline fault, and a composed count per rule, plus an
 outcome per patch — see [`DESIGN.md`](DESIGN.md) §5 for the four
 outcome values and what each means. `bun data:import --strict`
-refuses on a stale snapshot pin or a drifted patch. See
+refuses on a drifted patch. See
 [`DESIGN.md`](DESIGN.md) §10 for what a review row means.
 
 **Hebrew and NFC.** Every comparison — a name's uniqueness, a headword

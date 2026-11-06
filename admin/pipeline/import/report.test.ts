@@ -52,7 +52,6 @@ function greenReport(): Report {
 		},
 		rows: [],
 		rules: [],
-		snapshot: { pin: `sha256:${'a'.repeat(64)}`, stalePins: 0 },
 		unresolved: [],
 		written: 1,
 	};
@@ -146,7 +145,6 @@ describe('renderBlessing', () => {
 			},
 		];
 		report.rules = [{ entries: 2, fired: 3, rule: 'bare-rtl-hebrew' }];
-		report.snapshot.stalePins = 4;
 		const sample: Sample = {
 			rid: 'A00013',
 			source: { headword: 'אָב I', rid: 'A00013' },
@@ -164,7 +162,6 @@ describe('renderBlessing', () => {
 			const end = doc.indexOf('\n## ', start + 1);
 			return doc.slice(start, end === -1 ? undefined : end);
 		};
-		expect(doc).toContain('4 patch(es) pinned to a different snapshot');
 		expect(doc).toContain('| Gate |');
 		expect(section('Pipeline faults')).toContain('- A00006: transform: boom');
 		expect(section('Headword review')).toContain(

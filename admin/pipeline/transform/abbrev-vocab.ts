@@ -1,5 +1,5 @@
 /**
- * The abbreviation vocabulary, DERIVED from the pinned snapshot and
+ * The abbreviation vocabulary, DERIVED from the committed snapshot and
  * frozen here (batch-3b spec §4.2, ruling R1).
  *
  * `label-period-outside-italic` and `italic-swallowed-terminal-period`
@@ -52,7 +52,7 @@
  *
  * The other 9 of the 20 DO occur mid-run — Hif 4, Pl 9, Pi 2, Nif 1,
  * Pa 3, Af 2, pl 8, Nithpa 1, Part 346, counted through
- * `fieldsOf` on the pinned snapshot — the scope `deriveAbbreviations`
+ * `fieldsOf` on the committed snapshot — the scope `deriveAbbreviations`
  * itself reads, and the scope every figure in this docstring is in.
  * Two of them rest on a single occurrence (`Nif` on `<i>Nif., to
  * collect, call to account; …</i>`), so this 9/11 split is a
@@ -89,7 +89,7 @@
 import type { SourceEntry } from '../types.ts';
 import { fieldsOf } from './no-new-text.ts';
 
-/** Derived from the pinned snapshot (93 members); see module doc. */
+/** Derived from the committed snapshot (93 members); see module doc. */
 const FROZEN: readonly string[] = [
 	'&c',
 	'Af',

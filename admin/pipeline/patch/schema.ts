@@ -29,8 +29,8 @@
  *   anchor. Agents combine edits to one sense into one patch.
  *
  * Application (`applyPatch`) is pure: entry in, repaired copy out.
- * The corpus-wide engine (snapshot-pin preflight, phase ordering,
- * manifest gating) is `apply.ts`, which composes these functions.
+ * The corpus-wide engine (corpus preflight, phase ordering, manifest
+ * gating) is `apply.ts`, which composes these functions.
  */
 import { createHash } from 'node:crypto';
 import { isIsoDate } from '../../entry/annotations.ts';
@@ -56,7 +56,6 @@ const PATCH_ID = /^P\d{6}$/u;
  * patch record's `rid` are the same identifier, so they are held to
  * one rule. */
 const RID = /^[A-Z]\d{5}$/u;
-const SNAPSHOT_PIN = /^sha256:[0-9a-f]{64}$/u;
 const TARGET = /^sense\[(?<token>[^\]]*)\]:(?<anchor>[0-9a-f]{8})$/u;
 /** `refs[<item>]:<anchor>` — the one non-sense target, used by
  * `unref`. */
@@ -452,7 +451,6 @@ interface PatchBase {
 	 * that removes nothing visible. */
 	removes?: string;
 	rid: string;
-	snapshot: string;
 	/** `provisional`: a patch under dispute. It stays valid and in the
 	 * corpus, but the import does not apply it; it is counted and
 	 * listed as a `patch-provisional` row until the dispute is settled
@@ -1203,10 +1201,10 @@ function anchorReasons(
 }
 
 /** Reasons from the provenance fields: rationale, defect_class,
- * snapshot pin, prompt_version, status, removes. `confidence` left with ruling
- * `10-26 patch evidence` (770 of 770 reviewed records said `high`); a
- * record that still carries one is not refused for it, since nothing
- * reads it. */
+ * prompt_version, status, removes. `confidence` left with ruling
+ * `10-26 patch evidence` (770 of 770 reviewed records said `high`), and
+ * `snapshot` with ruling `11-05 no pin`; a record that still carries
+ * either is not refused for it, since nothing reads it. */
 function metadataReasons(raw: Record<string, unknown>): string[] {
 	const reasons: string[] = [];
 	if ('status' in raw && raw['status'] !== 'provisional') {
@@ -1220,12 +1218,6 @@ function metadataReasons(raw: Record<string, unknown>): string[] {
 	}
 	if (!nonEmptyString(raw['defect_class'])) {
 		reasons.push('defect_class must be a non-empty string');
-	}
-	if (
-		typeof raw['snapshot'] !== 'string' ||
-		!SNAPSHOT_PIN.test(raw['snapshot'])
-	) {
-		reasons.push('snapshot must match sha256:<64 hex>');
 	}
 	if (!nonEmptyString(raw['prompt_version'])) {
 		reasons.push('prompt_version must be a non-empty string');
@@ -1686,7 +1678,6 @@ function parsePatch(value: unknown): SemanticPatch {
 		rationale: raw['rationale'],
 		...(raw['removes'] === undefined ? {} : { removes: raw['removes'] }),
 		rid: raw['rid'],
-		snapshot: raw['snapshot'],
 		...(raw['status'] === undefined ? {} : { status: raw['status'] }),
 		target: raw['target'],
 	} as SemanticPatch;

@@ -4,8 +4,8 @@
  * Patch apply engine + phase manifest (spec
  * docs/archive/specs/2026-08-10-research-process-design.md §5).
  *
- * Preflight first, then write: the corpus-level checks (snapshot
- * pin, corpus validity, manifest reconciliation, replay gate) run
+ * Preflight first, then write: the corpus-level checks (corpus
+ * validity, manifest reconciliation, replay gate) run
  * before any entry is touched and report **all** problems together —
  * never just the first. Per-entry application chains a rid's patches
  * in committed corpus order; every apply is followed by a round-trip
@@ -244,17 +244,6 @@ interface PatchDrift {
 	rid: string;
 }
 
-/** Patches pinned to a snapshot other than `currentPin`. Every patch
- * pins one hash over the whole export, so a new export makes this every
- * patch at once — which is why import reports it as a count and judges
- * each patch by its own `expected_before` instead. */
-function stalePins(
-	patches: readonly SemanticPatch[],
-	currentPin: string,
-): SemanticPatch[] {
-	return patches.filter((patch) => patch.snapshot !== currentPin);
-}
-
 /** Order a set of found tranche-directory names by `TRANCHES`'s ingest
  * order, optionally filtered to one `stage`. Pure over a
  * directory-name list so the ordering/filtering/unknown-directory
@@ -360,10 +349,6 @@ async function loadManifest(
  * §8) and the import proceeds without them. */
 interface PreflightOptions {
 	escalations: 'block' | 'defer';
-	/** `block` (default): a stale snapshot pin is a problem. `skip`: it
-	 * is not checked here — import counts it with `stalePins` and
-	 * judges each patch by its precondition (consolidation spec §4.2). */
-	pins?: 'block' | 'skip';
 	/** Subset of `patches` the manifest must reconcile against.
 	 * Carry-over patches sit outside the accepted record set — their
 	 * manifest rows are pre-patch stage, not accepted — so
@@ -452,23 +437,21 @@ function splitProvisional(patches: readonly SemanticPatch[]): {
 }
 
 /**
- * Corpus-level preflight (spec §5.3): (a) every patch's snapshot pin
- * equals the current snapshot hash; (b) the corpus is internally
- * valid (unique ids, no overlapping targets); (c) the manifest lists
- * exactly `options.reconcileOnly` (default: `patches`); (d) the replay
+ * Corpus-level preflight (spec §5.3): (a) the corpus is internally
+ * valid (unique ids, no overlapping targets); (b) the manifest lists
+ * exactly `options.reconcileOnly` (default: `patches`); (c) the replay
  * gate is open — no unresolved `needs_*` rows, unless
- * `options.escalations` is `'defer'`; (e) no patch but a reviewed one
+ * `options.escalations` is `'defer'`; (d) no patch but a reviewed one
  * carries an `annotation` or is a `relabel` (`authorshipProblems`);
- * (f) every reviewed patch carries `evidence`, and none changes text
+ * (e) every reviewed patch carries `evidence`, and none changes text
  * on `sefaria-only` evidence unless `pending` (`evidenceProblems`).
  * Reports every problem together.
  * The per-patch `expected_before` / occurrence checks live in
  * `applyEntryPatches`, where the entries stream past.
  *
- * `patches` is the FULL apply set: the
- * pin and corpus-internal checks run over accepted + carry-over
- * together (a carry-over patch must still pin to the current
- * snapshot and must not overlap another patch's target), but
+ * `patches` is the FULL apply set: the corpus-internal checks run
+ * over accepted + carry-over together (a carry-over patch must not
+ * overlap another patch's target), but
  * `reconcilePatches` only ever runs against `options.reconcileOnly` —
  * carry-over patches have no accepted manifest row to reconcile
  * against.
@@ -476,19 +459,9 @@ function splitProvisional(patches: readonly SemanticPatch[]): {
 function corpusPreflight(
 	patches: readonly SemanticPatch[],
 	records: readonly EntryResult[],
-	currentPin: string,
 	options?: PreflightOptions,
 ): ApplyProblem[] {
 	const problems: ApplyProblem[] = [];
-	if ((options?.pins ?? 'block') === 'block') {
-		for (const patch of stalePins(patches, currentPin)) {
-			problems.push({
-				patchId: patch.id,
-				reason: `snapshot pin ${patch.snapshot} does not match current ${currentPin} — maintenance-track rebase required (spec §6)`,
-				rid: patch.rid,
-			});
-		}
-	}
 	for (const problem of validateCorpus(patches)) {
 		problems.push({
 			patchId: problem.patchIds[0],
@@ -1001,5 +974,4 @@ export {
 	postApplyAssertions,
 	reviewedManifestProblems,
 	splitProvisional,
-	stalePins,
 };

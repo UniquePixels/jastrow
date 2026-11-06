@@ -279,7 +279,7 @@ describe('registry order', () => {
 	// each rule the previous rule's output, so the reverse order leaves
 	// `toseftaPrimaryHalakha` seeing 0 splits and repairing 0 primaries
 	// — while `bun transform:count`, which runs every rule ALONE against
-	// the pinned snapshot, keeps reporting 391 MATCH. Green everywhere,
+	// the committed snapshot, keeps reporting 391 MATCH. Green everywhere,
 	// nothing done.
 	//
 	// `checkAdjacency` cannot hold this. The two rows ARE declared

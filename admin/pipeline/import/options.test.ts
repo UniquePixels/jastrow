@@ -4,19 +4,17 @@ import { type RunOptions, runOptions } from './options.ts';
 const RUNTIME = ['bun', 'admin/pipeline/import.ts'];
 
 describe('runOptions', () => {
-	it('is a non-strict dry run by default: pins counted, drift reported', () => {
+	it('is a non-strict dry run by default: drift reported', () => {
 		expect(runOptions(RUNTIME)).toEqual({
 			drift: 'outcome',
-			pins: 'skip',
 			strict: false,
 			write: false,
 		});
 	});
 
-	it('--strict blocks stale pins and makes drift a patch problem', () => {
+	it('--strict makes drift a patch problem', () => {
 		expect(runOptions([...RUNTIME, '--strict'])).toEqual({
 			drift: 'problem',
-			pins: 'block',
 			strict: true,
 			write: false,
 		});
@@ -25,7 +23,6 @@ describe('runOptions', () => {
 	it('--write alone stays non-strict', () => {
 		expect(runOptions([...RUNTIME, '--write'])).toEqual({
 			drift: 'outcome',
-			pins: 'skip',
 			strict: false,
 			write: true,
 		});
@@ -34,7 +31,6 @@ describe('runOptions', () => {
 	it('--write --strict, in either order, is a strict write', () => {
 		const strictWrite: RunOptions = {
 			drift: 'problem',
-			pins: 'block',
 			strict: true,
 			write: true,
 		};

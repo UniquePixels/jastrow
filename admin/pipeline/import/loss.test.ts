@@ -22,7 +22,6 @@ function patch(id: string, removes?: string): SemanticPatch {
 		rationale: 'fixture',
 		...(removes === undefined ? {} : { removes }),
 		rid: 'A00001',
-		snapshot: `sha256:${'a'.repeat(64)}`,
 		target: `sense[]:${contentAnchor('x')}`,
 	} as SemanticPatch;
 }

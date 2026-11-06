@@ -8,8 +8,6 @@ import {
 	type SemanticPatch,
 } from './schema.ts';
 
-const SNAPSHOT = `sha256:${'0'.repeat(64)}`;
-
 function makeEntry(): SourceEntry {
 	return {
 		content: {
@@ -39,7 +37,6 @@ function patchFor(
 		prompt_version: 'v1',
 		rationale: 'test rationale',
 		rid: 'T00001',
-		snapshot: SNAPSHOT,
 		target: `sense[${token}]:${contentAnchor(definition)}`,
 		...overrides,
 	});

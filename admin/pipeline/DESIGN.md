@@ -31,13 +31,13 @@ it does not own, plus reports about what it did.
 |---|---|
 | `data/sources/sefaria/jastrow-dictionary.jsonl` | the Sefaria export, verbatim, 32,512 entries |
 | `data/sources/sefaria/lexicons.json` | the lexicon registry record that travels with it |
-| `data/sources/sefaria/manifest.json` | provenance about the fetch — dump URL, ETag, Last-Modified, fetch time, sha256 and entry count per output. Not snapshot content, so not hashed into the pin |
+| `data/sources/sefaria/manifest.json` | provenance about the fetch — dump URL, ETag, Last-Modified, fetch time, sha256 and entry count per output |
 | `data/sources/page-index/columns.jsonl` | the page index: one row per printed block, its page, column and the first and last rid beginning in it (§8) |
 | [`data/schema/entry.schema.json`](../../data/schema/entry.schema.json) | the entry contract, read at run time |
 
 **Import definition** (inside the module, read and written):
-`admin/pipeline/patch/records/` — tranches, reviewed patches, the
-defect-class catalogue, and the snapshot pin. Patch records are import
+`admin/pipeline/patch/records/` — tranches, reviewed patches and the
+defect-class catalogue. Patch records are import
 definition, not data, which is why they live in the module and not
 under `data/`.
 
@@ -89,7 +89,7 @@ whose table predates the module. Where each is described:
 |---|---|---|
 | `import/` | the run's own stages — markup translation, cite resolution, headword finish, normalization, the gates, patch accounting, the report and the blessing doc | §1 "The import run, stage by stage", §9, §10 |
 | `import/detectors/` | the review detectors: detect only, one defect class per file, `classes.ts` the registry | §6 |
-| `patch/` | the patch grammar (`schema.ts`), apply, drift, loss, evidence and the snapshot pin; `records/` is the import definition (tranches, reviewed patches, the class catalogue, the pin) | §5 |
+| `patch/` | the patch grammar (`schema.ts`), apply, drift, loss and evidence; `records/` is the import definition (tranches, reviewed patches, the class catalogue) | §5 |
 | `report/` | the generated documents: headword issues, the reviewed-kept list, the Sefaria appendix | §10 |
 | `transform/` | the rule engine: registry, run, commutation, the text and link floors, the link-target gate | §4, §6 |
 | `transform/rules/` | the rules themselves, one file each, with `corpus-fixture.ts` for the corpus tier | §4 |
@@ -104,8 +104,8 @@ whose table predates the module. Where each is described:
 - `bun data:import:dry` — the same run without `--write`: every gate
   and all four reports (report JSON, blessing, review report,
   headword issues), no entry data. `--strict` works on either and
-  promotes a stale snapshot pin and a drifted patch precondition from
-  report rows to refusals.
+  promotes a drifted patch precondition from a report row to a
+  refusal.
 - `bun data:validate` — the entry contract (`admin/entry/`) over every
   file under `data/entries/`; with file arguments,
   each named file's own checks only. CI's Validate job. Exits non-zero
@@ -115,9 +115,6 @@ whose table predates the module. Where each is described:
   (§4). `transform:invariants` is an alias.
 - `bun rebuild:count` — the per-rule, rule-alone count.
   `transform:count` is an alias.
-- `bun rebuild:pin` — verify the snapshot pin against
-  `patch/records/snapshot.lock`; `--write` rewrites the lock (§3, "The
-  snapshot pin").
 
 The `rebuild:*` prefix (2026-10-31, review checklist group 5) marks the
 scripts that rebuild the repository's data from scratch or guard a
@@ -139,9 +136,9 @@ The run is **two passes over the corpus**, because several things
 cannot be known one entry at a time.
 
 1. **Patch preparation** (`preparePatches`). Loads the accepted corpus
-   and the reviewed corpus, preflights both against the snapshot pin,
-   and groups patches by rid. Produces the patch-accounting and
-   snapshot-pin rows on the report.
+   and the reviewed corpus, preflights both (ids, overlapping targets,
+   manifests, authorship, evidence), and groups patches by rid.
+   Produces the patch-accounting rows on the report.
 2. **Pass 1 — compose** (`composeAll` → `composeOne`). For every source
    entry, runs the committed phase manifest through `composeEntry`
    (`compose.ts`), builds the body trace, and checks gate 1. Produces a
@@ -456,7 +453,8 @@ change.
 It emits three files: `jastrow-dictionary.jsonl` (the `lexicon_entry`
 documents, verbatim, in dump order), `lexicons.json` (the lexicon
 registry record) and `manifest.json` (provenance about the fetch
-itself, which is why it is not hashed into the pin).
+itself: the dump URL, ETag, Last-Modified, fetch time, and each
+output's sha256 and entry count).
 
 Documents are emitted **unmodified**. `data/sources/sefaria/` is a faithful
 snapshot, which is why it still holds the 201 non-NFC strings
@@ -464,24 +462,15 @@ snapshot, which is why it still holds the 201 non-NFC strings
 upstream — the module normalizes only what it writes, on write
 ([#110](https://github.com/UniquePixels/jastrow/issues/110), §11).
 
-### The snapshot pin
+### No snapshot pin
 
-`patch/snapshot.ts` (`bun rebuild:pin`) computes a sha256 over `SNAPSHOT_FILES`
-(`jastrow-dictionary.jsonl` then `lexicons.json`, fixed order). Only
-their contents are hashed, so moving or renaming the files leaves the
-pin alone; reordering them changes it (ruling `11-05 content pin`).
-The lock also lists each file's path, which `rebuild:pin` checks
-against `SNAPSHOT_FILES` separately. It is
-committed at `patch/records/snapshot.lock`, and **every patch record
-pins it**.
-
-The pin's purpose is to catch a patch whose precondition assumed older
-source bytes. Its limit is structural: a new export mismatches every
-patch at once, so the pin cannot say which patches still hold. A stale
-pin is therefore **one header count** on the report
-(`report.snapshot.stalePins`) and skips nothing; `--strict` restores
-the refusal. The pin is evidence about the corpus, never the thing
-that decides a patch.
+A patch records no hash of the source it was written against (ruling
+`11-05 no pin`). Each patch is judged by its own `expected_before`:
+if the text it expects is still there, it applies; if not, it is a
+drift row on the report, or a refusal under `--strict`. That names
+the exact patch a new export moved, which one hash over the whole
+export never could. Which source bytes the tree holds is git's record
+(`data/sources/sefaria/`, with `manifest.json`'s per-file sha256).
 
 ---
 
@@ -584,7 +573,8 @@ No count is ever a gate.
 A patch is one entry's judged fix, applied when its precondition
 holds. Records live at `patch/records/`, in four parts: `tranches/`
 (agent sweeps), `reviewed/` (human-authored), `patterns.jsonl` (the
-defect-class catalogue), `snapshot.lock` (the pin).
+defect-class catalogue), and `cite-numeral-kept/` (the cite-numeral
+allowlist).
 
 **Tranches and stages.** `TRANCHES` (`patch/apply.ts`) is the explicit
 ingest order, each directory tagged with its corpus stage — `pre-patch`
@@ -1552,7 +1542,7 @@ hand-kept submission log
 runs in a second, and the maintainer can regenerate it after logging
 a batch without re-importing.
 
-One row per reviewed patch that passes four hard filters, in order;
+One row per reviewed patch that passes three hard filters, in order;
 every other patch goes to `sefaria-review.csv` with the first filter it
 failed, never into the appendix:
 
@@ -1586,10 +1576,8 @@ failed, never into the appendix:
    pipeline's own `applyPatch` on the raw record. Ops that cannot be
    stated on Sefaria's fields (a whole-sense `delete`, a `move`, a
    reform that sets a layout or lifts text into a sense) are held back
-   as `not mechanical for op`.
-4. **Still in the source.** The same check against the source as
-   fetched; a re-fetch that fixed a row drops it as `no longer in
-   source`.
+   as `not mechanical for op`. The source is read as fetched, so a
+   re-fetch that fixed a row leaves it untraceable too.
 
 ### One formatter
 
@@ -1811,8 +1799,8 @@ so cannot be inferred from reading the code that is there.
 
 ### What the run refuses to do
 
-42. **No patch is skipped silently.** Five sites enforce it: stale
-    pins, drift rows, consolidation drops, a patch whose rid never
+42. **No patch is skipped silently.** Four sites enforce it: drift
+    rows, consolidation drops, a patch whose rid never
     appeared (fault row **and** red gate 9), and a carry-over resolving
     an unexpected non-zero count.
 43. **No review row reaches the report unclassified**

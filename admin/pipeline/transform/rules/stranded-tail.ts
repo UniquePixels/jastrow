@@ -187,7 +187,7 @@ function superscriptMoveAt(
  * swallowing it writes a citation the source never printed.
  *
  * This is not a hypothetical. The rule measures 14 occurrences on the
- * pinned snapshot, and composing it after `applyRepairs` lets that
+ * committed snapshot, and composing it after `applyRepairs` lets that
  * pass's `rejoin-chopped` arm fold a phantom `2)` back into the
  * preceding flow. The rejoin is now a reviewed `join` patch applied
  * AFTER the rules, so the shape cannot reach here and the refusal is
