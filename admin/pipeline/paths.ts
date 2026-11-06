@@ -12,9 +12,9 @@
  * imports inside `admin/pipeline/` and `admin/entry/`.
  *
  * The path the entry contract reads — the entries — is declared by
- * `admin/entry/paths.ts` and re-exported here, not re-spelled: `admin/entry/` is the one module
- * this one depends on, and a second literal is how two modules start
- * reading different trees.
+ * `admin/entry/paths.ts` and re-exported here, not re-spelled:
+ * `admin/entry/` is the one module this one depends on, and a second
+ * literal is how two modules start reading different trees.
  */
 
 // biome-ignore lint/performance/noBarrelFile: the one path the entry contract owns, re-exported so the pipeline names it once; this file declares its own paths and is not a barrel.

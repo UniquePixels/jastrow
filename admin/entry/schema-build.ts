@@ -33,16 +33,24 @@ function schemaText(): string {
 
 /** Whether `committed` (the file's text) holds what `schema.ts`
  * produces: the same keys, values and key order, however it is
- * spaced. */
+ * spaced. Text that is not JSON — a merge conflict, a broken hand
+ * edit — is not current either. */
 function isCurrent(committed: string): boolean {
-	return JSON.stringify(JSON.parse(committed)) === JSON.stringify(fileSchema());
+	try {
+		return (
+			JSON.stringify(JSON.parse(committed)) === JSON.stringify(fileSchema())
+		);
+	} catch {
+		return false;
+	}
 }
 
 /** Write the file, or with `--check` only compare it; a stale file or
  * a failed format sets a non-zero exit code. */
 async function main(): Promise<void> {
 	if (process.argv.includes('--check')) {
-		if (!isCurrent(await Bun.file(SCHEMA_PATH).text())) {
+		const file = Bun.file(SCHEMA_PATH);
+		if (!((await file.exists()) && isCurrent(await file.text()))) {
 			console.error(
 				`${SCHEMA_PATH} is not what admin/entry/schema.ts produces. Run \`bun schema:build\` and commit the result.`,
 			);
