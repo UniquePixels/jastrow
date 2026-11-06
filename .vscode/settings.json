@@ -1,4 +1,10 @@
 {
+	"json.schemas": [
+		{
+			"fileMatch": ["/data/entries/*/*.json"],
+			"url": "./data/schema/entry.schema.json"
+		}
+	],
 	"sonarlint.connectedMode.project": {
 		"connectionId": "uniquepixels",
 		"projectKey": "UniquePixels_jastrow"

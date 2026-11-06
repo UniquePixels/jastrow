@@ -12,7 +12,7 @@
  * fix is a rendering one (Phase 4), not a data one.
  */
 
-import type { Entry, Stem } from '../../../entry/types.ts';
+import type { Entry, Stem } from '../../../entry/schema.ts';
 import { textOf } from '../gates.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { fieldsOf, walkSequence } from './senses.ts';

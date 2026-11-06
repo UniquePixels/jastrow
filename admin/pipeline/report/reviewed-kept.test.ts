@@ -5,7 +5,7 @@
  * record no row matches is reported stale rather than dropped.
  */
 import { describe, expect, it } from 'bun:test';
-import type { Entry } from '../../entry/types.ts';
+import type { Entry } from '../../entry/schema.ts';
 import { buildHeadwordIssues } from './headword-issues.ts';
 import { type KeptRecord, parseReviewedKept } from './reviewed-kept.ts';
 

@@ -10,7 +10,7 @@
 		"data:sefaria": "bun admin/pipeline/sefaria.ts",
 		"data:validate": "bun admin/entry/validate-cli.ts",
 		"docs:links": "bun scripts/check-links.ts",
-		"qa": "bun qa:format && bun qa:lint && bun qa:test && bun qa:tsc && bun docs:links",
+		"qa": "bun qa:format && bun qa:lint && bun qa:test && bun qa:tsc && bun schema:check && bun docs:links",
 		"qa:ci": "biome ci --error-on-warnings",
 		"qa:format": "biome format --write",
 		"qa:lint": "biome check --error-on-warnings",
@@ -19,14 +19,16 @@
 		"rebuild:count": "bun admin/pipeline/transform/count.ts",
 		"rebuild:fetch": "bun admin/pipeline/fetch.ts",
 		"rebuild:invariants": "bun test admin/pipeline/transform/commutation.corpus.test.ts admin/pipeline/transform/registry.order.corpus.test.ts",
+		"schema:build": "bun admin/entry/schema-build.ts",
+		"schema:check": "bun admin/entry/schema-build.ts --check",
 		"transform:count": "bun run rebuild:count",
 		"transform:invariants": "bun run rebuild:invariants"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.15",
 		"@types/bun": "^1.4.3",
-		"ajv": "^8.20.0",
 		"bson": "^7.3.3",
+		"typebox": "1.4.3",
 		"typescript": "^7.0.2"
 	}
 }

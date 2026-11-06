@@ -440,7 +440,7 @@ describe('finishEntry: annotation drafts become annotations', () => {
 		expect(entry.senses.some((s) => 'annotations' in s)).toBe(false);
 	});
 
-	it('writes annotations the entry contract accepts', async () => {
+	it('writes annotations the entry contract accepts', () => {
 		const { entry } = finished(
 			drafted(
 				{ ...NOTE, field: 'gloss-or-units', find: 'father' },
@@ -459,7 +459,7 @@ describe('finishEntry: annotation drafts become annotations', () => {
 				],
 			},
 		);
-		const problems = await validateEntry(entry, 'A/A00014.json');
+		const problems = validateEntry(entry, 'A/A00014.json');
 		expect(problems.filter((p) => p.includes('annotations'))).toEqual([]);
 		expect(
 			[...entryAnnotations(entry)].map((a) => a.annotation.source),

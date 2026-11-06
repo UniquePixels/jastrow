@@ -39,6 +39,11 @@ jobs:
           # data/entries/ and the page index: the check a hand edit meets.
           - name: Validate
             command: bun data:validate
+          # data/schema/entry.schema.json is generated from
+          # admin/entry/schema.ts (ruling 11-05 schema source); this fails
+          # when the committed file is stale.
+          - name: Schema
+            command: bun schema:check
           # Every relative link in every tracked markdown file resolves
           # (scripts/check-links.ts), so a move cannot break one silently.
           - name: Links

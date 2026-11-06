@@ -25,7 +25,7 @@
  * table keeps one row per class instead of a paragraph.
  */
 
-import type { Entry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/schema.ts';
 import { mark } from '../gates.ts';
 import type { Report, ReportRow } from '../report.ts';
 import {

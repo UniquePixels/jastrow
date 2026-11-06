@@ -5,7 +5,7 @@
  * itself as a pipeline fault.
  */
 
-import type { Entry } from '../../../entry/types.ts';
+import type { Entry } from '../../../entry/schema.ts';
 import type { ReportRow } from '../report.ts';
 
 /** A review row before its bucket: `{rid, kind, severity, detail}`. */

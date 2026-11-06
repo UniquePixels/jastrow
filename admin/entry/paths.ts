@@ -3,15 +3,15 @@
  *
  * `admin/entry/` is the contract every file under `data/entries/`
  * meets, however it got there: the import's write, the admin tool's
- * save, or a hand edit. These two paths are everything it reads.
- * The pipeline's `paths.ts` re-exports them rather than spelling them
- * a second time, so the import and the contract cannot disagree about
- * where the entries or the schema live.
+ * save, or a hand edit. The pipeline's `paths.ts` re-exports
+ * `ENTRIES_DIR` rather than spelling it a second time, so the import
+ * and the contract cannot disagree about where the entries live.
  */
 
-/** The entry schema. Read at run time, not imported: a JSON Schema is
- * the language-neutral half of the contract, which a consumer that is
- * not TypeScript can read too. */
+/** The generated JSON schema (ruling `11-05 schema source`):
+ * `schema-build.ts` writes it from `schema.ts` for editors and readers
+ * that are not TypeScript. The contract itself validates against
+ * `EntrySchema`, not this file. */
 export const SCHEMA_PATH = 'data/schema/entry.schema.json';
 
 /** Where entry files live: one `<first letter>/<id>.json` per entry. */

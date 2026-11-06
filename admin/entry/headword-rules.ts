@@ -39,7 +39,7 @@
  * its other branch was dead (review ledger L13).
  */
 import { isLexical, PLACEHOLDER } from './headwords.ts';
-import type { Entry, FormObject } from './types.ts';
+import type { Entry, FormObject } from './schema.ts';
 
 /** The notation rule 4 keeps OUT of a form's text. Each one has a home
  * in `display` instead: the grouping delimiters and the query mark are

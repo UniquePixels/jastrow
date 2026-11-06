@@ -91,7 +91,7 @@ This module names no path outside itself except through
 entry contract, [`admin/entry/`](../entry/README.md), which its files
 import directly ([`DESIGN.md`](DESIGN.md) §1, "The boundary"). To
 run the same pipeline over another lexicon: point those constants at
-your files, supply an entry schema at `SCHEMA_PATH`, and run the two
+your files, write your entry schema in `admin/entry/schema.ts`, and run the two
 commands above. Nothing in `docs/` is needed to run it.
 
 What will not transfer: the transform rules and the patch records

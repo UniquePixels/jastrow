@@ -50,7 +50,7 @@ async function validateTree(): Promise<{
 	problems: string[];
 }> {
 	const { files, problems } = await loadEntryFiles();
-	problems.push(...(await validateEntries(files)));
+	problems.push(...validateEntries(files));
 	return { checked: files.length, problems };
 }
 

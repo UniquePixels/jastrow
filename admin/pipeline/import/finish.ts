@@ -15,7 +15,7 @@ import {
 	type FormObject,
 	SCHEMA_VERSION,
 	type Sense,
-} from '../../entry/types.ts';
+} from '../../entry/schema.ts';
 import type { PagePlacement } from '../page-index.ts';
 import type {
 	BodyEntry,

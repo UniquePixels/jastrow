@@ -3,7 +3,7 @@
 
 import { entryAnnotations } from '../../entry/annotations.ts';
 import { isHeadwordReviewKind } from '../../entry/headwords.ts';
-import type { Annotation, Entry } from '../../entry/types.ts';
+import type { Annotation, Entry } from '../../entry/schema.ts';
 import type { DriftOutcome } from '../patch/drift.ts';
 import { IMPORT_REPORT_PATH } from '../paths.ts';
 import type { Unresolved } from './cite.ts';

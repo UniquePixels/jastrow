@@ -14,7 +14,8 @@ need lives here.
 
 | File | What it holds |
 |---|---|
-| `types.ts` | the entry shapes (`Entry` and its parts), `SCHEMA_VERSION`, `VERBATIM_FIELDS` |
+| `schema.ts` | the schema, written once with TypeBox (ruling `11-05 schema source`): `EntrySchema`, the types derived from it (`Entry` and its parts), `SCHEMA_VERSION`, `VERBATIM_FIELDS` |
+| `schema-build.ts` | `bun schema:build` writes `data/schema/entry.schema.json` from `schema.ts`; `bun schema:check` fails when the committed file is stale |
 | `validate.ts` | the validator: `validateEntry`, `validateCorpus`, and `validateEntries` over a loaded tree; also `entryFields`, the walker over every text field of an entry (path, text, whether it may carry markup), and `RID`, the rid predicate |
 | `annotations.ts` | the annotation clause (ANNOTATIONS.md §2): `checkAnnotations`, run by `validateEntry`; `entryAnnotations`, the walk over every annotation of an entry; `isIsoDate` |
 | `ANNOTATIONS.md` | the design of `annotations` (ruling `10-13 correction policy`): the field, its checks, how the import fills it, the audit |
@@ -24,13 +25,19 @@ need lives here.
 | `html.ts` | the tokenizer every markup field is read with — the transforms' too |
 | `order.ts` | `byCodeUnit`, the one string comparator every sorted list in the repo uses: code-unit order, the same on every machine |
 | `format.ts` | the formatter: `formatEntries` runs Biome over `data/entries/` as the last step of any write, `biomeBinary` finds the pinned Biome (the project's dependency first, then PATH) |
-| `paths.ts` | the two paths the contract reads; the pipeline's `paths.ts` re-exports them |
+| `paths.ts` | where the entries and the generated schema live; the pipeline's `paths.ts` re-exports `ENTRIES_DIR` |
 
-The schema itself is `data/schema/entry.schema.json`, read at run
-time so a reader that is not TypeScript can hold a file to it too.
-It and `types.ts` are one contract written twice, and
-`schema-parity.test.ts` keeps them agreeing: every object's keys,
-which are required, and every literal-valued field's values.
+The schema is written once, in `schema.ts`. A TypeBox schema is JSON
+Schema as it stands, so TypeBox's own validator checks entries
+against it directly (ruling `11-06 schema validator`), and the types
+are derived from it, so the two cannot disagree.
+`data/schema/entry.schema.json` is generated from it and committed,
+never edited by hand: it gives an editor IntelliSense on an entry file
+(`.vscode/settings.json` maps `data/entries/` to it, and each field's
+`description` is its hover text), and a reader that is not TypeScript
+can hold a file to it too. To change the schema, edit `schema.ts` and
+run `bun schema:build`; `bun qa` and CI's Schema job run
+`bun schema:check`, which fails on a stale file.
 
 ### What it checks
 

@@ -3,7 +3,7 @@ import {
 	type Annotation,
 	type Entry,
 	SCHEMA_VERSION,
-} from '../../entry/types.ts';
+} from '../../entry/schema.ts';
 import type { Tally } from './gates.ts';
 import type { GateName, Report, Sample } from './report.ts';
 import {

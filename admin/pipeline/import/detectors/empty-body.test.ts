@@ -3,7 +3,7 @@ import {
 	type Entry,
 	SCHEMA_VERSION,
 	type Sense,
-} from '../../../entry/types.ts';
+} from '../../../entry/schema.ts';
 import { detectEmptyBody } from './empty-body.ts';
 
 /** One sense with no text unless a fixture gives it some. */

@@ -40,7 +40,7 @@
  * which reproduces every worked example in the §2 table but one
  * (A02823, whose line print sets without a comma).
  */
-import type { FormObject } from './types.ts';
+import type { FormObject } from './schema.ts';
 
 /** Superscript digits, in value order — `intToSup`'s alphabet and
  * `supToInt`'s lookup, so the two cannot disagree about a glyph. */

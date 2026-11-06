@@ -46,7 +46,9 @@ bun qa
 ```
 
 That is `biome format --write`, `biome check --error-on-warnings`, the
-unit test tier, and `tsc`. CI's Lint job runs `bun qa:ci`
+unit test tier, `tsc`, `bun schema:check` (the generated
+`data/schema/entry.schema.json` matches `admin/entry/schema.ts`; after
+editing the schema, run `bun schema:build`) and `bun docs:links`. CI's Lint job runs `bun qa:ci`
 (`biome ci --error-on-warnings`), which disagrees with plain
 `biome check .` — use the scripts, not the bare tool.
 

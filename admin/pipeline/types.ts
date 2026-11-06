@@ -6,7 +6,7 @@
  * instead of redefining them, so the model has one spelling.
  */
 
-import type { Annotation } from '../entry/types.ts';
+import type { Annotation } from '../entry/schema.ts';
 
 /** What a reviewed patch's `annotation` states, plus the patch id as
  * `source` (ANNOTATIONS.md §3): the half of an entry `Annotation` the

@@ -27,15 +27,20 @@
  * committed tree; the admin tool, when it is written, is the third
  * caller.
  */
-import type { ValidateFunction } from 'ajv';
-import Ajv2020 from 'ajv/dist/2020';
+import type { TLocalizedValidationError } from 'typebox/error';
+import { Compile } from 'typebox/schema';
 import { checkAnnotations } from './annotations.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
 import { tokenize } from './html.ts';
 import { nameCollisions } from './names.ts';
 import { byCodeUnit } from './order.ts';
-import { ENTRIES_DIR, SCHEMA_PATH } from './paths.ts';
-import { type Entry, type Sense, VERBATIM_FIELDS } from './types.ts';
+import { ENTRIES_DIR } from './paths.ts';
+import {
+	type Entry,
+	EntrySchema,
+	type Sense,
+	VERBATIM_FIELDS,
+} from './schema.ts';
 
 /** The entry markup vocabulary (migrate spec §2.2): `markup.ts` keeps
  * four source tags and translates the other two into `he` and `cite`. */
@@ -59,27 +64,42 @@ const CLOSE = /^<\/([a-z]+)>$/u;
 const RID = /^[A-Z]\d{5}$/u;
 const MARKUP_CHAR = /[<>]/u;
 
-/** The compiled validator, memoised by `schemaValidator`. */
-let compiled: ValidateFunction<Entry> | undefined;
+/** The entry schema, compiled: `check` answers whether a value is an
+ * entry, and `errors` says why not. Call `errors` only after `check`
+ * fails; it validates again. */
+interface EntryValidator {
+	check: (value: unknown) => value is Entry;
+	errors: (value: unknown) => TLocalizedValidationError[];
+}
 
-/** Ajv, compiled once against the schema `paths.ts` names.
+/** The compiled validator, memoised by `schemaValidator`. */
+let compiled: EntryValidator | undefined;
+
+/** TypeBox's validator, compiled once against `EntrySchema`
+ * (`schema.ts`).
  *
- * A runtime read rather than a compile-time import: the schema is the
- * language-neutral half of the contract, and `paths.ts` is the one
- * place that says where it is. The cost is that TypeScript no longer
- * checks the schema literal at build — `schema.test.ts` and Ajv's own
- * `strict: true` carry that instead. The `Entry` type parameter is a
- * claim that a file the schema passes IS an `Entry`;
- * `schema-parity.test.ts` is what holds the two to it.
+ * `EntrySchema` is JSON Schema as it stands and `Entry` is derived
+ * from it, so the guard below narrows to the schema's own type, not to
+ * a claim held by a separate test (ruling `11-05 schema source`).
  *
  * Exported so the import's schema gate compiles this validator rather
  * than a second copy of it. */
-async function schemaValidator(): Promise<ValidateFunction<Entry>> {
-	compiled ??= new Ajv2020({
-		allErrors: true,
-		strict: true,
-	}).compile<Entry>(await Bun.file(SCHEMA_PATH).json());
+function schemaValidator(): EntryValidator {
+	if (compiled === undefined) {
+		const validator = Compile(EntrySchema);
+		compiled = {
+			check: (value: unknown): value is Entry => validator.Check(value),
+			errors: (value: unknown): TLocalizedValidationError[] =>
+				validator.Errors(value)[1],
+		};
+	}
 	return compiled;
+}
+
+/** Why `value` fails the schema, as JSON: one record per error, each
+ * naming the keyword, the instance path and a message. */
+function schemaErrors(schema: EntryValidator, value: unknown): string {
+	return JSON.stringify(schema.errors(value));
 }
 
 /** One entry file as read: its path relative to `data/entries/`
@@ -448,12 +468,12 @@ function checkGender(entry: Entry, problems: string[]): void {
  * after it assume the shape. Synchronous, so a caller walking 32,512
  * entries compiles once and awaits nothing per entry. */
 function checkEntry(
-	schema: ValidateFunction<Entry>,
+	schema: EntryValidator,
 	entry: unknown,
 	path: string,
 ): [Entry | undefined, string[]] {
-	if (!schema(entry)) {
-		return [undefined, [`${path}: schema: ${JSON.stringify(schema.errors)}`]];
+	if (!schema.check(entry)) {
+		return [undefined, [`${path}: schema: ${schemaErrors(schema, entry)}`]];
 	}
 	const problems: string[] = [];
 	const home = homePath(entry.id);
@@ -471,8 +491,8 @@ function checkEntry(
 /** Every check one entry file can answer on its own; an empty list is
  * a valid file. `path` is where the file sits relative to
  * `data/entries/` (`A/A00013.json`). */
-async function validateEntry(entry: unknown, path: string): Promise<string[]> {
-	const [, problems] = checkEntry(await schemaValidator(), entry, path);
+function validateEntry(entry: unknown, path: string): string[] {
+	const [, problems] = checkEntry(schemaValidator(), entry, path);
 	return problems;
 }
 
@@ -492,10 +512,10 @@ function validateCorpus(entries: readonly Entry[]): string[] {
 /** Both halves over one loaded tree: each file's own checks, then the
  * corpus checks over the files that passed the schema. An empty list
  * is a valid tree. */
-async function validateEntries(files: readonly EntryFile[]): Promise<string[]> {
+function validateEntries(files: readonly EntryFile[]): string[] {
 	const problems: string[] = [];
 	const entries: Entry[] = [];
-	const schema = await schemaValidator();
+	const schema = schemaValidator();
 	for (const { entry, path } of files) {
 		const [valid, found] = checkEntry(schema, entry, path);
 		problems.push(...found);
@@ -507,7 +527,7 @@ async function validateEntries(files: readonly EntryFile[]): Promise<string[]> {
 	return problems;
 }
 
-export type { EntryField, EntryFile };
+export type { EntryField, EntryFile, EntryValidator };
 export {
 	checkEntry,
 	ENTRY_FILE_GLOB,
@@ -515,6 +535,7 @@ export {
 	loadEntryFiles,
 	markupProblems,
 	RID,
+	schemaErrors,
 	schemaValidator,
 	VOCABULARY,
 	validateCorpus,

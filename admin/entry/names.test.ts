@@ -5,7 +5,7 @@
  */
 import { describe, expect, it } from 'bun:test';
 import { deriveName, nameCollisions, nameKey, nameOf } from './names.ts';
-import { type Entry, type FormObject, SCHEMA_VERSION } from './types.ts';
+import { type Entry, type FormObject, SCHEMA_VERSION } from './schema.ts';
 
 /** The `line` of each problem, in order — what every caller renders. */
 function lines(problems: ReadonlyArray<{ line: string }>): string[] {

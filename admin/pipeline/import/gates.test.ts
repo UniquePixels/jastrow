@@ -4,7 +4,7 @@ import {
 	type Entry,
 	type FormObject,
 	SCHEMA_VERSION,
-} from '../../entry/types.ts';
+} from '../../entry/schema.ts';
 import type { BodyEntry, BodySense, SourceEntry } from '../types.ts';
 import {
 	checkChain,
@@ -740,16 +740,16 @@ describe('checkContract (gate 10)', () => {
 	});
 	const home = (rid: string): string => `${rid.charAt(0)}/${rid}.json`;
 
-	it('marks each entry and the corpus once, green on a valid tree', async () => {
-		const t = await checkContract(
+	it('marks each entry and the corpus once, green on a valid tree', () => {
+		const t = checkContract(
 			[contractEntry('A00001', 'אב'), contractEntry('A00002', 'אבא')],
 			home,
 		);
 		expect(t).toEqual({ failures: [], pass: 3, total: 3 });
 	});
 
-	it("reds an entry's own mark on a file problem", async () => {
-		const t = await checkContract(
+	it("reds an entry's own mark on a file problem", () => {
+		const t = checkContract(
 			[
 				contractEntry('A00001', 'אב'),
 				// Decomposed: shin dot before qamats, the reverse of
@@ -765,8 +765,8 @@ describe('checkContract (gate 10)', () => {
 		});
 	});
 
-	it('reds the entry when the write path is not its home', async () => {
-		const t = await checkContract(
+	it('reds the entry when the write path is not its home', () => {
+		const t = checkContract(
 			[contractEntry('A00001', 'אב'), contractEntry('A00002', 'אבא')],
 			(rid) => `x/${rid}.json`,
 		);
@@ -776,8 +776,8 @@ describe('checkContract (gate 10)', () => {
 		);
 	});
 
-	it('reds the corpus mark and lists each corpus problem', async () => {
-		const t = await checkContract(
+	it('reds the corpus mark and lists each corpus problem', () => {
+		const t = checkContract(
 			[contractEntry('A00001', 'אב'), contractEntry('A00002', 'אב')],
 			home,
 		);
@@ -815,10 +815,7 @@ describe('checkContract (gate 10)', () => {
 				},
 			],
 		});
-		const run = (
-			entry: Entry,
-			applied: Record<string, string[]>,
-		): Promise<Tally> =>
+		const run = (entry: Entry, applied: Record<string, string[]>): Tally =>
 			checkContract(
 				[contractEntry('A00001', 'אב'), entry],
 				home,
@@ -834,8 +831,8 @@ describe('checkContract (gate 10)', () => {
 			],
 		] as [string, Entry, Record<string, string[]>][])(
 			'passes %s',
-			async (_name, entry, applied) => {
-				expect(await run(entry, applied)).toEqual({
+			(_name, entry, applied) => {
+				expect(run(entry, applied)).toEqual({
 					failures: [],
 					pass: 3,
 					total: 3,
@@ -870,8 +867,8 @@ describe('checkContract (gate 10)', () => {
 			],
 		] as [string, Entry, Record<string, string[]>, string][])(
 			'reds the entry on %s',
-			async (_name, entry, applied, failure) => {
-				const t = await run(entry, applied);
+			(_name, entry, applied, failure) => {
+				const t = run(entry, applied);
 				expect(t.pass).toBe(2);
 				expect(t.failures).toEqual([failure]);
 			},
@@ -909,16 +906,16 @@ describe('checkContract (gate 10)', () => {
 		});
 		const owing3 = { A00002: ['P000001', 'P000001', 'P000001'] };
 
-		it('passes a relabel that wrote one annotation per label it changed', async () => {
-			expect(await run(relabelled('e', 'f', 'g'), owing3)).toEqual({
+		it('passes a relabel that wrote one annotation per label it changed', () => {
+			expect(run(relabelled('e', 'f', 'g'), owing3)).toEqual({
 				failures: [],
 				pass: 3,
 				total: 3,
 			});
 		});
 
-		it('reds a relabel that wrote fewer annotations than it owes', async () => {
-			const t = await run(relabelled('e', 'f'), owing3);
+		it('reds a relabel that wrote fewer annotations than it owes', () => {
+			const t = run(relabelled('e', 'f'), owing3);
 			expect(t.failures).toEqual([
 				'A00002: patch P000001 applied with an annotation and wrote 2 annotations; it owes 3',
 			]);
@@ -926,7 +923,7 @@ describe('checkContract (gate 10)', () => {
 
 		// L67: an `annotate` naming a lettered child owes one annotation,
 		// and the gate finds it on the child, where the build put it.
-		it('counts an annotate whose note sits on lettered child d', async () => {
+		it('counts an annotate whose note sits on lettered child d', () => {
 			const kept = {
 				date: '2026-10-16',
 				evidence: 'print sets a ) that closes nothing',
@@ -951,7 +948,7 @@ describe('checkContract (gate 10)', () => {
 					},
 				],
 			};
-			expect(await run(entry, { A00002: ['P000001'] })).toEqual({
+			expect(run(entry, { A00002: ['P000001'] })).toEqual({
 				failures: [],
 				pass: 3,
 				total: 3,
