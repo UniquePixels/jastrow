@@ -2,20 +2,20 @@
 	"entryCounts": {
 		"Jastrow Dictionary": 32512
 	},
-	"fetchedAt": "2026-07-04T21:17:05.972Z",
+	"fetchedAt": "2026-11-06T01:57:17.306Z",
 	"outputs": [
 		{
 			"path": "data/sources/sefaria/lexicons.json",
-			"sha256": "629e16adb66fc6acef7b10c509335c54303abac8c912cdb625ad7458aefc0a4d"
+			"sha256": "36709efd5cf8b17a23806292675f6675f8470cbabe4170298ffc66780f3bb39f"
 		},
 		{
 			"path": "data/sources/sefaria/jastrow-dictionary.jsonl",
-			"sha256": "4c64ff0324946065a8a02118f7519648662b623e6e47e175125a4b7768437478"
+			"sha256": "1633d060ddf184b72175b5bc3573669fdf72db5af3fd0a48a6a45c4fc95e664f"
 		}
 	],
 	"source": {
 		"url": "https://storage.googleapis.com/sefaria-mongo-backup/dump_small.tar.gz",
-		"etag": "\"f499c58f56715a1daada38419be0b615\"",
-		"lastModified": "Sat, 04 Jul 2026 01:06:29 GMT"
+		"etag": "\"c4eea7305e5d25ddca9f56776c389a87\"",
+		"lastModified": "Thu, 05 Nov 2026 01:18:06 GMT"
 	}
 }

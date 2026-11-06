@@ -3,15 +3,15 @@
 		"_id": {
 			"$oid": "5be3760c4973c9001234df1b"
 		},
-		"text_categories": [],
 		"attribution": "Rabbi Marcus Jastrow",
-		"name": "Jastrow Dictionary",
-		"language": "heb.talmudic",
-		"version_lang": "en",
-		"to_language": "eng",
 		"index_title": "Jastrow",
+		"language": "heb.talmudic",
+		"name": "Jastrow Dictionary",
+		"should_autocomplete": true,
 		"source": "Jastrow Dictionary",
-		"version_title": "London, Luzac, 1903",
-		"should_autocomplete": true
+		"text_categories": [],
+		"to_language": "eng",
+		"version_lang": "en",
+		"version_title": "London, Luzac, 1903"
 	}
 ]

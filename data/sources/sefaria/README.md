@@ -2,7 +2,9 @@
 
 The Jastrow lexicon as exported from Sefaria's MongoDB
 (`lexicon_entry`, `parent_lexicon: "Jastrow Dictionary"`), snapshot
-2026-07-04, 32,512 entries. Fetched by `bun data:fetch`
+2026-07-04, 32,512 entries; the 2026-11-05 dump holds the same data
+(checked entry for entry when the source was rewritten in canonical
+form, ruling `11-05 canonical fetch`). Fetched by `bun data:fetch`
 (`admin/pipeline/fetch.ts`) from Sefaria's public dump.
 
 ## Rights and attribution
