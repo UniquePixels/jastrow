@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { byCodeUnit } from './order.ts';
+import { byCodeUnit } from '../order.ts';
 
 describe('byCodeUnit', () => {
 	it('orders by UTF-16 code unit, not by locale', () => {

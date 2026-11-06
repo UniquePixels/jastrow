@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { type BiomeLookup, biomeBinary } from './format.ts';
+import { type BiomeLookup, biomeBinary } from '../format.ts';
 
 const MANIFEST = '/repo/node_modules/@biomejs/biome/package.json';
 const INSTALLED = '/repo/node_modules/@biomejs/biome/bin/biome';
@@ -88,9 +88,9 @@ describe('biomeBinary', () => {
 			},
 		};
 		biomeBinary(spy);
-		// This module's own directory, which is the same wherever the
+		// format.ts's own directory (this file's parent), the same wherever the
 		// process was started from — the literal `node_modules/.bin`
 		// path it replaced only resolved from the repo root.
-		expect(asked).toBe(import.meta.dir);
+		expect(asked).toBe(import.meta.dir.replace(/[/\\]__tests__$/, ''));
 	});
 });

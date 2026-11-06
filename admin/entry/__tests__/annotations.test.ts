@@ -12,15 +12,15 @@
  * contract, the way a hand edit meets it.
  */
 import { describe, expect, it } from 'bun:test';
-import { entryAnnotations, isIsoDate } from './annotations.ts';
+import { entryAnnotations, isIsoDate } from '../annotations.ts';
 import {
 	type Annotation,
 	type Entry,
 	type FormObject,
 	SCHEMA_VERSION,
 	type Sense,
-} from './schema.ts';
-import { validateEntry } from './validate.ts';
+} from '../schema.ts';
+import { validateEntry } from '../validate.ts';
 
 const PATH = 'A/A00001.json';
 

@@ -84,7 +84,7 @@ All commits must include a sign-off line (`git commit -s`).
   default level is `info` is either promoted to `warn` or turned off in
   `biome.json` (which cannot hold comments, so the three that are off
   are explained here). `useExpect`: test helpers such as `expectLine`
-  in `admin/entry/headwords.test.ts` wrap `expect` on purpose, for
+  in `admin/entry/__tests__/headwords.test.ts` wrap `expect` on purpose, for
   Sonar's duplication gate. `useDestructuring`: `senses[0]` named by
   index is deliberate — the position is the point. `useNamedCaptureGroup`:
   naming a group means rewriting every `match[n]` consumer in rule code

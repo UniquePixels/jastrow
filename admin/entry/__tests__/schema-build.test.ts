@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { isCurrent, schemaText } from './schema-build.ts';
+import { isCurrent, schemaText } from '../schema-build.ts';
 
 /** Every keyword JSON Schema 2020-12 defines (core, applicator,
  * unevaluated, validation, meta-data, format-annotation and content
