@@ -529,16 +529,43 @@ describe('buildSefariaAppendix: a cross-reference retarget’s text proof', () =
 		);
 	});
 
-	it('cuts the family where its members stand more than five apart', () => {
+	it('cuts the family where its members stand more than five apart in rid order', () => {
 		const far = record('B00099', { headword: 'בָּב I' });
-		const gap = ['C1', 'C2', 'C3', 'C4', 'C5', 'C6'].map((rid) => record(rid));
+		const gap = [
+			'B00051',
+			'B00052',
+			'B00053',
+			'B00054',
+			'B00055',
+			'B00056',
+		].map((rid) => record(rid));
 		const one = record('B00049', { alt_headwords: ['בָּבָא I'], headword: 'בָּב' });
 		const two = record('B00050', { headword: 'בָּב II' });
 		const out = buildSefariaAppendix(
-			inputs([citing, far, ...gap, one, two], [retarget]),
+			inputs([far, citing, two, ...gap.reverse(), one], [retarget]),
 		);
 		expect(out.rows[0]?.evidence).toBe(
 			'text: the cite reads "בָּב I"; only B00049 carries I',
+		);
+	});
+
+	it('keeps a near member in the family however far apart the file puts it', () => {
+		const near = record('B00052', { headword: 'בָּב I' });
+		const filler = [
+			'C00001',
+			'C00002',
+			'C00003',
+			'C00004',
+			'C00005',
+			'C00006',
+		].map((rid) => record(rid));
+		const one = record('B00049', { alt_headwords: ['בָּבָא I'], headword: 'בָּב' });
+		const two = record('B00050', { headword: 'בָּב II' });
+		const out = buildSefariaAppendix(
+			inputs([citing, one, two, ...filler, near], [retarget]),
+		);
+		expect(out.review[0]?.detail).toBe(
+			'family members carrying I: B00049, B00052',
 		);
 	});
 
