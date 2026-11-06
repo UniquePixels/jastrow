@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'bun:test';
 import { Compile } from 'typebox/schema';
-import { SCHEMA_PATH } from './paths.ts';
-import { validateEntry } from './validate.ts';
+import { SCHEMA_PATH } from '../paths.ts';
+import { validateEntry } from '../validate.ts';
 
 // The committed, generated file: what an editor and a reader that is
 // not TypeScript see. `bun schema:check` holds it to schema.ts, so

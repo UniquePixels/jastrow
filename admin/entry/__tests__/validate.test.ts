@@ -5,7 +5,7 @@
  * planted defect at a time, and that it names the defect it found.
  */
 import { describe, expect, it } from 'bun:test';
-import { type Entry, SCHEMA_VERSION } from './schema.ts';
+import { type Entry, SCHEMA_VERSION } from '../schema.ts';
 import {
 	type EntryFile,
 	entryFields,
@@ -15,7 +15,7 @@ import {
 	validateCorpus,
 	validateEntries,
 	validateEntry,
-} from './validate.ts';
+} from '../validate.ts';
 
 /** Shin with qamats and shin dot, marks in the wrong order: canonical
  * order puts qamats (class 18) before the shin dot (class 24), so this

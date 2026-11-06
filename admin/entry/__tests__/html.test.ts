@@ -8,7 +8,7 @@ import {
 	serialize,
 	tagSpans,
 	tokenize,
-} from './html.ts';
+} from '../html.ts';
 
 describe('tokenize', () => {
 	it('round-trips a nested definition byte-for-byte', () => {

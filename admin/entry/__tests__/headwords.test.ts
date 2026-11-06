@@ -10,7 +10,7 @@
  * passes here is a case the corpus run will meet.
  */
 import { describe, expect, it } from 'bun:test';
-import { parseHeadwordLine, renderDisplay } from './headwords.ts';
+import { parseHeadwordLine, renderDisplay } from '../headwords.ts';
 
 /** The three things a case asserts, in one shape: what print laid out,
  * what the forms mean, and what was flagged. */
