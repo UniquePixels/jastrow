@@ -6,7 +6,7 @@
  * Evidence read off another page is not evidence for this entry.
  */
 
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { loadPageIndex } from '../page-index.ts';
 
 /** The page index, as a page check reads it: each rid's page and

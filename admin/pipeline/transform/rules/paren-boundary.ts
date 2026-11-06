@@ -13,7 +13,7 @@ import {
 	type TextToken,
 	type Token,
 	tokenize,
-} from '../../../entry/html.ts';
+} from '../../../lib/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import { type Anchor, anchors, retarget, usable } from '../links.ts';

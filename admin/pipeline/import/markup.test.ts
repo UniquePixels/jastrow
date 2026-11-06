@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { tokenize } from '../../entry/html.ts';
+import { tokenize } from '../../lib/html.ts';
 import { type RefResolver, type TagCarry, translateMarkup } from './markup.ts';
 
 /** A stub resolver: anything Jastrow-internal resolves to one rid,

@@ -16,7 +16,7 @@
  * hold would throw here rather than pass quietly.
  */
 import { expect, it } from 'bun:test';
-import { type Token, tokenize } from '../../../entry/html.ts';
+import { type Token, tokenize } from '../../../lib/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { type Anchor, anchors } from '../links.ts';
 import { applyTransforms } from '../run.ts';

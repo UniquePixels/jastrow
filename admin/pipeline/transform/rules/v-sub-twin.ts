@@ -7,7 +7,7 @@
  * not check is the block below, above `TWINS`.
  */
 
-import { serialize, tokenize } from '../../../entry/html.ts';
+import { serialize, tokenize } from '../../../lib/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { anchors, retarget as retargetAnchor } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';

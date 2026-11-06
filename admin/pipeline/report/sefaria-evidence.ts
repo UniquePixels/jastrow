@@ -19,8 +19,8 @@
  *    (`retargetProof`) is checked against Sefaria's data, not the prose.
  */
 
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
-import { serialize, tokenize } from '../../entry/html.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
+import { serialize, tokenize } from '../../lib/html.ts';
 import { internalTarget, linkKey } from '../import/cite.ts';
 import { pageOfUrl, pageUrls } from '../patch/scan.ts';
 import type { PatchEvidence, SemanticPatch } from '../patch/schema.ts';

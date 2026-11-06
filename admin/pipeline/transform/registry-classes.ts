@@ -14,8 +14,8 @@
  * assertions run on every `bun qa` without reading the source data.
  */
 
-import type { TagToken } from '../../entry/html.ts';
-import { DIR_RTL, opensScope, tokenize } from '../../entry/html.ts';
+import type { TagToken } from '../../lib/html.ts';
+import { DIR_RTL, opensScope, tokenize } from '../../lib/html.ts';
 import type { SourceEntry } from '../types.ts';
 import { fieldsOf } from './no-new-text.ts';
 

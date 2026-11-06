@@ -3,14 +3,16 @@
 What a file under `data/entries/` must be, however it got there: the
 import's write, the admin tool's save, or a hand edit. The import
 ([the pipeline](../pipeline/README.md)) is one caller; CI is
-another; the editor (`admin/editor/`, ruling `10-31 editor home`),
+another; the admin tool (`admin/ui/`, ruling `11-06 admin layout`),
 when it is written, is the third. So the
 contract is its own module, and it depends on nothing in the
 pipeline (ruling `09-30 entry contract`,
 [`docs/decisions.md`](../../docs/decisions.md)). Compile, when it is
 written, will be `admin/compile/` and may import only this module
-(ruling `10-04 compile home`), so anything both it and the pipeline
-need lives here.
+and `admin/lib/` (rulings `10-04 compile home`, `11-06 admin layout`),
+so anything about entries both it and the pipeline need lives here.
+Helpers that are not about entries live in
+[`admin/lib/`](../lib/README.md).
 
 | File | What it holds |
 |---|---|
@@ -22,9 +24,7 @@ need lives here.
 | `validate-cli.ts` | `bun data:validate` |
 | `headwords.ts`, `headword-rules.ts` | the headword-line parser and the six shape rules |
 | `names.ts` | an entry's name, derived from `headwords[0]`, and name collisions |
-| `html.ts` | the tokenizer every markup field is read with — the transforms' too |
 | `format.ts` | the formatter: `formatEntries` runs Biome over `data/entries/` as the last step of any write, `biomeBinary` finds the pinned Biome (the project's dependency first, then PATH) |
-| `compare-by-code-unit.ts` | `compareByCodeUnit`, the comparator every string sort passes: code-unit order, the same on every machine; never `localeCompare` |
 | `paths.ts` | where the entries and the generated schema live; the pipeline's `paths.ts` re-exports `ENTRIES_DIR` |
 
 The schema is written once, in `schema.ts`. A TypeBox schema is JSON

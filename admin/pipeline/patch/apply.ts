@@ -26,7 +26,7 @@
  * escalations import deliberately defers.
  */
 import { existsSync } from 'node:fs';
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { REVIEWED_DIR, TRANCHES_DIR } from '../paths.ts';
 import type { SourceEntry } from '../types.ts';
 import { classifyDrift, type DriftOutcome } from './drift.ts';

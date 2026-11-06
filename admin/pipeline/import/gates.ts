@@ -4,9 +4,7 @@
  * (composition failures) live with the composer and the CLI. */
 
 import { entryAnnotations } from '../../entry/annotations.ts';
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import { intToRoman, intToSup } from '../../entry/headwords.ts';
-import { tokenize } from '../../entry/html.ts';
 import { nameCollisions } from '../../entry/names.ts';
 import type { Entry } from '../../entry/schema.ts';
 import {
@@ -14,6 +12,8 @@ import {
 	schemaValidator,
 	validateCorpus,
 } from '../../entry/validate.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
+import { tokenize } from '../../lib/html.ts';
 import type { PagePlacement } from '../page-index.ts';
 import { lossMismatch } from '../patch/loss.ts';
 import type { SemanticPatch } from '../patch/schema.ts';

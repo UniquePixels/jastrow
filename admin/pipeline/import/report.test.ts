@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'bun:test';
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import {
 	type Annotation,
 	type Entry,
 	SCHEMA_VERSION,
 } from '../../entry/schema.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import type { Tally } from './gates.ts';
 import type { GateName, Report, Sample } from './report.ts';
 import {

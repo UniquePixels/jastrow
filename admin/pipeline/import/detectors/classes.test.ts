@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'bun:test';
-import { compareByCodeUnit } from '../../../entry/compare-by-code-unit.ts';
 import {
 	type Entry,
 	SCHEMA_VERSION,
 	type Sense,
 } from '../../../entry/schema.ts';
+import { compareByCodeUnit } from '../../../lib/compare-by-code-unit.ts';
 import { PUBLICATION } from '../publication.ts';
 import { createReport, type Report } from '../report.ts';
 import {

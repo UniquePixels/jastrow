@@ -41,7 +41,7 @@
  *   before reaching for `allows` on a multi-character token.
  */
 
-import { serialize, tokenize } from '../../entry/html.ts';
+import { serialize, tokenize } from '../../lib/html.ts';
 import type { SourceEntry, SourceSense } from '../types.ts';
 
 /** Joins `textOf`'s parts. NUL cannot occur in the corpus's text, so

@@ -9,8 +9,8 @@
  * to it.
  */
 
-import { compareByCodeUnit } from '../../../entry/compare-by-code-unit.ts';
-import { tokenize } from '../../../entry/html.ts';
+import { compareByCodeUnit } from '../../../lib/compare-by-code-unit.ts';
+import { tokenize } from '../../../lib/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { anchors } from '../links.ts';
 import { fieldsOf } from '../no-new-text.ts';

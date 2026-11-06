@@ -84,7 +84,7 @@
  * leaves every `<…>` run byte-identical.
  */
 
-import { HEBREW, HEBREW_ATOM, mapTagsAndText } from '../../../entry/html.ts';
+import { HEBREW, HEBREW_ATOM, mapTagsAndText } from '../../../lib/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';

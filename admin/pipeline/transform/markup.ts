@@ -99,7 +99,7 @@
  * it.
  */
 
-import { attributeInterior, opensScope, tokenize } from '../../entry/html.ts';
+import { attributeInterior, opensScope, tokenize } from '../../lib/html.ts';
 import type { SourceEntry } from '../types.ts';
 import { fieldsOf } from './no-new-text.ts';
 

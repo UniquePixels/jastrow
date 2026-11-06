@@ -18,7 +18,7 @@
  * trip here is a bug in the rule, never a reason for an allowance.
  */
 
-import type { Token } from '../../../entry/html.ts';
+import type { Token } from '../../../lib/html.ts';
 import {
 	attributeInterior,
 	DIR_RTL,
@@ -27,7 +27,7 @@ import {
 	opensScope,
 	serialize,
 	tokenize,
-} from '../../../entry/html.ts';
+} from '../../../lib/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
 

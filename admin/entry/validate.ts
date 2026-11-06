@@ -29,10 +29,10 @@
  */
 import type { TLocalizedValidationError } from 'typebox/error';
 import { Compile } from 'typebox/schema';
+import { compareByCodeUnit } from '../lib/compare-by-code-unit.ts';
+import { tokenize } from '../lib/html.ts';
 import { checkAnnotations } from './annotations.ts';
-import { compareByCodeUnit } from './compare-by-code-unit.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
-import { tokenize } from './html.ts';
 import { nameCollisions } from './names.ts';
 import { ENTRIES_DIR } from './paths.ts';
 import {

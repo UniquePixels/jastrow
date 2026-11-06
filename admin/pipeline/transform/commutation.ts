@@ -69,7 +69,7 @@
  *   list should not have to infer it from `compose()`'s docstring.
  */
 
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import type { SourceEntry } from '../types.ts';
 import type { Rule } from './types.ts';
 

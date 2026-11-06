@@ -8,7 +8,7 @@
  * step 5 and are listed in `docs/archive/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
-import { tokenize } from '../../../entry/html.ts';
+import { tokenize } from '../../../lib/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { anchors } from '../links.ts';
 import { applyTransforms } from '../run.ts';

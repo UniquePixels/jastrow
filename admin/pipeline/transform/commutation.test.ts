@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import type { SourceEntry } from '../types.ts';
 import {
 	changingRids,

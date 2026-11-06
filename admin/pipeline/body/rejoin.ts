@@ -18,7 +18,7 @@
  * nothing else is added, and whatever whitespace or punctuation the
  * fields carry is kept as it is.
  */
-import { serialize, tokenize } from '../../entry/html.ts';
+import { serialize, tokenize } from '../../lib/html.ts';
 import type { SourceEntry } from '../types.ts';
 
 /** The four fragments a gloss head was concatenated from, recovered:

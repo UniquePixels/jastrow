@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { parsePatterns } from '../patch/patterns.ts';
 import { PATTERNS_PATH } from '../paths.ts';
 import { nonCommutingPairs, type PairStats } from './commutation.ts';

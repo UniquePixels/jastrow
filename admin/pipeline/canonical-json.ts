@@ -6,7 +6,7 @@
  * fetching an unchanged export gives identical files and `git diff`
  * names only the entries that changed.
  */
-import { compareByCodeUnit } from '../entry/compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../lib/compare-by-code-unit.ts';
 
 /** `value` with every object's keys in code-unit order, recursively.
  * Integer-like keys come first, in numeric order (a JS rule), which

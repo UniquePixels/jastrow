@@ -27,10 +27,10 @@
  * cite a later patch fixes takes its row with it.
  */
 
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import { intToRoman } from '../../entry/headwords.ts';
-import { tokenize } from '../../entry/html.ts';
 import type { Entry } from '../../entry/schema.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
+import { tokenize } from '../../lib/html.ts';
 import { fieldsOf } from '../transform/no-new-text.ts';
 import type { SourceEntry } from '../types.ts';
 import { internalTarget, linkKey } from './cite.ts';
