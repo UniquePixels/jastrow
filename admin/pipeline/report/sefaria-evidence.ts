@@ -20,6 +20,7 @@
  */
 
 import { serialize, tokenize } from '../../entry/html.ts';
+import { byCodeUnit } from '../../entry/order.ts';
 import { internalTarget, linkKey } from '../import/cite.ts';
 import { pageOfUrl, pageUrls } from '../patch/scan.ts';
 import type { PatchEvidence, SemanticPatch } from '../patch/schema.ts';
@@ -223,8 +224,8 @@ interface Restored {
 }
 
 /** The raw source as the retarget proof reads it: rids by link key, by
- * the consonants of every form of their line, and by position in the
- * source; and the numerals the reviewed patches restore. */
+ * the consonants of every form of their line, and by position in
+ * `rid` order (print order); and the numerals the reviewed patches restore. */
 interface SourceIndex {
 	byKey: Map<string, string[]>;
 	bySkeleton: Map<string, string[]>;
@@ -233,9 +234,10 @@ interface SourceIndex {
 	restored: Map<string, Restored[]>;
 }
 
-/** How far apart (in entries) two members of one family may stand: the
- * family is cut into runs wherever they stand further apart (ruling
- * 10-05 homograph sequence; `docs/correction-audit.md` §5). */
+/** How far apart (in entries, in `rid` order, which is print order) two
+ * members of one family may stand: the family is cut into runs wherever
+ * they stand further apart (ruling 10-05 homograph sequence;
+ * `docs/correction-audit.md` §5; ruling 11-05 canonical fetch). */
 const FAMILY_GAP = 5;
 
 /** A form's Hebrew letters alone: its family, ignoring pointing,
@@ -288,8 +290,10 @@ function indexSource(
 	const byKey = new Map<string, string[]>();
 	const bySkeleton = new Map<string, string[]>();
 	const position = new Map<string, number>();
+	for (const [index, rid] of [...records.keys()].sort(byCodeUnit).entries()) {
+		position.set(rid, index);
+	}
 	for (const record of records.values()) {
-		position.set(record.rid, position.size);
 		push(byKey, linkKey(record.headword), record.rid);
 		for (const key of new Set(formsOf(record).map(skeleton))) {
 			push(bySkeleton, key, record.rid);

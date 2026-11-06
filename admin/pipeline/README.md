@@ -138,12 +138,12 @@ it: the 2026-07-04 dump has no `lexicon` record and zero
 
 | File | Contents |
 |------|----------|
-| `jastrow-dictionary.jsonl` | `lexicon_entry` docs with `parent_lexicon: "Jastrow Dictionary"`, verbatim, dump order, relaxed extended JSON |
+| `jastrow-dictionary.jsonl` | `lexicon_entry` docs with `parent_lexicon: "Jastrow Dictionary"`, data unmodified, sorted by `rid` with keys sorted, relaxed extended JSON |
 | `lexicons.json` | The Jastrow lexicon registry record |
 | `manifest.json` | Provenance: dump URL, ETag, Last-Modified, fetch time, sha256 + entry count per output |
 
-Documents are emitted **unmodified** — no transformation happens in
-this stage, so `data/sources/sefaria/` is a faithful snapshot of the source.
+Documents are emitted **unmodified** — no transformation of the data
+happens in this stage (only line and key order are fixed), so `data/sources/sefaria/` is a faithful snapshot of the source.
 `word_form.bson` is cached for later use (search word forms) but not
 yet emitted.
 

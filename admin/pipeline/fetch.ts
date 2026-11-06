@@ -5,7 +5,9 @@
  * Streams Sefaria's public MongoDB dump, extracts only the lexicon
  * collections from the tar (the full dump is ~2.4 GB compressed and is
  * never written to disk), then decodes the BSON and emits the Jastrow
- * entries as JSONL plus a provenance manifest.
+ * entries as JSONL plus a provenance manifest. The output is canonical
+ * (canonical-json.ts): entries sorted by rid, keys sorted, so the bytes
+ * depend on the data alone.
  *
  * Usage:
  *   bun admin/pipeline/fetch.ts             # full fetch (download + decode)
@@ -15,13 +17,14 @@
  */
 import { mkdir } from 'node:fs/promises';
 import { type Document, EJSON } from 'bson';
+import { byCodeUnit } from '../entry/order.ts';
 import {
 	bsonDocuments,
 	ChunkReader,
 	extractTargets,
-	freshWriter,
 	sha256,
 } from './archive-io.ts';
+import { canonicalJson, requireRid, sortByRid } from './canonical-json.ts';
 import {
 	LEXICONS_PATH,
 	MANIFEST_PATH,
@@ -128,52 +131,57 @@ async function emitRegistry(progress: (msg: string) => void): Promise<string> {
 		);
 	}
 	const registryPath = LEXICONS_PATH;
+	const sorted = [...registry].sort((a, b) =>
+		byCodeUnit(a['name'] as string, b['name'] as string),
+	);
 	await Bun.write(
 		registryPath,
-		`${EJSON.stringify(registry, undefined, '\t', { relaxed: true })}\n`,
+		`${canonicalJson(EJSON.serialize(sorted, { relaxed: true }), '\t')}\n`,
 	);
 	progress(`wrote ${registryPath} (${registry.length} lexicon records)`);
 	return registryPath;
 }
 
 /**
- * Emit entries verbatim as relaxed extended JSON, one file per lexicon,
- * preserving dump order.
+ * Emit entries as relaxed extended JSON, one file per lexicon, sorted
+ * by rid with keys sorted (canonical-json.ts), so the bytes depend on
+ * the data alone.
  */
 async function emitEntries(
 	progress: (msg: string) => void,
 ): Promise<Map<string, number>> {
 	const counts = new Map<string, number>();
-	const writers = new Map(
-		await Promise.all(
-			[...JASTROW_LEXICONS].map(async ([lexicon, path]) => {
-				counts.set(lexicon, 0);
-				return [lexicon, await freshWriter(path)] as const;
-			}),
-		),
+	const collected = new Map(
+		[...JASTROW_LEXICONS.keys()].map((l) => [
+			l,
+			[] as (Document & { rid: string })[],
+		]),
 	);
 	for await (const doc of bsonDocuments(
 		TARGETS.get('dump/sefaria/lexicon_entry.bson') as string,
 	)) {
-		const parentLexicon = doc['parent_lexicon'] as string;
-		const writer = writers.get(parentLexicon);
-		if (writer === undefined) {
-			continue;
-		}
-		writer.write(`${EJSON.stringify(doc, { relaxed: true })}\n`);
-		counts.set(parentLexicon, (counts.get(parentLexicon) ?? 0) + 1);
+		collected.get(doc['parent_lexicon'] as string)?.push(requireRid(doc));
 	}
-	for (const [lexicon, writer] of writers) {
-		await writer.end();
-		if ((counts.get(lexicon) ?? 0) === 0) {
+	for (const [lexicon, docs] of collected) {
+		if (docs.length === 0) {
 			// Same drift guard as the registry: a renamed parent_lexicon
 			// must not produce an empty snapshot that looks like success.
+			// Checked for every lexicon before any file is written.
 			throw new Error(`no entries found for lexicon "${lexicon}"`);
 		}
-		progress(
-			`wrote ${JASTROW_LEXICONS.get(lexicon)} (${counts.get(lexicon)} entries)`,
-		);
 	}
+	await Promise.all(
+		[...collected].map(async ([lexicon, docs]) => {
+			const lines = sortByRid(docs).map(
+				(doc) => `${canonicalJson(EJSON.serialize(doc, { relaxed: true }))}\n`,
+			);
+			await Bun.write(JASTROW_LEXICONS.get(lexicon) as string, lines.join(''));
+			counts.set(lexicon, docs.length);
+			progress(
+				`wrote ${JASTROW_LEXICONS.get(lexicon)} (${docs.length} entries)`,
+			);
+		}),
+	);
 	return counts;
 }
 

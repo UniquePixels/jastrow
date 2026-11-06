@@ -159,32 +159,31 @@ _none_
 - C00063: גבוריא, כפר ג׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C00078: גַּבְיָא III, ג׳ גילא — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C00113: גַּבְלָן, הַגַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00714: דְּיָקִינְתִּין, דְּיָיקִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00750: דִּיתְאָה, דִּתְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00759: דִּכְדּוּךְ, דִּיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00763: דִּכְוָון, דִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00796: דִּכְרָנִי, דִּיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00806: דִּלְדּוּל, דִּיל׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00807: דִּלְדֵּל, דִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00818: דְּלוּחָא, דְּלוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00837: דְּלֵיקְתָּא, דְּלֵקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00853: דָּלְפָא, דִּלְ׳, דִּולְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- D00854: דִּלְפָה, דִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00873: דִּמְדּוּם, דִּימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00890: דִּמְחַמְרָא, דִּימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00932: דָּנִסְטֵיס, דָּנִיסְ׳, דָּאנִ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- D00983: דצ״ך, ד׳ עד״ש באח״ב — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00987: דִּקְדּוּק, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00988: דִּקְדּוּקָא, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D01003: דִּקְיוֹן, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D01010: דִּקְלָא, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D01013: דִּקְנָנָא, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C00162: גַּדְגַּדְנִיּוֹת, גּוּדְגַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D01080: דָּרֵי, בֵּי דָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D01108: דַּרְמֵסְקוֹס, דַּרְמוּסְ׳, (דרומיס׳) — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- D01154: דִּשְׁתָּאָה, דִּישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C00363: גְּוִיְיתָא, גִּיוְיְי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C00382: גּוּלְגַּלְתָּא, גּוּלְגּוּלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00515: גַּזָּא, בַּר גַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00520: גִּזְבָּר, גִּיזְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00521: גִּזְבָּרָא, גִּיזְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00620: גִּיבָּרָא, גִּבָּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00667: גִּיּוֹרֵי, בר ג׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00670: גַּיּוֹרְתָּא, (גִּיּוֹ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00674: גֵּיוְתָנָא, גֵּאוְ׳, גֵּוְ׳, (גֵּיפְ׳) — all 3 alternate(s) are partial; the entry has no alternate lookup key
+- C00675: גֵּיוְתָנוּתָא, גֵּיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00763: גּיניאך, גּ׳ טַעֲוָותָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00767: גִּינֵּיסַר, (גִּינּוֹ׳, גְּנֵי׳, גְּנוֹ׳) — all 3 alternate(s) are partial; the entry has no alternate lookup key
+- C00799: גִּיפְתָּא, (גּוּפְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00836: גֵּירָעוֹן, גֵּרָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00851: גלא, ג׳ קסינון — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00864: גִּלְגּוּל, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00865: גִּלְגּוּל ², גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00880: גִּלְדָּא, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00881: גִּלְדָּאָה, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00882: גִּלְדָּנָא, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00941: גִּלָּיוֹן, גִּלְ׳, גִּיל׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- C01013: *גַּמְזָא, בַּר ג׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C01041: גֻּמְלָא, גִּימְ׳, גּוּמְ׳, (גַּמְ׳) — all 3 alternate(s) are partial; the entry has no alternate lookup key
+- C01110: גַּנּוּנִיתָא, גִּינּוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C01146: גְּנִיסַיָּיא, גְּנוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C01266: גַּרְגִּשְׁתָּא, גַּרְגּוּשְׁ׳, גַּרְגִּישְׁ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - C01277: גַּרְדִּי, גִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -215,40 +214,41 @@ _none_
 - D00680: דִּיפְּלִיסְטְוָן, דִּיפְּלִסְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - D00681: דִּיפְרָא, (דִּוּפְ׳, דִּפְ׳) — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - D00686: דִּיפְתְּרָא, דִּפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00515: גַּזָּא, בַּר גַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00520: גִּזְבָּר, גִּיזְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00521: גִּזְבָּרָא, גִּיזְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00714: דְּיָקִינְתִּין, דְּיָיקִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00750: דִּיתְאָה, דִּתְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00759: דִּכְדּוּךְ, דִּיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00763: דִּכְוָון, דִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00796: דִּכְרָנִי, דִּיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00806: דִּלְדּוּל, דִּיל׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00807: דִּלְדֵּל, דִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00818: דְּלוּחָא, דְּלוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00837: דְּלֵיקְתָּא, דְּלֵקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00853: דָּלְפָא, דִּלְ׳, דִּולְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- D00854: דִּלְפָה, דִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00873: דִּמְדּוּם, דִּימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00890: דִּמְחַמְרָא, דִּימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00932: דָּנִסְטֵיס, דָּנִיסְ׳, דָּאנִ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- D00983: דצ״ך, ד׳ עד״ש באח״ב — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00987: דִּקְדּוּק, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00988: דִּקְדּוּקָא, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D01003: דִּקְיוֹן, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D01010: דִּקְלָא, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D01013: דִּקְנָנָא, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D01080: דָּרֵי, בֵּי דָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D01108: דַּרְמֵסְקוֹס, דַּרְמוּסְ׳, (דרומיס׳) — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- D01154: דִּשְׁתָּאָה, דִּישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00199: הוגניסיס, הוגניסיס — headwords[1] repeats headwords[0] (הוגניסיס) under NFC
 - E00242: הוּמַנְיָא, הִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00295: הז״יו, ה׳ ל״ך — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00620: גִּיבָּרָא, גִּבָּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00324: הִטְּרִית, הִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00355: הֶיזֵּקָא, הֶיזֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00377: הֵיכְדֵין, הֵכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00423: *הֵימִיסוּ, אֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00431: הִימְנוֹן, הִמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00667: גִּיּוֹרֵי, בר ג׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00670: גַּיּוֹרְתָּא, (גִּיּוֹ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00674: גֵּיוְתָנָא, גֵּאוְ׳, גֵּוְ׳, (גֵּיפְ׳) — all 3 alternate(s) are partial; the entry has no alternate lookup key
-- C00675: גֵּיוְתָנוּתָא, גֵּיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00454: הִינְדְּיָא, הִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00455: הִינְדִּיקִי, הִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00456: הִינוּ, בית ה׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00472: הֶיסֵּטָא, הֶיסֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00763: גּיניאך, גּ׳ טַעֲוָותָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00767: גִּינֵּיסַר, (גִּינּוֹ׳, גְּנֵי׳, גְּנוֹ׳) — all 3 alternate(s) are partial; the entry has no alternate lookup key
-- C00799: גִּיפְתָּא, (גּוּפְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00836: גֵּירָעוֹן, גֵּרָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00851: גלא, ג׳ קסינון — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00864: גִּלְגּוּל, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00865: גִּלְגּוּל ², גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00880: גִּלְדָּא, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00881: גִּלְדָּאָה, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00882: גִּלְדָּנָא, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00941: גִּלָּיוֹן, גִּלְ׳, גִּיל׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- C01013: *גַּמְזָא, בַּר ג׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C01041: גֻּמְלָא, גִּימְ׳, גּוּמְ׳, (גַּמְ׳) — all 3 alternate(s) are partial; the entry has no alternate lookup key
-- C01110: גַּנּוּנִיתָא, גִּינּוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00570: הִלְכְתָא, הִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00571: הִלֵּל, הִילֵּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00592: הַמְדּוּדֵי, בַּר ה׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -285,22 +285,24 @@ _none_
 - G00381: זִינְגָּאֵי, זִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - G00383: זינומתא, זנו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - G00396: זַיְפָא, זֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00549: זִמְרָא, זִימְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00550: זִמְרָא ², זִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00554: זִמְרָה, זִימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00589: זִעֲזֵע, זִיעֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00619: זִפְלָן, זִיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00676: *זַרְוַאי, מֶלַח דְּזַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00679: זֵרוּעַ, זֵיר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00733: זִרְפָּא, זִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00028: חֲבוּלְיָא, חִבּוּ׳, חִיבּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - H00065: חֲבֵיל ², ח׳ יַמָּא — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00077: חֲבִירָא, חַבִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00089: חֶבְלָא, חֵיבְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01432: חֲפוּרָה ², חֲפִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01451: חֲפִיפוּתָא II, (חֲפוּפְתָּא — the line's parentheses do not balance, so the layout cannot be settled from the source
-- H01486: חֵפְתָא, חֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00121: חֲבֵרוּת, חֲבֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00166: *חִגַּרְתָּא, חִיגַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00178: חֵדוּ, חֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00181: חֲדוּדוּ, בית ח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00208: חִדְקָא, חִידְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00209: חִדְקָא ², חִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01593: חִרְגָּא, חִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01654: חַרְחוּר, חִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01681: חֶרְיָנָא, חִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00247: חוּבָּץ I, בַּר׳ ח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00260: חוּדַאי, חוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00285: חוֹזָאֵי, בֵּי ח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -328,6 +330,60 @@ _none_
 - H00701: חִיזְרָא, חִזְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00702: חִיזְרָא ², חִזְ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00711: חִיטַּיָּיא, כְּפַר ח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00754: חִיכּוּכָא, חִכּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00764: חִילּוּי, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00765: חִילּוּל, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00767: חִילּוֹנִי, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00769: חִילּוּף, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00770: חִילּוּפָא, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00772: חִילּוּק, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00781: חִילְפָא I, חִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00796: חִילְתִּית, חִלְתִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00797: חִילְתִּיתָא, חִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00803: חִימּוּץ, חִמּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00804: חִימּוּצָא, חִמּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00810: חֵימָרָא, חֵימְ׳, חִמָ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- H00811: חֵימְתָא, (חוּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00815: חִינְגָּא, חִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00816: חִינְגִּיתָא, חִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00819: חִינּוּךְ, חִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00820: חִינּוּכָא, חִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00821: חִינּוּן, חִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00830: חִיסּוּדָא, חִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00831: חִיסּוּלָא, חִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00833: חִיסּוּם, חִסּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00834: חִיסּוּר, חִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00836: חִיסָּכוֹן, חִסָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00853: חִיפּוּשִׂיתָא, חִפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00880: חִירְיָא, בַּר חִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00900: חִיתּוּךְ, חִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00902: חִיתּוּם, חִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00906: חִיתִּית, חִתִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00972: חֶלְבּוֹן, (הֶלְבּוֹן — the line's parentheses do not balance, so the layout cannot be settled from the source
+- H00978: חַלְבֵּצִין, חַלְבֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01013: חִלָּזוֹן, חִילָּ׳, חֲלָ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- H01025: חַלְטָנִית, חוּלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01034: חִלִּיז, חִילִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01086: חֶלְמָא, חִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01091: חֶלְמוֹן, (הֶלְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01117: חֶלְקָא, חֶילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01149: חֶמְדָּתָא, חֶמְדְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01151: חֵמָה, חֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01261: חֲנוּכְּתָא, חֲנֻכְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01269: חֲנוּפְתָּא, חֲנֻפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01277: חִנְטָא, חִינְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01339: חִסְדָּא, חִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01340: חִסְדָּא ², חִי׳ III — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01378: חָסִילָא, חֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01389: חַסִּירוּתָא, חֲסֵירוּ׳, חַסְרוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- H01407: חַסְפָּא, חִ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01424: חִפּוּי, חִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01432: חֲפוּרָה ², חֲפִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01451: חֲפִיפוּתָא II, (חֲפוּפְתָּא — the line's parentheses do not balance, so the layout cannot be settled from the source
+- H01486: חֵפְתָא, חֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01593: חִרְגָּא, חִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01654: חַרְחוּר, חִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01681: חֶרְיָנָא, חִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H01762: חִרְקָא, חִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H01808: חַשָּׁבָא, (חֲשָׁ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - I00031: טַבְוָאוּת, טַבְוָו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -376,62 +432,38 @@ _none_
 - I00768: טִרְיָא, טַרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - I00789: טְרִיָיא, ט׳ קוֹנְטָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - I00792: טְרָיָינוֹס, טוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00754: חִיכּוּכָא, חִכּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00764: חִילּוּי, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00765: חִילּוּל, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00767: חִילּוֹנִי, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00769: חִילּוּף, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00770: חִילּוּפָא, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00772: חִילּוּק, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00781: חִילְפָא I, חִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00796: חִילְתִּית, חִלְתִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00797: חִילְתִּיתָא, חִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00803: חִימּוּץ, חִמּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00804: חִימּוּצָא, חִמּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00810: חֵימָרָא, חֵימְ׳, חִמָ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- H00811: חֵימְתָא, (חוּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00815: חִינְגָּא, חִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00816: חִינְגִּיתָא, חִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00819: חִינּוּךְ, חִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00820: חִינּוּכָא, חִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00821: חִינּוּן, חִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00830: חִיסּוּדָא, חִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00831: חִיסּוּלָא, חִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00833: חִיסּוּם, חִסּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00834: חִיסּוּר, חִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00836: חִיסָּכוֹן, חִסָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00853: חִיפּוּשִׂיתָא, חִפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00880: חִירְיָא, בַּר חִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00900: חִיתּוּךְ, חִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00902: חִיתּוּם, חִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00906: חִיתִּית, חִתִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00972: חֶלְבּוֹן, (הֶלְבּוֹן — the line's parentheses do not balance, so the layout cannot be settled from the source
-- H00978: חַלְבֵּצִין, חַלְבֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01013: חִלָּזוֹן, חִילָּ׳, חֲלָ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- H01025: חַלְטָנִית, חוּלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01034: חִלִּיז, חִילִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01086: חֶלְמָא, חִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01091: חֶלְמוֹן, (הֶלְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01117: חֶלְקָא, חֶילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01149: חֶמְדָּתָא, חֶמְדְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01151: חֵמָה, חֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00549: זִמְרָא, זִימְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00550: זִמְרָא ², זִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00554: זִמְרָה, זִימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00589: זִעֲזֵע, זִיעֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01261: חֲנוּכְּתָא, חֲנֻכְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01269: חֲנוּפְתָּא, חֲנֻפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01277: חִנְטָא, חִינְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00619: זִפְלָן, זִיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01339: חִסְדָּא, חִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01340: חִסְדָּא ², חִי׳ III — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00676: *זַרְוַאי, מֶלַח דְּזַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00679: זֵרוּעַ, זֵיר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01378: חָסִילָא, חֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01389: חַסִּירוּתָא, חֲסֵירוּ׳, חַסְרוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- H01407: חַסְפָּא, חִ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01424: חִפּוּי, חִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00733: זִרְפָּא, זִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- I00823: טְרִיקְלִינָא, טְרַקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- I00904: טְרַקְסִין, טְרִיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00064: יְבַמְתָּא, יְבִמְ׳, יְבִימְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- J00075: יַבַּשְׁתָּא, יַבִּישְׁ׳, יַבִּשְׁ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- J00172: יוֹדְקֶרֶת, יָדְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00184: יוֹכָנִי, בַּר י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00201: יְוָנָאָה, יְוָו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00231: יוֹקְיָנוֹס, דְּיוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00253: יוּתָּן, כִּי י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00259: יְזוּפְתָּא, יְזִיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00272: יִחוּל, יִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00273: יִחוּס, יִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00276: יִחוּף, יִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00290: יחֵיף, יְחֵיפ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00309: יַחַף, יַי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00382: יָלֵידְתָּא, יְלֵיד׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00411: *יֵמִים, יֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00432: יָנוּקָא II, מַר י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00460: יִסּוּרָא, יְסוּ׳, יִיסּוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- J00463: *יַסֵּי, יַי׳ חֳלִי — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00464: יסיח, י׳ לי — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00481: יַעְזֵק, בֵּיתי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00570: יְקֵידוּתָא, יְקִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00691: יְשִׁיטָא, בַּר י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00729: יָתֵיבְתָּא, יְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00751: יִתְרָא, יִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- K00011: כְּאוֹרָה, לִכְאוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- K00013: כְּאֵי, כ׳ צַד — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- K00093: כַּבֶּשֶׁת, (כּוּבֶּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- K00108: כַּדָּבוּתָא, כַּדְבוּ׳, כַּדִּיבוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- K00115: כדום, עינבין דכ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- K00117: כדופסלא, כר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K00196: כוברים, כובד׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K00265: כולבסין, כולכ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K00303: כַּוָּנָה, כַּוָּו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -466,90 +498,6 @@ _none_
 - K01093: כַּרְדִּיטִין, (כַּרְדּוּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K01099: כֻּרְהָנָא, כּוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K01105: כְּרוֹבָא, (כְּרוּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01069: מִטַּרְפְּסָא, מִיטַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01127: מִיטָטוֹר, מְטָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01173: מִילוֹטוֹמְיָא, מְלוֹט׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01174: מִילּוּי, מִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01181: מילי ², מ׳ מילה — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01192: מִילְפִּפּוֹן, מִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01193: מִילְפִּפּוֹנָא, מִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01226: מֵינִיקוּת, מֵנִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01231: מְיַנְּקָא, מְיַי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01234: מִינְקַת, מ׳ חִיוְיָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01274: מִיצּוּי, מִצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01275: מִיצּוּעַ, מִצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01276: מִיצְטְרָא, מִצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01299: מִירִי, מ׳ מִירְיָאדִין — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01327: מִיתּוּחַ, מִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01328: מִיתּוּן, מִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01348: מִכְבַּר, מַכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01355: מִכְוַור, מַכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01393: מִכְלָה, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01416: מַכְנְסִין, מִכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01420: מִכְסָא, מִיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01424: *מִכְסוֹרִין, מַכְסִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01484: *מַלְבֵּנְתָּא, מַלְבֵּינְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01489: מִלָּה, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01502: מִלְוָון, בֵּית מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01528: מַלְחָא, מִגְּדַּל מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01585: מִלְכָנָא, מִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01587: מִלְכְּתָא, מִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01588: מִלְכְּתָנוּתָא, מִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01597: מִלְלָא, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01660: מַמְזֵרָא, מַמְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01661: מַמְזֵרוּת, מַמְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01662: מַמְזֵרִי, מַמְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01665: מָמִיקְנָא, מָמִקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01666: מְמִיקְנוּתָא, מְמִקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01713: מַנְדּוּ, כְּפַר מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01752: מנורי, כפר מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01755: מַנְזִחְנָא, מַנְזִיחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01756: מַנְזִיקְנָא, מַנְזִקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01764: מִנְחָתָא, מִנְחֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01766: מִנְטַר, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01768: מִנִּי, אֲרַע מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01774: מִנְיוֹמִי, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01782: מָנִיכָא, מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01784: מִנְיָמִין, מִנְיָי׳, מִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- M01817: מְנָרְתָּא, מְנַר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01839: מֵסֵב, מֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01841: מְסִבְּתָא, מְסִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01849: מַסְגֵּרָא, מַסְגֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01905: מִסְטֵירִין, מִסְטוּ׳, מִיסְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- M01907: מִסְטְרִין, (מַסְטְ׳, מְסַטְּ׳) — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- M01991: מִסְפְּק, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- I00823: טְרִיקְלִינָא, טְרַקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- I00904: טְרַקְסִין, טְרִיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00064: יְבַמְתָּא, יְבִמְ׳, יְבִימְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- J00075: יַבַּשְׁתָּא, יַבִּישְׁ׳, יַבִּשְׁ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- J00172: יוֹדְקֶרֶת, יָדְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00184: יוֹכָנִי, בַּר י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00201: יְוָנָאָה, יְוָו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00231: יוֹקְיָנוֹס, דְּיוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00253: יוּתָּן, כִּי י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00259: יְזוּפְתָּא, יְזִיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00272: יִחוּל, יִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00273: יִחוּס, יִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00276: יִחוּף, יִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00290: יחֵיף, יְחֵיפ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00309: יַחַף, יַי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00382: יָלֵידְתָּא, יְלֵיד׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00411: *יֵמִים, יֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00432: יָנוּקָא II, מַר י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00460: יִסּוּרָא, יְסוּ׳, יִיסּוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- J00463: *יַסֵּי, יַי׳ חֳלִי — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00464: יסיח, י׳ לי — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00481: יַעְזֵק, בֵּיתי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00570: יְקֵידוּתָא, יְקִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00691: יְשִׁיטָא, בַּר י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00729: יָתֵיבְתָּא, יְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00751: יִתְרָא, יִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- K00011: כְּאוֹרָה, לִכְאוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- K00013: כְּאֵי, כ׳ צַד — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- K00093: כַּבֶּשֶׁת, (כּוּבֶּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- K00108: כַּדָּבוּתָא, כַּדְבוּ׳, כַּדִּיבוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- K00115: כדום, עינבין דכ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- K00117: כדופסלא, כר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K01148: כָּרְחָא, כּוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K01170: כְּרִיסוֹ, כ׳ אַרְגִּירָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K01174: כְּרִיסְפָּא, קְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -608,37 +556,6 @@ _none_
 - L00710: לִשְׁלֶשֶׁת, לִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - M00010: *מָאוּז, מַאוָז) — the line's parentheses do not balance, so the layout cannot be settled from the source
 - M00020: *מְאָחָא, מֵ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02029: מַסְרֵקָא, מַסְרִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02031: מַסְרֵתָא, מַסְרֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02127: מֵעֲלָא, מֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02141: מַעֲלַת, מַ׳ מְרָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02160: מַעְצְרָא, מַעַצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02161: מַעְצַרְתָּא, מַעֲצַ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02177: מַעֲרוֹקָא, מַעֲרוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02189: מַעְשְׂרָא, מַעְסְ׳, מַעַ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- M02211: מְפִיבֹשֶׁת, מְפִבֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02234: מִפְסַלְתָּא, מִיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02276: מְצוּבָה, פִּי מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02320: מְצִינְפָא, מַצִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02405: מְקוֹשֵׁשׁ II, בֶּן מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02541: מַרְדֶּה II, מַרְדָה) — the line's parentheses do not balance, so the layout cannot be settled from the source
-- M02595: מָרוֹן II, בֵּית מָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02625: מַרְזֵחָא, מַרְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02699: מַרְכְּבָא, מֶרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02717: מַרְמִירָא, מַרְמֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02728: מֵרַע, מֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02742: מַרְעֵלָא, מַרְעֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02792: מַרְתֵּפָא, מַרְתֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02894: מְשָׁכָא, בֵּי מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02896: מַשְׁכְּבָא, מִשְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02908: מַשְׁכְּנָא, מִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02909: מִשְׁכְּנוּתָא, מִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02919: מִשְׁלָם, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02937: מַשְׁמְשָׁנִית, מְמַשְׁמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02963: מַשְׁקוֹפִי, מַשְׁקוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02992: מִשְׁתּוּתָא, מִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M03015: מִתגָּא, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M03021: מַתְוָיָא, מַתְוָו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - M00061: מְאֵרָה, מְאֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - M00098: מַבְרֵי, (מָבְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - M00117: מַגְדָּא, מִגְ׳, מִיגְ׳ I — all 2 alternate(s) are partial; the entry has no alternate lookup key
@@ -681,6 +598,89 @@ _none_
 - M00997: מְטַכְסָא, (מִיטַ׳, מְטַקְ׳, … סָה) — all 3 alternate(s) are partial; the entry has no alternate lookup key
 - M01006: מִטַּלְטְלִין, מִיטַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - M01019: מִטְמוּט, מִיטְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01069: מִטַּרְפְּסָא, מִיטַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01127: מִיטָטוֹר, מְטָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01173: מִילוֹטוֹמְיָא, מְלוֹט׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01174: מִילּוּי, מִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01181: מילי ², מ׳ מילה — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01192: מִילְפִּפּוֹן, מִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01193: מִילְפִּפּוֹנָא, מִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01226: מֵינִיקוּת, מֵנִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01231: מְיַנְּקָא, מְיַי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01234: מִינְקַת, מ׳ חִיוְיָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01274: מִיצּוּי, מִצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01275: מִיצּוּעַ, מִצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01276: מִיצְטְרָא, מִצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01299: מִירִי, מ׳ מִירְיָאדִין — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01327: מִיתּוּחַ, מִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01328: מִיתּוּן, מִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01348: מִכְבַּר, מַכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01355: מִכְוַור, מַכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01393: מִכְלָה, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01416: מַכְנְסִין, מִכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01420: מִכְסָא, מִיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01424: *מִכְסוֹרִין, מַכְסִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01484: *מַלְבֵּנְתָּא, מַלְבֵּינְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01489: מִלָּה, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01502: מִלְוָון, בֵּית מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01528: מַלְחָא, מִגְּדַּל מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01585: מִלְכָנָא, מִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01587: מִלְכְּתָא, מִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01588: מִלְכְּתָנוּתָא, מִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01597: מִלְלָא, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01660: מַמְזֵרָא, מַמְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01661: מַמְזֵרוּת, מַמְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01662: מַמְזֵרִי, מַמְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01665: מָמִיקְנָא, מָמִקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01666: מְמִיקְנוּתָא, מְמִקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01713: מַנְדּוּ, כְּפַר מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01752: מנורי, כפר מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01755: מַנְזִחְנָא, מַנְזִיחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01756: מַנְזִיקְנָא, מַנְזִקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01764: מִנְחָתָא, מִנְחֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01766: מִנְטַר, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01768: מִנִּי, אֲרַע מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01774: מִנְיוֹמִי, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01782: מָנִיכָא, מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01784: מִנְיָמִין, מִנְיָי׳, מִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- M01817: מְנָרְתָּא, מְנַר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01839: מֵסֵב, מֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01841: מְסִבְּתָא, מְסִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01849: מַסְגֵּרָא, מַסְגֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01905: מִסְטֵירִין, מִסְטוּ׳, מִיסְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- M01907: מִסְטְרִין, (מַסְטְ׳, מְסַטְּ׳) — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- M01991: מִסְפְּק, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02029: מַסְרֵקָא, מַסְרִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02031: מַסְרֵתָא, מַסְרֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02127: מֵעֲלָא, מֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02141: מַעֲלַת, מַ׳ מְרָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02160: מַעְצְרָא, מַעַצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02161: מַעְצַרְתָּא, מַעֲצַ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02177: מַעֲרוֹקָא, מַעֲרוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02189: מַעְשְׂרָא, מַעְסְ׳, מַעַ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- M02211: מְפִיבֹשֶׁת, מְפִבֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02234: מִפְסַלְתָּא, מִיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02276: מְצוּבָה, פִּי מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02320: מְצִינְפָא, מַצִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02405: מְקוֹשֵׁשׁ II, בֶּן מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02541: מַרְדֶּה II, מַרְדָה) — the line's parentheses do not balance, so the layout cannot be settled from the source
+- M02595: מָרוֹן II, בֵּית מָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02625: מַרְזֵחָא, מַרְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02699: מַרְכְּבָא, מֶרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02717: מַרְמִירָא, מַרְמֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02728: מֵרַע, מֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02742: מַרְעֵלָא, מַרְעֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02792: מַרְתֵּפָא, מַרְתֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02894: מְשָׁכָא, בֵּי מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02896: מַשְׁכְּבָא, מִשְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02908: מַשְׁכְּנָא, מִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02909: מִשְׁכְּנוּתָא, מִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02919: מִשְׁלָם, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02937: מַשְׁמְשָׁנִית, מְמַשְׁמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02963: מַשְׁקוֹפִי, מַשְׁקוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02992: מִשְׁתּוּתָא, מִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M03015: מִתגָּא, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M03021: מַתְוָיָא, מַתְוָו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - M03086: מִתְנָא, מִי׳, מוֹ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - M03108: מְתַרְכָא, מְתָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - N00095: נִבְלָא, נִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -745,6 +745,54 @@ _none_
 - N00811: נְכֹה, פַּרְעֹה נ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - N00891: נְמַר, נִמְרָא, (נִמְרָה, נִי׳ — the line's parentheses do not balance, so the layout cannot be settled from the source
 - N00892: נִמְרָה, בֵּית נ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N00934: נִסָּיוֹן, נִיסָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N00949: נִסְכָּא, נִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N00950: נִסְכָּא ², נִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N00951: *נִסְכָּא, נִי׳ III — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N00963: נִסְרָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N00999: נִעֲנוּעַ, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01030: נִפְחָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01053: נֹפֶךְ, נוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01057: נֵפֶל, נֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01061: נִפְלֵי, בַּר נִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01077: נִפִקָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01105: נִצּוֹק, נִיצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01113: נִצָּחוֹן, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01133: נֵצֶל, נֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01154: נקאני, נ׳ קא — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01158: נִקְבָּא, נִי׳, נוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- N01159: נְקֵבָה, נְקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01160: נְקֵבוּת, נְקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01169: נַקְדָּנָא, נוֹקְדָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01202: נִקָּיוֹן, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01211: נְקִיפֵי, בֵּית נְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01212: נְקִיפְתָּא, נְ׳ דְעִיּוֹן — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01239: נִקְפִּי, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01240: נִקְצָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01246: נִקְרָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01266: נִרְדָּא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01288: נִשְׁבָּא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01390: נִתְקָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01396: נִתְרָא, נִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01397: נִתְרָא ², נִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00051: סַבַּטְיוֹן, סַמְבַּ׳, סַנְבַּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- O00067: סִבְכָא, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00068: סְבָכָה, שְׂ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00075: סִבְּלוֹן, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00077: סִבְנִי, סוּבְ׳, סִיבְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- O00082: סִבְעָא, סִיבְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00101: סִגְדָּא, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00131: סְגִיּוּתָא, סַגְיוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00162: סִגְעָא, סִיגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00290: סוּטְרָא, סוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00299: סוֹכָה, שׂ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00308: סוֹכֵר, עֵין ס׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00316: סוּלְגִּיתָא, סַלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00349: סוּמְפּוֹנְיָה, סוּמְפֹּנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00357: סוּמַּקְתָּא, סֻמַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00393: סוֹפִינָא, סוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00470: סַחֲרָנוּתָא, סָחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00475: סַטְדָּא, (סוֹטְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O00535: סִיבּוֹלֶת, סִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O00537: סִיבּוּרָא, סִבּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O00557: סִיגוּף, סִגּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -836,54 +884,6 @@ _none_
 - O01408: סְפֵקָא, סְפֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O01426: סִפְרָא, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O01481: סְקִיפַס, שְׁקִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N00934: נִסָּיוֹן, נִיסָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N00949: נִסְכָּא, נִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N00950: נִסְכָּא ², נִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N00951: *נִסְכָּא, נִי׳ III — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N00963: נִסְרָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N00999: נִעֲנוּעַ, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01030: נִפְחָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01053: נֹפֶךְ, נוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01057: נֵפֶל, נֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01061: נִפְלֵי, בַּר נִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01077: נִפִקָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01105: נִצּוֹק, נִיצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01113: נִצָּחוֹן, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01133: נֵצֶל, נֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01154: נקאני, נ׳ קא — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01158: נִקְבָּא, נִי׳, נוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- N01159: נְקֵבָה, נְקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01160: נְקֵבוּת, נְקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01169: נַקְדָּנָא, נוֹקְדָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01202: נִקָּיוֹן, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01211: נְקִיפֵי, בֵּית נְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01212: נְקִיפְתָּא, נְ׳ דְעִיּוֹן — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01239: נִקְפִּי, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01240: נִקְצָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01246: נִקְרָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01266: נִרְדָּא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01288: נִשְׁבָּא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01390: נִתְקָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01396: נִתְרָא, נִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01397: נִתְרָא ², נִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00051: סַבַּטְיוֹן, סַמְבַּ׳, סַנְבַּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- O00067: סִבְכָא, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00068: סְבָכָה, שְׂ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00075: סִבְּלוֹן, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00077: סִבְנִי, סוּבְ׳, סִיבְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- O00082: סִבְעָא, סִיבְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00101: סִגְדָּא, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00131: סְגִיּוּתָא, סַגְיוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00162: סִגְעָא, סִיגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00290: סוּטְרָא, סוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00299: סוֹכָה, שׂ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00308: סוֹכֵר, עֵין ס׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00316: סוּלְגִּיתָא, סַלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00349: סוּמְפּוֹנְיָה, סוּמְפֹּנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00357: סוּמַּקְתָּא, סֻמַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00393: סוֹפִינָא, סוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00470: סַחֲרָנוּתָא, סָחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00475: סַטְדָּא, (סוֹטְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O01605: סְרִיגְתָּא, סְרִגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O01610: סֵרָיוּת, סֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O01626: סָרִיקָא, בִּירַת ס׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -955,6 +955,63 @@ _none_
 - P00701: עִישּׁוּנָא, עִשּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - P00778: עָלָוָון, עֲלָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - P00784: עָלָוָן, עֲלָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00793: עֲלִיבָא, עֲלוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00814: עִלִיתָא, עֲלִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00831: עִלְעוֹל, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00835: עלְעִל, עִילְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00837: עִלְעֵל, עֵו׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00846: עָלָתָא, עְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00858: עֹמֶד, עוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00869: עַמּוֹן, בְּנֵי עַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00893: עָמִירָא, עֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00911: עִמְסוֹנִי, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00922: עָמְקָא, עַמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00924: עִמְקוּתָא, עִימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00943: עִנְּבָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00947: עֵנַבְתָּא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00965: עִנְוְתָן, עִנְוְו׳, עִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P00967: עִנְוְתָנוּת, עִנְוְו׳, עִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P00968: עִנְוְתָנוּתָא, עִנְוְו׳, עִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P00983: עֲנִיָּה II, ע׳ עֲנָתוֹת — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00991: ענים, כפר ע׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00993: עִנְיָנָא, עִנְיָי׳, עִי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P00996: עַנִּיתָא, עַנִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01011: עִנְקָא, עִי׳, עוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P01021: עַנְתָא, עוּ׳, עִי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P01026: עֵנְתּוֹדְרָיָא, עֵנְתּוֹנְדְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01034: עִסְבָּא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01056: עִסְקָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01083: עֲפָרַיִים, חֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01148: עִקְבָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01150: עֲקֵבָא, עֲקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01193: עִקְלָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01255: עַרְבָא I, עָרְ׳, עֶרְ׳, עִרְ׳, עִי׳ — all 4 alternate(s) are partial; the entry has no alternate lookup key
+- P01260: עִרְבֵּב, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01267: עִרְבּוּב, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01269: עַרְבּוּבְיָא, עִרְ׳, עִירְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P01270: עִרְבּוּבִיתָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01272: עֵרָבוֹן, עֵי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01273: עֵרָבוֹן ², עֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01337: עַרְטִילָּיוּתָא, עַרְטַלְיוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01417: עִרְעֵר, עִירְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01452: עַרְקַת, עַ׳ לִבְנָה — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01480: *עָשִׁיק, עֲ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01481: עָשִׁיק, עֲ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01484: עֲשִׂירָאָה, עֲסִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01492: עָשְׁנָא, עוֹשְׁ׳, עוּשְׁ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P01508: עִשְׂרוֹנָא, עִסְ׳, עֶ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P01519: עֶשְׁתּוֹנָא, עִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01520: עַשְׁתּוֹר, בַּר עַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00006: פֵּאָה, פֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00044: פָּגוּטְיָה, פָּנ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00055: פִּגְיוֹן, פִּיגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00099: פַּגָּשׁ, כְּפַר פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00107: פְּדָגוֹג, פִּידָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00108: פְּדָגוֹגָא, פַּדְגּוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00127: *פְּדִיפְטֵי, קָקוֹ פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00135: פִּדְרָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00172: פּוּזְמְקֵי, פַּזְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00231: פּוֹלִימַרְכוֹס, פּוֹלְמַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q00253: פומעים, (פומעיס, פועמים — the line's parentheses do not balance, so the layout cannot be settled from the source
 - Q00326: פוקרים, בני פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q00347: פּוּרְיוֹמָא, פִּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1047,39 +1104,70 @@ _none_
 - Q01280: פִּסְיוֹנָא, פִּיסְ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01281: פִּסְיוֹנִי, פִּיסְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01282: פִּסְיוֹנִי ², פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00061: צִבְעָא, צִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00062: צִבְעָא ², צִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00064: צִבְעוֹן II, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00065: צִבְעוֹנָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00076: צִבְתָא, צִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01319: פְּסִיקְתָּא, פְּסִקְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01329: פִּסְלָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01335: *פַּסְלָן, בִּקְעַת פַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01353: פִּסְקָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00116: צִדְעָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01377: פְּעוֹר, בַּעַל פְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01399: פַּפָּא II, נְהַר פּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00193: צוּלָאֵי, בֵּית צ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01451: פִּקָּדוֹן, פִּיקָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01452: פִּקְדּוֹנָא, פִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01459: פְּקוֹלִי, הַפְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01477: פִּקֵּחַ, פִּיקֵּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01492: פְּקִיעִין, כְּפַר פְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00220: צוֹפִים, הַצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00262: צוּת, צָוַת) — the line's parentheses do not balance, so the layout cannot be settled from the source
-- R00271: צָחוּתָא, צָה׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01509: פִּקְפּוּק, פִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01525: פִּקְתָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00280: צִחְצוּחַ, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00281: צִחְצוּחָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00295: צִיבּוּר, צִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00312: צִידּוּק, צִדּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00317: צִיהוּב, צִה׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01569: פְּרַגְמַטְיָא, פְּרַקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01595: פַּרְדַּשְׁנָא, פַּרְדִּישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01602: פרהדיא, פרח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01607: פָּרָהפוּרְנוֹן, פָּרָהפִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01609: פרואמה, פרואמי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01624: פֵּרוּדָא, פֵּרוּדָא — headwords[1] repeats headwords[0] (פֵּרוּדָא) under NFC
+- Q01668: פְּרוֹטוֹגַמְיָא, פְּרוֹטֹגַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01680: פַּרְוִילָא, פַּרְוִוי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01689: פָּרוּכְתָּא, פָּרֻכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01722: פֵּרוּעַ ², פֵּיר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01723: פְּרוֹפּוֹסִיטוֹס, פְּרוֹפְסִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01746: פִּרְזוֹמָא, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01747: פִּרְזוּמָא, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01751: פַּרְזְלָא II, טַוַּור פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01759: פרחבלין, פרחביל׳, פרחבינ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- Q01782: פִּרְטְתָא II, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01792: פָּרִידְתָּא, פָּרִדְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01822: פְּרִיפּוֹסִיטִין, פריפיס׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01836: פָּרִישָׁא, פְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01886: פִּרְנוּס, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01887: פִּרְנוּק, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01934: פִּרְסֵם, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01961: פִּרְפֵּר, פִּירְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01963: פִּרְפֵּר ², פִּירְ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01974: פִּרְצָה, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01983: פִּרְקָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01993: פֵּרָקוֹן, פֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01994: פִּרְקוּנָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02011: פֻּרְקָן, פָּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02088: פִּשְׁפּוּשׁ, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02090: פִּשְׁפֵּשׁ, פִּי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02094: פִּשְׁפָּשׁ, פִּי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02148: פִּתְחָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02149: פִּתְחוֹן, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02193: פִּתְפּוּת, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02203: *פִּתְרָא, פִּי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00061: צִבְעָא, צִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00062: צִבְעָא ², צִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00064: צִבְעוֹן II, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00065: צִבְעוֹנָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00076: צִבְתָא, צִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00116: צִדְעָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00193: צוּלָאֵי, בֵּית צ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00220: צוֹפִים, הַצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00262: צוּת, צָוַת) — the line's parentheses do not balance, so the layout cannot be settled from the source
+- R00271: צָחוּתָא, צָה׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00280: צִחְצוּחַ, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00281: צִחְצוּחָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00295: צִיבּוּר, צִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00312: צִידּוּק, צִדּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00317: צִיהוּב, צִה׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00373: צִימּוּחַ ², צִמּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00375: צִימּוּק, צִמּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00377: צִימֵּחַ, צִמֵּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1087,84 +1175,15 @@ _none_
 - R00383: צִימְרָא, צִמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00399: צִינְּתָא, צִנְּ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00400: צִינְּתָא ², צִנְּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01624: פֵּרוּדָא, פֵּרוּדָא — headwords[1] repeats headwords[0] (פֵּרוּדָא) under NFC
-- Q01668: פְּרוֹטוֹגַמְיָא, פְּרוֹטֹגַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01680: פַּרְוִילָא, פַּרְוִוי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00409: צִיפּוּנָא, צִיפ׳, צִפּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - R00429: צִיפְתָּא, צִפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00446: צַיְקָן, צוֹיְ׳, צוֹיְי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - R00459: צִירְיָא, צִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01689: פָּרוּכְתָּא, פָּרֻכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01722: פֵּרוּעַ ², פֵּיר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01723: פְּרוֹפּוֹסִיטוֹס, פְּרוֹפְסִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01746: פִּרְזוֹמָא, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01747: פִּרְזוּמָא, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01751: פַּרְזְלָא II, טַוַּור פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00478: צַלָּאֵי, בֵּית צ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00487: צַלְהוֹבָא, צִלְהוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00499: צְלוֹתָא, צְלוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00504: צִלְחֲתָא, צִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00793: עֲלִיבָא, עֲלוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00814: עִלִיתָא, עֲלִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00831: עִלְעוֹל, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00835: עלְעִל, עִילְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00837: עִלְעֵל, עֵו׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00846: עָלָתָא, עְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00858: עֹמֶד, עוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00869: עַמּוֹן, בְּנֵי עַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00893: עָמִירָא, עֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00911: עִמְסוֹנִי, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00922: עָמְקָא, עַמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00924: עִמְקוּתָא, עִימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00943: עִנְּבָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00947: עֵנַבְתָּא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00965: עִנְוְתָן, עִנְוְו׳, עִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P00967: עִנְוְתָנוּת, עִנְוְו׳, עִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P00968: עִנְוְתָנוּתָא, עִנְוְו׳, עִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P00983: עֲנִיָּה II, ע׳ עֲנָתוֹת — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00991: ענים, כפר ע׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00993: עִנְיָנָא, עִנְיָי׳, עִי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P00996: עַנִּיתָא, עַנִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01011: עִנְקָא, עִי׳, עוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P01021: עַנְתָא, עוּ׳, עִי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P01026: עֵנְתּוֹדְרָיָא, עֵנְתּוֹנְדְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01034: עִסְבָּא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01056: עִסְקָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01083: עֲפָרַיִים, חֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01148: עִקְבָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01150: עֲקֵבָא, עֲקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01193: עִקְלָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01255: עַרְבָא I, עָרְ׳, עֶרְ׳, עִרְ׳, עִי׳ — all 4 alternate(s) are partial; the entry has no alternate lookup key
-- P01260: עִרְבֵּב, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01267: עִרְבּוּב, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01269: עַרְבּוּבְיָא, עִרְ׳, עִירְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P01270: עִרְבּוּבִיתָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01272: עֵרָבוֹן, עֵי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01273: עֵרָבוֹן ², עֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01337: עַרְטִילָּיוּתָא, עַרְטַלְיוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01417: עִרְעֵר, עִירְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01452: עַרְקַת, עַ׳ לִבְנָה — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01480: *עָשִׁיק, עֲ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01481: עָשִׁיק, עֲ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01484: עֲשִׂירָאָה, עֲסִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01492: עָשְׁנָא, עוֹשְׁ׳, עוּשְׁ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P01508: עִשְׂרוֹנָא, עִסְ׳, עֶ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P01519: עֶשְׁתּוֹנָא, עִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01520: עַשְׁתּוֹר, בַּר עַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00006: פֵּאָה, פֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00044: פָּגוּטְיָה, פָּנ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00055: פִּגְיוֹן, פִּיגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00099: פַּגָּשׁ, כְּפַר פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00107: פְּדָגוֹג, פִּידָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00108: פְּדָגוֹגָא, פַּדְגּוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00127: *פְּדִיפְטֵי, קָקוֹ פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00135: פִּדְרָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00172: פּוּזְמְקֵי, פַּזְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00231: פּוֹלִימַרְכוֹס, פּוֹלְמַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00532: צַלְמָנָא, צִילְמָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01759: פרחבלין, פרחביל׳, פרחבינ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- Q01782: פִּרְטְתָא II, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01792: פָּרִידְתָּא, פָּרִדְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00541: צִלְצוּל, צִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00542: צִלְצוֹלִין, צִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00545: צֶלְצָל, צִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1172,44 +1191,25 @@ _none_
 - R00570: צִמְחָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00577: צַמְיָיא, צַ׳ קַיְיטָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00593: צמר, צ׳ מורייה, צ׳ מורין — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- Q01822: פְּרִיפּוֹסִיטִין, פריפיס׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01836: פָּרִישָׁא, פְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00614: צִנּוֹרָא, צִינּ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00619: צִנּוֹרִיתָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01886: פִּרְנוּס, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01887: פִּרְנוּק, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01934: פִּרְסֵם, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00681: צִפּוֹר, צִיפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00684: צִפּוֹרָה, צִיפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00687: צִפּוֹרֶן, צִיפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00688: צִפּוֹרֶת, צִיפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00721: צִפַּרְתָּא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01961: פִּרְפֵּר, פִּירְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01963: פִּרְפֵּר ², פִּירְ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01974: פִּרְצָה, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01983: פִּרְקָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01993: פֵּרָקוֹן, פֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01994: פִּרְקוּנָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00758: צִרְחָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02011: פֻּרְקָן, פָּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00794: צִרְעָה, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00804: צִרְצוּר, צִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00817: צִתְרֵי, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00030: קֵבָה, קֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02088: פִּשְׁפּוּשׁ, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02090: פִּשְׁפֵּשׁ, פִּי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02094: פִּשְׁפָּשׁ, פִּי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00066: קִבְלָא ², קִי׳ III — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00067: קִבְלָא ³, קִי׳ IV — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00080: קְבֵלְתָּא, קְבֵילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00089: קִבְעָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02148: פִּתְחָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02149: פִּתְחוֹן, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02193: פִּתְפּוּת, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00109: קֵבְתָא, קֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00128: קִדְחָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00146: קַדִּישׁ, (קָדִישׁ, קַדִּישָׁא I, קַדִּישָׁא, קַדִּישְׁתָּא — the line's parentheses do not balance, so the layout cannot be settled from the source
-- Q02203: *פִּתְרָא, פִּי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00197: קַדַשׁ, קַ׳ נוּנָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00199: קָדָשָׁא, קְדָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00202: קֵהֶה, קֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1295,63 +1295,6 @@ _none_
 - S01193: קִירְסוּם, קִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01198: קִירְצוּף, קִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01201: קִירְקוּר, קִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00399: רוּמְקִי, כְּרַךְ ר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00954: רִפְסָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00962: רִפְקָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01761: קָפַּנְדַּרְיָא, קוּפַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01769: קַפָּר, הַקַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01770: קַפָּרָא, בַּר קַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01786: קִצְבָה, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01803: קִצְחָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01833: קִצְפָּא, קִיצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01834: קִצָּפוֹן, קִיצָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00521: רַחֲמָא, רַחְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00994: רַצְעָנָא, רוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00998: רִצְפָה, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01000: רִצְפְּתָא, רִיצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01012: רִקְבָּא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01862: קָקוֹ, ק׳ פדיפטי — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00546: רִחֲתָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00566: רִטִיבְתָּא, פּוּנְדְּקָא רְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00586: רִיבּוּי, רִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00589: רִיבּוּעַ, רִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01044: רִקְמָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01069: רִשְׁבָּא, רִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01070: רִשְׁבִּין, רִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01084: רַשְׁיָא, רָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01085: רָשַׁיָּא, רַשַּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00609: רִיהֲטָא, רִהֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00631: רִיחְתָנָא, רֵחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00640: רִיכּוּנָא, רִכּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00647: רֵימָנָא, רֵימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00650: רִינּוּן, רִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00651: רִינּוּנָא, רִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00656: רֵיסָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00660: רִיסּוּקָא, רִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00667: רִיסְתָּקָא, רִסְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01906: קַרְדּוֹם, קוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01914: קַרְדִּימָא, בַּר קַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01940: קֵרוּיָה, קֵיר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01953: קְרוֹנְתָּא, קְרוּנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01109: רִשְׁפָּא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01125: רִתְחָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01142: רִתְמָא, רִי׳, רוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- T01147: רִתְקָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00673: רֵיעוּתָא, רֵע׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00678: רִיפּוּי, רִפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00695: רִיקּוּד, רִקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00697: רִיקּוּחַ, רִקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00699: רִיקּוּעַ, רִקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00722: רִישּׁוּם, רִשּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01990: קַרְטוּב, קוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00736: רִיתּוּת, רִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00749: רִכְבָּא, רִיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00775: רִכְסָא I, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00776: רִכְסָא, רִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00778: רִכְפַּת, רִיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00779: רִכְשָׁא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00793: רִמָּה, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00795: רִמּוֹן, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01202: קִירְקָנוֹת, קוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01210: קִישּׁוּט, קִשּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01211: קִישּׁוּטָא, קִשּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1367,32 +1310,17 @@ _none_
 - S01283: *קְלוּסַנְטְרִין, קְלוּסַנְתְּרִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01305: קִלְחָא, קִי׳, קוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - S01311: קִלְטָא, קִי׳, קוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- S02286: קְתִדְרִין, קְתִידְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S02288: קָתוֹלִיקוֹס, קָתְלִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00057: רִבְדָּא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00064: רִבּוֹא, רִיבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00065: רִבּוֹא ², רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00074: רִבּוּנָא, רִיבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01347: קְלִיפָא, קַלִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00111: רִבִּית, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00131: רִבְעָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00142: רִבְקָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01398: קִלְעָא, קִי׳ II, קַלְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - S01405: קַלְפָא, קִלְ׳, קִילְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - S01420: קִלְקַלְתָּא, קִלְקֶילְ׳, קִי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - S01421: (קַלְקַנְתּוּם, קַלְקַנְתּוֹס, קַנְ׳ — the line's parentheses do not balance, so the layout cannot be settled from the source
 - S01457: קִמְחוּנְיָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00187: רְגִיגְתָּא, רְגִגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00214: רִגְמָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00219: רִגְעָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01459: קִמְחִית, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01465: קַמְטְרָא, קוּמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01467: קָמֵי, ק׳ שָׂפָה — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01482: קַמְפּוֹן, קוּמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01492: קַמְצָר, בֶּן קַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00228: רִגְּתָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00269: רַדְתָּא, רָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00282: רִהֲטוֹן, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01565: קַנְטְרָן, קַנְתְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01575: קְנִיגְיָא, קִינִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01576: קְנִיגְיוֹן, קִינִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1400,32 +1328,104 @@ _none_
 - S01610: קַנְקָל, קִינְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01639: קַסְוָוא, קַשְׂ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01661: קַסִּיטְרוֹן, קַסִּטְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00387: רוּמְחָא, רוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U00033: שְׁאֵלָה, שְׁאִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U00036: שאן, בר ש׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U00037: שְׁאָן, בֵּית שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U00067: שִׁבְּבִין, שִׁבְ׳, שֵׁיבְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- S01761: קָפַּנְדַּרְיָא, קוּפַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01769: קַפָּר, הַקַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01770: קַפָּרָא, בַּר קַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01786: קִצְבָה, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01803: קִצְחָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01833: קִצְפָּא, קִיצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01834: קִצָּפוֹן, קִיצָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01862: קָקוֹ, ק׳ פדיפטי — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01906: קַרְדּוֹם, קוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01914: קַרְדִּימָא, בַּר קַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01940: קֵרוּיָה, קֵיר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01953: קְרוֹנְתָּא, קְרוּנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01990: קַרְטוּב, קוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S02040: קִרְיָה II, קִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S02045: קִרְיוּתָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S02058: קִרְיָינוֹס, כְּפַר קִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S02091: קִרְמָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S02095: קְרַמְיוֹן, קִירַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S02108: קַרְנַיִם, כְּפַר ק׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S02122: *קִרְסֵי, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S02179: קַרְקֵפֶל, קַרְקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S02190: קַרְקְשָׁא, קַרְקִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S02286: קְתִדְרִין, קְתִידְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S02288: קָתוֹלִיקוֹס, קָתְלִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00057: רִבְדָּא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00064: רִבּוֹא, רִיבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00065: רִבּוֹא ², רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00074: רִבּוּנָא, רִיבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00111: רִבִּית, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00131: רִבְעָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00142: רִבְקָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00187: רְגִיגְתָּא, רְגִגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00214: רִגְמָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00219: רִגְעָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00228: רִגְּתָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00269: רַדְתָּא, רָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00282: רִהֲטוֹן, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00387: רוּמְחָא, רוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00399: רוּמְקִי, כְּרַךְ ר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00521: רַחֲמָא, רַחְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00546: רִחֲתָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00566: רִטִיבְתָּא, פּוּנְדְּקָא רְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00586: רִיבּוּי, רִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00589: רִיבּוּעַ, רִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00609: רִיהֲטָא, רִהֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00631: רִיחְתָנָא, רֵחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00640: רִיכּוּנָא, רִכּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00647: רֵימָנָא, רֵימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00650: רִינּוּן, רִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00651: רִינּוּנָא, רִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00656: רֵיסָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00660: רִיסּוּקָא, רִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00667: רִיסְתָּקָא, רִסְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00673: רֵיעוּתָא, רֵע׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00678: רִיפּוּי, רִפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00695: רִיקּוּד, רִקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00697: רִיקּוּחַ, רִקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00699: רִיקּוּעַ, רִקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00722: רִישּׁוּם, רִשּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00736: רִיתּוּת, רִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00749: רִכְבָּא, רִיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00775: רִכְסָא I, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00776: רִכְסָא, רִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00778: רִכְפַּת, רִיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00779: רִכְשָׁא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00793: רִמָּה, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00795: רִמּוֹן, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - T00836: רִמְצָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - T00839: רַמְשִׁית, רוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - T00844: רִנָּה, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - T00858: רִסְנָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U00076: שְׁבוֹיָיתָא, שְׁבוֹיָיתָא — headwords[1] repeats headwords[0] (שְׁבוֹיָיתָא) under NFC
-- S02108: קַרְנַיִם, כְּפַר ק׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S02122: *קִרְסֵי, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - T00884: רַעְוָא, רַעֲ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - T00885: רַעְוָא ², רַעֲ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00954: רִפְסָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00962: רִפְקָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00994: רַצְעָנָא, רוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00998: רִצְפָה, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01000: רִצְפְּתָא, רִיצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01012: רִקְבָּא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01044: רִקְמָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01069: רִשְׁבָּא, רִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01070: רִשְׁבִּין, רִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01084: רַשְׁיָא, רָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01085: רָשַׁיָּא, רַשַּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01109: רִשְׁפָּא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01125: רִתְחָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01142: רִתְמָא, רִי׳, רוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- T01147: רִתְקָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U00033: שְׁאֵלָה, שְׁאִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U00036: שאן, בר ש׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U00037: שְׁאָן, בֵּית שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U00067: שִׁבְּבִין, שִׁבְ׳, שֵׁיבְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- U00076: שְׁבוֹיָיתָא, שְׁבוֹיָיתָא — headwords[1] repeats headwords[0] (שְׁבוֹיָיתָא) under NFC
 - U00140: שִׁבְלָא, שִׁבְּ׳, שֻׁבְּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - U00146: שִׁבְלֵי, שִׂ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00170: שִׁבְקָא, שִׁי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00171: שִׁבְקָא ², שִׁי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00188: שִׁבְשָׁא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S02179: קַרְקֵפֶל, קַרְקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S02190: קַרְקְשָׁא, קַרְקִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00213: שִׁגְדָּא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00231: שִׁגְמָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00238: שִׁגְרָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1462,72 +1462,6 @@ _none_
 - U00678: שִׁחְנָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00720: שִׁחֲרֵר, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00727: שִׁחֲתָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01776: שְׁפֵלָה, שְׁפֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01780: שְׁפֶלְתָּא, שְׁפֵלְ׳, שְׁפֵילְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- U01813: שִׂפְתָא, שִׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01862: שַׁקְיָינָא, שִׁיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01873: שִׁקְמָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01874: שִׁקְמָה, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01883: שַׁקְפָא, שָׁ׳, שִׁי׳ I — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- U01888: שִׁקְצָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01925: שִׂרְגָא, שִׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01954: שֵׂרָטוֹן, שֵׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01967: שִׁרְיוֹן, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01977: שִׁרְיַית, יַמָּא דשִׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01987: שָׁרִיר, שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01993: שְׂרָכָא, שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01994: שַׁרְכָּפָא, שַׁרְכְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U02014: שְׂרֵפָה, שְׂרֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U02089: שְׁתַחְוָיָה, (שְׁתַּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U02096: שִׁתְיָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00014: תִּאוּבְתָּא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00027: תְּאֵנָה, תְּאֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00056: תַּבְלָא, תִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00059: תִּבְלָלָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00065: תִּבְנָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00082: תִּגָּארָא, תִּיגָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00083: תִּגְדָּא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00085: תַּגְלָא, בֶּן תַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00092: תִּגְרָא, תִּי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00093: תִּגְרָא ², תִּי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00094: תִּגְּרָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00098: תַּגָּרוּתָא, תִּ׳, תִּי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- V00100: תִּגְרָנָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00101: תִּגְרְתָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00112: *תַּדָּל, בֶּן תַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00129: תַּהְפּוּכְתָּא, תַּהֲפוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00164: תִּוְהָא, תִּוְו׳, תִּיוְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- V00167: תַּוְהוּת, תַּוְו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00168: תַּוְהוּתָא, תַּוְו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00184: תּוּחְלָא, תַּחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00190: תּוּטָנִי, בַּר תּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00214: תּוּלְדְּתָא, תּוֹלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00218: תּוּלְעֲבָא, תֻּלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00277: תַּוָּרָא, תַּוָּו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00305: תּוּרְנָא, תָּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00314: תּוֹרְפָא, תּוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00322: תּוֹרָתָא, בֵּי ת׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00327: תּוּשְׁבָּחָה, תִּשְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00379: תַּחֲמִין, כְּפַר תַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00380: תְּחִנָּה, תְּחִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00400: תֵּיאָבוֹן, תֵּאָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00410: תִּיבּוּרָא, תִּבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00411: תֵּיבוּתָא, תֵּיבוֹ׳, תֵּב׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- V00427: תְּיוֹמָא, תְּיוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00431: תִּיחוּחַ, תִּח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00459: תִּימּוּר, תִּימּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00470: תִּינוֹק, תִּנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00489: תִּיקּוּנָא, תִּקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00501: תִּירוּכִין, תִּר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00516: תְּיָשָׁא, תֵּי׳, תְּיָי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- V00521: תִּכָּא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00526: תַּכְבְּרָא, תּוּכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00542: תִּכְלָא, תִּי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00545: תִּכְלוּ, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00548: תְּכֶלְתָּא, תְּכֶילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00566: תְּלָא, תְּ׳ אִילָּן — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00579: תִּלּוּל, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00585: תִּלְחָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00752: שָׁטִּים, שִׁיטִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00765: שִׁטְפָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00772: שִׁטְרָא, שִׁיטְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1633,6 +1567,72 @@ _none_
 - U01684: שֵׂעָר, שֵׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U01693: שְׁעָרִים, בֵּית שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U01705: שִׁפָּא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01776: שְׁפֵלָה, שְׁפֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01780: שְׁפֶלְתָּא, שְׁפֵלְ׳, שְׁפֵילְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- U01813: שִׂפְתָא, שִׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01862: שַׁקְיָינָא, שִׁיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01873: שִׁקְמָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01874: שִׁקְמָה, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01883: שַׁקְפָא, שָׁ׳, שִׁי׳ I — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- U01888: שִׁקְצָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01925: שִׂרְגָא, שִׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01954: שֵׂרָטוֹן, שֵׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01967: שִׁרְיוֹן, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01977: שִׁרְיַית, יַמָּא דשִׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01987: שָׁרִיר, שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01993: שְׂרָכָא, שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01994: שַׁרְכָּפָא, שַׁרְכְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U02014: שְׂרֵפָה, שְׂרֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U02089: שְׁתַחְוָיָה, (שְׁתַּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U02096: שִׁתְיָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00014: תִּאוּבְתָּא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00027: תְּאֵנָה, תְּאֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00056: תַּבְלָא, תִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00059: תִּבְלָלָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00065: תִּבְנָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00082: תִּגָּארָא, תִּיגָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00083: תִּגְדָּא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00085: תַּגְלָא, בֶּן תַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00092: תִּגְרָא, תִּי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00093: תִּגְרָא ², תִּי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00094: תִּגְּרָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00098: תַּגָּרוּתָא, תִּ׳, תִּי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- V00100: תִּגְרָנָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00101: תִּגְרְתָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00112: *תַּדָּל, בֶּן תַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00129: תַּהְפּוּכְתָּא, תַּהֲפוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00164: תִּוְהָא, תִּוְו׳, תִּיוְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- V00167: תַּוְהוּת, תַּוְו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00168: תַּוְהוּתָא, תַּוְו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00184: תּוּחְלָא, תַּחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00190: תּוּטָנִי, בַּר תּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00214: תּוּלְדְּתָא, תּוֹלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00218: תּוּלְעֲבָא, תֻּלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00277: תַּוָּרָא, תַּוָּו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00305: תּוּרְנָא, תָּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00314: תּוֹרְפָא, תּוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00322: תּוֹרָתָא, בֵּי ת׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00327: תּוּשְׁבָּחָה, תִּשְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00379: תַּחֲמִין, כְּפַר תַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00380: תְּחִנָּה, תְּחִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00400: תֵּיאָבוֹן, תֵּאָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00410: תִּיבּוּרָא, תִּבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00411: תֵּיבוּתָא, תֵּיבוֹ׳, תֵּב׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- V00427: תְּיוֹמָא, תְּיוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00431: תִּיחוּחַ, תִּח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00459: תִּימּוּר, תִּימּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00470: תִּינוֹק, תִּנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00489: תִּיקּוּנָא, תִּקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00501: תִּירוּכִין, תִּר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00516: תְּיָשָׁא, תֵּי׳, תְּיָי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- V00521: תִּכָּא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00526: תַּכְבְּרָא, תּוּכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00542: תִּכְלָא, תִּי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00545: תִּכְלוּ, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00548: תְּכֶלְתָּא, תְּכֶילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00566: תְּלָא, תְּ׳ אִילָּן — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00579: תִּלּוּל, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00585: תִּלְחָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - V00611: תְּלַמְיוֹן, בַּר תְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - V00627: תִּלְתָּא, תִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - V00629: תִּלְתּוּל, תִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1759,10 +1759,6 @@ Source (composed):
 	"_id": {
 		"$oid": "5c4670aa08d98a02694c53b8"
 	},
-	"headword": "א",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "A00000",
-	"refs": [],
 	"content": {
 		"senses": [
 			{
@@ -1770,8 +1766,12 @@ Source (composed):
 			}
 		]
 	},
+	"headword": "א",
+	"next_hw": "א ²",
+	"parent_lexicon": "Jastrow Dictionary",
 	"quotes": [],
-	"next_hw": "א ²"
+	"refs": [],
+	"rid": "A00000"
 }
 ```
 
@@ -1810,10 +1810,26 @@ Source (composed):
 	"_id": {
 		"$oid": "5c46729508d98a02694c61f6"
 	},
+	"alt_headwords": [],
+	"content": {
+		"morphology": "m.",
+		"senses": [
+			{
+				"definition": "<i>turn, method, plan</i>. [In later Hebr.: <i>method of interpretation</i> = <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פָּנִים.1\" data-ref=\"Jastrow, פָּנִים 1\">פָּנִים</a>.]—Pl. <span dir=\"rtl\">אוֹפָנִים</span>; <i>Du.</i> <span dir=\"rtl\">אוֹפְנַיִים</span>. Ruth. R. s. 2, beg. You will soon find out <span dir=\"rtl\">איפניים שלהם וכ׳</span> (<a class=\"refLink\" href=\"/Yalkut_Shimoni_on_Nach.7.4\" data-ref=\"Yalkut Shimoni on Nach 7:4\">Yalk. Josh. 7</a> <span dir=\"rtl\">אופנים</span>) their plans (strategic movements). Ab. d’R. Nath. (ed. Taussig, N’veh Shal. p. 12) <span dir=\"rtl\">על אופניו</span> in its proper way."
+			}
+		]
+	},
 	"headword": "אוֹפֶן",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "A00812",
 	"language_code": "(b. h. ",
+	"language_reference": "<a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_אוֹפֶן.1\" data-ref=\"Jastrow, אוֹפֶן 1\">אֹפֶן</a>; v. <a class=\"refLink\" href=\"/Jastrow,_אוֹפָן.1\" data-ref=\"Jastrow, אוֹפָן 1\">foreg.</a>)",
+	"next_hw": "אוֹפַנָּא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"plural_form": [
+		"אוֹפָנִים",
+		""
+	],
+	"prev_hw": "אוֹפָן",
+	"quotes": [],
 	"refs": [
 		"Jastrow, אוֹפָן 1",
 		"Yalkut Shimoni on Nach 7:1",
@@ -1821,23 +1837,7 @@ Source (composed):
 		"Yalkut Shimoni on Nach 7:3",
 		"Yalkut Shimoni on Nach 7:4"
 	],
-	"language_reference": "<a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_אוֹפֶן.1\" data-ref=\"Jastrow, אוֹפֶן 1\">אֹפֶן</a>; v. <a class=\"refLink\" href=\"/Jastrow,_אוֹפָן.1\" data-ref=\"Jastrow, אוֹפָן 1\">foreg.</a>)",
-	"content": {
-		"senses": [
-			{
-				"definition": "<i>turn, method, plan</i>. [In later Hebr.: <i>method of interpretation</i> = <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פָּנִים.1\" data-ref=\"Jastrow, פָּנִים 1\">פָּנִים</a>.]—Pl. <span dir=\"rtl\">אוֹפָנִים</span>; <i>Du.</i> <span dir=\"rtl\">אוֹפְנַיִים</span>. Ruth. R. s. 2, beg. You will soon find out <span dir=\"rtl\">איפניים שלהם וכ׳</span> (<a class=\"refLink\" href=\"/Yalkut_Shimoni_on_Nach.7.4\" data-ref=\"Yalkut Shimoni on Nach 7:4\">Yalk. Josh. 7</a> <span dir=\"rtl\">אופנים</span>) their plans (strategic movements). Ab. d’R. Nath. (ed. Taussig, N’veh Shal. p. 12) <span dir=\"rtl\">על אופניו</span> in its proper way."
-			}
-		],
-		"morphology": "m."
-	},
-	"plural_form": [
-		"אוֹפָנִים",
-		""
-	],
-	"alt_headwords": [],
-	"quotes": [],
-	"prev_hw": "אוֹפָן",
-	"next_hw": "אוֹפַנָּא"
+	"rid": "A00812"
 }
 ```
 
@@ -1879,12 +1879,6 @@ Source (composed):
 	"_id": {
 		"$oid": "5c4673dc08d98a02694c6f30"
 	},
-	"headword": "אִישְׂטַטְיוֹן",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "A01624",
-	"refs": [
-		"Jastrow, אִסְטְרָטָא 1"
-	],
 	"content": {
 		"senses": [
 			{
@@ -1892,9 +1886,15 @@ Source (composed):
 			}
 		]
 	},
-	"quotes": [],
+	"headword": "אִישְׂטַטְיוֹן",
+	"next_hw": "אֶישְׁפָּה",
+	"parent_lexicon": "Jastrow Dictionary",
 	"prev_hw": "אֵישׁוּת",
-	"next_hw": "אֶישְׁפָּה"
+	"quotes": [],
+	"refs": [
+		"Jastrow, אִסְטְרָטָא 1"
+	],
+	"rid": "A01624"
 }
 ```
 
@@ -1933,12 +1933,6 @@ Source (composed):
 	"_id": {
 		"$oid": "5c46752408d98a02694c7d98"
 	},
-	"headword": "אָסִיל",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "A02436",
-	"refs": [
-		"Jastrow, אָסֵל 1"
-	],
 	"content": {
 		"senses": [
 			{
@@ -1946,9 +1940,15 @@ Source (composed):
 			}
 		]
 	},
-	"quotes": [],
+	"headword": "אָסִיל",
+	"next_hw": "אֲסִימוֹן",
+	"parent_lexicon": "Jastrow Dictionary",
 	"prev_hw": "*אַסְיינָא",
-	"next_hw": "אֲסִימוֹן"
+	"quotes": [],
+	"refs": [
+		"Jastrow, אָסֵל 1"
+	],
+	"rid": "A02436"
 }
 ```
 
@@ -1987,17 +1987,7 @@ Source (composed):
 	"_id": {
 		"$oid": "5c46767b08d98a02694c8bbb"
 	},
-	"headword": "אֲרַר",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "A03248",
-	"language_code": " ch. ",
-	"refs": [
-		"Jastrow, אָרַר 1",
-		"Megillah 31b:9",
-		"Kohelet Rabbah 8:3",
-		"Jerusalem Talmud Megillah 3:7:4"
-	],
-	"language_reference": "<a class=\"refLink\" href=\"/Jastrow,_אָרַר.1\" data-ref=\"Jastrow, אָרַר 1\">same</a>.",
+	"alt_headwords": [],
 	"content": {
 		"senses": [
 			{
@@ -2005,11 +1995,21 @@ Source (composed):
 			}
 		]
 	},
+	"headword": "אֲרַר",
+	"language_code": " ch. ",
+	"language_reference": "<a class=\"refLink\" href=\"/Jastrow,_אָרַר.1\" data-ref=\"Jastrow, אָרַר 1\">same</a>.",
+	"next_hw": "אֲרָרָן",
+	"parent_lexicon": "Jastrow Dictionary",
 	"plural_form": [],
-	"alt_headwords": [],
-	"quotes": [],
 	"prev_hw": "אָרַר",
-	"next_hw": "אֲרָרָן"
+	"quotes": [],
+	"refs": [
+		"Jastrow, אָרַר 1",
+		"Megillah 31b:9",
+		"Kohelet Rabbah 8:3",
+		"Jerusalem Talmud Megillah 3:7:4"
+	],
+	"rid": "A03248"
 }
 ```
 
@@ -2053,12 +2053,6 @@ Source (composed):
 	"_id": {
 		"$oid": "5c4677a308d98a02694c9b47"
 	},
-	"headword": "ביישיא",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "B00603",
-	"refs": [
-		"Jerusalem Talmud Beitzah 1:7:3"
-	],
 	"content": {
 		"senses": [
 			{
@@ -2066,9 +2060,15 @@ Source (composed):
 			}
 		]
 	},
-	"quotes": [],
+	"headword": "ביישיא",
+	"next_hw": "בַּיְישָׁן",
+	"parent_lexicon": "Jastrow Dictionary",
 	"prev_hw": "בַּיְישֹׁונִי",
-	"next_hw": "בַּיְישָׁן"
+	"quotes": [],
+	"refs": [
+		"Jerusalem Talmud Beitzah 1:7:3"
+	],
+	"rid": "B00603"
 }
 ```
 
@@ -2107,16 +2107,9 @@ Source (composed):
 	"_id": {
 		"$oid": "5c4678ef08d98a02694cad00"
 	},
-	"headword": "גְּאִי",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "C00016",
-	"language_code": " ch. ",
-	"refs": [
-		"Jastrow, גאי 1",
-		"Onkelos Exodus 15:21",
-		"Targum Jerusalem, Genesis 1"
+	"alt_headwords": [
+		"גְּאָא"
 	],
-	"language_reference": "<a class=\"refLink\" href=\"/Jastrow,_גאי.1\" data-ref=\"Jastrow, גאי 1\">same</a>",
 	"content": {
 		"senses": [
 			{
@@ -2143,13 +2136,20 @@ Source (composed):
 			}
 		]
 	},
+	"headword": "גְּאִי",
+	"language_code": " ch. ",
+	"language_reference": "<a class=\"refLink\" href=\"/Jastrow,_גאי.1\" data-ref=\"Jastrow, גאי 1\">same</a>",
+	"next_hw": "גֵּאָיוֹת",
+	"parent_lexicon": "Jastrow Dictionary",
 	"plural_form": [],
-	"alt_headwords": [
-		"גְּאָא"
-	],
-	"quotes": [],
 	"prev_hw": "גאי",
-	"next_hw": "גֵּאָיוֹת"
+	"quotes": [],
+	"refs": [
+		"Jastrow, גאי 1",
+		"Onkelos Exodus 15:21",
+		"Targum Jerusalem, Genesis 1"
+	],
+	"rid": "C00016"
 }
 ```
 
@@ -2210,29 +2210,31 @@ Entry:
 }
 ```
 
-### E00039
+### C00828
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c467da908d98a02694ce5b9"
+		"$oid": "5c467a7508d98a02694cbebb"
 	},
-	"headword": "הַבְכֵין",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "E00039",
-	"refs": [],
 	"content": {
 		"senses": [
 			{
-				"definition": " (= <span dir=\"rtl\">הא בכין</span>) <i>Oh then, yea then</i>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Psalms.51.21\" data-ref=\"Aramaic Targum to Psalms 51:21\">Targ. Ps. LI, 21</a>; a. e."
+				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_גֵּרוּת.1\" data-ref=\"Jastrow, גֵּרוּת 1\">גֵּרוּת</a>"
 			}
 		]
 	},
+	"headword": "גֵּירוּת",
+	"next_hw": "גִּירוּתָא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "גֵּירוּשִׁין",
 	"quotes": [],
-	"prev_hw": "הֲבִירָא",
-	"next_hw": "הָבַל"
+	"refs": [
+		"Jastrow, גֵּרוּת 1"
+	],
+	"rid": "C00828"
 }
 ```
 
@@ -2241,24 +2243,22 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "E00039",
-	"sefariaHeadword": "הַבְכֵין",
+	"id": "C00828",
+	"sefariaHeadword": "גֵּירוּת",
 	"headwords": [
 		{
-			"text": "הַבְכֵין"
+			"text": "גֵּירוּת"
 		}
 	],
 	"display": "{0}",
 	"page": {
-		"number": 329,
+		"number": 242,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": " (= <he>הא בכין</he>) <i>Oh then, yea then</i>. ",
-			"units": [
-				"<cite ref=\"Aramaic Targum to Psalms 51:21\">Targ. Ps. LI, 21</cite>; a. e."
-			]
+			"gloss": ", v. <cite ref=\"C01317\"><he>גֵּרוּת</he></cite>",
+			"units": []
 		}
 	]
 }
@@ -2273,12 +2273,6 @@ Source (composed):
 	"_id": {
 		"$oid": "5c467c0a08d98a02694cd0bf"
 	},
-	"headword": "דּוּהֲנִיתָא",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "D00207",
-	"refs": [
-		"Jastrow, דַּהַנְיְתָא 1"
-	],
 	"content": {
 		"senses": [
 			{
@@ -2286,9 +2280,15 @@ Source (composed):
 			}
 		]
 	},
-	"quotes": [],
+	"headword": "דּוּהֲנִיתָא",
+	"next_hw": "דּווָֹא",
+	"parent_lexicon": "Jastrow Dictionary",
 	"prev_hw": "דּוּהֲנָא",
-	"next_hw": "דּווָֹא"
+	"quotes": [],
+	"refs": [
+		"Jastrow, דַּהַנְיְתָא 1"
+	],
+	"rid": "D00207"
 }
 ```
 
@@ -2318,36 +2318,42 @@ Entry:
 }
 ```
 
-### E00343
+### D01019
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c467e1708d98a02694cebbf"
+		"$oid": "5c467d5b08d98a02694ce17f"
 	},
-	"headword": "הִידּוּס",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "E00343",
-	"refs": [
-		"Bava Kamma 17b:20",
-		"Bava Kamma 17b:21",
-		"Bava Kamma 18b:12"
-	],
+	"alt_headwords": [],
 	"content": {
+		"morphology": "m.",
 		"senses": [
 			{
-				"definition": " (<a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_הָדַס.1\" data-ref=\"Jastrow, הָדַס 1\">הָדַס</a>) <i>damage done by scratching chickens</i>. <a class=\"refLink\" href=\"/Bava_Kamma.17b.21\" data-ref=\"Bava Kamma 17b:21\">B. Kam. 17ᵇ</a>; <a class=\"refLink\" href=\"/Bava_Kamma.18b.12\" data-ref=\"Bava Kamma 18b:12\">18ᵇ</a>; v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_מוּעָד.1\" data-ref=\"Jastrow, מוּעָד 1\">מוּעָד</a>."
+				"definition": " (<a class=\"refLink\" href=\"/Jastrow,_דְּקַר.1\" data-ref=\"Jastrow, דְּקַר 1\">preced.</a>) <i>a pronged tool, mattock</i> (v. Sm. Ant. s. v. Raster). <a class=\"refLink\" href=\"/Mishnah_Beitzah.1.2\" data-ref=\"Mishnah Beitzah 1:2\">Bets. I, 2</a>; <a class=\"refLink\" href=\"/Beitzah.7b.24\" data-ref=\"Beitzah 7b:24\">7ᵇ</a>. <a class=\"refLink\" href=\"/Beitzah.7b.24\" data-ref=\"Beitzah 7b:24\">Ib.</a> <span dir=\"rtl\">ד׳ נעוץ וכ׳</span> the mattock was stuck into the ground on the eve of the Festival. <a class=\"refLink\" href=\"/Mishnah_Sheviit.5.6\" data-ref=\"Mishnah Sheviit 5:6\">Shebi. V, 6</a>.—<a class=\"refLink\" href=\"Jerusalem_Talmud_Sotah.2.2.10\" data-ref=\"Jerusalem Talmud Sotah 2:2:10\">Y. Sot. II, 18ᵃ</a> <span dir=\"rtl\">יחפור בדֶקֶל</span> (twice).—Pl. <span dir=\"rtl\">דְּקָרִים</span>, <span dir=\"rtl\">דְּקָרִין</span>. <span dir=\"rtl\">מֵי ד׳</span> <i>apurgative water</i>, v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_דָּקַר.1\" data-ref=\"Jastrow, דָּקַר 1\">דָּקַר</a> a. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_דֶּקֶל.1\" data-ref=\"Jastrow, דֶּקֶל 1\">דֶּקֶל</a>. <a class=\"refLink\" href=\"/Shabbat.110a.6\" data-ref=\"Shabbat 110a:6\">Sabb. 110ᵃ</a> (differences about spelling <span dir=\"rtl\">דקר׳</span> or <span dir=\"rtl\">דקל׳</span>); Y. ib. XIV, 14ᶜ; a. e.—<a class=\"refLink\" href=\"Jerusalem_Talmud_Sukkah.1.1.7\" data-ref=\"Jerusalem Talmud Sukkah 1:1:7\">Y. Succ. I, 52ᵃ</a> bot. <span dir=\"rtl\">כמין ד׳</span> like prongs, v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_דּוֹקְרָן.1\" data-ref=\"Jastrow, דּוֹקְרָן 1\">דּוֹקְרָן</a>."
 			}
-		],
-		"morphology": "m."
+		]
 	},
-	"plural_form": [],
-	"alt_headwords": [],
+	"headword": "דֶּקֶר",
+	"next_hw": "דַּקְרוֹנָא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"plural_form": [
+		"דְּקָרִים",
+		"דְּקָרִין"
+	],
+	"prev_hw": "דְּקַר",
 	"quotes": [],
-	"prev_hw": "הִידוֹאָה",
-	"next_hw": "הִידוֹר"
+	"refs": [
+		"Jastrow, דְּקַר 1",
+		"Beitzah 7b:24",
+		"Beitzah 7b:24",
+		"Shabbat 110a:6",
+		"Jerusalem Talmud Sotah 2:2:10",
+		"Jerusalem Talmud Sukkah 1:1:7"
+	],
+	"rid": "D01019"
 }
 ```
 
@@ -2356,26 +2362,31 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "E00343",
-	"sefariaHeadword": "הִידּוּס",
+	"id": "D01019",
+	"sefariaHeadword": "דֶּקֶר",
 	"headwords": [
 		{
-			"text": "הִידּוּס"
+			"text": "דֶּקֶר"
 		}
 	],
 	"display": "{0}",
 	"page": {
-		"number": 343,
-		"column": "b"
+		"number": 320,
+		"column": "a"
 	},
 	"grammar": {
 		"gender": "m"
 	},
 	"senses": [
 		{
-			"gloss": "m. (<cite ref=\"E00135\"><he>הָדַס</he></cite>) <i>damage done by scratching chickens</i>. ",
+			"gloss": "m. (<cite ref=\"D01018\">preced.</cite>) <i>a pronged tool, mattock</i> (v. Sm. Ant. s. v. Raster). ",
 			"units": [
-				"<cite ref=\"Bava Kamma 17b:21\">B. Kam. 17ᵇ</cite>; <cite ref=\"Bava Kamma 18b:12\">18ᵇ</cite>; v. <cite ref=\"M00556\"><he>מוּעָד</he></cite>."
+				"<cite ref=\"Mishnah Beitzah 1:2\">Bets. I, 2</cite>; <cite ref=\"Beitzah 7b:24\">7ᵇ</cite>. ",
+				"<cite ref=\"Beitzah 7b:24\">Ib.</cite> <he>ד׳ נעוץ וכ׳</he> the mattock was stuck into the ground on the eve of the Festival. ",
+				"<cite ref=\"Mishnah Sheviit 5:6\">Shebi. V, 6</cite>.—",
+				"<cite ref=\"Jerusalem Talmud Sotah 2:2:10\">Y. Sot. II, 18ᵃ</cite> <he>יחפור בדֶקֶל</he> (twice).—Pl. <he>דְּקָרִים</he>, <he>דְּקָרִין</he>. <he>מֵי ד׳</he> <i>apurgative water</i>, v. <cite ref=\"D01017\"><he>דָּקַר</he></cite> a. <cite ref=\"D01009\"><he>דֶּקֶל</he></cite>. ",
+				"<cite ref=\"Shabbat 110a:6\">Sabb. 110ᵃ</cite> (differences about spelling <he>דקר׳</he> or <he>דקל׳</he>); Y. ib. XIV, 14ᶜ; a. e.—",
+				"<cite ref=\"Jerusalem Talmud Sukkah 1:1:7\">Y. Succ. I, 52ᵃ</cite> bot. <he>כמין ד׳</he> like prongs, v. <cite ref=\"D00339\"><he>דּוֹקְרָן</he></cite>."
 			]
 		}
 	]
@@ -2391,12 +2402,6 @@ Source (composed):
 	"_id": {
 		"$oid": "5c467e6908d98a02694cf1c5"
 	},
-	"headword": "הַנָּה",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "E00667",
-	"refs": [
-		"Jastrow, הָן 1"
-	],
 	"content": {
 		"senses": [
 			{
@@ -2404,9 +2409,15 @@ Source (composed):
 			}
 		]
 	},
-	"quotes": [],
+	"headword": "הַנָּה",
+	"next_hw": "הִנֵּה",
+	"parent_lexicon": "Jastrow Dictionary",
 	"prev_hw": "הִנְדְּקוֹקֵי",
-	"next_hw": "הִנֵּה"
+	"quotes": [],
+	"refs": [
+		"Jastrow, הָן 1"
+	],
+	"rid": "E00667"
 }
 ```
 
@@ -2445,11 +2456,8 @@ Source (composed):
 	"_id": {
 		"$oid": "5c467fa608d98a02694d021c"
 	},
-	"headword": "זִיפְתּ׳",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "G00401",
-	"refs": [
-		"Jastrow, זֵפָא 1"
+	"alt_headwords": [
+		"זִיפְתָא"
 	],
 	"content": {
 		"senses": [
@@ -2458,12 +2466,15 @@ Source (composed):
 			}
 		]
 	},
-	"alt_headwords": [
-		"זִיפְתָא"
-	],
-	"quotes": [],
+	"headword": "זִיפְתּ׳",
+	"next_hw": "זיפתי",
+	"parent_lexicon": "Jastrow Dictionary",
 	"prev_hw": "זִיפְרִין",
-	"next_hw": "זיפתי"
+	"quotes": [],
+	"refs": [
+		"Jastrow, זֵפָא 1"
+	],
+	"rid": "G00401"
 }
 ```
 
@@ -2505,23 +2516,23 @@ Source (composed):
 	"_id": {
 		"$oid": "5c46817408d98a02694d15b9"
 	},
-	"headword": "חוֹרֵם",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "H00471",
-	"refs": [
-		"Jastrow, חָרַם 1"
-	],
 	"content": {
+		"morphology": "m.",
 		"senses": [
 			{
 				"definition": "<i>net-maker</i>, or <i>fisher</i>, v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_חָרַם.1\" data-ref=\"Jastrow, חָרַם 1\">חָרַם</a>."
 			}
-		],
-		"morphology": "m."
+		]
 	},
-	"quotes": [],
+	"headword": "חוֹרֵם",
+	"next_hw": "חוּרְמָה",
+	"parent_lexicon": "Jastrow Dictionary",
 	"prev_hw": "חוּרְלָא",
-	"next_hw": "חוּרְמָה"
+	"quotes": [],
+	"refs": [
+		"Jastrow, חָרַם 1"
+	],
+	"rid": "H00471"
 }
 ```
 
@@ -2554,267 +2565,35 @@ Entry:
 }
 ```
 
-### I00369
+### H01283
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c46850708d98a02694d3ea3"
+		"$oid": "5c46832308d98a02694d2890"
 	},
-	"headword": "טִילְמָא",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "I00369",
-	"refs": [
-		"Jastrow, טְלוּמָא 1"
-	],
-	"content": {
-		"senses": [
-			{
-				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_טְלוּמָא.1\" data-ref=\"Jastrow, טְלוּמָא 1\">טְלוּמָא</a>"
-			}
-		]
-	},
-	"quotes": [],
-	"prev_hw": "טִילְיָא",
-	"next_hw": "טִילְפָא"
-}
-```
-
-Entry:
-
-```json
-{
-	"schemaVersion": 2,
-	"id": "I00369",
-	"sefariaHeadword": "טִילְמָא",
-	"headwords": [
-		{
-			"text": "טִילְמָא"
-		}
-	],
-	"display": "{0}",
-	"page": {
-		"number": 532,
-		"column": "a"
-	},
-	"senses": [
-		{
-			"gloss": ", v. <cite ref=\"I00480\"><he>טְלוּמָא</he></cite>",
-			"units": []
-		}
-	]
-}
-```
-
-### H01095
-
-Source (composed):
-
-```json
-{
-	"_id": {
-		"$oid": "5c4682a408d98a02694d23bd"
-	},
-	"headword": "חַלָּמִישׁ",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "H01095",
-	"refs": [
-		"Jastrow, נָוֶה II 1",
-		"Vayikra Rabbah 23:5",
-		"Shir HaShirim Rabbah 2:2:5",
-		"Eichah Rabbah 1:52"
-	],
-	"content": {
-		"senses": [
-			{
-				"definition": "<i>Ḥallamish</i> (<i>Rock</i>), a place near Naveh (v. <a class=\"refLink\" href=\"/Jastrow,_נָוֶה II.1\" data-ref=\"Jastrow, נָוֶה II 1\"><span dir=\"rtl\">נָוֶה</span> III</a>) and inhabited by hostile gentiles. <a class=\"refLink\" href=\"/Vayikra_Rabbah.23.5\" data-ref=\"Vayikra Rabbah 23:5\">Lev. R. s. 23</a>; <a class=\"refLink\" href=\"/Shir_HaShirim_Rabbah.2.2.5\" data-ref=\"Shir HaShirim Rabbah 2:2:5\">Cant. R. to II, 2</a>; <a class=\"refLink\" href=\"/Eichah_Rabbah.1.52\" data-ref=\"Eichah Rabbah 1:52\">Lam. R. to I, 17</a>."
-			}
-		],
-		"morphology": "pr. n. pl."
-	},
-	"plural_form": [],
-	"alt_headwords": [],
-	"quotes": [],
-	"prev_hw": "חלמין",
-	"next_hw": "חִלְמִית"
-}
-```
-
-Entry:
-
-```json
-{
-	"schemaVersion": 2,
-	"id": "H01095",
-	"sefariaHeadword": "חַלָּמִישׁ",
-	"headwords": [
-		{
-			"text": "חַלָּמִישׁ"
-		}
-	],
-	"display": "{0}",
-	"page": {
-		"number": 471,
-		"column": "b"
-	},
-	"senses": [
-		{
-			"gloss": "pr. n. pl. <i>Ḥallamish</i> (<i>Rock</i>), a place near Naveh (v. <cite ref=\"N00316\"><he>נָוֶה</he> III</cite>) and inhabited by hostile gentiles. ",
-			"units": [
-				"<cite ref=\"Vayikra Rabbah 23:5\">Lev. R. s. 23</cite>; <cite ref=\"Shir HaShirim Rabbah 2:2:5\">Cant. R. to II, 2</cite>; <cite ref=\"Eichah Rabbah 1:52\">Lam. R. to I, 17</cite>."
-			]
-		}
-	]
-}
-```
-
-### K00318
-
-Source (composed):
-
-```json
-{
-	"_id": {
-		"$oid": "5c4688c408d98a02694d66e6"
-	},
-	"headword": "כּוֹסָא ²",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "K00318",
-	"refs": [
-		"Jastrow, כַּסָּא I 1"
-	],
-	"content": {
-		"senses": [
-			{
-				"definition": "<i>cup</i>, v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_כַּסָּא I.1\" data-ref=\"Jastrow, כַּסָּא I 1\">כַּסָּא</a>."
-			}
-		]
-	},
-	"quotes": [],
-	"prev_hw": "כּוֹסָא",
-	"next_hw": "כּוֹסָאתָא"
-}
-```
-
-Entry:
-
-```json
-{
-	"schemaVersion": 2,
-	"id": "K00318",
-	"sefariaHeadword": "כּוֹסָא ²",
-	"headwords": [
-		{
-			"text": "כּוֹסָא",
-			"disambiguator": 2
-		}
-	],
-	"display": "{0}",
-	"page": {
-		"number": 623,
-		"column": "a"
-	},
-	"senses": [
-		{
-			"gloss": "<i>cup</i>, v. <cite ref=\"K00891\"><he>כַּסָּא</he></cite>.",
-			"units": []
-		}
-	]
-}
-```
-
-### K01130
-
-Source (composed):
-
-```json
-{
-	"_id": {
-		"$oid": "5c468a7408d98a02694d7a0b"
-	},
-	"headword": "כרופסלה",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "K01130",
-	"refs": [
-		"Jastrow, פּוֹדוֹפְסִילָא 1",
-		"Jerusalem Talmud Shabbat 6:4:3"
-	],
-	"content": {
-		"senses": [
-			{
-				"definition": ", <a class=\"refLink\" href=\"Jerusalem_Talmud_Shabbat.6.4.3\" data-ref=\"Jerusalem Talmud Shabbat 6:4:3\">Y. Sabb. VI, 8ᵇ</a> bot. some ed., v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פּוֹדוֹפְסִילָא.1\" data-ref=\"Jastrow, פּוֹדוֹפְסִילָא 1\">פּוֹדוֹפְסִילָא</a>"
-			}
-		]
-	},
-	"quotes": [],
-	"prev_hw": "כְּרוֹפְיָיתָא",
-	"next_hw": "כְּרוֹשְׁיָיתָא"
-}
-```
-
-Entry:
-
-```json
-{
-	"schemaVersion": 2,
-	"id": "K01130",
-	"sefariaHeadword": "כרופסלה",
-	"headwords": [
-		{
-			"text": "כרופסלה"
-		}
-	],
-	"display": "{0}",
-	"page": {
-		"number": 665,
-		"column": "b"
-	},
-	"senses": [
-		{
-			"gloss": ", <cite ref=\"Jerusalem Talmud Shabbat 6:4:3\">Y. Sabb. VI, 8ᵇ</cite> bot. some ed., v. <cite ref=\"Q00163\"><he>פּוֹדוֹפְסִילָא</he></cite>",
-			"units": []
-		}
-	]
-}
-```
-
-### M01828
-
-Source (composed):
-
-```json
-{
-	"_id": {
-		"$oid": "5c468fc308d98a02694db64f"
-	},
-	"headword": "מְסָאָב",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "M01828",
-	"refs": [
-		"Avodah Zarah 37a:3",
-		"Jerusalem Talmud Kilayim 9:3:15",
-		"Jerusalem Talmud Ketubot 12:3:15"
-	],
-	"content": {
-		"senses": [
-			{
-				"definition": " (<a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_סְאֵב I.1\" data-ref=\"Jastrow, סְאֵב I 1\">סְאַב</a>) <i>repulsive; unclean</i>. <a class=\"refLink\" href=\"/Onkelos_Leviticus.5.2\" data-ref=\"Onkelos Leviticus 5:2\">Targ. O. Lev. V, 2</a> (Y. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_מְסָאִיב.1\" data-ref=\"Jastrow, מְסָאִיב 1\">מְסָאִיב</a>). Ib. XIII, 45; a. fr.—<a class=\"refLink\" href=\"/Mishnah_Eduyot.8.4\" data-ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</a> Ms. M. (ed. <span dir=\"rtl\">מסתאב</span>); <a class=\"refLink\" href=\"/Avodah_Zarah.37a.3\" data-ref=\"Avodah Zarah 37a:3\">Ab. Zar. 37ᵃ</a>; a. e.—Pl. <span dir=\"rtl\">מְסָאֲבִין</span>, <span dir=\"rtl\">מְסַאֲבִין</span>. <a class=\"refLink\" href=\"/Onkelos_Leviticus.11.26\" data-ref=\"Onkelos Leviticus 11:26\">Targ. Lev. XI, 26</a>; a. fr.—<i>Fem.</i> <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_מְסָאָב.1\" data-ref=\"Jastrow, מְסָאָב 1\">מְסָאֲבָא</a>, <span dir=\"rtl\">מְסָאַבְתָּא</span>. <a class=\"refLink\" href=\"/Targum_Jonathan_on_Ezekiel.4.14\" data-ref=\"Targum Jonathan on Ezekiel 4:14\">Targ. Ez. IV, 14</a>. <a class=\"refLink\" href=\"/Onkelos_Leviticus.5.2\" data-ref=\"Onkelos Leviticus 5:2\">Targ. Lev. V, 2</a>; a. fr.—<a class=\"refLink\" href=\"Jerusalem_Talmud_Kilayim.9.3.15\" data-ref=\"Jerusalem Talmud Kilayim 9:3:15\">Y. Kil. IX, 32ᶜ</a> bot. <span dir=\"rtl\">ארעא מ׳</span> an unclean land (outside of Palestine); <a class=\"refLink\" href=\"Jerusalem_Talmud_Ketubot.12.3.15\" data-ref=\"Jerusalem Talmud Ketubot 12:3:15\">Y. Keth. XII, 35ᵇ</a> <span dir=\"rtl\">מְסָאַבְתָּה</span>."
-			}
-		],
-		"morphology": "m."
-	},
-	"plural_form": [
-		"מְסָאֲבִין",
-		"מְסַאֲבִין"
-	],
 	"alt_headwords": [
-		"מְסָאֲבָא"
+		"חֲנִטַּיָּא"
 	],
+	"content": {
+		"morphology": "m. pl.",
+		"senses": [
+			{
+				"definition": "<i>embalming</i>. <a class=\"refLink\" href=\"/Onkelos_Genesis.50.3\" data-ref=\"Onkelos Genesis 50:3\">Targ. O. Gen. L, 3</a>."
+			}
+		]
+	},
+	"headword": "חֲנִיטַּיָּא",
+	"language_code": "(b. h. ",
+	"language_reference": "<span dir=\"rtl\">חֲנֻטִים</span>; <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_חֲנַט.1\" data-ref=\"Jastrow, חֲנַט 1\">חֲנַט</a>)",
+	"next_hw": "חַנְיָיא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "חֲניֹּות",
 	"quotes": [],
-	"prev_hw": "מְסָא",
-	"next_hw": "מסאחייא"
+	"refs": [],
+	"rid": "H01283"
 }
 ```
 
@@ -2823,87 +2602,240 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "M01828",
-	"sefariaHeadword": "מְסָאָב",
+	"id": "H01283",
+	"sefariaHeadword": "חֲנִיטַּיָּא",
 	"headwords": [
 		{
-			"text": "מְסָאָב"
+			"text": "חֲנִיטַּיָּא"
 		},
 		{
-			"text": "מְסָאֲבָא"
+			"text": "חֲנִטַּיָּא"
 		}
 	],
 	"display": "{0}, {1}",
 	"page": {
-		"number": 803,
+		"number": 483,
 		"column": "a"
 	},
 	"grammar": {
-		"gender": "m"
+		"gender": "m",
+		"number": "pl"
 	},
 	"senses": [
 		{
-			"gloss": "m. (<cite ref=\"O00004\"><he>סְאַב</he></cite>) <i>repulsive; unclean</i>. ",
+			"gloss": "m. pl. (b. h. <he>חֲנֻטִים</he>; <cite ref=\"H01274\"><he>חֲנַט</he></cite>) <i>embalming</i>. ",
 			"units": [
-				"<cite ref=\"Onkelos Leviticus 5:2\">Targ. O. Lev. V, 2</cite> (Y. <cite ref=\"M01831\"><he>מְסָאִיב</he></cite>). Ib. XIII, 45; a. fr.—",
-				"<cite ref=\"Mishnah Eduyot 8:4\">Eduy. VIII, 4</cite> Ms. M. (ed. <he>מסתאב</he>); <cite ref=\"Avodah Zarah 37a:3\">Ab. Zar. 37ᵃ</cite>; a. e.—Pl. <he>מְסָאֲבִין</he>, <he>מְסַאֲבִין</he>. ",
-				"<cite ref=\"Onkelos Leviticus 11:26\">Targ. Lev. XI, 26</cite>; a. fr.—<i>Fem.</i> <cite ref=\"M01828\"><he>מְסָאֲבָא</he></cite>, <he>מְסָאַבְתָּא</he>. ",
-				"<cite ref=\"Targum Jonathan on Ezekiel 4:14\">Targ. Ez. IV, 14</cite>. ",
-				"<cite ref=\"Onkelos Leviticus 5:2\">Targ. Lev. V, 2</cite>; a. fr.—",
-				"<cite ref=\"Jerusalem Talmud Kilayim 9:3:15\">Y. Kil. IX, 32ᶜ</cite> bot. <he>ארעא מ׳</he> an unclean land (outside of Palestine); <cite ref=\"Jerusalem Talmud Ketubot 12:3:15\">Y. Keth. XII, 35ᵇ</cite> <he>מְסָאַבְתָּה</he>."
+				"<cite ref=\"Onkelos Genesis 50:3\">Targ. O. Gen. L, 3</cite>."
 			]
 		}
 	]
 }
 ```
 
-### J00512
+### I00181
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c46872608d98a02694d571b"
+		"$oid": "5c4684cd08d98a02694d3b47"
 	},
-	"headword": "יְפַע",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "J00512",
-	"language_code": " ch. ",
-	"refs": [
-		"Jastrow, יָפַע 1",
-		"Jastrow, יָפַע 1",
-		"Aramaic Targum to Psalms 94:1"
-	],
-	"language_reference": "<a class=\"refLink\" href=\"/Jastrow,_יָפַע.1\" data-ref=\"Jastrow, יָפַע 1\">same</a>",
 	"content": {
 		"senses": [
 			{
-				"definition": ", <i>to appear, rise</i>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Job.3.4\" data-ref=\"Aramaic Targum to Job 3:4\">Targ. Job III, 4</a> <span dir=\"rtl\">תֵּפַע</span> (<span dir=\"rtl\">תֵּיפַע</span>; h. text <span dir=\"rtl\">תּוֹפַע</span>)."
+				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_טַמְיָקוֹן.1\" data-ref=\"Jastrow, טַמְיָקוֹן 1\">טַמְיָקוֹן</a>"
+			}
+		]
+	},
+	"headword": "טומיקון",
+	"next_hw": "טוּמְעָא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "טומיות",
+	"quotes": [],
+	"refs": [
+		"Jastrow, טַמְיָקוֹן 1"
+	],
+	"rid": "I00181"
+}
+```
+
+Entry:
+
+```json
+{
+	"schemaVersion": 2,
+	"id": "I00181",
+	"sefariaHeadword": "טומיקון",
+	"headwords": [
+		{
+			"text": "טומיקון"
+		}
+	],
+	"display": "{0}",
+	"page": {
+		"number": 524,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", v. <cite ref=\"I00552\"><he>טַמְיָקוֹן</he></cite>",
+			"units": []
+		}
+	]
+}
+```
+
+### J00076
+
+Source (composed):
+
+```json
+{
+	"_id": {
+		"$oid": "5c46861e08d98a02694d4be6"
+	},
+	"alt_headwords": [],
+	"content": {
+		"senses": [
+			{
+				"definition": ", <a class=\"refLink\" href=\"/Sifrei_Devarim.233\" data-ref=\"Sifrei Devarim 233\">Sifré Deut. 233</a>, v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_*טוֹגָא.1\" data-ref=\"Jastrow, *טוֹגָא 1\">טוֹגָא</a>"
+			}
+		]
+	},
+	"headword": "יגא",
+	"next_hw": "יַגְדִּי",
+	"parent_lexicon": "Jastrow Dictionary",
+	"plural_form": [],
+	"prev_hw": "יַבַּשְׁתָּא",
+	"quotes": [],
+	"refs": [
+		"Jastrow, *טוֹגָא 1",
+		"Sifrei Devarim 233"
+	],
+	"rid": "J00076"
+}
+```
+
+Entry:
+
+```json
+{
+	"schemaVersion": 2,
+	"id": "J00076",
+	"sefariaHeadword": "יגא",
+	"headwords": [
+		{
+			"text": "יגא"
+		}
+	],
+	"display": "{0}",
+	"page": {
+		"number": 562,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", <cite ref=\"Sifrei Devarim 233\">Sifré Deut. 233</cite>, v. <cite ref=\"I00125\"><he>טוֹגָא</he></cite>",
+			"units": []
+		}
+	]
+}
+```
+
+### K00130
+
+Source (composed):
+
+```json
+{
+	"_id": {
+		"$oid": "5c46886808d98a02694d62f6"
+	},
+	"content": {
+		"senses": [
+			{
+				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_כְּדָיי.1\" data-ref=\"Jastrow, כְּדָיי 1\">כְּדָיי</a>. I."
+			}
+		]
+	},
+	"headword": "כְּדָיִן",
+	"next_hw": "כְּדֵין",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "כְּדָיי ²",
+	"quotes": [],
+	"refs": [
+		"Jastrow, כְּדָיי 1"
+	],
+	"rid": "K00130"
+}
+```
+
+Entry:
+
+```json
+{
+	"schemaVersion": 2,
+	"id": "K00130",
+	"sefariaHeadword": "כְּדָיִן",
+	"headwords": [
+		{
+			"text": "כְּדָיִן"
+		}
+	],
+	"display": "{0}",
+	"page": {
+		"number": 614,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", v. <cite ref=\"K00128\"><he>כְּדָיי</he></cite>. I.",
+			"units": []
+		}
+	]
+}
+```
+
+### K00942
+
+Source (composed):
+
+```json
+{
+	"_id": {
+		"$oid": "5c4689d608d98a02694d7568"
+	},
+	"alt_headwords": [],
+	"content": {
+		"senses": [
+			{
+				"definition": "<i>ridge</i>. <a class=\"refLink\" href=\"/Berakhot.6a.11\" data-ref=\"Berakhot 6a:11\">Ber. 6ᵃ</a> (Ar. <span dir=\"rtl\">כְּסָלֵי</span> pl.), v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_אוּגְיָא.1\" data-ref=\"Jastrow, אוּגְיָא 1\">אוּגְיָא</a>",
+				"number": "1)"
 			},
 			{
-				"grammar": {
-					"binyan_form": [
-						"אוֹפַע"
-					],
-					"verbal_stem": "Af."
-				},
-				"senses": [
-					{
-						"definition": " <a class=\"refLink\" href=\"/Jastrow,_יָפַע.1\" data-ref=\"Jastrow, יָפַע 1\">same</a>. Ib. X, 3 <span dir=\"rtl\">אוֹפַעְתָּ</span> thou appearest (approving, h. text <span dir=\"rtl\">הופעת</span>). <a class=\"refLink\" href=\"/Aramaic_Targum_to_Psalms.80.2\" data-ref=\"Aramaic Targum to Psalms 80:2\">Targ. Ps. LXXX, 2</a>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Psalms.94.1\" data-ref=\"Aramaic Targum to Psalms 94:1\">Ib. XCIV, 1</a>.",
-						"number": "1)"
-					},
-					{
-						"definition": "<i>to send forth</i>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Job.37.15\" data-ref=\"Aramaic Targum to Job 37:15\">Targ. Job XXXVII, 15</a>.",
-						"number": "—2)"
-					}
-				]
+				"definition": "<i>loin</i>.—Pl. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_כְּסָנִין.1\" data-ref=\"Jastrow, כְּסָנִין 1\">כְּסָלִין</a>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Psalms.38.8\" data-ref=\"Aramaic Targum to Psalms 38:8\">Targ. Ps. XXXVIII, 8</a> <span dir=\"rtl\">כְּסָלַי</span> (Regia <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_כְּפֵילָה.1\" data-ref=\"Jastrow, כְּפֵילָה 1\">כְּפֵלַי</a>).",
+				"number": "—2)"
 			}
 		]
 	},
+	"headword": "כִּסְלָא I",
+	"language_code": " ch. ",
+	"language_reference": "<a class=\"refLink\" href=\"/Jastrow,_כֶּסֶל.1\" data-ref=\"Jastrow, כֶּסֶל 1\">same</a>",
+	"next_hw": "כִּסְלָא II",
+	"parent_lexicon": "Jastrow Dictionary",
+	"plural_form": [
+		"",
+		"אוּגְיָא",
+		"כְּסָלִין"
+	],
+	"prev_hw": "כֶּסֶל",
 	"quotes": [],
-	"prev_hw": "יָפַע",
-	"next_hw": "יֶפֶת"
+	"refs": [
+		"Jastrow, כֶּסֶל 1",
+		"Berakhot 6a:11"
+	],
+	"rid": "K00942"
 }
 ```
 
@@ -2912,141 +2844,66 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "J00512",
-	"sefariaHeadword": "יְפַע",
+	"id": "K00942",
+	"sefariaHeadword": "כִּסְלָא I",
 	"headwords": [
 		{
-			"text": "יְפַע"
+			"text": "כִּסְלָא",
+			"homograph": 1
 		}
 	],
-	"display": "{0}",
+	"display": "{0} I",
 	"page": {
-		"number": 586,
+		"number": 654,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": " ch. <cite ref=\"J00511\">same</cite>, <i>to appear, rise</i>. ",
+			"gloss": " ch. <cite ref=\"K00941\">same</cite> <i>ridge</i>. ",
 			"units": [
-				"<cite ref=\"Aramaic Targum to Job 3:4\">Targ. Job III, 4</cite> <he>תֵּפַע</he> (<he>תֵּיפַע</he>; h. text <he>תּוֹפַע</he>)."
-			]
-		}
-	],
-	"stems": [
+				"<cite ref=\"Berakhot 6a:11\">Ber. 6ᵃ</cite> (Ar. <he>כְּסָלֵי</he> pl.), v. <cite ref=\"A00542\"><he>אוּגְיָא</he></cite>"
+			],
+			"label": "1"
+		},
 		{
-			"forms": [
-				"אוֹפַע"
+			"gloss": "<i>loin</i>.—Pl. <cite ref=\"K00948\"><he>כְּסָלִין</he></cite>. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Psalms 38:8\">Targ. Ps. XXXVIII, 8</cite> <he>כְּסָלַי</he> (Regia <cite ref=\"K01014\"><he>כְּפֵלַי</he></cite>)."
 			],
-			"senses": [
-				{
-					"gloss": " <cite ref=\"J00511\">same</cite>. Ib. X, 3 <he>אוֹפַעְתָּ</he> thou appearest (approving, h. text <he>הופעת</he>). ",
-					"units": [
-						"<cite ref=\"Aramaic Targum to Psalms 80:2\">Targ. Ps. LXXX, 2</cite>. ",
-						"<cite ref=\"Aramaic Targum to Psalms 94:1\">Ib. XCIV, 1</cite>."
-					],
-					"label": "1"
-				},
-				{
-					"gloss": "<i>to send forth</i>. ",
-					"units": [
-						"<cite ref=\"Aramaic Targum to Job 37:15\">Targ. Job XXXVII, 15</cite>."
-					],
-					"label": "2"
-				}
-			],
-			"stem": "Af."
+			"label": "2"
 		}
 	]
 }
 ```
 
-### L00171
+### L00359
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c468b8808d98a02694d8539"
+		"$oid": "5c468bd408d98a02694d8923"
 	},
-	"headword": "לוּ",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "L00171",
-	"refs": [
-		"Bereishit Rabbah 73:6",
-		"Bereishit Rabbah 73:9"
-	],
 	"content": {
 		"senses": [
 			{
-				"definition": " (homiletic interpret.) = <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_לֹא.1\" data-ref=\"Jastrow, לֹא 1\">לֹא</a>. <a class=\"refLink\" href=\"/Bereishit_Rabbah.73.9\" data-ref=\"Bereishit Rabbah 73:9\">Gen. R. s. 73</a>. <span dir=\"rtl\">כל דבר … היה חוזר בו י׳ פעמים למפרע שנ׳ הֵן לוּ</span> whatever agreements Laban made with Jacob, he retracted mentally ten times, for we read (<a class=\"refLink\" href=\"/Genesis.30.34\" data-ref=\"Genesis 30:34\">Gen. XXX, 34</a>) <i>hen, lu</i> yes, no; Yalk. ib. 130."
+				"definition": " <a class=\"refLink\" href=\"Jerusalem_Talmud_Avodah_Zarah.2.9.3\" data-ref=\"Jerusalem Talmud Avodah Zarah 2:9:3\">Y. Ab. Zar. II, 42ᵃ</a> <span dir=\"rtl\">ל׳ אסורה</span> the juice (brine of fish prepared by gentiles) is forbidden."
 			}
 		]
 	},
-	"plural_form": [],
-	"alt_headwords": [],
-	"quotes": [],
-	"prev_hw": "לוֹ",
-	"next_hw": "לְוָא"
-}
-```
-
-Entry:
-
-```json
-{
-	"schemaVersion": 2,
-	"id": "L00171",
-	"sefariaHeadword": "לוּ",
-	"headwords": [
-		{
-			"text": "לוּ"
-		}
-	],
-	"display": "{0}",
-	"page": {
-		"number": 694,
-		"column": "a"
-	},
-	"senses": [
-		{
-			"gloss": " (homiletic interpret.) = <cite ref=\"L00003\"><he>לֹא</he></cite>. ",
-			"units": [
-				"<cite ref=\"Bereishit Rabbah 73:9\">Gen. R. s. 73</cite>. <he>כל דבר … היה חוזר בו י׳ פעמים למפרע שנ׳ הֵן לוּ</he> whatever agreements Laban made with Jacob, he retracted mentally ten times, for we read (<cite ref=\"Genesis 30:34\">Gen. XXX, 34</cite>) <i>hen, lu</i> yes, no; Yalk. ib. 130."
-			]
-		}
-	]
-}
-```
-
-### M02264
-
-Source (composed):
-
-```json
-{
-	"_id": {
-		"$oid": "5c4690c308d98a02694dbf05"
-	},
-	"headword": "מַצָּבָה",
+	"headword": "לִחְלוּחְתָּא",
+	"language_code": "ch.",
+	"language_reference": "<a class=\"refLink\" href=\"/Jastrow,_לִחְלוּחִית.1\" data-ref=\"Jastrow, לִחְלוּחִית 1\">same</a>",
+	"next_hw": "לִחְלוּךְ",
 	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "M02264",
-	"language_code": "(b. h.;",
-	"refs": [
-		"Jastrow, יָצַב 1"
-	],
-	"language_reference": " <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_יָצַב.1\" data-ref=\"Jastrow, יָצַב 1\">יָצַב</a>)",
-	"content": {
-		"senses": [
-			{
-				"definition": "<i>array, general assembly</i>. Tanḥ. Nitsab. 1 (ref. to <a class=\"refLink\" href=\"/Deuteronomy.29.9\" data-ref=\"Deuteronomy 29:9\">Deut. XXIX, 9</a>) <span dir=\"rtl\">מפני מה עשאן משה מ׳ וכ׳</span> why did Moses call them for a general meeting? Because they were to be handed over from one administration to another."
-			}
-		],
-		"morphology": "f."
-	},
+	"prev_hw": "לִחְלוּחִית",
 	"quotes": [],
-	"prev_hw": "מַצָּבָא",
-	"next_hw": "מַצֵּבָה"
+	"refs": [
+		"Jastrow, לִחְלוּחִית 1",
+		"Jerusalem Talmud Avodah Zarah 2:9:3"
+	],
+	"rid": "L00359"
 }
 ```
 
@@ -3055,61 +2912,50 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "M02264",
-	"sefariaHeadword": "מַצָּבָה",
+	"id": "L00359",
+	"sefariaHeadword": "לִחְלוּחְתָּא",
 	"headwords": [
 		{
-			"text": "מַצָּבָה"
+			"text": "לִחְלוּחְתָּא"
 		}
 	],
 	"display": "{0}",
 	"page": {
-		"number": 822,
+		"number": 703,
 		"column": "b"
 	},
-	"grammar": {
-		"gender": "f"
-	},
 	"senses": [
 		{
-			"gloss": "f. (b. h.; <cite ref=\"J00518\"><he>יָצַב</he></cite>) <i>array, general assembly</i>. Tanḥ. Nitsab. 1 (ref. to <cite ref=\"Deuteronomy 29:9\">Deut. XXIX, 9</cite>) <he>מפני מה עשאן משה מ׳ וכ׳</he> why did Moses call them for a general meeting? Because they were to be handed over from one administration to another.",
+			"gloss": "ch. <cite ref=\"L00358\">same</cite> <cite ref=\"Jerusalem Talmud Avodah Zarah 2:9:3\">Y. Ab. Zar. II, 42ᵃ</cite> <he>ל׳ אסורה</he> the juice (brine of fish prepared by gentiles) is forbidden.",
 			"units": []
 		}
 	]
 }
 ```
 
-### M00076
+### M00452
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c468c8e08d98a02694d92a2"
+		"$oid": "5c468d5d08d98a02694d9a0b"
 	},
-	"headword": "מְבוֹאָה",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "M00076",
-	"refs": [
-		"Eruvin 15a:17",
-		"Bava Batra 21b:4",
-		"Bava Batra 21b:10",
-		"Bava Batra 21b:11",
-		"Ketubot 77b:6"
-	],
 	"content": {
 		"senses": [
 			{
-				"definition": " m. ch. = h. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_מָבוֹי.1\" data-ref=\"Jastrow, מָבוֹי 1\">מָבוֹי</a>. <a class=\"refLink\" href=\"/Eruvin.15a.17\" data-ref=\"Eruvin 15a:17\">Erub. 15ᵃ</a>. <a class=\"refLink\" href=\"/Bava_Batra.21b.11\" data-ref=\"Bava Batra 21b:11\">B. Bath. 21ᵇ</a> <span dir=\"rtl\">בר מ׳</span> the inmate (of a building) in an alley. <a class=\"refLink\" href=\"/Ketubot.77b.6\" data-ref=\"Ketubot 77b:6\">Keth. 77ᵇ</a> <span dir=\"rtl\">ההיא מ׳</span> (fem.)."
+				"definition": " m. = <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_מוֹזִיפָא.1\" data-ref=\"Jastrow, מוֹזִיפָא 1\">מוֹזִיפָא</a>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Proverbs.22.7\" data-ref=\"Aramaic Targum to Proverbs 22:7\">Targ. Prov. XXII, 7</a>."
 			}
 		]
 	},
-	"plural_form": [],
-	"alt_headwords": [],
+	"headword": "מוֹזְפָנָא",
+	"next_hw": "מוֹחַ",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "מוֹזְפוּ",
 	"quotes": [],
-	"prev_hw": "מָבוֹא",
-	"next_hw": "מָבוֹג"
+	"refs": [],
+	"rid": "M00452"
 }
 ```
 
@@ -3118,81 +2964,57 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "M00076",
-	"sefariaHeadword": "מְבוֹאָה",
+	"id": "M00452",
+	"sefariaHeadword": "מוֹזְפָנָא",
 	"headwords": [
 		{
-			"text": "מְבוֹאָה"
+			"text": "מוֹזְפָנָא"
 		}
 	],
 	"display": "{0}",
 	"page": {
-		"number": 724,
-		"column": "b"
+		"number": 740,
+		"column": "a"
 	},
 	"senses": [
 		{
-			"gloss": " m. ch. = h. <cite ref=\"M00078\"><he>מָבוֹי</he></cite>. ",
+			"gloss": " m. = <cite ref=\"M00445\"><he>מוֹזִיפָא</he></cite>. ",
 			"units": [
-				"<cite ref=\"Eruvin 15a:17\">Erub. 15ᵃ</cite>. ",
-				"<cite ref=\"Bava Batra 21b:11\">B. Bath. 21ᵇ</cite> <he>בר מ׳</he> the inmate (of a building) in an alley. ",
-				"<cite ref=\"Ketubot 77b:6\">Keth. 77ᵇ</cite> <he>ההיא מ׳</he> (fem.)."
+				"<cite ref=\"Aramaic Targum to Proverbs 22:7\">Targ. Prov. XXII, 7</cite>."
 			]
 		}
 	]
 }
 ```
 
-### M00888
+### M01264
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c468e3608d98a02694da348"
+		"$oid": "5c468eca08d98a02694daadb"
 	},
-	"headword": "מְחִלָּה",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "M00888",
-	"language_code": "(b. h.;",
-	"refs": [
-		"Jastrow, חָלַל 1",
-		"Sifrei Bamidbar 135:1",
-		"Yevamot 121a:15",
-		"Yevamot 121a:16",
-		"Pesachim 86a:6",
-		"Tamid 27b:25",
-		"Ketubot 111a:21",
-		"Ketubot 111a:22",
-		"Bereishit Rabbah 96:5",
-		"Pesikta Rabbati 31:1",
-		"Bereishit Rabbah 1:15",
-		"Yalkut Shimoni on Nach 835:3",
-		"Sifrei Devarim 319:4",
-		"Bamidbar Rabbah 9:40"
+	"alt_headwords": [
+		"מֵיעֲלֵי"
 	],
-	"language_reference": " <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_חָלַל.1\" data-ref=\"Jastrow, חָלַל 1\">חָלַל</a>)",
 	"content": {
 		"senses": [
 			{
-				"definition": "<i>cavity, cave</i>. Mekh. B’shall., Amal., s. 2 let me enter the land <span dir=\"rtl\">במְחִילַּת קסריון</span> by the cave Caesarion (<a class=\"refLink\" href=\"/Sifrei_Bamidbar.135.1\" data-ref=\"Sifrei Bamidbar 135:1\">Sifré Num. 135</a> <span dir=\"rtl\">דרך חלל</span>). <a class=\"refLink\" href=\"/Tosefta_Yevamot.14.6\" data-ref=\"Tosefta Yevamot 14:6\">Tosef. Yeb. XIV, 6</a> <span dir=\"rtl\">מ׳ של דגים</span> an underground fish pond; <a class=\"refLink\" href=\"/Yevamot.121a.16\" data-ref=\"Yevamot 121a:16\">Yeb. 121ᵃ</a>; a. fr.—Pl. <span dir=\"rtl\">מְחִלּוֹת</span>, <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_מְחִי.1\" data-ref=\"Jastrow, מְחִי 1\">מְחִי׳</a>. <a class=\"refLink\" href=\"/Tosefta_Kelim_Kamma.1.11\" data-ref=\"Tosefta Kelim Kamma 1:11\">Tosef. Kel. B. Kam. I, 11</a> <span dir=\"rtl\">מ׳ שתחת וכ׳</span> the underground places under the Temple are not sacred area; <a class=\"refLink\" href=\"/Pesachim.86a.6\" data-ref=\"Pesachim 86a:6\">Pes. 86ᵃ</a>. <a class=\"refLink\" href=\"/Pesachim.86a.6\" data-ref=\"Pesachim 86a:6\">Ib.</a>; <a class=\"refLink\" href=\"/Tamid.27b.25\" data-ref=\"Tamid 27b:25\">Tam. 27ᵇ</a>, a. e. <span dir=\"rtl\">מ׳ לא נתקדשו</span> the caves under the Temple have not been consecrated. <a class=\"refLink\" href=\"/Ketubot.111a.21\" data-ref=\"Ketubot 111a:21\">Keth. 111ᵃ</a> <span dir=\"rtl\">מ׳ נעשות וכ׳</span> underground passages are made for them (v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_גִּלְגּוּל.1\" data-ref=\"Jastrow, גִּלְגּוּל 1\">גִּלְגּוּל</a>). <a class=\"refLink\" href=\"/Ketubot.111a.22\" data-ref=\"Ketubot 111a:22\">Ib.</a> <span dir=\"rtl\">שמא לא יזכה למ׳</span> perhaps he will not be privileged to pass underground. <a class=\"refLink\" href=\"/Bereishit_Rabbah.96.5\" data-ref=\"Bereishit Rabbah 96:5\">Gen. R. s. 96</a>; a. e.—Pl. m. <span dir=\"rtl\">מְחִילִּים</span>, <span dir=\"rtl\">מְחִילִּין</span>. <a class=\"refLink\" href=\"/Pesikta_Rabbati.31.1\" data-ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</a>. <a class=\"refLink\" href=\"/Bereishit_Rabbah.1.15\" data-ref=\"Bereishit Rabbah 1:15\">Gen. R. s. 1</a>, beg. <span dir=\"rtl\">והאדם עשוי מ׳ מ׳ וכ׳</span> man’s body is made with many channels and cavities; <a class=\"refLink\" href=\"/Yalkut_Shimoni_on_Nach.835.3\" data-ref=\"Yalkut Shimoni on Nach 835:3\">Yalk. Ps. 835</a>. <a class=\"refLink\" href=\"/Sifrei_Devarim.319.4\" data-ref=\"Sifrei Devarim 319:4\">Sifré Deut. 319</a> (play on <span dir=\"rtl\">מחללך</span>, <a class=\"refLink\" href=\"/Deuteronomy.32.18\" data-ref=\"Deuteronomy 32:18\">Deut. XXXII, 18</a>) <span dir=\"rtl\">שעשאך מ׳ מ׳</span> who made thee full of cavities; <a class=\"refLink\" href=\"/Bamidbar_Rabbah.9.40\" data-ref=\"Bamidbar Rabbah 9:40\">Num. R. s. 9</a>, beg. <span dir=\"rtl\">עשית … מ׳ מ׳ אלו וכ׳</span> I built you with many cavities, that means the hearts and the kidneys."
+				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_מֵעֲלָא.1\" data-ref=\"Jastrow, מֵעֲלָא 1\">מֵעֲלָא</a>"
 			}
-		],
-		"morphology": "f."
+		]
 	},
-	"plural_form": [
-		"מְחִלּוֹת",
-		"מְחִי׳",
-		"מְחִילִּים",
-		"מְחִילִּין"
-	],
-	"alt_headwords": [
-		"מְחִילָּה"
-	],
+	"headword": "מֵיעֲלָא",
+	"next_hw": "מִיפְּחַזְנָא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "מֵיעִירְקָא",
 	"quotes": [],
-	"prev_hw": "מְחִלָּא",
-	"next_hw": "מַחֲלָה"
+	"refs": [
+		"Jastrow, מֵעֲלָא 1"
+	],
+	"rid": "M01264"
 }
 ```
 
@@ -3201,38 +3023,131 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "M00888",
-	"sefariaHeadword": "מְחִלָּה",
+	"id": "M01264",
+	"sefariaHeadword": "מֵיעֲלָא",
 	"headwords": [
 		{
-			"text": "מְחִלָּה"
+			"text": "מֵיעֲלָא"
 		},
 		{
-			"text": "מְחִילָּה"
+			"text": "מֵיעֲלֵי"
 		}
 	],
 	"display": "{0}, {1}",
 	"page": {
-		"number": 761,
-		"column": "b"
-	},
-	"grammar": {
-		"gender": "f"
+		"number": 778,
+		"column": "a"
 	},
 	"senses": [
 		{
-			"gloss": "f. (b. h.; <cite ref=\"H01073\"><he>חָלַל</he></cite>) <i>cavity, cave</i>. Mekh. B’shall., Amal., s. 2 let me enter the land <he>במְחִילַּת קסריון</he> by the cave Caesarion (<cite ref=\"Sifrei Bamidbar 135:1\">Sifré Num. 135</cite> <he>דרך חלל</he>). ",
-			"units": [
-				"<cite ref=\"Tosefta Yevamot 14:6\">Tosef. Yeb. XIV, 6</cite> <he>מ׳ של דגים</he> an underground fish pond; <cite ref=\"Yevamot 121a:16\">Yeb. 121ᵃ</cite>; a. fr.—Pl. <he>מְחִלּוֹת</he>, <cite ref=\"M00858\"><he>מְחִי׳</he></cite>. ",
-				"<cite ref=\"Tosefta Kelim Kamma 1:11\">Tosef. Kel. B. Kam. I, 11</cite> <he>מ׳ שתחת וכ׳</he> the underground places under the Temple are not sacred area; <cite ref=\"Pesachim 86a:6\">Pes. 86ᵃ</cite>. ",
-				"<cite ref=\"Pesachim 86a:6\">Ib.</cite>; <cite ref=\"Tamid 27b:25\">Tam. 27ᵇ</cite>, a. e. <he>מ׳ לא נתקדשו</he> the caves under the Temple have not been consecrated. ",
-				"<cite ref=\"Ketubot 111a:21\">Keth. 111ᵃ</cite> <he>מ׳ נעשות וכ׳</he> underground passages are made for them (v. <cite ref=\"C00864\"><he>גִּלְגּוּל</he></cite>). ",
-				"<cite ref=\"Ketubot 111a:22\">Ib.</cite> <he>שמא לא יזכה למ׳</he> perhaps he will not be privileged to pass underground. ",
-				"<cite ref=\"Bereishit Rabbah 96:5\">Gen. R. s. 96</cite>; a. e.—Pl. m. <he>מְחִילִּים</he>, <he>מְחִילִּין</he>. ",
-				"<cite ref=\"Pesikta Rabbati 31:1\">Pesik. R. s. 31</cite>. ",
-				"<cite ref=\"Bereishit Rabbah 1:15\">Gen. R. s. 1</cite>, beg. <he>והאדם עשוי מ׳ מ׳ וכ׳</he> man’s body is made with many channels and cavities; <cite ref=\"Yalkut Shimoni on Nach 835:3\">Yalk. Ps. 835</cite>. ",
-				"<cite ref=\"Sifrei Devarim 319:4\">Sifré Deut. 319</cite> (play on <he>מחללך</he>, <cite ref=\"Deuteronomy 32:18\">Deut. XXXII, 18</cite>) <he>שעשאך מ׳ מ׳</he> who made thee full of cavities; <cite ref=\"Bamidbar Rabbah 9:40\">Num. R. s. 9</cite>, beg. <he>עשית … מ׳ מ׳ אלו וכ׳</he> I built you with many cavities, that means the hearts and the kidneys."
-			]
+			"gloss": ", v. <cite ref=\"M02127\"><he>מֵעֲלָא</he></cite>",
+			"units": []
+		}
+	]
+}
+```
+
+### M02076
+
+Source (composed):
+
+```json
+{
+	"_id": {
+		"$oid": "5c46903208d98a02694dbb10"
+	},
+	"content": {
+		"senses": [
+			{
+				"definition": ", infin. <i>Pa.</i> of <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_מְעַט I.1\" data-ref=\"Jastrow, מְעַט I 1\">מְעַט</a>."
+			}
+		]
+	},
+	"headword": "מַעוּטֵי",
+	"next_hw": "מְעוּטָן",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "מִעוּט",
+	"quotes": [],
+	"refs": [],
+	"rid": "M02076"
+}
+```
+
+Entry:
+
+```json
+{
+	"schemaVersion": 2,
+	"id": "M02076",
+	"sefariaHeadword": "מַעוּטֵי",
+	"headwords": [
+		{
+			"text": "מַעוּטֵי"
+		}
+	],
+	"display": "{0}",
+	"page": {
+		"number": 814,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", infin. <i>Pa.</i> of <cite ref=\"M02098\"><he>מְעַט</he></cite>.",
+			"units": []
+		}
+	]
+}
+```
+
+### M02888
+
+Source (composed):
+
+```json
+{
+	"_id": {
+		"$oid": "5c4691f808d98a02694dccb6"
+	},
+	"content": {
+		"senses": [
+			{
+				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_מַשְׁרִיתָא.1\" data-ref=\"Jastrow, מַשְׁרִיתָא 1\">מַשְׁרִיתָא</a>"
+			}
+		]
+	},
+	"headword": "מַשִּׁירְיָא",
+	"next_hw": "מְשִׁיתָא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "מְשִׁיקוֹת",
+	"quotes": [],
+	"refs": [
+		"Jastrow, מַשְׁרִיתָא 1"
+	],
+	"rid": "M02888"
+}
+```
+
+Entry:
+
+```json
+{
+	"schemaVersion": 2,
+	"id": "M02888",
+	"sefariaHeadword": "מַשִּׁירְיָא",
+	"headwords": [
+		{
+			"text": "מַשִּׁירְיָא"
+		}
+	],
+	"display": "{0}",
+	"page": {
+		"number": 853,
+		"column": "a"
+	},
+	"senses": [
+		{
+			"gloss": ", v. <cite ref=\"M02978\"><he>מַשְׁרִיתָא</he></cite>",
+			"units": []
 		}
 	]
 }
@@ -3247,28 +3162,28 @@ Source (composed):
 	"_id": {
 		"$oid": "5c46947e08d98a02694de0f3"
 	},
-	"headword": "נַטְרוֹנָא",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "N00588",
-	"refs": [
-		"Pesikta Rabbati 15:1",
-		"Yalkut Shimoni on Torah 191:3"
+	"alt_headwords": [
+		"נַטְרוֹנָה"
 	],
 	"content": {
+		"morphology": "m.",
 		"senses": [
 			{
 				"definition": " (<a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_נְטַר.1\" data-ref=\"Jastrow, נְטַר 1\">נְטַר</a>) <i>Natrona</i> (<i>Avenger</i>), a symbolical name. <a class=\"refLink\" href=\"/Pesikta_Rabbati.15.1\" data-ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</a> <span dir=\"rtl\">מי פורע לכם … נ׳</span> who will avenge you on Rome? Naṭrona; <a class=\"refLink\" href=\"/Yalkut_Shimoni_on_Torah.191.3\" data-ref=\"Yalkut Shimoni on Torah 191:3\">Yalk. Ex. 191</a>; Pesik. Haḥod., p. 56ᵃ <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_נְטִירוּתָא.1\" data-ref=\"Jastrow, נְטִירוּתָא 1\">נטירותא</a> (corr. acc.)."
 			}
-		],
-		"morphology": "m."
+		]
 	},
+	"headword": "נַטְרוֹנָא",
+	"next_hw": "נָטַשׁ I",
+	"parent_lexicon": "Jastrow Dictionary",
 	"plural_form": [],
-	"alt_headwords": [
-		"נַטְרוֹנָה"
-	],
-	"quotes": [],
 	"prev_hw": "נִטְרוֹן",
-	"next_hw": "נָטַשׁ I"
+	"quotes": [],
+	"refs": [
+		"Pesikta Rabbati 15:1",
+		"Yalkut Shimoni on Torah 191:3"
+	],
+	"rid": "N00588"
 }
 ```
 
@@ -3306,31 +3221,29 @@ Entry:
 }
 ```
 
-### O01000
+### O00000
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c46988408d98a02694e09bd"
+		"$oid": "5c46969108d98a02694df453"
 	},
-	"headword": "סלירא",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "O01000",
-	"refs": [
-		"Jastrow, סָלָרִין 1"
-	],
 	"content": {
 		"senses": [
 			{
-				"definition": ", Ab. d’R. N. 2ⁿᵈ vers., ch. XXX (ed. Schechter p. 66), v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_סָלָרִין.1\" data-ref=\"Jastrow, סָלָרִין 1\">סָלָרִין</a>"
+				"definition": "<i>Samekh</i>, the fifteenth letter of the Alphabet. It interchanges with <span dir=\"rtl\">שׂ</span>, e.g. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פָּרַס I.1\" data-ref=\"Jastrow, פָּרַס I 1\">פָּרַס</a> a. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פָּרַשׂ.1\" data-ref=\"Jastrow, פָּרַשׂ 1\">פָּרַשׂ</a>, <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_נָסָא.1\" data-ref=\"Jastrow, נָסָא 1\">נָסָא</a> a. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_נָשָׂא.1\" data-ref=\"Jastrow, נָשָׂא 1\">נָשָׂא</a>; a. fr.; with <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_ז.1\" data-ref=\"Jastrow, ז 1\">ז</a>, q. v.; with <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_צ.1\" data-ref=\"Jastrow, צ 1\">צ</a>, as <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_סַוָּאר.1\" data-ref=\"Jastrow, סַוָּאר 1\">סַוָּאר</a> a. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_צַוָּאר.1\" data-ref=\"Jastrow, צַוָּאר 1\">צַוָּאר</a>.—<a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_ס.1\" data-ref=\"Jastrow, ס 1\">ס</a> preformative for Safel forms, as in <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_סַקְבֵּל.1\" data-ref=\"Jastrow, סַקְבֵּל 1\">סקבל</a>, <span dir=\"rtl\">סרהב</span> &c."
 			}
 		]
 	},
+	"headword": "ס",
+	"next_hw": "ס׳",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "*נְתַשׁ",
 	"quotes": [],
-	"prev_hw": "*סְלִירָא",
-	"next_hw": "סֹלִית"
+	"refs": [],
+	"rid": "O00000"
 }
 ```
 
@@ -3339,58 +3252,52 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "O01000",
-	"sefariaHeadword": "סלירא",
+	"id": "O00000",
+	"sefariaHeadword": "ס",
 	"headwords": [
 		{
-			"text": "סלירא"
+			"text": "ס"
 		}
 	],
 	"display": "{0}",
 	"page": {
-		"number": 995,
+		"number": 947,
 		"column": "a"
 	},
 	"senses": [
 		{
-			"gloss": ", Ab. d’R. N. 2ⁿᵈ vers., ch. XXX (ed. Schechter p. 66), v. <cite ref=\"O01040\"><he>סָלָרִין</he></cite>",
+			"gloss": "<i>Samekh</i>, the fifteenth letter of the Alphabet. It interchanges with <he>שׂ</he>, e.g. <cite ref=\"Q01908\"><he>פָּרַס</he></cite> a. <cite ref=\"Q02020\"><he>פָּרַשׂ</he></cite>, <cite ref=\"N00915\"><he>נָסָא</he></cite> a. <cite ref=\"N01284\"><he>נָשָׂא</he></cite>; a. fr.; with <cite ref=\"G00000\"><he>ז</he></cite>, q. v.; with <cite ref=\"R00000\"><he>צ</he></cite>, as <cite ref=\"O00226\"><he>סַוָּאר</he></cite> a. <cite ref=\"R00151\"><he>צַוָּאר</he></cite>.—<cite ref=\"O00000\"><he>ס</he></cite> preformative for Safel forms, as in <cite ref=\"O01448\"><he>סקבל</he></cite>, <he>סרהב</he> &c.",
 			"units": []
 		}
 	]
 }
 ```
 
-### N01212
+### O00812
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c4695d208d98a02694deef6"
+		"$oid": "5c46983808d98a02694e05f3"
 	},
-	"headword": "נְקִיפְתָּא",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "N01212",
-	"refs": [
-		"Sifrei Devarim 51:6",
-		"Yalkut Shimoni on Torah 874"
-	],
 	"content": {
 		"senses": [
 			{
-				"definition": "<i>N’ḳifta</i> (<i>Hollow</i>) <i>of Iyon</i> (Merġ ʿAyun), in the north of Palestine (v. Hildesh. Beitr., p. 37, sq.). <a class=\"refLink\" href=\"/Tosefta_Shevi'it.4.11\" data-ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</a> (Var. <span dir=\"rtl\">נְקוּבְ׳</span>, <span dir=\"rtl\">נְקִיבְ׳</span>, <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_נְקֵבְתָּא.1\" data-ref=\"Jastrow, נְקֵבְתָּא 1\">נְקֵבְתָּא</a>); <a class=\"refLink\" href=\"/Sifrei_Devarim.51.6\" data-ref=\"Sifrei Devarim 51:6\">Sifré Deut. 51</a> <span dir=\"rtl\">נקבתה רעיון</span>; Y. Shebi. VI, 36ᶜ <span dir=\"rtl\">נוקב׳ דעוון</span>; <a class=\"refLink\" href=\"/Yalkut_Shimoni_on_Torah.874\" data-ref=\"Yalkut Shimoni on Torah 874\">Yalk. Deut. 874</a> <span dir=\"rtl\">נקיב׳ רעוין</span> (corr. acc.)."
+				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_סְקוֹף.1\" data-ref=\"Jastrow, סְקוֹף 1\">סְקוֹף</a>"
 			}
-		],
-		"morphology": "pr. n. pl."
+		]
 	},
-	"plural_form": [],
-	"alt_headwords": [
-		"נְ׳ דְעִיּוֹן"
-	],
+	"headword": "סִיקוּף",
+	"next_hw": "סִיקוֹרָא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "סִיקוֹסִים ²",
 	"quotes": [],
-	"prev_hw": "נְקִיפֵי",
-	"next_hw": "נָקִיק"
+	"refs": [
+		"Jastrow, סְקוֹף 1"
+	],
+	"rid": "O00812"
 }
 ```
 
@@ -3399,28 +3306,22 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "N01212",
-	"sefariaHeadword": "נְקִיפְתָּא",
+	"id": "O00812",
+	"sefariaHeadword": "סִיקוּף",
 	"headwords": [
 		{
-			"text": "נְקִיפְתָּא"
-		},
-		{
-			"text": "נְ׳ דְעִיּוֹן",
-			"partial": true
+			"text": "סִיקוּף"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0}",
 	"page": {
-		"number": 933,
+		"number": 986,
 		"column": "a"
 	},
 	"senses": [
 		{
-			"gloss": "pr. n. pl. <i>N’ḳifta</i> (<i>Hollow</i>) <i>of Iyon</i> (Merġ ʿAyun), in the north of Palestine (v. Hildesh. Beitr., p. 37, sq.). ",
-			"units": [
-				"<cite ref=\"Tosefta Shevi'it 4:11\">Tosef. Shebi. IV, 11</cite> (Var. <he>נְקוּבְ׳</he>, <he>נְקִיבְ׳</he>, <cite ref=\"N01161\"><he>נְקֵבְתָּא</he></cite>); <cite ref=\"Sifrei Devarim 51:6\">Sifré Deut. 51</cite> <he>נקבתה רעיון</he>; Y. Shebi. VI, 36ᶜ <he>נוקב׳ דעוון</he>; <cite ref=\"Yalkut Shimoni on Torah 874\">Yalk. Deut. 874</cite> <he>נקיב׳ רעוין</he> (corr. acc.)."
-			]
+			"gloss": ", v. <cite ref=\"O01459\"><he>סְקוֹף</he></cite>",
+			"units": []
 		}
 	]
 }
@@ -3435,14 +3336,9 @@ Source (composed):
 	"_id": {
 		"$oid": "5c4699d408d98a02694e1798"
 	},
-	"headword": "סָרֵיק ²",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "O01624",
-	"refs": [
-		"Jastrow, סָרֵיק 1",
-		"Yevamot 87a",
-		"Avodah Zarah 37b:11",
-		"Targum Jonathan on Judges 11:3"
+	"alt_headwords": [
+		"סְרִיק",
+		"סְרִיקָא I"
 	],
 	"content": {
 		"senses": [
@@ -3463,6 +3359,9 @@ Source (composed):
 			}
 		]
 	},
+	"headword": "סָרֵיק ²",
+	"next_hw": "סְרִיקָא II",
+	"parent_lexicon": "Jastrow Dictionary",
 	"plural_form": [
 		"סְרִיקִין",
 		"סְרִיקַיָּא",
@@ -3475,13 +3374,15 @@ Source (composed):
 		"I",
 		"ריקים"
 	],
-	"alt_headwords": [
-		"סְרִיק",
-		"סְרִיקָא I"
-	],
-	"quotes": [],
 	"prev_hw": "סָרֵיק",
-	"next_hw": "סְרִיקָא II"
+	"quotes": [],
+	"refs": [
+		"Jastrow, סָרֵיק 1",
+		"Yevamot 87a",
+		"Avodah Zarah 37b:11",
+		"Targum Jonathan on Judges 11:3"
+	],
+	"rid": "O01624"
 }
 ```
 
@@ -3553,12 +3454,6 @@ Source (composed):
 	"_id": {
 		"$oid": "5c469bf308d98a02694e2c22"
 	},
-	"headword": "עכבונית",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "P00715",
-	"refs": [
-		"Jastrow, עִצְּבוֹנִית 1"
-	],
 	"content": {
 		"senses": [
 			{
@@ -3566,9 +3461,15 @@ Source (composed):
 			}
 		]
 	},
-	"quotes": [],
+	"headword": "עכבונית",
+	"next_hw": "עַכְבּוּרָא",
+	"parent_lexicon": "Jastrow Dictionary",
 	"prev_hw": "עַכָּבָה",
-	"next_hw": "עַכְבּוּרָא"
+	"quotes": [],
+	"refs": [
+		"Jastrow, עִצְּבוֹנִית 1"
+	],
+	"rid": "P00715"
 }
 ```
 
@@ -3598,156 +3499,74 @@ Entry:
 }
 ```
 
-### Q00976
+### P01527
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c46a00708d98a02694e5556"
+		"$oid": "5c469df608d98a02694e4162"
 	},
-	"headword": "*פְּלוּמָא",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "Q00976",
-	"refs": [
-		"Shir HaShirim Rabbah 1:17",
-		"Bereishit Rabbah 68:11",
-		"Yalkut Shimoni on Torah 119:1"
-	],
+	"alt_headwords": [],
 	"content": {
 		"senses": [
 			{
-				"definition": " (pluma) <i>down, down-pillow</i>. <a class=\"refLink\" href=\"/Shir_HaShirim_Rabbah.1.17\" data-ref=\"Shir HaShirim Rabbah 1:17\">Cant. R. to I, 17</a> <span dir=\"rtl\">אבנים … כמטה וכפ׳</span> the stones on which Jacob slept, became under him as (soft as) a bed and as a pillow; [<a class=\"refLink\" href=\"/Bereishit_Rabbah.68.11\" data-ref=\"Bereishit Rabbah 68:11\">Gen. R. s. 68</a> <span dir=\"rtl\">וכפרנוס</span>, some ed. <span dir=\"rtl\">וכפירנס</span>; <a class=\"refLink\" href=\"/Yalkut_Shimoni_on_Torah.119.1\" data-ref=\"Yalkut Shimoni on Torah 119:1\">Yalk. ib. 119</a> <span dir=\"rtl\">וכפורנס</span>, corr. acc., or read: <span dir=\"rtl\">וכטוֹרוּס</span>.]"
-			}
-		],
-		"morphology": "f."
-	},
-	"plural_form": [],
-	"alt_headwords": [
-		"פְּלוּמָה"
-	],
-	"quotes": [],
-	"prev_hw": "פְּלוּלִינַיָּא",
-	"next_hw": "פְּלוֹמוֹפִּילוֹן"
-}
-```
-
-Entry:
-
-```json
-{
-	"schemaVersion": 2,
-	"id": "Q00976",
-	"sefariaHeadword": "*פְּלוּמָא",
-	"headwords": [
-		{
-			"text": "פְּלוּמָא",
-			"reconstructed": true
-		},
-		{
-			"text": "פְּלוּמָה"
-		}
-	],
-	"display": "*{0}, {1}",
-	"page": {
-		"number": 1177,
-		"column": "b"
-	},
-	"grammar": {
-		"gender": "f"
-	},
-	"senses": [
-		{
-			"gloss": "f. (pluma) <i>down, down-pillow</i>. ",
-			"units": [
-				"<cite ref=\"Shir HaShirim Rabbah 1:17\">Cant. R. to I, 17</cite> <he>אבנים … כמטה וכפ׳</he> the stones on which Jacob slept, became under him as (soft as) a bed and as a pillow; [<cite ref=\"Bereishit Rabbah 68:11\">Gen. R. s. 68</cite> <he>וכפרנוס</he>, some ed. <he>וכפירנס</he>; <cite ref=\"Yalkut Shimoni on Torah 119:1\">Yalk. ib. 119</cite> <he>וכפורנס</he>, corr. acc., or read: <he>וכטוֹרוּס</he>.]"
-			]
-		}
-	]
-}
-```
-
-### Q01532
-
-Source (composed):
-
-```json
-{
-	"_id": {
-		"$oid": "5c46a1b108d98a02694e62e9"
-	},
-	"headword": "פָּרָא III",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "Q01532",
-	"refs": [],
-	"content": {
-		"senses": [
+				"grammar": {
+					"binyan_form": [
+						"עַתֵּד"
+					],
+					"verbal_stem": "Pa."
+				},
+				"senses": [
+					{
+						"definition": " = h. <span dir=\"rtl\">הציב</span>, <i>to put up, place, fix</i>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Lamentations.3.12\" data-ref=\"Aramaic Targum to Lamentations 3:12\">Targ. Lam. III, 12</a>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Proverbs.9.1\" data-ref=\"Aramaic Targum to Proverbs 9:1\">Targ. Prov. IX, 1</a> (h. text <span dir=\"rtl\">חצבה</span>!). <a class=\"refLink\" href=\"/Aramaic_Targum_to_Proverbs.15.25\" data-ref=\"Aramaic Targum to Proverbs 15:25\">Ib. XV, 25</a>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Job.17.6\" data-ref=\"Aramaic Targum to Job 17:6\">Targ. Job XVII, 6</a> (Var. ed. Lag. <span dir=\"rtl\">עדת׳</span>, some ed. <span dir=\"rtl\">ערת׳</span>; corr. acc.).—Part. pass. <span dir=\"rtl\">מְעַתַּד</span> (= b. h. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_נָצַב.1\" data-ref=\"Jastrow, נָצַב 1\">נִצָּב</a>, cmp. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_מְעוּמָּד.1\" data-ref=\"Jastrow, מְעוּמָּד 1\">מְעוּמָּד</a> fr. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_עָמָד I.1\" data-ref=\"Jastrow, עָמָד I 1\">עָמַד</a>). <a class=\"refLink\" href=\"/Onkelos_Genesis.28.13\" data-ref=\"Onkelos Genesis 28:13\">Targ. O. Gen. XXVIII, 13</a> (Y. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_מַעֲמָד.1\" data-ref=\"Jastrow, מַעֲמָד 1\">מְעַמַּד</a>). <a class=\"refLink\" href=\"/Aramaic_Targum_to_Psalms.45.10\" data-ref=\"Aramaic Targum to Psalms 45:10\">Targ. Ps. XLV, 10</a>; a. e.",
+						"number": "1)"
+					},
+					{
+						"definition": "<i>to hold ready; to designate</i>. Ib. L, 10. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Proverbs.24.27\" data-ref=\"Aramaic Targum to Proverbs 24:27\">Targ. Prov. XXIV, 27</a> <span dir=\"rtl\">עַתְּדָהּ</span> (some ed. <span dir=\"rtl\">עַתִּידְיָהּ</span>, corr. acc.).—Part. pass. <span dir=\"rtl\">מְעַתַּד</span>; f. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_מְעַבְּדָא.1\" data-ref=\"Jastrow, מְעַבְּדָא 1\">מְעַתְּדָא</a>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Job.15.23\" data-ref=\"Aramaic Targum to Job 15:23\">Targ. Job XV, 23</a> (ed. Lag. <span dir=\"rtl\">מִיעַתַּד</span> <i>Ithpa.</i>). <a class=\"refLink\" href=\"/Targum_Jonathan_on_Deuteronomy.32.35\" data-ref=\"Targum Jonathan on Deuteronomy 32:35\">Targ. Y. I Deut. XXXII, 35</a>; a. e.—Y. B. Bath. II, beg. 13ᵇ <span dir=\"rtl\">ע׳ ליה תכריכין</span> held shrouds ready for him. <a class=\"refLink\" href=\"/Bereishit_Rabbah.45\" data-ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</a> <span dir=\"rtl\">עַתֵּיד לך וכ׳</span> Mus. (ed. <span dir=\"rtl\">עביד</span>), v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_*פּוּרְבִּי.1\" data-ref=\"Jastrow, *פּוּרְבִּי 1\">פּוּרְבִּי</a>. Y. Keth. XII, 35ᵃ top. <span dir=\"rtl\">אין אתא משיחא ואנא מְעַתַּד</span> that I be ready, when the Messiah comes; Y. Kil. IX, 32ᵇ top; (<a class=\"refLink\" href=\"/Bereishit_Rabbah.100\" data-ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</a> <span dir=\"rtl\">איטימוס</span>). Y. Sabb. V, 7ᵇ bot. (expl. <span dir=\"rtl\">שוזות</span>) <span dir=\"rtl\">מְעַתְּדָן</span> prepared (for copulation, v. Bab. <a class=\"refLink\" href=\"/Shabbat.53b\" data-ref=\"Shabbat 53b\">Sabb. 53ᵇ</a> bot.); a. e.",
+						"number": "—2)"
+					}
+				]
+			},
 			{
-				"definition": " (παρά) <i>with, for</i>. Y. R. Hash. I, 57ᵃ bot., v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_*אַגְרָפוֹס.1\" data-ref=\"Jastrow, *אַגְרָפוֹס 1\">אַגְרָפוֹס</a>.—[<a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פרא.1\" data-ref=\"Jastrow, פרא 1\">פרא</a> in compounds often separated, as <span dir=\"rtl\">פ׳ כורין פ׳ פורנון</span>, v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פָּרָאכוֹרִין.1\" data-ref=\"Jastrow, פָּרָאכוֹרִין 1\">פָּרָאכוֹרִין</a>, <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פָּרָאפוּרְנוֹן.1\" data-ref=\"Jastrow, פָּרָאפוּרְנוֹן 1\">פָּרָאפוֹרְנוֹן</a> &c.]"
+				"grammar": {
+					"binyan_form": [
+						"אִתְעַתַּד",
+						"אִיעַתַּד"
+					],
+					"verbal_stem": "Ithpa."
+				},
+				"senses": [
+					{
+						"definition": "<i>to be ready, designated</i>, v. supra.",
+						"number": "1)"
+					},
+					{
+						"definition": "<i>to endure</i>, v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_עֲתַר.1\" data-ref=\"Jastrow, עֲתַר 1\">עֲתַר</a>.",
+						"number": "—2)"
+					}
+				]
 			}
 		]
 	},
-	"quotes": [],
-	"prev_hw": "פָּרָא II",
-	"next_hw": "פראגר"
-}
-```
-
-Entry:
-
-```json
-{
-	"schemaVersion": 2,
-	"id": "Q01532",
-	"sefariaHeadword": "פָּרָא III",
-	"headwords": [
-		{
-			"text": "פָּרָא",
-			"homograph": 3
-		}
-	],
-	"display": "{0} III",
-	"page": {
-		"number": 1213,
-		"column": "a"
-	},
-	"senses": [
-		{
-			"gloss": " (παρά) <i>with, for</i>. Y. R. Hash. I, 57ᵃ bot., v. <cite ref=\"A00362\"><he>אַגְרָפוֹס</he></cite>.—[<cite ref=\"Q01527\"><he>פרא</he></cite> in compounds often separated, as <he>פ׳ כורין פ׳ פורנון</he>, v. <cite ref=\"Q01538\"><he>פָּרָאכוֹרִין</he></cite>, <cite ref=\"Q01543\"><he>פָּרָאפוֹרְנוֹן</he></cite> &c.]",
-			"units": []
-		}
-	]
-}
-```
-
-### P01151
-
-Source (composed):
-
-```json
-{
-	"_id": {
-		"$oid": "5c469cf608d98a02694e37e9"
-	},
-	"headword": "עֲקֵבָה",
+	"headword": "עֲתַד",
+	"language_code": "ch.",
+	"language_reference": "<a class=\"refLink\" href=\"/Jastrow,_עָתַד.1\" data-ref=\"Jastrow, עָתַד 1\">same</a>",
+	"next_hw": "עַתָּה",
 	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "P01151",
-	"refs": [
-		"Jastrow, עַכָּבָה 1",
-		"Jastrow, עֲקֵבָא 1"
-	],
-	"content": {
-		"senses": [
-			{
-				"definition": " (<a class=\"refLink\" href=\"/Jastrow,_עֲקֵבָא.1\" data-ref=\"Jastrow, עֲקֵבָא 1\">preced.</a> wds.) <i>remnant</i>; <span dir=\"rtl\">עֲקבַת יין</span>, <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_עֲקֵבָא.1\" data-ref=\"Jastrow, עֲקֵבָא 1\">עֲקֵי׳</a> <i>sediment</i>; v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_עַכָּבָה.1\" data-ref=\"Jastrow, עַכָּבָה 1\">עַכָּבָה</a>."
-			}
-		],
-		"morphology": "f."
-	},
+	"plural_form": [],
+	"prev_hw": "עָתַד",
 	"quotes": [],
-	"prev_hw": "עֲקֵבָא",
-	"next_hw": "עֲקַבְיָא"
+	"refs": [
+		"Jastrow, עָתַד 1",
+		"Aramaic Targum to Proverbs 15:25",
+		"Bereishit Rabbah 45",
+		"Bereishit Rabbah 100",
+		"Shabbat 53b",
+		"Jastrow, עֲתַר 1"
+	],
+	"rid": "P01527"
 }
 ```
 
@@ -3756,65 +3575,104 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "P01151",
-	"sefariaHeadword": "עֲקֵבָה",
+	"id": "P01527",
+	"sefariaHeadword": "עֲתַד",
 	"headwords": [
 		{
-			"text": "עֲקֵבָה"
+			"text": "עֲתַד"
 		}
 	],
 	"display": "{0}",
 	"page": {
-		"number": 1104,
+		"number": 1128,
 		"column": "b"
-	},
-	"grammar": {
-		"gender": "f"
 	},
 	"senses": [
 		{
-			"gloss": "f. (<cite ref=\"P01150\">preced.</cite> wds.) <i>remnant</i>; <he>עֲקבַת יין</he>, <cite ref=\"P01150\"><he>עֲקֵי׳</he></cite> <i>sediment</i>; v. <cite ref=\"P00714\"><he>עַכָּבָה</he></cite>.",
+			"gloss": "ch. <cite ref=\"P01526\">same</cite>",
 			"units": []
+		}
+	],
+	"stems": [
+		{
+			"forms": [
+				"עַתֵּד"
+			],
+			"senses": [
+				{
+					"gloss": " = h. <he>הציב</he>, <i>to put up, place, fix</i>. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Lamentations 3:12\">Targ. Lam. III, 12</cite>. ",
+						"<cite ref=\"Aramaic Targum to Proverbs 9:1\">Targ. Prov. IX, 1</cite> (h. text <he>חצבה</he>!). ",
+						"<cite ref=\"Aramaic Targum to Proverbs 15:25\">Ib. XV, 25</cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 17:6\">Targ. Job XVII, 6</cite> (Var. ed. Lag. <he>עדת׳</he>, some ed. <he>ערת׳</he>; corr. acc.).—Part. pass. <he>מְעַתַּד</he> (= b. h. <cite ref=\"N01097\"><he>נִצָּב</he></cite>, cmp. <cite ref=\"M02082\"><he>מְעוּמָּד</he></cite> fr. <cite ref=\"P00859\"><he>עָמַד</he></cite>). ",
+						"<cite ref=\"Onkelos Genesis 28:13\">Targ. O. Gen. XXVIII, 13</cite> (Y. <cite ref=\"M02143\"><he>מְעַמַּד</he></cite>). ",
+						"<cite ref=\"Aramaic Targum to Psalms 45:10\">Targ. Ps. XLV, 10</cite>; a. e."
+					],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to hold ready; to designate</i>. Ib. L, 10. ",
+					"units": [
+						"<cite ref=\"Aramaic Targum to Proverbs 24:27\">Targ. Prov. XXIV, 27</cite> <he>עַתְּדָהּ</he> (some ed. <he>עַתִּידְיָהּ</he>, corr. acc.).—Part. pass. <he>מְעַתַּד</he>; f. <cite ref=\"M02047\"><he>מְעַתְּדָא</he></cite>. ",
+						"<cite ref=\"Aramaic Targum to Job 15:23\">Targ. Job XV, 23</cite> (ed. Lag. <he>מִיעַתַּד</he> <i>Ithpa.</i>). ",
+						"<cite ref=\"Targum Jonathan on Deuteronomy 32:35\">Targ. Y. I Deut. XXXII, 35</cite>; a. e.—Y. B. Bath. II, beg. 13ᵇ <he>ע׳ ליה תכריכין</he> held shrouds ready for him. ",
+						"<cite ref=\"Bereishit Rabbah 45\">Gen. R. s. 45</cite> <he>עַתֵּיד לך וכ׳</he> Mus. (ed. <he>עביד</he>), v. <cite ref=\"Q00332\"><he>פּוּרְבִּי</he></cite>. Y. Keth. XII, 35ᵃ top. <he>אין אתא משיחא ואנא מְעַתַּד</he> that I be ready, when the Messiah comes; Y. Kil. IX, 32ᵇ top; (<cite ref=\"Bereishit Rabbah 100\">Gen. R. s. 100</cite> <he>איטימוס</he>). Y. Sabb. V, 7ᵇ bot. (expl. <he>שוזות</he>) <he>מְעַתְּדָן</he> prepared (for copulation, v. Bab. ",
+						"<cite ref=\"Shabbat 53b\">Sabb. 53ᵇ</cite> bot.); a. e."
+					],
+					"label": "2"
+				}
+			],
+			"stem": "Pa."
+		},
+		{
+			"forms": [
+				"אִתְעַתַּד",
+				"אִיעַתַּד"
+			],
+			"senses": [
+				{
+					"gloss": "<i>to be ready, designated</i>, v. supra.",
+					"units": [],
+					"label": "1"
+				},
+				{
+					"gloss": "<i>to endure</i>, v. <cite ref=\"P01546\"><he>עֲתַר</he></cite>.",
+					"units": [],
+					"label": "2"
+				}
+			],
+			"stem": "Ithpa."
 		}
 	]
 }
 ```
 
-### Q01836
+### Q00788
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c46a22b08d98a02694e68af"
+		"$oid": "5c469fb508d98a02694e51b9"
 	},
-	"headword": "פָּרִישָׁא",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "Q01836",
-	"refs": [
-		"Jastrow, פָּרֵישׁ 1",
-		"Targum Jonathan on Exodus 13:8",
-		"Targum Jonathan on Exodus 26:28"
-	],
 	"content": {
 		"senses": [
 			{
-				"definition": " (<a class=\"refLink\" href=\"/Jastrow,_פָּרֵישׁ.1\" data-ref=\"Jastrow, פָּרֵישׁ 1\">preced.</a>) <i>wonderful deed, wonder.—</i>Pl. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פָּרֵישׁ.1\" data-ref=\"Jastrow, פָּרֵישׁ 1\">פְּרִישָׁן</a>, <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פְּרִישְׁתָּא.1\" data-ref=\"Jastrow, פְּרִישְׁתָּא 1\">פְּרִישָׁתָא</a>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Psalms.139.14\" data-ref=\"Aramaic Targum to Psalms 139:14\">Targ. Ps. CXXXIX, 14</a>. <a class=\"refLink\" href=\"/Onkelos_Exodus.33.16\" data-ref=\"Onkelos Exodus 33:16\">Targ. Ex. XXXIII, 16</a> (not <span dir=\"rtl\">פְּרִישַׂן</span>). <a class=\"refLink\" href=\"/Targum_Jonathan_on_Exodus.13.8\" data-ref=\"Targum Jonathan on Exodus 13:8\">Targ. Y. ib. XIII, 8</a> (ed. Vien. <span dir=\"rtl\">פְּרִישִׁין</span> masc.). <a class=\"refLink\" href=\"/Targum_Jonathan_on_Exodus.26.28\" data-ref=\"Targum Jonathan on Exodus 26:28\">Ib. XXVI, 28</a>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Job.37.14\" data-ref=\"Aramaic Targum to Job 37:14\">Targ. Job XXXVII, 14</a>, a. e. <span dir=\"rtl\">פרישתא</span> Ms. (ed. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פְּרִישׁוּתָא.1\" data-ref=\"Jastrow, פְּרִישׁוּתָא 1\">פְּרִישׁוּתָא</a> q. v.). <a class=\"refLink\" href=\"/Targum_Jonathan_on_Deuteronomy.4.35\" data-ref=\"Targum Jonathan on Deuteronomy 4:35\">Targ. Y. Deut. IV, 35</a> (not <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פְּרִישְׁתָּא.1\" data-ref=\"Jastrow, פְּרִישְׁתָּא 1\">פְּרִישְׁתָא</a>); a. fr.—[<a class=\"refLink\" href=\"/Aramaic_Targum_to_Job.36.29\" data-ref=\"Aramaic Targum to Job 36:29\">Targ. Job XXXVI, 29</a>, v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פְּרִישְׂתָּא.1\" data-ref=\"Jastrow, פְּרִישְׂתָּא 1\">פְּרִישְׂתָּא</a>.]"
+				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_פָּפִילְיוֹן.1\" data-ref=\"Jastrow, פָּפִילְיוֹן 1\">פָּפִילְיוֹן</a>"
 			}
-		],
-		"morphology": "f."
+		]
 	},
-	"plural_form": [
-		"פְּרִישָׁן",
-		"פְּרִישָׁתָא"
-	],
-	"alt_headwords": [
-		"פְּ׳"
-	],
+	"headword": "פיפילון",
+	"next_hw": "פִּיפָנִי",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "פִּיפְיָיארוֹת",
 	"quotes": [],
-	"prev_hw": "פָּרֵישׁ",
-	"next_hw": "פְּרִישָׁה I"
+	"refs": [
+		"Jastrow, פָּפִילְיוֹן 1"
+	],
+	"rid": "Q00788"
 }
 ```
 
@@ -3823,36 +3681,146 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "Q01836",
-	"sefariaHeadword": "פָּרִישָׁא",
+	"id": "Q00788",
+	"sefariaHeadword": "פיפילון",
 	"headwords": [
 		{
-			"text": "פָּרִישָׁא"
+			"text": "פיפילון"
+		}
+	],
+	"display": "{0}",
+	"page": {
+		"number": 1168,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", v. <cite ref=\"Q01413\"><he>פָּפִילְיוֹן</he></cite>",
+			"units": []
+		}
+	]
+}
+```
+
+### Q01600
+
+Source (composed):
+
+```json
+{
+	"_id": {
+		"$oid": "5c46a1cc08d98a02694e6437"
+	},
+	"alt_headwords": [],
+	"content": {
+		"morphology": "m.",
+		"senses": [
+			{
+				"definition": " (prob. a geogr. term) <span dir=\"rtl\">מילא פ׳</span> <i>parhăba wool</i> (white and soft). <a class=\"refLink\" href=\"/Niddah.17a.64\" data-ref=\"Niddah 17a:64\">Nidd. 17ᵃ</a>"
+			}
+		]
+	},
+	"headword": "*פַּרְהֲבָא",
+	"next_hw": "פַּרְהֲגַבְנָא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"plural_form": [],
+	"prev_hw": "פָּרָה III",
+	"quotes": [],
+	"refs": [
+		"Niddah 17a:58",
+		"Niddah 17a:64"
+	],
+	"rid": "Q01600"
+}
+```
+
+Entry:
+
+```json
+{
+	"schemaVersion": 2,
+	"id": "Q01600",
+	"sefariaHeadword": "*פַּרְהֲבָא",
+	"headwords": [
+		{
+			"text": "פַּרְהֲבָא",
+			"reconstructed": true
+		}
+	],
+	"display": "*{0}",
+	"page": {
+		"number": 1216,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (prob. a geogr. term) <he>מילא פ׳</he> <i>parhăba wool</i> (white and soft). ",
+			"units": [
+				"<cite ref=\"Niddah 17a:64\">Nidd. 17ᵃ</cite>"
+			]
+		}
+	]
+}
+```
+
+### R00194
+
+Source (composed):
+
+```json
+{
+	"_id": {
+		"$oid": "5c46a46c08d98a02694e7808"
+	},
+	"alt_headwords": [
+		"צוּלְצִילְתָּה"
+	],
+	"content": {
+		"senses": [
+			{
+				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_צוֹצְלָא.1\" data-ref=\"Jastrow, צוֹצְלָא 1\">צוֹצְלָא</a>"
+			}
+		]
+	},
+	"headword": "צוּלְצְלָא",
+	"next_hw": "צוּלְקָא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "צוּלָאֵי",
+	"quotes": [],
+	"refs": [
+		"Jastrow, צוֹצְלָא 1"
+	],
+	"rid": "R00194"
+}
+```
+
+Entry:
+
+```json
+{
+	"schemaVersion": 2,
+	"id": "R00194",
+	"sefariaHeadword": "צוּלְצְלָא",
+	"headwords": [
+		{
+			"text": "צוּלְצְלָא"
 		},
 		{
-			"text": "פְּ׳",
-			"partial": true
+			"text": "צוּלְצִילְתָּה"
 		}
 	],
 	"display": "{0}, {1}",
 	"page": {
-		"number": 1228,
-		"column": "a"
-	},
-	"grammar": {
-		"gender": "f"
+		"number": 1267,
+		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": "f. (<cite ref=\"Q01835\">preced.</cite>) <i>wonderful deed, wonder.—</i>Pl. <cite ref=\"Q01835\"><he>פְּרִישָׁן</he></cite>, <cite ref=\"Q01842\"><he>פְּרִישָׁתָא</he></cite>. ",
-			"units": [
-				"<cite ref=\"Aramaic Targum to Psalms 139:14\">Targ. Ps. CXXXIX, 14</cite>. ",
-				"<cite ref=\"Onkelos Exodus 33:16\">Targ. Ex. XXXIII, 16</cite> (not <he>פְּרִישַׂן</he>). ",
-				"<cite ref=\"Targum Jonathan on Exodus 13:8\">Targ. Y. ib. XIII, 8</cite> (ed. Vien. <he>פְּרִישִׁין</he> masc.). ",
-				"<cite ref=\"Targum Jonathan on Exodus 26:28\">Ib. XXVI, 28</cite>. ",
-				"<cite ref=\"Aramaic Targum to Job 37:14\">Targ. Job XXXVII, 14</cite>, a. e. <he>פרישתא</he> Ms. (ed. <cite ref=\"Q01840\"><he>פְּרִישׁוּתָא</he></cite> q. v.). ",
-				"<cite ref=\"Targum Jonathan on Deuteronomy 4:35\">Targ. Y. Deut. IV, 35</cite> (not <cite ref=\"Q01842\"><he>פְּרִישְׁתָא</he></cite>); a. fr.—[<cite ref=\"Aramaic Targum to Job 36:29\">Targ. Job XXXVI, 29</cite>, v. <cite ref=\"Q01843\"><he>פְּרִישְׂתָּא</he></cite>.]"
-			]
+			"gloss": ", v. <cite ref=\"R00231\"><he>צוֹצְלָא</he></cite>",
+			"units": []
 		}
 	]
 }
@@ -3867,13 +3835,6 @@ Source (composed):
 	"_id": {
 		"$oid": "5c46a64b08d98a02694e8c48"
 	},
-	"headword": "קדריה",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "S00186",
-	"refs": [
-		"Jastrow, פִּרְסְקָא 1",
-		"Jerusalem Talmud Kilayim 1:4:2"
-	],
 	"content": {
 		"senses": [
 			{
@@ -3881,9 +3842,16 @@ Source (composed):
 			}
 		]
 	},
-	"quotes": [],
+	"headword": "קדריה",
+	"next_hw": "קדריונטס",
+	"parent_lexicon": "Jastrow Dictionary",
 	"prev_hw": "קַדָּרוּת",
-	"next_hw": "קדריונטס"
+	"quotes": [],
+	"refs": [
+		"Jastrow, פִּרְסְקָא 1",
+		"Jerusalem Talmud Kilayim 1:4:2"
+	],
+	"rid": "S00186"
 }
 ```
 
@@ -3922,13 +3890,7 @@ Source (composed):
 	"_id": {
 		"$oid": "5c46a82108d98a02694e9d29"
 	},
-	"headword": "קִילְתָא",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "S00998",
-	"refs": [
-		"Jastrow, קִילָא II 1",
-		"Yalkut Shimoni on Torah 57"
-	],
+	"alt_headwords": [],
 	"content": {
 		"senses": [
 			{
@@ -3936,11 +3898,17 @@ Source (composed):
 			}
 		]
 	},
+	"headword": "קִילְתָא",
+	"next_hw": "קִים",
+	"parent_lexicon": "Jastrow Dictionary",
 	"plural_form": [],
-	"alt_headwords": [],
-	"quotes": [],
 	"prev_hw": "קִילְתָּא",
-	"next_hw": "קִים"
+	"quotes": [],
+	"refs": [
+		"Jastrow, קִילָא II 1",
+		"Yalkut Shimoni on Torah 57"
+	],
+	"rid": "S00998"
 }
 ```
 
@@ -3970,54 +3938,32 @@ Entry:
 }
 ```
 
-### T00615
+### S01810
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c46acdb08d98a02694ecb25"
+		"$oid": "5c46a9d308d98a02694eae4c"
 	},
-	"headword": "רִיחַ",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "T00615",
-	"refs": [
-		"Bereishit Rabbah 34:4",
-		"Bereishit Rabbah 34:4",
-		"Sanhedrin 11a:3",
-		"Zevachim 62a:5",
-		"Niddah 58b:54",
-		"Sanhedrin 109a:14",
-		"Bava Batra 146a:13"
-	],
 	"content": {
 		"senses": [
 			{
-				"definition": " (b. h.) <i>to breathe, waft, blow</i>.—Denom. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_רִיחַ.1\" data-ref=\"Jastrow, רִיחַ 1\">רוּחַ</a>."
-			},
-			{
-				"grammar": {
-					"binyan_form": [
-						"הֵרִיחַ"
-					],
-					"verbal_stem": "Hif."
-				},
-				"senses": [
-					{
-						"definition": "<i>to scent, smell</i>. <a class=\"refLink\" href=\"/Bereishit_Rabbah.34.4\" data-ref=\"Bereishit Rabbah 34:4\">Gen. R. s. 34</a> <span dir=\"rtl\">הלך וַהֲרִיחָהּ</span> (not <span dir=\"rtl\">וריחה</span>) he went and smelled of it. <a class=\"refLink\" href=\"/Bereishit_Rabbah.34.4\" data-ref=\"Bereishit Rabbah 34:4\">Ib.</a> (ref. to <a class=\"refLink\" href=\"/Genesis.8.21\" data-ref=\"Genesis 8:21\">Gen. VIII, 21</a>) <span dir=\"rtl\">ה׳ ריחו של אברהם וכ׳</span> he smelled the savor of Abraham, our father, rising from the fiery furnace (foresaw the self-sacrifice of Abraham); <span dir=\"rtl\">ה׳ דורו של שמד</span> he smelled the savor of the generation of persecution (foresaw their martyrdom). <a class=\"refLink\" href=\"/Sanhedrin.11a.3\" data-ref=\"Sanhedrin 11a:3\">Snh. 11ᵃ</a> <span dir=\"rtl\">ה׳ ריח שום</span> he perceived the smell of garlic. <a class=\"refLink\" href=\"/Zevachim.62a.5\" data-ref=\"Zevachim 62a:5\">Zeb. 62ᵃ</a> <span dir=\"rtl\">הֵרִיחוּ ריח קטרת</span> they smelled the savor of frankincense (at the place where the Temple had stood). <a class=\"refLink\" href=\"/Niddah.58b.54\" data-ref=\"Niddah 58b:54\">Nidd. 58ᵇ</a> <span dir=\"rtl\">כל המוללו מֵרִיחַ בו</span> whoever crushes it, smells its odor. <a class=\"refLink\" href=\"/Sanhedrin.109a.14\" data-ref=\"Sanhedrin 109a:14\">Snh. 109ᵃ</a> <span dir=\"rtl\">לערב באין ומְרִיחִין אותו וכ׳</span> in the evening they came and scented it (the balsam) like a dog. <a class=\"refLink\" href=\"/Mishnah_Yoma.8.4\" data-ref=\"Mishnah Yoma 8:4\">Yoma VIII, 4</a> <span dir=\"rtl\">עוברה שהֵרִיחָה וכ׳</span> a woman with child that smelled (a dish on the Day of Atonement, and has a morbid desire for it) must be given to eat, until she feels restored. <a class=\"refLink\" href=\"/Bava_Batra.146a.13\" data-ref=\"Bava Batra 146a:13\">B. Bath. 146ᵃ</a> bot. <span dir=\"rtl\">ריח צנון אני מריח בגליל</span> I smell a radish in Galilee (have a strong appetite for a Galilean radish); a. fr."
-					}
-				]
+				"definition": ", <a class=\"refLink\" href=\"Jerusalem_Talmud_Beitzah.5.5.2\" data-ref=\"Jerusalem Talmud Beitzah 5:5:2\">Y. Bets. V, end, 63ᵇ</a>, v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_קְרַצְיוֹן.1\" data-ref=\"Jastrow, קְרַצְיוֹן 1\">קְרַצְיוֹן</a>"
 			}
 		]
 	},
-	"plural_form": [],
-	"alt_headwords": [
-		"רוּחַ"
-	],
+	"headword": "קציון",
+	"next_hw": "קַצְיָיא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "קְצִיבִין",
 	"quotes": [],
-	"prev_hw": "ריותא",
-	"next_hw": "רִיחַ ²"
+	"refs": [
+		"Jastrow, קְרַצְיוֹן 1",
+		"Jerusalem Talmud Beitzah 5:5:2"
+	],
+	"rid": "S01810"
 }
 ```
 
@@ -4026,87 +3972,51 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "T00615",
-	"sefariaHeadword": "רִיחַ",
+	"id": "S01810",
+	"sefariaHeadword": "קציון",
 	"headwords": [
 		{
-			"text": "רִיחַ"
-		},
-		{
-			"text": "רוּחַ"
+			"text": "קציון"
 		}
 	],
-	"display": "{0}, {1}",
+	"display": "{0}",
 	"page": {
-		"number": 1473,
+		"number": 1405,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": " (b. h.) <i>to breathe, waft, blow</i>.—Denom. <cite ref=\"T00615\"><he>רוּחַ</he></cite>.",
+			"gloss": ", <cite ref=\"Jerusalem Talmud Beitzah 5:5:2\">Y. Bets. V, end, 63ᵇ</cite>, v. <cite ref=\"S02152\"><he>קְרַצְיוֹן</he></cite>",
 			"units": []
-		}
-	],
-	"stems": [
-		{
-			"forms": [
-				"הֵרִיחַ"
-			],
-			"senses": [
-				{
-					"gloss": "<i>to scent, smell</i>. ",
-					"units": [
-						"<cite ref=\"Bereishit Rabbah 34:4\">Gen. R. s. 34</cite> <he>הלך וַהֲרִיחָהּ</he> (not <he>וריחה</he>) he went and smelled of it. ",
-						"<cite ref=\"Bereishit Rabbah 34:4\">Ib.</cite> (ref. to <cite ref=\"Genesis 8:21\">Gen. VIII, 21</cite>) <he>ה׳ ריחו של אברהם וכ׳</he> he smelled the savor of Abraham, our father, rising from the fiery furnace (foresaw the self-sacrifice of Abraham); <he>ה׳ דורו של שמד</he> he smelled the savor of the generation of persecution (foresaw their martyrdom). ",
-						"<cite ref=\"Sanhedrin 11a:3\">Snh. 11ᵃ</cite> <he>ה׳ ריח שום</he> he perceived the smell of garlic. ",
-						"<cite ref=\"Zevachim 62a:5\">Zeb. 62ᵃ</cite> <he>הֵרִיחוּ ריח קטרת</he> they smelled the savor of frankincense (at the place where the Temple had stood). ",
-						"<cite ref=\"Niddah 58b:54\">Nidd. 58ᵇ</cite> <he>כל המוללו מֵרִיחַ בו</he> whoever crushes it, smells its odor. ",
-						"<cite ref=\"Sanhedrin 109a:14\">Snh. 109ᵃ</cite> <he>לערב באין ומְרִיחִין אותו וכ׳</he> in the evening they came and scented it (the balsam) like a dog. ",
-						"<cite ref=\"Mishnah Yoma 8:4\">Yoma VIII, 4</cite> <he>עוברה שהֵרִיחָה וכ׳</he> a woman with child that smelled (a dish on the Day of Atonement, and has a morbid desire for it) must be given to eat, until she feels restored. ",
-						"<cite ref=\"Bava Batra 146a:13\">B. Bath. 146ᵃ</cite> bot. <he>ריח צנון אני מריח בגליל</he> I smell a radish in Galilee (have a strong appetite for a Galilean radish); a. fr."
-					]
-				}
-			],
-			"stem": "Hif."
 		}
 	]
 }
 ```
 
-### T00131
+### T00323
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c46abd108d98a02694ebea9"
+		"$oid": "5c46ac3208d98a02694ec342"
 	},
-	"headword": "רִבְעָא",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "T00131",
-	"language_code": " ch. ",
-	"refs": [
-		"Jastrow, רֶבַע 1",
-		"Keritot 10b:37",
-		"Eruvin 56a",
-		"Gittin 58b:13"
-	],
-	"language_reference": "<a class=\"refLink\" href=\"/Jastrow,_רֶבַע.1\" data-ref=\"Jastrow, רֶבַע 1\">same</a>",
 	"content": {
+		"morphology": "m.",
 		"senses": [
 			{
-				"definition": ", <i>one-fourth, quarter</i>. <a class=\"refLink\" href=\"/Targum_Jonathan_on_II_Kings.6.25\" data-ref=\"Targum Jonathan on II Kings 6:25\">Targ. II Kings VI, 25</a> <span dir=\"rtl\">רִבְעַת קבא</span> one fourth of a Ḳab.—<a class=\"refLink\" href=\"/Keritot.10b.37\" data-ref=\"Keritot 10b:37\">Ker. 10ᵇ</a> <span dir=\"rtl\">כמה … בר׳ וכ׳</span> how many P’ruṭahs are in a quarter of a Denar? &c.—<a class=\"refLink\" href=\"/Eruvin.56a\" data-ref=\"Eruvin 56a\">Erub. 56ᵃ</a> <span dir=\"rtl\">תשעה מתלתין … ר׳ הוי</span> (Ms. M. <span dir=\"rtl\">לפי תלתין</span>) nine is one-fourth of thirty-six. <a class=\"refLink\" href=\"/Gittin.58b.13\" data-ref=\"Gittin 58b:13\">Gitt. 58ᵇ</a> <span dir=\"rtl\">נכי ר׳ זבין</span> Tosaf. (ed. <span dir=\"rtl\">רביע</span>) he bought (the confiscated field) at one-fourth less than its real value. Ib. 15ᵇ, a. e. <span dir=\"rtl\">נכי ר׳</span>, v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_נַכֵּי.1\" data-ref=\"Jastrow, נַכֵּי 1\">נַכֵּי</a>; a. fr.—V. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_רוּבְעָא.1\" data-ref=\"Jastrow, רוּבְעָא 1\">רוּבְעָא</a>."
+				"definition": " (<a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_רְוֵי.1\" data-ref=\"Jastrow, רְוֵי 1\">רְוָא</a>, cmp. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_רָהוֹן.1\" data-ref=\"Jastrow, רָהוֹן 1\">רָהוֹן</a>) <i>moistening, refreshment</i> [or <i>marrow</i>]. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Proverbs.3.8\" data-ref=\"Aramaic Targum to Proverbs 3:8\">Targ. Prov. III, 8</a>, v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_דּוּהֲנָא.1\" data-ref=\"Jastrow, דּוּהֲנָא 1\">דּוּהֲנָא</a>."
 			}
 		]
 	},
-	"plural_form": [],
-	"alt_headwords": [
-		"רִי׳"
-	],
+	"headword": "רוּהֲנָא",
+	"next_hw": "רֵווּ",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "רָוָה",
 	"quotes": [],
-	"prev_hw": "רֶבַע",
-	"next_hw": "רַבְעוּתָא I"
+	"refs": [],
+	"rid": "T00323"
 }
 ```
 
@@ -4115,67 +4025,206 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "T00131",
-	"sefariaHeadword": "רִבְעָא",
+	"id": "T00323",
+	"sefariaHeadword": "רוּהֲנָא",
 	"headwords": [
 		{
-			"text": "רִבְעָא"
+			"text": "רוּהֲנָא"
+		}
+	],
+	"display": "{0}",
+	"page": {
+		"number": 1456,
+		"column": "b"
+	},
+	"grammar": {
+		"gender": "m"
+	},
+	"senses": [
+		{
+			"gloss": "m. (<cite ref=\"T00359\"><he>רְוָא</he></cite>, cmp. <cite ref=\"T00276\"><he>רָהוֹן</he></cite>) <i>moistening, refreshment</i> [or <i>marrow</i>]. ",
+			"units": [
+				"<cite ref=\"Aramaic Targum to Proverbs 3:8\">Targ. Prov. III, 8</cite>, v. <cite ref=\"D00206\"><he>דּוּהֲנָא</he></cite>."
+			]
+		}
+	]
+}
+```
+
+### T01135
+
+Source (composed):
+
+```json
+{
+	"_id": {
+		"$oid": "5c46adf408d98a02694ed7f1"
+	},
+	"content": {
+		"senses": [
+			{
+				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_רְתַע.1\" data-ref=\"Jastrow, רְתַע 1\">רְתַע</a>"
+			}
+		]
+	},
+	"headword": "רְתִיעַ",
+	"next_hw": "רְתֵית",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "רְתִימִין",
+	"quotes": [],
+	"refs": [
+		"Jastrow, רְתַע 1"
+	],
+	"rid": "T01135"
+}
+```
+
+Entry:
+
+```json
+{
+	"schemaVersion": 2,
+	"id": "T01135",
+	"sefariaHeadword": "רְתִיעַ",
+	"headwords": [
+		{
+			"text": "רְתִיעַ"
+		}
+	],
+	"display": "{0}",
+	"page": {
+		"number": 1503,
+		"column": "b"
+	},
+	"senses": [
+		{
+			"gloss": ", v. <cite ref=\"T01144\"><he>רְתַע</he></cite>",
+			"units": []
+		}
+	]
+}
+```
+
+### U00796
+
+Source (composed):
+
+```json
+{
+	"_id": {
+		"$oid": "5c46b0b708d98a02694eecfb"
+	},
+	"alt_headwords": [
+		"שִׁבּ׳"
+	],
+	"content": {
+		"morphology": "m.",
+		"senses": [
+			{
+				"definition": " (<a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_שְׁבַק.1\" data-ref=\"Jastrow, שְׁבַק 1\">שְׁבַק</a>) "
+			},
+			{
+				"definition": "<i>remission</i>. <a class=\"refLink\" href=\"/Aramaic_Targum_to_Job.2.1\" data-ref=\"Aramaic Targum to Job 2:1\">Targ. Job II, 1</a> (ed. Wil. <span dir=\"rtl\">שִׁבּוֹק</span>). <a class=\"refLink\" href=\"/Targum_Jonathan_on_Numbers.19.9\" data-ref=\"Targum Jonathan on Numbers 19:9\">Targ. Y. Num. XIX, 9</a>.",
+				"number": "1)"
+			},
+			{
+				"definition": "pl. <span dir=\"rtl\">שִׁיבּוּקִין</span>, <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_שִׁיבּוּחָא.1\" data-ref=\"Jastrow, שִׁיבּוּחָא 1\">שִׁבּ׳</a> <i>release</i>. <a class=\"refLink\" href=\"/Mishnah_Gittin.9.3\" data-ref=\"Mishnah Gittin 9:3\">Gitt. IX, 3</a> (in a formula of a letter of divorce) <span dir=\"rtl\">ספר תירוכין ואיגרת שב׳</span> (Y. ed. <span dir=\"rtl\">שיב׳</span>) letter of divorce and deed of release. Ib. 85ᵇ <span dir=\"rtl\">ולורכיה … דש׳ דמשמע תריכין ושביקין</span> and (in writing the letter of divorce) one must prolong the Vav of <i>tirukhin</i> and of <i>shibbuḳin</i>, lest it may be read <i>t’rikhin, sh’biḳin</i>",
+				"number": "—2)"
+			}
+		]
+	},
+	"headword": "שִׁיבּוּקָא",
+	"next_hw": "שִׁיבּוּר",
+	"parent_lexicon": "Jastrow Dictionary",
+	"plural_form": [
+		"שִׁיבּוּקִין",
+		"שִׁבּ׳"
+	],
+	"prev_hw": "שִׁיבּוּלְתָּא",
+	"quotes": [],
+	"refs": [],
+	"rid": "U00796"
+}
+```
+
+Entry:
+
+```json
+{
+	"schemaVersion": 2,
+	"id": "U00796",
+	"sefariaHeadword": "שִׁיבּוּקָא",
+	"headwords": [
+		{
+			"text": "שִׁיבּוּקָא"
 		},
 		{
-			"text": "רִי׳",
+			"text": "שִׁבּ׳",
 			"partial": true
 		}
 	],
 	"display": "{0}, {1}",
 	"page": {
-		"number": 1445,
+		"number": 1557,
 		"column": "a"
+	},
+	"grammar": {
+		"gender": "m"
 	},
 	"senses": [
 		{
-			"gloss": " ch. <cite ref=\"T00130\">same</cite>, <i>one-fourth, quarter</i>. ",
+			"gloss": "m. (<cite ref=\"U00169\"><he>שְׁבַק</he></cite>) ",
+			"units": []
+		},
+		{
+			"gloss": "<i>remission</i>. ",
 			"units": [
-				"<cite ref=\"Targum Jonathan on II Kings 6:25\">Targ. II Kings VI, 25</cite> <he>רִבְעַת קבא</he> one fourth of a Ḳab.—",
-				"<cite ref=\"Keritot 10b:37\">Ker. 10ᵇ</cite> <he>כמה … בר׳ וכ׳</he> how many P’ruṭahs are in a quarter of a Denar? &c.—",
-				"<cite ref=\"Eruvin 56a\">Erub. 56ᵃ</cite> <he>תשעה מתלתין … ר׳ הוי</he> (Ms. M. <he>לפי תלתין</he>) nine is one-fourth of thirty-six. ",
-				"<cite ref=\"Gittin 58b:13\">Gitt. 58ᵇ</cite> <he>נכי ר׳ זבין</he> Tosaf. (ed. <he>רביע</he>) he bought (the confiscated field) at one-fourth less than its real value. Ib. 15ᵇ, a. e. <he>נכי ר׳</he>, v. <cite ref=\"N00821\"><he>נַכֵּי</he></cite>; a. fr.—V. <cite ref=\"T00310\"><he>רוּבְעָא</he></cite>."
-			]
+				"<cite ref=\"Aramaic Targum to Job 2:1\">Targ. Job II, 1</cite> (ed. Wil. <he>שִׁבּוֹק</he>). ",
+				"<cite ref=\"Targum Jonathan on Numbers 19:9\">Targ. Y. Num. XIX, 9</cite>."
+			],
+			"label": "1"
+		},
+		{
+			"gloss": "pl. <he>שִׁיבּוּקִין</he>, <cite ref=\"U00791\"><he>שִׁבּ׳</he></cite> <i>release</i>. ",
+			"units": [
+				"<cite ref=\"Mishnah Gittin 9:3\">Gitt. IX, 3</cite> (in a formula of a letter of divorce) <he>ספר תירוכין ואיגרת שב׳</he> (Y. ed. <he>שיב׳</he>) letter of divorce and deed of release. Ib. 85ᵇ <he>ולורכיה … דש׳ דמשמע תריכין ושביקין</he> and (in writing the letter of divorce) one must prolong the Vav of <i>tirukhin</i> and of <i>shibbuḳin</i>, lest it may be read <i>t’rikhin, sh’biḳin</i>"
+			],
+			"label": "2"
 		}
 	]
 }
 ```
 
-### U00128
+### U01608
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c46ae9208d98a02694edc12"
+		"$oid": "5c46b2dc08d98a02694f01f5"
 	},
-	"headword": "שְׂבִיעָה",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "U00128",
-	"refs": [
-		"Yoma 79b:9",
-		"Pesikta Rabbati 16:1",
-		"Bamidbar Rabbah 21:17",
-		"Jerusalem Talmud Sukkah 4:6:5"
-	],
 	"content": {
+		"morphology": "m.",
 		"senses": [
 			{
-				"definition": " (<a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_שָׂבֵעַ I.1\" data-ref=\"Jastrow, שָׂבֵעַ I 1\">שָׂבֵעַ</a>) <i>being sated, satiation</i>. <a class=\"refLink\" href=\"/Yoma.79b.9\" data-ref=\"Yoma 79b:9\">Yoma 79ᵇ</a> (ref. to <a class=\"refLink\" href=\"/Deuteronomy.11.15\" data-ref=\"Deuteronomy 11:15\">Deut. XI, 15</a>) <span dir=\"rtl\">אכילה שיש בה ש׳ וכ׳</span> (to say the benediction after meal requires) food enough to satisfy the appetite, which is the size of an egg. <a class=\"refLink\" href=\"/Pesikta_Rabbati.16.1\" data-ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</a> (ref. to <a class=\"refLink\" href=\"/Numbers.28.7\" data-ref=\"Numbers 28:7\">Num. XXVIII, 7</a>) <span dir=\"rtl\">לשון רויה לשון ש׳ וכ׳</span> expressing <i>fill, satiation</i> &c., v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_רְוִיָּה.1\" data-ref=\"Jastrow, רְוִיָּה 1\">רְוִיָּה</a>; Tanḥ. Pinḥ. 12; <a class=\"refLink\" href=\"/Bamidbar_Rabbah.21.17\" data-ref=\"Bamidbar Rabbah 21:17\">Num. R. s. 21<sup>17</sup></a>; <a class=\"refLink\" href=\"Jerusalem_Talmud_Sukkah.4.6.5\" data-ref=\"Jerusalem Talmud Sukkah 4:6:5\">Y. Succ. IV, 54ᵈ</a> top <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_שיבעה.1\" data-ref=\"Jastrow, שיבעה 1\">שיבעה</a> (corr. acc.)."
+				"definition": " (<a class=\"refLink\" href=\"/Jastrow,_שְׁנַץ.1\" data-ref=\"Jastrow, שְׁנַץ 1\">preced.</a>) <i>strap, lace</i>. <a class=\"refLink\" href=\"/Mishnah_Mikvaot.10.4\" data-ref=\"Mishnah Mikvaot 10:4\">Mikv. X, 4</a> <span dir=\"rtl\">ש׳ של סנדל</span> ed. Dehr. (ed. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_שניצן.1\" data-ref=\"Jastrow, שניצן 1\">שניצן</a>, read: <span dir=\"rtl\">שְׁנָצִין</span>) laces of a sandal, contrad. to <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_חֶבֶט I.1\" data-ref=\"Jastrow, חֶבֶט I 1\">חֶבֶט</a>.—Pl. <span dir=\"rtl\">שְׁנָצוֹת</span>, with suffix <span dir=\"rtl\">שְׁנָצָיו</span>. <a class=\"refLink\" href=\"/Mishnah_Kelim.26.1\" data-ref=\"Mishnah Kelim 26:1\">Kel. XXVI, 1</a>, sq. <span dir=\"rtl\">כיס של ש׳</span> a bag which is closed by means of laces.—[<span dir=\"rtl\">שנץ</span> pr. n. pl., v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_שֶׁצֶת.1\" data-ref=\"Jastrow, שֶׁצֶת 1\">שֶׁצֶת</a>.]"
 			}
-		],
-		"morphology": "f."
+		]
 	},
-	"plural_form": [],
-	"alt_headwords": [],
+	"headword": "שֶׁנֶץ",
+	"next_hw": "שִׁנְצָא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"plural_form": [
+		"שְׁנָצוֹת",
+		""
+	],
+	"prev_hw": "שְׁנַץ",
 	"quotes": [],
-	"prev_hw": "שְׁבִיעָאָה",
-	"next_hw": "שְׁבִיעִי"
+	"refs": [
+		"Jastrow, שְׁנַץ 1"
+	],
+	"rid": "U01608"
 }
 ```
 
@@ -4184,63 +4233,58 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "U00128",
-	"sefariaHeadword": "שְׂבִיעָה",
+	"id": "U01608",
+	"sefariaHeadword": "שֶׁנֶץ",
 	"headwords": [
 		{
-			"text": "שְׂבִיעָה"
+			"text": "שֶׁנֶץ"
 		}
 	],
 	"display": "{0}",
 	"page": {
-		"number": 1514,
+		"number": 1607,
 		"column": "b"
 	},
 	"grammar": {
-		"gender": "f"
+		"gender": "m"
 	},
 	"senses": [
 		{
-			"gloss": "f. (<cite ref=\"U00159\"><he>שָׂבֵעַ</he></cite>) <i>being sated, satiation</i>. ",
+			"gloss": "m. (<cite ref=\"U01607\">preced.</cite>) <i>strap, lace</i>. ",
 			"units": [
-				"<cite ref=\"Yoma 79b:9\">Yoma 79ᵇ</cite> (ref. to <cite ref=\"Deuteronomy 11:15\">Deut. XI, 15</cite>) <he>אכילה שיש בה ש׳ וכ׳</he> (to say the benediction after meal requires) food enough to satisfy the appetite, which is the size of an egg. ",
-				"<cite ref=\"Pesikta Rabbati 16:1\">Pesik. R. s. 16</cite> (ref. to <cite ref=\"Numbers 28:7\">Num. XXVIII, 7</cite>) <he>לשון רויה לשון ש׳ וכ׳</he> expressing <i>fill, satiation</i> &c., v. <cite ref=\"T00361\"><he>רְוִיָּה</he></cite>; Tanḥ. Pinḥ. 12; <cite ref=\"Bamidbar Rabbah 21:17\">Num. R. s. 21<sup>17</sup></cite>; <cite ref=\"Jerusalem Talmud Sukkah 4:6:5\">Y. Succ. IV, 54ᵈ</cite> top <cite ref=\"U00809\"><he>שיבעה</he></cite> (corr. acc.)."
+				"<cite ref=\"Mishnah Mikvaot 10:4\">Mikv. X, 4</cite> <he>ש׳ של סנדל</he> ed. Dehr. (ed. <cite ref=\"U01597\"><he>שניצן</he></cite>, read: <he>שְׁנָצִין</he>) laces of a sandal, contrad. to <cite ref=\"H00042\"><he>חֶבֶט</he></cite>.—Pl. <he>שְׁנָצוֹת</he>, with suffix <he>שְׁנָצָיו</he>. ",
+				"<cite ref=\"Mishnah Kelim 26:1\">Kel. XXVI, 1</cite>, sq. <he>כיס של ש׳</he> a bag which is closed by means of laces.—[<he>שנץ</he> pr. n. pl., v. <cite ref=\"U01820\"><he>שֶׁצֶת</he></cite>.]"
 			]
 		}
 	]
 }
 ```
 
-### U01796
+### V00278
 
 Source (composed):
 
 ```json
 {
 	"_id": {
-		"$oid": "5c46b36208d98a02694f06d9"
+		"$oid": "5c46b55208d98a02694f15fc"
 	},
-	"headword": "שָׂפַק",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "U01796",
-	"refs": [
-		"Jastrow, סָפַק I 1",
-		"Jastrow, סְפַק 1"
-	],
 	"content": {
 		"senses": [
 			{
-				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_סָפַק I.1\" data-ref=\"Jastrow, סָפַק I 1\">סָפַק</a>, <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_סְפַק.1\" data-ref=\"Jastrow, סְפַק 1\">סְפַק</a>."
+				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_תּוֹרְבָּלָא.1\" data-ref=\"Jastrow, תּוֹרְבָּלָא 1\">תּוֹרְבָּלָא</a>"
 			}
 		]
 	},
-	"alt_headwords": [
-		"שְׂפַק",
-		"שְׂפֵק"
-	],
+	"headword": "תּוֹרְבָּאלָא",
+	"next_hw": "תּוּרְבְּיָינָא",
+	"parent_lexicon": "Jastrow Dictionary",
+	"prev_hw": "תַּוָּרָא",
 	"quotes": [],
-	"prev_hw": "שְׁפַץ",
-	"next_hw": "שפקין"
+	"refs": [
+		"Jastrow, תּוֹרְבָּלָא 1"
+	],
+	"rid": "V00278"
 }
 ```
 
@@ -4249,196 +4293,22 @@ Entry:
 ```json
 {
 	"schemaVersion": 2,
-	"id": "U01796",
-	"sefariaHeadword": "שָׂפַק",
+	"id": "V00278",
+	"sefariaHeadword": "תּוֹרְבָּאלָא",
 	"headwords": [
 		{
-			"text": "שָׂפַק"
-		},
-		{
-			"text": "שְׂפַק"
-		},
-		{
-			"text": "שְׂפֵק"
+			"text": "תּוֹרְבָּאלָא"
 		}
 	],
-	"display": "{0}, {1}, {2}",
+	"display": "{0}",
 	"page": {
-		"number": 1619,
+		"number": 1656,
 		"column": "b"
 	},
 	"senses": [
 		{
-			"gloss": ", v. <cite ref=\"O01402\"><he>סָפַק</he></cite>, <cite ref=\"O01403\"><he>סְפַק</he></cite>.",
+			"gloss": ", v. <cite ref=\"V00282\"><he>תּוֹרְבָּלָא</he></cite>",
 			"units": []
-		}
-	]
-}
-```
-
-### V00466
-
-Source (composed):
-
-```json
-{
-	"_id": {
-		"$oid": "5c46b58508d98a02694f1994"
-	},
-	"headword": "תימן",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "V00466",
-	"refs": [
-		"Jastrow, *תִּימוֹז 1"
-	],
-	"content": {
-		"senses": [
-			{
-				"definition": ", v. <a dir=\"rtl\" class=\"refLink\" href=\"/Jastrow,_*תִּימוֹז.1\" data-ref=\"Jastrow, *תִּימוֹז 1\">תִּימוֹז</a>"
-			}
-		]
-	},
-	"quotes": [],
-	"prev_hw": "תִּימַלְיוֹס",
-	"next_hw": "תִּימְרָא"
-}
-```
-
-Entry:
-
-```json
-{
-	"schemaVersion": 2,
-	"id": "V00466",
-	"sefariaHeadword": "תימן",
-	"headwords": [
-		{
-			"text": "תימן"
-		}
-	],
-	"display": "{0}",
-	"page": {
-		"number": 1665,
-		"column": "a"
-	},
-	"senses": [
-		{
-			"gloss": ", v. <cite ref=\"V00458\"><he>תִּימוֹז</he></cite>",
-			"units": []
-		}
-	]
-}
-```
-
-### U01420
-
-Source (composed):
-
-```json
-{
-	"_id": {
-		"$oid": "5c46b22b08d98a02694efc24"
-	},
-	"headword": "שְׁמַד",
-	"parent_lexicon": "Jastrow Dictionary",
-	"rid": "U01420",
-	"language_code": " ch. ",
-	"refs": [
-		"Jastrow, שָׁמַד 1",
-		"Yoma 2a",
-		"Kiddushin 72a:11"
-	],
-	"language_reference": "<a class=\"refLink\" href=\"/Jastrow,_שָׁמַד.1\" data-ref=\"Jastrow, שָׁמַד 1\">same</a>.",
-	"content": {
-		"senses": [
-			{
-				"grammar": {
-					"binyan_form": [
-						"שַׁמֵּד"
-					],
-					"verbal_stem": "Pa."
-				},
-				"senses": [
-					{
-						"definition": "<i>to force to apostasy</i>. Y. Shebi. IV, 35ᵃ bot. <span dir=\"rtl\">לא מתכוון מְשַמַּדְתְּכוֹן</span> he has no intention to make you abandon your religion (to persecute you for your religion’s sake), but only to collect taxes &c.; Y. Snh. III, 21ᵇ top <span dir=\"rtl\">משמדתהון</span> (corr. acc.). <a class=\"refLink\" href=\"/Yoma.2a\" data-ref=\"Yoma 2a\">Ib.</a> <span dir=\"rtl\">לא אתכוון מְשַׁמַּדְתְּהוֹן וכ׳</span> he had no intention to force them to violate their religious laws, but merely wanted to eat fresh bread; Y. Shebi. l. c. <span dir=\"rtl\">מְשַׁמַּדְתּוֹן</span>."
-					}
-				]
-			},
-			{
-				"grammar": {
-					"binyan_form": [
-						"אִשְׁתַּמַּד"
-					],
-					"verbal_stem": "Ithpa."
-				},
-				"senses": [
-					{
-						"definition": "<i>to renounce one’s religion, apostatize</i>. <a class=\"refLink\" href=\"/Onkelos_Exodus.12.43\" data-ref=\"Onkelos Exodus 12:43\">Targ. O. Ex. XII, 43</a> (h. text <span dir=\"rtl\">בן נכר</span>).—<a class=\"refLink\" href=\"/Kiddushin.72a.11\" data-ref=\"Kiddushin 72a:11\">Kidd. 72ᵃ</a> <span dir=\"rtl\">שמתינהו</span> … <span dir=\"rtl\">ואִישְׁתַּמּוּד</span> R. A. excommunicated them, and they renounced Judaism."
-					}
-				]
-			}
-		]
-	},
-	"plural_form": [],
-	"alt_headwords": [],
-	"quotes": [],
-	"prev_hw": "שָׁמַד",
-	"next_hw": "שְׁמָד"
-}
-```
-
-Entry:
-
-```json
-{
-	"schemaVersion": 2,
-	"id": "U01420",
-	"sefariaHeadword": "שְׁמַד",
-	"headwords": [
-		{
-			"text": "שְׁמַד"
-		}
-	],
-	"display": "{0}",
-	"page": {
-		"number": 1592,
-		"column": "a"
-	},
-	"senses": [
-		{
-			"gloss": " ch. <cite ref=\"U01419\">same</cite>.",
-			"units": []
-		}
-	],
-	"stems": [
-		{
-			"forms": [
-				"שַׁמֵּד"
-			],
-			"senses": [
-				{
-					"gloss": "<i>to force to apostasy</i>. Y. Shebi. IV, 35ᵃ bot. <he>לא מתכוון מְשַמַּדְתְּכוֹן</he> he has no intention to make you abandon your religion (to persecute you for your religion’s sake), but only to collect taxes &c.; Y. Snh. III, 21ᵇ top <he>משמדתהון</he> (corr. acc.). ",
-					"units": [
-						"<cite ref=\"Yoma 2a\">Ib.</cite> <he>לא אתכוון מְשַׁמַּדְתְּהוֹן וכ׳</he> he had no intention to force them to violate their religious laws, but merely wanted to eat fresh bread; Y. Shebi. l. c. <he>מְשַׁמַּדְתּוֹן</he>."
-					]
-				}
-			],
-			"stem": "Pa."
-		},
-		{
-			"forms": [
-				"אִשְׁתַּמַּד"
-			],
-			"senses": [
-				{
-					"gloss": "<i>to renounce one’s religion, apostatize</i>. ",
-					"units": [
-						"<cite ref=\"Onkelos Exodus 12:43\">Targ. O. Ex. XII, 43</cite> (h. text <he>בן נכר</he>).—",
-						"<cite ref=\"Kiddushin 72a:11\">Kidd. 72ᵃ</cite> <he>שמתינהו</he> … <he>ואִישְׁתַּמּוּד</he> R. A. excommunicated them, and they renounced Judaism."
-					]
-				}
-			],
-			"stem": "Ithpa."
 		}
 	]
 }

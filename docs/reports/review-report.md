@@ -43,33 +43,60 @@ _none_
 - B00917: stems[1] "Ithpa." carries no sense text
 - B01004: stems[1] "Ithpa." carries no sense text
 - C00050: stems[1] "Ithpa." carries no sense text
-- D00825: stems[0] "Pa." carries no sense text
 - C00259: stems[0] "Pi." carries no sense text
-- E00148: stems[2] "Ithpa." carries no sense text
+- C01079: stems[1] "Ithpa." carries no sense text
 - C01321: stems[0] "Ithpa." carries no sense text
 - C01381: stems[0] "Pi." carries no sense text
 - C01403: stems[2] "Hithpa." carries no sense text
 - D00073: stems[1] "Ithpa." carries no sense text
 - D00076: stems[2] "Ithpa." carries no sense text
 - D00407: stems[1] "Ithpa." carries no sense text
-- C01079: stems[1] "Ithpa." carries no sense text
+- D00825: stems[0] "Pa." carries no sense text
+- E00148: stems[2] "Ithpa." carries no sense text
 - E00676: stems[1] "Ithpe." carries no sense text
 - E00741: stems[2] "Ithpa." carries no sense text
 - G00103: stems[1] "Ithpe." carries no sense text
 - G00105: stems[2] "Ithpe." carries no sense text
 - G00131: stems[1] "Ithpe." carries no sense text
 - G00456: stems[1] "Ithpa." carries no sense text
+- G00526: stems[1] "Hof." carries no sense text
+- G00589: stems[0] "Hithpalp." carries no sense text
+- G00642: stems[1] "Nif." carries no sense text
+- G00650: stems[1] "Ithpa." carries no sense text
+- G00655: stems[0] "Nif." carries no sense text
+- G00685: stems[1] "Hithpa." carries no sense text
+- G00686: stems[1] "Ithpa." carries no sense text
+- G00723: stems[0] "Ithpa." carries no sense text
 - H00048: stems[0] "Ithpa." carries no sense text
 - H00107: stems[2] "Hithpa." carries no sense text
-- H01441: stems[2] "Ithpa." carries no sense text
 - H00217: stems[1] "Hithpa." carries no sense text
 - H00231: stems[1] "Hithpa." carries no sense text
-- H01577: stems[1] "Hithpa." carries no sense text
-- H01707: stems[1] "Hithpa." carries no sense text
-- H01715: stems[0] "Pa." carries no sense text
 - H00553: stems[3] "Hithpa." carries no sense text
 - H00554: stems[2] "Ithpa." carries no sense text
 - H00613: stems[1] "Hithpa." carries no sense text
+- H00936: stems[0] "Hithpa." carries no sense text
+- H00939: stems[1] "Hithpa." carries no sense text
+- H01021: stems[1] "Ithpa." carries no sense text
+- H01073: stems[5] "Hithpa." carries no sense text
+- H01098: stems[2] "Nif." carries no sense text
+- H01099: stems[2] "Ithpa." carries no sense text
+- H01112: stems[4] "Hithpa." carries no sense text
+- H01144: stems[2] "Hithpa." carries no sense text
+- H01145: stems[1] "Ithpa." carries no sense text
+- H01172: stems[2] "Ithpa." carries no sense text
+- H01201: stems[4] "Hithpa." carries no sense text
+- H01202: stems[2] "Ithpa." carries no sense text
+- H01219: stems[0] "Pa." carries no sense text
+- H01239: stems[0] "Pa." carries no sense text
+- H01302: stems[1] "Pu." carries no sense text
+- H01303: stems[0] "Pa." carries no sense text
+- H01336: stems[0] "Pa." carries no sense text
+- H01396: stems[0] "Af." carries no sense text
+- H01397: stems[1] "Hithpa." carries no sense text
+- H01441: stems[2] "Ithpa." carries no sense text
+- H01577: stems[1] "Hithpa." carries no sense text
+- H01707: stems[1] "Hithpa." carries no sense text
+- H01715: stems[0] "Pa." carries no sense text
 - H01739: stems[2] "Hithpa." carries no sense text
 - H01806: stems[1] "Hithpa." carries no sense text
 - H01807: stems[1] "Ithpa." carries no sense text
@@ -82,33 +109,14 @@ _none_
 - I00622: stems[0] "Ithpa." carries no sense text
 - I00661: stems[0] "Ithpa." carries no sense text
 - I00696: stems[0] "Ithpa." carries no sense text
-- H00936: stems[0] "Hithpa." carries no sense text
-- H00939: stems[1] "Hithpa." carries no sense text
-- H01021: stems[1] "Ithpa." carries no sense text
-- H01073: stems[5] "Hithpa." carries no sense text
-- H01098: stems[2] "Nif." carries no sense text
-- H01099: stems[2] "Ithpa." carries no sense text
-- H01112: stems[4] "Hithpa." carries no sense text
-- H01144: stems[2] "Hithpa." carries no sense text
-- H01145: stems[1] "Ithpa." carries no sense text
-- H01172: stems[2] "Ithpa." carries no sense text
-- G00526: stems[1] "Hof." carries no sense text
-- H01201: stems[4] "Hithpa." carries no sense text
-- H01202: stems[2] "Ithpa." carries no sense text
-- H01219: stems[0] "Pa." carries no sense text
-- G00589: stems[0] "Hithpalp." carries no sense text
-- H01239: stems[0] "Pa." carries no sense text
-- H01302: stems[1] "Pu." carries no sense text
-- G00642: stems[1] "Nif." carries no sense text
-- G00650: stems[1] "Ithpa." carries no sense text
-- G00655: stems[0] "Nif." carries no sense text
-- H01303: stems[0] "Pa." carries no sense text
-- H01336: stems[0] "Pa." carries no sense text
-- G00685: stems[1] "Hithpa." carries no sense text
-- G00686: stems[1] "Ithpa." carries no sense text
-- G00723: stems[0] "Ithpa." carries no sense text
-- H01396: stems[0] "Af." carries no sense text
-- H01397: stems[1] "Hithpa." carries no sense text
+- I00860: stems[1] "Ithpa." carries no sense text
+- J00107: stems[2] "Ithpe." carries no sense text
+- J00114: stems[0] "Ithpa." carries no sense text
+- J00368: stems[2] "Ithpa." carries no sense text
+- J00704: stems[0] "Ithpa." carries no sense text
+- J00712: stems[2] "Ithpa." carries no sense text
+- K00030: stems[1] "Hithpa." carries no sense text
+- K00081: stems[3] "Hithpa." carries no sense text
 - K00296: stems[2] "Hithpa." carries no sense text
 - K00676: stems[0] "Pi." carries no sense text
 - K00715: stems[1] "Hithpa." carries no sense text
@@ -123,24 +131,16 @@ _none_
 - K00915: stems[0] "Nif." carries no sense text
 - K00952: stems[1] "Ithpa." carries no sense text
 - K01046: stems[2] "Hithpa." carries no sense text
-- M01461: stems[1] "Hithpa." carries no sense text
-- M01571: stems[2] "Ithpa." carries no sense text
-- M01772: stems[4] "Hithpa." carries no sense text
-- M01773: stems[2] "Ithpa." carries no sense text
-- M01949: stems[0] "Ithpa." carries no sense text
-- I00860: stems[1] "Ithpa." carries no sense text
-- J00107: stems[2] "Ithpe." carries no sense text
-- J00114: stems[0] "Ithpa." carries no sense text
-- J00368: stems[2] "Ithpa." carries no sense text
-- J00704: stems[0] "Ithpa." carries no sense text
-- J00712: stems[2] "Ithpa." carries no sense text
-- K00030: stems[1] "Hithpa." carries no sense text
-- K00081: stems[3] "Hithpa." carries no sense text
 - K01325: stems[0] "Ithpa." carries no sense text
 - L00095: stems[1] "Hithpa." carries no sense text
 - L00247: stems[1] "Hithpa." carries no sense text
 - L00290: stems[0] "Nif." carries no sense text
 - L00553: stems[0] "Hithpa." carries no sense text
+- M01461: stems[1] "Hithpa." carries no sense text
+- M01571: stems[2] "Ithpa." carries no sense text
+- M01772: stems[4] "Hithpa." carries no sense text
+- M01773: stems[2] "Ithpa." carries no sense text
+- M01949: stems[0] "Ithpa." carries no sense text
 - M02097: stems[2] "Nithpa." carries no sense text
 - M02121: stems[1] "Hithpa." carries no sense text
 - M02309: stems[1] "Ithpa." carries no sense text
@@ -161,18 +161,6 @@ _none_
 - N00584: stems[1] "Ithpa." carries no sense text
 - N00591: stems[1] "Pu." carries no sense text
 - N00848: stems[2] "Hithpa." carries no sense text
-- O00893: stems[0] "Pa." carries no sense text; stems[2] "Ithpe." carries no sense text
-- O00909: stems[0] "Hithpa." carries no sense text
-- O00941: stems[1] "Ithpa." carries no sense text
-- O00977: stems[0] "Hif." carries no sense text
-- O01025: stems[1] "Hithpa." carries no sense text
-- O01026: stems[1] "Ithpa." carries no sense text
-- O01078: stems[2] "Hithpa." carries no sense text
-- O01097: stems[3] "Hithpa." carries no sense text
-- O01244: stems[1] "Nithpa." carries no sense text
-- O01313: stems[2] "Hithpa." carries no sense text
-- O01492: stems[0] "Hithpa." carries no sense text
-- O01493: stems[1] "Ithpa." carries no sense text
 - N00917: stems[2] "Ithpa." carries no sense text
 - N00926: stems[1] "Hithpa." carries no sense text
 - N00946: stems[2] "Hithpa." carries no sense text
@@ -185,6 +173,18 @@ _none_
 - O00164: stems[1] "Ithpa." carries no sense text
 - O00166: stems[1] "Ithpa." carries no sense text
 - O00466: stems[2] "Ithpa." carries no sense text
+- O00893: stems[0] "Pa." carries no sense text; stems[2] "Ithpe." carries no sense text
+- O00909: stems[0] "Hithpa." carries no sense text
+- O00941: stems[1] "Ithpa." carries no sense text
+- O00977: stems[0] "Hif." carries no sense text
+- O01025: stems[1] "Hithpa." carries no sense text
+- O01026: stems[1] "Ithpa." carries no sense text
+- O01078: stems[2] "Hithpa." carries no sense text
+- O01097: stems[3] "Hithpa." carries no sense text
+- O01244: stems[1] "Nithpa." carries no sense text
+- O01313: stems[2] "Hithpa." carries no sense text
+- O01492: stems[0] "Hithpa." carries no sense text
+- O01493: stems[1] "Ithpa." carries no sense text
 - O01581: stems[1] "Nif." carries no sense text
 - O01646: stems[1] "Hithpa." carries no sense text
 - O01705: stems[0] "Nif." carries no sense text
@@ -200,31 +200,6 @@ _none_
 - P00737: stems[1] "Hithpa." carries no sense text
 - P00766: stems[0] "Ithpa." carries no sense text
 - P00790: stems[3] "Hithpa." carries no sense text
-- Q00434: stems[1] "Nif." carries no sense text
-- Q00444: stems[3] "Hithpa." carries no sense text
-- Q00478: stems[1] "Nif." carries no sense text
-- Q00547: stems[1] "Nif." carries no sense text
-- Q00548: stems[2] "Ithpa." carries no sense text
-- Q00741: stems[2] "Hithpa." carries no sense text
-- Q00935: stems[2] "Ithpa." carries no sense text
-- Q00991: stems[2] "Ithpa." carries no sense text
-- Q00997: stems[0] "Nif." carries no sense text
-- Q01075: stems[1] "Hithpa." carries no sense text
-- Q01127: stems[0] "Hithpa." carries no sense text
-- Q01210: stems[1] "Ithpa." carries no sense text
-- Q01228: stems[0] "Pa." carries no sense text
-- Q01350: stems[3] "Hithpa." carries no sense text
-- Q01387: stems[1] "Nif." carries no sense text
-- Q01426: stems[0] "Pa." carries no sense text
-- R00162: stems[0] "Ithpe." carries no sense text
-- Q01437: stems[0] "Ithpa." carries no sense text
-- Q01439: stems[1] "Nif." carries no sense text
-- Q01449: stems[1] "Nif." carries no sense text
-- Q01450: stems[2] "Ithpa." carries no sense text
-- Q01474: stems[1] "Nif." carries no sense text
-- Q01514: stems[1] "Hithpa." carries no sense text
-- Q01572: stems[3] "Hithpa." carries no sense text
-- R00480: stems[0] "Ithpa." carries no sense text
 - P00791: stems[1] "Ithpa." carries no sense text
 - P00819: stems[1] "Ithpa." carries no sense text
 - P00820: stems[1] "Nef." carries no sense text
@@ -252,68 +227,93 @@ _none_
 - Q00074: stems[0] "Nif." carries no sense text
 - Q00075: stems[0] "Ithpa." carries no sense text
 - Q00097: stems[1] "Hithpa." carries no sense text
+- Q00434: stems[1] "Nif." carries no sense text
+- Q00444: stems[3] "Hithpa." carries no sense text
+- Q00478: stems[1] "Nif." carries no sense text
+- Q00547: stems[1] "Nif." carries no sense text
+- Q00548: stems[2] "Ithpa." carries no sense text
+- Q00741: stems[2] "Hithpa." carries no sense text
+- Q00935: stems[2] "Ithpa." carries no sense text
+- Q00991: stems[2] "Ithpa." carries no sense text
+- Q00997: stems[0] "Nif." carries no sense text
+- Q01075: stems[1] "Hithpa." carries no sense text
+- Q01127: stems[0] "Hithpa." carries no sense text
+- Q01210: stems[1] "Ithpa." carries no sense text
+- Q01228: stems[0] "Pa." carries no sense text
+- Q01350: stems[3] "Hithpa." carries no sense text
+- Q01387: stems[1] "Nif." carries no sense text
+- Q01426: stems[0] "Pa." carries no sense text
+- Q01437: stems[0] "Ithpa." carries no sense text
+- Q01439: stems[1] "Nif." carries no sense text
+- Q01449: stems[1] "Nif." carries no sense text
+- Q01450: stems[2] "Ithpa." carries no sense text
+- Q01474: stems[1] "Nif." carries no sense text
+- Q01514: stems[1] "Hithpa." carries no sense text
+- Q01572: stems[3] "Hithpa." carries no sense text
 - Q01845: stems[1] "Ithpa." carries no sense text
-- R00602: stems[0] "Pa." carries no sense text; stems[2] "Ithpa." carries no sense text
-- R00635: stems[0] "Hif." carries no sense text; stems[5] "Hithpa." carries no sense text
-- R00639: stems[2] "Ithpa." carries no sense text
-- R00661: stems[2] "Hithpa." carries no sense text
 - Q01908: stems[0] "Nif." carries no sense text
 - Q01934: stems[0] "Hithpa." carries no sense text
 - Q01944: stems[0] "Ithpa." carries no sense text
 - Q01980: stems[1] "Hithpa." carries no sense text
 - Q01981: stems[2] "Ithpa." carries no sense text
-- R00759: stems[1] "Ithpa." carries no sense text
-- R00788: stems[0] "Ithpa." carries no sense text
 - Q02018: stems[0] "Ithpa." carries no sense text
 - Q02021: stems[2] "Hithpa." carries no sense text
 - Q02063: stems[4] "Hithpa." carries no sense text
+- Q02143: stems[2] "Hithpa." carries no sense text
+- Q02144: stems[2] "Ithpa." carries no sense text
+- Q02151: stems[2] "Hithpa." carries no sense text
+- R00162: stems[0] "Ithpe." carries no sense text
+- R00480: stems[0] "Ithpa." carries no sense text
+- R00602: stems[0] "Pa." carries no sense text; stems[2] "Ithpa." carries no sense text
+- R00635: stems[0] "Hif." carries no sense text; stems[5] "Hithpa." carries no sense text
+- R00639: stems[2] "Ithpa." carries no sense text
+- R00661: stems[2] "Hithpa." carries no sense text
+- R00759: stems[1] "Ithpa." carries no sense text
+- R00788: stems[0] "Ithpa." carries no sense text
 - R00791: stems[0] "Hithpa." carries no sense text
 - R00798: stems[1] "Ithpa." carries no sense text
 - S00057: stems[3] "Hithpa." carries no sense text
 - S00092: stems[1] "Nif." carries no sense text
 - S00096: stems[1] "Ithpa." carries no sense text
-- Q02143: stems[2] "Hithpa." carries no sense text
-- Q02144: stems[2] "Ithpa." carries no sense text
-- Q02151: stems[2] "Hithpa." carries no sense text
 - S00192: stems[1] "Hithpa." carries no sense text
 - S00374: stems[1] "Hithpa." carries no sense text
 - S00804: stems[1] "Hithpa." carries no sense text
 - S00810: stems[0] "Nif." carries no sense text
-- T00909: stems[1] "Ithpa." carries no sense text
-- T00914: stems[1] "Hithpa." carries no sense text
-- T00943: stems[1] "Hithpa." carries no sense text
+- S01317: stems[0] "Pa." carries no sense text
+- S01402: stems[1] "Nif." carries no sense text
+- S01403: stems[1] "Ithpa." carries no sense text
+- S01415: stems[0] "Hithpa." carries no sense text
+- S01461: stems[0] "Pa." carries no sense text
+- S01559: stems[0] "Hithpa." carries no sense text
+- S01566: stems[1] "Hithpa." carries no sense text
+- S01604: stems[1] "Ithpa." carries no sense text
+- S01690: stems[0] "Hithpa." carries no sense text
+- S01844: stems[1] "Hithpa." carries no sense text
+- S01883: stems[3] "Hithpa." carries no sense text
+- S01884: stems[2] "Ithpa." carries no sense text
+- S02235: stems[3] "Hithpa." carries no sense text
+- S02236: stems[2] "Ithpa." carries no sense text
+- T00212: stems[1] "Ithpe." carries no sense text
+- T00217: stems[0] "Hif." carries no sense text
+- T00221: stems[0] "Ithpe." carries no sense text
+- T00326: stems[2] "Hithpa." carries no sense text
+- T00327: stems[2] "Ithpa." carries no sense text
+- T00359: stems[1] "Ithpa." carries no sense text
+- T00375: stems[1] "Ithpa." carries no sense text
 - T00432: stems[0] "Ittaf." carries no sense text
 - T00517: stems[1] "Ithpa." carries no sense text
 - T00536: stems[0] "Ithpa." carries no sense text
 - T00538: stems[2] "Hithpa." carries no sense text
 - T00541: stems[2] "Ithpa." carries no sense text
-- T00981: stems[4] "Hithp." carries no sense text
-- S01844: stems[1] "Hithpa." carries no sense text
-- S01883: stems[3] "Hithpa." carries no sense text
-- S01884: stems[2] "Ithpa." carries no sense text
 - T00576: stems[2] "Ithpa." carries no sense text
-- T01089: stems[1] "Hithpa." carries no sense text
-- T01123: stems[0] "Af." carries no sense text
 - T00767: stems[1] "Ithpa." carries no sense text
 - T00768: stems[0] "Pi." carries no sense text
-- S02235: stems[3] "Hithpa." carries no sense text
-- S02236: stems[2] "Ithpa." carries no sense text
-- S01317: stems[0] "Pa." carries no sense text
-- S01402: stems[1] "Nif." carries no sense text
-- S01403: stems[1] "Ithpa." carries no sense text
-- S01415: stems[0] "Hithpa." carries no sense text
-- T00212: stems[1] "Ithpe." carries no sense text
-- T00217: stems[0] "Hif." carries no sense text
-- T00221: stems[0] "Ithpe." carries no sense text
-- S01461: stems[0] "Pa." carries no sense text
-- S01559: stems[0] "Hithpa." carries no sense text
-- S01566: stems[1] "Hithpa." carries no sense text
-- S01604: stems[1] "Ithpa." carries no sense text
-- T00326: stems[2] "Hithpa." carries no sense text
-- T00327: stems[2] "Ithpa." carries no sense text
-- S01690: stems[0] "Hithpa." carries no sense text
-- T00359: stems[1] "Ithpa." carries no sense text
-- T00375: stems[1] "Ithpa." carries no sense text
+- T00909: stems[1] "Ithpa." carries no sense text
+- T00914: stems[1] "Hithpa." carries no sense text
+- T00943: stems[1] "Hithpa." carries no sense text
+- T00981: stems[4] "Hithp." carries no sense text
+- T01089: stems[1] "Hithpa." carries no sense text
+- T01123: stems[0] "Af." carries no sense text
 - U00031: stems[2] "Ithpa." carries no sense text
 - U00048: stems[3] "Ithpa." carries no sense text
 - U00110: stems[0] "Ithpa." carries no sense text
@@ -331,18 +331,6 @@ _none_
 - U00741: stems[0] "Hithpa." carries no sense text
 - U00742: stems[2] "Ithpa." carries no sense text
 - U00745: stems[0] "Nif." carries no sense text
-- U01765: stems[0] "Ithpa." carries no sense text
-- U01771: stems[3] "Hithpa." carries no sense text
-- U01877: stems[2] "Hithpa." carries no sense text
-- U01878: stems[1] "Ithpa." carries no sense text
-- U01893: stems[1] "Hithpa." carries no sense text
-- U01915: stems[0] "Hithpa." carries no sense text
-- U01961: stems[2] "Ithpa." carries no sense text
-- U02022: stems[1] "Ithpa." carries no sense text
-- U02038: stems[1] "Hithpa." carries no sense text
-- U02131: stems[1] "Hithpa." carries no sense text
-- V00050: stems[1] "Nithpa." carries no sense text
-- V00088: stems[0] "Ithpa." carries no sense text
 - U00762: stems[1] "Nif." carries no sense text
 - U01137: stems[2] "Nif." carries no sense text
 - U01139: stems[1] "Ithpa." carries no sense text
@@ -364,6 +352,18 @@ _none_
 - U01653: stems[1] "Ithpa." carries no sense text
 - U01676: stems[1] "Hithpa." carries no sense text
 - U01738: stems[0] "Hithpa." carries no sense text
+- U01765: stems[0] "Ithpa." carries no sense text
+- U01771: stems[3] "Hithpa." carries no sense text
+- U01877: stems[2] "Hithpa." carries no sense text
+- U01878: stems[1] "Ithpa." carries no sense text
+- U01893: stems[1] "Hithpa." carries no sense text
+- U01915: stems[0] "Hithpa." carries no sense text
+- U01961: stems[2] "Ithpa." carries no sense text
+- U02022: stems[1] "Ithpa." carries no sense text
+- U02038: stems[1] "Hithpa." carries no sense text
+- U02131: stems[1] "Hithpa." carries no sense text
+- V00050: stems[1] "Nithpa." carries no sense text
+- V00088: stems[0] "Ithpa." carries no sense text
 - V00625: stems[0] "Ithpa." carries no sense text
 - V00743: stems[2] "Ithpa." carries no sense text
 - V00909: stems[2] "Ithpa." carries no sense text
@@ -384,14 +384,14 @@ _none_
 
 **What to do:** Read the print. If it sets the numeral beside the headword, a reviewed `reform` sets it with `homographs` (the headword text, which 37 live anchors name, is left alone) and a companion patch takes it out of the definition. Never write the numeral into the headword text.
 
-- U01775: senses[0].gloss opens "II"; headword carries no homograph
-- V00003: senses[0].gloss opens "II"; headword carries no homograph
-- V00006: senses[0].gloss opens "II"; headword carries no homograph
-- V00138: senses[0].gloss opens "III"; headword carries no homograph
 - U00997: senses[0].gloss opens "II"; headword carries no homograph
 - U00998: senses[0].gloss opens "III"; headword carries no homograph
 - U01004: senses[0].gloss opens "III"; headword carries no homograph
 - U01292: senses[0].gloss opens "II"; headword carries no homograph
+- U01775: senses[0].gloss opens "II"; headword carries no homograph
+- V00003: senses[0].gloss opens "II"; headword carries no homograph
+- V00006: senses[0].gloss opens "II"; headword carries no homograph
+- V00138: senses[0].gloss opens "III"; headword carries no homograph
 - V00832: senses[0].gloss opens "II"; headword carries no homograph
 - V01060: senses[0].gloss opens "I"; headword carries no homograph
 - V01061: senses[0].gloss opens "II"; headword carries no homograph
@@ -444,6 +444,9 @@ _none_
 - B00772: senses[2].units[0]: <he> holds 1 "(" against 0 ")"
 - B00886: senses[0].units[1]: <he> holds 1 "(" against 0 ")"
 - B01153: senses[4].units[3]: <he> holds 1 "(" against 0 ")"
+- C00739: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- C01029: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- C01048: senses[1].senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - C01412: senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - D00314: senses[0].units[1]: <he> holds 1 "(" against 0 ")"
 - D00500: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
@@ -452,47 +455,44 @@ _none_
 - D00664: senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - E00203: senses[3].gloss: <he> holds 1 "(" against 0 ")"; senses[3].units[2]: <he> holds 1 "(" against 0 ")"
 - E00475: senses[0].gloss: <he> holds 1 "(" against 0 ")"; senses[0].gloss: <he> holds 1 "(" against 0 ")"
-- C00739: senses[0].gloss: <he> holds 1 "(" against 0 ")"
-- C01029: senses[0].gloss: <he> holds 1 "(" against 0 ")"
-- C01048: senses[1].senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - E00571: senses[1].gloss: <he> holds 1 "(" against 0 ")"
 - G00118: stems[1].senses[3].units[0]: <he> holds 1 "(" against 0 ")"
 - G00137: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- G00511: senses[1].units[3]: <he> holds 1 "(" against 0 ")"
+- G00537: senses[2].gloss: <he> holds 1 "(" against 0 ")"
 - H00133: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
 - H00217: stems[2].senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - H00432: senses[2].gloss: <he> holds 1 "(" against 0 ")"
 - H00489: senses[0].units[4]: <he> holds 1 "(" against 0 ")"
+- H01335: stems[0].senses[0].units[2]: <he> holds 1 "(" against 0 ")"
 - I00105: senses[2].units[9]: <he> holds 1 "(" against 0 ")"
 - I00512: senses[0].units[1]: <he> holds 1 "(" against 0 ")"
-- G00511: senses[1].units[3]: <he> holds 1 "(" against 0 ")"
-- G00537: senses[2].gloss: <he> holds 1 "(" against 0 ")"
-- H01335: stems[0].senses[0].units[2]: <he> holds 1 "(" against 0 ")"
-- K00870: senses[2].units[0]: <he> holds 1 "(" against 0 ")"
-- K00964: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
-- K01001: senses[2].gloss: <he> holds 1 "(" against 0 ")"
-- K01026: senses[0].units[10]: <he> holds 1 "(" against 0 ")"
-- M01579: senses[1].gloss: <he> holds 1 "(" against 0 ")"
-- M01598: senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - J00180: senses[2].gloss: <he> holds 1 "(" against 0 ")"
 - J00537: senses[1].units[2]: <he> holds 1 "(" against 0 ")"
 - J00619: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
 - J00643: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
 - K00112: senses[2].gloss: <he> holds 1 "(" against 0 ")"
+- K00870: senses[2].units[0]: <he> holds 1 "(" against 0 ")"
+- K00964: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- K01001: senses[2].gloss: <he> holds 1 "(" against 0 ")"
+- K01026: senses[0].units[10]: <he> holds 1 "(" against 0 ")"
 - K01181: senses[2].gloss: <he> holds 1 "(" against 0 ")"
 - K01235: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- M00431: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- M00873: senses[2].gloss: <he> holds 1 "(" against 0 ")"
+- M00886: senses[0].gloss: <he> holds 1 "(" against 0 ")"
+- M01579: senses[1].gloss: <he> holds 1 "(" against 0 ")"
+- M01598: senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - M02034: senses[0].units[5]: <he> holds 1 "(" against 0 ")"
 - M02284: senses[0].units[19]: <he> holds 1 "(" against 0 ")"
 - M02531: senses[0].units[3]: <he> holds 1 "(" against 0 ")"
 - M02555: senses[0].gloss: <he> holds 1 "(" against 0 ")"
-- M00431: senses[0].gloss: <he> holds 1 "(" against 0 ")"
-- M00873: senses[2].gloss: <he> holds 1 "(" against 0 ")"
-- M00886: senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - M03057: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
 - N00460: stems[1].senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - N00552: senses[0].units[3]: <he> holds 1 "(" against 0 ")"
 - N00838: senses[0].units[4]: <he> holds 1 "(" against 0 ")"
-- O00603: senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - O00071: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
+- O00603: senses[0].gloss: <he> holds 1 "(" against 0 ")"
 - P00041: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
 - P00680: senses[2].senses[0].gloss: <he> holds 1 "(" against 0 ")"; senses[2].senses[1].gloss: <he> holds 1 "(" against 0 ")"
 - Q00624: senses[0].units[1]: <he> holds 1 "(" against 0 ")"
@@ -505,9 +505,9 @@ _none_
 - Q01603: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
 - S00055: senses[2].units[0]: <he> holds 1 "(" against 0 ")"
 - S00810: stems[2].senses[0].units[1]: <he> holds 1 "(" against 0 ")"
-- T00933: senses[1].gloss: <he> holds 1 "(" against 0 ")"
-- T00488: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
 - S01457: senses[0].units[0]: <he> holds 1 "(" against 0 ")"
+- T00488: senses[0].units[2]: <he> holds 1 "(" against 0 ")"
+- T00933: senses[1].gloss: <he> holds 1 "(" against 0 ")"
 - U00026: senses[1].units[3]: <he> holds 1 "(" against 0 ")"; senses[1].units[3]: <he> holds 1 "(" against 0 ")"
 - U00047: stems[1].senses[0].units[2]: <he> holds 1 "(" against 0 ")"
 - U00210: senses[0].units[5]: <he> holds 1 "(" against 0 ")"
@@ -529,15 +529,15 @@ _none_
 - D00595: דִּיל־, (דִּילִי, דִּילָךְ — the line's parentheses do not balance, so the layout cannot be settled from the source
 - G00294: זִיהֲרָא II, (זַהֲרָא — the line's parentheses do not balance, so the layout cannot be settled from the source
 - G00374: (זִימְרָא, זִימְרָה — the line's parentheses do not balance, so the layout cannot be settled from the source
-- H01451: חֲפִיפוּתָא II, (חֲפוּפְתָּא — the line's parentheses do not balance, so the layout cannot be settled from the source
 - H00367: חוּלְתָּא, (חִי׳, תָּה — the line's parentheses do not balance, so the layout cannot be settled from the source
 - H00391: חוֹמֶר II, (הוֹמֶר — the line's parentheses do not balance, so the layout cannot be settled from the source
 - H00972: חֶלְבּוֹן, (הֶלְבּוֹן — the line's parentheses do not balance, so the layout cannot be settled from the source
+- H01451: חֲפִיפוּתָא II, (חֲפוּפְתָּא — the line's parentheses do not balance, so the layout cannot be settled from the source
 - L00587: (לִסְטֵם, לִסְטֵס — the line's parentheses do not balance, so the layout cannot be settled from the source
 - M00010: *מָאוּז, מַאוָז) — the line's parentheses do not balance, so the layout cannot be settled from the source
-- M02541: מַרְדֶּה II, מַרְדָה) — the line's parentheses do not balance, so the layout cannot be settled from the source
 - M00171: מָגֵיר, מָגֵירָא, (מָגֵר, מָגֵרָא, מָגוֹ׳ — the line's parentheses do not balance, so the layout cannot be settled from the source
 - M00488: מולגיה, (מולגייה, מוליגא, מוליגיה — the line's parentheses do not balance, so the layout cannot be settled from the source
+- M02541: מַרְדֶּה II, מַרְדָה) — the line's parentheses do not balance, so the layout cannot be settled from the source
 - N00524: נְחָשׁ, (נְחַשׁ, נְחָשָׁא — the line's parentheses do not balance, so the layout cannot be settled from the source
 - N00891: נְמַר, נִמְרָא, (נִמְרָה, נִי׳ — the line's parentheses do not balance, so the layout cannot be settled from the source
 - P00223: (עוּזְרָד, עוּזְרָר I — the line's parentheses do not balance, so the layout cannot be settled from the source
@@ -580,9 +580,7 @@ _none_
 - B00411: senses[3]: text ends with a bare "["
 - B01062: stems[0].senses[1]: text ends with a bare "["
 - C00074: senses[0]: text ends with a bare "["
-- D00891: stems[0].senses[0]: text ends with a bare "["
-- E00024: senses[1]: text ends with a bare "["
-- E00051: senses[1]: text ends with a bare "["
+- C00573: stems[1].senses[0]: text ends with a bare "["
 - C01249: senses[1]: text ends with a bare "["
 - C01250: senses[0]: text ends with a bare "["
 - C01257: senses[1]: text ends with a bare "["
@@ -593,60 +591,62 @@ _none_
 - C01397: senses[1]: text ends with a bare "["
 - C01403: stems[3].senses[0]: text ends with a bare "["
 - C01414: senses[0]: text ends with a bare "["
+- D00891: stems[0].senses[0]: text ends with a bare "["
+- E00024: senses[1]: text ends with a bare "["
+- E00051: senses[1]: text ends with a bare "["
 - E00237: senses[1]: text ends with a bare "["
-- C00573: stems[1].senses[0]: text ends with a bare "["
 - E00374: senses[2]: text ends with a bare "["
 - E00410: senses[2]: text ends with a bare "["
+- G00652: stems[0].senses[1]: text ends with a bare "["
 - H00107: senses[3]: text ends with a bare "["
+- H00408: senses[1]: text ends with a bare "["
+- H01112: stems[2].senses[1]: text ends with a bare "["
+- H01144: senses[0]: text ends with a bare "["; stems[0].senses[0]: text ends with a bare "["
 - H01469: senses[0]: text ends with a bare "["
 - H01714: senses[3]: text ends with a bare "["
-- H00408: senses[1]: text ends with a bare "["
 - H01869: senses[1]: text ends with a bare "["
 - I00189: senses[0]: text ends with a bare "["
 - I00493: senses[1]: text ends with a bare "["
 - I00602: stems[0].senses[2]: text ends with a bare "["
 - I00721: senses[1]: text ends with a bare "["
-- H01112: stems[2].senses[1]: text ends with a bare "["
-- H01144: senses[0]: text ends with a bare "["; stems[0].senses[0]: text ends with a bare "["
-- G00652: stems[0].senses[1]: text ends with a bare "["
-- K00952: stems[0].senses[2]: text ends with a bare "["
-- M01376: senses[1]: text ends with a bare "["
-- M01543: stems[0].senses[1]: text ends with a bare "["
 - I00859: stems[2].senses[0]: text ends with a bare "["; stems[2].senses[2].senses[1]: text ends with a bare "["
 - J00581: stems[1].senses[1]: text ends with a bare "["
+- K00952: stems[0].senses[2]: text ends with a bare "["
 - K01310: senses[0]: text ends with a bare "["
+- M00253: senses[1]: text ends with a bare "["
+- M01376: senses[1]: text ends with a bare "["
+- M01543: stems[0].senses[1]: text ends with a bare "["
 - M02277: senses[0]: text ends with a bare "["
 - M02318: senses[0]: text ends with a bare "["
 - M02581: senses[2]: text ends with a bare "["
-- M00253: senses[1]: text ends with a bare "["
+- N00924: senses[0]: text ends with a bare "["
+- N00962: senses[0]: text ends with a bare "["
 - O01011: senses[2]: text ends with a bare "["
 - O01025: senses[0]: text ends with a bare "["
 - O01271: senses[1]: text ends with a bare "["
 - O01386: senses[1]: text ends with a bare "["
-- N00924: senses[0]: text ends with a bare "["
-- N00962: senses[0]: text ends with a bare "["
 - O01620: senses[0]: text ends with a bare "["
 - P00079: senses[1]: text ends with a bare "["
+- P01411: stems[1].senses[0]: text ends with a bare "["
 - Q00426: senses[0]: text ends with a bare "["
 - Q01319: senses[2].senses[2]: text ends with a bare "["
+- Q01783: stems[0].senses[0]: text ends with a bare "["
 - R00189: senses[0]: text ends with a bare "["
 - R00241: senses[3]: text ends with a bare "["
-- P01411: stems[1].senses[0]: text ends with a bare "["
 - R00519: senses[1]: text ends with a bare "["
-- Q01783: stems[0].senses[0]: text ends with a bare "["
 - R00715: senses[2]: text ends with a bare "["
 - S00146: senses[0]: text ends with a bare "["
 - S00946: senses[0]: text ends with a bare "["
-- T00914: stems[3].senses[1]: text ends with a bare "["
-- T01080: senses[3]: text ends with a bare "["
 - T00279: senses[3]: text ends with a bare "["
 - T00327: senses[0]: text ends with a bare "["
+- T00914: stems[3].senses[1]: text ends with a bare "["
+- T01080: senses[3]: text ends with a bare "["
+- U01243: senses[1]: text ends with a bare "["
+- U01379: senses[2]: text ends with a bare "["
 - U01998: stems[0].senses[0]: text ends with a bare "["
 - V00054: senses[1]: text ends with a bare "["
 - V00139: senses[0]: text ends with a bare "["
 - V00349: senses[1]: text ends with a bare "["
-- U01243: senses[1]: text ends with a bare "["
-- U01379: senses[2]: text ends with a bare "["
 - V00616: stems[1].senses[0]: text ends with a bare "["
 - V00782: senses[1]: text ends with a bare "["
 - V00905: senses[2].senses[1]: text ends with a bare "["
@@ -656,23 +656,12 @@ _none_
 
 **What to do:** Adjudicate the printed superscript against the linked text and correct the losing side in the admin tool after go-live; no offset recovers it.
 
-- T00459: senses[2].units[1]: printed sup 4 against ref "Bamidbar Rabbah 10:1"
-- T01051: senses[0].units[4]: printed sup 20 against ref "Bamidbar Rabbah 9:31"
-- T00692: senses[0].units[3]: printed sup 21 against ref "Bamidbar Rabbah 20:3"
 - T00292: senses[0].units[0]: printed sup 7 against ref "Bamidbar Rabbah 14:12"
 - T00328: senses[2].units[0]: printed sup 41 against ref "Bamidbar Rabbah 9:50"
 - T00357: senses[1].units[0]: printed sup 5 against ref "Bamidbar Rabbah 12:7"
-- U01870: senses[1].units[5]: printed sup 8 against ref "Bamidbar Rabbah 18:20"
-- U01893: stems[0].senses[0].units[4]: printed sup 18 against ref "Bamidbar Rabbah 20:19"
-- U01960: senses[0].units[4]: printed sup 2 against ref "Bamidbar Rabbah 13:4"; stems[0].senses[0].units[3]: printed sup 6 against ref "Bamidbar Rabbah 13:4"
-- U02003: stems[0].senses[0].units[0]: printed sup 6 against ref "Bamidbar Rabbah 23:1"
-- U02008: senses[0].units[1]: printed sup 22 against ref "Bamidbar Rabbah 19:23"
-- V00122: senses[2].units[4]: printed sup 2 against ref "Shemot Rabbah 20:16"
-- V00176: senses[0].units[0]: printed sup 9 against ref "Bamidbar Rabbah 14:7"
-- V00219: senses[0].units[4]: printed sup 13 against ref "Bamidbar Rabbah 4:14"
-- V00271: senses[0].units[0]: printed sup 20 against ref "Bamidbar Rabbah 16:15"
-- V00321: senses[0].units[1]: printed sup 9 against ref "Bamidbar Rabbah 7:10"
-- V00397: senses[0].units[1]: printed sup 4 against ref "Bamidbar Rabbah 18:10"
+- T00459: senses[2].units[1]: printed sup 4 against ref "Bamidbar Rabbah 10:1"
+- T00692: senses[0].units[3]: printed sup 21 against ref "Bamidbar Rabbah 20:3"
+- T01051: senses[0].units[4]: printed sup 20 against ref "Bamidbar Rabbah 9:31"
 - U00909: senses[0].units[0]: printed sup 32 against ref "Bamidbar Rabbah 19:33"; senses[0].units[8]: printed sup 21 against ref "Bamidbar Rabbah 19:33"
 - U01158: stems[0].senses[1].units[0]: printed sup 5 against ref "Bamidbar Rabbah 14:21"
 - U01173: stems[0].senses[0].units[4]: printed sup 3 against ref "Bamidbar Rabbah 14:19"
@@ -687,6 +676,17 @@ _none_
 - U01390: senses[0].units[6]: printed sup 27 against ref "Shemot Rabbah 15:22"
 - U01513: senses[0].units[3]: printed sup 20 against ref "Bamidbar Rabbah 20:21"
 - U01517: senses[1].units[1]: printed sup 7 against ref "Bamidbar Rabbah 2:10"; senses[1].units[2]: printed sup 19 against ref "Bamidbar Rabbah 13:20"
+- U01870: senses[1].units[5]: printed sup 8 against ref "Bamidbar Rabbah 18:20"
+- U01893: stems[0].senses[0].units[4]: printed sup 18 against ref "Bamidbar Rabbah 20:19"
+- U01960: senses[0].units[4]: printed sup 2 against ref "Bamidbar Rabbah 13:4"; stems[0].senses[0].units[3]: printed sup 6 against ref "Bamidbar Rabbah 13:4"
+- U02003: stems[0].senses[0].units[0]: printed sup 6 against ref "Bamidbar Rabbah 23:1"
+- U02008: senses[0].units[1]: printed sup 22 against ref "Bamidbar Rabbah 19:23"
+- V00122: senses[2].units[4]: printed sup 2 against ref "Shemot Rabbah 20:16"
+- V00176: senses[0].units[0]: printed sup 9 against ref "Bamidbar Rabbah 14:7"
+- V00219: senses[0].units[4]: printed sup 13 against ref "Bamidbar Rabbah 4:14"
+- V00271: senses[0].units[0]: printed sup 20 against ref "Bamidbar Rabbah 16:15"
+- V00321: senses[0].units[1]: printed sup 9 against ref "Bamidbar Rabbah 7:10"
+- V00397: senses[0].units[1]: printed sup 4 against ref "Bamidbar Rabbah 18:10"
 - V00793: senses[0].units[1]: printed sup 10 against ref "Bamidbar Rabbah 10:11"
 - V01097: senses[1].units[1]: printed sup 8 against ref "Bamidbar Rabbah 18:12"
 
@@ -814,32 +814,31 @@ _none_
 - C00063: גבוריא, כפר ג׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C00078: גַּבְיָא III, ג׳ גילא — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C00113: גַּבְלָן, הַגַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00714: דְּיָקִינְתִּין, דְּיָיקִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00750: דִּיתְאָה, דִּתְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00759: דִּכְדּוּךְ, דִּיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00763: דִּכְוָון, דִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00796: דִּכְרָנִי, דִּיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00806: דִּלְדּוּל, דִּיל׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00807: דִּלְדֵּל, דִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00818: דְּלוּחָא, דְּלוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00837: דְּלֵיקְתָּא, דְּלֵקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00853: דָּלְפָא, דִּלְ׳, דִּולְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- D00854: דִּלְפָה, דִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00873: דִּמְדּוּם, דִּימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00890: דִּמְחַמְרָא, דִּימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00932: דָּנִסְטֵיס, דָּנִיסְ׳, דָּאנִ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- D00983: דצ״ך, ד׳ עד״ש באח״ב — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00987: דִּקְדּוּק, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D00988: דִּקְדּוּקָא, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D01003: דִּקְיוֹן, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D01010: דִּקְלָא, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D01013: דִּקְנָנָא, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C00162: גַּדְגַּדְנִיּוֹת, גּוּדְגַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D01080: דָּרֵי, בֵּי דָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- D01108: דַּרְמֵסְקוֹס, דַּרְמוּסְ׳, (דרומיס׳) — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- D01154: דִּשְׁתָּאָה, דִּישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C00363: גְּוִיְיתָא, גִּיוְיְי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C00382: גּוּלְגַּלְתָּא, גּוּלְגּוּלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00515: גַּזָּא, בַּר גַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00520: גִּזְבָּר, גִּיזְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00521: גִּזְבָּרָא, גִּיזְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00620: גִּיבָּרָא, גִּבָּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00667: גִּיּוֹרֵי, בר ג׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00670: גַּיּוֹרְתָּא, (גִּיּוֹ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00674: גֵּיוְתָנָא, גֵּאוְ׳, גֵּוְ׳, (גֵּיפְ׳) — all 3 alternate(s) are partial; the entry has no alternate lookup key
+- C00675: גֵּיוְתָנוּתָא, גֵּיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00763: גּיניאך, גּ׳ טַעֲוָותָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00767: גִּינֵּיסַר, (גִּינּוֹ׳, גְּנֵי׳, גְּנוֹ׳) — all 3 alternate(s) are partial; the entry has no alternate lookup key
+- C00799: גִּיפְתָּא, (גּוּפְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00836: גֵּירָעוֹן, גֵּרָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00851: גלא, ג׳ קסינון — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00864: גִּלְגּוּל, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00865: גִּלְגּוּל ², גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00880: גִּלְדָּא, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00881: גִּלְדָּאָה, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00882: גִּלְדָּנָא, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C00941: גִּלָּיוֹן, גִּלְ׳, גִּיל׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- C01013: *גַּמְזָא, בַּר ג׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- C01041: גֻּמְלָא, גִּימְ׳, גּוּמְ׳, (גַּמְ׳) — all 3 alternate(s) are partial; the entry has no alternate lookup key
+- C01110: גַּנּוּנִיתָא, גִּינּוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C01146: גְּנִיסַיָּיא, גְּנוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - C01266: גַּרְגִּשְׁתָּא, גַּרְגּוּשְׁ׳, גַּרְגִּישְׁ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - C01277: גַּרְדִּי, גִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -869,39 +868,40 @@ _none_
 - D00680: דִּיפְּלִיסְטְוָן, דִּיפְּלִסְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - D00681: דִּיפְרָא, (דִּוּפְ׳, דִּפְ׳) — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - D00686: דִּיפְתְּרָא, דִּפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00515: גַּזָּא, בַּר גַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00520: גִּזְבָּר, גִּיזְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00521: גִּזְבָּרָא, גִּיזְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00714: דְּיָקִינְתִּין, דְּיָיקִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00750: דִּיתְאָה, דִּתְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00759: דִּכְדּוּךְ, דִּיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00763: דִּכְוָון, דִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00796: דִּכְרָנִי, דִּיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00806: דִּלְדּוּל, דִּיל׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00807: דִּלְדֵּל, דִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00818: דְּלוּחָא, דְּלוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00837: דְּלֵיקְתָּא, דְּלֵקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00853: דָּלְפָא, דִּלְ׳, דִּולְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- D00854: דִּלְפָה, דִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00873: דִּמְדּוּם, דִּימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00890: דִּמְחַמְרָא, דִּימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00932: דָּנִסְטֵיס, דָּנִיסְ׳, דָּאנִ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- D00983: דצ״ך, ד׳ עד״ש באח״ב — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00987: דִּקְדּוּק, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D00988: דִּקְדּוּקָא, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D01003: דִּקְיוֹן, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D01010: דִּקְלָא, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D01013: דִּקְנָנָא, דִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D01080: דָּרֵי, בֵּי דָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- D01108: דַּרְמֵסְקוֹס, דַּרְמוּסְ׳, (דרומיס׳) — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- D01154: דִּשְׁתָּאָה, דִּישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00242: הוּמַנְיָא, הִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00295: הז״יו, ה׳ ל״ך — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00620: גִּיבָּרָא, גִּבָּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00324: הִטְּרִית, הִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00355: הֶיזֵּקָא, הֶיזֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00377: הֵיכְדֵין, הֵכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00423: *הֵימִיסוּ, אֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00431: הִימְנוֹן, הִמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00667: גִּיּוֹרֵי, בר ג׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00670: גַּיּוֹרְתָּא, (גִּיּוֹ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00674: גֵּיוְתָנָא, גֵּאוְ׳, גֵּוְ׳, (גֵּיפְ׳) — all 3 alternate(s) are partial; the entry has no alternate lookup key
-- C00675: גֵּיוְתָנוּתָא, גֵּיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00454: הִינְדְּיָא, הִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00455: הִינְדִּיקִי, הִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00456: הִינוּ, בית ה׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00472: הֶיסֵּטָא, הֶיסֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00763: גּיניאך, גּ׳ טַעֲוָותָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00767: גִּינֵּיסַר, (גִּינּוֹ׳, גְּנֵי׳, גְּנוֹ׳) — all 3 alternate(s) are partial; the entry has no alternate lookup key
-- C00799: גִּיפְתָּא, (גּוּפְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00836: גֵּירָעוֹן, גֵּרָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00851: גלא, ג׳ קסינון — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00864: גִּלְגּוּל, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00865: גִּלְגּוּל ², גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00880: גִּלְדָּא, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00881: גִּלְדָּאָה, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00882: גִּלְדָּנָא, גִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C00941: גִּלָּיוֹן, גִּלְ׳, גִּיל׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- C01013: *גַּמְזָא, בַּר ג׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- C01041: גֻּמְלָא, גִּימְ׳, גּוּמְ׳, (גַּמְ׳) — all 3 alternate(s) are partial; the entry has no alternate lookup key
-- C01110: גַּנּוּנִיתָא, גִּינּוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00570: הִלְכְתָא, הִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00571: הִלֵּל, הִילֵּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - E00592: הַמְדּוּדֵי, בַּר ה׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -936,21 +936,24 @@ _none_
 - G00381: זִינְגָּאֵי, זִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - G00383: זינומתא, זנו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - G00396: זַיְפָא, זֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00549: זִמְרָא, זִימְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00550: זִמְרָא ², זִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00554: זִמְרָה, זִימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00589: זִעֲזֵע, זִיעֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00619: זִפְלָן, זִיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00676: *זַרְוַאי, מֶלַח דְּזַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00679: זֵרוּעַ, זֵיר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- G00733: זִרְפָּא, זִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00028: חֲבוּלְיָא, חִבּוּ׳, חִיבּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - H00065: חֲבֵיל ², ח׳ יַמָּא — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00077: חֲבִירָא, חַבִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00089: חֶבְלָא, חֵיבְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01432: חֲפוּרָה ², חֲפִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01486: חֵפְתָא, חֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00121: חֲבֵרוּת, חֲבֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00166: *חִגַּרְתָּא, חִיגַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00178: חֵדוּ, חֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00181: חֲדוּדוּ, בית ח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00208: חִדְקָא, חִידְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00209: חִדְקָא ², חִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01593: חִרְגָּא, חִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01654: חַרְחוּר, חִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01681: חֶרְיָנָא, חִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00247: חוּבָּץ I, בַּר׳ ח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00260: חוּדַאי, חוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00285: חוֹזָאֵי, בֵּי ח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -976,6 +979,58 @@ _none_
 - H00701: חִיזְרָא, חִזְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00702: חִיזְרָא ², חִזְ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H00711: חִיטַּיָּיא, כְּפַר ח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00754: חִיכּוּכָא, חִכּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00764: חִילּוּי, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00765: חִילּוּל, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00767: חִילּוֹנִי, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00769: חִילּוּף, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00770: חִילּוּפָא, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00772: חִילּוּק, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00781: חִילְפָא I, חִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00796: חִילְתִּית, חִלְתִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00797: חִילְתִּיתָא, חִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00803: חִימּוּץ, חִמּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00804: חִימּוּצָא, חִמּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00810: חֵימָרָא, חֵימְ׳, חִמָ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- H00811: חֵימְתָא, (חוּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00815: חִינְגָּא, חִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00816: חִינְגִּיתָא, חִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00819: חִינּוּךְ, חִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00820: חִינּוּכָא, חִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00821: חִינּוּן, חִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00830: חִיסּוּדָא, חִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00831: חִיסּוּלָא, חִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00833: חִיסּוּם, חִסּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00834: חִיסּוּר, חִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00836: חִיסָּכוֹן, חִסָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00853: חִיפּוּשִׂיתָא, חִפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00880: חִירְיָא, בַּר חִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00900: חִיתּוּךְ, חִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00902: חִיתּוּם, חִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00906: חִיתִּית, חִתִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H00978: חַלְבֵּצִין, חַלְבֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01013: חִלָּזוֹן, חִילָּ׳, חֲלָ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- H01025: חַלְטָנִית, חוּלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01034: חִלִּיז, חִילִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01086: חֶלְמָא, חִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01091: חֶלְמוֹן, (הֶלְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01117: חֶלְקָא, חֶילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01149: חֶמְדָּתָא, חֶמְדְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01151: חֵמָה, חֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01261: חֲנוּכְּתָא, חֲנֻכְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01269: חֲנוּפְתָּא, חֲנֻפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01277: חִנְטָא, חִינְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01339: חִסְדָּא, חִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01340: חִסְדָּא ², חִי׳ III — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01378: חָסִילָא, חֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01389: חַסִּירוּתָא, חֲסֵירוּ׳, חַסְרוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- H01407: חַסְפָּא, חִ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01424: חִפּוּי, חִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01432: חֲפוּרָה ², חֲפִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01486: חֵפְתָא, חֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01593: חִרְגָּא, חִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01654: חַרְחוּר, חִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- H01681: חֶרְיָנָא, חִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H01762: חִרְקָא, חִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - H01808: חַשָּׁבָא, (חֲשָׁ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - I00031: טַבְוָאוּת, טַבְוָו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1024,61 +1079,38 @@ _none_
 - I00768: טִרְיָא, טַרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - I00789: טְרִיָיא, ט׳ קוֹנְטָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - I00792: טְרָיָינוֹס, טוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00754: חִיכּוּכָא, חִכּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00764: חִילּוּי, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00765: חִילּוּל, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00767: חִילּוֹנִי, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00769: חִילּוּף, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00770: חִילּוּפָא, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00772: חִילּוּק, חִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00781: חִילְפָא I, חִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00796: חִילְתִּית, חִלְתִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00797: חִילְתִּיתָא, חִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00803: חִימּוּץ, חִמּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00804: חִימּוּצָא, חִמּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00810: חֵימָרָא, חֵימְ׳, חִמָ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- H00811: חֵימְתָא, (חוּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00815: חִינְגָּא, חִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00816: חִינְגִּיתָא, חִנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00819: חִינּוּךְ, חִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00820: חִינּוּכָא, חִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00821: חִינּוּן, חִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00830: חִיסּוּדָא, חִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00831: חִיסּוּלָא, חִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00833: חִיסּוּם, חִסּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00834: חִיסּוּר, חִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00836: חִיסָּכוֹן, חִסָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00853: חִיפּוּשִׂיתָא, חִפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00880: חִירְיָא, בַּר חִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00900: חִיתּוּךְ, חִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00902: חִיתּוּם, חִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00906: חִיתִּית, חִתִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H00978: חַלְבֵּצִין, חַלְבֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01013: חִלָּזוֹן, חִילָּ׳, חֲלָ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- H01025: חַלְטָנִית, חוּלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01034: חִלִּיז, חִילִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01086: חֶלְמָא, חִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01091: חֶלְמוֹן, (הֶלְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01117: חֶלְקָא, חֶילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01149: חֶמְדָּתָא, חֶמְדְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01151: חֵמָה, חֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00549: זִמְרָא, זִימְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00550: זִמְרָא ², זִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00554: זִמְרָה, זִימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00589: זִעֲזֵע, זִיעֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01261: חֲנוּכְּתָא, חֲנֻכְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01269: חֲנוּפְתָּא, חֲנֻפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01277: חִנְטָא, חִינְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00619: זִפְלָן, זִיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01339: חִסְדָּא, חִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01340: חִסְדָּא ², חִי׳ III — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00676: *זַרְוַאי, מֶלַח דְּזַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00679: זֵרוּעַ, זֵיר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01378: חָסִילָא, חֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01389: חַסִּירוּתָא, חֲסֵירוּ׳, חַסְרוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- H01407: חַסְפָּא, חִ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- H01424: חִפּוּי, חִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- G00733: זִרְפָּא, זִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- I00823: טְרִיקְלִינָא, טְרַקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- I00904: טְרַקְסִין, טְרִיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00064: יְבַמְתָּא, יְבִמְ׳, יְבִימְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- J00075: יַבַּשְׁתָּא, יַבִּישְׁ׳, יַבִּשְׁ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- J00172: יוֹדְקֶרֶת, יָדְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00184: יוֹכָנִי, בַּר י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00201: יְוָנָאָה, יְוָו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00231: יוֹקְיָנוֹס, דְּיוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00253: יוּתָּן, כִּי י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00259: יְזוּפְתָּא, יְזִיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00272: יִחוּל, יִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00273: יִחוּס, יִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00276: יִחוּף, יִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00290: יחֵיף, יְחֵיפ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00309: יַחַף, יַי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00382: יָלֵידְתָּא, יְלֵיד׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00411: *יֵמִים, יֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00432: יָנוּקָא II, מַר י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00460: יִסּוּרָא, יְסוּ׳, יִיסּוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- J00463: *יַסֵּי, יַי׳ חֳלִי — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00464: יסיח, י׳ לי — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00481: יַעְזֵק, בֵּיתי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00570: יְקֵידוּתָא, יְקִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00691: יְשִׁיטָא, בַּר י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00729: יָתֵיבְתָּא, יְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- J00751: יִתְרָא, יִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- K00011: כְּאוֹרָה, לִכְאוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- K00013: כְּאֵי, כ׳ צַד — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- K00093: כַּבֶּשֶׁת, (כּוּבֶּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- K00108: כַּדָּבוּתָא, כַּדְבוּ׳, כַּדִּיבוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- K00115: כדום, עינבין דכ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- K00117: כדופסלא, כר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K00196: כוברים, כובד׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K00265: כולבסין, כולכ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K00303: כַּוָּנָה, כַּוָּו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1113,90 +1145,6 @@ _none_
 - K01093: כַּרְדִּיטִין, (כַּרְדּוּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K01099: כֻּרְהָנָא, כּוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K01105: כְּרוֹבָא, (כְּרוּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01069: מִטַּרְפְּסָא, מִיטַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01127: מִיטָטוֹר, מְטָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01173: מִילוֹטוֹמְיָא, מְלוֹט׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01174: מִילּוּי, מִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01181: מילי ², מ׳ מילה — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01192: מִילְפִּפּוֹן, מִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01193: מִילְפִּפּוֹנָא, מִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01226: מֵינִיקוּת, מֵנִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01231: מְיַנְּקָא, מְיַי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01234: מִינְקַת, מ׳ חִיוְיָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01274: מִיצּוּי, מִצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01275: מִיצּוּעַ, מִצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01276: מִיצְטְרָא, מִצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01299: מִירִי, מ׳ מִירְיָאדִין — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01327: מִיתּוּחַ, מִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01328: מִיתּוּן, מִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01348: מִכְבַּר, מַכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01355: מִכְוַור, מַכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01393: מִכְלָה, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01416: מַכְנְסִין, מִכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01420: מִכְסָא, מִיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01424: *מִכְסוֹרִין, מַכְסִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01484: *מַלְבֵּנְתָּא, מַלְבֵּינְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01489: מִלָּה, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01502: מִלְוָון, בֵּית מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01528: מַלְחָא, מִגְּדַּל מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01585: מִלְכָנָא, מִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01587: מִלְכְּתָא, מִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01588: מִלְכְּתָנוּתָא, מִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01597: מִלְלָא, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01660: מַמְזֵרָא, מַמְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01661: מַמְזֵרוּת, מַמְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01662: מַמְזֵרִי, מַמְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01665: מָמִיקְנָא, מָמִקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01666: מְמִיקְנוּתָא, מְמִקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01713: מַנְדּוּ, כְּפַר מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01752: מנורי, כפר מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01755: מַנְזִחְנָא, מַנְזִיחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01756: מַנְזִיקְנָא, מַנְזִקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01764: מִנְחָתָא, מִנְחֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01766: מִנְטַר, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01768: מִנִּי, אֲרַע מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01774: מִנְיוֹמִי, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01782: מָנִיכָא, מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01784: מִנְיָמִין, מִנְיָי׳, מִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- M01817: מְנָרְתָּא, מְנַר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01839: מֵסֵב, מֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01841: מְסִבְּתָא, מְסִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01849: מַסְגֵּרָא, מַסְגֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M01905: מִסְטֵירִין, מִסְטוּ׳, מִיסְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- M01907: מִסְטְרִין, (מַסְטְ׳, מְסַטְּ׳) — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- M01991: מִסְפְּק, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- I00823: טְרִיקְלִינָא, טְרַקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- I00904: טְרַקְסִין, טְרִיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00064: יְבַמְתָּא, יְבִמְ׳, יְבִימְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- J00075: יַבַּשְׁתָּא, יַבִּישְׁ׳, יַבִּשְׁ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- J00172: יוֹדְקֶרֶת, יָדְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00184: יוֹכָנִי, בַּר י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00201: יְוָנָאָה, יְוָו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00231: יוֹקְיָנוֹס, דְּיוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00253: יוּתָּן, כִּי י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00259: יְזוּפְתָּא, יְזִיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00272: יִחוּל, יִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00273: יִחוּס, יִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00276: יִחוּף, יִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00290: יחֵיף, יְחֵיפ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00309: יַחַף, יַי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00382: יָלֵידְתָּא, יְלֵיד׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00411: *יֵמִים, יֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00432: יָנוּקָא II, מַר י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00460: יִסּוּרָא, יְסוּ׳, יִיסּוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- J00463: *יַסֵּי, יַי׳ חֳלִי — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00464: יסיח, י׳ לי — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00481: יַעְזֵק, בֵּיתי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00570: יְקֵידוּתָא, יְקִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00691: יְשִׁיטָא, בַּר י׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00729: יָתֵיבְתָּא, יְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- J00751: יִתְרָא, יִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- K00011: כְּאוֹרָה, לִכְאוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- K00013: כְּאֵי, כ׳ צַד — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- K00093: כַּבֶּשֶׁת, (כּוּבֶּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- K00108: כַּדָּבוּתָא, כַּדְבוּ׳, כַּדִּיבוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- K00115: כדום, עינבין דכ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- K00117: כדופסלא, כר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K01148: כָּרְחָא, כּוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K01170: כְּרִיסוֹ, כ׳ אַרְגִּירָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - K01174: כְּרִיסְפָּא, קְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1253,36 +1201,6 @@ _none_
 - L00709: לִשְׁלוּשְׁתָּא, לִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - L00710: לִשְׁלֶשֶׁת, לִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - M00020: *מְאָחָא, מֵ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02029: מַסְרֵקָא, מַסְרִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02031: מַסְרֵתָא, מַסְרֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02127: מֵעֲלָא, מֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02141: מַעֲלַת, מַ׳ מְרָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02160: מַעְצְרָא, מַעַצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02161: מַעְצַרְתָּא, מַעֲצַ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02177: מַעֲרוֹקָא, מַעֲרוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02189: מַעְשְׂרָא, מַעְסְ׳, מַעַ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- M02211: מְפִיבֹשֶׁת, מְפִבֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02234: מִפְסַלְתָּא, מִיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02276: מְצוּבָה, פִּי מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02320: מְצִינְפָא, מַצִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02405: מְקוֹשֵׁשׁ II, בֶּן מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02595: מָרוֹן II, בֵּית מָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02625: מַרְזֵחָא, מַרְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02699: מַרְכְּבָא, מֶרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02717: מַרְמִירָא, מַרְמֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02728: מֵרַע, מֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02742: מַרְעֵלָא, מַרְעֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02792: מַרְתֵּפָא, מַרְתֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02894: מְשָׁכָא, בֵּי מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02896: מַשְׁכְּבָא, מִשְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02908: מַשְׁכְּנָא, מִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02909: מִשְׁכְּנוּתָא, מִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02919: מִשְׁלָם, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02937: מַשְׁמְשָׁנִית, מְמַשְׁמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02963: מַשְׁקוֹפִי, מַשְׁקוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M02992: מִשְׁתּוּתָא, מִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M03015: מִתגָּא, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- M03021: מַתְוָיָא, מַתְוָו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - M00061: מְאֵרָה, מְאֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - M00098: מַבְרֵי, (מָבְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - M00117: מַגְדָּא, מִגְ׳, מִיגְ׳ I — all 2 alternate(s) are partial; the entry has no alternate lookup key
@@ -1323,6 +1241,88 @@ _none_
 - M00997: מְטַכְסָא, (מִיטַ׳, מְטַקְ׳, … סָה) — all 3 alternate(s) are partial; the entry has no alternate lookup key
 - M01006: מִטַּלְטְלִין, מִיטַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - M01019: מִטְמוּט, מִיטְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01069: מִטַּרְפְּסָא, מִיטַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01127: מִיטָטוֹר, מְטָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01173: מִילוֹטוֹמְיָא, מְלוֹט׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01174: מִילּוּי, מִלּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01181: מילי ², מ׳ מילה — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01192: מִילְפִּפּוֹן, מִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01193: מִילְפִּפּוֹנָא, מִלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01226: מֵינִיקוּת, מֵנִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01231: מְיַנְּקָא, מְיַי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01234: מִינְקַת, מ׳ חִיוְיָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01274: מִיצּוּי, מִצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01275: מִיצּוּעַ, מִצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01276: מִיצְטְרָא, מִצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01299: מִירִי, מ׳ מִירְיָאדִין — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01327: מִיתּוּחַ, מִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01328: מִיתּוּן, מִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01348: מִכְבַּר, מַכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01355: מִכְוַור, מַכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01393: מִכְלָה, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01416: מַכְנְסִין, מִכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01420: מִכְסָא, מִיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01424: *מִכְסוֹרִין, מַכְסִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01484: *מַלְבֵּנְתָּא, מַלְבֵּינְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01489: מִלָּה, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01502: מִלְוָון, בֵּית מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01528: מַלְחָא, מִגְּדַּל מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01585: מִלְכָנָא, מִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01587: מִלְכְּתָא, מִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01588: מִלְכְּתָנוּתָא, מִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01597: מִלְלָא, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01660: מַמְזֵרָא, מַמְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01661: מַמְזֵרוּת, מַמְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01662: מַמְזֵרִי, מַמְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01665: מָמִיקְנָא, מָמִקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01666: מְמִיקְנוּתָא, מְמִקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01713: מַנְדּוּ, כְּפַר מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01752: מנורי, כפר מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01755: מַנְזִחְנָא, מַנְזִיחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01756: מַנְזִיקְנָא, מַנְזִקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01764: מִנְחָתָא, מִנְחֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01766: מִנְטַר, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01768: מִנִּי, אֲרַע מ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01774: מִנְיוֹמִי, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01782: מָנִיכָא, מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01784: מִנְיָמִין, מִנְיָי׳, מִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- M01817: מְנָרְתָּא, מְנַר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01839: מֵסֵב, מֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01841: מְסִבְּתָא, מְסִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01849: מַסְגֵּרָא, מַסְגֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M01905: מִסְטֵירִין, מִסְטוּ׳, מִיסְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- M01907: מִסְטְרִין, (מַסְטְ׳, מְסַטְּ׳) — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- M01991: מִסְפְּק, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02029: מַסְרֵקָא, מַסְרִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02031: מַסְרֵתָא, מַסְרֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02127: מֵעֲלָא, מֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02141: מַעֲלַת, מַ׳ מְרָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02160: מַעְצְרָא, מַעַצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02161: מַעְצַרְתָּא, מַעֲצַ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02177: מַעֲרוֹקָא, מַעֲרוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02189: מַעְשְׂרָא, מַעְסְ׳, מַעַ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- M02211: מְפִיבֹשֶׁת, מְפִבֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02234: מִפְסַלְתָּא, מִיפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02276: מְצוּבָה, פִּי מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02320: מְצִינְפָא, מַצִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02405: מְקוֹשֵׁשׁ II, בֶּן מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02595: מָרוֹן II, בֵּית מָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02625: מַרְזֵחָא, מַרְזֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02699: מַרְכְּבָא, מֶרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02717: מַרְמִירָא, מַרְמֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02728: מֵרַע, מֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02742: מַרְעֵלָא, מַרְעֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02792: מַרְתֵּפָא, מַרְתֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02894: מְשָׁכָא, בֵּי מְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02896: מַשְׁכְּבָא, מִשְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02908: מַשְׁכְּנָא, מִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02909: מִשְׁכְּנוּתָא, מִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02919: מִשְׁלָם, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02937: מַשְׁמְשָׁנִית, מְמַשְׁמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02963: מַשְׁקוֹפִי, מַשְׁקוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M02992: מִשְׁתּוּתָא, מִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M03015: מִתגָּא, מִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- M03021: מַתְוָיָא, מַתְוָו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - M03086: מִתְנָא, מִי׳, מוֹ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - M03108: מְתַרְכָא, מְתָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - N00095: נִבְלָא, נִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1385,6 +1385,54 @@ _none_
 - N00803: נִיתּוּחַ, נִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - N00811: נְכֹה, פַּרְעֹה נ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - N00892: נִמְרָה, בֵּית נ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N00934: נִסָּיוֹן, נִיסָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N00949: נִסְכָּא, נִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N00950: נִסְכָּא ², נִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N00951: *נִסְכָּא, נִי׳ III — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N00963: נִסְרָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N00999: נִעֲנוּעַ, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01030: נִפְחָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01053: נֹפֶךְ, נוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01057: נֵפֶל, נֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01061: נִפְלֵי, בַּר נִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01077: נִפִקָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01105: נִצּוֹק, נִיצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01113: נִצָּחוֹן, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01133: נֵצֶל, נֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01154: נקאני, נ׳ קא — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01158: נִקְבָּא, נִי׳, נוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- N01159: נְקֵבָה, נְקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01160: נְקֵבוּת, נְקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01169: נַקְדָּנָא, נוֹקְדָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01202: נִקָּיוֹן, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01211: נְקִיפֵי, בֵּית נְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01212: נְקִיפְתָּא, נְ׳ דְעִיּוֹן — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01239: נִקְפִּי, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01240: נִקְצָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01246: נִקְרָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01266: נִרְדָּא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01288: נִשְׁבָּא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01390: נִתְקָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01396: נִתְרָא, נִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- N01397: נִתְרָא ², נִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00051: סַבַּטְיוֹן, סַמְבַּ׳, סַנְבַּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- O00067: סִבְכָא, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00068: סְבָכָה, שְׂ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00075: סִבְּלוֹן, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00077: סִבְנִי, סוּבְ׳, סִיבְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- O00082: סִבְעָא, סִיבְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00101: סִגְדָּא, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00131: סְגִיּוּתָא, סַגְיוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00162: סִגְעָא, סִיגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00290: סוּטְרָא, סוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00299: סוֹכָה, שׂ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00308: סוֹכֵר, עֵין ס׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00316: סוּלְגִּיתָא, סַלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00349: סוּמְפּוֹנְיָה, סוּמְפֹּנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00357: סוּמַּקְתָּא, סֻמַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00393: סוֹפִינָא, סוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00470: סַחֲרָנוּתָא, סָחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- O00475: סַטְדָּא, (סוֹטְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O00535: סִיבּוֹלֶת, סִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O00537: סִיבּוּרָא, סִבּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O00557: סִיגוּף, סִגּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1476,54 +1524,6 @@ _none_
 - O01408: סְפֵקָא, סְפֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O01426: סִפְרָא, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O01481: סְקִיפַס, שְׁקִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N00934: נִסָּיוֹן, נִיסָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N00949: נִסְכָּא, נִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N00950: נִסְכָּא ², נִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N00951: *נִסְכָּא, נִי׳ III — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N00963: נִסְרָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N00999: נִעֲנוּעַ, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01030: נִפְחָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01053: נֹפֶךְ, נוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01057: נֵפֶל, נֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01061: נִפְלֵי, בַּר נִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01077: נִפִקָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01105: נִצּוֹק, נִיצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01113: נִצָּחוֹן, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01133: נֵצֶל, נֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01154: נקאני, נ׳ קא — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01158: נִקְבָּא, נִי׳, נוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- N01159: נְקֵבָה, נְקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01160: נְקֵבוּת, נְקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01169: נַקְדָּנָא, נוֹקְדָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01202: נִקָּיוֹן, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01211: נְקִיפֵי, בֵּית נְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01212: נְקִיפְתָּא, נְ׳ דְעִיּוֹן — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01239: נִקְפִּי, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01240: נִקְצָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01246: נִקְרָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01266: נִרְדָּא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01288: נִשְׁבָּא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01390: נִתְקָא, נִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01396: נִתְרָא, נִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- N01397: נִתְרָא ², נִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00051: סַבַּטְיוֹן, סַמְבַּ׳, סַנְבַּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- O00067: סִבְכָא, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00068: סְבָכָה, שְׂ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00075: סִבְּלוֹן, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00077: סִבְנִי, סוּבְ׳, סִיבְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- O00082: סִבְעָא, סִיבְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00101: סִגְדָּא, סִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00131: סְגִיּוּתָא, סַגְיוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00162: סִגְעָא, סִיגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00290: סוּטְרָא, סוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00299: סוֹכָה, שׂ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00308: סוֹכֵר, עֵין ס׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00316: סוּלְגִּיתָא, סַלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00349: סוּמְפּוֹנְיָה, סוּמְפֹּנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00357: סוּמַּקְתָּא, סֻמַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00393: סוֹפִינָא, סוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00470: סַחֲרָנוּתָא, סָחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- O00475: סַטְדָּא, (סוֹטְ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O01605: סְרִיגְתָּא, סְרִגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O01610: סֵרָיוּת, סֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - O01626: סָרִיקָא, בִּירַת ס׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1593,6 +1593,63 @@ _none_
 - P00701: עִישּׁוּנָא, עִשּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - P00778: עָלָוָון, עֲלָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - P00784: עָלָוָן, עֲלָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00793: עֲלִיבָא, עֲלוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00814: עִלִיתָא, עֲלִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00831: עִלְעוֹל, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00835: עלְעִל, עִילְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00837: עִלְעֵל, עֵו׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00846: עָלָתָא, עְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00858: עֹמֶד, עוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00869: עַמּוֹן, בְּנֵי עַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00893: עָמִירָא, עֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00911: עִמְסוֹנִי, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00922: עָמְקָא, עַמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00924: עִמְקוּתָא, עִימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00943: עִנְּבָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00947: עֵנַבְתָּא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00965: עִנְוְתָן, עִנְוְו׳, עִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P00967: עִנְוְתָנוּת, עִנְוְו׳, עִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P00968: עִנְוְתָנוּתָא, עִנְוְו׳, עִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P00983: עֲנִיָּה II, ע׳ עֲנָתוֹת — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00991: ענים, כפר ע׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P00993: עִנְיָנָא, עִנְיָי׳, עִי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P00996: עַנִּיתָא, עַנִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01011: עִנְקָא, עִי׳, עוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P01021: עַנְתָא, עוּ׳, עִי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P01026: עֵנְתּוֹדְרָיָא, עֵנְתּוֹנְדְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01034: עִסְבָּא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01056: עִסְקָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01083: עֲפָרַיִים, חֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01148: עִקְבָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01150: עֲקֵבָא, עֲקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01193: עִקְלָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01255: עַרְבָא I, עָרְ׳, עֶרְ׳, עִרְ׳, עִי׳ — all 4 alternate(s) are partial; the entry has no alternate lookup key
+- P01260: עִרְבֵּב, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01267: עִרְבּוּב, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01269: עַרְבּוּבְיָא, עִרְ׳, עִירְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P01270: עִרְבּוּבִיתָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01272: עֵרָבוֹן, עֵי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01273: עֵרָבוֹן ², עֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01337: עַרְטִילָּיוּתָא, עַרְטַלְיוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01417: עִרְעֵר, עִירְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01452: עַרְקַת, עַ׳ לִבְנָה — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01480: *עָשִׁיק, עֲ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01481: עָשִׁיק, עֲ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01484: עֲשִׂירָאָה, עֲסִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01492: עָשְׁנָא, עוֹשְׁ׳, עוּשְׁ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P01508: עִשְׂרוֹנָא, עִסְ׳, עֶ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- P01519: עֶשְׁתּוֹנָא, עִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- P01520: עַשְׁתּוֹר, בַּר עַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00006: פֵּאָה, פֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00044: פָּגוּטְיָה, פָּנ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00055: פִּגְיוֹן, פִּיגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00099: פַּגָּשׁ, כְּפַר פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00107: פְּדָגוֹג, פִּידָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00108: פְּדָגוֹגָא, פַּדְגּוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00127: *פְּדִיפְטֵי, קָקוֹ פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00135: פִּדְרָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00172: פּוּזְמְקֵי, פַּזְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q00231: פּוֹלִימַרְכוֹס, פּוֹלְמַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q00326: פוקרים, בני פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q00347: פּוּרְיוֹמָא, פִּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q00381: פורפורון, פורפי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1683,38 +1740,68 @@ _none_
 - Q01280: פִּסְיוֹנָא, פִּיסְ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01281: פִּסְיוֹנִי, פִּיסְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01282: פִּסְיוֹנִי ², פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00061: צִבְעָא, צִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00062: צִבְעָא ², צִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00064: צִבְעוֹן II, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00065: צִבְעוֹנָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00076: צִבְתָא, צִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01319: פְּסִיקְתָּא, פְּסִקְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01329: פִּסְלָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01335: *פַּסְלָן, בִּקְעַת פַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01353: פִּסְקָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00116: צִדְעָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01377: פְּעוֹר, בַּעַל פְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01399: פַּפָּא II, נְהַר פּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00193: צוּלָאֵי, בֵּית צ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01451: פִּקָּדוֹן, פִּיקָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01452: פִּקְדּוֹנָא, פִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01459: פְּקוֹלִי, הַפְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01477: פִּקֵּחַ, פִּיקֵּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01492: פְּקִיעִין, כְּפַר פְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00220: צוֹפִים, הַצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00271: צָחוּתָא, צָה׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01509: פִּקְפּוּק, פִּיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01525: פִּקְתָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00280: צִחְצוּחַ, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00281: צִחְצוּחָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00295: צִיבּוּר, צִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00312: צִידּוּק, צִדּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- R00317: צִיהוּב, צִה׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01569: פְּרַגְמַטְיָא, פְּרַקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01595: פַּרְדַּשְׁנָא, פַּרְדִּישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01602: פרהדיא, פרח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01607: פָּרָהפוּרְנוֹן, פָּרָהפִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - Q01609: פרואמה, פרואמי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01668: פְּרוֹטוֹגַמְיָא, פְּרוֹטֹגַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01680: פַּרְוִילָא, פַּרְוִוי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01689: פָּרוּכְתָּא, פָּרֻכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01722: פֵּרוּעַ ², פֵּיר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01723: פְּרוֹפּוֹסִיטוֹס, פְּרוֹפְסִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01746: פִּרְזוֹמָא, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01747: פִּרְזוּמָא, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01751: פַּרְזְלָא II, טַוַּור פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01759: פרחבלין, פרחביל׳, פרחבינ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- Q01782: פִּרְטְתָא II, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01792: פָּרִידְתָּא, פָּרִדְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01822: פְּרִיפּוֹסִיטִין, פריפיס׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01836: פָּרִישָׁא, פְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01886: פִּרְנוּס, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01887: פִּרְנוּק, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01934: פִּרְסֵם, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01961: פִּרְפֵּר, פִּירְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01963: פִּרְפֵּר ², פִּירְ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01974: פִּרְצָה, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01983: פִּרְקָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01993: פֵּרָקוֹן, פֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q01994: פִּרְקוּנָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02011: פֻּרְקָן, פָּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02088: פִּשְׁפּוּשׁ, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02090: פִּשְׁפֵּשׁ, פִּי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02094: פִּשְׁפָּשׁ, פִּי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02148: פִּתְחָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02149: פִּתְחוֹן, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02193: פִּתְפּוּת, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- Q02203: *פִּתְרָא, פִּי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00061: צִבְעָא, צִי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00062: צִבְעָא ², צִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00064: צִבְעוֹן II, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00065: צִבְעוֹנָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00076: צִבְתָא, צִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00116: צִדְעָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00193: צוּלָאֵי, בֵּית צ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00220: צוֹפִים, הַצּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00271: צָחוּתָא, צָה׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00280: צִחְצוּחַ, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00281: צִחְצוּחָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00295: צִיבּוּר, צִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00312: צִידּוּק, צִדּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- R00317: צִיהוּב, צִה׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00373: צִימּוּחַ ², צִמּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00375: צִימּוּק, צִמּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00377: צִימֵּחַ, צִמֵּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1722,83 +1809,15 @@ _none_
 - R00383: צִימְרָא, צִמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00399: צִינְּתָא, צִנְּ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00400: צִינְּתָא ², צִנְּ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01668: פְּרוֹטוֹגַמְיָא, פְּרוֹטֹגַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01680: פַּרְוִילָא, פַּרְוִוי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00409: צִיפּוּנָא, צִיפ׳, צִפּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - R00429: צִיפְתָּא, צִפְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00446: צַיְקָן, צוֹיְ׳, צוֹיְי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - R00459: צִירְיָא, צִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01689: פָּרוּכְתָּא, פָּרֻכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01722: פֵּרוּעַ ², פֵּיר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01723: פְּרוֹפּוֹסִיטוֹס, פְּרוֹפְסִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01746: פִּרְזוֹמָא, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01747: פִּרְזוּמָא, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01751: פַּרְזְלָא II, טַוַּור פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00478: צַלָּאֵי, בֵּית צ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00487: צַלְהוֹבָא, צִלְהוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00499: צְלוֹתָא, צְלוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00504: צִלְחֲתָא, צִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00793: עֲלִיבָא, עֲלוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00814: עִלִיתָא, עֲלִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00831: עִלְעוֹל, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00835: עלְעִל, עִילְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00837: עִלְעֵל, עֵו׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00846: עָלָתָא, עְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00858: עֹמֶד, עוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00869: עַמּוֹן, בְּנֵי עַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00893: עָמִירָא, עֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00911: עִמְסוֹנִי, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00922: עָמְקָא, עַמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00924: עִמְקוּתָא, עִימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00943: עִנְּבָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00947: עֵנַבְתָּא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00965: עִנְוְתָן, עִנְוְו׳, עִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P00967: עִנְוְתָנוּת, עִנְוְו׳, עִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P00968: עִנְוְתָנוּתָא, עִנְוְו׳, עִינְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P00983: עֲנִיָּה II, ע׳ עֲנָתוֹת — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00991: ענים, כפר ע׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P00993: עִנְיָנָא, עִנְיָי׳, עִי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P00996: עַנִּיתָא, עַנִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01011: עִנְקָא, עִי׳, עוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P01021: עַנְתָא, עוּ׳, עִי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P01026: עֵנְתּוֹדְרָיָא, עֵנְתּוֹנְדְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01034: עִסְבָּא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01056: עִסְקָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01083: עֲפָרַיִים, חֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01148: עִקְבָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01150: עֲקֵבָא, עֲקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01193: עִקְלָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01255: עַרְבָא I, עָרְ׳, עֶרְ׳, עִרְ׳, עִי׳ — all 4 alternate(s) are partial; the entry has no alternate lookup key
-- P01260: עִרְבֵּב, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01267: עִרְבּוּב, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01269: עַרְבּוּבְיָא, עִרְ׳, עִירְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P01270: עִרְבּוּבִיתָא, עִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01272: עֵרָבוֹן, עֵי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01273: עֵרָבוֹן ², עֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01337: עַרְטִילָּיוּתָא, עַרְטַלְיוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01417: עִרְעֵר, עִירְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01452: עַרְקַת, עַ׳ לִבְנָה — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01480: *עָשִׁיק, עֲ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01481: עָשִׁיק, עֲ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01484: עֲשִׂירָאָה, עֲסִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01492: עָשְׁנָא, עוֹשְׁ׳, עוּשְׁ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P01508: עִשְׂרוֹנָא, עִסְ׳, עֶ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- P01519: עֶשְׁתּוֹנָא, עִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- P01520: עַשְׁתּוֹר, בַּר עַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00006: פֵּאָה, פֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00044: פָּגוּטְיָה, פָּנ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00055: פִּגְיוֹן, פִּיגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00099: פַּגָּשׁ, כְּפַר פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00107: פְּדָגוֹג, פִּידָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00108: פְּדָגוֹגָא, פַּדְגּוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00127: *פְּדִיפְטֵי, קָקוֹ פ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00135: פִּדְרָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00172: פּוּזְמְקֵי, פַּזְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q00231: פּוֹלִימַרְכוֹס, פּוֹלְמַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00532: צַלְמָנָא, צִילְמָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01759: פרחבלין, פרחביל׳, פרחבינ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- Q01782: פִּרְטְתָא II, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01792: פָּרִידְתָּא, פָּרִדְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00541: צִלְצוּל, צִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00542: צִלְצוֹלִין, צִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00545: צֶלְצָל, צִילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1806,43 +1825,24 @@ _none_
 - R00570: צִמְחָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00577: צַמְיָיא, צַ׳ קַיְיטָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00593: צמר, צ׳ מורייה, צ׳ מורין — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- Q01822: פְּרִיפּוֹסִיטִין, פריפיס׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01836: פָּרִישָׁא, פְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00614: צִנּוֹרָא, צִינּ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00619: צִנּוֹרִיתָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01886: פִּרְנוּס, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01887: פִּרְנוּק, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01934: פִּרְסֵם, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00681: צִפּוֹר, צִיפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00684: צִפּוֹרָה, צִיפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00687: צִפּוֹרֶן, צִיפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00688: צִפּוֹרֶת, צִיפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00721: צִפַּרְתָּא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01961: פִּרְפֵּר, פִּירְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01963: פִּרְפֵּר ², פִּירְ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01974: פִּרְצָה, פִּירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01983: פִּרְקָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01993: פֵּרָקוֹן, פֵּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q01994: פִּרְקוּנָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00758: צִרְחָא, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02011: פֻּרְקָן, פָּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00794: צִרְעָה, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00804: צִרְצוּר, צִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - R00817: צִתְרֵי, צִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00030: קֵבָה, קֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02088: פִּשְׁפּוּשׁ, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02090: פִּשְׁפֵּשׁ, פִּי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02094: פִּשְׁפָּשׁ, פִּי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00066: קִבְלָא ², קִי׳ III — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00067: קִבְלָא ³, קִי׳ IV — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00080: קְבֵלְתָּא, קְבֵילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00089: קִבְעָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02148: פִּתְחָא, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02149: פִּתְחוֹן, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02193: פִּתְפּוּת, פִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00109: קֵבְתָא, קֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00128: קִדְחָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- Q02203: *פִּתְרָא, פִּי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00197: קַדַשׁ, קַ׳ נוּנָא — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00199: קָדָשָׁא, קְדָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S00202: קֵהֶה, קֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -1928,63 +1928,6 @@ _none_
 - S01193: קִירְסוּם, קִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01198: קִירְצוּף, קִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01201: קִירְקוּר, קִרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00399: רוּמְקִי, כְּרַךְ ר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00954: רִפְסָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00962: רִפְקָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01761: קָפַּנְדַּרְיָא, קוּפַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01769: קַפָּר, הַקַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01770: קַפָּרָא, בַּר קַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01786: קִצְבָה, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01803: קִצְחָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01833: קִצְפָּא, קִיצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01834: קִצָּפוֹן, קִיצָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00521: רַחֲמָא, רַחְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00994: רַצְעָנָא, רוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00998: רִצְפָה, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01000: רִצְפְּתָא, רִיצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01012: רִקְבָּא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01862: קָקוֹ, ק׳ פדיפטי — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00546: רִחֲתָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00566: רִטִיבְתָּא, פּוּנְדְּקָא רְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00586: רִיבּוּי, רִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00589: רִיבּוּעַ, רִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01044: רִקְמָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01069: רִשְׁבָּא, רִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01070: רִשְׁבִּין, רִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01084: רַשְׁיָא, רָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01085: רָשַׁיָּא, רַשַּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00609: רִיהֲטָא, רִהֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00631: רִיחְתָנָא, רֵחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00640: רִיכּוּנָא, רִכּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00647: רֵימָנָא, רֵימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00650: רִינּוּן, רִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00651: רִינּוּנָא, רִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00656: רֵיסָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00660: רִיסּוּקָא, רִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00667: רִיסְתָּקָא, רִסְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01906: קַרְדּוֹם, קוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01914: קַרְדִּימָא, בַּר קַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01940: קֵרוּיָה, קֵיר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01953: קְרוֹנְתָּא, קְרוּנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01109: רִשְׁפָּא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01125: רִתְחָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T01142: רִתְמָא, רִי׳, רוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- T01147: רִתְקָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00673: רֵיעוּתָא, רֵע׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00678: רִיפּוּי, רִפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00695: רִיקּוּד, רִקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00697: רִיקּוּחַ, רִקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00699: רִיקּוּעַ, רִקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00722: רִישּׁוּם, רִשּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S01990: קַרְטוּב, קוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00736: רִיתּוּת, רִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00749: רִכְבָּא, רִיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00775: רִכְסָא I, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00776: רִכְסָא, רִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00778: רִכְפַּת, רִיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00779: רִכְשָׁא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00793: רִמָּה, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00795: רִמּוֹן, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01202: קִירְקָנוֹת, קוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01210: קִישּׁוּט, קִשּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01211: קִישּׁוּטָא, קִשּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -2000,31 +1943,16 @@ _none_
 - S01283: *קְלוּסַנְטְרִין, קְלוּסַנְתְּרִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01305: קִלְחָא, קִי׳, קוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - S01311: קִלְטָא, קִי׳, קוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- S02286: קְתִדְרִין, קְתִידְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S02288: קָתוֹלִיקוֹס, קָתְלִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00057: רִבְדָּא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00064: רִבּוֹא, רִיבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00065: רִבּוֹא ², רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00074: רִבּוּנָא, רִיבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01347: קְלִיפָא, קַלִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00111: רִבִּית, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00131: רִבְעָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00142: רִבְקָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01398: קִלְעָא, קִי׳ II, קַלְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - S01405: קַלְפָא, קִלְ׳, קִילְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - S01420: קִלְקַלְתָּא, קִלְקֶילְ׳, קִי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - S01457: קִמְחוּנְיָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00187: רְגִיגְתָּא, רְגִגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00214: רִגְמָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00219: רִגְעָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01459: קִמְחִית, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01465: קַמְטְרָא, קוּמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01467: קָמֵי, ק׳ שָׂפָה — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01482: קַמְפּוֹן, קוּמְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01492: קַמְצָר, בֶּן קַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00228: רִגְּתָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00269: רַדְתָּא, רָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00282: רִהֲטוֹן, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01565: קַנְטְרָן, קַנְתְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01575: קְנִיגְיָא, קִינִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01576: קְנִיגְיוֹן, קִינִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -2032,31 +1960,103 @@ _none_
 - S01610: קַנְקָל, קִינְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01639: קַסְוָוא, קַשְׂ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S01661: קַסִּיטְרוֹן, קַסִּטְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- T00387: רוּמְחָא, רוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U00033: שְׁאֵלָה, שְׁאִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U00036: שאן, בר ש׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U00037: שְׁאָן, בֵּית שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U00067: שִׁבְּבִין, שִׁבְ׳, שֵׁיבְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- S01761: קָפַּנְדַּרְיָא, קוּפַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01769: קַפָּר, הַקַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01770: קַפָּרָא, בַּר קַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01786: קִצְבָה, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01803: קִצְחָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01833: קִצְפָּא, קִיצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01834: קִצָּפוֹן, קִיצָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01862: קָקוֹ, ק׳ פדיפטי — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01906: קַרְדּוֹם, קוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01914: קַרְדִּימָא, בַּר קַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01940: קֵרוּיָה, קֵיר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01953: קְרוֹנְתָּא, קְרוּנְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S01990: קַרְטוּב, קוּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S02040: קִרְיָה II, קִירְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S02045: קִרְיוּתָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S02058: קִרְיָינוֹס, כְּפַר קִ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S02091: קִרְמָא, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - S02095: קְרַמְיוֹן, קִירַ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S02108: קַרְנַיִם, כְּפַר ק׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S02122: *קִרְסֵי, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S02179: קַרְקֵפֶל, קַרְקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S02190: קַרְקְשָׁא, קַרְקִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S02286: קְתִדְרִין, קְתִידְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- S02288: קָתוֹלִיקוֹס, קָתְלִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00057: רִבְדָּא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00064: רִבּוֹא, רִיבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00065: רִבּוֹא ², רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00074: רִבּוּנָא, רִיבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00111: רִבִּית, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00131: רִבְעָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00142: רִבְקָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00187: רְגִיגְתָּא, רְגִגְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00214: רִגְמָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00219: רִגְעָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00228: רִגְּתָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00269: רַדְתָּא, רָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00282: רִהֲטוֹן, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00387: רוּמְחָא, רוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00399: רוּמְקִי, כְּרַךְ ר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00521: רַחֲמָא, רַחְ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00546: רִחֲתָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00566: רִטִיבְתָּא, פּוּנְדְּקָא רְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00586: רִיבּוּי, רִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00589: רִיבּוּעַ, רִבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00609: רִיהֲטָא, רִהֲ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00631: רִיחְתָנָא, רֵחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00640: רִיכּוּנָא, רִכּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00647: רֵימָנָא, רֵימְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00650: רִינּוּן, רִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00651: רִינּוּנָא, רִנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00656: רֵיסָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00660: רִיסּוּקָא, רִסּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00667: רִיסְתָּקָא, רִסְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00673: רֵיעוּתָא, רֵע׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00678: רִיפּוּי, רִפּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00695: רִיקּוּד, רִקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00697: רִיקּוּחַ, רִקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00699: רִיקּוּעַ, רִקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00722: רִישּׁוּם, רִשּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00736: רִיתּוּת, רִתּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00749: רִכְבָּא, רִיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00775: רִכְסָא I, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00776: רִכְסָא, רִי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00778: רִכְפַּת, רִיכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00779: רִכְשָׁא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00793: רִמָּה, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00795: רִמּוֹן, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - T00836: רִמְצָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - T00839: רַמְשִׁית, רוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - T00844: רִנָּה, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - T00858: רִסְנָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S02108: קַרְנַיִם, כְּפַר ק׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S02122: *קִרְסֵי, קִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - T00884: רַעְוָא, רַעֲ׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - T00885: רַעְוָא ², רַעֲ׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00954: רִפְסָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00962: רִפְקָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00994: רַצְעָנָא, רוֹ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T00998: רִצְפָה, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01000: רִצְפְּתָא, רִיצְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01012: רִקְבָּא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01044: רִקְמָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01069: רִשְׁבָּא, רִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01070: רִשְׁבִּין, רִישְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01084: רַשְׁיָא, רָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01085: רָשַׁיָּא, רַשַּׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01109: רִשְׁפָּא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01125: רִתְחָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- T01142: רִתְמָא, רִי׳, רוּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- T01147: רִתְקָא, רִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U00033: שְׁאֵלָה, שְׁאִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U00036: שאן, בר ש׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U00037: שְׁאָן, בֵּית שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U00067: שִׁבְּבִין, שִׁבְ׳, שֵׁיבְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - U00140: שִׁבְלָא, שִׁבְּ׳, שֻׁבְּ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
 - U00146: שִׁבְלֵי, שִׂ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00170: שִׁבְקָא, שִׁי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00171: שִׁבְקָא ², שִׁי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00188: שִׁבְשָׁא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S02179: קַרְקֵפֶל, קַרְקֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- S02190: קַרְקְשָׁא, קַרְקִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00213: שִׁגְדָּא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00231: שִׁגְמָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00238: שִׁגְרָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -2091,72 +2091,6 @@ _none_
 - U00678: שִׁחְנָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00720: שִׁחֲרֵר, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00727: שִׁחֲתָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01776: שְׁפֵלָה, שְׁפֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01780: שְׁפֶלְתָּא, שְׁפֵלְ׳, שְׁפֵילְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- U01813: שִׂפְתָא, שִׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01862: שַׁקְיָינָא, שִׁיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01873: שִׁקְמָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01874: שִׁקְמָה, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01883: שַׁקְפָא, שָׁ׳, שִׁי׳ I — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- U01888: שִׁקְצָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01925: שִׂרְגָא, שִׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01954: שֵׂרָטוֹן, שֵׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01967: שִׁרְיוֹן, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01977: שִׁרְיַית, יַמָּא דשִׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01987: שָׁרִיר, שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01993: שְׂרָכָא, שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U01994: שַׁרְכָּפָא, שַׁרְכְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U02014: שְׂרֵפָה, שְׂרֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U02089: שְׁתַחְוָיָה, (שְׁתַּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- U02096: שִׁתְיָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00014: תִּאוּבְתָּא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00027: תְּאֵנָה, תְּאֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00056: תַּבְלָא, תִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00059: תִּבְלָלָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00065: תִּבְנָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00082: תִּגָּארָא, תִּיגָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00083: תִּגְדָּא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00085: תַּגְלָא, בֶּן תַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00092: תִּגְרָא, תִּי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00093: תִּגְרָא ², תִּי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00094: תִּגְּרָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00098: תַּגָּרוּתָא, תִּ׳, תִּי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- V00100: תִּגְרָנָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00101: תִּגְרְתָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00112: *תַּדָּל, בֶּן תַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00129: תַּהְפּוּכְתָּא, תַּהֲפוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00164: תִּוְהָא, תִּוְו׳, תִּיוְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- V00167: תַּוְהוּת, תַּוְו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00168: תַּוְהוּתָא, תַּוְו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00184: תּוּחְלָא, תַּחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00190: תּוּטָנִי, בַּר תּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00214: תּוּלְדְּתָא, תּוֹלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00218: תּוּלְעֲבָא, תֻּלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00277: תַּוָּרָא, תַּוָּו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00305: תּוּרְנָא, תָּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00314: תּוֹרְפָא, תּוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00322: תּוֹרָתָא, בֵּי ת׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00327: תּוּשְׁבָּחָה, תִּשְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00379: תַּחֲמִין, כְּפַר תַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00380: תְּחִנָּה, תְּחִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00400: תֵּיאָבוֹן, תֵּאָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00410: תִּיבּוּרָא, תִּבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00411: תֵּיבוּתָא, תֵּיבוֹ׳, תֵּב׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- V00427: תְּיוֹמָא, תְּיוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00431: תִּיחוּחַ, תִּח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00459: תִּימּוּר, תִּימּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00470: תִּינוֹק, תִּנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00489: תִּיקּוּנָא, תִּקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00501: תִּירוּכִין, תִּר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00516: תְּיָשָׁא, תֵּי׳, תְּיָי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
-- V00521: תִּכָּא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00526: תַּכְבְּרָא, תּוּכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00542: תִּכְלָא, תִּי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00545: תִּכְלוּ, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00548: תְּכֶלְתָּא, תְּכֶילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00566: תְּלָא, תְּ׳ אִילָּן — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00579: תִּלּוּל, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
-- V00585: תִּלְחָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00752: שָׁטִּים, שִׁיטִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00765: שִׁטְפָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U00772: שִׁטְרָא, שִׁיטְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
@@ -2259,6 +2193,72 @@ _none_
 - U01684: שֵׂעָר, שֵׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U01693: שְׁעָרִים, בֵּית שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - U01705: שִׁפָּא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01776: שְׁפֵלָה, שְׁפֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01780: שְׁפֶלְתָּא, שְׁפֵלְ׳, שְׁפֵילְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- U01813: שִׂפְתָא, שִׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01862: שַׁקְיָינָא, שִׁיקְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01873: שִׁקְמָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01874: שִׁקְמָה, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01883: שַׁקְפָא, שָׁ׳, שִׁי׳ I — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- U01888: שִׁקְצָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01925: שִׂרְגָא, שִׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01954: שֵׂרָטוֹן, שֵׂי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01967: שִׁרְיוֹן, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01977: שִׁרְיַית, יַמָּא דשִׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01987: שָׁרִיר, שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01993: שְׂרָכָא, שְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U01994: שַׁרְכָּפָא, שַׁרְכְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U02014: שְׂרֵפָה, שְׂרֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U02089: שְׁתַחְוָיָה, (שְׁתַּ׳) — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- U02096: שִׁתְיָא, שִׁי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00014: תִּאוּבְתָּא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00027: תְּאֵנָה, תְּאֵי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00056: תַּבְלָא, תִּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00059: תִּבְלָלָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00065: תִּבְנָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00082: תִּגָּארָא, תִּיגָּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00083: תִּגְדָּא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00085: תַּגְלָא, בֶּן תַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00092: תִּגְרָא, תִּי׳ I — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00093: תִּגְרָא ², תִּי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00094: תִּגְּרָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00098: תַּגָּרוּתָא, תִּ׳, תִּי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- V00100: תִּגְרָנָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00101: תִּגְרְתָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00112: *תַּדָּל, בֶּן תַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00129: תַּהְפּוּכְתָּא, תַּהֲפוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00164: תִּוְהָא, תִּוְו׳, תִּיוְ׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- V00167: תַּוְהוּת, תַּוְו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00168: תַּוְהוּתָא, תַּוְו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00184: תּוּחְלָא, תַּחְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00190: תּוּטָנִי, בַּר תּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00214: תּוּלְדְּתָא, תּוֹלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00218: תּוּלְעֲבָא, תֻּלְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00277: תַּוָּרָא, תַּוָּו׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00305: תּוּרְנָא, תָּרְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00314: תּוֹרְפָא, תּוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00322: תּוֹרָתָא, בֵּי ת׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00327: תּוּשְׁבָּחָה, תִּשְׁ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00379: תַּחֲמִין, כְּפַר תַּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00380: תְּחִנָּה, תְּחִי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00400: תֵּיאָבוֹן, תֵּאָ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00410: תִּיבּוּרָא, תִּבּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00411: תֵּיבוּתָא, תֵּיבוֹ׳, תֵּב׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- V00427: תְּיוֹמָא, תְּיוּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00431: תִּיחוּחַ, תִּח׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00459: תִּימּוּר, תִּימּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00470: תִּינוֹק, תִּנּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00489: תִּיקּוּנָא, תִּקּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00501: תִּירוּכִין, תִּר׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00516: תְּיָשָׁא, תֵּי׳, תְּיָי׳ — all 2 alternate(s) are partial; the entry has no alternate lookup key
+- V00521: תִּכָּא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00526: תַּכְבְּרָא, תּוּכְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00542: תִּכְלָא, תִּי׳ II — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00545: תִּכְלוּ, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00548: תְּכֶלְתָּא, תְּכֶילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00566: תְּלָא, תְּ׳ אִילָּן — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00579: תִּלּוּל, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
+- V00585: תִּלְחָא, תִּי׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - V00611: תְּלַמְיוֹן, בַּר תְּ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - V00627: תִּלְתָּא, תִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
 - V00629: תִּלְתּוּל, תִּילְ׳ — all 1 alternate(s) are partial; the entry has no alternate lookup key
