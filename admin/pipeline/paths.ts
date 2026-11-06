@@ -24,7 +24,7 @@ export { ENTRIES_DIR, SCHEMA_PATH } from '../entry/paths.ts';
 // ---------------------------------------------------------------- read
 
 /** The Sefaria export, as fetched. */
-export const SOURCE_DIR = 'data/source';
+export const SOURCE_DIR = 'data/sources/sefaria';
 
 /** The 32,512-entry source JSONL. */
 export const SOURCE_PATH = `${SOURCE_DIR}/jastrow-dictionary.jsonl`;
@@ -93,7 +93,7 @@ export const LOCK_PATH = `${PATCH_DIR}/snapshot.lock`;
 
 // ------------------------------------------------------------- written
 
-/** The machine-readable account of one run. Under `data/source/`
+/** The machine-readable account of one run. Under `data/sources/sefaria/`
  * because it describes one import of that snapshot, not the
  * dictionary: it is regenerated wholesale every run and nothing
  * downstream may treat it as entry data. */
@@ -138,7 +138,7 @@ export const SEFARIA_SUBMISSIONS_PATH = 'docs/sefaria-submissions.jsonl';
  * block, its page, column and the first and last rid that begin in it.
  * An import input; after the import an entry file's `page` is the
  * record. */
-export const PAGE_INDEX_PATH = 'data/page-index/columns.jsonl';
+export const PAGE_INDEX_PATH = 'data/sources/page-index/columns.jsonl';
 
 /** Where the pipeline's own design is written down, cited by the
  * headword report so a reader can reach the rules behind a row.

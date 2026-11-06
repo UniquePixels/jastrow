@@ -6,7 +6,7 @@
 > the per-headword rows, the per-column records with their scan leaf
 > and research fields, the letter starts and the build report. The
 > live page index is now one block map,
-> [`data/page-index/columns.jsonl`](../../../data/page-index/README.md),
+> [`data/page-index/columns.jsonl`](../../../data/sources/page-index/README.md),
 > derived from `entries.jsonl` here (with the p.683 correction below
 > applied) and then corrected around p. 415 (five entries; see the live
 > README's "Corrections since the build"). Every other rid it places

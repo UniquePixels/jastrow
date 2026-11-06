@@ -5,11 +5,11 @@
 	"fetchedAt": "2026-07-04T21:17:05.972Z",
 	"outputs": [
 		{
-			"path": "data/source/lexicons.json",
+			"path": "data/sources/sefaria/lexicons.json",
 			"sha256": "629e16adb66fc6acef7b10c509335c54303abac8c912cdb625ad7458aefc0a4d"
 		},
 		{
-			"path": "data/source/jastrow-dictionary.jsonl",
+			"path": "data/sources/sefaria/jastrow-dictionary.jsonl",
 			"sha256": "4c64ff0324946065a8a02118f7519648662b623e6e47e175125a4b7768437478"
 		}
 	],

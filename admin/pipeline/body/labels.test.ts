@@ -52,7 +52,7 @@ describe('parseLabel', () => {
 		expect(parseLabel('—B)')).toEqual({ unknown: '—B)' });
 	});
 
-	// Measured corpus damage classes (data/source/jastrow-dictionary.jsonl):
+	// Measured corpus damage classes (data/sources/sefaria/jastrow-dictionary.jsonl):
 	// a bracket standing in for a digit, and an ASCII hyphen-minus standing
 	// in for the em dash. Both quarantine rather than being coerced, since
 	// coercing would break byte-exact regeneration for these source strings.

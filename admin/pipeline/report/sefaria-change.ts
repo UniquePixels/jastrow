@@ -38,7 +38,7 @@ import {
 } from '../patch/schema.ts';
 import type { SourceEntry, SourceSense } from '../types.ts';
 
-/** One record of `data/source/jastrow-dictionary.jsonl`, with the
+/** One record of `data/sources/sefaria/jastrow-dictionary.jsonl`, with the
  * Mongo id the pipeline itself never reads. */
 interface RawRecord extends SourceEntry {
 	// biome-ignore lint/style/useNamingConvention: Sefaria's own Mongo field names.

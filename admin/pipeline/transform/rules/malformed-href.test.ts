@@ -2,7 +2,7 @@
  * Fixtures for `unterminatedHref` (batch-4 task 5).
  *
  * `D_BAD` and `J_BAD` are VERBATIM slices of
- * `data/source/jastrow-dictionary.jsonl` — extracted from the pinned
+ * `data/sources/sefaria/jastrow-dictionary.jsonl` — extracted from the pinned
  * snapshot rather than retyped, because a fixture typed by hand tests
  * the typist and not the corpus. `J_BAD` deliberately runs from the
  * damaged tag through the intact twin the repair reads its

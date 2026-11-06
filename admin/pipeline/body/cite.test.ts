@@ -8,7 +8,7 @@ const EXT_NOSLASH =
 const INT =
 	'<a dir="rtl" class="refLink" href="/Jastrow,_אֵם.1" data-ref="Jastrow, אֵם 1">אֵם</a>';
 
-// J00597 fragment (data/source/jastrow-dictionary.jsonl): a mangled anchor
+// J00597 fragment (data/sources/sefaria/jastrow-dictionary.jsonl): a mangled anchor
 // whose href quote is never closed — it runs into "</a>" — immediately
 // followed by a valid anchor. Pins the fix so the malformed open tag is
 // flagged rather than swallowing its valid neighbor and cross-attributing
@@ -16,7 +16,7 @@ const INT =
 const J00597_MANGLED =
 	'(cmp. <a dir="rtl" class="refLink" href="/Jastrow,_דִּלְדֵּל.1</a><a class="refLink" href="/Bava_Metzia.38b" data-ref="Bava Metzia 38b">B. Mets. 38ᵇ</a>';
 
-// A00085 fragment (data/source/jastrow-dictionary.jsonl): an outer refLink
+// A00085 fragment (data/sources/sefaria/jastrow-dictionary.jsonl): an outer refLink
 // anchor whose open tag immediately wraps an inner refLink anchor with an
 // identical href/data-ref — a benign nested-duplicate quirk Sefaria
 // produces (475 of 478 corpus-wide occurrences of the "nested open tag
@@ -29,7 +29,7 @@ const A00085_INNER =
 	'<a dir="rtl" class="refLink" href="/Jastrow,_אבהנוס.1" data-ref="Jastrow, אבהנוס 1">אבהנוס</a>';
 const A00085_NESTED_DUP = `${A00085_OUTER_OPEN}${A00085_INNER}.</a>`;
 
-// J00603 fragment (data/source/jastrow-dictionary.jsonl): the
+// J00603 fragment (data/sources/sefaria/jastrow-dictionary.jsonl): the
 // `Shir_HaShirim_Rabbah.1` anchor opens cleanly but its own `</a>` is
 // missing from the source — the next thing in the text is another refLink
 // open tag (itself the outer half of a nested-duplicate pair). Before the

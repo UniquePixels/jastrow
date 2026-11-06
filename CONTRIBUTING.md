@@ -94,7 +94,7 @@ All commits must include a sign-off line (`git commit -s`).
 
 `bun qa` runs every unit test (`*.test.ts`) in about two seconds. CI's
 `Test` job runs the same set, and never reads the source data in
-`data/source/`. Neither checks entry data: `bun data:validate` checks
+`data/sources/sefaria/`. Neither checks entry data: `bun data:validate` checks
 every file under `data/entries/` against the entry contract
 (`admin/entry/`), and CI's `Validate` job runs it.
 

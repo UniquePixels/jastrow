@@ -22,7 +22,7 @@ Security concerns are primarily:
 
 - Supply chain: the pipeline's dependencies and the pinned GitHub
   Actions in `.github/workflows/`
-- Integrity of the Sefaria snapshot in `data/source/` and of the entry
+- Integrity of the Sefaria snapshot in `data/sources/sefaria/` and of the entry
   data derived from it
 
 The live site at [jastrow.app](https://jastrow.app) is built from

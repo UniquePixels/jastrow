@@ -67,7 +67,7 @@ as not). A family is the cite word's consonants (ruling 10-05). The 40
 ids below equal the predicate's output (diffed).
 
 Every citing entry is in vol. 2: the page index
-([`data/page-index/`](../../../../../../data/page-index/README.md))
+([`data/page-index/`](../../../../../../data/sources/page-index/README.md))
 places all 35 on pages 830–1682, whose `columns.jsonl` leaves (153–1005)
 are page − 677, as its "Scan coordinates" give.
 
@@ -163,7 +163,7 @@ stripped, cut to about 60 characters before the cite and 40 after; the
 whole entry is in the entry file. Where the cite runs over to the next
 column on another leaf, the block links that leaf's scan too. IIIF's
 `$n` is leaf `n − 1`, so leaf `L` links as `$L+1`
-([`data/page-index/README.md`](../../../../../../data/page-index/README.md),
+([`data/page-index/README.md`](../../../../../../data/sources/page-index/README.md),
 "Scan coordinates"; vol. 2 is `dictionaryoftarg02jastuoft`).
 
 ## Reading order

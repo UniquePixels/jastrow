@@ -29,7 +29,7 @@ const HOCR = 'hOCR vol. 1 p. 50a: `x`; scan 50a';
 /** `HOCR` with its scan link, as a converted record words it. */
 const LINKED = `${HOCR} (${URL})`;
 
-/** A raw record as `data/source/` stores it. */
+/** A raw record as `data/sources/sefaria/` stores it. */
 function record(rid: string, extra: Partial<RawRecord> = {}): RawRecord {
 	return {
 		_id: { $oid: `oid-${rid}` },

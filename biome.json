@@ -11,8 +11,8 @@
 			"**",
 			"!data/*.json",
 			"!data/*.jsonl",
-			"!data/source/*.json",
-			"!data/source/*.jsonl",
+			"!data/sources/sefaria/*.json",
+			"!data/sources/sefaria/*.jsonl",
 			"!docs/archive",
 			"!**/*.drawio.svg",
 			"data/entries/**/*.json"
