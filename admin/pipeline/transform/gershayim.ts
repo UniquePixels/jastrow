@@ -37,7 +37,8 @@
  * every entry through `checkLinkTargets` so that tail cannot take a
  * silent edit.
  */
-import { HEBREW, HEBREW_ATOM, mapTagsAndText } from '../../lib/html.ts';
+import { HEBREW, HEBREW_ATOM } from '../../lib/hebrew.ts';
+import { mapTagsAndText } from '../../lib/html.ts';
 
 /** U+05F4 HEBREW PUNCTUATION GERSHAYIM — the mark the corpus should
  * have written and the ONLY character this module ever produces. */
@@ -61,7 +62,7 @@ const GERSHAYIM = '״';
  * quote — are matched by the class itself; narrowing the lookbehind to
  * bare letters would refuse four honest repairs as well as losing one.
  *
- * `HEBREW_ATOM` was module-private in `html.ts` until this batch;
+ * `HEBREW_ATOM` was module-private in `html.ts` (now `hebrew.ts`) until this batch;
  * batch 3a exports it rather than restating `[HEBREW]̇*` here, so
  * the corpus keeps one definition of "a Hebrew letter with its marks".
  */

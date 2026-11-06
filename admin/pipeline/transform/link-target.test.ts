@@ -1000,7 +1000,7 @@ it('case 5 licenses a repair behind a combining dot', () => {
 
 /** …and the class stays strictly NARROWER than the rule's predicate,
  * which is the whole reason the gate declares its own. The rule admits
- * `html.ts`'s `HEBREW`, presentation forms included; this refuses a
+ * `hebrew.ts`'s `HEBREW`, presentation forms included; this refuses a
  * mark flanked by one. Pinned so the next person to notice the
  * divergence widens it on a measurement, as U+0307 was widened, rather
  * than by importing `HEBREW_ATOM` and turning the gate into an echo of
