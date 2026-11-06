@@ -52,6 +52,23 @@ function refusesDefaultPath(main: string): boolean {
 	return UNIT_TEST_FILE.test(main) && !main.endsWith('.corpus.test.ts');
 }
 
+/** A checker that a source's rids are unique: call it with each
+ * entry's rid and its 1-based file line; it throws on a repeat. Shared
+ * by every reader of the source (ruling 11-05 canonical fetch), so a
+ * duplicate is refused rather than resolved first-wins or last-wins. */
+function ridGuard(path: string): (rid: string, line: number) => void {
+	const lines = new Map<string, number>();
+	return (rid: string, line: number): void => {
+		const first = lines.get(rid);
+		if (first !== undefined) {
+			throw new Error(
+				`duplicate rid ${rid}: lines ${first} and ${line} of ${path}`,
+			);
+		}
+		lines.set(rid, line);
+	};
+}
+
 /** Stream every entry from the source JSONL, one line at a time. Never
  * buffers the whole file — chunks are decoded and split on `\n` as they
  * arrive. `path` defaults to `SOURCE_PATH` (`paths.ts`) rather than a
@@ -67,11 +84,23 @@ async function* readSourceEntries(path?: string): AsyncGenerator<SourceEntry> {
 			`readSourceEntries() with no path streams all 32,512 source entries, which a unit-tier test file may not do: pass a fixture path, or name the file *.corpus.test.ts and add it to \`bun run transform:invariants\` (admin/pipeline/DESIGN.md §1, Test tiers); running as ${Bun.main}`,
 		);
 	}
-	for await (const line of linesOf(Bun.file(path ?? SOURCE_PATH).stream())) {
+	const file = path ?? SOURCE_PATH;
+	const seen = ridGuard(file);
+	let number = 0;
+	for await (const line of linesOf(Bun.file(file).stream())) {
+		number += 1;
 		if (line.trim() !== '') {
-			yield parseSourceEntry(line);
+			const entry = parseSourceEntry(line);
+			seen(entry.rid, number);
+			yield entry;
 		}
 	}
 }
 
-export { linesOf, parseSourceEntry, readSourceEntries, refusesDefaultPath };
+export {
+	linesOf,
+	parseSourceEntry,
+	readSourceEntries,
+	refusesDefaultPath,
+	ridGuard,
+};

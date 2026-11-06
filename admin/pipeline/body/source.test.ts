@@ -5,6 +5,7 @@ import {
 	parseSourceEntry,
 	readSourceEntries,
 	refusesDefaultPath,
+	ridGuard,
 } from './source.ts';
 
 const TEST_DIR = '.cache/test';
@@ -155,6 +156,40 @@ describe('the tier guard', () => {
 		// positive control that the refusal is live, not only computable.
 		await expect(readSourceEntries().next()).rejects.toThrow(
 			/transform:invariants/u,
+		);
+	});
+});
+
+describe('ridGuard', () => {
+	it('throws on a repeated rid, naming both lines', () => {
+		const seen = ridGuard('source.jsonl');
+		seen('A00001', 1);
+		seen('A00002', 3);
+		expect(() => seen('A00001', 4)).toThrow(
+			'duplicate rid A00001: lines 1 and 4 of source.jsonl',
+		);
+	});
+
+	it('makes readSourceEntries refuse a duplicate, counting blank lines', async () => {
+		const one = JSON.stringify({
+			rid: 'A00001',
+			headword: 'אָב',
+			content: { senses: [] },
+		});
+		const two = JSON.stringify({
+			rid: 'A00002',
+			headword: 'אֵם',
+			content: { senses: [] },
+		});
+		const path = `${TEST_DIR}/source-duplicate.jsonl`;
+		await Bun.write(path, [one, '', two, one].join('\n'));
+		const read = async (): Promise<void> => {
+			for await (const _ of readSourceEntries(path)) {
+				// drain
+			}
+		};
+		await expect(read()).rejects.toThrow(
+			`duplicate rid A00001: lines 1 and 4 of ${path}`,
 		);
 	});
 });

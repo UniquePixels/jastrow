@@ -12,6 +12,7 @@
  *
  * Run: bun data:sefaria
  */
+import { ridGuard } from './body/source.ts';
 import { loadReviewedCorpus } from './patch/apply.ts';
 import { readPageLookup } from './patch/locator.ts';
 import {
@@ -30,9 +31,13 @@ import {
 /** Every raw record by rid, `_id` and all. */
 async function readRaw(): Promise<Map<string, RawRecord>> {
 	const records = new Map<string, RawRecord>();
-	for (const line of (await Bun.file(SOURCE_PATH).text()).split('\n')) {
+	const seen = ridGuard(SOURCE_PATH);
+	for (const [index, line] of (await Bun.file(SOURCE_PATH).text())
+		.split('\n')
+		.entries()) {
 		if (line.trim() !== '') {
 			const record = JSON.parse(line) as RawRecord;
+			seen(record.rid, index + 1);
 			records.set(record.rid, record);
 		}
 	}
