@@ -53,12 +53,16 @@ function refusesDefaultPath(main: string): boolean {
 }
 
 /** A checker that a source's rids are unique: call it with each
- * entry's rid and its 1-based file line; it throws on a repeat. Shared
+ * entry's rid and its 1-based file line; it throws on a repeat or on
+ * a rid that is not a string. Shared
  * by every reader of the source (ruling 11-05 canonical fetch), so a
  * duplicate is refused rather than resolved first-wins or last-wins. */
-function ridGuard(path: string): (rid: string, line: number) => void {
+function ridGuard(path: string): (rid: unknown, line: number) => void {
 	const lines = new Map<string, number>();
-	return (rid: string, line: number): void => {
+	return (rid: unknown, line: number): void => {
+		if (typeof rid !== 'string') {
+			throw new Error(`missing rid at line ${line} of ${path}`);
+		}
 		const first = lines.get(rid);
 		if (first !== undefined) {
 			throw new Error(

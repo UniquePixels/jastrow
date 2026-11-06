@@ -224,8 +224,8 @@ interface Restored {
 }
 
 /** The raw source as the retarget proof reads it: rids by link key, by
- * the consonants of every form of their line, and by position in the
- * source; and the numerals the reviewed patches restore. */
+ * the consonants of every form of their line, and by position in
+ * `rid` order (print order); and the numerals the reviewed patches restore. */
 interface SourceIndex {
 	byKey: Map<string, string[]>;
 	bySkeleton: Map<string, string[]>;

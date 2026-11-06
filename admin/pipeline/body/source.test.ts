@@ -192,4 +192,26 @@ describe('ridGuard', () => {
 			`duplicate rid A00001: lines 1 and 4 of ${path}`,
 		);
 	});
+
+	it('throws on a rid that is not a string, naming the line', () => {
+		const seen = ridGuard('source.jsonl');
+		expect(() => seen(undefined, 7)).toThrow(
+			'missing rid at line 7 of source.jsonl',
+		);
+		expect(() => seen(12, 8)).toThrow('missing rid at line 8 of source.jsonl');
+	});
+
+	it('makes readSourceEntries refuse rid-less lines as missing, not duplicate', async () => {
+		const path = `${TEST_DIR}/source-ridless.jsonl`;
+		await Bun.write(
+			path,
+			`${JSON.stringify({ headword: 'אָב', content: { senses: [] } })}\n`,
+		);
+		const read = async (): Promise<void> => {
+			for await (const _ of readSourceEntries(path)) {
+				// drain
+			}
+		};
+		await expect(read()).rejects.toThrow(/rid/u);
+	});
 });

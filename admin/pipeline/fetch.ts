@@ -24,7 +24,7 @@ import {
 	extractTargets,
 	sha256,
 } from './archive-io.ts';
-import { canonicalJson, sortByRid } from './canonical-json.ts';
+import { canonicalJson, requireRid, sortByRid } from './canonical-json.ts';
 import {
 	LEXICONS_PATH,
 	MANIFEST_PATH,
@@ -152,12 +152,15 @@ async function emitEntries(
 ): Promise<Map<string, number>> {
 	const counts = new Map<string, number>();
 	const collected = new Map(
-		[...JASTROW_LEXICONS.keys()].map((l) => [l, [] as Document[]]),
+		[...JASTROW_LEXICONS.keys()].map((l) => [
+			l,
+			[] as (Document & { rid: string })[],
+		]),
 	);
 	for await (const doc of bsonDocuments(
 		TARGETS.get('dump/sefaria/lexicon_entry.bson') as string,
 	)) {
-		collected.get(doc['parent_lexicon'] as string)?.push(doc);
+		collected.get(doc['parent_lexicon'] as string)?.push(requireRid(doc));
 	}
 	for (const [lexicon, docs] of collected) {
 		if (docs.length === 0) {
@@ -165,7 +168,7 @@ async function emitEntries(
 			// must not produce an empty snapshot that looks like success.
 			throw new Error(`no entries found for lexicon "${lexicon}"`);
 		}
-		const lines = sortByRid(docs as (Document & { rid: string })[]).map(
+		const lines = sortByRid(docs).map(
 			(doc) => `${canonicalJson(EJSON.serialize(doc, { relaxed: true }))}\n`,
 		);
 		await Bun.write(JASTROW_LEXICONS.get(lexicon) as string, lines.join(''));

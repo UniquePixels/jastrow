@@ -29,7 +29,7 @@ it does not own, plus reports about what it did.
 
 | Path | What it holds |
 |---|---|
-| `data/sources/sefaria/jastrow-dictionary.jsonl` | the Sefaria export, verbatim, 32,512 entries |
+| `data/sources/sefaria/jastrow-dictionary.jsonl` | the Sefaria export, data unmodified, in canonical form (by `rid`, keys sorted), 32,512 entries |
 | `data/sources/sefaria/lexicons.json` | the lexicon registry record that travels with it |
 | `data/sources/sefaria/manifest.json` | provenance about the fetch — dump URL, ETag, Last-Modified, fetch time, sha256 and entry count per output |
 | `data/sources/page-index/columns.jsonl` | the page index: one row per printed block, its page, column and the first and last rid beginning in it (§8) |
@@ -451,7 +451,8 @@ than emitting a silent empty output. A Sefaria schema change is a code
 change.
 
 It emits three files: `jastrow-dictionary.jsonl` (the `lexicon_entry`
-documents, verbatim, in dump order), `lexicons.json` (the lexicon
+documents, data unmodified, sorted by `rid` with keys sorted; ruling
+`11-05 canonical fetch`), `lexicons.json` (the lexicon
 registry record) and `manifest.json` (provenance about the fetch
 itself: the dump URL, ETag, Last-Modified, fetch time, and each
 output's sha256 and entry count).

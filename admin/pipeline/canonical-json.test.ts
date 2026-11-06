@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { canonicalJson, sortByRid } from './canonical-json.ts';
+import { canonicalJson, requireRid, sortByRid } from './canonical-json.ts';
 
 describe('canonicalJson', () => {
 	it('sorts keys at every depth, keeps arrays, and does not escape Hebrew', () => {
@@ -38,5 +38,21 @@ describe('sortByRid', () => {
 			'C00144',
 			'D01030',
 		]);
+	});
+});
+
+describe('requireRid', () => {
+	it('returns a document with a string rid', () => {
+		const doc = { _id: 1, rid: 'A00001' };
+		expect(requireRid(doc)).toBe(doc);
+	});
+
+	it('throws naming the _id when the rid is missing or not a string', () => {
+		expect(() => requireRid({ _id: 'x1' })).toThrow(
+			'lexicon_entry x1 has no string rid',
+		);
+		expect(() => requireRid({ _id: 'x2', rid: 5 })).toThrow(
+			'lexicon_entry x2 has no string rid',
+		);
 	});
 });
