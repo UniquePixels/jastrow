@@ -209,7 +209,7 @@ import { unlinkOverDefinitions } from './unlink.ts';
 
 // Hoisted per lint/performance/useTopLevelRegex.
 
-/** `html.ts`'s Hebrew point/accent range (U+0591–U+05C7), the same
+/** `hebrew.ts`'s Hebrew point/accent range (U+0591–U+05C7), the same
  * span `rules/geresh.ts` uses — see that module's `POINT` for the
  * citation.
  *

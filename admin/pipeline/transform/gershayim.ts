@@ -62,9 +62,10 @@ const GERSHAYIM = '״';
  * quote — are matched by the class itself; narrowing the lookbehind to
  * bare letters would refuse four honest repairs as well as losing one.
  *
- * `HEBREW_ATOM` was module-private in `html.ts` (now `hebrew.ts`) until this batch;
- * batch 3a exports it rather than restating `[HEBREW]̇*` here, so
- * the corpus keeps one definition of "a Hebrew letter with its marks".
+ * `HEBREW_ATOM` was module-private (in `html.ts`, now `hebrew.ts`)
+ * until this batch; batch 3a exports it rather than restating
+ * `[HEBREW]̇*` here, so the corpus keeps one definition of "a Hebrew
+ * letter with its marks".
  */
 const FLANKED = new RegExp(`(?<=${HEBREW_ATOM})"(?=[${HEBREW}])`, 'gu');
 
