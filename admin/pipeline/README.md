@@ -138,7 +138,7 @@ it: the 2026-07-04 dump has no `lexicon` record and zero
 
 | File | Contents |
 |------|----------|
-| `jastrow-dictionary.jsonl` | `lexicon_entry` docs with `parent_lexicon: "Jastrow Dictionary"`, verbatim, dump order, relaxed extended JSON |
+| `jastrow-dictionary.jsonl` | `lexicon_entry` docs with `parent_lexicon: "Jastrow Dictionary"`, data unmodified, sorted by `rid` with keys sorted, relaxed extended JSON |
 | `lexicons.json` | The Jastrow lexicon registry record |
 | `manifest.json` | Provenance: dump URL, ETag, Last-Modified, fetch time, sha256 + entry count per output |
 
