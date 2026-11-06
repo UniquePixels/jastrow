@@ -6,6 +6,7 @@
  * fetching an unchanged export gives identical files and `git diff`
  * names only the entries that changed.
  */
+import { compareStrings } from '../entry/compare-strings.ts';
 
 /** `value` with every object's keys in code-unit order, recursively.
  * Integer-like keys come first, in numeric order (a JS rule), which
@@ -34,7 +35,7 @@ function canonicalJson(value: unknown, indent?: string): string {
 
 /** A copy of `docs` sorted by rid in code-unit order. */
 function sortByRid<T extends { rid: string }>(docs: readonly T[]): T[] {
-	return [...docs].sort((a, b) => (a.rid < b.rid ? -1 : Number(a.rid > b.rid)));
+	return [...docs].sort((a, b) => compareStrings(a.rid, b.rid));
 }
 
 /** `doc` unchanged if its `rid` is a string; throws otherwise, so a

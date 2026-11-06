@@ -38,6 +38,7 @@
  */
 
 import { isIsoDate } from '../../entry/annotations.ts';
+import { compareStrings } from '../../entry/compare-strings.ts';
 import { type PageLookup, pageOutsideEntry } from '../patch/locator.ts';
 import { pageOfUrl, pageUrl, pageUrls } from '../patch/scan.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
@@ -320,7 +321,7 @@ function countBy<T>(
 	for (const item of items) {
 		counts.set(key(item), (counts.get(key(item)) ?? 0) + 1);
 	}
-	return [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+	return [...counts].sort((a, b) => b[1] - a[1] || compareStrings(a[0], b[0]));
 }
 
 /** The class table: rows, new and submitted per class. */
@@ -431,13 +432,14 @@ function buildSefariaAppendix(inputs: AppendixInputs): SefariaAppendix {
 	}
 	rows.sort(
 		(a, b) =>
-			a.class.localeCompare(b.class) ||
-			a.rid.localeCompare(b.rid) ||
-			a.patch_id.localeCompare(b.patch_id),
+			compareStrings(a.class, b.class) ||
+			compareStrings(a.rid, b.rid) ||
+			compareStrings(a.patch_id, b.patch_id),
 	);
 	review.sort(
 		(a, b) =>
-			a.reason.localeCompare(b.reason) || a.patch_id.localeCompare(b.patch_id),
+			compareStrings(a.reason, b.reason) ||
+			compareStrings(a.patch_id, b.patch_id),
 	);
 	return {
 		csv: csvOf(COLUMNS, rows),

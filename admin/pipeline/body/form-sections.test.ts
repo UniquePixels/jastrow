@@ -118,7 +118,7 @@ function sweepFixtures(entries: SourceEntry[]): SweepResult {
 	return {
 		markersByRid,
 		mismatches,
-		splitRids: [...splitRids].sort((a, b) => a.localeCompare(b)),
+		splitRids: [...splitRids].sort(),
 	};
 }
 
@@ -287,9 +287,7 @@ describe('fixture sweep (fixtures/form-sections.jsonl)', () => {
 
 		const { markersByRid, mismatches, splitRids } = sweepFixtures(entries);
 		expect(mismatches).toEqual([]);
-		expect(splitRids).toEqual(
-			Object.keys(FORM_SECTION_SPLITS).sort((a, b) => a.localeCompare(b)),
-		);
+		expect(splitRids).toEqual(Object.keys(FORM_SECTION_SPLITS).sort());
 		expect(markersByRid).toEqual(FORM_SECTION_SPLITS);
 	});
 });

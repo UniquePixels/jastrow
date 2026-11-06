@@ -371,7 +371,7 @@ function nonCommutingPairs(
 		stats.inertRules = [...changing]
 			.filter(([, rids]) => rids.size === 0)
 			.map(([id]) => id)
-			.toSorted((x, y) => x.localeCompare(y));
+			.toSorted();
 	}
 	return tally.found;
 }

@@ -3,6 +3,8 @@
  * the catalogued classes that block by ruling and have no detector to
  * emit a row. The admin tool's tracker integration reads the deferred
  * rows. */
+
+import { compareStrings } from '../../entry/compare-strings.ts';
 import { type Pattern, parsePatterns } from '../patch/patterns.ts';
 import { PATTERNS_PATH } from '../paths.ts';
 import { DETECTED_CLASSES } from './detectors/classes.ts';
@@ -48,7 +50,7 @@ function undetectedClasses(
 				!detected.has(r.id),
 		)
 		.toSorted(
-			(a, b) => b.corpusCount - a.corpusCount || a.id.localeCompare(b.id, 'en'),
+			(a, b) => b.corpusCount - a.corpusCount || compareStrings(a.id, b.id),
 		);
 }
 
@@ -75,11 +77,9 @@ function section(title: string, rows: readonly ReportRow[]): string[] {
 	if (rows.length === 0) {
 		return [...head, '_none_'];
 	}
-	// A fixed locale keeps the committed report's order the same on
-	// every machine.
-	const kinds = [...new Set(rows.map((r) => r.kind))].toSorted((a, b) =>
-		a.localeCompare(b, 'en'),
-	);
+	// Code-unit order: the committed report reads the same on every
+	// machine.
+	const kinds = [...new Set(rows.map((r) => r.kind))].toSorted();
 	return [
 		...head,
 		...kinds.flatMap((kind, i) => {

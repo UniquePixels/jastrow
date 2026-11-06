@@ -91,8 +91,11 @@ All commits must include a sign-off line (`git commit -s`).
   the corpus baselines pin.
 - Sort strings with a bare `.sort()` / `.toSorted()`. Its UTF-16
   code-unit order is the same on every machine; `localeCompare`
-  depends on the runtime's ICU data. Sonar's S2871 flags the bare
-  call, so that rule is off for this project rather than coded around.
+  depends on the runtime's ICU data, so `admin/` never uses it. To
+  sort objects by a string field, use `compareStrings` from
+  `admin/entry/compare-strings.ts`, the same order as a comparator.
+  Sonar's S2871 flags the bare call, so that rule is off for this
+  project rather than coded around.
 
 ## Tests
 

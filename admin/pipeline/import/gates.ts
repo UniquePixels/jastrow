@@ -4,6 +4,7 @@
  * (composition failures) live with the composer and the CLI. */
 
 import { entryAnnotations } from '../../entry/annotations.ts';
+import { compareStrings } from '../../entry/compare-strings.ts';
 import { intToRoman, intToSup } from '../../entry/headwords.ts';
 import { tokenize } from '../../entry/html.ts';
 import { nameCollisions } from '../../entry/names.ts';
@@ -467,7 +468,8 @@ function ridOrder(a: string, b: string): number {
 	const la = ma?.['letter'] ?? '';
 	const lb = mb?.['letter'] ?? '';
 	return (
-		la.localeCompare(lb) || Number(ma?.['seq'] ?? 0) - Number(mb?.['seq'] ?? 0)
+		compareStrings(la, lb) ||
+		Number(ma?.['seq'] ?? 0) - Number(mb?.['seq'] ?? 0)
 	);
 }
 

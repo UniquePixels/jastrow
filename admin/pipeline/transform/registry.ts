@@ -6,6 +6,8 @@
  * row must be either registered here or named in PENDING; a row that is
  * neither is a silent skip, and the gate fails on it.
  */
+
+import { compareStrings } from '../../entry/compare-strings.ts';
 import type { Pattern } from '../patch/patterns.ts';
 import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
 import { unlinkedBareAnaphor } from './rules/anaphora-mint.ts';
@@ -868,7 +870,7 @@ function entangledClusters(
 			.toSorted((a, b) => a - b);
 		const stale = ids
 			.filter((id) => !(known.has(id) || index.has(id)))
-			.toSorted((a, b) => a.localeCompare(b));
+			.toSorted();
 		// The walk starts from a registered id, so `at` always holds at
 		// least one position and `Math.max` below is never called on an
 		// empty list. Two registered members is the ORDER question; a
@@ -877,13 +879,13 @@ function entangledClusters(
 		if (at.length >= 2 || stale.length > 0) {
 			clusters.push({
 				at,
-				ids: ids.toSorted((a, b) => a.localeCompare(b)),
+				ids: ids.toSorted(),
 				stale,
 			});
 		}
 	}
 	return clusters.toSorted((a, b) =>
-		(a.ids[0] ?? '').localeCompare(b.ids[0] ?? ''),
+		compareStrings(a.ids[0] ?? '', b.ids[0] ?? ''),
 	);
 }
 
@@ -992,11 +994,11 @@ function unaccountedEdges(
 				continue;
 			}
 			found.add(
-				`${[row.id, other].toSorted((a, b) => a.localeCompare(b)).join(' ~ ')}: recorded entanglement is invisible to the adjacency gate`,
+				`${[row.id, other].toSorted().join(' ~ ')}: recorded entanglement is invisible to the adjacency gate`,
 			);
 		}
 	}
-	return [...found].toSorted((a, b) => a.localeCompare(b));
+	return [...found].toSorted();
 }
 
 export type { Cluster, Coverage, Ordered };
