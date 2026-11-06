@@ -17,7 +17,7 @@
  */
 import { mkdir } from 'node:fs/promises';
 import { type Document, EJSON } from 'bson';
-import { compareByCodeUnit } from '../entry/compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../lib/compare-by-code-unit.ts';
 import {
 	bsonDocuments,
 	ChunkReader,

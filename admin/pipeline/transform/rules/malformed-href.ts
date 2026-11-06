@@ -131,7 +131,7 @@
  * declaration at all.
  */
 
-import { opensScope, tokenize } from '../../../entry/html.ts';
+import { opensScope, tokenize } from '../../../lib/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import { type Anchor, anchors } from '../links.ts';

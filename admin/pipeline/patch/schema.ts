@@ -35,8 +35,8 @@
 import { createHash } from 'node:crypto';
 import { isIsoDate } from '../../entry/annotations.ts';
 import { parseHeadwordLine } from '../../entry/headwords.ts';
-import { serialize, tokenize } from '../../entry/html.ts';
 import type { Annotation } from '../../entry/schema.ts';
+import { serialize, tokenize } from '../../lib/html.ts';
 import { declaredRunReason } from '../body/lettered.ts';
 import type {
 	AnnotationNote,

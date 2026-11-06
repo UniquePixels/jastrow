@@ -21,10 +21,10 @@
  * sorting).
  */
 import { dirname, relative } from 'node:path';
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
 import { intToSup, isHeadwordReviewKind } from '../../entry/headwords.ts';
 import { nameOf } from '../../entry/names.ts';
 import type { Entry, FormObject } from '../../entry/schema.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import {
 	DESIGN_PATH,
 	HEADWORD_ISSUES_DOC,

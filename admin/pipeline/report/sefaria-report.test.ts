@@ -7,7 +7,7 @@
  * first filter it failed, never in the appendix.
  */
 import { describe, expect, it } from 'bun:test';
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import { contentAnchor } from '../patch/schema.ts';
 import type { RawRecord } from './sefaria-change.ts';

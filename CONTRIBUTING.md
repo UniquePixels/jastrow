@@ -93,7 +93,7 @@ All commits must include a sign-off line (`git commit -s`).
   `useArraySortCompare`, Sonar's S2871): without one, JavaScript
   compares elements as strings, so a list that stops being strings
   sorts wrongly without an error. For strings, pass `compareByCodeUnit`
-  from `admin/entry/compare-by-code-unit.ts` (`ids.sort(compareByCodeUnit)`,
+  from `admin/lib/compare-by-code-unit.ts` (`ids.sort(compareByCodeUnit)`,
   or per field for objects). It orders by UTF-16 code unit, the same on
   every machine; `localeCompare` depends on the runtime's ICU data, so
   `admin/` never uses it. Biome's type inference does not see every

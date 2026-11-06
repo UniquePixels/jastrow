@@ -5,7 +5,7 @@
  * planted defect at a time, and that it names the defect it found.
  */
 import { describe, expect, it } from 'bun:test';
-import { compareByCodeUnit } from '../compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { type Entry, SCHEMA_VERSION } from '../schema.ts';
 import {
 	type EntryFile,

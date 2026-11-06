@@ -6,8 +6,9 @@ Marcus Jastrow's Dictionary of the Targumim, Talmud Babli, Yerushalmi
 and Midrashic Literature, as a static site on Cloudflare at jastrow.app.
 
 This branch (`v2`) is the overhaul, and what exists on it is the data
-pipeline under `admin/pipeline/` and the entry contract under
-`admin/entry/` (the checks every file under `data/entries/` meets).
+pipeline under `admin/pipeline/`, the entry contract under
+`admin/entry/` (the checks every file under `data/entries/` meets),
+and the helpers they share under `admin/lib/`.
 **Neither the public app nor the admin tool has been written for v2
 yet** — `app/` is a placeholder.
 
@@ -22,8 +23,10 @@ archived at `docs/archive/review-ledger.md`.
 `admin/compile/`, the admin tool and the app are the next efforts, and each
 is separate work — a change to one is not a change to the pipeline.
 Compile will be its own module, `admin/compile/`, importing only
-`admin/entry/`; `app/` imports nothing under `admin/` (ruling
-`10-04 compile home` in `docs/decisions.md`; Biome enforces both).
+`admin/entry/` and `admin/lib/`; the admin tool will be `admin/ui/`;
+`app/` imports nothing under `admin/` (rulings `10-04 compile home`
+and `11-06 admin layout` in `docs/decisions.md`). These are plain
+folders kept by review; no lint rule enforces them.
 
 Rulings live in `docs/decisions.md`; a new ruling is a row there first.
 

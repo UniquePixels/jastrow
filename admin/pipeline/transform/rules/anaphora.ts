@@ -327,7 +327,7 @@
  * adding a fourth arm, not after.
  */
 
-import { serialize, type Token, tokenize } from '../../../entry/html.ts';
+import { serialize, type Token, tokenize } from '../../../lib/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
 import {
 	type Anchor,

@@ -38,7 +38,7 @@
  */
 
 import { isIsoDate } from '../../entry/annotations.ts';
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { type PageLookup, pageOutsideEntry } from '../patch/locator.ts';
 import { pageOfUrl, pageUrl, pageUrls } from '../patch/scan.ts';
 import type { SemanticPatch } from '../patch/schema.ts';

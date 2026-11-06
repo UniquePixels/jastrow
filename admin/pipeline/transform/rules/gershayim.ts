@@ -60,7 +60,7 @@
  * rather than left for a re-fetch to expose.
  */
 
-import { HEBREW, tokenize } from '../../../entry/html.ts';
+import { HEBREW, tokenize } from '../../../lib/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import { GERSHAYIM, repairTags, repairText } from '../gershayim.ts';

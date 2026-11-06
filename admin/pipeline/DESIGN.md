@@ -59,18 +59,16 @@ under `data/`.
 the reason for its placement in its docstring. A different project
 runs the same pipeline over its own data by editing that one file.
 
-**One outward dependency: `admin/entry/`.** The entry contract — the
-entry types, the headword parser and its six rules, names, the
-HTML tokenizer and the validator — is its
+**Two outward dependencies: `admin/entry/` and `admin/lib/`.** The
+entry contract — the entry types, the headword parser and its six
+rules, names and the validator — is its
 own module beside this one (ruling `09-30 entry contract`), because the
 import is only one of its callers: CI runs it over the committed tree,
 and the admin tool will run it on save. The import may depend on it;
-it may depend on nothing here. Biome's `noRestrictedImports` enforces
-both directions (the per-depth overrides at the end of `biome.json`):
-import specifiers are matched as written, not resolved, so each
-directory depth spells its own climb out of the module. A file one
-level deeper than any override today fails loudly rather than slipping
-through. `admin/entry/paths.ts` declares where the entries live
+it may depend on nothing here. `admin/lib/` holds the helpers every
+admin module shares: the HTML tokenizer and `compareByCodeUnit`
+(ruling `11-06 admin layout`). These directions are kept by review,
+not by a lint rule. `admin/entry/paths.ts` declares where the entries live
 (`ENTRIES_DIR`), which this module's `paths.ts` re-exports rather than
 spelling again; the schema is code, `admin/entry/schema.ts`.
 
@@ -126,9 +124,9 @@ Everything assigned to compile — the route map, the browse index,
 abbreviation detection, reference-index derivation, pointer
 classification, entry shards, search artifacts — is unbuilt, and none
 of it is this module's concern. Compile will be its own module,
-`admin/compile/`, which may import only `admin/entry/`; `app/` may
-import nothing under `admin/` (ruling `10-04 compile home`). The same
-per-depth overrides in `biome.json` enforce both.
+`admin/compile/`, which may import only `admin/entry/` and
+`admin/lib/`; `app/` may import nothing under `admin/` (rulings
+`10-04 compile home`, `11-06 admin layout`).
 
 ### The import run, stage by stage
 

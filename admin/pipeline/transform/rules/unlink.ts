@@ -11,7 +11,7 @@
  * that count is the only check that the rule dropped what it meant to.
  */
 
-import { serialize, type Token, tokenize } from '../../../entry/html.ts';
+import { serialize, type Token, tokenize } from '../../../lib/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
 import { type Anchor, anchors, leadOf, unlink, usable } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';

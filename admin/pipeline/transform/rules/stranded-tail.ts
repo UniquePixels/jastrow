@@ -127,8 +127,8 @@
  * figure: definition-level and entry-level counts differ here.
  */
 
-import type { Token } from '../../../entry/html.ts';
-import { serialize, tokenize } from '../../../entry/html.ts';
+import type { Token } from '../../../lib/html.ts';
+import { serialize, tokenize } from '../../../lib/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
 import type { Anchor } from '../links.ts';
 import { anchors, usable } from '../links.ts';

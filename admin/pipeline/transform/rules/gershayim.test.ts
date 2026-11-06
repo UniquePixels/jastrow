@@ -19,7 +19,7 @@
  * every entry — are listed in `docs/archive/retired-corpus-checks.md`.
  */
 import { expect, it } from 'bun:test';
-import { serialize, tokenize } from '../../../entry/html.ts';
+import { serialize, tokenize } from '../../../lib/html.ts';
 import { readSourceEntries } from '../../body/source.ts';
 import type { SourceEntry } from '../../types.ts';
 import { GERSHAYIM } from '../gershayim.ts';

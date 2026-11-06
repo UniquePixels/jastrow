@@ -23,7 +23,7 @@
  */
 import { dirname, join, normalize } from 'node:path';
 import process from 'node:process';
-import { compareByCodeUnit } from '../admin/entry/compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../admin/lib/compare-by-code-unit.ts';
 
 const EXEMPT: ReadonlySet<string> = new Set([
 	'docs/archive/decisions-2026-09-22.md',

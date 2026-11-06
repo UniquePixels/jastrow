@@ -9,7 +9,7 @@ import {
 	type TagToken,
 	type Token,
 	tokenize,
-} from '../../entry/html.ts';
+} from '../../lib/html.ts';
 
 /** What an anchor's `href` and `data-ref` become as a `<cite ref>`
  * value. The decision belongs to the caller — `cite.ts` builds one of

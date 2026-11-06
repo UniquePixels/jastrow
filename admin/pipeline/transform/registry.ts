@@ -7,7 +7,7 @@
  * neither is a silent skip, and the gate fails on it.
  */
 
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import type { Pattern } from '../patch/patterns.ts';
 import { ibAnaphora, sifreAnaphora, targumAnaphora } from './rules/anaphora.ts';
 import { unlinkedBareAnaphor } from './rules/anaphora-mint.ts';

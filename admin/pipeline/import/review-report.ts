@@ -4,7 +4,7 @@
  * emit a row. The admin tool's tracker integration reads the deferred
  * rows. */
 
-import { compareByCodeUnit } from '../../entry/compare-by-code-unit.ts';
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { type Pattern, parsePatterns } from '../patch/patterns.ts';
 import { PATTERNS_PATH } from '../paths.ts';
 import { DETECTED_CLASSES } from './detectors/classes.ts';

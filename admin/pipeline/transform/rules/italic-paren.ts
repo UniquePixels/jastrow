@@ -7,7 +7,7 @@
  * to — is the block below, above `ITALIC_RUN`.
  */
 
-import { tagSpans } from '../../../entry/html.ts';
+import { tagSpans } from '../../../lib/html.ts';
 import type { SourceEntry } from '../../types.ts';
 import { mapFields } from '../fields.ts';
 import { stripTags } from '../no-new-text.ts';

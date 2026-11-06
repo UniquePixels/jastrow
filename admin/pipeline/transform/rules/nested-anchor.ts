@@ -57,7 +57,7 @@
  * `assertUsable` is the one gate both editors share.
  */
 
-import { serialize, type Token, tokenize } from '../../../entry/html.ts';
+import { serialize, type Token, tokenize } from '../../../lib/html.ts';
 import type { SourceEntry, SourceSense } from '../../types.ts';
 import { type Anchor, anchors, unlink, usable } from '../links.ts';
 import type { Rule, TransformRecord, TransformResult } from '../types.ts';
