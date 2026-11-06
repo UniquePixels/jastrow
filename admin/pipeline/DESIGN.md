@@ -467,8 +467,11 @@ upstream — the module normalizes only what it writes, on write
 ### The snapshot pin
 
 `patch/snapshot.ts` (`bun rebuild:pin`) computes a sha256 over `SNAPSHOT_FILES`
-(`jastrow-dictionary.jsonl` then `lexicons.json`, fixed order), folded
-with their paths so a rename or a reorder changes the value. It is
+(`jastrow-dictionary.jsonl` then `lexicons.json`, fixed order). Only
+their contents are hashed, so moving or renaming the files leaves the
+pin alone; reordering them changes it (ruling `11-05 content pin`).
+The lock also lists each file's path, which `rebuild:pin` checks
+against `SNAPSHOT_FILES` separately. It is
 committed at `patch/records/snapshot.lock`, and **every patch record
 pins it**.
 

@@ -147,18 +147,38 @@ function describeMismatches(mismatches: readonly SnapshotMismatch[]): string {
 	return lines.join('\n');
 }
 
-/** Verify the working tree against the committed lock. Returns the
- * mismatch list (empty = verified). `lockPath` defaults to
- * `LOCK_PATH` (`paths.ts`); no caller overrides it. */
+/** True when the lock lists exactly `paths`, in order. The combined
+ * pin ignores paths, so a moved file keeps its pin; this is the check
+ * that the lock's own path lines were rewritten after the move. */
+function lockPathsMatch(
+	locked: SnapshotPin,
+	paths: readonly string[] = SNAPSHOT_FILES,
+): boolean {
+	return (
+		locked.files.length === paths.length &&
+		locked.files.every((file, i) => file.path === paths[i])
+	);
+}
+
+/** The outcome of checking the working tree against the lock:
+ * content mismatches (the pin moved), or stale lock paths with the
+ * pin unchanged, or neither. */
+interface SnapshotVerdict {
+	mismatches: SnapshotMismatch[];
+	stalePaths: boolean;
+}
+
+/** Verify the working tree against the committed lock. `lockPath`
+ * defaults to `LOCK_PATH` (`paths.ts`); no caller overrides it. */
 async function verifySnapshot(
 	lockPath: string = LOCK_PATH,
-): Promise<SnapshotMismatch[]> {
+): Promise<SnapshotVerdict> {
 	const locked = parseLock(await Bun.file(lockPath).text());
 	const current = await computeSnapshot();
-	if (locked.combined === current.combined) {
-		return [];
+	if (locked.combined !== current.combined) {
+		return { mismatches: diffSnapshot(locked, current), stalePaths: false };
 	}
-	return diffSnapshot(locked, current);
+	return { mismatches: [], stalePaths: !lockPathsMatch(locked) };
 }
 
 if (import.meta.main) {
@@ -167,21 +187,29 @@ if (import.meta.main) {
 		await Bun.write(LOCK_PATH, buildLock(pin));
 		console.log(`wrote ${LOCK_PATH}: sha256:${pin.combined}`);
 	} else {
-		const mismatches = await verifySnapshot();
+		const { mismatches, stalePaths } = await verifySnapshot();
 		if (mismatches.length > 0) {
 			console.error(describeMismatches(mismatches));
+			process.exit(1);
+		}
+		if (stalePaths) {
+			console.error(
+				'%s lists paths other than SNAPSHOT_FILES; the pin itself is unchanged.\nRe-run with --write to rewrite the lock (no patch needs to change).',
+				LOCK_PATH,
+			);
 			process.exit(1);
 		}
 		console.log('snapshot pin verified');
 	}
 }
 
-export type { FileHash, SnapshotMismatch, SnapshotPin };
+export type { FileHash, SnapshotMismatch, SnapshotPin, SnapshotVerdict };
 export {
 	buildLock,
 	combineHashes,
 	computeSnapshot,
 	describeMismatches,
 	diffSnapshot,
+	lockPathsMatch,
 	parseLock,
 };

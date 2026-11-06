@@ -19,13 +19,14 @@
  * needs only the lock.
  */
 import { describe, expect, it } from 'bun:test';
-import { LOCK_PATH } from '../paths.ts';
+import { LOCK_PATH, SNAPSHOT_FILES } from '../paths.ts';
 import {
 	buildLock,
 	combineHashes,
 	computeSnapshot,
 	describeMismatches,
 	diffSnapshot,
+	lockPathsMatch,
 	parseLock,
 } from './snapshot.ts';
 
@@ -81,6 +82,34 @@ describe('the committed lock', () => {
 		const locked = parseLock(await Bun.file(LOCK_PATH).text());
 		expect(locked.files.length).toBeGreaterThan(0);
 		expect(combineHashes(locked.files)).toBe(locked.combined);
+	});
+
+	// The combined line ignores paths, so a moved source file keeps its
+	// pin; only the lock's path lines can say it was not re-written.
+	it('lists exactly SNAPSHOT_FILES, in order', async () => {
+		const locked = parseLock(await Bun.file(LOCK_PATH).text());
+		expect(locked.files.map((f) => f.path)).toEqual([...SNAPSHOT_FILES]);
+	});
+});
+
+describe('lockPathsMatch', () => {
+	const pin = {
+		combined: 'f'.repeat(64),
+		files: [
+			{ path: 'a', sha256: 'a'.repeat(64) },
+			{ path: 'b', sha256: 'b'.repeat(64) },
+		],
+	};
+
+	it('accepts the same paths in the same order', () => {
+		expect(lockPathsMatch(pin, ['a', 'b'])).toBe(true);
+	});
+
+	it('rejects a moved path, a reorder, and a missing or extra file', () => {
+		expect(lockPathsMatch(pin, ['a', 'moved/b'])).toBe(false);
+		expect(lockPathsMatch(pin, ['b', 'a'])).toBe(false);
+		expect(lockPathsMatch(pin, ['a'])).toBe(false);
+		expect(lockPathsMatch(pin, ['a', 'b', 'c'])).toBe(false);
 	});
 });
 
