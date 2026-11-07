@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'bun:test';
 import { Compile } from 'typebox/schema';
-import { SCHEMA_PATH } from '../paths.ts';
+import { SCHEMA_PATH } from '../schema-build.ts';
 import { validateEntry } from '../validate.ts';
 
 // The committed, generated file: what an editor and a reader that is

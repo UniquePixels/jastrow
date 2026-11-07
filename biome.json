@@ -270,7 +270,8 @@
 				"admin/entry/**/*.ts",
 				"!admin/entry/**/*.test.ts",
 				"admin/lib/**/*.ts",
-				"!admin/lib/**/*.test.ts"
+				"!admin/lib/**/*.test.ts",
+				"admin/paths.ts"
 			],
 			"linter": {
 				"rules": {
