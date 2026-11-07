@@ -1580,10 +1580,14 @@ failed, never into the appendix:
 ### One formatter
 
 Entry data has exactly one formatter, and it is the project's: Biome
-formats `data/entries/`, and the pipeline formats **last**, as the
-write's final step (`formatEntries`, in the entry contract's
-`admin/entry/format.ts` since 2026-10-31 so the editor's save formats
-the same way). `biome.json` therefore carries
+formats `data/entries/`, and it does so in `bun qa`, the same as every
+other file in the tree (ruling `11-06 format in qa`). The import
+writes `JSON.stringify`'s layout and does not format; after a
+`--write`, `bun qa` (or `bun qa:format`) settles the layout before the
+commit, and CI's Lint job fails a PR whose entries were not formatted.
+The import ran Biome itself from 2026-09-12 to 2026-11-06; that step
+twice failed silently (PR #88; a worktree with no `node_modules`), and
+it duplicated what `bun qa` already does. `biome.json` therefore carries
 `data/entries/**/*.json` in `files.includes` deliberately — the rest of
 `data/` is excluded — with an override that disables the **linter**
 there, because the files are data and not code. Contributors run
@@ -1820,8 +1824,7 @@ so cannot be inferred from reading the code that is there.
 47. **No blind overwrite of hand-edited entry data.** Today that is
     enforced by refusal, not by merge (see 46).
 48. **CI never reads the source data and never runs import**, and CI
-    never rewrites or commits. The module's single write of anything
-    outside `data/entries/` content is `formatEntries`. The tier
+    never rewrites or commits. The tier
     boundary is asserted where the corpus is read: `readSourceEntries()`
     with no path refuses under a `*.test.ts` (§1, Test tiers).
 49. **A failing entry is dropped, not emitted from source bytes.**

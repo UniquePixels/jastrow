@@ -14,7 +14,6 @@
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import process from 'node:process';
-import { biomeBinary, formatEntries } from '../entry/format.ts';
 import type { Entry } from '../entry/schema.ts';
 import {
 	ENTRY_FILE_GLOB,
@@ -584,8 +583,7 @@ interface Normalized {
  * gate 10 reads the normalized entries and a red gate has to refuse
  * the whole write. Normalizing inside the write loop would leave gate
  * 10 nothing to read until files were already on disk, with
- * `refuseUnlessEmpty` blocking the re-run — the same failure
- * `biomeBinary` is resolved early to avoid. */
+ * `refuseUnlessEmpty` blocking the re-run. */
 function normalizeAll(entries: readonly Entry[]): Normalized {
 	const normalized: Normalized = { entries: [], files: 0, strings: 0 };
 	for (const entry of entries) {
@@ -599,8 +597,11 @@ function normalizeAll(entries: readonly Entry[]): Normalized {
 	return normalized;
 }
 
-/** The one write of the whole pipeline: 32,512 files, formatted, then
- * the report again so its `written` count is on disk. */
+/** The one write of the whole pipeline: 32,512 files, then the report
+ * again so its `written` count is on disk. The files are written as
+ * `JSON.stringify` lays them out, not as Biome does; `bun qa` formats
+ * them (ruling `11-06 format in qa`), and CI's Lint job fails a tree
+ * that was not. */
 async function writeAll(normalized: Normalized, report: Report): Promise<void> {
 	// Synchronous and in rid order: 32,512 small files, one at a time,
 	// with nothing to overlap them with and no reason to hold 32,512
@@ -611,9 +612,9 @@ async function writeAll(normalized: Normalized, report: Report): Promise<void> {
 		writeFileSync(file, `${JSON.stringify(entry, null, '\t')}\n`);
 		report.written++;
 	}
-	formatEntries(OUT_DIR);
 	await writeReport(report);
 	console.log(`wrote ${report.written} entry files under ${OUT_DIR}`);
+	console.log('run `bun qa` to format them before committing');
 	console.log(
 		`NFC on write: ${normalized.strings} string(s) normalized in ${normalized.files} file(s)`,
 	);
@@ -690,11 +691,6 @@ async function main(): Promise<void> {
 	const options = runOptions(process.argv);
 	if (options.write) {
 		await refuseUnlessEmpty();
-		// Resolved before anything is composed, though it is not used
-		// until `formatEntries` at the very end: a run that cannot find a
-		// biome refuses here, rather than after 32,512 unformatted files
-		// are already on disk.
-		biomeBinary();
 	}
 	// The entry contract's own compiled schema, not a second copy of
 	// it: gate 4 and gate 10 cannot disagree about what the schema is.

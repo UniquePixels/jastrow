@@ -7,10 +7,11 @@
  * IntelliSense on an entry file, and a reader that is not TypeScript
  * reads it as the contract. It is never edited by hand; a change is a
  * change to `schema.ts` and a rebuild. The check compares structure and
- * key order, not whitespace, which is Biome's to settle.
+ * key order, not whitespace, which is Biome's to settle: the build
+ * writes `JSON.stringify`'s layout and `bun qa` formats it (ruling
+ * `11-06 format in qa`).
  */
 import process from 'node:process';
-import { biomeBinary } from './format.ts';
 import { SCHEMA_PATH } from './paths.ts';
 import { EntrySchema } from './schema.ts';
 
@@ -27,7 +28,7 @@ function fileSchema(): Record<string, unknown> {
 	return Object.fromEntries(order.map((key) => [key, schema[key]]));
 }
 
-/** The schema as JSON text, before Biome formats it. */
+/** The schema as JSON text, before `bun qa` formats it. */
 function schemaText(): string {
 	return `${JSON.stringify(fileSchema(), null, '\t')}\n`;
 }
@@ -47,7 +48,7 @@ function isCurrent(committed: string): boolean {
 }
 
 /** Write the file, or with `--check` only compare it; a stale file or
- * a failed format sets a non-zero exit code. */
+ * sets a non-zero exit code. */
 async function main(): Promise<void> {
 	if (process.argv.includes('--check')) {
 		const file = Bun.file(SCHEMA_PATH);
@@ -60,16 +61,7 @@ async function main(): Promise<void> {
 		return undefined;
 	}
 	await Bun.write(SCHEMA_PATH, schemaText());
-	const format = Bun.spawnSync(
-		[biomeBinary(), 'format', '--write', SCHEMA_PATH],
-		{ stderr: 'inherit', stdout: 'inherit' },
-	);
-	if (format.exitCode === 0) {
-		console.log(`wrote ${SCHEMA_PATH}`);
-	} else {
-		console.error(`biome format exited ${format.exitCode}`);
-		process.exitCode = 1;
-	}
+	console.log(`wrote ${SCHEMA_PATH}; run \`bun qa\` to format it`);
 	return undefined;
 }
 
