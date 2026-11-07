@@ -12,12 +12,14 @@
  * tree.
  */
 import { join } from 'node:path';
-import { fileURLToPath } from 'node:url';
 
 /** The repo root: the folder above `admin/`. */
-const ROOT = fileURLToPath(new URL('../', import.meta.url));
+const ROOT = join(import.meta.dirname, '..');
 
 export const paths = {
+	/** The repo root. A path one module alone names is built on this in
+	 * that module, so it is anchored the same way without living here. */
+	root: ROOT,
 	/** Where entry files live: one `<first letter>/<id>.json` per
 	 * entry. Written by the import, read by `bun data:validate`. */
 	entries: join(ROOT, 'data', 'entries'),

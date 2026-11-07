@@ -11,13 +11,15 @@
  * writes `JSON.stringify`'s layout and `bun qa` formats it (ruling
  * `11-06 format in qa`).
  */
+import { join } from 'node:path';
 import process from 'node:process';
+import { paths } from '../paths.ts';
 import { EntrySchema } from './schema.ts';
 
-/** The generated file, relative to the repo root, where `bun
- * schema:build` and `bun schema:check` run. Only this script writes it;
- * the contract validates against `EntrySchema`, not this file. */
-const SCHEMA_PATH = 'data/schema/entry.schema.json';
+/** The generated file, anchored on the repo root. Only this script
+ * writes it; the contract validates against `EntrySchema`, not this
+ * file. */
+const SCHEMA_PATH = join(paths.root, 'data', 'schema', 'entry.schema.json');
 
 /** The schema as written to the file: its header (`$schema`, `$id`,
  * `title`, `description`) first, where a reader opening the file looks
