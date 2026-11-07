@@ -87,7 +87,8 @@ from-scratch rebuild.
 ### Running it on different data
 
 This module names no path outside itself except through
-[`paths.ts`](paths.ts). Its one code dependency outside itself is the
+[`paths.ts`](paths.ts) and, for the entry tree,
+[`admin/paths.ts`](../paths.ts). Its one code dependency outside itself is the
 entry contract, [`admin/entry/`](../entry/README.md), which its files
 import directly ([`DESIGN.md`](DESIGN.md) §1, "The boundary"). To
 run the same pipeline over another lexicon: point those constants at

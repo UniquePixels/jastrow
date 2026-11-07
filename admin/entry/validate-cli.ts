@@ -16,14 +16,14 @@
  */
 import { relative, resolve } from 'node:path';
 import process from 'node:process';
-import { ENTRIES_DIR } from './paths.ts';
+import { paths } from '../paths.ts';
 import { loadEntryFiles, validateEntries, validateEntry } from './validate.ts';
 
 /** A file argument as `validateEntry` wants its path: relative to
  * `data/entries/`, so the home-path check compares like with like.
  * Resolved first, so `./data/entries/…` and absolute paths work too. */
 function entryRelative(file: string): string {
-	return relative(resolve(ENTRIES_DIR), resolve(file));
+	return relative(paths.entries, resolve(file));
 }
 
 /** Each named file's own checks. A file that does not parse is a

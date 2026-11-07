@@ -21,6 +21,7 @@ import {
 	schemaErrors,
 	schemaValidator,
 } from '../entry/validate.ts';
+import { paths } from '../paths.ts';
 import type { PassName } from './body/repairs.ts';
 import { evaluateRoundTrip } from './body/round-trip.ts';
 import { readSourceEntries } from './body/source.ts';
@@ -89,7 +90,6 @@ import {
 	HEADWORD_ISSUES_CSV,
 	HEADWORD_ISSUES_DOC,
 	IMPORT_REPORT_PATH,
-	ENTRIES_DIR as OUT_DIR,
 	REVIEW_REPORT_PATH,
 	REVIEWED_KEPT_PATH,
 } from './paths.ts';
@@ -536,7 +536,9 @@ function entryFile(rid: string): string {
  * file instead, by the entry contract's own glob: a file at the root
  * or a level too deep is one `bun data:validate` reads, so it is one
  * this guard must see. */
-async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
+async function outputTreeIsEmpty(
+	dir: string = paths.entries,
+): Promise<boolean> {
 	if (!existsSync(dir)) {
 		return true;
 	}
@@ -553,7 +555,7 @@ async function outputTreeIsEmpty(dir: string = OUT_DIR): Promise<boolean> {
  * over a populated tree would overwrite hand edits blindly. R11 calls
  * it a relic of the withdrawn D14 rather than a safety property, and
  * retires it when that merge ships. */
-async function refuseUnlessEmpty(dir: string = OUT_DIR): Promise<void> {
+async function refuseUnlessEmpty(dir: string = paths.entries): Promise<void> {
 	if (!(await outputTreeIsEmpty(dir))) {
 		throw new Error(
 			`${dir} already holds entry files; import writes once. Delete them to re-import, or run \`bun data:import:dry\` for the reports alone`,
@@ -607,13 +609,13 @@ async function writeAll(normalized: Normalized, report: Report): Promise<void> {
 	// with nothing to overlap them with and no reason to hold 32,512
 	// handles open at once.
 	for (const entry of normalized.entries) {
-		const file = `${OUT_DIR}/${entryFile(entry.id)}`;
+		const file = `${paths.entries}/${entryFile(entry.id)}`;
 		mkdirSync(dirname(file), { recursive: true });
 		writeFileSync(file, `${JSON.stringify(entry, null, '\t')}\n`);
 		report.written++;
 	}
 	await writeReport(report);
-	console.log(`wrote ${report.written} entry files under ${OUT_DIR}`);
+	console.log(`wrote ${report.written} entry files under ${paths.entries}`);
 	console.log('run `bun qa` to format them before committing');
 	console.log(
 		`NFC on write: ${normalized.strings} string(s) normalized in ${normalized.files} file(s)`,

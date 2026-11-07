@@ -54,10 +54,11 @@ under `data/`.
 
 ### The boundary, and `paths.ts`
 
-`paths.ts` is the only file in the module that names anything outside
-`admin/pipeline/`. Every constant above is declared there once, with
-the reason for its placement in its docstring. A different project
-runs the same pipeline over its own data by editing that one file.
+`paths.ts` names every path the import reads or writes, once, with
+the reason for its placement in its docstring. The entry tree is the
+exception: other admin modules name it too, so it is declared in
+[`admin/paths.ts`](../paths.ts) and read from there (ruling
+`11-06 shared paths`).
 
 **Two outward dependencies: `admin/entry/` and `admin/lib/`.** The
 entry contract — the entry types, the headword parser and its six
@@ -68,9 +69,8 @@ and the admin tool will run it on save. The import may depend on it;
 it may depend on nothing here. `admin/lib/` holds the helpers every
 admin module shares: the HTML tokenizer and `compareByCodeUnit`
 (ruling `11-06 admin layout`). These directions are kept by review,
-not by a lint rule. `admin/entry/paths.ts` declares where the entries live
-(`ENTRIES_DIR`), which this module's `paths.ts` re-exports rather than
-spelling again; the schema is code, `admin/entry/schema.ts`.
+not by a lint rule. Where the entries live is `paths.entries` in
+`admin/paths.ts`; the schema is code, `admin/entry/schema.ts`.
 
 `DESIGN_PATH` points at this file. `report/headword-issues.ts`
 computes a relative link to it from the report's own directory rather

@@ -31,10 +31,10 @@ import type { TLocalizedValidationError } from 'typebox/error';
 import { Compile } from 'typebox/schema';
 import { compareByCodeUnit } from '../lib/compare-by-code-unit.ts';
 import { tokenize } from '../lib/html.ts';
+import { paths } from '../paths.ts';
 import { checkAnnotations } from './annotations.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
 import { nameCollisions } from './names.ts';
-import { ENTRIES_DIR } from './paths.ts';
 import {
 	type Entry,
 	EntrySchema,
@@ -120,13 +120,13 @@ const ENTRY_FILE_GLOB = '**/*.json';
  * not parse is a problem, not a thrown error, so one bad hand edit does
  * not hide every other finding. */
 async function loadEntryFiles(
-	dir = ENTRIES_DIR,
+	dir = paths.entries,
 ): Promise<{ files: EntryFile[]; problems: string[] }> {
-	const paths = await Array.fromAsync(new Bun.Glob(ENTRY_FILE_GLOB).scan(dir));
+	const found = await Array.fromAsync(new Bun.Glob(ENTRY_FILE_GLOB).scan(dir));
 	const files: EntryFile[] = [];
 	const problems: string[] = [];
 	await Promise.all(
-		paths.map(async (path): Promise<void> => {
+		found.map(async (path): Promise<void> => {
 			try {
 				files.push({ entry: await Bun.file(`${dir}/${path}`).json(), path });
 			} catch (error) {

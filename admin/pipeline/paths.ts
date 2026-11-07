@@ -1,24 +1,12 @@
 // biome-ignore-all lint/style/useExportsLast: constants are grouped by section (read / read and written / written), each exported where it is documented.
 /**
- * The module's boundary, declared once.
+ * Every path the import reads or writes, named once.
  *
- * `admin/pipeline/` is an import module: it reads data, writes data in
- * a schema it does not own, and writes reports about what it did. This
- * file is the only place it names anything outside itself, so it is
- * the only file a different project has to edit to run the same
- * pipeline over its own data.
- *
- * Biome's `noRestrictedImports` (`biome.json`) keeps the module's
- * imports inside `admin/pipeline/` and `admin/entry/`.
- *
- * The path the entry contract reads — the entries — is declared by
- * `admin/entry/paths.ts` and re-exported here, not re-spelled:
- * `admin/entry/` is the one module this one depends on, and a second
- * literal is how two modules start reading different trees.
+ * A path another admin module also names (the entry tree) is declared
+ * in `admin/paths.ts` (ruling `11-06 shared paths`), and the import
+ * reads it from there. Only the import's own paths are here; they are
+ * relative to the repo root, where every `bun` script runs.
  */
-
-// biome-ignore lint/performance/noBarrelFile: the one path the entry contract owns, re-exported so the pipeline names it once; this file declares its own paths and is not a barrel.
-export { ENTRIES_DIR } from '../entry/paths.ts';
 
 // ---------------------------------------------------------------- read
 
