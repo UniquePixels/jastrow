@@ -2,8 +2,8 @@ import { describe, expect, it } from 'bun:test';
 import {
 	buildHeadwordMap,
 	createResolver,
+	findRid,
 	internalTarget,
-	linkKey,
 } from './cite.ts';
 
 const MAP = buildHeadwordMap([
@@ -21,17 +21,24 @@ describe('internalTarget', () => {
 	});
 });
 
-describe('linkKey', () => {
-	// [input, key]: NFC, whitespace runs collapsed, trimmed. Escapes, so
-	// a formatter cannot fold the two mark orders into one.
+describe('findRid', () => {
+	// A spelling with its marks in another order, or with a doubled or
+	// edge space, still finds its entry. Escapes, so a formatter cannot
+	// fold the two mark orders into one.
+	const map = buildHeadwordMap([
+		{ headword: '\u05D1\u05B4\u05BC', rid: 'B00001' },
+		{ headword: 'בַּד  V', rid: 'B00098' },
+	]);
 	const cases: [string, string][] = [
-		['\u05D1\u05BC\u05B4', '\u05D1\u05B4\u05BC'],
-		['בַּד  V', 'בַּד V'],
-		[' אָב\tI ', 'אָב I'],
-		['אָב I', 'אָב I'],
+		['\u05D1\u05BC\u05B4', 'B00001'],
+		['בַּד V', 'B00098'],
+		[' בַּד\tV ', 'B00098'],
 	];
-	it.each(cases)('keys %p as %p', (input, key) => {
-		expect(linkKey(input)).toBe(key);
+	it.each(cases)('finds %p as %p', (headword, rid) => {
+		expect(findRid(map, headword)).toBe(rid);
+	});
+	it('is undefined for a headword nothing owns', () => {
+		expect(findRid(map, 'אב')).toBeUndefined();
 	});
 });
 

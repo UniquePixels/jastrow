@@ -4,7 +4,12 @@
  * a formula change is measured against the corpus the spec measured.
  */
 import { describe, expect, it } from 'bun:test';
-import { deriveName, nameCollisions, nameKey, nameOf } from '../names.ts';
+import {
+	deriveFormName,
+	findNameProblems,
+	getPrimaryName,
+	namePath,
+} from '../names.ts';
 import { type Entry, type FormObject, SCHEMA_VERSION } from '../schema.ts';
 
 /** The `line` of each problem, in order — what every caller renders. */
@@ -57,32 +62,34 @@ const CASES: ReadonlyArray<readonly [string, FormObject, string]> = [
 	['a multi-word form keeps its one space', { text: 'נְהַר פּ' }, 'נְהַר פּ'],
 ];
 
-describe('deriveName', () => {
+describe('deriveFormName', () => {
 	it.each(CASES.map((c) => [c[0], c[1], c[2]]))(
 		'%s',
 		(_what, form, expected) => {
-			expect(deriveName(form as FormObject)).toBe(expected as string);
+			expect(deriveFormName(form as FormObject)).toBe(expected as string);
 		},
 	);
 
-	it('never rewrites the stored text (spec §4)', () => {
-		// The name of a decomposed form comes back decomposed: name
-		// derivation is a READ, and normalising here would make it lossy
-		// against the `text` it read. The entry file is put into NFC by
-		// the import write step instead (`normalizeForWrite`, #110),
-		// which is the one place stored text is rewritten.
-		const decomposed = 'אָב'.normalize('NFD');
-		expect(deriveName({ text: decomposed })).toBe(decomposed);
+	it('returns the name in comparison form (ruling 11-07)', () => {
+		// Bet with dagesh then qamats, and with qamats then dagesh: one
+		// word, two strings. The name is compared as it comes out, so
+		// both spellings must name it alike.
+		const typed = 'ב\u05BC\u05B8';
+		const canonical = 'ב\u05B8\u05BC';
+		expect(typed).not.toBe(canonical);
+		expect(deriveFormName({ text: typed })).toBe(
+			deriveFormName({ text: canonical }),
+		);
 	});
 });
 
-describe('nameKey', () => {
-	it('folds the two spellings of one name together', () => {
-		expect(nameKey('אָב'.normalize('NFD'))).toBe(nameKey('אָב'.normalize('NFC')));
+describe('namePath', () => {
+	it('spells each space as an underscore', () => {
+		expect(namePath('נְהַר פּ II')).toBe('נְהַר_פּ_II');
 	});
 });
 
-/** The smallest entry `nameOf`/`nameCollisions` read. */
+/** The smallest entry `getPrimaryName`/`findNameProblems` read. */
 function at(id: string, form: FormObject): Entry {
 	return {
 		headwords: [form],
@@ -93,19 +100,21 @@ function at(id: string, form: FormObject): Entry {
 	};
 }
 
-describe('nameOf', () => {
+describe('getPrimaryName', () => {
 	it('reads the primary headword form', () => {
 		expect(
-			nameOf(at('A00015', { disambiguator: 2, homograph: 2, text: 'אָב' })),
+			getPrimaryName(
+				at('A00015', { disambiguator: 2, homograph: 2, text: 'אָב' }),
+			),
 		).toBe('אָב II²');
 	});
 });
 
 // biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
-describe('nameCollisions', () => {
+describe('findNameProblems', () => {
 	it('is empty when every name differs', () => {
 		expect(
-			nameCollisions([
+			findNameProblems([
 				at('A00001', { text: 'אב' }),
 				at('A00002', { text: 'גד' }),
 			]),
@@ -116,7 +125,7 @@ describe('nameCollisions', () => {
 		// Gate 7 marks per rid. Recovering the rid by slicing the prose
 		// would make every mark miss the day the message gains a prefix,
 		// and the gate would pass 2n/2n with collisions in place.
-		const [problem] = nameCollisions([
+		const [problem] = findNameProblems([
 			at('A00001', { text: 'אב' }),
 			at('A00002', { text: 'אב' }),
 		]);
@@ -127,7 +136,7 @@ describe('nameCollisions', () => {
 		// Uniqueness cannot see this: one entry whose text is all
 		// notation collides with nobody and would end up reachable by no
 		// URL at all.
-		expect(lines(nameCollisions([at('A00001', { text: '(?)' })]))).toEqual([
+		expect(lines(findNameProblems([at('A00001', { text: '(?)' })]))).toEqual([
 			'A00001: name is empty from "(?)"',
 		]);
 	});
@@ -138,7 +147,7 @@ describe('nameCollisions', () => {
 		// the disambiguator (spec §4).
 		expect(
 			lines(
-				nameCollisions([
+				findNameProblems([
 					at('A00001', { text: 'אב' }),
 					at('A00002', { text: 'אב' }),
 					at('A00003', { text: 'אב' }),
@@ -153,7 +162,7 @@ describe('nameCollisions', () => {
 	it('catches a pair that collides only after the notation is stripped', () => {
 		expect(
 			lines(
-				nameCollisions([
+				findNameProblems([
 					at('A00001', { text: 'אב' }),
 					at('A00002', { text: '(אב)' }),
 				]),
@@ -161,18 +170,33 @@ describe('nameCollisions', () => {
 		).toEqual(['A00002: name אב taken by A00001']);
 	});
 
-	it('catches a pair that differs only by normalization', () => {
+	it('catches a pair that differs only by mark order', () => {
+		// Not `אָב` under NFC and NFD: one mark has one order, so those
+		// are the same string and the case would pass with no
+		// normalization at all.
 		expect(
-			nameCollisions([
-				at('A00001', { text: 'אָב'.normalize('NFC') }),
-				at('A00002', { text: 'אָב'.normalize('NFD') }),
+			findNameProblems([
+				at('A00001', { text: 'ב\u05B8\u05BC' }),
+				at('A00002', { text: 'ב\u05BC\u05B8' }),
 			]),
 		).toHaveLength(1);
 	});
 
+	it('catches two names the URL path spells alike', () => {
+		// Two strings, one path: the gate compares what the URL will be.
+		expect(
+			lines(
+				findNameProblems([
+					at('A00001', { text: 'אב גד' }),
+					at('A00002', { text: 'אב_גד' }),
+				]),
+			),
+		).toEqual(['A00002: name אב_גד taken by A00001']);
+	});
+
 	it('keeps the 23 star/plain pairs apart (U5)', () => {
 		expect(
-			nameCollisions([
+			findNameProblems([
 				at('A00001', { reconstructed: true, text: 'טְפֵי' }),
 				at('A00002', { text: 'טְפֵי' }),
 			]),

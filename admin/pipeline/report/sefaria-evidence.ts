@@ -20,8 +20,9 @@
  */
 
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
+import { lettersOnly, toComparisonForm } from '../../lib/hebrew.ts';
 import { serialize, tokenize } from '../../lib/html.ts';
-import { internalTarget, linkKey } from '../import/cite.ts';
+import { internalTarget } from '../import/cite.ts';
 import { pageOfUrl, pageUrls } from '../patch/scan.ts';
 import type { PatchEvidence, SemanticPatch } from '../patch/schema.ts';
 import {
@@ -96,7 +97,6 @@ const OPEN_ANCHOR = /<a\b/gu;
 const HREF = /\bhref="(?<href>[^"]*)"/u;
 const NUMERAL = /^[IVX]+$/u;
 const SPACE = /\s/u;
-const NOT_HEBREW_LETTER = /[^א-ת]/gu;
 
 /** `text` split at its last whitespace into the words before it and a
  * trailing Roman numeral, or `undefined` when it ends in none. Scanned
@@ -240,12 +240,6 @@ interface SourceIndex {
  * `docs/correction-audit.md` §5; ruling 11-05 canonical fetch). */
 const FAMILY_GAP = 5;
 
-/** A form's Hebrew letters alone: its family, ignoring pointing,
- * numerals and punctuation. */
-function skeleton(form: string): string {
-	return form.normalize('NFD').replaceAll(NOT_HEBREW_LETTER, '');
-}
-
 /** Append `value` to `key`'s list, in place. */
 function push<K, V>(map: Map<K, V[]>, key: K, value: V): void {
 	const list = map.get(key);
@@ -296,8 +290,8 @@ function indexSource(
 		position.set(rid, index);
 	}
 	for (const record of records.values()) {
-		push(byKey, linkKey(record.headword), record.rid);
-		for (const key of new Set(formsOf(record).map(skeleton))) {
+		push(byKey, toComparisonForm(record.headword), record.rid);
+		for (const key of new Set(formsOf(record).map(lettersOnly))) {
 			push(bySkeleton, key, record.rid);
 		}
 	}
@@ -351,7 +345,7 @@ function readAnchor(
 
 /** The one rid a link key resolves to in the raw source. */
 function resolveKey(index: SourceIndex, target: string): string | undefined {
-	const rids = index.byKey.get(linkKey(target)) ?? [];
+	const rids = index.byKey.get(toComparisonForm(target)) ?? [];
 	return rids.length === 1 ? rids[0] : undefined;
 }
 
@@ -359,7 +353,7 @@ function resolveKey(index: SourceIndex, target: string): string | undefined {
  * consonants, cut wherever two stand more than `FAMILY_GAP` apart. */
 function familyRun(index: SourceIndex, word: string, rid: string): string[] {
 	const at = (r: string): number => index.position.get(r) ?? -1;
-	const members = [...(index.bySkeleton.get(skeleton(word)) ?? [])].sort(
+	const members = [...(index.bySkeleton.get(lettersOnly(word)) ?? [])].sort(
 		(a, b) => at(a) - at(b),
 	);
 	const runs: string[][] = [];

@@ -70,4 +70,57 @@ function hebrewRuns(value: string): Span[] {
 	return runs;
 }
 
-export { HEBREW, HEBREW_ATOM, hebrewRuns };
+/** Every run of whitespace, which the comparison form makes one space. */
+const WHITESPACE_RUN = /\s+/gu;
+
+/** A point, an accent or a punctuation mark of the Hebrew block
+ * (U+0591–U+05C7: the maqaf, paseq and sof pasuq among them), or the
+ * combining dot above (U+0307, see `HEBREW_ATOM`). Read only after NFD,
+ * which splits a precomposed or presentation-form letter into its base
+ * and its marks. The dot is its own alternative because biome's
+ * noMisleadingCharacterClass rejects a mark escape beside a base escape
+ * in one class. */
+const HEBREW_MARK = /[\u0591-\u05C7]|\u0307/gu;
+
+/** Anything but one of the 22 letters, final forms included. */
+const NOT_LETTER = /[^\u05D0-\u05EA]/gu;
+
+/** The form two strings are compared in, to decide whether they are
+ * the same word (ruling `11-07 one comparison rule`): NFC, every run of
+ * whitespace one space, trimmed. NFC because Hebrew marks can be stored
+ * in more than one order and still read alike; whitespace because a
+ * reader cannot see a doubled or edge space either (B00098's source
+ * headword `בַּד  V` has two).
+ *
+ * For comparison only: nothing stored is rewritten by it. Every
+ * comparison of one word against another goes through it, and a
+ * function that names an entry returns its name already in this form
+ * (`deriveFormName`). */
+function toComparisonForm(text: string): string {
+	return text.normalize('NFC').replaceAll(WHITESPACE_RUN, ' ').trim();
+}
+
+/** The text with every Hebrew mark removed (see `HEBREW_MARK`), and everything
+ * else kept: letters, spaces, geresh and gershayim, the `*`. Two
+ * spellings of one word that differ only in pointing come out alike,
+ * word by word. Returned in NFD. */
+function withoutMarks(text: string): string {
+	return text.normalize('NFD').replaceAll(HEBREW_MARK, '');
+}
+
+/** The text's Hebrew letters alone: no marks, no spaces, no punctuation
+ * or numerals. Coarser than `withoutMarks`: `אב בית` and `אבבית` come
+ * out alike. */
+function lettersOnly(text: string): string {
+	return text.normalize('NFD').replaceAll(NOT_LETTER, '');
+}
+
+export {
+	HEBREW,
+	HEBREW_ATOM,
+	HEBREW_MARK,
+	hebrewRuns,
+	lettersOnly,
+	toComparisonForm,
+	withoutMarks,
+};

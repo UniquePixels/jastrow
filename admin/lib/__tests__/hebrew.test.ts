@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'bun:test';
-import { HEBREW, hebrewRuns } from '../hebrew.ts';
+import {
+	HEBREW,
+	hebrewRuns,
+	lettersOnly,
+	toComparisonForm,
+	withoutMarks,
+} from '../hebrew.ts';
 
 describe('HEBREW', () => {
 	// The audit's near-miss: a pasted literal class decomposed יִ into
@@ -56,5 +62,41 @@ describe('hebrewRuns', () => {
 
 	it('reports no run for a value with no Hebrew', () => {
 		expect(hebrewRuns('cmp. a. fr.—')).toEqual([]);
+	});
+});
+
+describe('toComparisonForm', () => {
+	it('folds two mark orders of one word together', () => {
+		// Bet with dagesh then qamats, and with qamats then dagesh: one
+		// word to a reader, two strings to a Map.
+		const typed = 'ב\u05BC\u05B8';
+		const canonical = 'ב\u05B8\u05BC';
+		expect(typed).not.toBe(canonical);
+		expect(toComparisonForm(typed)).toBe(toComparisonForm(canonical));
+	});
+
+	it('makes a run of whitespace one space, and trims the ends', () => {
+		expect(toComparisonForm(' בַּד  V\t')).toBe('בַּד V'.normalize('NFC'));
+	});
+});
+
+describe('withoutMarks', () => {
+	it('drops points, accents, the maqaf and the combining dot', () => {
+		expect(withoutMarks('הֵיכ־')).toBe('היכ');
+		expect(withoutMarks('מנא\u0307')).toBe('מנא');
+	});
+
+	it('keeps spaces, geresh and the star', () => {
+		expect(withoutMarks('*אָב בֵּית קִי׳')).toBe('*אב בית קי׳');
+	});
+});
+
+describe('lettersOnly', () => {
+	it('keeps the 22 letters alone', () => {
+		expect(lettersOnly('*אָב בֵּית קִי׳ II')).toBe('אבביתקי');
+	});
+
+	it('reads a presentation-form letter as its base', () => {
+		expect(lettersOnly('\uFB2E')).toBe('א');
 	});
 });

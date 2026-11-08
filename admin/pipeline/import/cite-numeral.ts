@@ -33,7 +33,7 @@ import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { tokenize } from '../../lib/html.ts';
 import { fieldsOf } from '../transform/no-new-text.ts';
 import type { SourceEntry } from '../types.ts';
-import { internalTarget, linkKey } from './cite.ts';
+import { findRid, internalTarget } from './cite.ts';
 import type { CiteNumeralKept } from './cite-numeral-kept.ts';
 import { mark, type Tally, tally, textOf } from './gates.ts';
 
@@ -177,8 +177,7 @@ function resolved(
 	targets: Targets,
 ): Entry | undefined {
 	const target = internalTarget(anchor.href);
-	const ref =
-		target === undefined ? undefined : headwordMap.get(linkKey(target));
+	const ref = target === undefined ? undefined : findRid(headwordMap, target);
 	return ref === undefined ? undefined : targets.byId.get(ref);
 }
 

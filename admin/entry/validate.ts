@@ -30,11 +30,13 @@
 import type { TLocalizedValidationError } from 'typebox/error';
 import { Compile } from 'typebox/schema';
 import { compareByCodeUnit } from '../lib/compare-by-code-unit.ts';
+import { findDuplicates } from '../lib/find-duplicates.ts';
+import { toComparisonForm } from '../lib/hebrew.ts';
 import { tokenize } from '../lib/html.ts';
 import { paths } from '../paths.ts';
 import { checkAnnotations } from './annotations.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
-import { nameCollisions } from './names.ts';
+import { findNameProblems } from './names.ts';
 import {
 	type Entry,
 	EntrySchema,
@@ -351,16 +353,17 @@ function checkNfc(entry: Entry, problems: string[]): void {
 	}
 }
 
-/** Current names are unique across the tree, compared in NFC (URL
- * names spec §5.2, first row). The rule itself is `names.ts`, shared
- * with import's `names` gate so a hand edit and a run cannot disagree
- * about what a collision is.
+/** Current names are unique across the tree, compared as URL paths
+ * (URL names spec §5.2, first row; ruling `11-07 one comparison
+ * rule`). The rule itself is `names.ts`, shared with import's `names`
+ * gate so a hand edit and a run cannot disagree about what a collision
+ * is.
  *
  * Ids need no check of their own: glob paths are unique and
  * `checkEntry` allows each id one path, so a second file for an id is
  * already reported as away from its home. */
 function checkNames(entries: readonly Entry[], problems: string[]): void {
-	problems.push(...nameCollisions(entries).map((p) => p.line));
+	problems.push(...findNameProblems(entries).map((p) => p.line));
 }
 
 /** `sefariaHeadword` is unique across the tree (URL names spec §5.2,
@@ -375,17 +378,12 @@ function checkSefariaHeadwords(
 	entries: readonly Entry[],
 	problems: string[],
 ): void {
-	const owners = new Map<string, string>();
-	for (const { id, sefariaHeadword } of entries) {
-		const key = sefariaHeadword.normalize('NFC');
-		const owner = owners.get(key);
-		if (owner === undefined) {
-			owners.set(key, id);
-		} else {
-			problems.push(
-				`${id}: sefariaHeadword ${sefariaHeadword} taken by ${owner}`,
-			);
-		}
+	for (const { item, owner } of findDuplicates(entries, (entry) =>
+		toComparisonForm(entry.sefariaHeadword),
+	)) {
+		problems.push(
+			`${item.id}: sefariaHeadword ${item.sefariaHeadword} taken by ${owner.id}`,
+		);
 	}
 }
 

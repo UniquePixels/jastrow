@@ -16,7 +16,9 @@
  * Our corrected headword stays the entry's URL name. The caller
  * (`buildIndexes` in `import.ts`) chooses which line it hands in.
  *
- * Lookup is keyed by `linkKey`: NFC, with whitespace runs collapsed.
+ * Lookup is by `findRid`, in comparison form (`toComparisonForm` in
+ * `admin/lib/hebrew.ts`, ruling `11-07 one comparison rule`): NFC, with
+ * whitespace runs collapsed.
  * Hebrew combining marks carry canonical combining classes, so the
  * same word can be spelled with dagesh before or after its vowel — two
  * byte strings, one word, and an exact-string map answers `undefined`
@@ -28,12 +30,12 @@
  * rewrites stored text into NFC is the write (`normalizeForWrite`),
  * not this lookup.
  */
+import { toComparisonForm } from '../../lib/hebrew.ts';
 import type { SourceEntry } from '../types.ts';
 import type { RefResolver } from './markup.ts';
 
 const INTERNAL_PREFIX = 'Jastrow,_';
 const SENSE_SUFFIX = /\.\d+$/u;
-const WHITESPACE_RUN = /\s+/gu;
 
 /** One internal `<cite ref>` target that no entry owns, with the rid
  * it was met in. The target is the spelling the href actually carried:
@@ -62,16 +64,19 @@ function internalTarget(href: string): string | undefined {
 		.replaceAll('_', ' ');
 }
 
-/** The lookup key for a headword string or an internal target: NFC,
- * every run of whitespace one space, trimmed. For comparison only —
- * nothing stored is rewritten by it (see the module comment). Exported
- * so gate 5's `next_hw` lookup queries the map it builds the same
- * way. */
-function linkKey(text: string): string {
-	return text.normalize('NFC').replaceAll(WHITESPACE_RUN, ' ').trim();
+/** The rid a headword string names in `map`, or `undefined`. The one
+ * way the map is queried: the string is put in comparison form, as
+ * `buildHeadwordMap` put every key, so a spelling with its marks in
+ * another order or a doubled space still finds its entry. Nothing the
+ * caller holds is rewritten (see the module comment). */
+function findRid(
+	map: ReadonlyMap<string, string>,
+	headword: string,
+): string | undefined {
+	return map.get(toComparisonForm(headword));
 }
 
-/** Headword string to rid, keyed by `linkKey`, for resolving internal
+/** Headword string to rid, keyed in comparison form, for resolving internal
  * `<cite ref>` targets. The caller passes the headword line the links
  * name (decisions.md row `10-09 link key`): for citations, the line
  * the transform phases leave, before patches. THROWS on a duplicate
@@ -85,7 +90,7 @@ function buildHeadwordMap(
 ): Map<string, string> {
 	const map = new Map<string, string>();
 	for (const { headword, rid } of entries) {
-		const key = linkKey(headword);
+		const key = toComparisonForm(headword);
 		const seen = map.get(key);
 		if (seen !== undefined) {
 			throw new Error(
@@ -100,7 +105,8 @@ function buildHeadwordMap(
 /** A resolver for one entry: rid for a known internal target, the
  * canonical `data-ref` for an external one, and the bare target —
  * recorded on `unresolved` — for an internal one nothing owns. The
- * target is keyed (`linkKey`) to query the map and never otherwise: what
+ * target is put in comparison form (`findRid`) to query the map and
+ * never otherwise: what
  * stays in the text, and what gate 6 reports, is the spelling the href
  * actually carried. */
 function createResolver(
@@ -113,7 +119,7 @@ function createResolver(
 		if (target === undefined) {
 			return dataRef === '' ? href : dataRef;
 		}
-		const hit = map.get(linkKey(target));
+		const hit = findRid(map, target);
 		if (hit !== undefined) {
 			return hit;
 		}
@@ -123,4 +129,4 @@ function createResolver(
 }
 
 export type { Unresolved };
-export { buildHeadwordMap, createResolver, internalTarget, linkKey };
+export { buildHeadwordMap, createResolver, findRid, internalTarget };

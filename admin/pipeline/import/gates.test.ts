@@ -81,7 +81,7 @@ describe('checkChain', () => {
 	});
 
 	it('resolves a next_hw whose spacing differs from the key', () => {
-		// The map is keyed by `linkKey`, so a doubled space in the link
+		// The map is keyed in comparison form (`findRid`), so a doubled space in the link
 		// finds the single-spaced key.
 		const entries: SourceEntry[] = [
 			{

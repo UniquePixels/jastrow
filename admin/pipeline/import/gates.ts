@@ -5,7 +5,7 @@
 
 import { entryAnnotations } from '../../entry/annotations.ts';
 import { intToRoman, intToSup } from '../../entry/headwords.ts';
-import { nameCollisions } from '../../entry/names.ts';
+import { findNameProblems } from '../../entry/names.ts';
 import type { Entry } from '../../entry/schema.ts';
 import {
 	checkEntry,
@@ -18,7 +18,7 @@ import type { PagePlacement } from '../page-index.ts';
 import { lossMismatch } from '../patch/loss.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import type { BodyEntry, SourceEntry } from '../types.ts';
-import { linkKey } from './cite.ts';
+import { findRid } from './cite.ts';
 
 /** A gate result: a count against a fixed total, plus the failing
  * lines. An import concept, not an entry one — it stayed here when the
@@ -478,7 +478,7 @@ function ridOrder(a: string, b: string): number {
  * halts the walk) when the name resolves to no headword or to a rid
  * outside the corpus — either would otherwise collapse to `undefined`
  * exactly like a legitimately absent `next_hw`. The name is looked up
- * by `linkKey`, the key the map was built with; the map itself is the
+ * by `findRid`, in the form the map was built with; the map itself is the
  * PRISTINE source line's, not the citations' link key. */
 function resolveNext(
 	t: Tally,
@@ -490,10 +490,10 @@ function resolveNext(
 	if (next === undefined) {
 		return;
 	}
-	// The map is keyed by `linkKey` (`buildHeadwordMap`): the source's
-	// mark order and spacing vary, so the raw link would miss an
-	// equivalent key.
-	const rid = headwordMap.get(linkKey(next));
+	// `findRid` puts the name in the form the map was built with: the
+	// source's mark order and spacing vary, so the raw link would miss
+	// an equivalent key.
+	const rid = findRid(headwordMap, next);
 	if (rid === undefined) {
 		mark(t, false, `${link.rid}: next_hw "${next}" names no headword`);
 		return;
@@ -593,7 +593,9 @@ function checkNames(
 	sourceHeadwords: ReadonlyMap<string, string>,
 ): Tally {
 	const t = tally();
-	const collided = new Map(nameCollisions(entries).map((p) => [p.rid, p.line]));
+	const collided = new Map(
+		findNameProblems(entries).map((p) => [p.rid, p.line]),
+	);
 	for (const entry of entries) {
 		const collision = collided.get(entry.id);
 		mark(t, collision === undefined, collision ?? '');
