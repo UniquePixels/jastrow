@@ -5,12 +5,14 @@
  *
  * The record file (`REVIEWED_KEPT_PATH` in `paths.ts`) is one JSON
  * object per line. A record keeps a row that matches it on all three
- * of `shape`, `rid` and `text` (compared in NFC). The report moves such
+ * of `shape`, `rid` and `text` (the text in comparison form). The report moves such
  * a row into its own section rather than dropping it, and names every
  * record no row matches as STALE: a patch that changed the stored text,
  * or a detector change that renamed the shape, sends the row back to
  * its shape section and the record to a person, never into silence.
  */
+
+import { toComparisonForm } from '../../lib/hebrew.ts';
 
 /** One record: the row it keeps (`shape`, `rid`, `text` in NFC), why
  * (`reason`), who read it (`source`) and when (`date`). */
@@ -75,10 +77,11 @@ function parseReviewedKept(jsonl: string): KeptRecord[] {
 }
 
 /** The three keys a record and a row are matched on, joined. The text
- * is compared in NFC: combining marks order differently, and a byte
+ * is compared in comparison form (`toComparisonForm`, ruling `11-07 one
+ * comparison rule`): combining marks order differently, and a byte
  * comparison of Hebrew is a bug. */
 function keyOf(row: { rid: string; shape: string; text: string }): string {
-	return [row.shape, row.rid, row.text.normalize('NFC')].join('\n');
+	return [row.shape, row.rid, toComparisonForm(row.text)].join('\n');
 }
 
 /** A row the list keeps, beside the record that keeps it. */

@@ -79,8 +79,14 @@ const WHITESPACE_RUN = /\s+/gu;
  * which splits a precomposed or presentation-form letter into its base
  * and its marks. The dot is its own alternative because biome's
  * noMisleadingCharacterClass rejects a mark escape beside a base escape
- * in one class. */
-const HEBREW_MARK = /[\u0591-\u05C7]|\u0307/gu;
+ * in one class.
+ *
+ * Exported WITHOUT the `g` flag: a global regex carries `lastIndex`
+ * between calls, so a caller's `.test()` on a shared one would answer
+ * by where the last call stopped. `withoutMarks` builds its own global
+ * copy. */
+const HEBREW_MARK = /[\u0591-\u05C7]|\u0307/u;
+const HEBREW_MARKS = new RegExp(HEBREW_MARK.source, 'gu');
 
 /** Anything but one of the 22 letters, final forms included. */
 const NOT_LETTER = /[^\u05D0-\u05EA]/gu;
@@ -95,7 +101,8 @@ const NOT_LETTER = /[^\u05D0-\u05EA]/gu;
  * For comparison only: nothing stored is rewritten by it. Every
  * comparison of one word against another goes through it, and a
  * function that names an entry returns its name already in this form
- * (`deriveFormName`). */
+ * (`deriveFormName`). Whether two spellings share their consonants is
+ * a different question: `withoutMarks` and `lettersOnly` below. */
 function toComparisonForm(text: string): string {
 	return text.normalize('NFC').replaceAll(WHITESPACE_RUN, ' ').trim();
 }
@@ -105,7 +112,7 @@ function toComparisonForm(text: string): string {
  * spellings of one word that differ only in pointing come out alike,
  * word by word. Returned in NFD. */
 function withoutMarks(text: string): string {
-	return text.normalize('NFD').replaceAll(HEBREW_MARK, '');
+	return text.normalize('NFD').replaceAll(HEBREW_MARKS, '');
 }
 
 /** The text's Hebrew letters alone: no marks, no spaces, no punctuation

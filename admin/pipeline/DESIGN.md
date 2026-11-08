@@ -1143,7 +1143,8 @@ field; there is no slug index. The name is computed from
 cannot drift the way a stored slug could.
 
 ```
-word = headwords[0].text with ( ) ? , removed, whitespace collapsed, trimmed
+word = headwords[0].text with ( ) ? , removed, in comparison form
+       (NFC, whitespace collapsed, trimmed)
 name = ("*" if reconstructed) + word
      + (" " + Roman numeral if homograph)
      + (superscript digits if disambiguator)

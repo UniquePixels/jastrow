@@ -25,7 +25,11 @@ import { intToSup, isHeadwordReviewKind } from '../../entry/headwords.ts';
 import { getPrimaryName } from '../../entry/names.ts';
 import type { Entry, FormObject } from '../../entry/schema.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
-import { HEBREW_MARK, withoutMarks } from '../../lib/hebrew.ts';
+import {
+	HEBREW_MARK,
+	toComparisonForm,
+	withoutMarks,
+} from '../../lib/hebrew.ts';
 import {
 	DESIGN_PATH,
 	HEADWORD_ISSUES_DOC,
@@ -36,10 +40,8 @@ import { type KeptRecord, type KeptSplit, splitKept } from './reviewed-kept.ts';
 const APP_URL = 'https://jastrow.app/#rid:';
 
 // Escapes, never pasted literals: a combining mark typed into a class
-// attaches to its neighbour and the range silently widens. U+0307, the
-// combining dot above, is its own alternative because biome's
-// noMisleadingCharacterClass rejects a mark escape beside a base
-// escape in one class (see `admin/entry/headwords.ts`).
+// attaches to its neighbour and the range silently widens. The marks
+// themselves are `HEBREW_MARK` (`admin/lib/hebrew.ts`).
 const LETTERS = /[\u05D0-\u05EA]+/gu;
 const LEADING_MARK = new RegExp(`^(?:${HEBREW_MARK.source})`, 'u');
 const LEXICAL_PLUS_SPACE = /[^\u05D0-\u05EA\u0591-\u05C7\u05F3\u05F4 *]/u;
@@ -491,7 +493,7 @@ function numberedSequences(inOrder: readonly Entry[]): NumberedSequence[] {
 			if (form.homograph === undefined) {
 				continue;
 			}
-			const text = form.text.normalize('NFC');
+			const text = toComparisonForm(form.text);
 			const key = withoutMarks(text);
 			bySkeleton.set(key, [
 				...(bySkeleton.get(key) ?? []),
@@ -540,7 +542,7 @@ function spellingFamilies(
 	const families = new Map<string, FamilyMember[]>();
 	for (const [rid, entry] of entries) {
 		for (const [index, form] of entry.headwords.entries()) {
-			const key = form.text.normalize('NFC');
+			const key = toComparisonForm(form.text);
 			families.set(key, [
 				...(families.get(key) ?? []),
 				{
@@ -587,7 +589,7 @@ function formsByConsonants(
 	for (const [position, entry] of inOrder.entries()) {
 		const lineNumbered = entry.headwords.some((f) => f.homograph !== undefined);
 		for (const [index, form] of entry.headwords.entries()) {
-			const text = form.text.normalize('NFC');
+			const text = toComparisonForm(form.text);
 			const key = withoutMarks(text);
 			byKey.set(key, [
 				...(byKey.get(key) ?? []),
@@ -835,7 +837,7 @@ function marksByLetter(
 		{ letter: '', marks: [] },
 	];
 	for (const ch of text.normalize('NFD')) {
-		if (ch.replace(HEBREW_MARK, '') === '') {
+		if (HEBREW_MARK.test(ch)) {
 			letters.at(-1)?.marks.push(ch);
 		} else {
 			letters.push({ letter: ch, marks: [] });
@@ -912,7 +914,7 @@ function unnumberedBetween(
 ): string[] {
 	return inOrder.slice(a.position, b.position + 1).flatMap((entry) =>
 		entry.headwords.flatMap((form, index) => {
-			const text = form.text.normalize('NFC');
+			const text = toComparisonForm(form.text);
 			return form.homograph === undefined &&
 				(text === a.text || text === b.text)
 				? [`${formLabel({ index, rid: entry.id })} ${text}`]

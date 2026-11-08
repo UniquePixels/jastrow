@@ -76,7 +76,8 @@ function deriveFormName(form: FormObject): string {
 }
 
 /** A name's URL path: each space as `_` (spec §4). The one function
- * that turns a name into a path; compile imports it, and the
+ * that turns a name into a path; compile, when it is written, imports
+ * it rather than rebuilding it, and the
  * uniqueness check compares its output, so two names the path spells
  * alike (`X Y`, `X_Y`) are a collision. Percent-encoding comes after
  * it, in compile, and cannot make two paths equal. */

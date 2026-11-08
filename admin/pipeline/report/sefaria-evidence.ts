@@ -29,7 +29,6 @@ import {
 	type Exclusion,
 	exclude,
 	formsOf,
-	nfc,
 	type RawRecord,
 	toRoman,
 } from './sefaria-change.ts';
@@ -443,7 +442,9 @@ function retargetProof(
 		...(record === undefined ? [] : formsOf(record)),
 		...carried.map((c) => c.form),
 	].some(
-		(form) => nfc(trailingNumeral(form)?.word ?? form.trim()) === nfc(word),
+		(form) =>
+			toComparisonForm(trailingNumeral(form)?.word ?? form) ===
+			toComparisonForm(word),
 	);
 	if (!spelled) {
 		return { failure: `${now} has no form spelled "${word}"` };

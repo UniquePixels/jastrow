@@ -30,6 +30,7 @@
 import { intToRoman } from '../../entry/headwords.ts';
 import type { Entry } from '../../entry/schema.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
+import { toComparisonForm } from '../../lib/hebrew.ts';
 import { tokenize } from '../../lib/html.ts';
 import { fieldsOf } from '../transform/no-new-text.ts';
 import type { SourceEntry } from '../types.ts';
@@ -142,9 +143,10 @@ interface CiteNumeralResult {
 }
 
 /** The key a cite and an allowlist row are matched on: citing rid,
- * target rid and the cite's text in NFC. */
+ * target rid and the cite's text in comparison form
+ * (`toComparisonForm`, ruling `11-07 one comparison rule`). */
 function keyOf(rid: string, ref: string, cite: string): string {
-	return [rid, ref, cite.normalize('NFC').trim()].join('\n');
+	return [rid, ref, toComparisonForm(cite)].join('\n');
 }
 
 /** The run's view of the finished targets: by rid, and each rid's
