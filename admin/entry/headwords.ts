@@ -40,6 +40,8 @@
  * which reproduces every worked example in the §2 table but one
  * (A02823, whose line print sets without a comma).
  */
+import { findDuplicates } from '../lib/find-duplicates.ts';
+import { toComparisonForm } from '../lib/hebrew.ts';
 import type { FormObject } from './schema.ts';
 
 /** Superscript digits, in value order — `intToSup`'s alphabet and
@@ -544,7 +546,8 @@ function markAbbreviated(forms: readonly FormObject[]): void {
  * names in it is worse than a slightly indirect constant. */
 const KEY_SEPARATOR = String.fromCodePoint(0);
 
-/** The forms a line names twice, compared in NFC — §3.1 rule 6's
+/** The forms a line names twice, compared in comparison form
+ * (`toComparisonForm`, ruling `11-07 one comparison rule`) — §3.1 rule 6's
  * "duplicate check", which is a COMPARISON the rule tells us how to
  * make rather than a halt it imposes. Two spellings whose combining
  * marks are ordered differently are canonically equal and would be two
@@ -557,25 +560,16 @@ const KEY_SEPARATOR = String.fromCodePoint(0);
  * committed tree: four entries (A02981, E00199, Q01624, U00076), each
  * naming its primary form again among its alternates. */
 function duplicateForms(headwords: readonly FormObject[]): HeadwordReview[] {
-	const seen = new Map<string, number>();
-	const reviews: HeadwordReview[] = [];
-	for (const [i, form] of headwords.entries()) {
-		const key = [
-			form.text.normalize('NFC'),
+	return findDuplicates([...headwords.entries()], ([, form]) =>
+		[
+			toComparisonForm(form.text),
 			form.homograph ?? '',
 			form.disambiguator ?? '',
-		].join(KEY_SEPARATOR);
-		const owner = seen.get(key);
-		if (owner === undefined) {
-			seen.set(key, i);
-		} else {
-			reviews.push({
-				kind: 'headword-duplicate-form',
-				reason: `headwords[${i}] repeats headwords[${owner}] (${form.text}) under NFC`,
-			});
-		}
-	}
-	return reviews;
+		].join(KEY_SEPARATOR),
+	).map(({ item: [i, form], owner: [owner] }) => ({
+		kind: 'headword-duplicate-form',
+		reason: `headwords[${i}] repeats headwords[${owner}] (${form.text}) under NFC`,
+	}));
 }
 
 /** Whether the line's parentheses balance. A group may span items —

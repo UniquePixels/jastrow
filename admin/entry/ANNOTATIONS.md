@@ -92,7 +92,7 @@ Rule 3 changed in the same PR: a single numeral beside `{n}` ⇔
 '', stored: 'I', evidence: …}`, and `display` sets the ` I`. One mark,
 not two for one fact. Rule 3 loses its implied clause (a single numeral
 beside `{n}` ⇔ `homograph`), `reform.homographs` loses `implied`, and
-gate 2 counts every numeral as notation. Names do not change: `deriveName`
+gate 2 counts every numeral as notation. Names do not change: `deriveFormName`
 already appends the numeral. `reconstructed`, `partial` and
 `disambiguator` are untouched. The first two are print's notation and
 the third is Sefaria's, so none of them is a correction.

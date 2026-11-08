@@ -258,11 +258,12 @@ function checkPartial(
  * says every comparison normalizes to NFC FIRST — an obligation on
  * the comparisons this file's caller already makes, not a new one.
  * Its storage half is discharged by the write step rather than
- * checked here (`normalizeForWrite`, #110). `names.ts`'s
- * `nameKey` normalizes before the uniqueness check, `validate.ts`
- * normalizes before the `sefariaHeadword` one, and `cite.ts` before
- * the headword map's. Adding a within-entry duplicate check here would
- * be a SEVENTH rule wearing rule 6's number: it fires on four
+ * checked here (`normalizeForWrite`, #110). The comparisons it binds
+ * all go through `toComparisonForm` (`admin/lib/hebrew.ts`, ruling
+ * `11-07 one comparison rule`): `names.ts` derives the name in it
+ * before the uniqueness check, `validate.ts` puts `sefariaHeadword` in
+ * it, and `cite.ts` keys the headword map by it. Adding a within-entry
+ * duplicate check here would be a SEVENTH rule wearing rule 6's number: it fires on four
  * committed entries (A02981, E00199, Q01624, U00076, each of which
  * lists its primary form again among its alternates), and nothing in
  * §3 or §4 rules on that shape. It is reported to the maintainer

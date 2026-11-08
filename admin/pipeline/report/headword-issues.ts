@@ -22,9 +22,14 @@
  */
 import { dirname, relative } from 'node:path';
 import { intToSup, isHeadwordReviewKind } from '../../entry/headwords.ts';
-import { nameOf } from '../../entry/names.ts';
+import { getPrimaryName } from '../../entry/names.ts';
 import type { Entry, FormObject } from '../../entry/schema.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
+import {
+	HEBREW_MARK,
+	toComparisonForm,
+	withoutMarks,
+} from '../../lib/hebrew.ts';
 import {
 	DESIGN_PATH,
 	HEADWORD_ISSUES_DOC,
@@ -35,13 +40,10 @@ import { type KeptRecord, type KeptSplit, splitKept } from './reviewed-kept.ts';
 const APP_URL = 'https://jastrow.app/#rid:';
 
 // Escapes, never pasted literals: a combining mark typed into a class
-// attaches to its neighbour and the range silently widens. U+0307, the
-// combining dot above, is its own alternative because biome's
-// noMisleadingCharacterClass rejects a mark escape beside a base
-// escape in one class (see `admin/entry/headwords.ts`).
-const MARKS = /[\u0591-\u05C7]|\u0307/gu;
+// attaches to its neighbour and the range silently widens. The marks
+// themselves are `HEBREW_MARK` (`admin/lib/hebrew.ts`).
 const LETTERS = /[\u05D0-\u05EA]+/gu;
-const LEADING_MARK = /^(?:[\u0591-\u05C7]|\u0307)/u;
+const LEADING_MARK = new RegExp(`^(?:${HEBREW_MARK.source})`, 'u');
 const LEXICAL_PLUS_SPACE = /[^\u05D0-\u05EA\u0591-\u05C7\u05F3\u05F4 *]/u;
 const LATIN_OR_DIGIT = /[A-Za-z0-9]/u;
 const ROMAN_NUMERAL = /[IVXLC]+/gu;
@@ -74,12 +76,6 @@ interface IssueRow {
 	role: 'alt' | 'headword';
 	shape: string;
 	text: string;
-}
-
-/** A form's consonants: points, accents and the combining dot removed,
- * so two spellings of one word compare equal. */
-function consonants(text: string): string {
-	return text.normalize('NFD').replace(MARKS, '');
 }
 
 /** Whether every `(` closes after it opens. Equal totals are not
@@ -169,7 +165,7 @@ function issuesOf(text: string): string[] {
 	if (LEADING_MARK.test(text.normalize('NFD'))) {
 		issues.push('leading-mark');
 	}
-	for (const word of consonants(text).match(LETTERS) ?? []) {
+	for (const word of withoutMarks(text).match(LETTERS) ?? []) {
 		if (FINAL_LETTER.test(word.slice(0, -1))) {
 			issues.push('final-letter-medial');
 		}
@@ -201,7 +197,7 @@ function issuesOf(text: string): string[] {
 // biome-ignore lint/nursery/noMisleadingReturnType: a note is report text; narrowing to today's phrases would couple noteFor to their wording.
 function multiWordNote(text: string, headword: string): string {
 	const words = text.split(' ').filter((w) => w !== '');
-	const skeletons = words.map(consonants);
+	const skeletons = words.map(withoutMarks);
 	if (words.some((w) => w.endsWith('׳'))) {
 		return 'abbrev+word';
 	}
@@ -217,7 +213,7 @@ function multiWordNote(text: string, headword: string): string {
 			return 'two forms / reduplication';
 		}
 	}
-	return skeletons.includes(consonants(headword))
+	return skeletons.includes(withoutMarks(headword))
 		? 'phrase containing headword'
 		: 'other phrase';
 }
@@ -396,7 +392,7 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 		const note = noteFor(shape, issue, text, entry.headwords[0]?.text ?? '');
 		rows.push({
 			flagged: isFlagged,
-			name: nameOf(entry),
+			name: getPrimaryName(entry),
 			note,
 			rid,
 			role,
@@ -414,7 +410,7 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 				: 'X7 abbreviation headword (׳/״)';
 		rows.push({
 			flagged: isFlagged,
-			name: nameOf(entry),
+			name: getPrimaryName(entry),
 			note: '',
 			rid,
 			role,
@@ -485,7 +481,7 @@ function numbersOnce(members: readonly NumberedForm[]): boolean {
 
 /** Every numbered form, grouped into sequences: same consonants (every
  * mark stripped, shin and sin dots too, as an unpointed text writes
- * the word; see {@link consonants}), in entry order, each member
+ * the word; see `withoutMarks`), in entry order, each member
  * within {@link SEQUENCE_WINDOW} entries of the last. Alternates take
  * part: a sequence's I is often an alternate (A01697 `אָכַל` I). An I
  * set by correction (ruling 10-13 correction policy) is a numbered form
@@ -497,8 +493,8 @@ function numberedSequences(inOrder: readonly Entry[]): NumberedSequence[] {
 			if (form.homograph === undefined) {
 				continue;
 			}
-			const text = form.text.normalize('NFC');
-			const key = consonants(text);
+			const text = toComparisonForm(form.text);
+			const key = withoutMarks(text);
 			bySkeleton.set(key, [
 				...(bySkeleton.get(key) ?? []),
 				{
@@ -546,7 +542,7 @@ function spellingFamilies(
 	const families = new Map<string, FamilyMember[]>();
 	for (const [rid, entry] of entries) {
 		for (const [index, form] of entry.headwords.entries()) {
-			const key = form.text.normalize('NFC');
+			const key = toComparisonForm(form.text);
 			families.set(key, [
 				...(families.get(key) ?? []),
 				{
@@ -584,7 +580,7 @@ interface PlacedForm {
 }
 
 /** Every form, numbered or not, grouped by its consonants (see
- * {@link consonants}), each group in entry order and, inside one
+ * `withoutMarks`), each group in entry order and, inside one
  * entry, in headword order. */
 function formsByConsonants(
 	inOrder: readonly Entry[],
@@ -593,8 +589,8 @@ function formsByConsonants(
 	for (const [position, entry] of inOrder.entries()) {
 		const lineNumbered = entry.headwords.some((f) => f.homograph !== undefined);
 		for (const [index, form] of entry.headwords.entries()) {
-			const text = form.text.normalize('NFC');
-			const key = consonants(text);
+			const text = toComparisonForm(form.text);
+			const key = withoutMarks(text);
 			byKey.set(key, [
 				...(byKey.get(key) ?? []),
 				{
@@ -637,7 +633,7 @@ function bareCandidate(
 	if (missing.length !== 1 || missing[0] !== 1 || second === undefined) {
 		return;
 	}
-	const placed = byConsonants.get(consonants(text)) ?? [];
+	const placed = byConsonants.get(withoutMarks(text)) ?? [];
 	const at = placed.findIndex(
 		(f) => f.rid === second.rid && f.index === second.index,
 	);
@@ -777,7 +773,7 @@ function homographGapRows({
 		const candidate = bareCandidate(text, members, missing, byConsonants);
 		rows.push({
 			flagged: false,
-			name: nameOf(entry),
+			name: getPrimaryName(entry),
 			note:
 				candidate === undefined
 					? `missing ${missing.join(',')}; ${detail}`
@@ -795,7 +791,7 @@ function homographGapRows({
 }
 
 /** What each Hebrew point is called in a note. Escapes, not literals
- * (see {@link MARKS}). A mark not listed (a cantillation accent) is
+ * (see `HEBREW_MARK`). A mark not listed (a cantillation accent) is
  * named by its code point. */
 const MARK_NAMES: ReadonlyMap<string, string> = new Map([
 	['\u05B0', 'sheva'],
@@ -841,7 +837,7 @@ function marksByLetter(
 		{ letter: '', marks: [] },
 	];
 	for (const ch of text.normalize('NFD')) {
-		if (ch.replace(MARKS, '') === '') {
+		if (HEBREW_MARK.test(ch)) {
 			letters.at(-1)?.marks.push(ch);
 		} else {
 			letters.push({ letter: ch, marks: [] });
@@ -918,7 +914,7 @@ function unnumberedBetween(
 ): string[] {
 	return inOrder.slice(a.position, b.position + 1).flatMap((entry) =>
 		entry.headwords.flatMap((form, index) => {
-			const text = form.text.normalize('NFC');
+			const text = toComparisonForm(form.text);
 			return form.homograph === undefined &&
 				(text === a.text || text === b.text)
 				? [`${formLabel({ index, rid: entry.id })} ${text}`]
@@ -990,7 +986,7 @@ function pointingRows(
 			}
 			rows.push({
 				flagged: false,
-				name: nameOf(entry),
+				name: getPrimaryName(entry),
 				note: pointingNote(inOrder, members, a, b),
 				rid: b.rid,
 				role: b.index === 0 ? 'headword' : 'alt',
@@ -1006,7 +1002,7 @@ const ONE_LETTER_SHAPE = "X11 one-letter primary past its letter's opening";
 
 /** How many letters a form's text holds, marks aside. */
 function letterCount(text: string): number {
-	return (consonants(text).match(LETTERS) ?? []).join('').length;
+	return (withoutMarks(text).match(LETTERS) ?? []).join('').length;
 }
 
 /** One-consonant primaries that are not among their letter's opening
@@ -1040,7 +1036,7 @@ function oneLetterRows(inOrder: readonly Entry[]): IssueRow[] {
 		}
 		rows.push({
 			flagged: false,
-			name: nameOf(entry),
+			name: getPrimaryName(entry),
 			note: `the line reads ${entry.headwords.map((f) => f.text).join(', ')}`,
 			rid: entry.id,
 			role: 'headword',

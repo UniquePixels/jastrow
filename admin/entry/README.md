@@ -23,7 +23,7 @@ Helpers that are not about entries live in
 | `ANNOTATIONS.md` | the design of `annotations` (ruling `10-13 correction policy`): the field, its checks, how the import fills it, the audit |
 | `validate-cli.ts` | `bun data:validate` |
 | `headwords.ts`, `headword-rules.ts` | the headword-line parser and the six shape rules |
-| `names.ts` | an entry's name, derived from `headwords[0]`, and name collisions |
+| `names.ts` | an entry's name (`deriveFormName`, `getPrimaryName`), derived from `headwords[0]`; its URL path (`namePath`); and the names gate (`findNameProblems`), which compares paths |
 
 The schema is written once, in `schema.ts`. A TypeBox schema is JSON
 Schema as it stands, so TypeBox's own validator checks entries

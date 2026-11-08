@@ -109,6 +109,11 @@ function toRoman(value: number): string {
 	return out;
 }
 
+/** Exact text, NFC only. NOT the comparison form (`toComparisonForm`,
+ * ruling `11-07 one comparison rule`): this report asks whether a patch
+ * changed Sefaria's text, not whether two strings are the same word, and
+ * a whitespace fix IS a change (B00098's `בַּד  V` → `בַּד V`, a Sefaria
+ * error the appendix reports). Collapsing spaces here drops that row. */
 const nfc = (text: string): string => text.normalize('NFC');
 
 function exclude(reason: Reason, detail: string): Exclusion {

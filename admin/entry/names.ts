@@ -9,9 +9,18 @@
  *
  * The form object is the unit of derivation rather than the entry.
  * headword-design §2 has since replaced `headword` with `headwords[]`
- * (index 0 primary), and because `deriveName` takes the FORM, the
- * rename reached only `nameOf` — which is the point of the split.
+ * (index 0 primary), and because `deriveFormName` takes the FORM, the
+ * rename reached only `getPrimaryName` — which is the point of the
+ * split.
+ *
+ * One function per step, and every caller uses it (ruling
+ * `11-07 one comparison rule`): `deriveFormName` makes a form's name,
+ * already in comparison form; `getPrimaryName` takes the entry's;
+ * `namePath` turns a name into its URL path; and `findNameProblems`
+ * checks the PATHS, so what it calls unique is what the URL is.
  */
+import { findDuplicates } from '../lib/find-duplicates.ts';
+import { toComparisonForm } from '../lib/hebrew.ts';
 import { intToRoman, intToSup } from './headwords.ts';
 import type { Entry, FormObject } from './schema.ts';
 
@@ -33,14 +42,10 @@ import type { Entry, FormObject } from './schema.ts';
  * `bun data:validate` refuses it in the committed tree. A01175 and
  * A01345, the last two, were repaired by patch (#113, #139). */
 const NOTATION = /[()?,]/gu;
-/** Runs of whitespace collapse to one space, and the ends are
- * trimmed: stripping notation can leave a gap or an edge space where
- * a parenthesis used to sit. */
-const WHITESPACE = /\s+/gu;
 
 /** The name a headword form is addressed by (spec §4):
  *
- *     word = text with ( ) ? , removed; whitespace collapsed; trimmed
+ *     word = text with ( ) ? , removed, in comparison form
  *     name = ("*" if reconstructed) + word
  *          + (" " + Roman if homograph) + superscript(disambiguator)
  *
@@ -51,12 +56,15 @@ const WHITESPACE = /\s+/gu;
  * text names `X I`) is a plain `homograph` and names the entry like
  * any other numeral.
  *
- * Returns the name in the form's OWN normalization; `nameKey` is what
- * comparison uses. Nothing here rewrites stored text — the one step
- * that does is the import WRITE (`normalizeForWrite`, #110), which
- * runs long after this and puts the file into NFC. */
-function deriveName(form: FormObject): string {
-	const word = form.text.replace(NOTATION, '').replace(WHITESPACE, ' ').trim();
+ * The word is put in comparison form (`toComparisonForm`: NFC, runs of
+ * whitespace one space, trimmed), since stripping notation can leave a
+ * gap or an edge space where a parenthesis sat, and a name is compared
+ * as it comes out. The numeral and superscript appended after it keep
+ * that form. Nothing here rewrites stored text: the name is never
+ * stored, and the one step that rewrites a file is the import WRITE
+ * (`normalizeForWrite`, #110). */
+function deriveFormName(form: FormObject): string {
+	const word = toComparisonForm(form.text.replace(NOTATION, ''));
 	let name = form.reconstructed === true ? `*${word}` : word;
 	if (form.homograph !== undefined) {
 		name += ` ${intToRoman(form.homograph)}`;
@@ -67,15 +75,14 @@ function deriveName(form: FormObject): string {
 	return name;
 }
 
-/** The key a name is compared and looked up by: NFC, and nothing
- * else (spec §4, §3). Hebrew combining marks order differently under
- * NFD, so two spellings of one name are two Map keys and a uniqueness
- * check over the raw strings would pass on a pair that resolves to
- * one URL. The data is clean today (0 non-NFC headwords); this covers
- * a URL typed or pasted from elsewhere with its marks in a different
- * order, and a hand edit that arrives decomposed. */
-function nameKey(name: string): string {
-	return name.normalize('NFC');
+/** A name's URL path: each space as `_` (spec §4). The one function
+ * that turns a name into a path; compile, when it is written, imports
+ * it rather than rebuilding it, and the
+ * uniqueness check compares its output, so two names the path spells
+ * alike (`X Y`, `X_Y`) are a collision. Percent-encoding comes after
+ * it, in compile, and cannot make two paths equal. */
+function namePath(name: string): string {
+	return name.replaceAll(' ', '_');
 }
 
 /** An entry's current name, from its PRIMARY headword form — the
@@ -83,12 +90,12 @@ function nameKey(name: string): string {
  *
  * An entry with no forms at all is not a shape the schema admits
  * (`minItems: 1`), and it names the empty string rather than throwing:
- * `nameCollisions` reports an empty name as its own problem, which is
+ * `findNameProblems` reports an empty name as its own problem, which is
  * the reading a caller wants from a file that got past the schema by a
  * hand edit. */
-function nameOf(entry: Pick<Entry, 'headwords'>): string {
+function getPrimaryName(entry: Pick<Entry, 'headwords'>): string {
 	const primary = entry.headwords[0];
-	return primary === undefined ? '' : deriveName(primary);
+	return primary === undefined ? '' : deriveFormName(primary);
 }
 
 /** One entry that cannot hold its name, and why. The rid is a FIELD
@@ -101,8 +108,8 @@ interface NameProblem {
 	rid: string;
 }
 
-/** Every entry whose name another entry already holds, or whose name
- * is empty, in the order given — the `name-collision` finding of spec
+/** Every entry whose name path another entry already holds, or whose
+ * name is empty, in the order given — the `name-collision` finding of spec
  * §7, and the whole of the "current names unique" gate of §5.2 (both
  * the import gate and the `bun qa` one, so the two cannot drift
  * apart).
@@ -121,33 +128,40 @@ interface NameProblem {
  * nothing for them to check against; they arrive with §9 step 6.
  * `formerNames` is in the schema and absent from every entry until
  * then. */
-function nameCollisions(
+function findNameProblems(
 	entries: readonly Pick<Entry, 'headwords' | 'id'>[],
 ): NameProblem[] {
-	const owners = new Map<string, string>();
-	const problems: NameProblem[] = [];
-	for (const entry of entries) {
-		const name = nameOf(entry);
-		const key = nameKey(name);
-		if (key === '') {
-			problems.push({
-				line: `${entry.id}: name is empty from ${JSON.stringify(entry.headwords[0]?.text ?? null)}`,
-				rid: entry.id,
-			});
-			continue;
+	const named = entries.map((entry) => ({
+		entry,
+		name: getPrimaryName(entry),
+	}));
+	const owners = new Map(
+		findDuplicates(
+			named.filter(({ name }) => name !== ''),
+			({ name }) => namePath(name),
+		).map(({ item, owner }) => [item, owner.entry.id]),
+	);
+	return named.flatMap((item) => {
+		const { entry, name } = item;
+		if (name === '') {
+			return [
+				{
+					line: `${entry.id}: name is empty from ${JSON.stringify(entry.headwords[0]?.text ?? null)}`,
+					rid: entry.id,
+				},
+			];
 		}
-		const owner = owners.get(key);
-		if (owner === undefined) {
-			owners.set(key, entry.id);
-		} else {
-			problems.push({
-				line: `${entry.id}: name ${name} taken by ${owner}`,
-				rid: entry.id,
-			});
-		}
-	}
-	return problems;
+		const owner = owners.get(item);
+		return owner === undefined
+			? []
+			: [
+					{
+						line: `${entry.id}: name ${name} taken by ${owner}`,
+						rid: entry.id,
+					},
+				];
+	});
 }
 
 export type { NameProblem };
-export { deriveName, nameCollisions, nameKey, nameOf };
+export { deriveFormName, findNameProblems, getPrimaryName, namePath };

@@ -30,10 +30,11 @@
 import { intToRoman } from '../../entry/headwords.ts';
 import type { Entry } from '../../entry/schema.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
+import { toComparisonForm } from '../../lib/hebrew.ts';
 import { tokenize } from '../../lib/html.ts';
 import { fieldsOf } from '../transform/no-new-text.ts';
 import type { SourceEntry } from '../types.ts';
-import { internalTarget, linkKey } from './cite.ts';
+import { findRid, internalTarget } from './cite.ts';
 import type { CiteNumeralKept } from './cite-numeral-kept.ts';
 import { mark, type Tally, tally, textOf } from './gates.ts';
 
@@ -142,9 +143,10 @@ interface CiteNumeralResult {
 }
 
 /** The key a cite and an allowlist row are matched on: citing rid,
- * target rid and the cite's text in NFC. */
+ * target rid and the cite's text in comparison form
+ * (`toComparisonForm`, ruling `11-07 one comparison rule`). */
 function keyOf(rid: string, ref: string, cite: string): string {
-	return [rid, ref, cite.normalize('NFC').trim()].join('\n');
+	return [rid, ref, toComparisonForm(cite)].join('\n');
 }
 
 /** The run's view of the finished targets: by rid, and each rid's
@@ -177,8 +179,7 @@ function resolved(
 	targets: Targets,
 ): Entry | undefined {
 	const target = internalTarget(anchor.href);
-	const ref =
-		target === undefined ? undefined : headwordMap.get(linkKey(target));
+	const ref = target === undefined ? undefined : findRid(headwordMap, target);
 	return ref === undefined ? undefined : targets.byId.get(ref);
 }
 

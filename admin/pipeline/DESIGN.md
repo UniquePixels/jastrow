@@ -393,8 +393,10 @@ from `data-ref` verbatim, falling back to `href` only when `data-ref`
 is empty. Sefaria's two ref spellings are not canonicalized. Internal
 targets resolve through a headword → rid map built from all 32,512
 **link keys**: each rid's headword line as the transform phases leave
-it, before any patch (ruling `10-09 link key`), compared in NFC with
-whitespace runs collapsed (`linkKey`, `import/cite.ts`). A source href
+it, before any patch (ruling `10-09 link key`), compared in comparison
+form: NFC, whitespace runs collapsed (`toComparisonForm` in
+`admin/lib/hebrew.ts`, queried through `findRid` in `import/cite.ts`;
+ruling `11-07 one comparison rule`). A source href
 is a Sefaria URL naming Sefaria's spelling, and the transforms respell
 href and headword together, so this is Sefaria's spelling as our rules
 read it; a reviewed patch that corrects our headword never moves it,
@@ -1141,7 +1143,8 @@ field; there is no slug index. The name is computed from
 cannot drift the way a stored slug could.
 
 ```
-word = headwords[0].text with ( ) ? , removed, whitespace collapsed, trimmed
+word = headwords[0].text with ( ) ? , removed, in comparison form
+       (NFC, whitespace collapsed, trimmed)
 name = ("*" if reconstructed) + word
      + (" " + Roman numeral if homograph)
      + (superscript digits if disambiguator)
@@ -1163,20 +1166,27 @@ byte. It is written from the **pristine** snapshot entry, never the
 composed or transformed one, and import is its only writer. It is the
 field URL routes key on.
 
-**Comparison is NFC and nothing else.** `nameKey` normalizes both
-sides to NFC for comparison and lookup; nothing stored is rewritten by
-this step. A byte-exact match on Hebrew is a bug — combining-mark order
-varies in the source.
+**Comparison is one rule.** Every comparison of one word against
+another goes through `toComparisonForm` (`admin/lib/hebrew.ts`): NFC,
+whitespace runs collapsed, trimmed (ruling `11-07 one comparison
+rule`). `deriveFormName` returns the name already in that form; nothing
+stored is rewritten by it. A byte-exact match on Hebrew is a bug —
+combining-mark order varies in the source.
+
+**The path is what is checked.** `namePath` turns a name into its URL
+path (each space `_`), and is the only function that does; the
+uniqueness check compares paths, so two names the path spells alike
+collide.
 
 **Collisions.** The first entry (in rid order during import) to compute
-a given NFC-keyed name owns it; every later entry whose name is
+a given name path owns it; every later entry whose name is
 already owned is a `name-collision` problem and reds the run. A name
 that strips to the empty string is its own problem class, checked
 separately because uniqueness alone cannot see it. The escape hatch is
 a maintainer-supplied `disambiguator` on the form — the same tool
 Sefaria uses.
 
-`nameCollisions` is one function backing **both** the import gate
+`findNameProblems` is one function backing **both** the import gate
 (`import/gates.ts`'s `checkNames`) and the entry contract
 (`admin/entry/validate.ts`'s `checkNames`), so a hand edit and a run
 cannot disagree about what a collision is.
@@ -1843,10 +1853,9 @@ so cannot be inferred from reading the code that is there.
     assertion guards it: the `NFD(before) == NFD(after)` check it once
     carried is that equivalence restated and could not fire (review
     ledger L10). `data/sources/sefaria/` is never touched.
-51. **No canonicalization of stored text at lookup time.** NFC is a
-    *comparison* key in `names.ts` and `cite.ts` (where `linkKey` also
-    collapses whitespace runs); nothing stored is rewritten by those
-    steps.
+51. **No canonicalization of stored text at lookup time.** The comparison
+    form (`toComparisonForm`: NFC, whitespace runs collapsed) is used
+    for comparison only; nothing stored is rewritten by it.
 52. **The current name is never stored.**
 53. **No URLs are stored** in entry data.
 54. **No placement confidence is stored**, in entry data or in the
