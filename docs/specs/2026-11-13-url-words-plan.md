@@ -14,7 +14,7 @@
 
 - Branch `doc/url-words` off `v2`; PR into `v2`. Commits `git commit -s`, subject ≤ 50 chars `<emoji> <type>(scope): desc`, trailer `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
 - Gate every commit on `bun qa`'s exit code. After any change to `admin/entry/schema.ts`, run `bun schema:build`.
-- Every commit leaves green: `bun qa`, `bun data:validate`, and (where entry data or patches change) `bun data:import` from an empty tree with every gate green. Re-import: `rm -rf data/entries/[A-Z]` (skip if already empty; zsh aborts on a glob with no match), `bun data:import`, `bun qa:format`. Then `bun data:sefaria`.
+- Every commit leaves green: `bun qa`, `bun data:validate`, and (where entry data or patches change) `bun data:import` from an empty tree with every gate green. Re-import, only when `git status --porcelain data/entries` prints nothing (the delete loses any uncommitted edit): `rm -rf data/entries/[A-Z]` (skip if already empty; zsh aborts on a glob with no match), `bun data:import`, `bun qa:format`. Then `bun data:sefaria`.
 - Hebrew in code and tests is compared in NFC and never typed into stored data by hand; patch records are edited by script, not retyped.
 - Rid order is `compareByCodeUnit` on `id` (`admin/lib/compare-by-code-unit.ts`), as `admin/pipeline/fetch.ts` orders rids.
 - `app/` imports nothing under `admin/`; compile and the app are not written by this plan.
