@@ -100,8 +100,8 @@ const NOT_LETTER = /[^\u05D0-\u05EA]/gu;
  *
  * For comparison only: nothing stored is rewritten by it. Every
  * comparison of one word against another goes through it, and a
- * function that names an entry returns its name already in this form
- * (`deriveFormName`). Whether two spellings share their consonants is
+ * function that builds a URL word starts from this form
+ * (`toUrlWord`). Whether two spellings share their consonants is
  * a different question: `withoutMarks` and `lettersOnly` below. */
 function toComparisonForm(text: string): string {
 	return text.normalize('NFC').replaceAll(WHITESPACE_RUN, ' ').trim();

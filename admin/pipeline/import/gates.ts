@@ -5,7 +5,6 @@
 
 import { entryAnnotations } from '../../entry/annotations.ts';
 import { intToRoman, intToSup } from '../../entry/headwords.ts';
-import { findNameProblems } from '../../entry/names.ts';
 import type { Entry } from '../../entry/schema.ts';
 import {
 	checkEntry,
@@ -14,6 +13,7 @@ import {
 } from '../../entry/validate.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { tokenize } from '../../lib/html.ts';
+import { findEmptyUrlWords } from '../../lib/url-path.ts';
 import type { PagePlacement } from '../page-index.ts';
 import { lossMismatch } from '../patch/loss.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
@@ -560,22 +560,19 @@ function checkChain(
 	return t;
 }
 
-/** Gate 7: every entry's current NAME is unique, and its
- * `sefariaHeadword` is Sefaria's `headword` for that rid byte for
- * byte (URL names spec §5.2, U2, U3). It replaces the `slugs` gate:
- * there is no stem numbering left to have a bare owner, and the name
- * is computed from the headword rather than stored beside it.
+/** Gate 7: every entry has an address, and its `sefariaHeadword` is
+ * Sefaria's `headword` for that rid byte for byte (ruling `11-13 url
+ * words`; URL names spec §5.2, U3). It replaces the `names` gate: two
+ * entries may share a word, since `buildEntryPaths` numbers them, so
+ * the one thing an address needs is a word at all.
  *
  * Two marks per entry, both over the FINISHED entries rather than
  * over the inputs they were built from — the artefact is what a
  * reader and the route map will read.
  *
- * - **addressable** is the `name-collision` failure of spec §7,
- *   compared in NFC (`names.ts`): the name is not already another
- *   entry's, and it is not empty. A correction that makes two current
- *   names equal fails here and the editor adds a disambiguator (§4);
- *   a headword that is all notation strips to nothing, collides with
- *   nobody, and would otherwise be reachable by no URL at all.
+ * - **addressable** is that the URL word is not empty
+ *   (`findEmptyUrlWords`): a headword that is all notation keeps no
+ *   letter and would otherwise be reachable by no URL at all.
  * - **verbatim** compares the written `sefariaHeadword` against the
  *   source snapshot line for the same rid. It lives on the import
  *   path alone because per-PR CI never reads `data/sources/sefaria/` (R9).
@@ -588,17 +585,18 @@ function checkChain(
  *
  * `sourceHeadwords` is rid → the pristine `headword` string, so a
  * missing rid fails rather than passing against `undefined`. */
-function checkNames(
+function checkAddresses(
 	entries: readonly Entry[],
 	sourceHeadwords: ReadonlyMap<string, string>,
 ): Tally {
 	const t = tally();
-	const collided = new Map(
-		findNameProblems(entries).map((p) => [p.rid, p.line]),
-	);
+	const empty = new Set(findEmptyUrlWords(entries));
 	for (const entry of entries) {
-		const collision = collided.get(entry.id);
-		mark(t, collision === undefined, collision ?? '');
+		mark(
+			t,
+			!empty.has(entry.id),
+			`${entry.id}: URL word is empty from ${JSON.stringify(entry.headwords[0]?.text ?? null)}`,
+		);
 		const source = sourceHeadwords.get(entry.id);
 		mark(
 			t,
@@ -677,7 +675,7 @@ function annotationProvenance(
 /** Gate 10: the entry contract (`admin/entry/`) over exactly what the
  * run is about to write — the NORMALIZED entries, each at the path
  * `pathOf` will write it to. One mark per entry for its own checks,
- * plus ONE mark for the corpus checks (names, `sefariaHeadword`, cite
+ * plus ONE mark for the corpus checks (addresses, `sefariaHeadword`, cite
  * targets), each of whose problems is listed
  * as its own failure. A clean run reads 32,513/32,513; a corpus
  * problem shows as a missing pass, never as `N/N` beside a failure.
@@ -786,11 +784,11 @@ function markDeclaredLoss(
 
 export type { EvidenceSources, Tally };
 export {
+	checkAddresses,
 	checkChain,
 	checkContract,
 	checkEvidenceLocators,
 	checkHeadwordLine,
-	checkNames,
 	checkPages,
 	checkTextConservation,
 	mark,

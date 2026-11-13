@@ -7,10 +7,10 @@ import {
 } from '../../entry/schema.ts';
 import type { BodyEntry, BodySense, SourceEntry } from '../types.ts';
 import {
+	checkAddresses,
 	checkChain,
 	checkContract,
 	checkHeadwordLine,
-	checkNames,
 	checkPages,
 	checkTextConservation,
 	type Tally,
@@ -199,7 +199,7 @@ describe('checkChain', () => {
 	});
 });
 
-/** One entry as gate 7 reads it: the form the name derives from, and
+/** One entry as gate 7 reads it: the form the URL word derives from, and
  * the `sefariaHeadword` the run wrote. */
 function named(
 	id: string,
@@ -221,10 +221,9 @@ const SOURCE = new Map([
 	['A00003', 'גד'],
 ]);
 
-// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one suite per behaviour; its cases share setup and read as a single table.
-describe('checkNames', () => {
-	it('passes distinct names carrying the snapshot headword', () => {
-		const t = checkNames(
+describe('checkAddresses', () => {
+	it('passes entries with a word and the snapshot headword', () => {
+		const t = checkAddresses(
 			[
 				named('A00001', { text: 'אָב' }, 'אָב'),
 				named('A00002', { text: 'אב' }, 'אב'),
@@ -232,65 +231,35 @@ describe('checkNames', () => {
 			],
 			SOURCE,
 		);
-		// Two marks per entry: unique, and verbatim.
+		// Two marks per entry: a URL word, and verbatim.
 		expect(t.failures).toEqual([]);
 		expect(t.pass).toBe(6);
 		expect(t.total).toBe(6);
 	});
 
-	it('fails the second entry to hold a name', () => {
-		const t = checkNames(
+	it('passes two entries that share a URL word', () => {
+		// `buildEntryPaths` numbers them, so a shared word is no failure.
+		const t = checkAddresses(
 			[
 				named('A00001', { text: 'אָב' }, 'אָב'),
-				named('A00002', { homograph: 1, text: 'אָב' }, 'אב'),
-				named('A00003', { text: 'אָב' }, 'גד'),
-			],
-			SOURCE,
-		);
-		expect(t.failures).toEqual(['A00003: name אָב taken by A00001']);
-		expect(t.pass).toBe(5);
-		expect(t.total).toBe(6);
-	});
-
-	it('compares in NFC, so a decomposed name still collides', () => {
-		// The dangerous shape: two spellings of one word are two distinct
-		// JS strings and one URL. Without the normalization the gate
-		// passes and the route map has an ambiguous key.
-		const t = checkNames(
-			[
-				named('A00001', { text: 'אָב'.normalize('NFC') }, 'אָב'),
-				named('A00002', { text: 'אָב'.normalize('NFD') }, 'אב'),
-			],
-			SOURCE,
-		);
-		expect(t.failures).toHaveLength(1);
-		expect(t.failures[0]).toContain('taken by A00001');
-	});
-
-	it('keeps a reconstructed form distinct from its plain twin (U5)', () => {
-		// The 23 `*`/plain pairs. Drop the star from the formula and this
-		// case collides.
-		const t = checkNames(
-			[
-				named('A00001', { reconstructed: true, text: 'אָב' }, 'אָב'),
-				named('A00002', { text: 'אָב' }, 'אב'),
+				named('A00002', { homograph: 1, text: 'אב' }, 'אב'),
 			],
 			SOURCE,
 		);
 		expect(t.failures).toEqual([]);
+		expect(t.pass).toBe(4);
 	});
 
-	it('fails an entry whose name strips to nothing', () => {
-		// Not a collision — it is alone — so only the empty clause sees
-		// it. Without that clause the entry passes and has no URL.
-		const t = checkNames([named('A00001', { text: '(?)' }, 'אָב')], SOURCE);
-		expect(t.failures).toEqual(['A00001: name is empty from "(?)"']);
+	it('fails an entry whose URL word is empty', () => {
+		// Alone, so it collides with nobody; only the empty clause sees it.
+		const t = checkAddresses([named('A00001', { text: '(?)' }, 'אָב')], SOURCE);
+		expect(t.failures).toEqual(['A00001: URL word is empty from "(?)"']);
 		expect(t.pass).toBe(1);
 		expect(t.total).toBe(2);
 	});
 
 	it('fails a sefariaHeadword that is not the snapshot string', () => {
-		const t = checkNames(
+		const t = checkAddresses(
 			[named('A00001', { text: 'אָב' }, 'אָב edited by hand')],
 			SOURCE,
 		);
@@ -301,7 +270,7 @@ describe('checkNames', () => {
 	it('fails a rid the snapshot does not name', () => {
 		// `undefined` must not pass against an absent field: an entry with
 		// no source line has nothing to be verbatim from.
-		const t = checkNames([named('A09999', { text: 'אָב' }, 'אָב')], SOURCE);
+		const t = checkAddresses([named('A09999', { text: 'אָב' }, 'אָב')], SOURCE);
 		expect(t.failures).toHaveLength(1);
 		expect(t.failures[0]).toContain('the source says null');
 	});
@@ -783,10 +752,7 @@ describe('checkContract (gate 10)', () => {
 		);
 		expect(t.pass).toBe(2);
 		expect(t.total).toBe(3);
-		expect(t.failures).toEqual([
-			'A00002: name אב taken by A00001',
-			'A00002: sefariaHeadword אב taken by A00001',
-		]);
+		expect(t.failures).toEqual(['A00002: sefariaHeadword אב taken by A00001']);
 	});
 
 	// ANNOTATIONS.md §2 "What it cannot check": whether `source` is a real

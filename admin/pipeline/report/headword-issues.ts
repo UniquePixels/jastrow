@@ -22,7 +22,6 @@
  */
 import { dirname, relative } from 'node:path';
 import { intToSup, isHeadwordReviewKind } from '../../entry/headwords.ts';
-import { getPrimaryName } from '../../entry/names.ts';
 import type { Entry, FormObject } from '../../entry/schema.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import {
@@ -30,6 +29,7 @@ import {
 	toComparisonForm,
 	withoutMarks,
 } from '../../lib/hebrew.ts';
+import { buildEntryPaths } from '../../lib/url-path.ts';
 import {
 	DESIGN_PATH,
 	HEADWORD_ISSUES_DOC,
@@ -66,16 +66,15 @@ interface ReportRow {
  * whether the current processor already flags it. */
 interface IssueRow {
 	flagged: boolean;
-	/** The entry's current URL name (`admin/entry/names.ts`), for context
-	 * beside the form the row is about. Derived, never stored — this
-	 * file does not re-implement the derivation the way it once
-	 * re-implemented slug-stem stripping. */
-	name: string;
 	note: string;
 	rid: string;
 	role: 'alt' | 'headword';
 	shape: string;
 	text: string;
+	/** The entry's URL path (`admin/lib/url-path.ts`), for context
+	 * beside the form the row is about. Derived, never stored — this
+	 * file does not re-implement the derivation. */
+	url: string;
 }
 
 /** Whether every `(` closes after it opens. Equal totals are not
@@ -374,12 +373,20 @@ interface FormContext {
 	entry: Entry;
 	flagged: ReadonlySet<string>;
 	form: FormObject;
+	/** rid → URL path for the whole run, built once. */
+	paths: ReadonlyMap<string, string>;
 	role: 'alt' | 'headword';
 }
 
 /** One form's rows. `role` separates a primary headword from an
  * alternate: the same shape means different things on each. */
-function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
+function formRows({
+	entry,
+	flagged,
+	form,
+	paths,
+	role,
+}: FormContext): IssueRow[] {
 	const { text } = form;
 	const rid = entry.id;
 	const isFlagged = flagged.has(rid);
@@ -392,12 +399,12 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 		const note = noteFor(shape, issue, text, entry.headwords[0]?.text ?? '');
 		rows.push({
 			flagged: isFlagged,
-			name: getPrimaryName(entry),
 			note,
 			rid,
 			role,
 			shape,
 			text,
+			url: paths.get(rid) ?? '',
 		});
 	}
 	// An abbreviation is not a defect, but it is a population: every
@@ -410,12 +417,12 @@ function formRows({ entry, flagged, form, role }: FormContext): IssueRow[] {
 				: 'X7 abbreviation headword (׳/״)';
 		rows.push({
 			flagged: isFlagged,
-			name: getPrimaryName(entry),
 			note: '',
 			rid,
 			role,
 			shape,
 			text,
+			url: paths.get(rid) ?? '',
 		});
 	}
 	return rows;
@@ -659,6 +666,8 @@ function describeMember(m: FamilyMember): string {
 interface GapContext {
 	byConsonants: ReadonlyMap<string, readonly PlacedForm[]>;
 	entries: Map<string, Entry>;
+	/** rid → URL path for the whole run, built once. */
+	paths: ReadonlyMap<string, string>;
 	sequences: readonly NumberedSequence[];
 }
 
@@ -745,6 +754,7 @@ function numbering(members: readonly FamilyMember[]): {
 function homographGapRows({
 	byConsonants,
 	entries,
+	paths,
 	sequences,
 }: GapContext): IssueRow[] {
 	const inCleanSequence = cleanlySequenced(sequences);
@@ -773,7 +783,6 @@ function homographGapRows({
 		const candidate = bareCandidate(text, members, missing, byConsonants);
 		rows.push({
 			flagged: false,
-			name: getPrimaryName(entry),
 			note:
 				candidate === undefined
 					? `missing ${missing.join(',')}; ${detail}`
@@ -785,6 +794,7 @@ function homographGapRows({
 			role: first.index === 0 ? 'headword' : 'alt',
 			shape: candidate === undefined ? GAP_SHAPE : CANDIDATE_SHAPE,
 			text,
+			url: paths.get(first.rid) ?? '',
 		});
 	}
 	return rows;
@@ -971,27 +981,27 @@ function pointingNote(
  *
  * These are the families {@link homographGapRows} no longer reports,
  * and they are a question of their own: a mark missing on
- * `headwords[0]` changes the entry's URL name when it is fixed. */
+ * `headwords[0]` changes the entry's URL path when it is fixed. */
 function pointingRows(
-	entries: Map<string, Entry>,
+	paths: ReadonlyMap<string, string>,
 	inOrder: readonly Entry[],
 	sequences: readonly NumberedSequence[],
 ): IssueRow[] {
 	const rows: IssueRow[] = [];
 	for (const { members } of sequences.filter((s) => s.clean)) {
 		for (const [a, b] of spellingChanges(members)) {
-			const entry = entries.get(b.rid);
-			if (entry === undefined) {
+			const url = paths.get(b.rid);
+			if (url === undefined) {
 				continue;
 			}
 			rows.push({
 				flagged: false,
-				name: getPrimaryName(entry),
 				note: pointingNote(inOrder, members, a, b),
 				rid: b.rid,
 				role: b.index === 0 ? 'headword' : 'alt',
 				shape: 'X9 pointing differs within a numbered sequence',
 				text: b.text,
+				url,
 			});
 		}
 	}
@@ -1013,11 +1023,14 @@ function letterCount(text: string): number {
  * `בְּ־`). Past the first entry of two letters or more, a primary of
  * one consonant is no word print sets: it is a line Sefaria split at
  * a vowel, as it split U00489's `שׁוּף` into `ש` and `ׁוּף` (#113,
- * rejoined in #179), and its name is that one letter. X1 sees such a
+ * rejoined in #179), and its URL word is that one letter. X1 sees such a
  * split only when the next piece opens with a mark; `חָ, רַ, ת`
  * (H01792) opens none (review ledger L39). An abbreviation (X7) or a
  * prefix (X5) past the opening keeps its own shape. */
-function oneLetterRows(inOrder: readonly Entry[]): IssueRow[] {
+function oneLetterRows(
+	inOrder: readonly Entry[],
+	paths: ReadonlyMap<string, string>,
+): IssueRow[] {
 	const rows: IssueRow[] = [];
 	let section = '';
 	let opening = false;
@@ -1036,12 +1049,12 @@ function oneLetterRows(inOrder: readonly Entry[]): IssueRow[] {
 		}
 		rows.push({
 			flagged: false,
-			name: getPrimaryName(entry),
 			note: `the line reads ${entry.headwords.map((f) => f.text).join(', ')}`,
 			rid: entry.id,
 			role: 'headword',
 			shape: ONE_LETTER_SHAPE,
 			text,
+			url: paths.get(entry.id) ?? '',
 		});
 	}
 	return rows;
@@ -1083,12 +1096,12 @@ function renderKept(split: KeptSplit<IssueRow>): string[] {
 		'',
 		`Rows read against the print and found right as stored, from \`${REVIEWED_KEPT_PATH}\` (decisions 10-06 reviewed kept). They are out of their shape's count, not out of the report: a wrong record is still a row here.`,
 		'',
-		'| rid | role | shape | text | name | note | reason | flagged |',
+		'| rid | role | shape | text | url | note | reason | flagged |',
 		'|---|---|---|---|---|---|---|---|',
 	];
 	for (const { record, row } of kept) {
 		lines.push(
-			`| [${row.rid}](${APP_URL}${row.rid}) | ${row.role} | ${cell(row.shape)} | ${cell(row.text)} | ${cell(row.name)} | ${cell(row.note)} | ${cell(record.reason)} | ${row.flagged ? 'yes' : ''} |`,
+			`| [${row.rid}](${APP_URL}${row.rid}) | ${row.role} | ${cell(row.shape)} | ${cell(row.text)} | ${cell(row.url)} | ${cell(row.note)} | ${cell(record.reason)} | ${row.flagged ? 'yes' : ''} |`,
 		);
 	}
 	lines.push(
@@ -1151,12 +1164,12 @@ function render(split: KeptSplit<IssueRow>): string {
 			'',
 			`## ${shape} (${group.length})`,
 			'',
-			'| rid | role | text | name | note | flagged |',
+			'| rid | role | text | url | note | flagged |',
 			'|---|---|---|---|---|---|',
 		);
 		for (const row of group) {
 			lines.push(
-				`| [${row.rid}](${APP_URL}${row.rid}) | ${row.role} | ${cell(row.text)} | ${cell(row.name)} | ${cell(row.note)} | ${row.flagged ? 'yes' : ''} |`,
+				`| [${row.rid}](${APP_URL}${row.rid}) | ${row.role} | ${cell(row.text)} | ${cell(row.url)} | ${cell(row.note)} | ${row.flagged ? 'yes' : ''} |`,
 			);
 		}
 	}
@@ -1171,7 +1184,7 @@ function renderCsv(split: KeptSplit<IssueRow>): string {
 	const quote = (value: string): string => `"${value.replaceAll('"', '""')}"`;
 	const reasons = new Map(split.kept.map((k) => [k.row, k.record.reason]));
 	const lines = [
-		'shape,rid,role,text,name,note,processor_flagged,reviewed_kept',
+		'shape,rid,role,text,url,note,processor_flagged,reviewed_kept',
 	];
 	const rows = [...split.open, ...split.kept.map((k) => k.row)].toSorted(
 		(a, b) =>
@@ -1184,7 +1197,7 @@ function renderCsv(split: KeptSplit<IssueRow>): string {
 				row.rid,
 				row.role,
 				row.text,
-				row.name,
+				row.url,
 				row.note,
 				String(row.flagged),
 				reasons.get(row) ?? '',
@@ -1224,6 +1237,7 @@ function buildHeadwordIssues(
 		compareByCodeUnit(a.id, b.id),
 	);
 	const entries = new Map(inRidOrder.map((entry) => [entry.id, entry]));
+	const paths = buildEntryPaths(inRidOrder);
 	const rows: IssueRow[] = [];
 	for (const entry of inRidOrder) {
 		for (const [i, form] of entry.headwords.entries()) {
@@ -1232,6 +1246,7 @@ function buildHeadwordIssues(
 					entry,
 					flagged,
 					form,
+					paths,
 					role: i === 0 ? 'headword' : 'alt',
 				}),
 			);
@@ -1242,10 +1257,11 @@ function buildHeadwordIssues(
 		...homographGapRows({
 			byConsonants: formsByConsonants(inRidOrder),
 			entries,
+			paths,
 			sequences,
 		}),
-		...pointingRows(entries, inRidOrder, sequences),
-		...oneLetterRows(inRidOrder),
+		...pointingRows(paths, inRidOrder, sequences),
+		...oneLetterRows(inRidOrder, paths),
 	);
 	const split = splitKept(rows, kept);
 	return {

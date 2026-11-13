@@ -25,7 +25,7 @@ const GATE_NAMES = [
 	'schema',
 	'chain',
 	'internalTargets',
-	'names',
+	'addresses',
 	'pages',
 	'composition',
 	'contract',

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'bun:test';
-import { buildEntryPaths, toUrlWord } from '../url-path.ts';
+import { buildEntryPaths, findEmptyUrlWords, toUrlWord } from '../url-path.ts';
 
 describe('toUrlWord', () => {
 	it('keeps letters, maqaf, geresh and gershayim, drops the rest', () => {
@@ -42,5 +42,16 @@ describe('buildEntryPaths', () => {
 			['A02062', '/אמר-3'],
 			['B00001', '/בא'],
 		]);
+	});
+});
+
+describe('findEmptyUrlWords', () => {
+	it('lists the rids with no letter in their primary, in order', () => {
+		const entries = [
+			{ headwords: [{ text: '(?)' }], id: 'X00001' },
+			{ headwords: [{ text: 'אָב' }], id: 'X00002' },
+			{ headwords: [], id: 'X00003' },
+		];
+		expect(findEmptyUrlWords(entries as never)).toEqual(['X00001', 'X00003']);
 	});
 });

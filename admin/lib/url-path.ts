@@ -41,4 +41,16 @@ function buildEntryPaths(
 	return new Map([...paths].sort(([a], [b]) => compareByCodeUnit(a, b)));
 }
 
-export { buildEntryPaths, toUrlWord };
+/** The rids whose URL word is empty, in the order given: a headword
+ * that is all notation (`(?)`) keeps no letter, so its entry would be
+ * reachable by no URL. An entry with no forms counts as empty. The one
+ * address check left: a shared word is numbered, not refused. */
+function findEmptyUrlWords(
+	entries: readonly Pick<Entry, 'headwords' | 'id'>[],
+): string[] {
+	return entries
+		.filter((entry) => toUrlWord(entry.headwords[0]?.text ?? '') === '')
+		.map((entry) => entry.id);
+}
+
+export { buildEntryPaths, findEmptyUrlWords, toUrlWord };

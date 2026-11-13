@@ -18,2963 +18,2963 @@ and the rules behind each one, are in [DESIGN.md](../../admin/pipeline/DESIGN.md
 
 ## H6 multi-word (271)
 
-| rid | role | text | name | note | flagged |
+| rid | role | text | url | note | flagged |
 |---|---|---|---|---|---|
-| [A00116](https://jastrow.app/#rid:A00116) | alt | בַּר א׳ | אַבְיוּ | abbrev+word | yes |
-| [A00121](https://jastrow.app/#rid:A00121) | alt | בֵּי א׳ | *אֶבְיוֹנֵי | abbrev+word | yes |
-| [A00148](https://jastrow.app/#rid:A00148) | alt | א׳ ישימון | אַבְיַת | abbrev+word | yes |
-| [A00434](https://jastrow.app/#rid:A00434) | alt | א׳ הַשָּׂדֶה | אַדְנֵי | abbrev+word |  |
-| [A00720](https://jastrow.app/#rid:A00720) | alt | נקיס א׳ | *אונא | abbrev+word | yes |
-| [A00732](https://jastrow.app/#rid:A00732) | alt | א׳ קִטְמִין | אוֹנוֹס | abbrev+word | yes |
-| [A00742](https://jastrow.app/#rid:A00742) | alt | בית א׳ | אוּנְיָיקִי | abbrev+word | yes |
-| [A01035](https://jastrow.app/#rid:A01035) | alt | כְּפַר א׳ | אַחִים | abbrev+word | yes |
-| [A01126](https://jastrow.app/#rid:A01126) | alt | כפר א׳ | *איבּוּס | abbrev+word | yes |
-| [A01479](https://jastrow.app/#rid:A01479) | alt | קומיס א׳ | *איספיסריאון | abbrev+word | yes |
-| [A01674](https://jastrow.app/#rid:A01674) | alt | כפר א׳ | אִכּוּם | abbrev+word | yes |
-| [A01741](https://jastrow.app/#rid:A01741) | alt | א׳ פרכא | *אכסניי | abbrev+word | yes |
-| [A02002](https://jastrow.app/#rid:A02002) | headword | כְּפַר א׳ אָמוּס | *כְּפַר א׳ אָמוּס | abbrev+word |  |
-| [A02006](https://jastrow.app/#rid:A02006) | alt | בר א׳ | אמוראי | abbrev+word | yes |
-| [A02120](https://jastrow.app/#rid:A02120) | alt | בַּר א׳ | אַנְדְּרַאי | abbrev+word | yes |
-| [A02160](https://jastrow.app/#rid:A02160) | alt | בית א׳ | אַנְטְבִילָא | abbrev+word | yes |
-| [A02666](https://jastrow.app/#rid:A02666) | alt | א׳ בלסמון | אפי | abbrev+word | yes |
-| [A02694](https://jastrow.app/#rid:A02694) | alt | סָר א׳ | *אָפִיס | abbrev+word | yes |
-| [A02734](https://jastrow.app/#rid:A02734) | alt | קרן א׳ | אָפֵל II | abbrev+word |  |
-| [A02892](https://jastrow.app/#rid:A02892) | alt | א׳ רוח | אֹצְרוֹת | abbrev+word | yes |
-| [A03073](https://jastrow.app/#rid:A03073) | alt | א׳ ליפרן | ארטל | abbrev+word | yes |
-| [B00322](https://jastrow.app/#rid:B00322) | alt | בֵּית ב׳ | בּוּקְיָא | abbrev+word | yes |
-| [B00379](https://jastrow.app/#rid:B00379) | alt | נהר ב׳ | *בּוּרְנִיץ | abbrev+word | yes |
-| [B00506](https://jastrow.app/#rid:B00506) | alt | בֶּן ב׳ | בַּטִּיחַ | abbrev+word | yes |
-| [B00531](https://jastrow.app/#rid:B00531) | alt | בֵּי ב׳ | *בָּטְנִיתָא | abbrev+word | yes |
-| [B00741](https://jastrow.app/#rid:B00741) | alt | כְּפַר ב׳ | בִּישׁ II | abbrev+word | yes |
-| [B00780](https://jastrow.app/#rid:B00780) | alt | בַּעַל ב׳ | בְּכִי II | abbrev+word | yes |
-| [B00780](https://jastrow.app/#rid:B00780) | alt | עֵין ב׳ | בְּכִי II | abbrev+word | yes |
-| [B00874](https://jastrow.app/#rid:B00874) | alt | בֵּי בְּ׳ | בְּלִיעֵי | abbrev+word | yes |
-| [B00922](https://jastrow.app/#rid:B00922) | alt | בית ב׳ | בַּלְתִּי | abbrev+word |  |
-| [B00924](https://jastrow.app/#rid:B00924) | alt | סֵפֶר ב׳ | בְּמִדְבַּר | abbrev+word | yes |
-| [B01098](https://jastrow.app/#rid:B01098) | alt | עֲלֵי ב׳ | בְּצָלִים | abbrev+word | yes |
-| [B01196](https://jastrow.app/#rid:B01196) | alt | בֵּי ב׳ | *בָּרוּךְ | abbrev+word | yes |
-| [B01209](https://jastrow.app/#rid:B01209) | alt | ב׳ חַיִל | בְּרוֹר | abbrev+word | yes |
-| [B01209](https://jastrow.app/#rid:B01209) | alt | ב׳ חֵיל | בְּרוֹר | abbrev+word | yes |
-| [B01235](https://jastrow.app/#rid:B01235) | alt | בֵּי ב׳ | בֵּרַי | abbrev+word | yes |
-| [B01271](https://jastrow.app/#rid:B01271) | alt | רם ב׳ | *בָּרִין | abbrev+word | yes |
-| [B01281](https://jastrow.app/#rid:B01281) | alt | פילי ב׳ | *בריש | abbrev+word | yes |
-| [B01312](https://jastrow.app/#rid:B01312) | alt | בֵּי ב׳ | בַּרְצִיתָא | abbrev+word | yes |
-| [B01316](https://jastrow.app/#rid:B01316) | alt | בְּנֵי ב׳ | בְּרַק II | abbrev+word | yes |
-| [B01340](https://jastrow.app/#rid:B01340) | alt | ב׳ חווּרן | בְּרַת II | abbrev+word | yes |
-| [C00060](https://jastrow.app/#rid:C00060) | alt | כפר ג׳ חיל | גבור | abbrev+word | yes |
-| [C00063](https://jastrow.app/#rid:C00063) | alt | כפר ג׳ | גבוריא | abbrev+word | yes |
-| [C00078](https://jastrow.app/#rid:C00078) | alt | ג׳ גילא | גַּבְיָא III | abbrev+word | yes |
-| [C00515](https://jastrow.app/#rid:C00515) | alt | בַּר גַּ׳ | גַּזָּא | abbrev+word | yes |
-| [C00667](https://jastrow.app/#rid:C00667) | alt | בר ג׳ | גִּיּוֹרֵי | abbrev+word | yes |
-| [C00763](https://jastrow.app/#rid:C00763) | alt | גּ׳ טַעֲוָותָא | גּיניאך | abbrev+word | yes |
-| [C00851](https://jastrow.app/#rid:C00851) | alt | ג׳ קסינון | גלא | abbrev+word | yes |
-| [C01013](https://jastrow.app/#rid:C01013) | alt | בַּר ג׳ | *גַּמְזָא | abbrev+word | yes |
-| [C01291](https://jastrow.app/#rid:C01291) | alt | בַּר ג׳ | גְּרוֹגְרוֹת | abbrev+word | yes |
-| [C01358](https://jastrow.app/#rid:C01358) | alt | דינא דג׳ | גְּרָמֵי | abbrev+word | yes |
-| [D00644](https://jastrow.app/#rid:D00644) | alt | נהר ד׳ | דִּינוּר | abbrev+word | yes |
-| [D00830](https://jastrow.app/#rid:D00830) | alt | בר ד׳ | דליא | abbrev+word |  |
-| [D00983](https://jastrow.app/#rid:D00983) | alt | ד׳ עד״ש באח״ב | דצ״ך | abbrev+word | yes |
-| [D01080](https://jastrow.app/#rid:D01080) | alt | בֵּי דָ׳ | דָּרֵי | abbrev+word | yes |
-| [E00114](https://jastrow.app/#rid:E00114) | alt | בַּר ה׳ | הֲדָיָא II | abbrev+word |  |
-| [E00114](https://jastrow.app/#rid:E00114) | alt | בֶּן ה׳ | הֲדָיָא II | abbrev+word |  |
-| [E00295](https://jastrow.app/#rid:E00295) | alt | ה׳ ל״ך | הז״יו | abbrev+word | yes |
-| [E00456](https://jastrow.app/#rid:E00456) | alt | בית ה׳ | הִינוּ | abbrev+word | yes |
-| [E00590](https://jastrow.app/#rid:E00590) | alt | בֵּית ה׳ | הַמְגַּנְיָא | abbrev+word |  |
-| [E00592](https://jastrow.app/#rid:E00592) | alt | בַּר ה׳ | הַמְדּוּדֵי | abbrev+word | yes |
-| [E00593](https://jastrow.app/#rid:E00593) | alt | בר ה׳ | הַמְדּוּרֵי | abbrev+word | yes |
-| [E00654](https://jastrow.app/#rid:E00654) | alt | בַּר ה׳ | הֵנַג | abbrev+word |  |
-| [F00006](https://jastrow.app/#rid:F00006) | alt | ו׳ שְׁמוֹת | וְאֵלֶּה | abbrev+word | yes |
-| [F00058](https://jastrow.app/#rid:F00058) | alt | וו׳ שָׁפָט | וֵול | abbrev+word | yes |
-| [G00014](https://jastrow.app/#rid:G00014) | alt | בֵּית ז׳ | זַבְדִּין | abbrev+word | yes |
-| [G00188](https://jastrow.app/#rid:G00188) | alt | ז׳ ליסטרא | זומי | abbrev+word | yes |
-| [G00188](https://jastrow.app/#rid:G00188) | alt | ז׳ לסטרון | זומי | abbrev+word | yes |
-| [G00325](https://jastrow.app/#rid:G00325) | alt | בַּר ז׳ | זִיזָא III | abbrev+word | yes |
-| [G00676](https://jastrow.app/#rid:G00676) | alt | מֶלַח דְּזַ׳ | *זַרְוַאי | abbrev+word | yes |
-| [H00065](https://jastrow.app/#rid:H00065) | alt | ח׳ יַמָּא | חֲבֵיל² | abbrev+word | yes |
-| [H00181](https://jastrow.app/#rid:H00181) | alt | בית ח׳ | חֲדוּדוּ | abbrev+word | yes |
-| [H00247](https://jastrow.app/#rid:H00247) | alt | בַּר׳ ח׳ | חוּבָּץ I | abbrev+word | yes |
-| [H00285](https://jastrow.app/#rid:H00285) | alt | בֵּי ח׳ | חוֹזָאֵי | abbrev+word | yes |
-| [H00379](https://jastrow.app/#rid:H00379) | alt | ח׳ סוּבְנִי | חוֹמֶס | abbrev+word | yes |
-| [H00464](https://jastrow.app/#rid:H00464) | alt | בֵּית ח׳ | חוֹרוֹן | abbrev+word | yes |
-| [H00535](https://jastrow.app/#rid:H00535) | alt | כְּפַר ח׳ | חֲזִיז II | abbrev+word | yes |
-| [H00622](https://jastrow.app/#rid:H00622) | alt | כפר ח׳ | חטיאה | abbrev+word | yes |
-| [H00632](https://jastrow.app/#rid:H00632) | alt | כפר ח׳ | חִטַּיָּיה | abbrev+word | yes |
-| [H00711](https://jastrow.app/#rid:H00711) | alt | כְּפַר ח׳ | חִיטַּיָּיא | abbrev+word | yes |
-| [H00843](https://jastrow.app/#rid:H00843) | alt | בֵּית ח׳ | חֵיפָה I | abbrev+word |  |
-| [H00880](https://jastrow.app/#rid:H00880) | alt | בַּר חִ׳ | חִירְיָא | abbrev+word | yes |
-| [H01614](https://jastrow.app/#rid:H01614) | alt | כפר ח׳ | חֲרוּבָא² | abbrev+word |  |
-| [I00049](https://jastrow.app/#rid:I00049) | alt | כְּפַר ט׳ | טָבִי II | abbrev+word | yes |
-| [I00137](https://jastrow.app/#rid:I00137) | alt | ט׳ אוּמָנוֹס | טַוְורוֹס | abbrev+word |  |
-| [I00212](https://jastrow.app/#rid:I00212) | alt | בקעת בית ט׳ | *טוֹפֶת | abbrev+word | yes |
-| [I00241](https://jastrow.app/#rid:I00241) | alt | ט׳ רופוס | טוּרְנוֹס | abbrev+word | yes |
-| [I00353](https://jastrow.app/#rid:I00353) | alt | ט׳ סַמּוֹקָה | טַיְיפָה | abbrev+word |  |
-| [I00535](https://jastrow.app/#rid:I00535) | alt | ט׳ ביריא | טמו | abbrev+word | yes |
-| [I00722](https://jastrow.app/#rid:I00722) | alt | נחל ט׳ | *טַרְוַויָּא | abbrev+word | yes |
-| [I00789](https://jastrow.app/#rid:I00789) | alt | ט׳ קוֹנְטָא | טְרִיָיא | abbrev+word | yes |
-| [J00171](https://jastrow.app/#rid:J00171) | alt | ארכי י׳ | יודקו | abbrev+word |  |
-| [J00184](https://jastrow.app/#rid:J00184) | alt | בַּר י׳ | יוֹכָנִי | abbrev+word | yes |
-| [J00253](https://jastrow.app/#rid:J00253) | alt | כִּי י׳ | יוּתָּן | abbrev+word | yes |
-| [J00432](https://jastrow.app/#rid:J00432) | alt | מַר י׳ | יָנוּקָא II | abbrev+word | yes |
-| [J00463](https://jastrow.app/#rid:J00463) | alt | יַי׳ חֳלִי | *יַסֵּי | abbrev+word | yes |
-| [J00464](https://jastrow.app/#rid:J00464) | alt | י׳ לי | יסיח | abbrev+word | yes |
-| [J00691](https://jastrow.app/#rid:J00691) | alt | בַּר י׳ | יְשִׁיטָא | abbrev+word | yes |
-| [K00013](https://jastrow.app/#rid:K00013) | alt | כ׳ צַד | כְּאֵי | abbrev+word | yes |
-| [K00107](https://jastrow.app/#rid:K00107) | headword | כִּדְ׳ כַּדְבוּבָא | כִּדְ׳ כַּדְבוּבָא | abbrev+word |  |
-| [K00115](https://jastrow.app/#rid:K00115) | alt | עינבין דכ׳ | כדום | abbrev+word | yes |
-| [K00392](https://jastrow.app/#rid:K00392) | alt | אולו כ׳ | כורסון | abbrev+word | yes |
-| [K00392](https://jastrow.app/#rid:K00392) | alt | אולון כ׳ | כורסון | abbrev+word | yes |
-| [K00606](https://jastrow.app/#rid:K00606) | alt | בֵּי כ׳ | כֵּיפֵי | abbrev+word | yes |
-| [K00629](https://jastrow.app/#rid:K00629) | alt | כ׳ דבית סכל | כִּירַיָּא | abbrev+word | yes |
-| [K00699](https://jastrow.app/#rid:K00699) | alt | בֵּי כ׳ | כְּלוּחִית | abbrev+word | yes |
-| [K00851](https://jastrow.app/#rid:K00851) | alt | כ׳ פַּרְוָוא | כַּנְיָא | abbrev+word | yes |
-| [K01170](https://jastrow.app/#rid:K01170) | alt | כ׳ אַרְגִּירָא | כְּרִיסוֹ | abbrev+word | yes |
-| [L00104](https://jastrow.app/#rid:L00104) | alt | עַרְקַת ל׳ | לִבְנָה | abbrev+word | yes |
-| [L00210](https://jastrow.app/#rid:L00210) | alt | ל׳ דקין | לוודין | abbrev+word | yes |
-| [L00253](https://jastrow.app/#rid:L00253) | alt | בר ל׳ | לִוְיָאנוֹס | abbrev+word | yes |
-| [L00306](https://jastrow.app/#rid:L00306) | alt | בר ל׳ | לוּפְיָינִי | abbrev+word | yes |
-| [M00263](https://jastrow.app/#rid:M00263) | alt | מ׳ חיוורא | מַדְוֵי | abbrev+word |  |
-| [M00643](https://jastrow.app/#rid:M00643) | alt | הַר הַמּ׳ | מוֹרִיָּה | abbrev+word | yes |
-| [M00646](https://jastrow.app/#rid:M00646) | alt | שׁוּבְלַיָּיא מ׳ | מוֹרַיָּיא | abbrev+word | yes |
-| [M00687](https://jastrow.app/#rid:M00687) | alt | כְּרַךְ מ׳ | מוֹשְׁכִּי | abbrev+word | yes |
-| [M00720](https://jastrow.app/#rid:M00720) | alt | מ׳ חַמְרָא | מָזְגָּא² | abbrev+word | yes |
-| [M00910](https://jastrow.app/#rid:M00910) | alt | מָתָא מ׳ | מְחַסְיָא | abbrev+word | yes |
-| [M00943](https://jastrow.app/#rid:M00943) | alt | מ׳ דְיַתִּיר | מְחַרְתָּא | abbrev+word | yes |
-| [M01181](https://jastrow.app/#rid:M01181) | alt | מ׳ מילה | מילי² | abbrev+word | yes |
-| [M01234](https://jastrow.app/#rid:M01234) | alt | מ׳ חִיוְיָא | מִינְקַת | abbrev+word | yes |
-| [M01299](https://jastrow.app/#rid:M01299) | alt | מ׳ מִירְיָאדִין | מִירִי | abbrev+word | yes |
-| [M01502](https://jastrow.app/#rid:M01502) | alt | בֵּית מ׳ | מִלְוָון | abbrev+word | yes |
-| [M01528](https://jastrow.app/#rid:M01528) | alt | מִגְּדַּל מ׳ | מַלְחָא | abbrev+word | yes |
-| [M01713](https://jastrow.app/#rid:M01713) | alt | כְּפַר מ׳ | מַנְדּוּ | abbrev+word | yes |
-| [M01752](https://jastrow.app/#rid:M01752) | alt | כפר מ׳ | מנורי | abbrev+word | yes |
-| [M01768](https://jastrow.app/#rid:M01768) | alt | אֲרַע מ׳ | מִנִּי | abbrev+word | yes |
-| [M02141](https://jastrow.app/#rid:M02141) | alt | מַ׳ מְרָא | מַעֲלַת | abbrev+word | yes |
-| [M02276](https://jastrow.app/#rid:M02276) | alt | פִּי מְ׳ | מְצוּבָה | abbrev+word | yes |
-| [M02405](https://jastrow.app/#rid:M02405) | alt | בֶּן מְ׳ | מְקוֹשֵׁשׁ II | abbrev+word | yes |
-| [M02595](https://jastrow.app/#rid:M02595) | alt | בֵּית מָ׳ | מָרוֹן II | abbrev+word | yes |
-| [M02894](https://jastrow.app/#rid:M02894) | alt | בֵּי מְ׳ | מְשָׁכָא | abbrev+word | yes |
-| [N00057](https://jastrow.app/#rid:N00057) | alt | נ׳ חַיִל | נִבּוּר | abbrev+word |  |
-| [N00058](https://jastrow.app/#rid:N00058) | alt | כְּפַר נ׳ | נִבּוּרַיָּא | abbrev+word |  |
-| [N00496](https://jastrow.app/#rid:N00496) | alt | נ׳ ימא | נחיתי | abbrev+word | yes |
-| [N00541](https://jastrow.app/#rid:N00541) | alt | בַּר נ׳ | נָטוֹזָא | abbrev+word | yes |
-| [N00701](https://jastrow.app/#rid:N00701) | alt | הַר נ׳ | נִיסַּאי | abbrev+word | yes |
-| [N00755](https://jastrow.app/#rid:N00755) | alt | בַּר נִ׳ | נִיצוֹר | abbrev+word | yes |
-| [N00811](https://jastrow.app/#rid:N00811) | alt | פַּרְעֹה נ׳ | נְכֹה | abbrev+word | yes |
-| [N00892](https://jastrow.app/#rid:N00892) | alt | בֵּית נ׳ | נִמְרָה | abbrev+word | yes |
-| [N00928](https://jastrow.app/#rid:N00928) | alt | אתא נ׳ | נסיא | abbrev+word |  |
-| [N01061](https://jastrow.app/#rid:N01061) | alt | בַּר נִ׳ | נִפְלֵי | abbrev+word | yes |
-| [N01154](https://jastrow.app/#rid:N01154) | alt | נ׳ קא | נקאני | abbrev+word | yes |
-| [N01211](https://jastrow.app/#rid:N01211) | alt | בֵּית נְ׳ | נְקִיפֵי | abbrev+word | yes |
-| [N01212](https://jastrow.app/#rid:N01212) | alt | נְ׳ דְעִיּוֹן | נְקִיפְתָּא | abbrev+word | yes |
-| [O00302](https://jastrow.app/#rid:O00302) | alt | ס׳ בְּנוֹת | סוּכּוֹת | abbrev+word |  |
-| [O00308](https://jastrow.app/#rid:O00308) | alt | עֵין ס׳ | סוֹכֵר | abbrev+word | yes |
-| [O00564](https://jastrow.app/#rid:O00564) | alt | כְּפַר ס׳ | סִיגְנָא | abbrev+word | yes |
-| [O00695](https://jastrow.app/#rid:O00695) | alt | ס׳ דְאַגְמָא | סִימוּנָא | abbrev+word | yes |
-| [O00713](https://jastrow.app/#rid:O00713) | alt | הַר ס׳ | סִימָנַאי | abbrev+word | yes |
-| [O00746](https://jastrow.app/#rid:O00746) | alt | כְּפַר ס׳ | סִיסַאי | abbrev+word | yes |
-| [O00852](https://jastrow.app/#rid:O00852) | alt | בִּירַת ס׳ | סִירִיקָא | abbrev+word |  |
-| [O00889](https://jastrow.app/#rid:O00889) | alt | ס׳ בְּנוֹת | סֻכּוֹת | abbrev+word | yes |
-| [O00968](https://jastrow.app/#rid:O00968) | alt | בֵּית ס׳ | סַלּוּנִי | abbrev+word | yes |
-| [O01072](https://jastrow.app/#rid:O01072) | alt | אַבָּא ס׳ | סִמּוּקְיָד | abbrev+word | yes |
-| [O01089](https://jastrow.app/#rid:O01089) | alt | כפר ס׳ | סמיי | abbrev+word | yes |
-| [O01232](https://jastrow.app/#rid:O01232) | alt | בַּר ס׳ | סַנִּיגוֹרָא | abbrev+word | yes |
-| [O01341](https://jastrow.app/#rid:O01341) | alt | כְּפַר ס׳ | סִפּוּרַיָּיא | abbrev+word | yes |
-| [O01626](https://jastrow.app/#rid:O01626) | alt | בִּירַת ס׳ | סָרִיקָא | abbrev+word | yes |
-| [O01669](https://jastrow.app/#rid:O01669) | alt | ס׳ אני | סרק | abbrev+word | yes |
-| [P00137](https://jastrow.app/#rid:P00137) | headword | עָ׳ עַדְיָא | עָ׳ עַדְיָא | abbrev+word |  |
-| [P00353](https://jastrow.app/#rid:P00353) | alt | בֵּי ע׳ | עוֹרַבְתִּי | abbrev+word | yes |
-| [P00381](https://jastrow.app/#rid:P00381) | alt | כְּפַר ע׳ | עַוְתָנַאי | abbrev+word |  |
-| [P00553](https://jastrow.app/#rid:P00553) | alt | ע׳ טַב | עַיְינֵי | abbrev+word | yes |
-| [P00563](https://jastrow.app/#rid:P00563) | alt | כְּפַר עִ׳ | עִיכּוּם | abbrev+word | yes |
-| [P00869](https://jastrow.app/#rid:P00869) | alt | בְּנֵי עַ׳ | עַמּוֹן | abbrev+word | yes |
-| [P00890](https://jastrow.app/#rid:P00890) | alt | כְּפַר ע׳ | עֲמִיקוּ | abbrev+word |  |
-| [P00983](https://jastrow.app/#rid:P00983) | alt | ע׳ עֲנָתוֹת | עֲנִיָּה II | abbrev+word | yes |
-| [P00991](https://jastrow.app/#rid:P00991) | alt | כפר ע׳ | ענים | abbrev+word | yes |
-| [P01166](https://jastrow.app/#rid:P01166) | alt | בֶּן ע׳ | *עָקוֹשׁ I | abbrev+word |  |
-| [P01452](https://jastrow.app/#rid:P01452) | alt | עַ׳ לִבְנָה | עַרְקַת | abbrev+word | yes |
-| [P01520](https://jastrow.app/#rid:P01520) | alt | בַּר עַ׳ | עַשְׁתּוֹר | abbrev+word | yes |
-| [Q00005](https://jastrow.app/#rid:Q00005) | alt | בֵּית פ׳ | פָּאגֵי | abbrev+word |  |
-| [Q00053](https://jastrow.app/#rid:Q00053) | alt | בֵּית פַּ׳ | פַּגֵּי | abbrev+word |  |
-| [Q00099](https://jastrow.app/#rid:Q00099) | alt | כְּפַר פ׳ | פַּגָּשׁ | abbrev+word | yes |
-| [Q00127](https://jastrow.app/#rid:Q00127) | alt | קָקוֹ פ׳ | *פְּדִיפְטֵי | abbrev+word | yes |
-| [Q00326](https://jastrow.app/#rid:Q00326) | alt | בני פ׳ | פוקרים | abbrev+word | yes |
-| [Q00436](https://jastrow.app/#rid:Q00436) | alt | פ׳ קש״ב | פז״ר | abbrev+word | yes |
-| [Q00494](https://jastrow.app/#rid:Q00494) | alt | בַּר פ׳ | פַּטָּא | abbrev+word | yes |
-| [Q00650](https://jastrow.app/#rid:Q00650) | alt | בַּר פ׳ | פְּיָילִי II | abbrev+word | yes |
-| [Q00697](https://jastrow.app/#rid:Q00697) | alt | פ׳ ביארי | פיליא | abbrev+word | yes |
-| [Q00798](https://jastrow.app/#rid:Q00798) | alt | בר פ׳ | פִּיקָא³ | abbrev+word |  |
-| [Q00980](https://jastrow.app/#rid:Q00980) | alt | פ׳ פילון | פלומי | abbrev+word | yes |
-| [Q01039](https://jastrow.app/#rid:Q01039) | alt | פ׳ בֵיאָרִי | פַּלְיָא | abbrev+word | yes |
-| [Q01044](https://jastrow.app/#rid:Q01044) | alt | טוּרָא פ׳ | פְּלִיגָא II | abbrev+word | yes |
-| [Q01335](https://jastrow.app/#rid:Q01335) | alt | בִּקְעַת פַּ׳ | *פַּסְלָן | abbrev+word | yes |
-| [Q01377](https://jastrow.app/#rid:Q01377) | alt | בַּעַל פְּ׳ | פְּעוֹר | abbrev+word | yes |
-| [Q01399](https://jastrow.app/#rid:Q01399) | alt | נְהַר פּ׳ | פַּפָּא II | abbrev+word | yes |
-| [Q01492](https://jastrow.app/#rid:Q01492) | alt | כְּפַר פְּ׳ | פְּקִיעִין | abbrev+word | yes |
-| [Q01751](https://jastrow.app/#rid:Q01751) | alt | טַוַּור פ׳ | פַּרְזְלָא II | abbrev+word | yes |
-| [R00066](https://jastrow.app/#rid:R00066) | alt | מַגְדַּל צַ׳ | צַבָּעַיָּא | abbrev+word |  |
-| [R00066](https://jastrow.app/#rid:R00066) | alt | מַגְדְּלָא דצַ׳ | צַבָּעַיָּא | abbrev+word |  |
-| [R00193](https://jastrow.app/#rid:R00193) | alt | בֵּית צ׳ | צוּלָאֵי | abbrev+word | yes |
-| [R00478](https://jastrow.app/#rid:R00478) | alt | בֵּית צ׳ | צַלָּאֵי | abbrev+word | yes |
-| [R00569](https://jastrow.app/#rid:R00569) | alt | כְּפַר צֶ׳ | צֶמַח III | abbrev+word | yes |
-| [R00577](https://jastrow.app/#rid:R00577) | alt | צַ׳ קַיְיטָא | צַמְיָיא | abbrev+word | yes |
-| [R00593](https://jastrow.app/#rid:R00593) | alt | צ׳ מורייה | צמר | abbrev+word | yes |
-| [R00593](https://jastrow.app/#rid:R00593) | alt | צ׳ מורין | צמר | abbrev+word | yes |
-| [R00738](https://jastrow.app/#rid:R00738) | alt | רוּחַ צְ׳ | צְרָדָא II | abbrev+word |  |
-| [S00197](https://jastrow.app/#rid:S00197) | alt | קַ׳ נוּנָא | קַדַשׁ | abbrev+word | yes |
-| [S00237](https://jastrow.app/#rid:S00237) | alt | ק׳ דְעַיְיתָא | קוֹבְעַיָּא | abbrev+word | yes |
-| [S00350](https://jastrow.app/#rid:S00350) | alt | ק׳ מסיא | קולמז | abbrev+word | yes |
-| [S00352](https://jastrow.app/#rid:S00352) | alt | ק׳ מסיא | קולמן | abbrev+word | yes |
-| [S00493](https://jastrow.app/#rid:S00493) | alt | בֵּי ק׳ | קוּפָּאֵי | abbrev+word | yes |
-| [S00493](https://jastrow.app/#rid:S00493) | alt | בֵּית ק׳ | קוּפָּאֵי | abbrev+word | yes |
-| [S00675](https://jastrow.app/#rid:S00675) | alt | בֵּית ק׳ | קוֹשֵׁשׁ | abbrev+word | yes |
-| [S00728](https://jastrow.app/#rid:S00728) | alt | כל ק׳ | קטורין | abbrev+word | yes |
-| [S00900](https://jastrow.app/#rid:S00900) | alt | בֶּן ק׳ | קִיטּוּנְתָּא | abbrev+word | yes |
-| [S01237](https://jastrow.app/#rid:S01237) | alt | קְ׳ אִילָּן | קְלָא III | abbrev+word | yes |
-| [S01238](https://jastrow.app/#rid:S01238) | alt | ק׳ פנדר | קלא | abbrev+word | yes |
-| [S01467](https://jastrow.app/#rid:S01467) | alt | ק׳ שָׂפָה | קָמֵי | abbrev+word | yes |
-| [S01492](https://jastrow.app/#rid:S01492) | alt | בֶּן קַ׳ | קַמְצָר | abbrev+word | yes |
-| [S01585](https://jastrow.app/#rid:S01585) | alt | עֲלֵי קַ׳ | קַנְיָיה | abbrev+word | yes |
-| [S01770](https://jastrow.app/#rid:S01770) | alt | בַּר קַ׳ | קַפָּרָא | abbrev+word | yes |
-| [S01862](https://jastrow.app/#rid:S01862) | alt | ק׳ פדיפטי | קָקוֹ | abbrev+word | yes |
-| [S01914](https://jastrow.app/#rid:S01914) | alt | בַּר קַ׳ | קַרְדִּימָא | abbrev+word | yes |
-| [S02058](https://jastrow.app/#rid:S02058) | alt | כְּפַר קִ׳ | קִרְיָינוֹס | abbrev+word | yes |
-| [S02108](https://jastrow.app/#rid:S02108) | alt | כְּפַר ק׳ | קַרְנַיִם | abbrev+word | yes |
-| [T00399](https://jastrow.app/#rid:T00399) | alt | כְּרַךְ ר׳ | רוּמְקִי | abbrev+word | yes |
-| [T00566](https://jastrow.app/#rid:T00566) | alt | פּוּנְדְּקָא רְ׳ | רִטִיבְתָּא | abbrev+word | yes |
-| [U00036](https://jastrow.app/#rid:U00036) | alt | בר ש׳ | שאן | abbrev+word | yes |
-| [U00037](https://jastrow.app/#rid:U00037) | alt | בֵּית שְׁ׳ | שְׁאָן | abbrev+word | yes |
-| [U00378](https://jastrow.app/#rid:U00378) | alt | ש׳ מִישׁוֹט | שׁוֹט I | abbrev+word | yes |
-| [U00513](https://jastrow.app/#rid:U00513) | alt | בֵּית ש׳ | שׁוּפְרֵי | abbrev+word | yes |
-| [U00682](https://jastrow.app/#rid:U00682) | alt | צִפַּר שַׁ׳ | שַׁחְפָּא I | abbrev+word |  |
-| [U00868](https://jastrow.app/#rid:U00868) | alt | כְּפַר שִׁ׳ | שִׁיחַיָּא | abbrev+word | yes |
-| [U01135](https://jastrow.app/#rid:U01135) | alt | שְׂ׳ בִּזָּאֵי | שְׂכוֹר | abbrev+word | yes |
-| [U01257](https://jastrow.app/#rid:U01257) | alt | שְׁ׳ דּוֹץ | שְׁלוֹף | abbrev+word | yes |
-| [U01385](https://jastrow.app/#rid:U01385) | alt | בֶּן שַׁ׳ | שַׁלְקוּת | abbrev+word |  |
-| [U01649](https://jastrow.app/#rid:U01649) | alt | ש׳ ג״ץ | שעטנ״ז | abbrev+word | yes |
-| [U01693](https://jastrow.app/#rid:U01693) | alt | בֵּית שְׁ׳ | שְׁעָרִים | abbrev+word | yes |
-| [U01905](https://jastrow.app/#rid:U01905) | alt | מִגְדַּל שׁ׳ | שֵׁר | abbrev+word |  |
-| [U01971](https://jastrow.app/#rid:U01971) | alt | בֵּי שַׁ׳ | שַׁרְיֵי | abbrev+word |  |
-| [U01977](https://jastrow.app/#rid:U01977) | alt | יַמָּא דשִׁ׳ | שִׁרְיַית | abbrev+word | yes |
-| [V00085](https://jastrow.app/#rid:V00085) | alt | בֶּן תַּ׳ | תַּגְלָא | abbrev+word | yes |
-| [V00112](https://jastrow.app/#rid:V00112) | alt | בֶּן תַּ׳ | *תַּדָּל | abbrev+word | yes |
-| [V00190](https://jastrow.app/#rid:V00190) | alt | בַּר תּ׳ | תּוּטָנִי | abbrev+word | yes |
-| [V00321](https://jastrow.app/#rid:V00321) | alt | בֶּן תּ׳ | תּוֹרְתָּא² | abbrev+word |  |
-| [V00322](https://jastrow.app/#rid:V00322) | alt | בֵּי ת׳ | תּוֹרָתָא | abbrev+word | yes |
-| [V00379](https://jastrow.app/#rid:V00379) | alt | כְּפַר תַּ׳ | תַּחֲמִין | abbrev+word | yes |
-| [V00566](https://jastrow.app/#rid:V00566) | alt | תְּ׳ אִילָּן | תְּלָא | abbrev+word | yes |
-| [V00611](https://jastrow.app/#rid:V00611) | alt | בַּר תְּ׳ | תְּלַמְיוֹן | abbrev+word | yes |
-| [V00690](https://jastrow.app/#rid:V00690) | alt | בֶּן תְּ׳ | תְּמַלְיוֹן | abbrev+word | yes |
-| [V00853](https://jastrow.app/#rid:V00853) | alt | בַּר תַּ׳ | תַּפְקָן | abbrev+word | yes |
-| [V00924](https://jastrow.app/#rid:V00924) | alt | בֵּי תַ׳ | תַּרְבּוּ | abbrev+word | yes |
-| [V01120](https://jastrow.app/#rid:V01120) | alt | אין ת׳ | תתיה | abbrev+word | yes |
-| [A00436](https://jastrow.app/#rid:A00436) | headword | אדני מריונים | אדני מריונים | other phrase |  |
-| [A01881](https://jastrow.app/#rid:A01881) | headword | בֵּי אֱלִישָׁפָט | בֵּי אֱלִישָׁפָט | other phrase |  |
-| [B00442](https://jastrow.app/#rid:B00442) | alt | בֵּי זְיוּנָא | בִּזְיוּנָא I | other phrase |  |
-| [B00442](https://jastrow.app/#rid:B00442) | alt | בֵּי זְיָינָא | בִּזְיוּנָא I | other phrase |  |
-| [B00864](https://jastrow.app/#rid:B00864) | alt | בְּלִי מָה | בְּלִימָה | other phrase |  |
-| [C00517](https://jastrow.app/#rid:C00517) | headword | גזא דפטי | גזא דפטי | other phrase |  |
-| [E00032](https://jastrow.app/#rid:E00032) | alt | בַּר חָבוּ | הָבוּ | other phrase |  |
-| [H01065](https://jastrow.app/#rid:H01065) | alt | חֲלִי קוּפְרִי | חֲלִיקוּפְרִי | other phrase |  |
-| [I00568](https://jastrow.app/#rid:I00568) | alt | טַן דּוּ | טַנְדּוּ | other phrase |  |
-| [Q00248](https://jastrow.app/#rid:Q00248) | alt | פּוּם בְּדִיתָא | פּוּמְבְּדִיתָא | other phrase |  |
-| [S01240](https://jastrow.app/#rid:S01240) | alt | קְלָא אִילָּן | קְלָאִילָּן | other phrase |  |
-| [A03391](https://jastrow.app/#rid:A03391) | alt | א״ת ב״ש | א״ת | phrase containing headword |  |
-| [B00050](https://jastrow.app/#rid:B00050) | alt | בַּב נַהֲרָא | בָּב II | phrase containing headword |  |
-| [B00071](https://jastrow.app/#rid:B00071) | alt | בֶּן בַּג בַּג | בַּג | phrase containing headword |  |
-| [C01224](https://jastrow.app/#rid:C01224) | alt | ג״ר ד״ק | ג״ר | phrase containing headword |  |
-| [D00300](https://jastrow.app/#rid:D00300) | alt | דונה טיבה | דונה | phrase containing headword |  |
-| [I00020](https://jastrow.app/#rid:I00020) | alt | עֵין טַב | טַב III | phrase containing headword |  |
-| [O01509](https://jastrow.app/#rid:O01509) | alt | סָר אָפִיס | סָר² | phrase containing headword |  |
-| [S01777](https://jastrow.app/#rid:S01777) | alt | קָץ שֶׁקֶר | קָץ | phrase containing headword |  |
-| [T00781](https://jastrow.app/#rid:T00781) | alt | רָם בָּרִין | רָם² | phrase containing headword |  |
-| [T00782](https://jastrow.app/#rid:T00782) | alt | כִּירִי רָם | רָם³ | phrase containing headword |  |
-| [U01196](https://jastrow.app/#rid:U01196) | alt | שַׁל צִיּוֹן | שַׁל² | phrase containing headword |  |
-| [D00004](https://jastrow.app/#rid:D00004) | alt | דא דא | דָּא II | two forms / reduplication |  |
-| [E00007](https://jastrow.app/#rid:E00007) | alt | הֵא הֵא | הֵא II | two forms / reduplication |  |
-| [H01657](https://jastrow.app/#rid:H01657) | alt | חַר חַר | חַרְחַר | two forms / reduplication |  |
+| [A00116](https://jastrow.app/#rid:A00116) | alt | בַּר א׳ | /אביו | abbrev+word | yes |
+| [A00121](https://jastrow.app/#rid:A00121) | alt | בֵּי א׳ | /אביוני | abbrev+word | yes |
+| [A00148](https://jastrow.app/#rid:A00148) | alt | א׳ ישימון | /אבית | abbrev+word | yes |
+| [A00434](https://jastrow.app/#rid:A00434) | alt | א׳ הַשָּׂדֶה | /אדני-2 | abbrev+word |  |
+| [A00720](https://jastrow.app/#rid:A00720) | alt | נקיס א׳ | /אונא-3 | abbrev+word | yes |
+| [A00732](https://jastrow.app/#rid:A00732) | alt | א׳ קִטְמִין | /אונוס-2 | abbrev+word | yes |
+| [A00742](https://jastrow.app/#rid:A00742) | alt | בית א׳ | /אונייקי | abbrev+word | yes |
+| [A01035](https://jastrow.app/#rid:A01035) | alt | כְּפַר א׳ | /אחים | abbrev+word | yes |
+| [A01126](https://jastrow.app/#rid:A01126) | alt | כפר א׳ | /איבוס-2 | abbrev+word | yes |
+| [A01479](https://jastrow.app/#rid:A01479) | alt | קומיס א׳ | /איספיסריאון | abbrev+word | yes |
+| [A01674](https://jastrow.app/#rid:A01674) | alt | כפר א׳ | /אכום | abbrev+word | yes |
+| [A01741](https://jastrow.app/#rid:A01741) | alt | א׳ פרכא | /אכסניי | abbrev+word | yes |
+| [A02002](https://jastrow.app/#rid:A02002) | headword | כְּפַר א׳ אָמוּס | /כפר_א׳_אמוס | abbrev+word |  |
+| [A02006](https://jastrow.app/#rid:A02006) | alt | בר א׳ | /אמוראי | abbrev+word | yes |
+| [A02120](https://jastrow.app/#rid:A02120) | alt | בַּר א׳ | /אנדראי | abbrev+word | yes |
+| [A02160](https://jastrow.app/#rid:A02160) | alt | בית א׳ | /אנטבילא | abbrev+word | yes |
+| [A02666](https://jastrow.app/#rid:A02666) | alt | א׳ בלסמון | /אפי | abbrev+word | yes |
+| [A02694](https://jastrow.app/#rid:A02694) | alt | סָר א׳ | /אפיס | abbrev+word | yes |
+| [A02734](https://jastrow.app/#rid:A02734) | alt | קרן א׳ | /אפל-4 | abbrev+word |  |
+| [A02892](https://jastrow.app/#rid:A02892) | alt | א׳ רוח | /אצרות | abbrev+word | yes |
+| [A03073](https://jastrow.app/#rid:A03073) | alt | א׳ ליפרן | /ארטל | abbrev+word | yes |
+| [B00322](https://jastrow.app/#rid:B00322) | alt | בֵּית ב׳ | /בוקיא | abbrev+word | yes |
+| [B00379](https://jastrow.app/#rid:B00379) | alt | נהר ב׳ | /בורניץ | abbrev+word | yes |
+| [B00506](https://jastrow.app/#rid:B00506) | alt | בֶּן ב׳ | /בטיח | abbrev+word | yes |
+| [B00531](https://jastrow.app/#rid:B00531) | alt | בֵּי ב׳ | /בטניתא | abbrev+word | yes |
+| [B00741](https://jastrow.app/#rid:B00741) | alt | כְּפַר ב׳ | /ביש-2 | abbrev+word | yes |
+| [B00780](https://jastrow.app/#rid:B00780) | alt | בַּעַל ב׳ | /בכי-5 | abbrev+word | yes |
+| [B00780](https://jastrow.app/#rid:B00780) | alt | עֵין ב׳ | /בכי-5 | abbrev+word | yes |
+| [B00874](https://jastrow.app/#rid:B00874) | alt | בֵּי בְּ׳ | /בליעי | abbrev+word | yes |
+| [B00922](https://jastrow.app/#rid:B00922) | alt | בית ב׳ | /בלתי | abbrev+word |  |
+| [B00924](https://jastrow.app/#rid:B00924) | alt | סֵפֶר ב׳ | /במדבר | abbrev+word | yes |
+| [B01098](https://jastrow.app/#rid:B01098) | alt | עֲלֵי ב׳ | /בצלים | abbrev+word | yes |
+| [B01196](https://jastrow.app/#rid:B01196) | alt | בֵּי ב׳ | /ברוך | abbrev+word | yes |
+| [B01209](https://jastrow.app/#rid:B01209) | alt | ב׳ חַיִל | /ברור-3 | abbrev+word | yes |
+| [B01209](https://jastrow.app/#rid:B01209) | alt | ב׳ חֵיל | /ברור-3 | abbrev+word | yes |
+| [B01235](https://jastrow.app/#rid:B01235) | alt | בֵּי ב׳ | /ברי | abbrev+word | yes |
+| [B01271](https://jastrow.app/#rid:B01271) | alt | רם ב׳ | /ברין-2 | abbrev+word | yes |
+| [B01281](https://jastrow.app/#rid:B01281) | alt | פילי ב׳ | /בריש | abbrev+word | yes |
+| [B01312](https://jastrow.app/#rid:B01312) | alt | בֵּי ב׳ | /ברציתא | abbrev+word | yes |
+| [B01316](https://jastrow.app/#rid:B01316) | alt | בְּנֵי ב׳ | /ברק-4 | abbrev+word | yes |
+| [B01340](https://jastrow.app/#rid:B01340) | alt | ב׳ חווּרן | /ברת-2 | abbrev+word | yes |
+| [C00060](https://jastrow.app/#rid:C00060) | alt | כפר ג׳ חיל | /גבור-2 | abbrev+word | yes |
+| [C00063](https://jastrow.app/#rid:C00063) | alt | כפר ג׳ | /גבוריא | abbrev+word | yes |
+| [C00078](https://jastrow.app/#rid:C00078) | alt | ג׳ גילא | /גביא-3 | abbrev+word | yes |
+| [C00515](https://jastrow.app/#rid:C00515) | alt | בַּר גַּ׳ | /גזא | abbrev+word | yes |
+| [C00667](https://jastrow.app/#rid:C00667) | alt | בר ג׳ | /גיורי | abbrev+word | yes |
+| [C00763](https://jastrow.app/#rid:C00763) | alt | גּ׳ טַעֲוָותָא | /גיניאך | abbrev+word | yes |
+| [C00851](https://jastrow.app/#rid:C00851) | alt | ג׳ קסינון | /גלא-3 | abbrev+word | yes |
+| [C01013](https://jastrow.app/#rid:C01013) | alt | בַּר ג׳ | /גמזא | abbrev+word | yes |
+| [C01291](https://jastrow.app/#rid:C01291) | alt | בַּר ג׳ | /גרוגרות | abbrev+word | yes |
+| [C01358](https://jastrow.app/#rid:C01358) | alt | דינא דג׳ | /גרמי | abbrev+word | yes |
+| [D00644](https://jastrow.app/#rid:D00644) | alt | נהר ד׳ | /דינור | abbrev+word | yes |
+| [D00830](https://jastrow.app/#rid:D00830) | alt | בר ד׳ | /דליא | abbrev+word |  |
+| [D00983](https://jastrow.app/#rid:D00983) | alt | ד׳ עד״ש באח״ב | /דצ״ך | abbrev+word | yes |
+| [D01080](https://jastrow.app/#rid:D01080) | alt | בֵּי דָ׳ | /דרי-3 | abbrev+word | yes |
+| [E00114](https://jastrow.app/#rid:E00114) | alt | בַּר ה׳ | /הדיא-2 | abbrev+word |  |
+| [E00114](https://jastrow.app/#rid:E00114) | alt | בֶּן ה׳ | /הדיא-2 | abbrev+word |  |
+| [E00295](https://jastrow.app/#rid:E00295) | alt | ה׳ ל״ך | /הז״יו | abbrev+word | yes |
+| [E00456](https://jastrow.app/#rid:E00456) | alt | בית ה׳ | /הינו | abbrev+word | yes |
+| [E00590](https://jastrow.app/#rid:E00590) | alt | בֵּית ה׳ | /המגניא | abbrev+word |  |
+| [E00592](https://jastrow.app/#rid:E00592) | alt | בַּר ה׳ | /המדודי | abbrev+word | yes |
+| [E00593](https://jastrow.app/#rid:E00593) | alt | בר ה׳ | /המדורי | abbrev+word | yes |
+| [E00654](https://jastrow.app/#rid:E00654) | alt | בַּר ה׳ | /הנג | abbrev+word |  |
+| [F00006](https://jastrow.app/#rid:F00006) | alt | ו׳ שְׁמוֹת | /ואלה | abbrev+word | yes |
+| [F00058](https://jastrow.app/#rid:F00058) | alt | וו׳ שָׁפָט | /וול | abbrev+word | yes |
+| [G00014](https://jastrow.app/#rid:G00014) | alt | בֵּית ז׳ | /זבדין | abbrev+word | yes |
+| [G00188](https://jastrow.app/#rid:G00188) | alt | ז׳ ליסטרא | /זומי | abbrev+word | yes |
+| [G00188](https://jastrow.app/#rid:G00188) | alt | ז׳ לסטרון | /זומי | abbrev+word | yes |
+| [G00325](https://jastrow.app/#rid:G00325) | alt | בַּר ז׳ | /זיזא-3 | abbrev+word | yes |
+| [G00676](https://jastrow.app/#rid:G00676) | alt | מֶלַח דְּזַ׳ | /זרואי | abbrev+word | yes |
+| [H00065](https://jastrow.app/#rid:H00065) | alt | ח׳ יַמָּא | /חביל-3 | abbrev+word | yes |
+| [H00181](https://jastrow.app/#rid:H00181) | alt | בית ח׳ | /חדודו | abbrev+word | yes |
+| [H00247](https://jastrow.app/#rid:H00247) | alt | בַּר׳ ח׳ | /חובץ | abbrev+word | yes |
+| [H00285](https://jastrow.app/#rid:H00285) | alt | בֵּי ח׳ | /חוזאי | abbrev+word | yes |
+| [H00379](https://jastrow.app/#rid:H00379) | alt | ח׳ סוּבְנִי | /חומס | abbrev+word | yes |
+| [H00464](https://jastrow.app/#rid:H00464) | alt | בֵּית ח׳ | /חורון | abbrev+word | yes |
+| [H00535](https://jastrow.app/#rid:H00535) | alt | כְּפַר ח׳ | /חזיז-3 | abbrev+word | yes |
+| [H00622](https://jastrow.app/#rid:H00622) | alt | כפר ח׳ | /חטיאה | abbrev+word | yes |
+| [H00632](https://jastrow.app/#rid:H00632) | alt | כפר ח׳ | /חטייה | abbrev+word | yes |
+| [H00711](https://jastrow.app/#rid:H00711) | alt | כְּפַר ח׳ | /חיטייא | abbrev+word | yes |
+| [H00843](https://jastrow.app/#rid:H00843) | alt | בֵּית ח׳ | /חיפה-2 | abbrev+word |  |
+| [H00880](https://jastrow.app/#rid:H00880) | alt | בַּר חִ׳ | /חיריא | abbrev+word | yes |
+| [H01614](https://jastrow.app/#rid:H01614) | alt | כפר ח׳ | /חרובא-2 | abbrev+word |  |
+| [I00049](https://jastrow.app/#rid:I00049) | alt | כְּפַר ט׳ | /טבי-2 | abbrev+word | yes |
+| [I00137](https://jastrow.app/#rid:I00137) | alt | ט׳ אוּמָנוֹס | /טוורוס | abbrev+word |  |
+| [I00212](https://jastrow.app/#rid:I00212) | alt | בקעת בית ט׳ | /טופת | abbrev+word | yes |
+| [I00241](https://jastrow.app/#rid:I00241) | alt | ט׳ רופוס | /טורנוס-2 | abbrev+word | yes |
+| [I00353](https://jastrow.app/#rid:I00353) | alt | ט׳ סַמּוֹקָה | /טייפה | abbrev+word |  |
+| [I00535](https://jastrow.app/#rid:I00535) | alt | ט׳ ביריא | /טמו | abbrev+word | yes |
+| [I00722](https://jastrow.app/#rid:I00722) | alt | נחל ט׳ | /טרוויא | abbrev+word | yes |
+| [I00789](https://jastrow.app/#rid:I00789) | alt | ט׳ קוֹנְטָא | /טרייא-2 | abbrev+word | yes |
+| [J00171](https://jastrow.app/#rid:J00171) | alt | ארכי י׳ | /יודקו | abbrev+word |  |
+| [J00184](https://jastrow.app/#rid:J00184) | alt | בַּר י׳ | /יוכני | abbrev+word | yes |
+| [J00253](https://jastrow.app/#rid:J00253) | alt | כִּי י׳ | /יותן | abbrev+word | yes |
+| [J00432](https://jastrow.app/#rid:J00432) | alt | מַר י׳ | /ינוקא-2 | abbrev+word | yes |
+| [J00463](https://jastrow.app/#rid:J00463) | alt | יַי׳ חֳלִי | /יסי | abbrev+word | yes |
+| [J00464](https://jastrow.app/#rid:J00464) | alt | י׳ לי | /יסיח | abbrev+word | yes |
+| [J00691](https://jastrow.app/#rid:J00691) | alt | בַּר י׳ | /ישיטא | abbrev+word | yes |
+| [K00013](https://jastrow.app/#rid:K00013) | alt | כ׳ צַד | /כאי | abbrev+word | yes |
+| [K00107](https://jastrow.app/#rid:K00107) | headword | כִּדְ׳ כַּדְבוּבָא | /כד׳_כדבובא | abbrev+word |  |
+| [K00115](https://jastrow.app/#rid:K00115) | alt | עינבין דכ׳ | /כדום-2 | abbrev+word | yes |
+| [K00392](https://jastrow.app/#rid:K00392) | alt | אולו כ׳ | /כורסון | abbrev+word | yes |
+| [K00392](https://jastrow.app/#rid:K00392) | alt | אולון כ׳ | /כורסון | abbrev+word | yes |
+| [K00606](https://jastrow.app/#rid:K00606) | alt | בֵּי כ׳ | /כיפי | abbrev+word | yes |
+| [K00629](https://jastrow.app/#rid:K00629) | alt | כ׳ דבית סכל | /כיריא | abbrev+word | yes |
+| [K00699](https://jastrow.app/#rid:K00699) | alt | בֵּי כ׳ | /כלוחית | abbrev+word | yes |
+| [K00851](https://jastrow.app/#rid:K00851) | alt | כ׳ פַּרְוָוא | /כניא | abbrev+word | yes |
+| [K01170](https://jastrow.app/#rid:K01170) | alt | כ׳ אַרְגִּירָא | /כריסו | abbrev+word | yes |
+| [L00104](https://jastrow.app/#rid:L00104) | alt | עַרְקַת ל׳ | /לבנה-2 | abbrev+word | yes |
+| [L00210](https://jastrow.app/#rid:L00210) | alt | ל׳ דקין | /לוודין | abbrev+word | yes |
+| [L00253](https://jastrow.app/#rid:L00253) | alt | בר ל׳ | /לויאנוס | abbrev+word | yes |
+| [L00306](https://jastrow.app/#rid:L00306) | alt | בר ל׳ | /לופייני | abbrev+word | yes |
+| [M00263](https://jastrow.app/#rid:M00263) | alt | מ׳ חיוורא | /מדוי-2 | abbrev+word |  |
+| [M00643](https://jastrow.app/#rid:M00643) | alt | הַר הַמּ׳ | /מוריה | abbrev+word | yes |
+| [M00646](https://jastrow.app/#rid:M00646) | alt | שׁוּבְלַיָּיא מ׳ | /מורייא | abbrev+word | yes |
+| [M00687](https://jastrow.app/#rid:M00687) | alt | כְּרַךְ מ׳ | /מושכי | abbrev+word | yes |
+| [M00720](https://jastrow.app/#rid:M00720) | alt | מ׳ חַמְרָא | /מזגא-5 | abbrev+word | yes |
+| [M00910](https://jastrow.app/#rid:M00910) | alt | מָתָא מ׳ | /מחסיא | abbrev+word | yes |
+| [M00943](https://jastrow.app/#rid:M00943) | alt | מ׳ דְיַתִּיר | /מחרתא | abbrev+word | yes |
+| [M01181](https://jastrow.app/#rid:M01181) | alt | מ׳ מילה | /מילי-2 | abbrev+word | yes |
+| [M01234](https://jastrow.app/#rid:M01234) | alt | מ׳ חִיוְיָא | /מינקת-2 | abbrev+word | yes |
+| [M01299](https://jastrow.app/#rid:M01299) | alt | מ׳ מִירְיָאדִין | /מירי | abbrev+word | yes |
+| [M01502](https://jastrow.app/#rid:M01502) | alt | בֵּית מ׳ | /מלוון | abbrev+word | yes |
+| [M01528](https://jastrow.app/#rid:M01528) | alt | מִגְּדַּל מ׳ | /מלחא-3 | abbrev+word | yes |
+| [M01713](https://jastrow.app/#rid:M01713) | alt | כְּפַר מ׳ | /מנדו | abbrev+word | yes |
+| [M01752](https://jastrow.app/#rid:M01752) | alt | כפר מ׳ | /מנורי | abbrev+word | yes |
+| [M01768](https://jastrow.app/#rid:M01768) | alt | אֲרַע מ׳ | /מני | abbrev+word | yes |
+| [M02141](https://jastrow.app/#rid:M02141) | alt | מַ׳ מְרָא | /מעלת | abbrev+word | yes |
+| [M02276](https://jastrow.app/#rid:M02276) | alt | פִּי מְ׳ | /מצובה-2 | abbrev+word | yes |
+| [M02405](https://jastrow.app/#rid:M02405) | alt | בֶּן מְ׳ | /מקושש-2 | abbrev+word | yes |
+| [M02595](https://jastrow.app/#rid:M02595) | alt | בֵּית מָ׳ | /מרון-2 | abbrev+word | yes |
+| [M02894](https://jastrow.app/#rid:M02894) | alt | בֵּי מְ׳ | /משכא | abbrev+word | yes |
+| [N00057](https://jastrow.app/#rid:N00057) | alt | נ׳ חַיִל | /נבור | abbrev+word |  |
+| [N00058](https://jastrow.app/#rid:N00058) | alt | כְּפַר נ׳ | /נבוריא | abbrev+word |  |
+| [N00496](https://jastrow.app/#rid:N00496) | alt | נ׳ ימא | /נחיתי | abbrev+word | yes |
+| [N00541](https://jastrow.app/#rid:N00541) | alt | בַּר נ׳ | /נטוזא | abbrev+word | yes |
+| [N00701](https://jastrow.app/#rid:N00701) | alt | הַר נ׳ | /ניסאי | abbrev+word | yes |
+| [N00755](https://jastrow.app/#rid:N00755) | alt | בַּר נִ׳ | /ניצור | abbrev+word | yes |
+| [N00811](https://jastrow.app/#rid:N00811) | alt | פַּרְעֹה נ׳ | /נכה-3 | abbrev+word | yes |
+| [N00892](https://jastrow.app/#rid:N00892) | alt | בֵּית נ׳ | /נמרה | abbrev+word | yes |
+| [N00928](https://jastrow.app/#rid:N00928) | alt | אתא נ׳ | /נסיא | abbrev+word |  |
+| [N01061](https://jastrow.app/#rid:N01061) | alt | בַּר נִ׳ | /נפלי | abbrev+word | yes |
+| [N01154](https://jastrow.app/#rid:N01154) | alt | נ׳ קא | /נקאני | abbrev+word | yes |
+| [N01211](https://jastrow.app/#rid:N01211) | alt | בֵּית נְ׳ | /נקיפי | abbrev+word | yes |
+| [N01212](https://jastrow.app/#rid:N01212) | alt | נְ׳ דְעִיּוֹן | /נקיפתא | abbrev+word | yes |
+| [O00302](https://jastrow.app/#rid:O00302) | alt | ס׳ בְּנוֹת | /סוכות | abbrev+word |  |
+| [O00308](https://jastrow.app/#rid:O00308) | alt | עֵין ס׳ | /סוכר | abbrev+word | yes |
+| [O00564](https://jastrow.app/#rid:O00564) | alt | כְּפַר ס׳ | /סיגנא-2 | abbrev+word | yes |
+| [O00695](https://jastrow.app/#rid:O00695) | alt | ס׳ דְאַגְמָא | /סימונא | abbrev+word | yes |
+| [O00713](https://jastrow.app/#rid:O00713) | alt | הַר ס׳ | /סימנאי | abbrev+word | yes |
+| [O00746](https://jastrow.app/#rid:O00746) | alt | כְּפַר ס׳ | /סיסאי | abbrev+word | yes |
+| [O00852](https://jastrow.app/#rid:O00852) | alt | בִּירַת ס׳ | /סיריקא | abbrev+word |  |
+| [O00889](https://jastrow.app/#rid:O00889) | alt | ס׳ בְּנוֹת | /סכות-2 | abbrev+word | yes |
+| [O00968](https://jastrow.app/#rid:O00968) | alt | בֵּית ס׳ | /סלוני | abbrev+word | yes |
+| [O01072](https://jastrow.app/#rid:O01072) | alt | אַבָּא ס׳ | /סמוקיד | abbrev+word | yes |
+| [O01089](https://jastrow.app/#rid:O01089) | alt | כפר ס׳ | /סמיי | abbrev+word | yes |
+| [O01232](https://jastrow.app/#rid:O01232) | alt | בַּר ס׳ | /סניגורא | abbrev+word | yes |
+| [O01341](https://jastrow.app/#rid:O01341) | alt | כְּפַר ס׳ | /ספורייא | abbrev+word | yes |
+| [O01626](https://jastrow.app/#rid:O01626) | alt | בִּירַת ס׳ | /סריקא-2 | abbrev+word | yes |
+| [O01669](https://jastrow.app/#rid:O01669) | alt | ס׳ אני | /סרק-8 | abbrev+word | yes |
+| [P00137](https://jastrow.app/#rid:P00137) | headword | עָ׳ עַדְיָא | /ע׳_עדיא | abbrev+word |  |
+| [P00353](https://jastrow.app/#rid:P00353) | alt | בֵּי ע׳ | /עורבתי | abbrev+word | yes |
+| [P00381](https://jastrow.app/#rid:P00381) | alt | כְּפַר ע׳ | /עותנאי | abbrev+word |  |
+| [P00553](https://jastrow.app/#rid:P00553) | alt | ע׳ טַב | /עייני | abbrev+word | yes |
+| [P00563](https://jastrow.app/#rid:P00563) | alt | כְּפַר עִ׳ | /עיכום | abbrev+word | yes |
+| [P00869](https://jastrow.app/#rid:P00869) | alt | בְּנֵי עַ׳ | /עמון | abbrev+word | yes |
+| [P00890](https://jastrow.app/#rid:P00890) | alt | כְּפַר ע׳ | /עמיקו | abbrev+word |  |
+| [P00983](https://jastrow.app/#rid:P00983) | alt | ע׳ עֲנָתוֹת | /עניה-3 | abbrev+word | yes |
+| [P00991](https://jastrow.app/#rid:P00991) | alt | כפר ע׳ | /ענים | abbrev+word | yes |
+| [P01166](https://jastrow.app/#rid:P01166) | alt | בֶּן ע׳ | /עקוש | abbrev+word |  |
+| [P01452](https://jastrow.app/#rid:P01452) | alt | עַ׳ לִבְנָה | /ערקת | abbrev+word | yes |
+| [P01520](https://jastrow.app/#rid:P01520) | alt | בַּר עַ׳ | /עשתור | abbrev+word | yes |
+| [Q00005](https://jastrow.app/#rid:Q00005) | alt | בֵּית פ׳ | /פאגי | abbrev+word |  |
+| [Q00053](https://jastrow.app/#rid:Q00053) | alt | בֵּית פַּ׳ | /פגי-2 | abbrev+word |  |
+| [Q00099](https://jastrow.app/#rid:Q00099) | alt | כְּפַר פ׳ | /פגש-3 | abbrev+word | yes |
+| [Q00127](https://jastrow.app/#rid:Q00127) | alt | קָקוֹ פ׳ | /פדיפטי | abbrev+word | yes |
+| [Q00326](https://jastrow.app/#rid:Q00326) | alt | בני פ׳ | /פוקרים | abbrev+word | yes |
+| [Q00436](https://jastrow.app/#rid:Q00436) | alt | פ׳ קש״ב | /פז״ר | abbrev+word | yes |
+| [Q00494](https://jastrow.app/#rid:Q00494) | alt | בַּר פ׳ | /פטא | abbrev+word | yes |
+| [Q00650](https://jastrow.app/#rid:Q00650) | alt | בַּר פ׳ | /פיילי-2 | abbrev+word | yes |
+| [Q00697](https://jastrow.app/#rid:Q00697) | alt | פ׳ ביארי | /פיליא-2 | abbrev+word | yes |
+| [Q00798](https://jastrow.app/#rid:Q00798) | alt | בר פ׳ | /פיקא-3 | abbrev+word |  |
+| [Q00980](https://jastrow.app/#rid:Q00980) | alt | פ׳ פילון | /פלומי | abbrev+word | yes |
+| [Q01039](https://jastrow.app/#rid:Q01039) | alt | פ׳ בֵיאָרִי | /פליא-2 | abbrev+word | yes |
+| [Q01044](https://jastrow.app/#rid:Q01044) | alt | טוּרָא פ׳ | /פליגא-2 | abbrev+word | yes |
+| [Q01335](https://jastrow.app/#rid:Q01335) | alt | בִּקְעַת פַּ׳ | /פסלן | abbrev+word | yes |
+| [Q01377](https://jastrow.app/#rid:Q01377) | alt | בַּעַל פְּ׳ | /פעור-2 | abbrev+word | yes |
+| [Q01399](https://jastrow.app/#rid:Q01399) | alt | נְהַר פּ׳ | /פפא-2 | abbrev+word | yes |
+| [Q01492](https://jastrow.app/#rid:Q01492) | alt | כְּפַר פְּ׳ | /פקיעין | abbrev+word | yes |
+| [Q01751](https://jastrow.app/#rid:Q01751) | alt | טַוַּור פ׳ | /פרזלא | abbrev+word | yes |
+| [R00066](https://jastrow.app/#rid:R00066) | alt | מַגְדַּל צַ׳ | /צבעיא | abbrev+word |  |
+| [R00066](https://jastrow.app/#rid:R00066) | alt | מַגְדְּלָא דצַ׳ | /צבעיא | abbrev+word |  |
+| [R00193](https://jastrow.app/#rid:R00193) | alt | בֵּית צ׳ | /צולאי | abbrev+word | yes |
+| [R00478](https://jastrow.app/#rid:R00478) | alt | בֵּית צ׳ | /צלאי | abbrev+word | yes |
+| [R00569](https://jastrow.app/#rid:R00569) | alt | כְּפַר צֶ׳ | /צמח-5 | abbrev+word | yes |
+| [R00577](https://jastrow.app/#rid:R00577) | alt | צַ׳ קַיְיטָא | /צמייא | abbrev+word | yes |
+| [R00593](https://jastrow.app/#rid:R00593) | alt | צ׳ מורייה | /צמר-3 | abbrev+word | yes |
+| [R00593](https://jastrow.app/#rid:R00593) | alt | צ׳ מורין | /צמר-3 | abbrev+word | yes |
+| [R00738](https://jastrow.app/#rid:R00738) | alt | רוּחַ צְ׳ | /צרדא-3 | abbrev+word |  |
+| [S00197](https://jastrow.app/#rid:S00197) | alt | קַ׳ נוּנָא | /קדש-7 | abbrev+word | yes |
+| [S00237](https://jastrow.app/#rid:S00237) | alt | ק׳ דְעַיְיתָא | /קובעיא | abbrev+word | yes |
+| [S00350](https://jastrow.app/#rid:S00350) | alt | ק׳ מסיא | /קולמז | abbrev+word | yes |
+| [S00352](https://jastrow.app/#rid:S00352) | alt | ק׳ מסיא | /קולמן | abbrev+word | yes |
+| [S00493](https://jastrow.app/#rid:S00493) | alt | בֵּי ק׳ | /קופאי | abbrev+word | yes |
+| [S00493](https://jastrow.app/#rid:S00493) | alt | בֵּית ק׳ | /קופאי | abbrev+word | yes |
+| [S00675](https://jastrow.app/#rid:S00675) | alt | בֵּית ק׳ | /קושש | abbrev+word | yes |
+| [S00728](https://jastrow.app/#rid:S00728) | alt | כל ק׳ | /קטורין | abbrev+word | yes |
+| [S00900](https://jastrow.app/#rid:S00900) | alt | בֶּן ק׳ | /קיטונתא | abbrev+word | yes |
+| [S01237](https://jastrow.app/#rid:S01237) | alt | קְ׳ אִילָּן | /קלא-5 | abbrev+word | yes |
+| [S01238](https://jastrow.app/#rid:S01238) | alt | ק׳ פנדר | /קלא-6 | abbrev+word | yes |
+| [S01467](https://jastrow.app/#rid:S01467) | alt | ק׳ שָׂפָה | /קמי | abbrev+word | yes |
+| [S01492](https://jastrow.app/#rid:S01492) | alt | בֶּן קַ׳ | /קמצר | abbrev+word | yes |
+| [S01585](https://jastrow.app/#rid:S01585) | alt | עֲלֵי קַ׳ | /קנייה | abbrev+word | yes |
+| [S01770](https://jastrow.app/#rid:S01770) | alt | בַּר קַ׳ | /קפרא | abbrev+word | yes |
+| [S01862](https://jastrow.app/#rid:S01862) | alt | ק׳ פדיפטי | /קקו | abbrev+word | yes |
+| [S01914](https://jastrow.app/#rid:S01914) | alt | בַּר קַ׳ | /קרדימא | abbrev+word | yes |
+| [S02058](https://jastrow.app/#rid:S02058) | alt | כְּפַר קִ׳ | /קריינוס | abbrev+word | yes |
+| [S02108](https://jastrow.app/#rid:S02108) | alt | כְּפַר ק׳ | /קרנים | abbrev+word | yes |
+| [T00399](https://jastrow.app/#rid:T00399) | alt | כְּרַךְ ר׳ | /רומקי | abbrev+word | yes |
+| [T00566](https://jastrow.app/#rid:T00566) | alt | פּוּנְדְּקָא רְ׳ | /רטיבתא | abbrev+word | yes |
+| [U00036](https://jastrow.app/#rid:U00036) | alt | בר ש׳ | /שאן | abbrev+word | yes |
+| [U00037](https://jastrow.app/#rid:U00037) | alt | בֵּית שְׁ׳ | /שאן-2 | abbrev+word | yes |
+| [U00378](https://jastrow.app/#rid:U00378) | alt | ש׳ מִישׁוֹט | /שוט-7 | abbrev+word | yes |
+| [U00513](https://jastrow.app/#rid:U00513) | alt | בֵּית ש׳ | /שופרי | abbrev+word | yes |
+| [U00682](https://jastrow.app/#rid:U00682) | alt | צִפַּר שַׁ׳ | /שחפא | abbrev+word |  |
+| [U00868](https://jastrow.app/#rid:U00868) | alt | כְּפַר שִׁ׳ | /שיחיא | abbrev+word | yes |
+| [U01135](https://jastrow.app/#rid:U01135) | alt | שְׂ׳ בִּזָּאֵי | /שכור | abbrev+word | yes |
+| [U01257](https://jastrow.app/#rid:U01257) | alt | שְׁ׳ דּוֹץ | /שלוף | abbrev+word | yes |
+| [U01385](https://jastrow.app/#rid:U01385) | alt | בֶּן שַׁ׳ | /שלקות | abbrev+word |  |
+| [U01649](https://jastrow.app/#rid:U01649) | alt | ש׳ ג״ץ | /שעטנ״ז | abbrev+word | yes |
+| [U01693](https://jastrow.app/#rid:U01693) | alt | בֵּית שְׁ׳ | /שערים | abbrev+word | yes |
+| [U01905](https://jastrow.app/#rid:U01905) | alt | מִגְדַּל שׁ׳ | /שר | abbrev+word |  |
+| [U01971](https://jastrow.app/#rid:U01971) | alt | בֵּי שַׁ׳ | /שריי | abbrev+word |  |
+| [U01977](https://jastrow.app/#rid:U01977) | alt | יַמָּא דשִׁ׳ | /שריית | abbrev+word | yes |
+| [V00085](https://jastrow.app/#rid:V00085) | alt | בֶּן תַּ׳ | /תגלא | abbrev+word | yes |
+| [V00112](https://jastrow.app/#rid:V00112) | alt | בֶּן תַּ׳ | /תדל | abbrev+word | yes |
+| [V00190](https://jastrow.app/#rid:V00190) | alt | בַּר תּ׳ | /תוטני | abbrev+word | yes |
+| [V00321](https://jastrow.app/#rid:V00321) | alt | בֶּן תּ׳ | /תורתא-2 | abbrev+word |  |
+| [V00322](https://jastrow.app/#rid:V00322) | alt | בֵּי ת׳ | /תורתא-3 | abbrev+word | yes |
+| [V00379](https://jastrow.app/#rid:V00379) | alt | כְּפַר תַּ׳ | /תחמין | abbrev+word | yes |
+| [V00566](https://jastrow.app/#rid:V00566) | alt | תְּ׳ אִילָּן | /תלא-2 | abbrev+word | yes |
+| [V00611](https://jastrow.app/#rid:V00611) | alt | בַּר תְּ׳ | /תלמיון | abbrev+word | yes |
+| [V00690](https://jastrow.app/#rid:V00690) | alt | בֶּן תְּ׳ | /תמליון | abbrev+word | yes |
+| [V00853](https://jastrow.app/#rid:V00853) | alt | בַּר תַּ׳ | /תפקן | abbrev+word | yes |
+| [V00924](https://jastrow.app/#rid:V00924) | alt | בֵּי תַ׳ | /תרבו | abbrev+word | yes |
+| [V01120](https://jastrow.app/#rid:V01120) | alt | אין ת׳ | /תתיה | abbrev+word | yes |
+| [A00436](https://jastrow.app/#rid:A00436) | headword | אדני מריונים | /אדני_מריונים | other phrase |  |
+| [A01881](https://jastrow.app/#rid:A01881) | headword | בֵּי אֱלִישָׁפָט | /בי_אלישפט | other phrase |  |
+| [B00442](https://jastrow.app/#rid:B00442) | alt | בֵּי זְיוּנָא | /בזיונא-2 | other phrase |  |
+| [B00442](https://jastrow.app/#rid:B00442) | alt | בֵּי זְיָינָא | /בזיונא-2 | other phrase |  |
+| [B00864](https://jastrow.app/#rid:B00864) | alt | בְּלִי מָה | /בלימה | other phrase |  |
+| [C00517](https://jastrow.app/#rid:C00517) | headword | גזא דפטי | /גזא_דפטי | other phrase |  |
+| [E00032](https://jastrow.app/#rid:E00032) | alt | בַּר חָבוּ | /הבו | other phrase |  |
+| [H01065](https://jastrow.app/#rid:H01065) | alt | חֲלִי קוּפְרִי | /חליקופרי | other phrase |  |
+| [I00568](https://jastrow.app/#rid:I00568) | alt | טַן דּוּ | /טנדו | other phrase |  |
+| [Q00248](https://jastrow.app/#rid:Q00248) | alt | פּוּם בְּדִיתָא | /פומבדיתא | other phrase |  |
+| [S01240](https://jastrow.app/#rid:S01240) | alt | קְלָא אִילָּן | /קלאילן | other phrase |  |
+| [A03391](https://jastrow.app/#rid:A03391) | alt | א״ת ב״ש | /א״ת | phrase containing headword |  |
+| [B00050](https://jastrow.app/#rid:B00050) | alt | בַּב נַהֲרָא | /בב-2 | phrase containing headword |  |
+| [B00071](https://jastrow.app/#rid:B00071) | alt | בֶּן בַּג בַּג | /בג | phrase containing headword |  |
+| [C01224](https://jastrow.app/#rid:C01224) | alt | ג״ר ד״ק | /ג״ר | phrase containing headword |  |
+| [D00300](https://jastrow.app/#rid:D00300) | alt | דונה טיבה | /דונה | phrase containing headword |  |
+| [I00020](https://jastrow.app/#rid:I00020) | alt | עֵין טַב | /טב-3 | phrase containing headword |  |
+| [O01509](https://jastrow.app/#rid:O01509) | alt | סָר אָפִיס | /סר-3 | phrase containing headword |  |
+| [S01777](https://jastrow.app/#rid:S01777) | alt | קָץ שֶׁקֶר | /קץ | phrase containing headword |  |
+| [T00781](https://jastrow.app/#rid:T00781) | alt | רָם בָּרִין | /רם-2 | phrase containing headword |  |
+| [T00782](https://jastrow.app/#rid:T00782) | alt | כִּירִי רָם | /רם-3 | phrase containing headword |  |
+| [U01196](https://jastrow.app/#rid:U01196) | alt | שַׁל צִיּוֹן | /של-2 | phrase containing headword |  |
+| [D00004](https://jastrow.app/#rid:D00004) | alt | דא דא | /דא-2 | two forms / reduplication |  |
+| [E00007](https://jastrow.app/#rid:E00007) | alt | הֵא הֵא | /הא-3 | two forms / reduplication |  |
+| [H01657](https://jastrow.app/#rid:H01657) | alt | חַר חַר | /חרחר | two forms / reduplication |  |
 
 ## X10 first homograph unnumbered: implied I candidate (3)
 
-| rid | role | text | name | note | flagged |
+| rid | role | text | url | note | flagged |
 |---|---|---|---|---|---|
-| [C00620](https://jastrow.app/#rid:C00620) | alt | גִּבָּ׳ | גִּיבָּרָא | C00619/alt גִּבּ׳ is a bare first form before a II; an I is set only where Jastrow's text names `גִּבּ׳ I` (10-13); 0 unnumbered: C00620/alt=2 |  |
-| [H00833](https://jastrow.app/#rid:H00833) | alt | חִסּ׳ | חִיסּוּם | H00831/alt חִסּ׳ is a bare first form before a II; an I is set only where Jastrow's text names `חִסּ׳ I` (10-13); 3 unnumbered: H00830/alt=—; H00831/alt=—; H00833/alt=2; H00834/alt=— |  |
-| [L00656](https://jastrow.app/#rid:L00656) | alt | לִיפְ׳ | לִפְתָּן | L00654/alt לִיפְ׳ is a bare first form before a II; an I is set only where Jastrow's text names `לִיפְ׳ I` (10-13); 3 unnumbered: L00653/alt=—; L00654/alt=—; L00656/alt=2; L00657/alt=— |  |
+| [C00620](https://jastrow.app/#rid:C00620) | alt | גִּבָּ׳ | /גיברא | C00619/alt גִּבּ׳ is a bare first form before a II; an I is set only where Jastrow's text names `גִּבּ׳ I` (10-13); 0 unnumbered: C00620/alt=2 |  |
+| [H00833](https://jastrow.app/#rid:H00833) | alt | חִסּ׳ | /חיסום-2 | H00831/alt חִסּ׳ is a bare first form before a II; an I is set only where Jastrow's text names `חִסּ׳ I` (10-13); 3 unnumbered: H00830/alt=—; H00831/alt=—; H00833/alt=2; H00834/alt=— |  |
+| [L00656](https://jastrow.app/#rid:L00656) | alt | לִיפְ׳ | /לפתן | L00654/alt לִיפְ׳ is a bare first form before a II; an I is set only where Jastrow's text names `לִיפְ׳ I` (10-13); 3 unnumbered: L00653/alt=—; L00654/alt=—; L00656/alt=2; L00657/alt=— |  |
 
 ## X5 maqaf fragment (140)
 
-| rid | role | text | name | note | flagged |
+| rid | role | text | url | note | flagged |
 |---|---|---|---|---|---|
-| [A00007](https://jastrow.app/#rid:A00007) | headword | אִ־ | אִ־ |  |  |
-| [A00007](https://jastrow.app/#rid:A00007) | alt | אִי־ | אִ־ |  |  |
-| [A00007](https://jastrow.app/#rid:A00007) | alt | אֶ־ | אִ־ |  |  |
-| [A00007](https://jastrow.app/#rid:A00007) | alt | אַ־ | אִ־ |  |  |
-| [A00008](https://jastrow.app/#rid:A00008) | headword | אַ־ | אַ־ |  |  |
-| [A00012](https://jastrow.app/#rid:A00012) | headword | אַב־ | אַב־ |  |  |
-| [A00012](https://jastrow.app/#rid:A00012) | alt | אֶבְ־ | אַב־ |  |  |
-| [A00244](https://jastrow.app/#rid:A00244) | alt | אִיגְדּ־ | אֵגֶד |  |  |
-| [A00367](https://jastrow.app/#rid:A00367) | headword | אַדְּ־ | אַדְּ־ |  |  |
-| [A00515](https://jastrow.app/#rid:A00515) | headword | או־ | או־ |  |  |
-| [A00661](https://jastrow.app/#rid:A00661) | headword | אוֹלוֹ־ | אוֹלוֹ־ |  |  |
-| [A00954](https://jastrow.app/#rid:A00954) | headword | אזד־ | אזד־ |  |  |
-| [A01109](https://jastrow.app/#rid:A01109) | headword | אִי־ | אִי־ |  |  |
-| [A01396](https://jastrow.app/#rid:A01396) | headword | אִיס־ | אִיס־ |  |  |
-| [A01396](https://jastrow.app/#rid:A01396) | alt | אִס־ | אִיס־ |  |  |
-| [A01410](https://jastrow.app/#rid:A01410) | headword | אִיסְט־ | אִיסְט־ |  |  |
-| [A01638](https://jastrow.app/#rid:A01638) | headword | אִיתְ־ | אִיתְ־ |  |  |
-| [A01765](https://jastrow.app/#rid:A01765) | headword | אַל־ | אַל־ |  |  |
-| [A02015](https://jastrow.app/#rid:A02015) | alt | אַמְטֻלְתּ־ | אַמְטֻל |  |  |
-| [A02029](https://jastrow.app/#rid:A02029) | headword | אֲמִיתּ־ | אֲמִיתּ־ |  |  |
-| [A02317](https://jastrow.app/#rid:A02317) | headword | אִס־ | אִס־ |  |  |
-| [A02345](https://jastrow.app/#rid:A02345) | headword | אִסְטְ־ | אִסְטְ־ |  |  |
-| [A02864](https://jastrow.app/#rid:A02864) | headword | אִצְט־ | אִצְט־ |  |  |
-| [A03212](https://jastrow.app/#rid:A03212) | headword | אֲרִסְט־ | אֲרִסְט־ |  |  |
-| [A03392](https://jastrow.app/#rid:A03392) | headword | אִתְ־ | אִתְ־ |  |  |
-| [B00003](https://jastrow.app/#rid:B00003) | headword | בְּ־ | בְּ־ I |  |  |
-| [B00004](https://jastrow.app/#rid:B00004) | headword | בְּ־ | בְּ־ II |  |  |
-| [B00093](https://jastrow.app/#rid:B00093) | headword | בִּדְּ־ | בִּדְּ־ |  |  |
-| [B00093](https://jastrow.app/#rid:B00093) | alt | בִּידְּ־ | בִּדְּ־ |  |  |
-| [B00551](https://jastrow.app/#rid:B00551) | headword | בִּידְ־ | בִּידְ־ |  |  |
-| [B00761](https://jastrow.app/#rid:B00761) | headword | בית־יוני | בית־יוני |  |  |
-| [C00086](https://jastrow.app/#rid:C00086) | headword | גביית־ | גביית־ |  |  |
-| [C00547](https://jastrow.app/#rid:C00547) | headword | גְּזֵיל־ | גְּזֵיל־ |  |  |
-| [C00598](https://jastrow.app/#rid:C00598) | alt | גִּיטּ־ | גֵּט |  |  |
-| [C01133](https://jastrow.app/#rid:C01133) | headword | גְּנֵיב־ | גְּנֵיב־ |  |  |
-| [D00002](https://jastrow.app/#rid:D00002) | headword | דְּ־ | דְּ־ |  |  |
-| [D00445](https://jastrow.app/#rid:D00445) | headword | דִּי־ | דִּי־ |  |  |
-| [D00490](https://jastrow.app/#rid:D00490) | headword | דִּיד־ | דִּיד־ |  |  |
-| [D00502](https://jastrow.app/#rid:D00502) | headword | דיו־ | דיו־ |  |  |
-| [D00585](https://jastrow.app/#rid:D00585) | headword | דִּיכְוָות־ | דִּיכְוָות־ |  |  |
-| [D00588](https://jastrow.app/#rid:D00588) | headword | דִּיכְוָת־ | דִּיכְוָת־ |  |  |
-| [D00595](https://jastrow.app/#rid:D00595) | headword | דִּיל־ | דִּיל־ |  | yes |
-| [D00596](https://jastrow.app/#rid:D00596) | headword | דִּילָ־ | דִּילָ־ |  |  |
-| [D00764](https://jastrow.app/#rid:D00764) | headword | דִּכְוָות־ | דִּכְוָות־ |  |  |
-| [D00769](https://jastrow.app/#rid:D00769) | headword | דִּכְוָת־ | דִּכְוָת־ |  |  |
-| [D00769](https://jastrow.app/#rid:D00769) | alt | דִּיכְוָות־ | דִּכְוָת־ |  |  |
-| [D00937](https://jastrow.app/#rid:D00937) | headword | דִּסְ־ | דִּסְ־ |  |  |
-| [E00002](https://jastrow.app/#rid:E00002) | headword | הַ־ | הַ־ |  |  |
-| [E00003](https://jastrow.app/#rid:E00003) | headword | הָ־ | הָ־ |  |  |
-| [E00003](https://jastrow.app/#rid:E00003) | alt | הַ־ | הָ־ |  |  |
-| [E00095](https://jastrow.app/#rid:E00095) | headword | הַד־ | הַד־ |  |  |
-| [E00373](https://jastrow.app/#rid:E00373) | headword | הֵיכ־ | הֵיכ־ |  |  |
-| [E00413](https://jastrow.app/#rid:E00413) | headword | הֵימ־ | הֵימ־ |  |  |
-| [E00530](https://jastrow.app/#rid:E00530) | headword | הַלּ־ | הַלּ־ |  |  |
-| [E00830](https://jastrow.app/#rid:E00830) | alt | הַדְרְסִ־ | הַרְדְּסִיאוֹת |  |  |
-| [F00025](https://jastrow.app/#rid:F00025) | headword | ווּ־ | ווּ־ |  |  |
-| [G00517](https://jastrow.app/#rid:G00517) | headword | זְמֵימ־ | זְמֵימ־ |  |  |
-| [H00076](https://jastrow.app/#rid:H00076) | headword | חֲבֵיר־ | חֲבֵיר־ |  |  |
-| [H01188](https://jastrow.app/#rid:H01188) | headword | חֲמֵיצ־ | חֲמֵיצ־ |  |  |
-| [H01528](https://jastrow.app/#rid:H01528) | headword | חֲצֵיר־ | חֲצֵיר־ |  |  |
-| [J00328](https://jastrow.app/#rid:J00328) | headword | יִיח־ | יִיח־ |  |  |
-| [J00692](https://jastrow.app/#rid:J00692) | headword | יְשֵׁינ־ | יְשֵׁינ־ |  |  |
-| [K00002](https://jastrow.app/#rid:K00002) | headword | כְּ־ | כְּ־ |  |  |
-| [K00002](https://jastrow.app/#rid:K00002) | alt | כִּ־׳ | כְּ־ |  |  |
-| [K00002](https://jastrow.app/#rid:K00002) | alt | כִּי־ | כְּ־ |  |  |
-| [K00049](https://jastrow.app/#rid:K00049) | headword | כְּבֵיד־ | כְּבֵיד־ |  |  |
-| [K00098](https://jastrow.app/#rid:K00098) | alt | כִּדּ־ | כַּד I |  |  |
-| [K00098](https://jastrow.app/#rid:K00098) | alt | כִּידּ־ | כַּד I |  |  |
-| [K00261](https://jastrow.app/#rid:K00261) | headword | כּוּלּ־ | כּוּלּ־ |  |  |
-| [K00490](https://jastrow.app/#rid:K00490) | alt | כִּיד־ | כִּיד² |  |  |
-| [K00824](https://jastrow.app/#rid:K00824) | headword | כְּמָת־ | כְּמָת־ |  |  |
-| [K01012](https://jastrow.app/#rid:K01012) | headword | כְּפֵיל־ | כְּפֵיל־ |  |  |
-| [K01169](https://jastrow.app/#rid:K01169) | headword | כְּרֵיס־ | כְּרֵיס־ |  |  |
-| [K01180](https://jastrow.app/#rid:K01180) | headword | כְּרֵית־ | כְּרֵית־ |  |  |
-| [K01307](https://jastrow.app/#rid:K01307) | headword | כשיר־ | כשיר־ |  |  |
-| [K01361](https://jastrow.app/#rid:K01361) | headword | כְּתִיפ־ | כְּתִיפ־ |  |  |
-| [L00002](https://jastrow.app/#rid:L00002) | headword | לְ־ | לְ־ |  |  |
-| [L00002](https://jastrow.app/#rid:L00002) | alt | לָ־ | לְ־ |  |  |
-| [L00002](https://jastrow.app/#rid:L00002) | alt | לַ־ | לְ־ |  |  |
-| [L00002](https://jastrow.app/#rid:L00002) | alt | לִ־ | לְ־ |  |  |
-| [L00002](https://jastrow.app/#rid:L00002) | alt | לֵ־ | לְ־ |  |  |
-| [L00522](https://jastrow.app/#rid:L00522) | headword | לִיקְט־ | לִיקְט־ |  |  |
-| [L00549](https://jastrow.app/#rid:L00549) | headword | לכלאב־ | לכלאב־ |  |  |
-| [L00625](https://jastrow.app/#rid:L00625) | headword | לעת־ | לעת־ |  |  |
-| [M00002](https://jastrow.app/#rid:M00002) | headword | מִ־ | מִ־ |  |  |
-| [M00002](https://jastrow.app/#rid:M00002) | alt | מִי־ | מִ־ |  |  |
-| [M00159](https://jastrow.app/#rid:M00159) | headword | מָגִינּ־ | מָגִינּ־ |  |  |
-| [M00230](https://jastrow.app/#rid:M00230) | headword | מִדְּ־ | מִדְּ־ |  |  |
-| [M00289](https://jastrow.app/#rid:M00289) | headword | מְדִיל־ | מְדִיל־ |  |  |
-| [M00593](https://jastrow.app/#rid:M00593) | headword | מוֹקְמַת־ | מוֹקְמַת־ |  |  |
-| [M01084](https://jastrow.app/#rid:M01084) | headword | מִיגְדּ־ | מִיגְדּ־ |  |  |
-| [M01247](https://jastrow.app/#rid:M01247) | headword | מִיסְכּ־ | מִיסְכּ־ |  |  |
-| [M01409](https://jastrow.app/#rid:M01409) | headword | מִכְּמַת־ | מִכְּמַת־ |  |  |
-| [M01658](https://jastrow.app/#rid:M01658) | headword | מַמְזֵיר־ | מַמְזֵיר־ |  |  |
-| [M02474](https://jastrow.app/#rid:M02474) | headword | מקשיצת־ | מקשיצת־ |  |  |
-| [M02794](https://jastrow.app/#rid:M02794) | headword | מִשֶּׁ־ | מִשֶּׁ־ |  |  |
-| [N00629](https://jastrow.app/#rid:N00629) | headword | נִיהֲל־ | נִיהֲל־ |  |  |
-| [N00964](https://jastrow.app/#rid:N00964) | headword | נַסְתּ־ | נַסְתּ־ |  |  |
-| [O00582](https://jastrow.app/#rid:O00582) | headword | סִידְק־ | סִידְק־ |  |  |
-| [O01363](https://jastrow.app/#rid:O01363) | headword | סְפֵיק־ | סְפֵיק־ |  |  |
-| [O01375](https://jastrow.app/#rid:O01375) | headword | סְפֵיר־ | סְפֵיר־ |  |  |
-| [P00502](https://jastrow.app/#rid:P00502) | headword | עֵיד־ | עֵיד־ |  |  |
-| [P00707](https://jastrow.app/#rid:P00707) | headword | עִיתּ־ | עִיתּ־ |  |  |
-| [P01118](https://jastrow.app/#rid:P01118) | headword | עֲצֵיל־ | עֲצֵיל־ |  |  |
-| [P01170](https://jastrow.app/#rid:P01170) | headword | עֲקֵיב־ | עֲקֵיב־ |  |  |
-| [P01335](https://jastrow.app/#rid:P01335) | headword | עַרְטוּל־ | עַרְטוּל־ |  |  |
-| [P01340](https://jastrow.app/#rid:P01340) | headword | עַרְטִלּ־ | עַרְטִלּ־ |  |  |
-| [P01340](https://jastrow.app/#rid:P01340) | alt | עַרְטַלּ־ | עַרְטִלּ־ |  |  |
-| [P01348](https://jastrow.app/#rid:P01348) | headword | עֲרֵיב־ | עֲרֵיב־ |  |  |
-| [P01359](https://jastrow.app/#rid:P01359) | headword | עֲרֵיל־ | עֲרֵיל־ |  |  |
-| [Q00705](https://jastrow.app/#rid:Q00705) | headword | פִּילְכ־ | פִּילְכ־ |  |  |
-| [Q00900](https://jastrow.app/#rid:Q00900) | headword | פִּיתְח־ | פִּיתְח־ |  |  |
-| [R00307](https://jastrow.app/#rid:R00307) | headword | צִידּ־ | צִידּ־ |  |  |
-| [R00353](https://jastrow.app/#rid:R00353) | headword | צִילּ־ | צִילּ־ |  |  |
-| [R00370](https://jastrow.app/#rid:R00370) | headword | צִימְדּ־ | צִימְדּ־ |  |  |
-| [S00002](https://jastrow.app/#rid:S00002) | headword | קָ־ | קָ־ |  |  |
-| [S00003](https://jastrow.app/#rid:S00003) | alt | קָ־ | קָא |  |  |
-| [S00353](https://jastrow.app/#rid:S00353) | headword | קוּלְמְס־ | קוּלְמְס־ |  |  |
-| [S00377](https://jastrow.app/#rid:S00377) | headword | קומ־ | קומ־ |  |  |
-| [S01016](https://jastrow.app/#rid:S01016) | headword | קִינּ־ | קִינּ־ |  |  |
-| [S01120](https://jastrow.app/#rid:S01120) | headword | קִיצּ־ | קִיצּ־ |  |  |
-| [S01223](https://jastrow.app/#rid:S01223) | headword | קִישְׁר־ | קִישְׁר־ |  |  |
-| [S01435](https://jastrow.app/#rid:S01435) | headword | קַמּ־ | קַמּ־ |  |  |
-| [S01436](https://jastrow.app/#rid:S01436) | headword | קָמ־ | קָמ־ |  |  |
-| [S01436](https://jastrow.app/#rid:S01436) | alt | קָמֵי־ | קָמ־ |  |  |
-| [S01468](https://jastrow.app/#rid:S01468) | alt | קַמּ־ | קַמֵּי |  |  |
-| [S01824](https://jastrow.app/#rid:S01824) | headword | קְצֵיר־ | קְצֵיר־ |  |  |
-| [T00496](https://jastrow.app/#rid:T00496) | headword | רְחֵיל־ | רְחֵיל־ |  |  |
-| [U00002](https://jastrow.app/#rid:U00002) | headword | שֶׁ־ | שֶׁ־ |  |  |
-| [U00887](https://jastrow.app/#rid:U00887) | headword | שִׁיטְפ־ | שִׁיטְפ־ |  |  |
-| [U00968](https://jastrow.app/#rid:U00968) | headword | שִׁינּ־ | שִׁינּ־ |  |  |
-| [U01026](https://jastrow.app/#rid:U01026) | headword | שִׂיפְמ־ | שִׂיפְמ־ |  |  |
-| [U01083](https://jastrow.app/#rid:U01083) | headword | שִׂירְפּ־ | שִׂירְפּ־ |  |  |
-| [U01471](https://jastrow.app/#rid:U01471) | headword | שְׁמֵינ־ | שְׁמֵינ־ |  |  |
-| [V00445](https://jastrow.app/#rid:V00445) | headword | תִּולּ־ | תִּולּ־ |  |  |
-| [V00738](https://jastrow.app/#rid:V00738) | headword | תנחומות־ | תנחומות־ |  |  |
-| [V00761](https://jastrow.app/#rid:V00761) | headword | תִּסְוָור־ | תִּסְוָור־ |  |  |
-| [V00761](https://jastrow.app/#rid:V00761) | alt | תִּסְוָר־ | תִּסְוָור־ |  |  |
-| [V00819](https://jastrow.app/#rid:V00819) | headword | תְּפֵיל־ | תְּפֵיל־ |  |  |
-| [V00960](https://jastrow.app/#rid:V00960) | headword | תַּרְוֵי־ | תַּרְוֵי־ |  |  |
+| [A00007](https://jastrow.app/#rid:A00007) | headword | אִ־ | /א־ |  |  |
+| [A00007](https://jastrow.app/#rid:A00007) | alt | אִי־ | /א־ |  |  |
+| [A00007](https://jastrow.app/#rid:A00007) | alt | אֶ־ | /א־ |  |  |
+| [A00007](https://jastrow.app/#rid:A00007) | alt | אַ־ | /א־ |  |  |
+| [A00008](https://jastrow.app/#rid:A00008) | headword | אַ־ | /א־-2 |  |  |
+| [A00012](https://jastrow.app/#rid:A00012) | headword | אַב־ | /אב־ |  |  |
+| [A00012](https://jastrow.app/#rid:A00012) | alt | אֶבְ־ | /אב־ |  |  |
+| [A00244](https://jastrow.app/#rid:A00244) | alt | אִיגְדּ־ | /אגד-6 |  |  |
+| [A00367](https://jastrow.app/#rid:A00367) | headword | אַדְּ־ | /אד־ |  |  |
+| [A00515](https://jastrow.app/#rid:A00515) | headword | או־ | /או־ |  |  |
+| [A00661](https://jastrow.app/#rid:A00661) | headword | אוֹלוֹ־ | /אולו־ |  |  |
+| [A00954](https://jastrow.app/#rid:A00954) | headword | אזד־ | /אזד־ |  |  |
+| [A01109](https://jastrow.app/#rid:A01109) | headword | אִי־ | /אי־ |  |  |
+| [A01396](https://jastrow.app/#rid:A01396) | headword | אִיס־ | /איס־ |  |  |
+| [A01396](https://jastrow.app/#rid:A01396) | alt | אִס־ | /איס־ |  |  |
+| [A01410](https://jastrow.app/#rid:A01410) | headword | אִיסְט־ | /איסט־ |  |  |
+| [A01638](https://jastrow.app/#rid:A01638) | headword | אִיתְ־ | /אית־ |  |  |
+| [A01765](https://jastrow.app/#rid:A01765) | headword | אַל־ | /אל־ |  |  |
+| [A02015](https://jastrow.app/#rid:A02015) | alt | אַמְטֻלְתּ־ | /אמטל |  |  |
+| [A02029](https://jastrow.app/#rid:A02029) | headword | אֲמִיתּ־ | /אמית־ |  |  |
+| [A02317](https://jastrow.app/#rid:A02317) | headword | אִס־ | /אס־ |  |  |
+| [A02345](https://jastrow.app/#rid:A02345) | headword | אִסְטְ־ | /אסט־ |  |  |
+| [A02864](https://jastrow.app/#rid:A02864) | headword | אִצְט־ | /אצט־ |  |  |
+| [A03212](https://jastrow.app/#rid:A03212) | headword | אֲרִסְט־ | /ארסט־ |  |  |
+| [A03392](https://jastrow.app/#rid:A03392) | headword | אִתְ־ | /את־ |  |  |
+| [B00003](https://jastrow.app/#rid:B00003) | headword | בְּ־ | /ב־ |  |  |
+| [B00004](https://jastrow.app/#rid:B00004) | headword | בְּ־ | /ב־-2 |  |  |
+| [B00093](https://jastrow.app/#rid:B00093) | headword | בִּדְּ־ | /בד־ |  |  |
+| [B00093](https://jastrow.app/#rid:B00093) | alt | בִּידְּ־ | /בד־ |  |  |
+| [B00551](https://jastrow.app/#rid:B00551) | headword | בִּידְ־ | /ביד־ |  |  |
+| [B00761](https://jastrow.app/#rid:B00761) | headword | בית־יוני | /בית־יוני |  |  |
+| [C00086](https://jastrow.app/#rid:C00086) | headword | גביית־ | /גביית־ |  |  |
+| [C00547](https://jastrow.app/#rid:C00547) | headword | גְּזֵיל־ | /גזיל־ |  |  |
+| [C00598](https://jastrow.app/#rid:C00598) | alt | גִּיטּ־ | /גט |  |  |
+| [C01133](https://jastrow.app/#rid:C01133) | headword | גְּנֵיב־ | /גניב־ |  |  |
+| [D00002](https://jastrow.app/#rid:D00002) | headword | דְּ־ | /ד־ |  |  |
+| [D00445](https://jastrow.app/#rid:D00445) | headword | דִּי־ | /די־ |  |  |
+| [D00490](https://jastrow.app/#rid:D00490) | headword | דִּיד־ | /דיד־ |  |  |
+| [D00502](https://jastrow.app/#rid:D00502) | headword | דיו־ | /דיו־ |  |  |
+| [D00585](https://jastrow.app/#rid:D00585) | headword | דִּיכְוָות־ | /דיכוות־ |  |  |
+| [D00588](https://jastrow.app/#rid:D00588) | headword | דִּיכְוָת־ | /דיכות־ |  |  |
+| [D00595](https://jastrow.app/#rid:D00595) | headword | דִּיל־ | /דיל־ |  | yes |
+| [D00596](https://jastrow.app/#rid:D00596) | headword | דִּילָ־ | /דיל־-2 |  |  |
+| [D00764](https://jastrow.app/#rid:D00764) | headword | דִּכְוָות־ | /דכוות־ |  |  |
+| [D00769](https://jastrow.app/#rid:D00769) | headword | דִּכְוָת־ | /דכות־ |  |  |
+| [D00769](https://jastrow.app/#rid:D00769) | alt | דִּיכְוָות־ | /דכות־ |  |  |
+| [D00937](https://jastrow.app/#rid:D00937) | headword | דִּסְ־ | /דס־ |  |  |
+| [E00002](https://jastrow.app/#rid:E00002) | headword | הַ־ | /ה־ |  |  |
+| [E00003](https://jastrow.app/#rid:E00003) | headword | הָ־ | /ה־-2 |  |  |
+| [E00003](https://jastrow.app/#rid:E00003) | alt | הַ־ | /ה־-2 |  |  |
+| [E00095](https://jastrow.app/#rid:E00095) | headword | הַד־ | /הד־ |  |  |
+| [E00373](https://jastrow.app/#rid:E00373) | headword | הֵיכ־ | /היכ־ |  |  |
+| [E00413](https://jastrow.app/#rid:E00413) | headword | הֵימ־ | /הימ־ |  |  |
+| [E00530](https://jastrow.app/#rid:E00530) | headword | הַלּ־ | /הל־ |  |  |
+| [E00830](https://jastrow.app/#rid:E00830) | alt | הַדְרְסִ־ | /הרדסיאות |  |  |
+| [F00025](https://jastrow.app/#rid:F00025) | headword | ווּ־ | /וו־ |  |  |
+| [G00517](https://jastrow.app/#rid:G00517) | headword | זְמֵימ־ | /זמימ־ |  |  |
+| [H00076](https://jastrow.app/#rid:H00076) | headword | חֲבֵיר־ | /חביר־ |  |  |
+| [H01188](https://jastrow.app/#rid:H01188) | headword | חֲמֵיצ־ | /חמיצ־ |  |  |
+| [H01528](https://jastrow.app/#rid:H01528) | headword | חֲצֵיר־ | /חציר־ |  |  |
+| [J00328](https://jastrow.app/#rid:J00328) | headword | יִיח־ | /ייח־ |  |  |
+| [J00692](https://jastrow.app/#rid:J00692) | headword | יְשֵׁינ־ | /ישינ־ |  |  |
+| [K00002](https://jastrow.app/#rid:K00002) | headword | כְּ־ | /כ־ |  |  |
+| [K00002](https://jastrow.app/#rid:K00002) | alt | כִּ־׳ | /כ־ |  |  |
+| [K00002](https://jastrow.app/#rid:K00002) | alt | כִּי־ | /כ־ |  |  |
+| [K00049](https://jastrow.app/#rid:K00049) | headword | כְּבֵיד־ | /כביד־ |  |  |
+| [K00098](https://jastrow.app/#rid:K00098) | alt | כִּדּ־ | /כד |  |  |
+| [K00098](https://jastrow.app/#rid:K00098) | alt | כִּידּ־ | /כד |  |  |
+| [K00261](https://jastrow.app/#rid:K00261) | headword | כּוּלּ־ | /כול־ |  |  |
+| [K00490](https://jastrow.app/#rid:K00490) | alt | כִּיד־ | /כיד-2 |  |  |
+| [K00824](https://jastrow.app/#rid:K00824) | headword | כְּמָת־ | /כמת־ |  |  |
+| [K01012](https://jastrow.app/#rid:K01012) | headword | כְּפֵיל־ | /כפיל־ |  |  |
+| [K01169](https://jastrow.app/#rid:K01169) | headword | כְּרֵיס־ | /כריס־ |  |  |
+| [K01180](https://jastrow.app/#rid:K01180) | headword | כְּרֵית־ | /כרית־ |  |  |
+| [K01307](https://jastrow.app/#rid:K01307) | headword | כשיר־ | /כשיר־ |  |  |
+| [K01361](https://jastrow.app/#rid:K01361) | headword | כְּתִיפ־ | /כתיפ־ |  |  |
+| [L00002](https://jastrow.app/#rid:L00002) | headword | לְ־ | /ל־ |  |  |
+| [L00002](https://jastrow.app/#rid:L00002) | alt | לָ־ | /ל־ |  |  |
+| [L00002](https://jastrow.app/#rid:L00002) | alt | לַ־ | /ל־ |  |  |
+| [L00002](https://jastrow.app/#rid:L00002) | alt | לִ־ | /ל־ |  |  |
+| [L00002](https://jastrow.app/#rid:L00002) | alt | לֵ־ | /ל־ |  |  |
+| [L00522](https://jastrow.app/#rid:L00522) | headword | לִיקְט־ | /ליקט־ |  |  |
+| [L00549](https://jastrow.app/#rid:L00549) | headword | לכלאב־ | /לכלאב־ |  |  |
+| [L00625](https://jastrow.app/#rid:L00625) | headword | לעת־ | /לעת־ |  |  |
+| [M00002](https://jastrow.app/#rid:M00002) | headword | מִ־ | /מ־ |  |  |
+| [M00002](https://jastrow.app/#rid:M00002) | alt | מִי־ | /מ־ |  |  |
+| [M00159](https://jastrow.app/#rid:M00159) | headword | מָגִינּ־ | /מגינ־ |  |  |
+| [M00230](https://jastrow.app/#rid:M00230) | headword | מִדְּ־ | /מד־ |  |  |
+| [M00289](https://jastrow.app/#rid:M00289) | headword | מְדִיל־ | /מדיל־ |  |  |
+| [M00593](https://jastrow.app/#rid:M00593) | headword | מוֹקְמַת־ | /מוקמת־ |  |  |
+| [M01084](https://jastrow.app/#rid:M01084) | headword | מִיגְדּ־ | /מיגד־ |  |  |
+| [M01247](https://jastrow.app/#rid:M01247) | headword | מִיסְכּ־ | /מיסכ־ |  |  |
+| [M01409](https://jastrow.app/#rid:M01409) | headword | מִכְּמַת־ | /מכמת־ |  |  |
+| [M01658](https://jastrow.app/#rid:M01658) | headword | מַמְזֵיר־ | /ממזיר־ |  |  |
+| [M02474](https://jastrow.app/#rid:M02474) | headword | מקשיצת־ | /מקשיצת־ |  |  |
+| [M02794](https://jastrow.app/#rid:M02794) | headword | מִשֶּׁ־ | /מש־ |  |  |
+| [N00629](https://jastrow.app/#rid:N00629) | headword | נִיהֲל־ | /ניהל־ |  |  |
+| [N00964](https://jastrow.app/#rid:N00964) | headword | נַסְתּ־ | /נסת־ |  |  |
+| [O00582](https://jastrow.app/#rid:O00582) | headword | סִידְק־ | /סידק־ |  |  |
+| [O01363](https://jastrow.app/#rid:O01363) | headword | סְפֵיק־ | /ספיק־ |  |  |
+| [O01375](https://jastrow.app/#rid:O01375) | headword | סְפֵיר־ | /ספיר־ |  |  |
+| [P00502](https://jastrow.app/#rid:P00502) | headword | עֵיד־ | /עיד־ |  |  |
+| [P00707](https://jastrow.app/#rid:P00707) | headword | עִיתּ־ | /עית־ |  |  |
+| [P01118](https://jastrow.app/#rid:P01118) | headword | עֲצֵיל־ | /עציל־ |  |  |
+| [P01170](https://jastrow.app/#rid:P01170) | headword | עֲקֵיב־ | /עקיב־ |  |  |
+| [P01335](https://jastrow.app/#rid:P01335) | headword | עַרְטוּל־ | /ערטול־ |  |  |
+| [P01340](https://jastrow.app/#rid:P01340) | headword | עַרְטִלּ־ | /ערטל־ |  |  |
+| [P01340](https://jastrow.app/#rid:P01340) | alt | עַרְטַלּ־ | /ערטל־ |  |  |
+| [P01348](https://jastrow.app/#rid:P01348) | headword | עֲרֵיב־ | /עריב־ |  |  |
+| [P01359](https://jastrow.app/#rid:P01359) | headword | עֲרֵיל־ | /עריל־ |  |  |
+| [Q00705](https://jastrow.app/#rid:Q00705) | headword | פִּילְכ־ | /פילכ־ |  |  |
+| [Q00900](https://jastrow.app/#rid:Q00900) | headword | פִּיתְח־ | /פיתח־ |  |  |
+| [R00307](https://jastrow.app/#rid:R00307) | headword | צִידּ־ | /ציד־ |  |  |
+| [R00353](https://jastrow.app/#rid:R00353) | headword | צִילּ־ | /ציל־ |  |  |
+| [R00370](https://jastrow.app/#rid:R00370) | headword | צִימְדּ־ | /צימד־ |  |  |
+| [S00002](https://jastrow.app/#rid:S00002) | headword | קָ־ | /ק־ |  |  |
+| [S00003](https://jastrow.app/#rid:S00003) | alt | קָ־ | /קא |  |  |
+| [S00353](https://jastrow.app/#rid:S00353) | headword | קוּלְמְס־ | /קולמס־ |  |  |
+| [S00377](https://jastrow.app/#rid:S00377) | headword | קומ־ | /קומ־ |  |  |
+| [S01016](https://jastrow.app/#rid:S01016) | headword | קִינּ־ | /קינ־ |  |  |
+| [S01120](https://jastrow.app/#rid:S01120) | headword | קִיצּ־ | /קיצ־ |  |  |
+| [S01223](https://jastrow.app/#rid:S01223) | headword | קִישְׁר־ | /קישר־ |  |  |
+| [S01435](https://jastrow.app/#rid:S01435) | headword | קַמּ־ | /קמ־ |  |  |
+| [S01436](https://jastrow.app/#rid:S01436) | headword | קָמ־ | /קמ־-2 |  |  |
+| [S01436](https://jastrow.app/#rid:S01436) | alt | קָמֵי־ | /קמ־-2 |  |  |
+| [S01468](https://jastrow.app/#rid:S01468) | alt | קַמּ־ | /קמי-2 |  |  |
+| [S01824](https://jastrow.app/#rid:S01824) | headword | קְצֵיר־ | /קציר־ |  |  |
+| [T00496](https://jastrow.app/#rid:T00496) | headword | רְחֵיל־ | /רחיל־ |  |  |
+| [U00002](https://jastrow.app/#rid:U00002) | headword | שֶׁ־ | /ש־ |  |  |
+| [U00887](https://jastrow.app/#rid:U00887) | headword | שִׁיטְפ־ | /שיטפ־ |  |  |
+| [U00968](https://jastrow.app/#rid:U00968) | headword | שִׁינּ־ | /שינ־ |  |  |
+| [U01026](https://jastrow.app/#rid:U01026) | headword | שִׂיפְמ־ | /שיפמ־ |  |  |
+| [U01083](https://jastrow.app/#rid:U01083) | headword | שִׂירְפּ־ | /שירפ־ |  |  |
+| [U01471](https://jastrow.app/#rid:U01471) | headword | שְׁמֵינ־ | /שמינ־ |  |  |
+| [V00445](https://jastrow.app/#rid:V00445) | headword | תִּולּ־ | /תול־ |  |  |
+| [V00738](https://jastrow.app/#rid:V00738) | headword | תנחומות־ | /תנחומות־ |  |  |
+| [V00761](https://jastrow.app/#rid:V00761) | headword | תִּסְוָור־ | /תסוור־ |  |  |
+| [V00761](https://jastrow.app/#rid:V00761) | alt | תִּסְוָר־ | /תסוור־ |  |  |
+| [V00819](https://jastrow.app/#rid:V00819) | headword | תְּפֵיל־ | /תפיל־ |  |  |
+| [V00960](https://jastrow.app/#rid:V00960) | headword | תַּרְוֵי־ | /תרוי־ |  |  |
 
 ## X6 abbreviated alt (ends ׳) (2240)
 
-| rid | role | text | name | note | flagged |
+| rid | role | text | url | note | flagged |
 |---|---|---|---|---|---|
-| [A00286](https://jastrow.app/#rid:A00286) | alt | אֲגִיח׳ | אַגָּחוּתָא |  |  |
-| [A00597](https://jastrow.app/#rid:A00597) | alt | אַוְתֶּ׳ | אַוותֶּנְטְיָא |  |  |
-| [A00806](https://jastrow.app/#rid:A00806) | alt | אופימשט׳ | *אופימטטאטא |  | yes |
-| [A00829](https://jastrow.app/#rid:A00829) | alt | אוקטר׳ | אוקטוריא |  | yes |
-| [A00987](https://jastrow.app/#rid:A00987) | alt | אִיזְ׳ | *אִזְתַּוְודָּא |  | yes |
-| [A01085](https://jastrow.app/#rid:A01085) | alt | אִיטִ׳ | אֱטִימָסִיאָה |  | yes |
-| [A01089](https://jastrow.app/#rid:A01089) | alt | אִיטְ׳ | אִטְלוּלָא |  | yes |
-| [A01133](https://jastrow.app/#rid:A01133) | alt | אֵבְ׳ | אֵיבָרָא |  | yes |
-| [A01150](https://jastrow.app/#rid:A01150) | alt | אִגַּ׳ | אִיגַּרְתָּא |  | yes |
-| [A01194](https://jastrow.app/#rid:A01194) | alt | אֵזֶ׳ | אֵיזֶה |  |  |
-| [A01200](https://jastrow.app/#rid:A01200) | alt | אִזְ׳ | אִיזְמֵיל |  |  |
-| [A01240](https://jastrow.app/#rid:A01240) | alt | איינטפ׳ | איינטבלינית |  | yes |
-| [A01260](https://jastrow.app/#rid:A01260) | alt | אִכָּ׳ | אִיכָּרָא |  | yes |
-| [A01281](https://jastrow.app/#rid:A01281) | alt | אִלּ׳ | אִילּוּלָא |  |  |
-| [A01291](https://jastrow.app/#rid:A01291) | alt | אִלְיוֹ׳ | אִילְיוֹפּוֹלִיס |  | yes |
-| [A01292](https://jastrow.app/#rid:A01292) | alt | אִלֵּ׳ | אִילֵימָא |  | yes |
-| [A01307](https://jastrow.app/#rid:A01307) | alt | אִלָ׳ | אִילַן |  |  |
-| [A01335](https://jastrow.app/#rid:A01335) | alt | אֲמוּ׳ | אֵימוּרִים² |  |  |
-| [A01338](https://jastrow.app/#rid:A01338) | alt | או׳ | *אימיקנטרון |  | yes |
-| [A01359](https://jastrow.app/#rid:A01359) | alt | אֵימָ׳ | אֵימְתָן |  |  |
-| [A01376](https://jastrow.app/#rid:A01376) | alt | יִינוֹ׳ | אִינוֹמִילִין |  |  |
-| [A01380](https://jastrow.app/#rid:A01380) | alt | איינ׳ | אינטפלינית |  | yes |
-| [A01395](https://jastrow.app/#rid:A01395) | alt | אנת׳ | אינתימרוס |  | yes |
-| [A01411](https://jastrow.app/#rid:A01411) | alt | אִסְ׳ | אִיסְטְבָא |  |  |
-| [A01411](https://jastrow.app/#rid:A01411) | alt | אִיצְ׳ | אִיסְטְבָא |  |  |
-| [A01411](https://jastrow.app/#rid:A01411) | alt | אִצְ׳ | אִיסְטְבָא |  |  |
-| [A01420](https://jastrow.app/#rid:A01420) | alt | אִסְ׳ | אִיסְטְוָוא II |  | yes |
-| [A01423](https://jastrow.app/#rid:A01423) | alt | אִיצְ׳ | אִיסְטְוָונִית |  | yes |
-| [A01423](https://jastrow.app/#rid:A01423) | alt | אִסְ׳ | אִיסְטְוָונִית |  | yes |
-| [A01423](https://jastrow.app/#rid:A01423) | alt | אִצְ׳ | אִיסְטְוָונִית |  | yes |
-| [A01433](https://jastrow.app/#rid:A01433) | alt | אִסְ׳ | אִיסטֵיב |  | yes |
-| [A01434](https://jastrow.app/#rid:A01434) | alt | אִסְ׳ | אִיסְטֵיו |  | yes |
-| [A01453](https://jastrow.app/#rid:A01453) | alt | אִסְ׳ | אִיסְטְרוֹבִיל |  |  |
-| [A01453](https://jastrow.app/#rid:A01453) | alt | אִצְ׳ | אִיסְטְרוֹבִיל |  |  |
-| [A01453](https://jastrow.app/#rid:A01453) | alt | אִיצְ׳ | אִיסְטְרוֹבִיל |  |  |
-| [A01460](https://jastrow.app/#rid:A01460) | alt | אִיסְתְּ׳ | אִיסְטְרִידָא |  |  |
-| [A01460](https://jastrow.app/#rid:A01460) | alt | אִצְטְ׳ | אִיסְטְרִידָא |  |  |
-| [A01466](https://jastrow.app/#rid:A01466) | alt | אִסְ׳ | אִיסְכּוֹלַסְטִיקָא |  | yes |
-| [A01489](https://jastrow.app/#rid:A01489) | alt | אִסְפַּ׳ | אִיסְפַּרְגּוֹס |  | yes |
-| [A01499](https://jastrow.app/#rid:A01499) | alt | אִסְק׳ | אִיסְקוּנְדְּרֵי |  |  |
-| [A01521](https://jastrow.app/#rid:A01521) | alt | אִסְ׳ | אִיסְתִּירָא |  |  |
-| [A01525](https://jastrow.app/#rid:A01525) | alt | אִסְ׳ | אִיסְתְּנִיס |  |  |
-| [A01526](https://jastrow.app/#rid:A01526) | alt | איסט׳ | איסתניסיה |  | yes |
-| [A01567](https://jastrow.app/#rid:A01567) | alt | אִפַּ׳ | אִיפַּרְכִי |  |  |
-| [A01590](https://jastrow.app/#rid:A01590) | alt | אִק׳ | אִיקוֹן |  |  |
-| [A01641](https://jastrow.app/#rid:A01641) | alt | אִתְּ׳ | אִיתָּא |  |  |
-| [A01644](https://jastrow.app/#rid:A01644) | alt | אִתּוֹ׳ | אִיתּוֹדָאָה |  | yes |
-| [A01647](https://jastrow.app/#rid:A01647) | alt | אִתְּ׳ | *אִיתְּיַטְרוֹן |  |  |
-| [A01651](https://jastrow.app/#rid:A01651) | alt | אַתְ׳ | אִיתְכָּלָא |  |  |
-| [A01675](https://jastrow.app/#rid:A01675) | alt | אַכְוַו׳ | אַכְוַנְגַּר |  |  |
-| [A01752](https://jastrow.app/#rid:A01752) | alt | אִי׳ | *אִכְרוּם |  |  |
-| [A01752](https://jastrow.app/#rid:A01752) | alt | אֶכְּ׳ | *אִכְרוּם |  |  |
-| [A01796](https://jastrow.app/#rid:A01796) | alt | הַלְוַו׳ | אַלְוַאי |  |  |
-| [A01844](https://jastrow.app/#rid:A01844) | alt | אִיל׳ | אִלְיוֹן |  |  |
-| [A01865](https://jastrow.app/#rid:A01865) | alt | אִילֵּ׳ | אִלֵּימָא II |  |  |
-| [A01894](https://jastrow.app/#rid:A01894) | alt | אֲלַכְ׳ | אֲלֶכְסַנְדְּרוֹס |  | yes |
-| [A01896](https://jastrow.app/#rid:A01896) | alt | אֲלַכְ׳ | אֲלֶכְסַנְדַּרְיָא |  |  |
-| [A01918](https://jastrow.app/#rid:A01918) | alt | אִילְ׳ | אִלְמָלֵא |  |  |
-| [A01947](https://jastrow.app/#rid:A01947) | alt | אִילְ׳ | אִלְקְטִי |  | yes |
-| [A01954](https://jastrow.app/#rid:A01954) | alt | אִילַ׳ | אִלַּרְיָא |  | yes |
-| [A02052](https://jastrow.app/#rid:A02052) | alt | אִנְפִּי׳ | אִמְפִּילְיָא |  |  |
-| [A02052](https://jastrow.app/#rid:A02052) | alt | אִנְפִּלְ׳ | אִמְפִּילְיָא |  |  |
-| [A02068](https://jastrow.app/#rid:A02068) | alt | אַמַּ׳ | *אֲמַרְכּוֹל |  |  |
-| [A02106](https://jastrow.app/#rid:A02106) | alt | אבג׳ | *אנגרוטינא |  |  |
-| [A02161](https://jastrow.app/#rid:A02161) | alt | אנטד׳ | אנטג׳ |  |  |
-| [A02297](https://jastrow.app/#rid:A02297) | alt | אונק׳ | אֶנְקְלִיטוֹן |  | yes |
-| [A02300](https://jastrow.app/#rid:A02300) | alt | אונ׳ | אֶנְקְלַסְיָא |  | yes |
-| [A02325](https://jastrow.app/#rid:A02325) | alt | איס׳ | *אסגינטרין |  |  |
-| [A02348](https://jastrow.app/#rid:A02348) | alt | אִצְ׳ | *אִסְטַבְלָא |  | yes |
-| [A02348](https://jastrow.app/#rid:A02348) | alt | אִיסְ׳ | *אִסְטַבְלָא |  | yes |
-| [A02348](https://jastrow.app/#rid:A02348) | alt | אִיצְ׳ | *אִסְטַבְלָא |  | yes |
-| [A02350](https://jastrow.app/#rid:A02350) | alt | אִיסְ׳ | אִסְטַגְיוֹת |  | yes |
-| [A02351](https://jastrow.app/#rid:A02351) | alt | אִצְטַ׳ | אִסְטַגְנֵין |  | yes |
-| [A02351](https://jastrow.app/#rid:A02351) | alt | אִי׳ | אִסְטַגְנֵין |  | yes |
-| [A02352](https://jastrow.app/#rid:A02352) | alt | אִצְ׳ | *אִסטַגְנִינָא |  | yes |
-| [A02352](https://jastrow.app/#rid:A02352) | alt | אִי׳ | *אִסטַגְנִינָא |  | yes |
-| [A02353](https://jastrow.app/#rid:A02353) | alt | אִצְ׳ | אִסְטַגְנִינוּת |  | yes |
-| [A02353](https://jastrow.app/#rid:A02353) | alt | אִי׳ | אִסְטַגְנִינוּת |  | yes |
-| [A02362](https://jastrow.app/#rid:A02362) | alt | אִי׳ | אִסְטוֹמְכָא |  | yes |
-| [A02373](https://jastrow.app/#rid:A02373) | alt | אִי׳ | אִסְטַכְטוֹן |  |  |
-| [A02376](https://jastrow.app/#rid:A02376) | alt | אִי׳ | אִסְטְלָא |  |  |
-| [A02378](https://jastrow.app/#rid:A02378) | alt | אִיסְ׳ | אִסְטַלִּי I |  |  |
-| [A02379](https://jastrow.app/#rid:A02379) | alt | אִיסְ׳ | אִסְטְלִי |  |  |
-| [A02381](https://jastrow.app/#rid:A02381) | alt | אִצְ׳ | אִסְטַלִּית |  | yes |
-| [A02381](https://jastrow.app/#rid:A02381) | alt | אִי׳ | אִסְטַלִּית |  | yes |
-| [A02386](https://jastrow.app/#rid:A02386) | alt | אִסְתַּ׳ | אִסְטַנְדְּרָא |  | yes |
-| [A02386](https://jastrow.app/#rid:A02386) | alt | אִי׳ | אִסְטַנְדְּרָא |  | yes |
-| [A02400](https://jastrow.app/#rid:A02400) | alt | איס׳ | אסטרוגי |  | yes |
-| [A02402](https://jastrow.app/#rid:A02402) | alt | אַצְ׳ | אַסְטְרוֹלוֹגוֹס |  | yes |
-| [A02402](https://jastrow.app/#rid:A02402) | alt | אִיסְ׳ | אַסְטְרוֹלוֹגוֹס |  | yes |
-| [A02402](https://jastrow.app/#rid:A02402) | alt | אִיצְ׳ | אַסְטְרוֹלוֹגוֹס |  | yes |
-| [A02403](https://jastrow.app/#rid:A02403) | alt | אִיסְ׳ | אַסְטְרוֹלוֹגְיָא |  | yes |
-| [A02403](https://jastrow.app/#rid:A02403) | alt | אסת׳ | אַסְטְרוֹלוֹגְיָא |  | yes |
-| [A02403](https://jastrow.app/#rid:A02403) | alt | אַצְ׳ | אַסְטְרוֹלוֹגְיָא |  | yes |
-| [A02403](https://jastrow.app/#rid:A02403) | alt | אִיצְ׳ | אַסְטְרוֹלוֹגְיָא |  | yes |
-| [A02407](https://jastrow.app/#rid:A02407) | alt | אִיסְ׳ | אִסְטְרוֹפוֹמָטָא |  | yes |
-| [A02408](https://jastrow.app/#rid:A02408) | alt | אִיסְטְ׳ | אִסְטְרָטָא |  |  |
-| [A02412](https://jastrow.app/#rid:A02412) | alt | אִיסְ׳ | אִסְטְרַטְיָא |  | yes |
-| [A02413](https://jastrow.app/#rid:A02413) | alt | אִיסְ׳ | אִסְטְרַטְיָא II |  |  |
-| [A02422](https://jastrow.app/#rid:A02422) | alt | אִיסְ׳ | אִסְטַרְיָא |  |  |
-| [A02422](https://jastrow.app/#rid:A02422) | alt | אִצְ׳ | אִסְטַרְיָא |  |  |
-| [A02422](https://jastrow.app/#rid:A02422) | alt | אִיצְ׳ | אִסְטַרְיָא |  |  |
-| [A02423](https://jastrow.app/#rid:A02423) | alt | אִיסְ׳ | אִסְטָרִין |  |  |
-| [A02423](https://jastrow.app/#rid:A02423) | alt | אִיצְ׳ | אִסְטָרִין |  |  |
-| [A02450](https://jastrow.app/#rid:A02450) | alt | אִיסְ׳ | אִסְכּוֹלִי |  | yes |
-| [A02455](https://jastrow.app/#rid:A02455) | alt | אִיסְ׳ | *אִסְכְּלָא |  | yes |
-| [A02479](https://jastrow.app/#rid:A02479) | alt | אִי׳ | אִסְפּוֹג |  | yes |
-| [A02490](https://jastrow.app/#rid:A02490) | alt | אִי׳ | *אִסְפִינְקִי |  |  |
-| [A02496](https://jastrow.app/#rid:A02496) | alt | אִיסְ׳ | אִסְפְּלִידָא |  | yes |
-| [A02500](https://jastrow.app/#rid:A02500) | alt | אִי׳ | *אִסְפְּלָנִית |  | yes |
-| [A02501](https://jastrow.app/#rid:A02501) | alt | אִיסְ׳ | אִסְפְּלָנִיתָא |  | yes |
-| [A02502](https://jastrow.app/#rid:A02502) | alt | אִיסְ׳ | אִסְפַּמְיָא |  | yes |
-| [A02504](https://jastrow.app/#rid:A02504) | alt | אִיסְ׳ | אִסְפַּנְיָא |  | yes |
-| [A02514](https://jastrow.app/#rid:A02514) | alt | אִיסְ׳ | אִסְפַּקְלַרְיָא |  | yes |
-| [A02519](https://jastrow.app/#rid:A02519) | alt | אִיסְ׳ | *אִסְפַּרְוָוא |  |  |
-| [A02524](https://jastrow.app/#rid:A02524) | alt | אִי׳ | אִסְפַּרְמְקֵי |  |  |
-| [A02537](https://jastrow.app/#rid:A02537) | alt | אִי׳ | אִסְקוּפָה |  | yes |
-| [A02539](https://jastrow.app/#rid:A02539) | alt | אִיסְ׳ | אִסְקוּפְתָּא |  |  |
-| [A02546](https://jastrow.app/#rid:A02546) | alt | אִיסְ׳ | אִסְקַרְיָא |  | yes |
-| [A02549](https://jastrow.app/#rid:A02549) | alt | אי׳ | אִסְקְרִיטִין |  | yes |
-| [A02555](https://jastrow.app/#rid:A02555) | alt | אִי׳ | אִסְרַדְיוֹט |  | yes |
-| [A02558](https://jastrow.app/#rid:A02558) | alt | אִי׳ | אִסְרָטָא |  | yes |
-| [A02560](https://jastrow.app/#rid:A02560) | alt | אִיסְ׳ | אִסְרַטְיָא |  | yes |
-| [A02561](https://jastrow.app/#rid:A02561) | alt | אִיסְ׳ | אִסְרַטְיָא² |  | yes |
-| [A02563](https://jastrow.app/#rid:A02563) | alt | אִיסְ׳ | אִסְרַטְיוֹט |  | yes |
-| [A02572](https://jastrow.app/#rid:A02572) | alt | אִי׳ | אִסְתּוֹמְכָא |  |  |
-| [A02578](https://jastrow.app/#rid:A02578) | alt | אִיסְ׳ | אִסְתָּן |  |  |
-| [A02588](https://jastrow.app/#rid:A02588) | alt | אִיסְ׳ | אִסְתְּרוֹקָנִית |  | yes |
-| [A02602](https://jastrow.app/#rid:A02602) | alt | אפור׳ | *אפדכסיס |  |  |
-| [A02616](https://jastrow.app/#rid:A02616) | alt | אַפֹּטְ׳ | *אַפּוֹטְנִיּוֹת |  |  |
-| [A02634](https://jastrow.app/#rid:A02634) | alt | אִי׳ | אִפּוֹפּוֹדִין |  | yes |
-| [A02675](https://jastrow.app/#rid:A02675) | alt | אַפִּי׳ | אֶפִּיטְרוֹפּוֹס |  | yes |
-| [A02675](https://jastrow.app/#rid:A02675) | alt | אַפּוֹ׳ | אֶפִּיטְרוֹפּוֹס |  | yes |
-| [A02675](https://jastrow.app/#rid:A02675) | alt | אַפַּטְ׳ | אֶפִּיטְרוֹפּוֹס |  | yes |
-| [A02676](https://jastrow.app/#rid:A02676) | alt | אַפּוֹ׳ | אֶפִּיטְרוֹפְיָא |  |  |
-| [A02789](https://jastrow.app/#rid:A02789) | alt | אִיפְ׳ | אַפְקַרְסִין |  |  |
-| [A02871](https://jastrow.app/#rid:A02871) | alt | אִיצְ׳ | אִצְטַרְיָא |  |  |
-| [A02871](https://jastrow.app/#rid:A02871) | alt | אִיסְ׳ | אִצְטַרְיָא |  |  |
-| [A02872](https://jastrow.app/#rid:A02872) | alt | אִיצְ׳ | אִצְטָרִין |  |  |
-| [A02872](https://jastrow.app/#rid:A02872) | alt | אִיסְ׳ | אִצְטָרִין |  |  |
-| [A02875](https://jastrow.app/#rid:A02875) | alt | אוּצְ׳ | אִצְיָיא |  |  |
-| [A02946](https://jastrow.app/#rid:A02946) | alt | ארא׳ | *ארא |  | yes |
-| [A03173](https://jastrow.app/#rid:A03173) | alt | אֲרָ׳ | אָרָמוּתָא |  | yes |
-| [A03255](https://jastrow.app/#rid:A03255) | alt | אִי׳ | אֶשָּׁא |  |  |
-| [A03267](https://jastrow.app/#rid:A03267) | alt | אַשְׁוָו׳ | אַשְׁוָה |  |  |
-| [A03346](https://jastrow.app/#rid:A03346) | alt | אוּשְּׁ׳ | אִשְׁקָק |  |  |
-| [A03346](https://jastrow.app/#rid:A03346) | alt | אִישְׁ׳ | אִשְׁקָק |  |  |
-| [A03368](https://jastrow.app/#rid:A03368) | alt | אִישְׁ׳ | אֶשְׁתָּדָא |  | yes |
-| [A03373](https://jastrow.app/#rid:A03373) | alt | אֶישְׁ׳ | אֶשְׁתּוֹמַם |  | yes |
-| [A03443](https://jastrow.app/#rid:A03443) | alt | אִיתְ׳ | אַתְקַפְתָּא |  | yes |
-| [B00125](https://jastrow.app/#rid:B00125) | alt | בִּי׳ | בִּדּוּר |  |  |
-| [B00289](https://jastrow.app/#rid:B00289) | alt | בֻּשְׂ׳ | בּוֹסַם |  |  |
-| [B00292](https://jastrow.app/#rid:B00292) | alt | בֻּסְ׳ | בּוּסְמָנוּ |  | yes |
-| [B00293](https://jastrow.app/#rid:B00293) | alt | בּוּשְׂ׳ | בּוּסְמָנַיָּא |  |  |
-| [B00424](https://jastrow.app/#rid:B00424) | alt | בִּיזּ׳ | בִּזּוּזָא |  | yes |
-| [B00440](https://jastrow.app/#rid:B00440) | alt | בִּיזָּ׳ | בִּזָּיוֹן |  | yes |
-| [B00501](https://jastrow.app/#rid:B00501) | alt | בִּיטָּ׳ | בִּטָּחוֹן |  | yes |
-| [B00559](https://jastrow.app/#rid:B00559) | alt | בְּיוּ׳ | בִּיּוּנָא |  |  |
-| [B00565](https://jastrow.app/#rid:B00565) | alt | בִּזּ׳ | בִּיזּוּעַ |  | yes |
-| [B00580](https://jastrow.app/#rid:B00580) | alt | בִּטּ׳ | בִּיטּוּל |  | yes |
-| [B00581](https://jastrow.app/#rid:B00581) | alt | בִּטּ׳ | בִּיטּוּלָא |  | yes |
-| [B00665](https://jastrow.app/#rid:B00665) | alt | בִּסְ׳ | בִּיסְתַּרְקָא |  | yes |
-| [B00694](https://jastrow.app/#rid:B00694) | alt | בִּקּ׳ | בִּיקּוֹרֶת |  | yes |
-| [B00742](https://jastrow.app/#rid:B00742) | alt | בְּאִישׁ׳ | בִּישׁוּ |  |  |
-| [B00759](https://jastrow.app/#rid:B00759) | alt | בַּיְי׳ | בַּיְתוּסִי |  | yes |
-| [B00771](https://jastrow.app/#rid:B00771) | alt | בִּיכּ׳ | בִּכּוּרָה |  | yes |
-| [B01018](https://jastrow.app/#rid:B01018) | alt | בוס׳ | בִּסְתְּקָא |  | yes |
-| [B01083](https://jastrow.app/#rid:B01083) | alt | בּוּ׳ | בַּצּוֹרְתָא |  |  |
-| [B01134](https://jastrow.app/#rid:B01134) | alt | בִּקְעֲ׳ | בְּקַעֲתָא |  | yes |
-| [B01135](https://jastrow.app/#rid:B01135) | alt | בִּקְעֲ׳ | בַּקְעֲתָא |  |  |
-| [B01284](https://jastrow.app/#rid:B01284) | alt | בי׳ | בִּרְיְתָא |  |  |
-| [B01348](https://jastrow.app/#rid:B01348) | alt | בִּושּׁ׳ | בִּשּׁוּלָא |  | yes |
-| [B01361](https://jastrow.app/#rid:B01361) | alt | בְּשֵׁי׳ | בָּשֵׁל |  |  |
-| [C00064](https://jastrow.app/#rid:C00064) | alt | גִּיבָּ׳ | גְּבוּרְתָּא |  |  |
-| [C00067](https://jastrow.app/#rid:C00067) | alt | גִּיבַּ׳ | גִּבֵּחַ |  |  |
-| [C00113](https://jastrow.app/#rid:C00113) | alt | הַגַּ׳ | גַּבְלָן |  | yes |
-| [C00162](https://jastrow.app/#rid:C00162) | alt | גּוּדְגַּ׳ | גַּדְגַּדְנִיּוֹת |  | yes |
-| [C00264](https://jastrow.app/#rid:C00264) | alt | גַּוָּו׳ | גַּוָּאָה |  |  |
-| [C00363](https://jastrow.app/#rid:C00363) | alt | גִּיוְיְי׳ | גְּוִיְיתָא |  | yes |
-| [C00381](https://jastrow.app/#rid:C00381) | alt | גֻּלְ׳ | גּוּלְגֹּלֶת |  |  |
-| [C00382](https://jastrow.app/#rid:C00382) | alt | גּוּלְגּוּלְ׳ | גּוּלְגַּלְתָּא |  | yes |
-| [C00487](https://jastrow.app/#rid:C00487) | alt | גּוֹרְדְּיָ׳ | גּוֹרְדְּיָינִי |  |  |
-| [C00520](https://jastrow.app/#rid:C00520) | alt | גִּיזְ׳ | גִּזְבָּר |  | yes |
-| [C00521](https://jastrow.app/#rid:C00521) | alt | גִּיזְ׳ | גִּזְבָּרָא |  | yes |
-| [C00619](https://jastrow.app/#rid:C00619) | alt | גִּבּ׳ | גִּיבַּר |  |  |
-| [C00620](https://jastrow.app/#rid:C00620) | alt | גִּבָּ׳ | גִּיבָּרָא |  | yes |
-| [C00670](https://jastrow.app/#rid:C00670) | alt | גִּיּוֹ׳ | גַּיּוֹרְתָּא |  | yes |
-| [C00673](https://jastrow.app/#rid:C00673) | alt | גֵּוְתָ׳ | גֵּיוְתָן |  |  |
-| [C00674](https://jastrow.app/#rid:C00674) | alt | גֵּאוְ׳ | גֵּיוְתָנָא |  | yes |
-| [C00674](https://jastrow.app/#rid:C00674) | alt | גֵּוְ׳ | גֵּיוְתָנָא |  | yes |
-| [C00674](https://jastrow.app/#rid:C00674) | alt | גֵּיפְ׳ | גֵּיוְתָנָא |  | yes |
-| [C00675](https://jastrow.app/#rid:C00675) | alt | גֵּיפְ׳ | גֵּיוְתָנוּתָא |  | yes |
-| [C00730](https://jastrow.app/#rid:C00730) | alt | גִּלּ׳ | גִּילּוּיָיא |  |  |
-| [C00766](https://jastrow.app/#rid:C00766) | alt | גִּינוּ׳ | גִּינִיסְיָא |  |  |
-| [C00766](https://jastrow.app/#rid:C00766) | alt | גְּנוּ׳ | גִּינִיסְיָא |  |  |
-| [C00767](https://jastrow.app/#rid:C00767) | alt | גִּינּוֹ׳ | גִּינֵּיסַר |  | yes |
-| [C00767](https://jastrow.app/#rid:C00767) | alt | גְּנֵי׳ | גִּינֵּיסַר |  | yes |
-| [C00767](https://jastrow.app/#rid:C00767) | alt | גְּנוֹ׳ | גִּינֵּיסַר |  | yes |
-| [C00771](https://jastrow.app/#rid:C00771) | alt | גִּנּ׳ | גִּינְּתָא |  |  |
-| [C00792](https://jastrow.app/#rid:C00792) | alt | גִּפּ׳ | גִּיפּוּף² |  |  |
-| [C00792](https://jastrow.app/#rid:C00792) | alt | גֵּפ׳ | גִּיפּוּף² |  |  |
-| [C00799](https://jastrow.app/#rid:C00799) | alt | גּוּפְ׳ | גִּיפְתָּא |  | yes |
-| [C00836](https://jastrow.app/#rid:C00836) | alt | גֵּרָ׳ | גֵּירָעוֹן |  | yes |
-| [C00864](https://jastrow.app/#rid:C00864) | alt | גִּילְ׳ | גִּלְגּוּל |  | yes |
-| [C00865](https://jastrow.app/#rid:C00865) | alt | גִּילְ׳ | גִּלְגּוּל² |  | yes |
-| [C00872](https://jastrow.app/#rid:C00872) | alt | גִּילְ׳ | גַּלְגַּל² |  |  |
-| [C00880](https://jastrow.app/#rid:C00880) | alt | גִּילְ׳ | גִּלְדָּא |  | yes |
-| [C00881](https://jastrow.app/#rid:C00881) | alt | גִּילְ׳ | גִּלְדָּאָה |  | yes |
-| [C00882](https://jastrow.app/#rid:C00882) | alt | גִּילְ׳ | גִּלְדָּנָא |  | yes |
-| [C00941](https://jastrow.app/#rid:C00941) | alt | גִּלְ׳ | גִּלָּיוֹן |  | yes |
-| [C00941](https://jastrow.app/#rid:C00941) | alt | גִּיל׳ | גִּלָּיוֹן |  | yes |
-| [C00990](https://jastrow.app/#rid:C00990) | alt | גִּילְ׳ | גִּלְשְׁלוּשְׁתָּא |  |  |
-| [C01041](https://jastrow.app/#rid:C01041) | alt | גִּימְ׳ | גֻּמְלָא |  | yes |
-| [C01041](https://jastrow.app/#rid:C01041) | alt | גּוּמְ׳ | גֻּמְלָא |  | yes |
-| [C01041](https://jastrow.app/#rid:C01041) | alt | גַּמְ׳ | גֻּמְלָא |  | yes |
-| [C01090](https://jastrow.app/#rid:C01090) | alt | גִּינְ׳ | גִּנְגִּילוֹן |  |  |
-| [C01107](https://jastrow.app/#rid:C01107) | alt | גִּינּוּ׳ | גִּנּוּן² |  |  |
-| [C01110](https://jastrow.app/#rid:C01110) | alt | גִּינּוּ׳ | גַּנּוּנִיתָא |  | yes |
-| [C01137](https://jastrow.app/#rid:C01137) | alt | גְּנֵבְ׳ | גְּנֵיבוּתָא |  |  |
-| [C01145](https://jastrow.app/#rid:C01145) | alt | גְּנוּ׳ | גְּנִיסָא |  |  |
-| [C01146](https://jastrow.app/#rid:C01146) | alt | גְּנוּ׳ | גְּנִיסַיָּיא |  | yes |
-| [C01266](https://jastrow.app/#rid:C01266) | alt | גַּרְגּוּשְׁ׳ | גַּרְגִּשְׁתָּא |  | yes |
-| [C01266](https://jastrow.app/#rid:C01266) | alt | גַּרְגִּישְׁ׳ | גַּרְגִּשְׁתָּא |  | yes |
-| [C01277](https://jastrow.app/#rid:C01277) | alt | גִּירְ׳ | גַּרְדִּי |  | yes |
-| [C01278](https://jastrow.app/#rid:C01278) | alt | גִּירְ׳ | גַּרְדַּי |  |  |
-| [C01284](https://jastrow.app/#rid:C01284) | alt | גִּירְ׳ | *גַּרְדָּנָא |  | yes |
-| [C01362](https://jastrow.app/#rid:C01362) | alt | גִּירְ׳ | גִּרְמַמְיָא |  |  |
-| [C01367](https://jastrow.app/#rid:C01367) | alt | גִּירְ׳ | גִּרְמָנִיקְיָא |  | yes |
-| [C01377](https://jastrow.app/#rid:C01377) | alt | גִּירְ׳ | גִּרְסָא² |  | yes |
-| [C01427](https://jastrow.app/#rid:C01427) | alt | גִּישְׁ׳ | גִּשְׁתָּא |  | yes |
-| [C01428](https://jastrow.app/#rid:C01428) | alt | גִּישְׁ׳ | גִּשְׁתָּא² |  | yes |
-| [C01432](https://jastrow.app/#rid:C01432) | alt | גִּיתִּ׳ | *גִּתִּית |  | yes |
-| [D00147](https://jastrow.app/#rid:D00147) | alt | דִּיהֲ׳ | דַּהֲבַת |  | yes |
-| [D00160](https://jastrow.app/#rid:D00160) | alt | דְּהינוּ׳ | דַּהֲנוּנִיתָא |  | yes |
-| [D00213](https://jastrow.app/#rid:D00213) | alt | דַּוְ׳ | דְּוַול |  |  |
-| [D00340](https://jastrow.app/#rid:D00340) | alt | דַּק׳ | דּוֹקְרָנָא |  | yes |
-| [D00374](https://jastrow.app/#rid:D00374) | alt | דורמייס׳ | דורמסיאות |  |  |
-| [D00450](https://jastrow.app/#rid:D00450) | alt | דְּיוֹטַ׳ | דִּיאֲטַגְמָא |  |  |
-| [D00453](https://jastrow.app/#rid:D00453) | alt | דְּיַי׳ | דִּיאַטְרִיטָא |  |  |
-| [D00453](https://jastrow.app/#rid:D00453) | alt | דְּיוֹ׳ | דִּיאַטְרִיטָא |  |  |
-| [D00459](https://jastrow.app/#rid:D00459) | alt | דְּיוֹ׳ | דִּיאֲתִיקִי |  |  |
-| [D00471](https://jastrow.app/#rid:D00471) | alt | דִּבּוּ׳ | דִּיבּוּרָא |  |  |
-| [D00487](https://jastrow.app/#rid:D00487) | alt | דִּגְ׳ | דִּיגְלַת |  | yes |
-| [D00561](https://jastrow.app/#rid:D00561) | alt | דַּיָּ׳ | דַּיָּין² |  |  |
-| [D00572](https://jastrow.app/#rid:D00572) | alt | דייקלר׳ | דייקלירא |  | yes |
-| [D00603](https://jastrow.app/#rid:D00603) | alt | דִּלָ׳ | דִּילָטוֹרָא |  | yes |
-| [D00604](https://jastrow.app/#rid:D00604) | alt | דִּלָ׳ | דִּילָטוּרָא |  | yes |
-| [D00605](https://jastrow.app/#rid:D00605) | alt | דִּלָ׳ | דִּילָטוֹרְיָא |  | yes |
-| [D00663](https://jastrow.app/#rid:D00663) | alt | דִּסְ׳ | דִּיסְקְרִין |  | yes |
-| [D00664](https://jastrow.app/#rid:D00664) | alt | דִּסְ׳ | דִּיסְקַרְתָּא |  |  |
-| [D00665](https://jastrow.app/#rid:D00665) | alt | דִּסְ׳ | דִּיסְתּוּדַר |  | yes |
-| [D00666](https://jastrow.app/#rid:D00666) | alt | דִּסְ׳ | דִּיסְתּוֹרָא |  |  |
-| [D00667](https://jastrow.app/#rid:D00667) | alt | דִּסְ׳ | דִּיסְתָּנָא |  | yes |
-| [D00668](https://jastrow.app/#rid:D00668) | alt | דִּסְ׳ | דִּיסְתָּנָא² |  | yes |
-| [D00669](https://jastrow.app/#rid:D00669) | alt | דִּסְ׳ | דִּיסְתְּקָא |  | yes |
-| [D00670](https://jastrow.app/#rid:D00670) | alt | דִּסְ׳ | *דִּיסְתָּקָא |  | yes |
-| [D00680](https://jastrow.app/#rid:D00680) | alt | דִּיפְּלִסְ׳ | דִּיפְּלִיסְטְוָן |  | yes |
-| [D00681](https://jastrow.app/#rid:D00681) | alt | דִּוּפְ׳ | דִּיפְרָא |  | yes |
-| [D00681](https://jastrow.app/#rid:D00681) | alt | דִּפְ׳ | דִּיפְרָא |  | yes |
-| [D00686](https://jastrow.app/#rid:D00686) | alt | דִּפְ׳ | דִּיפְתְּרָא |  | yes |
-| [D00714](https://jastrow.app/#rid:D00714) | alt | דְּיָיקִ׳ | דְּיָקִינְתִּין |  | yes |
-| [D00750](https://jastrow.app/#rid:D00750) | alt | דִּתְ׳ | דִּיתְאָה |  | yes |
-| [D00759](https://jastrow.app/#rid:D00759) | alt | דִּיכְ׳ | דִּכְדּוּךְ |  | yes |
-| [D00763](https://jastrow.app/#rid:D00763) | alt | דִּי׳ | דִּכְוָון |  | yes |
-| [D00781](https://jastrow.app/#rid:D00781) | alt | דִּיכְ׳ | דִּכְמָא |  |  |
-| [D00786](https://jastrow.app/#rid:D00786) | alt | דוּכְ׳ | דִּכְסוּמִינִי |  |  |
-| [D00790](https://jastrow.app/#rid:D00790) | alt | דִּיכְ׳ | דִּכְסָס |  |  |
-| [D00793](https://jastrow.app/#rid:D00793) | alt | דּוּכְ׳ | דְּכַר II |  |  |
-| [D00793](https://jastrow.app/#rid:D00793) | alt | דִּיכְ׳ | דְּכַר II |  |  |
-| [D00795](https://jastrow.app/#rid:D00795) | alt | דּוּכְ׳ | דָּכְרָן |  |  |
-| [D00796](https://jastrow.app/#rid:D00796) | alt | דִּיכְ׳ | דִּכְרָנִי |  | yes |
-| [D00806](https://jastrow.app/#rid:D00806) | alt | דִּיל׳ | דִּלְדּוּל |  | yes |
-| [D00807](https://jastrow.app/#rid:D00807) | alt | דִּילְ׳ | דִּלְדֵּל |  | yes |
-| [D00818](https://jastrow.app/#rid:D00818) | alt | דְּלוֹ׳ | דְּלוּחָא |  | yes |
-| [D00837](https://jastrow.app/#rid:D00837) | alt | דְּלֵקְ׳ | דְּלֵיקְתָּא |  | yes |
-| [D00853](https://jastrow.app/#rid:D00853) | alt | דִּלְ׳ | דָּלְפָא |  | yes |
-| [D00853](https://jastrow.app/#rid:D00853) | alt | דִּולְ׳ | דָּלְפָא |  | yes |
-| [D00854](https://jastrow.app/#rid:D00854) | alt | דִּילְ׳ | דִּלְפָה |  | yes |
-| [D00861](https://jastrow.app/#rid:D00861) | alt | דְּלֶקְ׳ | דְּלֵקְתָּא |  |  |
-| [D00873](https://jastrow.app/#rid:D00873) | alt | דִּימְ׳ | דִּמְדּוּם |  | yes |
-| [D00890](https://jastrow.app/#rid:D00890) | alt | דִּימְ׳ | דִּמְחַמְרָא |  | yes |
-| [D00901](https://jastrow.app/#rid:D00901) | alt | דּוּמְ׳ | דַּמְכָא |  |  |
-| [D00932](https://jastrow.app/#rid:D00932) | alt | דָּנִיסְ׳ | דָּנִסְטֵיס |  | yes |
-| [D00932](https://jastrow.app/#rid:D00932) | alt | דָּאנִ׳ | דָּנִסְטֵיס |  | yes |
-| [D00987](https://jastrow.app/#rid:D00987) | alt | דִּיקְ׳ | דִּקְדּוּק |  | yes |
-| [D00988](https://jastrow.app/#rid:D00988) | alt | דִּיקְ׳ | דִּקְדּוּקָא |  | yes |
-| [D01003](https://jastrow.app/#rid:D01003) | alt | דִּיקְ׳ | דִּקְיוֹן |  | yes |
-| [D01010](https://jastrow.app/#rid:D01010) | alt | דִּיקְ׳ | דִּקְלָא |  | yes |
-| [D01012](https://jastrow.app/#rid:D01012) | alt | דִּיקְ׳ | דְּקַן |  |  |
-| [D01013](https://jastrow.app/#rid:D01013) | alt | דִּיקְ׳ | דִּקְנָנָא |  | yes |
-| [D01048](https://jastrow.app/#rid:D01048) | alt | דּוּרְ׳ | דַּרְדְּסָא |  |  |
-| [D01074](https://jastrow.app/#rid:D01074) | alt | דַּדְקֶ׳ | דְּרוּקֶרֶת |  |  |
-| [D01108](https://jastrow.app/#rid:D01108) | alt | דַּרְמוּסְ׳ | דַּרְמֵסְקוֹס |  | yes |
-| [D01108](https://jastrow.app/#rid:D01108) | alt | דרומיס׳ | דַּרְמֵסְקוֹס |  | yes |
-| [D01139](https://jastrow.app/#rid:D01139) | alt | דָּ׳ | דַּשָּׁא |  |  |
-| [D01154](https://jastrow.app/#rid:D01154) | alt | דִּישְׁ׳ | דִּשְׁתָּאָה |  | yes |
-| [E00119](https://jastrow.app/#rid:E00119) | alt | חַ׳ | הַדְיֵיב |  |  |
-| [E00189](https://jastrow.app/#rid:E00189) | alt | אוֹ׳ | הוֹבְרָיָא |  |  |
-| [E00242](https://jastrow.app/#rid:E00242) | alt | הִי׳ | הוּמַנְיָא |  | yes |
-| [E00247](https://jastrow.app/#rid:E00247) | alt | הַוָּו׳ | הַוָּן |  |  |
-| [E00313](https://jastrow.app/#rid:E00313) | alt | חֲטוּ׳ | הֲטוּלִים |  |  |
-| [E00324](https://jastrow.app/#rid:E00324) | alt | הִי׳ | הִטְּרִית |  | yes |
-| [E00352](https://jastrow.app/#rid:E00352) | alt | הוּזְ׳ | הִיזְמָא |  |  |
-| [E00355](https://jastrow.app/#rid:E00355) | alt | הֶיזֵּי׳ | הֶיזֵּקָא |  | yes |
-| [E00377](https://jastrow.app/#rid:E00377) | alt | הֵכְ׳ | הֵיכְדֵין |  | yes |
-| [E00423](https://jastrow.app/#rid:E00423) | alt | אֵי׳ | *הֵימִיסוּ |  | yes |
-| [E00425](https://jastrow.app/#rid:E00425) | alt | הימוס׳ | הימיסיון |  |  |
-| [E00431](https://jastrow.app/#rid:E00431) | alt | הִמְ׳ | הִימְנוֹן |  | yes |
-| [E00451](https://jastrow.app/#rid:E00451) | alt | הִינְדְּוָו׳ | הִינְדָּוָא |  |  |
-| [E00452](https://jastrow.app/#rid:E00452) | alt | הִנְ׳ | הִינְדְּוִוי |  |  |
-| [E00454](https://jastrow.app/#rid:E00454) | alt | הִנְ׳ | הִינְדְּיָא |  | yes |
-| [E00455](https://jastrow.app/#rid:E00455) | alt | הִנְ׳ | הִינְדִּיקִי |  | yes |
-| [E00472](https://jastrow.app/#rid:E00472) | alt | הֶיסֵּי׳ | הֶיסֵּטָא |  | yes |
-| [E00496](https://jastrow.app/#rid:E00496) | alt | הֶתֵּ׳ | הֶיתֵּרָא |  |  |
-| [E00570](https://jastrow.app/#rid:E00570) | alt | הִילְ׳ | הִלְכְתָא |  | yes |
-| [E00571](https://jastrow.app/#rid:E00571) | alt | הִילֵּ׳ | הִלֵּל |  | yes |
-| [E00608](https://jastrow.app/#rid:E00608) | alt | הִימְ׳ | הִמְיָינָא |  |  |
-| [E00632](https://jastrow.app/#rid:E00632) | alt | הִימְ׳ | *הַמְנֵיק |  | yes |
-| [E00696](https://jastrow.app/#rid:E00696) | alt | הֶיסֵּ׳ | הֶסֵּבָּה |  |  |
-| [E00710](https://jastrow.app/#rid:E00710) | alt | הֶסְפֵּי׳ | הֶסְפֵּדָא |  | yes |
-| [E00747](https://jastrow.app/#rid:E00747) | alt | הֲפֵי׳ | הֲפֵכְתָּא |  | yes |
-| [E00763](https://jastrow.app/#rid:E00763) | alt | הִיפַּ׳ | הִפַּרְכָא |  | yes |
-| [E00764](https://jastrow.app/#rid:E00764) | alt | הִי׳ | הִפַּרְכוֹס |  | yes |
-| [E00765](https://jastrow.app/#rid:E00765) | alt | הִי׳ | הִפַּרְכְיָא |  |  |
-| [E00776](https://jastrow.app/#rid:E00776) | alt | הַפְתֵּי׳ | הַפְתֵּקָא |  | yes |
-| [E00776](https://jastrow.app/#rid:E00776) | alt | הֶיפְתֵּי׳ | הַפְתֵּקָא |  | yes |
-| [E00838](https://jastrow.app/#rid:E00838) | alt | הִירְ׳ | הִרְהוּר |  | yes |
-| [E00840](https://jastrow.app/#rid:E00840) | alt | הִירְ׳ | הִרְהֵר |  | yes |
-| [E00847](https://jastrow.app/#rid:E00847) | alt | הַרְזְבָנִ׳ | הַרְזְבוֹנִית |  | yes |
-| [E00867](https://jastrow.app/#rid:E00867) | alt | הָרִי׳ | הֲרִיפוֹת |  | yes |
-| [E00911](https://jastrow.app/#rid:E00911) | alt | הֵישָׁ׳ | הֵשָׁבוֹן |  | yes |
-| [E00941](https://jastrow.app/#rid:E00941) | alt | הִשְׁתַּחֲוָו׳ | הִשְׁתַּחֲוָאָה |  |  |
-| [F00044](https://jastrow.app/#rid:F00044) | alt | וָהוֹנַ׳ | וַיָּנַיָּא |  |  |
-| [F00066](https://jastrow.app/#rid:F00066) | alt | וֶו׳ | וֶסֶת |  | yes |
-| [F00071](https://jastrow.app/#rid:F00071) | alt | וַו׳ | וַעַד |  | yes |
-| [F00087](https://jastrow.app/#rid:F00087) | alt | וַו׳ | וַרְדִּימוֹס |  |  |
-| [F00097](https://jastrow.app/#rid:F00097) | alt | וֶו׳ | וֶשְׁטָא |  | yes |
-| [F00106](https://jastrow.app/#rid:F00106) | alt | וְתוּ׳ | וְתִינְיָא |  | yes |
-| [F00107](https://jastrow.app/#rid:F00107) | alt | וְתוּ׳ | וְתִינְיָיקִי |  | yes |
-| [G00110](https://jastrow.app/#rid:G00110) | alt | זִיהֲ׳ | זַהֲרוּרָא |  | yes |
-| [G00267](https://jastrow.app/#rid:G00267) | alt | זִבּ׳ | זִיבּוּנָא |  | yes |
-| [G00269](https://jastrow.app/#rid:G00269) | alt | זִבּ׳ | זִיבּוּרִית |  | yes |
-| [G00296](https://jastrow.app/#rid:G00296) | alt | זִהֲ׳ | זִיהֲרוֹרָא |  |  |
-| [G00312](https://jastrow.app/#rid:G00312) | alt | זִיּיוּ׳ | זִיּוּנָא I |  | yes |
-| [G00356](https://jastrow.app/#rid:G00356) | alt | זִלּ׳ | זִילּוּף |  | yes |
-| [G00369](https://jastrow.app/#rid:G00369) | alt | זִמְ׳ | זִימְיוֹנָא |  | yes |
-| [G00379](https://jastrow.app/#rid:G00379) | alt | זַיְי׳ | זֵין II |  |  |
-| [G00379](https://jastrow.app/#rid:G00379) | alt | זְיָי׳ | זֵין II |  |  |
-| [G00381](https://jastrow.app/#rid:G00381) | alt | זִנְ׳ | זִינְגָּאֵי |  | yes |
-| [G00383](https://jastrow.app/#rid:G00383) | alt | זנו׳ | זינומתא |  | yes |
-| [G00391](https://jastrow.app/#rid:G00391) | alt | זֵי׳ | זִיעֲתָא |  |  |
-| [G00396](https://jastrow.app/#rid:G00396) | alt | זֵי׳ | זַיְפָא |  | yes |
-| [G00538](https://jastrow.app/#rid:G00538) | alt | זִי׳ | זְמַן II |  |  |
-| [G00549](https://jastrow.app/#rid:G00549) | alt | זִימְ׳ | זִמְרָא |  | yes |
-| [G00550](https://jastrow.app/#rid:G00550) | alt | זִי׳ | זִמְרָא² |  | yes |
-| [G00554](https://jastrow.app/#rid:G00554) | alt | זִימְ׳ | זִמְרָה |  | yes |
-| [G00581](https://jastrow.app/#rid:G00581) | alt | זַנָּיָי׳ | זַנְיְתָא |  |  |
-| [G00589](https://jastrow.app/#rid:G00589) | alt | זִיעֲ׳ | זִעֲזֵע |  | yes |
-| [G00618](https://jastrow.app/#rid:G00618) | alt | זוּפְ׳ | זְפִירִין |  |  |
-| [G00619](https://jastrow.app/#rid:G00619) | alt | זִיפְ׳ | זִפְלָן |  | yes |
-| [G00657](https://jastrow.app/#rid:G00657) | alt | זִיקְ׳ | זקַת |  |  |
-| [G00679](https://jastrow.app/#rid:G00679) | alt | זֵיר׳ | זֵרוּעַ |  | yes |
-| [G00733](https://jastrow.app/#rid:G00733) | alt | זִירְ׳ | זִרְפָּא |  | yes |
-| [H00028](https://jastrow.app/#rid:H00028) | alt | חִבּוּ׳ | חֲבוּלְיָא |  | yes |
-| [H00028](https://jastrow.app/#rid:H00028) | alt | חִיבּ׳ | חֲבוּלְיָא |  | yes |
-| [H00051](https://jastrow.app/#rid:H00051) | alt | חֲ׳ | חָבִיב |  |  |
-| [H00051](https://jastrow.app/#rid:H00051) | alt | חַבִּ׳ | חָבִיב |  |  |
-| [H00077](https://jastrow.app/#rid:H00077) | alt | חַבִּ׳ | חֲבִירָא |  | yes |
-| [H00089](https://jastrow.app/#rid:H00089) | alt | חֵיבְ׳ | חֶבְלָא |  | yes |
-| [H00121](https://jastrow.app/#rid:H00121) | alt | חֲבֵי׳ | חֲבֵרוּת |  | yes |
-| [H00166](https://jastrow.app/#rid:H00166) | alt | חִיגַּ׳ | *חִגַּרְתָּא |  | yes |
-| [H00178](https://jastrow.app/#rid:H00178) | alt | חֵי׳ | חֵדוּ |  | yes |
-| [H00179](https://jastrow.app/#rid:H00179) | alt | חִדְ׳ | חֶדְוָא |  |  |
-| [H00191](https://jastrow.app/#rid:H00191) | alt | חָדְ׳ | חַדְיָא |  |  |
-| [H00208](https://jastrow.app/#rid:H00208) | alt | חִידְ׳ | חִדְקָא |  | yes |
-| [H00209](https://jastrow.app/#rid:H00209) | alt | חִי׳ | חִדְקָא² |  | yes |
-| [H00260](https://jastrow.app/#rid:H00260) | alt | חוֹ׳ | חוּדַאי |  | yes |
-| [H00310](https://jastrow.app/#rid:H00310) | alt | חֵיְ׳ | חִוֵּי |  |  |
-| [H00317](https://jastrow.app/#rid:H00317) | alt | חָכְ׳ | חוּכְמָא |  |  |
-| [H00341](https://jastrow.app/#rid:H00341) | alt | חַלְחוּלְ׳ | חוּלְחוּלְתָּא |  |  |
-| [H00345](https://jastrow.app/#rid:H00345) | alt | חוֹ׳ | חוּלֵי |  | yes |
-| [H00347](https://jastrow.app/#rid:H00347) | alt | חוּלְיָי׳ | חוּלְיָא I |  |  |
-| [H00367](https://jastrow.app/#rid:H00367) | alt | חִי׳ | חוּלְתָּא |  | yes |
-| [H00405](https://jastrow.app/#rid:H00405) | alt | חוּנְיָי׳ | חוּנְיָא |  |  |
-| [H00475](https://jastrow.app/#rid:H00475) | alt | חֲרָ׳ | חוֹרָן |  |  |
-| [H00510](https://jastrow.app/#rid:H00510) | alt | חֶזְוַ׳ | חֶזְוָיָא |  | yes |
-| [H00510](https://jastrow.app/#rid:H00510) | alt | חָזְוַ׳ | חֶזְוָיָא |  | yes |
-| [H00514](https://jastrow.app/#rid:H00514) | alt | חֵיזְוָ׳ | חֶזְוָנָא |  | yes |
-| [H00514](https://jastrow.app/#rid:H00514) | alt | חֶזְוָו׳ | חֶזְוָנָא |  | yes |
-| [H00514](https://jastrow.app/#rid:H00514) | alt | חִזְ׳ | חֶזְוָנָא |  | yes |
-| [H00517](https://jastrow.app/#rid:H00517) | alt | חֵי׳ | חַזּוּר |  |  |
-| [H00552](https://jastrow.app/#rid:H00552) | alt | חֲזָ׳ | חַזָּנָא |  | yes |
-| [H00585](https://jastrow.app/#rid:H00585) | alt | חַטָּ׳ | חֲטָאָה |  | yes |
-| [H00586](https://jastrow.app/#rid:H00586) | alt | חַטְ׳ | חֶטְאָה |  |  |
-| [H00621](https://jastrow.app/#rid:H00621) | alt | חַ׳ | חָטְיָא |  | yes |
-| [H00643](https://jastrow.app/#rid:H00643) | alt | חֲטִיפִי׳ | חַטְפִיתָא |  | yes |
-| [H00645](https://jastrow.app/#rid:H00645) | alt | חֻטְ׳ | חֹטֶר |  |  |
-| [H00653](https://jastrow.app/#rid:H00653) | alt | חִבּ׳ | חִיבּוּבָא |  |  |
-| [H00654](https://jastrow.app/#rid:H00654) | alt | חִבּ׳ | חִיבּוּט |  | yes |
-| [H00655](https://jastrow.app/#rid:H00655) | alt | חִבּ׳ | חִיבּוּל |  |  |
-| [H00659](https://jastrow.app/#rid:H00659) | alt | חִבּ׳ | חִיבּוּרָא |  | yes |
-| [H00660](https://jastrow.app/#rid:H00660) | alt | חִבְּ׳ | חִיבְּתָא |  | yes |
-| [H00665](https://jastrow.app/#rid:H00665) | alt | חִדּ׳ | חִידּוּק |  | yes |
-| [H00665](https://jastrow.app/#rid:H00665) | alt | הִ׳ | חִידּוּק |  | yes |
-| [H00666](https://jastrow.app/#rid:H00666) | alt | חִדּ׳ | חִידּוּשׁ |  | yes |
-| [H00669](https://jastrow.app/#rid:H00669) | alt | חוּדְ׳ | חִידְקִי |  |  |
-| [H00677](https://jastrow.app/#rid:H00677) | alt | חִיּי׳ | חִיּוּב² |  |  |
-| [H00692](https://jastrow.app/#rid:H00692) | alt | חֵיוְו׳ | חֵיוְתָא |  | yes |
-| [H00695](https://jastrow.app/#rid:H00695) | alt | חִזּ׳ | חִיזּוּק |  | yes |
-| [H00701](https://jastrow.app/#rid:H00701) | alt | חִזְ׳ | חִיזְרָא |  | yes |
-| [H00702](https://jastrow.app/#rid:H00702) | alt | חִזְ׳ | חִיזְרָא² |  | yes |
-| [H00705](https://jastrow.app/#rid:H00705) | alt | חוּזְ׳ | חִיזְרָר |  |  |
-| [H00706](https://jastrow.app/#rid:H00706) | alt | חִטּ׳ | חִיטָּא |  |  |
-| [H00754](https://jastrow.app/#rid:H00754) | alt | חִכּ׳ | חִיכּוּכָא |  | yes |
-| [H00764](https://jastrow.app/#rid:H00764) | alt | חִלּ׳ | חִילּוּי |  | yes |
-| [H00765](https://jastrow.app/#rid:H00765) | alt | חִלּ׳ | חִילּוּל |  | yes |
-| [H00767](https://jastrow.app/#rid:H00767) | alt | חִלּ׳ | חִילּוֹנִי |  | yes |
-| [H00769](https://jastrow.app/#rid:H00769) | alt | חִלּ׳ | חִילּוּף |  | yes |
-| [H00770](https://jastrow.app/#rid:H00770) | alt | חִלּ׳ | חִילּוּפָא |  | yes |
-| [H00772](https://jastrow.app/#rid:H00772) | alt | חִלּ׳ | חִילּוּק |  | yes |
-| [H00781](https://jastrow.app/#rid:H00781) | alt | חִלְ׳ | חִילְפָא I |  | yes |
-| [H00796](https://jastrow.app/#rid:H00796) | alt | חִלְתִּ׳ | חִילְתִּית |  | yes |
-| [H00797](https://jastrow.app/#rid:H00797) | alt | חִלְ׳ | חִילְתִּיתָא |  | yes |
-| [H00803](https://jastrow.app/#rid:H00803) | alt | חִמּ׳ | חִימּוּץ |  | yes |
-| [H00804](https://jastrow.app/#rid:H00804) | alt | חִמּ׳ | חִימּוּצָא |  | yes |
-| [H00810](https://jastrow.app/#rid:H00810) | alt | חֵימְ׳ | חֵימָרָא |  | yes |
-| [H00810](https://jastrow.app/#rid:H00810) | alt | חִמָ׳ | חֵימָרָא |  | yes |
-| [H00811](https://jastrow.app/#rid:H00811) | alt | חוּ׳ | חֵימְתָא |  | yes |
-| [H00815](https://jastrow.app/#rid:H00815) | alt | חִנְ׳ | חִינְגָּא |  | yes |
-| [H00816](https://jastrow.app/#rid:H00816) | alt | חִנְ׳ | חִינְגִּיתָא |  | yes |
-| [H00817](https://jastrow.app/#rid:H00817) | alt | חִנְ׳ | חִינְגָּנָא |  |  |
-| [H00819](https://jastrow.app/#rid:H00819) | alt | חִנּ׳ | חִינּוּךְ |  | yes |
-| [H00820](https://jastrow.app/#rid:H00820) | alt | חִנּ׳ | חִינּוּכָא |  | yes |
-| [H00821](https://jastrow.app/#rid:H00821) | alt | חִנּ׳ | חִינּוּן |  | yes |
-| [H00827](https://jastrow.app/#rid:H00827) | alt | חֲיָי׳ | חֲיָס |  |  |
-| [H00830](https://jastrow.app/#rid:H00830) | alt | חִסּ׳ | חִיסּוּדָא |  | yes |
-| [H00831](https://jastrow.app/#rid:H00831) | alt | חִסּ׳ | חִיסּוּלָא |  | yes |
-| [H00833](https://jastrow.app/#rid:H00833) | alt | חִסּ׳ | חִיסּוּם |  | yes |
-| [H00834](https://jastrow.app/#rid:H00834) | alt | חִסּ׳ | חִיסּוּר |  | yes |
-| [H00836](https://jastrow.app/#rid:H00836) | alt | חִסָּ׳ | חִיסָּכוֹן |  | yes |
-| [H00853](https://jastrow.app/#rid:H00853) | alt | חִפּ׳ | חִיפּוּשִׂיתָא |  | yes |
-| [H00875](https://jastrow.app/#rid:H00875) | alt | חֵר׳ | חֵירוּפָא |  |  |
-| [H00900](https://jastrow.app/#rid:H00900) | alt | חִתּ׳ | חִיתּוּךְ |  | yes |
-| [H00902](https://jastrow.app/#rid:H00902) | alt | חִתּ׳ | חִיתּוּם |  | yes |
-| [H00906](https://jastrow.app/#rid:H00906) | alt | חִתִּ׳ | חִיתִּית |  | yes |
-| [H00967](https://jastrow.app/#rid:H00967) | alt | חֶלְ׳ | חֲלָב |  |  |
-| [H00978](https://jastrow.app/#rid:H00978) | alt | חַלְבֵּי׳ | חַלְבֵּצִין |  | yes |
-| [H00992](https://jastrow.app/#rid:H00992) | alt | הִי׳ | חֲלוּז |  |  |
-| [H01013](https://jastrow.app/#rid:H01013) | alt | חִילָּ׳ | חִלָּזוֹן |  | yes |
-| [H01013](https://jastrow.app/#rid:H01013) | alt | חֲלָ׳ | חִלָּזוֹן |  | yes |
-| [H01025](https://jastrow.app/#rid:H01025) | alt | חוּלְ׳ | חַלְטָנִית |  | yes |
-| [H01034](https://jastrow.app/#rid:H01034) | alt | חִילִּ׳ | חִלִּיז |  | yes |
-| [H01038](https://jastrow.app/#rid:H01038) | alt | חֲלוּ׳ | חֲלִיטָא III |  |  |
-| [H01086](https://jastrow.app/#rid:H01086) | alt | חִילְ׳ | חֶלְמָא |  | yes |
-| [H01091](https://jastrow.app/#rid:H01091) | alt | הֶלְ׳ | חֶלְמוֹן |  | yes |
-| [H01117](https://jastrow.app/#rid:H01117) | alt | חֶילְ׳ | חֶלְקָא |  | yes |
-| [H01149](https://jastrow.app/#rid:H01149) | alt | חֶמְדְּ׳ | חֶמְדָּתָא |  | yes |
-| [H01151](https://jastrow.app/#rid:H01151) | alt | חֵי׳ | חֵמָה |  | yes |
-| [H01261](https://jastrow.app/#rid:H01261) | alt | חֲנֻכְּ׳ | חֲנוּכְּתָא |  | yes |
-| [H01269](https://jastrow.app/#rid:H01269) | alt | חֲנֻפְ׳ | חֲנוּפְתָּא |  | yes |
-| [H01277](https://jastrow.app/#rid:H01277) | alt | חִינְ׳ | חִנְטָא |  | yes |
-| [H01295](https://jastrow.app/#rid:H01295) | alt | חֲנִסְנְ׳ | חֲנִיסְנְסַיָּא |  |  |
-| [H01338](https://jastrow.app/#rid:H01338) | alt | חִיסְ׳ | חֶסֶד² |  |  |
-| [H01339](https://jastrow.app/#rid:H01339) | alt | חִי׳ | חִסְדָּא |  | yes |
-| [H01340](https://jastrow.app/#rid:H01340) | alt | חִי׳ | חִסְדָּא² |  | yes |
-| [H01378](https://jastrow.app/#rid:H01378) | alt | חֲ׳ | חָסִילָא |  | yes |
-| [H01389](https://jastrow.app/#rid:H01389) | alt | חֲסֵירוּ׳ | חַסִּירוּתָא |  | yes |
-| [H01389](https://jastrow.app/#rid:H01389) | alt | חַסְרוּ׳ | חַסִּירוּתָא |  | yes |
-| [H01406](https://jastrow.app/#rid:H01406) | alt | חִ׳ | חֲסַף II |  |  |
-| [H01407](https://jastrow.app/#rid:H01407) | alt | חִ׳ | חַסְפָּא |  | yes |
-| [H01412](https://jastrow.app/#rid:H01412) | alt | חֲסֵי׳ | חָסֵר II |  |  |
-| [H01415](https://jastrow.app/#rid:H01415) | alt | חִי׳ | חֶסְרוֹן |  |  |
-| [H01424](https://jastrow.app/#rid:H01424) | alt | חִי׳ | חִפּוּי |  | yes |
-| [H01425](https://jastrow.app/#rid:H01425) | alt | חִי׳ | חִפּוּיָא |  |  |
-| [H01432](https://jastrow.app/#rid:H01432) | alt | חֲפִי׳ | חֲפוּרָה² |  | yes |
-| [H01486](https://jastrow.app/#rid:H01486) | alt | חֵי׳ | חֵפְתָא |  | yes |
-| [H01579](https://jastrow.app/#rid:H01579) | alt | חֲרֵי׳ | חָרִב II |  |  |
-| [H01593](https://jastrow.app/#rid:H01593) | alt | חִירְ׳ | חִרְגָּא |  | yes |
-| [H01654](https://jastrow.app/#rid:H01654) | alt | חִרְ׳ | חַרְחוּר |  | yes |
-| [H01681](https://jastrow.app/#rid:H01681) | alt | חִירְ׳ | חֶרְיָנָא |  | yes |
-| [H01762](https://jastrow.app/#rid:H01762) | alt | חִירְ׳ | חִרְקָא |  | yes |
-| [H01789](https://jastrow.app/#rid:H01789) | alt | חֲרָ׳ | חַרְשִׁין |  |  |
-| [H01808](https://jastrow.app/#rid:H01808) | alt | חֲשָׁ׳ | חַשָּׁבָא |  | yes |
-| [I00031](https://jastrow.app/#rid:I00031) | alt | טַבְוָו׳ | טַבְוָאוּת |  | yes |
-| [I00081](https://jastrow.app/#rid:I00081) | alt | טִיבְ׳ | טְבַע II |  |  |
-| [I00083](https://jastrow.app/#rid:I00083) | alt | טִי׳ | טִבְעוֹן |  |  |
-| [I00088](https://jastrow.app/#rid:I00088) | alt | טִיבַ׳ | טְבַרְיָא |  |  |
-| [I00089](https://jastrow.app/#rid:I00089) | alt | טְבִירְ׳ | טְבִרְיוֹס |  | yes |
-| [I00129](https://jastrow.app/#rid:I00129) | alt | טַּוְזִ׳ | *טַוְוזִיג |  | yes |
-| [I00156](https://jastrow.app/#rid:I00156) | alt | טַוְו׳ | טָוִי |  |  |
-| [I00207](https://jastrow.app/#rid:I00207) | alt | טוּ׳ | טוֹפָנָא |  | yes |
-| [I00222](https://jastrow.app/#rid:I00222) | alt | טַרְ׳ | טוּרְזַיָּנָא |  | yes |
-| [I00278](https://jastrow.app/#rid:I00278) | alt | טוֹטַ׳ | טֹטַפְרָאוֹת |  | yes |
-| [I00300](https://jastrow.app/#rid:I00300) | alt | טִבּ׳ | טִיבּוּל |  | yes |
-| [I00301](https://jastrow.app/#rid:I00301) | alt | טִבּ׳ | טִיבּוּלָא |  | yes |
-| [I00318](https://jastrow.app/#rid:I00318) | alt | טִהֲ׳ | טִיהֲרָא |  | yes |
-| [I00319](https://jastrow.app/#rid:I00319) | alt | טִהֲ׳ | טִיהֲרֵי |  |  |
-| [I00327](https://jastrow.app/#rid:I00327) | alt | טִחְ׳ | טִיחְיָא |  | yes |
-| [I00361](https://jastrow.app/#rid:I00361) | alt | טְכְ׳ | טִיכְסָא |  |  |
-| [I00374](https://jastrow.app/#rid:I00374) | alt | טִמוּ׳ | טִימוּרָא |  | yes |
-| [I00375](https://jastrow.app/#rid:I00375) | alt | טִמוּ׳ | טִימוּרְתָּא |  | yes |
-| [I00391](https://jastrow.app/#rid:I00391) | alt | טנ׳ | טינדיסין |  | yes |
-| [I00394](https://jastrow.app/#rid:I00394) | alt | טִנּ׳ | טִינּוּף |  | yes |
-| [I00395](https://jastrow.app/#rid:I00395) | alt | טִנּ׳ | טִינּוּפָא |  | yes |
-| [I00396](https://jastrow.app/#rid:I00396) | alt | טִנּ׳ | טִינּוֹפֶת |  | yes |
-| [I00422](https://jastrow.app/#rid:I00422) | alt | טִפְ׳ | טִיפְתָא |  | yes |
-| [I00423](https://jastrow.app/#rid:I00423) | alt | טִקּ׳ | טִיקּוּסָא |  | yes |
-| [I00432](https://jastrow.app/#rid:I00432) | alt | טֵר׳ | טֵירוּדִין |  | yes |
-| [I00438](https://jastrow.app/#rid:I00438) | alt | טִר׳ | טִירוּנְיָא |  |  |
-| [I00442](https://jastrow.app/#rid:I00442) | alt | טִרְ׳ | טִירְיָא |  |  |
-| [I00457](https://jastrow.app/#rid:I00457) | alt | טִשְׁ׳ | טִישְׁטוּשָׁא |  | yes |
-| [I00480](https://jastrow.app/#rid:I00480) | alt | טְלוֹ׳ | טְלוּמָא |  | yes |
-| [I00480](https://jastrow.app/#rid:I00480) | alt | טוּלְ׳ | טְלוּמָא |  | yes |
-| [I00481](https://jastrow.app/#rid:I00481) | alt | טַלּוֹ׳ | טָלוֹמָא |  | yes |
-| [I00483](https://jastrow.app/#rid:I00483) | alt | טְלָפְ׳ | טְלוֹפְחָא |  | yes |
-| [I00486](https://jastrow.app/#rid:I00486) | alt | טִילְ׳ | טִלְטוּל |  | yes |
-| [I00487](https://jastrow.app/#rid:I00487) | alt | טִילְ׳ | טִלְטוּל² |  |  |
-| [I00489](https://jastrow.app/#rid:I00489) | alt | טִילְ׳ | טִלְטוּלַיָּא |  | yes |
-| [I00489](https://jastrow.app/#rid:I00489) | alt | טַלְ׳ | טִלְטוּלַיָּא |  | yes |
-| [I00506](https://jastrow.app/#rid:I00506) | alt | טַלְיְי׳ | טַלְיְתָא |  |  |
-| [I00522](https://jastrow.app/#rid:I00522) | alt | טִילְ׳ | טְלַף |  |  |
-| [I00546](https://jastrow.app/#rid:I00546) | alt | טָמַ׳ | טַמַּיָּא |  | yes |
-| [I00551](https://jastrow.app/#rid:I00551) | alt | טִימְיָ׳ | טַמְיָקָא |  | yes |
-| [I00589](https://jastrow.app/#rid:I00589) | alt | טִיסְ׳ | טִסְבְּרָא |  | yes |
-| [I00664](https://jastrow.app/#rid:I00664) | alt | טְפֵי׳ | טְפֵלָא |  | yes |
-| [I00665](https://jastrow.app/#rid:I00665) | alt | טְפֵי׳ | טְפֵלָה |  | yes |
-| [I00670](https://jastrow.app/#rid:I00670) | alt | טִפְ׳ | טַפְסָא |  | yes |
-| [I00672](https://jastrow.app/#rid:I00672) | alt | טַ׳ | טִפְסָר |  | yes |
-| [I00684](https://jastrow.app/#rid:I00684) | alt | טִיפּ׳ | טִפֵּשׁ² |  |  |
-| [I00685](https://jastrow.app/#rid:I00685) | alt | טִיפְּ׳ | טִפְּשׁוּת |  | yes |
-| [I00686](https://jastrow.app/#rid:I00686) | alt | טִפְּ׳ | טַפְּשׁוּתָא |  | yes |
-| [I00686](https://jastrow.app/#rid:I00686) | alt | טִיפְּ׳ | טַפְּשׁוּתָא |  | yes |
-| [I00715](https://jastrow.app/#rid:I00715) | alt | טִירְ׳ | טִרְדָּא |  | yes |
-| [I00740](https://jastrow.app/#rid:I00740) | alt | טרק׳ | טְרוֹקְסִימָא |  |  |
-| [I00740](https://jastrow.app/#rid:I00740) | alt | טרכ׳ | טְרוֹקְסִימָא |  |  |
-| [I00748](https://jastrow.app/#rid:I00748) | alt | טִירְ׳ | טִרְחָא |  | yes |
-| [I00749](https://jastrow.app/#rid:I00749) | alt | טִירְ׳ | טַרְחוּת |  | yes |
-| [I00750](https://jastrow.app/#rid:I00750) | alt | טוֹרְחוּ׳ | טַרְחוּתָא |  |  |
-| [I00756](https://jastrow.app/#rid:I00756) | alt | טַרְתֵּ׳ | טַרְטֵימַר |  | yes |
-| [I00756](https://jastrow.app/#rid:I00756) | alt | תַּרְטֵ׳ | טַרְטֵימַר |  | yes |
-| [I00768](https://jastrow.app/#rid:I00768) | alt | טַרְ׳ | טִרְיָא |  | yes |
-| [I00788](https://jastrow.app/#rid:I00788) | alt | טוּרְ׳ | טְרָיָיא |  |  |
-| [I00792](https://jastrow.app/#rid:I00792) | alt | טוּרְ׳ | טְרָיָינוֹס |  | yes |
-| [I00823](https://jastrow.app/#rid:I00823) | alt | טְרַקְ׳ | טְרִיקְלִינָא |  | yes |
-| [I00884](https://jastrow.app/#rid:I00884) | alt | טרעפ׳ | טַרְפְּעִיק |  |  |
-| [I00904](https://jastrow.app/#rid:I00904) | alt | טְרִיקְ׳ | טְרַקְסִין |  | yes |
-| [J00005](https://jastrow.app/#rid:J00005) | alt | יָי׳ | יָאוּ |  |  |
-| [J00061](https://jastrow.app/#rid:J00061) | alt | יָי׳ | יָבָם² |  |  |
-| [J00064](https://jastrow.app/#rid:J00064) | alt | יְבִמְ׳ | יְבַמְתָּא |  | yes |
-| [J00064](https://jastrow.app/#rid:J00064) | alt | יְבִימְ׳ | יְבַמְתָּא |  | yes |
-| [J00075](https://jastrow.app/#rid:J00075) | alt | יַבִּישְׁ׳ | יַבַּשְׁתָּא |  | yes |
-| [J00075](https://jastrow.app/#rid:J00075) | alt | יַבִּשְׁ׳ | יַבַּשְׁתָּא |  | yes |
-| [J00089](https://jastrow.app/#rid:J00089) | alt | יָי׳ | יָגֵעַ |  |  |
-| [J00172](https://jastrow.app/#rid:J00172) | alt | יָדְ׳ | יוֹדְקֶרֶת |  | yes |
-| [J00201](https://jastrow.app/#rid:J00201) | alt | יְוָו׳ | יְוָנָאָה |  | yes |
-| [J00206](https://jastrow.app/#rid:J00206) | alt | יְוָו׳ | יְוָנִי |  |  |
-| [J00231](https://jastrow.app/#rid:J00231) | alt | דְּיוֹ׳ | יוֹקְיָנוֹס |  | yes |
-| [J00259](https://jastrow.app/#rid:J00259) | alt | יְזִיפְ׳ | יְזוּפְתָּא |  | yes |
-| [J00271](https://jastrow.app/#rid:J00271) | alt | יִי׳ | יִחוּד² |  |  |
-| [J00272](https://jastrow.app/#rid:J00272) | alt | יִי׳ | יִחוּל |  | yes |
-| [J00273](https://jastrow.app/#rid:J00273) | alt | יִי׳ | יִחוּס |  | yes |
-| [J00274](https://jastrow.app/#rid:J00274) | alt | יֵי׳ | יֵחוּס |  |  |
-| [J00276](https://jastrow.app/#rid:J00276) | alt | יִי׳ | יִחוּף |  | yes |
-| [J00285](https://jastrow.app/#rid:J00285) | alt | י׳ | יָחִיד² |  |  |
-| [J00290](https://jastrow.app/#rid:J00290) | alt | יְחֵיפ׳ | יחֵיף |  | yes |
-| [J00309](https://jastrow.app/#rid:J00309) | alt | יַי׳ | יַחַף |  | yes |
-| [J00382](https://jastrow.app/#rid:J00382) | alt | יְלֵיד׳ | יָלֵידְתָּא |  | yes |
-| [J00411](https://jastrow.app/#rid:J00411) | alt | יֵי׳ | *יֵמִים |  | yes |
-| [J00460](https://jastrow.app/#rid:J00460) | alt | יְסוּ׳ | יִסּוּרָא |  | yes |
-| [J00460](https://jastrow.app/#rid:J00460) | alt | יִיסּוּ׳ | יִסּוּרָא |  | yes |
-| [J00481](https://jastrow.app/#rid:J00481) | alt | בֵּיתי׳ | יַעְזֵק |  | yes |
-| [J00546](https://jastrow.app/#rid:J00546) | alt | יוּצְ׳ | יְצַף |  |  |
-| [J00546](https://jastrow.app/#rid:J00546) | alt | יִיצְ׳ | יְצַף |  |  |
-| [J00568](https://jastrow.app/#rid:J00568) | alt | יְקֵדְ׳ | יְקֵידָא |  |  |
-| [J00570](https://jastrow.app/#rid:J00570) | alt | יְקִי׳ | יְקֵידוּתָא |  | yes |
-| [J00604](https://jastrow.app/#rid:J00604) | alt | יָי׳ | *יָרוֹד I |  |  |
-| [J00729](https://jastrow.app/#rid:J00729) | alt | יְ׳ | יָתֵיבְתָּא |  | yes |
-| [J00737](https://jastrow.app/#rid:J00737) | alt | יְתֵיר׳ | יַתִּיר I |  |  |
-| [J00751](https://jastrow.app/#rid:J00751) | alt | יִי׳ | יִתְרָא |  | yes |
-| [K00002](https://jastrow.app/#rid:K00002) | alt | כִּ־׳ | כְּ־ |  |  |
-| [K00011](https://jastrow.app/#rid:K00011) | alt | לִכְאוֹ׳ | כְּאוֹרָה |  | yes |
-| [K00078](https://jastrow.app/#rid:K00078) | alt | כּוּבְ׳ | כַּבָּרִיתָא |  |  |
-| [K00093](https://jastrow.app/#rid:K00093) | alt | כּוּבֶּ׳ | כַּבֶּשֶׁת |  | yes |
-| [K00104](https://jastrow.app/#rid:K00104) | alt | כִּדְ׳ | כַּדְבָא |  |  |
-| [K00104](https://jastrow.app/#rid:K00104) | alt | כִּידְ׳ | כַּדְבָא |  |  |
-| [K00108](https://jastrow.app/#rid:K00108) | alt | כַּדְבוּ׳ | כַּדָּבוּתָא |  | yes |
-| [K00108](https://jastrow.app/#rid:K00108) | alt | כַּדִּיבוּ׳ | כַּדָּבוּתָא |  | yes |
-| [K00117](https://jastrow.app/#rid:K00117) | alt | כר׳ | כדופסלא |  | yes |
-| [K00151](https://jastrow.app/#rid:K00151) | alt | כֵּו׳ | כֵּהֶה |  |  |
-| [K00151](https://jastrow.app/#rid:K00151) | alt | כֵּי׳ | כֵּהֶה |  |  |
-| [K00196](https://jastrow.app/#rid:K00196) | alt | כובד׳ | כוברים |  | yes |
-| [K00250](https://jastrow.app/#rid:K00250) | alt | כֹּכ׳ | כּוֹכָב² |  |  |
-| [K00257](https://jastrow.app/#rid:K00257) | alt | קוֹכְ׳ | כּוֹכְלִיאָס |  |  |
-| [K00265](https://jastrow.app/#rid:K00265) | alt | כולכ׳ | כולבסין |  | yes |
-| [K00270](https://jastrow.app/#rid:K00270) | alt | כּוּל׳ | כּוֹלְיָא |  |  |
-| [K00270](https://jastrow.app/#rid:K00270) | alt | כָּלְ׳ | כּוֹלְיָא |  |  |
-| [K00303](https://jastrow.app/#rid:K00303) | alt | כַּוָּו׳ | כַּוָּנָה |  | yes |
-| [K00304](https://jastrow.app/#rid:K00304) | alt | כַּוּו׳ | כַּוָּנוּתָא |  |  |
-| [K00431](https://jastrow.app/#rid:K00431) | alt | כּוֹתַ׳ | כּוֹתְנִיאָס |  |  |
-| [K00451](https://jastrow.app/#rid:K00451) | alt | כּוֹ׳ | כֹּחַ² |  |  |
-| [K00530](https://jastrow.app/#rid:K00530) | alt | כִּלְ׳ | כִּילְבִּית |  | yes |
-| [K00554](https://jastrow.app/#rid:K00554) | alt | כִּלְ׳ | כִּילְכִּית |  |  |
-| [K00567](https://jastrow.app/#rid:K00567) | alt | כִּנּ׳ | כִּינּוּיָא |  | yes |
-| [K00568](https://jastrow.app/#rid:K00568) | alt | כִּנּ׳ | כִּינּוּס |  | yes |
-| [K00580](https://jastrow.app/#rid:K00580) | alt | כּסּ׳ | כִּיסּוּחַ |  | yes |
-| [K00581](https://jastrow.app/#rid:K00581) | alt | כִּסּ׳ | כִּיסּוּי |  | yes |
-| [K00582](https://jastrow.app/#rid:K00582) | alt | כִּסּ׳ | כִּיסּוּיָא |  | yes |
-| [K00583](https://jastrow.app/#rid:K00583) | alt | כִּסּ׳ | כִּיסּוּפָא |  | yes |
-| [K00591](https://jastrow.app/#rid:K00591) | alt | כִּסְ׳ | כִּיסְנִין |  |  |
-| [K00591](https://jastrow.app/#rid:K00591) | alt | כִּיסָא׳ | כִּיסְנִין |  |  |
-| [K00591](https://jastrow.app/#rid:K00591) | alt | כְּסָא׳ | כִּיסְנִין |  |  |
-| [K00594](https://jastrow.app/#rid:K00594) | alt | כִּיסְּ׳ | כִּיסְתָא II |  | yes |
-| [K00605](https://jastrow.app/#rid:K00605) | alt | קִיפֵּ׳ | כִּיפֵּחַ |  |  |
-| [K00605](https://jastrow.app/#rid:K00605) | alt | קִפֵּ׳ | כִּיפֵּחַ |  |  |
-| [K00607](https://jastrow.app/#rid:K00607) | alt | כֵּפְ׳ | כֵּיפְלָא |  |  |
-| [K00638](https://jastrow.app/#rid:K00638) | alt | כִּשּׁ׳ | כִּישּׁוּף |  | yes |
-| [K00641](https://jastrow.app/#rid:K00641) | alt | כִּשָּׁ׳ | כִּישָּׁרוֹן |  | yes |
-| [K00646](https://jastrow.app/#rid:K00646) | alt | כִּתּ׳ | כִּיתּוּנָא |  | yes |
-| [K00651](https://jastrow.app/#rid:K00651) | alt | כִּת׳ | כִּיתַּן |  |  |
-| [K00653](https://jastrow.app/#rid:K00653) | alt | כִּיתְ׳ | כִּיתָּנִיתָא |  | yes |
-| [K00665](https://jastrow.app/#rid:K00665) | alt | כַּ׳ | כִּכְּרָא |  | yes |
-| [K00711](https://jastrow.app/#rid:K00711) | alt | גְּלוּפְ׳ | כְּלוּפְסִין |  |  |
-| [K00711](https://jastrow.app/#rid:K00711) | alt | קְלוּפְ׳ | כְּלוּפְסִין |  |  |
-| [K00751](https://jastrow.app/#rid:K00751) | alt | כִּילְ׳ | כִּלְכּוּל |  |  |
-| [K00767](https://jastrow.app/#rid:K00767) | alt | קַלְ׳ | כַּלְמְתָא |  | yes |
-| [K00784](https://jastrow.app/#rid:K00784) | alt | כַּלְ׳ | כַּלְּתָא |  | yes |
-| [K00784](https://jastrow.app/#rid:K00784) | alt | כַּלָּ׳ | כַּלְּתָא |  | yes |
-| [K00790](https://jastrow.app/#rid:K00790) | alt | כְּמֵי׳ | כְּמֵהוֹת |  |  |
-| [K00847](https://jastrow.app/#rid:K00847) | alt | כִּינּוֹ׳ | כִּנּוֹרָא |  |  |
-| [K00857](https://jastrow.app/#rid:K00857) | alt | כְּנִשְׁ׳ | כְּנִישָׁא |  |  |
-| [K00876](https://jastrow.app/#rid:K00876) | alt | כִּי׳ | כִּנָּרָא |  | yes |
-| [K00879](https://jastrow.app/#rid:K00879) | alt | כִּינֶּ׳ | כִּנֶּרֶת |  | yes |
-| [K00882](https://jastrow.app/#rid:K00882) | alt | כִּי׳ | כִּנְשָׁא |  | yes |
-| [K00926](https://jastrow.app/#rid:K00926) | alt | כְּסוּסְ׳ | כְּסִיסְטָא |  | yes |
-| [K00958](https://jastrow.app/#rid:K00958) | alt | כְּסִיפְ׳ | כְּסַפְתָּא |  | yes |
-| [K00992](https://jastrow.app/#rid:K00992) | alt | כִּיפּ׳ | כִּפּוּר |  | yes |
-| [K00993](https://jastrow.app/#rid:K00993) | alt | כִּיפּ׳ | כִּפּוּר² |  |  |
-| [K01002](https://jastrow.app/#rid:K01002) | alt | כַּפּ׳ | כָּפוּרְתָּא |  |  |
-| [K01002](https://jastrow.app/#rid:K01002) | alt | כַּפ׳ | כָּפוּרְתָּא |  |  |
-| [K01002](https://jastrow.app/#rid:K01002) | alt | כְּפ׳ | כָּפוּרְתָּא |  |  |
-| [K01039](https://jastrow.app/#rid:K01039) | alt | כּוּפְ׳ | כָּפְנִיתָא |  |  |
-| [K01057](https://jastrow.app/#rid:K01057) | alt | כּוּפְ׳ | כַּפְרָנָא |  | yes |
-| [K01093](https://jastrow.app/#rid:K01093) | alt | כַּרְדּוּ׳ | כַּרְדִּיטִין |  | yes |
-| [K01099](https://jastrow.app/#rid:K01099) | alt | כּוּרְ׳ | כֻּרְהָנָא |  | yes |
-| [K01105](https://jastrow.app/#rid:K01105) | alt | כְּרוּ׳ | כְּרוֹבָא |  | yes |
-| [K01148](https://jastrow.app/#rid:K01148) | alt | כּוֹ׳ | כָּרְחָא |  | yes |
-| [K01174](https://jastrow.app/#rid:K01174) | alt | קְ׳ | כְּרִיסְפָּא |  | yes |
-| [K01196](https://jastrow.app/#rid:K01196) | alt | כ׳ | *כַּרְכּוּז |  |  |
-| [K01198](https://jastrow.app/#rid:K01198) | alt | כּוּרְכּ׳ | כַּרְכּוֹם II |  |  |
-| [K01199](https://jastrow.app/#rid:K01199) | alt | כַּרְקֹ׳ | כַּרְכּוֹם |  |  |
-| [K01202](https://jastrow.app/#rid:K01202) | alt | כִּירְ׳ | כִּרְכּוּר |  | yes |
-| [K01212](https://jastrow.app/#rid:K01212) | alt | כַּרְכִּימִ׳ | כַּרְכְּמִישָׁא |  | yes |
-| [K01213](https://jastrow.app/#rid:K01213) | alt | כּוּרְ׳ | כַּרְכְּמִית |  | yes |
-| [K01290](https://jastrow.app/#rid:K01290) | alt | כְּרֵיתִ׳ | כְּרֵתִינוֹן |  | yes |
-| [K01297](https://jastrow.app/#rid:K01297) | alt | כַּסְ׳ | כַּשְׂדָּאָה |  | yes |
-| [K01300](https://jastrow.app/#rid:K01300) | alt | כְּשׁוֹ׳ | כָּשׁוֹרָא |  | yes |
-| [K01342](https://jastrow.app/#rid:K01342) | alt | כִּתְ׳ | כְּתַב II |  |  |
-| [K01363](https://jastrow.app/#rid:K01363) | alt | כְּתוּ׳ | כְּתִישָׁא |  | yes |
-| [K01373](https://jastrow.app/#rid:K01373) | alt | כִּי׳ | כִּתְמָא |  | yes |
-| [K01389](https://jastrow.app/#rid:K01389) | alt | כִּי׳ | כְּתַר² |  |  |
-| [K01389](https://jastrow.app/#rid:K01389) | alt | כּוּ׳ | כְּתַר² |  |  |
-| [L00031](https://jastrow.app/#rid:L00031) | alt | לִי׳ | לֵב² |  |  |
-| [L00044](https://jastrow.app/#rid:L00044) | alt | לִי׳ | לִבְדָּא |  | yes |
-| [L00060](https://jastrow.app/#rid:L00060) | alt | לְבִי׳ | לְבוּשׁ² |  |  |
-| [L00078](https://jastrow.app/#rid:L00078) | alt | לְבוּ׳ | לְבֵיצִין |  | yes |
-| [L00087](https://jastrow.app/#rid:L00087) | alt | לִיבְ׳ | לַבְלְבָא |  |  |
-| [L00093](https://jastrow.app/#rid:L00093) | alt | לַב׳ | לִבְלָר² |  |  |
-| [L00093](https://jastrow.app/#rid:L00093) | alt | לִיבְ׳ | לִבְלָר² |  |  |
-| [L00102](https://jastrow.app/#rid:L00102) | alt | לִי׳ | לִבְנָא |  | yes |
-| [L00103](https://jastrow.app/#rid:L00103) | alt | לְבֵי׳ | לְבֵנָה |  | yes |
-| [L00111](https://jastrow.app/#rid:L00111) | alt | לִיבְ׳ | לבְנָן |  | yes |
-| [L00117](https://jastrow.app/#rid:L00117) | alt | לַבְרָ׳ | לְבָרְנַיָּא |  | yes |
-| [L00125](https://jastrow.app/#rid:L00125) | alt | לִיגָ׳ | לֶגְטוֹן |  | yes |
-| [L00128](https://jastrow.app/#rid:L00128) | alt | לִי׳ | לִגְיוֹן² |  |  |
-| [L00135](https://jastrow.app/#rid:L00135) | alt | לִיגְ׳ | לִגִלֵג |  | yes |
-| [L00138](https://jastrow.app/#rid:L00138) | alt | לִיגְ׳ | לִגְלוּג |  | yes |
-| [L00139](https://jastrow.app/#rid:L00139) | alt | לִיגְ׳ | לַגְלוֹג |  | yes |
-| [L00141](https://jastrow.app/#rid:L00141) | alt | לִיגְ׳ | *לגְנָא |  | yes |
-| [L00252](https://jastrow.app/#rid:L00252) | alt | לֵי׳ | לֵוָיָא |  |  |
-| [L00258](https://jastrow.app/#rid:L00258) | alt | לְוָו׳ | לְוָיְיתָא |  |  |
-| [L00262](https://jastrow.app/#rid:L00262) | alt | לִיוְ׳ | לִוְיָתָן |  | yes |
-| [L00280](https://jastrow.app/#rid:L00280) | alt | לוּלְיָא׳ | לוּלְיָינוֹס |  | yes |
-| [L00281](https://jastrow.app/#rid:L00281) | alt | לוּלְיָא׳ | לוּלְיָינִי |  | yes |
-| [L00281](https://jastrow.app/#rid:L00281) | alt | לוּלְיָ׳ | לוּלְיָינִי |  | yes |
-| [L00282](https://jastrow.app/#rid:L00282) | alt | לוּלְיָא׳ | לוּלְיָינִית |  | yes |
-| [L00282](https://jastrow.app/#rid:L00282) | alt | לוּלְיָ׳ | לוּלְיָינִית |  | yes |
-| [L00299](https://jastrow.app/#rid:L00299) | alt | לוּ׳ | לוֹעָא |  | yes |
-| [L00319](https://jastrow.app/#rid:L00319) | alt | לַוְקְיָיא׳ | לַוְקְיָאנֵי |  | yes |
-| [L00319](https://jastrow.app/#rid:L00319) | alt | לַוְו׳ | לַוְקְיָאנֵי |  | yes |
-| [L00322](https://jastrow.app/#rid:L00322) | alt | לַוְו׳ | לַוְקָן |  | yes |
-| [L00322](https://jastrow.app/#rid:L00322) | alt | לַבְ׳ | לַוְקָן |  | yes |
-| [L00346](https://jastrow.app/#rid:L00346) | alt | לְחַיָּ׳ | לְחָיָיתָא |  | yes |
-| [L00351](https://jastrow.app/#rid:L00351) | alt | לְחֵינָ׳ | לְחֵינְתָא |  |  |
-| [L00358](https://jastrow.app/#rid:L00358) | alt | לִיחְ׳ | לִחְלוּחִית |  | yes |
-| [L00360](https://jastrow.app/#rid:L00360) | alt | לִיחְ׳ | לִחְלוּךְ |  | yes |
-| [L00378](https://jastrow.app/#rid:L00378) | alt | לוּ׳ | לִחֲתָא |  |  |
-| [L00404](https://jastrow.app/#rid:L00404) | alt | לֵיע׳ | לֵיאוּ |  |  |
-| [L00413](https://jastrow.app/#rid:L00413) | alt | לִבּ׳ | לִיבּוּן |  | yes |
-| [L00434](https://jastrow.app/#rid:L00434) | alt | לְוְו׳ | לִיוְוקָאֵי |  | yes |
-| [L00480](https://jastrow.app/#rid:L00480) | alt | לִמּ׳ | לִימּוּדִים |  |  |
-| [L00497](https://jastrow.app/#rid:L00497) | alt | לִסְ׳ | לִיסְטָיוּתָא |  | yes |
-| [L00498](https://jastrow.app/#rid:L00498) | alt | לִסְ׳ | לִיסְטֵיס |  |  |
-| [L00514](https://jastrow.app/#rid:L00514) | alt | לִצְּ׳ | *לִיצּוּי |  | yes |
-| [L00515](https://jastrow.app/#rid:L00515) | alt | לַיְי׳ | לֵיצָן |  |  |
-| [L00519](https://jastrow.app/#rid:L00519) | alt | לִקּ׳ | לִיקּוּחַ |  | yes |
-| [L00526](https://jastrow.app/#rid:L00526) | alt | לִי׳ | לִישׁ |  |  |
-| [L00531](https://jastrow.app/#rid:L00531) | alt | לִשָׁ׳ | לִישָׁן |  |  |
-| [L00551](https://jastrow.app/#rid:L00551) | alt | לִיכְ׳ | לִכְלוּךְ |  | yes |
-| [L00552](https://jastrow.app/#rid:L00552) | alt | לִיכְ׳ | לַכְלוּכִית |  | yes |
-| [L00553](https://jastrow.app/#rid:L00553) | alt | לִיכְ׳ | לִכְלֵךְ |  | yes |
-| [L00577](https://jastrow.app/#rid:L00577) | alt | לִימְ׳ | לִמְלֵם |  | yes |
-| [L00590](https://jastrow.app/#rid:L00590) | alt | לִיסְ׳ | לִסְתָא |  | yes |
-| [L00601](https://jastrow.app/#rid:L00601) | alt | לְעֵי׳ | לְעוּנִים |  |  |
-| [L00648](https://jastrow.app/#rid:L00648) | alt | לִי׳ | לִפְצָא |  |  |
-| [L00653](https://jastrow.app/#rid:L00653) | alt | לִיפְ׳ | לִפְתָּא |  | yes |
-| [L00654](https://jastrow.app/#rid:L00654) | alt | לִיפְ׳ | לִפְתּוּתָא |  | yes |
-| [L00656](https://jastrow.app/#rid:L00656) | alt | לִיפְ׳ | לִפְתָּן |  | yes |
-| [L00657](https://jastrow.app/#rid:L00657) | alt | לִיפְ׳ | לִפְתָּנָא |  | yes |
-| [L00695](https://jastrow.app/#rid:L00695) | alt | לְקִי׳ | לַקִּישׁוּתָא |  | yes |
-| [L00707](https://jastrow.app/#rid:L00707) | alt | לִישְׁ׳ | לִשְׁכָּה |  | yes |
-| [L00708](https://jastrow.app/#rid:L00708) | alt | לִישְׁ׳ | לִשְׁכְּתָא |  | yes |
-| [L00709](https://jastrow.app/#rid:L00709) | alt | לִי׳ | לִשְׁלוּשְׁתָּא |  | yes |
-| [L00710](https://jastrow.app/#rid:L00710) | alt | לִי׳ | לִשְׁלֶשֶׁת |  | yes |
-| [M00020](https://jastrow.app/#rid:M00020) | alt | מֵ׳ | *מְאָחָא |  | yes |
-| [M00061](https://jastrow.app/#rid:M00061) | alt | מְאֵי׳ | מְאֵרָה |  | yes |
-| [M00093](https://jastrow.app/#rid:M00093) | alt | מִבְ׳ | מַבַּע |  |  |
-| [M00098](https://jastrow.app/#rid:M00098) | alt | מָבְ׳ | מַבְרֵי |  | yes |
-| [M00117](https://jastrow.app/#rid:M00117) | alt | מִגְ׳ | מַגְדָּא |  | yes |
-| [M00117](https://jastrow.app/#rid:M00117) | alt | מִיגְ׳ | מַגְדָּא |  | yes |
-| [M00118](https://jastrow.app/#rid:M00118) | alt | מִיגְ׳ | מִגְדָּא |  | yes |
-| [M00121](https://jastrow.app/#rid:M00121) | alt | מַגְ׳ | מִגְדַּל |  |  |
-| [M00121](https://jastrow.app/#rid:M00121) | alt | מוּגְ׳ | מִגְדַּל |  |  |
-| [M00122](https://jastrow.app/#rid:M00122) | alt | מוּגְ׳ | מַגְדְּלָאָה |  |  |
-| [M00125](https://jastrow.app/#rid:M00125) | alt | מַגְ׳ | מִגְדָּנִין |  | yes |
-| [M00148](https://jastrow.app/#rid:M00148) | alt | מִיגְ׳ | מִגְזְרָא |  | yes |
-| [M00165](https://jastrow.app/#rid:M00165) | alt | מָגִסְ׳ | מָגִיסְטֵיר |  | yes |
-| [M00167](https://jastrow.app/#rid:M00167) | alt | מְגוּ׳ | מְגִיסְתָּא |  | yes |
-| [M00168](https://jastrow.app/#rid:M00168) | alt | מְגוּ׳ | מְגִיסְתָּא² |  | yes |
-| [M00171](https://jastrow.app/#rid:M00171) | alt | מָגוֹ׳ | מָגֵיר |  | yes |
-| [M00180](https://jastrow.app/#rid:M00180) | alt | מַגָּ׳ | מַגַּל |  |  |
-| [M00187](https://jastrow.app/#rid:M00187) | alt | מְגִילְ׳ | מְגִלְתָּא |  | yes |
-| [M00204](https://jastrow.app/#rid:M00204) | alt | מַגֵּי׳ | מַגֵּפָה |  | yes |
-| [M00206](https://jastrow.app/#rid:M00206) | alt | מַגֵּיפְ׳ | מַגֵּפְתָּא |  | yes |
-| [M00223](https://jastrow.app/#rid:M00223) | alt | מַגְרֵי׳ | מַגְרֵפָה |  | yes |
-| [M00248](https://jastrow.app/#rid:M00248) | alt | מַדְבְּרָ׳ | מְדַבְּרָנוּתָא |  | yes |
-| [M00296](https://jastrow.app/#rid:M00296) | alt | מַדִּי׳ | מָדִינְחָא |  |  |
-| [M00316](https://jastrow.app/#rid:M00316) | alt | מִ׳ | מַדַּע |  |  |
-| [M00317](https://jastrow.app/#rid:M00317) | alt | מִידַּ׳ | מִדַּעַם |  | yes |
-| [M00328](https://jastrow.app/#rid:M00328) | alt | מַדְרֵי׳ | מַדְרֵגָה |  | yes |
-| [M00331](https://jastrow.app/#rid:M00331) | alt | מִדְּ׳ | מַדְרוֹן |  | yes |
-| [M00332](https://jastrow.app/#rid:M00332) | alt | מוֹדְ׳ | מִדְרוֹן |  | yes |
-| [M00338](https://jastrow.app/#rid:M00338) | alt | מֶדְ׳ | מִדְרָשָׁא |  | yes |
-| [M00354](https://jastrow.app/#rid:M00354) | alt | מָ׳ | מְהוּלְתָּא |  | yes |
-| [M00373](https://jastrow.app/#rid:M00373) | alt | מַחֲ׳ | מַהֲמוֹרוֹת |  | yes |
-| [M00391](https://jastrow.app/#rid:M00391) | alt | מובילי׳ | מובילותא |  | yes |
-| [M00425](https://jastrow.app/#rid:M00425) | alt | מוֹהֲבִי׳ | מוֹהֲבוּתָא |  |  |
-| [M00539](https://jastrow.app/#rid:M00539) | alt | מָנְ׳ | מוּנְיָיק |  | yes |
-| [M00586](https://jastrow.app/#rid:M00586) | alt | מַקְ׳ | מוּקְדּוֹנְיָא |  | yes |
-| [M00625](https://jastrow.app/#rid:M00625) | alt | מַרְדְּ׳ | מוּרְדְּקָא |  |  |
-| [M00638](https://jastrow.app/#rid:M00638) | alt | מַרְטַ׳ | מוּרְטַנְיָא |  | yes |
-| [M00664](https://jastrow.app/#rid:M00664) | alt | מוּרְנִי׳ | מוֹרָנִיתָא |  | yes |
-| [M00711](https://jastrow.app/#rid:M00711) | alt | מְזוֹבְנָ׳ | מְזַבְּנָנָא |  | yes |
-| [M00716](https://jastrow.app/#rid:M00716) | alt | מִיזְ׳ | מִזְגָּא I |  |  |
-| [M00788](https://jastrow.app/#rid:M00788) | alt | מַזִּירְ׳ | מִזְרַק |  |  |
-| [M00833](https://jastrow.app/#rid:M00833) | alt | מִיחְ׳ | מִחְוַר |  | yes |
-| [M00842](https://jastrow.app/#rid:M00842) | alt | מִיחְ׳ | מִחְזֵי |  | yes |
-| [M00902](https://jastrow.app/#rid:M00902) | alt | מַחְמְ׳ | מְחַמַּר |  |  |
-| [M00911](https://jastrow.app/#rid:M00911) | alt | מְחָ׳ | מַחְסֵיל |  | yes |
-| [M00977](https://jastrow.app/#rid:M00977) | alt | מְטַלְטֶ׳ | מְטוֹטֶלֶת |  |  |
-| [M00982](https://jastrow.app/#rid:M00982) | alt | מְטוֹ׳ | מַטּוּל III |  |  |
-| [M00994](https://jastrow.app/#rid:M00994) | alt | מִיטַּ׳ | מַטַּטְרוֹן |  | yes |
-| [M00997](https://jastrow.app/#rid:M00997) | alt | מִיטַ׳ | מְטַכְסָא |  | yes |
-| [M00997](https://jastrow.app/#rid:M00997) | alt | מְטַקְ׳ | מְטַכְסָא |  | yes |
-| [M01006](https://jastrow.app/#rid:M01006) | alt | מִיטַּ׳ | מִטַּלְטְלִין |  | yes |
-| [M01019](https://jastrow.app/#rid:M01019) | alt | מִיטְ׳ | מִטְמוּט |  | yes |
-| [M01069](https://jastrow.app/#rid:M01069) | alt | מִיטַּ׳ | מִטַּרְפְּסָא |  | yes |
-| [M01071](https://jastrow.app/#rid:M01071) | alt | מְטַ׳ | מַטַּרְתָּא |  |  |
-| [M01127](https://jastrow.app/#rid:M01127) | alt | מְטָ׳ | מִיטָטוֹר |  | yes |
-| [M01139](https://jastrow.app/#rid:M01139) | alt | מַיּ׳ | מַיִין |  |  |
-| [M01173](https://jastrow.app/#rid:M01173) | alt | מְלוֹט׳ | מִילוֹטוֹמְיָא |  | yes |
-| [M01174](https://jastrow.app/#rid:M01174) | alt | מִלּ׳ | מִילּוּי |  | yes |
-| [M01175](https://jastrow.app/#rid:M01175) | alt | מִלּ׳ | מִילּוּל |  |  |
-| [M01192](https://jastrow.app/#rid:M01192) | alt | מִלְ׳ | מִילְפִּפּוֹן |  | yes |
-| [M01193](https://jastrow.app/#rid:M01193) | alt | מִלְ׳ | מִילְפִּפּוֹנָא |  | yes |
-| [M01217](https://jastrow.app/#rid:M01217) | alt | מְיַי׳ | מְיַנּוֹק |  |  |
-| [M01226](https://jastrow.app/#rid:M01226) | alt | מֵנִי׳ | מֵינִיקוּת |  | yes |
-| [M01231](https://jastrow.app/#rid:M01231) | alt | מְיַי׳ | מְיַנְּקָא |  | yes |
-| [M01274](https://jastrow.app/#rid:M01274) | alt | מִצּ׳ | מִיצּוּי |  | yes |
-| [M01275](https://jastrow.app/#rid:M01275) | alt | מִצּ׳ | מִיצּוּעַ |  | yes |
-| [M01276](https://jastrow.app/#rid:M01276) | alt | מִצְ׳ | מִיצְטְרָא |  | yes |
-| [M01279](https://jastrow.app/#rid:M01279) | alt | מַצּ׳ | מִיצַּע |  |  |
-| [M01318](https://jastrow.app/#rid:M01318) | alt | מֵשְׁ׳ | מֵישָׁרָא |  |  |
-| [M01327](https://jastrow.app/#rid:M01327) | alt | מִתּ׳ | מִיתּוּחַ |  | yes |
-| [M01328](https://jastrow.app/#rid:M01328) | alt | מִתּ׳ | מִיתּוּן |  | yes |
-| [M01348](https://jastrow.app/#rid:M01348) | alt | מַכְ׳ | מִכְבַּר |  | yes |
-| [M01355](https://jastrow.app/#rid:M01355) | alt | מַכְ׳ | מִכְוַור |  | yes |
-| [M01379](https://jastrow.app/#rid:M01379) | alt | מְכִל׳ | מְכִילָא |  |  |
-| [M01393](https://jastrow.app/#rid:M01393) | alt | מִי׳ | מִכְלָה |  | yes |
-| [M01416](https://jastrow.app/#rid:M01416) | alt | מִכְ׳ | מַכְנְסִין |  | yes |
-| [M01420](https://jastrow.app/#rid:M01420) | alt | מִיכְ׳ | מִכְסָא |  | yes |
-| [M01424](https://jastrow.app/#rid:M01424) | alt | מַכְסִי׳ | *מִכְסוֹרִין |  | yes |
-| [M01484](https://jastrow.app/#rid:M01484) | alt | מַלְבֵּינְ׳ | *מַלְבֵּנְתָּא |  | yes |
-| [M01489](https://jastrow.app/#rid:M01489) | alt | מִי׳ | מִלָּה |  | yes |
-| [M01524](https://jastrow.app/#rid:M01524) | alt | מִי׳ | מֶלַח² |  |  |
-| [M01568](https://jastrow.app/#rid:M01568) | alt | מִי׳ | מַלְיְתָא |  |  |
-| [M01574](https://jastrow.app/#rid:M01574) | alt | מֵי׳ | מֵלַךְ |  |  |
-| [M01574](https://jastrow.app/#rid:M01574) | alt | מִי׳ | מֵלַךְ |  |  |
-| [M01585](https://jastrow.app/#rid:M01585) | alt | מִילְ׳ | מִלְכָנָא |  | yes |
-| [M01587](https://jastrow.app/#rid:M01587) | alt | מִילְ׳ | מִלְכְּתָא |  | yes |
-| [M01588](https://jastrow.app/#rid:M01588) | alt | מִילְ׳ | מִלְכְּתָנוּתָא |  | yes |
-| [M01597](https://jastrow.app/#rid:M01597) | alt | מִי׳ | מִלְלָא |  | yes |
-| [M01660](https://jastrow.app/#rid:M01660) | alt | מַמְזֵי׳ | מַמְזֵרָא |  | yes |
-| [M01661](https://jastrow.app/#rid:M01661) | alt | מַמְזֵי׳ | מַמְזֵרוּת |  | yes |
-| [M01662](https://jastrow.app/#rid:M01662) | alt | מַמְזֵי׳ | מַמְזֵרִי |  | yes |
-| [M01665](https://jastrow.app/#rid:M01665) | alt | מָמִקְ׳ | מָמִיקְנָא |  | yes |
-| [M01666](https://jastrow.app/#rid:M01666) | alt | מְמִקְ׳ | מְמִיקְנוּתָא |  | yes |
-| [M01755](https://jastrow.app/#rid:M01755) | alt | מַנְזִיחְ׳ | מַנְזִחְנָא |  | yes |
-| [M01756](https://jastrow.app/#rid:M01756) | alt | מַנְזִקְ׳ | מַנְזִיקְנָא |  | yes |
-| [M01764](https://jastrow.app/#rid:M01764) | alt | מִנְחֲ׳ | מִנְחָתָא |  | yes |
-| [M01766](https://jastrow.app/#rid:M01766) | alt | מִי׳ | מִנְטַר |  | yes |
-| [M01774](https://jastrow.app/#rid:M01774) | alt | מִי׳ | מִנְיוֹמִי |  | yes |
-| [M01782](https://jastrow.app/#rid:M01782) | alt | מְ׳ | מָנִיכָא |  | yes |
-| [M01784](https://jastrow.app/#rid:M01784) | alt | מִנְיָי׳ | מִנְיָמִין |  | yes |
-| [M01784](https://jastrow.app/#rid:M01784) | alt | מִינְ׳ | מִנְיָמִין |  | yes |
-| [M01786](https://jastrow.app/#rid:M01786) | alt | מִי׳ | מִנְיָן |  |  |
-| [M01787](https://jastrow.app/#rid:M01787) | alt | מִנְיָי׳ | מִנְיַן |  |  |
-| [M01787](https://jastrow.app/#rid:M01787) | alt | מִי׳ | מִנְיַן |  |  |
-| [M01796](https://jastrow.app/#rid:M01796) | alt | מִי׳ | מְנָן |  |  |
-| [M01817](https://jastrow.app/#rid:M01817) | alt | מְנַר׳ | מְנָרְתָּא |  | yes |
-| [M01839](https://jastrow.app/#rid:M01839) | alt | מֵי׳ | מֵסֵב |  | yes |
-| [M01841](https://jastrow.app/#rid:M01841) | alt | מְסִי׳ | מְסִבְּתָא |  | yes |
-| [M01849](https://jastrow.app/#rid:M01849) | alt | מַסְגֵּי׳ | מַסְגֵּרָא |  | yes |
-| [M01905](https://jastrow.app/#rid:M01905) | alt | מִסְטוּ׳ | מִסְטֵירִין |  | yes |
-| [M01905](https://jastrow.app/#rid:M01905) | alt | מִיסְ׳ | מִסְטֵירִין |  | yes |
-| [M01907](https://jastrow.app/#rid:M01907) | alt | מַסְטְ׳ | מִסְטְרִין |  | yes |
-| [M01907](https://jastrow.app/#rid:M01907) | alt | מְסַטְּ׳ | מִסְטְרִין |  | yes |
-| [M01922](https://jastrow.app/#rid:M01922) | alt | מוּסְ׳ | מְסִימִיס |  |  |
-| [M01950](https://jastrow.app/#rid:M01950) | alt | מִסְכֵּי׳ | מִסְכֵּן |  |  |
-| [M01950](https://jastrow.app/#rid:M01950) | alt | מִיסְ׳ | מִסְכֵּן |  |  |
-| [M01952](https://jastrow.app/#rid:M01952) | alt | מִסְכֵּי׳ | מִסְכֵּנוּ |  |  |
-| [M01952](https://jastrow.app/#rid:M01952) | alt | מִי׳ | מִסְכֵּנוּ |  |  |
-| [M01991](https://jastrow.app/#rid:M01991) | alt | מִי׳ | מִסְפְּק |  | yes |
-| [M02029](https://jastrow.app/#rid:M02029) | alt | מַסְרִי׳ | מַסְרֵקָא |  | yes |
-| [M02031](https://jastrow.app/#rid:M02031) | alt | מַסְרֵי׳ | מַסְרֵתָא |  | yes |
-| [M02034](https://jastrow.app/#rid:M02034) | alt | מִי׳ | מִסְּתָא |  |  |
-| [M02039](https://jastrow.app/#rid:M02039) | alt | מִי׳ | מִסְתְּיָא |  |  |
-| [M02127](https://jastrow.app/#rid:M02127) | alt | מֵי׳ | מֵעֲלָא |  | yes |
-| [M02160](https://jastrow.app/#rid:M02160) | alt | מַעַצְ׳ | מַעְצְרָא |  | yes |
-| [M02161](https://jastrow.app/#rid:M02161) | alt | מַעֲצַ׳ | מַעְצַרְתָּא |  | yes |
-| [M02177](https://jastrow.app/#rid:M02177) | alt | מַעֲרוּ׳ | מַעֲרוֹקָא |  | yes |
-| [M02189](https://jastrow.app/#rid:M02189) | alt | מַעְסְ׳ | מַעְשְׂרָא |  | yes |
-| [M02189](https://jastrow.app/#rid:M02189) | alt | מַעַ׳ | מַעְשְׂרָא |  | yes |
-| [M02211](https://jastrow.app/#rid:M02211) | alt | מְפִבֹ׳ | מְפִיבֹשֶׁת |  | yes |
-| [M02234](https://jastrow.app/#rid:M02234) | alt | מִיפְ׳ | מִפְסַלְתָּא |  | yes |
-| [M02320](https://jastrow.app/#rid:M02320) | alt | מַצִּי׳ | מְצִינְפָא |  | yes |
-| [M02357](https://jastrow.app/#rid:M02357) | alt | מִיצְ׳ | מֵצַר² |  |  |
-| [M02358](https://jastrow.app/#rid:M02358) | alt | מִי׳ | מֵצַר³ |  |  |
-| [M02360](https://jastrow.app/#rid:M02360) | alt | מִי׳ | מִצְרָאָה |  |  |
-| [M02385](https://jastrow.app/#rid:M02385) | alt | מוּקְ׳ | מַקְדַּשׁ |  |  |
-| [M02508](https://jastrow.app/#rid:M02508) | alt | מַרְבְּעִי׳ | מַרְבַּעְתָּא |  |  |
-| [M02533](https://jastrow.app/#rid:M02533) | alt | מֵי׳ | מֵרַד |  |  |
-| [M02613](https://jastrow.app/#rid:M02613) | alt | מָרְוְו׳ | מָרוּתָא |  |  |
-| [M02625](https://jastrow.app/#rid:M02625) | alt | מַרְזֵי׳ | מַרְזֵחָא |  | yes |
-| [M02638](https://jastrow.app/#rid:M02638) | alt | מְרָ׳ | מְרַחֲקָא |  |  |
-| [M02699](https://jastrow.app/#rid:M02699) | alt | מֶרְ׳ | מַרְכְּבָא |  | yes |
-| [M02717](https://jastrow.app/#rid:M02717) | alt | מַרְמֵי׳ | מַרְמִירָא |  | yes |
-| [M02728](https://jastrow.app/#rid:M02728) | alt | מֵי׳ | מֵרַע |  | yes |
-| [M02735](https://jastrow.app/#rid:M02735) | alt | מִרְ׳ | מַרְעֵי I |  |  |
-| [M02742](https://jastrow.app/#rid:M02742) | alt | מַרְעֵי׳ | מַרְעֵלָא |  | yes |
-| [M02792](https://jastrow.app/#rid:M02792) | alt | מַרְתֵּי׳ | מַרְתֵּפָא |  | yes |
-| [M02850](https://jastrow.app/#rid:M02850) | alt | מִישְׁ׳ | מְשַׁח III |  |  |
-| [M02851](https://jastrow.app/#rid:M02851) | alt | מִי׳ | מְשַׁח IV |  |  |
-| [M02893](https://jastrow.app/#rid:M02893) | alt | מִישְׁ׳ | מְשַׁךְ II |  |  |
-| [M02893](https://jastrow.app/#rid:M02893) | alt | מוֹשְׁ׳ | מְשַׁךְ II |  |  |
-| [M02896](https://jastrow.app/#rid:M02896) | alt | מִשְׁ׳ | מַשְׁכְּבָא |  | yes |
-| [M02908](https://jastrow.app/#rid:M02908) | alt | מִ׳ | מַשְׁכְּנָא |  | yes |
-| [M02909](https://jastrow.app/#rid:M02909) | alt | מִישְׁ׳ | מִשְׁכְּנוּתָא |  | yes |
-| [M02919](https://jastrow.app/#rid:M02919) | alt | מִי׳ | מִשְׁלָם |  | yes |
-| [M02937](https://jastrow.app/#rid:M02937) | alt | מְמַשְׁמְ׳ | מַשְׁמְשָׁנִית |  | yes |
-| [M02963](https://jastrow.app/#rid:M02963) | alt | מַשְׁקוּ׳ | מַשְׁקוֹפִי |  | yes |
-| [M02977](https://jastrow.app/#rid:M02977) | alt | מִ׳ | מַשְׁרֵי |  |  |
-| [M02978](https://jastrow.app/#rid:M02978) | alt | מַשִּׁירְ׳ | מַשְׁרִיתָא |  |  |
-| [M02986](https://jastrow.app/#rid:M02986) | alt | מַשָּׁ׳ | מְשַׁשׁ II |  |  |
-| [M02992](https://jastrow.app/#rid:M02992) | alt | מִישְׁ׳ | מִשְׁתּוּתָא |  | yes |
-| [M02995](https://jastrow.app/#rid:M02995) | alt | מִי׳ | מִשְׁתִּי |  |  |
-| [M02999](https://jastrow.app/#rid:M02999) | alt | מַשְׁתֵּי׳ | מַשְׁתִּיתָא |  |  |
-| [M03015](https://jastrow.app/#rid:M03015) | alt | מִי׳ | מִתגָּא |  | yes |
-| [M03021](https://jastrow.app/#rid:M03021) | alt | מַתְוָו׳ | מַתְוָיָא |  | yes |
-| [M03036](https://jastrow.app/#rid:M03036) | alt | מְתֻרְ׳ | מְתוּרְגְּמָן² |  |  |
-| [M03086](https://jastrow.app/#rid:M03086) | alt | מִי׳ | מִתְנָא |  | yes |
-| [M03086](https://jastrow.app/#rid:M03086) | alt | מוֹ׳ | מִתְנָא |  | yes |
-| [M03095](https://jastrow.app/#rid:M03095) | alt | מַתְּ׳ | מַתְנַן |  |  |
-| [M03108](https://jastrow.app/#rid:M03108) | alt | מְתָ׳ | מְתַרְכָא |  | yes |
-| [N00058](https://jastrow.app/#rid:N00058) | alt | נִי׳ | נִבּוּרַיָּא |  |  |
-| [N00094](https://jastrow.app/#rid:N00094) | alt | נִי׳ | נֵבֶל |  |  |
-| [N00095](https://jastrow.app/#rid:N00095) | alt | נִי׳ | נִבְלָא |  | yes |
-| [N00097](https://jastrow.app/#rid:N00097) | alt | נְבֵי׳ | נְבֵלָה |  | yes |
-| [N00100](https://jastrow.app/#rid:N00100) | alt | נְבֵי׳ | נְבֵלְתָּא |  |  |
-| [N00111](https://jastrow.app/#rid:N00111) | alt | נִב׳ | נֶבְרַשְׁתָּא |  | yes |
-| [N00120](https://jastrow.app/#rid:N00120) | alt | נַגְ׳ | נָגְדָּא |  | yes |
-| [N00120](https://jastrow.app/#rid:N00120) | alt | נוּגְ׳ | נָגְדָּא |  | yes |
-| [N00121](https://jastrow.app/#rid:N00121) | alt | נִי׳ | נִגְדָּא |  | yes |
-| [N00122](https://jastrow.app/#rid:N00122) | alt | נִי׳ | נִגְדָּא² |  | yes |
-| [N00139](https://jastrow.app/#rid:N00139) | alt | נַגְוָ׳ | נַגְוָון |  |  |
-| [N00144](https://jastrow.app/#rid:N00144) | alt | נִיגְ׳ | נִגְזָל |  | yes |
-| [N00203](https://jastrow.app/#rid:N00203) | alt | נִי׳ | נִדְבָא |  | yes |
-| [N00205](https://jastrow.app/#rid:N00205) | alt | נִי׳ | נִדְבָּה |  | yes |
-| [N00208](https://jastrow.app/#rid:N00208) | alt | נִידְ׳ | נִדְבַּךְ I |  | yes |
-| [N00213](https://jastrow.app/#rid:N00213) | alt | נִי׳ | נִדְדָת |  | yes |
-| [N00218](https://jastrow.app/#rid:N00218) | alt | נְדוֹ׳ | נַדּוֹנָא |  | yes |
-| [N00227](https://jastrow.app/#rid:N00227) | alt | נִי׳ | נִדְּיָין |  | yes |
-| [N00235](https://jastrow.app/#rid:N00235) | alt | נִי׳ | נִדְנוּד |  | yes |
-| [N00243](https://jastrow.app/#rid:N00243) | alt | נִי׳ | נְדַר III |  |  |
-| [N00425](https://jastrow.app/#rid:N00425) | alt | נִיזְ׳ | נִזְבָּא |  | yes |
-| [N00428](https://jastrow.app/#rid:N00428) | alt | נִיזְ׳ | נִזְהָא |  | yes |
-| [N00462](https://jastrow.app/#rid:N00462) | alt | נִיזְ׳ | נֶזֶק |  |  |
-| [N00467](https://jastrow.app/#rid:N00467) | alt | נִי׳ | נִזְרָא |  | yes |
-| [N00481](https://jastrow.app/#rid:N00481) | alt | נְחֻשְׁ׳ | נְחוּשְׁתָּן |  | yes |
-| [N00482](https://jastrow.app/#rid:N00482) | alt | נְחֻשְׁ׳ | נְחוּשְׁתָּן² |  | yes |
-| [N00528](https://jastrow.app/#rid:N00528) | alt | נַחְשִׁרְ׳ | נַחְשִׁירְכָן |  | yes |
-| [N00537](https://jastrow.app/#rid:N00537) | alt | נַחְתּוּ׳ | נַחְתּוֹם² |  |  |
-| [N00608](https://jastrow.app/#rid:N00608) | alt | נִבּ׳ | נִיבּוּל |  | yes |
-| [N00616](https://jastrow.app/#rid:N00616) | alt | נִגּ׳ | נִיגּוּן |  | yes |
-| [N00617](https://jastrow.app/#rid:N00617) | alt | נִגּ׳ | נִיגּוּנָא |  | yes |
-| [N00620](https://jastrow.app/#rid:N00620) | alt | נִגְ׳ | נִיגְרָא |  | yes |
-| [N00624](https://jastrow.app/#rid:N00624) | alt | נִדּ׳ | נִידּוּי |  | yes |
-| [N00632](https://jastrow.app/#rid:N00632) | alt | נִוּוּ׳ | נִיוּוּלָא |  | yes |
-| [N00638](https://jastrow.app/#rid:N00638) | alt | נְיוּ׳ | נִיוּמְתָּא |  | yes |
-| [N00649](https://jastrow.app/#rid:N00649) | alt | נִח׳ | נִיחוּם |  | yes |
-| [N00666](https://jastrow.app/#rid:N00666) | alt | נִכּ׳ | נִיכּוּשׁ |  | yes |
-| [N00682](https://jastrow.app/#rid:N00682) | alt | נִימוּ׳ | נִימוֹסָא |  | yes |
-| [N00684](https://jastrow.app/#rid:N00684) | alt | נִמּ׳ | נִימּוּק |  | yes |
-| [N00688](https://jastrow.app/#rid:N00688) | alt | נִמְ׳ | נִימְפִּיּוֹן |  | yes |
-| [N00694](https://jastrow.app/#rid:N00694) | alt | נִנְ׳ | *נִינְיָא |  | yes |
-| [N00695](https://jastrow.app/#rid:N00695) | alt | נִנְ׳ | נִינְיָא |  | yes |
-| [N00697](https://jastrow.app/#rid:N00697) | alt | נִנְ׳ | נִינְפֵי |  | yes |
-| [N00703](https://jastrow.app/#rid:N00703) | alt | נִסּ׳ | נִיסּוּךְ |  | yes |
-| [N00704](https://jastrow.app/#rid:N00704) | alt | נִסּ׳ | נִיסּוּךְ² |  |  |
-| [N00728](https://jastrow.app/#rid:N00728) | alt | נִפּ׳ | נִיפּוּל |  | yes |
-| [N00729](https://jastrow.app/#rid:N00729) | alt | נִפּ׳ | נִיפּוֹל |  | yes |
-| [N00737](https://jastrow.app/#rid:N00737) | alt | נִפְ׳ | נִיפְלָא |  | yes |
-| [N00746](https://jastrow.app/#rid:N00746) | alt | נִצּ׳ | נִיצּוּחַ |  | yes |
-| [N00748](https://jastrow.app/#rid:N00748) | alt | נִצּ׳ | נִיצּוּיֵי |  | yes |
-| [N00750](https://jastrow.app/#rid:N00750) | alt | נִצּ׳ | נִיצּוֹלֶת |  | yes |
-| [N00759](https://jastrow.app/#rid:N00759) | alt | נִצָּ׳ | נִיצָּנָא |  | yes |
-| [N00763](https://jastrow.app/#rid:N00763) | alt | נִקּ׳ | נִיקּוּד |  | yes |
-| [N00764](https://jastrow.app/#rid:N00764) | alt | נִקּ׳ | נִיקּוּי |  | yes |
-| [N00768](https://jastrow.app/#rid:N00768) | alt | נִקּ׳ | נִיקּוּף |  | yes |
-| [N00769](https://jastrow.app/#rid:N00769) | alt | נִקּ׳ | נִיקּוּף² |  | yes |
-| [N00770](https://jastrow.app/#rid:N00770) | alt | נִקּ׳ | נִיקּוּר |  | yes |
-| [N00772](https://jastrow.app/#rid:N00772) | alt | נִקּ׳ | נִיקּוּשָׁא |  | yes |
-| [N00773](https://jastrow.app/#rid:N00773) | alt | נְקַ׳ | נִיקַטְמוֹן |  | yes |
-| [N00780](https://jastrow.app/#rid:N00780) | alt | נִקָ׳ | נִיקָנוֹר |  | yes |
-| [N00794](https://jastrow.app/#rid:N00794) | alt | נִשְׁ׳ | נִישְׁדּוּר |  | yes |
-| [N00795](https://jastrow.app/#rid:N00795) | alt | נִשּׂ׳ | נִישּׂוּאִין |  | yes |
-| [N00803](https://jastrow.app/#rid:N00803) | alt | נִתּ׳ | נִיתּוּחַ |  | yes |
-| [N00834](https://jastrow.app/#rid:N00834) | alt | נִי׳ | נְכַל |  |  |
-| [N00838](https://jastrow.app/#rid:N00838) | alt | נִי׳ | נִכְסָא |  |  |
-| [N00842](https://jastrow.app/#rid:N00842) | alt | נִי׳ | נִכְסִין |  |  |
-| [N00891](https://jastrow.app/#rid:N00891) | alt | נִי׳ | נְמַר |  | yes |
-| [N00894](https://jastrow.app/#rid:N00894) | alt | נִי׳ | נִמְרֵי |  |  |
-| [N00913](https://jastrow.app/#rid:N00913) | alt | נִי׳ | נֵס |  |  |
-| [N00914](https://jastrow.app/#rid:N00914) | alt | נִי׳ | נִסָּא II |  |  |
-| [N00934](https://jastrow.app/#rid:N00934) | alt | נִיסָּ׳ | נִסָּיוֹן |  | yes |
-| [N00935](https://jastrow.app/#rid:N00935) | alt | נִי׳ | נִסָּיוֹן² |  |  |
-| [N00945](https://jastrow.app/#rid:N00945) | alt | נִי׳ | נִסֵּיתָא |  |  |
-| [N00949](https://jastrow.app/#rid:N00949) | alt | נִי׳ | נִסְכָּא |  | yes |
-| [N00950](https://jastrow.app/#rid:N00950) | alt | נִי׳ | נִסְכָּא² |  | yes |
-| [N00951](https://jastrow.app/#rid:N00951) | alt | נִי׳ | *נִסְכָּא |  | yes |
-| [N00963](https://jastrow.app/#rid:N00963) | alt | נִי׳ | נִסְרָא |  | yes |
-| [N00995](https://jastrow.app/#rid:N00995) | alt | נָעָ׳ | נַעֲמיתָא |  |  |
-| [N00999](https://jastrow.app/#rid:N00999) | alt | נִי׳ | נִעֲנוּעַ |  | yes |
-| [N01030](https://jastrow.app/#rid:N01030) | alt | נִי׳ | נִפְחָא |  | yes |
-| [N01041](https://jastrow.app/#rid:N01041) | alt | נְפִלִ׳ | נָפִיל |  |  |
-| [N01053](https://jastrow.app/#rid:N01053) | alt | נוֹ׳ | נֹפֶךְ |  | yes |
-| [N01057](https://jastrow.app/#rid:N01057) | alt | נֵי׳ | נֵפֶל |  | yes |
-| [N01077](https://jastrow.app/#rid:N01077) | alt | נִי׳ | נִפִקָא |  | yes |
-| [N01088](https://jastrow.app/#rid:N01088) | alt | נַפְתֹּחָ׳ | נַפְתּוֹחָא |  |  |
-| [N01089](https://jastrow.app/#rid:N01089) | alt | נִי׳ | נִפְתִּי |  |  |
-| [N01099](https://jastrow.app/#rid:N01099) | alt | נִי׳ | נִצְבָּא |  |  |
-| [N01105](https://jastrow.app/#rid:N01105) | alt | נִיצּ׳ | נִצּוֹק |  | yes |
-| [N01113](https://jastrow.app/#rid:N01113) | alt | נִי׳ | נִצָּחוֹן |  | yes |
-| [N01115](https://jastrow.app/#rid:N01115) | alt | נִי׳ | נִצְחָן |  |  |
-| [N01133](https://jastrow.app/#rid:N01133) | alt | נֵי׳ | נֵצֶל |  | yes |
-| [N01148](https://jastrow.app/#rid:N01148) | alt | נִי׳ | נִצְרָא |  |  |
-| [N01158](https://jastrow.app/#rid:N01158) | alt | נִי׳ | נִקְבָּא |  | yes |
-| [N01158](https://jastrow.app/#rid:N01158) | alt | נוּ׳ | נִקְבָּא |  | yes |
-| [N01159](https://jastrow.app/#rid:N01159) | alt | נְקֵי׳ | נְקֵבָה |  | yes |
-| [N01160](https://jastrow.app/#rid:N01160) | alt | נְקֵי׳ | נְקֵבוּת |  | yes |
-| [N01169](https://jastrow.app/#rid:N01169) | alt | נוֹקְדָ׳ | נַקְדָּנָא |  | yes |
-| [N01202](https://jastrow.app/#rid:N01202) | alt | נִי׳ | נִקָּיוֹן |  | yes |
-| [N01239](https://jastrow.app/#rid:N01239) | alt | נִי׳ | נִקְפִּי |  | yes |
-| [N01240](https://jastrow.app/#rid:N01240) | alt | נִי׳ | נִקְצָא |  | yes |
-| [N01246](https://jastrow.app/#rid:N01246) | alt | נִי׳ | נִקְרָא |  | yes |
-| [N01266](https://jastrow.app/#rid:N01266) | alt | נִי׳ | נִרְדָּא |  | yes |
-| [N01288](https://jastrow.app/#rid:N01288) | alt | נִי׳ | נִשְׁבָּא |  | yes |
-| [N01289](https://jastrow.app/#rid:N01289) | alt | נִי׳ | נִשְׁבִּים |  |  |
-| [N01305](https://jastrow.app/#rid:N01305) | alt | נְסִ׳ | נְשִׂיאָה I |  |  |
-| [N01308](https://jastrow.app/#rid:N01308) | alt | נְסִי׳ | נְשִׂיאוּתָא |  |  |
-| [N01349](https://jastrow.app/#rid:N01349) | alt | נִי׳ | נְשַׁר II |  |  |
-| [N01390](https://jastrow.app/#rid:N01390) | alt | נִי׳ | נִתְקָא |  | yes |
-| [N01396](https://jastrow.app/#rid:N01396) | alt | נִי׳ | נִתְרָא |  | yes |
-| [N01397](https://jastrow.app/#rid:N01397) | alt | נִי׳ | נִתְרָא² |  | yes |
-| [O00051](https://jastrow.app/#rid:O00051) | alt | סַמְבַּ׳ | סַבַּטְיוֹן |  | yes |
-| [O00051](https://jastrow.app/#rid:O00051) | alt | סַנְבַּ׳ | סַבַּטְיוֹן |  | yes |
-| [O00067](https://jastrow.app/#rid:O00067) | alt | סִי׳ | סִבְכָא |  | yes |
-| [O00068](https://jastrow.app/#rid:O00068) | alt | שְׂ׳ | סְבָכָה |  | yes |
-| [O00075](https://jastrow.app/#rid:O00075) | alt | סִי׳ | סִבְּלוֹן |  | yes |
-| [O00077](https://jastrow.app/#rid:O00077) | alt | סוּבְ׳ | סִבְנִי |  | yes |
-| [O00077](https://jastrow.app/#rid:O00077) | alt | סִיבְ׳ | סִבְנִי |  | yes |
-| [O00082](https://jastrow.app/#rid:O00082) | alt | סִיבְ׳ | סִבְעָא |  | yes |
-| [O00090](https://jastrow.app/#rid:O00090) | alt | סִי׳ | סְבַר IV |  |  |
-| [O00094](https://jastrow.app/#rid:O00094) | alt | סִיבַּרְ׳ | סַבָּרוּתָא |  |  |
-| [O00101](https://jastrow.app/#rid:O00101) | alt | סִי׳ | סִגְדָּא |  | yes |
-| [O00128](https://jastrow.app/#rid:O00128) | alt | סַגְיוּ׳ | סְגִיאוּתָא |  |  |
-| [O00131](https://jastrow.app/#rid:O00131) | alt | סַגְיוּ׳ | סְגִיּוּתָא |  | yes |
-| [O00155](https://jastrow.app/#rid:O00155) | alt | סִי׳ | סְגַן |  |  |
-| [O00162](https://jastrow.app/#rid:O00162) | alt | סִיגְ׳ | סִגְעָא |  | yes |
-| [O00203](https://jastrow.app/#rid:O00203) | alt | סִי׳ | סִדְרָא |  |  |
-| [O00209](https://jastrow.app/#rid:O00209) | alt | סוֹדְ׳ | סַדְרַן |  |  |
-| [O00213](https://jastrow.app/#rid:O00213) | alt | סַ׳ | סָהֲדָא |  |  |
-| [O00213](https://jastrow.app/#rid:O00213) | alt | שַׂ׳ | סָהֲדָא |  |  |
-| [O00214](https://jastrow.app/#rid:O00214) | alt | שַׂ׳ | סַהֲדוּ |  |  |
-| [O00290](https://jastrow.app/#rid:O00290) | alt | סוֹ׳ | סוּטְרָא |  | yes |
-| [O00299](https://jastrow.app/#rid:O00299) | alt | שׂ׳ | סוֹכָה |  | yes |
-| [O00306](https://jastrow.app/#rid:O00306) | alt | שׂ׳ | סוּכְלְתָן |  |  |
-| [O00316](https://jastrow.app/#rid:O00316) | alt | סַלְ׳ | סוּלְגִּיתָא |  | yes |
-| [O00345](https://jastrow.app/#rid:O00345) | alt | סוּמְכְוָ׳ | סוּמְכְוָון |  |  |
-| [O00349](https://jastrow.app/#rid:O00349) | alt | סוּמְפֹּנְ׳ | סוּמְפּוֹנְיָה |  | yes |
-| [O00351](https://jastrow.app/#rid:O00351) | alt | סוּמְ׳ | סוּמַּק |  |  |
-| [O00357](https://jastrow.app/#rid:O00357) | alt | סֻמַּ׳ | סוּמַּקְתָּא |  | yes |
-| [O00393](https://jastrow.app/#rid:O00393) | alt | סוּ׳ | סוֹפִינָא |  | yes |
-| [O00470](https://jastrow.app/#rid:O00470) | alt | סָחְ׳ | סַחֲרָנוּתָא |  | yes |
-| [O00475](https://jastrow.app/#rid:O00475) | alt | סוֹטְ׳ | סַטְדָּא |  | yes |
-| [O00499](https://jastrow.app/#rid:O00499) | alt | סִי׳ | סְטַן II |  |  |
-| [O00504](https://jastrow.app/#rid:O00504) | alt | סִי׳ | סְטַר II |  |  |
-| [O00504](https://jastrow.app/#rid:O00504) | alt | צִ׳ | סְטַר II |  |  |
-| [O00530](https://jastrow.app/#rid:O00530) | alt | סֵב׳ | סֵיבוּ |  |  |
-| [O00535](https://jastrow.app/#rid:O00535) | alt | סִבּ׳ | סִיבּוֹלֶת |  | yes |
-| [O00536](https://jastrow.app/#rid:O00536) | alt | סִבּ׳ | סִיבּוּר |  |  |
-| [O00537](https://jastrow.app/#rid:O00537) | alt | סִבּ׳ | סִיבּוּרָא |  | yes |
-| [O00557](https://jastrow.app/#rid:O00557) | alt | סִגּ׳ | סִיגוּף |  | yes |
-| [O00558](https://jastrow.app/#rid:O00558) | alt | סִגּ׳ | סִיגּוּף |  |  |
-| [O00564](https://jastrow.app/#rid:O00564) | alt | סִגְ׳ | סִיגְנָא |  | yes |
-| [O00567](https://jastrow.app/#rid:O00567) | alt | סִגְ׳ | סִיגְנוּם |  |  |
-| [O00578](https://jastrow.app/#rid:O00578) | alt | סִדּ׳ | סִידּוּק |  | yes |
-| [O00579](https://jastrow.app/#rid:O00579) | alt | סִדּ׳ | סִידּוּר |  | yes |
-| [O00581](https://jastrow.app/#rid:O00581) | alt | סִדּ׳ | סִידּוּרָא |  | yes |
-| [O00585](https://jastrow.app/#rid:O00585) | alt | סִדְ׳ | סִידְקִית |  | yes |
-| [O00595](https://jastrow.app/#rid:O00595) | alt | סְיוּ׳ | סִיּוּעַ² |  |  |
-| [O00604](https://jastrow.app/#rid:O00604) | alt | סִטּ׳ | סִיטּוּמְתָּא |  | yes |
-| [O00617](https://jastrow.app/#rid:O00617) | alt | סְיָ׳ | סְיָיג² |  |  |
-| [O00629](https://jastrow.app/#rid:O00629) | alt | סַיַּעְ׳ | סַיַּיעְתָּא |  | yes |
-| [O00642](https://jastrow.app/#rid:O00642) | alt | סִכּ׳ | סִיכּוּי |  | yes |
-| [O00643](https://jastrow.app/#rid:O00643) | alt | סִכּ׳ | סִיכּוּיָא |  | yes |
-| [O00644](https://jastrow.app/#rid:O00644) | alt | סִכּ׳ | סִיכּוּךְ |  | yes |
-| [O00645](https://jastrow.app/#rid:O00645) | alt | סִכּ׳ | סִיכּוּלָא |  | yes |
-| [O00646](https://jastrow.app/#rid:O00646) | alt | סִכּ׳ | סִיכּוּן |  | yes |
-| [O00647](https://jastrow.app/#rid:O00647) | alt | סִכּ׳ | סִיכּוּף |  | yes |
-| [O00653](https://jastrow.app/#rid:O00653) | alt | סִכְ׳ | סִיכְרָא |  | yes |
-| [O00654](https://jastrow.app/#rid:O00654) | alt | סִכְ׳ | סִיכְרָא² |  | yes |
-| [O00659](https://jastrow.app/#rid:O00659) | alt | סִלּ׳ | סִילּוֹן |  | yes |
-| [O00662](https://jastrow.app/#rid:O00662) | alt | סִלּ׳ | סִילּוּק |  | yes |
-| [O00666](https://jastrow.app/#rid:O00666) | alt | סִילִקְרָ׳ | סִילִיקְרָאוּת |  | yes |
-| [O00698](https://jastrow.app/#rid:O00698) | alt | סִמּ׳ | סִימּוּק |  |  |
-| [O00699](https://jastrow.app/#rid:O00699) | alt | סִמְ׳ | סִימְטָא |  | yes |
-| [O00700](https://jastrow.app/#rid:O00700) | alt | סִמְ׳ | סִימְטָא² |  | yes |
-| [O00706](https://jastrow.app/#rid:O00706) | alt | סִימִיסרִ׳ | סִימִיסִירִיקִין |  | yes |
-| [O00714](https://jastrow.app/#rid:O00714) | alt | סְמַנְ׳ | סִימַנְטֵיר |  |  |
-| [O00714](https://jastrow.app/#rid:O00714) | alt | סימנטו׳ | סִימַנְטֵיר |  |  |
-| [O00718](https://jastrow.app/#rid:O00718) | alt | סִמְ׳ | סִימְפּוֹן |  | yes |
-| [O00719](https://jastrow.app/#rid:O00719) | alt | סִמְ׳ | סִימְפּוֹנָא |  | yes |
-| [O00720](https://jastrow.app/#rid:O00720) | alt | סִמְ׳ | סִימְפּוֹנְיָא |  |  |
-| [O00735](https://jastrow.app/#rid:O00735) | alt | סוּנְ׳ | סִינְטוֹמוֹס |  | yes |
-| [O00741](https://jastrow.app/#rid:O00741) | alt | סינקליטק׳ | סִינְקִלִיטוֹס |  |  |
-| [O00743](https://jastrow.app/#rid:O00743) | alt | סִנָּ׳ | סִינָּרָא |  | yes |
-| [O00763](https://jastrow.app/#rid:O00763) | alt | סוּסְ׳ | סִיסְרָטַאי |  |  |
-| [O00782](https://jastrow.app/#rid:O00782) | alt | סִפְ׳ | סִיפְדָּא |  | yes |
-| [O00783](https://jastrow.app/#rid:O00783) | alt | סִפּ׳ | סִיפּוּג |  | yes |
-| [O00788](https://jastrow.app/#rid:O00788) | alt | סִפּ׳ | סִיפּוּק |  | yes |
-| [O00789](https://jastrow.app/#rid:O00789) | alt | סִפּ׳ | סִיפּוּק² |  | yes |
-| [O00790](https://jastrow.app/#rid:O00790) | alt | סִפּ׳ | סִיפּוּק³ |  |  |
-| [O00791](https://jastrow.app/#rid:O00791) | alt | סִפּ׳ | סִיפּוּר |  | yes |
-| [O00794](https://jastrow.app/#rid:O00794) | alt | סִפְ׳ | סִיפְטָא |  | yes |
-| [O00806](https://jastrow.app/#rid:O00806) | alt | סִפְ׳ | סִיפְתָא |  | yes |
-| [O00806](https://jastrow.app/#rid:O00806) | alt | שִׂ׳ | סִיפְתָא |  | yes |
-| [O00810](https://jastrow.app/#rid:O00810) | alt | סִקֹ׳ | סִיקוֹסִים |  |  |
-| [O00811](https://jastrow.app/#rid:O00811) | alt | סִקֹ׳ | סִיקוֹסִים² |  |  |
-| [O00814](https://jastrow.app/#rid:O00814) | alt | סִיקִי׳ | *סִיקוּרָה |  | yes |
-| [O00821](https://jastrow.app/#rid:O00821) | alt | סִקְ׳ | סִיקְרָא II |  | yes |
-| [O00822](https://jastrow.app/#rid:O00822) | alt | סִקְ׳ | סִיקְרָא III |  | yes |
-| [O00825](https://jastrow.app/#rid:O00825) | alt | סִקָ׳ | סִיקָרִיקוֹן |  | yes |
-| [O00831](https://jastrow.app/#rid:O00831) | alt | סִרְ׳ | סִירְגּוּל |  | yes |
-| [O00835](https://jastrow.app/#rid:O00835) | alt | סֵר׳ | סֵירוּב |  | yes |
-| [O00836](https://jastrow.app/#rid:O00836) | alt | סֵר׳ | סֵירוּג |  | yes |
-| [O00837](https://jastrow.app/#rid:O00837) | alt | סֵר׳ | סֵירוּחַ |  | yes |
-| [O00841](https://jastrow.app/#rid:O00841) | alt | סֵר׳ | סֵירוּס |  | yes |
-| [O00843](https://jastrow.app/#rid:O00843) | alt | סִרְ׳ | סִירְחָא II |  | yes |
-| [O00844](https://jastrow.app/#rid:O00844) | alt | סֵרָ׳ | סֵירָחוֹן |  | yes |
-| [O00864](https://jastrow.app/#rid:O00864) | alt | סִיתְוָ׳ | סִיתְוָא |  |  |
-| [O00866](https://jastrow.app/#rid:O00866) | alt | סִתּ׳ | סִיתּוּת |  | yes |
-| [O00876](https://jastrow.app/#rid:O00876) | alt | סַכְוָו׳ | סַכְוָאָה |  | yes |
-| [O00890](https://jastrow.app/#rid:O00890) | alt | סְ׳ | סָכוּתָא |  | yes |
-| [O00891](https://jastrow.app/#rid:O00891) | alt | סְ׳ | סָכוּתָא² |  | yes |
-| [O00913](https://jastrow.app/#rid:O00913) | alt | סוּכְ׳ | סִכְלָא |  | yes |
-| [O00913](https://jastrow.app/#rid:O00913) | alt | שִׂ׳ | סִכְלָא |  | yes |
-| [O00913](https://jastrow.app/#rid:O00913) | alt | שׂוּ׳ | סִכְלָא |  | yes |
-| [O00916](https://jastrow.app/#rid:O00916) | alt | סָכְלְ׳ | סְכַלְתָּא |  |  |
-| [O00925](https://jastrow.app/#rid:O00925) | alt | סִי׳ | סִכְנָא |  | yes |
-| [O00929](https://jastrow.app/#rid:O00929) | alt | סִי׳ | סִכְנִין |  |  |
-| [O00945](https://jastrow.app/#rid:O00945) | alt | סִי׳ | סִכְּתָא |  | yes |
-| [O00946](https://jastrow.app/#rid:O00946) | alt | סִיכְ׳ | סִכְתָא |  | yes |
-| [O00960](https://jastrow.app/#rid:O00960) | alt | סִי׳ | סִלְוָא |  |  |
-| [O00989](https://jastrow.app/#rid:O00989) | alt | סְלוּ׳ | סְלִילָה |  | yes |
-| [O01010](https://jastrow.app/#rid:O01010) | alt | סִילְ׳ | סִלְסוּל |  | yes |
-| [O01016](https://jastrow.app/#rid:O01016) | alt | סִי׳ | סִלְעָא |  | yes |
-| [O01028](https://jastrow.app/#rid:O01028) | alt | סִי׳ | סִלְקָא |  | yes |
-| [O01029](https://jastrow.app/#rid:O01029) | alt | סִי׳ | סִלְקָא² |  | yes |
-| [O01045](https://jastrow.app/#rid:O01045) | alt | סוּלְ׳ | סֹלַת |  |  |
-| [O01073](https://jastrow.app/#rid:O01073) | alt | סִמּוֹ׳ | סְמוֹקְרִי |  | yes |
-| [O01084](https://jastrow.app/#rid:O01084) | alt | סִי׳ | סִמְיוֹן |  | yes |
-| [O01085](https://jastrow.app/#rid:O01085) | alt | סִי׳ | *סִמְיוֹנָא |  | yes |
-| [O01105](https://jastrow.app/#rid:O01105) | alt | סִי׳ | סִמְלוֹן |  | yes |
-| [O01108](https://jastrow.app/#rid:O01108) | alt | סִי׳ | סִמְלָק |  | yes |
-| [O01124](https://jastrow.app/#rid:O01124) | alt | סִמְפֹּנְ׳ | סִמְפּוֹן |  |  |
-| [O01126](https://jastrow.app/#rid:O01126) | alt | סִימְ׳ | סִמְפּוֹרִין |  | yes |
-| [O01128](https://jastrow.app/#rid:O01128) | alt | סַנְפִּי׳ | סַמְפִּירִינוֹן |  | yes |
-| [O01128](https://jastrow.app/#rid:O01128) | alt | סַמְפִּרִ׳ | סַמְפִּירִינוֹן |  | yes |
-| [O01128](https://jastrow.app/#rid:O01128) | alt | סַנְפִּרִ׳ | סַמְפִּירִינוֹן |  | yes |
-| [O01132](https://jastrow.app/#rid:O01132) | alt | סַ׳ | סָמְקָן |  | yes |
-| [O01168](https://jastrow.app/#rid:O01168) | alt | צִנַּ׳ | סִנַּבְרַאי |  |  |
-| [O01168](https://jastrow.app/#rid:O01168) | alt | צִינַּ׳ | סִנַּבְרַאי |  |  |
-| [O01199](https://jastrow.app/#rid:O01199) | alt | שְׂ׳ | סְנוּאֲתָא |  | yes |
-| [O01205](https://jastrow.app/#rid:O01205) | alt | סִי׳ | סִנּוּק |  | yes |
-| [O01206](https://jastrow.app/#rid:O01206) | alt | סִינּ׳ | סִנּוֹקֶרֶת |  | yes |
-| [O01218](https://jastrow.app/#rid:O01218) | alt | סַנְטֵי׳ | סַנְטֵרָא |  | yes |
-| [O01218](https://jastrow.app/#rid:O01218) | alt | סַנְטוֹ׳ | סַנְטֵרָא |  | yes |
-| [O01263](https://jastrow.app/#rid:O01263) | alt | סִינְ׳ | סִנְקְלִיטוֹס |  | yes |
-| [O01263](https://jastrow.app/#rid:O01263) | alt | סוּנְ׳ | סִנְקְלִיטוֹס |  | yes |
-| [O01265](https://jastrow.app/#rid:O01265) | alt | סִינְ׳ | סִנְקְלִרטִיקוֹס |  | yes |
-| [O01266](https://jastrow.app/#rid:O01266) | alt | סִינ׳ | סִנְקַתִּדְרוֹן |  | yes |
-| [O01266](https://jastrow.app/#rid:O01266) | alt | סוּנְ׳ | סִנְקַתִּדְרוֹן |  | yes |
-| [O01267](https://jastrow.app/#rid:O01267) | alt | סִינְ׳ | סִנְקַתִּדְרוֹס |  | yes |
-| [O01267](https://jastrow.app/#rid:O01267) | alt | סוּנְ׳ | סִנְקַתִּדְרוֹס |  | yes |
-| [O01272](https://jastrow.app/#rid:O01272) | alt | סַסְגְּוָו׳ | סַסְגּוֹנָא |  | yes |
-| [O01310](https://jastrow.app/#rid:O01310) | alt | סֵי׳ | סִפָּא |  |  |
-| [O01326](https://jastrow.app/#rid:O01326) | alt | סִפְּ׳ | סִפְוָוא |  | yes |
-| [O01368](https://jastrow.app/#rid:O01368) | alt | סְפִקוּלָ׳ | סְפִיקוּלָא I |  |  |
-| [O01382](https://jastrow.app/#rid:O01382) | alt | סִיפְ׳ | סִפְלָא |  | yes |
-| [O01398](https://jastrow.app/#rid:O01398) | alt | סִיפְ׳ | סַפְסְלָא |  |  |
-| [O01399](https://jastrow.app/#rid:O01399) | alt | סִיפְ׳ | סִפְסֵף |  | yes |
-| [O01408](https://jastrow.app/#rid:O01408) | alt | סְפֵי׳ | סְפֵקָא |  | yes |
-| [O01426](https://jastrow.app/#rid:O01426) | alt | סִי׳ | סִפְרָא |  | yes |
-| [O01481](https://jastrow.app/#rid:O01481) | alt | שְׁקִי׳ | סְקִיפַס |  | yes |
-| [O01605](https://jastrow.app/#rid:O01605) | alt | סְרִגְ׳ | סְרִיגְתָּא |  | yes |
-| [O01610](https://jastrow.app/#rid:O01610) | alt | סֵי׳ | סֵרָיוּת |  | yes |
-| [O01613](https://jastrow.app/#rid:O01613) | alt | סִירְ׳ | סִרְיָינָא |  |  |
-| [O01637](https://jastrow.app/#rid:O01637) | alt | סִירְ׳ | סִרְכָא |  | yes |
-| [O01650](https://jastrow.app/#rid:O01650) | alt | סִירְ׳ | סִרְסוּר |  | yes |
-| [O01651](https://jastrow.app/#rid:O01651) | alt | סִירְ׳ | סִרְסוּר² |  |  |
-| [O01675](https://jastrow.app/#rid:O01675) | alt | סִירְ׳ | סַרְקָיָא |  |  |
-| [O01684](https://jastrow.app/#rid:O01684) | alt | סִי׳ | סִתְוָא |  |  |
-| [O01685](https://jastrow.app/#rid:O01685) | alt | סִתְוָנִ׳ | סִתְוָונִית |  | yes |
-| [O01685](https://jastrow.app/#rid:O01685) | alt | סִיתְ׳ | סִתְוָונִית |  | yes |
-| [O01716](https://jastrow.app/#rid:O01716) | alt | סִי׳ | סִתְרָא |  |  |
-| [P00054](https://jastrow.app/#rid:P00054) | alt | עֲבֵרְ׳ | עֲבֵירְתָּא |  | yes |
-| [P00063](https://jastrow.app/#rid:P00063) | alt | עָ׳ | עֵבַר |  |  |
-| [P00072](https://jastrow.app/#rid:P00072) | alt | עִי׳ | עִבְרַי |  |  |
-| [P00101](https://jastrow.app/#rid:P00101) | alt | עֵגְ׳ | עֶגְלְתָא |  |  |
-| [P00101](https://jastrow.app/#rid:P00101) | alt | עִיגְ׳ | עֶגְלְתָא |  |  |
-| [P00121](https://jastrow.app/#rid:P00121) | alt | עִ׳ | עַדְבָא |  |  |
-| [P00121](https://jastrow.app/#rid:P00121) | alt | עִי׳ | עַדְבָא |  |  |
-| [P00125](https://jastrow.app/#rid:P00125) | alt | עִדְ׳ | עַדְוָא |  |  |
-| [P00167](https://jastrow.app/#rid:P00167) | alt | עֶ׳ | עַדְרָא |  | yes |
-| [P00179](https://jastrow.app/#rid:P00179) | alt | עוּבְיָי׳ | עוּבְיָא |  |  |
-| [P00219](https://jastrow.app/#rid:P00219) | alt | עֻזָּ׳ | עוּזָּא II |  |  |
-| [P00221](https://jastrow.app/#rid:P00221) | alt | עֻזִּ׳ | עוּזִּיאֵל |  | yes |
-| [P00222](https://jastrow.app/#rid:P00222) | alt | עֻזִּ׳ | עוּזִּיָּה |  |  |
-| [P00228](https://jastrow.app/#rid:P00228) | alt | עֲוָו׳ | עֲוָיָא |  |  |
-| [P00229](https://jastrow.app/#rid:P00229) | alt | עִוְו׳ | עִוְיָא |  |  |
-| [P00233](https://jastrow.app/#rid:P00233) | alt | עֲוִו׳ | עֲוִיר |  |  |
-| [P00233](https://jastrow.app/#rid:P00233) | alt | עַוִּ׳ | עֲוִיר |  |  |
-| [P00245](https://jastrow.app/#rid:P00245) | alt | עַוְו׳ | עַוְלָא |  | yes |
-| [P00246](https://jastrow.app/#rid:P00246) | alt | עַוָּו׳ | עַוָּלָא |  | yes |
-| [P00257](https://jastrow.app/#rid:P00257) | alt | עוּלֵמ׳ | עוּלֵימוּ |  |  |
-| [P00259](https://jastrow.app/#rid:P00259) | alt | עוּלֵמ׳ | עוּלֵימִית |  |  |
-| [P00273](https://jastrow.app/#rid:P00273) | alt | עַוְו׳ | עַוְלְתָא |  | yes |
-| [P00285](https://jastrow.app/#rid:P00285) | alt | עוֹ׳ | עוּמְקָא II |  | yes |
-| [P00308](https://jastrow.app/#rid:P00308) | alt | עוֹ׳ | עוּנְתָא |  | yes |
-| [P00335](https://jastrow.app/#rid:P00335) | alt | עַקְ׳ | עוֹקְמָן |  | yes |
-| [P00337](https://jastrow.app/#rid:P00337) | alt | עַקְ׳ | עוּקְמָנוּתָא |  | yes |
-| [P00357](https://jastrow.app/#rid:P00357) | alt | עָרְ׳ | עוּרְלָא |  |  |
-| [P00367](https://jastrow.app/#rid:P00367) | alt | עוֹ׳ | עוּשְׁנָא |  | yes |
-| [P00371](https://jastrow.app/#rid:P00371) | alt | עוֹ׳ | עוּשְׁקָא |  | yes |
-| [P00378](https://jastrow.app/#rid:P00378) | alt | עַוְו׳ | עַוְתָא |  | yes |
-| [P00379](https://jastrow.app/#rid:P00379) | alt | עַוְו׳ | עַוְתָא² |  | yes |
-| [P00381](https://jastrow.app/#rid:P00381) | alt | עַוְו׳ | עַוְתָנַאי |  |  |
-| [P00384](https://jastrow.app/#rid:P00384) | alt | עָתְ׳ | עוֹתַר |  |  |
-| [P00395](https://jastrow.app/#rid:P00395) | alt | עַ׳ | עִזְגַּד |  | yes |
-| [P00406](https://jastrow.app/#rid:P00406) | alt | עַזְ׳ | עֻזְיָא |  |  |
-| [P00416](https://jastrow.app/#rid:P00416) | alt | עִי׳ | עִזְלָא |  | yes |
-| [P00420](https://jastrow.app/#rid:P00420) | alt | עִי׳ | עִזְקָא |  | yes |
-| [P00421](https://jastrow.app/#rid:P00421) | alt | עִי׳ | עִזְקָא² |  |  |
-| [P00421](https://jastrow.app/#rid:P00421) | alt | עִיזְ׳ | עִזְקָא² |  |  |
-| [P00464](https://jastrow.app/#rid:P00464) | alt | עֲטַלֵּי׳ | עֲטַלֵּפָא |  | yes |
-| [P00465](https://jastrow.app/#rid:P00465) | alt | עִיטְ׳ | עֲטַם |  |  |
-| [P00482](https://jastrow.app/#rid:P00482) | alt | עִי׳ | עִטְרָן |  | yes |
-| [P00483](https://jastrow.app/#rid:P00483) | alt | עִי׳ | עִטְרָנָא |  | yes |
-| [P00491](https://jastrow.app/#rid:P00491) | alt | עִבּ׳ | עִיבּוּר |  | yes |
-| [P00492](https://jastrow.app/#rid:P00492) | alt | עִבּ׳ | עִיבּוּר² |  |  |
-| [P00493](https://jastrow.app/#rid:P00493) | alt | עֲבִי׳ | עִיבִידָא |  |  |
-| [P00496](https://jastrow.app/#rid:P00496) | alt | עֶבְ׳ | עֵיבַר II |  |  |
-| [P00497](https://jastrow.app/#rid:P00497) | alt | עִגּ׳ | עִיגּוּל |  | yes |
-| [P00498](https://jastrow.app/#rid:P00498) | alt | עִגּ׳ | עִיגּוּל² |  |  |
-| [P00499](https://jastrow.app/#rid:P00499) | alt | עִגּ׳ | עִיגּוּן |  | yes |
-| [P00501](https://jastrow.app/#rid:P00501) | alt | עִג׳ | עֵיגַל |  |  |
-| [P00501](https://jastrow.app/#rid:P00501) | alt | עֶגְ׳ | עֵיגַל |  |  |
-| [P00506](https://jastrow.app/#rid:P00506) | alt | עִדּ׳ | עִידּוּי |  | yes |
-| [P00507](https://jastrow.app/#rid:P00507) | alt | עִדּ׳ | עִידּוּי² |  |  |
-| [P00509](https://jastrow.app/#rid:P00509) | alt | עִדּ׳ | עִידּוֹן |  | yes |
-| [P00515](https://jastrow.app/#rid:P00515) | alt | עִדָּ׳ | עִידָּן² |  |  |
-| [P00529](https://jastrow.app/#rid:P00529) | alt | עֵטְ׳ | עֵיטָא |  |  |
-| [P00533](https://jastrow.app/#rid:P00533) | alt | עִפּ׳ | עִיטּוּר |  | yes |
-| [P00538](https://jastrow.app/#rid:P00538) | alt | עִטְ׳ | עִיטְפָא |  | yes |
-| [P00560](https://jastrow.app/#rid:P00560) | alt | עִכּ׳ | עִיכּוּב |  | yes |
-| [P00561](https://jastrow.app/#rid:P00561) | alt | עִכּ׳ | עִיכּוּבָא |  | yes |
-| [P00562](https://jastrow.app/#rid:P00562) | alt | עִכּ׳ | עִיכּוֹל |  | yes |
-| [P00565](https://jastrow.app/#rid:P00565) | alt | עִי׳ | עֵיל |  |  |
-| [P00569](https://jastrow.app/#rid:P00569) | alt | עִל׳ | עִילָאָה |  |  |
-| [P00572](https://jastrow.app/#rid:P00572) | alt | עֲלַ׳ | עִילָוֵי |  |  |
-| [P00573](https://jastrow.app/#rid:P00573) | alt | עִלּ׳ | עִילּוּי |  | yes |
-| [P00574](https://jastrow.app/#rid:P00574) | alt | עִלּ׳ | עִילּוּיָא |  | yes |
-| [P00582](https://jastrow.app/#rid:P00582) | alt | עֲלִי׳ | עִילִיתָא II |  |  |
-| [P00592](https://jastrow.app/#rid:P00592) | alt | עִמּ׳ | עִימּוּר |  | yes |
-| [P00593](https://jastrow.app/#rid:P00593) | alt | עִמּ׳ | עִימּוּר² |  | yes |
-| [P00596](https://jastrow.app/#rid:P00596) | alt | עִמְ׳ | עִימְעוּם² |  | yes |
-| [P00604](https://jastrow.app/#rid:P00604) | alt | עֵנְ׳ | עֵינְבּוּל |  | yes |
-| [P00605](https://jastrow.app/#rid:P00605) | alt | עִנְ׳ | עִינְבּוֹל |  |  |
-| [P00608](https://jastrow.app/#rid:P00608) | alt | עִנּ׳ | עִינּוּג |  | yes |
-| [P00611](https://jastrow.app/#rid:P00611) | alt | עִנּ׳ | עִינּוּי |  | yes |
-| [P00612](https://jastrow.app/#rid:P00612) | alt | עִנּ׳ | עִינּוּי² |  | yes |
-| [P00613](https://jastrow.app/#rid:P00613) | alt | עִנּ׳ | עִינּוּיָא |  | yes |
-| [P00614](https://jastrow.app/#rid:P00614) | alt | עִנּ׳ | עִינּוּיָא² |  | yes |
-| [P00618](https://jastrow.app/#rid:P00618) | alt | עַיְי׳ | עַיְנוּתָא |  | yes |
-| [P00623](https://jastrow.app/#rid:P00623) | alt | עִינְיָ׳ | עִינְיָין |  |  |
-| [P00630](https://jastrow.app/#rid:P00630) | alt | עִסּ׳ | עִיסּוּק |  | yes |
-| [P00631](https://jastrow.app/#rid:P00631) | alt | עִיסֻּרְ׳ | עִיסּוּרְיָתָא |  | yes |
-| [P00631](https://jastrow.app/#rid:P00631) | alt | עִישּׂוֹרְ׳ | עִיסּוּרְיָתָא |  | yes |
-| [P00640](https://jastrow.app/#rid:P00640) | alt | עִפּ׳ | עִיפּוּי |  | yes |
-| [P00645](https://jastrow.app/#rid:P00645) | alt | עִצּ׳ | עִיצּוּם |  | yes |
-| [P00647](https://jastrow.app/#rid:P00647) | alt | עִצּ׳ | עִיצּוּר² |  |  |
-| [P00652](https://jastrow.app/#rid:P00652) | alt | עָיְי׳ | עָיְקָא |  | yes |
-| [P00653](https://jastrow.app/#rid:P00653) | alt | עָיְי׳ | עָיְקָא² |  | yes |
-| [P00657](https://jastrow.app/#rid:P00657) | alt | עִקּ׳ | עִיקּוּלָא |  | yes |
-| [P00658](https://jastrow.app/#rid:P00658) | alt | עִקּ׳ | עִיקּוּם |  | yes |
-| [P00659](https://jastrow.app/#rid:P00659) | alt | עִקּ׳ | עִיקּוּמָא |  | yes |
-| [P00660](https://jastrow.app/#rid:P00660) | alt | עִקּ׳ | עִיקּוּר |  | yes |
-| [P00667](https://jastrow.app/#rid:P00667) | alt | עִקָּ׳ | עִיקָּר² |  |  |
-| [P00680](https://jastrow.app/#rid:P00680) | alt | עֵר׳ | עֵירוּב |  | yes |
-| [P00681](https://jastrow.app/#rid:P00681) | alt | עֵר׳ | עֵירוּבָא |  | yes |
-| [P00682](https://jastrow.app/#rid:P00682) | alt | עֵר׳ | עֵירוּבָא² |  | yes |
-| [P00692](https://jastrow.app/#rid:P00692) | alt | עִירְיְי׳ | עִירִיתָא |  |  |
-| [P00692](https://jastrow.app/#rid:P00692) | alt | עֶרְ׳ | עִירִיתָא |  |  |
-| [P00698](https://jastrow.app/#rid:P00698) | alt | עוּ׳ | עִירְרָה |  | yes |
-| [P00701](https://jastrow.app/#rid:P00701) | alt | עִשּׁ׳ | עִישּׁוּנָא |  | yes |
-| [P00778](https://jastrow.app/#rid:P00778) | alt | עֲלָ׳ | עָלָוָון |  | yes |
-| [P00784](https://jastrow.app/#rid:P00784) | alt | עֲלָ׳ | עָלָוָן |  | yes |
-| [P00793](https://jastrow.app/#rid:P00793) | alt | עֲלוּ׳ | עֲלִיבָא |  | yes |
-| [P00814](https://jastrow.app/#rid:P00814) | alt | עֲלִי׳ | עִלִיתָא |  | yes |
-| [P00817](https://jastrow.app/#rid:P00817) | alt | עָ׳ | עֲלַל II |  |  |
-| [P00823](https://jastrow.app/#rid:P00823) | alt | עַלְ׳ | עָלַם III |  |  |
-| [P00830](https://jastrow.app/#rid:P00830) | alt | עִי׳ | עֲלַע |  |  |
-| [P00831](https://jastrow.app/#rid:P00831) | alt | עִי׳ | עִלְעוֹל |  | yes |
-| [P00835](https://jastrow.app/#rid:P00835) | alt | עִילְ׳ | עלְעִל |  | yes |
-| [P00837](https://jastrow.app/#rid:P00837) | alt | עֵו׳ | עִלְעֵל |  | yes |
-| [P00846](https://jastrow.app/#rid:P00846) | alt | עְ׳ | עָלָתָא |  | yes |
-| [P00858](https://jastrow.app/#rid:P00858) | alt | עוֹ׳ | עֹמֶד |  | yes |
-| [P00893](https://jastrow.app/#rid:P00893) | alt | עֲ׳ | עָמִירָא |  | yes |
-| [P00911](https://jastrow.app/#rid:P00911) | alt | עִי׳ | עִמְסוֹנִי |  | yes |
-| [P00922](https://jastrow.app/#rid:P00922) | alt | עַמְ׳ | עָמְקָא |  | yes |
-| [P00924](https://jastrow.app/#rid:P00924) | alt | עִימְ׳ | עִמְקוּתָא |  | yes |
-| [P00943](https://jastrow.app/#rid:P00943) | alt | עִי׳ | עִנְּבָא |  | yes |
-| [P00947](https://jastrow.app/#rid:P00947) | alt | עִי׳ | עֵנַבְתָּא |  | yes |
-| [P00962](https://jastrow.app/#rid:P00962) | alt | עִינְוָ׳ | עֶנְוָן |  |  |
-| [P00965](https://jastrow.app/#rid:P00965) | alt | עִנְוְו׳ | עִנְוְתָן |  | yes |
-| [P00965](https://jastrow.app/#rid:P00965) | alt | עִינְ׳ | עִנְוְתָן |  | yes |
-| [P00966](https://jastrow.app/#rid:P00966) | alt | עִנְיְו׳ | עִנְוְתָן² |  |  |
-| [P00966](https://jastrow.app/#rid:P00966) | alt | עִינְ׳ | עִנְוְתָן² |  |  |
-| [P00967](https://jastrow.app/#rid:P00967) | alt | עִנְוְו׳ | עִנְוְתָנוּת |  | yes |
-| [P00967](https://jastrow.app/#rid:P00967) | alt | עִינְ׳ | עִנְוְתָנוּת |  | yes |
-| [P00968](https://jastrow.app/#rid:P00968) | alt | עִנְוְו׳ | עִנְוְתָנוּתָא |  | yes |
-| [P00968](https://jastrow.app/#rid:P00968) | alt | עִינְ׳ | עִנְוְתָנוּתָא |  | yes |
-| [P00992](https://jastrow.app/#rid:P00992) | alt | עִי׳ | עִנְיָן |  |  |
-| [P00993](https://jastrow.app/#rid:P00993) | alt | עִנְיָי׳ | עִנְיָנָא |  | yes |
-| [P00993](https://jastrow.app/#rid:P00993) | alt | עִי׳ | עִנְיָנָא |  | yes |
-| [P00996](https://jastrow.app/#rid:P00996) | alt | עַנִי׳ | עַנִּיתָא |  | yes |
-| [P01011](https://jastrow.app/#rid:P01011) | alt | עִי׳ | עִנְקָא |  | yes |
-| [P01011](https://jastrow.app/#rid:P01011) | alt | עוּ׳ | עִנְקָא |  | yes |
-| [P01021](https://jastrow.app/#rid:P01021) | alt | עוּ׳ | עַנְתָא |  | yes |
-| [P01021](https://jastrow.app/#rid:P01021) | alt | עִי׳ | עַנְתָא |  | yes |
-| [P01026](https://jastrow.app/#rid:P01026) | alt | עֵנְתּוֹנְדְּ׳ | עֵנְתּוֹדְרָיָא |  | yes |
-| [P01034](https://jastrow.app/#rid:P01034) | alt | עִי׳ | עִסְבָּא |  | yes |
-| [P01056](https://jastrow.app/#rid:P01056) | alt | עִי׳ | עִסְקָא |  | yes |
-| [P01083](https://jastrow.app/#rid:P01083) | alt | חֲ׳ | עֲפָרַיִים |  | yes |
-| [P01089](https://jastrow.app/#rid:P01089) | alt | עֵי׳ | עֵצָא |  |  |
-| [P01148](https://jastrow.app/#rid:P01148) | alt | עִי׳ | עִקְבָא |  | yes |
-| [P01150](https://jastrow.app/#rid:P01150) | alt | עֲקֵי׳ | עֲקֵבָא |  | yes |
-| [P01175](https://jastrow.app/#rid:P01175) | alt | עֲקֵדְ׳ | עֲקֵידְתָּא |  |  |
-| [P01193](https://jastrow.app/#rid:P01193) | alt | עִי׳ | עִקְלָא |  | yes |
-| [P01255](https://jastrow.app/#rid:P01255) | alt | עָרְ׳ | עַרְבָא I |  | yes |
-| [P01255](https://jastrow.app/#rid:P01255) | alt | עֶרְ׳ | עַרְבָא I |  | yes |
-| [P01255](https://jastrow.app/#rid:P01255) | alt | עִרְ׳ | עַרְבָא I |  | yes |
-| [P01255](https://jastrow.app/#rid:P01255) | alt | עִי׳ | עַרְבָא I |  | yes |
-| [P01260](https://jastrow.app/#rid:P01260) | alt | עִי׳ | עִרְבֵּב |  | yes |
-| [P01267](https://jastrow.app/#rid:P01267) | alt | עִי׳ | עִרְבּוּב |  | yes |
-| [P01268](https://jastrow.app/#rid:P01268) | alt | עִי׳ | עִרְבּוּב² |  |  |
-| [P01269](https://jastrow.app/#rid:P01269) | alt | עִרְ׳ | עַרְבּוּבְיָא |  | yes |
-| [P01269](https://jastrow.app/#rid:P01269) | alt | עִירְ׳ | עַרְבּוּבְיָא |  | yes |
-| [P01270](https://jastrow.app/#rid:P01270) | alt | עִי׳ | עִרְבּוּבִיתָא |  | yes |
-| [P01272](https://jastrow.app/#rid:P01272) | alt | עֵי׳ | עֵרָבוֹן |  | yes |
-| [P01273](https://jastrow.app/#rid:P01273) | alt | עֵי׳ | עֵרָבוֹן II² |  | yes |
-| [P01336](https://jastrow.app/#rid:P01336) | alt | עַרְטִלּ׳ | עַרְטִיל |  |  |
-| [P01336](https://jastrow.app/#rid:P01336) | alt | עַרְטוּ׳ | עַרְטִיל |  |  |
-| [P01337](https://jastrow.app/#rid:P01337) | alt | עַרְטַלְיוּ׳ | עַרְטִילָּיוּתָא |  | yes |
-| [P01355](https://jastrow.app/#rid:P01355) | alt | עֵי׳ | עֵרָיִין |  |  |
-| [P01356](https://jastrow.app/#rid:P01356) | alt | עָ׳ | עֲרִיךְ |  |  |
-| [P01417](https://jastrow.app/#rid:P01417) | alt | עִירְ׳ | עִרְעֵר |  | yes |
-| [P01465](https://jastrow.app/#rid:P01465) | alt | עִי׳ | עֲשַׂב |  |  |
-| [P01478](https://jastrow.app/#rid:P01478) | alt | עֲשִׁי׳ | עַשִּׁין |  |  |
-| [P01480](https://jastrow.app/#rid:P01480) | alt | עֲ׳ | *עָשִׁיק |  | yes |
-| [P01481](https://jastrow.app/#rid:P01481) | alt | עֲ׳ | עָשִׁיק |  | yes |
-| [P01484](https://jastrow.app/#rid:P01484) | alt | עֲסִ׳ | עֲשִׂירָאָה |  | yes |
-| [P01492](https://jastrow.app/#rid:P01492) | alt | עוֹשְׁ׳ | עָשְׁנָא |  | yes |
-| [P01492](https://jastrow.app/#rid:P01492) | alt | עוּשְׁ׳ | עָשְׁנָא |  | yes |
-| [P01508](https://jastrow.app/#rid:P01508) | alt | עִסְ׳ | עִשְׂרוֹנָא |  | yes |
-| [P01508](https://jastrow.app/#rid:P01508) | alt | עֶ׳ | עִשְׂרוֹנָא |  | yes |
-| [P01519](https://jastrow.app/#rid:P01519) | alt | עִישְׁ׳ | עֶשְׁתּוֹנָא |  | yes |
-| [P01549](https://jastrow.app/#rid:P01549) | alt | עָ׳ | עַתְרָא II |  |  |
-| [Q00006](https://jastrow.app/#rid:Q00006) | alt | פֵּי׳ | פֵּאָה |  | yes |
-| [Q00044](https://jastrow.app/#rid:Q00044) | alt | פָּנ׳ | פָּגוּטְיָה |  | yes |
-| [Q00055](https://jastrow.app/#rid:Q00055) | alt | פִּיגְ׳ | פִּגְיוֹן |  | yes |
-| [Q00061](https://jastrow.app/#rid:Q00061) | alt | פִּי׳ | פְּגִימִין |  |  |
-| [Q00095](https://jastrow.app/#rid:Q00095) | alt | פַּ׳ | פְּגַר III |  |  |
-| [Q00107](https://jastrow.app/#rid:Q00107) | alt | פִּידָ׳ | פְּדָגוֹג |  | yes |
-| [Q00108](https://jastrow.app/#rid:Q00108) | alt | פַּדְגּוּ׳ | פְּדָגוֹגָא |  | yes |
-| [Q00132](https://jastrow.app/#rid:Q00132) | alt | פִּי׳ | פְּדַע II |  |  |
-| [Q00135](https://jastrow.app/#rid:Q00135) | alt | פִּי׳ | פִּדְרָא |  | yes |
-| [Q00172](https://jastrow.app/#rid:Q00172) | alt | פַּזְ׳ | פּוּזְמְקֵי |  | yes |
-| [Q00231](https://jastrow.app/#rid:Q00231) | alt | פּוֹלְמַ׳ | פּוֹלִימַרְכוֹס |  | yes |
-| [Q00303](https://jastrow.app/#rid:Q00303) | alt | פֹּעֲ׳ | פּוֹעַל II |  |  |
-| [Q00347](https://jastrow.app/#rid:Q00347) | alt | פִּרְ׳ | פּוּרְיוֹמָא |  | yes |
-| [Q00380](https://jastrow.app/#rid:Q00380) | alt | פּוּרְפִּי׳ | פּוּרְפּוּרָא |  |  |
-| [Q00381](https://jastrow.app/#rid:Q00381) | alt | פורפי׳ | פורפורון |  | yes |
-| [Q00382](https://jastrow.app/#rid:Q00382) | alt | פּוּרְפִּי׳ | פּוּרְפּוּרְיָא |  |  |
-| [Q00383](https://jastrow.app/#rid:Q00383) | alt | פּוּרְפִּי׳ | פּוּרְפּוּרְיוֹן |  |  |
-| [Q00391](https://jastrow.app/#rid:Q00391) | alt | פֻּרְ׳ | פּוּרְקָן |  |  |
-| [Q00431](https://jastrow.app/#rid:Q00431) | alt | פִּיזְ׳ | פִּזְמָא |  | yes |
-| [Q00433](https://jastrow.app/#rid:Q00433) | alt | פיז׳ | פזמריקון |  | yes |
-| [Q00437](https://jastrow.app/#rid:Q00437) | alt | פִּי׳ | פִּזְרָא |  | yes |
-| [Q00441](https://jastrow.app/#rid:Q00441) | alt | פּוּ׳ | פָּחָא |  |  |
-| [Q00450](https://jastrow.app/#rid:Q00450) | alt | פַּחֲדִ׳ | פַּחְדִּין |  | yes |
-| [Q00451](https://jastrow.app/#rid:Q00451) | alt | פֶּי׳ | פֶּחָה |  | yes |
-| [Q00529](https://jastrow.app/#rid:Q00529) | alt | פַּטִּ׳ | פְּטִישׁ |  |  |
-| [Q00532](https://jastrow.app/#rid:Q00532) | alt | פְּטִילְ׳ | פְּטַלְיָא |  |  |
-| [Q00541](https://jastrow.app/#rid:Q00541) | alt | פִּיטְ׳ | פִּטְפּוּט |  | yes |
-| [Q00542](https://jastrow.app/#rid:Q00542) | alt | פִּיטְ׳ | פִּטְפֵּט |  | yes |
-| [Q00578](https://jastrow.app/#rid:Q00578) | alt | פִּגּ׳ | פִּיגּוּל² |  |  |
-| [Q00580](https://jastrow.app/#rid:Q00580) | alt | פִּגּ׳ | פִּיגּוּר |  | yes |
-| [Q00599](https://jastrow.app/#rid:Q00599) | alt | פַּיּיוֹ׳ | פַּיּוֹטוֹת |  | yes |
-| [Q00603](https://jastrow.app/#rid:Q00603) | alt | פִּיּיוּ׳ | פִּיּוּסָא |  | yes |
-| [Q00616](https://jastrow.app/#rid:Q00616) | alt | פִּטּ׳ | פִּיטּוּם |  | yes |
-| [Q00617](https://jastrow.app/#rid:Q00617) | alt | פִּטּ׳ | פִּיטּוּמָא |  | yes |
-| [Q00618](https://jastrow.app/#rid:Q00618) | alt | פִּטּ׳ | פִּיטּוּמָא² |  | yes |
-| [Q00621](https://jastrow.app/#rid:Q00621) | alt | פִּטּ׳ | *פִּיטּוּרָה |  | yes |
-| [Q00622](https://jastrow.app/#rid:Q00622) | alt | פִּטּ׳ | פִּיטּוּרֵי |  |  |
-| [Q00623](https://jastrow.app/#rid:Q00623) | alt | פִּטּ׳ | פִּיטּוּרִין |  | yes |
-| [Q00624](https://jastrow.app/#rid:Q00624) | alt | פִּטְ׳ | פִּיטְטָא |  | yes |
-| [Q00628](https://jastrow.app/#rid:Q00628) | alt | פִּטְ׳ | פִּיטְמָא |  | yes |
-| [Q00629](https://jastrow.app/#rid:Q00629) | alt | פִּטְ׳ | פִּיטְמָא II |  |  |
-| [Q00633](https://jastrow.app/#rid:Q00633) | alt | פִּטְ׳ | פִּיטְקָא |  |  |
-| [Q00636](https://jastrow.app/#rid:Q00636) | alt | פִּטְ׳ | פִּיטְרָא III |  |  |
-| [Q00638](https://jastrow.app/#rid:Q00638) | alt | פִּטְ׳ | פִּיטְרוֹס |  |  |
-| [Q00674](https://jastrow.app/#rid:Q00674) | alt | פִּלּ׳ | פִּילּוּג² |  |  |
-| [Q00675](https://jastrow.app/#rid:Q00675) | alt | פִּילָ׳ | פַּיְלָוָון |  |  |
-| [Q00677](https://jastrow.app/#rid:Q00677) | alt | פּלּ׳ | פִּילּוּל |  | yes |
-| [Q00696](https://jastrow.app/#rid:Q00696) | alt | פִּלְ׳ | פִּילְיָא |  | yes |
-| [Q00712](https://jastrow.app/#rid:Q00712) | alt | פִּלָ׳ | פִּילָקִי |  | yes |
-| [Q00721](https://jastrow.app/#rid:Q00721) | alt | פִּנּ׳ | פִּינּוּי |  | yes |
-| [Q00722](https://jastrow.app/#rid:Q00722) | alt | פִּנּ׳ | פִּינּוּכָא |  | yes |
-| [Q00727](https://jastrow.app/#rid:Q00727) | alt | פִּנּ׳ | פִּינּוּקָא |  | yes |
-| [Q00730](https://jastrow.app/#rid:Q00730) | alt | פִּנְ׳ | פִּינִיתָא |  |  |
-| [Q00735](https://jastrow.app/#rid:Q00735) | alt | פִּנְ׳ | פִּינְקַאי |  | yes |
-| [Q00738](https://jastrow.app/#rid:Q00738) | alt | פִּנַ׳ | פִּינְקֵס² |  |  |
-| [Q00748](https://jastrow.app/#rid:Q00748) | alt | פִּסּ׳ | פִּיסּוּל |  | yes |
-| [Q00751](https://jastrow.app/#rid:Q00751) | alt | פִּסּ׳ | פִּיסּוּק |  | yes |
-| [Q00753](https://jastrow.app/#rid:Q00753) | alt | פִּסְ׳ | פִּיסְטִין |  |  |
-| [Q00760](https://jastrow.app/#rid:Q00760) | alt | פִּסּ׳ | פִּיסִּים |  |  |
-| [Q00761](https://jastrow.app/#rid:Q00761) | alt | פִּסְ׳ | פִּיסְעָא |  | yes |
-| [Q00772](https://jastrow.app/#rid:Q00772) | alt | פִּסְּ׳ | פִּיסְּתָא |  |  |
-| [Q00773](https://jastrow.app/#rid:Q00773) | alt | פִסְ׳ | פִּיסְתְּקָא |  | yes |
-| [Q00787](https://jastrow.app/#rid:Q00787) | alt | פִּיפְיָיר׳ | פִּיפְיָיארוֹת |  |  |
-| [Q00792](https://jastrow.app/#rid:Q00792) | alt | פִּצּ׳ | פִּיצּוּלַיָּא |  | yes |
-| [Q00794](https://jastrow.app/#rid:Q00794) | alt | פִּצְ׳ | פִּיצְעָא |  | yes |
-| [Q00801](https://jastrow.app/#rid:Q00801) | alt | פִּקּ׳ | פִּיקּוּד |  | yes |
-| [Q00802](https://jastrow.app/#rid:Q00802) | alt | פִּקּ׳ | פִּיקּוּדָא |  | yes |
-| [Q00803](https://jastrow.app/#rid:Q00803) | alt | פִּקּ׳ | פִּיקּוּחַ |  | yes |
-| [Q00816](https://jastrow.app/#rid:Q00816) | alt | פִּקְ׳ | פִּיקְסִינָה |  |  |
-| [Q00818](https://jastrow.app/#rid:Q00818) | alt | פִּקְ׳ | פִּיקְעִין |  | yes |
-| [Q00837](https://jastrow.app/#rid:Q00837) | alt | פֵּר׳ | פֵּירוּכָא |  | yes |
-| [Q00838](https://jastrow.app/#rid:Q00838) | alt | פֵּר׳ | פֵּירוּכָא² |  | yes |
-| [Q00839](https://jastrow.app/#rid:Q00839) | alt | פֵּר׳ | פֵּירוּכְיָיא |  | yes |
-| [Q00843](https://jastrow.app/#rid:Q00843) | alt | פֵּר׳ | פֵּירוּק |  | yes |
-| [Q00844](https://jastrow.app/#rid:Q00844) | alt | פֵּר׳ | פֵּירוּקָא |  | yes |
-| [Q00845](https://jastrow.app/#rid:Q00845) | alt | פֵּר׳ | פֵּירוּר |  | yes |
-| [Q00846](https://jastrow.app/#rid:Q00846) | alt | פֵּר׳ | פֵּירוּרָא |  | yes |
-| [Q00847](https://jastrow.app/#rid:Q00847) | alt | פֵּר׳ | פֵּירוּשׁ |  | yes |
-| [Q00848](https://jastrow.app/#rid:Q00848) | alt | פֵּר׳ | פֵּירוּשׁ² |  |  |
-| [Q00852](https://jastrow.app/#rid:Q00852) | alt | פִּרְ׳ | פִּירְטָא |  |  |
-| [Q00858](https://jastrow.app/#rid:Q00858) | alt | פִּרְ׳ | פִּירְכָא |  | yes |
-| [Q00859](https://jastrow.app/#rid:Q00859) | alt | פִּרְ׳ | פִּירְכּוּס I |  |  |
-| [Q00860](https://jastrow.app/#rid:Q00860) | alt | פִּרְ׳ | פִּירְכּוּס II |  | yes |
-| [Q00861](https://jastrow.app/#rid:Q00861) | alt | פִּרְ׳ | פִּירְכּוּסָא |  | yes |
-| [Q00868](https://jastrow.app/#rid:Q00868) | alt | פִּרְ׳ | פִּירְסוּמֵי |  | yes |
-| [Q00870](https://jastrow.app/#rid:Q00870) | alt | פֵּרָ׳ | פֵּירָעוֹן |  | yes |
-| [Q00872](https://jastrow.app/#rid:Q00872) | alt | פִּרְ׳ | פִּירְצָא |  | yes |
-| [Q00876](https://jastrow.app/#rid:Q00876) | alt | פּוּרְ׳ | פִּירְקְתָא |  | yes |
-| [Q00877](https://jastrow.app/#rid:Q00877) | alt | פִּר׳ | פִּירְשָׁא |  | yes |
-| [Q00878](https://jastrow.app/#rid:Q00878) | alt | פִּרְ׳ | פִּירְשָׁע |  | yes |
-| [Q00879](https://jastrow.app/#rid:Q00879) | alt | פִּשּׁ׳ | פִּישּׁוּט |  | yes |
-| [Q00887](https://jastrow.app/#rid:Q00887) | alt | פִּשְׁ׳ | פִּישְׁרָא |  | yes |
-| [Q00890](https://jastrow.app/#rid:Q00890) | alt | פִּתּ׳ | פִּיתּוּחַ |  | yes |
-| [Q00891](https://jastrow.app/#rid:Q00891) | alt | פִּתּ׳ | פִּיתּוּחָא |  | yes |
-| [Q00892](https://jastrow.app/#rid:Q00892) | alt | פִּתּ׳ | פִּיתּוּי |  | yes |
-| [Q00893](https://jastrow.app/#rid:Q00893) | alt | פִּתּ׳ | פִּיתּוּלָא |  | yes |
-| [Q00899](https://jastrow.app/#rid:Q00899) | alt | פִּתֵּ׳ | פִּיתֵּחַ |  | yes |
-| [Q00905](https://jastrow.app/#rid:Q00905) | alt | פִּתְ׳ | פִּיתַק |  |  |
-| [Q00908](https://jastrow.app/#rid:Q00908) | alt | פִּתְּ׳ | פִּיתְּתָא |  | yes |
-| [Q00958](https://jastrow.app/#rid:Q00958) | alt | פִּילְדֵּי׳ | פַּלְדֵּיסִין |  |  |
-| [Q00964](https://jastrow.app/#rid:Q00964) | alt | פְּלֻגְ׳ | פְּלוּגְתָּא I |  | yes |
-| [Q00993](https://jastrow.app/#rid:Q00993) | alt | פִּי׳ | פִּלְחָא |  | yes |
-| [Q00994](https://jastrow.app/#rid:Q00994) | alt | פַּ׳ | פָּלְחָא |  | yes |
-| [Q00995](https://jastrow.app/#rid:Q00995) | alt | פַּ׳ | פָּלְחָא² |  | yes |
-| [Q01005](https://jastrow.app/#rid:Q01005) | alt | פַּלְ׳ | פָּלָטוֹרָא |  | yes |
-| [Q01010](https://jastrow.app/#rid:Q01010) | alt | פְּלַטְיָי׳ | פְּלַטְיָא II |  |  |
-| [Q01020](https://jastrow.app/#rid:Q01020) | alt | פַּלָּאטִ׳ | פַּלָּטִינוֹס |  | yes |
-| [Q01028](https://jastrow.app/#rid:Q01028) | alt | פַּלְטֵי׳ | פַּלְטֵר |  |  |
-| [Q01030](https://jastrow.app/#rid:Q01030) | alt | פַּלְטֵי׳ | פַּלְטֵרִין |  |  |
-| [Q01030](https://jastrow.app/#rid:Q01030) | alt | פַּלְטוֹ׳ | פַּלְטֵרִין |  |  |
-| [Q01071](https://jastrow.app/#rid:Q01071) | alt | פִּי׳ | פֶּלֶךְ² |  |  |
-| [Q01111](https://jastrow.app/#rid:Q01111) | alt | פִּילְ׳ | פִּלְפּוּל |  | yes |
-| [Q01112](https://jastrow.app/#rid:Q01112) | alt | פִּילְ׳ | פִּלְפּוּלָא |  | yes |
-| [Q01117](https://jastrow.app/#rid:Q01117) | alt | פִּילְ׳ | פִּלְפָּל |  |  |
-| [Q01118](https://jastrow.app/#rid:Q01118) | alt | פִּילְ׳ | פִּלְפְּלָא |  |  |
-| [Q01119](https://jastrow.app/#rid:Q01119) | alt | פִּילְ׳ | פִּלְפְּלָן |  | yes |
-| [Q01125](https://jastrow.app/#rid:Q01125) | alt | פִּילַ׳ | פִּלַּקְתָּא |  | yes |
-| [Q01140](https://jastrow.app/#rid:Q01140) | alt | פְּמַ׳ | פַּמִּילְיָיא |  |  |
-| [Q01142](https://jastrow.app/#rid:Q01142) | alt | פְּמַ׳ | פַּמַּלְיָא |  | yes |
-| [Q01177](https://jastrow.app/#rid:Q01177) | alt | פִּינְ׳ | פֶּנְטִיגוֹן |  | yes |
-| [Q01177](https://jastrow.app/#rid:Q01177) | alt | פּוּנְ׳ | פֶּנְטִיגוֹן |  | yes |
-| [Q01182](https://jastrow.app/#rid:Q01182) | alt | פַּנְטַסְכְנָ׳ | פַּנְטַסְכִינָאֵי |  | yes |
-| [Q01204](https://jastrow.app/#rid:Q01204) | alt | פְּנִקְ׳ | פְּנִיקְיָא |  | yes |
-| [Q01223](https://jastrow.app/#rid:Q01223) | alt | פִּי׳ | פַּס |  |  |
-| [Q01229](https://jastrow.app/#rid:Q01229) | alt | פִּסְ׳ | פַּסְגָּא |  | yes |
-| [Q01229](https://jastrow.app/#rid:Q01229) | alt | פִּיסְ׳ | פַּסְגָּא |  | yes |
-| [Q01255](https://jastrow.app/#rid:Q01255) | alt | פִּי׳ | פִּסֵּחַ |  | yes |
-| [Q01257](https://jastrow.app/#rid:Q01257) | alt | פִּי׳ | פִּסְחָא |  | yes |
-| [Q01276](https://jastrow.app/#rid:Q01276) | alt | פְּסֵי׳ | פְּסִידָא |  |  |
-| [Q01278](https://jastrow.app/#rid:Q01278) | alt | פִּשָּׂ׳ | פִּסָּיוֹן |  | yes |
-| [Q01278](https://jastrow.app/#rid:Q01278) | alt | פִּי׳ | פִּסָּיוֹן |  | yes |
-| [Q01280](https://jastrow.app/#rid:Q01280) | alt | פִּיסְ׳ | פִּסְיוֹנָא |  | yes |
-| [Q01281](https://jastrow.app/#rid:Q01281) | alt | פִּיסְ׳ | פִּסְיוֹנִי |  | yes |
-| [Q01282](https://jastrow.app/#rid:Q01282) | alt | פִּי׳ | פִּסְיוֹנִי² |  | yes |
-| [Q01309](https://jastrow.app/#rid:Q01309) | alt | פִּיסְ׳ | פְּסִיפָּס |  |  |
-| [Q01318](https://jastrow.app/#rid:Q01318) | alt | פִּסְקְ׳ | פְּסִיקְיָא |  |  |
-| [Q01319](https://jastrow.app/#rid:Q01319) | alt | פְּסִקְ׳ | פְּסִיקְתָּא |  | yes |
-| [Q01329](https://jastrow.app/#rid:Q01329) | alt | פִּי׳ | פִּסְלָא |  | yes |
-| [Q01353](https://jastrow.app/#rid:Q01353) | alt | פִּי׳ | פִּסְקָא |  | yes |
-| [Q01427](https://jastrow.app/#rid:Q01427) | alt | פְּ׳ | פַּצִּיד |  |  |
-| [Q01451](https://jastrow.app/#rid:Q01451) | alt | פִּיקָּ׳ | פִּקָּדוֹן |  | yes |
-| [Q01452](https://jastrow.app/#rid:Q01452) | alt | פִּיקְ׳ | פִּקְדּוֹנָא |  | yes |
-| [Q01459](https://jastrow.app/#rid:Q01459) | alt | הַפְּ׳ | פְּקוֹלִי |  | yes |
-| [Q01477](https://jastrow.app/#rid:Q01477) | alt | פִּיקֵּ׳ | פִּקֵּחַ |  | yes |
-| [Q01481](https://jastrow.app/#rid:Q01481) | alt | פִּי׳ | פִּקְטִים |  |  |
-| [Q01509](https://jastrow.app/#rid:Q01509) | alt | פִּיקְ׳ | פִּקְפּוּק |  | yes |
-| [Q01525](https://jastrow.app/#rid:Q01525) | alt | פִּי׳ | פִּקְתָא |  | yes |
-| [Q01568](https://jastrow.app/#rid:Q01568) | alt | פְּרַקְמַ׳ | פְּרַגְמָטוֹטֵיס |  |  |
-| [Q01569](https://jastrow.app/#rid:Q01569) | alt | פְּרַקְ׳ | פְּרַגְמַטְיָא |  | yes |
-| [Q01570](https://jastrow.app/#rid:Q01570) | alt | פרגמיט׳ | פְּרַגְמָטִיוְטָא |  |  |
-| [Q01593](https://jastrow.app/#rid:Q01593) | alt | פרסתק׳ | פַּרְדַּסְקִין |  |  |
-| [Q01595](https://jastrow.app/#rid:Q01595) | alt | פַּרְדִּישְׁ׳ | פַּרְדַּשְׁנָא |  | yes |
-| [Q01602](https://jastrow.app/#rid:Q01602) | alt | פרח׳ | פרהדיא |  | yes |
-| [Q01607](https://jastrow.app/#rid:Q01607) | alt | פָּרָהפִרְ׳ | פָּרָהפוּרְנוֹן |  | yes |
-| [Q01609](https://jastrow.app/#rid:Q01609) | alt | פרואמי׳ | פרואמה |  | yes |
-| [Q01639](https://jastrow.app/#rid:Q01639) | alt | פַּרְוָר׳ | פַּרְוָורָא |  |  |
-| [Q01668](https://jastrow.app/#rid:Q01668) | alt | פְּרוֹטֹגַ׳ | פְּרוֹטוֹגַמְיָא |  | yes |
-| [Q01680](https://jastrow.app/#rid:Q01680) | alt | פַּרְוִוי׳ | פַּרְוִילָא |  | yes |
-| [Q01689](https://jastrow.app/#rid:Q01689) | alt | פָּרֻכְ׳ | פָּרוּכְתָּא |  | yes |
-| [Q01722](https://jastrow.app/#rid:Q01722) | alt | פֵּיר׳ | פֵּרוּעַ² |  | yes |
-| [Q01723](https://jastrow.app/#rid:Q01723) | alt | פְּרוֹפְסִ׳ | פְּרוֹפּוֹסִיטוֹס |  | yes |
-| [Q01746](https://jastrow.app/#rid:Q01746) | alt | פִּירְ׳ | פִּרְזוֹמָא |  | yes |
-| [Q01747](https://jastrow.app/#rid:Q01747) | alt | פִּירְ׳ | פִּרְזוּמָא |  | yes |
-| [Q01750](https://jastrow.app/#rid:Q01750) | alt | פּוּרְ׳ | פַּרְזֶל |  |  |
-| [Q01757](https://jastrow.app/#rid:Q01757) | alt | פִּירְ׳ | פְּרַח II |  |  |
-| [Q01759](https://jastrow.app/#rid:Q01759) | alt | פרחביל׳ | פרחבלין |  | yes |
-| [Q01759](https://jastrow.app/#rid:Q01759) | alt | פרחבינ׳ | פרחבלין |  | yes |
-| [Q01782](https://jastrow.app/#rid:Q01782) | alt | פִּירְ׳ | פִּרְטְתָא II |  | yes |
-| [Q01792](https://jastrow.app/#rid:Q01792) | alt | פָּרִדְ׳ | פָּרִידְתָּא |  | yes |
-| [Q01822](https://jastrow.app/#rid:Q01822) | alt | פריפיס׳ | פְּרִיפּוֹסִיטִין |  | yes |
-| [Q01836](https://jastrow.app/#rid:Q01836) | alt | פְּ׳ | פָּרִישָׁא |  | yes |
-| [Q01886](https://jastrow.app/#rid:Q01886) | alt | פִּירְ׳ | פִּרְנוּס |  | yes |
-| [Q01887](https://jastrow.app/#rid:Q01887) | alt | פִּירְ׳ | פִּרְנוּק |  | yes |
-| [Q01934](https://jastrow.app/#rid:Q01934) | alt | פִּירְ׳ | פִּרְסֵם |  | yes |
-| [Q01938](https://jastrow.app/#rid:Q01938) | alt | פִּירְ׳ | פִּרְסְקָא |  |  |
-| [Q01961](https://jastrow.app/#rid:Q01961) | alt | פִּירְ׳ | פִּרְפֵּר |  | yes |
-| [Q01963](https://jastrow.app/#rid:Q01963) | alt | פִּירְ׳ | פִּרְפֵּר² |  | yes |
-| [Q01974](https://jastrow.app/#rid:Q01974) | alt | פִּירְ׳ | פִּרְצָה |  | yes |
-| [Q01983](https://jastrow.app/#rid:Q01983) | alt | פִּי׳ | פִּרְקָא |  | yes |
-| [Q01993](https://jastrow.app/#rid:Q01993) | alt | פֵּי׳ | פֵּרָקוֹן |  | yes |
-| [Q01994](https://jastrow.app/#rid:Q01994) | alt | פִּי׳ | פִּרְקוּנָא |  | yes |
-| [Q02011](https://jastrow.app/#rid:Q02011) | alt | פָּרְ׳ | פֻּרְקָן |  | yes |
-| [Q02088](https://jastrow.app/#rid:Q02088) | alt | פִּי׳ | פִּשְׁפּוּשׁ |  | yes |
-| [Q02090](https://jastrow.app/#rid:Q02090) | alt | פִּי׳ | פִּשְׁפֵּשׁ |  | yes |
-| [Q02094](https://jastrow.app/#rid:Q02094) | alt | פִּי׳ | פִּשְׁפָּשׁ |  | yes |
-| [Q02148](https://jastrow.app/#rid:Q02148) | alt | פִּי׳ | פִּתְחָא |  | yes |
-| [Q02149](https://jastrow.app/#rid:Q02149) | alt | פִּי׳ | פִּתְחוֹן |  | yes |
-| [Q02191](https://jastrow.app/#rid:Q02191) | alt | פִּו׳ | פֶּתֶן² |  |  |
-| [Q02193](https://jastrow.app/#rid:Q02193) | alt | פִּי׳ | פִּתְפּוּת |  | yes |
-| [Q02202](https://jastrow.app/#rid:Q02202) | alt | פִּי׳ | פְּתַר II |  |  |
-| [Q02203](https://jastrow.app/#rid:Q02203) | alt | פִּי׳ | *פִּתְרָא |  | yes |
-| [R00030](https://jastrow.app/#rid:R00030) | alt | צִי׳ | צִבְחַד |  |  |
-| [R00040](https://jastrow.app/#rid:R00040) | alt | צִי׳ | צִבְיוֹנָא |  |  |
-| [R00058](https://jastrow.app/#rid:R00058) | alt | צִי׳ | צֶבַע² |  |  |
-| [R00061](https://jastrow.app/#rid:R00061) | alt | צִי׳ | צִבְעָא |  | yes |
-| [R00062](https://jastrow.app/#rid:R00062) | alt | צִי׳ | צִבְעָא² |  | yes |
-| [R00064](https://jastrow.app/#rid:R00064) | alt | צִי׳ | צִבְעוֹן II |  | yes |
-| [R00065](https://jastrow.app/#rid:R00065) | alt | צִי׳ | צִבְעוֹנָא |  | yes |
-| [R00075](https://jastrow.app/#rid:R00075) | alt | צִבְ׳ | צַבְתָּא |  |  |
-| [R00076](https://jastrow.app/#rid:R00076) | alt | צִי׳ | צִבְתָא |  | yes |
-| [R00116](https://jastrow.app/#rid:R00116) | alt | צִי׳ | צִדְעָא |  | yes |
-| [R00152](https://jastrow.app/#rid:R00152) | alt | צַוּו׳ | צַוַּאר |  |  |
-| [R00174](https://jastrow.app/#rid:R00174) | alt | צְוַחְ׳ | צְוַוחְתָּא |  |  |
-| [R00174](https://jastrow.app/#rid:R00174) | alt | צִיוְ׳ | צְוַוחְתָּא |  |  |
-| [R00220](https://jastrow.app/#rid:R00220) | alt | הַצּ׳ | צוֹפִים |  | yes |
-| [R00231](https://jastrow.app/#rid:R00231) | alt | צוֹצַלְ׳ | צוֹצְלָא |  |  |
-| [R00259](https://jastrow.app/#rid:R00259) | alt | צִרְעֲ׳ | צוּרְעָא |  |  |
-| [R00259](https://jastrow.app/#rid:R00259) | alt | צִירְ׳ | צוּרְעָא |  |  |
-| [R00271](https://jastrow.app/#rid:R00271) | alt | צָה׳ | צָחוּתָא |  | yes |
-| [R00273](https://jastrow.app/#rid:R00273) | alt | צה׳ | צְחִי |  |  |
-| [R00280](https://jastrow.app/#rid:R00280) | alt | צִי׳ | צִחְצוּחַ |  | yes |
-| [R00281](https://jastrow.app/#rid:R00281) | alt | צִי׳ | צִחְצוּחָא |  | yes |
-| [R00295](https://jastrow.app/#rid:R00295) | alt | צִבּ׳ | צִיבּוּר |  | yes |
-| [R00296](https://jastrow.app/#rid:R00296) | alt | צִבּ׳ | צִיבּוּר² |  |  |
-| [R00311](https://jastrow.app/#rid:R00311) | alt | צַיְי׳ | צִידוֹן |  |  |
-| [R00312](https://jastrow.app/#rid:R00312) | alt | צִדּ׳ | צִידּוּק |  | yes |
-| [R00317](https://jastrow.app/#rid:R00317) | alt | צִה׳ | צִיהוּב |  | yes |
-| [R00335](https://jastrow.app/#rid:R00335) | alt | צַיָּד׳ | צַיָּיד² |  |  |
-| [R00373](https://jastrow.app/#rid:R00373) | alt | צִמּ׳ | צִימּוּחַ² |  | yes |
-| [R00375](https://jastrow.app/#rid:R00375) | alt | צִמּ׳ | צִימּוּק |  | yes |
-| [R00377](https://jastrow.app/#rid:R00377) | alt | צִמֵּ׳ | צִימֵּחַ |  | yes |
-| [R00382](https://jastrow.app/#rid:R00382) | alt | צוּמְצְ׳ | צִימְצְמָאֵי |  | yes |
-| [R00383](https://jastrow.app/#rid:R00383) | alt | צִמְ׳ | צִימְרָא |  | yes |
-| [R00388](https://jastrow.app/#rid:R00388) | alt | צִנַּ׳ | צִינַּבְרָאָה |  |  |
-| [R00399](https://jastrow.app/#rid:R00399) | alt | צִנְּ׳ | צִינְּתָא |  | yes |
-| [R00400](https://jastrow.app/#rid:R00400) | alt | צִנְּ׳ | צִינְּתָא² |  | yes |
-| [R00409](https://jastrow.app/#rid:R00409) | alt | צִיפ׳ | צִיפּוּנָא |  | yes |
-| [R00409](https://jastrow.app/#rid:R00409) | alt | צִפּ׳ | צִיפּוּנָא |  | yes |
-| [R00413](https://jastrow.app/#rid:R00413) | alt | צִפּ׳ | צִיפּוֹרֵי |  |  |
-| [R00414](https://jastrow.app/#rid:R00414) | alt | צִפּ׳ | צִיפּוֹרֵי² |  |  |
-| [R00415](https://jastrow.app/#rid:R00415) | alt | צִיפֹּרָ׳ | צִיפּוֹרָיָא |  |  |
-| [R00415](https://jastrow.app/#rid:R00415) | alt | צִפּ׳ | צִיפּוֹרָיָא |  |  |
-| [R00423](https://jastrow.app/#rid:R00423) | alt | צִיפְּ׳ | צִיפָּר |  |  |
-| [R00429](https://jastrow.app/#rid:R00429) | alt | צִפְ׳ | צִיפְתָּא |  | yes |
-| [R00446](https://jastrow.app/#rid:R00446) | alt | צוֹיְ׳ | צַיְקָן |  | yes |
-| [R00446](https://jastrow.app/#rid:R00446) | alt | צוֹיְי׳ | צַיְקָן |  | yes |
-| [R00453](https://jastrow.app/#rid:R00453) | alt | צְיָי׳ | צְיָר |  |  |
-| [R00459](https://jastrow.app/#rid:R00459) | alt | צִרְ׳ | צִירְיָא |  | yes |
-| [R00487](https://jastrow.app/#rid:R00487) | alt | צִלְהוּ׳ | צַלְהוֹבָא |  | yes |
-| [R00488](https://jastrow.app/#rid:R00488) | alt | צְלוּ׳ | צְלוֹ |  |  |
-| [R00499](https://jastrow.app/#rid:R00499) | alt | צְלוּ׳ | צְלוֹתָא |  | yes |
-| [R00504](https://jastrow.app/#rid:R00504) | alt | צִילְ׳ | צִלְחֲתָא |  | yes |
-| [R00527](https://jastrow.app/#rid:R00527) | alt | צִלְ׳ | צֶלֶם² |  |  |
-| [R00527](https://jastrow.app/#rid:R00527) | alt | צִילְ׳ | צֶלֶם² |  |  |
-| [R00532](https://jastrow.app/#rid:R00532) | alt | צִילְמָ׳ | צַלְמָנָא |  | yes |
-| [R00541](https://jastrow.app/#rid:R00541) | alt | צִילְ׳ | צִלְצוּל |  | yes |
-| [R00542](https://jastrow.app/#rid:R00542) | alt | צִילְ׳ | צִלְצוֹלִין |  | yes |
-| [R00545](https://jastrow.app/#rid:R00545) | alt | צִילְ׳ | צֶלְצָל |  | yes |
-| [R00547](https://jastrow.app/#rid:R00547) | alt | צִילְ׳ | צִלְצַלְוָן |  |  |
-| [R00570](https://jastrow.app/#rid:R00570) | alt | צִי׳ | צִמְחָא |  | yes |
-| [R00614](https://jastrow.app/#rid:R00614) | alt | צִינּ׳ | צִנּוֹרָא |  | yes |
-| [R00615](https://jastrow.app/#rid:R00615) | alt | צִי׳ | צִנּוֹרָא II |  |  |
-| [R00616](https://jastrow.app/#rid:R00616) | alt | צִי׳ | צִנּוֹרָא III |  |  |
-| [R00619](https://jastrow.app/#rid:R00619) | alt | צִי׳ | צִנּוֹרִיתָא |  | yes |
-| [R00640](https://jastrow.app/#rid:R00640) | alt | צִי׳ | צִנְעָא |  |  |
-| [R00681](https://jastrow.app/#rid:R00681) | alt | צִיפּ׳ | צִפּוֹר |  | yes |
-| [R00684](https://jastrow.app/#rid:R00684) | alt | צִיפּ׳ | צִפּוֹרָה |  | yes |
-| [R00687](https://jastrow.app/#rid:R00687) | alt | צִיפּ׳ | צִפּוֹרֶן |  | yes |
-| [R00688](https://jastrow.app/#rid:R00688) | alt | צִיפּ׳ | צִפּוֹרֶת |  | yes |
-| [R00717](https://jastrow.app/#rid:R00717) | alt | צִי׳ | צִפַּר |  |  |
-| [R00721](https://jastrow.app/#rid:R00721) | alt | צִי׳ | צִפַּרְתָּא |  | yes |
-| [R00758](https://jastrow.app/#rid:R00758) | alt | צִי׳ | צִרְחָא |  | yes |
-| [R00794](https://jastrow.app/#rid:R00794) | alt | צִי׳ | צִרְעָה |  | yes |
-| [R00804](https://jastrow.app/#rid:R00804) | alt | צִירְ׳ | צִרְצוּר |  | yes |
-| [R00817](https://jastrow.app/#rid:R00817) | alt | צִי׳ | צִתְרֵי |  | yes |
-| [S00030](https://jastrow.app/#rid:S00030) | alt | קֵי׳ | קֵבָה |  | yes |
-| [S00038](https://jastrow.app/#rid:S00038) | alt | קְפוּ׳ | קְבוּסַאי |  |  |
-| [S00064](https://jastrow.app/#rid:S00064) | alt | קִבְ׳ | קְבל IV |  |  |
-| [S00064](https://jastrow.app/#rid:S00064) | alt | קִיבְ׳ | קְבל IV |  |  |
-| [S00065](https://jastrow.app/#rid:S00065) | alt | קִי׳ | קִבְלָא |  |  |
-| [S00066](https://jastrow.app/#rid:S00066) | alt | קִי׳ | קִבְלָא² |  | yes |
-| [S00067](https://jastrow.app/#rid:S00067) | alt | קִי׳ | קִבְלָא³ |  | yes |
-| [S00080](https://jastrow.app/#rid:S00080) | alt | קְבֵילְ׳ | קְבֵלְתָּא |  | yes |
-| [S00089](https://jastrow.app/#rid:S00089) | alt | קִי׳ | קִבְעָא |  | yes |
-| [S00098](https://jastrow.app/#rid:S00098) | alt | קֵי׳ | קִבְרָא |  |  |
-| [S00109](https://jastrow.app/#rid:S00109) | alt | קֵי׳ | קֵבְתָא |  | yes |
-| [S00128](https://jastrow.app/#rid:S00128) | alt | קִי׳ | קִדְחָא |  | yes |
-| [S00166](https://jastrow.app/#rid:S00166) | alt | קוֹדְ׳ | קָדְקְדָא |  |  |
-| [S00175](https://jastrow.app/#rid:S00175) | alt | קִי׳ | קְדַר³ |  |  |
-| [S00199](https://jastrow.app/#rid:S00199) | alt | קְדָ׳ | קָדָשָׁא |  | yes |
-| [S00202](https://jastrow.app/#rid:S00202) | alt | קֵי׳ | קֵהֶה |  | yes |
-| [S00211](https://jastrow.app/#rid:S00211) | alt | קְהִי׳ | קְהִלָּה |  | yes |
-| [S00241](https://jastrow.app/#rid:S00241) | alt | קוּבְ׳ | קוּבְּתָא |  | yes |
-| [S00257](https://jastrow.app/#rid:S00257) | alt | קְוָטִ׳ | *קְוָוטִין |  | yes |
-| [S00267](https://jastrow.app/#rid:S00267) | alt | קְוַקְ׳ | קְוַוקְיָא |  | yes |
-| [S00269](https://jastrow.app/#rid:S00269) | alt | קוורניט׳ | קוורנוט׳ |  |  |
-| [S00276](https://jastrow.app/#rid:S00276) | alt | קוזמוקלט׳ | קוזמוקטור |  |  |
-| [S00325](https://jastrow.app/#rid:S00325) | alt | קָלְ׳ | קוֹלְבּוֹן |  | yes |
-| [S00327](https://jastrow.app/#rid:S00327) | alt | קִילְ׳ | קוֹלְבָן |  |  |
-| [S00336](https://jastrow.app/#rid:S00336) | alt | קוֹ׳ | קוּלְיָא I |  | yes |
-| [S00340](https://jastrow.app/#rid:S00340) | alt | קָלְיָי׳ | קוֹלְיָינִין |  | yes |
-| [S00357](https://jastrow.app/#rid:S00357) | alt | קַלְ׳ | קוֹלַס |  |  |
-| [S00402](https://jastrow.app/#rid:S00402) | alt | קוֹ׳ | קוּמְצָא |  |  |
-| [S00405](https://jastrow.app/#rid:S00405) | alt | קוּמְקְמ׳ | קוּמְקוּם |  |  |
-| [S00433](https://jastrow.app/#rid:S00433) | alt | קונטרונק׳ | קונטרונין |  | yes |
-| [S00459](https://jastrow.app/#rid:S00459) | alt | קִסְ׳ | קוּסְדּוֹר |  | yes |
-| [S00470](https://jastrow.app/#rid:S00470) | alt | קוּסְטַאנְטִ׳ | קוּסְטַנְטִינוֹס |  | yes |
-| [S00566](https://jastrow.app/#rid:S00566) | alt | קוֹרֵי׳ | קוֹרֵאָה |  | yes |
-| [S00596](https://jastrow.app/#rid:S00596) | alt | קוּ׳ | קוֹרְטוֹר |  | yes |
-| [S00597](https://jastrow.app/#rid:S00597) | alt | קִירְ׳ | קוּרְטְמֵי |  | yes |
-| [S00601](https://jastrow.app/#rid:S00601) | alt | קוֹ׳ | קוּרְיָא |  | yes |
-| [S00605](https://jastrow.app/#rid:S00605) | alt | קוֹ׳ | קוּרְיָיא |  | yes |
-| [S00639](https://jastrow.app/#rid:S00639) | alt | קַרְ׳ | קוּרְקָא |  | yes |
-| [S00640](https://jastrow.app/#rid:S00640) | alt | קָרְ׳ | קוֹרְקְבָן |  | yes |
-| [S00691](https://jastrow.app/#rid:S00691) | alt | קָטָדִ׳ | קָטָאדִיקִי |  | yes |
-| [S00710](https://jastrow.app/#rid:S00710) | alt | קַטּ׳ | קָטוֹל |  |  |
-| [S00745](https://jastrow.app/#rid:S00745) | alt | קִטַּ׳ | קַטַּיָּיא |  | yes |
-| [S00745](https://jastrow.app/#rid:S00745) | alt | קְטַ׳ | קַטַּיָּיא |  | yes |
-| [S00758](https://jastrow.app/#rid:S00758) | alt | קְטוּסְ׳ | קְטִיסְפָּאָה |  | yes |
-| [S00789](https://jastrow.app/#rid:S00789) | alt | קִי׳ | קְטַם III |  |  |
-| [S00790](https://jastrow.app/#rid:S00790) | alt | קִי׳ | קִטְמָא |  | yes |
-| [S00793](https://jastrow.app/#rid:S00793) | alt | קִי׳ | קִטְמָנָא |  | yes |
-| [S00808](https://jastrow.app/#rid:S00808) | alt | קִי׳ | קִטְעָא |  | yes |
-| [S00813](https://jastrow.app/#rid:S00813) | alt | קִי׳ | קְטַף II |  |  |
-| [S00832](https://jastrow.app/#rid:S00832) | alt | קִי׳ | קִטְרוֹן |  | yes |
-| [S00833](https://jastrow.app/#rid:S00833) | alt | קִי׳ | קִטְרוֹן² |  | yes |
-| [S00844](https://jastrow.app/#rid:S00844) | alt | קְטוֹ׳ | קְטֹרֶת |  | yes |
-| [S00850](https://jastrow.app/#rid:S00850) | alt | קִבּ׳ | קִיבּוּל |  | yes |
-| [S00851](https://jastrow.app/#rid:S00851) | alt | קִבּ׳ | קִיבּוּלָא |  | yes |
-| [S00854](https://jastrow.app/#rid:S00854) | alt | קִבּ׳ | קִיבּוּץ |  | yes |
-| [S00871](https://jastrow.app/#rid:S00871) | alt | קִדּ׳ | קִידּוּם |  |  |
-| [S00873](https://jastrow.app/#rid:S00873) | alt | קִדּ׳ | קִידּוּשׁ |  | yes |
-| [S00874](https://jastrow.app/#rid:S00874) | alt | קִדּ׳ | קִידּוּשָׁא |  | yes |
-| [S00882](https://jastrow.app/#rid:S00882) | alt | קִוּוּ׳ | קִיוּוּיָה |  | yes |
-| [S00885](https://jastrow.app/#rid:S00885) | alt | קִיּי׳ | קִיּוּם² |  |  |
-| [S00890](https://jastrow.app/#rid:S00890) | alt | קַיְי׳ | קַיְטָא |  | yes |
-| [S00895](https://jastrow.app/#rid:S00895) | alt | קִטּ׳ | קִיטּוּל |  | yes |
-| [S00900](https://jastrow.app/#rid:S00900) | alt | קִטּ׳ | קִיטּוּנְתָּא |  | yes |
-| [S00903](https://jastrow.app/#rid:S00903) | alt | קִטּ׳ | קִיטּוּף |  | yes |
-| [S00904](https://jastrow.app/#rid:S00904) | alt | קִטּ׳ | קִיטּוּפָא |  | yes |
-| [S00908](https://jastrow.app/#rid:S00908) | alt | קִטּ׳ | קִיטּוּרָא |  | yes |
-| [S00915](https://jastrow.app/#rid:S00915) | alt | קִטְ׳ | קִיטְנֵי |  | yes |
-| [S00917](https://jastrow.app/#rid:S00917) | alt | קִטְ׳ | קִיטְנִית |  | yes |
-| [S00918](https://jastrow.app/#rid:S00918) | alt | קִטְ׳ | קִיטְנִית² |  | yes |
-| [S00919](https://jastrow.app/#rid:S00919) | alt | קִטֵּ׳ | קִיטֵּעַ |  | yes |
-| [S00922](https://jastrow.app/#rid:S00922) | alt | קוּטְ׳ | קִיטְרָא |  | yes |
-| [S00922](https://jastrow.app/#rid:S00922) | alt | קִטְ׳ | קִיטְרָא |  | yes |
-| [S00935](https://jastrow.app/#rid:S00935) | alt | קַיָּ׳ | קַיָּים² |  |  |
-| [S00936](https://jastrow.app/#rid:S00936) | alt | קְיָ׳ | קְיָים |  |  |
-| [S00959](https://jastrow.app/#rid:S00959) | alt | קִלּ׳ | קִילּוּחַ |  | yes |
-| [S00960](https://jastrow.app/#rid:S00960) | alt | קִלּ׳ | קִילּוּחָא |  | yes |
-| [S00967](https://jastrow.app/#rid:S00967) | alt | קִלּ׳ | קִילּוּס II |  | yes |
-| [S00968](https://jastrow.app/#rid:S00968) | alt | קִלּ׳ | קִילּוּסָא |  | yes |
-| [S00970](https://jastrow.app/#rid:S00970) | alt | קִלּ׳ | קִילּוּפָא |  | yes |
-| [S00985](https://jastrow.app/#rid:S00985) | alt | קִלְ׳ | קִילְקָאֵי |  | yes |
-| [S00986](https://jastrow.app/#rid:S00986) | alt | קִלְ׳ | קִילְקוּל |  | yes |
-| [S00987](https://jastrow.app/#rid:S00987) | alt | קִלְ׳ | קִילְקוּלָא |  | yes |
-| [S00988](https://jastrow.app/#rid:S00988) | alt | קִלְ׳ | קִילְקִי |  | yes |
-| [S00993](https://jastrow.app/#rid:S00993) | alt | קִילְקִילִּ׳ | קִילְקִלִּין |  | yes |
-| [S00995](https://jastrow.app/#rid:S00995) | alt | קִילּוּרִ׳ | קִילָּרִין |  | yes |
-| [S00995](https://jastrow.app/#rid:S00995) | alt | קִלָּ׳ | קִילָּרִין |  | yes |
-| [S01008](https://jastrow.app/#rid:S01008) | alt | קִמּ׳ | קִימּוֹשָׁא |  | yes |
-| [S01027](https://jastrow.app/#rid:S01027) | alt | קִנּ׳ | קִינּוּי |  | yes |
-| [S01029](https://jastrow.app/#rid:S01029) | alt | קְנוֹ׳ | קִינוֹנְיָא |  | yes |
-| [S01031](https://jastrow.app/#rid:S01031) | alt | קִנּ׳ | קִינוֹפִין |  | yes |
-| [S01035](https://jastrow.app/#rid:S01035) | alt | קִנְ׳ | קִינְטוּר |  | yes |
-| [S01040](https://jastrow.app/#rid:S01040) | alt | קִי׳ | קֵינַי |  |  |
-| [S01047](https://jastrow.app/#rid:S01047) | alt | קִנָּ׳ | קִינָּמוֹן |  | yes |
-| [S01056](https://jastrow.app/#rid:S01056) | alt | קִי׳ | קֵיסָא |  | yes |
-| [S01059](https://jastrow.app/#rid:S01059) | alt | קִסּ׳ | קִיסּוּמָא |  | yes |
-| [S01060](https://jastrow.app/#rid:S01060) | alt | קִסּ׳ | קִיסּוּמָא² |  | yes |
-| [S01064](https://jastrow.app/#rid:S01064) | alt | קִסְ׳ | קִיסְטְ |  |  |
-| [S01077](https://jastrow.app/#rid:S01077) | alt | קִסְ׳ | קִיסְמִית |  | yes |
-| [S01078](https://jastrow.app/#rid:S01078) | alt | קִסְ׳ | קִיסְנְיָיתָא |  | yes |
-| [S01086](https://jastrow.app/#rid:S01086) | alt | קִסְ׳ | קִיסְרָיָא |  |  |
-| [S01090](https://jastrow.app/#rid:S01090) | alt | קִסְ׳ | קִיסְרִין |  |  |
-| [S01096](https://jastrow.app/#rid:S01096) | alt | קִפּ׳ | קִיפּוּי |  | yes |
-| [S01097](https://jastrow.app/#rid:S01097) | alt | קִפּ׳ | קִיפּוּל |  | yes |
-| [S01102](https://jastrow.app/#rid:S01102) | alt | קִפּ׳ | קִיפּוֹף |  | yes |
-| [S01103](https://jastrow.app/#rid:S01103) | alt | קִיפּוֹ׳ | קִיפּוּפָא |  | yes |
-| [S01103](https://jastrow.app/#rid:S01103) | alt | קִפּ׳ | קִיפּוּפָא |  | yes |
-| [S01143](https://jastrow.app/#rid:S01143) | alt | קוּ׳ | קִיקְלָא |  | yes |
-| [S01143](https://jastrow.app/#rid:S01143) | alt | קִקְ׳ | קִיקְלָא |  | yes |
-| [S01147](https://jastrow.app/#rid:S01147) | alt | קִיקֶילְ׳ | קִיקֶלְתָּא |  | yes |
-| [S01158](https://jastrow.app/#rid:S01158) | alt | קֵר׳ | קֵירוּב |  | yes |
-| [S01159](https://jastrow.app/#rid:S01159) | alt | קֵר׳ | קֵירוּד |  |  |
-| [S01181](https://jastrow.app/#rid:S01181) | alt | קִרְ׳ | קִירְיוֹסִים |  |  |
-| [S01186](https://jastrow.app/#rid:S01186) | alt | קִי׳ | קִירִיס |  | yes |
-| [S01193](https://jastrow.app/#rid:S01193) | alt | קִרְ׳ | קִירְסוּם |  | yes |
-| [S01198](https://jastrow.app/#rid:S01198) | alt | קִרְ׳ | קִירְצוּף |  | yes |
-| [S01201](https://jastrow.app/#rid:S01201) | alt | קִרְ׳ | קִירְקוּר |  | yes |
-| [S01202](https://jastrow.app/#rid:S01202) | alt | קוּרְ׳ | קִירְקָנוֹת |  | yes |
-| [S01210](https://jastrow.app/#rid:S01210) | alt | קִשּׁ׳ | קִישּׁוּט |  | yes |
-| [S01211](https://jastrow.app/#rid:S01211) | alt | קִשּׁ׳ | קִישּׁוּטָא |  | yes |
-| [S01212](https://jastrow.app/#rid:S01212) | alt | קִשּׁ׳ | קִישּׁוּי |  | yes |
-| [S01214](https://jastrow.app/#rid:S01214) | alt | קִשּׁ׳ | קִישּׁוּר |  | yes |
-| [S01215](https://jastrow.app/#rid:S01215) | alt | קִשּׁ׳ | קִישּׁוּרָא |  | yes |
-| [S01220](https://jastrow.app/#rid:S01220) | alt | קִשְׁ׳ | קִישְׁקוּשׁ |  | yes |
-| [S01221](https://jastrow.app/#rid:S01221) | alt | קִשְׁ׳ | קִישְׁקוּשָׁא |  | yes |
-| [S01222](https://jastrow.app/#rid:S01222) | alt | קִשְׁ׳ | קִישְׁקוּשָׁא² |  | yes |
-| [S01243](https://jastrow.app/#rid:S01243) | alt | קְלָפַ׳ | קְלָאפַנְדָּר |  | yes |
-| [S01261](https://jastrow.app/#rid:S01261) | alt | קִילְ׳ | קִלְוָואן |  |  |
-| [S01265](https://jastrow.app/#rid:S01265) | alt | קִילִ׳ | קְלִוְוסִין |  |  |
-| [S01283](https://jastrow.app/#rid:S01283) | alt | קְלוּסַנְתְּרִ׳ | *קְלוּסַנְטְרִין |  | yes |
-| [S01305](https://jastrow.app/#rid:S01305) | alt | קִי׳ | קִלְחָא |  | yes |
-| [S01305](https://jastrow.app/#rid:S01305) | alt | קוּ׳ | קִלְחָא |  | yes |
-| [S01311](https://jastrow.app/#rid:S01311) | alt | קִי׳ | קִלְטָא |  | yes |
-| [S01311](https://jastrow.app/#rid:S01311) | alt | קוּ׳ | קִלְטָא |  | yes |
-| [S01336](https://jastrow.app/#rid:S01336) | alt | קְלִ׳ | קַלִּיל II |  |  |
-| [S01347](https://jastrow.app/#rid:S01347) | alt | קַלִּי׳ | קְלִיפָא |  | yes |
-| [S01351](https://jastrow.app/#rid:S01351) | alt | קלו׳ | קלירוס |  |  |
-| [S01352](https://jastrow.app/#rid:S01352) | alt | קַלִּ׳ | קָלִישׁ |  |  |
-| [S01397](https://jastrow.app/#rid:S01397) | alt | קִי׳ | קְלַע³ |  |  |
-| [S01398](https://jastrow.app/#rid:S01398) | alt | קִי׳ | קִלְעָא |  | yes |
-| [S01398](https://jastrow.app/#rid:S01398) | alt | קַלְ׳ | קִלְעָא |  | yes |
-| [S01405](https://jastrow.app/#rid:S01405) | alt | קִלְ׳ | קַלְפָא |  | yes |
-| [S01405](https://jastrow.app/#rid:S01405) | alt | קִילְ׳ | קַלְפָא |  | yes |
-| [S01420](https://jastrow.app/#rid:S01420) | alt | קִלְקֶילְ׳ | קִלְקַלְתָּא |  | yes |
-| [S01420](https://jastrow.app/#rid:S01420) | alt | קִי׳ | קִלְקַלְתָּא |  | yes |
-| [S01421](https://jastrow.app/#rid:S01421) | alt | קַנְ׳ | קַלְקַנְתּוּם |  | yes |
-| [S01456](https://jastrow.app/#rid:S01456) | alt | קִי׳ | קֶמַח² |  |  |
-| [S01457](https://jastrow.app/#rid:S01457) | alt | קִי׳ | קִמְחוּנְיָא |  | yes |
-| [S01459](https://jastrow.app/#rid:S01459) | alt | קִי׳ | קִמְחִית |  | yes |
-| [S01465](https://jastrow.app/#rid:S01465) | alt | קוּמְ׳ | קַמְטְרָא |  | yes |
-| [S01481](https://jastrow.app/#rid:S01481) | alt | קִי׳ | קִמְעָא |  |  |
-| [S01482](https://jastrow.app/#rid:S01482) | alt | קוּמְ׳ | קַמְפּוֹן |  | yes |
-| [S01506](https://jastrow.app/#rid:S01506) | alt | קִי׳ | קֵן² |  |  |
-| [S01512](https://jastrow.app/#rid:S01512) | alt | קִי׳ | קִנְאָה² |  |  |
-| [S01557](https://jastrow.app/#rid:S01557) | alt | קִי׳ | קִנְטִינָר |  |  |
-| [S01557](https://jastrow.app/#rid:S01557) | alt | קַ׳ | קִנְטִינָר |  |  |
-| [S01565](https://jastrow.app/#rid:S01565) | alt | קַנְתְּ׳ | קַנְטְרָן |  | yes |
-| [S01572](https://jastrow.app/#rid:S01572) | alt | קְנוּבְ׳ | קְנִיבָה² |  |  |
-| [S01575](https://jastrow.app/#rid:S01575) | alt | קִינִ׳ | קְנִיגְיָא |  | yes |
-| [S01576](https://jastrow.app/#rid:S01576) | alt | קִינִ׳ | קְנִיגְיוֹן |  | yes |
-| [S01588](https://jastrow.app/#rid:S01588) | alt | קִנְיָי׳ | קִנְיָן² |  |  |
-| [S01588](https://jastrow.app/#rid:S01588) | alt | קִי׳ | קִנְיָן² |  |  |
-| [S01610](https://jastrow.app/#rid:S01610) | alt | קִינְ׳ | קַנְקָל |  | yes |
-| [S01639](https://jastrow.app/#rid:S01639) | alt | קַשְׂ׳ | קַסְוָוא |  | yes |
-| [S01661](https://jastrow.app/#rid:S01661) | alt | קַסִּטְ׳ | קַסִּיטְרוֹן |  | yes |
-| [S01668](https://jastrow.app/#rid:S01668) | alt | קוּ׳ | קְסַם II |  |  |
-| [S01668](https://jastrow.app/#rid:S01668) | alt | קִי׳ | קְסַם II |  |  |
-| [S01672](https://jastrow.app/#rid:S01672) | alt | קָסָ׳ | קַסָּמָא |  |  |
-| [S01672](https://jastrow.app/#rid:S01672) | alt | קוֹ׳ | קַסָּמָא |  |  |
-| [S01709](https://jastrow.app/#rid:S01709) | alt | קַפּוּטְ׳ | קַפּוּדְקְיָא |  |  |
-| [S01710](https://jastrow.app/#rid:S01710) | alt | קַפּוּטְ׳ | קַפּוּדְקָיָא |  |  |
-| [S01760](https://jastrow.app/#rid:S01760) | alt | קִי׳ | קִפְלַרְיָא |  |  |
-| [S01761](https://jastrow.app/#rid:S01761) | alt | קוּפַּ׳ | קָפַּנְדַּרְיָא |  | yes |
-| [S01769](https://jastrow.app/#rid:S01769) | alt | הַקַּ׳ | קַפָּר |  | yes |
-| [S01780](https://jastrow.app/#rid:S01780) | alt | קִי׳ | קֵץ² |  |  |
-| [S01786](https://jastrow.app/#rid:S01786) | alt | קִי׳ | קִצְבָה |  | yes |
-| [S01803](https://jastrow.app/#rid:S01803) | alt | קִי׳ | קִצְחָא |  | yes |
-| [S01833](https://jastrow.app/#rid:S01833) | alt | קִיצְ׳ | קִצְפָּא |  | yes |
-| [S01834](https://jastrow.app/#rid:S01834) | alt | קִיצָּ׳ | קִצָּפוֹן |  | yes |
-| [S01897](https://jastrow.app/#rid:S01897) | alt | קוּרְ׳ | קָרְבַּן |  |  |
-| [S01906](https://jastrow.app/#rid:S01906) | alt | קוּרְ׳ | קַרְדּוֹם |  | yes |
-| [S01923](https://jastrow.app/#rid:S01923) | alt | קִי׳ | קִרְוָא |  |  |
-| [S01924](https://jastrow.app/#rid:S01924) | alt | קִי׳ | קִרְוָא² |  |  |
-| [S01939](https://jastrow.app/#rid:S01939) | alt | קִירְ׳ | קִרְוָיָא |  |  |
-| [S01940](https://jastrow.app/#rid:S01940) | alt | קֵיר׳ | קֵרוּיָה |  | yes |
-| [S01953](https://jastrow.app/#rid:S01953) | alt | קְרוּנְ׳ | קְרוֹנְתָּא |  | yes |
-| [S01990](https://jastrow.app/#rid:S01990) | alt | קוּרְ׳ | קַרְטוּב |  | yes |
-| [S02040](https://jastrow.app/#rid:S02040) | alt | קִירְ׳ | קִרְיָה II |  | yes |
-| [S02045](https://jastrow.app/#rid:S02045) | alt | קִי׳ | קִרְיוּתָא |  | yes |
-| [S02049](https://jastrow.app/#rid:S02049) | alt | קוֹ׳ | קִרְיָיא |  |  |
-| [S02049](https://jastrow.app/#rid:S02049) | alt | קוּ׳ | קִרְיָיא |  |  |
-| [S02049](https://jastrow.app/#rid:S02049) | alt | קי׳ | קִרְיָיא |  |  |
-| [S02077](https://jastrow.app/#rid:S02077) | alt | קְרִצְ׳ | קְרִיצְתָּא |  |  |
-| [S02091](https://jastrow.app/#rid:S02091) | alt | קִי׳ | קִרְמָא |  | yes |
-| [S02095](https://jastrow.app/#rid:S02095) | alt | קִירַ׳ | קְרַמְיוֹן |  | yes |
-| [S02122](https://jastrow.app/#rid:S02122) | alt | קִי׳ | *קִרְסֵי |  | yes |
-| [S02145](https://jastrow.app/#rid:S02145) | alt | קוּרְ׳ | קְרַץ III |  |  |
-| [S02179](https://jastrow.app/#rid:S02179) | alt | קַרְקֵי׳ | קַרְקֵפֶל |  | yes |
-| [S02190](https://jastrow.app/#rid:S02190) | alt | קַרְקִי׳ | קַרְקְשָׁא |  | yes |
-| [S02203](https://jastrow.app/#rid:S02203) | alt | קָ׳ | קַרְתָּא |  |  |
-| [S02204](https://jastrow.app/#rid:S02204) | alt | קֹרָ׳ | קָרְתָא |  |  |
-| [S02223](https://jastrow.app/#rid:S02223) | alt | קִי׳ | קִשּׁוּאִים |  |  |
-| [S02244](https://jastrow.app/#rid:S02244) | alt | קְשִׁ׳ | קַשִּׁיט |  |  |
-| [S02251](https://jastrow.app/#rid:S02251) | alt | קָשִׁ׳ | קַשִּׁישׁ |  |  |
-| [S02285](https://jastrow.app/#rid:S02285) | alt | קְתִידְ׳ | קְתִדְרָא |  |  |
-| [S02286](https://jastrow.app/#rid:S02286) | alt | קְתִידְ׳ | קְתִדְרִין |  | yes |
-| [S02288](https://jastrow.app/#rid:S02288) | alt | קָתְלִי׳ | קָתוֹלִיקוֹס |  | yes |
-| [T00053](https://jastrow.app/#rid:T00053) | alt | רִי׳ | רִבְבַת |  |  |
-| [T00057](https://jastrow.app/#rid:T00057) | alt | רִי׳ | רִבְדָּא |  | yes |
-| [T00064](https://jastrow.app/#rid:T00064) | alt | רִיבּ׳ | רִבּוֹא |  | yes |
-| [T00065](https://jastrow.app/#rid:T00065) | alt | רִי׳ | רִבּוֹא² |  | yes |
-| [T00073](https://jastrow.app/#rid:T00073) | alt | רִי׳ | רִבּוֹן² |  |  |
-| [T00074](https://jastrow.app/#rid:T00074) | alt | רִיבּ׳ | רִבּוּנָא |  | yes |
-| [T00086](https://jastrow.app/#rid:T00086) | alt | רַ׳ | רָבֵי |  |  |
-| [T00111](https://jastrow.app/#rid:T00111) | alt | רִי׳ | רִבִּית |  | yes |
-| [T00112](https://jastrow.app/#rid:T00112) | alt | רִי׳ | רִבִּית² |  |  |
-| [T00127](https://jastrow.app/#rid:T00127) | alt | רַבַּ׳ | רַבַסָּא |  |  |
-| [T00131](https://jastrow.app/#rid:T00131) | alt | רִי׳ | רִבְעָא |  | yes |
-| [T00142](https://jastrow.app/#rid:T00142) | alt | רִי׳ | רִבְקָא |  | yes |
-| [T00159](https://jastrow.app/#rid:T00159) | alt | רִי׳ | רְגָגָא |  |  |
-| [T00186](https://jastrow.app/#rid:T00186) | alt | רְ׳ | רָגִיג |  |  |
-| [T00187](https://jastrow.app/#rid:T00187) | alt | רְגִגְ׳ | רְגִיגְתָּא |  | yes |
-| [T00205](https://jastrow.app/#rid:T00205) | alt | רִי׳ | רֶגֶל² |  |  |
-| [T00206](https://jastrow.app/#rid:T00206) | alt | רִי׳ | רִגְלָאָה |  |  |
-| [T00207](https://jastrow.app/#rid:T00207) | alt | רי׳ | רגלותא |  |  |
-| [T00214](https://jastrow.app/#rid:T00214) | alt | רִי׳ | רִגְמָא |  | yes |
-| [T00219](https://jastrow.app/#rid:T00219) | alt | רִי׳ | רִגְעָא |  | yes |
-| [T00227](https://jastrow.app/#rid:T00227) | alt | רִי׳ | רְגָשָׁא |  |  |
-| [T00228](https://jastrow.app/#rid:T00228) | alt | רִי׳ | רִגְּתָא |  | yes |
-| [T00247](https://jastrow.app/#rid:T00247) | alt | רִי׳ | רִדְיָא |  |  |
-| [T00269](https://jastrow.app/#rid:T00269) | alt | רָ׳ | רַדְתָּא |  | yes |
-| [T00282](https://jastrow.app/#rid:T00282) | alt | רִי׳ | רִהֲטוֹן |  | yes |
-| [T00328](https://jastrow.app/#rid:T00328) | alt | רֵי׳ | רֶוַוח |  |  |
-| [T00330](https://jastrow.app/#rid:T00330) | alt | רְוַחְ׳ | רְוָוחָא |  |  |
-| [T00349](https://jastrow.app/#rid:T00349) | alt | רוֹ׳ | רוּחְצָן |  |  |
-| [T00349](https://jastrow.app/#rid:T00349) | alt | רָחֲצָ׳ | רוּחְצָן |  |  |
-| [T00360](https://jastrow.app/#rid:T00360) | alt | רַוְו׳ | רַוֵּי |  |  |
-| [T00365](https://jastrow.app/#rid:T00365) | alt | רַוְו׳ | רַוְיָיתָא |  |  |
-| [T00387](https://jastrow.app/#rid:T00387) | alt | רוֹ׳ | רוּמְחָא |  | yes |
-| [T00494](https://jastrow.app/#rid:T00494) | alt | רִיחְ׳ | רִחְיָא |  |  |
-| [T00494](https://jastrow.app/#rid:T00494) | alt | רֵי׳ | רִחְיָא |  |  |
-| [T00495](https://jastrow.app/#rid:T00495) | alt | רֵי׳ | רֵחַיִים |  |  |
-| [T00508](https://jastrow.app/#rid:T00508) | alt | רְ׳ | רָחִיק II |  |  |
-| [T00515](https://jastrow.app/#rid:T00515) | alt | רְחֵי׳ | רְחֵלָא |  |  |
-| [T00521](https://jastrow.app/#rid:T00521) | alt | רַחְ׳ | רַחֲמָא |  | yes |
-| [T00522](https://jastrow.app/#rid:T00522) | alt | רַחְ׳ | רַחֲמָא² |  |  |
-| [T00523](https://jastrow.app/#rid:T00523) | alt | רַחְ׳ | רַחְמָא |  |  |
-| [T00543](https://jastrow.app/#rid:T00543) | alt | רִו׳ | רְחֵשׁ |  |  |
-| [T00546](https://jastrow.app/#rid:T00546) | alt | רִי׳ | רִחֲתָא |  | yes |
-| [T00561](https://jastrow.app/#rid:T00561) | alt | רְ׳ | רַטִּיב |  |  |
-| [T00586](https://jastrow.app/#rid:T00586) | alt | רִבּ׳ | רִיבּוּי |  | yes |
-| [T00587](https://jastrow.app/#rid:T00587) | alt | רִבּ׳ | רִיבּוּיָא |  |  |
-| [T00589](https://jastrow.app/#rid:T00589) | alt | רִבּ׳ | רִיבּוּעַ |  | yes |
-| [T00590](https://jastrow.app/#rid:T00590) | alt | רִבּ׳ | רִיבּוּעַ² |  |  |
-| [T00598](https://jastrow.app/#rid:T00598) | alt | רִגְּ׳ | רִיגּוּג |  |  |
-| [T00600](https://jastrow.app/#rid:T00600) | alt | רִגּ׳ | רִיגּוּשׁ² |  |  |
-| [T00609](https://jastrow.app/#rid:T00609) | alt | רִהֲ׳ | רִיהֲטָא |  | yes |
-| [T00631](https://jastrow.app/#rid:T00631) | alt | רֵחְ׳ | רִיחְתָנָא |  | yes |
-| [T00640](https://jastrow.app/#rid:T00640) | alt | רִכּ׳ | רִיכּוּנָא |  | yes |
-| [T00647](https://jastrow.app/#rid:T00647) | alt | רֵימְ׳ | רֵימָנָא |  | yes |
-| [T00650](https://jastrow.app/#rid:T00650) | alt | רִנּ׳ | רִינּוּן |  | yes |
-| [T00651](https://jastrow.app/#rid:T00651) | alt | רִנּ׳ | רִינּוּנָא |  | yes |
-| [T00656](https://jastrow.app/#rid:T00656) | alt | רִי׳ | רֵיסָא |  | yes |
-| [T00660](https://jastrow.app/#rid:T00660) | alt | רִסּ׳ | רִיסּוּקָא |  | yes |
-| [T00667](https://jastrow.app/#rid:T00667) | alt | רִסְ׳ | רִיסְתָּקָא |  | yes |
-| [T00673](https://jastrow.app/#rid:T00673) | alt | רֵע׳ | רֵיעוּתָא |  | yes |
-| [T00678](https://jastrow.app/#rid:T00678) | alt | רִפּ׳ | רִיפּוּי |  | yes |
-| [T00693](https://jastrow.app/#rid:T00693) | alt | רֵקָ׳ | רֵיקָא |  |  |
-| [T00695](https://jastrow.app/#rid:T00695) | alt | רִקּ׳ | רִיקּוּד |  | yes |
-| [T00697](https://jastrow.app/#rid:T00697) | alt | רִקּ׳ | רִיקּוּחַ |  | yes |
-| [T00699](https://jastrow.app/#rid:T00699) | alt | רִקּ׳ | רִיקּוּעַ |  | yes |
-| [T00707](https://jastrow.app/#rid:T00707) | alt | רִקָ׳ | רֵיקָן² |  |  |
-| [T00722](https://jastrow.app/#rid:T00722) | alt | רִשּׁ׳ | רִישּׁוּם |  | yes |
-| [T00736](https://jastrow.app/#rid:T00736) | alt | רִתּ׳ | רִיתּוּת |  | yes |
-| [T00749](https://jastrow.app/#rid:T00749) | alt | רִיכְ׳ | רִכְבָּא |  | yes |
-| [T00775](https://jastrow.app/#rid:T00775) | alt | רִי׳ | רִכְסָא I |  | yes |
-| [T00776](https://jastrow.app/#rid:T00776) | alt | רִי׳ | רִכְסָא |  | yes |
-| [T00778](https://jastrow.app/#rid:T00778) | alt | רִיכְ׳ | רִכְפַּת |  | yes |
-| [T00779](https://jastrow.app/#rid:T00779) | alt | רִי׳ | רִכְשָׁא |  | yes |
-| [T00793](https://jastrow.app/#rid:T00793) | alt | רִי׳ | רִמָּה |  | yes |
-| [T00795](https://jastrow.app/#rid:T00795) | alt | רִי׳ | רִמּוֹן |  | yes |
-| [T00796](https://jastrow.app/#rid:T00796) | alt | רִי׳ | רִמֹּון |  |  |
-| [T00836](https://jastrow.app/#rid:T00836) | alt | רִי׳ | רִמְצָא |  | yes |
-| [T00838](https://jastrow.app/#rid:T00838) | alt | רוּמְ׳ | רְמַשׁ |  |  |
-| [T00839](https://jastrow.app/#rid:T00839) | alt | רוּ׳ | רַמְשִׁית |  | yes |
-| [T00844](https://jastrow.app/#rid:T00844) | alt | רִי׳ | רִנָּה |  | yes |
-| [T00849](https://jastrow.app/#rid:T00849) | alt | רִי׳ | רְנָנָא |  |  |
-| [T00858](https://jastrow.app/#rid:T00858) | alt | רִי׳ | רִסְנָא |  | yes |
-| [T00884](https://jastrow.app/#rid:T00884) | alt | רַעֲ׳ | רַעְוָא |  | yes |
-| [T00885](https://jastrow.app/#rid:T00885) | alt | רַעֲ׳ | רַעְוָא² |  | yes |
-| [T00894](https://jastrow.app/#rid:T00894) | alt | רֵי׳ | רֵעִי |  |  |
-| [T00954](https://jastrow.app/#rid:T00954) | alt | רִי׳ | רִפְסָא |  | yes |
-| [T00962](https://jastrow.app/#rid:T00962) | alt | רִי׳ | רִפְקָא |  | yes |
-| [T00994](https://jastrow.app/#rid:T00994) | alt | רוֹ׳ | רַצְעָנָא |  | yes |
-| [T00998](https://jastrow.app/#rid:T00998) | alt | רִי׳ | רִצְפָה |  | yes |
-| [T01000](https://jastrow.app/#rid:T01000) | alt | רִיצְ׳ | רִצְפְּתָא |  | yes |
-| [T01012](https://jastrow.app/#rid:T01012) | alt | רִי׳ | רִקְבָּא |  | yes |
-| [T01044](https://jastrow.app/#rid:T01044) | alt | רִי׳ | רִקְמָא |  | yes |
-| [T01069](https://jastrow.app/#rid:T01069) | alt | רִישְׁ׳ | רִשְׁבָּא |  | yes |
-| [T01070](https://jastrow.app/#rid:T01070) | alt | רִישְׁ׳ | רִשְׁבִּין |  | yes |
-| [T01081](https://jastrow.app/#rid:T01081) | alt | רָ׳ | רְשׁוּתָא |  |  |
-| [T01084](https://jastrow.app/#rid:T01084) | alt | רָ׳ | רַשְׁיָא |  | yes |
-| [T01085](https://jastrow.app/#rid:T01085) | alt | רַשַּׁ׳ | רָשַׁיָּא |  | yes |
-| [T01087](https://jastrow.app/#rid:T01087) | alt | רָשִׁ׳ | רַשִּׁיעָא |  |  |
-| [T01103](https://jastrow.app/#rid:T01103) | alt | רִי׳ | רִשְׁעָא |  |  |
-| [T01109](https://jastrow.app/#rid:T01109) | alt | רִי׳ | רִשְׁפָּא |  | yes |
-| [T01110](https://jastrow.app/#rid:T01110) | alt | רִי׳ | רְשַׁק |  |  |
-| [T01125](https://jastrow.app/#rid:T01125) | alt | רִי׳ | רִתְחָא |  | yes |
-| [T01142](https://jastrow.app/#rid:T01142) | alt | רִי׳ | רִתְמָא |  | yes |
-| [T01142](https://jastrow.app/#rid:T01142) | alt | רוּ׳ | רִתְמָא |  | yes |
-| [T01147](https://jastrow.app/#rid:T01147) | alt | רִי׳ | רִתְקָא |  | yes |
-| [U00033](https://jastrow.app/#rid:U00033) | alt | שְׁאִי׳ | שְׁאֵלָה |  | yes |
-| [U00067](https://jastrow.app/#rid:U00067) | alt | שִׁבְ׳ | שִׁבְּבִין |  | yes |
-| [U00067](https://jastrow.app/#rid:U00067) | alt | שֵׁיבְ׳ | שִׁבְּבִין |  | yes |
-| [U00069](https://jastrow.app/#rid:U00069) | alt | שִׁי׳ | שִׁבְהוֹר |  |  |
-| [U00105](https://jastrow.app/#rid:U00105) | alt | שׁוּ׳ | שְׁבַט II |  |  |
-| [U00112](https://jastrow.app/#rid:U00112) | alt | שִׁי׳ | שְׁבִי² |  |  |
-| [U00140](https://jastrow.app/#rid:U00140) | alt | שִׁבְּ׳ | שִׁבְלָא |  | yes |
-| [U00140](https://jastrow.app/#rid:U00140) | alt | שֻׁבְּ׳ | שִׁבְלָא |  | yes |
-| [U00146](https://jastrow.app/#rid:U00146) | alt | שִׂ׳ | שִׁבְלֵי |  | yes |
-| [U00156](https://jastrow.app/#rid:U00156) | alt | שַׁ׳ | שְׁבַע I |  |  |
-| [U00156](https://jastrow.app/#rid:U00156) | alt | שׁוּ׳ | שְׁבַע I |  |  |
-| [U00162](https://jastrow.app/#rid:U00162) | alt | שָׂבְ׳ | שָׂבָע |  |  |
-| [U00170](https://jastrow.app/#rid:U00170) | alt | שִׁי׳ | שִׁבְקָא |  | yes |
-| [U00171](https://jastrow.app/#rid:U00171) | alt | שִׁי׳ | שִׁבְקָא² |  | yes |
-| [U00188](https://jastrow.app/#rid:U00188) | alt | שִׁי׳ | שִׁבְשָׁא |  | yes |
-| [U00195](https://jastrow.app/#rid:U00195) | alt | שְׁבִישְׁ׳ | שְׁבִשְׁתָּא |  |  |
-| [U00213](https://jastrow.app/#rid:U00213) | alt | שִׁי׳ | שִׁגְדָּא |  | yes |
-| [U00231](https://jastrow.app/#rid:U00231) | alt | שִׁי׳ | שִׁגְמָא |  | yes |
-| [U00238](https://jastrow.app/#rid:U00238) | alt | שִׁי׳ | שִׁגְרָא |  | yes |
-| [U00239](https://jastrow.app/#rid:U00239) | alt | שִׁי׳ | שִׁגְרוֹנָא |  | yes |
-| [U00248](https://jastrow.app/#rid:U00248) | alt | שַׁגִּישְׁ׳ | שַׁגִּשְׁיָא |  | yes |
-| [U00252](https://jastrow.app/#rid:U00252) | alt | שֵׁי׳ | שֵׁדָא |  | yes |
-| [U00281](https://jastrow.app/#rid:U00281) | alt | שִׁי׳ | שִׁדָּפוֹן |  | yes |
-| [U00282](https://jastrow.app/#rid:U00282) | alt | שִׁידּ׳ | שִׁדְּפוֹנָא |  |  |
-| [U00282](https://jastrow.app/#rid:U00282) | alt | שׁוּדְּ׳ | שִׁדְּפוֹנָא |  |  |
-| [U00287](https://jastrow.app/#rid:U00287) | alt | שִׁי׳ | שִׁדְרָא |  | yes |
-| [U00287](https://jastrow.app/#rid:U00287) | alt | שׁוּ׳ | שִׁדְרָא |  | yes |
-| [U00289](https://jastrow.app/#rid:U00289) | alt | שִׁי׳ | שִׁדְרָה |  | yes |
-| [U00323](https://jastrow.app/#rid:U00323) | alt | שׁוּבְּ׳ | שׁוֹבַל |  |  |
-| [U00327](https://jastrow.app/#rid:U00327) | alt | שׂוּ׳ | שׂוֹבַע² |  |  |
-| [U00335](https://jastrow.app/#rid:U00335) | alt | שׂוֹדָ׳ | שׂוּדָנִי |  | yes |
-| [U00366](https://jastrow.app/#rid:U00366) | alt | שׁוּחֲ׳ | שׁוֹחֲדָא |  | yes |
-| [U00366](https://jastrow.app/#rid:U00366) | alt | שׁוּחְ׳ | שׁוֹחֲדָא |  | yes |
-| [U00370](https://jastrow.app/#rid:U00370) | alt | שׁוּ׳ | שׁוֹחֲנָא |  | yes |
-| [U00396](https://jastrow.app/#rid:U00396) | alt | שִׁיוְו׳ | שַׁוְיָא II |  |  |
-| [U00396](https://jastrow.app/#rid:U00396) | alt | שִׁיוּוּ׳ | שַׁוְיָא II |  |  |
-| [U00399](https://jastrow.app/#rid:U00399) | alt | שַׁוְו׳ | שַׁוְיוּתָא |  | yes |
-| [U00399](https://jastrow.app/#rid:U00399) | alt | שַׁוְיָי׳ | שַׁוְיוּתָא |  | yes |
-| [U00420](https://jastrow.app/#rid:U00420) | alt | שֻׁלְ׳ | שׁוּלְחָן |  | yes |
-| [U00425](https://jastrow.app/#rid:U00425) | alt | שָׁלְ׳ | שׁוּלְטָנוּת |  | yes |
-| [U00426](https://jastrow.app/#rid:U00426) | alt | שָׁלְ׳ | שׁוּלְטָנוּתָא |  | yes |
-| [U00428](https://jastrow.app/#rid:U00428) | alt | שְׁוַו׳ | שְׁוַלְיָא |  | yes |
-| [U00431](https://jastrow.app/#rid:U00431) | alt | הַשּׁ׳ | שׁוּלָמִי |  | yes |
-| [U00474](https://jastrow.app/#rid:U00474) | alt | שִׁי׳ | שׁוּסְתָּג |  | yes |
-| [U00510](https://jastrow.app/#rid:U00510) | alt | שׁוֹפְ׳ | שׁוֹפָרָא |  | yes |
-| [U00549](https://jastrow.app/#rid:U00549) | alt | ס׳ | שׁוּרְיָיקָא |  | yes |
-| [U00561](https://jastrow.app/#rid:U00561) | alt | שׁוּ׳ | שׁוֹשְׁבִינָא |  | yes |
-| [U00595](https://jastrow.app/#rid:U00595) | alt | שְׁזוּ׳ | שִׁזּוּגָא |  | yes |
-| [U00598](https://jastrow.app/#rid:U00598) | alt | שְׁ׳ | שֵׁזִיבוּ |  | yes |
-| [U00608](https://jastrow.app/#rid:U00608) | alt | שִׁי׳ | שִׁזְרָה |  | yes |
-| [U00609](https://jastrow.app/#rid:U00609) | alt | שִׁ׳ | שֵׁזַרְתָּא |  | yes |
-| [U00609](https://jastrow.app/#rid:U00609) | alt | שֵׁי׳ | שֵׁזַרְתָּא |  | yes |
-| [U00644](https://jastrow.app/#rid:U00644) | alt | שִׁי׳ | שִׁחְיָא |  | yes |
-| [U00666](https://jastrow.app/#rid:U00666) | alt | שִׁי׳ | שִׁחְלַיָּיא |  | yes |
-| [U00667](https://jastrow.app/#rid:U00667) | alt | שִׁי׳ | שִׁחְלַיִים |  |  |
-| [U00674](https://jastrow.app/#rid:U00674) | alt | שִׁי׳ | שִׁחְמָא |  | yes |
-| [U00678](https://jastrow.app/#rid:U00678) | alt | שִׁי׳ | שִׁחְנָא |  | yes |
-| [U00720](https://jastrow.app/#rid:U00720) | alt | שִׁי׳ | שִׁחֲרֵר |  | yes |
-| [U00727](https://jastrow.app/#rid:U00727) | alt | שִׁי׳ | שִׁחֲתָא |  | yes |
-| [U00752](https://jastrow.app/#rid:U00752) | alt | שִׁיטִּ׳ | שָׁטִּים |  | yes |
-| [U00761](https://jastrow.app/#rid:U00761) | alt | שִׂי׳ | שָׂטָן² |  |  |
-| [U00765](https://jastrow.app/#rid:U00765) | alt | שִׁי׳ | שִׁטְפָא |  | yes |
-| [U00772](https://jastrow.app/#rid:U00772) | alt | שִׁיטְ׳ | שִׁטְרָא |  | yes |
-| [U00784](https://jastrow.app/#rid:U00784) | alt | שִׁיבְ׳ | שֵּׁיבָבָא |  | yes |
-| [U00784](https://jastrow.app/#rid:U00784) | alt | שֵׁבְ׳ | שֵּׁיבָבָא |  | yes |
-| [U00785](https://jastrow.app/#rid:U00785) | alt | שֵׁבְ׳ | שֵׁיבְבוּתָא |  | yes |
-| [U00791](https://jastrow.app/#rid:U00791) | alt | שִׁבּ׳ | שִׁיבּוּחָא |  | yes |
-| [U00792](https://jastrow.app/#rid:U00792) | alt | שִׁבּ׳ | שִׁיבּוּטָא |  | yes |
-| [U00794](https://jastrow.app/#rid:U00794) | alt | שִׁבּוֹ׳ | שִׁיבּוֹלֶת |  |  |
-| [U00795](https://jastrow.app/#rid:U00795) | alt | שִׁבּ׳ | שִׁיבּוּלְתָּא |  | yes |
-| [U00796](https://jastrow.app/#rid:U00796) | alt | שִׁבּ׳ | שִׁיבּוּקָא |  | yes |
-| [U00797](https://jastrow.app/#rid:U00797) | alt | שִׁבּ׳ | שִׁיבּוּר |  | yes |
-| [U00798](https://jastrow.app/#rid:U00798) | alt | שִׁבּ׳ | שִׁיבּוּשׁ |  | yes |
-| [U00804](https://jastrow.app/#rid:U00804) | alt | שִׁיבְ׳ | שִׁיבְּלָא |  | yes |
-| [U00805](https://jastrow.app/#rid:U00805) | alt | שִׁבְ׳ | שִׁיבְלַי |  | yes |
-| [U00805](https://jastrow.app/#rid:U00805) | alt | שִׂ׳ | שִׁיבְלַי |  | yes |
-| [U00816](https://jastrow.app/#rid:U00816) | alt | שִׁגּ׳ | שִׁיגּוּשׁ |  |  |
-| [U00817](https://jastrow.app/#rid:U00817) | alt | שִׁגּ׳ | שִׁיגּוּשְׁיָא |  | yes |
-| [U00818](https://jastrow.app/#rid:U00818) | alt | שִׁגּ׳ | שִׁיגּוּשְׁתָּא |  | yes |
-| [U00827](https://jastrow.app/#rid:U00827) | alt | שִׁדּ׳ | שִׁידּוּכָא |  |  |
-| [U00843](https://jastrow.app/#rid:U00843) | alt | שֵׁזֵ׳ | שֵׁיזֵב |  |  |
-| [U00844](https://jastrow.app/#rid:U00844) | alt | שֵׁזְ׳ | שֵׁיזְבָא |  | yes |
-| [U00845](https://jastrow.app/#rid:U00845) | alt | שֵׁזָ׳ | שֵׁיזָבוּ |  |  |
-| [U00848](https://jastrow.app/#rid:U00848) | alt | שִׁזּ׳ | שִׁיזּוּגָא |  | yes |
-| [U00850](https://jastrow.app/#rid:U00850) | alt | שִׁזְ׳ | שִׁיזְפִין |  | yes |
-| [U00860](https://jastrow.app/#rid:U00860) | alt | שׁוּ׳ | שִׁיחָה |  | yes |
-| [U00875](https://jastrow.app/#rid:U00875) | alt | שִׁחְ׳ | שִׁיחְרוּר |  | yes |
-| [U00876](https://jastrow.app/#rid:U00876) | alt | שִׁחְ׳ | שִׁיחְרוּרָא |  | yes |
-| [U00879](https://jastrow.app/#rid:U00879) | alt | שַׁיָּי׳ | שַׁיָּטָא |  | yes |
-| [U00914](https://jastrow.app/#rid:U00914) | alt | שְׁיַרְ׳ | שְׁיַירְתָּא |  |  |
-| [U00920](https://jastrow.app/#rid:U00920) | alt | שִׁכּ׳ | שִׁיכּוּן |  | yes |
-| [U00924](https://jastrow.app/#rid:U00924) | alt | שִׁכְ׳ | שִׁיכְלוּל |  | yes |
-| [U00925](https://jastrow.app/#rid:U00925) | alt | שִׁכְ׳ | שִׁיכלוּלָא |  | yes |
-| [U00925](https://jastrow.app/#rid:U00925) | alt | שַׁכ׳ | שִׁיכלוּלָא |  | yes |
-| [U00928](https://jastrow.app/#rid:U00928) | alt | שִׁכְ׳ | שִׁיכְמִי |  | yes |
-| [U00942](https://jastrow.app/#rid:U00942) | alt | שִׁלּ׳ | *שִׁילּוּט |  | yes |
-| [U00956](https://jastrow.app/#rid:U00956) | alt | שִׁמָּ׳ | שִׁימָּאָה |  | yes |
-| [U00958](https://jastrow.app/#rid:U00958) | alt | שִׁמּ׳ | שִׁימּוּט |  | yes |
-| [U00960](https://jastrow.app/#rid:U00960) | alt | שִׁמּ׳ | שִׁימּוּר |  | yes |
-| [U00961](https://jastrow.app/#rid:U00961) | alt | שִׁמּ׳ | שִׁימּוּשׁ |  | yes |
-| [U00962](https://jastrow.app/#rid:U00962) | alt | שִׁמּ׳ | שִׁימּוּשָׁא |  | yes |
-| [U00971](https://jastrow.app/#rid:U00971) | alt | שִׁנְ׳ | שִׁינְדְּפִין |  | yes |
-| [U00973](https://jastrow.app/#rid:U00973) | alt | שִׁנּ׳ | שִׁינּוּי |  | yes |
-| [U00974](https://jastrow.app/#rid:U00974) | alt | שִׁנּ׳ | שִׁינּוּיָא |  | yes |
-| [U00975](https://jastrow.app/#rid:U00975) | alt | שִׁנּ׳ | שִׁינּוּן |  | yes |
-| [U00976](https://jastrow.app/#rid:U00976) | alt | שִׁנּ׳ | שִׁינּוּקָא |  | yes |
-| [U00976](https://jastrow.app/#rid:U00976) | alt | שִׁירְנ׳ | שִׁינּוּקָא |  | yes |
-| [U00976](https://jastrow.app/#rid:U00976) | alt | שִׁרְנ׳ | שִׁינּוּקָא |  | yes |
-| [U00984](https://jastrow.app/#rid:U00984) | alt | שִׁסּ׳ | שִׁיסּוּעַ |  | yes |
-| [U00992](https://jastrow.app/#rid:U00992) | alt | שִׁע׳ | שִׁיעוּרָא |  | yes |
-| [U01011](https://jastrow.app/#rid:U01011) | alt | שִׁפּ׳ | שִׁיפּוּט |  | yes |
-| [U01012](https://jastrow.app/#rid:U01012) | alt | שִׁפּ׳ | שִׁיפּוּי |  | yes |
-| [U01013](https://jastrow.app/#rid:U01013) | alt | שִׁפּ׳ | שִׁיפּוּי² |  | yes |
-| [U01015](https://jastrow.app/#rid:U01015) | alt | שִׁפּ׳ | שִׁיפּוּל |  | yes |
-| [U01016](https://jastrow.app/#rid:U01016) | alt | שִׁפּ׳ | שִׁיפּוּלָא |  | yes |
-| [U01019](https://jastrow.app/#rid:U01019) | alt | שִׁפּ׳ | שִׁיפּוּעַ |  | yes |
-| [U01020](https://jastrow.app/#rid:U01020) | alt | שִׁפּ׳ | שִׁיפּוּעָא |  | yes |
-| [U01024](https://jastrow.app/#rid:U01024) | alt | שִׁפְ׳ | שִׁיפְיוּת |  | yes |
-| [U01034](https://jastrow.app/#rid:U01034) | alt | שֵׁצְ׳ | שֵׁיצְיָא |  | yes |
-| [U01034](https://jastrow.app/#rid:U01034) | alt | שַׁצְ׳ | שֵׁיצְיָא |  | yes |
-| [U01035](https://jastrow.app/#rid:U01035) | alt | שֵׁצָ׳ | שֵׁיצְיוּ |  |  |
-| [U01037](https://jastrow.app/#rid:U01037) | alt | שׁוּ׳ | שִׁיצִינָא |  | yes |
-| [U01040](https://jastrow.app/#rid:U01040) | alt | שִׁקּ׳ | שִׁיקּוּיָיא |  | yes |
-| [U01041](https://jastrow.app/#rid:U01041) | alt | שִׁקּ׳ | שִׁיקּוּל |  | yes |
-| [U01042](https://jastrow.app/#rid:U01042) | alt | שִׁקּ׳ | שִׁיקּוּעַ |  | yes |
-| [U01043](https://jastrow.app/#rid:U01043) | alt | שִׁקּ׳ | שִׁיקּוּעָא |  | yes |
-| [U01044](https://jastrow.app/#rid:U01044) | alt | שִׁקּ׳ | שִׁיקּוּץ |  | yes |
-| [U01045](https://jastrow.app/#rid:U01045) | alt | שִׁקּ׳ | שִׁיקּוּץ² |  |  |
-| [U01046](https://jastrow.app/#rid:U01046) | alt | שִׁקּ׳ | שִׁיקּוּר |  | yes |
-| [U01065](https://jastrow.app/#rid:U01065) | alt | שֵׁר׳ | שֵׁירוּי |  |  |
-| [U01067](https://jastrow.app/#rid:U01067) | alt | שֵׂר׳ | שֵׂירוּף |  | yes |
-| [U01069](https://jastrow.app/#rid:U01069) | alt | שֵׁר׳ | שֵׁירוּתָא |  | yes |
-| [U01070](https://jastrow.app/#rid:U01070) | alt | שֵׁר׳ | שֵׁירוּתָא² |  |  |
-| [U01071](https://jastrow.app/#rid:U01071) | alt | שֵׁר׳ | שֵׁירוּתָא³ |  |  |
-| [U01072](https://jastrow.app/#rid:U01072) | alt | שִׁרְ׳ | שִׁירְטוּט |  | yes |
-| [U01091](https://jastrow.app/#rid:U01091) | alt | שַׁיי׳ | שַׁיִשׁ² |  |  |
-| [U01095](https://jastrow.app/#rid:U01095) | alt | שִׁירְשׁ׳ | שִׁישׁוּרָא |  | yes |
-| [U01095](https://jastrow.app/#rid:U01095) | alt | שִׁרְשׁ׳ | שִׁישׁוּרָא |  | yes |
-| [U01103](https://jastrow.app/#rid:U01103) | alt | שִׁתָּ׳ | שִׁית IV |  |  |
-| [U01107](https://jastrow.app/#rid:U01107) | alt | שִׁתּ׳ | שִׁיתּוּמָא |  | yes |
-| [U01117](https://jastrow.app/#rid:U01117) | alt | שִׁי׳ | שִׁכְבָּא |  | yes |
-| [U01121](https://jastrow.app/#rid:U01121) | alt | שׁוּכְ׳ | שִׁכְבְּתָא |  | yes |
-| [U01136](https://jastrow.app/#rid:U01136) | alt | שִׁי׳ | שִׁכּוֹר |  | yes |
-| [U01140](https://jastrow.app/#rid:U01140) | alt | שִׁי׳ | שִׁכְחָה |  | yes |
-| [U01163](https://jastrow.app/#rid:U01163) | alt | שַׁכְ׳ | שִׁכְלוּל |  |  |
-| [U01166](https://jastrow.app/#rid:U01166) | alt | שִׁיכְ׳ | שִׁכְלֵל |  | yes |
-| [U01188](https://jastrow.app/#rid:U01188) | alt | שִׁי׳ | שִׁכְרָא |  | yes |
-| [U01189](https://jastrow.app/#rid:U01189) | alt | שִׁי׳ | שִׁכָּרָא |  | yes |
-| [U01190](https://jastrow.app/#rid:U01190) | alt | שִׁי׳ | שִׁכָּרוּת |  | yes |
-| [U01191](https://jastrow.app/#rid:U01191) | alt | שִׁיכְ׳ | שִׁכְשׁוּךְ |  | yes |
-| [U01199](https://jastrow.app/#rid:U01199) | alt | שְׁלַאֲ׳ | שַׁלְאֲהוּתָא |  | yes |
-| [U01213](https://jastrow.app/#rid:U01213) | alt | שִׁי׳ | שִׁלְדָּא |  | yes |
-| [U01220](https://jastrow.app/#rid:U01220) | alt | שַׁלְהֵי׳ | שַׁלְהוֹבָא |  | yes |
-| [U01222](https://jastrow.app/#rid:U01222) | alt | שִׁי׳ | שִׁלְהֲוֵי |  | yes |
-| [U01223](https://jastrow.app/#rid:U01223) | alt | שִׁי׳ | שִׁלְהֵי |  | yes |
-| [U01263](https://jastrow.app/#rid:U01263) | alt | שְׁ׳ | שָׁלוּתָא |  |  |
-| [U01271](https://jastrow.app/#rid:U01271) | alt | שִׁי׳ | שִׁלְחָא |  | yes |
-| [U01272](https://jastrow.app/#rid:U01272) | alt | שִׁי׳ | שִׁלְחָא² |  | yes |
-| [U01284](https://jastrow.app/#rid:U01284) | alt | שִׁי׳ | שִׁלְטָא |  | yes |
-| [U01285](https://jastrow.app/#rid:U01285) | alt | שִׁי׳ | שִׁלְטוֹן |  | yes |
-| [U01286](https://jastrow.app/#rid:U01286) | alt | שִׁי׳ | שִׁלְטוֹן² |  |  |
-| [U01295](https://jastrow.app/#rid:U01295) | alt | שִׁי׳ | שִׁלְיָא |  |  |
-| [U01296](https://jastrow.app/#rid:U01296) | alt | שִׁי׳ | שִׁלְיָא² |  | yes |
-| [U01297](https://jastrow.app/#rid:U01297) | alt | שִׁי׳ | שִׁלְיָא³ |  |  |
-| [U01326](https://jastrow.app/#rid:U01326) | alt | שְׁלֵי׳ | שְׁלִים |  |  |
-| [U01328](https://jastrow.app/#rid:U01328) | alt | שְׁלֵי׳ | שְׁלִימוּתָא |  |  |
-| [U01338](https://jastrow.app/#rid:U01338) | alt | שִׁלְיי׳ | שִׁלְיְתָא |  |  |
-| [U01338](https://jastrow.app/#rid:U01338) | alt | שִׁילְ׳ | שִׁלְיְתָא |  |  |
-| [U01391](https://jastrow.app/#rid:U01391) | alt | שִׁי׳ | שִׁלְשׁוּל |  | yes |
-| [U01392](https://jastrow.app/#rid:U01392) | alt | שִׁי׳ | שִׁלְשׁוּל² |  | yes |
-| [U01393](https://jastrow.app/#rid:U01393) | alt | שׁי׳ | שִׁלְשׁוּל³ |  | yes |
-| [U01396](https://jastrow.app/#rid:U01396) | alt | שִׁילְ׳ | שִׁלְשֵׁל |  |  |
-| [U01402](https://jastrow.app/#rid:U01402) | alt | שׁוּלְשֶׁילְ׳ | שַׁלְשֶׁלְתָּא |  | yes |
-| [U01402](https://jastrow.app/#rid:U01402) | alt | שׁוֹשֶׁלְ׳ | שַׁלְשֶׁלְתָּא |  | yes |
-| [U01402](https://jastrow.app/#rid:U01402) | alt | שִׁישֶׁ׳ | שַׁלְשֶׁלְתָּא |  | yes |
-| [U01432](https://jastrow.app/#rid:U01432) | alt | שָׁמוּ׳ | שָׁמוֹטָא |  | yes |
-| [U01438](https://jastrow.app/#rid:U01438) | alt | שְׁמוֹ׳ | שְׁמוּעָא |  | yes |
-| [U01459](https://jastrow.app/#rid:U01459) | alt | שְׁמִיטּ׳ | שְׁמִטְּתָא |  |  |
-| [U01495](https://jastrow.app/#rid:U01495) | alt | שְׁ׳ | שְׂמָמִי |  |  |
-| [U01498](https://jastrow.app/#rid:U01498) | alt | שְׁמֵי׳ | שָׁמֵן II |  |  |
-| [U01502](https://jastrow.app/#rid:U01502) | alt | שְׁמֵי׳ | שְׁמֵנָא |  | yes |
-| [U01504](https://jastrow.app/#rid:U01504) | alt | שְׁמוֹ׳ | שְׁמֹנֶה |  |  |
-| [U01522](https://jastrow.app/#rid:U01522) | alt | שִׁימְ׳ | שִׁמְצָא |  | yes |
-| [U01523](https://jastrow.app/#rid:U01523) | alt | שִׁי׳ | שִׁמְצָה |  | yes |
-| [U01531](https://jastrow.app/#rid:U01531) | alt | שׁוֹ׳ | שֹׁמְרוֹן |  | yes |
-| [U01543](https://jastrow.app/#rid:U01543) | alt | שִׁי׳ | שִׁמְשָׁא |  | yes |
-| [U01557](https://jastrow.app/#rid:U01557) | alt | שִׁי׳ | שֵׁן² |  |  |
-| [U01609](https://jastrow.app/#rid:U01609) | alt | שִׁי׳ | שִׁנְצָא |  | yes |
-| [U01630](https://jastrow.app/#rid:U01630) | alt | שִׁי׳ | שִׁעְבּוּד |  | yes |
-| [U01631](https://jastrow.app/#rid:U01631) | alt | שִׁי׳ | שִׁעְבּוּד² |  |  |
-| [U01667](https://jastrow.app/#rid:U01667) | alt | שִׁי׳ | שִׁעֲמוּם |  | yes |
-| [U01668](https://jastrow.app/#rid:U01668) | alt | שִׁי׳ | שִׁעֲמוּם² |  | yes |
-| [U01670](https://jastrow.app/#rid:U01670) | alt | שַׁעֲמִי׳ | שַׁעֲמוּמִיתָא |  | yes |
-| [U01684](https://jastrow.app/#rid:U01684) | alt | שֵׂי׳ | שֵׂעָר |  | yes |
-| [U01705](https://jastrow.app/#rid:U01705) | alt | שִׁי׳ | שִׁפָּא |  | yes |
-| [U01776](https://jastrow.app/#rid:U01776) | alt | שְׁפֵי׳ | שְׁפֵלָה |  | yes |
-| [U01780](https://jastrow.app/#rid:U01780) | alt | שְׁפֵלְ׳ | שְׁפֶלְתָּא |  | yes |
-| [U01780](https://jastrow.app/#rid:U01780) | alt | שְׁפֵילְ׳ | שְׁפֶלְתָּא |  | yes |
-| [U01782](https://jastrow.app/#rid:U01782) | alt | סְ׳ | שָׂפָם² |  |  |
-| [U01806](https://jastrow.app/#rid:U01806) | alt | שְׁפַרְפְּ׳ | שְׁפַרְפָּרָא |  |  |
-| [U01813](https://jastrow.app/#rid:U01813) | alt | שִׂי׳ | שִׂפְתָא |  | yes |
-| [U01853](https://jastrow.app/#rid:U01853) | alt | שָׁ׳ | שַׁקְיָא |  |  |
-| [U01854](https://jastrow.app/#rid:U01854) | alt | שַׁ׳ | שָׁקְיָא |  |  |
-| [U01862](https://jastrow.app/#rid:U01862) | alt | שִׁיקְ׳ | שַׁקְיָינָא |  | yes |
-| [U01873](https://jastrow.app/#rid:U01873) | alt | שִׁי׳ | שִׁקְמָא |  | yes |
-| [U01874](https://jastrow.app/#rid:U01874) | alt | שִׁי׳ | שִׁקְמָה |  | yes |
-| [U01883](https://jastrow.app/#rid:U01883) | alt | שָׁ׳ | שַׁקְפָא |  | yes |
-| [U01883](https://jastrow.app/#rid:U01883) | alt | שִׁי׳ | שַׁקְפָא |  | yes |
-| [U01888](https://jastrow.app/#rid:U01888) | alt | שִׁי׳ | שִׁקְצָא |  | yes |
-| [U01897](https://jastrow.app/#rid:U01897) | alt | שִׁי׳ | שְׁקַר |  |  |
-| [U01925](https://jastrow.app/#rid:U01925) | alt | שִׂי׳ | שִׂרְגָא |  | yes |
-| [U01954](https://jastrow.app/#rid:U01954) | alt | שֵׂי׳ | שֵׂרָטוֹן |  | yes |
-| [U01967](https://jastrow.app/#rid:U01967) | alt | שִׁי׳ | שִׁרְיוֹן |  | yes |
-| [U01971](https://jastrow.app/#rid:U01971) | alt | שַּׁ׳ | שַׁרְיֵי |  |  |
-| [U01975](https://jastrow.app/#rid:U01975) | alt | שִׁירְ׳ | שִׁרְיָין |  |  |
-| [U01975](https://jastrow.app/#rid:U01975) | alt | סִרְ׳ | שִׁרְיָין |  |  |
-| [U01987](https://jastrow.app/#rid:U01987) | alt | שְׁ׳ | שָׁרִיר |  | yes |
-| [U01993](https://jastrow.app/#rid:U01993) | alt | שְׁ׳ | שְׂרָכָא |  | yes |
-| [U01994](https://jastrow.app/#rid:U01994) | alt | שַׁרְכְּ׳ | שַׁרְכָּפָא |  | yes |
-| [U02014](https://jastrow.app/#rid:U02014) | alt | שְׂרֵי׳ | שְׂרֵפָה |  | yes |
-| [U02087](https://jastrow.app/#rid:U02087) | alt | שְׁתּ׳ | שְׁתוּתָא |  |  |
-| [U02089](https://jastrow.app/#rid:U02089) | alt | שְׁתַּ׳ | שְׁתַחְוָיָה |  | yes |
-| [U02096](https://jastrow.app/#rid:U02096) | alt | שִׁי׳ | שִׁתְיָא |  | yes |
-| [V00014](https://jastrow.app/#rid:V00014) | alt | תִּי׳ | תִּאוּבְתָּא |  | yes |
-| [V00027](https://jastrow.app/#rid:V00027) | alt | תְּאֵי׳ | תְּאֵנָה |  | yes |
-| [V00029](https://jastrow.app/#rid:V00029) | alt | תְּאֵינְ׳ | תְּאֵנְתָּא |  |  |
-| [V00056](https://jastrow.app/#rid:V00056) | alt | תִּ׳ | תַּבְלָא |  | yes |
-| [V00059](https://jastrow.app/#rid:V00059) | alt | תִּי׳ | תִּבְלָלָא |  | yes |
-| [V00065](https://jastrow.app/#rid:V00065) | alt | תִּי׳ | תִּבְנָא |  | yes |
-| [V00082](https://jastrow.app/#rid:V00082) | alt | תִּיגָּ׳ | תִּגָּארָא |  | yes |
-| [V00083](https://jastrow.app/#rid:V00083) | alt | תִּי׳ | תִּגְדָּא |  | yes |
-| [V00092](https://jastrow.app/#rid:V00092) | alt | תִּי׳ | תִּגְרָא |  | yes |
-| [V00093](https://jastrow.app/#rid:V00093) | alt | תִּי׳ | תִּגְרָא² |  | yes |
-| [V00094](https://jastrow.app/#rid:V00094) | alt | תִּי׳ | תִּגְּרָא |  | yes |
-| [V00098](https://jastrow.app/#rid:V00098) | alt | תִּ׳ | תַּגָּרוּתָא |  | yes |
-| [V00098](https://jastrow.app/#rid:V00098) | alt | תִּי׳ | תַּגָּרוּתָא |  | yes |
-| [V00100](https://jastrow.app/#rid:V00100) | alt | תִּי׳ | תִּגְרָנָא |  | yes |
-| [V00101](https://jastrow.app/#rid:V00101) | alt | תִּי׳ | תִּגְרְתָא |  | yes |
-| [V00129](https://jastrow.app/#rid:V00129) | alt | תַּהֲפוּ׳ | תַּהְפּוּכְתָּא |  | yes |
-| [V00164](https://jastrow.app/#rid:V00164) | alt | תִּוְו׳ | תִּוְהָא |  | yes |
-| [V00164](https://jastrow.app/#rid:V00164) | alt | תִּיוְ׳ | תִּוְהָא |  | yes |
-| [V00167](https://jastrow.app/#rid:V00167) | alt | תַּוְו׳ | תַּוְהוּת |  | yes |
-| [V00168](https://jastrow.app/#rid:V00168) | alt | תַּוְו׳ | תַּוְהוּתָא |  | yes |
-| [V00184](https://jastrow.app/#rid:V00184) | alt | תַּחְ׳ | תּוּחְלָא |  | yes |
-| [V00203](https://jastrow.app/#rid:V00203) | alt | תּוֹכֵי׳ | תּוֹכֵחָה² |  |  |
-| [V00214](https://jastrow.app/#rid:V00214) | alt | תּוֹלְ׳ | תּוּלְדְּתָא |  | yes |
-| [V00218](https://jastrow.app/#rid:V00218) | alt | תֻּלְ׳ | תּוּלְעֲבָא |  | yes |
-| [V00277](https://jastrow.app/#rid:V00277) | alt | תַּוָּו׳ | תַּוָּרָא |  | yes |
-| [V00305](https://jastrow.app/#rid:V00305) | alt | תָּרְ׳ | תּוּרְנָא |  | yes |
-| [V00314](https://jastrow.app/#rid:V00314) | alt | תּוּ׳ | תּוֹרְפָא |  | yes |
-| [V00327](https://jastrow.app/#rid:V00327) | alt | תִּשְׁ׳ | תּוּשְׁבָּחָה |  | yes |
-| [V00328](https://jastrow.app/#rid:V00328) | alt | תֻּשְׁ׳ | תּוּשְׁבַּחְתָּא |  |  |
-| [V00380](https://jastrow.app/#rid:V00380) | alt | תְּחִי׳ | תְּחִנָּה |  | yes |
-| [V00400](https://jastrow.app/#rid:V00400) | alt | תֵּאָ׳ | תֵּיאָבוֹן |  | yes |
-| [V00410](https://jastrow.app/#rid:V00410) | alt | תִּבּ׳ | תִּיבּוּרָא |  | yes |
-| [V00411](https://jastrow.app/#rid:V00411) | alt | תֵּיבוֹ׳ | תֵּיבוּתָא |  | yes |
-| [V00411](https://jastrow.app/#rid:V00411) | alt | תֵּב׳ | תֵּיבוּתָא |  | yes |
-| [V00427](https://jastrow.app/#rid:V00427) | alt | תְּיוּ׳ | תְּיוֹמָא |  | yes |
-| [V00431](https://jastrow.app/#rid:V00431) | alt | תִּח׳ | תִּיחוּחַ |  | yes |
-| [V00456](https://jastrow.app/#rid:V00456) | alt | תִּמְ׳ | תֵּימַהּ |  |  |
-| [V00459](https://jastrow.app/#rid:V00459) | alt | תִּימּ׳ | תִּימּוּר |  | yes |
-| [V00470](https://jastrow.app/#rid:V00470) | alt | תִּנּ׳ | תִּינוֹק |  | yes |
-| [V00472](https://jastrow.app/#rid:V00472) | alt | תִּנְ׳ | תִּינָחָא |  |  |
-| [V00472](https://jastrow.app/#rid:V00472) | alt | תְּנַח׳ | תִּינָחָא |  |  |
-| [V00473](https://jastrow.app/#rid:V00473) | alt | תִּינְיָנ׳ | תִּינְיָין |  |  |
-| [V00489](https://jastrow.app/#rid:V00489) | alt | תִּקּ׳ | תִּיקּוּנָא |  | yes |
-| [V00501](https://jastrow.app/#rid:V00501) | alt | תִּר׳ | תִּירוּכִין |  | yes |
-| [V00511](https://jastrow.app/#rid:V00511) | alt | תִּרְ׳ | תִּירְיָיקָא |  |  |
-| [V00516](https://jastrow.app/#rid:V00516) | alt | תֵּי׳ | תְּיָשָׁא |  | yes |
-| [V00516](https://jastrow.app/#rid:V00516) | alt | תְּיָי׳ | תְּיָשָׁא |  | yes |
-| [V00521](https://jastrow.app/#rid:V00521) | alt | תִּי׳ | תִּכָּא |  | yes |
-| [V00526](https://jastrow.app/#rid:V00526) | alt | תּוּכְ׳ | תַּכְבְּרָא |  | yes |
-| [V00541](https://jastrow.app/#rid:V00541) | alt | תִּי׳ | תְּכָל |  |  |
-| [V00542](https://jastrow.app/#rid:V00542) | alt | תִּי׳ | תִּכְלָא |  | yes |
-| [V00545](https://jastrow.app/#rid:V00545) | alt | תִּי׳ | תִּכְלוּ |  | yes |
-| [V00548](https://jastrow.app/#rid:V00548) | alt | תְּכֶילְ׳ | תְּכֶלְתָּא |  | yes |
-| [V00564](https://jastrow.app/#rid:V00564) | alt | תִּי׳ | תֵּל² |  |  |
-| [V00579](https://jastrow.app/#rid:V00579) | alt | תִּי׳ | תִּלּוּל |  | yes |
-| [V00585](https://jastrow.app/#rid:V00585) | alt | תִּי׳ | תִּלְחָא |  | yes |
-| [V00627](https://jastrow.app/#rid:V00627) | alt | תִּילְ׳ | תִּלְתָּא |  | yes |
-| [V00629](https://jastrow.app/#rid:V00629) | alt | תִּילְ׳ | תִּלְתּוּל |  | yes |
-| [V00632](https://jastrow.app/#rid:V00632) | alt | תַּלְת׳ | תַּלְתּוּתָא |  | yes |
-| [V00632](https://jastrow.app/#rid:V00632) | alt | תִּלְ׳ | תַּלְתּוּתָא |  | yes |
-| [V00632](https://jastrow.app/#rid:V00632) | alt | תִּילְ׳ | תַּלְתּוּתָא |  | yes |
-| [V00640](https://jastrow.app/#rid:V00640) | alt | תִּילְ׳ | תִּלְתָּן |  | yes |
-| [V00653](https://jastrow.app/#rid:V00653) | alt | תַּמְ׳ | תֵּמַהּ |  |  |
-| [V00654](https://jastrow.app/#rid:V00654) | alt | תִּימָּ׳ | תִּמָּהוֹן |  | yes |
-| [V00691](https://jastrow.app/#rid:V00691) | alt | תִּימַ׳ | תְּמַלְיוֹס |  | yes |
-| [V00706](https://jastrow.app/#rid:V00706) | alt | תּוּמְ׳ | תָּמָר |  |  |
-| [V00708](https://jastrow.app/#rid:V00708) | alt | תִּי׳ | תִּמְרָה |  | yes |
-| [V00714](https://jastrow.app/#rid:V00714) | alt | תּוּמַ׳ | תְּמַרְתָּא |  | yes |
-| [V00740](https://jastrow.app/#rid:V00740) | alt | תַּנְחֻמְ׳ | תַּנְחוּמְתָּא |  | yes |
-| [V00745](https://jastrow.app/#rid:V00745) | alt | תִּנְיָ׳ | תִּנְיָין |  |  |
-| [V00745](https://jastrow.app/#rid:V00745) | alt | תִּינְ׳ | תִּנְיָין |  |  |
-| [V00746](https://jastrow.app/#rid:V00746) | alt | תִּנְיָ׳ | תִּנְיָינוּת |  | yes |
-| [V00746](https://jastrow.app/#rid:V00746) | alt | תִּי׳ | תִּנְיָינוּת |  | yes |
-| [V00756](https://jastrow.app/#rid:V00756) | alt | תִּיסְ׳ | תִּסְבָּר |  | yes |
-| [V00757](https://jastrow.app/#rid:V00757) | alt | תִּיסְ׳ | תִּסְבָּרָא |  | yes |
-| [V00757](https://jastrow.app/#rid:V00757) | alt | תּוּסְ׳ | תִּסְבָּרָא |  | yes |
-| [V00759](https://jastrow.app/#rid:V00759) | alt | תִּסְוָו׳ | תִּסְבָּרִית |  | yes |
-| [V00759](https://jastrow.app/#rid:V00759) | alt | תִּי׳ | תִּסְבָּרִית |  | yes |
-| [V00759](https://jastrow.app/#rid:V00759) | alt | תּוּ׳ | תִּסְבָּרִית |  | yes |
-| [V00760](https://jastrow.app/#rid:V00760) | alt | תִּסְוַו׳ | תִּסְבַּרְתָּא |  | yes |
-| [V00768](https://jastrow.app/#rid:V00768) | alt | תִּסְפָּר׳ | תִּסְפּוֹרְתָּא |  | yes |
-| [V00769](https://jastrow.app/#rid:V00769) | alt | תִּסְ׳ | תַּסְקוֹפָא |  | yes |
-| [V00818](https://jastrow.app/#rid:V00818) | alt | תִּי׳ | תְּפִי |  |  |
-| [V00830](https://jastrow.app/#rid:V00830) | alt | תִּי׳ | תִּפְלָה |  | yes |
-| [V00831](https://jastrow.app/#rid:V00831) | alt | תְּפִי׳ | תְּפִלָּה |  | yes |
-| [V00832](https://jastrow.app/#rid:V00832) | alt | תְּפִי׳ | תְּפִלָּה² |  | yes |
-| [V00834](https://jastrow.app/#rid:V00834) | alt | תִּי׳ | תִּפְלוּת |  | yes |
-| [V00835](https://jastrow.app/#rid:V00835) | alt | תְּפִי׳ | תְּפִלֵּי |  |  |
-| [V00836](https://jastrow.app/#rid:V00836) | alt | תְּפִי׳ | תְּפִלִּין |  | yes |
-| [V00852](https://jastrow.app/#rid:V00852) | alt | תַּפְקִדְ׳ | תַּפְקִידְתָּא |  | yes |
-| [V00852](https://jastrow.app/#rid:V00852) | alt | תַּפְקֶדְ׳ | תַּפְקִידְתָּא |  | yes |
-| [V00857](https://jastrow.app/#rid:V00857) | alt | תִּפְ׳ | תַּפְרָא |  | yes |
-| [V00868](https://jastrow.app/#rid:V00868) | alt | תִּיקּ׳ | תִּקּוּלָא |  |  |
-| [V00893](https://jastrow.app/#rid:V00893) | alt | תִּי׳ | תִּקְלָא |  | yes |
-| [V00894](https://jastrow.app/#rid:V00894) | alt | תּוּקְ׳ | תַּקְלָא |  |  |
-| [V00894](https://jastrow.app/#rid:V00894) | alt | תִּי׳ | תַּקְלָא |  |  |
-| [V00915](https://jastrow.app/#rid:V00915) | alt | תִּיקְ׳ | תִּקְרוּבְתָּא |  | yes |
-| [V00943](https://jastrow.app/#rid:V00943) | alt | תִּירְ׳ | תִּרְגֵּם |  | yes |
-| [V00973](https://jastrow.app/#rid:V00973) | alt | תִּי׳ | תִּרְטָא |  | yes |
-| [V00996](https://jastrow.app/#rid:V00996) | alt | תְּרֵסִ׳ | תְּרֵיסִיּוֹת |  | yes |
-| [V01015](https://jastrow.app/#rid:V01015) | alt | תּוּרְ׳ | תַּרְמִיל |  |  |
-| [V01016](https://jastrow.app/#rid:V01016) | alt | תּוּרְ׳ | תַּרְמִילָא |  | yes |
-| [V01042](https://jastrow.app/#rid:V01042) | alt | תִּירְ׳ | תִּרְעֲתָא |  |  |
-| [V01042](https://jastrow.app/#rid:V01042) | alt | תּוּרְ׳ | תִּרְעֲתָא |  |  |
+| [A00286](https://jastrow.app/#rid:A00286) | alt | אֲגִיח׳ | /אגחותא |  |  |
+| [A00597](https://jastrow.app/#rid:A00597) | alt | אַוְתֶּ׳ | /אוותנטיא |  |  |
+| [A00806](https://jastrow.app/#rid:A00806) | alt | אופימשט׳ | /אופימטטאטא |  | yes |
+| [A00829](https://jastrow.app/#rid:A00829) | alt | אוקטר׳ | /אוקטוריא |  | yes |
+| [A00987](https://jastrow.app/#rid:A00987) | alt | אִיזְ׳ | /אזתוודא |  | yes |
+| [A01085](https://jastrow.app/#rid:A01085) | alt | אִיטִ׳ | /אטימסיאה |  | yes |
+| [A01089](https://jastrow.app/#rid:A01089) | alt | אִיטְ׳ | /אטלולא |  | yes |
+| [A01133](https://jastrow.app/#rid:A01133) | alt | אֵבְ׳ | /איברא |  | yes |
+| [A01150](https://jastrow.app/#rid:A01150) | alt | אִגַּ׳ | /איגרתא |  | yes |
+| [A01194](https://jastrow.app/#rid:A01194) | alt | אֵזֶ׳ | /איזה |  |  |
+| [A01200](https://jastrow.app/#rid:A01200) | alt | אִזְ׳ | /איזמיל |  |  |
+| [A01240](https://jastrow.app/#rid:A01240) | alt | איינטפ׳ | /איינטבלינית |  | yes |
+| [A01260](https://jastrow.app/#rid:A01260) | alt | אִכָּ׳ | /איכרא |  | yes |
+| [A01281](https://jastrow.app/#rid:A01281) | alt | אִלּ׳ | /אילולא |  |  |
+| [A01291](https://jastrow.app/#rid:A01291) | alt | אִלְיוֹ׳ | /איליופוליס |  | yes |
+| [A01292](https://jastrow.app/#rid:A01292) | alt | אִלֵּ׳ | /אילימא |  | yes |
+| [A01307](https://jastrow.app/#rid:A01307) | alt | אִלָ׳ | /אילן-2 |  |  |
+| [A01335](https://jastrow.app/#rid:A01335) | alt | אֲמוּ׳ | /אימורים-2 |  |  |
+| [A01338](https://jastrow.app/#rid:A01338) | alt | או׳ | /אימיקנטרון |  | yes |
+| [A01359](https://jastrow.app/#rid:A01359) | alt | אֵימָ׳ | /אימתן |  |  |
+| [A01376](https://jastrow.app/#rid:A01376) | alt | יִינוֹ׳ | /אינומילין |  |  |
+| [A01380](https://jastrow.app/#rid:A01380) | alt | איינ׳ | /אינטפלינית |  | yes |
+| [A01395](https://jastrow.app/#rid:A01395) | alt | אנת׳ | /אינתימרוס |  | yes |
+| [A01411](https://jastrow.app/#rid:A01411) | alt | אִסְ׳ | /איסטבא |  |  |
+| [A01411](https://jastrow.app/#rid:A01411) | alt | אִיצְ׳ | /איסטבא |  |  |
+| [A01411](https://jastrow.app/#rid:A01411) | alt | אִצְ׳ | /איסטבא |  |  |
+| [A01420](https://jastrow.app/#rid:A01420) | alt | אִסְ׳ | /איסטווא-2 |  | yes |
+| [A01423](https://jastrow.app/#rid:A01423) | alt | אִיצְ׳ | /איסטוונית |  | yes |
+| [A01423](https://jastrow.app/#rid:A01423) | alt | אִסְ׳ | /איסטוונית |  | yes |
+| [A01423](https://jastrow.app/#rid:A01423) | alt | אִצְ׳ | /איסטוונית |  | yes |
+| [A01433](https://jastrow.app/#rid:A01433) | alt | אִסְ׳ | /איסטיב |  | yes |
+| [A01434](https://jastrow.app/#rid:A01434) | alt | אִסְ׳ | /איסטיו |  | yes |
+| [A01453](https://jastrow.app/#rid:A01453) | alt | אִסְ׳ | /איסטרוביל |  |  |
+| [A01453](https://jastrow.app/#rid:A01453) | alt | אִצְ׳ | /איסטרוביל |  |  |
+| [A01453](https://jastrow.app/#rid:A01453) | alt | אִיצְ׳ | /איסטרוביל |  |  |
+| [A01460](https://jastrow.app/#rid:A01460) | alt | אִיסְתְּ׳ | /איסטרידא |  |  |
+| [A01460](https://jastrow.app/#rid:A01460) | alt | אִצְטְ׳ | /איסטרידא |  |  |
+| [A01466](https://jastrow.app/#rid:A01466) | alt | אִסְ׳ | /איסכולסטיקא |  | yes |
+| [A01489](https://jastrow.app/#rid:A01489) | alt | אִסְפַּ׳ | /איספרגוס |  | yes |
+| [A01499](https://jastrow.app/#rid:A01499) | alt | אִסְק׳ | /איסקונדרי |  |  |
+| [A01521](https://jastrow.app/#rid:A01521) | alt | אִסְ׳ | /איסתירא |  |  |
+| [A01525](https://jastrow.app/#rid:A01525) | alt | אִסְ׳ | /איסתניס |  |  |
+| [A01526](https://jastrow.app/#rid:A01526) | alt | איסט׳ | /איסתניסיה |  | yes |
+| [A01567](https://jastrow.app/#rid:A01567) | alt | אִפַּ׳ | /איפרכי |  |  |
+| [A01590](https://jastrow.app/#rid:A01590) | alt | אִק׳ | /איקון |  |  |
+| [A01641](https://jastrow.app/#rid:A01641) | alt | אִתְּ׳ | /איתא-2 |  |  |
+| [A01644](https://jastrow.app/#rid:A01644) | alt | אִתּוֹ׳ | /איתודאה |  | yes |
+| [A01647](https://jastrow.app/#rid:A01647) | alt | אִתְּ׳ | /איתיטרון |  |  |
+| [A01651](https://jastrow.app/#rid:A01651) | alt | אַתְ׳ | /איתכלא |  |  |
+| [A01675](https://jastrow.app/#rid:A01675) | alt | אַכְוַו׳ | /אכונגר |  |  |
+| [A01752](https://jastrow.app/#rid:A01752) | alt | אִי׳ | /אכרום |  |  |
+| [A01752](https://jastrow.app/#rid:A01752) | alt | אֶכְּ׳ | /אכרום |  |  |
+| [A01796](https://jastrow.app/#rid:A01796) | alt | הַלְוַו׳ | /אלואי |  |  |
+| [A01844](https://jastrow.app/#rid:A01844) | alt | אִיל׳ | /אליון-2 |  |  |
+| [A01865](https://jastrow.app/#rid:A01865) | alt | אִילֵּ׳ | /אלימא-3 |  |  |
+| [A01894](https://jastrow.app/#rid:A01894) | alt | אֲלַכְ׳ | /אלכסנדרוס |  | yes |
+| [A01896](https://jastrow.app/#rid:A01896) | alt | אֲלַכְ׳ | /אלכסנדריא |  |  |
+| [A01918](https://jastrow.app/#rid:A01918) | alt | אִילְ׳ | /אלמלא |  |  |
+| [A01947](https://jastrow.app/#rid:A01947) | alt | אִילְ׳ | /אלקטי |  | yes |
+| [A01954](https://jastrow.app/#rid:A01954) | alt | אִילַ׳ | /אלריא |  | yes |
+| [A02052](https://jastrow.app/#rid:A02052) | alt | אִנְפִּי׳ | /אמפיליא |  |  |
+| [A02052](https://jastrow.app/#rid:A02052) | alt | אִנְפִּלְ׳ | /אמפיליא |  |  |
+| [A02068](https://jastrow.app/#rid:A02068) | alt | אַמַּ׳ | /אמרכול |  |  |
+| [A02106](https://jastrow.app/#rid:A02106) | alt | אבג׳ | /אנגרוטינא |  |  |
+| [A02161](https://jastrow.app/#rid:A02161) | alt | אנטד׳ | /אנטג׳ |  |  |
+| [A02297](https://jastrow.app/#rid:A02297) | alt | אונק׳ | /אנקליטון |  | yes |
+| [A02300](https://jastrow.app/#rid:A02300) | alt | אונ׳ | /אנקלסיא |  | yes |
+| [A02325](https://jastrow.app/#rid:A02325) | alt | איס׳ | /אסגינטרין |  |  |
+| [A02348](https://jastrow.app/#rid:A02348) | alt | אִצְ׳ | /אסטבלא |  | yes |
+| [A02348](https://jastrow.app/#rid:A02348) | alt | אִיסְ׳ | /אסטבלא |  | yes |
+| [A02348](https://jastrow.app/#rid:A02348) | alt | אִיצְ׳ | /אסטבלא |  | yes |
+| [A02350](https://jastrow.app/#rid:A02350) | alt | אִיסְ׳ | /אסטגיות |  | yes |
+| [A02351](https://jastrow.app/#rid:A02351) | alt | אִצְטַ׳ | /אסטגנין |  | yes |
+| [A02351](https://jastrow.app/#rid:A02351) | alt | אִי׳ | /אסטגנין |  | yes |
+| [A02352](https://jastrow.app/#rid:A02352) | alt | אִצְ׳ | /אסטגנינא |  | yes |
+| [A02352](https://jastrow.app/#rid:A02352) | alt | אִי׳ | /אסטגנינא |  | yes |
+| [A02353](https://jastrow.app/#rid:A02353) | alt | אִצְ׳ | /אסטגנינות |  | yes |
+| [A02353](https://jastrow.app/#rid:A02353) | alt | אִי׳ | /אסטגנינות |  | yes |
+| [A02362](https://jastrow.app/#rid:A02362) | alt | אִי׳ | /אסטומכא |  | yes |
+| [A02373](https://jastrow.app/#rid:A02373) | alt | אִי׳ | /אסטכטון |  |  |
+| [A02376](https://jastrow.app/#rid:A02376) | alt | אִי׳ | /אסטלא |  |  |
+| [A02378](https://jastrow.app/#rid:A02378) | alt | אִיסְ׳ | /אסטלי |  |  |
+| [A02379](https://jastrow.app/#rid:A02379) | alt | אִיסְ׳ | /אסטלי-2 |  |  |
+| [A02381](https://jastrow.app/#rid:A02381) | alt | אִצְ׳ | /אסטלית |  | yes |
+| [A02381](https://jastrow.app/#rid:A02381) | alt | אִי׳ | /אסטלית |  | yes |
+| [A02386](https://jastrow.app/#rid:A02386) | alt | אִסְתַּ׳ | /אסטנדרא |  | yes |
+| [A02386](https://jastrow.app/#rid:A02386) | alt | אִי׳ | /אסטנדרא |  | yes |
+| [A02400](https://jastrow.app/#rid:A02400) | alt | איס׳ | /אסטרוגי |  | yes |
+| [A02402](https://jastrow.app/#rid:A02402) | alt | אַצְ׳ | /אסטרולוגוס |  | yes |
+| [A02402](https://jastrow.app/#rid:A02402) | alt | אִיסְ׳ | /אסטרולוגוס |  | yes |
+| [A02402](https://jastrow.app/#rid:A02402) | alt | אִיצְ׳ | /אסטרולוגוס |  | yes |
+| [A02403](https://jastrow.app/#rid:A02403) | alt | אִיסְ׳ | /אסטרולוגיא |  | yes |
+| [A02403](https://jastrow.app/#rid:A02403) | alt | אסת׳ | /אסטרולוגיא |  | yes |
+| [A02403](https://jastrow.app/#rid:A02403) | alt | אַצְ׳ | /אסטרולוגיא |  | yes |
+| [A02403](https://jastrow.app/#rid:A02403) | alt | אִיצְ׳ | /אסטרולוגיא |  | yes |
+| [A02407](https://jastrow.app/#rid:A02407) | alt | אִיסְ׳ | /אסטרופומטא |  | yes |
+| [A02408](https://jastrow.app/#rid:A02408) | alt | אִיסְטְ׳ | /אסטרטא |  |  |
+| [A02412](https://jastrow.app/#rid:A02412) | alt | אִיסְ׳ | /אסטרטיא |  | yes |
+| [A02413](https://jastrow.app/#rid:A02413) | alt | אִיסְ׳ | /אסטרטיא-2 |  |  |
+| [A02422](https://jastrow.app/#rid:A02422) | alt | אִיסְ׳ | /אסטריא |  |  |
+| [A02422](https://jastrow.app/#rid:A02422) | alt | אִצְ׳ | /אסטריא |  |  |
+| [A02422](https://jastrow.app/#rid:A02422) | alt | אִיצְ׳ | /אסטריא |  |  |
+| [A02423](https://jastrow.app/#rid:A02423) | alt | אִיסְ׳ | /אסטרין |  |  |
+| [A02423](https://jastrow.app/#rid:A02423) | alt | אִיצְ׳ | /אסטרין |  |  |
+| [A02450](https://jastrow.app/#rid:A02450) | alt | אִיסְ׳ | /אסכולי |  | yes |
+| [A02455](https://jastrow.app/#rid:A02455) | alt | אִיסְ׳ | /אסכלא-2 |  | yes |
+| [A02479](https://jastrow.app/#rid:A02479) | alt | אִי׳ | /אספוג |  | yes |
+| [A02490](https://jastrow.app/#rid:A02490) | alt | אִי׳ | /אספינקי |  |  |
+| [A02496](https://jastrow.app/#rid:A02496) | alt | אִיסְ׳ | /אספלידא |  | yes |
+| [A02500](https://jastrow.app/#rid:A02500) | alt | אִי׳ | /אספלנית |  | yes |
+| [A02501](https://jastrow.app/#rid:A02501) | alt | אִיסְ׳ | /אספלניתא |  | yes |
+| [A02502](https://jastrow.app/#rid:A02502) | alt | אִיסְ׳ | /אספמיא |  | yes |
+| [A02504](https://jastrow.app/#rid:A02504) | alt | אִיסְ׳ | /אספניא |  | yes |
+| [A02514](https://jastrow.app/#rid:A02514) | alt | אִיסְ׳ | /אספקלריא |  | yes |
+| [A02519](https://jastrow.app/#rid:A02519) | alt | אִיסְ׳ | /אספרווא |  |  |
+| [A02524](https://jastrow.app/#rid:A02524) | alt | אִי׳ | /אספרמקי |  |  |
+| [A02537](https://jastrow.app/#rid:A02537) | alt | אִי׳ | /אסקופה |  | yes |
+| [A02539](https://jastrow.app/#rid:A02539) | alt | אִיסְ׳ | /אסקופתא |  |  |
+| [A02546](https://jastrow.app/#rid:A02546) | alt | אִיסְ׳ | /אסקריא |  | yes |
+| [A02549](https://jastrow.app/#rid:A02549) | alt | אי׳ | /אסקריטין |  | yes |
+| [A02555](https://jastrow.app/#rid:A02555) | alt | אִי׳ | /אסרדיוט |  | yes |
+| [A02558](https://jastrow.app/#rid:A02558) | alt | אִי׳ | /אסרטא |  | yes |
+| [A02560](https://jastrow.app/#rid:A02560) | alt | אִיסְ׳ | /אסרטיא |  | yes |
+| [A02561](https://jastrow.app/#rid:A02561) | alt | אִיסְ׳ | /אסרטיא-2 |  | yes |
+| [A02563](https://jastrow.app/#rid:A02563) | alt | אִיסְ׳ | /אסרטיוט |  | yes |
+| [A02572](https://jastrow.app/#rid:A02572) | alt | אִי׳ | /אסתומכא |  |  |
+| [A02578](https://jastrow.app/#rid:A02578) | alt | אִיסְ׳ | /אסתן |  |  |
+| [A02588](https://jastrow.app/#rid:A02588) | alt | אִיסְ׳ | /אסתרוקנית |  | yes |
+| [A02602](https://jastrow.app/#rid:A02602) | alt | אפור׳ | /אפדכסיס |  |  |
+| [A02616](https://jastrow.app/#rid:A02616) | alt | אַפֹּטְ׳ | /אפוטניות |  |  |
+| [A02634](https://jastrow.app/#rid:A02634) | alt | אִי׳ | /אפופודין |  | yes |
+| [A02675](https://jastrow.app/#rid:A02675) | alt | אַפִּי׳ | /אפיטרופוס |  | yes |
+| [A02675](https://jastrow.app/#rid:A02675) | alt | אַפּוֹ׳ | /אפיטרופוס |  | yes |
+| [A02675](https://jastrow.app/#rid:A02675) | alt | אַפַּטְ׳ | /אפיטרופוס |  | yes |
+| [A02676](https://jastrow.app/#rid:A02676) | alt | אַפּוֹ׳ | /אפיטרופיא |  |  |
+| [A02789](https://jastrow.app/#rid:A02789) | alt | אִיפְ׳ | /אפקרסין |  |  |
+| [A02871](https://jastrow.app/#rid:A02871) | alt | אִיצְ׳ | /אצטריא |  |  |
+| [A02871](https://jastrow.app/#rid:A02871) | alt | אִיסְ׳ | /אצטריא |  |  |
+| [A02872](https://jastrow.app/#rid:A02872) | alt | אִיצְ׳ | /אצטרין |  |  |
+| [A02872](https://jastrow.app/#rid:A02872) | alt | אִיסְ׳ | /אצטרין |  |  |
+| [A02875](https://jastrow.app/#rid:A02875) | alt | אוּצְ׳ | /אצייא |  |  |
+| [A02946](https://jastrow.app/#rid:A02946) | alt | ארא׳ | /ארא-3 |  | yes |
+| [A03173](https://jastrow.app/#rid:A03173) | alt | אֲרָ׳ | /ארמותא |  | yes |
+| [A03255](https://jastrow.app/#rid:A03255) | alt | אִי׳ | /אשא |  |  |
+| [A03267](https://jastrow.app/#rid:A03267) | alt | אַשְׁוָו׳ | /אשוה |  |  |
+| [A03346](https://jastrow.app/#rid:A03346) | alt | אוּשְּׁ׳ | /אשקק |  |  |
+| [A03346](https://jastrow.app/#rid:A03346) | alt | אִישְׁ׳ | /אשקק |  |  |
+| [A03368](https://jastrow.app/#rid:A03368) | alt | אִישְׁ׳ | /אשתדא |  | yes |
+| [A03373](https://jastrow.app/#rid:A03373) | alt | אֶישְׁ׳ | /אשתומם |  | yes |
+| [A03443](https://jastrow.app/#rid:A03443) | alt | אִיתְ׳ | /אתקפתא |  | yes |
+| [B00125](https://jastrow.app/#rid:B00125) | alt | בִּי׳ | /בדור |  |  |
+| [B00289](https://jastrow.app/#rid:B00289) | alt | בֻּשְׂ׳ | /בוסם-2 |  |  |
+| [B00292](https://jastrow.app/#rid:B00292) | alt | בֻּסְ׳ | /בוסמנו |  | yes |
+| [B00293](https://jastrow.app/#rid:B00293) | alt | בּוּשְׂ׳ | /בוסמניא |  |  |
+| [B00424](https://jastrow.app/#rid:B00424) | alt | בִּיזּ׳ | /בזוזא-2 |  | yes |
+| [B00440](https://jastrow.app/#rid:B00440) | alt | בִּיזָּ׳ | /בזיון |  | yes |
+| [B00501](https://jastrow.app/#rid:B00501) | alt | בִּיטָּ׳ | /בטחון |  | yes |
+| [B00559](https://jastrow.app/#rid:B00559) | alt | בְּיוּ׳ | /ביונא |  |  |
+| [B00565](https://jastrow.app/#rid:B00565) | alt | בִּזּ׳ | /ביזוע |  | yes |
+| [B00580](https://jastrow.app/#rid:B00580) | alt | בִּטּ׳ | /ביטול |  | yes |
+| [B00581](https://jastrow.app/#rid:B00581) | alt | בִּטּ׳ | /ביטולא |  | yes |
+| [B00665](https://jastrow.app/#rid:B00665) | alt | בִּסְ׳ | /ביסתרקא |  | yes |
+| [B00694](https://jastrow.app/#rid:B00694) | alt | בִּקּ׳ | /ביקורת |  | yes |
+| [B00742](https://jastrow.app/#rid:B00742) | alt | בְּאִישׁ׳ | /בישו |  |  |
+| [B00759](https://jastrow.app/#rid:B00759) | alt | בַּיְי׳ | /ביתוסי |  | yes |
+| [B00771](https://jastrow.app/#rid:B00771) | alt | בִּיכּ׳ | /בכורה |  | yes |
+| [B01018](https://jastrow.app/#rid:B01018) | alt | בוס׳ | /בסתקא |  | yes |
+| [B01083](https://jastrow.app/#rid:B01083) | alt | בּוּ׳ | /בצורתא |  |  |
+| [B01134](https://jastrow.app/#rid:B01134) | alt | בִּקְעֲ׳ | /בקעתא |  | yes |
+| [B01135](https://jastrow.app/#rid:B01135) | alt | בִּקְעֲ׳ | /בקעתא-2 |  |  |
+| [B01284](https://jastrow.app/#rid:B01284) | alt | בי׳ | /בריתא |  |  |
+| [B01348](https://jastrow.app/#rid:B01348) | alt | בִּושּׁ׳ | /בשולא |  | yes |
+| [B01361](https://jastrow.app/#rid:B01361) | alt | בְּשֵׁי׳ | /בשל-3 |  |  |
+| [C00064](https://jastrow.app/#rid:C00064) | alt | גִּיבָּ׳ | /גבורתא |  |  |
+| [C00067](https://jastrow.app/#rid:C00067) | alt | גִּיבַּ׳ | /גבח |  |  |
+| [C00113](https://jastrow.app/#rid:C00113) | alt | הַגַּ׳ | /גבלן |  | yes |
+| [C00162](https://jastrow.app/#rid:C00162) | alt | גּוּדְגַּ׳ | /גדגדניות |  | yes |
+| [C00264](https://jastrow.app/#rid:C00264) | alt | גַּוָּו׳ | /גואה |  |  |
+| [C00363](https://jastrow.app/#rid:C00363) | alt | גִּיוְיְי׳ | /גוייתא |  | yes |
+| [C00381](https://jastrow.app/#rid:C00381) | alt | גֻּלְ׳ | /גולגלת |  |  |
+| [C00382](https://jastrow.app/#rid:C00382) | alt | גּוּלְגּוּלְ׳ | /גולגלתא |  | yes |
+| [C00487](https://jastrow.app/#rid:C00487) | alt | גּוֹרְדְּיָ׳ | /גורדייני |  |  |
+| [C00520](https://jastrow.app/#rid:C00520) | alt | גִּיזְ׳ | /גזבר |  | yes |
+| [C00521](https://jastrow.app/#rid:C00521) | alt | גִּיזְ׳ | /גזברא |  | yes |
+| [C00619](https://jastrow.app/#rid:C00619) | alt | גִּבּ׳ | /גיבר |  |  |
+| [C00620](https://jastrow.app/#rid:C00620) | alt | גִּבָּ׳ | /גיברא |  | yes |
+| [C00670](https://jastrow.app/#rid:C00670) | alt | גִּיּוֹ׳ | /גיורתא-2 |  | yes |
+| [C00673](https://jastrow.app/#rid:C00673) | alt | גֵּוְתָ׳ | /גיותן |  |  |
+| [C00674](https://jastrow.app/#rid:C00674) | alt | גֵּאוְ׳ | /גיותנא |  | yes |
+| [C00674](https://jastrow.app/#rid:C00674) | alt | גֵּוְ׳ | /גיותנא |  | yes |
+| [C00674](https://jastrow.app/#rid:C00674) | alt | גֵּיפְ׳ | /גיותנא |  | yes |
+| [C00675](https://jastrow.app/#rid:C00675) | alt | גֵּיפְ׳ | /גיותנותא |  | yes |
+| [C00730](https://jastrow.app/#rid:C00730) | alt | גִּלּ׳ | /גילוייא |  |  |
+| [C00766](https://jastrow.app/#rid:C00766) | alt | גִּינוּ׳ | /גיניסיא |  |  |
+| [C00766](https://jastrow.app/#rid:C00766) | alt | גְּנוּ׳ | /גיניסיא |  |  |
+| [C00767](https://jastrow.app/#rid:C00767) | alt | גִּינּוֹ׳ | /גיניסר |  | yes |
+| [C00767](https://jastrow.app/#rid:C00767) | alt | גְּנֵי׳ | /גיניסר |  | yes |
+| [C00767](https://jastrow.app/#rid:C00767) | alt | גְּנוֹ׳ | /גיניסר |  | yes |
+| [C00771](https://jastrow.app/#rid:C00771) | alt | גִּנּ׳ | /גינתא |  |  |
+| [C00792](https://jastrow.app/#rid:C00792) | alt | גִּפּ׳ | /גיפוף-2 |  |  |
+| [C00792](https://jastrow.app/#rid:C00792) | alt | גֵּפ׳ | /גיפוף-2 |  |  |
+| [C00799](https://jastrow.app/#rid:C00799) | alt | גּוּפְ׳ | /גיפתא |  | yes |
+| [C00836](https://jastrow.app/#rid:C00836) | alt | גֵּרָ׳ | /גירעון |  | yes |
+| [C00864](https://jastrow.app/#rid:C00864) | alt | גִּילְ׳ | /גלגול |  | yes |
+| [C00865](https://jastrow.app/#rid:C00865) | alt | גִּילְ׳ | /גלגול-2 |  | yes |
+| [C00872](https://jastrow.app/#rid:C00872) | alt | גִּילְ׳ | /גלגל-4 |  |  |
+| [C00880](https://jastrow.app/#rid:C00880) | alt | גִּילְ׳ | /גלדא |  | yes |
+| [C00881](https://jastrow.app/#rid:C00881) | alt | גִּילְ׳ | /גלדאה |  | yes |
+| [C00882](https://jastrow.app/#rid:C00882) | alt | גִּילְ׳ | /גלדנא |  | yes |
+| [C00941](https://jastrow.app/#rid:C00941) | alt | גִּלְ׳ | /גליון |  | yes |
+| [C00941](https://jastrow.app/#rid:C00941) | alt | גִּיל׳ | /גליון |  | yes |
+| [C00990](https://jastrow.app/#rid:C00990) | alt | גִּילְ׳ | /גלשלושתא |  |  |
+| [C01041](https://jastrow.app/#rid:C01041) | alt | גִּימְ׳ | /גמלא |  | yes |
+| [C01041](https://jastrow.app/#rid:C01041) | alt | גּוּמְ׳ | /גמלא |  | yes |
+| [C01041](https://jastrow.app/#rid:C01041) | alt | גַּמְ׳ | /גמלא |  | yes |
+| [C01090](https://jastrow.app/#rid:C01090) | alt | גִּינְ׳ | /גנגילון |  |  |
+| [C01107](https://jastrow.app/#rid:C01107) | alt | גִּינּוּ׳ | /גנון-2 |  |  |
+| [C01110](https://jastrow.app/#rid:C01110) | alt | גִּינּוּ׳ | /גנוניתא |  | yes |
+| [C01137](https://jastrow.app/#rid:C01137) | alt | גְּנֵבְ׳ | /גניבותא |  |  |
+| [C01145](https://jastrow.app/#rid:C01145) | alt | גְּנוּ׳ | /גניסא |  |  |
+| [C01146](https://jastrow.app/#rid:C01146) | alt | גְּנוּ׳ | /גניסייא |  | yes |
+| [C01266](https://jastrow.app/#rid:C01266) | alt | גַּרְגּוּשְׁ׳ | /גרגשתא |  | yes |
+| [C01266](https://jastrow.app/#rid:C01266) | alt | גַּרְגִּישְׁ׳ | /גרגשתא |  | yes |
+| [C01277](https://jastrow.app/#rid:C01277) | alt | גִּירְ׳ | /גרדי |  | yes |
+| [C01278](https://jastrow.app/#rid:C01278) | alt | גִּירְ׳ | /גרדי-2 |  |  |
+| [C01284](https://jastrow.app/#rid:C01284) | alt | גִּירְ׳ | /גרדנא |  | yes |
+| [C01362](https://jastrow.app/#rid:C01362) | alt | גִּירְ׳ | /גרממיא |  |  |
+| [C01367](https://jastrow.app/#rid:C01367) | alt | גִּירְ׳ | /גרמניקיא |  | yes |
+| [C01377](https://jastrow.app/#rid:C01377) | alt | גִּירְ׳ | /גרסא-2 |  | yes |
+| [C01427](https://jastrow.app/#rid:C01427) | alt | גִּישְׁ׳ | /גשתא |  | yes |
+| [C01428](https://jastrow.app/#rid:C01428) | alt | גִּישְׁ׳ | /גשתא-2 |  | yes |
+| [C01432](https://jastrow.app/#rid:C01432) | alt | גִּיתִּ׳ | /גתית |  | yes |
+| [D00147](https://jastrow.app/#rid:D00147) | alt | דִּיהֲ׳ | /דהבת |  | yes |
+| [D00160](https://jastrow.app/#rid:D00160) | alt | דְּהינוּ׳ | /דהנוניתא |  | yes |
+| [D00213](https://jastrow.app/#rid:D00213) | alt | דַּוְ׳ | /דוול |  |  |
+| [D00340](https://jastrow.app/#rid:D00340) | alt | דַּק׳ | /דוקרנא |  | yes |
+| [D00374](https://jastrow.app/#rid:D00374) | alt | דורמייס׳ | /דורמסיאות |  |  |
+| [D00450](https://jastrow.app/#rid:D00450) | alt | דְּיוֹטַ׳ | /דיאטגמא |  |  |
+| [D00453](https://jastrow.app/#rid:D00453) | alt | דְּיַי׳ | /דיאטריטא |  |  |
+| [D00453](https://jastrow.app/#rid:D00453) | alt | דְּיוֹ׳ | /דיאטריטא |  |  |
+| [D00459](https://jastrow.app/#rid:D00459) | alt | דְּיוֹ׳ | /דיאתיקי |  |  |
+| [D00471](https://jastrow.app/#rid:D00471) | alt | דִּבּוּ׳ | /דיבורא |  |  |
+| [D00487](https://jastrow.app/#rid:D00487) | alt | דִּגְ׳ | /דיגלת |  | yes |
+| [D00561](https://jastrow.app/#rid:D00561) | alt | דַּיָּ׳ | /דיין-2 |  |  |
+| [D00572](https://jastrow.app/#rid:D00572) | alt | דייקלר׳ | /דייקלירא |  | yes |
+| [D00603](https://jastrow.app/#rid:D00603) | alt | דִּלָ׳ | /דילטורא |  | yes |
+| [D00604](https://jastrow.app/#rid:D00604) | alt | דִּלָ׳ | /דילטורא-2 |  | yes |
+| [D00605](https://jastrow.app/#rid:D00605) | alt | דִּלָ׳ | /דילטוריא |  | yes |
+| [D00663](https://jastrow.app/#rid:D00663) | alt | דִּסְ׳ | /דיסקרין |  | yes |
+| [D00664](https://jastrow.app/#rid:D00664) | alt | דִּסְ׳ | /דיסקרתא |  |  |
+| [D00665](https://jastrow.app/#rid:D00665) | alt | דִּסְ׳ | /דיסתודר |  | yes |
+| [D00666](https://jastrow.app/#rid:D00666) | alt | דִּסְ׳ | /דיסתורא |  |  |
+| [D00667](https://jastrow.app/#rid:D00667) | alt | דִּסְ׳ | /דיסתנא |  | yes |
+| [D00668](https://jastrow.app/#rid:D00668) | alt | דִּסְ׳ | /דיסתנא-2 |  | yes |
+| [D00669](https://jastrow.app/#rid:D00669) | alt | דִּסְ׳ | /דיסתקא |  | yes |
+| [D00670](https://jastrow.app/#rid:D00670) | alt | דִּסְ׳ | /דיסתקא-2 |  | yes |
+| [D00680](https://jastrow.app/#rid:D00680) | alt | דִּיפְּלִסְ׳ | /דיפליסטון |  | yes |
+| [D00681](https://jastrow.app/#rid:D00681) | alt | דִּוּפְ׳ | /דיפרא |  | yes |
+| [D00681](https://jastrow.app/#rid:D00681) | alt | דִּפְ׳ | /דיפרא |  | yes |
+| [D00686](https://jastrow.app/#rid:D00686) | alt | דִּפְ׳ | /דיפתרא |  | yes |
+| [D00714](https://jastrow.app/#rid:D00714) | alt | דְּיָיקִ׳ | /דיקינתין |  | yes |
+| [D00750](https://jastrow.app/#rid:D00750) | alt | דִּתְ׳ | /דיתאה |  | yes |
+| [D00759](https://jastrow.app/#rid:D00759) | alt | דִּיכְ׳ | /דכדוך |  | yes |
+| [D00763](https://jastrow.app/#rid:D00763) | alt | דִּי׳ | /דכוון |  | yes |
+| [D00781](https://jastrow.app/#rid:D00781) | alt | דִּיכְ׳ | /דכמא |  |  |
+| [D00786](https://jastrow.app/#rid:D00786) | alt | דוּכְ׳ | /דכסומיני |  |  |
+| [D00790](https://jastrow.app/#rid:D00790) | alt | דִּיכְ׳ | /דכסס |  |  |
+| [D00793](https://jastrow.app/#rid:D00793) | alt | דּוּכְ׳ | /דכר-2 |  |  |
+| [D00793](https://jastrow.app/#rid:D00793) | alt | דִּיכְ׳ | /דכר-2 |  |  |
+| [D00795](https://jastrow.app/#rid:D00795) | alt | דּוּכְ׳ | /דכרן |  |  |
+| [D00796](https://jastrow.app/#rid:D00796) | alt | דִּיכְ׳ | /דכרני |  | yes |
+| [D00806](https://jastrow.app/#rid:D00806) | alt | דִּיל׳ | /דלדול |  | yes |
+| [D00807](https://jastrow.app/#rid:D00807) | alt | דִּילְ׳ | /דלדל |  | yes |
+| [D00818](https://jastrow.app/#rid:D00818) | alt | דְּלוֹ׳ | /דלוחא |  | yes |
+| [D00837](https://jastrow.app/#rid:D00837) | alt | דְּלֵקְ׳ | /דליקתא |  | yes |
+| [D00853](https://jastrow.app/#rid:D00853) | alt | דִּלְ׳ | /דלפא |  | yes |
+| [D00853](https://jastrow.app/#rid:D00853) | alt | דִּולְ׳ | /דלפא |  | yes |
+| [D00854](https://jastrow.app/#rid:D00854) | alt | דִּילְ׳ | /דלפה |  | yes |
+| [D00861](https://jastrow.app/#rid:D00861) | alt | דְּלֶקְ׳ | /דלקתא |  |  |
+| [D00873](https://jastrow.app/#rid:D00873) | alt | דִּימְ׳ | /דמדום |  | yes |
+| [D00890](https://jastrow.app/#rid:D00890) | alt | דִּימְ׳ | /דמחמרא |  | yes |
+| [D00901](https://jastrow.app/#rid:D00901) | alt | דּוּמְ׳ | /דמכא |  |  |
+| [D00932](https://jastrow.app/#rid:D00932) | alt | דָּנִיסְ׳ | /דנסטיס |  | yes |
+| [D00932](https://jastrow.app/#rid:D00932) | alt | דָּאנִ׳ | /דנסטיס |  | yes |
+| [D00987](https://jastrow.app/#rid:D00987) | alt | דִּיקְ׳ | /דקדוק |  | yes |
+| [D00988](https://jastrow.app/#rid:D00988) | alt | דִּיקְ׳ | /דקדוקא |  | yes |
+| [D01003](https://jastrow.app/#rid:D01003) | alt | דִּיקְ׳ | /דקיון |  | yes |
+| [D01010](https://jastrow.app/#rid:D01010) | alt | דִּיקְ׳ | /דקלא |  | yes |
+| [D01012](https://jastrow.app/#rid:D01012) | alt | דִּיקְ׳ | /דקן |  |  |
+| [D01013](https://jastrow.app/#rid:D01013) | alt | דִּיקְ׳ | /דקננא |  | yes |
+| [D01048](https://jastrow.app/#rid:D01048) | alt | דּוּרְ׳ | /דרדסא |  |  |
+| [D01074](https://jastrow.app/#rid:D01074) | alt | דַּדְקֶ׳ | /דרוקרת |  |  |
+| [D01108](https://jastrow.app/#rid:D01108) | alt | דַּרְמוּסְ׳ | /דרמסקוס |  | yes |
+| [D01108](https://jastrow.app/#rid:D01108) | alt | דרומיס׳ | /דרמסקוס |  | yes |
+| [D01139](https://jastrow.app/#rid:D01139) | alt | דָּ׳ | /דשא-2 |  |  |
+| [D01154](https://jastrow.app/#rid:D01154) | alt | דִּישְׁ׳ | /דשתאה |  | yes |
+| [E00119](https://jastrow.app/#rid:E00119) | alt | חַ׳ | /הדייב |  |  |
+| [E00189](https://jastrow.app/#rid:E00189) | alt | אוֹ׳ | /הובריא |  |  |
+| [E00242](https://jastrow.app/#rid:E00242) | alt | הִי׳ | /הומניא |  | yes |
+| [E00247](https://jastrow.app/#rid:E00247) | alt | הַוָּו׳ | /הון-3 |  |  |
+| [E00313](https://jastrow.app/#rid:E00313) | alt | חֲטוּ׳ | /הטולים |  |  |
+| [E00324](https://jastrow.app/#rid:E00324) | alt | הִי׳ | /הטרית |  | yes |
+| [E00352](https://jastrow.app/#rid:E00352) | alt | הוּזְ׳ | /היזמא |  |  |
+| [E00355](https://jastrow.app/#rid:E00355) | alt | הֶיזֵּי׳ | /היזקא |  | yes |
+| [E00377](https://jastrow.app/#rid:E00377) | alt | הֵכְ׳ | /היכדין |  | yes |
+| [E00423](https://jastrow.app/#rid:E00423) | alt | אֵי׳ | /הימיסו |  | yes |
+| [E00425](https://jastrow.app/#rid:E00425) | alt | הימוס׳ | /הימיסיון |  |  |
+| [E00431](https://jastrow.app/#rid:E00431) | alt | הִמְ׳ | /הימנון |  | yes |
+| [E00451](https://jastrow.app/#rid:E00451) | alt | הִינְדְּוָו׳ | /הינדוא |  |  |
+| [E00452](https://jastrow.app/#rid:E00452) | alt | הִנְ׳ | /הינדווי |  |  |
+| [E00454](https://jastrow.app/#rid:E00454) | alt | הִנְ׳ | /הינדיא |  | yes |
+| [E00455](https://jastrow.app/#rid:E00455) | alt | הִנְ׳ | /הינדיקי |  | yes |
+| [E00472](https://jastrow.app/#rid:E00472) | alt | הֶיסֵּי׳ | /היסטא |  | yes |
+| [E00496](https://jastrow.app/#rid:E00496) | alt | הֶתֵּ׳ | /היתרא |  |  |
+| [E00570](https://jastrow.app/#rid:E00570) | alt | הִילְ׳ | /הלכתא |  | yes |
+| [E00571](https://jastrow.app/#rid:E00571) | alt | הִילֵּ׳ | /הלל |  | yes |
+| [E00608](https://jastrow.app/#rid:E00608) | alt | הִימְ׳ | /המיינא |  |  |
+| [E00632](https://jastrow.app/#rid:E00632) | alt | הִימְ׳ | /המניק |  | yes |
+| [E00696](https://jastrow.app/#rid:E00696) | alt | הֶיסֵּ׳ | /הסבה |  |  |
+| [E00710](https://jastrow.app/#rid:E00710) | alt | הֶסְפֵּי׳ | /הספדא |  | yes |
+| [E00747](https://jastrow.app/#rid:E00747) | alt | הֲפֵי׳ | /הפכתא |  | yes |
+| [E00763](https://jastrow.app/#rid:E00763) | alt | הִיפַּ׳ | /הפרכא |  | yes |
+| [E00764](https://jastrow.app/#rid:E00764) | alt | הִי׳ | /הפרכוס |  | yes |
+| [E00765](https://jastrow.app/#rid:E00765) | alt | הִי׳ | /הפרכיא |  |  |
+| [E00776](https://jastrow.app/#rid:E00776) | alt | הַפְתֵּי׳ | /הפתקא |  | yes |
+| [E00776](https://jastrow.app/#rid:E00776) | alt | הֶיפְתֵּי׳ | /הפתקא |  | yes |
+| [E00838](https://jastrow.app/#rid:E00838) | alt | הִירְ׳ | /הרהור |  | yes |
+| [E00840](https://jastrow.app/#rid:E00840) | alt | הִירְ׳ | /הרהר |  | yes |
+| [E00847](https://jastrow.app/#rid:E00847) | alt | הַרְזְבָנִ׳ | /הרזבונית |  | yes |
+| [E00867](https://jastrow.app/#rid:E00867) | alt | הָרִי׳ | /הריפות |  | yes |
+| [E00911](https://jastrow.app/#rid:E00911) | alt | הֵישָׁ׳ | /השבון |  | yes |
+| [E00941](https://jastrow.app/#rid:E00941) | alt | הִשְׁתַּחֲוָו׳ | /השתחואה |  |  |
+| [F00044](https://jastrow.app/#rid:F00044) | alt | וָהוֹנַ׳ | /ויניא |  |  |
+| [F00066](https://jastrow.app/#rid:F00066) | alt | וֶו׳ | /וסת |  | yes |
+| [F00071](https://jastrow.app/#rid:F00071) | alt | וַו׳ | /ועד-2 |  | yes |
+| [F00087](https://jastrow.app/#rid:F00087) | alt | וַו׳ | /ורדימוס |  |  |
+| [F00097](https://jastrow.app/#rid:F00097) | alt | וֶו׳ | /ושטא |  | yes |
+| [F00106](https://jastrow.app/#rid:F00106) | alt | וְתוּ׳ | /ותיניא |  | yes |
+| [F00107](https://jastrow.app/#rid:F00107) | alt | וְתוּ׳ | /ותינייקי |  | yes |
+| [G00110](https://jastrow.app/#rid:G00110) | alt | זִיהֲ׳ | /זהרורא-2 |  | yes |
+| [G00267](https://jastrow.app/#rid:G00267) | alt | זִבּ׳ | /זיבונא |  | yes |
+| [G00269](https://jastrow.app/#rid:G00269) | alt | זִבּ׳ | /זיבורית |  | yes |
+| [G00296](https://jastrow.app/#rid:G00296) | alt | זִהֲ׳ | /זיהרורא |  |  |
+| [G00312](https://jastrow.app/#rid:G00312) | alt | זִיּיוּ׳ | /זיונא |  | yes |
+| [G00356](https://jastrow.app/#rid:G00356) | alt | זִלּ׳ | /זילוף |  | yes |
+| [G00369](https://jastrow.app/#rid:G00369) | alt | זִמְ׳ | /זימיונא |  | yes |
+| [G00379](https://jastrow.app/#rid:G00379) | alt | זַיְי׳ | /זין-5 |  |  |
+| [G00379](https://jastrow.app/#rid:G00379) | alt | זְיָי׳ | /זין-5 |  |  |
+| [G00381](https://jastrow.app/#rid:G00381) | alt | זִנְ׳ | /זינגאי |  | yes |
+| [G00383](https://jastrow.app/#rid:G00383) | alt | זנו׳ | /זינומתא |  | yes |
+| [G00391](https://jastrow.app/#rid:G00391) | alt | זֵי׳ | /זיעתא |  |  |
+| [G00396](https://jastrow.app/#rid:G00396) | alt | זֵי׳ | /זיפא |  | yes |
+| [G00538](https://jastrow.app/#rid:G00538) | alt | זִי׳ | /זמן-4 |  |  |
+| [G00549](https://jastrow.app/#rid:G00549) | alt | זִימְ׳ | /זמרא-3 |  | yes |
+| [G00550](https://jastrow.app/#rid:G00550) | alt | זִי׳ | /זמרא-4 |  | yes |
+| [G00554](https://jastrow.app/#rid:G00554) | alt | זִימְ׳ | /זמרה-2 |  | yes |
+| [G00581](https://jastrow.app/#rid:G00581) | alt | זַנָּיָי׳ | /זניתא |  |  |
+| [G00589](https://jastrow.app/#rid:G00589) | alt | זִיעֲ׳ | /זעזע |  | yes |
+| [G00618](https://jastrow.app/#rid:G00618) | alt | זוּפְ׳ | /זפירין |  |  |
+| [G00619](https://jastrow.app/#rid:G00619) | alt | זִיפְ׳ | /זפלן |  | yes |
+| [G00657](https://jastrow.app/#rid:G00657) | alt | זִיקְ׳ | /זקת |  |  |
+| [G00679](https://jastrow.app/#rid:G00679) | alt | זֵיר׳ | /זרוע-2 |  | yes |
+| [G00733](https://jastrow.app/#rid:G00733) | alt | זִירְ׳ | /זרפא |  | yes |
+| [H00028](https://jastrow.app/#rid:H00028) | alt | חִבּוּ׳ | /חבוליא |  | yes |
+| [H00028](https://jastrow.app/#rid:H00028) | alt | חִיבּ׳ | /חבוליא |  | yes |
+| [H00051](https://jastrow.app/#rid:H00051) | alt | חֲ׳ | /חביב-2 |  |  |
+| [H00051](https://jastrow.app/#rid:H00051) | alt | חַבִּ׳ | /חביב-2 |  |  |
+| [H00077](https://jastrow.app/#rid:H00077) | alt | חַבִּ׳ | /חבירא |  | yes |
+| [H00089](https://jastrow.app/#rid:H00089) | alt | חֵיבְ׳ | /חבלא |  | yes |
+| [H00121](https://jastrow.app/#rid:H00121) | alt | חֲבֵי׳ | /חברות |  | yes |
+| [H00166](https://jastrow.app/#rid:H00166) | alt | חִיגַּ׳ | /חגרתא |  | yes |
+| [H00178](https://jastrow.app/#rid:H00178) | alt | חֵי׳ | /חדו |  | yes |
+| [H00179](https://jastrow.app/#rid:H00179) | alt | חִדְ׳ | /חדוא |  |  |
+| [H00191](https://jastrow.app/#rid:H00191) | alt | חָדְ׳ | /חדיא |  |  |
+| [H00208](https://jastrow.app/#rid:H00208) | alt | חִידְ׳ | /חדקא |  | yes |
+| [H00209](https://jastrow.app/#rid:H00209) | alt | חִי׳ | /חדקא-2 |  | yes |
+| [H00260](https://jastrow.app/#rid:H00260) | alt | חוֹ׳ | /חודאי |  | yes |
+| [H00310](https://jastrow.app/#rid:H00310) | alt | חֵיְ׳ | /חוי-3 |  |  |
+| [H00317](https://jastrow.app/#rid:H00317) | alt | חָכְ׳ | /חוכמא |  |  |
+| [H00341](https://jastrow.app/#rid:H00341) | alt | חַלְחוּלְ׳ | /חולחולתא |  |  |
+| [H00345](https://jastrow.app/#rid:H00345) | alt | חוֹ׳ | /חולי |  | yes |
+| [H00347](https://jastrow.app/#rid:H00347) | alt | חוּלְיָי׳ | /חוליא |  |  |
+| [H00367](https://jastrow.app/#rid:H00367) | alt | חִי׳ | /חולתא |  | yes |
+| [H00405](https://jastrow.app/#rid:H00405) | alt | חוּנְיָי׳ | /חוניא |  |  |
+| [H00475](https://jastrow.app/#rid:H00475) | alt | חֲרָ׳ | /חורן-2 |  |  |
+| [H00510](https://jastrow.app/#rid:H00510) | alt | חֶזְוַ׳ | /חזויא |  | yes |
+| [H00510](https://jastrow.app/#rid:H00510) | alt | חָזְוַ׳ | /חזויא |  | yes |
+| [H00514](https://jastrow.app/#rid:H00514) | alt | חֵיזְוָ׳ | /חזונא-2 |  | yes |
+| [H00514](https://jastrow.app/#rid:H00514) | alt | חֶזְוָו׳ | /חזונא-2 |  | yes |
+| [H00514](https://jastrow.app/#rid:H00514) | alt | חִזְ׳ | /חזונא-2 |  | yes |
+| [H00517](https://jastrow.app/#rid:H00517) | alt | חֵי׳ | /חזור-2 |  |  |
+| [H00552](https://jastrow.app/#rid:H00552) | alt | חֲזָ׳ | /חזנא |  | yes |
+| [H00585](https://jastrow.app/#rid:H00585) | alt | חַטָּ׳ | /חטאה |  | yes |
+| [H00586](https://jastrow.app/#rid:H00586) | alt | חַטְ׳ | /חטאה-2 |  |  |
+| [H00621](https://jastrow.app/#rid:H00621) | alt | חַ׳ | /חטיא-3 |  | yes |
+| [H00643](https://jastrow.app/#rid:H00643) | alt | חֲטִיפִי׳ | /חטפיתא |  | yes |
+| [H00645](https://jastrow.app/#rid:H00645) | alt | חֻטְ׳ | /חטר-2 |  |  |
+| [H00653](https://jastrow.app/#rid:H00653) | alt | חִבּ׳ | /חיבובא |  |  |
+| [H00654](https://jastrow.app/#rid:H00654) | alt | חִבּ׳ | /חיבוט |  | yes |
+| [H00655](https://jastrow.app/#rid:H00655) | alt | חִבּ׳ | /חיבול |  |  |
+| [H00659](https://jastrow.app/#rid:H00659) | alt | חִבּ׳ | /חיבורא |  | yes |
+| [H00660](https://jastrow.app/#rid:H00660) | alt | חִבְּ׳ | /חיבתא |  | yes |
+| [H00665](https://jastrow.app/#rid:H00665) | alt | חִדּ׳ | /חידוק |  | yes |
+| [H00665](https://jastrow.app/#rid:H00665) | alt | הִ׳ | /חידוק |  | yes |
+| [H00666](https://jastrow.app/#rid:H00666) | alt | חִדּ׳ | /חידוש |  | yes |
+| [H00669](https://jastrow.app/#rid:H00669) | alt | חוּדְ׳ | /חידקי |  |  |
+| [H00677](https://jastrow.app/#rid:H00677) | alt | חִיּי׳ | /חיוב-2 |  |  |
+| [H00692](https://jastrow.app/#rid:H00692) | alt | חֵיוְו׳ | /חיותא-2 |  | yes |
+| [H00695](https://jastrow.app/#rid:H00695) | alt | חִזּ׳ | /חיזוק |  | yes |
+| [H00701](https://jastrow.app/#rid:H00701) | alt | חִזְ׳ | /חיזרא |  | yes |
+| [H00702](https://jastrow.app/#rid:H00702) | alt | חִזְ׳ | /חיזרא-2 |  | yes |
+| [H00705](https://jastrow.app/#rid:H00705) | alt | חוּזְ׳ | /חיזרר |  |  |
+| [H00706](https://jastrow.app/#rid:H00706) | alt | חִטּ׳ | /חיטא |  |  |
+| [H00754](https://jastrow.app/#rid:H00754) | alt | חִכּ׳ | /חיכוכא |  | yes |
+| [H00764](https://jastrow.app/#rid:H00764) | alt | חִלּ׳ | /חילוי |  | yes |
+| [H00765](https://jastrow.app/#rid:H00765) | alt | חִלּ׳ | /חילול |  | yes |
+| [H00767](https://jastrow.app/#rid:H00767) | alt | חִלּ׳ | /חילוני |  | yes |
+| [H00769](https://jastrow.app/#rid:H00769) | alt | חִלּ׳ | /חילוף |  | yes |
+| [H00770](https://jastrow.app/#rid:H00770) | alt | חִלּ׳ | /חילופא |  | yes |
+| [H00772](https://jastrow.app/#rid:H00772) | alt | חִלּ׳ | /חילוק |  | yes |
+| [H00781](https://jastrow.app/#rid:H00781) | alt | חִלְ׳ | /חילפא |  | yes |
+| [H00796](https://jastrow.app/#rid:H00796) | alt | חִלְתִּ׳ | /חילתית |  | yes |
+| [H00797](https://jastrow.app/#rid:H00797) | alt | חִלְ׳ | /חילתיתא |  | yes |
+| [H00803](https://jastrow.app/#rid:H00803) | alt | חִמּ׳ | /חימוץ |  | yes |
+| [H00804](https://jastrow.app/#rid:H00804) | alt | חִמּ׳ | /חימוצא |  | yes |
+| [H00810](https://jastrow.app/#rid:H00810) | alt | חֵימְ׳ | /חימרא |  | yes |
+| [H00810](https://jastrow.app/#rid:H00810) | alt | חִמָ׳ | /חימרא |  | yes |
+| [H00811](https://jastrow.app/#rid:H00811) | alt | חוּ׳ | /חימתא |  | yes |
+| [H00815](https://jastrow.app/#rid:H00815) | alt | חִנְ׳ | /חינגא |  | yes |
+| [H00816](https://jastrow.app/#rid:H00816) | alt | חִנְ׳ | /חינגיתא |  | yes |
+| [H00817](https://jastrow.app/#rid:H00817) | alt | חִנְ׳ | /חינגנא |  |  |
+| [H00819](https://jastrow.app/#rid:H00819) | alt | חִנּ׳ | /חינוך |  | yes |
+| [H00820](https://jastrow.app/#rid:H00820) | alt | חִנּ׳ | /חינוכא |  | yes |
+| [H00821](https://jastrow.app/#rid:H00821) | alt | חִנּ׳ | /חינון |  | yes |
+| [H00827](https://jastrow.app/#rid:H00827) | alt | חֲיָי׳ | /חיס |  |  |
+| [H00830](https://jastrow.app/#rid:H00830) | alt | חִסּ׳ | /חיסודא |  | yes |
+| [H00831](https://jastrow.app/#rid:H00831) | alt | חִסּ׳ | /חיסולא |  | yes |
+| [H00833](https://jastrow.app/#rid:H00833) | alt | חִסּ׳ | /חיסום-2 |  | yes |
+| [H00834](https://jastrow.app/#rid:H00834) | alt | חִסּ׳ | /חיסור |  | yes |
+| [H00836](https://jastrow.app/#rid:H00836) | alt | חִסָּ׳ | /חיסכון |  | yes |
+| [H00853](https://jastrow.app/#rid:H00853) | alt | חִפּ׳ | /חיפושיתא |  | yes |
+| [H00875](https://jastrow.app/#rid:H00875) | alt | חֵר׳ | /חירופא |  |  |
+| [H00900](https://jastrow.app/#rid:H00900) | alt | חִתּ׳ | /חיתוך |  | yes |
+| [H00902](https://jastrow.app/#rid:H00902) | alt | חִתּ׳ | /חיתום |  | yes |
+| [H00906](https://jastrow.app/#rid:H00906) | alt | חִתִּ׳ | /חיתית |  | yes |
+| [H00967](https://jastrow.app/#rid:H00967) | alt | חֶלְ׳ | /חלב-2 |  |  |
+| [H00978](https://jastrow.app/#rid:H00978) | alt | חַלְבֵּי׳ | /חלבצין |  | yes |
+| [H00992](https://jastrow.app/#rid:H00992) | alt | הִי׳ | /חלוז |  |  |
+| [H01013](https://jastrow.app/#rid:H01013) | alt | חִילָּ׳ | /חלזון |  | yes |
+| [H01013](https://jastrow.app/#rid:H01013) | alt | חֲלָ׳ | /חלזון |  | yes |
+| [H01025](https://jastrow.app/#rid:H01025) | alt | חוּלְ׳ | /חלטנית |  | yes |
+| [H01034](https://jastrow.app/#rid:H01034) | alt | חִילִּ׳ | /חליז |  | yes |
+| [H01038](https://jastrow.app/#rid:H01038) | alt | חֲלוּ׳ | /חליטא-3 |  |  |
+| [H01086](https://jastrow.app/#rid:H01086) | alt | חִילְ׳ | /חלמא |  | yes |
+| [H01091](https://jastrow.app/#rid:H01091) | alt | הֶלְ׳ | /חלמון |  | yes |
+| [H01117](https://jastrow.app/#rid:H01117) | alt | חֶילְ׳ | /חלקא |  | yes |
+| [H01149](https://jastrow.app/#rid:H01149) | alt | חֶמְדְּ׳ | /חמדתא |  | yes |
+| [H01151](https://jastrow.app/#rid:H01151) | alt | חֵי׳ | /חמה-2 |  | yes |
+| [H01261](https://jastrow.app/#rid:H01261) | alt | חֲנֻכְּ׳ | /חנוכתא |  | yes |
+| [H01269](https://jastrow.app/#rid:H01269) | alt | חֲנֻפְ׳ | /חנופתא |  | yes |
+| [H01277](https://jastrow.app/#rid:H01277) | alt | חִינְ׳ | /חנטא-2 |  | yes |
+| [H01295](https://jastrow.app/#rid:H01295) | alt | חֲנִסְנְ׳ | /חניסנסיא |  |  |
+| [H01338](https://jastrow.app/#rid:H01338) | alt | חִיסְ׳ | /חסד-5 |  |  |
+| [H01339](https://jastrow.app/#rid:H01339) | alt | חִי׳ | /חסדא |  | yes |
+| [H01340](https://jastrow.app/#rid:H01340) | alt | חִי׳ | /חסדא-2 |  | yes |
+| [H01378](https://jastrow.app/#rid:H01378) | alt | חֲ׳ | /חסילא |  | yes |
+| [H01389](https://jastrow.app/#rid:H01389) | alt | חֲסֵירוּ׳ | /חסירותא |  | yes |
+| [H01389](https://jastrow.app/#rid:H01389) | alt | חַסְרוּ׳ | /חסירותא |  | yes |
+| [H01406](https://jastrow.app/#rid:H01406) | alt | חִ׳ | /חסף-2 |  |  |
+| [H01407](https://jastrow.app/#rid:H01407) | alt | חִ׳ | /חספא |  | yes |
+| [H01412](https://jastrow.app/#rid:H01412) | alt | חֲסֵי׳ | /חסר-3 |  |  |
+| [H01415](https://jastrow.app/#rid:H01415) | alt | חִי׳ | /חסרון |  |  |
+| [H01424](https://jastrow.app/#rid:H01424) | alt | חִי׳ | /חפוי |  | yes |
+| [H01425](https://jastrow.app/#rid:H01425) | alt | חִי׳ | /חפויא |  |  |
+| [H01432](https://jastrow.app/#rid:H01432) | alt | חֲפִי׳ | /חפורה-2 |  | yes |
+| [H01486](https://jastrow.app/#rid:H01486) | alt | חֵי׳ | /חפתא |  | yes |
+| [H01579](https://jastrow.app/#rid:H01579) | alt | חֲרֵי׳ | /חרב-3 |  |  |
+| [H01593](https://jastrow.app/#rid:H01593) | alt | חִירְ׳ | /חרגא-2 |  | yes |
+| [H01654](https://jastrow.app/#rid:H01654) | alt | חִרְ׳ | /חרחור-2 |  | yes |
+| [H01681](https://jastrow.app/#rid:H01681) | alt | חִירְ׳ | /חרינא |  | yes |
+| [H01762](https://jastrow.app/#rid:H01762) | alt | חִירְ׳ | /חרקא |  | yes |
+| [H01789](https://jastrow.app/#rid:H01789) | alt | חֲרָ׳ | /חרשין |  |  |
+| [H01808](https://jastrow.app/#rid:H01808) | alt | חֲשָׁ׳ | /חשבא |  | yes |
+| [I00031](https://jastrow.app/#rid:I00031) | alt | טַבְוָו׳ | /טבואות |  | yes |
+| [I00081](https://jastrow.app/#rid:I00081) | alt | טִיבְ׳ | /טבע-6 |  |  |
+| [I00083](https://jastrow.app/#rid:I00083) | alt | טִי׳ | /טבעון |  |  |
+| [I00088](https://jastrow.app/#rid:I00088) | alt | טִיבַ׳ | /טבריא |  |  |
+| [I00089](https://jastrow.app/#rid:I00089) | alt | טְבִירְ׳ | /טבריוס |  | yes |
+| [I00129](https://jastrow.app/#rid:I00129) | alt | טַּוְזִ׳ | /טווזיג |  | yes |
+| [I00156](https://jastrow.app/#rid:I00156) | alt | טַוְו׳ | /טוי-5 |  |  |
+| [I00207](https://jastrow.app/#rid:I00207) | alt | טוּ׳ | /טופנא |  | yes |
+| [I00222](https://jastrow.app/#rid:I00222) | alt | טַרְ׳ | /טורזינא |  | yes |
+| [I00278](https://jastrow.app/#rid:I00278) | alt | טוֹטַ׳ | /טטפראות |  | yes |
+| [I00300](https://jastrow.app/#rid:I00300) | alt | טִבּ׳ | /טיבול |  | yes |
+| [I00301](https://jastrow.app/#rid:I00301) | alt | טִבּ׳ | /טיבולא |  | yes |
+| [I00318](https://jastrow.app/#rid:I00318) | alt | טִהֲ׳ | /טיהרא |  | yes |
+| [I00319](https://jastrow.app/#rid:I00319) | alt | טִהֲ׳ | /טיהרי |  |  |
+| [I00327](https://jastrow.app/#rid:I00327) | alt | טִחְ׳ | /טיחיא |  | yes |
+| [I00361](https://jastrow.app/#rid:I00361) | alt | טְכְ׳ | /טיכסא |  |  |
+| [I00374](https://jastrow.app/#rid:I00374) | alt | טִמוּ׳ | /טימורא |  | yes |
+| [I00375](https://jastrow.app/#rid:I00375) | alt | טִמוּ׳ | /טימורתא |  | yes |
+| [I00391](https://jastrow.app/#rid:I00391) | alt | טנ׳ | /טינדיסין |  | yes |
+| [I00394](https://jastrow.app/#rid:I00394) | alt | טִנּ׳ | /טינוף |  | yes |
+| [I00395](https://jastrow.app/#rid:I00395) | alt | טִנּ׳ | /טינופא |  | yes |
+| [I00396](https://jastrow.app/#rid:I00396) | alt | טִנּ׳ | /טינופת |  | yes |
+| [I00422](https://jastrow.app/#rid:I00422) | alt | טִפְ׳ | /טיפתא |  | yes |
+| [I00423](https://jastrow.app/#rid:I00423) | alt | טִקּ׳ | /טיקוסא |  | yes |
+| [I00432](https://jastrow.app/#rid:I00432) | alt | טֵר׳ | /טירודין |  | yes |
+| [I00438](https://jastrow.app/#rid:I00438) | alt | טִר׳ | /טירוניא-2 |  |  |
+| [I00442](https://jastrow.app/#rid:I00442) | alt | טִרְ׳ | /טיריא |  |  |
+| [I00457](https://jastrow.app/#rid:I00457) | alt | טִשְׁ׳ | /טישטושא |  | yes |
+| [I00480](https://jastrow.app/#rid:I00480) | alt | טְלוֹ׳ | /טלומא |  | yes |
+| [I00480](https://jastrow.app/#rid:I00480) | alt | טוּלְ׳ | /טלומא |  | yes |
+| [I00481](https://jastrow.app/#rid:I00481) | alt | טַלּוֹ׳ | /טלומא-2 |  | yes |
+| [I00483](https://jastrow.app/#rid:I00483) | alt | טְלָפְ׳ | /טלופחא |  | yes |
+| [I00486](https://jastrow.app/#rid:I00486) | alt | טִילְ׳ | /טלטול |  | yes |
+| [I00487](https://jastrow.app/#rid:I00487) | alt | טִילְ׳ | /טלטול-2 |  |  |
+| [I00489](https://jastrow.app/#rid:I00489) | alt | טִילְ׳ | /טלטוליא |  | yes |
+| [I00489](https://jastrow.app/#rid:I00489) | alt | טַלְ׳ | /טלטוליא |  | yes |
+| [I00506](https://jastrow.app/#rid:I00506) | alt | טַלְיְי׳ | /טליתא |  |  |
+| [I00522](https://jastrow.app/#rid:I00522) | alt | טִילְ׳ | /טלף-2 |  |  |
+| [I00546](https://jastrow.app/#rid:I00546) | alt | טָמַ׳ | /טמיא-2 |  | yes |
+| [I00551](https://jastrow.app/#rid:I00551) | alt | טִימְיָ׳ | /טמיקא |  | yes |
+| [I00589](https://jastrow.app/#rid:I00589) | alt | טִיסְ׳ | /טסברא |  | yes |
+| [I00664](https://jastrow.app/#rid:I00664) | alt | טְפֵי׳ | /טפלא-2 |  | yes |
+| [I00665](https://jastrow.app/#rid:I00665) | alt | טְפֵי׳ | /טפלה |  | yes |
+| [I00670](https://jastrow.app/#rid:I00670) | alt | טִפְ׳ | /טפסא-2 |  | yes |
+| [I00672](https://jastrow.app/#rid:I00672) | alt | טַ׳ | /טפסר |  | yes |
+| [I00684](https://jastrow.app/#rid:I00684) | alt | טִיפּ׳ | /טפש-4 |  |  |
+| [I00685](https://jastrow.app/#rid:I00685) | alt | טִיפְּ׳ | /טפשות |  | yes |
+| [I00686](https://jastrow.app/#rid:I00686) | alt | טִפְּ׳ | /טפשותא |  | yes |
+| [I00686](https://jastrow.app/#rid:I00686) | alt | טִיפְּ׳ | /טפשותא |  | yes |
+| [I00715](https://jastrow.app/#rid:I00715) | alt | טִירְ׳ | /טרדא |  | yes |
+| [I00740](https://jastrow.app/#rid:I00740) | alt | טרק׳ | /טרוקסימא |  |  |
+| [I00740](https://jastrow.app/#rid:I00740) | alt | טרכ׳ | /טרוקסימא |  |  |
+| [I00748](https://jastrow.app/#rid:I00748) | alt | טִירְ׳ | /טרחא-2 |  | yes |
+| [I00749](https://jastrow.app/#rid:I00749) | alt | טִירְ׳ | /טרחות |  | yes |
+| [I00750](https://jastrow.app/#rid:I00750) | alt | טוֹרְחוּ׳ | /טרחותא |  |  |
+| [I00756](https://jastrow.app/#rid:I00756) | alt | טַרְתֵּ׳ | /טרטימר |  | yes |
+| [I00756](https://jastrow.app/#rid:I00756) | alt | תַּרְטֵ׳ | /טרטימר |  | yes |
+| [I00768](https://jastrow.app/#rid:I00768) | alt | טַרְ׳ | /טריא |  | yes |
+| [I00788](https://jastrow.app/#rid:I00788) | alt | טוּרְ׳ | /טרייא |  |  |
+| [I00792](https://jastrow.app/#rid:I00792) | alt | טוּרְ׳ | /טריינוס |  | yes |
+| [I00823](https://jastrow.app/#rid:I00823) | alt | טְרַקְ׳ | /טריקלינא |  | yes |
+| [I00884](https://jastrow.app/#rid:I00884) | alt | טרעפ׳ | /טרפעיק |  |  |
+| [I00904](https://jastrow.app/#rid:I00904) | alt | טְרִיקְ׳ | /טרקסין |  | yes |
+| [J00005](https://jastrow.app/#rid:J00005) | alt | יָי׳ | /יאו |  |  |
+| [J00061](https://jastrow.app/#rid:J00061) | alt | יָי׳ | /יבם-4 |  |  |
+| [J00064](https://jastrow.app/#rid:J00064) | alt | יְבִמְ׳ | /יבמתא |  | yes |
+| [J00064](https://jastrow.app/#rid:J00064) | alt | יְבִימְ׳ | /יבמתא |  | yes |
+| [J00075](https://jastrow.app/#rid:J00075) | alt | יַבִּישְׁ׳ | /יבשתא |  | yes |
+| [J00075](https://jastrow.app/#rid:J00075) | alt | יַבִּשְׁ׳ | /יבשתא |  | yes |
+| [J00089](https://jastrow.app/#rid:J00089) | alt | יָי׳ | /יגע-2 |  |  |
+| [J00172](https://jastrow.app/#rid:J00172) | alt | יָדְ׳ | /יודקרת |  | yes |
+| [J00201](https://jastrow.app/#rid:J00201) | alt | יְוָו׳ | /יונאה |  | yes |
+| [J00206](https://jastrow.app/#rid:J00206) | alt | יְוָו׳ | /יוני-2 |  |  |
+| [J00231](https://jastrow.app/#rid:J00231) | alt | דְּיוֹ׳ | /יוקינוס |  | yes |
+| [J00259](https://jastrow.app/#rid:J00259) | alt | יְזִיפְ׳ | /יזופתא |  | yes |
+| [J00271](https://jastrow.app/#rid:J00271) | alt | יִי׳ | /יחוד-2 |  |  |
+| [J00272](https://jastrow.app/#rid:J00272) | alt | יִי׳ | /יחול |  | yes |
+| [J00273](https://jastrow.app/#rid:J00273) | alt | יִי׳ | /יחוס |  | yes |
+| [J00274](https://jastrow.app/#rid:J00274) | alt | יֵי׳ | /יחוס-2 |  |  |
+| [J00276](https://jastrow.app/#rid:J00276) | alt | יִי׳ | /יחוף |  | yes |
+| [J00285](https://jastrow.app/#rid:J00285) | alt | י׳ | /יחיד-2 |  |  |
+| [J00290](https://jastrow.app/#rid:J00290) | alt | יְחֵיפ׳ | /יחיף |  | yes |
+| [J00309](https://jastrow.app/#rid:J00309) | alt | יַי׳ | /יחף-5 |  | yes |
+| [J00382](https://jastrow.app/#rid:J00382) | alt | יְלֵיד׳ | /ילידתא |  | yes |
+| [J00411](https://jastrow.app/#rid:J00411) | alt | יֵי׳ | /ימים-2 |  | yes |
+| [J00460](https://jastrow.app/#rid:J00460) | alt | יְסוּ׳ | /יסורא |  | yes |
+| [J00460](https://jastrow.app/#rid:J00460) | alt | יִיסּוּ׳ | /יסורא |  | yes |
+| [J00481](https://jastrow.app/#rid:J00481) | alt | בֵּיתי׳ | /יעזק |  | yes |
+| [J00546](https://jastrow.app/#rid:J00546) | alt | יוּצְ׳ | /יצף-4 |  |  |
+| [J00546](https://jastrow.app/#rid:J00546) | alt | יִיצְ׳ | /יצף-4 |  |  |
+| [J00568](https://jastrow.app/#rid:J00568) | alt | יְקֵדְ׳ | /יקידא |  |  |
+| [J00570](https://jastrow.app/#rid:J00570) | alt | יְקִי׳ | /יקידותא |  | yes |
+| [J00604](https://jastrow.app/#rid:J00604) | alt | יָי׳ | /ירוד-2 |  |  |
+| [J00729](https://jastrow.app/#rid:J00729) | alt | יְ׳ | /יתיבתא |  | yes |
+| [J00737](https://jastrow.app/#rid:J00737) | alt | יְתֵיר׳ | /יתיר-2 |  |  |
+| [J00751](https://jastrow.app/#rid:J00751) | alt | יִי׳ | /יתרא |  | yes |
+| [K00002](https://jastrow.app/#rid:K00002) | alt | כִּ־׳ | /כ־ |  |  |
+| [K00011](https://jastrow.app/#rid:K00011) | alt | לִכְאוֹ׳ | /כאורה |  | yes |
+| [K00078](https://jastrow.app/#rid:K00078) | alt | כּוּבְ׳ | /כבריתא |  |  |
+| [K00093](https://jastrow.app/#rid:K00093) | alt | כּוּבֶּ׳ | /כבשת |  | yes |
+| [K00104](https://jastrow.app/#rid:K00104) | alt | כִּדְ׳ | /כדבא |  |  |
+| [K00104](https://jastrow.app/#rid:K00104) | alt | כִּידְ׳ | /כדבא |  |  |
+| [K00108](https://jastrow.app/#rid:K00108) | alt | כַּדְבוּ׳ | /כדבותא |  | yes |
+| [K00108](https://jastrow.app/#rid:K00108) | alt | כַּדִּיבוּ׳ | /כדבותא |  | yes |
+| [K00117](https://jastrow.app/#rid:K00117) | alt | כר׳ | /כדופסלא |  | yes |
+| [K00151](https://jastrow.app/#rid:K00151) | alt | כֵּו׳ | /כהה |  |  |
+| [K00151](https://jastrow.app/#rid:K00151) | alt | כֵּי׳ | /כהה |  |  |
+| [K00196](https://jastrow.app/#rid:K00196) | alt | כובד׳ | /כוברים |  | yes |
+| [K00250](https://jastrow.app/#rid:K00250) | alt | כֹּכ׳ | /כוכב-2 |  |  |
+| [K00257](https://jastrow.app/#rid:K00257) | alt | קוֹכְ׳ | /כוכליאס |  |  |
+| [K00265](https://jastrow.app/#rid:K00265) | alt | כולכ׳ | /כולבסין |  | yes |
+| [K00270](https://jastrow.app/#rid:K00270) | alt | כּוּל׳ | /כוליא |  |  |
+| [K00270](https://jastrow.app/#rid:K00270) | alt | כָּלְ׳ | /כוליא |  |  |
+| [K00303](https://jastrow.app/#rid:K00303) | alt | כַּוָּו׳ | /כונה |  | yes |
+| [K00304](https://jastrow.app/#rid:K00304) | alt | כַּוּו׳ | /כונותא |  |  |
+| [K00431](https://jastrow.app/#rid:K00431) | alt | כּוֹתַ׳ | /כותניאס |  |  |
+| [K00451](https://jastrow.app/#rid:K00451) | alt | כּוֹ׳ | /כח-3 |  |  |
+| [K00530](https://jastrow.app/#rid:K00530) | alt | כִּלְ׳ | /כילבית |  | yes |
+| [K00554](https://jastrow.app/#rid:K00554) | alt | כִּלְ׳ | /כילכית |  |  |
+| [K00567](https://jastrow.app/#rid:K00567) | alt | כִּנּ׳ | /כינויא |  | yes |
+| [K00568](https://jastrow.app/#rid:K00568) | alt | כִּנּ׳ | /כינוס |  | yes |
+| [K00580](https://jastrow.app/#rid:K00580) | alt | כּסּ׳ | /כיסוח |  | yes |
+| [K00581](https://jastrow.app/#rid:K00581) | alt | כִּסּ׳ | /כיסוי |  | yes |
+| [K00582](https://jastrow.app/#rid:K00582) | alt | כִּסּ׳ | /כיסויא |  | yes |
+| [K00583](https://jastrow.app/#rid:K00583) | alt | כִּסּ׳ | /כיסופא |  | yes |
+| [K00591](https://jastrow.app/#rid:K00591) | alt | כִּסְ׳ | /כיסנין-2 |  |  |
+| [K00591](https://jastrow.app/#rid:K00591) | alt | כִּיסָא׳ | /כיסנין-2 |  |  |
+| [K00591](https://jastrow.app/#rid:K00591) | alt | כְּסָא׳ | /כיסנין-2 |  |  |
+| [K00594](https://jastrow.app/#rid:K00594) | alt | כִּיסְּ׳ | /כיסתא-2 |  | yes |
+| [K00605](https://jastrow.app/#rid:K00605) | alt | קִיפֵּ׳ | /כיפח |  |  |
+| [K00605](https://jastrow.app/#rid:K00605) | alt | קִפֵּ׳ | /כיפח |  |  |
+| [K00607](https://jastrow.app/#rid:K00607) | alt | כֵּפְ׳ | /כיפלא |  |  |
+| [K00638](https://jastrow.app/#rid:K00638) | alt | כִּשּׁ׳ | /כישוף |  | yes |
+| [K00641](https://jastrow.app/#rid:K00641) | alt | כִּשָּׁ׳ | /כישרון |  | yes |
+| [K00646](https://jastrow.app/#rid:K00646) | alt | כִּתּ׳ | /כיתונא |  | yes |
+| [K00651](https://jastrow.app/#rid:K00651) | alt | כִּת׳ | /כיתן |  |  |
+| [K00653](https://jastrow.app/#rid:K00653) | alt | כִּיתְ׳ | /כיתניתא |  | yes |
+| [K00665](https://jastrow.app/#rid:K00665) | alt | כַּ׳ | /ככרא |  | yes |
+| [K00711](https://jastrow.app/#rid:K00711) | alt | גְּלוּפְ׳ | /כלופסין |  |  |
+| [K00711](https://jastrow.app/#rid:K00711) | alt | קְלוּפְ׳ | /כלופסין |  |  |
+| [K00751](https://jastrow.app/#rid:K00751) | alt | כִּילְ׳ | /כלכול |  |  |
+| [K00767](https://jastrow.app/#rid:K00767) | alt | קַלְ׳ | /כלמתא |  | yes |
+| [K00784](https://jastrow.app/#rid:K00784) | alt | כַּלְ׳ | /כלתא |  | yes |
+| [K00784](https://jastrow.app/#rid:K00784) | alt | כַּלָּ׳ | /כלתא |  | yes |
+| [K00790](https://jastrow.app/#rid:K00790) | alt | כְּמֵי׳ | /כמהות |  |  |
+| [K00847](https://jastrow.app/#rid:K00847) | alt | כִּינּוֹ׳ | /כנורא |  |  |
+| [K00857](https://jastrow.app/#rid:K00857) | alt | כְּנִשְׁ׳ | /כנישא |  |  |
+| [K00876](https://jastrow.app/#rid:K00876) | alt | כִּי׳ | /כנרא |  | yes |
+| [K00879](https://jastrow.app/#rid:K00879) | alt | כִּינֶּ׳ | /כנרת |  | yes |
+| [K00882](https://jastrow.app/#rid:K00882) | alt | כִּי׳ | /כנשא |  | yes |
+| [K00926](https://jastrow.app/#rid:K00926) | alt | כְּסוּסְ׳ | /כסיסטא |  | yes |
+| [K00958](https://jastrow.app/#rid:K00958) | alt | כְּסִיפְ׳ | /כספתא |  | yes |
+| [K00992](https://jastrow.app/#rid:K00992) | alt | כִּיפּ׳ | /כפור |  | yes |
+| [K00993](https://jastrow.app/#rid:K00993) | alt | כִּיפּ׳ | /כפור-2 |  |  |
+| [K01002](https://jastrow.app/#rid:K01002) | alt | כַּפּ׳ | /כפורתא |  |  |
+| [K01002](https://jastrow.app/#rid:K01002) | alt | כַּפ׳ | /כפורתא |  |  |
+| [K01002](https://jastrow.app/#rid:K01002) | alt | כְּפ׳ | /כפורתא |  |  |
+| [K01039](https://jastrow.app/#rid:K01039) | alt | כּוּפְ׳ | /כפניתא |  |  |
+| [K01057](https://jastrow.app/#rid:K01057) | alt | כּוּפְ׳ | /כפרנא |  | yes |
+| [K01093](https://jastrow.app/#rid:K01093) | alt | כַּרְדּוּ׳ | /כרדיטין |  | yes |
+| [K01099](https://jastrow.app/#rid:K01099) | alt | כּוּרְ׳ | /כרהנא |  | yes |
+| [K01105](https://jastrow.app/#rid:K01105) | alt | כְּרוּ׳ | /כרובא-3 |  | yes |
+| [K01148](https://jastrow.app/#rid:K01148) | alt | כּוֹ׳ | /כרחא |  | yes |
+| [K01174](https://jastrow.app/#rid:K01174) | alt | קְ׳ | /כריספא |  | yes |
+| [K01196](https://jastrow.app/#rid:K01196) | alt | כ׳ | /כרכוז |  |  |
+| [K01198](https://jastrow.app/#rid:K01198) | alt | כּוּרְכּ׳ | /כרכום-2 |  |  |
+| [K01199](https://jastrow.app/#rid:K01199) | alt | כַּרְקֹ׳ | /כרכום-3 |  |  |
+| [K01202](https://jastrow.app/#rid:K01202) | alt | כִּירְ׳ | /כרכור |  | yes |
+| [K01212](https://jastrow.app/#rid:K01212) | alt | כַּרְכִּימִ׳ | /כרכמישא |  | yes |
+| [K01213](https://jastrow.app/#rid:K01213) | alt | כּוּרְ׳ | /כרכמית |  | yes |
+| [K01290](https://jastrow.app/#rid:K01290) | alt | כְּרֵיתִ׳ | /כרתינון |  | yes |
+| [K01297](https://jastrow.app/#rid:K01297) | alt | כַּסְ׳ | /כשדאה |  | yes |
+| [K01300](https://jastrow.app/#rid:K01300) | alt | כְּשׁוֹ׳ | /כשורא |  | yes |
+| [K01342](https://jastrow.app/#rid:K01342) | alt | כִּתְ׳ | /כתב-4 |  |  |
+| [K01363](https://jastrow.app/#rid:K01363) | alt | כְּתוּ׳ | /כתישא |  | yes |
+| [K01373](https://jastrow.app/#rid:K01373) | alt | כִּי׳ | /כתמא |  | yes |
+| [K01389](https://jastrow.app/#rid:K01389) | alt | כִּי׳ | /כתר-4 |  |  |
+| [K01389](https://jastrow.app/#rid:K01389) | alt | כּוּ׳ | /כתר-4 |  |  |
+| [L00031](https://jastrow.app/#rid:L00031) | alt | לִי׳ | /לב-2 |  |  |
+| [L00044](https://jastrow.app/#rid:L00044) | alt | לִי׳ | /לבדא |  | yes |
+| [L00060](https://jastrow.app/#rid:L00060) | alt | לְבִי׳ | /לבוש-2 |  |  |
+| [L00078](https://jastrow.app/#rid:L00078) | alt | לְבוּ׳ | /לביצין |  | yes |
+| [L00087](https://jastrow.app/#rid:L00087) | alt | לִיבְ׳ | /לבלבא |  |  |
+| [L00093](https://jastrow.app/#rid:L00093) | alt | לַב׳ | /לבלר-2 |  |  |
+| [L00093](https://jastrow.app/#rid:L00093) | alt | לִיבְ׳ | /לבלר-2 |  |  |
+| [L00102](https://jastrow.app/#rid:L00102) | alt | לִי׳ | /לבנא |  | yes |
+| [L00103](https://jastrow.app/#rid:L00103) | alt | לְבֵי׳ | /לבנה |  | yes |
+| [L00111](https://jastrow.app/#rid:L00111) | alt | לִיבְ׳ | /לבנן |  | yes |
+| [L00117](https://jastrow.app/#rid:L00117) | alt | לַבְרָ׳ | /לברניא |  | yes |
+| [L00125](https://jastrow.app/#rid:L00125) | alt | לִיגָ׳ | /לגטון |  | yes |
+| [L00128](https://jastrow.app/#rid:L00128) | alt | לִי׳ | /לגיון-2 |  |  |
+| [L00135](https://jastrow.app/#rid:L00135) | alt | לִיגְ׳ | /לגלג |  | yes |
+| [L00138](https://jastrow.app/#rid:L00138) | alt | לִיגְ׳ | /לגלוג |  | yes |
+| [L00139](https://jastrow.app/#rid:L00139) | alt | לִיגְ׳ | /לגלוג-2 |  | yes |
+| [L00141](https://jastrow.app/#rid:L00141) | alt | לִיגְ׳ | /לגנא |  | yes |
+| [L00252](https://jastrow.app/#rid:L00252) | alt | לֵי׳ | /לויא |  |  |
+| [L00258](https://jastrow.app/#rid:L00258) | alt | לְוָו׳ | /לוייתא |  |  |
+| [L00262](https://jastrow.app/#rid:L00262) | alt | לִיוְ׳ | /לויתן |  | yes |
+| [L00280](https://jastrow.app/#rid:L00280) | alt | לוּלְיָא׳ | /לוליינוס |  | yes |
+| [L00281](https://jastrow.app/#rid:L00281) | alt | לוּלְיָא׳ | /לולייני |  | yes |
+| [L00281](https://jastrow.app/#rid:L00281) | alt | לוּלְיָ׳ | /לולייני |  | yes |
+| [L00282](https://jastrow.app/#rid:L00282) | alt | לוּלְיָא׳ | /לוליינית |  | yes |
+| [L00282](https://jastrow.app/#rid:L00282) | alt | לוּלְיָ׳ | /לוליינית |  | yes |
+| [L00299](https://jastrow.app/#rid:L00299) | alt | לוּ׳ | /לועא |  | yes |
+| [L00319](https://jastrow.app/#rid:L00319) | alt | לַוְקְיָיא׳ | /לוקיאני |  | yes |
+| [L00319](https://jastrow.app/#rid:L00319) | alt | לַוְו׳ | /לוקיאני |  | yes |
+| [L00322](https://jastrow.app/#rid:L00322) | alt | לַוְו׳ | /לוקן |  | yes |
+| [L00322](https://jastrow.app/#rid:L00322) | alt | לַבְ׳ | /לוקן |  | yes |
+| [L00346](https://jastrow.app/#rid:L00346) | alt | לְחַיָּ׳ | /לחייתא |  | yes |
+| [L00351](https://jastrow.app/#rid:L00351) | alt | לְחֵינָ׳ | /לחינתא |  |  |
+| [L00358](https://jastrow.app/#rid:L00358) | alt | לִיחְ׳ | /לחלוחית |  | yes |
+| [L00360](https://jastrow.app/#rid:L00360) | alt | לִיחְ׳ | /לחלוך |  | yes |
+| [L00378](https://jastrow.app/#rid:L00378) | alt | לוּ׳ | /לחתא |  |  |
+| [L00404](https://jastrow.app/#rid:L00404) | alt | לֵיע׳ | /ליאו |  |  |
+| [L00413](https://jastrow.app/#rid:L00413) | alt | לִבּ׳ | /ליבון |  | yes |
+| [L00434](https://jastrow.app/#rid:L00434) | alt | לְוְו׳ | /ליווקאי |  | yes |
+| [L00480](https://jastrow.app/#rid:L00480) | alt | לִמּ׳ | /לימודים |  |  |
+| [L00497](https://jastrow.app/#rid:L00497) | alt | לִסְ׳ | /ליסטיותא |  | yes |
+| [L00498](https://jastrow.app/#rid:L00498) | alt | לִסְ׳ | /ליסטיס |  |  |
+| [L00514](https://jastrow.app/#rid:L00514) | alt | לִצְּ׳ | /ליצוי |  | yes |
+| [L00515](https://jastrow.app/#rid:L00515) | alt | לַיְי׳ | /ליצן |  |  |
+| [L00519](https://jastrow.app/#rid:L00519) | alt | לִקּ׳ | /ליקוח |  | yes |
+| [L00526](https://jastrow.app/#rid:L00526) | alt | לִי׳ | /ליש-4 |  |  |
+| [L00531](https://jastrow.app/#rid:L00531) | alt | לִשָׁ׳ | /לישן |  |  |
+| [L00551](https://jastrow.app/#rid:L00551) | alt | לִיכְ׳ | /לכלוך |  | yes |
+| [L00552](https://jastrow.app/#rid:L00552) | alt | לִיכְ׳ | /לכלוכית |  | yes |
+| [L00553](https://jastrow.app/#rid:L00553) | alt | לִיכְ׳ | /לכלך |  | yes |
+| [L00577](https://jastrow.app/#rid:L00577) | alt | לִימְ׳ | /למלם |  | yes |
+| [L00590](https://jastrow.app/#rid:L00590) | alt | לִיסְ׳ | /לסתא |  | yes |
+| [L00601](https://jastrow.app/#rid:L00601) | alt | לְעֵי׳ | /לעונים |  |  |
+| [L00648](https://jastrow.app/#rid:L00648) | alt | לִי׳ | /לפצא |  |  |
+| [L00653](https://jastrow.app/#rid:L00653) | alt | לִיפְ׳ | /לפתא |  | yes |
+| [L00654](https://jastrow.app/#rid:L00654) | alt | לִיפְ׳ | /לפתותא |  | yes |
+| [L00656](https://jastrow.app/#rid:L00656) | alt | לִיפְ׳ | /לפתן |  | yes |
+| [L00657](https://jastrow.app/#rid:L00657) | alt | לִיפְ׳ | /לפתנא |  | yes |
+| [L00695](https://jastrow.app/#rid:L00695) | alt | לְקִי׳ | /לקישותא |  | yes |
+| [L00707](https://jastrow.app/#rid:L00707) | alt | לִישְׁ׳ | /לשכה |  | yes |
+| [L00708](https://jastrow.app/#rid:L00708) | alt | לִישְׁ׳ | /לשכתא |  | yes |
+| [L00709](https://jastrow.app/#rid:L00709) | alt | לִי׳ | /לשלושתא |  | yes |
+| [L00710](https://jastrow.app/#rid:L00710) | alt | לִי׳ | /לשלשת |  | yes |
+| [M00020](https://jastrow.app/#rid:M00020) | alt | מֵ׳ | /מאחא |  | yes |
+| [M00061](https://jastrow.app/#rid:M00061) | alt | מְאֵי׳ | /מארה |  | yes |
+| [M00093](https://jastrow.app/#rid:M00093) | alt | מִבְ׳ | /מבע |  |  |
+| [M00098](https://jastrow.app/#rid:M00098) | alt | מָבְ׳ | /מברי |  | yes |
+| [M00117](https://jastrow.app/#rid:M00117) | alt | מִגְ׳ | /מגדא |  | yes |
+| [M00117](https://jastrow.app/#rid:M00117) | alt | מִיגְ׳ | /מגדא |  | yes |
+| [M00118](https://jastrow.app/#rid:M00118) | alt | מִיגְ׳ | /מגדא-2 |  | yes |
+| [M00121](https://jastrow.app/#rid:M00121) | alt | מַגְ׳ | /מגדל-2 |  |  |
+| [M00121](https://jastrow.app/#rid:M00121) | alt | מוּגְ׳ | /מגדל-2 |  |  |
+| [M00122](https://jastrow.app/#rid:M00122) | alt | מוּגְ׳ | /מגדלאה |  |  |
+| [M00125](https://jastrow.app/#rid:M00125) | alt | מַגְ׳ | /מגדנין |  | yes |
+| [M00148](https://jastrow.app/#rid:M00148) | alt | מִיגְ׳ | /מגזרא |  | yes |
+| [M00165](https://jastrow.app/#rid:M00165) | alt | מָגִסְ׳ | /מגיסטיר |  | yes |
+| [M00167](https://jastrow.app/#rid:M00167) | alt | מְגוּ׳ | /מגיסתא |  | yes |
+| [M00168](https://jastrow.app/#rid:M00168) | alt | מְגוּ׳ | /מגיסתא-2 |  | yes |
+| [M00171](https://jastrow.app/#rid:M00171) | alt | מָגוֹ׳ | /מגיר-2 |  | yes |
+| [M00180](https://jastrow.app/#rid:M00180) | alt | מַגָּ׳ | /מגל-2 |  |  |
+| [M00187](https://jastrow.app/#rid:M00187) | alt | מְגִילְ׳ | /מגלתא |  | yes |
+| [M00204](https://jastrow.app/#rid:M00204) | alt | מַגֵּי׳ | /מגפה |  | yes |
+| [M00206](https://jastrow.app/#rid:M00206) | alt | מַגֵּיפְ׳ | /מגפתא |  | yes |
+| [M00223](https://jastrow.app/#rid:M00223) | alt | מַגְרֵי׳ | /מגרפה |  | yes |
+| [M00248](https://jastrow.app/#rid:M00248) | alt | מַדְבְּרָ׳ | /מדברנותא |  | yes |
+| [M00296](https://jastrow.app/#rid:M00296) | alt | מַדִּי׳ | /מדינחא |  |  |
+| [M00316](https://jastrow.app/#rid:M00316) | alt | מִ׳ | /מדע-2 |  |  |
+| [M00317](https://jastrow.app/#rid:M00317) | alt | מִידַּ׳ | /מדעם |  | yes |
+| [M00328](https://jastrow.app/#rid:M00328) | alt | מַדְרֵי׳ | /מדרגה |  | yes |
+| [M00331](https://jastrow.app/#rid:M00331) | alt | מִדְּ׳ | /מדרון |  | yes |
+| [M00332](https://jastrow.app/#rid:M00332) | alt | מוֹדְ׳ | /מדרון-2 |  | yes |
+| [M00338](https://jastrow.app/#rid:M00338) | alt | מֶדְ׳ | /מדרשא |  | yes |
+| [M00354](https://jastrow.app/#rid:M00354) | alt | מָ׳ | /מהולתא-2 |  | yes |
+| [M00373](https://jastrow.app/#rid:M00373) | alt | מַחֲ׳ | /מהמורות |  | yes |
+| [M00391](https://jastrow.app/#rid:M00391) | alt | מובילי׳ | /מובילותא |  | yes |
+| [M00425](https://jastrow.app/#rid:M00425) | alt | מוֹהֲבִי׳ | /מוהבותא |  |  |
+| [M00539](https://jastrow.app/#rid:M00539) | alt | מָנְ׳ | /מונייק |  | yes |
+| [M00586](https://jastrow.app/#rid:M00586) | alt | מַקְ׳ | /מוקדוניא |  | yes |
+| [M00625](https://jastrow.app/#rid:M00625) | alt | מַרְדְּ׳ | /מורדקא |  |  |
+| [M00638](https://jastrow.app/#rid:M00638) | alt | מַרְטַ׳ | /מורטניא |  | yes |
+| [M00664](https://jastrow.app/#rid:M00664) | alt | מוּרְנִי׳ | /מורניתא |  | yes |
+| [M00711](https://jastrow.app/#rid:M00711) | alt | מְזוֹבְנָ׳ | /מזבננא |  | yes |
+| [M00716](https://jastrow.app/#rid:M00716) | alt | מִיזְ׳ | /מזגא |  |  |
+| [M00788](https://jastrow.app/#rid:M00788) | alt | מַזִּירְ׳ | /מזרק-2 |  |  |
+| [M00833](https://jastrow.app/#rid:M00833) | alt | מִיחְ׳ | /מחור |  | yes |
+| [M00842](https://jastrow.app/#rid:M00842) | alt | מִיחְ׳ | /מחזי |  | yes |
+| [M00902](https://jastrow.app/#rid:M00902) | alt | מַחְמְ׳ | /מחמר |  |  |
+| [M00911](https://jastrow.app/#rid:M00911) | alt | מְחָ׳ | /מחסיל |  | yes |
+| [M00977](https://jastrow.app/#rid:M00977) | alt | מְטַלְטֶ׳ | /מטוטלת |  |  |
+| [M00982](https://jastrow.app/#rid:M00982) | alt | מְטוֹ׳ | /מטול-4 |  |  |
+| [M00994](https://jastrow.app/#rid:M00994) | alt | מִיטַּ׳ | /מטטרון |  | yes |
+| [M00997](https://jastrow.app/#rid:M00997) | alt | מִיטַ׳ | /מטכסא-2 |  | yes |
+| [M00997](https://jastrow.app/#rid:M00997) | alt | מְטַקְ׳ | /מטכסא-2 |  | yes |
+| [M01006](https://jastrow.app/#rid:M01006) | alt | מִיטַּ׳ | /מטלטלין |  | yes |
+| [M01019](https://jastrow.app/#rid:M01019) | alt | מִיטְ׳ | /מטמוט |  | yes |
+| [M01069](https://jastrow.app/#rid:M01069) | alt | מִיטַּ׳ | /מטרפסא |  | yes |
+| [M01071](https://jastrow.app/#rid:M01071) | alt | מְטַ׳ | /מטרתא |  |  |
+| [M01127](https://jastrow.app/#rid:M01127) | alt | מְטָ׳ | /מיטטור |  | yes |
+| [M01139](https://jastrow.app/#rid:M01139) | alt | מַיּ׳ | /מיין |  |  |
+| [M01173](https://jastrow.app/#rid:M01173) | alt | מְלוֹט׳ | /מילוטומיא |  | yes |
+| [M01174](https://jastrow.app/#rid:M01174) | alt | מִלּ׳ | /מילוי |  | yes |
+| [M01175](https://jastrow.app/#rid:M01175) | alt | מִלּ׳ | /מילול |  |  |
+| [M01192](https://jastrow.app/#rid:M01192) | alt | מִלְ׳ | /מילפפון |  | yes |
+| [M01193](https://jastrow.app/#rid:M01193) | alt | מִלְ׳ | /מילפפונא |  | yes |
+| [M01217](https://jastrow.app/#rid:M01217) | alt | מְיַי׳ | /מינוק |  |  |
+| [M01226](https://jastrow.app/#rid:M01226) | alt | מֵנִי׳ | /מיניקות |  | yes |
+| [M01231](https://jastrow.app/#rid:M01231) | alt | מְיַי׳ | /מינקא |  | yes |
+| [M01274](https://jastrow.app/#rid:M01274) | alt | מִצּ׳ | /מיצוי |  | yes |
+| [M01275](https://jastrow.app/#rid:M01275) | alt | מִצּ׳ | /מיצוע |  | yes |
+| [M01276](https://jastrow.app/#rid:M01276) | alt | מִצְ׳ | /מיצטרא |  | yes |
+| [M01279](https://jastrow.app/#rid:M01279) | alt | מַצּ׳ | /מיצע |  |  |
+| [M01318](https://jastrow.app/#rid:M01318) | alt | מֵשְׁ׳ | /מישרא |  |  |
+| [M01327](https://jastrow.app/#rid:M01327) | alt | מִתּ׳ | /מיתוח |  | yes |
+| [M01328](https://jastrow.app/#rid:M01328) | alt | מִתּ׳ | /מיתון |  | yes |
+| [M01348](https://jastrow.app/#rid:M01348) | alt | מַכְ׳ | /מכבר |  | yes |
+| [M01355](https://jastrow.app/#rid:M01355) | alt | מַכְ׳ | /מכוור |  | yes |
+| [M01379](https://jastrow.app/#rid:M01379) | alt | מְכִל׳ | /מכילא |  |  |
+| [M01393](https://jastrow.app/#rid:M01393) | alt | מִי׳ | /מכלה |  | yes |
+| [M01416](https://jastrow.app/#rid:M01416) | alt | מִכְ׳ | /מכנסין |  | yes |
+| [M01420](https://jastrow.app/#rid:M01420) | alt | מִיכְ׳ | /מכסא |  | yes |
+| [M01424](https://jastrow.app/#rid:M01424) | alt | מַכְסִי׳ | /מכסורין |  | yes |
+| [M01484](https://jastrow.app/#rid:M01484) | alt | מַלְבֵּינְ׳ | /מלבנתא |  | yes |
+| [M01489](https://jastrow.app/#rid:M01489) | alt | מִי׳ | /מלה |  | yes |
+| [M01524](https://jastrow.app/#rid:M01524) | alt | מִי׳ | /מלח-5 |  |  |
+| [M01568](https://jastrow.app/#rid:M01568) | alt | מִי׳ | /מליתא-2 |  |  |
+| [M01574](https://jastrow.app/#rid:M01574) | alt | מֵי׳ | /מלך-6 |  |  |
+| [M01574](https://jastrow.app/#rid:M01574) | alt | מִי׳ | /מלך-6 |  |  |
+| [M01585](https://jastrow.app/#rid:M01585) | alt | מִילְ׳ | /מלכנא |  | yes |
+| [M01587](https://jastrow.app/#rid:M01587) | alt | מִילְ׳ | /מלכתא-2 |  | yes |
+| [M01588](https://jastrow.app/#rid:M01588) | alt | מִילְ׳ | /מלכתנותא |  | yes |
+| [M01597](https://jastrow.app/#rid:M01597) | alt | מִי׳ | /מללא-2 |  | yes |
+| [M01660](https://jastrow.app/#rid:M01660) | alt | מַמְזֵי׳ | /ממזרא |  | yes |
+| [M01661](https://jastrow.app/#rid:M01661) | alt | מַמְזֵי׳ | /ממזרות |  | yes |
+| [M01662](https://jastrow.app/#rid:M01662) | alt | מַמְזֵי׳ | /ממזרי |  | yes |
+| [M01665](https://jastrow.app/#rid:M01665) | alt | מָמִקְ׳ | /ממיקנא |  | yes |
+| [M01666](https://jastrow.app/#rid:M01666) | alt | מְמִקְ׳ | /ממיקנותא |  | yes |
+| [M01755](https://jastrow.app/#rid:M01755) | alt | מַנְזִיחְ׳ | /מנזחנא |  | yes |
+| [M01756](https://jastrow.app/#rid:M01756) | alt | מַנְזִקְ׳ | /מנזיקנא |  | yes |
+| [M01764](https://jastrow.app/#rid:M01764) | alt | מִנְחֲ׳ | /מנחתא |  | yes |
+| [M01766](https://jastrow.app/#rid:M01766) | alt | מִי׳ | /מנטר |  | yes |
+| [M01774](https://jastrow.app/#rid:M01774) | alt | מִי׳ | /מניומי |  | yes |
+| [M01782](https://jastrow.app/#rid:M01782) | alt | מְ׳ | /מניכא |  | yes |
+| [M01784](https://jastrow.app/#rid:M01784) | alt | מִנְיָי׳ | /מנימין |  | yes |
+| [M01784](https://jastrow.app/#rid:M01784) | alt | מִינְ׳ | /מנימין |  | yes |
+| [M01786](https://jastrow.app/#rid:M01786) | alt | מִי׳ | /מנין-2 |  |  |
+| [M01787](https://jastrow.app/#rid:M01787) | alt | מִנְיָי׳ | /מנין-3 |  |  |
+| [M01787](https://jastrow.app/#rid:M01787) | alt | מִי׳ | /מנין-3 |  |  |
+| [M01796](https://jastrow.app/#rid:M01796) | alt | מִי׳ | /מנן |  |  |
+| [M01817](https://jastrow.app/#rid:M01817) | alt | מְנַר׳ | /מנרתא |  | yes |
+| [M01839](https://jastrow.app/#rid:M01839) | alt | מֵי׳ | /מסב-2 |  | yes |
+| [M01841](https://jastrow.app/#rid:M01841) | alt | מְסִי׳ | /מסבתא |  | yes |
+| [M01849](https://jastrow.app/#rid:M01849) | alt | מַסְגֵּי׳ | /מסגרא |  | yes |
+| [M01905](https://jastrow.app/#rid:M01905) | alt | מִסְטוּ׳ | /מסטירין |  | yes |
+| [M01905](https://jastrow.app/#rid:M01905) | alt | מִיסְ׳ | /מסטירין |  | yes |
+| [M01907](https://jastrow.app/#rid:M01907) | alt | מַסְטְ׳ | /מסטרין |  | yes |
+| [M01907](https://jastrow.app/#rid:M01907) | alt | מְסַטְּ׳ | /מסטרין |  | yes |
+| [M01922](https://jastrow.app/#rid:M01922) | alt | מוּסְ׳ | /מסימיס |  |  |
+| [M01950](https://jastrow.app/#rid:M01950) | alt | מִסְכֵּי׳ | /מסכן-4 |  |  |
+| [M01950](https://jastrow.app/#rid:M01950) | alt | מִיסְ׳ | /מסכן-4 |  |  |
+| [M01952](https://jastrow.app/#rid:M01952) | alt | מִסְכֵּי׳ | /מסכנו |  |  |
+| [M01952](https://jastrow.app/#rid:M01952) | alt | מִי׳ | /מסכנו |  |  |
+| [M01991](https://jastrow.app/#rid:M01991) | alt | מִי׳ | /מספק |  | yes |
+| [M02029](https://jastrow.app/#rid:M02029) | alt | מַסְרִי׳ | /מסרקא |  | yes |
+| [M02031](https://jastrow.app/#rid:M02031) | alt | מַסְרֵי׳ | /מסרתא |  | yes |
+| [M02034](https://jastrow.app/#rid:M02034) | alt | מִי׳ | /מסתא |  |  |
+| [M02039](https://jastrow.app/#rid:M02039) | alt | מִי׳ | /מסתיא |  |  |
+| [M02127](https://jastrow.app/#rid:M02127) | alt | מֵי׳ | /מעלא |  | yes |
+| [M02160](https://jastrow.app/#rid:M02160) | alt | מַעַצְ׳ | /מעצרא |  | yes |
+| [M02161](https://jastrow.app/#rid:M02161) | alt | מַעֲצַ׳ | /מעצרתא |  | yes |
+| [M02177](https://jastrow.app/#rid:M02177) | alt | מַעֲרוּ׳ | /מערוקא |  | yes |
+| [M02189](https://jastrow.app/#rid:M02189) | alt | מַעְסְ׳ | /מעשרא |  | yes |
+| [M02189](https://jastrow.app/#rid:M02189) | alt | מַעַ׳ | /מעשרא |  | yes |
+| [M02211](https://jastrow.app/#rid:M02211) | alt | מְפִבֹ׳ | /מפיבשת |  | yes |
+| [M02234](https://jastrow.app/#rid:M02234) | alt | מִיפְ׳ | /מפסלתא |  | yes |
+| [M02320](https://jastrow.app/#rid:M02320) | alt | מַצִּי׳ | /מצינפא |  | yes |
+| [M02357](https://jastrow.app/#rid:M02357) | alt | מִיצְ׳ | /מצר-6 |  |  |
+| [M02358](https://jastrow.app/#rid:M02358) | alt | מִי׳ | /מצר-7 |  |  |
+| [M02360](https://jastrow.app/#rid:M02360) | alt | מִי׳ | /מצראה |  |  |
+| [M02385](https://jastrow.app/#rid:M02385) | alt | מוּקְ׳ | /מקדש-2 |  |  |
+| [M02508](https://jastrow.app/#rid:M02508) | alt | מַרְבְּעִי׳ | /מרבעתא |  |  |
+| [M02533](https://jastrow.app/#rid:M02533) | alt | מֵי׳ | /מרד-6 |  |  |
+| [M02613](https://jastrow.app/#rid:M02613) | alt | מָרְוְו׳ | /מרותא |  |  |
+| [M02625](https://jastrow.app/#rid:M02625) | alt | מַרְזֵי׳ | /מרזחא |  | yes |
+| [M02638](https://jastrow.app/#rid:M02638) | alt | מְרָ׳ | /מרחקא |  |  |
+| [M02699](https://jastrow.app/#rid:M02699) | alt | מֶרְ׳ | /מרכבא |  | yes |
+| [M02717](https://jastrow.app/#rid:M02717) | alt | מַרְמֵי׳ | /מרמירא |  | yes |
+| [M02728](https://jastrow.app/#rid:M02728) | alt | מֵי׳ | /מרע |  | yes |
+| [M02735](https://jastrow.app/#rid:M02735) | alt | מִרְ׳ | /מרעי |  |  |
+| [M02742](https://jastrow.app/#rid:M02742) | alt | מַרְעֵי׳ | /מרעלא |  | yes |
+| [M02792](https://jastrow.app/#rid:M02792) | alt | מַרְתֵּי׳ | /מרתפא |  | yes |
+| [M02850](https://jastrow.app/#rid:M02850) | alt | מִישְׁ׳ | /משח-5 |  |  |
+| [M02851](https://jastrow.app/#rid:M02851) | alt | מִי׳ | /משח-6 |  |  |
+| [M02893](https://jastrow.app/#rid:M02893) | alt | מִישְׁ׳ | /משך-4 |  |  |
+| [M02893](https://jastrow.app/#rid:M02893) | alt | מוֹשְׁ׳ | /משך-4 |  |  |
+| [M02896](https://jastrow.app/#rid:M02896) | alt | מִשְׁ׳ | /משכבא |  | yes |
+| [M02908](https://jastrow.app/#rid:M02908) | alt | מִ׳ | /משכנא |  | yes |
+| [M02909](https://jastrow.app/#rid:M02909) | alt | מִישְׁ׳ | /משכנותא |  | yes |
+| [M02919](https://jastrow.app/#rid:M02919) | alt | מִי׳ | /משלם |  | yes |
+| [M02937](https://jastrow.app/#rid:M02937) | alt | מְמַשְׁמְ׳ | /משמשנית |  | yes |
+| [M02963](https://jastrow.app/#rid:M02963) | alt | מַשְׁקוּ׳ | /משקופי |  | yes |
+| [M02977](https://jastrow.app/#rid:M02977) | alt | מִ׳ | /משרי |  |  |
+| [M02978](https://jastrow.app/#rid:M02978) | alt | מַשִּׁירְ׳ | /משריתא |  |  |
+| [M02986](https://jastrow.app/#rid:M02986) | alt | מַשָּׁ׳ | /משש-3 |  |  |
+| [M02992](https://jastrow.app/#rid:M02992) | alt | מִישְׁ׳ | /משתותא |  | yes |
+| [M02995](https://jastrow.app/#rid:M02995) | alt | מִי׳ | /משתי-2 |  |  |
+| [M02999](https://jastrow.app/#rid:M02999) | alt | מַשְׁתֵּי׳ | /משתיתא-2 |  |  |
+| [M03015](https://jastrow.app/#rid:M03015) | alt | מִי׳ | /מתגא |  | yes |
+| [M03021](https://jastrow.app/#rid:M03021) | alt | מַתְוָו׳ | /מתויא |  | yes |
+| [M03036](https://jastrow.app/#rid:M03036) | alt | מְתֻרְ׳ | /מתורגמן-2 |  |  |
+| [M03086](https://jastrow.app/#rid:M03086) | alt | מִי׳ | /מתנא-4 |  | yes |
+| [M03086](https://jastrow.app/#rid:M03086) | alt | מוֹ׳ | /מתנא-4 |  | yes |
+| [M03095](https://jastrow.app/#rid:M03095) | alt | מַתְּ׳ | /מתנן |  |  |
+| [M03108](https://jastrow.app/#rid:M03108) | alt | מְתָ׳ | /מתרכא |  | yes |
+| [N00058](https://jastrow.app/#rid:N00058) | alt | נִי׳ | /נבוריא |  |  |
+| [N00094](https://jastrow.app/#rid:N00094) | alt | נִי׳ | /נבל-6 |  |  |
+| [N00095](https://jastrow.app/#rid:N00095) | alt | נִי׳ | /נבלא |  | yes |
+| [N00097](https://jastrow.app/#rid:N00097) | alt | נְבֵי׳ | /נבלה |  | yes |
+| [N00100](https://jastrow.app/#rid:N00100) | alt | נְבֵי׳ | /נבלתא |  |  |
+| [N00111](https://jastrow.app/#rid:N00111) | alt | נִב׳ | /נברשתא |  | yes |
+| [N00120](https://jastrow.app/#rid:N00120) | alt | נַגְ׳ | /נגדא |  | yes |
+| [N00120](https://jastrow.app/#rid:N00120) | alt | נוּגְ׳ | /נגדא |  | yes |
+| [N00121](https://jastrow.app/#rid:N00121) | alt | נִי׳ | /נגדא-2 |  | yes |
+| [N00122](https://jastrow.app/#rid:N00122) | alt | נִי׳ | /נגדא-3 |  | yes |
+| [N00139](https://jastrow.app/#rid:N00139) | alt | נַגְוָ׳ | /נגוון |  |  |
+| [N00144](https://jastrow.app/#rid:N00144) | alt | נִיגְ׳ | /נגזל |  | yes |
+| [N00203](https://jastrow.app/#rid:N00203) | alt | נִי׳ | /נדבא |  | yes |
+| [N00205](https://jastrow.app/#rid:N00205) | alt | נִי׳ | /נדבה-2 |  | yes |
+| [N00208](https://jastrow.app/#rid:N00208) | alt | נִידְ׳ | /נדבך-2 |  | yes |
+| [N00213](https://jastrow.app/#rid:N00213) | alt | נִי׳ | /נדדת |  | yes |
+| [N00218](https://jastrow.app/#rid:N00218) | alt | נְדוֹ׳ | /נדונא |  | yes |
+| [N00227](https://jastrow.app/#rid:N00227) | alt | נִי׳ | /נדיין-2 |  | yes |
+| [N00235](https://jastrow.app/#rid:N00235) | alt | נִי׳ | /נדנוד |  | yes |
+| [N00243](https://jastrow.app/#rid:N00243) | alt | נִי׳ | /נדר-5 |  |  |
+| [N00425](https://jastrow.app/#rid:N00425) | alt | נִיזְ׳ | /נזבא |  | yes |
+| [N00428](https://jastrow.app/#rid:N00428) | alt | נִיזְ׳ | /נזהא |  | yes |
+| [N00462](https://jastrow.app/#rid:N00462) | alt | נִיזְ׳ | /נזק-4 |  |  |
+| [N00467](https://jastrow.app/#rid:N00467) | alt | נִי׳ | /נזרא |  | yes |
+| [N00481](https://jastrow.app/#rid:N00481) | alt | נְחֻשְׁ׳ | /נחושתן |  | yes |
+| [N00482](https://jastrow.app/#rid:N00482) | alt | נְחֻשְׁ׳ | /נחושתן-2 |  | yes |
+| [N00528](https://jastrow.app/#rid:N00528) | alt | נַחְשִׁרְ׳ | /נחשירכן |  | yes |
+| [N00537](https://jastrow.app/#rid:N00537) | alt | נַחְתּוּ׳ | /נחתום-2 |  |  |
+| [N00608](https://jastrow.app/#rid:N00608) | alt | נִבּ׳ | /ניבול |  | yes |
+| [N00616](https://jastrow.app/#rid:N00616) | alt | נִגּ׳ | /ניגון |  | yes |
+| [N00617](https://jastrow.app/#rid:N00617) | alt | נִגּ׳ | /ניגונא |  | yes |
+| [N00620](https://jastrow.app/#rid:N00620) | alt | נִגְ׳ | /ניגרא |  | yes |
+| [N00624](https://jastrow.app/#rid:N00624) | alt | נִדּ׳ | /נידוי |  | yes |
+| [N00632](https://jastrow.app/#rid:N00632) | alt | נִוּוּ׳ | /ניוולא |  | yes |
+| [N00638](https://jastrow.app/#rid:N00638) | alt | נְיוּ׳ | /ניומתא |  | yes |
+| [N00649](https://jastrow.app/#rid:N00649) | alt | נִח׳ | /ניחום |  | yes |
+| [N00666](https://jastrow.app/#rid:N00666) | alt | נִכּ׳ | /ניכוש |  | yes |
+| [N00682](https://jastrow.app/#rid:N00682) | alt | נִימוּ׳ | /נימוסא |  | yes |
+| [N00684](https://jastrow.app/#rid:N00684) | alt | נִמּ׳ | /נימוק-2 |  | yes |
+| [N00688](https://jastrow.app/#rid:N00688) | alt | נִמְ׳ | /נימפיון |  | yes |
+| [N00694](https://jastrow.app/#rid:N00694) | alt | נִנְ׳ | /ניניא |  | yes |
+| [N00695](https://jastrow.app/#rid:N00695) | alt | נִנְ׳ | /ניניא-2 |  | yes |
+| [N00697](https://jastrow.app/#rid:N00697) | alt | נִנְ׳ | /נינפי |  | yes |
+| [N00703](https://jastrow.app/#rid:N00703) | alt | נִסּ׳ | /ניסוך |  | yes |
+| [N00704](https://jastrow.app/#rid:N00704) | alt | נִסּ׳ | /ניסוך-2 |  |  |
+| [N00728](https://jastrow.app/#rid:N00728) | alt | נִפּ׳ | /ניפול |  | yes |
+| [N00729](https://jastrow.app/#rid:N00729) | alt | נִפּ׳ | /ניפול-2 |  | yes |
+| [N00737](https://jastrow.app/#rid:N00737) | alt | נִפְ׳ | /ניפלא |  | yes |
+| [N00746](https://jastrow.app/#rid:N00746) | alt | נִצּ׳ | /ניצוח |  | yes |
+| [N00748](https://jastrow.app/#rid:N00748) | alt | נִצּ׳ | /ניצויי |  | yes |
+| [N00750](https://jastrow.app/#rid:N00750) | alt | נִצּ׳ | /ניצולת |  | yes |
+| [N00759](https://jastrow.app/#rid:N00759) | alt | נִצָּ׳ | /ניצנא |  | yes |
+| [N00763](https://jastrow.app/#rid:N00763) | alt | נִקּ׳ | /ניקוד |  | yes |
+| [N00764](https://jastrow.app/#rid:N00764) | alt | נִקּ׳ | /ניקוי |  | yes |
+| [N00768](https://jastrow.app/#rid:N00768) | alt | נִקּ׳ | /ניקוף |  | yes |
+| [N00769](https://jastrow.app/#rid:N00769) | alt | נִקּ׳ | /ניקוף-2 |  | yes |
+| [N00770](https://jastrow.app/#rid:N00770) | alt | נִקּ׳ | /ניקור |  | yes |
+| [N00772](https://jastrow.app/#rid:N00772) | alt | נִקּ׳ | /ניקושא |  | yes |
+| [N00773](https://jastrow.app/#rid:N00773) | alt | נְקַ׳ | /ניקטמון |  | yes |
+| [N00780](https://jastrow.app/#rid:N00780) | alt | נִקָ׳ | /ניקנור |  | yes |
+| [N00794](https://jastrow.app/#rid:N00794) | alt | נִשְׁ׳ | /נישדור |  | yes |
+| [N00795](https://jastrow.app/#rid:N00795) | alt | נִשּׂ׳ | /נישואין |  | yes |
+| [N00803](https://jastrow.app/#rid:N00803) | alt | נִתּ׳ | /ניתוח |  | yes |
+| [N00834](https://jastrow.app/#rid:N00834) | alt | נִי׳ | /נכל-2 |  |  |
+| [N00838](https://jastrow.app/#rid:N00838) | alt | נִי׳ | /נכסא |  |  |
+| [N00842](https://jastrow.app/#rid:N00842) | alt | נִי׳ | /נכסין |  |  |
+| [N00891](https://jastrow.app/#rid:N00891) | alt | נִי׳ | /נמר-3 |  | yes |
+| [N00894](https://jastrow.app/#rid:N00894) | alt | נִי׳ | /נמרי |  |  |
+| [N00913](https://jastrow.app/#rid:N00913) | alt | נִי׳ | /נס-3 |  |  |
+| [N00914](https://jastrow.app/#rid:N00914) | alt | נִי׳ | /נסא |  |  |
+| [N00934](https://jastrow.app/#rid:N00934) | alt | נִיסָּ׳ | /נסיון |  | yes |
+| [N00935](https://jastrow.app/#rid:N00935) | alt | נִי׳ | /נסיון-2 |  |  |
+| [N00945](https://jastrow.app/#rid:N00945) | alt | נִי׳ | /נסיתא |  |  |
+| [N00949](https://jastrow.app/#rid:N00949) | alt | נִי׳ | /נסכא |  | yes |
+| [N00950](https://jastrow.app/#rid:N00950) | alt | נִי׳ | /נסכא-2 |  | yes |
+| [N00951](https://jastrow.app/#rid:N00951) | alt | נִי׳ | /נסכא-3 |  | yes |
+| [N00963](https://jastrow.app/#rid:N00963) | alt | נִי׳ | /נסרא |  | yes |
+| [N00995](https://jastrow.app/#rid:N00995) | alt | נָעָ׳ | /נעמיתא |  |  |
+| [N00999](https://jastrow.app/#rid:N00999) | alt | נִי׳ | /נענוע |  | yes |
+| [N01030](https://jastrow.app/#rid:N01030) | alt | נִי׳ | /נפחא-2 |  | yes |
+| [N01041](https://jastrow.app/#rid:N01041) | alt | נְפִלִ׳ | /נפיל |  |  |
+| [N01053](https://jastrow.app/#rid:N01053) | alt | נוֹ׳ | /נפך |  | yes |
+| [N01057](https://jastrow.app/#rid:N01057) | alt | נֵי׳ | /נפל-4 |  | yes |
+| [N01077](https://jastrow.app/#rid:N01077) | alt | נִי׳ | /נפקא |  | yes |
+| [N01088](https://jastrow.app/#rid:N01088) | alt | נַפְתֹּחָ׳ | /נפתוחא |  |  |
+| [N01089](https://jastrow.app/#rid:N01089) | alt | נִי׳ | /נפתי |  |  |
+| [N01099](https://jastrow.app/#rid:N01099) | alt | נִי׳ | /נצבא |  |  |
+| [N01105](https://jastrow.app/#rid:N01105) | alt | נִיצּ׳ | /נצוק |  | yes |
+| [N01113](https://jastrow.app/#rid:N01113) | alt | נִי׳ | /נצחון |  | yes |
+| [N01115](https://jastrow.app/#rid:N01115) | alt | נִי׳ | /נצחן-2 |  |  |
+| [N01133](https://jastrow.app/#rid:N01133) | alt | נֵי׳ | /נצל-3 |  | yes |
+| [N01148](https://jastrow.app/#rid:N01148) | alt | נִי׳ | /נצרא |  |  |
+| [N01158](https://jastrow.app/#rid:N01158) | alt | נִי׳ | /נקבא |  | yes |
+| [N01158](https://jastrow.app/#rid:N01158) | alt | נוּ׳ | /נקבא |  | yes |
+| [N01159](https://jastrow.app/#rid:N01159) | alt | נְקֵי׳ | /נקבה |  | yes |
+| [N01160](https://jastrow.app/#rid:N01160) | alt | נְקֵי׳ | /נקבות |  | yes |
+| [N01169](https://jastrow.app/#rid:N01169) | alt | נוֹקְדָ׳ | /נקדנא |  | yes |
+| [N01202](https://jastrow.app/#rid:N01202) | alt | נִי׳ | /נקיון |  | yes |
+| [N01239](https://jastrow.app/#rid:N01239) | alt | נִי׳ | /נקפי |  | yes |
+| [N01240](https://jastrow.app/#rid:N01240) | alt | נִי׳ | /נקצא |  | yes |
+| [N01246](https://jastrow.app/#rid:N01246) | alt | נִי׳ | /נקרא |  | yes |
+| [N01266](https://jastrow.app/#rid:N01266) | alt | נִי׳ | /נרדא |  | yes |
+| [N01288](https://jastrow.app/#rid:N01288) | alt | נִי׳ | /נשבא |  | yes |
+| [N01289](https://jastrow.app/#rid:N01289) | alt | נִי׳ | /נשבים |  |  |
+| [N01305](https://jastrow.app/#rid:N01305) | alt | נְסִ׳ | /נשיאה |  |  |
+| [N01308](https://jastrow.app/#rid:N01308) | alt | נְסִי׳ | /נשיאותא |  |  |
+| [N01349](https://jastrow.app/#rid:N01349) | alt | נִי׳ | /נשר-5 |  |  |
+| [N01390](https://jastrow.app/#rid:N01390) | alt | נִי׳ | /נתקא |  | yes |
+| [N01396](https://jastrow.app/#rid:N01396) | alt | נִי׳ | /נתרא |  | yes |
+| [N01397](https://jastrow.app/#rid:N01397) | alt | נִי׳ | /נתרא-2 |  | yes |
+| [O00051](https://jastrow.app/#rid:O00051) | alt | סַמְבַּ׳ | /סבטיון |  | yes |
+| [O00051](https://jastrow.app/#rid:O00051) | alt | סַנְבַּ׳ | /סבטיון |  | yes |
+| [O00067](https://jastrow.app/#rid:O00067) | alt | סִי׳ | /סבכא |  | yes |
+| [O00068](https://jastrow.app/#rid:O00068) | alt | שְׂ׳ | /סבכה |  | yes |
+| [O00075](https://jastrow.app/#rid:O00075) | alt | סִי׳ | /סבלון |  | yes |
+| [O00077](https://jastrow.app/#rid:O00077) | alt | סוּבְ׳ | /סבני |  | yes |
+| [O00077](https://jastrow.app/#rid:O00077) | alt | סִיבְ׳ | /סבני |  | yes |
+| [O00082](https://jastrow.app/#rid:O00082) | alt | סִיבְ׳ | /סבעא |  | yes |
+| [O00090](https://jastrow.app/#rid:O00090) | alt | סִי׳ | /סבר-7 |  |  |
+| [O00094](https://jastrow.app/#rid:O00094) | alt | סִיבַּרְ׳ | /סברותא |  |  |
+| [O00101](https://jastrow.app/#rid:O00101) | alt | סִי׳ | /סגדא |  | yes |
+| [O00128](https://jastrow.app/#rid:O00128) | alt | סַגְיוּ׳ | /סגיאותא |  |  |
+| [O00131](https://jastrow.app/#rid:O00131) | alt | סַגְיוּ׳ | /סגיותא |  | yes |
+| [O00155](https://jastrow.app/#rid:O00155) | alt | סִי׳ | /סגן-2 |  |  |
+| [O00162](https://jastrow.app/#rid:O00162) | alt | סִיגְ׳ | /סגעא |  | yes |
+| [O00203](https://jastrow.app/#rid:O00203) | alt | סִי׳ | /סדרא |  |  |
+| [O00209](https://jastrow.app/#rid:O00209) | alt | סוֹדְ׳ | /סדרן-2 |  |  |
+| [O00213](https://jastrow.app/#rid:O00213) | alt | סַ׳ | /סהדא |  |  |
+| [O00213](https://jastrow.app/#rid:O00213) | alt | שַׂ׳ | /סהדא |  |  |
+| [O00214](https://jastrow.app/#rid:O00214) | alt | שַׂ׳ | /סהדו |  |  |
+| [O00290](https://jastrow.app/#rid:O00290) | alt | סוֹ׳ | /סוטרא |  | yes |
+| [O00299](https://jastrow.app/#rid:O00299) | alt | שׂ׳ | /סוכה |  | yes |
+| [O00306](https://jastrow.app/#rid:O00306) | alt | שׂ׳ | /סוכלתן |  |  |
+| [O00316](https://jastrow.app/#rid:O00316) | alt | סַלְ׳ | /סולגיתא |  | yes |
+| [O00345](https://jastrow.app/#rid:O00345) | alt | סוּמְכְוָ׳ | /סומכוון |  |  |
+| [O00349](https://jastrow.app/#rid:O00349) | alt | סוּמְפֹּנְ׳ | /סומפוניה |  | yes |
+| [O00351](https://jastrow.app/#rid:O00351) | alt | סוּמְ׳ | /סומק-2 |  |  |
+| [O00357](https://jastrow.app/#rid:O00357) | alt | סֻמַּ׳ | /סומקתא-2 |  | yes |
+| [O00393](https://jastrow.app/#rid:O00393) | alt | סוּ׳ | /סופינא |  | yes |
+| [O00470](https://jastrow.app/#rid:O00470) | alt | סָחְ׳ | /סחרנותא |  | yes |
+| [O00475](https://jastrow.app/#rid:O00475) | alt | סוֹטְ׳ | /סטדא |  | yes |
+| [O00499](https://jastrow.app/#rid:O00499) | alt | סִי׳ | /סטן-3 |  |  |
+| [O00504](https://jastrow.app/#rid:O00504) | alt | סִי׳ | /סטר-3 |  |  |
+| [O00504](https://jastrow.app/#rid:O00504) | alt | צִ׳ | /סטר-3 |  |  |
+| [O00530](https://jastrow.app/#rid:O00530) | alt | סֵב׳ | /סיבו |  |  |
+| [O00535](https://jastrow.app/#rid:O00535) | alt | סִבּ׳ | /סיבולת |  | yes |
+| [O00536](https://jastrow.app/#rid:O00536) | alt | סִבּ׳ | /סיבור |  |  |
+| [O00537](https://jastrow.app/#rid:O00537) | alt | סִבּ׳ | /סיבורא |  | yes |
+| [O00557](https://jastrow.app/#rid:O00557) | alt | סִגּ׳ | /סיגוף |  | yes |
+| [O00558](https://jastrow.app/#rid:O00558) | alt | סִגּ׳ | /סיגוף-2 |  |  |
+| [O00564](https://jastrow.app/#rid:O00564) | alt | סִגְ׳ | /סיגנא-2 |  | yes |
+| [O00567](https://jastrow.app/#rid:O00567) | alt | סִגְ׳ | /סיגנום |  |  |
+| [O00578](https://jastrow.app/#rid:O00578) | alt | סִדּ׳ | /סידוק |  | yes |
+| [O00579](https://jastrow.app/#rid:O00579) | alt | סִדּ׳ | /סידור |  | yes |
+| [O00581](https://jastrow.app/#rid:O00581) | alt | סִדּ׳ | /סידורא |  | yes |
+| [O00585](https://jastrow.app/#rid:O00585) | alt | סִדְ׳ | /סידקית |  | yes |
+| [O00595](https://jastrow.app/#rid:O00595) | alt | סְיוּ׳ | /סיוע-2 |  |  |
+| [O00604](https://jastrow.app/#rid:O00604) | alt | סִטּ׳ | /סיטומתא |  | yes |
+| [O00617](https://jastrow.app/#rid:O00617) | alt | סְיָ׳ | /סייג-2 |  |  |
+| [O00629](https://jastrow.app/#rid:O00629) | alt | סַיַּעְ׳ | /סייעתא |  | yes |
+| [O00642](https://jastrow.app/#rid:O00642) | alt | סִכּ׳ | /סיכוי |  | yes |
+| [O00643](https://jastrow.app/#rid:O00643) | alt | סִכּ׳ | /סיכויא |  | yes |
+| [O00644](https://jastrow.app/#rid:O00644) | alt | סִכּ׳ | /סיכוך |  | yes |
+| [O00645](https://jastrow.app/#rid:O00645) | alt | סִכּ׳ | /סיכולא |  | yes |
+| [O00646](https://jastrow.app/#rid:O00646) | alt | סִכּ׳ | /סיכון |  | yes |
+| [O00647](https://jastrow.app/#rid:O00647) | alt | סִכּ׳ | /סיכוף |  | yes |
+| [O00653](https://jastrow.app/#rid:O00653) | alt | סִכְ׳ | /סיכרא |  | yes |
+| [O00654](https://jastrow.app/#rid:O00654) | alt | סִכְ׳ | /סיכרא-2 |  | yes |
+| [O00659](https://jastrow.app/#rid:O00659) | alt | סִלּ׳ | /סילון-3 |  | yes |
+| [O00662](https://jastrow.app/#rid:O00662) | alt | סִלּ׳ | /סילוק |  | yes |
+| [O00666](https://jastrow.app/#rid:O00666) | alt | סִילִקְרָ׳ | /סיליקראות |  | yes |
+| [O00698](https://jastrow.app/#rid:O00698) | alt | סִמּ׳ | /סימוק |  |  |
+| [O00699](https://jastrow.app/#rid:O00699) | alt | סִמְ׳ | /סימטא |  | yes |
+| [O00700](https://jastrow.app/#rid:O00700) | alt | סִמְ׳ | /סימטא-2 |  | yes |
+| [O00706](https://jastrow.app/#rid:O00706) | alt | סִימִיסרִ׳ | /סימיסיריקין |  | yes |
+| [O00714](https://jastrow.app/#rid:O00714) | alt | סְמַנְ׳ | /סימנטיר |  |  |
+| [O00714](https://jastrow.app/#rid:O00714) | alt | סימנטו׳ | /סימנטיר |  |  |
+| [O00718](https://jastrow.app/#rid:O00718) | alt | סִמְ׳ | /סימפון |  | yes |
+| [O00719](https://jastrow.app/#rid:O00719) | alt | סִמְ׳ | /סימפונא |  | yes |
+| [O00720](https://jastrow.app/#rid:O00720) | alt | סִמְ׳ | /סימפוניא |  |  |
+| [O00735](https://jastrow.app/#rid:O00735) | alt | סוּנְ׳ | /סינטומוס |  | yes |
+| [O00741](https://jastrow.app/#rid:O00741) | alt | סינקליטק׳ | /סינקליטוס |  |  |
+| [O00743](https://jastrow.app/#rid:O00743) | alt | סִנָּ׳ | /סינרא |  | yes |
+| [O00763](https://jastrow.app/#rid:O00763) | alt | סוּסְ׳ | /סיסרטאי |  |  |
+| [O00782](https://jastrow.app/#rid:O00782) | alt | סִפְ׳ | /סיפדא |  | yes |
+| [O00783](https://jastrow.app/#rid:O00783) | alt | סִפּ׳ | /סיפוג |  | yes |
+| [O00788](https://jastrow.app/#rid:O00788) | alt | סִפּ׳ | /סיפוק |  | yes |
+| [O00789](https://jastrow.app/#rid:O00789) | alt | סִפּ׳ | /סיפוק-2 |  | yes |
+| [O00790](https://jastrow.app/#rid:O00790) | alt | סִפּ׳ | /סיפוק-3 |  |  |
+| [O00791](https://jastrow.app/#rid:O00791) | alt | סִפּ׳ | /סיפור |  | yes |
+| [O00794](https://jastrow.app/#rid:O00794) | alt | סִפְ׳ | /סיפטא |  | yes |
+| [O00806](https://jastrow.app/#rid:O00806) | alt | סִפְ׳ | /סיפתא |  | yes |
+| [O00806](https://jastrow.app/#rid:O00806) | alt | שִׂ׳ | /סיפתא |  | yes |
+| [O00810](https://jastrow.app/#rid:O00810) | alt | סִקֹ׳ | /סיקוסים |  |  |
+| [O00811](https://jastrow.app/#rid:O00811) | alt | סִקֹ׳ | /סיקוסים-2 |  |  |
+| [O00814](https://jastrow.app/#rid:O00814) | alt | סִיקִי׳ | /סיקורה |  | yes |
+| [O00821](https://jastrow.app/#rid:O00821) | alt | סִקְ׳ | /סיקרא-2 |  | yes |
+| [O00822](https://jastrow.app/#rid:O00822) | alt | סִקְ׳ | /סיקרא-3 |  | yes |
+| [O00825](https://jastrow.app/#rid:O00825) | alt | סִקָ׳ | /סיקריקון |  | yes |
+| [O00831](https://jastrow.app/#rid:O00831) | alt | סִרְ׳ | /סירגול |  | yes |
+| [O00835](https://jastrow.app/#rid:O00835) | alt | סֵר׳ | /סירוב |  | yes |
+| [O00836](https://jastrow.app/#rid:O00836) | alt | סֵר׳ | /סירוג |  | yes |
+| [O00837](https://jastrow.app/#rid:O00837) | alt | סֵר׳ | /סירוח |  | yes |
+| [O00841](https://jastrow.app/#rid:O00841) | alt | סֵר׳ | /סירוס |  | yes |
+| [O00843](https://jastrow.app/#rid:O00843) | alt | סִרְ׳ | /סירחא-2 |  | yes |
+| [O00844](https://jastrow.app/#rid:O00844) | alt | סֵרָ׳ | /סירחון |  | yes |
+| [O00864](https://jastrow.app/#rid:O00864) | alt | סִיתְוָ׳ | /סיתוא |  |  |
+| [O00866](https://jastrow.app/#rid:O00866) | alt | סִתּ׳ | /סיתות |  | yes |
+| [O00876](https://jastrow.app/#rid:O00876) | alt | סַכְוָו׳ | /סכואה |  | yes |
+| [O00890](https://jastrow.app/#rid:O00890) | alt | סְ׳ | /סכותא |  | yes |
+| [O00891](https://jastrow.app/#rid:O00891) | alt | סְ׳ | /סכותא-2 |  | yes |
+| [O00913](https://jastrow.app/#rid:O00913) | alt | סוּכְ׳ | /סכלא |  | yes |
+| [O00913](https://jastrow.app/#rid:O00913) | alt | שִׂ׳ | /סכלא |  | yes |
+| [O00913](https://jastrow.app/#rid:O00913) | alt | שׂוּ׳ | /סכלא |  | yes |
+| [O00916](https://jastrow.app/#rid:O00916) | alt | סָכְלְ׳ | /סכלתא |  |  |
+| [O00925](https://jastrow.app/#rid:O00925) | alt | סִי׳ | /סכנא |  | yes |
+| [O00929](https://jastrow.app/#rid:O00929) | alt | סִי׳ | /סכנין |  |  |
+| [O00945](https://jastrow.app/#rid:O00945) | alt | סִי׳ | /סכתא |  | yes |
+| [O00946](https://jastrow.app/#rid:O00946) | alt | סִיכְ׳ | /סכתא-2 |  | yes |
+| [O00960](https://jastrow.app/#rid:O00960) | alt | סִי׳ | /סלוא-2 |  |  |
+| [O00989](https://jastrow.app/#rid:O00989) | alt | סְלוּ׳ | /סלילה |  | yes |
+| [O01010](https://jastrow.app/#rid:O01010) | alt | סִילְ׳ | /סלסול |  | yes |
+| [O01016](https://jastrow.app/#rid:O01016) | alt | סִי׳ | /סלעא |  | yes |
+| [O01028](https://jastrow.app/#rid:O01028) | alt | סִי׳ | /סלקא |  | yes |
+| [O01029](https://jastrow.app/#rid:O01029) | alt | סִי׳ | /סלקא-2 |  | yes |
+| [O01045](https://jastrow.app/#rid:O01045) | alt | סוּלְ׳ | /סלת-5 |  |  |
+| [O01073](https://jastrow.app/#rid:O01073) | alt | סִמּוֹ׳ | /סמוקרי |  | yes |
+| [O01084](https://jastrow.app/#rid:O01084) | alt | סִי׳ | /סמיון |  | yes |
+| [O01085](https://jastrow.app/#rid:O01085) | alt | סִי׳ | /סמיונא |  | yes |
+| [O01105](https://jastrow.app/#rid:O01105) | alt | סִי׳ | /סמלון |  | yes |
+| [O01108](https://jastrow.app/#rid:O01108) | alt | סִי׳ | /סמלק |  | yes |
+| [O01124](https://jastrow.app/#rid:O01124) | alt | סִמְפֹּנְ׳ | /סמפון |  |  |
+| [O01126](https://jastrow.app/#rid:O01126) | alt | סִימְ׳ | /סמפורין |  | yes |
+| [O01128](https://jastrow.app/#rid:O01128) | alt | סַנְפִּי׳ | /סמפירינון |  | yes |
+| [O01128](https://jastrow.app/#rid:O01128) | alt | סַמְפִּרִ׳ | /סמפירינון |  | yes |
+| [O01128](https://jastrow.app/#rid:O01128) | alt | סַנְפִּרִ׳ | /סמפירינון |  | yes |
+| [O01132](https://jastrow.app/#rid:O01132) | alt | סַ׳ | /סמקן |  | yes |
+| [O01168](https://jastrow.app/#rid:O01168) | alt | צִנַּ׳ | /סנבראי |  |  |
+| [O01168](https://jastrow.app/#rid:O01168) | alt | צִינַּ׳ | /סנבראי |  |  |
+| [O01199](https://jastrow.app/#rid:O01199) | alt | שְׂ׳ | /סנואתא |  | yes |
+| [O01205](https://jastrow.app/#rid:O01205) | alt | סִי׳ | /סנוק |  | yes |
+| [O01206](https://jastrow.app/#rid:O01206) | alt | סִינּ׳ | /סנוקרת |  | yes |
+| [O01218](https://jastrow.app/#rid:O01218) | alt | סַנְטֵי׳ | /סנטרא |  | yes |
+| [O01218](https://jastrow.app/#rid:O01218) | alt | סַנְטוֹ׳ | /סנטרא |  | yes |
+| [O01263](https://jastrow.app/#rid:O01263) | alt | סִינְ׳ | /סנקליטוס |  | yes |
+| [O01263](https://jastrow.app/#rid:O01263) | alt | סוּנְ׳ | /סנקליטוס |  | yes |
+| [O01265](https://jastrow.app/#rid:O01265) | alt | סִינְ׳ | /סנקלרטיקוס |  | yes |
+| [O01266](https://jastrow.app/#rid:O01266) | alt | סִינ׳ | /סנקתדרון |  | yes |
+| [O01266](https://jastrow.app/#rid:O01266) | alt | סוּנְ׳ | /סנקתדרון |  | yes |
+| [O01267](https://jastrow.app/#rid:O01267) | alt | סִינְ׳ | /סנקתדרוס |  | yes |
+| [O01267](https://jastrow.app/#rid:O01267) | alt | סוּנְ׳ | /סנקתדרוס |  | yes |
+| [O01272](https://jastrow.app/#rid:O01272) | alt | סַסְגְּוָו׳ | /ססגונא |  | yes |
+| [O01310](https://jastrow.app/#rid:O01310) | alt | סֵי׳ | /ספא |  |  |
+| [O01326](https://jastrow.app/#rid:O01326) | alt | סִפְּ׳ | /ספווא |  | yes |
+| [O01368](https://jastrow.app/#rid:O01368) | alt | סְפִקוּלָ׳ | /ספיקולא |  |  |
+| [O01382](https://jastrow.app/#rid:O01382) | alt | סִיפְ׳ | /ספלא |  | yes |
+| [O01398](https://jastrow.app/#rid:O01398) | alt | סִיפְ׳ | /ספסלא |  |  |
+| [O01399](https://jastrow.app/#rid:O01399) | alt | סִיפְ׳ | /ספסף |  | yes |
+| [O01408](https://jastrow.app/#rid:O01408) | alt | סְפֵי׳ | /ספקא |  | yes |
+| [O01426](https://jastrow.app/#rid:O01426) | alt | סִי׳ | /ספרא-3 |  | yes |
+| [O01481](https://jastrow.app/#rid:O01481) | alt | שְׁקִי׳ | /סקיפס |  | yes |
+| [O01605](https://jastrow.app/#rid:O01605) | alt | סְרִגְ׳ | /סריגתא |  | yes |
+| [O01610](https://jastrow.app/#rid:O01610) | alt | סֵי׳ | /סריות |  | yes |
+| [O01613](https://jastrow.app/#rid:O01613) | alt | סִירְ׳ | /סריינא |  |  |
+| [O01637](https://jastrow.app/#rid:O01637) | alt | סִירְ׳ | /סרכא |  | yes |
+| [O01650](https://jastrow.app/#rid:O01650) | alt | סִירְ׳ | /סרסור |  | yes |
+| [O01651](https://jastrow.app/#rid:O01651) | alt | סִירְ׳ | /סרסור-2 |  |  |
+| [O01675](https://jastrow.app/#rid:O01675) | alt | סִירְ׳ | /סרקיא |  |  |
+| [O01684](https://jastrow.app/#rid:O01684) | alt | סִי׳ | /סתוא |  |  |
+| [O01685](https://jastrow.app/#rid:O01685) | alt | סִתְוָנִ׳ | /סתוונית |  | yes |
+| [O01685](https://jastrow.app/#rid:O01685) | alt | סִיתְ׳ | /סתוונית |  | yes |
+| [O01716](https://jastrow.app/#rid:O01716) | alt | סִי׳ | /סתרא |  |  |
+| [P00054](https://jastrow.app/#rid:P00054) | alt | עֲבֵרְ׳ | /עבירתא |  | yes |
+| [P00063](https://jastrow.app/#rid:P00063) | alt | עָ׳ | /עבר-5 |  |  |
+| [P00072](https://jastrow.app/#rid:P00072) | alt | עִי׳ | /עברי-2 |  |  |
+| [P00101](https://jastrow.app/#rid:P00101) | alt | עֵגְ׳ | /עגלתא-3 |  |  |
+| [P00101](https://jastrow.app/#rid:P00101) | alt | עִיגְ׳ | /עגלתא-3 |  |  |
+| [P00121](https://jastrow.app/#rid:P00121) | alt | עִ׳ | /עדבא |  |  |
+| [P00121](https://jastrow.app/#rid:P00121) | alt | עִי׳ | /עדבא |  |  |
+| [P00125](https://jastrow.app/#rid:P00125) | alt | עִדְ׳ | /עדוא |  |  |
+| [P00167](https://jastrow.app/#rid:P00167) | alt | עֶ׳ | /עדרא |  | yes |
+| [P00179](https://jastrow.app/#rid:P00179) | alt | עוּבְיָי׳ | /עוביא |  |  |
+| [P00219](https://jastrow.app/#rid:P00219) | alt | עֻזָּ׳ | /עוזא-2 |  |  |
+| [P00221](https://jastrow.app/#rid:P00221) | alt | עֻזִּ׳ | /עוזיאל |  | yes |
+| [P00222](https://jastrow.app/#rid:P00222) | alt | עֻזִּ׳ | /עוזיה |  |  |
+| [P00228](https://jastrow.app/#rid:P00228) | alt | עֲוָו׳ | /עויא |  |  |
+| [P00229](https://jastrow.app/#rid:P00229) | alt | עִוְו׳ | /עויא-2 |  |  |
+| [P00233](https://jastrow.app/#rid:P00233) | alt | עֲוִו׳ | /עויר |  |  |
+| [P00233](https://jastrow.app/#rid:P00233) | alt | עַוִּ׳ | /עויר |  |  |
+| [P00245](https://jastrow.app/#rid:P00245) | alt | עַוְו׳ | /עולא |  | yes |
+| [P00246](https://jastrow.app/#rid:P00246) | alt | עַוָּו׳ | /עולא-2 |  | yes |
+| [P00257](https://jastrow.app/#rid:P00257) | alt | עוּלֵמ׳ | /עולימו |  |  |
+| [P00259](https://jastrow.app/#rid:P00259) | alt | עוּלֵמ׳ | /עולימית |  |  |
+| [P00273](https://jastrow.app/#rid:P00273) | alt | עַוְו׳ | /עולתא |  | yes |
+| [P00285](https://jastrow.app/#rid:P00285) | alt | עוֹ׳ | /עומקא-2 |  | yes |
+| [P00308](https://jastrow.app/#rid:P00308) | alt | עוֹ׳ | /עונתא |  | yes |
+| [P00335](https://jastrow.app/#rid:P00335) | alt | עַקְ׳ | /עוקמן |  | yes |
+| [P00337](https://jastrow.app/#rid:P00337) | alt | עַקְ׳ | /עוקמנותא |  | yes |
+| [P00357](https://jastrow.app/#rid:P00357) | alt | עָרְ׳ | /עורלא |  |  |
+| [P00367](https://jastrow.app/#rid:P00367) | alt | עוֹ׳ | /עושנא |  | yes |
+| [P00371](https://jastrow.app/#rid:P00371) | alt | עוֹ׳ | /עושקא |  | yes |
+| [P00378](https://jastrow.app/#rid:P00378) | alt | עַוְו׳ | /עותא |  | yes |
+| [P00379](https://jastrow.app/#rid:P00379) | alt | עַוְו׳ | /עותא-2 |  | yes |
+| [P00381](https://jastrow.app/#rid:P00381) | alt | עַוְו׳ | /עותנאי |  |  |
+| [P00384](https://jastrow.app/#rid:P00384) | alt | עָתְ׳ | /עותר |  |  |
+| [P00395](https://jastrow.app/#rid:P00395) | alt | עַ׳ | /עזגד |  | yes |
+| [P00406](https://jastrow.app/#rid:P00406) | alt | עַזְ׳ | /עזיא |  |  |
+| [P00416](https://jastrow.app/#rid:P00416) | alt | עִי׳ | /עזלא |  | yes |
+| [P00420](https://jastrow.app/#rid:P00420) | alt | עִי׳ | /עזקא |  | yes |
+| [P00421](https://jastrow.app/#rid:P00421) | alt | עִי׳ | /עזקא-2 |  |  |
+| [P00421](https://jastrow.app/#rid:P00421) | alt | עִיזְ׳ | /עזקא-2 |  |  |
+| [P00464](https://jastrow.app/#rid:P00464) | alt | עֲטַלֵּי׳ | /עטלפא |  | yes |
+| [P00465](https://jastrow.app/#rid:P00465) | alt | עִיטְ׳ | /עטם |  |  |
+| [P00482](https://jastrow.app/#rid:P00482) | alt | עִי׳ | /עטרן |  | yes |
+| [P00483](https://jastrow.app/#rid:P00483) | alt | עִי׳ | /עטרנא |  | yes |
+| [P00491](https://jastrow.app/#rid:P00491) | alt | עִבּ׳ | /עיבור |  | yes |
+| [P00492](https://jastrow.app/#rid:P00492) | alt | עִבּ׳ | /עיבור-2 |  |  |
+| [P00493](https://jastrow.app/#rid:P00493) | alt | עֲבִי׳ | /עיבידא |  |  |
+| [P00496](https://jastrow.app/#rid:P00496) | alt | עֶבְ׳ | /עיבר-2 |  |  |
+| [P00497](https://jastrow.app/#rid:P00497) | alt | עִגּ׳ | /עיגול |  | yes |
+| [P00498](https://jastrow.app/#rid:P00498) | alt | עִגּ׳ | /עיגול-2 |  |  |
+| [P00499](https://jastrow.app/#rid:P00499) | alt | עִגּ׳ | /עיגון |  | yes |
+| [P00501](https://jastrow.app/#rid:P00501) | alt | עִג׳ | /עיגל |  |  |
+| [P00501](https://jastrow.app/#rid:P00501) | alt | עֶגְ׳ | /עיגל |  |  |
+| [P00506](https://jastrow.app/#rid:P00506) | alt | עִדּ׳ | /עידוי |  | yes |
+| [P00507](https://jastrow.app/#rid:P00507) | alt | עִדּ׳ | /עידוי-2 |  |  |
+| [P00509](https://jastrow.app/#rid:P00509) | alt | עִדּ׳ | /עידון-2 |  | yes |
+| [P00515](https://jastrow.app/#rid:P00515) | alt | עִדָּ׳ | /עידן-2 |  |  |
+| [P00529](https://jastrow.app/#rid:P00529) | alt | עֵטְ׳ | /עיטא |  |  |
+| [P00533](https://jastrow.app/#rid:P00533) | alt | עִפּ׳ | /עיטור |  | yes |
+| [P00538](https://jastrow.app/#rid:P00538) | alt | עִטְ׳ | /עיטפא |  | yes |
+| [P00560](https://jastrow.app/#rid:P00560) | alt | עִכּ׳ | /עיכוב |  | yes |
+| [P00561](https://jastrow.app/#rid:P00561) | alt | עִכּ׳ | /עיכובא |  | yes |
+| [P00562](https://jastrow.app/#rid:P00562) | alt | עִכּ׳ | /עיכול |  | yes |
+| [P00565](https://jastrow.app/#rid:P00565) | alt | עִי׳ | /עיל |  |  |
+| [P00569](https://jastrow.app/#rid:P00569) | alt | עִל׳ | /עילאה |  |  |
+| [P00572](https://jastrow.app/#rid:P00572) | alt | עֲלַ׳ | /עילוי |  |  |
+| [P00573](https://jastrow.app/#rid:P00573) | alt | עִלּ׳ | /עילוי-2 |  | yes |
+| [P00574](https://jastrow.app/#rid:P00574) | alt | עִלּ׳ | /עילויא |  | yes |
+| [P00582](https://jastrow.app/#rid:P00582) | alt | עֲלִי׳ | /עיליתא-2 |  |  |
+| [P00592](https://jastrow.app/#rid:P00592) | alt | עִמּ׳ | /עימור |  | yes |
+| [P00593](https://jastrow.app/#rid:P00593) | alt | עִמּ׳ | /עימור-2 |  | yes |
+| [P00596](https://jastrow.app/#rid:P00596) | alt | עִמְ׳ | /עימעום-2 |  | yes |
+| [P00604](https://jastrow.app/#rid:P00604) | alt | עֵנְ׳ | /עינבול |  | yes |
+| [P00605](https://jastrow.app/#rid:P00605) | alt | עִנְ׳ | /עינבול-2 |  |  |
+| [P00608](https://jastrow.app/#rid:P00608) | alt | עִנּ׳ | /עינוג |  | yes |
+| [P00611](https://jastrow.app/#rid:P00611) | alt | עִנּ׳ | /עינוי |  | yes |
+| [P00612](https://jastrow.app/#rid:P00612) | alt | עִנּ׳ | /עינוי-2 |  | yes |
+| [P00613](https://jastrow.app/#rid:P00613) | alt | עִנּ׳ | /עינויא |  | yes |
+| [P00614](https://jastrow.app/#rid:P00614) | alt | עִנּ׳ | /עינויא-2 |  | yes |
+| [P00618](https://jastrow.app/#rid:P00618) | alt | עַיְי׳ | /עינותא |  | yes |
+| [P00623](https://jastrow.app/#rid:P00623) | alt | עִינְיָ׳ | /עיניין |  |  |
+| [P00630](https://jastrow.app/#rid:P00630) | alt | עִסּ׳ | /עיסוק |  | yes |
+| [P00631](https://jastrow.app/#rid:P00631) | alt | עִיסֻּרְ׳ | /עיסוריתא |  | yes |
+| [P00631](https://jastrow.app/#rid:P00631) | alt | עִישּׂוֹרְ׳ | /עיסוריתא |  | yes |
+| [P00640](https://jastrow.app/#rid:P00640) | alt | עִפּ׳ | /עיפוי |  | yes |
+| [P00645](https://jastrow.app/#rid:P00645) | alt | עִצּ׳ | /עיצום |  | yes |
+| [P00647](https://jastrow.app/#rid:P00647) | alt | עִצּ׳ | /עיצור-2 |  |  |
+| [P00652](https://jastrow.app/#rid:P00652) | alt | עָיְי׳ | /עיקא |  | yes |
+| [P00653](https://jastrow.app/#rid:P00653) | alt | עָיְי׳ | /עיקא-2 |  | yes |
+| [P00657](https://jastrow.app/#rid:P00657) | alt | עִקּ׳ | /עיקולא |  | yes |
+| [P00658](https://jastrow.app/#rid:P00658) | alt | עִקּ׳ | /עיקום |  | yes |
+| [P00659](https://jastrow.app/#rid:P00659) | alt | עִקּ׳ | /עיקומא |  | yes |
+| [P00660](https://jastrow.app/#rid:P00660) | alt | עִקּ׳ | /עיקור |  | yes |
+| [P00667](https://jastrow.app/#rid:P00667) | alt | עִקָּ׳ | /עיקר-2 |  |  |
+| [P00680](https://jastrow.app/#rid:P00680) | alt | עֵר׳ | /עירוב |  | yes |
+| [P00681](https://jastrow.app/#rid:P00681) | alt | עֵר׳ | /עירובא |  | yes |
+| [P00682](https://jastrow.app/#rid:P00682) | alt | עֵר׳ | /עירובא-2 |  | yes |
+| [P00692](https://jastrow.app/#rid:P00692) | alt | עִירְיְי׳ | /עיריתא |  |  |
+| [P00692](https://jastrow.app/#rid:P00692) | alt | עֶרְ׳ | /עיריתא |  |  |
+| [P00698](https://jastrow.app/#rid:P00698) | alt | עוּ׳ | /עיררה |  | yes |
+| [P00701](https://jastrow.app/#rid:P00701) | alt | עִשּׁ׳ | /עישונא |  | yes |
+| [P00778](https://jastrow.app/#rid:P00778) | alt | עֲלָ׳ | /עלוון |  | yes |
+| [P00784](https://jastrow.app/#rid:P00784) | alt | עֲלָ׳ | /עלון |  | yes |
+| [P00793](https://jastrow.app/#rid:P00793) | alt | עֲלוּ׳ | /עליבא |  | yes |
+| [P00814](https://jastrow.app/#rid:P00814) | alt | עֲלִי׳ | /עליתא-3 |  | yes |
+| [P00817](https://jastrow.app/#rid:P00817) | alt | עָ׳ | /עלל-3 |  |  |
+| [P00823](https://jastrow.app/#rid:P00823) | alt | עַלְ׳ | /עלם-6 |  |  |
+| [P00830](https://jastrow.app/#rid:P00830) | alt | עִי׳ | /עלע-2 |  |  |
+| [P00831](https://jastrow.app/#rid:P00831) | alt | עִי׳ | /עלעול |  | yes |
+| [P00835](https://jastrow.app/#rid:P00835) | alt | עִילְ׳ | /עלעל |  | yes |
+| [P00837](https://jastrow.app/#rid:P00837) | alt | עֵו׳ | /עלעל-3 |  | yes |
+| [P00846](https://jastrow.app/#rid:P00846) | alt | עְ׳ | /עלתא |  | yes |
+| [P00858](https://jastrow.app/#rid:P00858) | alt | עוֹ׳ | /עמד-4 |  | yes |
+| [P00893](https://jastrow.app/#rid:P00893) | alt | עֲ׳ | /עמירא |  | yes |
+| [P00911](https://jastrow.app/#rid:P00911) | alt | עִי׳ | /עמסוני |  | yes |
+| [P00922](https://jastrow.app/#rid:P00922) | alt | עַמְ׳ | /עמקא-2 |  | yes |
+| [P00924](https://jastrow.app/#rid:P00924) | alt | עִימְ׳ | /עמקותא |  | yes |
+| [P00943](https://jastrow.app/#rid:P00943) | alt | עִי׳ | /ענבא |  | yes |
+| [P00947](https://jastrow.app/#rid:P00947) | alt | עִי׳ | /ענבתא |  | yes |
+| [P00962](https://jastrow.app/#rid:P00962) | alt | עִינְוָ׳ | /ענון |  |  |
+| [P00965](https://jastrow.app/#rid:P00965) | alt | עִנְוְו׳ | /ענותן |  | yes |
+| [P00965](https://jastrow.app/#rid:P00965) | alt | עִינְ׳ | /ענותן |  | yes |
+| [P00966](https://jastrow.app/#rid:P00966) | alt | עִנְיְו׳ | /ענותן-2 |  |  |
+| [P00966](https://jastrow.app/#rid:P00966) | alt | עִינְ׳ | /ענותן-2 |  |  |
+| [P00967](https://jastrow.app/#rid:P00967) | alt | עִנְוְו׳ | /ענותנות |  | yes |
+| [P00967](https://jastrow.app/#rid:P00967) | alt | עִינְ׳ | /ענותנות |  | yes |
+| [P00968](https://jastrow.app/#rid:P00968) | alt | עִנְוְו׳ | /ענותנותא |  | yes |
+| [P00968](https://jastrow.app/#rid:P00968) | alt | עִינְ׳ | /ענותנותא |  | yes |
+| [P00992](https://jastrow.app/#rid:P00992) | alt | עִי׳ | /ענין |  |  |
+| [P00993](https://jastrow.app/#rid:P00993) | alt | עִנְיָי׳ | /ענינא |  | yes |
+| [P00993](https://jastrow.app/#rid:P00993) | alt | עִי׳ | /ענינא |  | yes |
+| [P00996](https://jastrow.app/#rid:P00996) | alt | עַנִי׳ | /עניתא |  | yes |
+| [P01011](https://jastrow.app/#rid:P01011) | alt | עִי׳ | /ענקא |  | yes |
+| [P01011](https://jastrow.app/#rid:P01011) | alt | עוּ׳ | /ענקא |  | yes |
+| [P01021](https://jastrow.app/#rid:P01021) | alt | עוּ׳ | /ענתא |  | yes |
+| [P01021](https://jastrow.app/#rid:P01021) | alt | עִי׳ | /ענתא |  | yes |
+| [P01026](https://jastrow.app/#rid:P01026) | alt | עֵנְתּוֹנְדְּ׳ | /ענתודריא |  | yes |
+| [P01034](https://jastrow.app/#rid:P01034) | alt | עִי׳ | /עסבא |  | yes |
+| [P01056](https://jastrow.app/#rid:P01056) | alt | עִי׳ | /עסקא |  | yes |
+| [P01083](https://jastrow.app/#rid:P01083) | alt | חֲ׳ | /עפריים |  | yes |
+| [P01089](https://jastrow.app/#rid:P01089) | alt | עֵי׳ | /עצא |  |  |
+| [P01148](https://jastrow.app/#rid:P01148) | alt | עִי׳ | /עקבא |  | yes |
+| [P01150](https://jastrow.app/#rid:P01150) | alt | עֲקֵי׳ | /עקבא-3 |  | yes |
+| [P01175](https://jastrow.app/#rid:P01175) | alt | עֲקֵדְ׳ | /עקידתא |  |  |
+| [P01193](https://jastrow.app/#rid:P01193) | alt | עִי׳ | /עקלא |  | yes |
+| [P01255](https://jastrow.app/#rid:P01255) | alt | עָרְ׳ | /ערבא |  | yes |
+| [P01255](https://jastrow.app/#rid:P01255) | alt | עֶרְ׳ | /ערבא |  | yes |
+| [P01255](https://jastrow.app/#rid:P01255) | alt | עִרְ׳ | /ערבא |  | yes |
+| [P01255](https://jastrow.app/#rid:P01255) | alt | עִי׳ | /ערבא |  | yes |
+| [P01260](https://jastrow.app/#rid:P01260) | alt | עִי׳ | /ערבב |  | yes |
+| [P01267](https://jastrow.app/#rid:P01267) | alt | עִי׳ | /ערבוב |  | yes |
+| [P01268](https://jastrow.app/#rid:P01268) | alt | עִי׳ | /ערבוב-2 |  |  |
+| [P01269](https://jastrow.app/#rid:P01269) | alt | עִרְ׳ | /ערבוביא |  | yes |
+| [P01269](https://jastrow.app/#rid:P01269) | alt | עִירְ׳ | /ערבוביא |  | yes |
+| [P01270](https://jastrow.app/#rid:P01270) | alt | עִי׳ | /ערבוביתא |  | yes |
+| [P01272](https://jastrow.app/#rid:P01272) | alt | עֵי׳ | /ערבון |  | yes |
+| [P01273](https://jastrow.app/#rid:P01273) | alt | עֵי׳ | /ערבון-2 |  | yes |
+| [P01336](https://jastrow.app/#rid:P01336) | alt | עַרְטִלּ׳ | /ערטיל |  |  |
+| [P01336](https://jastrow.app/#rid:P01336) | alt | עַרְטוּ׳ | /ערטיל |  |  |
+| [P01337](https://jastrow.app/#rid:P01337) | alt | עַרְטַלְיוּ׳ | /ערטיליותא |  | yes |
+| [P01355](https://jastrow.app/#rid:P01355) | alt | עֵי׳ | /עריין |  |  |
+| [P01356](https://jastrow.app/#rid:P01356) | alt | עָ׳ | /עריך |  |  |
+| [P01417](https://jastrow.app/#rid:P01417) | alt | עִירְ׳ | /ערער |  | yes |
+| [P01465](https://jastrow.app/#rid:P01465) | alt | עִי׳ | /עשב-2 |  |  |
+| [P01478](https://jastrow.app/#rid:P01478) | alt | עֲשִׁי׳ | /עשין-2 |  |  |
+| [P01480](https://jastrow.app/#rid:P01480) | alt | עֲ׳ | /עשיק |  | yes |
+| [P01481](https://jastrow.app/#rid:P01481) | alt | עֲ׳ | /עשיק-2 |  | yes |
+| [P01484](https://jastrow.app/#rid:P01484) | alt | עֲסִ׳ | /עשיראה |  | yes |
+| [P01492](https://jastrow.app/#rid:P01492) | alt | עוֹשְׁ׳ | /עשנא |  | yes |
+| [P01492](https://jastrow.app/#rid:P01492) | alt | עוּשְׁ׳ | /עשנא |  | yes |
+| [P01508](https://jastrow.app/#rid:P01508) | alt | עִסְ׳ | /עשרונא |  | yes |
+| [P01508](https://jastrow.app/#rid:P01508) | alt | עֶ׳ | /עשרונא |  | yes |
+| [P01519](https://jastrow.app/#rid:P01519) | alt | עִישְׁ׳ | /עשתונא |  | yes |
+| [P01549](https://jastrow.app/#rid:P01549) | alt | עָ׳ | /עתרא-2 |  |  |
+| [Q00006](https://jastrow.app/#rid:Q00006) | alt | פֵּי׳ | /פאה |  | yes |
+| [Q00044](https://jastrow.app/#rid:Q00044) | alt | פָּנ׳ | /פגוטיה |  | yes |
+| [Q00055](https://jastrow.app/#rid:Q00055) | alt | פִּיגְ׳ | /פגיון |  | yes |
+| [Q00061](https://jastrow.app/#rid:Q00061) | alt | פִּי׳ | /פגימין |  |  |
+| [Q00095](https://jastrow.app/#rid:Q00095) | alt | פַּ׳ | /פגר-6 |  |  |
+| [Q00107](https://jastrow.app/#rid:Q00107) | alt | פִּידָ׳ | /פדגוג |  | yes |
+| [Q00108](https://jastrow.app/#rid:Q00108) | alt | פַּדְגּוּ׳ | /פדגוגא |  | yes |
+| [Q00132](https://jastrow.app/#rid:Q00132) | alt | פִּי׳ | /פדע-3 |  |  |
+| [Q00135](https://jastrow.app/#rid:Q00135) | alt | פִּי׳ | /פדרא |  | yes |
+| [Q00172](https://jastrow.app/#rid:Q00172) | alt | פַּזְ׳ | /פוזמקי |  | yes |
+| [Q00231](https://jastrow.app/#rid:Q00231) | alt | פּוֹלְמַ׳ | /פולימרכוס |  | yes |
+| [Q00303](https://jastrow.app/#rid:Q00303) | alt | פֹּעֲ׳ | /פועל-3 |  |  |
+| [Q00347](https://jastrow.app/#rid:Q00347) | alt | פִּרְ׳ | /פוריומא |  | yes |
+| [Q00380](https://jastrow.app/#rid:Q00380) | alt | פּוּרְפִּי׳ | /פורפורא |  |  |
+| [Q00381](https://jastrow.app/#rid:Q00381) | alt | פורפי׳ | /פורפורון |  | yes |
+| [Q00382](https://jastrow.app/#rid:Q00382) | alt | פּוּרְפִּי׳ | /פורפוריא |  |  |
+| [Q00383](https://jastrow.app/#rid:Q00383) | alt | פּוּרְפִּי׳ | /פורפוריון |  |  |
+| [Q00391](https://jastrow.app/#rid:Q00391) | alt | פֻּרְ׳ | /פורקן |  |  |
+| [Q00431](https://jastrow.app/#rid:Q00431) | alt | פִּיזְ׳ | /פזמא |  | yes |
+| [Q00433](https://jastrow.app/#rid:Q00433) | alt | פיז׳ | /פזמריקון |  | yes |
+| [Q00437](https://jastrow.app/#rid:Q00437) | alt | פִּי׳ | /פזרא |  | yes |
+| [Q00441](https://jastrow.app/#rid:Q00441) | alt | פּוּ׳ | /פחא |  |  |
+| [Q00450](https://jastrow.app/#rid:Q00450) | alt | פַּחֲדִ׳ | /פחדין |  | yes |
+| [Q00451](https://jastrow.app/#rid:Q00451) | alt | פֶּי׳ | /פחה |  | yes |
+| [Q00529](https://jastrow.app/#rid:Q00529) | alt | פַּטִּ׳ | /פטיש-2 |  |  |
+| [Q00532](https://jastrow.app/#rid:Q00532) | alt | פְּטִילְ׳ | /פטליא |  |  |
+| [Q00541](https://jastrow.app/#rid:Q00541) | alt | פִּיטְ׳ | /פטפוט |  | yes |
+| [Q00542](https://jastrow.app/#rid:Q00542) | alt | פִּיטְ׳ | /פטפט |  | yes |
+| [Q00578](https://jastrow.app/#rid:Q00578) | alt | פִּגּ׳ | /פיגול-2 |  |  |
+| [Q00580](https://jastrow.app/#rid:Q00580) | alt | פִּגּ׳ | /פיגור |  | yes |
+| [Q00599](https://jastrow.app/#rid:Q00599) | alt | פַּיּיוֹ׳ | /פיוטות |  | yes |
+| [Q00603](https://jastrow.app/#rid:Q00603) | alt | פִּיּיוּ׳ | /פיוסא |  | yes |
+| [Q00616](https://jastrow.app/#rid:Q00616) | alt | פִּטּ׳ | /פיטום |  | yes |
+| [Q00617](https://jastrow.app/#rid:Q00617) | alt | פִּטּ׳ | /פיטומא |  | yes |
+| [Q00618](https://jastrow.app/#rid:Q00618) | alt | פִּטּ׳ | /פיטומא-2 |  | yes |
+| [Q00621](https://jastrow.app/#rid:Q00621) | alt | פִּטּ׳ | /פיטורה |  | yes |
+| [Q00622](https://jastrow.app/#rid:Q00622) | alt | פִּטּ׳ | /פיטורי |  |  |
+| [Q00623](https://jastrow.app/#rid:Q00623) | alt | פִּטּ׳ | /פיטורין |  | yes |
+| [Q00624](https://jastrow.app/#rid:Q00624) | alt | פִּטְ׳ | /פיטטא |  | yes |
+| [Q00628](https://jastrow.app/#rid:Q00628) | alt | פִּטְ׳ | /פיטמא |  | yes |
+| [Q00629](https://jastrow.app/#rid:Q00629) | alt | פִּטְ׳ | /פיטמא-2 |  |  |
+| [Q00633](https://jastrow.app/#rid:Q00633) | alt | פִּטְ׳ | /פיטקא |  |  |
+| [Q00636](https://jastrow.app/#rid:Q00636) | alt | פִּטְ׳ | /פיטרא-3 |  |  |
+| [Q00638](https://jastrow.app/#rid:Q00638) | alt | פִּטְ׳ | /פיטרוס |  |  |
+| [Q00674](https://jastrow.app/#rid:Q00674) | alt | פִּלּ׳ | /פילוג-2 |  |  |
+| [Q00675](https://jastrow.app/#rid:Q00675) | alt | פִּילָ׳ | /פילוון |  |  |
+| [Q00677](https://jastrow.app/#rid:Q00677) | alt | פּלּ׳ | /פילול |  | yes |
+| [Q00696](https://jastrow.app/#rid:Q00696) | alt | פִּלְ׳ | /פיליא |  | yes |
+| [Q00712](https://jastrow.app/#rid:Q00712) | alt | פִּלָ׳ | /פילקי |  | yes |
+| [Q00721](https://jastrow.app/#rid:Q00721) | alt | פִּנּ׳ | /פינוי |  | yes |
+| [Q00722](https://jastrow.app/#rid:Q00722) | alt | פִּנּ׳ | /פינוכא |  | yes |
+| [Q00727](https://jastrow.app/#rid:Q00727) | alt | פִּנּ׳ | /פינוקא |  | yes |
+| [Q00730](https://jastrow.app/#rid:Q00730) | alt | פִּנְ׳ | /פיניתא |  |  |
+| [Q00735](https://jastrow.app/#rid:Q00735) | alt | פִּנְ׳ | /פינקאי |  | yes |
+| [Q00738](https://jastrow.app/#rid:Q00738) | alt | פִּנַ׳ | /פינקס-2 |  |  |
+| [Q00748](https://jastrow.app/#rid:Q00748) | alt | פִּסּ׳ | /פיסול |  | yes |
+| [Q00751](https://jastrow.app/#rid:Q00751) | alt | פִּסּ׳ | /פיסוק |  | yes |
+| [Q00753](https://jastrow.app/#rid:Q00753) | alt | פִּסְ׳ | /פיסטין |  |  |
+| [Q00760](https://jastrow.app/#rid:Q00760) | alt | פִּסּ׳ | /פיסים |  |  |
+| [Q00761](https://jastrow.app/#rid:Q00761) | alt | פִּסְ׳ | /פיסעא |  | yes |
+| [Q00772](https://jastrow.app/#rid:Q00772) | alt | פִּסְּ׳ | /פיסתא |  |  |
+| [Q00773](https://jastrow.app/#rid:Q00773) | alt | פִסְ׳ | /פיסתקא |  | yes |
+| [Q00787](https://jastrow.app/#rid:Q00787) | alt | פִּיפְיָיר׳ | /פיפייארות |  |  |
+| [Q00792](https://jastrow.app/#rid:Q00792) | alt | פִּצּ׳ | /פיצוליא |  | yes |
+| [Q00794](https://jastrow.app/#rid:Q00794) | alt | פִּצְ׳ | /פיצעא |  | yes |
+| [Q00801](https://jastrow.app/#rid:Q00801) | alt | פִּקּ׳ | /פיקוד |  | yes |
+| [Q00802](https://jastrow.app/#rid:Q00802) | alt | פִּקּ׳ | /פיקודא |  | yes |
+| [Q00803](https://jastrow.app/#rid:Q00803) | alt | פִּקּ׳ | /פיקוח |  | yes |
+| [Q00816](https://jastrow.app/#rid:Q00816) | alt | פִּקְ׳ | /פיקסינה |  |  |
+| [Q00818](https://jastrow.app/#rid:Q00818) | alt | פִּקְ׳ | /פיקעין |  | yes |
+| [Q00837](https://jastrow.app/#rid:Q00837) | alt | פֵּר׳ | /פירוכא |  | yes |
+| [Q00838](https://jastrow.app/#rid:Q00838) | alt | פֵּר׳ | /פירוכא-2 |  | yes |
+| [Q00839](https://jastrow.app/#rid:Q00839) | alt | פֵּר׳ | /פירוכייא |  | yes |
+| [Q00843](https://jastrow.app/#rid:Q00843) | alt | פֵּר׳ | /פירוק |  | yes |
+| [Q00844](https://jastrow.app/#rid:Q00844) | alt | פֵּר׳ | /פירוקא |  | yes |
+| [Q00845](https://jastrow.app/#rid:Q00845) | alt | פֵּר׳ | /פירור |  | yes |
+| [Q00846](https://jastrow.app/#rid:Q00846) | alt | פֵּר׳ | /פירורא |  | yes |
+| [Q00847](https://jastrow.app/#rid:Q00847) | alt | פֵּר׳ | /פירוש |  | yes |
+| [Q00848](https://jastrow.app/#rid:Q00848) | alt | פֵּר׳ | /פירוש-2 |  |  |
+| [Q00852](https://jastrow.app/#rid:Q00852) | alt | פִּרְ׳ | /פירטא |  |  |
+| [Q00858](https://jastrow.app/#rid:Q00858) | alt | פִּרְ׳ | /פירכא |  | yes |
+| [Q00859](https://jastrow.app/#rid:Q00859) | alt | פִּרְ׳ | /פירכוס |  |  |
+| [Q00860](https://jastrow.app/#rid:Q00860) | alt | פִּרְ׳ | /פירכוס-2 |  | yes |
+| [Q00861](https://jastrow.app/#rid:Q00861) | alt | פִּרְ׳ | /פירכוסא |  | yes |
+| [Q00868](https://jastrow.app/#rid:Q00868) | alt | פִּרְ׳ | /פירסומי |  | yes |
+| [Q00870](https://jastrow.app/#rid:Q00870) | alt | פֵּרָ׳ | /פירעון |  | yes |
+| [Q00872](https://jastrow.app/#rid:Q00872) | alt | פִּרְ׳ | /פירצא |  | yes |
+| [Q00876](https://jastrow.app/#rid:Q00876) | alt | פּוּרְ׳ | /פירקתא |  | yes |
+| [Q00877](https://jastrow.app/#rid:Q00877) | alt | פִּר׳ | /פירשא |  | yes |
+| [Q00878](https://jastrow.app/#rid:Q00878) | alt | פִּרְ׳ | /פירשע |  | yes |
+| [Q00879](https://jastrow.app/#rid:Q00879) | alt | פִּשּׁ׳ | /פישוט |  | yes |
+| [Q00887](https://jastrow.app/#rid:Q00887) | alt | פִּשְׁ׳ | /פישרא |  | yes |
+| [Q00890](https://jastrow.app/#rid:Q00890) | alt | פִּתּ׳ | /פיתוח |  | yes |
+| [Q00891](https://jastrow.app/#rid:Q00891) | alt | פִּתּ׳ | /פיתוחא |  | yes |
+| [Q00892](https://jastrow.app/#rid:Q00892) | alt | פִּתּ׳ | /פיתוי |  | yes |
+| [Q00893](https://jastrow.app/#rid:Q00893) | alt | פִּתּ׳ | /פיתולא |  | yes |
+| [Q00899](https://jastrow.app/#rid:Q00899) | alt | פִּתֵּ׳ | /פיתח |  | yes |
+| [Q00905](https://jastrow.app/#rid:Q00905) | alt | פִּתְ׳ | /פיתק-2 |  |  |
+| [Q00908](https://jastrow.app/#rid:Q00908) | alt | פִּתְּ׳ | /פיתתא |  | yes |
+| [Q00958](https://jastrow.app/#rid:Q00958) | alt | פִּילְדֵּי׳ | /פלדיסין |  |  |
+| [Q00964](https://jastrow.app/#rid:Q00964) | alt | פְּלֻגְ׳ | /פלוגתא |  | yes |
+| [Q00993](https://jastrow.app/#rid:Q00993) | alt | פִּי׳ | /פלחא |  | yes |
+| [Q00994](https://jastrow.app/#rid:Q00994) | alt | פַּ׳ | /פלחא-2 |  | yes |
+| [Q00995](https://jastrow.app/#rid:Q00995) | alt | פַּ׳ | /פלחא-3 |  | yes |
+| [Q01005](https://jastrow.app/#rid:Q01005) | alt | פַּלְ׳ | /פלטורא |  | yes |
+| [Q01010](https://jastrow.app/#rid:Q01010) | alt | פְּלַטְיָי׳ | /פלטיא-3 |  |  |
+| [Q01020](https://jastrow.app/#rid:Q01020) | alt | פַּלָּאטִ׳ | /פלטינוס |  | yes |
+| [Q01028](https://jastrow.app/#rid:Q01028) | alt | פַּלְטֵי׳ | /פלטר-3 |  |  |
+| [Q01030](https://jastrow.app/#rid:Q01030) | alt | פַּלְטֵי׳ | /פלטרין |  |  |
+| [Q01030](https://jastrow.app/#rid:Q01030) | alt | פַּלְטוֹ׳ | /פלטרין |  |  |
+| [Q01071](https://jastrow.app/#rid:Q01071) | alt | פִּי׳ | /פלך-2 |  |  |
+| [Q01111](https://jastrow.app/#rid:Q01111) | alt | פִּילְ׳ | /פלפול |  | yes |
+| [Q01112](https://jastrow.app/#rid:Q01112) | alt | פִּילְ׳ | /פלפולא |  | yes |
+| [Q01117](https://jastrow.app/#rid:Q01117) | alt | פִּילְ׳ | /פלפל-4 |  |  |
+| [Q01118](https://jastrow.app/#rid:Q01118) | alt | פִּילְ׳ | /פלפלא |  |  |
+| [Q01119](https://jastrow.app/#rid:Q01119) | alt | פִּילְ׳ | /פלפלן |  | yes |
+| [Q01125](https://jastrow.app/#rid:Q01125) | alt | פִּילַ׳ | /פלקתא |  | yes |
+| [Q01140](https://jastrow.app/#rid:Q01140) | alt | פְּמַ׳ | /פמילייא |  |  |
+| [Q01142](https://jastrow.app/#rid:Q01142) | alt | פְּמַ׳ | /פמליא |  | yes |
+| [Q01177](https://jastrow.app/#rid:Q01177) | alt | פִּינְ׳ | /פנטיגון |  | yes |
+| [Q01177](https://jastrow.app/#rid:Q01177) | alt | פּוּנְ׳ | /פנטיגון |  | yes |
+| [Q01182](https://jastrow.app/#rid:Q01182) | alt | פַּנְטַסְכְנָ׳ | /פנטסכינאי |  | yes |
+| [Q01204](https://jastrow.app/#rid:Q01204) | alt | פְּנִקְ׳ | /פניקיא |  | yes |
+| [Q01223](https://jastrow.app/#rid:Q01223) | alt | פִּי׳ | /פס-4 |  |  |
+| [Q01229](https://jastrow.app/#rid:Q01229) | alt | פִּסְ׳ | /פסגא |  | yes |
+| [Q01229](https://jastrow.app/#rid:Q01229) | alt | פִּיסְ׳ | /פסגא |  | yes |
+| [Q01255](https://jastrow.app/#rid:Q01255) | alt | פִּי׳ | /פסח-3 |  | yes |
+| [Q01257](https://jastrow.app/#rid:Q01257) | alt | פִּי׳ | /פסחא |  | yes |
+| [Q01276](https://jastrow.app/#rid:Q01276) | alt | פְּסֵי׳ | /פסידא |  |  |
+| [Q01278](https://jastrow.app/#rid:Q01278) | alt | פִּשָּׂ׳ | /פסיון |  | yes |
+| [Q01278](https://jastrow.app/#rid:Q01278) | alt | פִּי׳ | /פסיון |  | yes |
+| [Q01280](https://jastrow.app/#rid:Q01280) | alt | פִּיסְ׳ | /פסיונא |  | yes |
+| [Q01281](https://jastrow.app/#rid:Q01281) | alt | פִּיסְ׳ | /פסיוני |  | yes |
+| [Q01282](https://jastrow.app/#rid:Q01282) | alt | פִּי׳ | /פסיוני-2 |  | yes |
+| [Q01309](https://jastrow.app/#rid:Q01309) | alt | פִּיסְ׳ | /פסיפס |  |  |
+| [Q01318](https://jastrow.app/#rid:Q01318) | alt | פִּסְקְ׳ | /פסיקיא |  |  |
+| [Q01319](https://jastrow.app/#rid:Q01319) | alt | פְּסִקְ׳ | /פסיקתא |  | yes |
+| [Q01329](https://jastrow.app/#rid:Q01329) | alt | פִּי׳ | /פסלא |  | yes |
+| [Q01353](https://jastrow.app/#rid:Q01353) | alt | פִּי׳ | /פסקא |  | yes |
+| [Q01427](https://jastrow.app/#rid:Q01427) | alt | פְּ׳ | /פציד |  |  |
+| [Q01451](https://jastrow.app/#rid:Q01451) | alt | פִּיקָּ׳ | /פקדון |  | yes |
+| [Q01452](https://jastrow.app/#rid:Q01452) | alt | פִּיקְ׳ | /פקדונא |  | yes |
+| [Q01459](https://jastrow.app/#rid:Q01459) | alt | הַפְּ׳ | /פקולי |  | yes |
+| [Q01477](https://jastrow.app/#rid:Q01477) | alt | פִּיקֵּ׳ | /פקח-4 |  | yes |
+| [Q01481](https://jastrow.app/#rid:Q01481) | alt | פִּי׳ | /פקטים |  |  |
+| [Q01509](https://jastrow.app/#rid:Q01509) | alt | פִּיקְ׳ | /פקפוק |  | yes |
+| [Q01525](https://jastrow.app/#rid:Q01525) | alt | פִּי׳ | /פקתא-2 |  | yes |
+| [Q01568](https://jastrow.app/#rid:Q01568) | alt | פְּרַקְמַ׳ | /פרגמטוטיס |  |  |
+| [Q01569](https://jastrow.app/#rid:Q01569) | alt | פְּרַקְ׳ | /פרגמטיא |  | yes |
+| [Q01570](https://jastrow.app/#rid:Q01570) | alt | פרגמיט׳ | /פרגמטיוטא |  |  |
+| [Q01593](https://jastrow.app/#rid:Q01593) | alt | פרסתק׳ | /פרדסקין |  |  |
+| [Q01595](https://jastrow.app/#rid:Q01595) | alt | פַּרְדִּישְׁ׳ | /פרדשנא |  | yes |
+| [Q01602](https://jastrow.app/#rid:Q01602) | alt | פרח׳ | /פרהדיא |  | yes |
+| [Q01607](https://jastrow.app/#rid:Q01607) | alt | פָּרָהפִרְ׳ | /פרהפורנון |  | yes |
+| [Q01609](https://jastrow.app/#rid:Q01609) | alt | פרואמי׳ | /פרואמה |  | yes |
+| [Q01639](https://jastrow.app/#rid:Q01639) | alt | פַּרְוָר׳ | /פרוורא |  |  |
+| [Q01668](https://jastrow.app/#rid:Q01668) | alt | פְּרוֹטֹגַ׳ | /פרוטוגמיא |  | yes |
+| [Q01680](https://jastrow.app/#rid:Q01680) | alt | פַּרְוִוי׳ | /פרוילא |  | yes |
+| [Q01689](https://jastrow.app/#rid:Q01689) | alt | פָּרֻכְ׳ | /פרוכתא |  | yes |
+| [Q01722](https://jastrow.app/#rid:Q01722) | alt | פֵּיר׳ | /פרוע-2 |  | yes |
+| [Q01723](https://jastrow.app/#rid:Q01723) | alt | פְּרוֹפְסִ׳ | /פרופוסיטוס |  | yes |
+| [Q01746](https://jastrow.app/#rid:Q01746) | alt | פִּירְ׳ | /פרזומא |  | yes |
+| [Q01747](https://jastrow.app/#rid:Q01747) | alt | פִּירְ׳ | /פרזומא-2 |  | yes |
+| [Q01750](https://jastrow.app/#rid:Q01750) | alt | פּוּרְ׳ | /פרזל-2 |  |  |
+| [Q01757](https://jastrow.app/#rid:Q01757) | alt | פִּירְ׳ | /פרח-4 |  |  |
+| [Q01759](https://jastrow.app/#rid:Q01759) | alt | פרחביל׳ | /פרחבלין |  | yes |
+| [Q01759](https://jastrow.app/#rid:Q01759) | alt | פרחבינ׳ | /פרחבלין |  | yes |
+| [Q01782](https://jastrow.app/#rid:Q01782) | alt | פִּירְ׳ | /פרטתא-2 |  | yes |
+| [Q01792](https://jastrow.app/#rid:Q01792) | alt | פָּרִדְ׳ | /פרידתא |  | yes |
+| [Q01822](https://jastrow.app/#rid:Q01822) | alt | פריפיס׳ | /פריפוסיטין |  | yes |
+| [Q01836](https://jastrow.app/#rid:Q01836) | alt | פְּ׳ | /פרישא |  | yes |
+| [Q01886](https://jastrow.app/#rid:Q01886) | alt | פִּירְ׳ | /פרנוס-2 |  | yes |
+| [Q01887](https://jastrow.app/#rid:Q01887) | alt | פִּירְ׳ | /פרנוק |  | yes |
+| [Q01934](https://jastrow.app/#rid:Q01934) | alt | פִּירְ׳ | /פרסם |  | yes |
+| [Q01938](https://jastrow.app/#rid:Q01938) | alt | פִּירְ׳ | /פרסקא |  |  |
+| [Q01961](https://jastrow.app/#rid:Q01961) | alt | פִּירְ׳ | /פרפר |  | yes |
+| [Q01963](https://jastrow.app/#rid:Q01963) | alt | פִּירְ׳ | /פרפר-3 |  | yes |
+| [Q01974](https://jastrow.app/#rid:Q01974) | alt | פִּירְ׳ | /פרצה |  | yes |
+| [Q01983](https://jastrow.app/#rid:Q01983) | alt | פִּי׳ | /פרקא |  | yes |
+| [Q01993](https://jastrow.app/#rid:Q01993) | alt | פֵּי׳ | /פרקון |  | yes |
+| [Q01994](https://jastrow.app/#rid:Q01994) | alt | פִּי׳ | /פרקונא |  | yes |
+| [Q02011](https://jastrow.app/#rid:Q02011) | alt | פָּרְ׳ | /פרקן |  | yes |
+| [Q02088](https://jastrow.app/#rid:Q02088) | alt | פִּי׳ | /פשפוש |  | yes |
+| [Q02090](https://jastrow.app/#rid:Q02090) | alt | פִּי׳ | /פשפש |  | yes |
+| [Q02094](https://jastrow.app/#rid:Q02094) | alt | פִּי׳ | /פשפש-5 |  | yes |
+| [Q02148](https://jastrow.app/#rid:Q02148) | alt | פִּי׳ | /פתחא |  | yes |
+| [Q02149](https://jastrow.app/#rid:Q02149) | alt | פִּי׳ | /פתחון |  | yes |
+| [Q02191](https://jastrow.app/#rid:Q02191) | alt | פִּו׳ | /פתן-3 |  |  |
+| [Q02193](https://jastrow.app/#rid:Q02193) | alt | פִּי׳ | /פתפות |  | yes |
+| [Q02202](https://jastrow.app/#rid:Q02202) | alt | פִּי׳ | /פתר-3 |  |  |
+| [Q02203](https://jastrow.app/#rid:Q02203) | alt | פִּי׳ | /פתרא |  | yes |
+| [R00030](https://jastrow.app/#rid:R00030) | alt | צִי׳ | /צבחד |  |  |
+| [R00040](https://jastrow.app/#rid:R00040) | alt | צִי׳ | /צביונא |  |  |
+| [R00058](https://jastrow.app/#rid:R00058) | alt | צִי׳ | /צבע-6 |  |  |
+| [R00061](https://jastrow.app/#rid:R00061) | alt | צִי׳ | /צבעא-2 |  | yes |
+| [R00062](https://jastrow.app/#rid:R00062) | alt | צִי׳ | /צבעא-3 |  | yes |
+| [R00064](https://jastrow.app/#rid:R00064) | alt | צִי׳ | /צבעון-2 |  | yes |
+| [R00065](https://jastrow.app/#rid:R00065) | alt | צִי׳ | /צבעונא |  | yes |
+| [R00075](https://jastrow.app/#rid:R00075) | alt | צִבְ׳ | /צבתא |  |  |
+| [R00076](https://jastrow.app/#rid:R00076) | alt | צִי׳ | /צבתא-2 |  | yes |
+| [R00116](https://jastrow.app/#rid:R00116) | alt | צִי׳ | /צדעא |  | yes |
+| [R00152](https://jastrow.app/#rid:R00152) | alt | צַוּו׳ | /צואר-2 |  |  |
+| [R00174](https://jastrow.app/#rid:R00174) | alt | צְוַחְ׳ | /צווחתא |  |  |
+| [R00174](https://jastrow.app/#rid:R00174) | alt | צִיוְ׳ | /צווחתא |  |  |
+| [R00220](https://jastrow.app/#rid:R00220) | alt | הַצּ׳ | /צופים |  | yes |
+| [R00231](https://jastrow.app/#rid:R00231) | alt | צוֹצַלְ׳ | /צוצלא |  |  |
+| [R00259](https://jastrow.app/#rid:R00259) | alt | צִרְעֲ׳ | /צורעא |  |  |
+| [R00259](https://jastrow.app/#rid:R00259) | alt | צִירְ׳ | /צורעא |  |  |
+| [R00271](https://jastrow.app/#rid:R00271) | alt | צָה׳ | /צחותא |  | yes |
+| [R00273](https://jastrow.app/#rid:R00273) | alt | צה׳ | /צחי |  |  |
+| [R00280](https://jastrow.app/#rid:R00280) | alt | צִי׳ | /צחצוח |  | yes |
+| [R00281](https://jastrow.app/#rid:R00281) | alt | צִי׳ | /צחצוחא |  | yes |
+| [R00295](https://jastrow.app/#rid:R00295) | alt | צִבּ׳ | /ציבור |  | yes |
+| [R00296](https://jastrow.app/#rid:R00296) | alt | צִבּ׳ | /ציבור-2 |  |  |
+| [R00311](https://jastrow.app/#rid:R00311) | alt | צַיְי׳ | /צידון |  |  |
+| [R00312](https://jastrow.app/#rid:R00312) | alt | צִדּ׳ | /צידוק |  | yes |
+| [R00317](https://jastrow.app/#rid:R00317) | alt | צִה׳ | /ציהוב |  | yes |
+| [R00335](https://jastrow.app/#rid:R00335) | alt | צַיָּד׳ | /צייד-2 |  |  |
+| [R00373](https://jastrow.app/#rid:R00373) | alt | צִמּ׳ | /צימוח-2 |  | yes |
+| [R00375](https://jastrow.app/#rid:R00375) | alt | צִמּ׳ | /צימוק |  | yes |
+| [R00377](https://jastrow.app/#rid:R00377) | alt | צִמֵּ׳ | /צימח |  | yes |
+| [R00382](https://jastrow.app/#rid:R00382) | alt | צוּמְצְ׳ | /צימצמאי |  | yes |
+| [R00383](https://jastrow.app/#rid:R00383) | alt | צִמְ׳ | /צימרא |  | yes |
+| [R00388](https://jastrow.app/#rid:R00388) | alt | צִנַּ׳ | /צינבראה |  |  |
+| [R00399](https://jastrow.app/#rid:R00399) | alt | צִנְּ׳ | /צינתא |  | yes |
+| [R00400](https://jastrow.app/#rid:R00400) | alt | צִנְּ׳ | /צינתא-2 |  | yes |
+| [R00409](https://jastrow.app/#rid:R00409) | alt | צִיפ׳ | /ציפונא |  | yes |
+| [R00409](https://jastrow.app/#rid:R00409) | alt | צִפּ׳ | /ציפונא |  | yes |
+| [R00413](https://jastrow.app/#rid:R00413) | alt | צִפּ׳ | /ציפורי |  |  |
+| [R00414](https://jastrow.app/#rid:R00414) | alt | צִפּ׳ | /ציפורי-2 |  |  |
+| [R00415](https://jastrow.app/#rid:R00415) | alt | צִיפֹּרָ׳ | /ציפוריא |  |  |
+| [R00415](https://jastrow.app/#rid:R00415) | alt | צִפּ׳ | /ציפוריא |  |  |
+| [R00423](https://jastrow.app/#rid:R00423) | alt | צִיפְּ׳ | /ציפר |  |  |
+| [R00429](https://jastrow.app/#rid:R00429) | alt | צִפְ׳ | /ציפתא |  | yes |
+| [R00446](https://jastrow.app/#rid:R00446) | alt | צוֹיְ׳ | /ציקן |  | yes |
+| [R00446](https://jastrow.app/#rid:R00446) | alt | צוֹיְי׳ | /ציקן |  | yes |
+| [R00453](https://jastrow.app/#rid:R00453) | alt | צְיָי׳ | /ציר-7 |  |  |
+| [R00459](https://jastrow.app/#rid:R00459) | alt | צִרְ׳ | /ציריא |  | yes |
+| [R00487](https://jastrow.app/#rid:R00487) | alt | צִלְהוּ׳ | /צלהובא |  | yes |
+| [R00488](https://jastrow.app/#rid:R00488) | alt | צְלוּ׳ | /צלו |  |  |
+| [R00499](https://jastrow.app/#rid:R00499) | alt | צְלוּ׳ | /צלותא |  | yes |
+| [R00504](https://jastrow.app/#rid:R00504) | alt | צִילְ׳ | /צלחתא |  | yes |
+| [R00527](https://jastrow.app/#rid:R00527) | alt | צִלְ׳ | /צלם-3 |  |  |
+| [R00527](https://jastrow.app/#rid:R00527) | alt | צִילְ׳ | /צלם-3 |  |  |
+| [R00532](https://jastrow.app/#rid:R00532) | alt | צִילְמָ׳ | /צלמנא |  | yes |
+| [R00541](https://jastrow.app/#rid:R00541) | alt | צִילְ׳ | /צלצול |  | yes |
+| [R00542](https://jastrow.app/#rid:R00542) | alt | צִילְ׳ | /צלצולין |  | yes |
+| [R00545](https://jastrow.app/#rid:R00545) | alt | צִילְ׳ | /צלצל-3 |  | yes |
+| [R00547](https://jastrow.app/#rid:R00547) | alt | צִילְ׳ | /צלצלון |  |  |
+| [R00570](https://jastrow.app/#rid:R00570) | alt | צִי׳ | /צמחא |  | yes |
+| [R00614](https://jastrow.app/#rid:R00614) | alt | צִינּ׳ | /צנורא |  | yes |
+| [R00615](https://jastrow.app/#rid:R00615) | alt | צִי׳ | /צנורא-2 |  |  |
+| [R00616](https://jastrow.app/#rid:R00616) | alt | צִי׳ | /צנורא-3 |  |  |
+| [R00619](https://jastrow.app/#rid:R00619) | alt | צִי׳ | /צנוריתא |  | yes |
+| [R00640](https://jastrow.app/#rid:R00640) | alt | צִי׳ | /צנעא |  |  |
+| [R00681](https://jastrow.app/#rid:R00681) | alt | צִיפּ׳ | /צפור |  | yes |
+| [R00684](https://jastrow.app/#rid:R00684) | alt | צִיפּ׳ | /צפורה |  | yes |
+| [R00687](https://jastrow.app/#rid:R00687) | alt | צִיפּ׳ | /צפורן |  | yes |
+| [R00688](https://jastrow.app/#rid:R00688) | alt | צִיפּ׳ | /צפורת |  | yes |
+| [R00717](https://jastrow.app/#rid:R00717) | alt | צִי׳ | /צפר-7 |  |  |
+| [R00721](https://jastrow.app/#rid:R00721) | alt | צִי׳ | /צפרתא |  | yes |
+| [R00758](https://jastrow.app/#rid:R00758) | alt | צִי׳ | /צרחא |  | yes |
+| [R00794](https://jastrow.app/#rid:R00794) | alt | צִי׳ | /צרעה |  | yes |
+| [R00804](https://jastrow.app/#rid:R00804) | alt | צִירְ׳ | /צרצור |  | yes |
+| [R00817](https://jastrow.app/#rid:R00817) | alt | צִי׳ | /צתרי |  | yes |
+| [S00030](https://jastrow.app/#rid:S00030) | alt | קֵי׳ | /קבה-3 |  | yes |
+| [S00038](https://jastrow.app/#rid:S00038) | alt | קְפוּ׳ | /קבוסאי |  |  |
+| [S00064](https://jastrow.app/#rid:S00064) | alt | קִבְ׳ | /קבל-8 |  |  |
+| [S00064](https://jastrow.app/#rid:S00064) | alt | קִיבְ׳ | /קבל-8 |  |  |
+| [S00065](https://jastrow.app/#rid:S00065) | alt | קִי׳ | /קבלא |  |  |
+| [S00066](https://jastrow.app/#rid:S00066) | alt | קִי׳ | /קבלא-2 |  | yes |
+| [S00067](https://jastrow.app/#rid:S00067) | alt | קִי׳ | /קבלא-3 |  | yes |
+| [S00080](https://jastrow.app/#rid:S00080) | alt | קְבֵילְ׳ | /קבלתא |  | yes |
+| [S00089](https://jastrow.app/#rid:S00089) | alt | קִי׳ | /קבעא |  | yes |
+| [S00098](https://jastrow.app/#rid:S00098) | alt | קֵי׳ | /קברא |  |  |
+| [S00109](https://jastrow.app/#rid:S00109) | alt | קֵי׳ | /קבתא |  | yes |
+| [S00128](https://jastrow.app/#rid:S00128) | alt | קִי׳ | /קדחא |  | yes |
+| [S00166](https://jastrow.app/#rid:S00166) | alt | קוֹדְ׳ | /קדקדא |  |  |
+| [S00175](https://jastrow.app/#rid:S00175) | alt | קִי׳ | /קדר-8 |  |  |
+| [S00199](https://jastrow.app/#rid:S00199) | alt | קְדָ׳ | /קדשא |  | yes |
+| [S00202](https://jastrow.app/#rid:S00202) | alt | קֵי׳ | /קהה |  | yes |
+| [S00211](https://jastrow.app/#rid:S00211) | alt | קְהִי׳ | /קהלה |  | yes |
+| [S00241](https://jastrow.app/#rid:S00241) | alt | קוּבְ׳ | /קובתא |  | yes |
+| [S00257](https://jastrow.app/#rid:S00257) | alt | קְוָטִ׳ | /קווטין |  | yes |
+| [S00267](https://jastrow.app/#rid:S00267) | alt | קְוַקְ׳ | /קווקיא |  | yes |
+| [S00269](https://jastrow.app/#rid:S00269) | alt | קוורניט׳ | /קוורנוט׳ |  |  |
+| [S00276](https://jastrow.app/#rid:S00276) | alt | קוזמוקלט׳ | /קוזמוקטור |  |  |
+| [S00325](https://jastrow.app/#rid:S00325) | alt | קָלְ׳ | /קולבון |  | yes |
+| [S00327](https://jastrow.app/#rid:S00327) | alt | קִילְ׳ | /קולבן |  |  |
+| [S00336](https://jastrow.app/#rid:S00336) | alt | קוֹ׳ | /קוליא |  | yes |
+| [S00340](https://jastrow.app/#rid:S00340) | alt | קָלְיָי׳ | /קוליינין |  | yes |
+| [S00357](https://jastrow.app/#rid:S00357) | alt | קַלְ׳ | /קולס-2 |  |  |
+| [S00402](https://jastrow.app/#rid:S00402) | alt | קוֹ׳ | /קומצא |  |  |
+| [S00405](https://jastrow.app/#rid:S00405) | alt | קוּמְקְמ׳ | /קומקום |  |  |
+| [S00433](https://jastrow.app/#rid:S00433) | alt | קונטרונק׳ | /קונטרונין |  | yes |
+| [S00459](https://jastrow.app/#rid:S00459) | alt | קִסְ׳ | /קוסדור |  | yes |
+| [S00470](https://jastrow.app/#rid:S00470) | alt | קוּסְטַאנְטִ׳ | /קוסטנטינוס |  | yes |
+| [S00566](https://jastrow.app/#rid:S00566) | alt | קוֹרֵי׳ | /קוראה |  | yes |
+| [S00596](https://jastrow.app/#rid:S00596) | alt | קוּ׳ | /קורטור |  | yes |
+| [S00597](https://jastrow.app/#rid:S00597) | alt | קִירְ׳ | /קורטמי |  | yes |
+| [S00601](https://jastrow.app/#rid:S00601) | alt | קוֹ׳ | /קוריא |  | yes |
+| [S00605](https://jastrow.app/#rid:S00605) | alt | קוֹ׳ | /קורייא |  | yes |
+| [S00639](https://jastrow.app/#rid:S00639) | alt | קַרְ׳ | /קורקא |  | yes |
+| [S00640](https://jastrow.app/#rid:S00640) | alt | קָרְ׳ | /קורקבן |  | yes |
+| [S00691](https://jastrow.app/#rid:S00691) | alt | קָטָדִ׳ | /קטאדיקי |  | yes |
+| [S00710](https://jastrow.app/#rid:S00710) | alt | קַטּ׳ | /קטול-2 |  |  |
+| [S00745](https://jastrow.app/#rid:S00745) | alt | קִטַּ׳ | /קטייא |  | yes |
+| [S00745](https://jastrow.app/#rid:S00745) | alt | קְטַ׳ | /קטייא |  | yes |
+| [S00758](https://jastrow.app/#rid:S00758) | alt | קְטוּסְ׳ | /קטיספאה |  | yes |
+| [S00789](https://jastrow.app/#rid:S00789) | alt | קִי׳ | /קטם-5 |  |  |
+| [S00790](https://jastrow.app/#rid:S00790) | alt | קִי׳ | /קטמא |  | yes |
+| [S00793](https://jastrow.app/#rid:S00793) | alt | קִי׳ | /קטמנא |  | yes |
+| [S00808](https://jastrow.app/#rid:S00808) | alt | קִי׳ | /קטעא |  | yes |
+| [S00813](https://jastrow.app/#rid:S00813) | alt | קִי׳ | /קטף-4 |  |  |
+| [S00832](https://jastrow.app/#rid:S00832) | alt | קִי׳ | /קטרון |  | yes |
+| [S00833](https://jastrow.app/#rid:S00833) | alt | קִי׳ | /קטרון-2 |  | yes |
+| [S00844](https://jastrow.app/#rid:S00844) | alt | קְטוֹ׳ | /קטרת |  | yes |
+| [S00850](https://jastrow.app/#rid:S00850) | alt | קִבּ׳ | /קיבול |  | yes |
+| [S00851](https://jastrow.app/#rid:S00851) | alt | קִבּ׳ | /קיבולא |  | yes |
+| [S00854](https://jastrow.app/#rid:S00854) | alt | קִבּ׳ | /קיבוץ |  | yes |
+| [S00871](https://jastrow.app/#rid:S00871) | alt | קִדּ׳ | /קידום |  |  |
+| [S00873](https://jastrow.app/#rid:S00873) | alt | קִדּ׳ | /קידוש |  | yes |
+| [S00874](https://jastrow.app/#rid:S00874) | alt | קִדּ׳ | /קידושא |  | yes |
+| [S00882](https://jastrow.app/#rid:S00882) | alt | קִוּוּ׳ | /קיוויה |  | yes |
+| [S00885](https://jastrow.app/#rid:S00885) | alt | קִיּי׳ | /קיום-2 |  |  |
+| [S00890](https://jastrow.app/#rid:S00890) | alt | קַיְי׳ | /קיטא |  | yes |
+| [S00895](https://jastrow.app/#rid:S00895) | alt | קִטּ׳ | /קיטול |  | yes |
+| [S00900](https://jastrow.app/#rid:S00900) | alt | קִטּ׳ | /קיטונתא |  | yes |
+| [S00903](https://jastrow.app/#rid:S00903) | alt | קִטּ׳ | /קיטוף |  | yes |
+| [S00904](https://jastrow.app/#rid:S00904) | alt | קִטּ׳ | /קיטופא |  | yes |
+| [S00908](https://jastrow.app/#rid:S00908) | alt | קִטּ׳ | /קיטורא |  | yes |
+| [S00915](https://jastrow.app/#rid:S00915) | alt | קִטְ׳ | /קיטני |  | yes |
+| [S00917](https://jastrow.app/#rid:S00917) | alt | קִטְ׳ | /קיטנית |  | yes |
+| [S00918](https://jastrow.app/#rid:S00918) | alt | קִטְ׳ | /קיטנית-2 |  | yes |
+| [S00919](https://jastrow.app/#rid:S00919) | alt | קִטֵּ׳ | /קיטע |  | yes |
+| [S00922](https://jastrow.app/#rid:S00922) | alt | קוּטְ׳ | /קיטרא |  | yes |
+| [S00922](https://jastrow.app/#rid:S00922) | alt | קִטְ׳ | /קיטרא |  | yes |
+| [S00935](https://jastrow.app/#rid:S00935) | alt | קַיָּ׳ | /קיים-4 |  |  |
+| [S00936](https://jastrow.app/#rid:S00936) | alt | קְיָ׳ | /קיים-5 |  |  |
+| [S00959](https://jastrow.app/#rid:S00959) | alt | קִלּ׳ | /קילוח |  | yes |
+| [S00960](https://jastrow.app/#rid:S00960) | alt | קִלּ׳ | /קילוחא |  | yes |
+| [S00967](https://jastrow.app/#rid:S00967) | alt | קִלּ׳ | /קילוס-2 |  | yes |
+| [S00968](https://jastrow.app/#rid:S00968) | alt | קִלּ׳ | /קילוסא |  | yes |
+| [S00970](https://jastrow.app/#rid:S00970) | alt | קִלּ׳ | /קילופא |  | yes |
+| [S00985](https://jastrow.app/#rid:S00985) | alt | קִלְ׳ | /קילקאי |  | yes |
+| [S00986](https://jastrow.app/#rid:S00986) | alt | קִלְ׳ | /קילקול |  | yes |
+| [S00987](https://jastrow.app/#rid:S00987) | alt | קִלְ׳ | /קילקולא |  | yes |
+| [S00988](https://jastrow.app/#rid:S00988) | alt | קִלְ׳ | /קילקי |  | yes |
+| [S00993](https://jastrow.app/#rid:S00993) | alt | קִילְקִילִּ׳ | /קילקלין |  | yes |
+| [S00995](https://jastrow.app/#rid:S00995) | alt | קִילּוּרִ׳ | /קילרין |  | yes |
+| [S00995](https://jastrow.app/#rid:S00995) | alt | קִלָּ׳ | /קילרין |  | yes |
+| [S01008](https://jastrow.app/#rid:S01008) | alt | קִמּ׳ | /קימושא |  | yes |
+| [S01027](https://jastrow.app/#rid:S01027) | alt | קִנּ׳ | /קינוי |  | yes |
+| [S01029](https://jastrow.app/#rid:S01029) | alt | קְנוֹ׳ | /קינוניא |  | yes |
+| [S01031](https://jastrow.app/#rid:S01031) | alt | קִנּ׳ | /קינופין |  | yes |
+| [S01035](https://jastrow.app/#rid:S01035) | alt | קִנְ׳ | /קינטור-2 |  | yes |
+| [S01040](https://jastrow.app/#rid:S01040) | alt | קִי׳ | /קיני |  |  |
+| [S01047](https://jastrow.app/#rid:S01047) | alt | קִנָּ׳ | /קינמון |  | yes |
+| [S01056](https://jastrow.app/#rid:S01056) | alt | קִי׳ | /קיסא |  | yes |
+| [S01059](https://jastrow.app/#rid:S01059) | alt | קִסּ׳ | /קיסומא |  | yes |
+| [S01060](https://jastrow.app/#rid:S01060) | alt | קִסּ׳ | /קיסומא-2 |  | yes |
+| [S01064](https://jastrow.app/#rid:S01064) | alt | קִסְ׳ | /קיסט |  |  |
+| [S01077](https://jastrow.app/#rid:S01077) | alt | קִסְ׳ | /קיסמית |  | yes |
+| [S01078](https://jastrow.app/#rid:S01078) | alt | קִסְ׳ | /קיסנייתא |  | yes |
+| [S01086](https://jastrow.app/#rid:S01086) | alt | קִסְ׳ | /קיסריא |  |  |
+| [S01090](https://jastrow.app/#rid:S01090) | alt | קִסְ׳ | /קיסרין |  |  |
+| [S01096](https://jastrow.app/#rid:S01096) | alt | קִפּ׳ | /קיפוי |  | yes |
+| [S01097](https://jastrow.app/#rid:S01097) | alt | קִפּ׳ | /קיפול |  | yes |
+| [S01102](https://jastrow.app/#rid:S01102) | alt | קִפּ׳ | /קיפוף |  | yes |
+| [S01103](https://jastrow.app/#rid:S01103) | alt | קִיפּוֹ׳ | /קיפופא |  | yes |
+| [S01103](https://jastrow.app/#rid:S01103) | alt | קִפּ׳ | /קיפופא |  | yes |
+| [S01143](https://jastrow.app/#rid:S01143) | alt | קוּ׳ | /קיקלא |  | yes |
+| [S01143](https://jastrow.app/#rid:S01143) | alt | קִקְ׳ | /קיקלא |  | yes |
+| [S01147](https://jastrow.app/#rid:S01147) | alt | קִיקֶילְ׳ | /קיקלתא |  | yes |
+| [S01158](https://jastrow.app/#rid:S01158) | alt | קֵר׳ | /קירוב |  | yes |
+| [S01159](https://jastrow.app/#rid:S01159) | alt | קֵר׳ | /קירוד |  |  |
+| [S01181](https://jastrow.app/#rid:S01181) | alt | קִרְ׳ | /קיריוסים |  |  |
+| [S01186](https://jastrow.app/#rid:S01186) | alt | קִי׳ | /קיריס-2 |  | yes |
+| [S01193](https://jastrow.app/#rid:S01193) | alt | קִרְ׳ | /קירסום |  | yes |
+| [S01198](https://jastrow.app/#rid:S01198) | alt | קִרְ׳ | /קירצוף |  | yes |
+| [S01201](https://jastrow.app/#rid:S01201) | alt | קִרְ׳ | /קירקור |  | yes |
+| [S01202](https://jastrow.app/#rid:S01202) | alt | קוּרְ׳ | /קירקנות |  | yes |
+| [S01210](https://jastrow.app/#rid:S01210) | alt | קִשּׁ׳ | /קישוט |  | yes |
+| [S01211](https://jastrow.app/#rid:S01211) | alt | קִשּׁ׳ | /קישוטא |  | yes |
+| [S01212](https://jastrow.app/#rid:S01212) | alt | קִשּׁ׳ | /קישוי |  | yes |
+| [S01214](https://jastrow.app/#rid:S01214) | alt | קִשּׁ׳ | /קישור |  | yes |
+| [S01215](https://jastrow.app/#rid:S01215) | alt | קִשּׁ׳ | /קישורא |  | yes |
+| [S01220](https://jastrow.app/#rid:S01220) | alt | קִשְׁ׳ | /קישקוש |  | yes |
+| [S01221](https://jastrow.app/#rid:S01221) | alt | קִשְׁ׳ | /קישקושא |  | yes |
+| [S01222](https://jastrow.app/#rid:S01222) | alt | קִשְׁ׳ | /קישקושא-2 |  | yes |
+| [S01243](https://jastrow.app/#rid:S01243) | alt | קְלָפַ׳ | /קלאפנדר |  | yes |
+| [S01261](https://jastrow.app/#rid:S01261) | alt | קִילְ׳ | /קלוואן |  |  |
+| [S01265](https://jastrow.app/#rid:S01265) | alt | קִילִ׳ | /קלווסין |  |  |
+| [S01283](https://jastrow.app/#rid:S01283) | alt | קְלוּסַנְתְּרִ׳ | /קלוסנטרין |  | yes |
+| [S01305](https://jastrow.app/#rid:S01305) | alt | קִי׳ | /קלחא |  | yes |
+| [S01305](https://jastrow.app/#rid:S01305) | alt | קוּ׳ | /קלחא |  | yes |
+| [S01311](https://jastrow.app/#rid:S01311) | alt | קִי׳ | /קלטא-3 |  | yes |
+| [S01311](https://jastrow.app/#rid:S01311) | alt | קוּ׳ | /קלטא-3 |  | yes |
+| [S01336](https://jastrow.app/#rid:S01336) | alt | קְלִ׳ | /קליל-3 |  |  |
+| [S01347](https://jastrow.app/#rid:S01347) | alt | קַלִּי׳ | /קליפא |  | yes |
+| [S01351](https://jastrow.app/#rid:S01351) | alt | קלו׳ | /קלירוס-2 |  |  |
+| [S01352](https://jastrow.app/#rid:S01352) | alt | קַלִּ׳ | /קליש |  |  |
+| [S01397](https://jastrow.app/#rid:S01397) | alt | קִי׳ | /קלע-8 |  |  |
+| [S01398](https://jastrow.app/#rid:S01398) | alt | קִי׳ | /קלעא |  | yes |
+| [S01398](https://jastrow.app/#rid:S01398) | alt | קַלְ׳ | /קלעא |  | yes |
+| [S01405](https://jastrow.app/#rid:S01405) | alt | קִלְ׳ | /קלפא |  | yes |
+| [S01405](https://jastrow.app/#rid:S01405) | alt | קִילְ׳ | /קלפא |  | yes |
+| [S01420](https://jastrow.app/#rid:S01420) | alt | קִלְקֶילְ׳ | /קלקלתא |  | yes |
+| [S01420](https://jastrow.app/#rid:S01420) | alt | קִי׳ | /קלקלתא |  | yes |
+| [S01421](https://jastrow.app/#rid:S01421) | alt | קַנְ׳ | /קלקנתום |  | yes |
+| [S01456](https://jastrow.app/#rid:S01456) | alt | קִי׳ | /קמח-3 |  |  |
+| [S01457](https://jastrow.app/#rid:S01457) | alt | קִי׳ | /קמחוניא |  | yes |
+| [S01459](https://jastrow.app/#rid:S01459) | alt | קִי׳ | /קמחית |  | yes |
+| [S01465](https://jastrow.app/#rid:S01465) | alt | קוּמְ׳ | /קמטרא |  | yes |
+| [S01481](https://jastrow.app/#rid:S01481) | alt | קִי׳ | /קמעא |  |  |
+| [S01482](https://jastrow.app/#rid:S01482) | alt | קוּמְ׳ | /קמפון |  | yes |
+| [S01506](https://jastrow.app/#rid:S01506) | alt | קִי׳ | /קן-3 |  |  |
+| [S01512](https://jastrow.app/#rid:S01512) | alt | קִי׳ | /קנאה-2 |  |  |
+| [S01557](https://jastrow.app/#rid:S01557) | alt | קִי׳ | /קנטינר |  |  |
+| [S01557](https://jastrow.app/#rid:S01557) | alt | קַ׳ | /קנטינר |  |  |
+| [S01565](https://jastrow.app/#rid:S01565) | alt | קַנְתְּ׳ | /קנטרן |  | yes |
+| [S01572](https://jastrow.app/#rid:S01572) | alt | קְנוּבְ׳ | /קניבה-2 |  |  |
+| [S01575](https://jastrow.app/#rid:S01575) | alt | קִינִ׳ | /קניגיא |  | yes |
+| [S01576](https://jastrow.app/#rid:S01576) | alt | קִינִ׳ | /קניגיון |  | yes |
+| [S01588](https://jastrow.app/#rid:S01588) | alt | קִנְיָי׳ | /קנין-2 |  |  |
+| [S01588](https://jastrow.app/#rid:S01588) | alt | קִי׳ | /קנין-2 |  |  |
+| [S01610](https://jastrow.app/#rid:S01610) | alt | קִינְ׳ | /קנקל |  | yes |
+| [S01639](https://jastrow.app/#rid:S01639) | alt | קַשְׂ׳ | /קסווא |  | yes |
+| [S01661](https://jastrow.app/#rid:S01661) | alt | קַסִּטְ׳ | /קסיטרון |  | yes |
+| [S01668](https://jastrow.app/#rid:S01668) | alt | קוּ׳ | /קסם-4 |  |  |
+| [S01668](https://jastrow.app/#rid:S01668) | alt | קִי׳ | /קסם-4 |  |  |
+| [S01672](https://jastrow.app/#rid:S01672) | alt | קָסָ׳ | /קסמא |  |  |
+| [S01672](https://jastrow.app/#rid:S01672) | alt | קוֹ׳ | /קסמא |  |  |
+| [S01709](https://jastrow.app/#rid:S01709) | alt | קַפּוּטְ׳ | /קפודקיא |  |  |
+| [S01710](https://jastrow.app/#rid:S01710) | alt | קַפּוּטְ׳ | /קפודקיא-2 |  |  |
+| [S01760](https://jastrow.app/#rid:S01760) | alt | קִי׳ | /קפלריא |  |  |
+| [S01761](https://jastrow.app/#rid:S01761) | alt | קוּפַּ׳ | /קפנדריא |  | yes |
+| [S01769](https://jastrow.app/#rid:S01769) | alt | הַקַּ׳ | /קפר |  | yes |
+| [S01780](https://jastrow.app/#rid:S01780) | alt | קִי׳ | /קץ-4 |  |  |
+| [S01786](https://jastrow.app/#rid:S01786) | alt | קִי׳ | /קצבה |  | yes |
+| [S01803](https://jastrow.app/#rid:S01803) | alt | קִי׳ | /קצחא |  | yes |
+| [S01833](https://jastrow.app/#rid:S01833) | alt | קִיצְ׳ | /קצפא |  | yes |
+| [S01834](https://jastrow.app/#rid:S01834) | alt | קִיצָּ׳ | /קצפון |  | yes |
+| [S01897](https://jastrow.app/#rid:S01897) | alt | קוּרְ׳ | /קרבן-2 |  |  |
+| [S01906](https://jastrow.app/#rid:S01906) | alt | קוּרְ׳ | /קרדום |  | yes |
+| [S01923](https://jastrow.app/#rid:S01923) | alt | קִי׳ | /קרוא |  |  |
+| [S01924](https://jastrow.app/#rid:S01924) | alt | קִי׳ | /קרוא-2 |  |  |
+| [S01939](https://jastrow.app/#rid:S01939) | alt | קִירְ׳ | /קרויא-3 |  |  |
+| [S01940](https://jastrow.app/#rid:S01940) | alt | קֵיר׳ | /קרויה |  | yes |
+| [S01953](https://jastrow.app/#rid:S01953) | alt | קְרוּנְ׳ | /קרונתא |  | yes |
+| [S01990](https://jastrow.app/#rid:S01990) | alt | קוּרְ׳ | /קרטוב |  | yes |
+| [S02040](https://jastrow.app/#rid:S02040) | alt | קִירְ׳ | /קריה-2 |  | yes |
+| [S02045](https://jastrow.app/#rid:S02045) | alt | קִי׳ | /קריותא |  | yes |
+| [S02049](https://jastrow.app/#rid:S02049) | alt | קוֹ׳ | /קרייא |  |  |
+| [S02049](https://jastrow.app/#rid:S02049) | alt | קוּ׳ | /קרייא |  |  |
+| [S02049](https://jastrow.app/#rid:S02049) | alt | קי׳ | /קרייא |  |  |
+| [S02077](https://jastrow.app/#rid:S02077) | alt | קְרִצְ׳ | /קריצתא |  |  |
+| [S02091](https://jastrow.app/#rid:S02091) | alt | קִי׳ | /קרמא-2 |  | yes |
+| [S02095](https://jastrow.app/#rid:S02095) | alt | קִירַ׳ | /קרמיון |  | yes |
+| [S02122](https://jastrow.app/#rid:S02122) | alt | קִי׳ | /קרסי |  | yes |
+| [S02145](https://jastrow.app/#rid:S02145) | alt | קוּרְ׳ | /קרץ-5 |  |  |
+| [S02179](https://jastrow.app/#rid:S02179) | alt | קַרְקֵי׳ | /קרקפל |  | yes |
+| [S02190](https://jastrow.app/#rid:S02190) | alt | קַרְקִי׳ | /קרקשא |  | yes |
+| [S02203](https://jastrow.app/#rid:S02203) | alt | קָ׳ | /קרתא |  |  |
+| [S02204](https://jastrow.app/#rid:S02204) | alt | קֹרָ׳ | /קרתא-2 |  |  |
+| [S02223](https://jastrow.app/#rid:S02223) | alt | קִי׳ | /קשואים |  |  |
+| [S02244](https://jastrow.app/#rid:S02244) | alt | קְשִׁ׳ | /קשיט |  |  |
+| [S02251](https://jastrow.app/#rid:S02251) | alt | קָשִׁ׳ | /קשיש |  |  |
+| [S02285](https://jastrow.app/#rid:S02285) | alt | קְתִידְ׳ | /קתדרא |  |  |
+| [S02286](https://jastrow.app/#rid:S02286) | alt | קְתִידְ׳ | /קתדרין |  | yes |
+| [S02288](https://jastrow.app/#rid:S02288) | alt | קָתְלִי׳ | /קתוליקוס |  | yes |
+| [T00053](https://jastrow.app/#rid:T00053) | alt | רִי׳ | /רבבת |  |  |
+| [T00057](https://jastrow.app/#rid:T00057) | alt | רִי׳ | /רבדא |  | yes |
+| [T00064](https://jastrow.app/#rid:T00064) | alt | רִיבּ׳ | /רבוא |  | yes |
+| [T00065](https://jastrow.app/#rid:T00065) | alt | רִי׳ | /רבוא-2 |  | yes |
+| [T00073](https://jastrow.app/#rid:T00073) | alt | רִי׳ | /רבון-3 |  |  |
+| [T00074](https://jastrow.app/#rid:T00074) | alt | רִיבּ׳ | /רבונא |  | yes |
+| [T00086](https://jastrow.app/#rid:T00086) | alt | רַ׳ | /רבי-7 |  |  |
+| [T00111](https://jastrow.app/#rid:T00111) | alt | רִי׳ | /רבית |  | yes |
+| [T00112](https://jastrow.app/#rid:T00112) | alt | רִי׳ | /רבית-2 |  |  |
+| [T00127](https://jastrow.app/#rid:T00127) | alt | רַבַּ׳ | /רבסא |  |  |
+| [T00131](https://jastrow.app/#rid:T00131) | alt | רִי׳ | /רבעא |  | yes |
+| [T00142](https://jastrow.app/#rid:T00142) | alt | רִי׳ | /רבקא |  | yes |
+| [T00159](https://jastrow.app/#rid:T00159) | alt | רִי׳ | /רגגא |  |  |
+| [T00186](https://jastrow.app/#rid:T00186) | alt | רְ׳ | /רגיג |  |  |
+| [T00187](https://jastrow.app/#rid:T00187) | alt | רְגִגְ׳ | /רגיגתא |  | yes |
+| [T00205](https://jastrow.app/#rid:T00205) | alt | רִי׳ | /רגל-4 |  |  |
+| [T00206](https://jastrow.app/#rid:T00206) | alt | רִי׳ | /רגלאה |  |  |
+| [T00207](https://jastrow.app/#rid:T00207) | alt | רי׳ | /רגלותא |  |  |
+| [T00214](https://jastrow.app/#rid:T00214) | alt | רִי׳ | /רגמא |  | yes |
+| [T00219](https://jastrow.app/#rid:T00219) | alt | רִי׳ | /רגעא |  | yes |
+| [T00227](https://jastrow.app/#rid:T00227) | alt | רִי׳ | /רגשא |  |  |
+| [T00228](https://jastrow.app/#rid:T00228) | alt | רִי׳ | /רגתא |  | yes |
+| [T00247](https://jastrow.app/#rid:T00247) | alt | רִי׳ | /רדיא-2 |  |  |
+| [T00269](https://jastrow.app/#rid:T00269) | alt | רָ׳ | /רדתא |  | yes |
+| [T00282](https://jastrow.app/#rid:T00282) | alt | רִי׳ | /רהטון |  | yes |
+| [T00328](https://jastrow.app/#rid:T00328) | alt | רֵי׳ | /רווח-3 |  |  |
+| [T00330](https://jastrow.app/#rid:T00330) | alt | רְוַחְ׳ | /רווחא |  |  |
+| [T00349](https://jastrow.app/#rid:T00349) | alt | רוֹ׳ | /רוחצן |  |  |
+| [T00349](https://jastrow.app/#rid:T00349) | alt | רָחֲצָ׳ | /רוחצן |  |  |
+| [T00360](https://jastrow.app/#rid:T00360) | alt | רַוְו׳ | /רוי-3 |  |  |
+| [T00365](https://jastrow.app/#rid:T00365) | alt | רַוְו׳ | /רוייתא |  |  |
+| [T00387](https://jastrow.app/#rid:T00387) | alt | רוֹ׳ | /רומחא |  | yes |
+| [T00494](https://jastrow.app/#rid:T00494) | alt | רִיחְ׳ | /רחיא |  |  |
+| [T00494](https://jastrow.app/#rid:T00494) | alt | רֵי׳ | /רחיא |  |  |
+| [T00495](https://jastrow.app/#rid:T00495) | alt | רֵי׳ | /רחיים |  |  |
+| [T00508](https://jastrow.app/#rid:T00508) | alt | רְ׳ | /רחיק-3 |  |  |
+| [T00515](https://jastrow.app/#rid:T00515) | alt | רְחֵי׳ | /רחלא |  |  |
+| [T00521](https://jastrow.app/#rid:T00521) | alt | רַחְ׳ | /רחמא |  | yes |
+| [T00522](https://jastrow.app/#rid:T00522) | alt | רַחְ׳ | /רחמא-2 |  |  |
+| [T00523](https://jastrow.app/#rid:T00523) | alt | רַחְ׳ | /רחמא-3 |  |  |
+| [T00543](https://jastrow.app/#rid:T00543) | alt | רִו׳ | /רחש-4 |  |  |
+| [T00546](https://jastrow.app/#rid:T00546) | alt | רִי׳ | /רחתא |  | yes |
+| [T00561](https://jastrow.app/#rid:T00561) | alt | רְ׳ | /רטיב |  |  |
+| [T00586](https://jastrow.app/#rid:T00586) | alt | רִבּ׳ | /ריבוי |  | yes |
+| [T00587](https://jastrow.app/#rid:T00587) | alt | רִבּ׳ | /ריבויא |  |  |
+| [T00589](https://jastrow.app/#rid:T00589) | alt | רִבּ׳ | /ריבוע |  | yes |
+| [T00590](https://jastrow.app/#rid:T00590) | alt | רִבּ׳ | /ריבוע-2 |  |  |
+| [T00598](https://jastrow.app/#rid:T00598) | alt | רִגְּ׳ | /ריגוג |  |  |
+| [T00600](https://jastrow.app/#rid:T00600) | alt | רִגּ׳ | /ריגוש-2 |  |  |
+| [T00609](https://jastrow.app/#rid:T00609) | alt | רִהֲ׳ | /ריהטא |  | yes |
+| [T00631](https://jastrow.app/#rid:T00631) | alt | רֵחְ׳ | /ריחתנא |  | yes |
+| [T00640](https://jastrow.app/#rid:T00640) | alt | רִכּ׳ | /ריכונא |  | yes |
+| [T00647](https://jastrow.app/#rid:T00647) | alt | רֵימְ׳ | /רימנא |  | yes |
+| [T00650](https://jastrow.app/#rid:T00650) | alt | רִנּ׳ | /רינון |  | yes |
+| [T00651](https://jastrow.app/#rid:T00651) | alt | רִנּ׳ | /רינונא |  | yes |
+| [T00656](https://jastrow.app/#rid:T00656) | alt | רִי׳ | /ריסא |  | yes |
+| [T00660](https://jastrow.app/#rid:T00660) | alt | רִסּ׳ | /ריסוקא |  | yes |
+| [T00667](https://jastrow.app/#rid:T00667) | alt | רִסְ׳ | /ריסתקא |  | yes |
+| [T00673](https://jastrow.app/#rid:T00673) | alt | רֵע׳ | /ריעותא |  | yes |
+| [T00678](https://jastrow.app/#rid:T00678) | alt | רִפּ׳ | /ריפוי |  | yes |
+| [T00693](https://jastrow.app/#rid:T00693) | alt | רֵקָ׳ | /ריקא |  |  |
+| [T00695](https://jastrow.app/#rid:T00695) | alt | רִקּ׳ | /ריקוד |  | yes |
+| [T00697](https://jastrow.app/#rid:T00697) | alt | רִקּ׳ | /ריקוח |  | yes |
+| [T00699](https://jastrow.app/#rid:T00699) | alt | רִקּ׳ | /ריקוע |  | yes |
+| [T00707](https://jastrow.app/#rid:T00707) | alt | רִקָ׳ | /ריקן-4 |  |  |
+| [T00722](https://jastrow.app/#rid:T00722) | alt | רִשּׁ׳ | /רישום |  | yes |
+| [T00736](https://jastrow.app/#rid:T00736) | alt | רִתּ׳ | /ריתות |  | yes |
+| [T00749](https://jastrow.app/#rid:T00749) | alt | רִיכְ׳ | /רכבא |  | yes |
+| [T00775](https://jastrow.app/#rid:T00775) | alt | רִי׳ | /רכסא |  | yes |
+| [T00776](https://jastrow.app/#rid:T00776) | alt | רִי׳ | /רכסא-2 |  | yes |
+| [T00778](https://jastrow.app/#rid:T00778) | alt | רִיכְ׳ | /רכפת |  | yes |
+| [T00779](https://jastrow.app/#rid:T00779) | alt | רִי׳ | /רכשא |  | yes |
+| [T00793](https://jastrow.app/#rid:T00793) | alt | רִי׳ | /רמה-3 |  | yes |
+| [T00795](https://jastrow.app/#rid:T00795) | alt | רִי׳ | /רמון |  | yes |
+| [T00796](https://jastrow.app/#rid:T00796) | alt | רִי׳ | /רמון-2 |  |  |
+| [T00836](https://jastrow.app/#rid:T00836) | alt | רִי׳ | /רמצא |  | yes |
+| [T00838](https://jastrow.app/#rid:T00838) | alt | רוּמְ׳ | /רמש-2 |  |  |
+| [T00839](https://jastrow.app/#rid:T00839) | alt | רוּ׳ | /רמשית |  | yes |
+| [T00844](https://jastrow.app/#rid:T00844) | alt | רִי׳ | /רנה |  | yes |
+| [T00849](https://jastrow.app/#rid:T00849) | alt | רִי׳ | /רננא |  |  |
+| [T00858](https://jastrow.app/#rid:T00858) | alt | רִי׳ | /רסנא |  | yes |
+| [T00884](https://jastrow.app/#rid:T00884) | alt | רַעֲ׳ | /רעוא |  | yes |
+| [T00885](https://jastrow.app/#rid:T00885) | alt | רַעֲ׳ | /רעוא-2 |  | yes |
+| [T00894](https://jastrow.app/#rid:T00894) | alt | רֵי׳ | /רעי-6 |  |  |
+| [T00954](https://jastrow.app/#rid:T00954) | alt | רִי׳ | /רפסא |  | yes |
+| [T00962](https://jastrow.app/#rid:T00962) | alt | רִי׳ | /רפקא |  | yes |
+| [T00994](https://jastrow.app/#rid:T00994) | alt | רוֹ׳ | /רצענא |  | yes |
+| [T00998](https://jastrow.app/#rid:T00998) | alt | רִי׳ | /רצפה |  | yes |
+| [T01000](https://jastrow.app/#rid:T01000) | alt | רִיצְ׳ | /רצפתא |  | yes |
+| [T01012](https://jastrow.app/#rid:T01012) | alt | רִי׳ | /רקבא |  | yes |
+| [T01044](https://jastrow.app/#rid:T01044) | alt | רִי׳ | /רקמא |  | yes |
+| [T01069](https://jastrow.app/#rid:T01069) | alt | רִישְׁ׳ | /רשבא |  | yes |
+| [T01070](https://jastrow.app/#rid:T01070) | alt | רִישְׁ׳ | /רשבין |  | yes |
+| [T01081](https://jastrow.app/#rid:T01081) | alt | רָ׳ | /רשותא |  |  |
+| [T01084](https://jastrow.app/#rid:T01084) | alt | רָ׳ | /רשיא |  | yes |
+| [T01085](https://jastrow.app/#rid:T01085) | alt | רַשַּׁ׳ | /רשיא-2 |  | yes |
+| [T01087](https://jastrow.app/#rid:T01087) | alt | רָשִׁ׳ | /רשיעא |  |  |
+| [T01103](https://jastrow.app/#rid:T01103) | alt | רִי׳ | /רשעא |  |  |
+| [T01109](https://jastrow.app/#rid:T01109) | alt | רִי׳ | /רשפא |  | yes |
+| [T01110](https://jastrow.app/#rid:T01110) | alt | רִי׳ | /רשק |  |  |
+| [T01125](https://jastrow.app/#rid:T01125) | alt | רִי׳ | /רתחא-2 |  | yes |
+| [T01142](https://jastrow.app/#rid:T01142) | alt | רִי׳ | /רתמא |  | yes |
+| [T01142](https://jastrow.app/#rid:T01142) | alt | רוּ׳ | /רתמא |  | yes |
+| [T01147](https://jastrow.app/#rid:T01147) | alt | רִי׳ | /רתקא |  | yes |
+| [U00033](https://jastrow.app/#rid:U00033) | alt | שְׁאִי׳ | /שאלה |  | yes |
+| [U00067](https://jastrow.app/#rid:U00067) | alt | שִׁבְ׳ | /שבבין |  | yes |
+| [U00067](https://jastrow.app/#rid:U00067) | alt | שֵׁיבְ׳ | /שבבין |  | yes |
+| [U00069](https://jastrow.app/#rid:U00069) | alt | שִׁי׳ | /שבהור |  |  |
+| [U00105](https://jastrow.app/#rid:U00105) | alt | שׁוּ׳ | /שבט-4 |  |  |
+| [U00112](https://jastrow.app/#rid:U00112) | alt | שִׁי׳ | /שבי-4 |  |  |
+| [U00140](https://jastrow.app/#rid:U00140) | alt | שִׁבְּ׳ | /שבלא |  | yes |
+| [U00140](https://jastrow.app/#rid:U00140) | alt | שֻׁבְּ׳ | /שבלא |  | yes |
+| [U00146](https://jastrow.app/#rid:U00146) | alt | שִׂ׳ | /שבלי |  | yes |
+| [U00156](https://jastrow.app/#rid:U00156) | alt | שַׁ׳ | /שבע-2 |  |  |
+| [U00156](https://jastrow.app/#rid:U00156) | alt | שׁוּ׳ | /שבע-2 |  |  |
+| [U00162](https://jastrow.app/#rid:U00162) | alt | שָׂבְ׳ | /שבע-8 |  |  |
+| [U00170](https://jastrow.app/#rid:U00170) | alt | שִׁי׳ | /שבקא |  | yes |
+| [U00171](https://jastrow.app/#rid:U00171) | alt | שִׁי׳ | /שבקא-2 |  | yes |
+| [U00188](https://jastrow.app/#rid:U00188) | alt | שִׁי׳ | /שבשא |  | yes |
+| [U00195](https://jastrow.app/#rid:U00195) | alt | שְׁבִישְׁ׳ | /שבשתא |  |  |
+| [U00213](https://jastrow.app/#rid:U00213) | alt | שִׁי׳ | /שגדא |  | yes |
+| [U00231](https://jastrow.app/#rid:U00231) | alt | שִׁי׳ | /שגמא |  | yes |
+| [U00238](https://jastrow.app/#rid:U00238) | alt | שִׁי׳ | /שגרא |  | yes |
+| [U00239](https://jastrow.app/#rid:U00239) | alt | שִׁי׳ | /שגרונא |  | yes |
+| [U00248](https://jastrow.app/#rid:U00248) | alt | שַׁגִּישְׁ׳ | /שגשיא |  | yes |
+| [U00252](https://jastrow.app/#rid:U00252) | alt | שֵׁי׳ | /שדא |  | yes |
+| [U00281](https://jastrow.app/#rid:U00281) | alt | שִׁי׳ | /שדפון |  | yes |
+| [U00282](https://jastrow.app/#rid:U00282) | alt | שִׁידּ׳ | /שדפונא |  |  |
+| [U00282](https://jastrow.app/#rid:U00282) | alt | שׁוּדְּ׳ | /שדפונא |  |  |
+| [U00287](https://jastrow.app/#rid:U00287) | alt | שִׁי׳ | /שדרא |  | yes |
+| [U00287](https://jastrow.app/#rid:U00287) | alt | שׁוּ׳ | /שדרא |  | yes |
+| [U00289](https://jastrow.app/#rid:U00289) | alt | שִׁי׳ | /שדרה |  | yes |
+| [U00323](https://jastrow.app/#rid:U00323) | alt | שׁוּבְּ׳ | /שובל-3 |  |  |
+| [U00327](https://jastrow.app/#rid:U00327) | alt | שׂוּ׳ | /שובע-2 |  |  |
+| [U00335](https://jastrow.app/#rid:U00335) | alt | שׂוֹדָ׳ | /שודני |  | yes |
+| [U00366](https://jastrow.app/#rid:U00366) | alt | שׁוּחֲ׳ | /שוחדא |  | yes |
+| [U00366](https://jastrow.app/#rid:U00366) | alt | שׁוּחְ׳ | /שוחדא |  | yes |
+| [U00370](https://jastrow.app/#rid:U00370) | alt | שׁוּ׳ | /שוחנא |  | yes |
+| [U00396](https://jastrow.app/#rid:U00396) | alt | שִׁיוְו׳ | /שויא |  |  |
+| [U00396](https://jastrow.app/#rid:U00396) | alt | שִׁיוּוּ׳ | /שויא |  |  |
+| [U00399](https://jastrow.app/#rid:U00399) | alt | שַׁוְו׳ | /שויותא |  | yes |
+| [U00399](https://jastrow.app/#rid:U00399) | alt | שַׁוְיָי׳ | /שויותא |  | yes |
+| [U00420](https://jastrow.app/#rid:U00420) | alt | שֻׁלְ׳ | /שולחן |  | yes |
+| [U00425](https://jastrow.app/#rid:U00425) | alt | שָׁלְ׳ | /שולטנות |  | yes |
+| [U00426](https://jastrow.app/#rid:U00426) | alt | שָׁלְ׳ | /שולטנותא |  | yes |
+| [U00428](https://jastrow.app/#rid:U00428) | alt | שְׁוַו׳ | /שוליא |  | yes |
+| [U00431](https://jastrow.app/#rid:U00431) | alt | הַשּׁ׳ | /שולמי |  | yes |
+| [U00474](https://jastrow.app/#rid:U00474) | alt | שִׁי׳ | /שוסתג |  | yes |
+| [U00510](https://jastrow.app/#rid:U00510) | alt | שׁוֹפְ׳ | /שופרא |  | yes |
+| [U00549](https://jastrow.app/#rid:U00549) | alt | ס׳ | /שורייקא |  | yes |
+| [U00561](https://jastrow.app/#rid:U00561) | alt | שׁוּ׳ | /שושבינא |  | yes |
+| [U00595](https://jastrow.app/#rid:U00595) | alt | שְׁזוּ׳ | /שזוגא |  | yes |
+| [U00598](https://jastrow.app/#rid:U00598) | alt | שְׁ׳ | /שזיבו |  | yes |
+| [U00608](https://jastrow.app/#rid:U00608) | alt | שִׁי׳ | /שזרה |  | yes |
+| [U00609](https://jastrow.app/#rid:U00609) | alt | שִׁ׳ | /שזרתא |  | yes |
+| [U00609](https://jastrow.app/#rid:U00609) | alt | שֵׁי׳ | /שזרתא |  | yes |
+| [U00644](https://jastrow.app/#rid:U00644) | alt | שִׁי׳ | /שחיא |  | yes |
+| [U00666](https://jastrow.app/#rid:U00666) | alt | שִׁי׳ | /שחלייא |  | yes |
+| [U00667](https://jastrow.app/#rid:U00667) | alt | שִׁי׳ | /שחליים |  |  |
+| [U00674](https://jastrow.app/#rid:U00674) | alt | שִׁי׳ | /שחמא |  | yes |
+| [U00678](https://jastrow.app/#rid:U00678) | alt | שִׁי׳ | /שחנא |  | yes |
+| [U00720](https://jastrow.app/#rid:U00720) | alt | שִׁי׳ | /שחרר |  | yes |
+| [U00727](https://jastrow.app/#rid:U00727) | alt | שִׁי׳ | /שחתא |  | yes |
+| [U00752](https://jastrow.app/#rid:U00752) | alt | שִׁיטִּ׳ | /שטים |  | yes |
+| [U00761](https://jastrow.app/#rid:U00761) | alt | שִׂי׳ | /שטן-4 |  |  |
+| [U00765](https://jastrow.app/#rid:U00765) | alt | שִׁי׳ | /שטפא |  | yes |
+| [U00772](https://jastrow.app/#rid:U00772) | alt | שִׁיטְ׳ | /שטרא-2 |  | yes |
+| [U00784](https://jastrow.app/#rid:U00784) | alt | שִׁיבְ׳ | /שיבבא |  | yes |
+| [U00784](https://jastrow.app/#rid:U00784) | alt | שֵׁבְ׳ | /שיבבא |  | yes |
+| [U00785](https://jastrow.app/#rid:U00785) | alt | שֵׁבְ׳ | /שיבבותא |  | yes |
+| [U00791](https://jastrow.app/#rid:U00791) | alt | שִׁבּ׳ | /שיבוחא |  | yes |
+| [U00792](https://jastrow.app/#rid:U00792) | alt | שִׁבּ׳ | /שיבוטא |  | yes |
+| [U00794](https://jastrow.app/#rid:U00794) | alt | שִׁבּוֹ׳ | /שיבולת |  |  |
+| [U00795](https://jastrow.app/#rid:U00795) | alt | שִׁבּ׳ | /שיבולתא |  | yes |
+| [U00796](https://jastrow.app/#rid:U00796) | alt | שִׁבּ׳ | /שיבוקא |  | yes |
+| [U00797](https://jastrow.app/#rid:U00797) | alt | שִׁבּ׳ | /שיבור |  | yes |
+| [U00798](https://jastrow.app/#rid:U00798) | alt | שִׁבּ׳ | /שיבוש |  | yes |
+| [U00804](https://jastrow.app/#rid:U00804) | alt | שִׁיבְ׳ | /שיבלא |  | yes |
+| [U00805](https://jastrow.app/#rid:U00805) | alt | שִׁבְ׳ | /שיבלי |  | yes |
+| [U00805](https://jastrow.app/#rid:U00805) | alt | שִׂ׳ | /שיבלי |  | yes |
+| [U00816](https://jastrow.app/#rid:U00816) | alt | שִׁגּ׳ | /שיגוש |  |  |
+| [U00817](https://jastrow.app/#rid:U00817) | alt | שִׁגּ׳ | /שיגושיא |  | yes |
+| [U00818](https://jastrow.app/#rid:U00818) | alt | שִׁגּ׳ | /שיגושתא |  | yes |
+| [U00827](https://jastrow.app/#rid:U00827) | alt | שִׁדּ׳ | /שידוכא |  |  |
+| [U00843](https://jastrow.app/#rid:U00843) | alt | שֵׁזֵ׳ | /שיזב |  |  |
+| [U00844](https://jastrow.app/#rid:U00844) | alt | שֵׁזְ׳ | /שיזבא |  | yes |
+| [U00845](https://jastrow.app/#rid:U00845) | alt | שֵׁזָ׳ | /שיזבו |  |  |
+| [U00848](https://jastrow.app/#rid:U00848) | alt | שִׁזּ׳ | /שיזוגא |  | yes |
+| [U00850](https://jastrow.app/#rid:U00850) | alt | שִׁזְ׳ | /שיזפין |  | yes |
+| [U00860](https://jastrow.app/#rid:U00860) | alt | שׁוּ׳ | /שיחה |  | yes |
+| [U00875](https://jastrow.app/#rid:U00875) | alt | שִׁחְ׳ | /שיחרור-2 |  | yes |
+| [U00876](https://jastrow.app/#rid:U00876) | alt | שִׁחְ׳ | /שיחרורא |  | yes |
+| [U00879](https://jastrow.app/#rid:U00879) | alt | שַׁיָּי׳ | /שיטא |  | yes |
+| [U00914](https://jastrow.app/#rid:U00914) | alt | שְׁיַרְ׳ | /שיירתא |  |  |
+| [U00920](https://jastrow.app/#rid:U00920) | alt | שִׁכּ׳ | /שיכון |  | yes |
+| [U00924](https://jastrow.app/#rid:U00924) | alt | שִׁכְ׳ | /שיכלול |  | yes |
+| [U00925](https://jastrow.app/#rid:U00925) | alt | שִׁכְ׳ | /שיכלולא |  | yes |
+| [U00925](https://jastrow.app/#rid:U00925) | alt | שַׁכ׳ | /שיכלולא |  | yes |
+| [U00928](https://jastrow.app/#rid:U00928) | alt | שִׁכְ׳ | /שיכמי |  | yes |
+| [U00942](https://jastrow.app/#rid:U00942) | alt | שִׁלּ׳ | /שילוט |  | yes |
+| [U00956](https://jastrow.app/#rid:U00956) | alt | שִׁמָּ׳ | /שימאה |  | yes |
+| [U00958](https://jastrow.app/#rid:U00958) | alt | שִׁמּ׳ | /שימוט |  | yes |
+| [U00960](https://jastrow.app/#rid:U00960) | alt | שִׁמּ׳ | /שימור |  | yes |
+| [U00961](https://jastrow.app/#rid:U00961) | alt | שִׁמּ׳ | /שימוש |  | yes |
+| [U00962](https://jastrow.app/#rid:U00962) | alt | שִׁמּ׳ | /שימושא |  | yes |
+| [U00971](https://jastrow.app/#rid:U00971) | alt | שִׁנְ׳ | /שינדפין |  | yes |
+| [U00973](https://jastrow.app/#rid:U00973) | alt | שִׁנּ׳ | /שינוי |  | yes |
+| [U00974](https://jastrow.app/#rid:U00974) | alt | שִׁנּ׳ | /שינויא |  | yes |
+| [U00975](https://jastrow.app/#rid:U00975) | alt | שִׁנּ׳ | /שינון |  | yes |
+| [U00976](https://jastrow.app/#rid:U00976) | alt | שִׁנּ׳ | /שינוקא |  | yes |
+| [U00976](https://jastrow.app/#rid:U00976) | alt | שִׁירְנ׳ | /שינוקא |  | yes |
+| [U00976](https://jastrow.app/#rid:U00976) | alt | שִׁרְנ׳ | /שינוקא |  | yes |
+| [U00984](https://jastrow.app/#rid:U00984) | alt | שִׁסּ׳ | /שיסוע |  | yes |
+| [U00992](https://jastrow.app/#rid:U00992) | alt | שִׁע׳ | /שיעורא |  | yes |
+| [U01011](https://jastrow.app/#rid:U01011) | alt | שִׁפּ׳ | /שיפוט |  | yes |
+| [U01012](https://jastrow.app/#rid:U01012) | alt | שִׁפּ׳ | /שיפוי |  | yes |
+| [U01013](https://jastrow.app/#rid:U01013) | alt | שִׁפּ׳ | /שיפוי-2 |  | yes |
+| [U01015](https://jastrow.app/#rid:U01015) | alt | שִׁפּ׳ | /שיפול |  | yes |
+| [U01016](https://jastrow.app/#rid:U01016) | alt | שִׁפּ׳ | /שיפולא |  | yes |
+| [U01019](https://jastrow.app/#rid:U01019) | alt | שִׁפּ׳ | /שיפוע |  | yes |
+| [U01020](https://jastrow.app/#rid:U01020) | alt | שִׁפּ׳ | /שיפועא |  | yes |
+| [U01024](https://jastrow.app/#rid:U01024) | alt | שִׁפְ׳ | /שיפיות |  | yes |
+| [U01034](https://jastrow.app/#rid:U01034) | alt | שֵׁצְ׳ | /שיציא |  | yes |
+| [U01034](https://jastrow.app/#rid:U01034) | alt | שַׁצְ׳ | /שיציא |  | yes |
+| [U01035](https://jastrow.app/#rid:U01035) | alt | שֵׁצָ׳ | /שיציו |  |  |
+| [U01037](https://jastrow.app/#rid:U01037) | alt | שׁוּ׳ | /שיצינא |  | yes |
+| [U01040](https://jastrow.app/#rid:U01040) | alt | שִׁקּ׳ | /שיקוייא |  | yes |
+| [U01041](https://jastrow.app/#rid:U01041) | alt | שִׁקּ׳ | /שיקול |  | yes |
+| [U01042](https://jastrow.app/#rid:U01042) | alt | שִׁקּ׳ | /שיקוע |  | yes |
+| [U01043](https://jastrow.app/#rid:U01043) | alt | שִׁקּ׳ | /שיקועא |  | yes |
+| [U01044](https://jastrow.app/#rid:U01044) | alt | שִׁקּ׳ | /שיקוץ |  | yes |
+| [U01045](https://jastrow.app/#rid:U01045) | alt | שִׁקּ׳ | /שיקוץ-2 |  |  |
+| [U01046](https://jastrow.app/#rid:U01046) | alt | שִׁקּ׳ | /שיקור |  | yes |
+| [U01065](https://jastrow.app/#rid:U01065) | alt | שֵׁר׳ | /שירוי |  |  |
+| [U01067](https://jastrow.app/#rid:U01067) | alt | שֵׂר׳ | /שירוף |  | yes |
+| [U01069](https://jastrow.app/#rid:U01069) | alt | שֵׁר׳ | /שירותא |  | yes |
+| [U01070](https://jastrow.app/#rid:U01070) | alt | שֵׁר׳ | /שירותא-2 |  |  |
+| [U01071](https://jastrow.app/#rid:U01071) | alt | שֵׁר׳ | /שירותא-3 |  |  |
+| [U01072](https://jastrow.app/#rid:U01072) | alt | שִׁרְ׳ | /שירטוט |  | yes |
+| [U01091](https://jastrow.app/#rid:U01091) | alt | שַׁיי׳ | /שיש-3 |  |  |
+| [U01095](https://jastrow.app/#rid:U01095) | alt | שִׁירְשׁ׳ | /שישורא |  | yes |
+| [U01095](https://jastrow.app/#rid:U01095) | alt | שִׁרְשׁ׳ | /שישורא |  | yes |
+| [U01103](https://jastrow.app/#rid:U01103) | alt | שִׁתָּ׳ | /שית-4 |  |  |
+| [U01107](https://jastrow.app/#rid:U01107) | alt | שִׁתּ׳ | /שיתומא |  | yes |
+| [U01117](https://jastrow.app/#rid:U01117) | alt | שִׁי׳ | /שכבא |  | yes |
+| [U01121](https://jastrow.app/#rid:U01121) | alt | שׁוּכְ׳ | /שכבתא |  | yes |
+| [U01136](https://jastrow.app/#rid:U01136) | alt | שִׁי׳ | /שכור-2 |  | yes |
+| [U01140](https://jastrow.app/#rid:U01140) | alt | שִׁי׳ | /שכחה |  | yes |
+| [U01163](https://jastrow.app/#rid:U01163) | alt | שַׁכְ׳ | /שכלול |  |  |
+| [U01166](https://jastrow.app/#rid:U01166) | alt | שִׁיכְ׳ | /שכלל |  | yes |
+| [U01188](https://jastrow.app/#rid:U01188) | alt | שִׁי׳ | /שכרא |  | yes |
+| [U01189](https://jastrow.app/#rid:U01189) | alt | שִׁי׳ | /שכרא-2 |  | yes |
+| [U01190](https://jastrow.app/#rid:U01190) | alt | שִׁי׳ | /שכרות |  | yes |
+| [U01191](https://jastrow.app/#rid:U01191) | alt | שִׁיכְ׳ | /שכשוך |  | yes |
+| [U01199](https://jastrow.app/#rid:U01199) | alt | שְׁלַאֲ׳ | /שלאהותא |  | yes |
+| [U01213](https://jastrow.app/#rid:U01213) | alt | שִׁי׳ | /שלדא |  | yes |
+| [U01220](https://jastrow.app/#rid:U01220) | alt | שַׁלְהֵי׳ | /שלהובא |  | yes |
+| [U01222](https://jastrow.app/#rid:U01222) | alt | שִׁי׳ | /שלהוי |  | yes |
+| [U01223](https://jastrow.app/#rid:U01223) | alt | שִׁי׳ | /שלהי |  | yes |
+| [U01263](https://jastrow.app/#rid:U01263) | alt | שְׁ׳ | /שלותא |  |  |
+| [U01271](https://jastrow.app/#rid:U01271) | alt | שִׁי׳ | /שלחא |  | yes |
+| [U01272](https://jastrow.app/#rid:U01272) | alt | שִׁי׳ | /שלחא-2 |  | yes |
+| [U01284](https://jastrow.app/#rid:U01284) | alt | שִׁי׳ | /שלטא |  | yes |
+| [U01285](https://jastrow.app/#rid:U01285) | alt | שִׁי׳ | /שלטון |  | yes |
+| [U01286](https://jastrow.app/#rid:U01286) | alt | שִׁי׳ | /שלטון-2 |  |  |
+| [U01295](https://jastrow.app/#rid:U01295) | alt | שִׁי׳ | /שליא-2 |  |  |
+| [U01296](https://jastrow.app/#rid:U01296) | alt | שִׁי׳ | /שליא-3 |  | yes |
+| [U01297](https://jastrow.app/#rid:U01297) | alt | שִׁי׳ | /שליא-4 |  |  |
+| [U01326](https://jastrow.app/#rid:U01326) | alt | שְׁלֵי׳ | /שלים-2 |  |  |
+| [U01328](https://jastrow.app/#rid:U01328) | alt | שְׁלֵי׳ | /שלימותא |  |  |
+| [U01338](https://jastrow.app/#rid:U01338) | alt | שִׁלְיי׳ | /שליתא |  |  |
+| [U01338](https://jastrow.app/#rid:U01338) | alt | שִׁילְ׳ | /שליתא |  |  |
+| [U01391](https://jastrow.app/#rid:U01391) | alt | שִׁי׳ | /שלשול |  | yes |
+| [U01392](https://jastrow.app/#rid:U01392) | alt | שִׁי׳ | /שלשול-2 |  | yes |
+| [U01393](https://jastrow.app/#rid:U01393) | alt | שׁי׳ | /שלשול-3 |  | yes |
+| [U01396](https://jastrow.app/#rid:U01396) | alt | שִׁילְ׳ | /שלשל |  |  |
+| [U01402](https://jastrow.app/#rid:U01402) | alt | שׁוּלְשֶׁילְ׳ | /שלשלתא |  | yes |
+| [U01402](https://jastrow.app/#rid:U01402) | alt | שׁוֹשֶׁלְ׳ | /שלשלתא |  | yes |
+| [U01402](https://jastrow.app/#rid:U01402) | alt | שִׁישֶׁ׳ | /שלשלתא |  | yes |
+| [U01432](https://jastrow.app/#rid:U01432) | alt | שָׁמוּ׳ | /שמוטא-2 |  | yes |
+| [U01438](https://jastrow.app/#rid:U01438) | alt | שְׁמוֹ׳ | /שמועא |  | yes |
+| [U01459](https://jastrow.app/#rid:U01459) | alt | שְׁמִיטּ׳ | /שמטתא |  |  |
+| [U01495](https://jastrow.app/#rid:U01495) | alt | שְׁ׳ | /שממי |  |  |
+| [U01498](https://jastrow.app/#rid:U01498) | alt | שְׁמֵי׳ | /שמן-3 |  |  |
+| [U01502](https://jastrow.app/#rid:U01502) | alt | שְׁמֵי׳ | /שמנא |  | yes |
+| [U01504](https://jastrow.app/#rid:U01504) | alt | שְׁמוֹ׳ | /שמנה-2 |  |  |
+| [U01522](https://jastrow.app/#rid:U01522) | alt | שִׁימְ׳ | /שמצא |  | yes |
+| [U01523](https://jastrow.app/#rid:U01523) | alt | שִׁי׳ | /שמצה |  | yes |
+| [U01531](https://jastrow.app/#rid:U01531) | alt | שׁוֹ׳ | /שמרון-2 |  | yes |
+| [U01543](https://jastrow.app/#rid:U01543) | alt | שִׁי׳ | /שמשא |  | yes |
+| [U01557](https://jastrow.app/#rid:U01557) | alt | שִׁי׳ | /שן-2 |  |  |
+| [U01609](https://jastrow.app/#rid:U01609) | alt | שִׁי׳ | /שנצא |  | yes |
+| [U01630](https://jastrow.app/#rid:U01630) | alt | שִׁי׳ | /שעבוד |  | yes |
+| [U01631](https://jastrow.app/#rid:U01631) | alt | שִׁי׳ | /שעבוד-2 |  |  |
+| [U01667](https://jastrow.app/#rid:U01667) | alt | שִׁי׳ | /שעמום |  | yes |
+| [U01668](https://jastrow.app/#rid:U01668) | alt | שִׁי׳ | /שעמום-2 |  | yes |
+| [U01670](https://jastrow.app/#rid:U01670) | alt | שַׁעֲמִי׳ | /שעמומיתא |  | yes |
+| [U01684](https://jastrow.app/#rid:U01684) | alt | שֵׂי׳ | /שער-6 |  | yes |
+| [U01705](https://jastrow.app/#rid:U01705) | alt | שִׁי׳ | /שפא-4 |  | yes |
+| [U01776](https://jastrow.app/#rid:U01776) | alt | שְׁפֵי׳ | /שפלה |  | yes |
+| [U01780](https://jastrow.app/#rid:U01780) | alt | שְׁפֵלְ׳ | /שפלתא |  | yes |
+| [U01780](https://jastrow.app/#rid:U01780) | alt | שְׁפֵילְ׳ | /שפלתא |  | yes |
+| [U01782](https://jastrow.app/#rid:U01782) | alt | סְ׳ | /שפם-2 |  |  |
+| [U01806](https://jastrow.app/#rid:U01806) | alt | שְׁפַרְפְּ׳ | /שפרפרא |  |  |
+| [U01813](https://jastrow.app/#rid:U01813) | alt | שִׂי׳ | /שפתא |  | yes |
+| [U01853](https://jastrow.app/#rid:U01853) | alt | שָׁ׳ | /שקיא |  |  |
+| [U01854](https://jastrow.app/#rid:U01854) | alt | שַׁ׳ | /שקיא-2 |  |  |
+| [U01862](https://jastrow.app/#rid:U01862) | alt | שִׁיקְ׳ | /שקיינא |  | yes |
+| [U01873](https://jastrow.app/#rid:U01873) | alt | שִׁי׳ | /שקמא |  | yes |
+| [U01874](https://jastrow.app/#rid:U01874) | alt | שִׁי׳ | /שקמה |  | yes |
+| [U01883](https://jastrow.app/#rid:U01883) | alt | שָׁ׳ | /שקפא |  | yes |
+| [U01883](https://jastrow.app/#rid:U01883) | alt | שִׁי׳ | /שקפא |  | yes |
+| [U01888](https://jastrow.app/#rid:U01888) | alt | שִׁי׳ | /שקצא |  | yes |
+| [U01897](https://jastrow.app/#rid:U01897) | alt | שִׁי׳ | /שקר-6 |  |  |
+| [U01925](https://jastrow.app/#rid:U01925) | alt | שִׂי׳ | /שרגא |  | yes |
+| [U01954](https://jastrow.app/#rid:U01954) | alt | שֵׂי׳ | /שרטון |  | yes |
+| [U01967](https://jastrow.app/#rid:U01967) | alt | שִׁי׳ | /שריון |  | yes |
+| [U01971](https://jastrow.app/#rid:U01971) | alt | שַּׁ׳ | /שריי |  |  |
+| [U01975](https://jastrow.app/#rid:U01975) | alt | שִׁירְ׳ | /שריין |  |  |
+| [U01975](https://jastrow.app/#rid:U01975) | alt | סִרְ׳ | /שריין |  |  |
+| [U01987](https://jastrow.app/#rid:U01987) | alt | שְׁ׳ | /שריר |  | yes |
+| [U01993](https://jastrow.app/#rid:U01993) | alt | שְׁ׳ | /שרכא-2 |  | yes |
+| [U01994](https://jastrow.app/#rid:U01994) | alt | שַׁרְכְּ׳ | /שרכפא |  | yes |
+| [U02014](https://jastrow.app/#rid:U02014) | alt | שְׂרֵי׳ | /שרפה |  | yes |
+| [U02087](https://jastrow.app/#rid:U02087) | alt | שְׁתּ׳ | /שתותא |  |  |
+| [U02089](https://jastrow.app/#rid:U02089) | alt | שְׁתַּ׳ | /שתחויה |  | yes |
+| [U02096](https://jastrow.app/#rid:U02096) | alt | שִׁי׳ | /שתיא |  | yes |
+| [V00014](https://jastrow.app/#rid:V00014) | alt | תִּי׳ | /תאובתא |  | yes |
+| [V00027](https://jastrow.app/#rid:V00027) | alt | תְּאֵי׳ | /תאנה |  | yes |
+| [V00029](https://jastrow.app/#rid:V00029) | alt | תְּאֵינְ׳ | /תאנתא |  |  |
+| [V00056](https://jastrow.app/#rid:V00056) | alt | תִּ׳ | /תבלא-2 |  | yes |
+| [V00059](https://jastrow.app/#rid:V00059) | alt | תִּי׳ | /תבללא |  | yes |
+| [V00065](https://jastrow.app/#rid:V00065) | alt | תִּי׳ | /תבנא |  | yes |
+| [V00082](https://jastrow.app/#rid:V00082) | alt | תִּיגָּ׳ | /תגארא |  | yes |
+| [V00083](https://jastrow.app/#rid:V00083) | alt | תִּי׳ | /תגדא |  | yes |
+| [V00092](https://jastrow.app/#rid:V00092) | alt | תִּי׳ | /תגרא |  | yes |
+| [V00093](https://jastrow.app/#rid:V00093) | alt | תִּי׳ | /תגרא-2 |  | yes |
+| [V00094](https://jastrow.app/#rid:V00094) | alt | תִּי׳ | /תגרא-3 |  | yes |
+| [V00098](https://jastrow.app/#rid:V00098) | alt | תִּ׳ | /תגרותא |  | yes |
+| [V00098](https://jastrow.app/#rid:V00098) | alt | תִּי׳ | /תגרותא |  | yes |
+| [V00100](https://jastrow.app/#rid:V00100) | alt | תִּי׳ | /תגרנא |  | yes |
+| [V00101](https://jastrow.app/#rid:V00101) | alt | תִּי׳ | /תגרתא |  | yes |
+| [V00129](https://jastrow.app/#rid:V00129) | alt | תַּהֲפוּ׳ | /תהפוכתא |  | yes |
+| [V00164](https://jastrow.app/#rid:V00164) | alt | תִּוְו׳ | /תוהא |  | yes |
+| [V00164](https://jastrow.app/#rid:V00164) | alt | תִּיוְ׳ | /תוהא |  | yes |
+| [V00167](https://jastrow.app/#rid:V00167) | alt | תַּוְו׳ | /תוהות |  | yes |
+| [V00168](https://jastrow.app/#rid:V00168) | alt | תַּוְו׳ | /תוהותא |  | yes |
+| [V00184](https://jastrow.app/#rid:V00184) | alt | תַּחְ׳ | /תוחלא |  | yes |
+| [V00203](https://jastrow.app/#rid:V00203) | alt | תּוֹכֵי׳ | /תוכחה-2 |  |  |
+| [V00214](https://jastrow.app/#rid:V00214) | alt | תּוֹלְ׳ | /תולדתא |  | yes |
+| [V00218](https://jastrow.app/#rid:V00218) | alt | תֻּלְ׳ | /תולעבא |  | yes |
+| [V00277](https://jastrow.app/#rid:V00277) | alt | תַּוָּו׳ | /תורא-2 |  | yes |
+| [V00305](https://jastrow.app/#rid:V00305) | alt | תָּרְ׳ | /תורנא |  | yes |
+| [V00314](https://jastrow.app/#rid:V00314) | alt | תּוּ׳ | /תורפא-2 |  | yes |
+| [V00327](https://jastrow.app/#rid:V00327) | alt | תִּשְׁ׳ | /תושבחה |  | yes |
+| [V00328](https://jastrow.app/#rid:V00328) | alt | תֻּשְׁ׳ | /תושבחתא |  |  |
+| [V00380](https://jastrow.app/#rid:V00380) | alt | תְּחִי׳ | /תחנה |  | yes |
+| [V00400](https://jastrow.app/#rid:V00400) | alt | תֵּאָ׳ | /תיאבון |  | yes |
+| [V00410](https://jastrow.app/#rid:V00410) | alt | תִּבּ׳ | /תיבורא |  | yes |
+| [V00411](https://jastrow.app/#rid:V00411) | alt | תֵּיבוֹ׳ | /תיבותא |  | yes |
+| [V00411](https://jastrow.app/#rid:V00411) | alt | תֵּב׳ | /תיבותא |  | yes |
+| [V00427](https://jastrow.app/#rid:V00427) | alt | תְּיוּ׳ | /תיומא |  | yes |
+| [V00431](https://jastrow.app/#rid:V00431) | alt | תִּח׳ | /תיחוח |  | yes |
+| [V00456](https://jastrow.app/#rid:V00456) | alt | תִּמְ׳ | /תימה |  |  |
+| [V00459](https://jastrow.app/#rid:V00459) | alt | תִּימּ׳ | /תימור |  | yes |
+| [V00470](https://jastrow.app/#rid:V00470) | alt | תִּנּ׳ | /תינוק |  | yes |
+| [V00472](https://jastrow.app/#rid:V00472) | alt | תִּנְ׳ | /תינחא |  |  |
+| [V00472](https://jastrow.app/#rid:V00472) | alt | תְּנַח׳ | /תינחא |  |  |
+| [V00473](https://jastrow.app/#rid:V00473) | alt | תִּינְיָנ׳ | /תיניין |  |  |
+| [V00489](https://jastrow.app/#rid:V00489) | alt | תִּקּ׳ | /תיקונא |  | yes |
+| [V00501](https://jastrow.app/#rid:V00501) | alt | תִּר׳ | /תירוכין |  | yes |
+| [V00511](https://jastrow.app/#rid:V00511) | alt | תִּרְ׳ | /תירייקא |  |  |
+| [V00516](https://jastrow.app/#rid:V00516) | alt | תֵּי׳ | /תישא |  | yes |
+| [V00516](https://jastrow.app/#rid:V00516) | alt | תְּיָי׳ | /תישא |  | yes |
+| [V00521](https://jastrow.app/#rid:V00521) | alt | תִּי׳ | /תכא |  | yes |
+| [V00526](https://jastrow.app/#rid:V00526) | alt | תּוּכְ׳ | /תכברא |  | yes |
+| [V00541](https://jastrow.app/#rid:V00541) | alt | תִּי׳ | /תכל-4 |  |  |
+| [V00542](https://jastrow.app/#rid:V00542) | alt | תִּי׳ | /תכלא |  | yes |
+| [V00545](https://jastrow.app/#rid:V00545) | alt | תִּי׳ | /תכלו |  | yes |
+| [V00548](https://jastrow.app/#rid:V00548) | alt | תְּכֶילְ׳ | /תכלתא |  | yes |
+| [V00564](https://jastrow.app/#rid:V00564) | alt | תִּי׳ | /תל-2 |  |  |
+| [V00579](https://jastrow.app/#rid:V00579) | alt | תִּי׳ | /תלול |  | yes |
+| [V00585](https://jastrow.app/#rid:V00585) | alt | תִּי׳ | /תלחא |  | yes |
+| [V00627](https://jastrow.app/#rid:V00627) | alt | תִּילְ׳ | /תלתא |  | yes |
+| [V00629](https://jastrow.app/#rid:V00629) | alt | תִּילְ׳ | /תלתול |  | yes |
+| [V00632](https://jastrow.app/#rid:V00632) | alt | תַּלְת׳ | /תלתותא |  | yes |
+| [V00632](https://jastrow.app/#rid:V00632) | alt | תִּלְ׳ | /תלתותא |  | yes |
+| [V00632](https://jastrow.app/#rid:V00632) | alt | תִּילְ׳ | /תלתותא |  | yes |
+| [V00640](https://jastrow.app/#rid:V00640) | alt | תִּילְ׳ | /תלתן |  | yes |
+| [V00653](https://jastrow.app/#rid:V00653) | alt | תַּמְ׳ | /תמה-3 |  |  |
+| [V00654](https://jastrow.app/#rid:V00654) | alt | תִּימָּ׳ | /תמהון |  | yes |
+| [V00691](https://jastrow.app/#rid:V00691) | alt | תִּימַ׳ | /תמליוס |  | yes |
+| [V00706](https://jastrow.app/#rid:V00706) | alt | תּוּמְ׳ | /תמר-4 |  |  |
+| [V00708](https://jastrow.app/#rid:V00708) | alt | תִּי׳ | /תמרה-2 |  | yes |
+| [V00714](https://jastrow.app/#rid:V00714) | alt | תּוּמַ׳ | /תמרתא |  | yes |
+| [V00740](https://jastrow.app/#rid:V00740) | alt | תַּנְחֻמְ׳ | /תנחומתא |  | yes |
+| [V00745](https://jastrow.app/#rid:V00745) | alt | תִּנְיָ׳ | /תניין |  |  |
+| [V00745](https://jastrow.app/#rid:V00745) | alt | תִּינְ׳ | /תניין |  |  |
+| [V00746](https://jastrow.app/#rid:V00746) | alt | תִּנְיָ׳ | /תניינות |  | yes |
+| [V00746](https://jastrow.app/#rid:V00746) | alt | תִּי׳ | /תניינות |  | yes |
+| [V00756](https://jastrow.app/#rid:V00756) | alt | תִּיסְ׳ | /תסבר |  | yes |
+| [V00757](https://jastrow.app/#rid:V00757) | alt | תִּיסְ׳ | /תסברא |  | yes |
+| [V00757](https://jastrow.app/#rid:V00757) | alt | תּוּסְ׳ | /תסברא |  | yes |
+| [V00759](https://jastrow.app/#rid:V00759) | alt | תִּסְוָו׳ | /תסברית |  | yes |
+| [V00759](https://jastrow.app/#rid:V00759) | alt | תִּי׳ | /תסברית |  | yes |
+| [V00759](https://jastrow.app/#rid:V00759) | alt | תּוּ׳ | /תסברית |  | yes |
+| [V00760](https://jastrow.app/#rid:V00760) | alt | תִּסְוַו׳ | /תסברתא |  | yes |
+| [V00768](https://jastrow.app/#rid:V00768) | alt | תִּסְפָּר׳ | /תספורתא |  | yes |
+| [V00769](https://jastrow.app/#rid:V00769) | alt | תִּסְ׳ | /תסקופא |  | yes |
+| [V00818](https://jastrow.app/#rid:V00818) | alt | תִּי׳ | /תפי-4 |  |  |
+| [V00830](https://jastrow.app/#rid:V00830) | alt | תִּי׳ | /תפלה |  | yes |
+| [V00831](https://jastrow.app/#rid:V00831) | alt | תְּפִי׳ | /תפלה-2 |  | yes |
+| [V00832](https://jastrow.app/#rid:V00832) | alt | תְּפִי׳ | /תפלה-3 |  | yes |
+| [V00834](https://jastrow.app/#rid:V00834) | alt | תִּי׳ | /תפלות |  | yes |
+| [V00835](https://jastrow.app/#rid:V00835) | alt | תְּפִי׳ | /תפלי |  |  |
+| [V00836](https://jastrow.app/#rid:V00836) | alt | תְּפִי׳ | /תפלין |  | yes |
+| [V00852](https://jastrow.app/#rid:V00852) | alt | תַּפְקִדְ׳ | /תפקידתא |  | yes |
+| [V00852](https://jastrow.app/#rid:V00852) | alt | תַּפְקֶדְ׳ | /תפקידתא |  | yes |
+| [V00857](https://jastrow.app/#rid:V00857) | alt | תִּפְ׳ | /תפרא |  | yes |
+| [V00868](https://jastrow.app/#rid:V00868) | alt | תִּיקּ׳ | /תקולא |  |  |
+| [V00893](https://jastrow.app/#rid:V00893) | alt | תִּי׳ | /תקלא |  | yes |
+| [V00894](https://jastrow.app/#rid:V00894) | alt | תּוּקְ׳ | /תקלא-2 |  |  |
+| [V00894](https://jastrow.app/#rid:V00894) | alt | תִּי׳ | /תקלא-2 |  |  |
+| [V00915](https://jastrow.app/#rid:V00915) | alt | תִּיקְ׳ | /תקרובתא |  | yes |
+| [V00943](https://jastrow.app/#rid:V00943) | alt | תִּירְ׳ | /תרגם |  | yes |
+| [V00973](https://jastrow.app/#rid:V00973) | alt | תִּי׳ | /תרטא |  | yes |
+| [V00996](https://jastrow.app/#rid:V00996) | alt | תְּרֵסִ׳ | /תריסיות |  | yes |
+| [V01015](https://jastrow.app/#rid:V01015) | alt | תּוּרְ׳ | /תרמיל |  |  |
+| [V01016](https://jastrow.app/#rid:V01016) | alt | תּוּרְ׳ | /תרמילא |  | yes |
+| [V01042](https://jastrow.app/#rid:V01042) | alt | תִּירְ׳ | /תרעתא |  |  |
+| [V01042](https://jastrow.app/#rid:V01042) | alt | תּוּרְ׳ | /תרעתא |  |  |
 
 ## X7 abbreviation headword (׳/״) (134)
 
-| rid | role | text | name | note | flagged |
+| rid | role | text | url | note | flagged |
 |---|---|---|---|---|---|
-| [A00006](https://jastrow.app/#rid:A00006) | headword | א׳ | א׳ |  |  |
-| [A00010](https://jastrow.app/#rid:A00010) | headword | אאלר״ן | אאלר״ן |  |  |
-| [A00409](https://jastrow.app/#rid:A00409) | headword | אד״ך | אד״ך |  |  |
-| [A01042](https://jastrow.app/#rid:A01042) | headword | אח״ס | אח״ס |  |  |
-| [A01065](https://jastrow.app/#rid:A01065) | headword | א״ט | א״ט |  |  |
-| [A01065](https://jastrow.app/#rid:A01065) | alt | אטב״ח | א״ט |  |  |
-| [A01069](https://jastrow.app/#rid:A01069) | headword | אט״בח | אט״בח |  |  |
-| [A01764](https://jastrow.app/#rid:A01764) | headword | א״ל | א״ל |  |  |
-| [A01764](https://jastrow.app/#rid:A01764) | alt | אלב״ם | א״ל |  |  |
-| [A01935](https://jastrow.app/#rid:A01935) | headword | אל״ף | אל״ף |  |  |
-| [A01936](https://jastrow.app/#rid:A01936) | headword | אלפ״א | אלפ״א |  |  |
-| [A02161](https://jastrow.app/#rid:A02161) | headword | אנטג׳ | אנטג׳ |  |  |
-| [A02411](https://jastrow.app/#rid:A02411) | headword | אסטרטטי׳ | אסטרטטי׳ |  |  |
-| [A03391](https://jastrow.app/#rid:A03391) | headword | א״ת | א״ת |  |  |
-| [B00002](https://jastrow.app/#rid:B00002) | headword | ב׳ | ב׳ |  |  |
-| [B00398](https://jastrow.app/#rid:B00398) | headword | בושׂר׳ | בושׂר׳ |  |  |
-| [B00751](https://jastrow.app/#rid:B00751) | headword | בי״ת | בי״ת |  |  |
-| [B00757](https://jastrow.app/#rid:B00757) | headword | בי״תא | בי״תא |  |  |
-| [B00974](https://jastrow.app/#rid:B00974) | headword | בס״גר | בס״גר |  |  |
-| [B00983](https://jastrow.app/#rid:B00983) | headword | בסיג׳ | בסיג׳ |  |  |
-| [C00002](https://jastrow.app/#rid:C00002) | headword | ג׳ | ג׳ |  |  |
-| [C00618](https://jastrow.app/#rid:C00618) | headword | גיבס׳ | גיבס׳ |  |  |
-| [C00737](https://jastrow.app/#rid:C00737) | headword | גילשל׳ | גילשל׳ |  |  |
-| [C00743](https://jastrow.app/#rid:C00743) | headword | גימ״ל | גימ״ל |  |  |
-| [C01036](https://jastrow.app/#rid:C01036) | headword | גמ״ל | גמ״ל |  |  |
-| [C01224](https://jastrow.app/#rid:C01224) | headword | ג״ר | ג״ר |  |  |
-| [D00001](https://jastrow.app/#rid:D00001) | headword | ד׳ | ד׳ |  |  |
-| [D00791](https://jastrow.app/#rid:D00791) | headword | דכ״ץ | דכ״ץ |  |  |
-| [D00810](https://jastrow.app/#rid:D00810) | headword | דל״ה | דל״ה |  |  |
-| [D00826](https://jastrow.app/#rid:D00826) | headword | דִּלָט׳ | דִּלָט׳ |  |  |
-| [D00863](https://jastrow.app/#rid:D00863) | headword | דל״ת | דל״ת |  |  |
-| [D00957](https://jastrow.app/#rid:D00957) | headword | דפוסיו׳ | דפוסיו׳ |  |  |
-| [D00963](https://jastrow.app/#rid:D00963) | headword | דפליסט׳ | דפליסט׳ |  |  |
-| [D00983](https://jastrow.app/#rid:D00983) | headword | דצ״ך | דצ״ך |  | yes |
-| [E00001](https://jastrow.app/#rid:E00001) | headword | ה׳ | ה׳ |  |  |
-| [E00004](https://jastrow.app/#rid:E00004) | headword | ה״א | ה״א |  |  |
-| [E00004](https://jastrow.app/#rid:E00004) | alt | ה״י | ה״א |  |  |
-| [E00141](https://jastrow.app/#rid:E00141) | headword | הדסט״ב | הדסט״ב |  |  |
-| [E00197](https://jastrow.app/#rid:E00197) | headword | הוגנוס׳ | הוגנוס׳ |  |  |
-| [E00295](https://jastrow.app/#rid:E00295) | headword | הז״יו | הז״יו |  | yes |
-| [E00326](https://jastrow.app/#rid:E00326) | headword | ה״י | ה״י |  |  |
-| [E00433](https://jastrow.app/#rid:E00433) | headword | הימני׳ | הימני׳ |  |  |
-| [E00842](https://jastrow.app/#rid:E00842) | headword | הרוגיינ׳ | הרוגיינ׳ |  |  |
-| [E00856](https://jastrow.app/#rid:E00856) | headword | הַרְטָבָה׳ | הַרְטָבָה׳ |  |  |
-| [F00001](https://jastrow.app/#rid:F00001) | headword | ו׳ | ו׳ |  |  |
-| [F00004](https://jastrow.app/#rid:F00004) | headword | וא״ו | וא״ו |  |  |
-| [F00004](https://jastrow.app/#rid:F00004) | alt | וי״ו | וא״ו |  |  |
-| [F00004](https://jastrow.app/#rid:F00004) | alt | ו״ו | וא״ו |  |  |
-| [G00007](https://jastrow.app/#rid:G00007) | headword | ז״ב | ז״ב |  |  |
-| [G00338](https://jastrow.app/#rid:G00338) | headword | זַיִ״ין | זַיִ״ין |  |  |
-| [G00401](https://jastrow.app/#rid:G00401) | headword | זִיפְתּ׳ | זִיפְתּ׳ |  |  |
-| [H00001](https://jastrow.app/#rid:H00001) | headword | ח׳ | ח׳ |  |  |
-| [H00897](https://jastrow.app/#rid:H00897) | headword | חי״ת | חי״ת |  |  |
-| [I00001](https://jastrow.app/#rid:I00001) | headword | ט׳ | ט׳ |  |  |
-| [I00458](https://jastrow.app/#rid:I00458) | headword | טי״ת | טי״ת |  |  |
-| [J00001](https://jastrow.app/#rid:J00001) | headword | י׳ | י׳ |  |  |
-| [J00083](https://jastrow.app/#rid:J00083) | headword | יגי״ל | יגי״ל |  |  |
-| [J00087](https://jastrow.app/#rid:J00087) | headword | יג״ל | יג״ל |  |  |
-| [J00158](https://jastrow.app/#rid:J00158) | headword | יו״ד | יו״ד |  |  |
-| [J00318](https://jastrow.app/#rid:J00318) | headword | יט״ת | יט״ת |  |  |
-| [K00001](https://jastrow.app/#rid:K00001) | headword | כ׳ | כ׳ |  |  |
-| [K00302](https://jastrow.app/#rid:K00302) | headword | כונדת׳ | כונדת׳ |  |  |
-| [K00473](https://jastrow.app/#rid:K00473) | alt | כ״י | כי |  |  |
-| [K00977](https://jastrow.app/#rid:K00977) | headword | כ״ף | כ״ף |  |  |
-| [L00001](https://jastrow.app/#rid:L00001) | headword | ל׳ | ל׳ |  |  |
-| [L00564](https://jastrow.app/#rid:L00564) | headword | למ״ד | למ״ד |  |  |
-| [L00607](https://jastrow.app/#rid:L00607) | headword | לע״ט | לע״ט |  |  |
-| [M00001](https://jastrow.app/#rid:M00001) | headword | מ׳ | מ׳ |  |  |
-| [M00914](https://jastrow.app/#rid:M00914) | headword | מחפ״ז | מחפ״ז |  |  |
-| [M01200](https://jastrow.app/#rid:M01200) | headword | מ״ים | מ״ים |  |  |
-| [M01490](https://jastrow.app/#rid:M01490) | headword | מל״ה | מל״ה |  |  |
-| [M01644](https://jastrow.app/#rid:M01644) | headword | מ״ם | מ״ם |  |  |
-| [M01690](https://jastrow.app/#rid:M01690) | headword | ממתו״ס | ממתו״ס |  |  |
-| [M01810](https://jastrow.app/#rid:M01810) | headword | מַנְצְפַ״ךְ | מַנְצְפַ״ךְ |  |  |
-| [M02383](https://jastrow.app/#rid:M02383) | headword | מקד״ש | מקד״ש |  |  |
-| [N00002](https://jastrow.app/#rid:N00002) | headword | נ׳ | נ׳ |  |  |
-| [N00378](https://jastrow.app/#rid:N00378) | headword | נו״ן | נו״ן |  |  |
-| [N00665](https://jastrow.app/#rid:N00665) | headword | ניכו׳ | ניכו׳ |  |  |
-| [N00910](https://jastrow.app/#rid:N00910) | headword | ננקפ״י | ננקפ״י |  |  |
-| [N01391](https://jastrow.app/#rid:N01391) | headword | נת״ר | נת״ר |  |  |
-| [O00001](https://jastrow.app/#rid:O00001) | headword | ס׳ | ס׳ |  |  |
-| [O00671](https://jastrow.app/#rid:O00671) | headword | סִילסוּל׳ | סִילסוּל׳ |  |  |
-| [O00672](https://jastrow.app/#rid:O00672) | headword | סילק׳ | סילק׳ |  |  |
-| [O01096](https://jastrow.app/#rid:O01096) | headword | סמ״ך | סמ״ך |  |  |
-| [P00001](https://jastrow.app/#rid:P00001) | headword | ע׳ | ע׳ |  |  |
-| [P00169](https://jastrow.app/#rid:P00169) | headword | עד״ש | עד״ש |  |  |
-| [P00548](https://jastrow.app/#rid:P00548) | headword | עיי״ן | עיי״ן |  |  |
-| [P00548](https://jastrow.app/#rid:P00548) | alt | עי״ן | עיי״ן |  |  |
-| [P00600](https://jastrow.app/#rid:P00600) | headword | עי״ן | עי״ן |  |  |
-| [P00731](https://jastrow.app/#rid:P00731) | headword | עכ״ום | עכ״ום |  |  |
-| [P01521](https://jastrow.app/#rid:P01521) | alt | עַ׳קַרְנַיִם | עַשְׁתְּרוֹת |  |  |
-| [Q00001](https://jastrow.app/#rid:Q00001) | headword | פ׳ | פ׳ |  |  |
-| [Q00002](https://jastrow.app/#rid:Q00002) | headword | פ״א | פ״א |  |  |
-| [Q00141](https://jastrow.app/#rid:Q00141) | headword | פ״ה | פ״ה |  |  |
-| [Q00141](https://jastrow.app/#rid:Q00141) | alt | פ״א | פ״ה |  |  |
-| [Q00141](https://jastrow.app/#rid:Q00141) | alt | פ״י | פ״ה |  |  |
-| [Q00147](https://jastrow.app/#rid:Q00147) | alt | פה״י | פִּהֵי |  |  |
-| [Q00157](https://jastrow.app/#rid:Q00157) | headword | פ״וגחמ״ט | פ״וגחמ״ט |  |  |
-| [Q00385](https://jastrow.app/#rid:Q00385) | headword | פורפר׳ | פורפר׳ |  |  |
-| [Q00436](https://jastrow.app/#rid:Q00436) | headword | פז״ר | פז״ר |  | yes |
-| [Q00459](https://jastrow.app/#rid:Q00459) | headword | פח״ז | פח״ז |  |  |
-| [Q01625](https://jastrow.app/#rid:Q01625) | headword | פרודי׳ | פרודי׳ |  |  |
-| [Q01633](https://jastrow.app/#rid:Q01633) | headword | פרווטי׳ | פרווטי׳ |  |  |
-| [Q01858](https://jastrow.app/#rid:Q01858) | headword | פרכיי׳ | פרכיי׳ |  |  |
-| [R00001](https://jastrow.app/#rid:R00001) | headword | צ׳ | צ׳ |  |  |
-| [R00099](https://jastrow.app/#rid:R00099) | headword | צד״י | צד״י |  |  |
-| [S00001](https://jastrow.app/#rid:S00001) | headword | ק׳ | ק׳ |  |  |
-| [S00240](https://jastrow.app/#rid:S00240) | headword | קובעתי׳ | קובעתי׳ |  |  |
-| [S00269](https://jastrow.app/#rid:S00269) | headword | קוורנוט׳ | קוורנוט׳ |  |  |
-| [S00462](https://jastrow.app/#rid:S00462) | headword | קוּסְטַאנְטִינ׳ | קוּסְטַאנְטִינ׳ |  |  |
-| [S00463](https://jastrow.app/#rid:S00463) | headword | קוסטברי׳ | קוסטברי׳ |  |  |
-| [S00487](https://jastrow.app/#rid:S00487) | headword | קו״ף | קו״ף |  |  |
-| [S00958](https://jastrow.app/#rid:S00958) | headword | קילווני׳ | קילווני׳ |  |  |
-| [S01151](https://jastrow.app/#rid:S01151) | headword | קיר׳ | קיר׳ |  |  |
-| [T00001](https://jastrow.app/#rid:T00001) | headword | ר׳ | ר׳ |  |  |
-| [T00237](https://jastrow.app/#rid:T00237) | headword | רד״ו | רד״ו |  |  |
-| [T00717](https://jastrow.app/#rid:T00717) | headword | ריִ״ש | ריִ״ש |  |  |
-| [T00804](https://jastrow.app/#rid:T00804) | headword | רמ״ח | רמ״ח |  |  |
-| [T00840](https://jastrow.app/#rid:T00840) | headword | רמ״ת | רמ״ת |  |  |
-| [U00001](https://jastrow.app/#rid:U00001) | headword | ש׳ | ש׳ |  |  |
-| [U00967](https://jastrow.app/#rid:U00967) | headword | שי״ן | שי״ן |  |  |
-| [U01593](https://jastrow.app/#rid:U01593) | headword | שניו׳ | שניו׳ |  |  |
-| [U01614](https://jastrow.app/#rid:U01614) | headword | ש״ס | ש״ס |  |  |
-| [U01626](https://jastrow.app/#rid:U01626) | headword | שׁע׳ | שׁע׳ |  |  |
-| [U01649](https://jastrow.app/#rid:U01649) | headword | שעטנ״ז | שעטנ״ז |  | yes |
-| [V00001](https://jastrow.app/#rid:V00001) | headword | ת׳ | ת׳ |  |  |
-| [V00024](https://jastrow.app/#rid:V00024) | headword | תאל״ס | תאל״ס |  |  |
-| [V00042](https://jastrow.app/#rid:V00042) | headword | תבט״ש | תבט״ש |  |  |
-| [V00077](https://jastrow.app/#rid:V00077) | headword | תבש״ט | תבש״ט |  |  |
-| [V00107](https://jastrow.app/#rid:V00107) | headword | תדיי׳ | תדיי׳ |  |  |
-| [V00154](https://jastrow.app/#rid:V00154) | headword | תוגייל׳ | תוגייל׳ |  |  |
-| [V00228](https://jastrow.app/#rid:V00228) | headword | תומיי׳ | תומיי׳ |  |  |
-| [V00841](https://jastrow.app/#rid:V00841) | headword | תפני׳ | תפני׳ |  |  |
-| [V00983](https://jastrow.app/#rid:V00983) | headword | תרי״ג | תרי״ג |  |  |
+| [A00006](https://jastrow.app/#rid:A00006) | headword | א׳ | /א׳ |  |  |
+| [A00010](https://jastrow.app/#rid:A00010) | headword | אאלר״ן | /אאלר״ן |  |  |
+| [A00409](https://jastrow.app/#rid:A00409) | headword | אד״ך | /אד״ך |  |  |
+| [A01042](https://jastrow.app/#rid:A01042) | headword | אח״ס | /אח״ס |  |  |
+| [A01065](https://jastrow.app/#rid:A01065) | headword | א״ט | /א״ט |  |  |
+| [A01065](https://jastrow.app/#rid:A01065) | alt | אטב״ח | /א״ט |  |  |
+| [A01069](https://jastrow.app/#rid:A01069) | headword | אט״בח | /אט״בח |  |  |
+| [A01764](https://jastrow.app/#rid:A01764) | headword | א״ל | /א״ל |  |  |
+| [A01764](https://jastrow.app/#rid:A01764) | alt | אלב״ם | /א״ל |  |  |
+| [A01935](https://jastrow.app/#rid:A01935) | headword | אל״ף | /אל״ף |  |  |
+| [A01936](https://jastrow.app/#rid:A01936) | headword | אלפ״א | /אלפ״א |  |  |
+| [A02161](https://jastrow.app/#rid:A02161) | headword | אנטג׳ | /אנטג׳ |  |  |
+| [A02411](https://jastrow.app/#rid:A02411) | headword | אסטרטטי׳ | /אסטרטטי׳ |  |  |
+| [A03391](https://jastrow.app/#rid:A03391) | headword | א״ת | /א״ת |  |  |
+| [B00002](https://jastrow.app/#rid:B00002) | headword | ב׳ | /ב׳ |  |  |
+| [B00398](https://jastrow.app/#rid:B00398) | headword | בושׂר׳ | /בושר׳ |  |  |
+| [B00751](https://jastrow.app/#rid:B00751) | headword | בי״ת | /בי״ת |  |  |
+| [B00757](https://jastrow.app/#rid:B00757) | headword | בי״תא | /בי״תא |  |  |
+| [B00974](https://jastrow.app/#rid:B00974) | headword | בס״גר | /בס״גר |  |  |
+| [B00983](https://jastrow.app/#rid:B00983) | headword | בסיג׳ | /בסיג׳ |  |  |
+| [C00002](https://jastrow.app/#rid:C00002) | headword | ג׳ | /ג׳ |  |  |
+| [C00618](https://jastrow.app/#rid:C00618) | headword | גיבס׳ | /גיבס׳ |  |  |
+| [C00737](https://jastrow.app/#rid:C00737) | headword | גילשל׳ | /גילשל׳ |  |  |
+| [C00743](https://jastrow.app/#rid:C00743) | headword | גימ״ל | /גימ״ל |  |  |
+| [C01036](https://jastrow.app/#rid:C01036) | headword | גמ״ל | /גמ״ל |  |  |
+| [C01224](https://jastrow.app/#rid:C01224) | headword | ג״ר | /ג״ר |  |  |
+| [D00001](https://jastrow.app/#rid:D00001) | headword | ד׳ | /ד׳ |  |  |
+| [D00791](https://jastrow.app/#rid:D00791) | headword | דכ״ץ | /דכ״ץ |  |  |
+| [D00810](https://jastrow.app/#rid:D00810) | headword | דל״ה | /דל״ה |  |  |
+| [D00826](https://jastrow.app/#rid:D00826) | headword | דִּלָט׳ | /דלט׳ |  |  |
+| [D00863](https://jastrow.app/#rid:D00863) | headword | דל״ת | /דל״ת |  |  |
+| [D00957](https://jastrow.app/#rid:D00957) | headword | דפוסיו׳ | /דפוסיו׳ |  |  |
+| [D00963](https://jastrow.app/#rid:D00963) | headword | דפליסט׳ | /דפליסט׳ |  |  |
+| [D00983](https://jastrow.app/#rid:D00983) | headword | דצ״ך | /דצ״ך |  | yes |
+| [E00001](https://jastrow.app/#rid:E00001) | headword | ה׳ | /ה׳ |  |  |
+| [E00004](https://jastrow.app/#rid:E00004) | headword | ה״א | /ה״א |  |  |
+| [E00004](https://jastrow.app/#rid:E00004) | alt | ה״י | /ה״א |  |  |
+| [E00141](https://jastrow.app/#rid:E00141) | headword | הדסט״ב | /הדסט״ב |  |  |
+| [E00197](https://jastrow.app/#rid:E00197) | headword | הוגנוס׳ | /הוגנוס׳ |  |  |
+| [E00295](https://jastrow.app/#rid:E00295) | headword | הז״יו | /הז״יו |  | yes |
+| [E00326](https://jastrow.app/#rid:E00326) | headword | ה״י | /ה״י |  |  |
+| [E00433](https://jastrow.app/#rid:E00433) | headword | הימני׳ | /הימני׳ |  |  |
+| [E00842](https://jastrow.app/#rid:E00842) | headword | הרוגיינ׳ | /הרוגיינ׳ |  |  |
+| [E00856](https://jastrow.app/#rid:E00856) | headword | הַרְטָבָה׳ | /הרטבה׳ |  |  |
+| [F00001](https://jastrow.app/#rid:F00001) | headword | ו׳ | /ו׳ |  |  |
+| [F00004](https://jastrow.app/#rid:F00004) | headword | וא״ו | /וא״ו |  |  |
+| [F00004](https://jastrow.app/#rid:F00004) | alt | וי״ו | /וא״ו |  |  |
+| [F00004](https://jastrow.app/#rid:F00004) | alt | ו״ו | /וא״ו |  |  |
+| [G00007](https://jastrow.app/#rid:G00007) | headword | ז״ב | /ז״ב |  |  |
+| [G00338](https://jastrow.app/#rid:G00338) | headword | זַיִ״ין | /זי״ין |  |  |
+| [G00401](https://jastrow.app/#rid:G00401) | headword | זִיפְתּ׳ | /זיפת׳ |  |  |
+| [H00001](https://jastrow.app/#rid:H00001) | headword | ח׳ | /ח׳ |  |  |
+| [H00897](https://jastrow.app/#rid:H00897) | headword | חי״ת | /חי״ת |  |  |
+| [I00001](https://jastrow.app/#rid:I00001) | headword | ט׳ | /ט׳ |  |  |
+| [I00458](https://jastrow.app/#rid:I00458) | headword | טי״ת | /טי״ת |  |  |
+| [J00001](https://jastrow.app/#rid:J00001) | headword | י׳ | /י׳ |  |  |
+| [J00083](https://jastrow.app/#rid:J00083) | headword | יגי״ל | /יגי״ל |  |  |
+| [J00087](https://jastrow.app/#rid:J00087) | headword | יג״ל | /יג״ל |  |  |
+| [J00158](https://jastrow.app/#rid:J00158) | headword | יו״ד | /יו״ד |  |  |
+| [J00318](https://jastrow.app/#rid:J00318) | headword | יט״ת | /יט״ת |  |  |
+| [K00001](https://jastrow.app/#rid:K00001) | headword | כ׳ | /כ׳ |  |  |
+| [K00302](https://jastrow.app/#rid:K00302) | headword | כונדת׳ | /כונדת׳ |  |  |
+| [K00473](https://jastrow.app/#rid:K00473) | alt | כ״י | /כי |  |  |
+| [K00977](https://jastrow.app/#rid:K00977) | headword | כ״ף | /כ״ף |  |  |
+| [L00001](https://jastrow.app/#rid:L00001) | headword | ל׳ | /ל׳ |  |  |
+| [L00564](https://jastrow.app/#rid:L00564) | headword | למ״ד | /למ״ד |  |  |
+| [L00607](https://jastrow.app/#rid:L00607) | headword | לע״ט | /לע״ט |  |  |
+| [M00001](https://jastrow.app/#rid:M00001) | headword | מ׳ | /מ׳ |  |  |
+| [M00914](https://jastrow.app/#rid:M00914) | headword | מחפ״ז | /מחפ״ז |  |  |
+| [M01200](https://jastrow.app/#rid:M01200) | headword | מ״ים | /מ״ים |  |  |
+| [M01490](https://jastrow.app/#rid:M01490) | headword | מל״ה | /מל״ה |  |  |
+| [M01644](https://jastrow.app/#rid:M01644) | headword | מ״ם | /מ״ם |  |  |
+| [M01690](https://jastrow.app/#rid:M01690) | headword | ממתו״ס | /ממתו״ס |  |  |
+| [M01810](https://jastrow.app/#rid:M01810) | headword | מַנְצְפַ״ךְ | /מנצפ״ך |  |  |
+| [M02383](https://jastrow.app/#rid:M02383) | headword | מקד״ש | /מקד״ש |  |  |
+| [N00002](https://jastrow.app/#rid:N00002) | headword | נ׳ | /נ׳ |  |  |
+| [N00378](https://jastrow.app/#rid:N00378) | headword | נו״ן | /נו״ן |  |  |
+| [N00665](https://jastrow.app/#rid:N00665) | headword | ניכו׳ | /ניכו׳ |  |  |
+| [N00910](https://jastrow.app/#rid:N00910) | headword | ננקפ״י | /ננקפ״י |  |  |
+| [N01391](https://jastrow.app/#rid:N01391) | headword | נת״ר | /נת״ר |  |  |
+| [O00001](https://jastrow.app/#rid:O00001) | headword | ס׳ | /ס׳ |  |  |
+| [O00671](https://jastrow.app/#rid:O00671) | headword | סִילסוּל׳ | /סילסול׳ |  |  |
+| [O00672](https://jastrow.app/#rid:O00672) | headword | סילק׳ | /סילק׳ |  |  |
+| [O01096](https://jastrow.app/#rid:O01096) | headword | סמ״ך | /סמ״ך |  |  |
+| [P00001](https://jastrow.app/#rid:P00001) | headword | ע׳ | /ע׳ |  |  |
+| [P00169](https://jastrow.app/#rid:P00169) | headword | עד״ש | /עד״ש |  |  |
+| [P00548](https://jastrow.app/#rid:P00548) | headword | עיי״ן | /עיי״ן |  |  |
+| [P00548](https://jastrow.app/#rid:P00548) | alt | עי״ן | /עיי״ן |  |  |
+| [P00600](https://jastrow.app/#rid:P00600) | headword | עי״ן | /עי״ן |  |  |
+| [P00731](https://jastrow.app/#rid:P00731) | headword | עכ״ום | /עכ״ום |  |  |
+| [P01521](https://jastrow.app/#rid:P01521) | alt | עַ׳קַרְנַיִם | /עשתרות |  |  |
+| [Q00001](https://jastrow.app/#rid:Q00001) | headword | פ׳ | /פ׳ |  |  |
+| [Q00002](https://jastrow.app/#rid:Q00002) | headword | פ״א | /פ״א |  |  |
+| [Q00141](https://jastrow.app/#rid:Q00141) | headword | פ״ה | /פ״ה |  |  |
+| [Q00141](https://jastrow.app/#rid:Q00141) | alt | פ״א | /פ״ה |  |  |
+| [Q00141](https://jastrow.app/#rid:Q00141) | alt | פ״י | /פ״ה |  |  |
+| [Q00147](https://jastrow.app/#rid:Q00147) | alt | פה״י | /פהי-2 |  |  |
+| [Q00157](https://jastrow.app/#rid:Q00157) | headword | פ״וגחמ״ט | /פ״וגחמ״ט |  |  |
+| [Q00385](https://jastrow.app/#rid:Q00385) | headword | פורפר׳ | /פורפר׳ |  |  |
+| [Q00436](https://jastrow.app/#rid:Q00436) | headword | פז״ר | /פז״ר |  | yes |
+| [Q00459](https://jastrow.app/#rid:Q00459) | headword | פח״ז | /פח״ז |  |  |
+| [Q01625](https://jastrow.app/#rid:Q01625) | headword | פרודי׳ | /פרודי׳ |  |  |
+| [Q01633](https://jastrow.app/#rid:Q01633) | headword | פרווטי׳ | /פרווטי׳ |  |  |
+| [Q01858](https://jastrow.app/#rid:Q01858) | headword | פרכיי׳ | /פרכיי׳ |  |  |
+| [R00001](https://jastrow.app/#rid:R00001) | headword | צ׳ | /צ׳ |  |  |
+| [R00099](https://jastrow.app/#rid:R00099) | headword | צד״י | /צד״י |  |  |
+| [S00001](https://jastrow.app/#rid:S00001) | headword | ק׳ | /ק׳ |  |  |
+| [S00240](https://jastrow.app/#rid:S00240) | headword | קובעתי׳ | /קובעתי׳ |  |  |
+| [S00269](https://jastrow.app/#rid:S00269) | headword | קוורנוט׳ | /קוורנוט׳ |  |  |
+| [S00462](https://jastrow.app/#rid:S00462) | headword | קוּסְטַאנְטִינ׳ | /קוסטאנטינ׳ |  |  |
+| [S00463](https://jastrow.app/#rid:S00463) | headword | קוסטברי׳ | /קוסטברי׳ |  |  |
+| [S00487](https://jastrow.app/#rid:S00487) | headword | קו״ף | /קו״ף |  |  |
+| [S00958](https://jastrow.app/#rid:S00958) | headword | קילווני׳ | /קילווני׳ |  |  |
+| [S01151](https://jastrow.app/#rid:S01151) | headword | קיר׳ | /קיר׳ |  |  |
+| [T00001](https://jastrow.app/#rid:T00001) | headword | ר׳ | /ר׳ |  |  |
+| [T00237](https://jastrow.app/#rid:T00237) | headword | רד״ו | /רד״ו |  |  |
+| [T00717](https://jastrow.app/#rid:T00717) | headword | ריִ״ש | /רי״ש |  |  |
+| [T00804](https://jastrow.app/#rid:T00804) | headword | רמ״ח | /רמ״ח |  |  |
+| [T00840](https://jastrow.app/#rid:T00840) | headword | רמ״ת | /רמ״ת |  |  |
+| [U00001](https://jastrow.app/#rid:U00001) | headword | ש׳ | /ש׳ |  |  |
+| [U00967](https://jastrow.app/#rid:U00967) | headword | שי״ן | /שי״ן |  |  |
+| [U01593](https://jastrow.app/#rid:U01593) | headword | שניו׳ | /שניו׳ |  |  |
+| [U01614](https://jastrow.app/#rid:U01614) | headword | ש״ס | /ש״ס |  |  |
+| [U01626](https://jastrow.app/#rid:U01626) | headword | שׁע׳ | /שע׳ |  |  |
+| [U01649](https://jastrow.app/#rid:U01649) | headword | שעטנ״ז | /שעטנ״ז |  | yes |
+| [V00001](https://jastrow.app/#rid:V00001) | headword | ת׳ | /ת׳ |  |  |
+| [V00024](https://jastrow.app/#rid:V00024) | headword | תאל״ס | /תאל״ס |  |  |
+| [V00042](https://jastrow.app/#rid:V00042) | headword | תבט״ש | /תבט״ש |  |  |
+| [V00077](https://jastrow.app/#rid:V00077) | headword | תבש״ט | /תבש״ט |  |  |
+| [V00107](https://jastrow.app/#rid:V00107) | headword | תדיי׳ | /תדיי׳ |  |  |
+| [V00154](https://jastrow.app/#rid:V00154) | headword | תוגייל׳ | /תוגייל׳ |  |  |
+| [V00228](https://jastrow.app/#rid:V00228) | headword | תומיי׳ | /תומיי׳ |  |  |
+| [V00841](https://jastrow.app/#rid:V00841) | headword | תפני׳ | /תפני׳ |  |  |
+| [V00983](https://jastrow.app/#rid:V00983) | headword | תרי״ג | /תרי״ג |  |  |
 
 ## X8 homograph numbering gap (32)
 
-| rid | role | text | name | note | flagged |
+| rid | role | text | url | note | flagged |
 |---|---|---|---|---|---|
-| [H00750](https://jastrow.app/#rid:H00750) | alt | חַיְּתָא | חַיְּיתָא | missing 1,2,3; 1 unnumbered: H00750/alt=4; H00898/alt=— |  |
-| [N00327](https://jastrow.app/#rid:N00327) | alt | נְוַל | נְוַול³ | missing 1,2; 1 unnumbered: N00327/alt=3; N00362/alt=— |  |
-| [A00880](https://jastrow.app/#rid:A00880) | alt | אוּרְיָא | אוֹרְיָא² | missing 1,2; 3 unnumbered: A00877=—; A00878=—; A00879=—; A00880/alt=3 |  |
-| [T00245](https://jastrow.app/#rid:T00245) | alt | רְדָא | רְדִי | missing 1,2; 3 unnumbered: T00229=—; T00242/alt=—; T00244/alt=—; T00245/alt=3 |  |
-| [A01335](https://jastrow.app/#rid:A01335) | alt | אֲמוּ׳ | אֵימוּרִים² | missing 1; 0 unnumbered: A01335/alt=2 |  |
-| [H01432](https://jastrow.app/#rid:H01432) | alt | חֲפִי׳ | חֲפוּרָה² | missing 1; 0 unnumbered: H01432/alt=2 |  |
-| [I00082](https://jastrow.app/#rid:I00082) | alt | טִיבְעָא | טִבְעָא | missing 1; 0 unnumbered: I00082/alt=2 |  |
-| [L00255](https://jastrow.app/#rid:L00255) | alt | לְיִיָּיה | לְוִיָּה | missing 1; 0 unnumbered: L00255/alt=2 |  |
-| [M00354](https://jastrow.app/#rid:M00354) | alt | מָ׳ | מְהוּלְתָּא | missing 1; 0 unnumbered: M00354/alt=2 |  |
-| [O00251](https://jastrow.app/#rid:O00251) | alt | סוּגְיָיא | סוּגְיָא | missing 1; 0 unnumbered: O00251/alt=2 |  |
-| [P00596](https://jastrow.app/#rid:P00596) | alt | עִמְ׳ | עִימְעוּם² | missing 1; 0 unnumbered: P00596/alt=2 |  |
-| [P00837](https://jastrow.app/#rid:P00837) | alt | עֵו׳ | עִלְעֵל | missing 1; 0 unnumbered: P00837/alt=2 |  |
-| [Q01192](https://jastrow.app/#rid:Q01192) | alt | פַּנְיָיא | פַּנְיָא | missing 1; 0 unnumbered: Q01192/alt=2 |  |
-| [G00550](https://jastrow.app/#rid:G00550) | alt | זִי׳ | זִמְרָא² | missing 1; 1 unnumbered: G00538/alt=—; G00550/alt=2 |  |
-| [K00877](https://jastrow.app/#rid:K00877) | alt | כִּנָּרָא | כִּנְּרָא | missing 1; 1 unnumbered: K00876=—; K00877/alt=2 |  |
-| [O00124](https://jastrow.app/#rid:O00124) | alt | סַגִּיא | סַגִּי² | missing 1; 1 unnumbered: O00123/alt=—; O00124/alt=2 |  |
-| [O00564](https://jastrow.app/#rid:O00564) | alt | סִגְ׳ | סִיגְנָא | missing 1; 1 unnumbered: O00564/alt=2; O00567/alt=— |  |
-| [O00659](https://jastrow.app/#rid:O00659) | alt | סִלּ׳ | סִילּוֹן | missing 1; 1 unnumbered: O00659/alt=2; O00662/alt=— |  |
-| [P01273](https://jastrow.app/#rid:P01273) | headword | עֵרָבוֹן | עֵרָבוֹן II² | missing 1; 1 unnumbered: P01272=—; P01273=2 |  |
-| [S00814](https://jastrow.app/#rid:S00814) | alt | קִיטְפָא | קְטַף III | missing 1; 1 unnumbered: S00814/alt=2; S00921=— |  |
-| [H00615](https://jastrow.app/#rid:H00615) | alt | חָטָא | חטי² | missing 1; 2 unnumbered: H00579=—; H00613/alt=—; H00615/alt=2 |  |
-| [K00129](https://jastrow.app/#rid:K00129) | alt | כְּדַאי | כְּדָיי² | missing 1; 2 unnumbered: K00102=—; K00128/alt=—; K00129/alt=2 |  |
-| [P00016](https://jastrow.app/#rid:P00016) | alt | עֲבֵיד | עֲבַד | missing 1; 2 unnumbered: P00014/alt=—; P00016/alt=2; P00044/alt=— |  |
-| [S01321](https://jastrow.app/#rid:S01321) | alt | קְלֵי | קָלִי² | missing 1; 2 unnumbered: S01317=—; S01319=—; S01321/alt=2 |  |
-| [M02358](https://jastrow.app/#rid:M02358) | alt | מִי׳ | מֵצַר³ | missing 1; 20 unnumbered: M01393/alt=—; M01489/alt=—; M01524/alt=—; M01568/alt=—; M01574/alt=—; M01597/alt=—; M01766/alt=—; M01774/alt=—; M01786/alt=—; M01787/alt=—; M01796/alt=—; M01952/alt=—; M01991/alt=—; M02034/alt=—; M02039/alt=—; M02358/alt=2; M02360/alt=—; M02851/alt=2; M02919/alt=—; M02995/alt=—; M03015/alt=—; M03086/alt=— |  |
-| [B00561](https://jastrow.app/#rid:B00561) | alt | בִּזָּא | בִּיזָּא | missing 1; 3 unnumbered: B00408=—; B00437=—; B00560/alt=—; B00561/alt=2 |  |
-| [Q01280](https://jastrow.app/#rid:Q01280) | alt | פִּיסְ׳ | פִּסְיוֹנָא | missing 1; 3 unnumbered: Q01229/alt=—; Q01280/alt=2; Q01281/alt=—; Q01309/alt=— |  |
-| [T00776](https://jastrow.app/#rid:T00776) | alt | רִי׳ | רִכְסָא | missing 1; 39 unnumbered: T00053/alt=—; T00057/alt=—; T00065/alt=—; T00073/alt=—; T00111/alt=—; T00112/alt=—; T00131/alt=—; T00142/alt=—; T00159/alt=—; T00205/alt=—; T00206/alt=—; T00214/alt=—; T00219/alt=—; T00227/alt=—; T00228/alt=—; T00247/alt=—; T00282/alt=—; T00546/alt=—; T00656/alt=—; T00775/alt=—; T00776/alt=2; T00779/alt=—; T00793/alt=—; T00795/alt=—; T00796/alt=—; T00836/alt=—; T00844/alt=—; T00849/alt=—; T00858/alt=—; T00954/alt=—; T00962/alt=—; T00998/alt=—; T01012/alt=—; T01044/alt=—; T01103/alt=—; T01109/alt=—; T01110/alt=—; T01125/alt=—; T01142/alt=—; T01147/alt=— |  |
-| [H00209](https://jastrow.app/#rid:H00209) | alt | חִי׳ | חִדְקָא² | missing 1; 4 unnumbered: H00209/alt=2; H00367/alt=—; H01339/alt=2; H01340/alt=3; H01415/alt=—; H01424/alt=—; H01425/alt=— |  |
-| [C01377](https://jastrow.app/#rid:C01377) | alt | גִּירְ׳ | גִּרְסָא² | missing 1; 5 unnumbered: C01277/alt=—; C01278/alt=—; C01284/alt=—; C01362/alt=—; C01367/alt=—; C01377/alt=2 |  |
-| [A02348](https://jastrow.app/#rid:A02348) | alt | אִיצְ׳ | *אִסְטַבְלָא | missing 1; 9 unnumbered: A01411/alt=—; A01423/alt=—; A01453/alt=—; A02348/alt=2; A02402/alt=—; A02403/alt=—; A02422/alt=—; A02423/alt=—; A02871/alt=—; A02872/alt=— |  |
-| [U00882](https://jastrow.app/#rid:U00882) | alt | שִׁטָּה | שִׁיטָּה | missing 2; 1 unnumbered: U00732/alt=—; U00882/alt=1; U00884/alt=3 |  |
+| [H00750](https://jastrow.app/#rid:H00750) | alt | חַיְּתָא | /חייתא-4 | missing 1,2,3; 1 unnumbered: H00750/alt=4; H00898/alt=— |  |
+| [N00327](https://jastrow.app/#rid:N00327) | alt | נְוַל | /נוול-5 | missing 1,2; 1 unnumbered: N00327/alt=3; N00362/alt=— |  |
+| [A00880](https://jastrow.app/#rid:A00880) | alt | אוּרְיָא | /אוריא-5 | missing 1,2; 3 unnumbered: A00877=—; A00878=—; A00879=—; A00880/alt=3 |  |
+| [T00245](https://jastrow.app/#rid:T00245) | alt | רְדָא | /רדי-5 | missing 1,2; 3 unnumbered: T00229=—; T00242/alt=—; T00244/alt=—; T00245/alt=3 |  |
+| [A01335](https://jastrow.app/#rid:A01335) | alt | אֲמוּ׳ | /אימורים-2 | missing 1; 0 unnumbered: A01335/alt=2 |  |
+| [H01432](https://jastrow.app/#rid:H01432) | alt | חֲפִי׳ | /חפורה-2 | missing 1; 0 unnumbered: H01432/alt=2 |  |
+| [I00082](https://jastrow.app/#rid:I00082) | alt | טִיבְעָא | /טבעא | missing 1; 0 unnumbered: I00082/alt=2 |  |
+| [L00255](https://jastrow.app/#rid:L00255) | alt | לְיִיָּיה | /לויה-2 | missing 1; 0 unnumbered: L00255/alt=2 |  |
+| [M00354](https://jastrow.app/#rid:M00354) | alt | מָ׳ | /מהולתא-2 | missing 1; 0 unnumbered: M00354/alt=2 |  |
+| [O00251](https://jastrow.app/#rid:O00251) | alt | סוּגְיָיא | /סוגיא | missing 1; 0 unnumbered: O00251/alt=2 |  |
+| [P00596](https://jastrow.app/#rid:P00596) | alt | עִמְ׳ | /עימעום-2 | missing 1; 0 unnumbered: P00596/alt=2 |  |
+| [P00837](https://jastrow.app/#rid:P00837) | alt | עֵו׳ | /עלעל-3 | missing 1; 0 unnumbered: P00837/alt=2 |  |
+| [Q01192](https://jastrow.app/#rid:Q01192) | alt | פַּנְיָיא | /פניא | missing 1; 0 unnumbered: Q01192/alt=2 |  |
+| [G00550](https://jastrow.app/#rid:G00550) | alt | זִי׳ | /זמרא-4 | missing 1; 1 unnumbered: G00538/alt=—; G00550/alt=2 |  |
+| [K00877](https://jastrow.app/#rid:K00877) | alt | כִּנָּרָא | /כנרא-2 | missing 1; 1 unnumbered: K00876=—; K00877/alt=2 |  |
+| [O00124](https://jastrow.app/#rid:O00124) | alt | סַגִּיא | /סגי-5 | missing 1; 1 unnumbered: O00123/alt=—; O00124/alt=2 |  |
+| [O00564](https://jastrow.app/#rid:O00564) | alt | סִגְ׳ | /סיגנא-2 | missing 1; 1 unnumbered: O00564/alt=2; O00567/alt=— |  |
+| [O00659](https://jastrow.app/#rid:O00659) | alt | סִלּ׳ | /סילון-3 | missing 1; 1 unnumbered: O00659/alt=2; O00662/alt=— |  |
+| [P01273](https://jastrow.app/#rid:P01273) | headword | עֵרָבוֹן | /ערבון-2 | missing 1; 1 unnumbered: P01272=—; P01273=2 |  |
+| [S00814](https://jastrow.app/#rid:S00814) | alt | קִיטְפָא | /קטף-5 | missing 1; 1 unnumbered: S00814/alt=2; S00921=— |  |
+| [H00615](https://jastrow.app/#rid:H00615) | alt | חָטָא | /חטי-3 | missing 1; 2 unnumbered: H00579=—; H00613/alt=—; H00615/alt=2 |  |
+| [K00129](https://jastrow.app/#rid:K00129) | alt | כְּדַאי | /כדיי-2 | missing 1; 2 unnumbered: K00102=—; K00128/alt=—; K00129/alt=2 |  |
+| [P00016](https://jastrow.app/#rid:P00016) | alt | עֲבֵיד | /עבד-4 | missing 1; 2 unnumbered: P00014/alt=—; P00016/alt=2; P00044/alt=— |  |
+| [S01321](https://jastrow.app/#rid:S01321) | alt | קְלֵי | /קלי-8 | missing 1; 2 unnumbered: S01317=—; S01319=—; S01321/alt=2 |  |
+| [M02358](https://jastrow.app/#rid:M02358) | alt | מִי׳ | /מצר-7 | missing 1; 20 unnumbered: M01393/alt=—; M01489/alt=—; M01524/alt=—; M01568/alt=—; M01574/alt=—; M01597/alt=—; M01766/alt=—; M01774/alt=—; M01786/alt=—; M01787/alt=—; M01796/alt=—; M01952/alt=—; M01991/alt=—; M02034/alt=—; M02039/alt=—; M02358/alt=2; M02360/alt=—; M02851/alt=2; M02919/alt=—; M02995/alt=—; M03015/alt=—; M03086/alt=— |  |
+| [B00561](https://jastrow.app/#rid:B00561) | alt | בִּזָּא | /ביזא-2 | missing 1; 3 unnumbered: B00408=—; B00437=—; B00560/alt=—; B00561/alt=2 |  |
+| [Q01280](https://jastrow.app/#rid:Q01280) | alt | פִּיסְ׳ | /פסיונא | missing 1; 3 unnumbered: Q01229/alt=—; Q01280/alt=2; Q01281/alt=—; Q01309/alt=— |  |
+| [T00776](https://jastrow.app/#rid:T00776) | alt | רִי׳ | /רכסא-2 | missing 1; 39 unnumbered: T00053/alt=—; T00057/alt=—; T00065/alt=—; T00073/alt=—; T00111/alt=—; T00112/alt=—; T00131/alt=—; T00142/alt=—; T00159/alt=—; T00205/alt=—; T00206/alt=—; T00214/alt=—; T00219/alt=—; T00227/alt=—; T00228/alt=—; T00247/alt=—; T00282/alt=—; T00546/alt=—; T00656/alt=—; T00775/alt=—; T00776/alt=2; T00779/alt=—; T00793/alt=—; T00795/alt=—; T00796/alt=—; T00836/alt=—; T00844/alt=—; T00849/alt=—; T00858/alt=—; T00954/alt=—; T00962/alt=—; T00998/alt=—; T01012/alt=—; T01044/alt=—; T01103/alt=—; T01109/alt=—; T01110/alt=—; T01125/alt=—; T01142/alt=—; T01147/alt=— |  |
+| [H00209](https://jastrow.app/#rid:H00209) | alt | חִי׳ | /חדקא-2 | missing 1; 4 unnumbered: H00209/alt=2; H00367/alt=—; H01339/alt=2; H01340/alt=3; H01415/alt=—; H01424/alt=—; H01425/alt=— |  |
+| [C01377](https://jastrow.app/#rid:C01377) | alt | גִּירְ׳ | /גרסא-2 | missing 1; 5 unnumbered: C01277/alt=—; C01278/alt=—; C01284/alt=—; C01362/alt=—; C01367/alt=—; C01377/alt=2 |  |
+| [A02348](https://jastrow.app/#rid:A02348) | alt | אִיצְ׳ | /אסטבלא | missing 1; 9 unnumbered: A01411/alt=—; A01423/alt=—; A01453/alt=—; A02348/alt=2; A02402/alt=—; A02403/alt=—; A02422/alt=—; A02423/alt=—; A02871/alt=—; A02872/alt=— |  |
+| [U00882](https://jastrow.app/#rid:U00882) | alt | שִׁטָּה | /שיטה | missing 2; 1 unnumbered: U00732/alt=—; U00882/alt=1; U00884/alt=3 |  |
 
 ## X9 pointing differs within a numbered sequence (6)
 
-| rid | role | text | name | note | flagged |
+| rid | role | text | url | note | flagged |
 |---|---|---|---|---|---|
-| [C01235](https://jastrow.app/#rid:C01235) | alt | גַּרְבּא | גָּרָב | mark missing: ב (letter 3) qamats and dagesh vs dagesh (C01233/alt vs C01235/alt); sequence C01233/alt=1 גַּרְבָּא, C01235/alt=2 גַּרְבּא |  |
-| [U01393](https://jastrow.app/#rid:U01393) | alt | שׁי׳ | שִׁלְשׁוּל³ | mark missing: ש (letter 1) hiriq and shin dot vs shin dot (U01392/alt vs U01393/alt); sequence U01391/alt=1 שִׁי׳, U01392/alt=2 שִׁי׳, U01393/alt=3 שׁי׳ |  |
-| [M01323](https://jastrow.app/#rid:M01323) | alt | מֵתא | מֵיתָא | mark missing: ת (letter 2) qamats vs no mark (M01322/alt vs M01323/alt); sequence M01322/alt=1 מֵתָא, M01323/alt=2 מֵתא |  |
-| [A00719](https://jastrow.app/#rid:A00719) | headword | אֲוָנָא | אֲוָנָא II | vowels differ: א (letter 1) patah vs hataf patah, ו (letter 2) sheva vs qamats (A00718 vs A00719); sequence A00718=1 אַוְנָא, A00719=2 אֲוָנָא |  |
-| [U01388](https://jastrow.app/#rid:U01388) | alt | שִׁלִּשׁ | שָׁלַשׁ² | vowels differ: ל (letter 2) tsere and dagesh vs hiriq and dagesh (U01387/alt vs U01388/alt); sequence U01387/alt=1 שִׁלֵּשׁ, U01388/alt=2 שִׁלִּשׁ |  |
-| [T00893](https://jastrow.app/#rid:T00893) | alt | רְיעִי | רְעִי² | vowels differ: ר (letter 1) tsere vs sheva (T00892/alt vs T00893/alt); sequence T00892/alt=1 רֵיעִי, T00893/alt=2 רְיעִי |  |
+| [C01235](https://jastrow.app/#rid:C01235) | alt | גַּרְבּא | /גרב-6 | mark missing: ב (letter 3) qamats and dagesh vs dagesh (C01233/alt vs C01235/alt); sequence C01233/alt=1 גַּרְבָּא, C01235/alt=2 גַּרְבּא |  |
+| [U01393](https://jastrow.app/#rid:U01393) | alt | שׁי׳ | /שלשול-3 | mark missing: ש (letter 1) hiriq and shin dot vs shin dot (U01392/alt vs U01393/alt); sequence U01391/alt=1 שִׁי׳, U01392/alt=2 שִׁי׳, U01393/alt=3 שׁי׳ |  |
+| [M01323](https://jastrow.app/#rid:M01323) | alt | מֵתא | /מיתא | mark missing: ת (letter 2) qamats vs no mark (M01322/alt vs M01323/alt); sequence M01322/alt=1 מֵתָא, M01323/alt=2 מֵתא |  |
+| [A00719](https://jastrow.app/#rid:A00719) | headword | אֲוָנָא | /אונא-2 | vowels differ: א (letter 1) patah vs hataf patah, ו (letter 2) sheva vs qamats (A00718 vs A00719); sequence A00718=1 אַוְנָא, A00719=2 אֲוָנָא |  |
+| [U01388](https://jastrow.app/#rid:U01388) | alt | שִׁלִּשׁ | /שלש-3 | vowels differ: ל (letter 2) tsere and dagesh vs hiriq and dagesh (U01387/alt vs U01388/alt); sequence U01387/alt=1 שִׁלֵּשׁ, U01388/alt=2 שִׁלִּשׁ |  |
+| [T00893](https://jastrow.app/#rid:T00893) | alt | רְיעִי | /רעי-5 | vowels differ: ר (letter 1) tsere vs sheva (T00892/alt vs T00893/alt); sequence T00892/alt=1 רֵיעִי, T00893/alt=2 רְיעִי |  |
 
 ## Reviewed, kept (92)
 
 Rows read against the print and found right as stored, from `admin/pipeline/report/records/reviewed-kept.jsonl` (decisions 10-06 reviewed kept). They are out of their shape's count, not out of the report: a wrong record is still a row here.
 
-| rid | role | shape | text | name | note | reason | flagged |
+| rid | role | shape | text | url | note | reason | flagged |
 |---|---|---|---|---|---|---|---|
-| [J00321](https://jastrow.app/#rid:J00321) | headword | X1 starts with a vowel/dagesh mark | ַיי | ַיי |  | print sets a long underline standing for any one letter, with a patah under it, then `יי`; the stored bare patah is that line, kept (maintainer ticked "keep as stored", round 2, 2026-10-13). His note: "I feel like this is a display vs actual issue right?  The actual is just a patach, but clearly we have to find a way to display this, preferbly as close to print as we can." How the underline is drawn is the app's display question (ruling 10-13; ANNOTATIONS.md §5) |  |
-| [J00327](https://jastrow.app/#rid:J00327) | headword | X1 starts with a vowel/dagesh mark | ַיְידָא | ַיְידָא |  | print sets a long underline standing for any one letter, with a patah under it, then `יידא`; the stored bare patah is that line, kept (maintainer ticked "keep as stored", round 2, 2026-10-13, with J00321). His note: "I feel like this is a display vs actual issue right?  The actual is just a patach, but clearly we have to find a way to display this, preferbly as close to print as we can." How the underline is drawn is the app's display question (ruling 10-13; ANNOTATIONS.md §5) |  |
-| [A00312](https://jastrow.app/#rid:A00312) | headword | X10 first homograph unnumbered: implied I candidate | אַגְמָא | אַגְמָא II | A00311 אַגְמָא is a bare first form before a II; an I is set only where Jastrow's text names `אַגְמָא I` (10-13); 1 unnumbered: A00311=—; A00312=2 | print sets no numeral beside A00311 אַגְמָא (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `אַגְמָא I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so A00311 stays bare and the family's missing I is print's. P000342, which set an implied I there, is retired |  |
-| [B00538](https://jastrow.app/#rid:B00538) | headword | X10 first homograph unnumbered: implied I candidate | בִּיאָה | בִּיאָה II | B00537/alt בִּיאָה is a bare first form before a II; an I is set only where Jastrow's text names `בִּיאָה I` (10-13); 1 unnumbered: B00537/alt=—; B00538=2 | print sets no numeral beside B00537/alt בִּיאָה (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `בִּיאָה I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so B00537/alt stays bare and the family's missing I is print's. P000345, which set an implied I there, is retired |  |
-| [B00936](https://jastrow.app/#rid:B00936) | headword | X10 first homograph unnumbered: implied I candidate | בַּנַּאי | בַּנַּאי II | B00935 בַּנַּאי is a bare first form before a II; an I is set only where Jastrow's text names `בַּנַּאי I` (10-13); 1 unnumbered: B00935=—; B00936=2 | print sets no numeral beside B00935 בַּנַּאי (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `בַּנַּאי I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so B00935 stays bare and the family's missing I is print's. P000346, which set an implied I there, is retired |  |
-| [C00177](https://jastrow.app/#rid:C00177) | headword | X10 first homograph unnumbered: implied I candidate | גְּדוּדִית | גְּדוּדִית II | C00176 גְּדוּדִית is a bare first form before a II; an I is set only where Jastrow's text names `גְּדוּדִית I` (10-13); 1 unnumbered: C00176=—; C00177=2 | print sets no numeral beside C00176 גְּדוּדִית (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `גְּדוּדִית I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so C00176 stays bare and the family's missing I is print's. P000347, which set an implied I there, is retired |  |
-| [C00773](https://jastrow.app/#rid:C00773) | headword | X10 first homograph unnumbered: implied I candidate | גִּיס | גִּיס II | C00772 גֵּיס is a bare first form before a II; an I is set only where Jastrow's text names `גֵּיס I` (10-13); 0 unnumbered: C00773=2; C00774=2 | too ambiguous to place an I: C00707 and C00710 name C00773 II through its alternate, while C00841 `(v. גִּיס I) familiar` and K00444 `v. גִּיס I` call the familiar word I, which print numbers II. No box ticked; the maintainer's note (round 2, 2026-10-13): "To much ambuiguity here honestly. So no implied anything, and maybe an issue to dig in on." C00772 stays bare (ruling 10-13: an unproven I is not set); a textual-research candidate (review ledger L47) |  |
-| [E00114](https://jastrow.app/#rid:E00114) | headword | X10 first homograph unnumbered: implied I candidate | הֲדָיָא | הֲדָיָא II | E00113 הֶדְיָא is a bare first form before a II; an I is set only where Jastrow's text names `הֶדְיָא I` (10-13); 0 unnumbered: E00114=2 | E00113 `הֶדְיָא` is another word, not the unnumbered I of `הֲדָיָא` II (maintainer ticked "no, E00113 is another word; as stored: nothing to fix", round 2, 2026-10-13), and no text of Jastrow's names `הֶדְיָא I` (ruling 10-13): E00113 stays bare |  |
-| [H00433](https://jastrow.app/#rid:H00433) | headword | X10 first homograph unnumbered: implied I candidate | חוּצָה | חוּצָה II | H00432 חוּצָה is a bare first form before a II; an I is set only where Jastrow's text names `חוּצָה I` (10-13); 1 unnumbered: H00432=—; H00433=2 | print sets no numeral beside H00432 חוּצָה (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `חוּצָה I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so H00432 stays bare and the family's missing I is print's. P000349, which set an implied I there, is retired |  |
-| [H01291](https://jastrow.app/#rid:H01291) | headword | X10 first homograph unnumbered: implied I candidate | חַנִּין | חַנִּין II | H01290 חַנִּין is a bare first form before a II; an I is set only where Jastrow's text names `חַנִּין I` (10-13); 1 unnumbered: H01290=—; H01291=2 | print sets no numeral beside H01290 חַנִּין (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `חַנִּין I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so H01290 stays bare and the family's missing I is print's. P000350, which set an implied I there, is retired |  |
-| [J00113](https://jastrow.app/#rid:J00113) | headword | X10 first homograph unnumbered: implied I candidate | יָהּ | יָהּ II | J00112 יָהּ is a bare first form before a II; an I is set only where Jastrow's text names `יָהּ I` (10-13); 1 unnumbered: J00112=—; J00113=2 | print sets no numeral beside J00112 יָהּ (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `יָהּ I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so J00112 stays bare and the family's missing I is print's. P000351, which set an implied I there, is retired |  |
-| [N00186](https://jastrow.app/#rid:N00186) | headword | X10 first homograph unnumbered: implied I candidate | נְגַר | נְגַר II | N00185 נְגַר is a bare first form before a II; an I is set only where Jastrow's text names `נְגַר I` (10-13); 1 unnumbered: N00185=—; N00186=2 | print sets no numeral beside N00185 `נְגַר` (hOCR `UJ ch. same; 1) to scrape, plane, saw.`, leaf 199; headword-worklist.md pile A, "the print confirms the stored numbering"), and no text of Jastrow's names `נְגַר I` (every cite of `נגר` searched 2026-10-22: N00118, N00156, N00188, N00305 and N00620 cite N00185 bare). Ruling 10-13: an I is set only where Jastrow's text names it, so N00185 stays bare and the family's missing I is print's |  |
-| [O00995](https://jastrow.app/#rid:O00995) | headword | X10 first homograph unnumbered: implied I candidate | סְלִיקוּסְתָּא | סְלִיקוּסְתָּא II | O00994 סְלִיקוּסְתָּא is a bare first form before a II; an I is set only where Jastrow's text names `סְלִיקוּסְתָּא I` (10-13); 1 unnumbered: O00994=—; O00995=2 | print sets no numeral beside O00994 סְלִיקוּסְתָּא (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `סְלִיקוּסְתָּא I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so O00994 stays bare and the family's missing I is print's. P000352, which set an implied I there, is retired |  |
-| [Q01399](https://jastrow.app/#rid:Q01399) | headword | X10 first homograph unnumbered: implied I candidate | פַּפָּא | פַּפָּא II | Q01398 פַּפָּא is a bare first form before a II; an I is set only where Jastrow's text names `פַּפָּא I` (10-13); 1 unnumbered: Q01398=—; Q01399=2 | print sets no numeral beside Q01398 פַּפָּא (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `פַּפָּא I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so Q01398 stays bare and the family's missing I is print's. P000354, which set an implied I there, is retired |  |
-| [T00376](https://jastrow.app/#rid:T00376) | headword | X10 first homograph unnumbered: implied I candidate | רוּם | רוּם II | T00375 רוּם is a bare first form before a II; an I is set only where Jastrow's text names `רוּם I` (10-13); 3 unnumbered: T00374=—; T00375=—; T00376=2; T00377=— | no implied I here: neither T00374 `רוּם` (the Hebrew verb) nor T00375 (its `ch.` line) takes one (maintainer ticked "neither: no implied I here; as stored: nothing to fix", round 2, 2026-10-13), and no text of Jastrow's names `רוּם I` (ruling 10-13) |  |
-| [U02013](https://jastrow.app/#rid:U02013) | headword | X10 first homograph unnumbered: implied I candidate | שְׂרַף | שְׂרַף II | U02012 שְׂרָף is a bare first form before a II; an I is set only where Jastrow's text names `שְׂרָף I` (10-13); 2 unnumbered: U02004=—; U02006=—; U02013=2 | print sets no numeral beside U02012 `שְׂרָף`, and it takes no implied I: the maintainer ticked "something else"; note: "no numeral, no implied" (round 2, 2026-10-13). No text of Jastrow's names `שְׂרָף I` or `שְׂרַף I` (ruling 10-13) |  |
-| [S01339](https://jastrow.app/#rid:S01339) | headword | X5 maqaf fragment | קְלִיסְטַנְרִ־ | קְלִיסְטַנְרִ־ |  | print has it as stored. Note: correct page is 1376b |  |
-| [A01735](https://jastrow.app/#rid:A01735) | headword | X8 homograph numbering gap | אַכְסָן | *אַכְסָן II | missing 1; 1 unnumbered: A01734=—; A01735=2 | the family's missing numeral is stored where the source attaches it, the I on A01734's form `אַכְסְנָא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [A02363](https://jastrow.app/#rid:A02363) | headword | X8 homograph numbering gap | אִסְטוֹמְכָא | אִסְטוֹמְכָא II | missing 1; 1 unnumbered: A02362=—; A02363=2 | the family's missing numeral is stored where the source attaches it, the I on A02362's form `אִי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [A02413](https://jastrow.app/#rid:A02413) | headword | X8 homograph numbering gap | אִסְטְרַטְיָא | אִסְטְרַטְיָא II | missing 1; 1 unnumbered: A02412=—; A02413=2 | the family's missing numeral is stored where the source attaches it, the I on A02412's form `אִיסְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [A03217](https://jastrow.app/#rid:A03217) | headword | X8 homograph numbering gap | אָרַע | *אָרַע II | missing 1; 1 unnumbered: A03215=—; A03217=2 | A03215 `אָרַע` (to strike against, from `רעע`) is a word of its own outside the I, II run: the maintainer ticked "a word of its own outside the run; as stored: nothing to fix" (round 2, 2026-10-13). Print numbers the Hebrew A03217 II and the Aramaic A03216 I, A03218 II, and sets no numeral beside A03215 |  |
-| [B00050](https://jastrow.app/#rid:B00050) | headword | X8 homograph numbering gap | בָּב | בָּב II | missing 1; 1 unnumbered: B00049=—; B00050=2 | the family's missing numeral is stored where the source attaches it, the I on B00049's form `בָּבָא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [B00382](https://jastrow.app/#rid:B00382) | headword | X8 homograph numbering gap | בּוּרְסִי | בּוּרְסִי II | missing 1; 0 unnumbered: B00382=2; B00383=2 | the gap is Jastrow's own: nothing to fix. Note: add to issue, likely a textual mistake |  |
-| [B00560](https://jastrow.app/#rid:B00560) | headword | X8 homograph numbering gap | בִּיזָּא | בִּיזָּא I | missing 2; 1 unnumbered: B00560=1; B00561=—; B00562=3 | the family's missing numeral is stored where the source attaches it, the II on B00561's form `בִּזָּא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [B01159](https://jastrow.app/#rid:B01159) | headword | X8 homograph numbering gap | בְּרָא | בְּרָא II | missing 1; 2 unnumbered: B01154/alt=—; B01159=2; B01237/alt=— | B01158's gloss head `, בְּרָא I to create, v. ברי` is a cross-reference, not a second form of B01158's line, and the family has no gap to fill: the maintainer ticked "no, it is a cross-reference: ... nothing to fix"; note: "not a gap either, just a reference" (round 2, 2026-10-13) |  |
-| [E00008](https://jastrow.app/#rid:E00008) | headword | X8 homograph numbering gap | הִא | הִא III | missing 1,2; 0 unnumbered: E00008=3 | the gap is Jastrow's own: nothing to fix. Note: This is not a gap all numerals are present.  This is another case of looking at detector to see why this is flagged. |  |
-| [E00697](https://jastrow.app/#rid:E00697) | headword | X8 homograph numbering gap | הֶסֵּבָּה | הֶסֵּבָּה II | missing 1; 1 unnumbered: E00696=—; E00697=2 | the family's missing numeral is stored where the source attaches it, the I on E00696's form `הֶיסֵּ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [G00527](https://jastrow.app/#rid:G00527) | headword | X8 homograph numbering gap | זְמַם | זְמַם I | missing 2; 2 unnumbered: G00527=1; G00529=—; G00531=3; G00534=— | print leaves G00529 `זְמַם` (ch. same, to muzzle) bare between the `ch.` lines G00527 I and G00531 III: the gap is Jastrow's own (maintainer ticked "yes: the gap is Jastrow's own; as stored: nothing to fix", round 2, 2026-10-13) |  |
-| [H01222](https://jastrow.app/#rid:H01222) | headword | X8 homograph numbering gap | חֲמַר | חֲמַר III | missing 1,2; 2 unnumbered: H01219=—; H01221=—; H01222=3 | print numbers the Hebrew verbs H01218 `חָמַר` I and H01220 II, leaves their `ch.` lines H01219 and H01221 bare, and sets III on H01222: as stored (maintainer ticked "yes; as stored: nothing to fix", round 2, 2026-10-13). The cross-references that call the `ch.` lines I and II name numerals print does not set beside them |  |
-| [J00713](https://jastrow.app/#rid:J00713) | headword | X8 homograph numbering gap | יְתֵב | יְתֵב II | missing 1; 0 unnumbered: J00713=2 | the numeral is printed on a neighbour. Note: 712 alternate. J00712's alternate יְתֵיב already stores the I (HW-roman), so the stored data is what print sets |  |
-| [J00752](https://jastrow.app/#rid:J00752) | headword | X8 homograph numbering gap | יִתְרָא | יִתְרָא II | missing 1; 1 unnumbered: J00751=—; J00752=2 | the family's missing numeral is stored where the source attaches it, the I on J00751's form `יִי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [K00345](https://jastrow.app/#rid:K00345) | headword | X8 homograph numbering gap | כּוֹפֶר | כּוֹפֶר II | missing 1; 1 unnumbered: K00344=—; K00345=2 | the family's missing numeral is stored where the source attaches it, the I on K00344's form `כֹּפֶר`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [L00290](https://jastrow.app/#rid:L00290) | headword | X8 homograph numbering gap | לוּן | לוּן II | missing 1; 1 unnumbered: L00289=—; L00290=2 | the family's missing numeral is stored where the source attaches it, the I on L00289's form `לִין`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [L00694](https://jastrow.app/#rid:L00694) | headword | X8 homograph numbering gap | לָקִישׁ | לָקִישׁ II | missing 1; 1 unnumbered: L00693=—; L00694=2 | the family's missing numeral is stored where the source attaches it, the I on L00693's form `לְקִישָׁא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [M01319](https://jastrow.app/#rid:M01319) | headword | X8 homograph numbering gap | מֵישְׁרָא | מֵישְׁרָא II | missing 1; 1 unnumbered: M01318/alt=—; M01319=2 | the family's missing numeral is stored where the source attaches it, the I on M01318's form `מֵשְׁ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [M02162](https://jastrow.app/#rid:M02162) | headword | X8 homograph numbering gap | מַעֲצַרְתָּא | מַעֲצַרְתָּא II | missing 1; 0 unnumbered: M02162=2 | nothing to fix: the gap is Jastrow's own. Note: this pattern is due to the ambiguity of jastrow using numerals.  We are going to defualt to the print. |  |
-| [M02547](https://jastrow.app/#rid:M02547) | headword | X8 homograph numbering gap | מַרְדּוּתָא | מַרְדּוּתָא II | missing 1; 1 unnumbered: M02546=—; M02547=2 | the family's missing numeral is stored where the source attaches it, the I on M02546's form `מַרְדּוּ`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [N00260](https://jastrow.app/#rid:N00260) | headword | X8 homograph numbering gap | נְהִי | נְהִי II | missing 1; 0 unnumbered: N00260=2; N00261/alt=2 | there is no `נְהִי` I in print: the gap is Jastrow's own (maintainer ticked "no: the gap is Jastrow's own; as stored: nothing to fix", round 2, 2026-10-13). N00260's line reads `II m. (b.h.; v. preced.)`, its I being N00259 `נְהֵי` I, pointed apart (ruling 10-05) |  |
-| [N00738](https://jastrow.app/#rid:N00738) | headword | X8 homograph numbering gap | נִיפְלָא | נִיפְלָא II | missing 1; 1 unnumbered: N00737=—; N00738=2 | the family's missing numeral is stored where the source attaches it, the I on N00737's form `נִפְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [N00914](https://jastrow.app/#rid:N00914) | headword | X8 homograph numbering gap | נִסָּא | נִסָּא II | missing 1; 1 unnumbered: N00913/alt=—; N00914=2 | the family's missing numeral is stored where the source attaches it, the I on N00913's form `נִי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [O00086](https://jastrow.app/#rid:O00086) | headword | X8 homograph numbering gap | סְבַר | סְבַר II | missing 1; 1 unnumbered: O00085=—; O00086=2; O00087=3; O00090=4 | the family's missing numeral is stored where the source attaches it, the I on O00085's form `סְבֵיר`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [O00122](https://jastrow.app/#rid:O00122) | headword | X8 homograph numbering gap | סְגֵי | סְגֵי III | missing 1,2; 2 unnumbered: O00120=—; O00121=—; O00122=3 | the family's missing numeral is stored where the source attaches it, the I on O00120's form `סְגָא` and the II on O00121's form `סְגָא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [O00156](https://jastrow.app/#rid:O00156) | headword | X8 homograph numbering gap | סִגְנָא | סִגְנָא II | missing 1; 1 unnumbered: O00155/alt=—; O00156=2; O00157=3 | the family's missing numeral is stored where the source attaches it, the I on O00155's form `סִי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [O00352](https://jastrow.app/#rid:O00352) | headword | X8 homograph numbering gap | סוּמְּקָא | סוּמְּקָא II | missing 1; 1 unnumbered: O00351/alt=—; O00352=2 | the family's missing numeral is stored where the source attaches it, the I on O00351's form `סוּמְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [O00499](https://jastrow.app/#rid:O00499) | headword | X8 homograph numbering gap | סְטַן | סְטַן II | missing 1; 1 unnumbered: O00498=—; O00499=2 | the family's missing numeral is stored where the source attaches it, the I on O00498's form `שְׂטַן`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [O00563](https://jastrow.app/#rid:O00563) | headword | X8 homograph numbering gap | סִיגְנָא | סִיגְנָא I | missing 2; 1 unnumbered: O00563=1; O00564=—; O00565=3 | the family's missing numeral is stored where the source attaches it, the II on O00564's form `סִגְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [O00580](https://jastrow.app/#rid:O00580) | headword | X8 homograph numbering gap | סִידּוּר | סִידּוּר II | missing 1; 1 unnumbered: O00579=—; O00580=2 | the family's missing numeral is stored where the source attaches it, the I on O00579's form `סִדּ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [P00230](https://jastrow.app/#rid:P00230) | headword | X8 homograph numbering gap | עִוְיָא | עִוְיָא II | missing 1; 1 unnumbered: P00229=—; P00230=2 | the family's missing numeral is stored where the source attaches it, the I on P00229's form `עִוְו׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [P01246](https://jastrow.app/#rid:P01246) | headword | X8 homograph numbering gap | עָרֵב | עָרֵב I | missing 2; 0 unnumbered: P01246=1; P01249=3 | print has `עָרִב II` (hiriq): P01247 is right as stored, and this family's gap is Jastrow's. The one answer covers both rows (P01246 and P01247) |  |
-| [P01247](https://jastrow.app/#rid:P01247) | headword | X8 homograph numbering gap | עָרִב | עָרִב II | missing 1; 0 unnumbered: P01247=2 | print has `עָרִב II` (hiriq): P01247 is right as stored, and this family's gap is Jastrow's. The one answer covers both rows (P01246 and P01247) |  |
-| [P01418](https://jastrow.app/#rid:P01418) | headword | X8 homograph numbering gap | עִרְעֵר | עִרְעֵר II | missing 1; 1 unnumbered: P01417=—; P01418=2; P01420=3 | the family's missing numeral is stored where the source attaches it, the I on P01417's form `עִירְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [Q00629](https://jastrow.app/#rid:Q00629) | headword | X8 homograph numbering gap | פִּיטְמָא | פִּיטְמָא II | missing 1; 1 unnumbered: Q00628=—; Q00629=2 | the family's missing numeral is stored where the source attaches it, the I on Q00628's form `פִּטְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [Q01193](https://jastrow.app/#rid:Q01193) | headword | X8 homograph numbering gap | פַּנְיָא | פַּנְיָא III | missing 1,2; 2 unnumbered: Q01191/alt=—; Q01192=—; Q01193=3 | nothing to fix: the gap is Jastrow's own |  |
-| [Q01320](https://jastrow.app/#rid:Q01320) | headword | X8 homograph numbering gap | פְּסִיקְתָּא | פְּסִיקְתָּא II | missing 1; 1 unnumbered: Q01319=—; Q01320=2 | the family's missing numeral is stored where the source attaches it, the I on Q01319's form `פְּסִקְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [Q02092](https://jastrow.app/#rid:Q02092) | headword | X8 homograph numbering gap | פִּשְׁפֵּשׁ | פִּשְׁפֵּשׁ II | missing 1; 1 unnumbered: Q02090=—; Q02092=2 | the family's missing numeral is stored where the source attaches it, the I on Q02090's form `פִּי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [Q02095](https://jastrow.app/#rid:Q02095) | headword | X8 homograph numbering gap | פִּשְׁפָּשׁ | פִּשְׁפָּשׁ II | missing 1; 1 unnumbered: Q02094=—; Q02095=2; Q02096=3 | the family's missing numeral is stored where the source attaches it, the I on Q02094's form `פִּי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [R00293](https://jastrow.app/#rid:R00293) | headword | X8 homograph numbering gap | צִיבָּא | צִיבָּא II | missing 1; 1 unnumbered: R00292=—; R00293=2 | the family's missing numeral is stored where the source attaches it, the I on R00292's form `צִבָּא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [R00608](https://jastrow.app/#rid:R00608) | headword | X8 homograph numbering gap | צִנָּה | צִנָּה II | missing 1; 2 unnumbered: R00607=—; R00608=2; R00609=— | the family's missing numeral is stored where the source attaches it, the I on R00607's form `צִינָּה`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [R00615](https://jastrow.app/#rid:R00615) | headword | X8 homograph numbering gap | צִנּוֹרָא | צִנּוֹרָא II | missing 1; 1 unnumbered: R00614=—; R00615=2; R00616=3 | the family's missing numeral is stored where the source attaches it, the I on R00614's form `צִינּ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [S01065](https://jastrow.app/#rid:S01065) | headword | X8 homograph numbering gap | קִיסְטָא | קִיסְטָא II | missing 1; 1 unnumbered: S01064/alt=—; S01065=2 | the family's missing numeral is stored where the source attaches it, the I on S01064's form `קִסְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [S01975](https://jastrow.app/#rid:S01975) | headword | X8 homograph numbering gap | קָרָחָא | קָרָחָא II | missing 1; 1 unnumbered: S01973/alt=—; S01975=2 | nothing to fix: the gap is Jastrow's own |  |
-| [T00337](https://jastrow.app/#rid:T00337) | headword | X8 homograph numbering gap | רְוָוקָא | רְוָוקָא II | missing 1; 1 unnumbered: T00336=—; T00337=2 | the family's missing numeral is stored where the source attaches it, the I on T00336's form `רְוָקָא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [T00895](https://jastrow.app/#rid:T00895) | headword | X8 homograph numbering gap | רְעִי | רְעִי III | missing 1,2; 2 unnumbered: T00892=—; T00893=—; T00895=3 | the family's missing numeral is stored where the source attaches it, the I on T00892's form `רֵיעִי` and the II on T00893's form `רְיעִי`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [U00881](https://jastrow.app/#rid:U00881) | headword | X8 homograph numbering gap | שִׁיטָּא | שִׁיטָּא II | missing 1; 2 unnumbered: U00880=—; U00881=2; U00888/alt=— | the family's missing numeral is stored where the source attaches it, the I on U00880's form `שִׁטָּא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [U00883](https://jastrow.app/#rid:U00883) | headword | X8 homograph numbering gap | שִׁיטָּה | שִׁיטָּה II | missing 1; 3 unnumbered: U00882=—; U00883=2; U00884=—; U00888/alt=— | the family's missing numeral is stored where the source attaches it, the I on U00882's form `שִׁטָּה`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [U01047](https://jastrow.app/#rid:U01047) | headword | X8 homograph numbering gap | שִׁיקּוּר | שִׁיקּוּר II | missing 1; 1 unnumbered: U01046=—; U01047=2 | the family's missing numeral is stored where the source attaches it, the I on U01046's form `שִׁקּ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [U01397](https://jastrow.app/#rid:U01397) | headword | X8 homograph numbering gap | שִׁלְשֵׁל | שִׁלְשֵׁל II | missing 1; 1 unnumbered: U01396=—; U01397=2 | print sets the family's I after U01396's abbreviation `שִׁילְ׳` (maintainer ticked "after the abbreviation `שִׁילְ׳`: store it on that alternate", round 2, 2026-10-13). P000585 stores it there (HW-roman), as U01391–U01393 store theirs on the abbreviation, so the family's I is on a form spelled apart and U01396's full form `שִׁלְשֵׁל` stays bare, as U02098's is kept |  |
-| [U02098](https://jastrow.app/#rid:U02098) | headword | X8 homograph numbering gap | שַׁתְיָא | שַׁתְיָא II | missing 1; 1 unnumbered: U02097=—; U02098=2 | a different numeral or mark is there. Note: The I sits on the alt of 2097 (side note, looks like it got misplaced into gloss). P000340 and P000341 put that I on U02097's alternate שַׁתְיָיא and take it out of the gloss (HW-roman), so the family's I is on a form spelled apart |  |
-| [V00543](https://jastrow.app/#rid:V00543) | headword | X8 homograph numbering gap | תִּכְלָא | תִּכְלָא III | missing 1,2; 2 unnumbered: V00541/alt=—; V00542=—; V00543=3 | the family's missing numeral is stored where the source attaches it, the I on V00541's form `תִּי׳` and the II on V00542's form `תִּי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [V01023](https://jastrow.app/#rid:V01023) | headword | X8 homograph numbering gap | תַּרְנְגוֹלָא | תַּרְנְגוֹלָא II | missing 1; 1 unnumbered: V01022/alt=—; V01023=2 | the family's missing numeral is stored where the source attaches it, the I on V01022's form `תַּרְנַגְלָא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
-| [A00279](https://jastrow.app/#rid:A00279) | headword | X9 pointing differs within a numbered sequence | אֲגוֹרָא | אֲגוֹרָא II | vowels differ: א (letter 1) hataf segol vs hataf patah (A00278 vs A00279); sequence A00278=1 אֱגוֹרָא, A00279=2 אֲגוֹרָא | yes, both as stored: nothing to fix |  |
-| [A01420](https://jastrow.app/#rid:A01420) | headword | X9 pointing differs within a numbered sequence | אִיסְטְוָוא | אִיסְטְוָוא II | mark missing: ס (letter 3) no mark vs sheva (A01419 vs A01420); sequence A01419=1 אִיסטְוָוא, A01420=2 אִיסְטְוָוא | print has no mark there: `אִיסטְוָוא` is right as stored. Note: This is likely a textual error but would require extensive research.  I would love an issue oppened on it, as I think it is a fascinating question. |  |
-| [A01698](https://jastrow.app/#rid:A01698) | headword | X9 pointing differs within a numbered sequence | אֲכַל | אֲכַל II | vowels differ: א (letter 1) qamats vs hataf patah (A01697/alt vs A01698); sequence A01697/alt=1 אָכַל, A01698=2 אֲכַל; unnumbered between them: A01697 אֲכַל | yes, both as stored: nothing to fix |  |
-| [B01014](https://jastrow.app/#rid:B01014) | headword | X9 pointing differs within a numbered sequence | בְּסַר | בְּסַר III | vowels differ: ב (letter 1) qamats and dagesh vs sheva and dagesh (B01012 vs B01014); sequence B01010=1 בָּסַר, B01012=2 בָּסַר, B01014=3 בְּסַר; unnumbered between them: B01013 בְּסַר | yes, both as stored: nothing to fix |  |
-| [E00802](https://jastrow.app/#rid:E00802) | headword | X9 pointing differs within a numbered sequence | הֲקָצָה | הֲקָצָה II | mark missing: צ (letter 3) no mark vs qamats (E00801 vs E00802); sequence E00801=1 הֲקָצה, E00802=2 הֲקָצָה | print has no mark there: `הֲקָצה` is right as stored. Note: Another likley textual issue, add with other, fascinating I say..... |  |
-| [E00837](https://jastrow.app/#rid:E00837) | headword | X9 pointing differs within a numbered sequence | הרְהוּן | הרְהוּן II | mark missing: ה (letter 1) hiriq vs no mark (E00836 vs E00837); sequence E00836=1 הִרְהוּן, E00837=2 הרְהוּן | print has no mark there: `הרְהוּן` is right as stored. Note: another to add to that textual issues research issue |  |
-| [H00067](https://jastrow.app/#rid:H00067) | headword | X9 pointing differs within a numbered sequence | חֲבִילָא | חֲבִילָא II | mark missing: ל (letter 4) no mark vs qamats (H00066 vs H00067); sequence H00066=1 חֲבִילא, H00067=2 חֲבִילָא | print has no mark there: `חֲבִילא` is right as stored. Note: as above |  |
-| [H00749](https://jastrow.app/#rid:H00749) | headword | X9 pointing differs within a numbered sequence | חַיְּיתָא | חַיְּיתָא III | mark missing: י (letter 2) sheva vs sheva and dagesh (H00748 vs H00749); sequence H00747=1 חַיְיתָא, H00748=2 חַיְיתָא, H00749=3 חַיְּיתָא | print has no mark there: `חַיְיתָא` is right as stored |  |
-| [H01089](https://jastrow.app/#rid:H01089) | headword | X9 pointing differs within a numbered sequence | חֲלָמָה | חֲלָמָה II | vowels differ: ח (letter 1) sheva vs hataf patah (H01088/alt vs H01089); sequence H01088/alt=1 חְלָמָה, H01089=2 חֲלָמָה | yes, both as stored: nothing to fix |  |
-| [I00057](https://jastrow.app/#rid:I00057) | headword | X9 pointing differs within a numbered sequence | טְבִיעָה | טְבִיעָה II | mark missing: ע (letter 4) no mark vs qamats (I00056 vs I00057); sequence I00056=1 טְבִיעה, I00057=2 טְבִיעָה | print has no mark there: `טְבִיעה` is right as stored. Note: textual issue research |  |
-| [I00618](https://jastrow.app/#rid:I00618) | headword | X9 pointing differs within a numbered sequence | טְעַן | טְעַן III | vowels differ: ט (letter 1) qamats vs sheva (I00616 vs I00618); sequence I00614=1 טָעַן, I00616=2 טָעַן, I00618=3 טְעַן; unnumbered between them: I00617 טְעַן | print numbers the Hebrew verb and leaves the Aramaic lines unnumbered, as stored: nothing to fix |  |
-| [M02008](https://jastrow.app/#rid:M02008) | headword | X9 pointing differs within a numbered sequence | מְסַר | מְסַר II | vowels differ: מ (letter 1) qamats vs sheva (M02007/alt vs M02008); sequence M02007/alt=1 מָסַר, M02008=2 מְסַר; unnumbered between them: M02007 מְסַר | yes, both as stored: nothing to fix |  |
-| [M02354](https://jastrow.app/#rid:M02354) | headword | X9 pointing differs within a numbered sequence | מָצַר | מָצַר II | mark missing: צ (letter 2) patah and dagesh vs patah (M02352 vs M02354); sequence M02352=1 מָצַּר, M02354=2 מָצַר | print has no mark there: `מָצַר` is right as stored |  |
-| [M02850](https://jastrow.app/#rid:M02850) | headword | X9 pointing differs within a numbered sequence | מְשַׁח | מְשַׁח III | vowels differ: מ (letter 1) qamats vs sheva (M02848 vs M02850); sequence M02846=1 מָשַׁח, M02848=2 מָשַׁח, M02850=3 מְשַׁח, M02851=4 מְשַׁח; unnumbered between them: M02849 מְשַׁח | print numbers the Hebrew verb and leaves the Aramaic lines unnumbered, as stored: nothing to fix |  |
-| [N01196](https://jastrow.app/#rid:N01196) | headword | X9 pointing differs within a numbered sequence | נָקִי | נָקִי II | mark missing: נ (letter 1) qamats and dagesh vs qamats (N01195 vs N01196); sequence N01195=1 נָּקִי, N01196=2 נָקִי | print has no mark there: `נָקִי` is right as stored |  |
-| [P00477](https://jastrow.app/#rid:P00477) | headword | X9 pointing differs within a numbered sequence | עַטַר | עַטַר II | vowels differ: ע (letter 1) hataf patah vs patah (P00476 vs P00477); sequence P00476=1 עֲטַר, P00477=2 עַטַר, P00478=3 עֲטַר | yes, both as stored: nothing to fix. Note: 447 is actually on page 1064b |  |
-| [P00959](https://jastrow.app/#rid:P00959) | headword | X9 pointing differs within a numbered sequence | עֲנָוָה | עֲנָוָה II | mark missing: ע (letter 1) no mark vs hataf patah (P00958 vs P00959); sequence P00958=1 ענָוָה, P00959=2 עֲנָוָה | print has no mark there: `ענָוָה` is right as stored. Note: textual issue research |  |
-| [Q01863](https://jastrow.app/#rid:Q01863) | headword | X9 pointing differs within a numbered sequence | פִּרִכֵּס | פִּרִכֵּס II | vowels differ: ר (letter 2) sheva vs hiriq (Q01862 vs Q01863); sequence Q01862=1 פִּרְכֵּס, Q01863=2 פִּרִכֵּס | yes, both as stored: nothing to fix |  |
-| [S00061](https://jastrow.app/#rid:S00061) | headword | X9 pointing differs within a numbered sequence | קְבַל | קְבַל III | vowels differ: ק (letter 1) qamats vs sheva (S00059 vs S00061); sequence S00057=1 קָבַל, S00059=2 קָבַל, S00061=3 קְבַל, S00064=4 קְבל; unnumbered between them: S00060 קְבַל | print numbers the Hebrew verb and leaves the Aramaic lines unnumbered, as stored: nothing to fix |  |
-| [S00064](https://jastrow.app/#rid:S00064) | headword | X9 pointing differs within a numbered sequence | קְבל | קְבל IV | mark missing: ב (letter 2) patah vs no mark (S00061 vs S00064); sequence S00057=1 קָבַל, S00059=2 קָבַל, S00061=3 קְבַל, S00064=4 קְבל | print has no mark there: `קְבל` is right as stored |  |
-| [T00500](https://jastrow.app/#rid:T00500) | headword | X9 pointing differs within a numbered sequence | רִחִים | רִחִים II | vowels differ: ר (letter 1) sheva vs hiriq (T00499 vs T00500); sequence T00499=1 רְחִים, T00500=2 רִחִים | yes, both as stored: nothing to fix |  |
-| [U00710](https://jastrow.app/#rid:U00710) | headword | X9 pointing differs within a numbered sequence | שְׁחַר | שְׁחַר IV | vowels differ: ש (letter 1) qamats and shin dot vs sheva and shin dot (U00708 vs U00710); sequence U00704=1 שָׁחַר, U00706=2 שָׁחַר, U00708=3 שָׁחַר, U00710=4 שְׁחַר; unnumbered between them: U00709 שְׁחַר | print numbers the Hebrew verb and leaves the Aramaic lines unnumbered, as stored: nothing to fix |  |
+| [J00321](https://jastrow.app/#rid:J00321) | headword | X1 starts with a vowel/dagesh mark | ַיי | /יי-3 |  | print sets a long underline standing for any one letter, with a patah under it, then `יי`; the stored bare patah is that line, kept (maintainer ticked "keep as stored", round 2, 2026-10-13). His note: "I feel like this is a display vs actual issue right?  The actual is just a patach, but clearly we have to find a way to display this, preferbly as close to print as we can." How the underline is drawn is the app's display question (ruling 10-13; ANNOTATIONS.md §5) |  |
+| [J00327](https://jastrow.app/#rid:J00327) | headword | X1 starts with a vowel/dagesh mark | ַיְידָא | /יידא |  | print sets a long underline standing for any one letter, with a patah under it, then `יידא`; the stored bare patah is that line, kept (maintainer ticked "keep as stored", round 2, 2026-10-13, with J00321). His note: "I feel like this is a display vs actual issue right?  The actual is just a patach, but clearly we have to find a way to display this, preferbly as close to print as we can." How the underline is drawn is the app's display question (ruling 10-13; ANNOTATIONS.md §5) |  |
+| [A00312](https://jastrow.app/#rid:A00312) | headword | X10 first homograph unnumbered: implied I candidate | אַגְמָא | /אגמא-3 | A00311 אַגְמָא is a bare first form before a II; an I is set only where Jastrow's text names `אַגְמָא I` (10-13); 1 unnumbered: A00311=—; A00312=2 | print sets no numeral beside A00311 אַגְמָא (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `אַגְמָא I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so A00311 stays bare and the family's missing I is print's. P000342, which set an implied I there, is retired |  |
+| [B00538](https://jastrow.app/#rid:B00538) | headword | X10 first homograph unnumbered: implied I candidate | בִּיאָה | /ביאה | B00537/alt בִּיאָה is a bare first form before a II; an I is set only where Jastrow's text names `בִּיאָה I` (10-13); 1 unnumbered: B00537/alt=—; B00538=2 | print sets no numeral beside B00537/alt בִּיאָה (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `בִּיאָה I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so B00537/alt stays bare and the family's missing I is print's. P000345, which set an implied I there, is retired |  |
+| [B00936](https://jastrow.app/#rid:B00936) | headword | X10 first homograph unnumbered: implied I candidate | בַּנַּאי | /בנאי-2 | B00935 בַּנַּאי is a bare first form before a II; an I is set only where Jastrow's text names `בַּנַּאי I` (10-13); 1 unnumbered: B00935=—; B00936=2 | print sets no numeral beside B00935 בַּנַּאי (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `בַּנַּאי I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so B00935 stays bare and the family's missing I is print's. P000346, which set an implied I there, is retired |  |
+| [C00177](https://jastrow.app/#rid:C00177) | headword | X10 first homograph unnumbered: implied I candidate | גְּדוּדִית | /גדודית-2 | C00176 גְּדוּדִית is a bare first form before a II; an I is set only where Jastrow's text names `גְּדוּדִית I` (10-13); 1 unnumbered: C00176=—; C00177=2 | print sets no numeral beside C00176 גְּדוּדִית (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `גְּדוּדִית I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so C00176 stays bare and the family's missing I is print's. P000347, which set an implied I there, is retired |  |
+| [C00773](https://jastrow.app/#rid:C00773) | headword | X10 first homograph unnumbered: implied I candidate | גִּיס | /גיס-2 | C00772 גֵּיס is a bare first form before a II; an I is set only where Jastrow's text names `גֵּיס I` (10-13); 0 unnumbered: C00773=2; C00774=2 | too ambiguous to place an I: C00707 and C00710 name C00773 II through its alternate, while C00841 `(v. גִּיס I) familiar` and K00444 `v. גִּיס I` call the familiar word I, which print numbers II. No box ticked; the maintainer's note (round 2, 2026-10-13): "To much ambuiguity here honestly. So no implied anything, and maybe an issue to dig in on." C00772 stays bare (ruling 10-13: an unproven I is not set); a textual-research candidate (review ledger L47) |  |
+| [E00114](https://jastrow.app/#rid:E00114) | headword | X10 first homograph unnumbered: implied I candidate | הֲדָיָא | /הדיא-2 | E00113 הֶדְיָא is a bare first form before a II; an I is set only where Jastrow's text names `הֶדְיָא I` (10-13); 0 unnumbered: E00114=2 | E00113 `הֶדְיָא` is another word, not the unnumbered I of `הֲדָיָא` II (maintainer ticked "no, E00113 is another word; as stored: nothing to fix", round 2, 2026-10-13), and no text of Jastrow's names `הֶדְיָא I` (ruling 10-13): E00113 stays bare |  |
+| [H00433](https://jastrow.app/#rid:H00433) | headword | X10 first homograph unnumbered: implied I candidate | חוּצָה | /חוצה-2 | H00432 חוּצָה is a bare first form before a II; an I is set only where Jastrow's text names `חוּצָה I` (10-13); 1 unnumbered: H00432=—; H00433=2 | print sets no numeral beside H00432 חוּצָה (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `חוּצָה I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so H00432 stays bare and the family's missing I is print's. P000349, which set an implied I there, is retired |  |
+| [H01291](https://jastrow.app/#rid:H01291) | headword | X10 first homograph unnumbered: implied I candidate | חַנִּין | /חנין-2 | H01290 חַנִּין is a bare first form before a II; an I is set only where Jastrow's text names `חַנִּין I` (10-13); 1 unnumbered: H01290=—; H01291=2 | print sets no numeral beside H01290 חַנִּין (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `חַנִּין I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so H01290 stays bare and the family's missing I is print's. P000350, which set an implied I there, is retired |  |
+| [J00113](https://jastrow.app/#rid:J00113) | headword | X10 first homograph unnumbered: implied I candidate | יָהּ | /יה-2 | J00112 יָהּ is a bare first form before a II; an I is set only where Jastrow's text names `יָהּ I` (10-13); 1 unnumbered: J00112=—; J00113=2 | print sets no numeral beside J00112 יָהּ (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `יָהּ I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so J00112 stays bare and the family's missing I is print's. P000351, which set an implied I there, is retired |  |
+| [N00186](https://jastrow.app/#rid:N00186) | headword | X10 first homograph unnumbered: implied I candidate | נְגַר | /נגר-3 | N00185 נְגַר is a bare first form before a II; an I is set only where Jastrow's text names `נְגַר I` (10-13); 1 unnumbered: N00185=—; N00186=2 | print sets no numeral beside N00185 `נְגַר` (hOCR `UJ ch. same; 1) to scrape, plane, saw.`, leaf 199; headword-worklist.md pile A, "the print confirms the stored numbering"), and no text of Jastrow's names `נְגַר I` (every cite of `נגר` searched 2026-10-22: N00118, N00156, N00188, N00305 and N00620 cite N00185 bare). Ruling 10-13: an I is set only where Jastrow's text names it, so N00185 stays bare and the family's missing I is print's |  |
+| [O00995](https://jastrow.app/#rid:O00995) | headword | X10 first homograph unnumbered: implied I candidate | סְלִיקוּסְתָּא | /סליקוסתא-2 | O00994 סְלִיקוּסְתָּא is a bare first form before a II; an I is set only where Jastrow's text names `סְלִיקוּסְתָּא I` (10-13); 1 unnumbered: O00994=—; O00995=2 | print sets no numeral beside O00994 סְלִיקוּסְתָּא (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `סְלִיקוּסְתָּא I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so O00994 stays bare and the family's missing I is print's. P000352, which set an implied I there, is retired |  |
+| [Q01399](https://jastrow.app/#rid:Q01399) | headword | X10 first homograph unnumbered: implied I candidate | פַּפָּא | /פפא-2 | Q01398 פַּפָּא is a bare first form before a II; an I is set only where Jastrow's text names `פַּפָּא I` (10-13); 1 unnumbered: Q01398=—; Q01399=2 | print sets no numeral beside Q01398 פַּפָּא (maintainer print read, 2026-10-06: "no numeral beside it"), and no text of Jastrow's names `פַּפָּא I`. Ruling 10-13 (amending 10-06 implied I): a sole bare candidate before the II is no proof, so Q01398 stays bare and the family's missing I is print's. P000354, which set an implied I there, is retired |  |
+| [T00376](https://jastrow.app/#rid:T00376) | headword | X10 first homograph unnumbered: implied I candidate | רוּם | /רום-3 | T00375 רוּם is a bare first form before a II; an I is set only where Jastrow's text names `רוּם I` (10-13); 3 unnumbered: T00374=—; T00375=—; T00376=2; T00377=— | no implied I here: neither T00374 `רוּם` (the Hebrew verb) nor T00375 (its `ch.` line) takes one (maintainer ticked "neither: no implied I here; as stored: nothing to fix", round 2, 2026-10-13), and no text of Jastrow's names `רוּם I` (ruling 10-13) |  |
+| [U02013](https://jastrow.app/#rid:U02013) | headword | X10 first homograph unnumbered: implied I candidate | שְׂרַף | /שרף-11 | U02012 שְׂרָף is a bare first form before a II; an I is set only where Jastrow's text names `שְׂרָף I` (10-13); 2 unnumbered: U02004=—; U02006=—; U02013=2 | print sets no numeral beside U02012 `שְׂרָף`, and it takes no implied I: the maintainer ticked "something else"; note: "no numeral, no implied" (round 2, 2026-10-13). No text of Jastrow's names `שְׂרָף I` or `שְׂרַף I` (ruling 10-13) |  |
+| [S01339](https://jastrow.app/#rid:S01339) | headword | X5 maqaf fragment | קְלִיסְטַנְרִ־ | /קליסטנר־ |  | print has it as stored. Note: correct page is 1376b |  |
+| [A01735](https://jastrow.app/#rid:A01735) | headword | X8 homograph numbering gap | אַכְסָן | /אכסן-3 | missing 1; 1 unnumbered: A01734=—; A01735=2 | the family's missing numeral is stored where the source attaches it, the I on A01734's form `אַכְסְנָא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [A02363](https://jastrow.app/#rid:A02363) | headword | X8 homograph numbering gap | אִסְטוֹמְכָא | /אסטומכא-2 | missing 1; 1 unnumbered: A02362=—; A02363=2 | the family's missing numeral is stored where the source attaches it, the I on A02362's form `אִי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [A02413](https://jastrow.app/#rid:A02413) | headword | X8 homograph numbering gap | אִסְטְרַטְיָא | /אסטרטיא-2 | missing 1; 1 unnumbered: A02412=—; A02413=2 | the family's missing numeral is stored where the source attaches it, the I on A02412's form `אִיסְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [A03217](https://jastrow.app/#rid:A03217) | headword | X8 homograph numbering gap | אָרַע | /ארע-3 | missing 1; 1 unnumbered: A03215=—; A03217=2 | A03215 `אָרַע` (to strike against, from `רעע`) is a word of its own outside the I, II run: the maintainer ticked "a word of its own outside the run; as stored: nothing to fix" (round 2, 2026-10-13). Print numbers the Hebrew A03217 II and the Aramaic A03216 I, A03218 II, and sets no numeral beside A03215 |  |
+| [B00050](https://jastrow.app/#rid:B00050) | headword | X8 homograph numbering gap | בָּב | /בב-2 | missing 1; 1 unnumbered: B00049=—; B00050=2 | the family's missing numeral is stored where the source attaches it, the I on B00049's form `בָּבָא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [B00382](https://jastrow.app/#rid:B00382) | headword | X8 homograph numbering gap | בּוּרְסִי | /בורסי | missing 1; 0 unnumbered: B00382=2; B00383=2 | the gap is Jastrow's own: nothing to fix. Note: add to issue, likely a textual mistake |  |
+| [B00560](https://jastrow.app/#rid:B00560) | headword | X8 homograph numbering gap | בִּיזָּא | /ביזא | missing 2; 1 unnumbered: B00560=1; B00561=—; B00562=3 | the family's missing numeral is stored where the source attaches it, the II on B00561's form `בִּזָּא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [B01159](https://jastrow.app/#rid:B01159) | headword | X8 homograph numbering gap | בְּרָא | /ברא-3 | missing 1; 2 unnumbered: B01154/alt=—; B01159=2; B01237/alt=— | B01158's gloss head `, בְּרָא I to create, v. ברי` is a cross-reference, not a second form of B01158's line, and the family has no gap to fill: the maintainer ticked "no, it is a cross-reference: ... nothing to fix"; note: "not a gap either, just a reference" (round 2, 2026-10-13) |  |
+| [E00008](https://jastrow.app/#rid:E00008) | headword | X8 homograph numbering gap | הִא | /הא-4 | missing 1,2; 0 unnumbered: E00008=3 | the gap is Jastrow's own: nothing to fix. Note: This is not a gap all numerals are present.  This is another case of looking at detector to see why this is flagged. |  |
+| [E00697](https://jastrow.app/#rid:E00697) | headword | X8 homograph numbering gap | הֶסֵּבָּה | /הסבה-2 | missing 1; 1 unnumbered: E00696=—; E00697=2 | the family's missing numeral is stored where the source attaches it, the I on E00696's form `הֶיסֵּ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [G00527](https://jastrow.app/#rid:G00527) | headword | X8 homograph numbering gap | זְמַם | /זמם-2 | missing 2; 2 unnumbered: G00527=1; G00529=—; G00531=3; G00534=— | print leaves G00529 `זְמַם` (ch. same, to muzzle) bare between the `ch.` lines G00527 I and G00531 III: the gap is Jastrow's own (maintainer ticked "yes: the gap is Jastrow's own; as stored: nothing to fix", round 2, 2026-10-13) |  |
+| [H01222](https://jastrow.app/#rid:H01222) | headword | X8 homograph numbering gap | חֲמַר | /חמר-5 | missing 1,2; 2 unnumbered: H01219=—; H01221=—; H01222=3 | print numbers the Hebrew verbs H01218 `חָמַר` I and H01220 II, leaves their `ch.` lines H01219 and H01221 bare, and sets III on H01222: as stored (maintainer ticked "yes; as stored: nothing to fix", round 2, 2026-10-13). The cross-references that call the `ch.` lines I and II name numerals print does not set beside them |  |
+| [J00713](https://jastrow.app/#rid:J00713) | headword | X8 homograph numbering gap | יְתֵב | /יתב-2 | missing 1; 0 unnumbered: J00713=2 | the numeral is printed on a neighbour. Note: 712 alternate. J00712's alternate יְתֵיב already stores the I (HW-roman), so the stored data is what print sets |  |
+| [J00752](https://jastrow.app/#rid:J00752) | headword | X8 homograph numbering gap | יִתְרָא | /יתרא-2 | missing 1; 1 unnumbered: J00751=—; J00752=2 | the family's missing numeral is stored where the source attaches it, the I on J00751's form `יִי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [K00345](https://jastrow.app/#rid:K00345) | headword | X8 homograph numbering gap | כּוֹפֶר | /כופר-3 | missing 1; 1 unnumbered: K00344=—; K00345=2 | the family's missing numeral is stored where the source attaches it, the I on K00344's form `כֹּפֶר`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [L00290](https://jastrow.app/#rid:L00290) | headword | X8 homograph numbering gap | לוּן | /לון-2 | missing 1; 1 unnumbered: L00289=—; L00290=2 | the family's missing numeral is stored where the source attaches it, the I on L00289's form `לִין`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [L00694](https://jastrow.app/#rid:L00694) | headword | X8 homograph numbering gap | לָקִישׁ | /לקיש-2 | missing 1; 1 unnumbered: L00693=—; L00694=2 | the family's missing numeral is stored where the source attaches it, the I on L00693's form `לְקִישָׁא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [M01319](https://jastrow.app/#rid:M01319) | headword | X8 homograph numbering gap | מֵישְׁרָא | /מישרא-2 | missing 1; 1 unnumbered: M01318/alt=—; M01319=2 | the family's missing numeral is stored where the source attaches it, the I on M01318's form `מֵשְׁ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [M02162](https://jastrow.app/#rid:M02162) | headword | X8 homograph numbering gap | מַעֲצַרְתָּא | /מעצרתא-2 | missing 1; 0 unnumbered: M02162=2 | nothing to fix: the gap is Jastrow's own. Note: this pattern is due to the ambiguity of jastrow using numerals.  We are going to defualt to the print. |  |
+| [M02547](https://jastrow.app/#rid:M02547) | headword | X8 homograph numbering gap | מַרְדּוּתָא | /מרדותא-2 | missing 1; 1 unnumbered: M02546=—; M02547=2 | the family's missing numeral is stored where the source attaches it, the I on M02546's form `מַרְדּוּ`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [N00260](https://jastrow.app/#rid:N00260) | headword | X8 homograph numbering gap | נְהִי | /נהי-2 | missing 1; 0 unnumbered: N00260=2; N00261/alt=2 | there is no `נְהִי` I in print: the gap is Jastrow's own (maintainer ticked "no: the gap is Jastrow's own; as stored: nothing to fix", round 2, 2026-10-13). N00260's line reads `II m. (b.h.; v. preced.)`, its I being N00259 `נְהֵי` I, pointed apart (ruling 10-05) |  |
+| [N00738](https://jastrow.app/#rid:N00738) | headword | X8 homograph numbering gap | נִיפְלָא | /ניפלא-2 | missing 1; 1 unnumbered: N00737=—; N00738=2 | the family's missing numeral is stored where the source attaches it, the I on N00737's form `נִפְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [N00914](https://jastrow.app/#rid:N00914) | headword | X8 homograph numbering gap | נִסָּא | /נסא | missing 1; 1 unnumbered: N00913/alt=—; N00914=2 | the family's missing numeral is stored where the source attaches it, the I on N00913's form `נִי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [O00086](https://jastrow.app/#rid:O00086) | headword | X8 homograph numbering gap | סְבַר | /סבר-3 | missing 1; 1 unnumbered: O00085=—; O00086=2; O00087=3; O00090=4 | the family's missing numeral is stored where the source attaches it, the I on O00085's form `סְבֵיר`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [O00122](https://jastrow.app/#rid:O00122) | headword | X8 homograph numbering gap | סְגֵי | /סגי-3 | missing 1,2; 2 unnumbered: O00120=—; O00121=—; O00122=3 | the family's missing numeral is stored where the source attaches it, the I on O00120's form `סְגָא` and the II on O00121's form `סְגָא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [O00156](https://jastrow.app/#rid:O00156) | headword | X8 homograph numbering gap | סִגְנָא | /סגנא | missing 1; 1 unnumbered: O00155/alt=—; O00156=2; O00157=3 | the family's missing numeral is stored where the source attaches it, the I on O00155's form `סִי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [O00352](https://jastrow.app/#rid:O00352) | headword | X8 homograph numbering gap | סוּמְּקָא | /סומקא | missing 1; 1 unnumbered: O00351/alt=—; O00352=2 | the family's missing numeral is stored where the source attaches it, the I on O00351's form `סוּמְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [O00499](https://jastrow.app/#rid:O00499) | headword | X8 homograph numbering gap | סְטַן | /סטן-3 | missing 1; 1 unnumbered: O00498=—; O00499=2 | the family's missing numeral is stored where the source attaches it, the I on O00498's form `שְׂטַן`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [O00563](https://jastrow.app/#rid:O00563) | headword | X8 homograph numbering gap | סִיגְנָא | /סיגנא | missing 2; 1 unnumbered: O00563=1; O00564=—; O00565=3 | the family's missing numeral is stored where the source attaches it, the II on O00564's form `סִגְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [O00580](https://jastrow.app/#rid:O00580) | headword | X8 homograph numbering gap | סִידּוּר | /סידור-2 | missing 1; 1 unnumbered: O00579=—; O00580=2 | the family's missing numeral is stored where the source attaches it, the I on O00579's form `סִדּ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [P00230](https://jastrow.app/#rid:P00230) | headword | X8 homograph numbering gap | עִוְיָא | /עויא-3 | missing 1; 1 unnumbered: P00229=—; P00230=2 | the family's missing numeral is stored where the source attaches it, the I on P00229's form `עִוְו׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [P01246](https://jastrow.app/#rid:P01246) | headword | X8 homograph numbering gap | עָרֵב | /ערב-5 | missing 2; 0 unnumbered: P01246=1; P01249=3 | print has `עָרִב II` (hiriq): P01247 is right as stored, and this family's gap is Jastrow's. The one answer covers both rows (P01246 and P01247) |  |
+| [P01247](https://jastrow.app/#rid:P01247) | headword | X8 homograph numbering gap | עָרִב | /ערב-6 | missing 1; 0 unnumbered: P01247=2 | print has `עָרִב II` (hiriq): P01247 is right as stored, and this family's gap is Jastrow's. The one answer covers both rows (P01246 and P01247) |  |
+| [P01418](https://jastrow.app/#rid:P01418) | headword | X8 homograph numbering gap | עִרְעֵר | /ערער-2 | missing 1; 1 unnumbered: P01417=—; P01418=2; P01420=3 | the family's missing numeral is stored where the source attaches it, the I on P01417's form `עִירְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [Q00629](https://jastrow.app/#rid:Q00629) | headword | X8 homograph numbering gap | פִּיטְמָא | /פיטמא-2 | missing 1; 1 unnumbered: Q00628=—; Q00629=2 | the family's missing numeral is stored where the source attaches it, the I on Q00628's form `פִּטְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [Q01193](https://jastrow.app/#rid:Q01193) | headword | X8 homograph numbering gap | פַּנְיָא | /פניא-2 | missing 1,2; 2 unnumbered: Q01191/alt=—; Q01192=—; Q01193=3 | nothing to fix: the gap is Jastrow's own |  |
+| [Q01320](https://jastrow.app/#rid:Q01320) | headword | X8 homograph numbering gap | פְּסִיקְתָּא | /פסיקתא-2 | missing 1; 1 unnumbered: Q01319=—; Q01320=2 | the family's missing numeral is stored where the source attaches it, the I on Q01319's form `פְּסִקְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [Q02092](https://jastrow.app/#rid:Q02092) | headword | X8 homograph numbering gap | פִּשְׁפֵּשׁ | /פשפש-3 | missing 1; 1 unnumbered: Q02090=—; Q02092=2 | the family's missing numeral is stored where the source attaches it, the I on Q02090's form `פִּי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [Q02095](https://jastrow.app/#rid:Q02095) | headword | X8 homograph numbering gap | פִּשְׁפָּשׁ | /פשפש-6 | missing 1; 1 unnumbered: Q02094=—; Q02095=2; Q02096=3 | the family's missing numeral is stored where the source attaches it, the I on Q02094's form `פִּי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [R00293](https://jastrow.app/#rid:R00293) | headword | X8 homograph numbering gap | צִיבָּא | /ציבא-2 | missing 1; 1 unnumbered: R00292=—; R00293=2 | the family's missing numeral is stored where the source attaches it, the I on R00292's form `צִבָּא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [R00608](https://jastrow.app/#rid:R00608) | headword | X8 homograph numbering gap | צִנָּה | /צנה-2 | missing 1; 2 unnumbered: R00607=—; R00608=2; R00609=— | the family's missing numeral is stored where the source attaches it, the I on R00607's form `צִינָּה`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [R00615](https://jastrow.app/#rid:R00615) | headword | X8 homograph numbering gap | צִנּוֹרָא | /צנורא-2 | missing 1; 1 unnumbered: R00614=—; R00615=2; R00616=3 | the family's missing numeral is stored where the source attaches it, the I on R00614's form `צִינּ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [S01065](https://jastrow.app/#rid:S01065) | headword | X8 homograph numbering gap | קִיסְטָא | /קיסטא | missing 1; 1 unnumbered: S01064/alt=—; S01065=2 | the family's missing numeral is stored where the source attaches it, the I on S01064's form `קִסְ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [S01975](https://jastrow.app/#rid:S01975) | headword | X8 homograph numbering gap | קָרָחָא | /קרחא-2 | missing 1; 1 unnumbered: S01973/alt=—; S01975=2 | nothing to fix: the gap is Jastrow's own |  |
+| [T00337](https://jastrow.app/#rid:T00337) | headword | X8 homograph numbering gap | רְוָוקָא | /רווקא-2 | missing 1; 1 unnumbered: T00336=—; T00337=2 | the family's missing numeral is stored where the source attaches it, the I on T00336's form `רְוָקָא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [T00895](https://jastrow.app/#rid:T00895) | headword | X8 homograph numbering gap | רְעִי | /רעי-7 | missing 1,2; 2 unnumbered: T00892=—; T00893=—; T00895=3 | the family's missing numeral is stored where the source attaches it, the I on T00892's form `רֵיעִי` and the II on T00893's form `רְיעִי`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [U00881](https://jastrow.app/#rid:U00881) | headword | X8 homograph numbering gap | שִׁיטָּא | /שיטא-3 | missing 1; 2 unnumbered: U00880=—; U00881=2; U00888/alt=— | the family's missing numeral is stored where the source attaches it, the I on U00880's form `שִׁטָּא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [U00883](https://jastrow.app/#rid:U00883) | headword | X8 homograph numbering gap | שִׁיטָּה | /שיטה-2 | missing 1; 3 unnumbered: U00882=—; U00883=2; U00884=—; U00888/alt=— | the family's missing numeral is stored where the source attaches it, the I on U00882's form `שִׁטָּה`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [U01047](https://jastrow.app/#rid:U01047) | headword | X8 homograph numbering gap | שִׁיקּוּר | /שיקור-2 | missing 1; 1 unnumbered: U01046=—; U01047=2 | the family's missing numeral is stored where the source attaches it, the I on U01046's form `שִׁקּ׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [U01397](https://jastrow.app/#rid:U01397) | headword | X8 homograph numbering gap | שִׁלְשֵׁל | /שלשל-2 | missing 1; 1 unnumbered: U01396=—; U01397=2 | print sets the family's I after U01396's abbreviation `שִׁילְ׳` (maintainer ticked "after the abbreviation `שִׁילְ׳`: store it on that alternate", round 2, 2026-10-13). P000585 stores it there (HW-roman), as U01391–U01393 store theirs on the abbreviation, so the family's I is on a form spelled apart and U01396's full form `שִׁלְשֵׁל` stays bare, as U02098's is kept |  |
+| [U02098](https://jastrow.app/#rid:U02098) | headword | X8 homograph numbering gap | שַׁתְיָא | /שתיא-3 | missing 1; 1 unnumbered: U02097=—; U02098=2 | a different numeral or mark is there. Note: The I sits on the alt of 2097 (side note, looks like it got misplaced into gloss). P000340 and P000341 put that I on U02097's alternate שַׁתְיָיא and take it out of the gloss (HW-roman), so the family's I is on a form spelled apart |  |
+| [V00543](https://jastrow.app/#rid:V00543) | headword | X8 homograph numbering gap | תִּכְלָא | /תכלא-2 | missing 1,2; 2 unnumbered: V00541/alt=—; V00542=—; V00543=3 | the family's missing numeral is stored where the source attaches it, the I on V00541's form `תִּי׳` and the II on V00542's form `תִּי׳`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [V01023](https://jastrow.app/#rid:V01023) | headword | X8 homograph numbering gap | תַּרְנְגוֹלָא | /תרנגולא | missing 1; 1 unnumbered: V01022/alt=—; V01023=2 | the family's missing numeral is stored where the source attaches it, the I on V01022's form `תַּרְנַגְלָא`, not on the bare form X8 reads; ruling HW-roman: a numeral is never moved off the form it is attached to (headword-worklist.md pile A, ruled legitimate) |  |
+| [A00279](https://jastrow.app/#rid:A00279) | headword | X9 pointing differs within a numbered sequence | אֲגוֹרָא | /אגורא-2 | vowels differ: א (letter 1) hataf segol vs hataf patah (A00278 vs A00279); sequence A00278=1 אֱגוֹרָא, A00279=2 אֲגוֹרָא | yes, both as stored: nothing to fix |  |
+| [A01420](https://jastrow.app/#rid:A01420) | headword | X9 pointing differs within a numbered sequence | אִיסְטְוָוא | /איסטווא-2 | mark missing: ס (letter 3) no mark vs sheva (A01419 vs A01420); sequence A01419=1 אִיסטְוָוא, A01420=2 אִיסְטְוָוא | print has no mark there: `אִיסטְוָוא` is right as stored. Note: This is likely a textual error but would require extensive research.  I would love an issue oppened on it, as I think it is a fascinating question. |  |
+| [A01698](https://jastrow.app/#rid:A01698) | headword | X9 pointing differs within a numbered sequence | אֲכַל | /אכל-3 | vowels differ: א (letter 1) qamats vs hataf patah (A01697/alt vs A01698); sequence A01697/alt=1 אָכַל, A01698=2 אֲכַל; unnumbered between them: A01697 אֲכַל | yes, both as stored: nothing to fix |  |
+| [B01014](https://jastrow.app/#rid:B01014) | headword | X9 pointing differs within a numbered sequence | בְּסַר | /בסר-5 | vowels differ: ב (letter 1) qamats and dagesh vs sheva and dagesh (B01012 vs B01014); sequence B01010=1 בָּסַר, B01012=2 בָּסַר, B01014=3 בְּסַר; unnumbered between them: B01013 בְּסַר | yes, both as stored: nothing to fix |  |
+| [E00802](https://jastrow.app/#rid:E00802) | headword | X9 pointing differs within a numbered sequence | הֲקָצָה | /הקצה-2 | mark missing: צ (letter 3) no mark vs qamats (E00801 vs E00802); sequence E00801=1 הֲקָצה, E00802=2 הֲקָצָה | print has no mark there: `הֲקָצה` is right as stored. Note: Another likley textual issue, add with other, fascinating I say..... |  |
+| [E00837](https://jastrow.app/#rid:E00837) | headword | X9 pointing differs within a numbered sequence | הרְהוּן | /הרהון-2 | mark missing: ה (letter 1) hiriq vs no mark (E00836 vs E00837); sequence E00836=1 הִרְהוּן, E00837=2 הרְהוּן | print has no mark there: `הרְהוּן` is right as stored. Note: another to add to that textual issues research issue |  |
+| [H00067](https://jastrow.app/#rid:H00067) | headword | X9 pointing differs within a numbered sequence | חֲבִילָא | /חבילא-2 | mark missing: ל (letter 4) no mark vs qamats (H00066 vs H00067); sequence H00066=1 חֲבִילא, H00067=2 חֲבִילָא | print has no mark there: `חֲבִילא` is right as stored. Note: as above |  |
+| [H00749](https://jastrow.app/#rid:H00749) | headword | X9 pointing differs within a numbered sequence | חַיְּיתָא | /חייתא-3 | mark missing: י (letter 2) sheva vs sheva and dagesh (H00748 vs H00749); sequence H00747=1 חַיְיתָא, H00748=2 חַיְיתָא, H00749=3 חַיְּיתָא | print has no mark there: `חַיְיתָא` is right as stored |  |
+| [H01089](https://jastrow.app/#rid:H01089) | headword | X9 pointing differs within a numbered sequence | חֲלָמָה | /חלמה | vowels differ: ח (letter 1) sheva vs hataf patah (H01088/alt vs H01089); sequence H01088/alt=1 חְלָמָה, H01089=2 חֲלָמָה | yes, both as stored: nothing to fix |  |
+| [I00057](https://jastrow.app/#rid:I00057) | headword | X9 pointing differs within a numbered sequence | טְבִיעָה | /טביעה-2 | mark missing: ע (letter 4) no mark vs qamats (I00056 vs I00057); sequence I00056=1 טְבִיעה, I00057=2 טְבִיעָה | print has no mark there: `טְבִיעה` is right as stored. Note: textual issue research |  |
+| [I00618](https://jastrow.app/#rid:I00618) | headword | X9 pointing differs within a numbered sequence | טְעַן | /טען-5 | vowels differ: ט (letter 1) qamats vs sheva (I00616 vs I00618); sequence I00614=1 טָעַן, I00616=2 טָעַן, I00618=3 טְעַן; unnumbered between them: I00617 טְעַן | print numbers the Hebrew verb and leaves the Aramaic lines unnumbered, as stored: nothing to fix |  |
+| [M02008](https://jastrow.app/#rid:M02008) | headword | X9 pointing differs within a numbered sequence | מְסַר | /מסר-3 | vowels differ: מ (letter 1) qamats vs sheva (M02007/alt vs M02008); sequence M02007/alt=1 מָסַר, M02008=2 מְסַר; unnumbered between them: M02007 מְסַר | yes, both as stored: nothing to fix |  |
+| [M02354](https://jastrow.app/#rid:M02354) | headword | X9 pointing differs within a numbered sequence | מָצַר | /מצר-3 | mark missing: צ (letter 2) patah and dagesh vs patah (M02352 vs M02354); sequence M02352=1 מָצַּר, M02354=2 מָצַר | print has no mark there: `מָצַר` is right as stored |  |
+| [M02850](https://jastrow.app/#rid:M02850) | headword | X9 pointing differs within a numbered sequence | מְשַׁח | /משח-5 | vowels differ: מ (letter 1) qamats vs sheva (M02848 vs M02850); sequence M02846=1 מָשַׁח, M02848=2 מָשַׁח, M02850=3 מְשַׁח, M02851=4 מְשַׁח; unnumbered between them: M02849 מְשַׁח | print numbers the Hebrew verb and leaves the Aramaic lines unnumbered, as stored: nothing to fix |  |
+| [N01196](https://jastrow.app/#rid:N01196) | headword | X9 pointing differs within a numbered sequence | נָקִי | /נקי-4 | mark missing: נ (letter 1) qamats and dagesh vs qamats (N01195 vs N01196); sequence N01195=1 נָּקִי, N01196=2 נָקִי | print has no mark there: `נָקִי` is right as stored |  |
+| [P00477](https://jastrow.app/#rid:P00477) | headword | X9 pointing differs within a numbered sequence | עַטַר | /עטר-3 | vowels differ: ע (letter 1) hataf patah vs patah (P00476 vs P00477); sequence P00476=1 עֲטַר, P00477=2 עַטַר, P00478=3 עֲטַר | yes, both as stored: nothing to fix. Note: 447 is actually on page 1064b |  |
+| [P00959](https://jastrow.app/#rid:P00959) | headword | X9 pointing differs within a numbered sequence | עֲנָוָה | /ענוה-2 | mark missing: ע (letter 1) no mark vs hataf patah (P00958 vs P00959); sequence P00958=1 ענָוָה, P00959=2 עֲנָוָה | print has no mark there: `ענָוָה` is right as stored. Note: textual issue research |  |
+| [Q01863](https://jastrow.app/#rid:Q01863) | headword | X9 pointing differs within a numbered sequence | פִּרִכֵּס | /פרכס-2 | vowels differ: ר (letter 2) sheva vs hiriq (Q01862 vs Q01863); sequence Q01862=1 פִּרְכֵּס, Q01863=2 פִּרִכֵּס | yes, both as stored: nothing to fix |  |
+| [S00061](https://jastrow.app/#rid:S00061) | headword | X9 pointing differs within a numbered sequence | קְבַל | /קבל-5 | vowels differ: ק (letter 1) qamats vs sheva (S00059 vs S00061); sequence S00057=1 קָבַל, S00059=2 קָבַל, S00061=3 קְבַל, S00064=4 קְבל; unnumbered between them: S00060 קְבַל | print numbers the Hebrew verb and leaves the Aramaic lines unnumbered, as stored: nothing to fix |  |
+| [S00064](https://jastrow.app/#rid:S00064) | headword | X9 pointing differs within a numbered sequence | קְבל | /קבל-8 | mark missing: ב (letter 2) patah vs no mark (S00061 vs S00064); sequence S00057=1 קָבַל, S00059=2 קָבַל, S00061=3 קְבַל, S00064=4 קְבל | print has no mark there: `קְבל` is right as stored |  |
+| [T00500](https://jastrow.app/#rid:T00500) | headword | X9 pointing differs within a numbered sequence | רִחִים | /רחים-4 | vowels differ: ר (letter 1) sheva vs hiriq (T00499 vs T00500); sequence T00499=1 רְחִים, T00500=2 רִחִים | yes, both as stored: nothing to fix |  |
+| [U00710](https://jastrow.app/#rid:U00710) | headword | X9 pointing differs within a numbered sequence | שְׁחַר | /שחר-7 | vowels differ: ש (letter 1) qamats and shin dot vs sheva and shin dot (U00708 vs U00710); sequence U00704=1 שָׁחַר, U00706=2 שָׁחַר, U00708=3 שָׁחַר, U00710=4 שְׁחַר; unnumbered between them: U00709 שְׁחַר | print numbers the Hebrew verb and leaves the Aramaic lines unnumbered, as stored: nothing to fix |  |
 
 ## Reviewed, kept: stale records (0)
 

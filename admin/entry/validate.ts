@@ -33,10 +33,10 @@ import { compareByCodeUnit } from '../lib/compare-by-code-unit.ts';
 import { findDuplicates } from '../lib/find-duplicates.ts';
 import { toComparisonForm } from '../lib/hebrew.ts';
 import { tokenize } from '../lib/html.ts';
+import { findEmptyUrlWords } from '../lib/url-path.ts';
 import { paths } from '../paths.ts';
 import { checkAnnotations } from './annotations.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
-import { findNameProblems } from './names.ts';
 import {
 	type Entry,
 	EntrySchema,
@@ -353,17 +353,21 @@ function checkNfc(entry: Entry, problems: string[]): void {
 	}
 }
 
-/** Current names are unique across the tree, compared as URL paths
- * (URL names spec §5.2, first row; ruling `11-07 one comparison
- * rule`). The rule itself is `names.ts`, shared with import's `names`
- * gate so a hand edit and a run cannot disagree about what a collision
- * is.
+/** Every URL word holds a letter (ruling `11-13 url words`). Entries
+ * sharing a word are fine: `buildEntryPaths` numbers them. The rule is
+ * `findEmptyUrlWords`, shared with import's `addresses` gate so a hand
+ * edit and a run cannot disagree about what an empty word is.
  *
  * Ids need no check of their own: glob paths are unique and
  * `checkEntry` allows each id one path, so a second file for an id is
  * already reported as away from its home. */
-function checkNames(entries: readonly Entry[], problems: string[]): void {
-	problems.push(...findNameProblems(entries).map((p) => p.line));
+function checkUrlWords(entries: readonly Entry[], problems: string[]): void {
+	const byId = new Map(entries.map((entry) => [entry.id, entry]));
+	for (const id of findEmptyUrlWords(entries)) {
+		problems.push(
+			`${id}: URL word is empty from ${JSON.stringify(byId.get(id)?.headwords[0]?.text ?? null)}`,
+		);
+	}
 }
 
 /** `sefariaHeadword` is unique across the tree (URL names spec §5.2,
@@ -498,7 +502,7 @@ function validateEntry(entry: unknown, path: string): string[] {
  * passed the schema; an empty list is a consistent tree. */
 function validateCorpus(entries: readonly Entry[]): string[] {
 	const problems: string[] = [];
-	checkNames(entries, problems);
+	checkUrlWords(entries, problems);
 	checkSefariaHeadwords(entries, problems);
 	const ids = new Set(entries.map((e) => e.id));
 	for (const entry of entries) {

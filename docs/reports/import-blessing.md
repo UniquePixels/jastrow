@@ -22,7 +22,7 @@ Annotations: 118 written (103 print-error, 6 kept, 9 illegible).
 | schema | 32512 / 32512 | 0 |
 | chain | 32514 / 32514 | 0 |
 | internalTargets | 32512 / 32512 | 0 |
-| names | 65024 / 65024 | 0 |
+| addresses | 65024 / 65024 | 0 |
 | pages | 65024 / 65024 | 0 |
 | composition | 65031 / 65031 | 0 |
 | contract | 32513 / 32513 | 0 |
