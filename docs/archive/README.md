@@ -123,3 +123,10 @@ names these old paths:
 `data/patches/catalogue-audit/*.md` paths in its `reason` fields; those
 now resolve under `docs/archive/catalogue-audit/`. Left unrewritten
 under this step's zero-behaviour-change constraint.
+
+## Headword order worklist (2026-11-13)
+
+[`headword-order-worklist.md`](headword-order-worklist.md) lists the 186
+primary headwords that sort out of alphabetical order against rid order.
+Review paused after 15 entries, which found one real error (A00055,
+P000955); the rest is tracked in issue #240.
