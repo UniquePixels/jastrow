@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "U01071",
 	"sefariaHeadword": "שֵׁירוּתָא ³",
 	"headwords": [
 		{
-			"text": "שֵׁירוּתָא",
-			"disambiguator": 3
+			"text": "שֵׁירוּתָא"
 		},
 		{
 			"text": "שֵׁר׳",

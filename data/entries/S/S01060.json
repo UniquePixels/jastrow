@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S01060",
 	"sefariaHeadword": "קִיסּוּמָא ²",
 	"headwords": [
 		{
-			"text": "קִיסּוּמָא",
-			"disambiguator": 2
+			"text": "קִיסּוּמָא"
 		},
 		{
 			"text": "קִסּ׳",

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "P00758",
 	"sefariaHeadword": "עַל ²",
 	"headwords": [
 		{
-			"text": "עַל",
-			"disambiguator": 2
+			"text": "עַל"
 		}
 	],
 	"display": "{0}",

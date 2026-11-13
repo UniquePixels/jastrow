@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "Q00797",
 	"sefariaHeadword": "פִּיקָא ²",
 	"headwords": [
 		{
-			"text": "פִּיקָא",
-			"disambiguator": 2
+			"text": "פִּיקָא"
 		},
 		{
 			"text": "פִּיקָה",

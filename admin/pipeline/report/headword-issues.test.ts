@@ -10,7 +10,7 @@ const MAQAF_FORM = 'הֵיכ־';
 
 function entry(id: string): Entry {
 	return {
-		schemaVersion: 2,
+		schemaVersion: 3,
 		id,
 		sefariaHeadword: MAQAF_FORM,
 		headwords: [{ text: MAQAF_FORM }],
@@ -58,24 +58,26 @@ describe('buildHeadwordIssues: the flagged column', () => {
 	});
 });
 
-/** One headword form as a tuple: text, then `homograph` and
- * `disambiguator` when the form carries them. */
+/** One headword form as a tuple: text, then `homograph` when the form
+ * carries one, then Sefaria's superscript after the primary's text in
+ * `sefariaHeadword` (only the primary's is read). */
 type Form = readonly [
 	text: string,
 	homograph?: number | undefined,
-	superscript?: number,
+	superscript?: string | undefined,
 ];
 
 /** An entry whose `headwords` are `forms`, index 0 the primary. */
 function withForms(id: string, ...forms: Form[]): Entry {
+	const [primary = '', , superscript] = forms[0] ?? [];
 	return {
-		schemaVersion: 2,
+		schemaVersion: 3,
 		id,
-		sefariaHeadword: forms[0]?.[0] ?? '',
-		headwords: forms.map(([text, homograph, disambiguator]) => ({
+		sefariaHeadword:
+			superscript === undefined ? primary : `${primary} ${superscript}`,
+		headwords: forms.map(([text, homograph]) => ({
 			text,
 			...(homograph === undefined ? {} : { homograph }),
-			...(disambiguator === undefined ? {} : { disambiguator }),
 		})),
 		senses: [{ gloss: 'x', units: [] }],
 	};
@@ -118,14 +120,14 @@ const ILFA = [
 ];
 const GARBA = [
 	withForms('C01232', ['גָּרָב', 1]),
-	withForms('C01233', ['גְּרַב', undefined, 2], ['גַּרְבָּא', 1]),
+	withForms('C01233', ['גְּרַב', undefined, '²'], ['גַּרְבָּא', 1]),
 	withForms('C01234', ['גָּרָב', 2]),
 	withForms('C01235', ['גָּרָב'], ['גַּרְבּא', 2]),
 ];
 const BEZA = [
 	withForms('B00435', ['בְּזֵי'], ['בְּזָא', 1]),
-	withForms('B00436', ['בְּזֵי', undefined, 2], ['בְּזָא', 2]),
-	withForms('B00437', ['בִּזָּא', undefined, 2]),
+	withForms('B00436', ['בְּזֵי', undefined, '²'], ['בְּזָא', 2]),
+	withForms('B00437', ['בִּזָּא', undefined, '²']),
 ];
 const BIZZA = withForms('B00561', ['בִּיזָּא'], ['בִּזָּא', 2]);
 const AGMA = [withForms('A00311', ['אַגְמָא']), withForms('A00312', ['אַגְמָא', 2])];
@@ -223,6 +225,25 @@ describe('buildHeadwordIssues: homograph numerals number a sequence', () => {
 			expect(rows).toEqual(pointing);
 		});
 	}
+});
+
+// Ruling 11-13 url words: no entry field holds Sefaria's superscript,
+// so `numbersOnce` reads it off `sefariaHeadword`. Two IIs told apart
+// by it are one sequence (no X8); two IIs without it are two, and each
+// lacks its I. `[superscript, X8 rids]`.
+describe('buildHeadwordIssues: a Sefaria superscript tells two IIs apart', () => {
+	const twoTwos = (superscript?: string): Entry[] => [
+		withForms('C01232', ['גָּרָב', 1]),
+		withForms('C01233', ['גְּרַב', 2]),
+		withForms('C01234', ['גְּרָב', 2, superscript]),
+	];
+	it.each([
+		['²', []],
+		[undefined, ['C01233', 'C01234']],
+	] as const)('superscript %p: X8 rows', (superscript, gaps) => {
+		const { csv } = buildHeadwordIssues(twoTwos(superscript), []);
+		expect(rowsOf(csv, 'X8').map(([rid]) => rid)).toEqual([...gaps]);
+	});
 });
 
 // Ruling 10-06 implied I, amended by 10-13 correction policy: X10 still

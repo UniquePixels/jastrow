@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S00101",
 	"sefariaHeadword": "קברין ²",
 	"headwords": [
 		{
-			"text": "קברין",
-			"disambiguator": 2
+			"text": "קברין"
 		}
 	],
 	"display": "{0}",

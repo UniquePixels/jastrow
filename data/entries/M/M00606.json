@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "M00606",
 	"sefariaHeadword": "מוֹר ²",
 	"headwords": [
 		{
-			"text": "מוֹר",
-			"disambiguator": 2
+			"text": "מוֹר"
 		},
 		{
 			"text": "מוּרָא"

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A00055",
 	"sefariaHeadword": "אִיבּוּב",
 	"headwords": [
 		{
-			"text": "אַבּוּב",
-			"disambiguator": 2
+			"text": "אַבּוּב"
 		},
 		{
 			"text": "אִיבּוּב"

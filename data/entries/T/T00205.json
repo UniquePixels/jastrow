@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "T00205",
 	"sefariaHeadword": "רֶגֶל ²",
 	"headwords": [
 		{
-			"text": "רֶגֶל",
-			"disambiguator": 2
+			"text": "רֶגֶל"
 		},
 		{
 			"text": "רִגְלָא"

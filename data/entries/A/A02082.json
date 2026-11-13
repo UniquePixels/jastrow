@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A02082",
 	"sefariaHeadword": "אָן ²",
 	"headwords": [
 		{
-			"text": "אָן",
-			"disambiguator": 2
+			"text": "אָן"
 		},
 		{
 			"text": "אַן"

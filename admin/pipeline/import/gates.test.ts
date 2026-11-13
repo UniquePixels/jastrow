@@ -497,21 +497,15 @@ describe('checkHeadwordLine', () => {
 		expect(t.failures).toEqual([]);
 	});
 
-	// Ruling 10-06 hidden superscript: the source's superscript lives on
-	// the form, not in the template, and mark 2 counts it there.
-	// `[case, display, disambiguator, failures]`.
-	it.each([
-		['on the form, not in display', '{0} II', 2, 0],
-		['in display and on the form: counted twice', '{0} II ²', 2, 1],
-		['in neither: the superscript is lost', '{0} II', undefined, 1],
-	] as const)('a superscript %s', (_case, display, disambiguator, failures) => {
+	// Ruling 11-13 url words: print sets no superscript, so Sefaria's is
+	// not notation the entry owes. A line with one and an entry without
+	// it conserve.
+	it('conserves a line whose Sefaria superscript the entry drops', () => {
 		const t = gate(['אָב II ²'], {
-			display,
-			headwords: [
-				{ homograph: 2, text: 'אָב', ...(disambiguator && { disambiguator }) },
-			],
+			display: '{0} II',
+			headwords: [{ homograph: 2, text: 'אָב' }],
 		});
-		expect(t.failures).toHaveLength(failures);
+		expect(t.failures).toEqual([]);
 	});
 
 	it('passes an unsettleable line with no display', () => {

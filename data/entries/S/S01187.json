@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S01187",
 	"sefariaHeadword": "קִירִיס ²",
 	"headwords": [
 		{
-			"text": "קִירִיס",
-			"disambiguator": 2
+			"text": "קִירִיס"
 		}
 	],
 	"display": "{0}",

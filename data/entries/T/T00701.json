@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "T00701",
 	"sefariaHeadword": "רֵיקָם ²",
 	"headwords": [
 		{
-			"text": "רֵיקָם",
-			"disambiguator": 2
+			"text": "רֵיקָם"
 		}
 	],
 	"display": "{0}",

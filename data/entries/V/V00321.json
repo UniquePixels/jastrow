@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "V00321",
 	"sefariaHeadword": "תּוֹרְתָּא ²",
 	"headwords": [
 		{
-			"text": "תּוֹרְתָּא",
-			"disambiguator": 2
+			"text": "תּוֹרְתָּא"
 		},
 		{
 			"text": "תּוֹרְתָא"

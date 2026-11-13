@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "T01005",
 	"sefariaHeadword": "רַק ²",
 	"headwords": [
 		{
-			"text": "רַק",
-			"disambiguator": 2
+			"text": "רַק"
 		}
 	],
 	"display": "{0}",

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S01568",
 	"sefariaHeadword": "קני ²",
 	"headwords": [
 		{
-			"text": "קני",
-			"disambiguator": 2
+			"text": "קני"
 		},
 		{
 			"text": "קָנָה"

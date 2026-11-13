@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S01888",
 	"sefariaHeadword": "קְרָב ²",
 	"headwords": [
 		{
-			"text": "קְרָב",
-			"disambiguator": 2
+			"text": "קְרָב"
 		},
 		{
 			"text": "קְרָבָא"

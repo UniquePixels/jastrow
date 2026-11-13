@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "O00789",
 	"sefariaHeadword": "סִיפּוּק ²",
 	"headwords": [
 		{
-			"text": "סִיפּוּק",
-			"disambiguator": 2
+			"text": "סִיפּוּק"
 		},
 		{
 			"text": "סִפּ׳",

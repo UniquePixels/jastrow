@@ -21,7 +21,7 @@
  * sorting).
  */
 import { dirname, relative } from 'node:path';
-import { intToSup, isHeadwordReviewKind } from '../../entry/headwords.ts';
+import { isHeadwordReviewKind } from '../../entry/headwords.ts';
 import type { Entry, FormObject } from '../../entry/schema.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import {
@@ -439,15 +439,32 @@ function formRows({
  * 36 clear. 5 sits inside the flat stretch, away from both edges. */
 const SEQUENCE_WINDOW = 5;
 
+/** The first run of superscript digits (¹ ² ³ at Latin-1, the rest at
+ * U+2070) in a `sefariaHeadword`. */
+const SEFARIA_SUPERSCRIPT = /[\u00B2\u00B3\u00B9\u2070\u2074-\u2079]+/u;
+
+/** Sefaria's superscript on the form at `index`: the first superscript
+ * run in its `sefariaHeadword` for the primary, `''` for an alternate
+ * or when there is none. No entry field holds it (ruling `11-13 url
+ * words`), so the report reads it off Sefaria's headword. */
+function sefariaSuperscriptOf(entry: Entry, index: number): string {
+	if (index !== 0) {
+		return '';
+	}
+	return SEFARIA_SUPERSCRIPT.exec(entry.sefariaHeadword)?.[0] ?? '';
+}
+
 /** A form carrying a Roman numeral, placed in entry order. */
 interface NumberedForm {
-	disambiguator: number | undefined;
 	homograph: number;
 	/** The form's index in its entry's `headwords`; 0 is the primary. */
 	index: number;
 	/** The entry's position in rid order: what "nearby" is measured in. */
 	position: number;
 	rid: string;
+	/** Sefaria's superscript on this form, `''` for none (see
+	 * {@link sefariaSuperscriptOf}). */
+	sefariaSuperscript: string;
 	/** NFC, so two mark orders of one spelling compare equal. */
 	text: string;
 }
@@ -467,8 +484,8 @@ function formLabel(form: { index: number; rid: string }): string {
 }
 
 /** Whether a run's numerals read as one sequence: the distinct numerals
- * run 1..n, and no numeral is given twice unless a superscript tells
- * the two apart (A00014 `אָב II` and A00015 `אָב² II`).
+ * run 1..n, and no numeral is given twice unless Sefaria's superscript
+ * tells the two apart (A00014 `אָב II` and A00015 `אָב² II`).
  *
  * The second half is what keeps different words apart. A consonant
  * skeleton often holds two sequences side by side — a Hebrew verb
@@ -481,7 +498,7 @@ function numbersOnce(members: readonly NumberedForm[]): boolean {
 		(a, b) => a - b,
 	);
 	const told = new Set(
-		members.map((m) => `${m.homograph}/${m.disambiguator ?? 1}`),
+		members.map((m) => `${m.homograph}/${m.sefariaSuperscript}`),
 	);
 	return numbers.every((n, i) => n === i + 1) && told.size === members.length;
 }
@@ -505,11 +522,11 @@ function numberedSequences(inOrder: readonly Entry[]): NumberedSequence[] {
 			bySkeleton.set(key, [
 				...(bySkeleton.get(key) ?? []),
 				{
-					disambiguator: form.disambiguator,
 					homograph: form.homograph,
 					index,
 					position,
 					rid: entry.id,
+					sefariaSuperscript: sefariaSuperscriptOf(entry, index),
 					text,
 				},
 			]);
@@ -681,8 +698,8 @@ const CANDIDATE_SHAPE = 'X10 first homograph unnumbered: implied I candidate';
 
 /** One family's numbers, distinct and ascending, and the numerals
  * 1..highest it lacks. DISTINCT: a family can hold two entries
- * numbered II (A00014, A00015), told apart by their superscript
- * disambiguator, and counting the repeat would report every such
+ * numbered II (A00014, A00015), told apart by Sefaria's superscript,
+ * and counting the repeat would report every such
  * family as a gap. */
 function numbering(members: readonly FamilyMember[]): {
 	missing: number[];
@@ -908,9 +925,7 @@ function pointingDifference(a: string, b: string): string {
 /** A numbered form as a note names it: label, numeral, superscript,
  * spelling. */
 function describeNumbered(form: NumberedForm): string {
-	const sup =
-		form.disambiguator === undefined ? '' : intToSup(form.disambiguator);
-	return `${formLabel(form)}=${form.homograph}${sup} ${form.text}`;
+	return `${formLabel(form)}=${form.homograph}${form.sefariaSuperscript} ${form.text}`;
 }
 
 /** The unnumbered forms spelled like either of `a` and `b`, in the

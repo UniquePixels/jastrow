@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "R00400",
 	"sefariaHeadword": "צִינְּתָא ²",
 	"headwords": [
 		{
-			"text": "צִינְּתָא",
-			"disambiguator": 2
+			"text": "צִינְּתָא"
 		},
 		{
 			"text": "צִנְּ׳",

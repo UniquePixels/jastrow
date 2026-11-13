@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "O01350",
 	"sefariaHeadword": "ספי ²",
 	"headwords": [
 		{
-			"text": "ספי",
-			"disambiguator": 2
+			"text": "ספי"
 		}
 	],
 	"display": "{0}",

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "K00850",
 	"sefariaHeadword": "כני ²",
 	"headwords": [
 		{
-			"text": "כני",
-			"disambiguator": 2
+			"text": "כני"
 		}
 	],
 	"display": "{0}",

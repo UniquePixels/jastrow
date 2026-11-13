@@ -161,13 +161,6 @@ describe('validateEntries', () => {
 			'A00002: sefariaHeadword: markup in a plain-text field',
 		],
 		[
-			'markup in a former name',
-			// `formerNames` is absent from every entry until publication;
-			// the check is in place so the field cannot arrive unguarded.
-			tree(A(), { ...B(), formerNames: ['<i>אבא'] }),
-			'A00002: formerNames[0]: markup in a plain-text field',
-		],
-		[
 			'markup in a nested stem sense label',
 			tree(A(), {
 				...B(),
@@ -499,7 +492,6 @@ describe('gender exclusivity (HW-gender)', () => {
 const FULL: Entry = {
 	...A(),
 	display: '{0}, {1}',
-	formerNames: ['אבו'],
 	grammar: { gender: 'm', number: 'pl' },
 	headwords: [
 		{ text: 'אב' },
@@ -605,7 +597,6 @@ describe('entryFields', () => {
 			'headwords[0].text',
 			'headwords[1].text',
 			'display',
-			'formerNames[0]',
 			'senses[0].senses[0].label',
 			'senses[0].senses[0].senses[0].label',
 			'stems[0].senses[0].label',

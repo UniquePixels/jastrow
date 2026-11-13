@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "G00698",
 	"sefariaHeadword": "זרי ³",
 	"headwords": [
 		{
-			"text": "זרי",
-			"disambiguator": 3
+			"text": "זרי"
 		},
 		{
 			"text": "זָרָה",

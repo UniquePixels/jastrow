@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "K00917",
 	"sefariaHeadword": "כסי ²",
 	"headwords": [
 		{
-			"text": "כסי",
-			"disambiguator": 2
+			"text": "כסי"
 		},
 		{
 			"text": "כָּסָה",

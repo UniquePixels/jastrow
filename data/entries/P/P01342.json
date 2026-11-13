@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "P01342",
 	"sefariaHeadword": "ערי ²",
 	"headwords": [
 		{
-			"text": "ערי",
-			"disambiguator": 2
+			"text": "ערי"
 		},
 		{
 			"text": "עָרָה",

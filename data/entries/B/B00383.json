@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "B00383",
 	"sefariaHeadword": "בּוּרְסִי II ²",
 	"headwords": [
 		{
 			"text": "בּוּרְסִי",
-			"disambiguator": 2,
 			"homograph": 2
 		}
 	],

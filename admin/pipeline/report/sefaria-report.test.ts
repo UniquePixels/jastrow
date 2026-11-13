@@ -91,7 +91,6 @@ describe('scopeReason: case 1 only', () => {
 			'cross-reference-numeral',
 			'headword-illegible-pointing',
 			'headword-implied-one',
-			'headword-name-collision',
 			'implied-one',
 			'lettered-gap',
 			'lettered-whole-run',
@@ -474,12 +473,12 @@ describe('buildSefariaAppendix: one row per solid patch', () => {
 				target: `forms:${contentAnchor('x')}`,
 			});
 		const out = buildSefariaAppendix(
-			inputs([rec], [reorder(['אבוב ²', 'איבוב'])]),
+			inputs([rec], [reorder(['אבוב', 'איבוב'])]),
 		);
 		expect(
 			out.rows.map((r) => [r.field, r.sefaria_text, r.corrected_text]),
 		).toEqual([
-			['headword + alt_headwords', '["איבוב","אבוב"]', '["אבוב ²","איבוב"]'],
+			['headword + alt_headwords', '["איבוב","אבוב"]', '["אבוב","איבוב"]'],
 		]);
 		const respelt = buildSefariaAppendix(
 			inputs([rec], [reorder(['אבובא', 'איבוב'])]),

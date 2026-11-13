@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "L00635",
 	"sefariaHeadword": "לַפִּיד ²",
 	"headwords": [
 		{
-			"text": "לַפִּיד",
-			"disambiguator": 2
+			"text": "לַפִּיד"
 		}
 	],
 	"display": "{0}",

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "H00465",
 	"sefariaHeadword": "חוֹרוֹן ²",
 	"headwords": [
 		{
-			"text": "חוֹרוֹן",
-			"disambiguator": 2
+			"text": "חוֹרוֹן"
 		},
 		{
 			"text": "חוֹרוֹנִין"

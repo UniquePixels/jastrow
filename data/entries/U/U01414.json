@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "U01414",
 	"sefariaHeadword": "שמאל ²",
 	"headwords": [
 		{
-			"text": "שמאל",
-			"disambiguator": 2
+			"text": "שמאל"
 		}
 	],
 	"display": "{0}",

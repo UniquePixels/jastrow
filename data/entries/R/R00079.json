@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "R00079",
 	"sefariaHeadword": "צַד ²",
 	"headwords": [
 		{
-			"text": "צַד",
-			"disambiguator": 2
+			"text": "צַד"
 		}
 	],
 	"display": "{0}",

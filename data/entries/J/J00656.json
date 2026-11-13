@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "J00656",
 	"sefariaHeadword": "יְרַק ²",
 	"headwords": [
 		{
-			"text": "יְרַק",
-			"disambiguator": 2
+			"text": "יְרַק"
 		}
 	],
 	"display": "{0}",

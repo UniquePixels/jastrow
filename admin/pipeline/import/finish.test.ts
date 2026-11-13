@@ -55,7 +55,7 @@ describe('finishEntry', () => {
 			'senses',
 			'stems',
 		]);
-		expect(entry.schemaVersion).toBe(2);
+		expect(entry.schemaVersion).toBe(3);
 		expect(entry.headwords).toEqual([
 			{ homograph: 2, text: 'אָב' },
 			{ text: 'אבא' },

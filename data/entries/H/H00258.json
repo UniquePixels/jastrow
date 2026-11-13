@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "H00258",
 	"sefariaHeadword": "חוֹד ²",
 	"headwords": [
 		{
-			"text": "חוֹד",
-			"disambiguator": 2
+			"text": "חוֹד"
 		}
 	],
 	"display": "{0}",

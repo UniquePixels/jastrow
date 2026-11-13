@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "P01533",
 	"sefariaHeadword": "עַתִּיק ²",
 	"headwords": [
 		{
-			"text": "עַתִּיק",
-			"disambiguator": 2
+			"text": "עַתִּיק"
 		},
 		{
 			"text": "עַתִּיקָא",

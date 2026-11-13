@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "M00571",
 	"sefariaHeadword": "מוֹץ ³",
 	"headwords": [
 		{
-			"text": "מוֹץ",
-			"disambiguator": 3
+			"text": "מוֹץ"
 		},
 		{
 			"text": "מוֹצָא",

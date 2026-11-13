@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A01024",
 	"sefariaHeadword": "אחי ²",
 	"headwords": [
 		{
-			"text": "אחי",
-			"disambiguator": 2
+			"text": "אחי"
 		}
 	],
 	"display": "{0}",

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "O01624",
 	"sefariaHeadword": "סָרֵיק ²",
 	"headwords": [
 		{
-			"text": "סָרֵיק",
-			"disambiguator": 2
+			"text": "סָרֵיק"
 		},
 		{
 			"text": "סְרִיק"

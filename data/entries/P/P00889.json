@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "P00889",
 	"sefariaHeadword": "עַמִּיק ²",
 	"headwords": [
 		{
-			"text": "עַמִּיק",
-			"disambiguator": 2
+			"text": "עַמִּיק"
 		},
 		{
 			"text": "עָמִיק",

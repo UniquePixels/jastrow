@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S01222",
 	"sefariaHeadword": "קִישְׁקוּשָׁא ²",
 	"headwords": [
 		{
-			"text": "קִישְׁקוּשָׁא",
-			"disambiguator": 2
+			"text": "קִישְׁקוּשָׁא"
 		},
 		{
 			"text": "קִשְׁ׳",

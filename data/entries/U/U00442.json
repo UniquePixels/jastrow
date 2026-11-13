@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "U00442",
 	"sefariaHeadword": "שׁוּמָא ³",
 	"headwords": [
 		{
-			"text": "שׁוּמָא",
-			"disambiguator": 3
+			"text": "שׁוּמָא"
 		}
 	],
 	"display": "{0}",

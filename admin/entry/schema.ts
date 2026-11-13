@@ -21,8 +21,9 @@ import Type from 'typebox';
 /** The entry-file format this schema describes. Version 2 is the
  * headword-design §2 shape: `headwords[]` and an optional `display`
  * in place of `headword`/`altHeadwords`, and `sefariaHeadword` in
- * place of `slug`. */
-const SCHEMA_VERSION = 2;
+ * place of `slug`. Version 3 drops a form's `disambiguator` and the
+ * entry's `formerNames` (ruling `11-13 url words`). */
+const SCHEMA_VERSION = 3;
 
 /** Fields that are copied from elsewhere VERBATIM and must keep the
  * bytes they were copied from, whatever spelling those are.
@@ -104,13 +105,6 @@ const FormObjectSchema = Type.Object(
 				minimum: 1,
 			}),
 		),
-		disambiguator: Type.Optional(
-			Type.Integer({
-				description:
-					"Sefaria's superscript number, telling apart two lines print sets alike. Part of the name, never shown in display: print sets no superscript (ruling 10-06 hidden superscript).",
-				minimum: 1,
-			}),
-		),
 		reconstructed: Type.Optional(
 			Type.Literal(true, {
 				description:
@@ -189,7 +183,7 @@ const EntryBodySchema = Type.Object(
 	{
 		schemaVersion: Type.Literal(SCHEMA_VERSION, {
 			description:
-				'The entry-file format version. 2 is the headword-design §2 shape, ruled 2026-09-21. Stamped on every file so a reader can tell the versions apart without inferring it from which keys are present.',
+				'The entry-file format version. 2 is the headword-design §2 shape, ruled 2026-09-21; 3 drops the superscript disambiguator and formerNames (ruling 11-13 url words). Stamped on every file so a reader can tell the versions apart without inferring it from which keys are present.',
 		}),
 		id: Type.String({
 			description:
@@ -201,12 +195,6 @@ const EntryBodySchema = Type.Object(
 				"Sefaria's headword for this rid, byte for byte (URL names spec §5.1, U3). Import is the only writer.",
 			minLength: 1,
 		}),
-		formerNames: Type.Optional(
-			Type.Array(Text, {
-				description:
-					'Names this entry has published under and no longer holds (URL names spec §5.1, U6). Absent until publication: nothing writes it yet.',
-			}),
-		),
 		headwords: Type.Array(Type.Ref('#/$defs/formObject'), {
 			description:
 				'Every form print sets on the headword line, in its order. headwords[0] is the primary form: the name, the search key and every link derive from it (headword design §2).',
@@ -215,7 +203,7 @@ const EntryBodySchema = Type.Object(
 		display: Type.Optional(
 			Type.String({
 				description:
-					"How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). It never carries a disambiguator's superscript (ruling 10-06 hidden superscript). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
+					"How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). It never carries Sefaria's superscript: print sets none (ruling 11-13 url words). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
 				minLength: 1,
 			}),
 		),

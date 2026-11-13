@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "O01509",
 	"sefariaHeadword": "סָר ²",
 	"headwords": [
 		{
-			"text": "סָר",
-			"disambiguator": 2
+			"text": "סָר"
 		},
 		{
 			"text": "סָר אָפִיס"

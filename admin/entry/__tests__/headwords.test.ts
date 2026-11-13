@@ -327,26 +327,27 @@ describe('§4 decision table', () => {
 	});
 });
 
-describe('the hidden superscript (10-06)', () => {
-	// Ruling 10-06 hidden superscript: the glyph goes onto the form and
-	// out of the template, with the one space before it.
-	it('a superscript disambiguator is read off the form (J00288)', () => {
+describe("Sefaria's superscript is dropped (11-13 url words)", () => {
+	// Ruling 11-13 url words: print sets no superscript, so the glyph
+	// reaches neither the form nor the template, nor the one space
+	// before it.
+	it('a superscript leaves the form bare', () => {
+		expectLine(['שׁוֹט ²'], '{0}', [{ text: 'שׁוֹט' }]);
+	});
+
+	it('a superscript is dropped from a longer line (J00288)', () => {
 		const parsed = parseHeadwordLine(['יְחִידִי ²', '(… דַי)', 'יְחִידָאָה']);
 		expect(parsed.display).toBe('{0}, (… {1}), {2}');
-		expect(parsed.headwords[0]).toEqual({ disambiguator: 2, text: 'יְחִידִי' });
+		expect(parsed.headwords[0]).toEqual({ text: 'יְחִידִי' });
 		expect(parsed.headwords[1]?.partial).toBe(true);
 	});
 
 	it('a superscript after a numeral leaves the numeral (A00015)', () => {
-		expectLine(['אָב II ²'], '{0} II', [
-			{ disambiguator: 2, homograph: 2, text: 'אָב' },
-		]);
+		expectLine(['אָב II ²'], '{0} II', [{ homograph: 2, text: 'אָב' }]);
 	});
 
 	it('a superscript with no space before it goes alone (G00675)', () => {
-		expectLine(['זָרָה²  I, II'], '{0} I, II', [
-			{ disambiguator: 2, text: 'זָרָה' },
-		]);
+		expectLine(['זָרָה²  I, II'], '{0} I, II', [{ text: 'זָרָה' }]);
 	});
 });
 

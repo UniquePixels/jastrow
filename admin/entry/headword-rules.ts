@@ -10,9 +10,9 @@
  * 2. `display` holds no Hebrew letters or points.
  * 3. Markers agree with the forms: `*` before `{n}` or its group ⇔
  *    `reconstructed`; a SINGLE numeral beside `{n}` ⇔ a `homograph`;
- *    `m.`/`f.` beside `{n}` ⇔ `gender`. One thing is named and never
- *    displayed (ruling 10-06 hidden superscript): a `disambiguator`'s
- *    superscript never appears in `display`. An I print does not set
+ *    `m.`/`f.` beside `{n}` ⇔ `gender`. Sefaria's superscript never
+ *    appears in `display`: print sets none (ruling `11-13 url
+ *    words`). An I print does not set
  *    is displayed too: ruling 10-13 correction policy stores it only
  *    where Jastrow's text names it, with an annotation, and retired
  *    10-06's hidden `implied` I.
@@ -54,7 +54,7 @@ const GENDER_IN_DISPLAY = /(?<![A-Za-z])(?<label>[mf])\.(?![A-Za-z])/gu;
 /** A notation run that may stand between a `*` and the form (or the
  * group) it marks: the delimiters, the query mark and whitespace. */
 const STAR_REACHES = /\*[\s()?]*$/u;
-/** A superscript digit, the glyph of a `disambiguator`. Listed by code
+/** A superscript digit, the glyph of Sefaria's superscript. Listed by code
  * point: three of them (¹ ² ³) sit in Latin-1, the rest at U+2070. */
 const SUPERSCRIPT = /[\u00B2\u00B3\u00B9\u2070\u2074-\u2079]/u;
 
@@ -182,10 +182,10 @@ function checkNumeral(at: MarkerSite, problems: string[]): void {
 	);
 }
 
-/** Rule 3's half that holds with or without a `display` (ruling 10-06
- * hidden superscript): `display` carries no superscript digit. A
- * `disambiguator` is named and never displayed, so a superscript in
- * the template is either that number shown, or one no form carries. */
+/** Rule 3's half that holds with or without a `display`: `display`
+ * carries no superscript digit. Print sets none, and Sefaria's
+ * superscript is dropped by the parser (ruling `11-13 url words`), so
+ * a superscript in the template is notation print never set. */
 function checkNamedNotShown(
 	entry: Pick<Entry, 'display' | 'id'>,
 	problems: string[],
@@ -193,7 +193,7 @@ function checkNamedNotShown(
 	const sup = SUPERSCRIPT.exec(entry.display ?? '');
 	if (sup !== null) {
 		problems.push(
-			`${entry.id}: display carries the superscript ${JSON.stringify(sup[0])}; a disambiguator is named, never displayed (§3.1 rule 3, ruling 10-06 hidden superscript)`,
+			`${entry.id}: display carries the superscript ${JSON.stringify(sup[0])}; print sets none (§3.1 rule 3, ruling 11-13 url words)`,
 		);
 	}
 }

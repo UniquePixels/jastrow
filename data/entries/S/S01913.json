@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S01913",
 	"sefariaHeadword": "קדריונטס ²",
 	"headwords": [
 		{
-			"text": "קדריונטס",
-			"disambiguator": 2
+			"text": "קדריונטס"
 		}
 	],
 	"display": "{0}",

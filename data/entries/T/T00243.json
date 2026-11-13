@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "T00243",
 	"sefariaHeadword": "רדי ²",
 	"headwords": [
 		{
-			"text": "רדי",
-			"disambiguator": 2
+			"text": "רדי"
 		},
 		{
 			"text": "רָדָה",

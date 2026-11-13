@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "T00643",
 	"sefariaHeadword": "רִים ²",
 	"headwords": [
 		{
-			"text": "רִים",
-			"disambiguator": 2
+			"text": "רִים"
 		}
 	],
 	"display": "{0}",

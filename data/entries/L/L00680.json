@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "L00680",
 	"sefariaHeadword": "לֶקֶט ²",
 	"headwords": [
 		{
-			"text": "לֶקֶט",
-			"disambiguator": 2
+			"text": "לֶקֶט"
 		},
 		{
 			"text": "לְקָטָא"

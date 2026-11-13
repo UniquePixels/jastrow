@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "G00534",
 	"sefariaHeadword": "זְמַם ²",
 	"headwords": [
 		{
-			"text": "זְמַם",
-			"disambiguator": 2
+			"text": "זְמַם"
 		},
 		{
 			"text": "זְמָמָא"

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "U01782",
 	"sefariaHeadword": "שָׂפָם ²",
 	"headwords": [
 		{
-			"text": "שָׂפָם",
-			"disambiguator": 2
+			"text": "שָׂפָם"
 		},
 		{
 			"text": "שְׂפָמָא"

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "Q00917",
 	"sefariaHeadword": "פכי ²",
 	"headwords": [
 		{
-			"text": "פכי",
-			"disambiguator": 2
+			"text": "פכי"
 		}
 	],
 	"display": "{0}",

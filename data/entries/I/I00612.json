@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "I00612",
 	"sefariaHeadword": "טְעַם ²",
 	"headwords": [
 		{
-			"text": "טְעַם",
-			"disambiguator": 2
+			"text": "טְעַם"
 		},
 		{
 			"text": "טְעֵם"

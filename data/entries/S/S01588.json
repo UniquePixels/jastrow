@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S01588",
 	"sefariaHeadword": "קִנְיָן ²",
 	"headwords": [
 		{
-			"text": "קִנְיָן",
-			"disambiguator": 2
+			"text": "קִנְיָן"
 		},
 		{
 			"text": "קִנְיָנָא"

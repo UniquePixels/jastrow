@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S02022",
 	"sefariaHeadword": "קרי ⁴",
 	"headwords": [
 		{
-			"text": "קרי",
-			"disambiguator": 4
+			"text": "קרי"
 		},
 		{
 			"text": "קָרָה",

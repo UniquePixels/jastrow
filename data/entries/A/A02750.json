@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A02750",
 	"sefariaHeadword": "אָפֵס ²",
 	"headwords": [
 		{
-			"text": "אָפֵס",
-			"disambiguator": 2
+			"text": "אָפֵס"
 		}
 	],
 	"display": "{0}",

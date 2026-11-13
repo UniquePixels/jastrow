@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "E00067",
 	"sefariaHeadword": "הגי ²",
 	"headwords": [
 		{
-			"text": "הגי",
-			"disambiguator": 2
+			"text": "הגי"
 		},
 		{
 			"text": "הֲגָא"

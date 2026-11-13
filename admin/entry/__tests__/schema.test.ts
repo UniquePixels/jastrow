@@ -28,7 +28,7 @@ function errorPaths(value: unknown): string[] {
 type Fixture = Record<string, unknown>;
 
 const minimalEntry: Fixture = {
-	schemaVersion: 2,
+	schemaVersion: 3,
 	id: 'A00014',
 	sefariaHeadword: 'אָב II',
 	headwords: [{ text: 'אָב' }],

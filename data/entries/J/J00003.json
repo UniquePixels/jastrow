@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "J00003",
 	"sefariaHeadword": "יֵא ²",
 	"headwords": [
 		{
-			"text": "יֵא",
-			"disambiguator": 2
+			"text": "יֵא"
 		},
 		{
 			"text": "יֵיא",

@@ -4,7 +4,7 @@
  * (composition failures) live with the composer and the CLI. */
 
 import { entryAnnotations } from '../../entry/annotations.ts';
-import { intToRoman, intToSup } from '../../entry/headwords.ts';
+import { intToRoman } from '../../entry/headwords.ts';
 import type { Entry } from '../../entry/schema.ts';
 import {
 	checkEntry,
@@ -88,6 +88,9 @@ const SLOT = /\{(\d+)\}/gu;
 /** A Latin run, taken whole so a Roman numeral is ONE token: `II` must
  * not count as two `I`s against a line that really holds two. */
 const LATIN_RUN = /[A-Za-z]+/gu;
+/** A superscript digit, Sefaria's superscript glyph. Listed by code
+ * point: three of them (¹ ² ³) sit in Latin-1, the rest at U+2070. */
+const SUPERSCRIPT = /[\u00B2\u00B3\u00B9\u2070\u2074-\u2079]/u;
 /** The only Latin runs print sets on a headword line: a Roman numeral
  * and the two gender labels. Anything else is a text defect. */
 const LATIN_ALLOWED = /^(?:[IVXLC]+|[mf])$/u;
@@ -130,6 +133,10 @@ function cutSlots(display: string): string {
  * supplied rather than recovered. Counting them would compare a number
  * the source does not carry against one the parser invented.
  *
+ * **So are Sefaria's superscript digits** (ruling `11-13 url words`):
+ * print sets none, the parser drops them, and no field holds one, so
+ * the source's are counted against nothing.
+ *
  * **So is print's ` or ` between two spellings** (ruling 10-25 display
  * or), a separator the template supplies like `, `; it is cut in
  * {@link writtenNotation}, where the slots still show what it stands
@@ -151,7 +158,7 @@ function notationOf(line: string): Map<string, number> {
 			c === 0x05_f3 ||
 			c === 0x05_f4 ||
 			c === 0x03_07;
-		if (!(hebrew || ch === ',' || ch.trim() === '')) {
+		if (!(hebrew || SUPERSCRIPT.test(ch) || ch === ',' || ch.trim() === '')) {
 			bump(ch);
 		}
 	}
@@ -159,19 +166,10 @@ function notationOf(line: string): Map<string, number> {
 }
 
 /** The notation an entry writes for its line: the template's, with
- * its slots cut out, and every form's `disambiguator` as the
- * superscript the source set. Since ruling 10-06 hidden superscript
- * the template never carries that glyph, so the forms are where mark 2
- * finds it; a superscript left in the template as well counts twice
- * and fails, and one dropped from both fails as lost. Print's ` or `
- * between two slots is a separator, not counted ({@link cutSlots}). */
-function writtenNotation(entry: Entry, display: string): Map<string, number> {
-	const superscripts = entry.headwords
-		.map((f) =>
-			f.disambiguator === undefined ? '' : intToSup(f.disambiguator),
-		)
-		.join('');
-	return notationOf(cutSlots(display) + superscripts);
+ * its slots cut out. Print's ` or ` between two slots is a separator,
+ * not counted ({@link cutSlots}). */
+function writtenNotation(display: string): Map<string, number> {
+	return notationOf(cutSlots(display));
 }
 
 /** The notation the composed line carries: its own, plus each
@@ -250,11 +248,10 @@ function lineIsUnsettleable(line: string): boolean {
  *    reaches a form, in order, and no form invents one. This is the
  *    half that matters: `text` is the lookup key, the source of the
  *    URL name and the link target.
- * 2. **the notation multiset** — the line's `(`, `)`, `*`, `?`, `…`,
- *    superscripts and Roman numerals are exactly the entry's: the
- *    template's, plus each form's `disambiguator` as its superscript,
- *    since the template never carries one (ruling 10-06 hidden
- *    superscript; {@link writtenNotation}). A
+ * 2. **the notation multiset** — the line's `(`, `)`, `*`, `?`, `…`
+ *    and Roman numerals are exactly the template's. Sefaria's
+ *    superscripts are not counted: print sets none (ruling `11-13 url
+ *    words`; {@link notationOf}). A
  *    parenthesis dropped, a numeral invented or a star moved onto a
  *    different form all fail here. It holds for a template a `reform`
  *    patch SUPPLIED too, as long as the source line is one this gate
@@ -306,7 +303,7 @@ function checkHeadwordLine(
 		return;
 	}
 	const source = lineNotation(composed);
-	const written = writtenNotation(entry, entry.display);
+	const written = writtenNotation(entry.display);
 	if (composed.display !== undefined) {
 		// What could actually go wrong with a supplied template is that
 		// the run failed to carry it through to the entry.

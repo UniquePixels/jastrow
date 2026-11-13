@@ -138,8 +138,8 @@ describe('rule 3 — the numeral clause', () => {
 	});
 });
 
-// Ruling 10-06 hidden superscript: a disambiguator is never in
-// `display`. Ruling 10-13 correction policy retired 10-06's implied I:
+// Ruling 11-13 url words: Sefaria's superscript is never in `display`,
+// since print sets none. Ruling 10-13 correction policy retired 10-06's implied I:
 // a numeral is beside `{n}` iff the form has a homograph, and an I set
 // by correction (annotated, ANNOTATIONS.md §2) is displayed like any
 // other. `[case, form, display, problems]`.
@@ -153,14 +153,8 @@ const PROVEN_I: Annotation = {
 	stored: 'I',
 };
 const HIDDEN: ReadonlyArray<readonly [string, FormObject, string, number]> = [
-	[
-		'a disambiguator, not displayed',
-		{ disambiguator: 2, text: 'אב' },
-		'{0}',
-		0,
-	],
-	['a disambiguator, displayed', { disambiguator: 2, text: 'אב' }, '{0} ²', 1],
-	['a superscript the form does not carry', { text: 'אב' }, '{0}²', 1],
+	['a superscript after a space', { text: 'אב' }, '{0} ²', 1],
+	['a superscript set close', { text: 'אב' }, '{0}²', 1],
 	[
 		'an I set by correction, displayed (10-13)',
 		{ annotations: [PROVEN_I], homograph: 1, text: 'אב' },

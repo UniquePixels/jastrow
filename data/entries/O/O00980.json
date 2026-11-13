@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "O00980",
 	"sefariaHeadword": "סְלָיו ²",
 	"headwords": [
 		{
-			"text": "סְלָיו",
-			"disambiguator": 2
+			"text": "סְלָיו"
 		}
 	],
 	"display": "{0}",

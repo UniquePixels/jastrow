@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "R00441",
 	"sefariaHeadword": "צִיצִית ²",
 	"headwords": [
 		{
-			"text": "צִיצִית",
-			"disambiguator": 2
+			"text": "צִיצִית"
 		},
 		{
 			"text": "צִיצִיתָא"

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "M01181",
 	"sefariaHeadword": "מילי ²",
 	"headwords": [
 		{
-			"text": "מילי",
-			"disambiguator": 2
+			"text": "מילי"
 		},
 		{
 			"text": "מ׳ מילה",

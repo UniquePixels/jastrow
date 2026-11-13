@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "B00779",
 	"sefariaHeadword": "בְּכִי I ²",
 	"headwords": [
 		{
 			"text": "בְּכִי",
-			"disambiguator": 2,
 			"homograph": 1
 		}
 	],

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "N00926",
 	"sefariaHeadword": "נסי ²",
 	"headwords": [
 		{
-			"text": "נסי",
-			"disambiguator": 2
+			"text": "נסי"
 		},
 		{
 			"text": "נָסָה"

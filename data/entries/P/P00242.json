@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "P00242",
 	"sefariaHeadword": "עוֹל ²",
 	"headwords": [
 		{
-			"text": "עוֹל",
-			"disambiguator": 2
+			"text": "עוֹל"
 		}
 	],
 	"display": "{0}",

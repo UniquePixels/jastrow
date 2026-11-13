@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "O00833",
 	"sefariaHeadword": "סִירָה ²",
 	"headwords": [
 		{
-			"text": "סִירָה",
-			"disambiguator": 2
+			"text": "סִירָה"
 		},
 		{
 			"text": "סִירָא",

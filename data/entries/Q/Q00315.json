@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "Q00315",
 	"sefariaHeadword": "פּוּק ²",
 	"headwords": [
 		{
-			"text": "פּוּק",
-			"disambiguator": 2
+			"text": "פּוּק"
 		}
 	],
 	"display": "{0}",

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "P00612",
 	"sefariaHeadword": "עִינּוּי ²",
 	"headwords": [
 		{
-			"text": "עִינּוּי",
-			"disambiguator": 2
+			"text": "עִינּוּי"
 		},
 		{
 			"text": "עִנּ׳",

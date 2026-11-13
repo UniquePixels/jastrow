@@ -253,9 +253,8 @@ function* senseLabels(
 }
 
 /** Every field that must carry none: the headword forms, the display
- * template, `sefariaHeadword` and any `formerNames` are identifiers
- * that `names.ts` and the compiler read as text; sense labels are
- * numbering. */
+ * template and `sefariaHeadword` are identifiers that `url-path.ts`
+ * and the compiler read as text; sense labels are numbering. */
 function* plainFields(entry: Entry): Generator<[string, string]> {
 	yield ['sefariaHeadword', entry.sefariaHeadword];
 	for (const [i, form] of entry.headwords.entries()) {
@@ -263,9 +262,6 @@ function* plainFields(entry: Entry): Generator<[string, string]> {
 	}
 	if (entry.display !== undefined) {
 		yield ['display', entry.display];
-	}
-	for (const [i, name] of (entry.formerNames ?? []).entries()) {
-		yield [`formerNames[${i}]`, name];
 	}
 	yield* senseLabels(entry.senses, 'senses');
 	for (const [i, stem] of (entry.stems ?? []).entries()) {
@@ -289,7 +285,7 @@ interface EntryField {
  *
  * Codes are not text and are not visited: `id`, `schemaVersion`,
  * `grammar`, `page` and a form's `gender`, `homograph`,
- * `disambiguator`, `reconstructed` and `partial`.
+ * `reconstructed` and `partial`.
  *
  * Nor are `annotations` (ANNOTATIONS.md §2). An annotation QUOTES a
  * field rather than being one: its `stored` is a substring of a field

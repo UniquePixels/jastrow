@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A00522",
 	"sefariaHeadword": "אוֹב ²",
 	"headwords": [
 		{
-			"text": "אוֹב",
-			"disambiguator": 2
+			"text": "אוֹב"
 		}
 	],
 	"display": "{0}",
