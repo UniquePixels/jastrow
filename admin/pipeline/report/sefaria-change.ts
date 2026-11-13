@@ -29,6 +29,7 @@
  * The source is read as it is now, so a re-fetch in which Sefaria fixed
  * the error leaves the text absent and the row leaves the appendix.
  */
+import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import {
 	addressesLanguageReference,
@@ -538,7 +539,7 @@ function reformOrderChange(
 ): Change | undefined {
 	const raw = formsOf(record);
 	const sorted = (forms: readonly string[]): string =>
-		JSON.stringify(forms.map(bareForm).sort());
+		JSON.stringify(forms.map(bareForm).sort(compareByCodeUnit));
 	const reordered =
 		nfc(JSON.stringify(raw)) === nfc(JSON.stringify(before)) &&
 		sorted(before) === sorted(after) &&
