@@ -17,9 +17,9 @@
  *   NFC — an annotation's strings included.
  * - `validateCorpus(entries)` — what only the whole tree can answer:
  *   every URL word has a letter, `sefariaHeadword` is unique, and
- *   every rid-shaped cite names an entry. An entry's `page` is its own record (ruling
- *   `11-05 page index`): the page index is an import input, and
- *   nothing here compares the two.
+ *   every rid-shaped cite names an entry. An entry's `page` is its
+ *   own record (ruling `11-05 page index`): the page index is an
+ *   import input, and nothing here compares the two.
  *
  * `validateEntries` runs both over a loaded tree. The import's
  * `contract` gate runs both halves before it writes; `bun

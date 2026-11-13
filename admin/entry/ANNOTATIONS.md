@@ -258,8 +258,8 @@ Of the four text ops asked about (`replace`, `retag`, `split`,
 move (P000215, P000216), recorded as a deviation (register #16) though
 it keeps every printed byte. The third unclassified patch is P000307,
 G00675's disambiguator (since deleted, `11-13 url words`), which was
-not a text correction. K00081's `—5)` (P000189) read as ambiguous from its rationale. The hOCR reads
-`—5) to detain`, so it is case 1. Case 3 makes no patch by definition,
+not a text correction. K00081's `—5)` (P000189) read as ambiguous
+from its rationale. The hOCR reads `—5) to detain`, so it is case 1. Case 3 makes no patch by definition,
 and no case 4 patch exists yet.
 
 ## 5. What the app owes
