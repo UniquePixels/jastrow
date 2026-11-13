@@ -62,7 +62,7 @@ exception: other admin modules name it too, so it is declared in
 
 **Two outward dependencies: `admin/entry/` and `admin/lib/`.** The
 entry contract — the entry types, the headword parser and its six
-rules, names and the validator — is its
+rules, URL words and the validator — is its
 own module beside this one (ruling `09-30 entry contract`), because the
 import is only one of its callers: CI runs it over the committed tree,
 and the admin tool will run it on save. The import may depend on it;
@@ -213,7 +213,7 @@ contract and does not own it.
 ### Headwords and `display`
 
 `headwords[]` holds every form print sets on the headword line, in
-print order. `headwords[0]` is the primary form: the name, the search
+print order. `headwords[0]` is the primary form: the URL word, the search
 key and every link derive from it. A form object is
 `{ text, homograph?, reconstructed?, gender?, partial?,
 annotations? }`. `text` holds clean Hebrew; grouping and marks do not live
@@ -407,7 +407,7 @@ byte-preserving in the text and fails gate 6; the fix is a patch.
 There is no link-kind (`k`) field. The markers stay in the text.
 
 Not stored, deliberately: `refs`, `quotes`, `slug`, any URL, any
-placement confidence, and the current name (§7). A cross-reference
+placement confidence, and the URL word (§7). A cross-reference
 entry is an ordinary entry with one unlabeled sense whose gloss is the
 pointer text — there is no dedicated field, and classifying that shape
 for presentation is a compile concern. **UNBUILT.**
@@ -1170,11 +1170,11 @@ gate (`import/gates.ts`'s `checkAddresses`) and the entry contract
 (`admin/entry/validate.ts`'s `checkUrlWords`), so a hand edit and a run
 cannot disagree about what an empty word is.
 
-**Links resolve by the link key, not the name.** An internal target is
+**Links resolve by the link key, not the URL word.** An internal target is
 looked up by each rid's headword line before patches (ruling `10-09
 link key`; §2 "The markup vocabulary"), which is Sefaria's spelling as
-the transforms read it. The name follows our corrected headword; the
-link key does not, so correcting a spelling renames the entry and
+the transforms read it. The URL word follows our corrected headword; the
+link key does not, so correcting a spelling moves the entry's URL and
 leaves its links alone. For 177 rids the transforms respell the line,
 so the link key is not byte-equal to `sefariaHeadword`.
 
@@ -1340,7 +1340,7 @@ rules, the annotation clause, the closed tag vocabulary and balance
 per field, no markup in a plain field, every stored string in NFC —
 plus one mark for
 `validateCorpus`, each of whose findings is listed as a failure:
-current-name and `sefariaHeadword` uniqueness, and every rid-shaped
+no empty URL word and `sefariaHeadword` uniqueness, and every rid-shaped
 cite ref names an entry. Each entry's mark also holds its annotations to the patches that
 applied to the rid carrying one (`ComposeResult.annotated`), both ways:
 every annotation names one as `source`, and each wrote exactly as many
@@ -1353,7 +1353,7 @@ refuse — the two run one validator, so they cannot disagree.
 against itself and the tree, so a faithful-looking
 entry that lost text upstream passes. It also cannot see whether
 `sefariaHeadword` is NFC — it is Sefaria's bytes (`VERBATIM_FIELDS`),
-exempt on purpose. Its name and `sefariaHeadword` clauses overlap gate
+exempt on purpose. Its URL-word and `sefariaHeadword` clauses overlap gate
 7 and its page clause overlaps gate 8; the overlap is the point, since
 this is the half a hand edit meets without the snapshot.
 
@@ -1829,7 +1829,7 @@ so cannot be inferred from reading the code that is there.
 51. **No canonicalization of stored text at lookup time.** The comparison
     form (`toComparisonForm`: NFC, whitespace runs collapsed) is used
     for comparison only; nothing stored is rewritten by it.
-52. **The current name is never stored.**
+52. **No URL word or path is stored.**
 53. **No URLs are stored** in entry data.
 54. **No placement confidence is stored**, in entry data or in the
     page index; the build's own is archived with it (§8).
