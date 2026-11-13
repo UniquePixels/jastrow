@@ -460,6 +460,33 @@ describe('buildSefariaAppendix: one row per solid patch', () => {
 		]);
 	});
 
+	it('writes a reform that only reorders the forms as the whole line', () => {
+		const rec = record('A00001', {
+			alt_headwords: ['אבוב'],
+			headword: 'איבוב',
+		});
+		const reorder = (forms: string[]): ReturnType<typeof patch> =>
+			patch({
+				expected_before: 'איבוב\nאבוב',
+				op: 'reform',
+				payload: { forms },
+				rationale: `${READ} (docs/headword-order-worklist.md)`,
+				target: `forms:${contentAnchor('x')}`,
+			});
+		const out = buildSefariaAppendix(
+			inputs([rec], [reorder(['אבוב ²', 'איבוב'])]),
+		);
+		expect(
+			out.rows.map((r) => [r.field, r.sefaria_text, r.corrected_text]),
+		).toEqual([
+			['headword + alt_headwords', '["איבוב","אבוב"]', '["אבוב ²","איבוב"]'],
+		]);
+		const respelt = buildSefariaAppendix(
+			inputs([rec], [reorder(['אבובא', 'איבוב'])]),
+		);
+		expect(respelt.review[0]?.detail).toBe('the reform changes 2 forms');
+	});
+
 	it('refuses a reform whose display sets a layout', () => {
 		const rec = record('A00001', {
 			alt_headwords: ['(אַפְרִיקָא) I'],

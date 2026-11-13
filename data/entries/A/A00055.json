@@ -4,10 +4,11 @@
 	"sefariaHeadword": "אִיבּוּב",
 	"headwords": [
 		{
-			"text": "אִיבּוּב"
+			"text": "אַבּוּב",
+			"disambiguator": 2
 		},
 		{
-			"text": "אַבּוּב"
+			"text": "אִיבּוּב"
 		}
 	],
 	"display": "{0}, {1}",

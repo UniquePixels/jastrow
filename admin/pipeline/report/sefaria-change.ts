@@ -22,7 +22,8 @@
  *   so the space print sets comes back exactly as the import writes it.
  * - `reform`: the one form the patch respells, or the one form it sets
  *   a numeral on, as Sefaria's `headword` or `alt_headwords[k]`, found
- *   in NFC (never a byte comparison of Hebrew).
+ *   in NFC (never a byte comparison of Hebrew). A reform that only
+ *   reorders the forms is stated on the whole line instead.
  * - `unref`: the `refs` list without the item.
  *
  * The source is read as it is now, so a re-fetch in which Sefaria fixed
@@ -514,8 +515,46 @@ function reformCountChange(
 	};
 }
 
+/** A disambiguator as Sefaria writes one after a headword: a space and
+ * superscript digits. */
+const DISAMBIGUATOR_TAIL = / [⁰¹²³⁴-⁹]+$/u;
+
+/** A form with any disambiguator taken off, in NFC, so two lines can be
+ * compared by their words alone. */
+function bareForm(form: string): string {
+	return nfc(form).replace(DISAMBIGUATOR_TAIL, '');
+}
+
+/** A reform that only puts the line's forms in another order (print
+ * leads with a form Sefaria stores as an alternate), stated on the
+ * whole line: it moves a form between `headword` and `alt_headwords`,
+ * so no one field holds the change. A disambiguator the patch adds is
+ * part of the corrected line, written as Sefaria writes its own. Any
+ * respelling is not a reorder, and stays out. */
+function reformOrderChange(
+	record: RawRecord,
+	before: readonly string[],
+	after: readonly string[],
+): Change | undefined {
+	const raw = formsOf(record);
+	const sorted = (forms: readonly string[]): string =>
+		JSON.stringify(forms.map(bareForm).sort());
+	const reordered =
+		nfc(JSON.stringify(raw)) === nfc(JSON.stringify(before)) &&
+		sorted(before) === sorted(after) &&
+		bareForm(after[0] ?? '') !== bareForm(before[0] ?? '');
+	return reordered
+		? {
+				corrected: JSON.stringify(after),
+				field: 'headword + alt_headwords',
+				sefaria: JSON.stringify(raw),
+			}
+		: undefined;
+}
+
 /** A `reform`: the one form it respells, or the one form it sets a
- * numeral on, as Sefaria's `headword` or `alt_headwords[k]`. */
+ * numeral on, as Sefaria's `headword` or `alt_headwords[k]`; or a line
+ * it only reorders, as the whole line (`reformOrderChange`). */
 function reformChange(
 	patch: Extract<SemanticPatch, { op: 'reform' }>,
 	record: RawRecord,
@@ -545,6 +584,12 @@ function reformChange(
 		nfc(form) === nfc(before[k] ?? '') ? [] : [k],
 	);
 	const [i] = changed;
+	if (changed.length > 1) {
+		const order = reformOrderChange(record, before, after);
+		if (order !== undefined) {
+			return order;
+		}
+	}
 	if (changed.length !== 1 || i === undefined) {
 		return exclude(
 			'not mechanical for op',
