@@ -261,8 +261,8 @@ Six shape rules are checked by `headwordShapeProblems`
 3. markers agree with forms — `*`, homograph, gender (`checkMarkers`);
    a numeral shows beside a form iff it has a `homograph`, and no
    superscript appears in `display` (`checkNumeral`,
-   `checkNamedNotShown`; the implied clause went with ruling `10-13
-   correction policy`, PR #174);
+   `checkNoSuperscriptInDisplay`; the implied clause went with ruling
+   `10-13 correction policy`, PR #174);
 4. a form's `text` holds no `,`, `(`, `)`, `?`, `=`, `…` or Latin
    letter (`textDefects`);
 5. a `partial` form is never a lookup key, except at index 0 when it

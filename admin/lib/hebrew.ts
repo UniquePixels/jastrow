@@ -91,6 +91,12 @@ const HEBREW_MARKS = new RegExp(HEBREW_MARK.source, 'gu');
 /** Anything but one of the 22 letters, final forms included. */
 const NOT_LETTER = /[^\u05D0-\u05EA]/gu;
 
+/** One superscript digit, the glyph of Sefaria's superscript number.
+ * Print sets none, and no field holds one (ruling `11-13 url words`).
+ * Listed by code point: three of them (¹ ² ³) sit in Latin-1, the
+ * rest at U+2070. Exported without the `g` flag (see `HEBREW_MARK`). */
+const SUPERSCRIPT_DIGIT = /[\u00B2\u00B3\u00B9\u2070\u2074-\u2079]/u;
+
 /** The form two strings are compared in, to decide whether they are
  * the same word (ruling `11-07 one comparison rule`): NFC, every run of
  * whitespace one space, trimmed. NFC because Hebrew marks can be stored
@@ -128,6 +134,7 @@ export {
 	HEBREW_MARK,
 	hebrewRuns,
 	lettersOnly,
+	SUPERSCRIPT_DIGIT,
 	toComparisonForm,
 	withoutMarks,
 };

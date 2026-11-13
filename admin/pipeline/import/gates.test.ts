@@ -251,7 +251,7 @@ describe('checkAddresses', () => {
 	});
 
 	it('fails an entry whose URL word is empty', () => {
-		// Alone, so it collides with nobody; only the empty clause sees it.
+		// Its Sefaria clause passes, so the empty-word clause is the one failure.
 		const t = checkAddresses([named('A00001', { text: '(?)' }, 'אָב')], SOURCE);
 		expect(t.failures).toEqual(['A00001: URL word is empty from "(?)"']);
 		expect(t.pass).toBe(1);

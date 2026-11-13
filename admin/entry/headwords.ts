@@ -41,13 +41,9 @@
  * (A02823, whose line print sets without a comma).
  */
 import { findDuplicates } from '../lib/find-duplicates.ts';
-import { toComparisonForm } from '../lib/hebrew.ts';
+import { SUPERSCRIPT_DIGIT, toComparisonForm } from '../lib/hebrew.ts';
 import type { FormObject } from './schema.ts';
 
-/** Superscript digits, the glyphs of Sefaria's superscript number.
- * The parser recognises a run of them as one mark so it can drop it:
- * print sets none, and no field holds one (ruling `11-13 url words`). */
-const SUP_DIGITS = '⁰¹²³⁴⁵⁶⁷⁸⁹';
 /** Roman numeral values, largest first: the greedy table both
  * `intToRoman` and `romanToInt` walk. */
 const ROMAN: ReadonlyArray<readonly [number, string]> = [
@@ -261,9 +257,9 @@ function scanRun(chars: readonly string[], at: number): string {
 		}
 		return chars.slice(at, j).join('');
 	}
-	if (SUP_DIGITS.includes(ch)) {
+	if (SUPERSCRIPT_DIGIT.test(ch)) {
 		let j = at;
-		while (j < chars.length && SUP_DIGITS.includes(chars[j] ?? '')) {
+		while (j < chars.length && SUPERSCRIPT_DIGIT.test(chars[j] ?? '')) {
 			j++;
 		}
 		return chars.slice(at, j).join('');
@@ -342,7 +338,7 @@ function collectPieces(pieces: readonly Piece[], first: number): ItemScan {
 			if (piece.value === ' ') {
 				sawSpaceSinceForm = true;
 			}
-			fragment = SUP_DIGITS.includes(piece.value.charAt(0))
+			fragment = SUPERSCRIPT_DIGIT.test(piece.value.charAt(0))
 				? withoutSuperscript(fragment)
 				: fragment + piece.value;
 			continue;

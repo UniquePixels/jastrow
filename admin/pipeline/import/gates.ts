@@ -12,6 +12,7 @@ import {
 	validateCorpus,
 } from '../../entry/validate.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
+import { SUPERSCRIPT_DIGIT } from '../../lib/hebrew.ts';
 import { tokenize } from '../../lib/html.ts';
 import { findEmptyUrlWords } from '../../lib/url-path.ts';
 import type { PagePlacement } from '../page-index.ts';
@@ -88,9 +89,6 @@ const SLOT = /\{(\d+)\}/gu;
 /** A Latin run, taken whole so a Roman numeral is ONE token: `II` must
  * not count as two `I`s against a line that really holds two. */
 const LATIN_RUN = /[A-Za-z]+/gu;
-/** A superscript digit, Sefaria's superscript glyph. Listed by code
- * point: three of them (¹ ² ³) sit in Latin-1, the rest at U+2070. */
-const SUPERSCRIPT = /[\u00B2\u00B3\u00B9\u2070\u2074-\u2079]/u;
 /** The only Latin runs print sets on a headword line: a Roman numeral
  * and the two gender labels. Anything else is a text defect. */
 const LATIN_ALLOWED = /^(?:[IVXLC]+|[mf])$/u;
@@ -133,9 +131,12 @@ function cutSlots(display: string): string {
  * supplied rather than recovered. Counting them would compare a number
  * the source does not carry against one the parser invented.
  *
- * **So are Sefaria's superscript digits** (ruling `11-13 url words`):
- * print sets none, the parser drops them, and no field holds one, so
- * the source's are counted against nothing.
+ * **So are Sefaria's superscript digits** (ruling `11-13 url words`),
+ * on both sides too: print sets none, the parser drops them, and no
+ * field holds one, so the source's are counted against nothing. The
+ * template side skips them as well, so a superscript in `display` is
+ * not caught here: rule 3's `checkNoSuperscriptInDisplay`
+ * (`admin/entry/headword-rules.ts`) refuses one.
  *
  * **So is print's ` or ` between two spellings** (ruling 10-25 display
  * or), a separator the template supplies like `, `; it is cut in
@@ -158,7 +159,9 @@ function notationOf(line: string): Map<string, number> {
 			c === 0x05_f3 ||
 			c === 0x05_f4 ||
 			c === 0x03_07;
-		if (!(hebrew || SUPERSCRIPT.test(ch) || ch === ',' || ch.trim() === '')) {
+		if (
+			!(hebrew || SUPERSCRIPT_DIGIT.test(ch) || ch === ',' || ch.trim() === '')
+		) {
 			bump(ch);
 		}
 	}
@@ -587,13 +590,12 @@ function checkAddresses(
 	sourceHeadwords: ReadonlyMap<string, string>,
 ): Tally {
 	const t = tally();
-	const empty = new Set(findEmptyUrlWords(entries));
+	const empty = new Map(
+		findEmptyUrlWords(entries).map(({ line, rid }) => [rid, line]),
+	);
 	for (const entry of entries) {
-		mark(
-			t,
-			!empty.has(entry.id),
-			`${entry.id}: URL word is empty from ${JSON.stringify(entry.headwords[0]?.text ?? null)}`,
-		);
+		const line = empty.get(entry.id);
+		mark(t, line === undefined, line ?? '');
 		const source = sourceHeadwords.get(entry.id);
 		mark(
 			t,

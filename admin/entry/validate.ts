@@ -16,8 +16,8 @@
  *   balance, no markup in a plain field, and every stored string in
  *   NFC — an annotation's strings included.
  * - `validateCorpus(entries)` — what only the whole tree can answer:
- *   names and `sefariaHeadword` are unique, and every rid-shaped cite
- *   names an entry. An entry's `page` is its own record (ruling
+ *   every URL word has a letter, `sefariaHeadword` is unique, and
+ *   every rid-shaped cite names an entry. An entry's `page` is its own record (ruling
  *   `11-05 page index`): the page index is an import input, and
  *   nothing here compares the two.
  *
@@ -352,17 +352,15 @@ function checkNfc(entry: Entry, problems: string[]): void {
 /** Every URL word holds a letter (ruling `11-13 url words`). Entries
  * sharing a word are fine: `buildEntryPaths` numbers them. The rule is
  * `findEmptyUrlWords`, shared with import's `addresses` gate so a hand
- * edit and a run cannot disagree about what an empty word is.
+ * edit and a run cannot disagree about what an empty word is, or
+ * about the line that reports one.
  *
  * Ids need no check of their own: glob paths are unique and
  * `checkEntry` allows each id one path, so a second file for an id is
  * already reported as away from its home. */
 function checkUrlWords(entries: readonly Entry[], problems: string[]): void {
-	const byId = new Map(entries.map((entry) => [entry.id, entry]));
-	for (const id of findEmptyUrlWords(entries)) {
-		problems.push(
-			`${id}: URL word is empty from ${JSON.stringify(byId.get(id)?.headwords[0]?.text ?? null)}`,
-		);
+	for (const { line } of findEmptyUrlWords(entries)) {
+		problems.push(line);
 	}
 }
 

@@ -38,6 +38,7 @@
  * that held it (`HALT_ON_TEXT_DEFECT`) was removed once armed, since
  * its other branch was dead (review ledger L13).
  */
+import { SUPERSCRIPT_DIGIT } from '../lib/hebrew.ts';
 import { isLexical, PLACEHOLDER } from './headwords.ts';
 import type { Entry, FormObject } from './schema.ts';
 
@@ -54,9 +55,6 @@ const GENDER_IN_DISPLAY = /(?<![A-Za-z])(?<label>[mf])\.(?![A-Za-z])/gu;
 /** A notation run that may stand between a `*` and the form (or the
  * group) it marks: the delimiters, the query mark and whitespace. */
 const STAR_REACHES = /\*[\s()?]*$/u;
-/** A superscript digit, the glyph of Sefaria's superscript. Listed by code
- * point: three of them (¹ ² ³) sit in Latin-1, the rest at U+2070. */
-const SUPERSCRIPT = /[\u00B2\u00B3\u00B9\u2070\u2074-\u2079]/u;
 
 /** Rule 4: the forms whose `text` carries notation it must not — the
  * §3 halt, measured rather than assumed. Returns one line per
@@ -186,11 +184,11 @@ function checkNumeral(at: MarkerSite, problems: string[]): void {
  * carries no superscript digit. Print sets none, and Sefaria's
  * superscript is dropped by the parser (ruling `11-13 url words`), so
  * a superscript in the template is notation print never set. */
-function checkNamedNotShown(
+function checkNoSuperscriptInDisplay(
 	entry: Pick<Entry, 'display' | 'id'>,
 	problems: string[],
 ): void {
-	const sup = SUPERSCRIPT.exec(entry.display ?? '');
+	const sup = SUPERSCRIPT_DIGIT.exec(entry.display ?? '');
 	if (sup !== null) {
 		problems.push(
 			`${entry.id}: display carries the superscript ${JSON.stringify(sup[0])}; print sets none (§3.1 rule 3, ruling 11-13 url words)`,
@@ -273,7 +271,7 @@ function headwordShapeProblems(
 	const problems: string[] = [];
 	checkPartial(entry.id, entry.headwords, problems);
 	problems.push(...textDefects(entry));
-	checkNamedNotShown(entry, problems);
+	checkNoSuperscriptInDisplay(entry, problems);
 	const { display } = entry;
 	if (display === undefined) {
 		// §3: a line the source cannot settle is written WITHOUT a

@@ -26,6 +26,7 @@ import type { Entry, FormObject } from '../../entry/schema.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import {
 	HEBREW_MARK,
+	SUPERSCRIPT_DIGIT,
 	toComparisonForm,
 	withoutMarks,
 } from '../../lib/hebrew.ts';
@@ -439,9 +440,9 @@ function formRows({
  * 36 clear. 5 sits inside the flat stretch, away from both edges. */
 const SEQUENCE_WINDOW = 5;
 
-/** The first run of superscript digits (¹ ² ³ at Latin-1, the rest at
- * U+2070) in a `sefariaHeadword`. */
-const SEFARIA_SUPERSCRIPT = /[\u00B2\u00B3\u00B9\u2070\u2074-\u2079]+/u;
+/** A run of superscript digits (`SUPERSCRIPT_DIGIT`) in a
+ * `sefariaHeadword`; `exec` finds the first. */
+const SEFARIA_SUPERSCRIPT = new RegExp(`${SUPERSCRIPT_DIGIT.source}+`, 'u');
 
 /** Sefaria's superscript on the form at `index`: the first superscript
  * run in its `sefariaHeadword` for the primary, `''` for an alternate
@@ -995,8 +996,9 @@ function pointingNote(
  * `קְבל` IV, gives two rows, one of each kind).
  *
  * These are the families {@link homographGapRows} no longer reports,
- * and they are a question of their own: a mark missing on
- * `headwords[0]` changes the entry's URL path when it is fixed. */
+ * and they are a question of their own: a mark missing on a form
+ * changes how its headword line is displayed and searched when it is
+ * fixed. */
 function pointingRows(
 	paths: ReadonlyMap<string, string>,
 	inOrder: readonly Entry[],
@@ -1005,10 +1007,6 @@ function pointingRows(
 	const rows: IssueRow[] = [];
 	for (const { members } of sequences.filter((s) => s.clean)) {
 		for (const [a, b] of spellingChanges(members)) {
-			const url = paths.get(b.rid);
-			if (url === undefined) {
-				continue;
-			}
 			rows.push({
 				flagged: false,
 				note: pointingNote(inOrder, members, a, b),
@@ -1016,7 +1014,7 @@ function pointingRows(
 				role: b.index === 0 ? 'headword' : 'alt',
 				shape: 'X9 pointing differs within a numbered sequence',
 				text: b.text,
-				url,
+				url: paths.get(b.rid) ?? '',
 			});
 		}
 	}

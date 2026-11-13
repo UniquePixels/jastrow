@@ -35,7 +35,7 @@ describe('buildEntryPaths', () => {
 			e('A02060', 'אֲמַר'),
 			e('A02061', 'אִמֵּר'),
 			e('B00001', 'בָּא'),
-		] as never);
+		]);
 		expect([...paths]).toEqual([
 			['A02060', '/אמר'],
 			['A02061', '/אמר-2'],
@@ -52,6 +52,9 @@ describe('findEmptyUrlWords', () => {
 			{ headwords: [{ text: 'אָב' }], id: 'X00002' },
 			{ headwords: [], id: 'X00003' },
 		];
-		expect(findEmptyUrlWords(entries as never)).toEqual(['X00001', 'X00003']);
+		expect(findEmptyUrlWords(entries)).toEqual([
+			{ line: 'X00001: URL word is empty from "(?)"', rid: 'X00001' },
+			{ line: 'X00003: URL word is empty from null', rid: 'X00003' },
+		]);
 	});
 });
