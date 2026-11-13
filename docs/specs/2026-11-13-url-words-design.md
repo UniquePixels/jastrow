@@ -1,7 +1,7 @@
 # URL Words — Design Spec
 
 - **Date:** 2026-11-13
-- **Status:** Draft, from the maintainer's decisions of 2026-11-09 and
+- **Status:** Built on branch `doc/url-words` (Tasks 1-4), PR pending. From the maintainer's decisions of 2026-11-09 and
   2026-11-13. §2 is the maintainer's; every other choice is marked as
   Claude's call.
 - **Ruling:** `11-13 url words` in [`docs/decisions.md`](../decisions.md).

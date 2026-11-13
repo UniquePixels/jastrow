@@ -158,7 +158,7 @@ cannot be known one entry at a time.
    headword-line decomposition, markup translation, citation-target
    resolution, page attachment, catalogued-class detection, and the
    per-entry gates 2, 3 and 4.
-6. **Names gate** (gate 7), after pass 2.
+6. **Addresses gate** (gate 7), after pass 2.
 7. **Normalize, then the contract gate** — `normalizeForWrite` over
    every entry, then gate 10 (`contract`) over exactly those normalized
    entries, each at the path the write would give it.
@@ -204,9 +204,9 @@ rule-code changes; `bun qa` cannot see them. Per-PR CI never reads
 
 ## 2. The entry model
 
-An entry file is `{ schemaVersion: 2, id, sefariaHeadword, headwords[],
+An entry file is `{ schemaVersion: 3, id, sefariaHeadword, headwords[],
 senses[] }` required, plus optional `display`, `page`, `grammar`,
-`stems[]` and `formerNames[]`. The schema is
+and `stems[]`. The schema is
 `additionalProperties: false` at every level; the module is handed the
 contract and does not own it.
 
@@ -215,15 +215,16 @@ contract and does not own it.
 `headwords[]` holds every form print sets on the headword line, in
 print order. `headwords[0]` is the primary form: the name, the search
 key and every link derive from it. A form object is
-`{ text, homograph?, disambiguator?, reconstructed?, gender?, partial?,
+`{ text, homograph?, reconstructed?, gender?, partial?,
 annotations? }`. `text` holds clean Hebrew; grouping and marks do not live
 in it.
 
-One field is **named and never displayed**. A `disambiguator` is
-Sefaria's superscript for two lines print sets alike; print sets no
-superscript, so `display` never carries its glyph (ruling 10-06 hidden
-superscript; the parser drops it with the one space before it). It
-reaches the name (§7). A `homograph` is always displayed. Where print
+Sefaria's superscript for two lines print sets alike is **not
+stored**: print sets none, so `display` never carries its glyph and the
+parser drops it with the one space before it (ruling `11-13 url words`,
+which removed the `disambiguator` field 10-06 hidden superscript had
+kept). It survives only in `sefariaHeadword`. A `homograph` is always
+displayed. Where print
 leaves the first homograph of a sequence unnumbered and numbers the
 next II, the first takes an I only where Jastrow's own text names
 `X I` (ruling `10-13 correction policy`, amending 10-06 implied I): a
@@ -1137,66 +1138,37 @@ which runs after the key is taken, need not.
 
 ## 7. Names and addressing
 
-**The name is not stored.** There is no `name` field and no `slug`
-field; there is no slug index. The name is computed from
-`headwords[0]` every time it is needed (`admin/entry/names.ts`), so it
-cannot drift the way a stored slug could.
-
-```
-word = headwords[0].text with ( ) ? , removed, in comparison form
-       (NFC, whitespace collapsed, trimmed)
-name = ("*" if reconstructed) + word
-     + (" " + Roman numeral if homograph)
-     + (superscript digits if disambiguator)
-```
-
-The numeral and the superscript are both in the name, though only the
-numeral is displayed: a `disambiguator` never shows (§2; ruling 10-06
-hidden superscript), so two lines that read alike on the page still
-have two names. An I Jastrow's text names where print sets none
-(ruling `10-13 correction policy`) is displayed and named like any
-other numeral; a bare first homograph with no such cite keeps a bare
-name, and its family runs `X`, `X II`.
+**Nothing about an address is stored.** There is no `name` field, no
+`slug` field and no slug index. An entry's URL is its **URL word**: the
+Hebrew letters of `headwords[0].text`, keeping the maqaf, the geresh and
+the gershayim and dropping vowel points, marks, the `*`, numerals and
+superscripts (`toUrlWord`, `admin/lib/url-path.ts`). Entries sharing a
+URL word are numbered 1, 2, 3 in rid order with no gaps; number 1 has no
+suffix (`/אמר`, `/אמר-2`). `buildEntryPaths` computes every path from the
+entries alone, so a path cannot drift from its headword. A correction
+that changes the word moves its URL and renumbers the entries after it;
+old URLs are not redirected (ruling `11-13 url words`).
 
 It derives from the **primary form only**, never the full headword
 line.
 
 **`sefariaHeadword`** is Sefaria's own headword for that rid, byte for
-byte. It is written from the **pristine** snapshot entry, never the
-composed or transformed one, and import is its only writer. It is the
-field URL routes key on.
+byte, superscript included. It is written from the **pristine** snapshot
+entry, never the composed or transformed one, and import is its only
+writer. It is the field a Sefaria URL is looked up by.
 
 **Comparison is one rule.** Every comparison of one word against
 another goes through `toComparisonForm` (`admin/lib/hebrew.ts`): NFC,
 whitespace runs collapsed, trimmed (ruling `11-07 one comparison
-rule`). `deriveFormName` returns the name already in that form; nothing
-stored is rewritten by it. A byte-exact match on Hebrew is a bug —
-combining-mark order varies in the source.
+rule`). Nothing stored is rewritten by it. A byte-exact match on Hebrew
+is a bug: combining-mark order varies in the source.
 
-**The path is what is checked.** `namePath` turns a name into its URL
-path (each space `_`), and is the only function that does; the
-uniqueness check compares paths, so two names the path spells alike
-collide.
-
-**Collisions.** The first entry (in rid order during import) to compute
-a given name path owns it; every later entry whose name is
-already owned is a `name-collision` problem and reds the run. A name
-that strips to the empty string is its own problem class, checked
-separately because uniqueness alone cannot see it. The escape hatch is
-a maintainer-supplied `disambiguator` on the form — the same tool
-Sefaria uses.
-
-`findNameProblems` is one function backing **both** the import gate
-(`import/gates.ts`'s `checkNames`) and the entry contract
-(`admin/entry/validate.ts`'s `checkNames`), so a hand edit and a run
-cannot disagree about what a collision is.
-
-`formerNames` is declared in the schema and in `Entry`, is
-optional, and **nothing writes it**. The two publication-time gates
-that would read it — no current name equals another entry's former
-name, every former name appears on exactly one entry — do not exist,
-because the published-names ledger they check against does not exist
-before publication. **UNBUILT.**
+**The one address check is that no URL word is empty.** Two entries
+with the same word are not a collision; the number tells them apart.
+`findEmptyUrlWords` (`admin/lib/url-path.ts`) backs **both** the import
+gate (`import/gates.ts`'s `checkAddresses`) and the entry contract
+(`admin/entry/validate.ts`'s `checkUrlWords`), so a hand edit and a run
+cannot disagree about what an empty word is.
 
 **Links resolve by the link key, not the name.** An internal target is
 looked up by each rid's headword line before patches (ruling `10-09
@@ -1274,8 +1246,8 @@ against the written entry — never against the parser that produced it:
 (a) every Hebrew character of the line reaches a form, in order, and no
 form invents one; (b) the line's notation **multiset** — `(`, `)`, `*`,
 `?`, `…`, superscripts, Roman numerals — is exactly the template's,
-with each form's `disambiguator` counted as its superscript (the
-template never carries one, ruling 10-06 hidden superscript);
+with superscript digits skipped, as commas are (the template never
+carries Sefaria's superscript, ruling `11-13 url words`);
 (c) `display` is absent exactly for a line the gate independently
 judges unsettleable (`lineIsUnsettleable`). A patch-supplied template
 adds two more marks.
@@ -1332,9 +1304,10 @@ entry; and a link checked against our corrected spelling, since a
 patch never moves the key. If a rule that respells a headword
 changes, the key moves with it, and this gate says so.
 
-**7. `names`** (`import/gates.ts`, `checkNames`, two marks per entry
-over the **finished** entries).
-*Proves:* the current name is unique in NFC and non-empty; and
+**7. `addresses`** (`import/gates.ts`, `checkAddresses`, two marks per
+entry over the **finished** entries).
+*Proves:* the entry's URL word is non-empty (several entries may share
+one: the number tells them apart, ruling `11-13 url words`); and
 `sefariaHeadword` equals the snapshot's headword for that rid, compared
 against a **fresh** streaming read of the snapshot rather than the map
 that wrote it, so nothing downstream can have rewritten the field
@@ -1616,8 +1589,8 @@ Per file (`validateEntry`): schema; file at `<letter>/<id>.json`; the
 six headword shape rules; the closed tag vocabulary and balanced
 markup per field; no markup in plain identifier fields; and every
 stored string in NFC, except `sefariaHeadword`, which keeps Sefaria's
-bytes. Across the tree (`validateCorpus`): current-name uniqueness in
-NFC; `sefariaHeadword` uniqueness; and every rid-shaped cite ref names
+bytes. Across the tree (`validateCorpus`): no empty URL word
+(`checkUrlWords`); `sefariaHeadword` uniqueness; and every rid-shaped cite ref names
 an existing entry. An entry's `page` is its own record and is not
 checked against the page index (ruling `11-05 page index`).
 

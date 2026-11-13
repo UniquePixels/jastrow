@@ -233,8 +233,8 @@ function intToRomanLocal(n: number): string {
  * rules that an abbreviation which is an entry's ONLY name stays a key
  * rather than becoming partial (§4's X7 row). Index 0 is therefore
  * exempt: §4's H6 row marks three PRIMARY headwords partial on
- * purpose (K00107, P00137, A02002), and a URL name is still derived
- * from them with the notation stripped (`names.ts`). */
+ * purpose (K00107, P00137, A02002), and a URL word is still derived
+ * from them (`url-path.ts`). */
 function checkPartial(
 	id: string,
 	headwords: readonly FormObject[],
@@ -260,8 +260,7 @@ function checkPartial(
  * Its storage half is discharged by the write step rather than
  * checked here (`normalizeForWrite`, #110). The comparisons it binds
  * all go through `toComparisonForm` (`admin/lib/hebrew.ts`, ruling
- * `11-07 one comparison rule`): `names.ts` derives the name in it
- * before the uniqueness check, `validate.ts` puts `sefariaHeadword` in
+ * `11-07 one comparison rule`): `validate.ts` puts `sefariaHeadword` in
  * it, and `cite.ts` keys the headword map by it. Adding a within-entry
  * duplicate check here would be a SEVENTH rule wearing rule 6's number: it fires on four
  * committed entries (A02981, E00199, Q01624, U00076, each of which
