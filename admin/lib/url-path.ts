@@ -47,7 +47,7 @@ function buildEntryPaths(entries: UrlWordSource): Map<string, string> {
 	}
 	const paths = new Map<string, string>();
 	for (const [word, ids] of byWord) {
-		for (const [index, id] of ids.sort(compareByCodeUnit).entries()) {
+		for (const [index, id] of ids.toSorted(compareByCodeUnit).entries()) {
 			paths.set(id, index === 0 ? `/${word}` : `/${word}-${index + 1}`);
 		}
 	}
