@@ -10,9 +10,9 @@
  * 2. `display` holds no Hebrew letters or points.
  * 3. Markers agree with the forms: `*` before `{n}` or its group ⇔
  *    `reconstructed`; a SINGLE numeral beside `{n}` ⇔ a `homograph`;
- *    `m.`/`f.` beside `{n}` ⇔ `gender`. One thing is named and never
- *    displayed (ruling 10-06 hidden superscript): a `disambiguator`'s
- *    superscript never appears in `display`. An I print does not set
+ *    `m.`/`f.` beside `{n}` ⇔ `gender`. Sefaria's superscript never
+ *    appears in `display`: print sets none (ruling `11-13 url
+ *    words`). An I print does not set
  *    is displayed too: ruling 10-13 correction policy stores it only
  *    where Jastrow's text names it, with an annotation, and retired
  *    10-06's hidden `implied` I.
@@ -38,6 +38,7 @@
  * that held it (`HALT_ON_TEXT_DEFECT`) was removed once armed, since
  * its other branch was dead (review ledger L13).
  */
+import { SUPERSCRIPT_DIGIT } from '../lib/hebrew.ts';
 import { isLexical, PLACEHOLDER } from './headwords.ts';
 import type { Entry, FormObject } from './schema.ts';
 
@@ -54,9 +55,6 @@ const GENDER_IN_DISPLAY = /(?<![A-Za-z])(?<label>[mf])\.(?![A-Za-z])/gu;
 /** A notation run that may stand between a `*` and the form (or the
  * group) it marks: the delimiters, the query mark and whitespace. */
 const STAR_REACHES = /\*[\s()?]*$/u;
-/** A superscript digit, the glyph of a `disambiguator`. Listed by code
- * point: three of them (¹ ² ³) sit in Latin-1, the rest at U+2070. */
-const SUPERSCRIPT = /[\u00B2\u00B3\u00B9\u2070\u2074-\u2079]/u;
 
 /** Rule 4: the forms whose `text` carries notation it must not — the
  * §3 halt, measured rather than assumed. Returns one line per
@@ -182,18 +180,18 @@ function checkNumeral(at: MarkerSite, problems: string[]): void {
 	);
 }
 
-/** Rule 3's half that holds with or without a `display` (ruling 10-06
- * hidden superscript): `display` carries no superscript digit. A
- * `disambiguator` is named and never displayed, so a superscript in
- * the template is either that number shown, or one no form carries. */
-function checkNamedNotShown(
+/** Rule 3's half that holds with or without a `display`: `display`
+ * carries no superscript digit. Print sets none, and Sefaria's
+ * superscript is dropped by the parser (ruling `11-13 url words`), so
+ * a superscript in the template is notation print never set. */
+function checkNoSuperscriptInDisplay(
 	entry: Pick<Entry, 'display' | 'id'>,
 	problems: string[],
 ): void {
-	const sup = SUPERSCRIPT.exec(entry.display ?? '');
+	const sup = SUPERSCRIPT_DIGIT.exec(entry.display ?? '');
 	if (sup !== null) {
 		problems.push(
-			`${entry.id}: display carries the superscript ${JSON.stringify(sup[0])}; a disambiguator is named, never displayed (§3.1 rule 3, ruling 10-06 hidden superscript)`,
+			`${entry.id}: display carries the superscript ${JSON.stringify(sup[0])}; print sets none (§3.1 rule 3, ruling 11-13 url words)`,
 		);
 	}
 }
@@ -233,8 +231,8 @@ function intToRomanLocal(n: number): string {
  * rules that an abbreviation which is an entry's ONLY name stays a key
  * rather than becoming partial (§4's X7 row). Index 0 is therefore
  * exempt: §4's H6 row marks three PRIMARY headwords partial on
- * purpose (K00107, P00137, A02002), and a URL name is still derived
- * from them with the notation stripped (`names.ts`). */
+ * purpose (K00107, P00137, A02002), and a URL word is still derived
+ * from them (`url-path.ts`). */
 function checkPartial(
 	id: string,
 	headwords: readonly FormObject[],
@@ -260,8 +258,7 @@ function checkPartial(
  * Its storage half is discharged by the write step rather than
  * checked here (`normalizeForWrite`, #110). The comparisons it binds
  * all go through `toComparisonForm` (`admin/lib/hebrew.ts`, ruling
- * `11-07 one comparison rule`): `names.ts` derives the name in it
- * before the uniqueness check, `validate.ts` puts `sefariaHeadword` in
+ * `11-07 one comparison rule`): `validate.ts` puts `sefariaHeadword` in
  * it, and `cite.ts` keys the headword map by it. Adding a within-entry
  * duplicate check here would be a SEVENTH rule wearing rule 6's number: it fires on four
  * committed entries (A02981, E00199, Q01624, U00076, each of which
@@ -274,7 +271,7 @@ function headwordShapeProblems(
 	const problems: string[] = [];
 	checkPartial(entry.id, entry.headwords, problems);
 	problems.push(...textDefects(entry));
-	checkNamedNotShown(entry, problems);
+	checkNoSuperscriptInDisplay(entry, problems);
 	const { display } = entry;
 	if (display === undefined) {
 		// §3: a line the source cannot settle is written WITHOUT a

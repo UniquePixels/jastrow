@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A01664",
 	"sefariaHeadword": "אַכְאָבִית ²",
 	"headwords": [
 		{
-			"text": "אַכְאָבִית",
-			"disambiguator": 2
+			"text": "אַכְאָבִית"
 		}
 	],
 	"display": "{0}",

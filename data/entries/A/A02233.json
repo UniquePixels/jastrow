@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A02233",
 	"sefariaHeadword": "אָנִיסָא ²",
 	"headwords": [
 		{
-			"text": "אָנִיסָא",
-			"disambiguator": 2
+			"text": "אָנִיסָא"
 		}
 	],
 	"display": "{0}",

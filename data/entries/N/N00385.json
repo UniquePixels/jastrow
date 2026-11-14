@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "N00385",
 	"sefariaHeadword": "נוּעַ ²",
 	"headwords": [
 		{
-			"text": "נוּעַ",
-			"disambiguator": 2
+			"text": "נוּעַ"
 		}
 	],
 	"display": "{0}",

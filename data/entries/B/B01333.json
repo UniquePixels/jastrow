@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "B01333",
 	"sefariaHeadword": "בַּרְקָתָא ²",
 	"headwords": [
 		{
-			"text": "בַּרְקָתָא",
-			"disambiguator": 2
+			"text": "בַּרְקָתָא"
 		}
 	],
 	"display": "{0}",

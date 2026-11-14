@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S02002",
 	"sefariaHeadword": "קַרְטֵיס ²",
 	"headwords": [
 		{
-			"text": "קַרְטֵיס",
-			"disambiguator": 2
+			"text": "קַרְטֵיס"
 		},
 		{
 			"text": "קַרְטֵיסָא"

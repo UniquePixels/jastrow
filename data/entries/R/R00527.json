@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "R00527",
 	"sefariaHeadword": "צֶלֶם ²",
 	"headwords": [
 		{
-			"text": "צֶלֶם",
-			"disambiguator": 2
+			"text": "צֶלֶם"
 		},
 		{
 			"text": "צְלַם"

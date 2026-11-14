@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "D00469",
 	"sefariaHeadword": "דִּיבּוּק ²",
 	"headwords": [
 		{
-			"text": "דִּיבּוּק",
-			"disambiguator": 2
+			"text": "דִּיבּוּק"
 		},
 		{
 			"text": "דִּבּוּק"

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "P00237",
 	"sefariaHeadword": "עַוִּית ²",
 	"headwords": [
 		{
-			"text": "עַוִּית",
-			"disambiguator": 2
+			"text": "עַוִּית"
 		}
 	],
 	"display": "{0}",

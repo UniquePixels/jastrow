@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A00785",
 	"sefariaHeadword": "אוסיא ²",
 	"headwords": [
 		{
-			"text": "אוסיא",
-			"disambiguator": 2
+			"text": "אוסיא"
 		}
 	],
 	"display": "{0}",

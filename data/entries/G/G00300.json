@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "G00300",
 	"sefariaHeadword": "זִיו ²",
 	"headwords": [
 		{
-			"text": "זִיו",
-			"disambiguator": 2
+			"text": "זִיו"
 		},
 		{
 			"text": "זִיוָא",

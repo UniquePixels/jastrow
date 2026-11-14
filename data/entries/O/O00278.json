@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "O00278",
 	"sefariaHeadword": "סוּחַ ²",
 	"headwords": [
 		{
-			"text": "סוּחַ",
-			"disambiguator": 2
+			"text": "סוּחַ"
 		}
 	],
 	"display": "{0}",

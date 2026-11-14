@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "M03036",
 	"sefariaHeadword": "מְתוּרְגְּמָן ²",
 	"headwords": [
 		{
-			"text": "מְתוּרְגְּמָן",
-			"disambiguator": 2
+			"text": "מְתוּרְגְּמָן"
 		},
 		{
 			"text": "מְתוּרְגְּמָנָא"

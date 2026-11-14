@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "I00505",
 	"sefariaHeadword": "טַלִּית ²",
 	"headwords": [
 		{
-			"text": "טַלִּית",
-			"disambiguator": 2
+			"text": "טַלִּית"
 		},
 		{
 			"text": "טַלִּיתָא"

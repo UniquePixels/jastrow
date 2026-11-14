@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S00060",
 	"sefariaHeadword": "קְבַל ²",
 	"headwords": [
 		{
-			"text": "קְבַל",
-			"disambiguator": 2
+			"text": "קְבַל"
 		}
 	],
 	"display": "{0}",

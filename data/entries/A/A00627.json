@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A00627",
 	"sefariaHeadword": "אוי ²",
 	"headwords": [
 		{
-			"text": "אוי",
-			"disambiguator": 2
+			"text": "אוי"
 		},
 		{
 			"text": "אָוָה",

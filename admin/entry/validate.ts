@@ -16,10 +16,10 @@
  *   balance, no markup in a plain field, and every stored string in
  *   NFC — an annotation's strings included.
  * - `validateCorpus(entries)` — what only the whole tree can answer:
- *   names and `sefariaHeadword` are unique, and every rid-shaped cite
- *   names an entry. An entry's `page` is its own record (ruling
- *   `11-05 page index`): the page index is an import input, and
- *   nothing here compares the two.
+ *   every URL word has a letter, `sefariaHeadword` is unique, and
+ *   every rid-shaped cite names an entry. An entry's `page` is its
+ *   own record (ruling `11-05 page index`): the page index is an
+ *   import input, and nothing here compares the two.
  *
  * `validateEntries` runs both over a loaded tree. The import's
  * `contract` gate runs both halves before it writes; `bun
@@ -33,10 +33,10 @@ import { compareByCodeUnit } from '../lib/compare-by-code-unit.ts';
 import { findDuplicates } from '../lib/find-duplicates.ts';
 import { toComparisonForm } from '../lib/hebrew.ts';
 import { tokenize } from '../lib/html.ts';
+import { findEmptyUrlWords } from '../lib/url-path.ts';
 import { paths } from '../paths.ts';
 import { checkAnnotations } from './annotations.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
-import { findNameProblems } from './names.ts';
 import {
 	type Entry,
 	EntrySchema,
@@ -253,9 +253,8 @@ function* senseLabels(
 }
 
 /** Every field that must carry none: the headword forms, the display
- * template, `sefariaHeadword` and any `formerNames` are identifiers
- * that `names.ts` and the compiler read as text; sense labels are
- * numbering. */
+ * template and `sefariaHeadword` are identifiers that `url-path.ts`
+ * and the compiler read as text; sense labels are numbering. */
 function* plainFields(entry: Entry): Generator<[string, string]> {
 	yield ['sefariaHeadword', entry.sefariaHeadword];
 	for (const [i, form] of entry.headwords.entries()) {
@@ -263,9 +262,6 @@ function* plainFields(entry: Entry): Generator<[string, string]> {
 	}
 	if (entry.display !== undefined) {
 		yield ['display', entry.display];
-	}
-	for (const [i, name] of (entry.formerNames ?? []).entries()) {
-		yield [`formerNames[${i}]`, name];
 	}
 	yield* senseLabels(entry.senses, 'senses');
 	for (const [i, stem] of (entry.stems ?? []).entries()) {
@@ -289,7 +285,7 @@ interface EntryField {
  *
  * Codes are not text and are not visited: `id`, `schemaVersion`,
  * `grammar`, `page` and a form's `gender`, `homograph`,
- * `disambiguator`, `reconstructed` and `partial`.
+ * `reconstructed` and `partial`.
  *
  * Nor are `annotations` (ANNOTATIONS.md §2). An annotation QUOTES a
  * field rather than being one: its `stored` is a substring of a field
@@ -353,17 +349,19 @@ function checkNfc(entry: Entry, problems: string[]): void {
 	}
 }
 
-/** Current names are unique across the tree, compared as URL paths
- * (URL names spec §5.2, first row; ruling `11-07 one comparison
- * rule`). The rule itself is `names.ts`, shared with import's `names`
- * gate so a hand edit and a run cannot disagree about what a collision
- * is.
+/** Every URL word holds a letter (ruling `11-13 url words`). Entries
+ * sharing a word are fine: `buildEntryPaths` numbers them. The rule is
+ * `findEmptyUrlWords`, shared with import's `addresses` gate so a hand
+ * edit and a run cannot disagree about what an empty word is, or
+ * about the line that reports one.
  *
  * Ids need no check of their own: glob paths are unique and
  * `checkEntry` allows each id one path, so a second file for an id is
  * already reported as away from its home. */
-function checkNames(entries: readonly Entry[], problems: string[]): void {
-	problems.push(...findNameProblems(entries).map((p) => p.line));
+function checkUrlWords(entries: readonly Entry[], problems: string[]): void {
+	for (const { line } of findEmptyUrlWords(entries)) {
+		problems.push(line);
+	}
 }
 
 /** `sefariaHeadword` is unique across the tree (URL names spec §5.2,
@@ -498,7 +496,7 @@ function validateEntry(entry: unknown, path: string): string[] {
  * passed the schema; an empty list is a consistent tree. */
 function validateCorpus(entries: readonly Entry[]): string[] {
 	const problems: string[] = [];
-	checkNames(entries, problems);
+	checkUrlWords(entries, problems);
 	checkSefariaHeadwords(entries, problems);
 	const ids = new Set(entries.map((e) => e.id));
 	for (const entry of entries) {

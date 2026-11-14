@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "T00789",
 	"sefariaHeadword": "רַמַּאי ²",
 	"headwords": [
 		{
-			"text": "רַמַּאי",
-			"disambiguator": 2
+			"text": "רַמַּאי"
 		},
 		{
 			"text": "רַמָּאָה"

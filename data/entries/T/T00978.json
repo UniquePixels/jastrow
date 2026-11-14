@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "T00978",
 	"sefariaHeadword": "רְצוּעָה ²",
 	"headwords": [
 		{
-			"text": "רְצוּעָה",
-			"disambiguator": 2
+			"text": "רְצוּעָה"
 		}
 	],
 	"display": "{0}",

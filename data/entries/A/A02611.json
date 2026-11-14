@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A02611",
 	"sefariaHeadword": "אפודרים ²",
 	"headwords": [
 		{
-			"text": "אפודרים",
-			"disambiguator": 2
+			"text": "אפודרים"
 		}
 	],
 	"display": "{0}",

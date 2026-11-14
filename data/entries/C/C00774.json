@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "C00774",
 	"sefariaHeadword": "גִּיס II ²",
 	"headwords": [
 		{
 			"text": "גִּיס",
-			"disambiguator": 2,
 			"homograph": 2
 		}
 	],

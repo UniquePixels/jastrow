@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "U01850",
 	"sefariaHeadword": "שקי ²",
 	"headwords": [
 		{
-			"text": "שקי",
-			"disambiguator": 2
+			"text": "שקי"
 		}
 	],
 	"display": "{0}",

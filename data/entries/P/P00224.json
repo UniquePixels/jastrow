@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "P00224",
 	"sefariaHeadword": "(עוּזְרָד ²",
 	"headwords": [
 		{
-			"text": "עוּזְרָד",
-			"disambiguator": 2
+			"text": "עוּזְרָד"
 		},
 		{
 			"text": "עוּזְרָר",

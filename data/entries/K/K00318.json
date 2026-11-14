@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "K00318",
 	"sefariaHeadword": "כּוֹסָא ²",
 	"headwords": [
 		{
-			"text": "כּוֹסָא",
-			"disambiguator": 2
+			"text": "כּוֹסָא"
 		}
 	],
 	"display": "{0}",

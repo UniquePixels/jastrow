@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "G00675",
 	"sefariaHeadword": "זָרָה  I, II",
 	"headwords": [
 		{
-			"text": "זָרָה",
-			"disambiguator": 2
+			"text": "זָרָה"
 		}
 	],
 	"display": "{0} I, II",

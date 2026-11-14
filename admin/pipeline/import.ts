@@ -36,11 +36,11 @@ import {
 } from './import/detectors/classes.ts';
 import { finishEntry } from './import/finish.ts';
 import {
+	checkAddresses,
 	checkChain,
 	checkContract,
 	checkEvidenceLocators,
 	checkHeadwordLine,
-	checkNames,
 	checkPages,
 	checkTextConservation,
 	mark,
@@ -357,7 +357,7 @@ function checkOrphanRefs(composed: readonly Composed[], report: Report): void {
 
 /** Pass 1's corpus-level indexes, and gates 5 and 8 — the two that
  * are properties of the corpus rather than of one entry. Gate 7
- * (`names`) waits for pass 2: it reads the FINISHED entries.
+ * (`addresses`) waits for pass 2: it reads the FINISHED entries.
  *
  * Two headword maps, deliberately. Citations resolve against each
  * rid's `linkHeadword`, the line the transform phases leave BEFORE any
@@ -417,7 +417,7 @@ async function checkFinished(
 	);
 	report.gates.citeNumeral = result.tally;
 	report.citeNumerals = result.counts;
-	report.gates.names = checkNames(entries, await loadSourceHeadwords());
+	report.gates.addresses = checkAddresses(entries, await loadSourceHeadwords());
 }
 
 /** rid → Sefaria's `headword`, read FRESH from the snapshot for gate

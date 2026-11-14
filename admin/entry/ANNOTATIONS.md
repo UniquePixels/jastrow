@@ -92,10 +92,9 @@ Rule 3 changed in the same PR: a single numeral beside `{n}` ⇔
 '', stored: 'I', evidence: …}`, and `display` sets the ` I`. One mark,
 not two for one fact. Rule 3 loses its implied clause (a single numeral
 beside `{n}` ⇔ `homograph`), `reform.homographs` loses `implied`, and
-gate 2 counts every numeral as notation. Names do not change: `deriveFormName`
-already appends the numeral. `reconstructed`, `partial` and
-`disambiguator` are untouched. The first two are print's notation and
-the third is Sefaria's, so none of them is a correction.
+gate 2 counts every numeral as notation. `reconstructed` and `partial`
+are untouched: they are print's notation, so neither is a correction.
+(The URL word drops numerals, so an I changes no address.)
 
 **What `validateEntry` checks** (`admin/entry/annotations.ts`, called
 from `validate.ts` beside `checkGender`; the shape in
@@ -241,7 +240,6 @@ Measured on the committed tree at `c9f572cfa` (32,512 entries) and the
 | S01780's half-printed qamats | 1 | case 4, pending round 2 |
 | `partial` forms | 2,494 on 2,275 entries | print's notation: no annotation |
 | `reconstructed` forms / starred senses | 1,357 forms / 107 senses on 105 entries | print's star: no annotation |
-| `disambiguator` | 808 | Sefaria's: no annotation |
 
 **Every past patch, by case** (rationale keyword, then read):
 
@@ -259,9 +257,9 @@ Of the four text ops asked about (`replace`, `retag`, `split`,
 `join`: 330 patches), 2 are unclassified. Both are D00341's bracket
 move (P000215, P000216), recorded as a deviation (register #16) though
 it keeps every printed byte. The third unclassified patch is P000307,
-G00675's disambiguator, which is not a text correction. K00081's
-`—5)` (P000189) read as ambiguous from its rationale. The hOCR reads
-`—5) to detain`, so it is case 1. Case 3 makes no patch by definition,
+G00675's disambiguator (since deleted, `11-13 url words`), which was
+not a text correction. K00081's `—5)` (P000189) read as ambiguous
+from its rationale. The hOCR reads `—5) to detain`, so it is case 1. Case 3 makes no patch by definition,
 and no case 4 patch exists yet.
 
 ## 5. What the app owes

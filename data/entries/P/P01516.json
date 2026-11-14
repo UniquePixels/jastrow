@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "P01516",
 	"sefariaHeadword": "עֲשָׁשִׁית ²",
 	"headwords": [
 		{
-			"text": "עֲשָׁשִׁית",
-			"disambiguator": 2
+			"text": "עֲשָׁשִׁית"
 		},
 		{
 			"text": "עֲשָׁשִׁיתָא"

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "P01221",
 	"sefariaHeadword": "עַקְרַבָּא ²",
 	"headwords": [
 		{
-			"text": "עַקְרַבָּא",
-			"disambiguator": 2
+			"text": "עַקְרַבָּא"
 		},
 		{
 			"text": "עַקְרַבָּה"

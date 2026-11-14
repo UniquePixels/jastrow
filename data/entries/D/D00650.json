@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "D00650",
 	"sefariaHeadword": "דִּינָר ²",
 	"headwords": [
 		{
-			"text": "דִּינָר",
-			"disambiguator": 2
+			"text": "דִּינָר"
 		},
 		{
 			"text": "דִּינָרָא"

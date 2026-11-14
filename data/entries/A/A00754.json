@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A00754",
 	"sefariaHeadword": "אוֹנֶס ²",
 	"headwords": [
 		{
-			"text": "אוֹנֶס",
-			"disambiguator": 2
+			"text": "אוֹנֶס"
 		}
 	],
 	"display": "{0}",

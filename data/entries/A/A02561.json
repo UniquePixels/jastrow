@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A02561",
 	"sefariaHeadword": "אִסְרַטְיָא ²",
 	"headwords": [
 		{
-			"text": "אִסְרַטְיָא",
-			"disambiguator": 2
+			"text": "אִסְרַטְיָא"
 		},
 		{
 			"text": "אִיסְ׳",

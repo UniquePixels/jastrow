@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S00918",
 	"sefariaHeadword": "קִיטְנִית ²",
 	"headwords": [
 		{
-			"text": "קִיטְנִית",
-			"disambiguator": 2
+			"text": "קִיטְנִית"
 		},
 		{
 			"text": "קִטְ׳",

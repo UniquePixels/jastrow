@@ -4,8 +4,7 @@
  * (composition failures) live with the composer and the CLI. */
 
 import { entryAnnotations } from '../../entry/annotations.ts';
-import { intToRoman, intToSup } from '../../entry/headwords.ts';
-import { findNameProblems } from '../../entry/names.ts';
+import { intToRoman } from '../../entry/headwords.ts';
 import type { Entry } from '../../entry/schema.ts';
 import {
 	checkEntry,
@@ -13,7 +12,9 @@ import {
 	validateCorpus,
 } from '../../entry/validate.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
+import { SUPERSCRIPT_DIGIT } from '../../lib/hebrew.ts';
 import { tokenize } from '../../lib/html.ts';
+import { findEmptyUrlWords } from '../../lib/url-path.ts';
 import type { PagePlacement } from '../page-index.ts';
 import { lossMismatch } from '../patch/loss.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
@@ -130,6 +131,13 @@ function cutSlots(display: string): string {
  * supplied rather than recovered. Counting them would compare a number
  * the source does not carry against one the parser invented.
  *
+ * **So are Sefaria's superscript digits** (ruling `11-13 url words`),
+ * on both sides too: print sets none, the parser drops them, and no
+ * field holds one, so the source's are counted against nothing. The
+ * template side skips them as well, so a superscript in `display` is
+ * not caught here: rule 3's `checkNoSuperscriptInDisplay`
+ * (`admin/entry/headword-rules.ts`) refuses one.
+ *
  * **So is print's ` or ` between two spellings** (ruling 10-25 display
  * or), a separator the template supplies like `, `; it is cut in
  * {@link writtenNotation}, where the slots still show what it stands
@@ -151,7 +159,9 @@ function notationOf(line: string): Map<string, number> {
 			c === 0x05_f3 ||
 			c === 0x05_f4 ||
 			c === 0x03_07;
-		if (!(hebrew || ch === ',' || ch.trim() === '')) {
+		if (
+			!(hebrew || SUPERSCRIPT_DIGIT.test(ch) || ch === ',' || ch.trim() === '')
+		) {
 			bump(ch);
 		}
 	}
@@ -159,19 +169,10 @@ function notationOf(line: string): Map<string, number> {
 }
 
 /** The notation an entry writes for its line: the template's, with
- * its slots cut out, and every form's `disambiguator` as the
- * superscript the source set. Since ruling 10-06 hidden superscript
- * the template never carries that glyph, so the forms are where mark 2
- * finds it; a superscript left in the template as well counts twice
- * and fails, and one dropped from both fails as lost. Print's ` or `
- * between two slots is a separator, not counted ({@link cutSlots}). */
-function writtenNotation(entry: Entry, display: string): Map<string, number> {
-	const superscripts = entry.headwords
-		.map((f) =>
-			f.disambiguator === undefined ? '' : intToSup(f.disambiguator),
-		)
-		.join('');
-	return notationOf(cutSlots(display) + superscripts);
+ * its slots cut out. Print's ` or ` between two slots is a separator,
+ * not counted ({@link cutSlots}). */
+function writtenNotation(display: string): Map<string, number> {
+	return notationOf(cutSlots(display));
 }
 
 /** The notation the composed line carries: its own, plus each
@@ -250,11 +251,10 @@ function lineIsUnsettleable(line: string): boolean {
  *    reaches a form, in order, and no form invents one. This is the
  *    half that matters: `text` is the lookup key, the source of the
  *    URL name and the link target.
- * 2. **the notation multiset** — the line's `(`, `)`, `*`, `?`, `…`,
- *    superscripts and Roman numerals are exactly the entry's: the
- *    template's, plus each form's `disambiguator` as its superscript,
- *    since the template never carries one (ruling 10-06 hidden
- *    superscript; {@link writtenNotation}). A
+ * 2. **the notation multiset** — the line's `(`, `)`, `*`, `?`, `…`
+ *    and Roman numerals are exactly the template's. Sefaria's
+ *    superscripts are not counted: print sets none (ruling `11-13 url
+ *    words`; {@link notationOf}). A
  *    parenthesis dropped, a numeral invented or a star moved onto a
  *    different form all fail here. It holds for a template a `reform`
  *    patch SUPPLIED too, as long as the source line is one this gate
@@ -306,7 +306,7 @@ function checkHeadwordLine(
 		return;
 	}
 	const source = lineNotation(composed);
-	const written = writtenNotation(entry, entry.display);
+	const written = writtenNotation(entry.display);
 	if (composed.display !== undefined) {
 		// What could actually go wrong with a supplied template is that
 		// the run failed to carry it through to the entry.
@@ -560,22 +560,19 @@ function checkChain(
 	return t;
 }
 
-/** Gate 7: every entry's current NAME is unique, and its
- * `sefariaHeadword` is Sefaria's `headword` for that rid byte for
- * byte (URL names spec §5.2, U2, U3). It replaces the `slugs` gate:
- * there is no stem numbering left to have a bare owner, and the name
- * is computed from the headword rather than stored beside it.
+/** Gate 7: every entry has an address, and its `sefariaHeadword` is
+ * Sefaria's `headword` for that rid byte for byte (ruling `11-13 url
+ * words`; URL names spec §5.2, U3). It replaces the `names` gate: two
+ * entries may share a word, since `buildEntryPaths` numbers them, so
+ * the one thing an address needs is a word at all.
  *
  * Two marks per entry, both over the FINISHED entries rather than
  * over the inputs they were built from — the artefact is what a
  * reader and the route map will read.
  *
- * - **addressable** is the `name-collision` failure of spec §7,
- *   compared in NFC (`names.ts`): the name is not already another
- *   entry's, and it is not empty. A correction that makes two current
- *   names equal fails here and the editor adds a disambiguator (§4);
- *   a headword that is all notation strips to nothing, collides with
- *   nobody, and would otherwise be reachable by no URL at all.
+ * - **addressable** is that the URL word is not empty
+ *   (`findEmptyUrlWords`): a headword that is all notation keeps no
+ *   letter and would otherwise be reachable by no URL at all.
  * - **verbatim** compares the written `sefariaHeadword` against the
  *   source snapshot line for the same rid. It lives on the import
  *   path alone because per-PR CI never reads `data/sources/sefaria/` (R9).
@@ -588,17 +585,17 @@ function checkChain(
  *
  * `sourceHeadwords` is rid → the pristine `headword` string, so a
  * missing rid fails rather than passing against `undefined`. */
-function checkNames(
+function checkAddresses(
 	entries: readonly Entry[],
 	sourceHeadwords: ReadonlyMap<string, string>,
 ): Tally {
 	const t = tally();
-	const collided = new Map(
-		findNameProblems(entries).map((p) => [p.rid, p.line]),
+	const empty = new Map(
+		findEmptyUrlWords(entries).map(({ line, rid }) => [rid, line]),
 	);
 	for (const entry of entries) {
-		const collision = collided.get(entry.id);
-		mark(t, collision === undefined, collision ?? '');
+		const line = empty.get(entry.id);
+		mark(t, line === undefined, line ?? '');
 		const source = sourceHeadwords.get(entry.id);
 		mark(
 			t,
@@ -677,7 +674,7 @@ function annotationProvenance(
 /** Gate 10: the entry contract (`admin/entry/`) over exactly what the
  * run is about to write — the NORMALIZED entries, each at the path
  * `pathOf` will write it to. One mark per entry for its own checks,
- * plus ONE mark for the corpus checks (names, `sefariaHeadword`, cite
+ * plus ONE mark for the corpus checks (addresses, `sefariaHeadword`, cite
  * targets), each of whose problems is listed
  * as its own failure. A clean run reads 32,513/32,513; a corpus
  * problem shows as a missing pass, never as `N/N` beside a failure.
@@ -786,11 +783,11 @@ function markDeclaredLoss(
 
 export type { EvidenceSources, Tally };
 export {
+	checkAddresses,
 	checkChain,
 	checkContract,
 	checkEvidenceLocators,
 	checkHeadwordLine,
-	checkNames,
 	checkPages,
 	checkTextConservation,
 	mark,

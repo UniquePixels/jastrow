@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "M00908",
 	"sefariaHeadword": "מַחְסוֹר ²",
 	"headwords": [
 		{
-			"text": "מַחְסוֹר",
-			"disambiguator": 2
+			"text": "מַחְסוֹר"
 		}
 	],
 	"display": "{0}",

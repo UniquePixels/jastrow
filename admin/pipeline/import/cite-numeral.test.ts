@@ -18,7 +18,7 @@ function target(id: string, homograph: number | undefined, gloss = 'x'): Entry {
 		],
 		id,
 		page: { column: 'a', number: 1 },
-		schemaVersion: 2,
+		schemaVersion: 3,
 		sefariaHeadword: 'חוּל',
 		senses: [{ gloss, units: [] }],
 	} as Entry;

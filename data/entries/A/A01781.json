@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A01781",
 	"sefariaHeadword": "אָלָה ²",
 	"headwords": [
 		{
-			"text": "אָלָה",
-			"disambiguator": 2
+			"text": "אָלָה"
 		}
 	],
 	"display": "{0}",

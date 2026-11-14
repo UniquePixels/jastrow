@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "I00190",
 	"sefariaHeadword": "טוּס ²",
 	"headwords": [
 		{
-			"text": "טוּס",
-			"disambiguator": 2
+			"text": "טוּס"
 		}
 	],
 	"display": "{0}",

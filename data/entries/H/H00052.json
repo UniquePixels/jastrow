@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "H00052",
 	"sefariaHeadword": "חָבִיב ²",
 	"headwords": [
 		{
-			"text": "חָבִיב",
-			"disambiguator": 2
+			"text": "חָבִיב"
 		},
 		{
 			"text": "חֲבִיבָא",

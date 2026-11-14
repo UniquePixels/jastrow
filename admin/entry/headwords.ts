@@ -41,12 +41,9 @@
  * (A02823, whose line print sets without a comma).
  */
 import { findDuplicates } from '../lib/find-duplicates.ts';
-import { toComparisonForm } from '../lib/hebrew.ts';
+import { SUPERSCRIPT_DIGIT, toComparisonForm } from '../lib/hebrew.ts';
 import type { FormObject } from './schema.ts';
 
-/** Superscript digits, in value order — `intToSup`'s alphabet and
- * `supToInt`'s lookup, so the two cannot disagree about a glyph. */
-const SUP_DIGITS = '⁰¹²³⁴⁵⁶⁷⁸⁹';
 /** Roman numeral values, largest first: the greedy table both
  * `intToRoman` and `romanToInt` walk. */
 const ROMAN: ReadonlyArray<readonly [number, string]> = [
@@ -162,25 +159,6 @@ function romanToInt(s: string): number {
 	return rest === '' ? total : Number.NaN;
 }
 
-/** A disambiguator as superscript digits. */
-function intToSup(n: number): string {
-	return [...String(n)].map((d) => SUP_DIGITS[Number(d)] ?? '').join('');
-}
-
-/** Superscript digits back to a number, or NaN on any character that
- * is not one — see `romanToInt` for why a partial read is refused. */
-function supToInt(s: string): number {
-	let out = '';
-	for (const ch of s) {
-		const digit = SUP_DIGITS.indexOf(ch);
-		if (digit < 0) {
-			return Number.NaN;
-		}
-		out += String(digit);
-	}
-	return Number(out);
-}
-
 /** Hebrew letters, points, accents, geresh, gershayim and the
  * combining dot above — the characters a form's `text` is built from.
  *
@@ -279,9 +257,9 @@ function scanRun(chars: readonly string[], at: number): string {
 		}
 		return chars.slice(at, j).join('');
 	}
-	if (SUP_DIGITS.includes(ch)) {
+	if (SUPERSCRIPT_DIGIT.test(ch)) {
 		let j = at;
-		while (j < chars.length && SUP_DIGITS.includes(chars[j] ?? '')) {
+		while (j < chars.length && SUPERSCRIPT_DIGIT.test(chars[j] ?? '')) {
 			j++;
 		}
 		return chars.slice(at, j).join('');
@@ -345,9 +323,9 @@ interface ItemScan {
  * optional-ending notation rather than a lemma of its own. It starts
  * TRUE so an item's first form is never attached to nothing.
  *
- * A superscript reaches its form (`readMark` makes it the
- * `disambiguator`) and never the fragment: print sets none, so the
- * template does not either (ruling 10-06 hidden superscript). See
+ * A superscript reaches neither the form (`readMark` drops it) nor
+ * the fragment: print sets none, so neither the entry nor its
+ * template does (ruling `11-13 url words`). See
  * {@link withoutSuperscript} for the space beside it. */
 function collectPieces(pieces: readonly Piece[], first: number): ItemScan {
 	const building: Building[] = [];
@@ -360,7 +338,7 @@ function collectPieces(pieces: readonly Piece[], first: number): ItemScan {
 			if (piece.value === ' ') {
 				sawSpaceSinceForm = true;
 			}
-			fragment = SUP_DIGITS.includes(piece.value.charAt(0))
+			fragment = SUPERSCRIPT_DIGIT.test(piece.value.charAt(0))
 				? withoutSuperscript(fragment)
 				: fragment + piece.value;
 			continue;
@@ -405,8 +383,9 @@ function markLeading(leading: readonly string[]): string[] {
 }
 
 /** The notation following one form inside its own item, read onto that
- * form: a SINGLE Roman numeral is its homograph, superscript digits
- * its disambiguator, `m.`/`f.` its gender.
+ * form: a SINGLE Roman numeral is its homograph, `m.`/`f.` its
+ * gender. Sefaria's superscript digits are dropped: print sets none
+ * (ruling `11-13 url words`).
  *
  * **Two or more numerals are not this form's number** (§3.1 rule 3,
  * §4's H1 row): `אוּרְיָה I, II` is a cross-reference naming two other
@@ -438,24 +417,9 @@ function readMark(mark: string, one: Building, romans: string[]): string[] {
 	if (LATIN.test(mark)) {
 		return [`Latin run ${JSON.stringify(mark)} beside the form`];
 	}
-	if (SUP_DIGITS.includes(mark.charAt(0))) {
-		return readSuperscript(mark, one);
-	}
 	if (mark === '=') {
 		return ['the line holds `=`, which introduces a gloss reference'];
 	}
-	return [];
-}
-
-/** Superscript digits as the form's disambiguator. A run that does
- * not read as a whole number is refused rather than partly consumed
- * (see `supToInt`). */
-function readSuperscript(mark: string, one: Building): string[] {
-	const value = supToInt(mark);
-	if (!Number.isInteger(value) || value < 1) {
-		return [`superscript ${JSON.stringify(mark)} is not a number`];
-	}
-	one.form.disambiguator = value;
 	return [];
 }
 
@@ -533,7 +497,7 @@ function markAbbreviated(forms: readonly FormObject[]): void {
 	}
 }
 
-/** A separator no form text, homograph or disambiguator can hold, so
+/** A separator no form text or homograph can hold, so
  * a joined key cannot be confused by one field ending where the next
  * begins.
  *
@@ -561,11 +525,7 @@ const KEY_SEPARATOR = String.fromCodePoint(0);
  * naming its primary form again among its alternates. */
 function duplicateForms(headwords: readonly FormObject[]): HeadwordReview[] {
 	return findDuplicates([...headwords.entries()], ([, form]) =>
-		[
-			toComparisonForm(form.text),
-			form.homograph ?? '',
-			form.disambiguator ?? '',
-		].join(KEY_SEPARATOR),
+		[toComparisonForm(form.text), form.homograph ?? ''].join(KEY_SEPARATOR),
 	).map(({ item: [i, form], owner: [owner] }) => ({
 		kind: 'headword-duplicate-form',
 		reason: `headwords[${i}] repeats headwords[${owner}] (${form.text}) under NFC`,
@@ -668,7 +628,6 @@ export type { HeadwordReview, HeadwordReviewKind, ParsedLine };
 export {
 	GERESH,
 	intToRoman,
-	intToSup,
 	isHeadwordReviewKind,
 	isLexical,
 	PLACEHOLDER,

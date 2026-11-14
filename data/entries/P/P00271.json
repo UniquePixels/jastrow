@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "P00271",
 	"sefariaHeadword": "עוּלְשִׁין ²",
 	"headwords": [
 		{
-			"text": "עוּלְשִׁין",
-			"disambiguator": 2
+			"text": "עוּלְשִׁין"
 		}
 	],
 	"display": "{0}",

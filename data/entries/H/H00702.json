@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "H00702",
 	"sefariaHeadword": "חִיזְרָא ²",
 	"headwords": [
 		{
-			"text": "חִיזְרָא",
-			"disambiguator": 2
+			"text": "חִיזְרָא"
 		},
 		{
 			"text": "חִזְ׳",

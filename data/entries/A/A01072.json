@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A01072",
 	"sefariaHeadword": "אָטָד ²",
 	"headwords": [
 		{
-			"text": "אָטָד",
-			"disambiguator": 2
+			"text": "אָטָד"
 		},
 		{
 			"text": "אַטְדָא"

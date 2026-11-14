@@ -8,8 +8,8 @@
 	"properties": {
 		"schemaVersion": {
 			"type": "number",
-			"const": 2,
-			"description": "The entry-file format version. 2 is the headword-design §2 shape, ruled 2026-09-21. Stamped on every file so a reader can tell the versions apart without inferring it from which keys are present."
+			"const": 3,
+			"description": "The entry-file format version. 2 is the headword-design §2 shape, ruled 2026-09-21; 3 drops the superscript disambiguator and formerNames (ruling 11-13 url words). Stamped on every file so a reader can tell the versions apart without inferring it from which keys are present."
 		},
 		"id": {
 			"type": "string",
@@ -21,14 +21,6 @@
 			"description": "Sefaria's headword for this rid, byte for byte (URL names spec §5.1, U3). Import is the only writer.",
 			"minLength": 1
 		},
-		"formerNames": {
-			"type": "array",
-			"items": {
-				"type": "string",
-				"minLength": 1
-			},
-			"description": "Names this entry has published under and no longer holds (URL names spec §5.1, U6). Absent until publication: nothing writes it yet."
-		},
 		"headwords": {
 			"type": "array",
 			"items": {
@@ -39,7 +31,7 @@
 		},
 		"display": {
 			"type": "string",
-			"description": "How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). It never carries a disambiguator's superscript (ruling 10-06 hidden superscript). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
+			"description": "How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). It never carries Sefaria's superscript: print sets none (ruling 11-13 url words). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
 			"minLength": 1
 		},
 		"page": {
@@ -185,11 +177,6 @@
 				"homograph": {
 					"type": "integer",
 					"description": "The Roman numeral beside this form, as a number. Part of the name, and always shown in display. Print sets it, or (ruling 10-13 correction policy) Jastrow's own text names it and a homograph annotation says so.",
-					"minimum": 1
-				},
-				"disambiguator": {
-					"type": "integer",
-					"description": "Sefaria's superscript number, telling apart two lines print sets alike. Part of the name, never shown in display: print sets no superscript (ruling 10-06 hidden superscript).",
 					"minimum": 1
 				},
 				"reconstructed": {

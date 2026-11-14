@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "D00132",
 	"sefariaHeadword": "דדי ²",
 	"headwords": [
 		{
-			"text": "דדי",
-			"disambiguator": 2
+			"text": "דדי"
 		}
 	],
 	"display": "{0}",

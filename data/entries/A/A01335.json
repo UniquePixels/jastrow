@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "A01335",
 	"sefariaHeadword": "אֵימוּרִים ²",
 	"headwords": [
 		{
-			"text": "אֵימוּרִים",
-			"disambiguator": 2
+			"text": "אֵימוּרִים"
 		},
 		{
 			"text": "אֵימוּרִין"

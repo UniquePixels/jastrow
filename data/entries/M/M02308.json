@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "M02308",
 	"sefariaHeadword": "מצי ²",
 	"headwords": [
 		{
-			"text": "מצי",
-			"disambiguator": 2
+			"text": "מצי"
 		},
 		{
 			"text": "מָצָה"

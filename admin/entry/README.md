@@ -23,7 +23,6 @@ Helpers that are not about entries live in
 | `ANNOTATIONS.md` | the design of `annotations` (ruling `10-13 correction policy`): the field, its checks, how the import fills it, the audit |
 | `validate-cli.ts` | `bun data:validate` |
 | `headwords.ts`, `headword-rules.ts` | the headword-line parser and the six shape rules |
-| `names.ts` | an entry's name (`deriveFormName`, `getPrimaryName`), derived from `headwords[0]`; its URL path (`namePath`); and the names gate (`findNameProblems`), which compares paths |
 
 The schema is written once, in `schema.ts`. A TypeBox schema is JSON
 Schema as it stands, so TypeBox's own validator checks entries
@@ -49,7 +48,8 @@ the closed vocabulary and balanced per field; no markup in a plain
 identifier field; every stored string in NFC, except
 `sefariaHeadword`, which keeps Sefaria's bytes.
 
-Across the tree (`validateCorpus`): names and `sefariaHeadword` are
+Across the tree (`validateCorpus`): no URL word is empty
+(`checkUrlWords`, over `admin/lib/url-path.ts`) and `sefariaHeadword` is
 unique in NFC; and every rid-shaped cite names an entry that exists.
 An entry's `page` is its own record: the page index is an import
 input, and nothing here compares the two (ruling `11-05 page index`).

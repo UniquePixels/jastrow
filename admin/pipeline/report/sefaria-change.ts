@@ -516,21 +516,10 @@ function reformCountChange(
 	};
 }
 
-/** A disambiguator as Sefaria writes one after a headword: a space and
- * superscript digits. */
-const DISAMBIGUATOR_TAIL = / [⁰¹²³⁴-⁹]+$/u;
-
-/** A form with any disambiguator taken off, in NFC, so two lines can be
- * compared by their words alone. */
-function bareForm(form: string): string {
-	return nfc(form).replace(DISAMBIGUATOR_TAIL, '');
-}
-
 /** A reform that only puts the line's forms in another order (print
  * leads with a form Sefaria stores as an alternate), stated on the
  * whole line: it moves a form between `headword` and `alt_headwords`,
- * so no one field holds the change. A disambiguator the patch adds is
- * part of the corrected line, written as Sefaria writes its own. Any
+ * so no one field holds the change. Forms compare in NFC. Any
  * respelling is not a reorder, and stays out. */
 function reformOrderChange(
 	record: RawRecord,
@@ -539,11 +528,11 @@ function reformOrderChange(
 ): Change | undefined {
 	const raw = formsOf(record);
 	const sorted = (forms: readonly string[]): string =>
-		JSON.stringify(forms.map(bareForm).sort(compareByCodeUnit));
+		JSON.stringify(forms.map(nfc).sort(compareByCodeUnit));
 	const reordered =
 		nfc(JSON.stringify(raw)) === nfc(JSON.stringify(before)) &&
 		sorted(before) === sorted(after) &&
-		bareForm(after[0] ?? '') !== bareForm(before[0] ?? '');
+		nfc(after[0] ?? '') !== nfc(before[0] ?? '');
 	return reordered
 		? {
 				corrected: JSON.stringify(after),

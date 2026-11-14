@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "N00796",
 	"sefariaHeadword": "נִישּׂוּאִין ²",
 	"headwords": [
 		{
-			"text": "נִישּׂוּאִין",
-			"disambiguator": 2
+			"text": "נִישּׂוּאִין"
 		}
 	],
 	"display": "{0}",

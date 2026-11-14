@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "B00854",
 	"sefariaHeadword": "בלי ²",
 	"headwords": [
 		{
-			"text": "בלי",
-			"disambiguator": 2
+			"text": "בלי"
 		},
 		{
 			"text": "בָּלָה"

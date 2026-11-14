@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "N00670",
 	"sefariaHeadword": "נִים ²",
 	"headwords": [
 		{
-			"text": "נִים",
-			"disambiguator": 2
+			"text": "נִים"
 		}
 	],
 	"display": "{0}",

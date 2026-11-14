@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "P00972",
 	"sefariaHeadword": "עני ²",
 	"headwords": [
 		{
-			"text": "עני",
-			"disambiguator": 2
+			"text": "עני"
 		},
 		{
 			"text": "עָנָה",

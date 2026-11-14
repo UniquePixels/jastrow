@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "V01022",
 	"sefariaHeadword": "תַּרְנְגוֹל ²",
 	"headwords": [
 		{
-			"text": "תַּרְנְגוֹל",
-			"disambiguator": 2
+			"text": "תַּרְנְגוֹל"
 		},
 		{
 			"text": "תַּרְנְגוֹלָא"

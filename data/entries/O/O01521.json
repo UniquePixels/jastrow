@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "O01521",
 	"sefariaHeadword": "סַרְבָּן ²",
 	"headwords": [
 		{
-			"text": "סַרְבָּן",
-			"disambiguator": 2
+			"text": "סַרְבָּן"
 		},
 		{
 			"text": "סַרְבָּנָא"

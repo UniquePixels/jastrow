@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "G00730",
 	"sefariaHeadword": "זַרְעִית ²",
 	"headwords": [
 		{
-			"text": "זַרְעִית",
-			"disambiguator": 2
+			"text": "זַרְעִית"
 		},
 		{
 			"text": "זַרְעִיתָא"

@@ -15,7 +15,7 @@ const MAQAF_FORM = 'הֵיכ־';
 /** An entry whose only headword is the maqaf fragment. */
 function entry(id: string): Entry {
 	return {
-		schemaVersion: 2,
+		schemaVersion: 3,
 		id,
 		sefariaHeadword: MAQAF_FORM,
 		headwords: [{ text: MAQAF_FORM }],

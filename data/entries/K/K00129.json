@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "K00129",
 	"sefariaHeadword": "כְּדָיי ²",
 	"headwords": [
 		{
-			"text": "כְּדָיי",
-			"disambiguator": 2
+			"text": "כְּדָיי"
 		},
 		{
 			"text": "כְּדַי"

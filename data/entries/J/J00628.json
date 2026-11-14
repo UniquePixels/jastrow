@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "J00628",
 	"sefariaHeadword": "ירי ²",
 	"headwords": [
 		{
-			"text": "ירי",
-			"disambiguator": 2
+			"text": "ירי"
 		}
 	],
 	"display": "{0}",

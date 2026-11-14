@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S00153",
 	"sefariaHeadword": "קֶדֶם ²",
 	"headwords": [
 		{
-			"text": "קֶדֶם",
-			"disambiguator": 2
+			"text": "קֶדֶם"
 		}
 	],
 	"display": "{0}",

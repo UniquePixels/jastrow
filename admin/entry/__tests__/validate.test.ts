@@ -91,6 +91,14 @@ describe('validateEntries', () => {
 		expect(validateEntries(files)).toEqual([]);
 	});
 
+	it('lets two entries share a URL word', () => {
+		const sharing = [
+			{ ...A(), headwords: [{ text: 'אָמַר' }] },
+			{ ...B(), headwords: [{ text: 'אֲמַר' }] },
+		];
+		expect(validateEntries(tree(...sharing))).toEqual([]);
+	});
+
 	it('reports a schema failure by path and drops the entry from the corpus checks', () => {
 		const files: EntryFile[] = [
 			{ entry: { id: 'A00001' }, path: 'A/A00001.json' },
@@ -108,22 +116,14 @@ describe('validateEntries', () => {
 			'B/A00001.json: id A00001 belongs at A/A00001.json',
 		],
 		[
-			'a duplicate current name',
-			tree(A(), { ...B(), headwords: [{ text: 'אב' }] }),
-			'A00002: name אב taken by A00001',
-		],
-		[
-			'a name that collides only once the notation is stripped',
-			// §4 drops `( ) ? ,` from the name: `(אב)` and `אב` are two
-			// headwords and one URL, which nothing but this check sees.
-			// Rule 4 refuses the same parenthesis: the notation the name
-			// strips is exactly what a form's text may not hold. The file's
-			// own finding comes first: `validateEntries` runs every file
-			// before the corpus.
-			tree(A(), { ...B(), headwords: [{ text: '(אב)' }] }),
+			'a URL word with no letter',
+			// `(?)` strips to nothing: no URL could reach the entry. Rule 4
+			// refuses the same parenthesis, and comes first: `validateEntries`
+			// runs every file before the corpus.
+			tree(A(), { ...B(), headwords: [{ text: '(?)' }] }),
 			[
 				'A00002: headwords[0].text carries "(", which belongs in display or the gloss (§3.1 rule 4)',
-				'A00002: name אב taken by A00001',
+				'A00002: URL word is empty from "(?)"',
 			],
 		],
 		[
@@ -159,13 +159,6 @@ describe('validateEntries', () => {
 			'markup in sefariaHeadword',
 			tree(A(), { ...B(), sefariaHeadword: '<b>אבא' }),
 			'A00002: sefariaHeadword: markup in a plain-text field',
-		],
-		[
-			'markup in a former name',
-			// `formerNames` is absent from every entry until publication;
-			// the check is in place so the field cannot arrive unguarded.
-			tree(A(), { ...B(), formerNames: ['<i>אבא'] }),
-			'A00002: formerNames[0]: markup in a plain-text field',
 		],
 		[
 			'markup in a nested stem sense label',
@@ -499,7 +492,6 @@ describe('gender exclusivity (HW-gender)', () => {
 const FULL: Entry = {
 	...A(),
 	display: '{0}, {1}',
-	formerNames: ['אבו'],
 	grammar: { gender: 'm', number: 'pl' },
 	headwords: [
 		{ text: 'אב' },
@@ -605,7 +597,6 @@ describe('entryFields', () => {
 			'headwords[0].text',
 			'headwords[1].text',
 			'display',
-			'formerNames[0]',
 			'senses[0].senses[0].label',
 			'senses[0].senses[0].senses[0].label',
 			'stems[0].senses[0].label',

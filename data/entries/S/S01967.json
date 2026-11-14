@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "S01967",
 	"sefariaHeadword": "קֵרֵחַ ²",
 	"headwords": [
 		{
-			"text": "קֵרֵחַ",
-			"disambiguator": 2
+			"text": "קֵרֵחַ"
 		}
 	],
 	"display": "{0}",

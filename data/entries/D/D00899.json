@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "D00899",
 	"sefariaHeadword": "דָּמִין ²",
 	"headwords": [
 		{
-			"text": "דָּמִין",
-			"disambiguator": 2
+			"text": "דָּמִין"
 		}
 	],
 	"display": "{0}",

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "Q01964",
 	"sefariaHeadword": "פַּרְפֵּר ²",
 	"headwords": [
 		{
-			"text": "פַּרְפֵּר",
-			"disambiguator": 2
+			"text": "פַּרְפֵּר"
 		}
 	],
 	"display": "{0}",

@@ -1,11 +1,10 @@
 {
-	"schemaVersion": 2,
+	"schemaVersion": 3,
 	"id": "M01493",
 	"sefariaHeadword": "מְלוֹא ²",
 	"headwords": [
 		{
-			"text": "מְלוֹא",
-			"disambiguator": 2
+			"text": "מְלוֹא"
 		},
 		{
 			"text": "מְלָא"
