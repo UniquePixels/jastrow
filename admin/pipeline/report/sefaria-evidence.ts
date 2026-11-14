@@ -22,6 +22,7 @@
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { lettersOnly, toComparisonForm } from '../../lib/hebrew.ts';
 import { serialize, tokenize } from '../../lib/html.ts';
+import { intToRoman } from '../../lib/roman.ts';
 import { internalTarget } from '../import/cite.ts';
 import { pageOfUrl, pageUrls } from '../patch/scan.ts';
 import type { PatchEvidence, SemanticPatch } from '../patch/schema.ts';
@@ -30,7 +31,6 @@ import {
 	exclude,
 	formsOf,
 	type RawRecord,
-	toRoman,
 } from './sefaria-change.ts';
 
 /** Classes that are not Sefaria's error: Jastrow's own convention, our
@@ -267,7 +267,7 @@ function restoredNumerals(
 		for (const { form, homograph } of patch.payload.homographs ?? []) {
 			push(out, patch.rid, {
 				form: patch.payload.forms[form] ?? '',
-				numeral: toRoman(homograph),
+				numeral: intToRoman(homograph),
 				patch: patch.id,
 			});
 		}

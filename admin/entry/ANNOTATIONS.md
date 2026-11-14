@@ -112,7 +112,7 @@ code:
   needs `n < units.length`);
 - `stored` agrees with the field: equal for `label` and `text`; for
   `homograph`, equal to the number's Roman numeral, the same rendering
-  the name and rule 3 use (`intToRoman` in `headwords.ts`, and its local
+  the name and rule 3 use (`intToRoman` in `admin/lib/roman.ts`, and its local
   copy `intToRomanLocal` in `headword-rules.ts`), so `1` is stored `I`;
   a substring that occurs in it for `gloss` and `units[n]`;
 - `kind: 'kept'` ⇔ `printed === stored`;

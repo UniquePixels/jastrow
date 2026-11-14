@@ -128,11 +128,36 @@ function lettersOnly(text: string): string {
 	return text.normalize('NFD').replaceAll(NOT_LETTER, '');
 }
 
+/** Hebrew letters, points, accents, geresh, gershayim and the
+ * combining dot above — the characters a form's `text` is built from.
+ *
+ * Tested by CODE POINT rather than by a character class: a combining
+ * mark written into a class attaches to its neighbour and silently
+ * widens the range (the hazard `html.ts` documents), and
+ * biome's `noMisleadingCharacterClass` rejects the escape sitting
+ * beside a base-character range in one class. Numbers cannot be
+ * misread either way.
+ *
+ * U+05D0–U+05EA letters · U+0591–U+05C7 points, accents and Hebrew
+ * punctuation (the maqaf U+05BE is inside that range) · U+05F3 geresh
+ * · U+05F4 gershayim · U+0307 combining dot above. */
+function isLexical(ch: string): boolean {
+	const c = ch.codePointAt(0) ?? 0;
+	return (
+		(c >= 0x05_d0 && c <= 0x05_ea) ||
+		(c >= 0x05_91 && c <= 0x05_c7) ||
+		c === 0x05_f3 ||
+		c === 0x05_f4 ||
+		c === 0x03_07
+	);
+}
+
 export {
 	HEBREW,
 	HEBREW_ATOM,
 	HEBREW_MARK,
 	hebrewRuns,
+	isLexical,
 	lettersOnly,
 	SUPERSCRIPT_DIGIT,
 	toComparisonForm,

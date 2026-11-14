@@ -38,6 +38,13 @@ const SCHEMA_VERSION = 3;
  * is exempt. */
 const VERBATIM_FIELDS: ReadonlySet<string> = new Set(['sefariaHeadword']);
 
+/** `{0}`, `{12}` — a form's slot in a `display` template: the
+ * `{n}` the `display` description below names, as the pattern every
+ * reader of a template matches it with. The schema states the format
+ * in words and cannot check it; `headword-rules.ts` does. Carries the
+ * `g` flag, so read it with `matchAll` or `replace`, never `.test()`. */
+const PLACEHOLDER = /\{(\d+)\}/gu;
+
 /** A non-empty string, the shape of most text fields. */
 const Text = Type.String({ minLength: 1 });
 
@@ -284,4 +291,4 @@ type Sense = Of<'#/$defs/sense'>;
 type Stem = NonNullable<Entry['stems']>[number];
 
 export type { Annotation, Entry, FormObject, Sense, Stem };
-export { EntrySchema, SCHEMA_VERSION, VERBATIM_FIELDS };
+export { EntrySchema, PLACEHOLDER, SCHEMA_VERSION, VERBATIM_FIELDS };

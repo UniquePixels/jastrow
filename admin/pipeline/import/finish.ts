@@ -5,17 +5,14 @@
  */
 
 import {
-	type HeadwordReviewKind,
-	intToRoman,
-	parseHeadwordLine,
-} from '../../entry/headwords.ts';
-import {
 	type Annotation,
 	type Entry,
 	type FormObject,
 	SCHEMA_VERSION,
 	type Sense,
 } from '../../entry/schema.ts';
+import { intToRoman } from '../../lib/roman.ts';
+import { type HeadwordReviewKind, parseHeadwordLine } from '../headwords.ts';
 import type { PagePlacement } from '../page-index.ts';
 import type {
 	BodyEntry,

@@ -21,7 +21,6 @@
  * sorting).
  */
 import { dirname, relative } from 'node:path';
-import { isHeadwordReviewKind } from '../../entry/headwords.ts';
 import type { Entry, FormObject } from '../../entry/schema.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import {
@@ -31,6 +30,7 @@ import {
 	withoutMarks,
 } from '../../lib/hebrew.ts';
 import { buildEntryPaths } from '../../lib/url-path.ts';
+import { isHeadwordReviewKind } from '../headwords.ts';
 import {
 	DESIGN_PATH,
 	HEADWORD_ISSUES_DOC,
@@ -321,7 +321,7 @@ function classifyEveryShape(): void {
  *
  * Keyed on the rid, not on a form's text: every headword review kind
  * is a verdict on the whole line (`parseHeadwordLine` in
- * `admin/entry/headwords.ts`), and its row's detail is that line
+ * `admin/pipeline/headwords.ts`), and its row's detail is that line
  * joined with `, ` and followed by the reason. A reviewer reading the
  * row sees every form on it, so every form of a reviewed line has been
  * seen. EVERY headword kind counts: they are one parser's several

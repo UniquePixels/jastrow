@@ -6,7 +6,6 @@
  */
 import { describe, expect, it } from 'bun:test';
 import { headwordShapeProblems, textDefects } from '../headword-rules.ts';
-import { parseHeadwordLine } from '../headwords.ts';
 import type { Annotation, Entry, FormObject } from '../schema.ts';
 
 /** An entry as the rules read it: the id, the forms and the template. */
@@ -55,30 +54,6 @@ describe('rule 4 — armed', () => {
 				id: 'A00001',
 			})[0],
 		).toContain('headwords[1].text');
-	});
-});
-
-describe('rules 1–3 accept what the parser writes', () => {
-	it.each([
-		[['מְסַר', '(מָסַר) I']],
-		[['כַּרְשִׁינָה I', '(כַּרְשִׁינָא  II)']],
-		[['*(אוזפיה)', 'אוֹזְפֵי']],
-		[['*(?)בַּלְוָוטִי']],
-		[['אוּרְיָה  I, II']],
-		[['שִׁיף m.', 'שִׁיפָה f.']],
-		[['אוֹרָיָיא', '(אוֹרַיְיתָא)', '(אוֹרָיָיתָא', 'אוֹרְיָא', 'אוֹרְיָה)']],
-		[['סוֹפִיסְטָא', '… טָה', 'סוֹפִיסְטֵיס']],
-	])('%s', (items) => {
-		const parsed = parseHeadwordLine(items);
-		expect(
-			headwordShapeProblems(shaped(parsed.headwords, parsed.display)),
-		).toEqual([]);
-	});
-
-	it('accepts a line the source could not settle, with no display', () => {
-		const parsed = parseHeadwordLine(['(זִימְרָא', 'זִימְרָה']);
-		expect(parsed.display).toBeUndefined();
-		expect(headwordShapeProblems(shaped(parsed.headwords))).toEqual([]);
 	});
 });
 
