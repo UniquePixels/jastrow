@@ -37,13 +37,9 @@ import { tokenize } from '../lib/html.ts';
 import { findEmptyUrlWords } from '../lib/url-path.ts';
 import { paths } from '../paths.ts';
 import { checkAnnotations } from './annotations.ts';
+import { entryFields, type FieldMarkup, markupFields } from './fields.ts';
 import { headwordShapeProblems } from './headword-rules.ts';
-import {
-	type Entry,
-	EntrySchema,
-	type Sense,
-	VERBATIM_FIELDS,
-} from './schema.ts';
+import { type Entry, EntrySchema, VERBATIM_FIELDS } from './schema.ts';
 
 /** The entry markup vocabulary (migrate spec §2.2): `markup.ts` keeps
  * four source tags and translates the other two into `he` and `cite`;
@@ -245,107 +241,12 @@ function markupProblems(
 	return found;
 }
 
-/** The HTML fields of a sense tree, with a readable path to each. */
-function* senseTexts(
-	senses: readonly Sense[],
-	at: string,
-): Generator<[string, string]> {
-	for (const [i, sense] of senses.entries()) {
-		yield [`${at}[${i}].gloss`, sense.gloss];
-		for (const [j, unit] of sense.units.entries()) {
-			yield [`${at}[${i}].units[${j}]`, unit];
-		}
-		yield* senseTexts(sense.senses ?? [], `${at}[${i}].senses`);
-	}
-}
-
-/** Every field that may carry markup. */
-function* markupFields(entry: Entry): Generator<[string, string]> {
-	yield* senseTexts(entry.senses, 'senses');
-	for (const [i, stem] of (entry.stems ?? []).entries()) {
-		yield [`stems[${i}].stem`, stem.stem];
-		for (const [j, form] of stem.forms.entries()) {
-			yield [`stems[${i}].forms[${j}]`, form];
-		}
-		yield* senseTexts(stem.senses, `stems[${i}].senses`);
-	}
-}
-
-/** The sense labels of a sense tree (`1`, `a`, …), with their paths. */
-function* senseLabels(
-	senses: readonly Sense[],
-	at: string,
-): Generator<[string, string]> {
-	for (const [i, sense] of senses.entries()) {
-		if (sense.label !== undefined) {
-			yield [`${at}[${i}].label`, sense.label];
-		}
-		yield* senseLabels(sense.senses ?? [], `${at}[${i}].senses`);
-	}
-}
-
-/** Every field that must carry none: the headword forms and
- * `sefariaHeadword` are identifiers that `url-path.ts` and the
- * compiler read as text; sense labels are numbering. */
-function* plainFields(entry: Entry): Generator<[string, string]> {
-	yield ['sefariaHeadword', entry.sefariaHeadword];
-	for (const [i, form] of entry.headwords.entries()) {
-		yield [`headwords[${i}].text`, form.text];
-	}
-	yield* senseLabels(entry.senses, 'senses');
-	for (const [i, stem] of (entry.stems ?? []).entries()) {
-		yield* senseLabels(stem.senses, `stems[${i}].senses`);
-	}
-}
-
-/** What markup a field may carry: `none` (an identifier or a label),
- * `annotate` (`display`, which carries the annotate tag and nothing
- * else) or `vocabulary` (the whole `VOCABULARY`). */
-type FieldMarkup = 'annotate' | 'none' | 'vocabulary';
-
 /** The vocabulary each kind of field is checked against; `none` is
  * held to no `<` or `>` at all instead. */
 const FIELD_VOCABULARY: Record<
 	Exclude<FieldMarkup, 'none'>,
 	ReadonlySet<string>
 > = { annotate: DISPLAY_VOCABULARY, vocabulary: VOCABULARY };
-
-/** One text field of an entry: a readable path to it (`senses[0].units[1]`),
- * its text, and what markup it may carry. */
-interface EntryField {
-	markup: FieldMarkup;
-	path: string;
-	text: string;
-}
-
-/** Every text field of an entry, nested senses and stems included:
- * the plain identifier and label fields first, then `display`, which
- * may carry the annotate tag alone, then every field that may carry
- * the whole vocabulary. The validator's markup checks read through this,
- * so a reader that walks it — compile, when it is written — sees the
- * same fields the contract checked.
- *
- * Codes are not text and are not visited: `id`, `schemaVersion`,
- * `grammar`, `page` and a form's `gender`, `homograph`,
- * `reconstructed` and `partial`.
- *
- * Nor are the entry's `annotations` (ruling `11-15 annotation
- * section`). An annotation is shown to the reader beside the text it
- * is pointed to from, not in it: its strings are plain, its `printed`
- * is print's value and may be `''`. The text carries the pointers,
- * and `annotations.ts` checks them; `checkNfc`, which reads every
- * stored string, covers the annotations' spelling. */
-function* entryFields(entry: Entry): Generator<EntryField> {
-	for (const [path, text] of plainFields(entry)) {
-		yield { markup: 'none', path, text };
-	}
-	if (entry.display !== undefined) {
-		yield { markup: 'annotate', path: 'display', text: entry.display };
-	}
-	for (const [path, text] of markupFields(entry)) {
-		yield { markup: 'vocabulary', path, text };
-	}
-}
 
 /** Where an entry lives, relative to `data/entries/`:
  * `<first letter>/<id>.json`. */
@@ -568,11 +469,10 @@ function validateEntries(files: readonly EntryFile[]): string[] {
 	return problems;
 }
 
-export type { EntryField, EntryFile, EntryValidator, FieldMarkup };
+export type { EntryFile, EntryValidator };
 export {
 	checkEntry,
 	ENTRY_FILE_GLOB,
-	entryFields,
 	loadEntryFiles,
 	markupProblems,
 	RID,

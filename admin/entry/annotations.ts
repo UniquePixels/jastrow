@@ -14,9 +14,11 @@
  * - every id is referenced exactly once;
  * - an id names one annotation.
  *
- * A reference is an `<annotate id>` tag in `display`, a `gloss` or a
- * `units[n]` (read by `annotateIds`, `admin/lib/annotate.ts`), or a
- * sense's `annotation` pointer, stems included.
+ * A reference is an `<annotate id>` tag in any field that may carry
+ * markup (`entryFields`, read by `annotateIds`, `admin/lib/annotate.ts`)
+ * — `display`, a `gloss` or a `units[n]` where the import writes them,
+ * but a hand edit's tag in a stem field counts too — or a sense's
+ * `annotation` pointer, stems included.
  *
  * It does not compare an annotation with its patch, its `date` or
  * `kind` with anything, or `printed` with the tagged text (the
@@ -25,45 +27,38 @@
  * edit is judged by its editor and later by the backport.
  */
 import { annotateIds } from '../lib/annotate.ts';
+import { entryFields } from './fields.ts';
 import type { Entry, Sense } from './schema.ts';
 
 /** One reference to an annotation: a readable path to the field that
  * carries it, and the id it names. */
 type Reference = readonly [path: string, id: string];
 
-/** Every reference a sense tree carries, depth first, a sense before
- * its children: its gloss's tags, its units' tags, then its label
- * pointer. */
-function* senseReferences(
-	senses: readonly Sense[],
-	at: string,
-): Generator<Reference> {
+/** Every label pointer a sense tree carries, depth first. */
+function* pointers(senses: readonly Sense[], at: string): Generator<Reference> {
 	for (const [i, sense] of senses.entries()) {
-		const path = `${at}[${i}]`;
-		for (const id of annotateIds(sense.gloss)) {
-			yield [`${path}.gloss`, id];
-		}
-		for (const [j, unit] of sense.units.entries()) {
-			for (const id of annotateIds(unit)) {
-				yield [`${path}.units[${j}]`, id];
-			}
-		}
 		if (sense.annotation !== undefined) {
-			yield [`${path}.annotation`, sense.annotation];
+			yield [`${at}[${i}].annotation`, sense.annotation];
 		}
-		yield* senseReferences(sense.senses ?? [], `${path}.senses`);
+		yield* pointers(sense.senses ?? [], `${at}[${i}].senses`);
 	}
 }
 
-/** Every reference an entry carries: `display`, then the senses, then
- * each stem's senses. */
+/** Every reference an entry carries: the tag ids of every field that
+ * may carry markup (`entryFields`, so a tag the markup check accepts
+ * is a tag counted here, wherever it stands), then every sense's
+ * label pointer, the entry's senses before each stem's. */
 function* references(entry: Entry): Generator<Reference> {
-	for (const id of annotateIds(entry.display ?? '')) {
-		yield ['display', id];
+	for (const { markup, path, text } of entryFields(entry)) {
+		if (markup !== 'none') {
+			for (const id of annotateIds(text)) {
+				yield [path, id];
+			}
+		}
 	}
-	yield* senseReferences(entry.senses, 'senses');
+	yield* pointers(entry.senses, 'senses');
 	for (const [i, stem] of (entry.stems ?? []).entries()) {
-		yield* senseReferences(stem.senses, `stems[${i}].senses`);
+		yield* pointers(stem.senses, `stems[${i}].senses`);
 	}
 }
 

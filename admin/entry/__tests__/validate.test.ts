@@ -6,10 +6,10 @@
  */
 import { describe, expect, it } from 'bun:test';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
+import { entryFields } from '../fields.ts';
 import { type Entry, SCHEMA_VERSION } from '../schema.ts';
 import {
 	type EntryFile,
-	entryFields,
 	loadEntryFiles,
 	markupProblems,
 	RID,

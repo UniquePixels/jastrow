@@ -151,6 +151,34 @@ describe('annotations: the reference half', () => {
 		);
 	});
 
+	it.each([
+		[
+			'a dangling id in a stem label',
+			'Pi. <annotate id="a9">x</annotate>',
+			[],
+			['stems[0].stem: points to a9, which annotations does not hold'],
+		],
+		[
+			'a second reference to a1 in a stem form',
+			'Pi.',
+			['<annotate id="a1">y</annotate>'],
+			['annotations[0]: a1 is referenced 2 times; it must be referenced once'],
+		],
+	] as [string, string, string[], string[]][])(
+		'refuses %s',
+		(_name, stem, forms, tails) => {
+			const entry = base();
+			const [first] = entry.stems ?? [];
+			if (first !== undefined) {
+				first.stem = stem;
+				first.forms = forms;
+			}
+			expect(validateEntry(entry, PATH)).toEqual(
+				tails.map((t) => `A00001: ${t}`),
+			);
+		},
+	);
+
 	it('refuses a label pointer naming an id the list lacks', () => {
 		const entry = base();
 		const nested = entry.stems?.[0]?.senses[0]?.senses?.[0];
