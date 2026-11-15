@@ -18,9 +18,10 @@ Helpers that are not about entries live in
 |---|---|
 | `schema.ts` | the schema, written once with TypeBox (ruling `11-05 schema source`): `EntrySchema`, the types derived from it (`Entry` and its parts), `SCHEMA_VERSION`, `VERBATIM_FIELDS`, and `PLACEHOLDER`, the `{n}` slot of a `display` template as a pattern |
 | `schema-build.ts` | `bun schema:build` writes `data/schema/entry.schema.json` from `schema.ts`; `bun schema:check` fails when the committed file is stale |
-| `validate.ts` | the validator: `validateEntry`, `validateCorpus`, and `validateEntries` over a loaded tree; also `entryFields`, the walker over every text field of an entry (path, text, whether it may carry markup), and `RID`, the rid predicate |
-| `annotations.ts` | the annotation clause (ANNOTATIONS.md §2): `checkAnnotations`, run by `validateEntry`; `entryAnnotations`, the walk over every annotation of an entry |
-| `ANNOTATIONS.md` | the design of `annotations` (ruling `10-13 correction policy`): the field, its checks, how the import fills it, the audit |
+| `validate.ts` | the validator: `validateEntry`, `validateCorpus`, and `validateEntries` over a loaded tree; also `RID`, the rid predicate |
+| `fields.ts` | `entryFields`, the walker over every text field of an entry (path, text, whether it may carry markup) |
+| `annotations.ts` | the annotation clause (ANNOTATIONS.md §2): `checkAnnotations`, run by `validateEntry`, checks only that the `<annotate>` tags and sense pointers and the entry's `annotations` list agree |
+| `ANNOTATIONS.md` | the design of `annotations` (rulings `10-13 correction policy`, `11-15 annotation section`): the field, its checks, how the import fills it, the audit |
 | `validate-cli.ts` | `bun data:validate` |
 | `headword-rules.ts` | the six headword shape rules (headword design §3.1), run by `validateEntry`. The parser that writes the shapes they check is the pipeline's (`admin/pipeline/headwords.ts`) |
 
@@ -41,9 +42,10 @@ run `bun schema:build`; `bun qa` and CI's Schema job run
 Per file (`validateEntry`): the schema; the file sits at
 `<first letter>/<id>.json`; the six headword shape rules; gender in
 one place, `grammar.gender` or a `gender` on every headword (ruling
-HW-gender); each annotation's field resolves on its object, its
-`stored` agrees with the field, `kept` iff `printed` equals `stored`,
-one per field; markup in
+HW-gender); each annotation's shape (schema), and
+that every id is referenced exactly once by a tag or a sense pointer
+and every reference names an annotation the entry holds (not what an
+annotation says, which the import checks); markup in
 the closed vocabulary and balanced per field; no markup in a plain
 identifier field; every stored string in NFC, except
 `sefariaHeadword`, which keeps Sefaria's bytes.

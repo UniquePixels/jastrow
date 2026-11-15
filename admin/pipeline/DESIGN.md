@@ -215,8 +215,7 @@ contract and does not own it.
 `headwords[]` holds every form print sets on the headword line, in
 print order. `headwords[0]` is the primary form: the URL word, the search
 key and every link derive from it. A form object is
-`{ text, homograph?, reconstructed?, gender?, partial?,
-annotations? }`. `text` holds clean Hebrew; grouping and marks do not live
+`{ text, homograph?, reconstructed?, gender?, partial? }`. `text` holds clean Hebrew; grouping and marks do not live
 in it.
 
 Sefaria's superscript for two lines print sets alike is **not
@@ -422,9 +421,11 @@ Under ruling `10-13 correction policy`, a gap whose missing numeral
 Jastrow's own text names is a determined print error and is patched
 with an annotation.
 
-Deviations from print are recorded in the `annotations` field of the
-form or sense they touch (ruling `10-13 correction policy`), written by
-the reviewed patch that makes the deviation (§5 "Patch ops"); see
+Deviations from print are recorded in the entry's one `annotations`
+list (ruling `11-15 annotation section`, amending `10-13 correction
+policy`), and the text points to each with an `<annotate>` tag or a
+sense's `annotation` pointer. The reviewed patch that makes the
+deviation writes it (§5 "Patch ops"); see
 [`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md). Committed
 entries carry them since PR #174, and the import blessing counts them
 by kind; the remaining data PRs are review ledger plan group 6b.
@@ -703,21 +704,25 @@ several on one target only when each is an `annotate` or a `relabel`,
 the two ops that leave the text untouched and so cannot invalidate
 each other's anchor; J00403's P000820 and P000826 share one.
 
-**`annotation`** (ruling `10-13 correction policy`,
+**`annotation`** (rulings `10-13 correction policy` and `11-15
+annotation section`,
 [`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md) §3) is an
-optional `{kind, printed, evidence, date}` on a reviewed patch: print's
-reading where the patch departs from it (case 2 `print-error`, case 4
-`illegible`) or keeps it (case 3 `kept`, `annotate` only). The import
-adds `field`, `stored` and `source` (the patch id) and writes it on the
-form or sense the field belongs to. The patch validator refuses one on
-an op that cannot change a printed value; `corpusPreflight` refuses one
-on an agent patch. The apply leaves a draft on what it changed, the
-trace carries a sense's drafts with its label, and `finishEntry`
-(`import/annotations.ts`) resolves them; one it cannot place is a red
-gate 9. A `replace`'s annotation is restricted to a replacement that,
-translated alone, is balanced markup occurring exactly once in the
-sense's gloss and units. Gate 10 checks every annotation against the
-patches that applied with one, both ways.
+optional `{kind, printed, note?, evidence, date}` on a reviewed patch:
+print's reading where the patch departs from it (case 2 `print-error`,
+case 4 `illegible`) or keeps it (case 3 `kept`, `annotate` only). The
+`evidence` stays in the patch; the `note` is the sentence the reader
+sees. The import adds the `id` and `source` (the patch id), writes the
+item to the entry's `annotations`, and places the `<annotate>` tag or
+the sense's `annotation` pointer. The patch validator refuses one on
+an op that cannot change a printed value; `corpusPreflight` refuses
+one on an agent patch. The apply leaves a draft on what it changed,
+the trace carries a sense's drafts with its label, and `finishEntry`
+calls `placeAnnotations` (`import/annotations.ts`); a draft it cannot
+place is a red gate 9. A `replace`'s annotation is restricted to a
+replacement that, translated alone, is balanced markup occurring
+exactly once in the sense's gloss and units. Gate 10's
+`annotationProvenance` checks every annotation against the patches
+that applied with one, both ways.
 
 `nest` (ruling `10-12 nested sublists`, #167) cuts the list that
 restarts inside its target sense out as a new unlabelled sibling: the

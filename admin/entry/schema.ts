@@ -56,7 +56,7 @@ const AnnotationSchema = Type.Object(
 	{
 		id: Type.String({
 			description:
-				'Local to the entry: a1, a2, … in text order. The text points to it: an <annotate id> tag in display, a gloss or a unit, or a sense annotation.',
+				'Local to the entry: a1, a2, … in the order the import places them: headword forms by index (text before homograph), then senses in document order (depth first), then stems, and within one object, draft order. The text points to it: an <annotate id> tag in display, a gloss or a unit, or a sense annotation.',
 			pattern: ANNOTATION_ID,
 		}),
 		kind: Type.Enum(['illegible', 'kept', 'print-error'], {
