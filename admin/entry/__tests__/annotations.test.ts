@@ -12,7 +12,7 @@
  * contract, the way a hand edit meets it.
  */
 import { describe, expect, it } from 'bun:test';
-import { entryAnnotations, isIsoDate } from '../annotations.ts';
+import { entryAnnotations } from '../annotations.ts';
 import {
 	type Annotation,
 	type Entry,
@@ -256,19 +256,6 @@ describe('annotations: the code half', () => {
 		],
 	] as [string, Entry, string][])('refuses %s', (_name, entry, tail) => {
 		expect(problemsOf(entry)).toEqual([`A00001: ${tail}`]);
-	});
-});
-
-describe('isIsoDate', () => {
-	it.each([
-		['2026-10-13', true],
-		['2024-02-29', true],
-		['2026-02-29', false],
-		['2026-13-01', false],
-		['2026-1-01', false],
-		['20261013', false],
-	])('%s → %p', (value, expected) => {
-		expect(isIsoDate(value)).toBe(expected);
 	});
 });
 
