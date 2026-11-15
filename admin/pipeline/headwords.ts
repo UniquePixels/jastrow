@@ -40,23 +40,15 @@
  * which reproduces every worked example in the §2 table but one
  * (A02823, whose line print sets without a comma).
  */
+import type { FormObject } from '../entry/schema.ts';
 import { findDuplicates } from '../lib/find-duplicates.ts';
-import { SUPERSCRIPT_DIGIT, toComparisonForm } from '../lib/hebrew.ts';
-import type { FormObject } from './schema.ts';
+import {
+	isLexical,
+	SUPERSCRIPT_DIGIT,
+	toComparisonForm,
+} from '../lib/hebrew.ts';
+import { romanToInt } from '../lib/roman.ts';
 
-/** Roman numeral values, largest first: the greedy table both
- * `intToRoman` and `romanToInt` walk. */
-const ROMAN: ReadonlyArray<readonly [number, string]> = [
-	[100, 'C'],
-	[90, 'XC'],
-	[50, 'L'],
-	[40, 'XL'],
-	[10, 'X'],
-	[9, 'IX'],
-	[5, 'V'],
-	[4, 'IV'],
-	[1, 'I'],
-];
 /** Jastrow's abbreviation mark: a word ending in a geresh is written
  * short (`פּ׳` for *Pappa*). Gershayim (U+05F4) is NOT this mark — it
  * sits BETWEEN letters in an acronym (`א"ל`), which §4 rules a
@@ -72,8 +64,6 @@ const ROMAN_TOKEN = /^[IVXLC]+$/u;
 const GENDER_TOKEN = /^[mf]\.$/u;
 const LATIN = /[A-Za-z]/u;
 const WHITESPACE = /\s+/gu;
-/** `{0}`, `{12}` — a form's slot in a `display` template. */
-const PLACEHOLDER = /\{(\d+)\}/gu;
 /** The notation run immediately before a form's slot, once the slot
  * before it has been cut away. A `*` anywhere in it marks the form (or
  * the group it opens) reconstructed — §3.1 rule 3. */
@@ -129,58 +119,6 @@ interface ParsedLine {
 	display?: string;
 	headwords: FormObject[];
 	reviews: HeadwordReview[];
-}
-
-/** A homograph number as the Roman numeral Jastrow prints. */
-function intToRoman(n: number): string {
-	let rest = n;
-	let out = '';
-	for (const [value, glyph] of ROMAN) {
-		while (rest >= value) {
-			out += glyph;
-			rest -= value;
-		}
-	}
-	return out;
-}
-
-/** A Roman numeral back to its number, or NaN when the string is not
- * one this table can consume whole — the caller treats NaN as "this
- * did not parse" rather than guessing at a partial reading. */
-function romanToInt(s: string): number {
-	let total = 0;
-	let rest = s;
-	for (const [value, glyph] of ROMAN) {
-		while (rest.startsWith(glyph)) {
-			total += value;
-			rest = rest.slice(glyph.length);
-		}
-	}
-	return rest === '' ? total : Number.NaN;
-}
-
-/** Hebrew letters, points, accents, geresh, gershayim and the
- * combining dot above — the characters a form's `text` is built from.
- *
- * Tested by CODE POINT rather than by a character class: a combining
- * mark written into a class attaches to its neighbour and silently
- * widens the range (the hazard `html.ts` documents), and
- * biome's `noMisleadingCharacterClass` rejects the escape sitting
- * beside a base-character range in one class. Numbers cannot be
- * misread either way.
- *
- * U+05D0–U+05EA letters · U+0591–U+05C7 points, accents and Hebrew
- * punctuation (the maqaf U+05BE is inside that range) · U+05F3 geresh
- * · U+05F4 gershayim · U+0307 combining dot above. */
-function isLexical(ch: string): boolean {
-	const c = ch.codePointAt(0) ?? 0;
-	return (
-		(c >= 0x05_d0 && c <= 0x05_ea) ||
-		(c >= 0x05_91 && c <= 0x05_c7) ||
-		c === 0x05_f3 ||
-		c === 0x05_f4 ||
-		c === 0x03_07
-	);
 }
 
 /** One scanned piece of a source item: a run of Hebrew (which becomes
@@ -611,26 +549,5 @@ function parseHeadwordLine(items: readonly string[]): ParsedLine {
 	};
 }
 
-/** A `display` template with each `{n}` replaced by form n's text —
- * the line as a reader sees it. Used by the gates and the report; the
- * app renders the template itself so it can link each span. */
-function renderDisplay(
-	display: string,
-	headwords: readonly FormObject[],
-): string {
-	return display.replace(
-		PLACEHOLDER,
-		(whole, index: string) => headwords[Number(index)]?.text ?? whole,
-	);
-}
-
-export type { HeadwordReview, HeadwordReviewKind, ParsedLine };
-export {
-	GERESH,
-	intToRoman,
-	isHeadwordReviewKind,
-	isLexical,
-	PLACEHOLDER,
-	parseHeadwordLine,
-	renderDisplay,
-};
+export type { HeadwordReviewKind };
+export { isHeadwordReviewKind, parseHeadwordLine };

@@ -10,7 +10,9 @@
  * passes here is a case the corpus run will meet.
  */
 import { describe, expect, it } from 'bun:test';
-import { parseHeadwordLine, renderDisplay } from '../headwords.ts';
+import { headwordShapeProblems } from '../entry/headword-rules.ts';
+import type { Entry } from '../entry/schema.ts';
+import { parseHeadwordLine } from './headwords.ts';
 
 /** The three things a case asserts, in one shape: what print laid out,
  * what the forms mean, and what was flagged. */
@@ -388,13 +390,6 @@ describe('flags and edges', () => {
 			'headword-unparsed',
 		]);
 	});
-
-	it('renderDisplay puts the forms back into the template', () => {
-		const parsed = parseHeadwordLine(['מְסַר', '(מָסַר) I']);
-		expect(renderDisplay(parsed.display ?? '', parsed.headwords)).toBe(
-			'מְסַר, (מָסַר) I',
-		);
-	});
 });
 
 describe('duplicate forms', () => {
@@ -417,5 +412,41 @@ describe('duplicate forms', () => {
 
 	it('keeps two homographs of one spelling distinct', () => {
 		expect(parseHeadwordLine(['אָב I', 'אָב II']).reviews).toEqual([]);
+	});
+});
+
+/** A parsed line as the entry contract's headword rules read it. */
+function shaped(
+	headwords: Entry['headwords'],
+	display?: string,
+): Pick<Entry, 'display' | 'headwords' | 'id'> {
+	return {
+		headwords,
+		id: 'A00001',
+		...(display === undefined ? {} : { display }),
+	};
+}
+
+describe('rules 1–3 accept what the parser writes', () => {
+	it.each([
+		[['מְסַר', '(מָסַר) I']],
+		[['כַּרְשִׁינָה I', '(כַּרְשִׁינָא  II)']],
+		[['*(אוזפיה)', 'אוֹזְפֵי']],
+		[['*(?)בַּלְוָוטִי']],
+		[['אוּרְיָה  I, II']],
+		[['שִׁיף m.', 'שִׁיפָה f.']],
+		[['אוֹרָיָיא', '(אוֹרַיְיתָא)', '(אוֹרָיָיתָא', 'אוֹרְיָא', 'אוֹרְיָה)']],
+		[['סוֹפִיסְטָא', '… טָה', 'סוֹפִיסְטֵיס']],
+	])('%s', (items) => {
+		const parsed = parseHeadwordLine(items);
+		expect(
+			headwordShapeProblems(shaped(parsed.headwords, parsed.display)),
+		).toEqual([]);
+	});
+
+	it('accepts a line the source could not settle, with no display', () => {
+		const parsed = parseHeadwordLine(['(זִימְרָא', 'זִימְרָה']);
+		expect(parsed.display).toBeUndefined();
+		expect(headwordShapeProblems(shaped(parsed.headwords))).toEqual([]);
 	});
 });

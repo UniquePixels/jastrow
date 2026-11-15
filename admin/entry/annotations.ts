@@ -25,7 +25,7 @@
  * `source` names a real patch is not answerable here: the patch records
  * are pipeline data, and only the import's gate 10 holds both sides.
  */
-import { intToRoman } from './headwords.ts';
+import { intToRoman } from '../lib/roman.ts';
 import type { Annotation, Entry, FormObject, Sense } from './schema.ts';
 
 /** `YYYY-MM-DD`, the shape the schema's `date` pattern holds; whether

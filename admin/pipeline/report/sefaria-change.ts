@@ -30,6 +30,7 @@
  * the error leaves the text absent and the row leaves the appendix.
  */
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
+import { intToRoman } from '../../lib/roman.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
 import {
 	addressesLanguageReference,
@@ -90,26 +91,6 @@ const SENSE_TOKEN = /^sense\[(?<token>[^\]]*)\]/u;
 const MARK = /\p{M}/u;
 const DISPLAY_SLOT = /\{\d+\}/gu;
 const DISPLAY_PLAIN = /^[\s,IVX]*$/u;
-
-/** A homograph number as Sefaria writes it on a headword. */
-function toRoman(value: number): string {
-	const table: [number, string][] = [
-		[10, 'X'],
-		[9, 'IX'],
-		[5, 'V'],
-		[4, 'IV'],
-		[1, 'I'],
-	];
-	let rest = value;
-	let out = '';
-	for (const [n, letters] of table) {
-		while (rest >= n) {
-			out += letters;
-			rest -= n;
-		}
-	}
-	return out;
-}
 
 /** Exact text, NFC only. NOT the comparison form (`toComparisonForm`,
  * ruling `11-07 one comparison rule`): this report asks whether a patch
@@ -458,7 +439,10 @@ function reformForms(
 	patch: Extract<SemanticPatch, { op: 'reform' }>,
 ): string[] {
 	const numerals = new Map(
-		(patch.payload.homographs ?? []).map((h) => [h.form, toRoman(h.homograph)]),
+		(patch.payload.homographs ?? []).map((h) => [
+			h.form,
+			intToRoman(h.homograph),
+		]),
 	);
 	return patch.payload.forms.map((form, i) => {
 		const numeral = numerals.get(i);
@@ -627,5 +611,4 @@ export {
 	formsOf,
 	isExclusion,
 	nfc,
-	toRoman,
 };

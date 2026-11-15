@@ -248,7 +248,7 @@ is **optional and never defaulted**: where the source cannot settle the
 layout the key is absent and the row is flagged.
 
 One parser reads the whole headword line in a single pass
-(`admin/entry/headwords.ts`, `parseHeadwordLine`). There is no per-item
+(`admin/pipeline/headwords.ts`, `parseHeadwordLine`). There is no per-item
 regex decomposition and no byte-exact regeneration of Sefaria's split
 items; the shape no longer corresponds 1:1 to the source's split
 strings, so gate 2 was redefined instead (§9).
@@ -1727,7 +1727,7 @@ so cannot be inferred from reading the code that is there.
     place.** A line whose grammar does not read is kept whole per item
     and flagged `headword-unparsed`, never partially parsed — *a line
     that is wrong in one place gives no ground to trust the rest of
-    it* (`admin/entry/headwords.ts:592-617`).
+    it* (`parseHeadwordLine` in `admin/pipeline/headwords.ts`).
 29. **No `display` template is ever invented.** A line the source
     cannot settle is written with `display` unset and the row flagged.
     A flagged row is a ticket, not a guess
@@ -1737,13 +1737,15 @@ so cannot be inferred from reading the code that is there.
     ` or ` between two spellings (ruling `10-25 display or`).
 30. **Parenthesis placement is never corrected by the parser.** Only
     what the source shows is recorded
-    (`admin/entry/headwords.ts:28-34`).
+    (the module comment of `admin/pipeline/headwords.ts`).
 31. **Roman numerals are never moved** off the form they are attached
-    to in the source (`admin/entry/headwords.ts:396-460`).
+    to in the source (`applyTrailing` and `readHomograph` in
+    `admin/pipeline/headwords.ts`).
 32. **`partial` forms are never expanded or joined.** Joining an
     ellipsis ending would require assuming the letters before the seam
     keep the base form's vowels, which prohibition 23 forbids. The
-    marking is at `admin/entry/headwords.ts:462-484`; the rationale is the
+    marking is `markPartial` and `markAbbreviated` in
+    `admin/pipeline/headwords.ts`; the rationale is the
     no-vowel-inference ruling, not a comment there.
 33. **A `partial` form is never a lookup key**, except at index 0 when
     it is the entry's only name

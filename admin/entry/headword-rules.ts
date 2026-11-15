@@ -38,9 +38,8 @@
  * that held it (`HALT_ON_TEXT_DEFECT`) was removed once armed, since
  * its other branch was dead (review ledger L13).
  */
-import { SUPERSCRIPT_DIGIT } from '../lib/hebrew.ts';
-import { isLexical, PLACEHOLDER } from './headwords.ts';
-import type { Entry, FormObject } from './schema.ts';
+import { isLexical, SUPERSCRIPT_DIGIT } from '../lib/hebrew.ts';
+import { type Entry, type FormObject, PLACEHOLDER } from './schema.ts';
 
 /** The notation rule 4 keeps OUT of a form's text. Each one has a home
  * in `display` instead: the grouping delimiters and the query mark are

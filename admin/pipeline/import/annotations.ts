@@ -7,8 +7,9 @@
  * has parsed the line and translated each sense, since `stored` is
  * the value as written.
  */
-import { intToRoman } from '../../entry/headwords.ts';
+
 import type { Annotation, FormObject, Sense } from '../../entry/schema.ts';
+import { intToRoman } from '../../lib/roman.ts';
 import { countOccurrences } from '../patch/schema.ts';
 import type {
 	AnnotationNote,

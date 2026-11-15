@@ -4,7 +4,6 @@
  * (composition failures) live with the composer and the CLI. */
 
 import { entryAnnotations } from '../../entry/annotations.ts';
-import { intToRoman } from '../../entry/headwords.ts';
 import type { Entry } from '../../entry/schema.ts';
 import {
 	checkEntry,
@@ -14,6 +13,7 @@ import {
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { SUPERSCRIPT_DIGIT } from '../../lib/hebrew.ts';
 import { tokenize } from '../../lib/html.ts';
+import { intToRoman } from '../../lib/roman.ts';
 import { findEmptyUrlWords } from '../../lib/url-path.ts';
 import type { PagePlacement } from '../page-index.ts';
 import { lossMismatch } from '../patch/loss.ts';

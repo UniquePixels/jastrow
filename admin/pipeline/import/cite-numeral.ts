@@ -27,11 +27,11 @@
  * cite a later patch fixes takes its row with it.
  */
 
-import { intToRoman } from '../../entry/headwords.ts';
 import type { Entry } from '../../entry/schema.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { toComparisonForm } from '../../lib/hebrew.ts';
 import { tokenize } from '../../lib/html.ts';
+import { intToRoman } from '../../lib/roman.ts';
 import { fieldsOf } from '../transform/no-new-text.ts';
 import type { SourceEntry } from '../types.ts';
 import { findRid, internalTarget } from './cite.ts';

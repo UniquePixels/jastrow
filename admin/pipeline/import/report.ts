@@ -2,8 +2,8 @@
 /** The import report (migrate spec §4.2; consolidation spec §3.1): every gate as a tally, structured rows, rule counts, patch outcomes, and the evidence doc the maintainer blesses. */
 
 import { entryAnnotations } from '../../entry/annotations.ts';
-import { isHeadwordReviewKind } from '../../entry/headwords.ts';
 import type { Annotation, Entry } from '../../entry/schema.ts';
+import { isHeadwordReviewKind } from '../headwords.ts';
 import type { DriftOutcome } from '../patch/drift.ts';
 import { IMPORT_REPORT_PATH } from '../paths.ts';
 import type { Unresolved } from './cite.ts';

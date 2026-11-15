@@ -16,13 +16,13 @@ Helpers that are not about entries live in
 
 | File | What it holds |
 |---|---|
-| `schema.ts` | the schema, written once with TypeBox (ruling `11-05 schema source`): `EntrySchema`, the types derived from it (`Entry` and its parts), `SCHEMA_VERSION`, `VERBATIM_FIELDS` |
+| `schema.ts` | the schema, written once with TypeBox (ruling `11-05 schema source`): `EntrySchema`, the types derived from it (`Entry` and its parts), `SCHEMA_VERSION`, `VERBATIM_FIELDS`, and `PLACEHOLDER`, the `{n}` slot of a `display` template as a pattern |
 | `schema-build.ts` | `bun schema:build` writes `data/schema/entry.schema.json` from `schema.ts`; `bun schema:check` fails when the committed file is stale |
 | `validate.ts` | the validator: `validateEntry`, `validateCorpus`, and `validateEntries` over a loaded tree; also `entryFields`, the walker over every text field of an entry (path, text, whether it may carry markup), and `RID`, the rid predicate |
 | `annotations.ts` | the annotation clause (ANNOTATIONS.md §2): `checkAnnotations`, run by `validateEntry`; `entryAnnotations`, the walk over every annotation of an entry; `isIsoDate` |
 | `ANNOTATIONS.md` | the design of `annotations` (ruling `10-13 correction policy`): the field, its checks, how the import fills it, the audit |
 | `validate-cli.ts` | `bun data:validate` |
-| `headwords.ts`, `headword-rules.ts` | the headword-line parser and the six shape rules |
+| `headword-rules.ts` | the six headword shape rules (headword design §3.1), run by `validateEntry`. The parser that writes the shapes they check is the pipeline's (`admin/pipeline/headwords.ts`) |
 
 The schema is written once, in `schema.ts`. A TypeBox schema is JSON
 Schema as it stands, so TypeBox's own validator checks entries
