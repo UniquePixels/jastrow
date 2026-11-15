@@ -12,7 +12,7 @@
  *
  * A field's `description` is its documentation: it is the hover text
  * an editor shows on an entry file. What a schema cannot express —
- * gender in one place, an annotation's field resolving on its object,
+ * gender in one place, an annotation referenced exactly once,
  * NFC, a cite naming an entry that exists — `validate.ts` and
  * `annotations.ts` enforce.
  */
@@ -48,58 +48,52 @@ const PLACEHOLDER = /\{(\d+)\}/gu;
 /** A non-empty string, the shape of most text fields. */
 const Text = Type.String({ minLength: 1 });
 
+/** An annotation's id, local to its entry: `a` and a number from 1
+ * (`a1`, `a2`, …). The shape `admin/lib/annotate.ts`'s tag carries. */
+const ANNOTATION_ID: string = String.raw`^a[1-9]\d*$`;
+
 const AnnotationSchema = Type.Object(
 	{
-		// The pattern is the schema; the type names what it admits.
-		field: Type.Unsafe<
-			'gloss' | 'homograph' | 'label' | 'text' | `units[${number}]`
-		>(
-			Type.String({
-				description:
-					'Which field of its object: text or homograph on a form; gloss, label or units[n] on a sense.',
-				pattern: String.raw`^(?:gloss|homograph|label|text|units\[(?:0|[1-9]\d*)\])$`,
-			}),
-		),
+		id: Type.String({
+			description:
+				'Local to the entry: a1, a2, … in text order. The text points to it: an <annotate id> tag in display, a gloss or a unit, or a sense annotation.',
+			pattern: ANNOTATION_ID,
+		}),
 		kind: Type.Enum(['illegible', 'kept', 'print-error'], {
 			description:
-				'print-error (case 2, corrected), kept (case 3, kept as printed, so printed equals stored) or illegible (case 4, our best reading).',
+				'print-error (a departure from print, corrected), kept (an oddity print sets, kept as printed) or illegible (print cannot be read; our best reading).',
 		}),
 		printed: Type.String({
 			description:
-				"Print's reading of the field; '' where print sets nothing. A homograph is written as print writes it (I), a label as its token without ) (5).",
+				"Print's original value, shown to the reader; '' where print sets nothing. A homograph is written as print writes it (I), a label as its token without ) (5).",
 		}),
-		stored: Type.String({
-			description:
-				'What the field holds. For gloss and units[n], the substring the note is about.',
-		}),
-		evidence: Type.String({
-			description: 'Case 2: the proof. Case 3: the readings. Case 4: why.',
-			minLength: 1,
-		}),
-		source: Type.String({
-			description: 'The patch that wrote it.',
-			pattern: String.raw`^P\d{6}$`,
-		}),
+		note: Type.Optional(
+			Type.String({
+				description: 'The sentence the reader sees.',
+				minLength: 1,
+			}),
+		),
 		date: Type.String({
 			description: 'YYYY-MM-DD of the print read or the ruling.',
 			pattern: String.raw`^\d{4}-\d{2}-\d{2}$`,
 		}),
+		source: Type.Optional(
+			Type.String({
+				description:
+					'The patch that wrote it: a reverse lookup, and the link to follow if that patch changes. Absent on an annotation made in the admin tool until a backport writes its patch.',
+				pattern: String.raw`^P\d{6}$`,
+			}),
+		),
 	},
 	{
 		additionalProperties: false,
 		description:
-			"One departure from print, or one print reading checked and kept, on the object whose field it describes (admin/entry/ANNOTATIONS.md §2; ruling 10-13 correction policy). printed is print's reading ('' where print sets nothing), stored what the field holds (for gloss and units[n], the substring the note is about). kind: print-error (case 2), kept (case 3: printed equals stored), illegible (case 4). source is the patch that wrote it. What the schema cannot express — the field resolves on its object, stored agrees with the field, kept iff printed equals stored, one annotation per field, a real calendar date — admin/entry/annotations.ts enforces.",
+			"Where the entry departs from print, or keeps an oddity print sets, and why (ruling 11-15 annotation section). The patch holds the technical record; this is the reader's. The text points to it by id. That every id is referenced exactly once and every reference names an annotation the entry holds, admin/entry/annotations.ts enforces.",
 	},
 );
 
-const AnnotationsSchema = Type.Array(Type.Ref('#/$defs/annotation'), {
-	description: 'Absent when there are none, never [].',
-	minItems: 1,
-});
-
 const FormObjectSchema = Type.Object(
 	{
-		annotations: Type.Optional(Type.Ref('#/$defs/annotations')),
 		text: Type.String({
 			description:
 				'The form as clean Hebrew: meaning only. Everything print sets around the forms lives in the entry’s display.',
@@ -140,8 +134,14 @@ const FormObjectSchema = Type.Object(
 
 const SenseSchema = Type.Object(
 	{
-		annotations: Type.Optional(Type.Ref('#/$defs/annotations')),
 		label: Type.Optional(Text),
+		annotation: Type.Optional(
+			Type.String({
+				description:
+					"The id of the entry annotation this sense's label points to. A label is a bare token and cannot hold an <annotate> tag (ruling 11-15 annotation section).",
+				pattern: ANNOTATION_ID,
+			}),
+		),
 		reconstructed: Type.Optional(
 			Type.Literal(true, {
 				description:
@@ -210,7 +210,7 @@ const EntryBodySchema = Type.Object(
 		display: Type.Optional(
 			Type.String({
 				description:
-					"How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). It never carries Sefaria's superscript: print sets none (ruling 11-13 url words). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
+					"How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). It never carries Sefaria's superscript: print sets none (ruling 11-13 url words). Its only markup is <annotate id> around a {n} or a homograph numeral, pointing to the entry's annotations (ruling 11-15 annotation section). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
 				minLength: 1,
 			}),
 		),
@@ -244,6 +244,13 @@ const EntryBodySchema = Type.Object(
 		),
 		senses: Type.Array(Type.Ref('#/$defs/sense'), { minItems: 1 }),
 		stems: Type.Optional(Type.Array(StemSchema)),
+		annotations: Type.Optional(
+			Type.Array(Type.Ref('#/$defs/annotation'), {
+				description:
+					"The entry's annotations, one list the text points to by id (ruling 11-15 annotation section). Absent when there are none, never [].",
+				minItems: 1,
+			}),
+		),
 	},
 	{ additionalProperties: false },
 );
@@ -264,7 +271,6 @@ const EntrySchema = Type.Object(EntryBodySchema.properties, {
 	// biome-ignore lint/style/useNamingConvention: a JSON Schema keyword, named by the spec.
 	$defs: {
 		annotation: AnnotationSchema,
-		annotations: AnnotationsSchema,
 		formObject: FormObjectSchema,
 		sense: SenseSchema,
 	},
@@ -275,7 +281,6 @@ const EntrySchema = Type.Object(EntryBodySchema.properties, {
  * schema above is the runtime form. */
 type Pointers = {
 	'#/$defs/annotation': typeof AnnotationSchema;
-	'#/$defs/annotations': typeof AnnotationsSchema;
 	'#/$defs/formObject': typeof FormObjectSchema;
 	'#/$defs/sense': typeof SenseSchema;
 	entry: typeof EntryBodySchema;

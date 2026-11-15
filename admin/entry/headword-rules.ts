@@ -24,6 +24,10 @@
  *    whole entry file (`normalizeForWrite`, #110 — §3.1 rule 6 names
  *    it as the one exception). Nothing in THIS file rewrites anything.
  *
+ * Every rule reads `display` past its `<annotate>` tags
+ * (`withoutAnnotateTags`; ruling `11-15 annotation section`): a tag is
+ * a pointer to an annotation, not notation print sets.
+ *
  * **Rule 4 halts.** §3 makes a text defect a halt, so rule 4 is a
  * validation error beside the other five. It was held at a report
  * until the last two entries tripping it were repaired — A01175 and
@@ -38,6 +42,7 @@
  * that held it (`HALT_ON_TEXT_DEFECT`) was removed once armed, since
  * its other branch was dead (review ledger L13).
  */
+import { withoutAnnotateTags } from '../lib/annotate.ts';
 import { isLexical, SUPERSCRIPT_DIGIT } from '../lib/hebrew.ts';
 import { type Entry, type FormObject, PLACEHOLDER } from './schema.ts';
 
@@ -184,13 +189,14 @@ function checkNumeral(at: MarkerSite, problems: string[]): void {
  * superscript is dropped by the parser (ruling `11-13 url words`), so
  * a superscript in the template is notation print never set. */
 function checkNoSuperscriptInDisplay(
-	entry: Pick<Entry, 'display' | 'id'>,
+	id: string,
+	display: string,
 	problems: string[],
 ): void {
-	const sup = SUPERSCRIPT_DIGIT.exec(entry.display ?? '');
+	const sup = SUPERSCRIPT_DIGIT.exec(display);
 	if (sup !== null) {
 		problems.push(
-			`${entry.id}: display carries the superscript ${JSON.stringify(sup[0])}; print sets none (§3.1 rule 3, ruling 11-13 url words)`,
+			`${id}: display carries the superscript ${JSON.stringify(sup[0])}; print sets none (§3.1 rule 3, ruling 11-13 url words)`,
 		);
 	}
 }
@@ -270,8 +276,14 @@ function headwordShapeProblems(
 	const problems: string[] = [];
 	checkPartial(entry.id, entry.headwords, problems);
 	problems.push(...textDefects(entry));
-	checkNoSuperscriptInDisplay(entry, problems);
-	const { display } = entry;
+	// The template the rules read is `display` past its annotate tags
+	// (ruling 11-15 annotation section): a tag points a slot or a
+	// numeral at an annotation and is neither notation nor Hebrew.
+	const display =
+		entry.display === undefined
+			? undefined
+			: withoutAnnotateTags(entry.display);
+	checkNoSuperscriptInDisplay(entry.id, display ?? '', problems);
 	if (display === undefined) {
 		// §3: a line the source cannot settle is written WITHOUT a
 		// display and flagged. Rules 1–3 are about the template, so they

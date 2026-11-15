@@ -6,7 +6,7 @@
  */
 import { describe, expect, it } from 'bun:test';
 import { headwordShapeProblems, textDefects } from '../headword-rules.ts';
-import type { Annotation, Entry, FormObject } from '../schema.ts';
+import type { Entry, FormObject } from '../schema.ts';
 
 /** An entry as the rules read it: the id, the forms and the template. */
 function shaped(
@@ -116,31 +116,29 @@ describe('rule 3 — the numeral clause', () => {
 // Ruling 11-13 url words: Sefaria's superscript is never in `display`,
 // since print sets none. Ruling 10-13 correction policy retired 10-06's implied I:
 // a numeral is beside `{n}` iff the form has a homograph, and an I set
-// by correction (annotated, ANNOTATIONS.md §2) is displayed like any
-// other. `[case, form, display, problems]`.
-const PROVEN_I: Annotation = {
-	date: '2026-10-14',
-	evidence: 'Jastrow names `אב I`',
-	field: 'homograph',
-	kind: 'print-error',
-	printed: '',
-	source: 'P000001',
-	stored: 'I',
-};
+// by correction is displayed like any other, its `<annotate>` tag read
+// past (ruling 11-15 annotation section). `[case, form, display, problems]`.
+const TAGGED_I = '{0} <annotate id="a1">I</annotate>';
 const HIDDEN: ReadonlyArray<readonly [string, FormObject, string, number]> = [
 	['a superscript after a space', { text: 'אב' }, '{0} ²', 1],
 	['a superscript set close', { text: 'אב' }, '{0}²', 1],
 	[
-		'an I set by correction, displayed (10-13)',
-		{ annotations: [PROVEN_I], homograph: 1, text: 'אב' },
-		'{0} I',
+		'an I set by correction, displayed (11-15)',
+		{ homograph: 1, text: 'אב' },
+		TAGGED_I,
 		0,
 	],
 	[
-		'an I set by correction, hidden (10-13)',
-		{ annotations: [PROVEN_I], homograph: 1, text: 'אב' },
-		'{0}',
+		'an I set by correction, on a form with none (11-15)',
+		{ text: 'אב' },
+		TAGGED_I,
 		1,
+	],
+	[
+		'a tagged form text (11-15)',
+		{ text: 'אב' },
+		'<annotate id="a1">{0}</annotate>',
+		0,
 	],
 	['a printed I, displayed', { homograph: 1, text: 'אב' }, '{0} I', 0],
 	['a printed I, not displayed', { homograph: 1, text: 'אב' }, '{0}', 1],
@@ -149,6 +147,20 @@ const HIDDEN: ReadonlyArray<readonly [string, FormObject, string, number]> = [
 describe('rule 3 — what display never shows (10-06, 10-13)', () => {
 	it.each(HIDDEN)('%s', (_case, form, display, count) => {
 		expect(headwordShapeProblems(shaped([form], display))).toHaveLength(count);
+	});
+});
+
+describe('rule 3 — an annotate tag is read past (11-15)', () => {
+	it.each([
+		['{0} I', '{0} <annotate id="a1">I</annotate>'],
+		['{0} II', '{0} <annotate id="a1">II</annotate>'],
+		['{0}, {1}', '{0}, <annotate id="a2">{1}</annotate>'],
+		['*{0}', '*<annotate id="a1">{0}</annotate>'],
+	])('%s and its tagged twin give one verdict', (plain, tagged) => {
+		const forms: FormObject[] = [{ homograph: 1, text: 'אב' }, { text: 'אבא' }];
+		const verdict = (display: string): string[] =>
+			headwordShapeProblems(shaped(forms, display));
+		expect(verdict(tagged)).toEqual(verdict(plain));
 	});
 });
 

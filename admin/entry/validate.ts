@@ -29,6 +29,7 @@
  */
 import type { TLocalizedValidationError } from 'typebox/error';
 import { Compile } from 'typebox/schema';
+import { ANNOTATE_OPEN } from '../lib/annotate.ts';
 import { compareByCodeUnit } from '../lib/compare-by-code-unit.ts';
 import { findDuplicates } from '../lib/find-duplicates.ts';
 import { toComparisonForm } from '../lib/hebrew.ts';
@@ -45,8 +46,11 @@ import {
 } from './schema.ts';
 
 /** The entry markup vocabulary (migrate spec §2.2): `markup.ts` keeps
- * four source tags and translates the other two into `he` and `cite`. */
+ * four source tags and translates the other two into `he` and `cite`;
+ * `annotate` points a span at the entry's annotations (ruling `11-15
+ * annotation section`). */
 const VOCABULARY: ReadonlySet<string> = new Set([
+	'annotate',
 	'b',
 	'cite',
 	'he',
@@ -55,7 +59,13 @@ const VOCABULARY: ReadonlySet<string> = new Set([
 	'sup',
 ]);
 
-/** A cite carries exactly one attribute, a non-empty `ref`; every other
+/** What `display` may carry: the annotate tag alone. Every other
+ * character of the template is literal notation (headword design §2),
+ * so any other tag is a defect. */
+const DISPLAY_VOCABULARY: ReadonlySet<string> = new Set(['annotate']);
+
+/** A cite carries exactly one attribute, a non-empty `ref`; an
+ * annotate exactly one, its `id` (`ANNOTATE_OPEN`); every other
  * vocabulary tag carries none. */
 const CITE_OPEN = /^<cite ref="([^"<>]+)">$/u;
 const BARE_OPEN = /^<([a-z]+)>$/u;
@@ -152,17 +162,35 @@ interface MarkupFindings {
 	refs: string[];
 }
 
-/** An opening tag is a `<cite ref="…">` (its ref collected) or a bare
- * vocabulary tag other than `cite`; anything else is a problem. */
-function checkOpenTag(value: string, found: MarkupFindings): void {
-	const cite = CITE_OPEN.exec(value);
-	if (cite !== null) {
-		found.refs.push(cite[1] ?? '');
+/** Whether one opening tag is well formed for its name: a `cite`
+ * matches `CITE_OPEN`, an `annotate` matches `ANNOTATE_OPEN`, any
+ * other name is bare. */
+function wellFormedOpen(name: string, value: string): boolean {
+	if (name === 'cite') {
+		return CITE_OPEN.test(value);
+	}
+	if (name === 'annotate') {
+		return ANNOTATE_OPEN.test(value);
+	}
+	return BARE_OPEN.exec(value)?.[1] === name;
+}
+
+/** An opening tag is in `vocabulary` and well formed for its name
+ * (`wellFormedOpen`), a cite's ref collected; anything else is a
+ * problem. */
+function checkOpenTag(
+	name: string,
+	value: string,
+	vocabulary: ReadonlySet<string>,
+	found: MarkupFindings,
+): void {
+	if (!(vocabulary.has(name) && wellFormedOpen(name, value))) {
+		found.problems.push(`tag outside the vocabulary: ${value}`);
 		return;
 	}
-	const name = BARE_OPEN.exec(value)?.[1];
-	if (name === undefined || name === 'cite' || !VOCABULARY.has(name)) {
-		found.problems.push(`tag outside the vocabulary: ${value}`);
+	const ref = CITE_OPEN.exec(value)?.[1];
+	if (ref !== undefined) {
+		found.refs.push(ref);
 	}
 }
 
@@ -179,8 +207,9 @@ function checkCloseTag(
 	}
 }
 
-/** One HTML field against the vocabulary: every open tag is in it with
- * the right attributes, every close matches the innermost open, and
+/** One HTML field against `vocabulary` (the entry's whole
+ * `VOCABULARY` unless a field allows less): every open tag is in it
+ * with the right attributes, every close matches the innermost open, and
  * nothing is left open. Off-vocabulary opens still go on the stack so
  * their own close is not reported a second time.
  *
@@ -188,7 +217,10 @@ function checkCloseTag(
  * fragment with no closing `>` (`<i`) as text, so without this a
  * truncated tag would pass. No stored text holds either character as
  * prose — the committed tree has none — so neither can be a reading. */
-function markupProblems(html: string): MarkupFindings {
+function markupProblems(
+	html: string,
+	vocabulary: ReadonlySet<string> = VOCABULARY,
+): MarkupFindings {
 	const found: MarkupFindings = { problems: [], refs: [] };
 	const open: string[] = [];
 	for (const token of tokenize(html)) {
@@ -202,7 +234,7 @@ function markupProblems(html: string): MarkupFindings {
 			checkCloseTag(token.value, open, found);
 			continue;
 		}
-		checkOpenTag(token.value, found);
+		checkOpenTag(token.name, token.value, vocabulary, found);
 		if (!token.value.endsWith('/>')) {
 			open.push(token.name);
 		}
@@ -252,16 +284,13 @@ function* senseLabels(
 	}
 }
 
-/** Every field that must carry none: the headword forms, the display
- * template and `sefariaHeadword` are identifiers that `url-path.ts`
- * and the compiler read as text; sense labels are numbering. */
+/** Every field that must carry none: the headword forms and
+ * `sefariaHeadword` are identifiers that `url-path.ts` and the
+ * compiler read as text; sense labels are numbering. */
 function* plainFields(entry: Entry): Generator<[string, string]> {
 	yield ['sefariaHeadword', entry.sefariaHeadword];
 	for (const [i, form] of entry.headwords.entries()) {
 		yield [`headwords[${i}].text`, form.text];
-	}
-	if (entry.display !== undefined) {
-		yield ['display', entry.display];
 	}
 	yield* senseLabels(entry.senses, 'senses');
 	for (const [i, stem] of (entry.stems ?? []).entries()) {
@@ -269,17 +298,30 @@ function* plainFields(entry: Entry): Generator<[string, string]> {
 	}
 }
 
+/** What markup a field may carry: `none` (an identifier or a label),
+ * `annotate` (`display`, which carries the annotate tag and nothing
+ * else) or `vocabulary` (the whole `VOCABULARY`). */
+type FieldMarkup = 'annotate' | 'none' | 'vocabulary';
+
+/** The vocabulary each kind of field is checked against; `none` is
+ * held to no `<` or `>` at all instead. */
+const FIELD_VOCABULARY: Record<
+	Exclude<FieldMarkup, 'none'>,
+	ReadonlySet<string>
+> = { annotate: DISPLAY_VOCABULARY, vocabulary: VOCABULARY };
+
 /** One text field of an entry: a readable path to it (`senses[0].units[1]`),
- * its text, and whether it may carry markup. */
+ * its text, and what markup it may carry. */
 interface EntryField {
-	markup: boolean;
+	markup: FieldMarkup;
 	path: string;
 	text: string;
 }
 
 /** Every text field of an entry, nested senses and stems included:
- * the plain identifier and label fields first, then every field that
- * may carry markup. The validator's markup checks read through this,
+ * the plain identifier and label fields first, then `display`, which
+ * may carry the annotate tag alone, then every field that may carry
+ * the whole vocabulary. The validator's markup checks read through this,
  * so a reader that walks it — compile, when it is written — sees the
  * same fields the contract checked.
  *
@@ -287,19 +329,21 @@ interface EntryField {
  * `grammar`, `page` and a form's `gender`, `homograph`,
  * `reconstructed` and `partial`.
  *
- * Nor are `annotations` (ANNOTATIONS.md §2). An annotation QUOTES a
- * field rather than being one: its `stored` is a substring of a field
- * walked here, so a gloss's annotation may hold half a tag that the
- * markup check would wrongly refuse, and what it quotes is checked
- * where it stands. `entryAnnotations` (`annotations.ts`) is their
- * walk; `checkNfc`, which reads every stored string, covers their
- * spelling. */
+ * Nor are the entry's `annotations` (ruling `11-15 annotation
+ * section`). An annotation is shown to the reader beside the text it
+ * is pointed to from, not in it: its strings are plain, its `printed`
+ * is print's value and may be `''`. The text carries the pointers,
+ * and `annotations.ts` checks them; `checkNfc`, which reads every
+ * stored string, covers the annotations' spelling. */
 function* entryFields(entry: Entry): Generator<EntryField> {
 	for (const [path, text] of plainFields(entry)) {
-		yield { markup: false, path, text };
+		yield { markup: 'none', path, text };
+	}
+	if (entry.display !== undefined) {
+		yield { markup: 'annotate', path: 'display', text: entry.display };
 	}
 	for (const [path, text] of markupFields(entry)) {
-		yield { markup: true, path, text };
+		yield { markup: 'vocabulary', path, text };
 	}
 }
 
@@ -385,17 +429,18 @@ function checkSefariaHeadwords(
 	}
 }
 
-/** Markup is in the vocabulary and balanced per field, and
+/** Markup is in the field's vocabulary and balanced per field, and
  * identifiers carry none. */
 function checkMarkup(entry: Entry, problems: string[]): void {
 	for (const { markup, path, text } of entryFields(entry)) {
-		if (!markup) {
+		if (markup === 'none') {
 			if (MARKUP_CHAR.test(text)) {
 				problems.push(`${entry.id}: ${path}: markup in a plain-text field`);
 			}
 			continue;
 		}
-		for (const problem of markupProblems(text).problems) {
+		for (const problem of markupProblems(text, FIELD_VOCABULARY[markup])
+			.problems) {
 			problems.push(`${entry.id}: ${path}: ${problem}`);
 		}
 	}
@@ -523,7 +568,7 @@ function validateEntries(files: readonly EntryFile[]): string[] {
 	return problems;
 }
 
-export type { EntryField, EntryFile, EntryValidator };
+export type { EntryField, EntryFile, EntryValidator, FieldMarkup };
 export {
 	checkEntry,
 	ENTRY_FILE_GLOB,

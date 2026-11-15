@@ -716,7 +716,12 @@ describe('relabel', () => {
 			definition: gapped,
 			number: '—2)',
 			relabel: {
-				note: { ...NOTE, source: 'P000001' },
+				note: {
+					date: NOTE.date,
+					kind: NOTE.kind,
+					printed: NOTE.printed,
+					source: 'P000001',
+				},
 				run: RUN,
 				source: 'P000001',
 				to: TO,

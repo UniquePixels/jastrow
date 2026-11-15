@@ -8,14 +8,16 @@
 
 import type { Annotation } from '../entry/schema.ts';
 
-/** What a reviewed patch's `annotation` states, plus the patch id as
- * `source` (ANNOTATIONS.md §3): the half of an entry `Annotation` the
- * patch knows. The import adds the other half, `field` and `stored`,
- * once the build has put the patched value where it lands. */
+/** What a reviewed patch's `annotation` carries to the entry, plus
+ * the patch id as `source` (ruling `11-15 annotation section`): the
+ * reader's half of an entry `Annotation`. The patch's `evidence` stays
+ * in the patch. The import adds the entry's `id` and places the tag
+ * or pointer the text carries, once the build has put the patched
+ * value where it lands. */
 interface AnnotationNote {
 	date: string;
-	evidence: string;
 	kind: Annotation['kind'];
+	note?: string;
 	printed: string;
 	source: string;
 }
@@ -122,7 +124,8 @@ interface SourceEntry {
 	display?: string;
 	/** **NOT a Sefaria field.** Annotations a reviewed `reform` or
 	 * `annotate` left on the forms of the line (`FormAnnotationDraft`).
-	 * `finishEntry` puts each on the parsed form it names. */
+	 * `finishEntry` tags the parsed form's `{n}` or numeral in
+	 * `display` and lists the annotation (`placeAnnotations`). */
 	formAnnotations?: FormAnnotationDraft[];
 	headword: string;
 	/** **NOT a Sefaria field.** Homograph numerals a `reform` patch
@@ -151,7 +154,8 @@ interface SourceEntry {
  * stars the sense's number (`*2)`; ruling 10-04 sense star). */
 interface BodySense {
 	/** The drafts its source sense carried (`SenseAnnotationDraft`),
-	 * on the host sense only; `finishEntry` resolves them. */
+	 * on the host sense only; `finishEntry` places them
+	 * (`placeAnnotations`). */
 	annotations?: SenseAnnotationDraft[];
 	gloss: string;
 	label?: string;

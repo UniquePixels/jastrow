@@ -489,6 +489,9 @@ describe('annotation drafts ride to the built sense', () => {
 		kind: 'print-error',
 		printed: '3',
 	} as const;
+	/** What a draft carries: the note without its `evidence`, which
+	 * stays in the patch (ruling `11-15 annotation section`). */
+	const { evidence: _evidence, ...DRAFT } = NOTE;
 
 	/** A00014 with one annotated reviewed patch on the sense numbered
 	 * `token`, through `applyPatch` as the import applies it. */
@@ -525,7 +528,7 @@ describe('annotation drafts ride to the built sense', () => {
 		const { body } = buildTrace(await annotated('—3)', { number: '—4)' }));
 		expect(body.senses.map((s) => s.label)).toEqual([undefined, '1', '2', '4']);
 		expect(body.senses[3]?.annotations).toEqual([
-			{ ...NOTE, field: 'label', source: 'P000009' },
+			{ ...DRAFT, field: 'label', source: 'P000009' },
 		]);
 		expect(drafted(body.senses)).toEqual(['3']);
 	});
@@ -534,7 +537,7 @@ describe('annotation drafts ride to the built sense', () => {
 		const { body } = buildTrace(await annotated('', { number: '1)' }));
 		expect(body.senses[0]?.label).toBe('1');
 		expect(body.senses[0]?.annotations).toEqual([
-			{ ...NOTE, field: 'label', source: 'P000009' },
+			{ ...DRAFT, field: 'label', source: 'P000009' },
 		]);
 		expect(drafted(body.senses)).toEqual(['0']);
 	});
@@ -549,7 +552,7 @@ describe('annotation drafts ride to the built sense', () => {
 		);
 		expect(body.senses[2]?.annotations).toEqual([
 			{
-				...NOTE,
+				...DRAFT,
 				field: 'gloss-or-units',
 				find: 'first part',
 				source: 'P000009',
@@ -581,6 +584,9 @@ describe('a relabel: the declared run splits and relabels (L59)', () => {
 		kind: 'print-error',
 		printed: '',
 	} as const;
+	/** What a draft carries: the note without its `evidence`, which
+	 * stays in the patch (ruling `11-15 annotation section`). */
+	const { evidence: _evidence, ...DRAFT } = NOTE;
 
 	async function relabelled(run: string[] = RUN): Promise<SourceEntry> {
 		const entry = findFixture(await loadFixture('lettered.jsonl'), 'P00790');
@@ -618,7 +624,7 @@ describe('a relabel: the declared run splits and relabels (L59)', () => {
 			'h',
 		]);
 		expect(host?.senses?.[4]?.annotations).toEqual([
-			{ ...NOTE, field: 'label', printed: 'f', source: 'P000812' },
+			{ ...DRAFT, field: 'label', printed: 'f', source: 'P000812' },
 		]);
 		const verdict = evaluateRoundTrip(entry, trace);
 		expect(verdict).toEqual({
@@ -685,7 +691,6 @@ const CHILD_TEXT =
 	'sea.—Esp. a) one.—b) two (only הים).—c) three.—d) four; v. זִיבָה).';
 const CHILD_KEPT = {
 	date: '2026-10-16',
-	evidence: 'print sets a ) that closes nothing',
 	kind: 'kept',
 	printed: 'זִיבָה).',
 	source: 'P000901',

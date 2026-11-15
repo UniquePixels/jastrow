@@ -67,6 +67,17 @@ describe('markupProblems', () => {
 		['<cite>x</cite>', ['tag outside the vocabulary: <cite>']],
 		['<cite ref="">x</cite>', ['tag outside the vocabulary: <cite ref="">']],
 		['<he dir="rtl">x</he>', ['tag outside the vocabulary: <he dir="rtl">']],
+		['<annotate id="a1">x</annotate>', []],
+		['<cite ref="C00294"><annotate id="a1"><he>א</he></annotate> I</cite>', []],
+		[
+			'<annotate id="a0">x</annotate>',
+			['tag outside the vocabulary: <annotate id="a0">'],
+		],
+		['<annotate>x</annotate>', ['tag outside the vocabulary: <annotate>']],
+		[
+			'<annotate id="a1"/>',
+			['tag outside the vocabulary: <annotate id="a1"/>'],
+		],
 		['<i>x</b>', ['</b> closes <i>']],
 		['x</i>', ['</i> closes nothing']],
 		['<he>x', ['unclosed: he']],
@@ -89,6 +100,17 @@ describe('validateEntries', () => {
 	it('a valid tree has no problems', () => {
 		const files = tree(A(), B());
 		expect(validateEntries(files)).toEqual([]);
+	});
+
+	it('lets display carry an annotate tag', () => {
+		const tagged: Entry = {
+			...A(),
+			display: '<annotate id="a1">{0}</annotate>',
+			annotations: [
+				{ id: 'a1', kind: 'print-error', printed: 'אד', date: '2026-11-15' },
+			],
+		};
+		expect(validateEntries(tree(tagged, B()))).toEqual([]);
 	});
 
 	it('lets two entries share a URL word', () => {
@@ -179,6 +201,16 @@ describe('validateEntries', () => {
 				],
 			}),
 			'A00002: stems[0].senses[0].senses[0].label: markup in a plain-text field',
+		],
+		[
+			'markup other than annotate in display',
+			tree({ ...A(), display: '<i>{0}</i>' }, B()),
+			'A00001: display: tag outside the vocabulary: <i>',
+		],
+		[
+			'a stray angle bracket in display',
+			tree({ ...A(), display: '{0} >' }, B()),
+			'A00001: display: stray angle bracket in text: {0} >',
 		],
 		[
 			'a dangling internal cite',
@@ -317,28 +349,24 @@ describe('the NFC clause', () => {
 		[
 			// `annotations` are not `entryFields`, so this is the walk that
 			// reaches them: `checkNfc` reads every stored string.
-			'an annotation’s evidence',
+			'an annotation’s note',
 			{
 				...A(),
 				senses: [
+					{ gloss: 'father, <annotate id="a1">x</annotate>', units: [] },
+				],
+				annotations: [
 					{
-						annotations: [
-							{
-								date: '2026-10-13',
-								evidence: `print reads ${NOT_NFC}`,
-								field: 'gloss',
-								kind: 'print-error',
-								printed: 'fathr',
-								source: 'P000001',
-								stored: 'father',
-							},
-						],
-						gloss: 'father',
-						units: [],
+						id: 'a1',
+						kind: 'print-error',
+						printed: '',
+						note: `print reads ${NOT_NFC}`,
+						date: '2026-11-15',
+						source: 'P000001',
 					},
 				],
 			},
-			'senses[0].annotations[0].evidence',
+			'annotations[0].note',
 		],
 	])(
 		'fires on a decomposed spelling in %s, naming the field',
@@ -381,8 +409,9 @@ describe('the two halves', () => {
 
 describe('validateEntry: an I set by correction (10-13)', () => {
 	// Ruling 10-13 correction policy retired 10-06's `implied`: an I
-	// set by correction is a plain `homograph: 1` with a `homograph`
-	// annotation, and it is displayed like any other numeral.
+	// set by correction is a plain `homograph: 1` whose numeral in
+	// `display` carries an annotate tag (ruling 11-15 annotation
+	// section), and it is displayed like any other numeral.
 	it('validateEntry refuses implied, a field the contract no longer has', () => {
 		const planted = {
 			...A(),
@@ -396,31 +425,26 @@ describe('validateEntry: an I set by correction (10-13)', () => {
 	const provenI = (display: string): Entry => ({
 		...A(),
 		display,
-		headwords: [
-			{
-				annotations: [
-					{
-						date: '2026-10-14',
-						evidence: 'Jastrow names `אב I`',
-						field: 'homograph',
-						kind: 'print-error',
-						printed: '',
-						source: 'P000001',
-						stored: 'I',
-					},
-				],
-				homograph: 1,
-				text: 'אב',
-			},
+		headwords: [{ homograph: 1, text: 'אב' }],
+		annotations: [
+			{ id: 'a1', kind: 'print-error', printed: '', date: '2026-10-14' },
 		],
 	});
 
 	it('validateEntry passes an I set by correction that display numbers', () => {
-		expect(validateEntry(provenI('{0} I'), 'A/A00001.json')).toEqual([]);
+		expect(
+			validateEntry(
+				provenI('{0} <annotate id="a1">I</annotate>'),
+				'A/A00001.json',
+			),
+		).toEqual([]);
 	});
 
 	it('validateEntry refuses an I set by correction that display hides', () => {
-		const problems = validateEntry(provenI('{0}'), 'A/A00001.json');
+		const problems = validateEntry(
+			provenI('<annotate id="a1">{0}</annotate>'),
+			'A/A00001.json',
+		);
 		expect(problems).toHaveLength(1);
 		expect(problems[0]).toContain('rule 3');
 	});
@@ -491,23 +515,16 @@ describe('gender exclusivity (HW-gender)', () => {
  * under the entry and under a stem. */
 const FULL: Entry = {
 	...A(),
-	display: '{0}, {1}',
+	display: '{0}, <annotate id="a1">{1}</annotate>',
 	grammar: { gender: 'm', number: 'pl' },
-	headwords: [
-		{ text: 'אב' },
+	headwords: [{ text: 'אב' }, { text: 'אבה' }],
+	annotations: [
 		{
-			annotations: [
-				{
-					date: '2026-10-13',
-					evidence: 'e',
-					field: 'text',
-					kind: 'kept',
-					printed: 'אבה',
-					source: 'P000001',
-					stored: 'אבה',
-				},
-			],
-			text: 'אבה',
+			id: 'a1',
+			kind: 'kept',
+			printed: 'אבה',
+			date: '2026-10-13',
+			source: 'P000001',
 		},
 	],
 	senses: [
@@ -566,9 +583,10 @@ function childPath(at: string, key: string, array: boolean): string {
 
 /** Strings that are codes or keys, not text: the rid, the schema's
  * enums and the page column. And every string of an annotation, which
- * quotes a field rather than being one (`entryFields`' docstring). */
+ * the reader is shown beside the text rather than in it
+ * (`entryFields`' docstring). */
 const NOT_TEXT =
-	/^(id|grammar\..*|page\..*|headwords\[\d+\]\.gender|.*\.annotations\[\d+\]\..*)$/u;
+	/^(id|grammar\..*|page\..*|headwords\[\d+\]\.gender|annotations\[\d+\]\..*)$/u;
 
 // The walker compile will read every text field through (review ledger
 // L04). The expected set is computed by a generic JSON walk written
@@ -581,22 +599,29 @@ describe('entryFields', () => {
 		);
 		expect(expected).toContain('stems[0].senses[0].senses[0].units[0]');
 		// The fixture's annotation is there to be skipped, not missing.
-		expect([...stringPaths(FULL, '')]).toContain(
-			'headwords[1].annotations[0].stored',
-		);
+		expect([...stringPaths(FULL, '')]).toContain('annotations[0].printed');
 		expect(
 			[...entryFields(FULL)].map((f) => f.path).toSorted(compareByCodeUnit),
 		).toEqual(expected.toSorted(compareByCodeUnit));
 	});
 
+	it('marks display annotate-only', () => {
+		expect(
+			[...entryFields(FULL)]
+				.filter((f) => f.markup === 'annotate')
+				.map((f) => f.path),
+		).toEqual(['display']);
+	});
+
 	it('marks the identifier and label fields plain, the rest markup', () => {
 		expect(
-			[...entryFields(FULL)].filter((f) => !f.markup).map((f) => f.path),
+			[...entryFields(FULL)]
+				.filter((f) => f.markup === 'none')
+				.map((f) => f.path),
 		).toEqual([
 			'sefariaHeadword',
 			'headwords[0].text',
 			'headwords[1].text',
-			'display',
 			'senses[0].senses[0].label',
 			'senses[0].senses[0].senses[0].label',
 			'stems[0].senses[0].label',

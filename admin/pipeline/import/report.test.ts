@@ -196,42 +196,24 @@ describe('renderBlessing', () => {
 });
 
 describe('countAnnotations', () => {
-	const note = (
-		kind: 'kept' | 'print-error',
-		field: 'gloss' | 'label',
-	): Annotation => ({
-		date: '2026-10-13',
-		evidence: 'e',
-		field,
+	const item = (n: number, kind: Annotation['kind']): Annotation => ({
+		id: `a${n}`,
 		kind,
 		printed: kind === 'kept' ? '1' : '',
+		date: '2026-10-13',
 		source: 'P000001',
-		stored: '1',
 	});
-	it('counts every kind over forms and nested senses, 0 where none', () => {
+	it('counts every kind in each entry’s annotations, 0 where none', () => {
 		const entry: Entry = {
 			headwords: [{ text: 'א' }],
 			id: 'A00001',
 			schemaVersion: SCHEMA_VERSION,
 			sefariaHeadword: 'א',
-			senses: [
-				{
-					annotations: [note('kept', 'label'), note('print-error', 'gloss')],
-					gloss: '1',
-					label: '1',
-					senses: [
-						{
-							annotations: [note('kept', 'label')],
-							gloss: '',
-							label: '1',
-							units: [],
-						},
-					],
-					units: [],
-				},
-			],
+			senses: [{ gloss: '1', units: [] }],
+			annotations: [item(1, 'kept'), item(2, 'print-error'), item(3, 'kept')],
 		};
-		expect(countAnnotations([entry, entry])).toEqual({
+		const { annotations: _list, ...bare } = { ...entry, id: 'A00002' };
+		expect(countAnnotations([entry, entry, bare])).toEqual({
 			illegible: 0,
 			kept: 4,
 			'print-error': 2,
