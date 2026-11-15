@@ -9,7 +9,7 @@
  * and a list never empty. `validate.ts` runs the schema first, so this
  * module assumes the shape and checks what JSON Schema cannot say:
  *
- * - `date` is a real calendar date;
+ * - `date` is a real calendar date (`isIsoDate`, `admin/lib/`);
  * - the field resolves on its object: `text` and `homograph` only on a
  *   form, and `homograph` only where the form has one; `gloss`,
  *   `label` and `units[n]` only on a sense, `label` only where it has
@@ -25,26 +25,12 @@
  * `source` names a real patch is not answerable here: the patch records
  * are pipeline data, and only the import's gate 10 holds both sides.
  */
+import { isIsoDate } from '../lib/iso-date.ts';
 import { intToRoman } from '../lib/roman.ts';
 import type { Annotation, Entry, FormObject, Sense } from './schema.ts';
 
-/** `YYYY-MM-DD`, the shape the schema's `date` pattern holds; whether
- * the day exists is `isIsoDate`'s second half. */
-const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/u;
 /** A `units[n]` field, its index captured. */
 const UNITS_FIELD = /^units\[(?<n>\d+)\]$/u;
-
-/** Whether `value` is an ISO calendar date: the `YYYY-MM-DD` shape,
- * and a day the calendar has (`2026-02-30` has the shape and is not
- * one). Exported so the patch schema holds a patch's `annotation.date`
- * to the same rule the entry meets. */
-function isIsoDate(value: string): boolean {
-	if (!ISO_DATE.test(value)) {
-		return false;
-	}
-	const day = new Date(`${value}T00:00:00Z`);
-	return !Number.isNaN(day.getTime()) && day.toISOString().startsWith(value);
-}
 
 /** The object an annotation list sits on. */
 type Owner =
@@ -190,4 +176,4 @@ function checkAnnotations(entry: Entry, problems: string[]): void {
 }
 
 export type { EntryAnnotation };
-export { checkAnnotations, entryAnnotations, isIsoDate };
+export { checkAnnotations, entryAnnotations };

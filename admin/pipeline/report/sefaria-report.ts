@@ -37,8 +37,8 @@
  * writes the three documents.
  */
 
-import { isIsoDate } from '../../entry/annotations.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
+import { isIsoDate } from '../../lib/iso-date.ts';
 import { type PageLookup, pageOutsideEntry } from '../patch/locator.ts';
 import { pageOfUrl, pageUrl, pageUrls } from '../patch/scan.ts';
 import type { SemanticPatch } from '../patch/schema.ts';

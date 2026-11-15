@@ -15,6 +15,7 @@ from another admin module.
 | `roman.ts` | `intToRoman` and `romanToInt`, the one Roman numeral table, read both ways (a homograph number as print sets it) |
 | `find-duplicates.ts` | `findDuplicates`, the one way a uniqueness check finds its duplicates: the first item to claim a key keeps it |
 | `compare-by-code-unit.ts` | `compareByCodeUnit`, the comparator every string sort passes: code-unit order, the same on every machine; never `localeCompare` |
+| `iso-date.ts` | `isIsoDate`, whether a `YYYY-MM-DD` value is a day the calendar has (annotation, patch and Sefaria appendix dates) |
 | `url-path.ts` | `toUrlWord` (a headword's URL word), `buildEntryPaths` (rid to path, numbered in rid order) and `findEmptyUrlWords` (the entries no URL reaches, each with its report line); the path is computed, never stored (ruling `11-13 url words`) |
 
 Tests live in `__tests__/`.
