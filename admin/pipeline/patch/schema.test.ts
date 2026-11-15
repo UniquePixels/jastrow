@@ -716,7 +716,7 @@ describe('relabel', () => {
 			definition: gapped,
 			number: '—2)',
 			relabel: {
-				note: {
+				annotation: {
 					date: NOTE.date,
 					kind: NOTE.kind,
 					printed: NOTE.printed,
@@ -1113,6 +1113,9 @@ describe('reform', () => {
 		expect(() => reform({ display: '', forms: ['a'] })).toThrow(
 			'non-empty string',
 		);
+		expect(() =>
+			reform({ display: '{0}<annotate id="x">', forms: ['a'] }),
+		).toThrow('no tags');
 	});
 
 	it('lifts `= Y` off the line into the first sense of a senseless entry', () => {

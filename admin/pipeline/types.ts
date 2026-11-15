@@ -49,12 +49,12 @@ type SenseAnnotationDraft = AnnotationNote &
  * as the text sets them, gap included, and `to` the labels the
  * children take, `a`, `b`, `c`… The text is untouched: the build
  * splits it at exactly `run` (`body/lettered.ts`), labels each child
- * from `to`, and leaves a `label` draft (`note`, with print's letter as
+ * from `to`, and leaves a `label` draft (`annotation`, with print's letter as
  * `printed`) on each child whose label departs from print's. `source`
  * is the patch id. A relabel that changes no label (L57: `to` equal to
- * `run`, declared only to force the split) carries no `note`. */
+ * `run`, declared only to force the split) carries no `annotation`. */
 interface RelabelDraft {
-	note?: AnnotationNote;
+	annotation?: AnnotationNote;
 	run: string[];
 	source: string;
 	to: string[];

@@ -59,6 +59,7 @@ function lossPool(entry: SourceEntry): string {
 			? entry
 			: {
 					...entry,
+					// A guard: entry displays carry tags, patch displays never do.
 					display: withoutAnnotateTags(entry.display).replace(DISPLAY_SLOT, ''),
 				};
 	return [...fieldsOf(slotless), ...(entry.refs ?? [])].map(stripTags).join('');

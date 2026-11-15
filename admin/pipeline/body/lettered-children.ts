@@ -74,7 +74,7 @@ function labelledChildren(
 	return parts.items.map((item, i) => {
 		const label = relabel?.to[i] ?? item.letter;
 		const child = letteredChild(item.text, label);
-		const note = relabel?.note;
+		const note = relabel?.annotation;
 		if (note === undefined || label === item.letter) {
 			return child;
 		}

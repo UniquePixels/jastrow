@@ -33,7 +33,7 @@ annotation.
 | Case | What happens | Annotation |
 |---|---|---|
 | 1. Transcription error (Sefaria or its OCR); print is right | corrected silently | none: the patch `rationale` is the trace (08-11 OCR correction, HW-ocr-dalet) |
-| 2. Print error, intended value determined (a closed system Jastrow defines yields one value, or his own text elsewhere names it) | corrected | `print-error`: print's value and the evidence |
+| 2. Print error, intended value determined (a closed system Jastrow defines yields one value, or his own text elsewhere names it) | corrected | `print-error`: print's value (the evidence stays in the patch) |
 | 3. Print oddity, more than one plausible intent | kept as printed, flagged | `kept`: `printed` is what the text holds, and why it is ambiguous |
 | 4. Print illegible | our best reading of the print, flagged | `illegible`: why |
 
@@ -222,7 +222,9 @@ How each op's draft is made:
   (`body/lettered-children.ts`). Each child whose label departs from
   print's carries a `label` draft whose `printed` is print's letter;
   the patch's own `printed` must be `''`, since one string cannot state
-  three letters, and its `kind` must be `print-error`. P00790's P000812
+  three letters, and its `kind` must be `print-error`. A relabel carries one patch `annotation`, so
+  every label annotation it writes shares one `note`, and that note must
+  not name a single letter. P00790's P000812
   writes three: `printed` `f`, `g`, `h`, on the children labelled `e`,
   `f`, `g`. A relabel whose `to` is its `run` (review ledger L57,
   J00403's P000820) changes no label: it declares a run print sets

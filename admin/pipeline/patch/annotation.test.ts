@@ -369,6 +369,17 @@ describe('applyPatch: the draft each annotated op leaves', () => {
 		} as never);
 	});
 
+	it('retag: the patch annotation.note reaches the draft', () => {
+		const note = 'Print sets a 2) after an unlabelled first sense.';
+		const after = applyPatch(
+			makeEntry(),
+			human(raw({ ...retag, annotation: { ...NOTE, note }, id: 'P000007' })),
+		);
+		expect(after.content.senses[0]?.annotations).toEqual([
+			{ ...DRAFT, field: 'label', note, source: 'P000007' },
+		] as never);
+	});
+
 	it('replace: a draft that finds the replacement in the gloss or a unit', () => {
 		const after = applyPatch(
 			makeEntry(),

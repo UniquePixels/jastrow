@@ -1034,6 +1034,11 @@ function reformDisplayReasons(display: unknown, forms: unknown): string[] {
 	if (display.includes('\n')) {
 		return ['reform display must not contain a newline'];
 	}
+	if (display.includes('<') || display.includes('>')) {
+		return [
+			'reform display must hold no tags: the import adds the annotate tags',
+		];
+	}
 	if (HEBREW_IN_DISPLAY.test(display)) {
 		return ['reform display must hold no Hebrew: it comes from the forms'];
 	}
@@ -2151,7 +2156,7 @@ function applyRelabel(entry: SourceEntry, patch: RelabelPatch): SourceEntry {
 	sense.relabel = {
 		...(patch.annotation === undefined
 			? {}
-			: { note: annotationNote(patch, patch.annotation) }),
+			: { annotation: annotationNote(patch, patch.annotation) }),
 		run: [...run],
 		source: patch.id,
 		to: [...to],

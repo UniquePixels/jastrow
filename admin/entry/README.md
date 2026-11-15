@@ -19,7 +19,7 @@ Helpers that are not about entries live in
 | `schema.ts` | the schema, written once with TypeBox (ruling `11-05 schema source`): `EntrySchema`, the types derived from it (`Entry` and its parts), `SCHEMA_VERSION`, `VERBATIM_FIELDS`, and `PLACEHOLDER`, the `{n}` slot of a `display` template as a pattern |
 | `schema-build.ts` | `bun schema:build` writes `data/schema/entry.schema.json` from `schema.ts`; `bun schema:check` fails when the committed file is stale |
 | `validate.ts` | the validator: `validateEntry`, `validateCorpus`, and `validateEntries` over a loaded tree; also `RID`, the rid predicate |
-| `fields.ts` | `entryFields`, the walker over every text field of an entry (path, text, whether it may carry markup) |
+| `fields.ts` | `entryFields`, the walker over every text field of an entry (path, text, which markup it may carry: `none`, `annotate` (display: the annotate tag only) or `vocabulary` (the full markup vocabulary)) |
 | `annotations.ts` | the annotation clause (ANNOTATIONS.md §2): `checkAnnotations`, run by `validateEntry`, checks only that the `<annotate>` tags and sense pointers and the entry's `annotations` list agree |
 | `ANNOTATIONS.md` | the design of `annotations` (rulings `10-13 correction policy`, `11-15 annotation section`): the field, its checks, how the import fills it, the audit |
 | `validate-cli.ts` | `bun data:validate` |
