@@ -22,17 +22,7 @@
 				"<cite ref=\"Mishnah Tahorot 8:9\">Toh. VIII, 9</cite>; a. fr."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000146",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " (cmp. <he>דאב</he>, <cite ref=\"D00232\"><he>דוי</he></cite>) <i>to melt, decay, ferment</i> (of a running and fermenting dough). ",
@@ -57,6 +47,15 @@
 				}
 			],
 			"stem": "Hif."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000146"
 		}
 	]
 }

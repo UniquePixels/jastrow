@@ -7,25 +7,14 @@
 			"text": "קֵץ"
 		},
 		{
-			"text": "קִצָּא",
-			"annotations": [
-				{
-					"field": "text",
-					"kind": "illegible",
-					"printed": "קִצּא",
-					"stored": "קִצָּא",
-					"evidence": "only the vertical stroke of the qamats printed (1404a); S01120 spells the word קִצָּא; the maintainer's read 2026-10-13: \"Honestly this one is a bit of an educated guess as the text is not clear.  It deff needs an anotation.  The text only has a vertical line, it seems the top part of the qamats did not print, or lost to scan).\"",
-					"source": "P000589",
-					"date": "2026-10-15"
-				}
-			]
+			"text": "קִצָּא"
 		},
 		{
 			"text": "קִי׳",
 			"partial": true
 		}
 	],
-	"display": "{0}, {1}, {2}",
+	"display": "{0}, <annotate id=\"a1\">{1}</annotate>, {2}",
 	"page": {
 		"number": 1404,
 		"column": "a"
@@ -41,6 +30,15 @@
 				"<cite ref=\"Targum Jonathan on Genesis 49:1\">Targ. Y. I Gen. XLIX, 1</cite>. ",
 				"<cite ref=\"Aramaic Targum to Job 7:12\">Targ. Job VII, 12</cite>, v. <cite ref=\"C01389\"><he>גְּרַף</he></cite>."
 			]
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "illegible",
+			"printed": "קִצּא",
+			"date": "2026-10-15",
+			"source": "P000589"
 		}
 	]
 }

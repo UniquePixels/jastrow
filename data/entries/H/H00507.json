@@ -34,17 +34,7 @@
 				"<cite ref=\"Aramaic Targum to Esther 6:1\">Targ. Esth. VI, 1</cite>; a. e."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000135",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>look-out, crossroad</i>.—Pl. constr. <he>חֶזְוֵי</he>, (<he>חֵיזוֹי</he>) <he>חֵיזְוֵי</he>. ",
@@ -52,6 +42,15 @@
 				"<cite ref=\"Targum Jonathan on Genesis 13:18\">Targ. Y. Gen. XIII, 18</cite>; <cite ref=\"Targum Jonathan on Genesis 14:13\">XIV, 13</cite>; <cite ref=\"Deuteronomy 11:30\">Deut. XI, 30</cite>, v. <cite ref=\"H00508\">next art.</cite>"
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000135"
 		}
 	]
 }

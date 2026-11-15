@@ -37,17 +37,7 @@
 				"<cite ref=\"Yevamot 25b\">Yeb. 25ᵇ</cite>, a. e. <he>עדים הח׳ וכ׳</he> if witnesses are signed &c.; a. fr."
 			],
 			"label": "3",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "2",
-					"stored": "3",
-					"evidence": "print sets 2) twice (H01899, 513b); the run 1 2 2 3 determines this as 3 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
-					"source": "P000565",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": "<i>to close</i> a benediction (v. <cite ref=\"H01888\"><he>חֲתִימָה</he></cite>). ",
@@ -58,17 +48,7 @@
 				"<cite ref=\"Gittin 60a:7\">Gitt. 60ᵃ</cite> <he>תורה ח׳ ניתנה</he> the Law was given as one complete book, opp. <he>מגילה מגילה</he> in single sheets. [<cite ref=\"Shir HaShirim Rabbah 1:11\">Cant. R. to I, 11</cite>, v. next w.]"
 			],
 			"label": "4",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "3",
-					"stored": "4",
-					"evidence": "print sets 2) twice (H01899, 513b); the run 1 2 2 3 determines this as 4 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
-					"source": "P000566",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a2"
 		}
 	],
 	"stems": [
@@ -113,6 +93,22 @@
 				}
 			],
 			"stem": "Hithpa."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "2",
+			"date": "2026-10-14",
+			"source": "P000565"
+		},
+		{
+			"id": "a2",
+			"kind": "print-error",
+			"printed": "3",
+			"date": "2026-10-14",
+			"source": "P000566"
 		}
 	]
 }

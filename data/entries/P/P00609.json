@@ -4,21 +4,10 @@
 	"sefariaHeadword": "עֵינָיָון",
 	"headwords": [
 		{
-			"text": "עֵינָוָון",
-			"annotations": [
-				{
-					"field": "text",
-					"kind": "illegible",
-					"printed": "עֵינָיָון",
-					"stored": "עֵינָוָון",
-					"evidence": "the maintainer's print read 2026-10-22: \"This is one of those print/scan issues.  The letter in question is neither a complete yod, or vav, based on word order though I am confident it is vav.  Anotate with evidence.\" P00602 and P00618 spell `עֵינָוָון` (linked to P00610, where they stay); it stands between P00608 `עִינּוּג` and P00610 `עִינְוָון`, where `עינוון` sorts and `עיניון` does not. 1072a.",
-					"source": "P000838",
-					"date": "2026-10-22"
-				}
-			]
+			"text": "עֵינָוָון"
 		}
 	],
-	"display": "{0}",
+	"display": "<annotate id=\"a1\">{0}</annotate>",
 	"page": {
 		"number": 1072,
 		"column": "a"
@@ -27,6 +16,15 @@
 		{
 			"gloss": ", pl. of <cite ref=\"P00602\"><he>עֵינָא</he></cite>.",
 			"units": []
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "illegible",
+			"printed": "עֵינָיָון",
+			"date": "2026-10-22",
+			"source": "P000838"
 		}
 	]
 }

@@ -21,17 +21,7 @@
 				"<cite ref=\"Sanhedrin 98a:6\">Snh. 98ᵃ</cite> <he>מלכות הַזָּלָה</he> the despicable (Roman) government (Rashi: ‘the slightest trace of tyranny’)."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000466",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " (cmp. <cite ref=\"B00220\"><he>בּוּז</he></cite>) <i>to squander, be excessive in sensual enjoyments, be dissolute</i>. ",
@@ -88,6 +78,15 @@
 				}
 			],
 			"stem": "Hof."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000466"
 		}
 	]
 }

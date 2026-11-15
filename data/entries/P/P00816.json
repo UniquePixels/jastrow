@@ -25,17 +25,7 @@
 				"<cite ref=\"Kohelet Rabbah 1:3:1\">Koh. R. to I, 3</cite> <he>עָלְלִין ונפקין</he> are brought in and taken out again; a. e."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000190",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " (with <he>שמשא</he>) <i>to set</i>. ",
@@ -115,6 +105,15 @@
 				}
 			],
 			"stem": "Ithpe."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000190"
 		}
 	]
 }

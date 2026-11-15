@@ -98,17 +98,7 @@
 								"<cite ref=\"Eruvin 65a:6\">Ib.</cite> <he>מַשְׁמְעֵי</he>, v. infra; a. fr.—V. <cite ref=\"M02925\"><he>מַשְׁמָע</he></cite>."
 							],
 							"label": "2",
-							"annotations": [
-								{
-									"field": "label",
-									"kind": "kept",
-									"printed": "2",
-									"stored": "2",
-									"evidence": "print sets a) then 2): a) b) or 1) 2) are both possible; kept as printed (ruling 10-12; the maintainer's note \"2)\", 2026-10-12)",
-									"source": "P000581",
-									"date": "2026-10-14"
-								}
-							]
+							"annotation": "a1"
 						}
 					]
 				}
@@ -145,6 +135,15 @@
 				}
 			],
 			"stem": "Ithpe."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "kept",
+			"printed": "2",
+			"date": "2026-10-14",
+			"source": "P000581"
 		}
 	]
 }

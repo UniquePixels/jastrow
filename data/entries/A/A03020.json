@@ -4,21 +4,10 @@
 	"sefariaHeadword": "אֻרְיָה",
 	"headwords": [
 		{
-			"text": "אֻרְוָה",
-			"annotations": [
-				{
-					"field": "text",
-					"kind": "illegible",
-					"printed": "אֻרְיָה",
-					"stored": "אֻרְוָה",
-					"evidence": "the maintainer's print read 2026-10-22: \"This is a case that needs annotation.  The print version has a scan error, such that the letter is missing the decender (does not even have the little bit that yod would have.)   Based on the cites and word order, I am confident in vav, but we want that noted.\" Three cites spell `אֻרְוָה`, all linked here (A00863, A00878, A00879); its plural is `אֻרְווֹת`; it stands between A03019 `אָרוֹד` and A03021 `אַרְוָוד`, where `ארוה` sorts. 116a.",
-					"source": "P000829",
-					"date": "2026-10-22"
-				}
-			]
+			"text": "אֻרְוָה"
 		}
 	],
-	"display": "{0}",
+	"display": "<annotate id=\"a1\">{0}</annotate>",
 	"page": {
 		"number": 116,
 		"column": "a"
@@ -30,6 +19,15 @@
 		{
 			"gloss": "f. (b. h.; v. <cite ref=\"A00878\"><he>אוּרְיָא</he> II</cite>) <i>manger, crib.—</i>Pl. <he>אֻרְווֹת</he>. ",
 			"units": ["<cite ref=\"Sanhedrin 21b:13\">Snh. 21ᵇ</cite>"]
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "illegible",
+			"printed": "אֻרְיָה",
+			"date": "2026-10-22",
+			"source": "P000829"
 		}
 	]
 }

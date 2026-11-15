@@ -28,17 +28,7 @@
 				"<cite ref=\"Yoma 75a:16\">Yoma 75ᵃ</cite>; <cite ref=\"Shabbat 130a:18\">Sabb. 130ᵃ</cite> (ref. to <cite ref=\"Numbers 11:10\">Num. XI, 10</cite>) <he>על ע׳ משפחותיו</he> (the people wept) over their family affairs (the prohibition of consanguineous marriages); <cite ref=\"Yalkut Shimoni on Torah 735:13\">Yalk. Num. 735</cite>. Sifra K’dosh., ch. VIII, Par. 4 (ref. to <cite ref=\"Q01188\"><he>פני</he></cite>, <cite ref=\"Leviticus 20:5\">Lev. XX, 5</cite>) <he>פונה אני מכל עֲסָקַי וכ׳</he> I shall leave all my affairs, and busy myself &c., v. <cite ref=\"P01052\"><he>עָסַק</he></cite>; <cite ref=\"Leviticus 20:5\">ib.</cite> Aḥăré, ch. X, Par. 8; Yalk. Lev. 619; a. fr."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000444",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>controversy, dispute, cause</i>. ",
@@ -48,6 +38,15 @@
 				"<cite ref=\"Ketubot 92b\">Keth. 92ᵇ</cite> sq. <he>יצאו עליו ע׳</he> (ed. <he>עסי׳</he>) protests against the title were issued; <cite ref=\"Bava Metzia 14a:12\">B. Mets. 14ᵃ</cite> bot. <he>עסי׳</he>."
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000444"
 		}
 	]
 }

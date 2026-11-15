@@ -24,17 +24,7 @@
 				"<cite ref=\"Bava Metzia 64a:7\">B. Mets. 64ᵃ</cite> <he>ההולך … לִרְדוֹת את כוורתו</he> if a person goes to take the honey out of his bee-hive; <he>מה שכוורתי רוֹדָה כך וכך וכ׳</he> whatever my bee-hive may yield shall be thine for such and such an amount; a. fr."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000452",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <he>ר׳</he> (<cite ref=\"Q02110\"><he>פת</he></cite>) <i>to detach bread</i> from where it sticks to the oven, <i>to shovel out</i>. ",
@@ -56,6 +46,15 @@
 				}
 			],
 			"stem": "Nif."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000452"
 		}
 	]
 }

@@ -5,25 +5,14 @@
 	"headwords": [
 		{
 			"text": "קוּלְיָא",
-			"homograph": 1,
-			"annotations": [
-				{
-					"field": "homograph",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "I",
-					"evidence": "Jastrow's text names `קוּלְיָא I`: S00961 `, v. קוּלְיָא I` (hOCR `ll>`); S01262 `, v. קוּלְיָא I`; S01321 `pl.).—V. קוּלְיָא I` (hOCR `i.`); S01360 `misreading for קלווא, v. קוּלְיָא I` (hOCR `I`). Print sets no numeral beside it (maintainer print read of the 1903 scan, 2026-10-06, docs/headword-worklist.md first list, row S00337).",
-					"source": "P000355",
-					"date": "2026-10-14"
-				}
-			]
+			"homograph": 1
 		},
 		{
 			"text": "קוֹ׳",
 			"partial": true
 		}
 	],
-	"display": "{0} I, {1}",
+	"display": "{0} <annotate id=\"a1\">I</annotate>, {1}",
 	"page": {
 		"number": 1328,
 		"column": "a"
@@ -37,6 +26,15 @@
 			"units": [
 				"<cite ref=\"Targum Jonathan on Ezekiel 27:17\">Targ. Ez. XXVII, 17</cite> (Ar. <cite ref=\"S00327\"><he>קִילְ׳</he></cite>; ed. Ven. I <cite ref=\"S00961\"><he>קִילּוּיָא</he></cite>; some ed. <cite ref=\"S00336\"><he>קוּלַיָּא</he></cite> pl.; ed. Lag. <cite ref=\"S01262\"><he>קלוויא</he></cite>; h. text <he>פגן</he>).—v. <cite ref=\"S01320\"><he>קֳלִי</he></cite>."
 			]
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000355"
 		}
 	]
 }

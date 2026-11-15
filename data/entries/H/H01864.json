@@ -19,17 +19,7 @@
 				"<cite ref=\"Avodah Zarah 35a:7\">Ab. Zar. 35ᵃ</cite> (ref. to <cite ref=\"Song of Songs 1:2\">Cant. I, 2</cite>) <he>חֲשׁוֹק שׂפתותיך זו בזו</he> press thy lips together and be not too hasty in replying."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000139",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " (cmp. <cite ref=\"H01469\"><he>חָפַץ</he></cite>) <i>to be attached to, in love with; to elect</i>. ",
@@ -38,6 +28,15 @@
 				"<cite ref=\"Chullin 89a:5\">Ḥull. 89ᵃ</cite> (ref. to <cite ref=\"Deuteronomy 7:7\">Deut. VII, 7</cite>) <he>חוֹשְׁקַנִי בכם</he> I elected you."
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000139"
 		}
 	]
 }

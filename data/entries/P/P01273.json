@@ -5,25 +5,14 @@
 	"headwords": [
 		{
 			"text": "עֵרָבוֹן",
-			"homograph": 2,
-			"annotations": [
-				{
-					"field": "homograph",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "II",
-					"evidence": "P01275 `עֲרֵבוּת` reads `(v. עֵרָבוֹן II)` for going security, the meaning P01273 `עֵרָבוֹן, עֵי׳` carries (pledge); P01272 `עֵרָבוֹן, עֵי׳ I` (mingling) is the I, the family has no II, and the hOCR shows none on P01273 (`VCnS?, ^V m. (b. h.; 31SI) 1) pledge`); the link already points at P01273",
-					"source": "P000872",
-					"date": "2026-10-22"
-				}
-			]
+			"homograph": 2
 		},
 		{
 			"text": "עֵי׳",
 			"partial": true
 		}
 	],
-	"display": "{0} II, {1}",
+	"display": "{0} <annotate id=\"a1\">II</annotate>, {1}",
 	"page": {
 		"number": 1112,
 		"column": "b"
@@ -48,6 +37,15 @@
 				"<cite ref=\"Yevamot 109a:17\">Yeb. 109ᵃ</cite> <he>ויתרחק … ומן הע׳</he> (Rashi <cite ref=\"P01272\"><he>ערבון</he></cite>) and should keep aloof from cases of protest (v. <cite ref=\"M01077\"><he>מִיאוּן</he></cite>), from trusts, and from going security (<cite ref=\"Bereishit Rabbah 93\">Gen. R. s. 93</cite>, beg. <he>מלעשות ערבות וכ׳</he>)."
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-22",
+			"source": "P000872"
 		}
 	]
 }

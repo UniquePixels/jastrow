@@ -51,17 +51,7 @@
 				"<cite ref=\"Niddah 58b\">Nidd. 58ᵇ</cite> <he>ב׳ כ׳ לו שכל וכ׳</he> whoever crushes it cannot help smelling it."
 			],
 			"label": "4",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "3",
-					"stored": "4",
-					"evidence": "print sets 3) twice (K01280, 674a); the run 1 2 3 3 determines this as 4 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
-					"source": "P000570",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		}
 	],
 	"stems": [
@@ -107,6 +97,15 @@
 				}
 			],
 			"stem": "Pi."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "3",
+			"date": "2026-10-14",
+			"source": "P000570"
 		}
 	]
 }

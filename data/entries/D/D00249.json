@@ -23,17 +23,7 @@
 				"<cite ref=\"Shabbat 118b:3\">Sabb. 118ᵇ</cite>; a. e."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000120",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>religious service from the stand, the Levite’s singing, teaching</i>. ",
@@ -41,6 +31,15 @@
 				"<cite ref=\"Megillah 3a:18\">Meg. 3ᵃ</cite>; <cite ref=\"Arakhin 4a:55\">Arakh. 4ᵃ</cite> the Levites <he>מִדּוּכָנָן</he> Ms. M. (ed. <he>בר׳</he>) must interrupt their services.—Pl. <he>דּוּכָנִים</he>, <he>דּוּכָנִין</he>, v. <cite ref=\"D00244\"><he>דּוּךְ</he> III</cite>. Cmp. <cite ref=\"D00765\"><he>דָּכוֹן</he></cite>."
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000120"
 		}
 	]
 }

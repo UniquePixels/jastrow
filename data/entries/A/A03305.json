@@ -27,17 +27,7 @@
 				"<cite ref=\"Mishnah Middot 3:8\">Midd. III, 8</cite> <he>א׳ של זהב</he> a gold imitation of a cluster of grapes."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000099",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " Trnsf. <i>a distinguished scholar</i> (opp. <he>עַלִּין</he> <i>leaves = the ignorant</i>); v. infra. ",
@@ -49,6 +39,15 @@
 				"<cite ref=\"Jerusalem Talmud Sotah 9:10:1\">Y. Sot. IX, 24ᵃ</cite> top, v. <he>זוּגוֹת</he>; <cite ref=\"Tosefta Bava Kamma 8:13\">Tosef. B. Kam. VIII, 13</cite> <he>אישכלות</he>. Ch. <cite ref=\"A03419\"><he>אֶתְכָּלָא</he></cite>."
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000099"
 		}
 	]
 }

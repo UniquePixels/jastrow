@@ -22,17 +22,7 @@
 				"<cite ref=\"Taanit 20a:5\">Ib.</cite> <he>אילו לא נ׳ החמה</he> Ms. M. (ed. <he>נקדרה</he>). [<cite ref=\"Taanit 20a:5\">Ib.</cite> <he>שלשה נקדה</he> Ms. M. (ed. <he>נקדמה</he>, read, as <cite ref=\"Avodah Zarah 25a\">Ab. Zar. 25ᵃ</cite>: <cite ref=\"P00862\"><he>עמדה</he></cite>.]"
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000442",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " (Massorah) <i>to dot, mark with diacritical points</i>. ",
@@ -56,6 +46,15 @@
 				}
 			],
 			"stem": "Nif."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000442"
 		}
 	]
 }

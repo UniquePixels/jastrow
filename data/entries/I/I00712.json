@@ -49,17 +49,7 @@
 				"<cite ref=\"Sanhedrin 22b\">Snh. 22ᵇ</cite>; <cite ref=\"Eruvin 64b:13\">Erub. 64ᵇ</cite> <he>דרך טוֹרְדָתוֹ</he> (<cite ref=\"Taanit 17b:2\">Taan. 17ᵇ</cite> <he>מַטְרִידָתוֹ</he> <i>Hif.</i>, Ms. M. everywhere <he>מַטְרַחְתּוֹ</he>, v. <cite ref=\"I00743\"><he>טָרַח</he></cite>) walking makes him unsteady (feel the wine)."
 			],
 			"label": "4",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "3",
-					"stored": "4",
-					"evidence": "print sets 3) twice (I00712, 550a); the run 1 2 3 3 4 determines this as 4 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
-					"source": "P000567",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": "<i>to stir up</i> (dregs), <i>trouble</i>. ",
@@ -84,17 +74,7 @@
 					"label": "b"
 				}
 			],
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "4",
-					"stored": "5",
-					"evidence": "print sets 3) twice (I00712, 550a); the run 1 2 3 3 4 determines this as 5 (class 3 scan review, ticked 2026-10-12; ruling 10-13)",
-					"source": "P000568",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a2"
 		}
 	],
 	"stems": [
@@ -128,6 +108,22 @@
 				}
 			],
 			"stem": "Hif."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "3",
+			"date": "2026-10-14",
+			"source": "P000567"
+		},
+		{
+			"id": "a2",
+			"kind": "print-error",
+			"printed": "4",
+			"date": "2026-10-14",
+			"source": "P000568"
 		}
 	]
 }
