@@ -23,17 +23,7 @@
 				"<cite ref=\"Pesikta Rabbati 15:1\">Pesik. R. s. 15</cite> <he>מ׳ הלבנה היה וכ׳</he> the New-Moon took place on a Wednesday at noon-time."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —*2) follows the unlabelled first sense (hOCR 742b)",
-					"source": "P000815",
-					"date": "2026-10-15"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>travail</i>. ",
@@ -42,6 +32,15 @@
 			],
 			"label": "2",
 			"reconstructed": true
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-15",
+			"source": "P000815"
 		}
 	]
 }

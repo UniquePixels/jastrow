@@ -221,16 +221,19 @@ interface PatchEvidence {
 }
 
 /** What a reviewed patch states about the print reading it departs
- * from or keeps (ANNOTATIONS.md §3; ruling `10-13 correction
- * policy`). The import adds the rest of the entry's `Annotation`:
- * `field` from the op and its payload, `stored` from the value after
- * the build, `source` from the patch id. Only a reviewed patch may
- * carry one, and only on an op that can change a printed value
+ * from or keeps (ruling `11-15 annotation section`, amending `10-13
+ * correction policy`). `evidence` is the technical record and stays
+ * in the patch; `note` is the sentence the reader sees, carried to the
+ * entry with `kind`, `printed` and `date`. The import adds the
+ * entry's `id`, places the tag or pointer the text carries, and sets
+ * `source` from the patch id. Only a reviewed patch may carry one,
+ * and only on an op that can change a printed value
  * (`ANNOTATED_OPS`), or on `annotate`. */
 interface PatchAnnotation {
 	date: string;
 	evidence: string;
 	kind: Annotation['kind'];
+	note?: string;
 	printed: string;
 }
 
@@ -1031,6 +1034,11 @@ function reformDisplayReasons(display: unknown, forms: unknown): string[] {
 	if (display.includes('\n')) {
 		return ['reform display must not contain a newline'];
 	}
+	if (display.includes('<') || display.includes('>')) {
+		return [
+			'reform display must hold no tags: the import adds the annotate tags',
+		];
+	}
 	if (HEBREW_IN_DISPLAY.test(display)) {
 		return ['reform display must hold no Hebrew: it comes from the forms'];
 	}
@@ -1393,11 +1401,12 @@ function relabelOwesAnnotation(payload: Record<string, unknown>): boolean {
 		run.every((letter, i) => letter === to[i])
 	);
 }
-/** The keys a patch's `annotation` holds; the import adds the rest. */
+/** The keys a patch's `annotation` may hold; the import adds the rest. */
 const ANNOTATION_KEYS: ReadonlySet<string> = new Set([
 	'date',
 	'evidence',
 	'kind',
+	'note',
 	'printed',
 ]);
 const ANNOTATION_KINDS: ReadonlySet<string> = new Set([
@@ -1406,9 +1415,10 @@ const ANNOTATION_KINDS: ReadonlySet<string> = new Set([
 	'print-error',
 ]);
 
-/** The shape of a present `annotation`: an object of exactly
- * `ANNOTATION_KEYS`, a known kind, a string `printed`, a non-empty
- * `evidence` and a calendar `date`. */
+/** The shape of a present `annotation`: an object of
+ * `ANNOTATION_KEYS` only, a known kind, a string `printed`, a
+ * non-empty `evidence`, a non-empty `note` when present, and a
+ * calendar `date`. */
 function annotationShapeReasons(annotation: unknown): string[] {
 	if (
 		typeof annotation !== 'object' ||
@@ -1422,7 +1432,7 @@ function annotationShapeReasons(annotation: unknown): string[] {
 		.filter((key) => !ANNOTATION_KEYS.has(key))
 		.map(
 			(key) =>
-				`annotation.${key} is not a patch field: the import adds field, stored and source`,
+				`annotation.${key} is not a patch field: the import adds id and source`,
 		);
 	if (!ANNOTATION_KINDS.has(a['kind'] as string)) {
 		reasons.push('annotation.kind must be illegible, kept or print-error');
@@ -1432,6 +1442,9 @@ function annotationShapeReasons(annotation: unknown): string[] {
 	}
 	if (!nonEmptyString(a['evidence'])) {
 		reasons.push('annotation.evidence must be a non-empty string');
+	}
+	if (a['note'] !== undefined && !nonEmptyString(a['note'])) {
+		reasons.push('annotation.note must be a non-empty string when present');
 	}
 	if (typeof a['date'] !== 'string' || !isIsoDate(a['date'])) {
 		reasons.push('annotation.date must be an ISO date (YYYY-MM-DD)');
@@ -1862,12 +1875,21 @@ function applyPatch(entry: SourceEntry, patch: SemanticPatch): SourceEntry {
 }
 
 /** A patch's annotation with its id as `source`: the half of an entry
- * annotation the patch knows. */
+ * annotation the patch knows. `evidence` stays in the patch (ruling
+ * `11-15 annotation section`): it is the technical record, not the
+ * reader's. */
 function annotationNote(
 	patch: SemanticPatch,
 	annotation: PatchAnnotation,
 ): AnnotationNote {
-	return { ...annotation, source: patch.id };
+	const { date, kind, note, printed } = annotation;
+	return {
+		date,
+		kind,
+		...(note === undefined ? {} : { note }),
+		printed,
+		source: patch.id,
+	};
 }
 
 /** Append a draft to a sense's list, creating the list. */
@@ -2134,7 +2156,7 @@ function applyRelabel(entry: SourceEntry, patch: RelabelPatch): SourceEntry {
 	sense.relabel = {
 		...(patch.annotation === undefined
 			? {}
-			: { note: annotationNote(patch, patch.annotation) }),
+			: { annotation: annotationNote(patch, patch.annotation) }),
 		run: [...run],
 		source: patch.id,
 		to: [...to],

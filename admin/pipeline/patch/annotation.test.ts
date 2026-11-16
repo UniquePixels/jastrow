@@ -3,8 +3,8 @@
  * The patch half of annotations (ANNOTATIONS.md §3; ruling `10-13
  * correction policy`): a reviewed patch's optional `annotation`, the
  * `annotate` op, and the draft each annotated op leaves on the entry
- * for the build to carry to its field. What the import adds — `field`,
- * `stored`, `source` — is finished in `import/finish.ts`; this suite
+ * for the build to carry to its field. What the import adds — `id`, the
+ * tag or pointer, `source` — is finished in `import/finish.ts`; this suite
  * pins what the patch side hands it.
  */
 import { describe, expect, it } from 'bun:test';
@@ -36,6 +36,11 @@ const KEPT: Record<string, string> = {
 	kind: 'kept',
 	printed: 'a)',
 };
+/** What a draft carries of `NOTE` and `KEPT`: everything but the
+ * `evidence`, which stays in the patch (ruling `11-15 annotation
+ * section`). */
+const { evidence: _noteEvidence, ...DRAFT }: Record<string, string> = NOTE;
+const { evidence: _keptEvidence, ...KEPT_DRAFT }: Record<string, string> = KEPT;
 
 /** One unnumbered first sense, a numbered second, and a two-form line
  * whose first form carries no numeral. */
@@ -140,6 +145,13 @@ describe('the annotation field: parsePatch', () => {
 		);
 	});
 
+	it.each([
+		['with a note', { ...NOTE, note: 'Print sets no number here.' }],
+		['without a note', NOTE],
+	])('validates an annotation %s', (_name, annotation) => {
+		expect(reasons(raw({ ...retag, annotation }))).toEqual([]);
+	});
+
 	it('leaves the key off a patch without one', () => {
 		expect('annotation' in parsePatch(raw(retag))).toBe(false);
 	});
@@ -213,6 +225,16 @@ describe('the annotation field: parsePatch', () => {
 			'annotation.evidence must be a non-empty string',
 		],
 		[
+			'no evidence: it stays required on the patch',
+			{ date: NOTE['date'], kind: 'print-error', printed: '' },
+			'annotation.evidence must be a non-empty string',
+		],
+		[
+			'an empty note',
+			{ ...NOTE, note: '' },
+			'annotation.note must be a non-empty string when present',
+		],
+		[
 			'a date that is no calendar day',
 			{ ...NOTE, date: '2026-02-30' },
 			'annotation.date must be an ISO date (YYYY-MM-DD)',
@@ -220,7 +242,7 @@ describe('the annotation field: parsePatch', () => {
 		[
 			'a field the import adds',
 			{ ...NOTE, stored: '1' },
-			'annotation.stored is not a patch field: the import adds field, stored and source',
+			'annotation.stored is not a patch field: the import adds id and source',
 		],
 	])('refuses %s', (_name, annotation, reason) => {
 		expect(reasons(raw({ ...retag, annotation }))).toEqual([reason]);
@@ -341,10 +363,21 @@ describe('applyPatch: the draft each annotated op leaves', () => {
 			human(raw({ ...retag, annotation: NOTE, id: 'P000007' })),
 		);
 		expect(after.content.senses[0]).toEqual({
-			annotations: [{ ...NOTE, field: 'label', source: 'P000007' }],
+			annotations: [{ ...DRAFT, field: 'label', source: 'P000007' }],
 			definition: 'to be first. Ber. 2ᵃ.',
 			number: '1)',
 		} as never);
+	});
+
+	it('retag: the patch annotation.note reaches the draft', () => {
+		const note = 'Print sets a 2) after an unlabelled first sense.';
+		const after = applyPatch(
+			makeEntry(),
+			human(raw({ ...retag, annotation: { ...NOTE, note }, id: 'P000007' })),
+		);
+		expect(after.content.senses[0]?.annotations).toEqual([
+			{ ...DRAFT, field: 'label', note, source: 'P000007' },
+		] as never);
 	});
 
 	it('replace: a draft that finds the replacement in the gloss or a unit', () => {
@@ -353,7 +386,7 @@ describe('applyPatch: the draft each annotated op leaves', () => {
 			human(raw({ ...replace, annotation: NOTE })),
 		);
 		expect(after.content.senses[0]?.annotations).toEqual([
-			{ ...NOTE, field: 'gloss-or-units', find: 'Berakh.', source: 'P000001' },
+			{ ...DRAFT, field: 'gloss-or-units', find: 'Berakh.', source: 'P000001' },
 		] as never);
 	});
 
@@ -363,7 +396,7 @@ describe('applyPatch: the draft each annotated op leaves', () => {
 			human(rawForms({ ...homographs, annotation: NOTE })),
 		);
 		expect(after.formAnnotations).toEqual([
-			{ ...NOTE, field: 'homograph', form: 0, source: 'P000001' },
+			{ ...DRAFT, field: 'homograph', form: 0, source: 'P000001' },
 		] as never);
 	});
 
@@ -379,7 +412,7 @@ describe('applyPatch: the draft each annotated op leaves', () => {
 			),
 		);
 		expect(after.formAnnotations).toEqual([
-			{ ...NOTE, field: 'text', form: 1, source: 'P000001' },
+			{ ...DRAFT, field: 'text', form: 1, source: 'P000001' },
 		] as never);
 	});
 
@@ -415,7 +448,7 @@ describe('applyPatch: the draft each annotated op leaves', () => {
 		expect(after.content.senses[1]).toEqual({
 			...target,
 			annotations: [
-				{ ...KEPT, field: 'label', printed: '2', source: 'P000001' },
+				{ ...KEPT_DRAFT, field: 'label', printed: '2', source: 'P000001' },
 			],
 		} as never);
 		expect(after.content.senses[0]).toEqual(before.content.senses[0] as never);
@@ -434,7 +467,7 @@ describe('applyPatch: the draft each annotated op leaves', () => {
 		);
 		expect(after.content.senses[0]?.annotations).toEqual([
 			{
-				...KEPT,
+				...KEPT_DRAFT,
 				field: 'units',
 				find: 'Ber.',
 				printed: 'Ber.',
@@ -457,7 +490,13 @@ describe('applyPatch: the draft each annotated op leaves', () => {
 		);
 		expect(formsBlock(after)).toBe(formsBlock(before));
 		expect(after.formAnnotations).toEqual([
-			{ ...KEPT, field: 'text', form: 1, printed: 'אבא', source: 'P000001' },
+			{
+				...KEPT_DRAFT,
+				field: 'text',
+				form: 1,
+				printed: 'אבא',
+				source: 'P000001',
+			},
 		] as never);
 	});
 
@@ -659,7 +698,14 @@ describe('two reforms on one rid chain in corpus order', () => {
 		expect(result.annotated).toEqual(['P000002']);
 		expect(formsBlock(result.entry)).toBe(respelled.join('\n'));
 		expect(result.entry.formAnnotations).toEqual([
-			{ ...ILLEGIBLE, field: 'text', form: 1, source: 'P000002' },
+			{
+				...DRAFT,
+				field: 'text',
+				form: 1,
+				kind: 'illegible',
+				printed: 'קִצּא',
+				source: 'P000002',
+			},
 		] as never);
 	});
 
@@ -744,7 +790,7 @@ describe('language_reference: the annotation lands on the gloss head', () => {
 		);
 		expect(after.language_reference).toBe(' (b. h.; = אבא)');
 		expect(after.content.senses[0]?.annotations).toEqual([
-			{ ...NOTE, field: 'gloss', find: '= אבא', source: 'P000001' },
+			{ ...DRAFT, field: 'gloss', find: '= אבא', source: 'P000001' },
 		] as never);
 	});
 
@@ -756,7 +802,7 @@ describe('language_reference: the annotation lands on the gloss head', () => {
 		expect(after.language_reference).toBe(reference);
 		expect(after.content.senses[0]?.annotations).toEqual([
 			{
-				...KEPT,
+				...KEPT_DRAFT,
 				field: 'gloss',
 				find: 'אבב',
 				printed: 'אבב',
@@ -887,7 +933,7 @@ describe('annotate on a lettered child: the draft rides the host (L67)', () => {
 		);
 		expect(after.content.senses[0]?.annotations).toEqual([
 			{
-				...KEPT,
+				...KEPT_DRAFT,
 				child: 'd',
 				field: 'units',
 				find: 'Ber.',

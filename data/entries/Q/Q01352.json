@@ -22,17 +22,7 @@
 				"<cite ref=\"Mishnah Kilayim 6:6\">Kil. VI, 6</cite> <he>פ׳ עריס</he>, v. <cite ref=\"P01365\"><he>עָרִיס</he> I</cite>; <cite ref=\"Tosefta Kilaim 4:8\">Tosef. ib. IV, 8</cite>; Y. ib. VI, end, 30ᶜ; a. e."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000446",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>disjunction</i>, esp. <i>peseḳ</i> (Chald. <i>p’siḳ</i>), a disjunctive sign (|) between two words. ",
@@ -41,6 +31,15 @@
 				"<cite ref=\"Megillah 3a:18\">Meg. 3ᵃ</cite> (ref. to <cite ref=\"Nehemiah 8:8\">Neh. VIII, 8</cite>) <he>ויבינו במקרא אלו פ׳ ט׳</he> ‘and they taught how to understand the Scripture’, this refers to the division of clauses &c.; <cite ref=\"Nedarim 37b:4\">Ned. 37ᵇ</cite> <cite ref=\"Q00751\"><he>פִּיסּוּק</he></cite>.—V. <cite ref=\"Q00765\"><he>פִּיסָּק</he></cite>."
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000446"
 		}
 	]
 }

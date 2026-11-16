@@ -68,17 +68,7 @@
 						"<cite ref=\"Berakhot 60b:1\">Ber. 60ᵇ</cite> <he>הִתְכַּבְּדוּ מכובדים</he> be in honor dismissed, you honored ones (angels); a. e."
 					],
 					"label": "1",
-					"annotations": [
-						{
-							"field": "label",
-							"kind": "print-error",
-							"printed": "",
-							"stored": "1",
-							"evidence": "a —2) follows the unlabelled first sense",
-							"source": "P000430",
-							"date": "2026-10-14"
-						}
-					]
+					"annotation": "a1"
 				},
 				{
 					"gloss": " <i>to be cleaned, swept; to be dressed, adorned</i>. ",
@@ -125,6 +115,15 @@
 				}
 			],
 			"stem": "Hif."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000430"
 		}
 	]
 }

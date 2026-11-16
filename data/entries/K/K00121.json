@@ -29,17 +29,7 @@
 				"<cite ref=\"Jerusalem Talmud Megillah 3:7:3\">Y. Meg. III, 74ᵇ</cite> bot. <he>כ׳ דהוינן</he>, v. <cite ref=\"K00098\"><he>כַּד</he> I</cite>."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000432",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " [<i>as it is</i>,] <i>incidentatly, without special reason, not meaning it exactly</i>. ",
@@ -60,6 +50,15 @@
 				"<cite ref=\"Beitzah 2b:2\">Bets. 2ᵇ</cite> <he>מ׳ מאן סתמה וכ׳</he> now, who is it that states that proposition in the Mishnah anonymously? Of course, Rabbi. Now, why &c.; a. fr."
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000432"
 		}
 	]
 }

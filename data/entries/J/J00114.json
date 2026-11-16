@@ -28,17 +28,7 @@
 				"<cite ref=\"Vayikra Rabbah 19\">Lev. R. s. 19</cite>, v. infra."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000153",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>to put, place</i>. ",
@@ -68,6 +58,15 @@
 				}
 			],
 			"stem": "Ithpe."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000153"
 		}
 	]
 }

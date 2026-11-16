@@ -25,17 +25,7 @@
 				"<cite ref=\"Targum Jonathan on Deuteronomy 27:2\">Targ. Y. Deut. XXVII, 2</cite> (h. text <cite ref=\"O00575\"><he>סיד</he></cite>); a. e."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000116",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>froth, foam</i>. Pl. <he>גִּירִין</he> <cite ref=\"Targum Jonathan on Exodus 15:10\">Targ. Y. Ex. XV, 10</cite> <he>ג׳ דימא</he> the foaming billows. [<cite ref=\"Targum Jonathan on Jeremiah 9:14\">Targ. Jer. IX, 14</cite>, read <he>כגידין</he>, v. <cite ref=\"C00629\"><he>גִּידָּא</he> II</cite>.]",
@@ -48,6 +38,15 @@
 				"<cite ref=\"Gittin 69b:2\">Gitt. 69ᵇ</cite>, v. <cite ref=\"C00806\">next w.</cite>"
 			],
 			"label": "3"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000116"
 		}
 	]
 }

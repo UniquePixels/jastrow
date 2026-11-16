@@ -35,13 +35,13 @@ are at
 
 ## The `annotation` field
 
-Since PR #172 a reviewed patch may carry an `annotation` (ruling
-`10-13 correction policy`, [`admin/entry/ANNOTATIONS.md`](../../../../entry/ANNOTATIONS.md)
-§3): print's reading where the patch departs from it, or the record
+Since PR #172 a reviewed patch may carry an `annotation` (rulings
+`10-13 correction policy` and `11-15 annotation section`,
+[`admin/entry/ANNOTATIONS.md`](../../../../entry/ANNOTATIONS.md) §3): print's reading where the patch departs from it, or the record
 that print was read and kept.
 
 ```json
-"annotation": {"kind": "print-error", "printed": "", "evidence": "a 2) follows the unlabelled first sense", "date": "2026-10-13"}
+"annotation": {"kind": "print-error", "printed": "", "note": "Print sets no 1) here; it is supplied.", "evidence": "a 2) follows the unlabelled first sense", "date": "2026-10-13"}
 ```
 
 - `kind`: `print-error` (case 2, the intended value is determined),
@@ -49,12 +49,15 @@ that print was read and kept.
   `annotate`).
 - `printed`: print's reading of the field, `''` where print sets
   nothing; a numeral as print writes it (`I`), a label without `)`.
+- `note`: optional, the sentence the reader sees. The entry's
+  annotation carries it; `evidence` does not leave the patch.
 - `evidence`: the proof (case 2), the readings (case 3) or why
   (case 4). Jastrow's printed text only, never a link target.
 - `date`: `YYYY-MM-DD` of the print read or the ruling.
 
-The import adds `field`, `stored` and `source` (this patch's id) and
-writes the annotation on the form or sense it describes. Allowed on
+The import adds the `id` and `source` (this patch's id), writes the
+item to the entry's `annotations` and places the `<annotate>` tag, or
+the sense's `annotation` pointer, in the text. Allowed on
 `retag` (the label), `replace` (the gloss or unit the replacement
 lands in; it must be balanced markup found exactly once there),
 `reform` (the one homograph its `homographs` sets, or the one form

@@ -25,6 +25,7 @@
  * (`PatchBase.removes`, `schema.ts`); gate 12, `declaredLoss`
  * (`import/gates.ts`), holds the declaration to this computation.
  */
+import { withoutAnnotateTags } from '../../lib/annotate.ts';
 import { fieldsOf, stripTags } from '../transform/no-new-text.ts';
 import type { SourceEntry } from '../types.ts';
 
@@ -49,13 +50,18 @@ function visibleCounts(text: string): Map<string, number> {
 }
 
 /** The loss pool of an entry: every field `fieldsOf` reads, with the
- * `display` template's slots cut, then every `refs` item, tags
- * stripped, in that order. */
+ * `display` template's annotate tags (ruling `11-15 annotation
+ * section`) and slots cut, then every `refs` item, tags stripped, in
+ * that order. */
 function lossPool(entry: SourceEntry): string {
 	const slotless: SourceEntry =
 		entry.display === undefined
 			? entry
-			: { ...entry, display: entry.display.replace(DISPLAY_SLOT, '') };
+			: {
+					...entry,
+					// A guard: entry displays carry tags, patch displays never do.
+					display: withoutAnnotateTags(entry.display).replace(DISPLAY_SLOT, ''),
+				};
 	return [...fieldsOf(slotless), ...(entry.refs ?? [])].map(stripTags).join('');
 }
 

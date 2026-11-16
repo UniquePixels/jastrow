@@ -5,21 +5,10 @@
 	"headwords": [
 		{
 			"text": "נוֹחַ",
-			"homograph": 1,
-			"annotations": [
-				{
-					"field": "homograph",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "I",
-					"evidence": "N00660 `נְיָיח` (rest) reads `m. = h. נוֹחַ I`, the noun N00342 `נוֹחַ` (rest; satisfaction), and print sets no numeral beside N00342 (hOCR `nlO m. (b. h. ; preced.) rest`), before N00343 `נוֹחַ II, נוֹחָה` and N00344 `נוֹחַ III`",
-					"source": "P000863",
-					"date": "2026-10-22"
-				}
-			]
+			"homograph": 1
 		}
 	],
-	"display": "{0} I",
+	"display": "{0} <annotate id=\"a1\">I</annotate>",
 	"page": {
 		"number": 886,
 		"column": "b"
@@ -33,6 +22,15 @@
 			"units": [
 				"<cite ref=\"Tosefta Sotah 14:10\">Tosef. Sot. XIV, 10</cite> <he>ואין נ׳ בעולם לישראל</he> and there is no rest in the world for Israel; <cite ref=\"Sotah 47b:17\">Sot. 47ᵇ</cite> <he>אין נ׳ בעולם</he> there is no satisfaction (to the Lord) in the world."
 			]
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-22",
+			"source": "P000863"
 		}
 	]
 }

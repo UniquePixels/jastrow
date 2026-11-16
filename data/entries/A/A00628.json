@@ -23,22 +23,21 @@
 				"<cite ref=\"Bamidbar Rabbah 10:8\">Num. R. s. 10</cite> (play on <i>ăboy</i>, <cite ref=\"Proverbs 23:29\">Prov. XXIII, 29</cite>) <he>אַב אוי</he> father of woe."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000093",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " interj. <i>woe! alas!</i> <cite ref=\"Mishnah Kelim 17:16\">Kel. XVII, 16</cite>; a. v. fr.",
 			"units": [],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000093"
 		}
 	]
 }

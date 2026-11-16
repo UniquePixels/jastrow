@@ -22,17 +22,7 @@
 				"<cite ref=\"Mishnah Kelim 29:7\">Kel. XXIX, 7</cite> <he>יד הב׳</he> the handle of a spade.—Pl. <he>בְּדִידִין</he>. Y’lamd. Sh’laḥ quot. in Ar. <he>ב׳ בברזל</he>(?)."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000101",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>rut, cavity</i> (cmp. <cite ref=\"B00135\">next w.</cite>).—<i>Pl.</i> as above. ",
@@ -41,6 +31,15 @@
 				"<cite ref=\"Mishnah Sheviit 1:7\">Shebi. I, 7</cite> <he>ב׳ שבעיקרי וכ׳</he> the cuts around the roots of trees; v. <cite ref=\"A00543\"><he>אוּגְיָה</he></cite>."
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000101"
 		}
 	]
 }

@@ -1,6 +1,7 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the fixtures they share read as one unit.
 import { describe, expect, it } from 'bun:test';
 import {
+	type Annotation,
 	type Entry,
 	type FormObject,
 	SCHEMA_VERSION,
@@ -659,6 +660,40 @@ describe('checkHeadwordLine', () => {
 		},
 	);
 
+	// Ruling 11-15 annotation section: gate 2 reads `display` past its
+	// annotate tags, so a tagged template gives the verdict its untagged
+	// twin gives, and the tag's letters are never Latin notation.
+	it.each([
+		['the patch-supplied display', '{0} I, {1}'],
+		['no supplied display', undefined],
+	])("passes A00889's tagged display, with %s", (_name, supplied) => {
+		const t: Tally = { failures: [], pass: 0, total: 0 };
+		checkHeadwordLine(
+			{
+				alt_headwords: ['אוֹרְיָאן'],
+				content: { senses: [] },
+				...(supplied === undefined ? {} : { display: supplied }),
+				headword: 'אוֹרְיָין',
+				homographs: [{ form: 0, homograph: 1 }],
+				rid: 'A00889',
+			},
+			minimalEntry({
+				display: '{0} <annotate id="a1">I</annotate>, {1}',
+				headwords: [{ homograph: 1, text: 'אוֹרְיָין' }, { text: 'אוֹרְיָאן' }],
+			}),
+			t,
+		);
+		expect(t.failures).toEqual([]);
+	});
+
+	it('still refuses a tagged display that drops a numeral', () => {
+		const t = gate(['אָב II'], {
+			display: '<annotate id="a1">{0}</annotate>',
+			headwords: [{ homograph: 2, text: 'אָב' }],
+		});
+		expect(t.failures).toEqual(['A00014: notation [II×1] → []']);
+	});
+
 	it('counts an `=` line as unsettleable', () => {
 		const t = gate(['אִידְרְעָא = אֶדְרְעָא'], {
 			headwords: [{ text: 'אִידְרְעָא = אֶדְרְעָא' }],
@@ -749,31 +784,34 @@ describe('checkContract (gate 10)', () => {
 		expect(t.failures).toEqual(['A00002: sefariaHeadword אב taken by A00001']);
 	});
 
-	// ANNOTATIONS.md §2 "What it cannot check": whether `source` is a real
-	// patch. Gate 10 holds both sides — the entries and the patches that
-	// applied — so it checks both ways, on each entry's own mark.
+	// Ruling 11-15 annotation section: whether `source` is a real patch
+	// is not the contract's question. Gate 10 holds both sides — the
+	// entries and the patches that applied — so it checks both ways, on
+	// each entry's own mark.
 	// biome-ignore lint/complexity/noExcessiveLinesPerFunction: one table, one row per case; splitting it would scatter the rule it pins.
 	describe('annotation provenance, both ways', () => {
-		/** A00002 with one kept gloss annotation per source given. */
-		const annotated = (...sources: string[]): Entry => ({
+		/** One kept annotation `aN` from `source`; no `source` key when
+		 * it is `undefined`. */
+		const item = (n: number, source: string | undefined): Annotation => ({
+			id: `a${n}`,
+			kind: 'kept',
+			printed: 'g',
+			date: '2026-10-13',
+			...(source === undefined ? {} : { source }),
+		});
+		/** A00002 whose one sense holds one tagged unit per annotation,
+		 * each annotation from the source given. */
+		const annotated = (...sources: (string | undefined)[]): Entry => ({
 			...contractEntry('A00002', 'אבא', 'gloss'),
 			senses: [
 				{
-					...(sources.length > 0 && {
-						annotations: sources.map((source, i) => ({
-							date: '2026-10-13',
-							evidence: 'e',
-							field: i === 0 ? ('gloss' as const) : ('units[0]' as const),
-							kind: 'kept' as const,
-							printed: 'g',
-							source,
-							stored: 'g',
-						})),
-					}),
 					gloss: 'gloss',
-					units: ['g'],
+					units: sources.map((_, i) => `<annotate id="a${i + 1}">g</annotate>`),
 				},
 			],
+			...(sources.length > 0
+				? { annotations: sources.map((source, i) => item(i + 1, source)) }
+				: {}),
 		});
 		const run = (entry: Entry, applied: Record<string, string[]>): Tally =>
 			checkContract(
@@ -805,13 +843,13 @@ describe('checkContract (gate 10)', () => {
 				'an annotation no applied patch wrote',
 				annotated('P000001'),
 				{},
-				'A00002: senses[0].annotations[0]: source P000001 is no patch applied to A00002 with an annotation',
+				'A00002: annotations[0]: source P000001 is no patch applied to A00002 with an annotation',
 			],
 			[
 				'an annotation naming a patch applied to another rid',
 				annotated('P000001'),
 				{ A00003: ['P000001'] },
-				'A00002: senses[0].annotations[0]: source P000001 is no patch applied to A00002 with an annotation',
+				'A00002: annotations[0]: source P000001 is no patch applied to A00002 with an annotation',
 			],
 			[
 				'an annotated patch that wrote none',
@@ -824,6 +862,12 @@ describe('checkContract (gate 10)', () => {
 				annotated('P000001', 'P000001'),
 				{ A00002: ['P000001'] },
 				'A00002: patch P000001 applied with an annotation and wrote 2 annotations; it owes 1',
+			],
+			[
+				'an annotation with no source',
+				annotated(undefined),
+				{},
+				'A00002: annotations[0]: a1 has no source; the import writes one on every annotation',
 			],
 		] as [string, Entry, Record<string, string[]>, string][])(
 			'reds the entry on %s',
@@ -838,31 +882,26 @@ describe('checkContract (gate 10)', () => {
 		// the apply lists it once per annotation owed, so the gate reads
 		// the count it expects off `applied` (P00790's relabel owes 3).
 		/** A00002 whose one sense holds `labels` as lettered children,
-		 * each annotated by P000001 as a relabelled label. */
+		 * each pointing to an annotation by P000001. */
 		const relabelled = (...labels: string[]): Entry => ({
 			...contractEntry('A00002', 'אבא'),
 			senses: [
 				{
 					gloss: 'g',
-					senses: labels.map((label) => ({
-						annotations: [
-							{
-								date: '2026-10-16',
-								evidence: 'print skips e)',
-								field: 'label' as const,
-								kind: 'print-error' as const,
-								printed: String.fromCodePoint(label.charCodeAt(0) + 1),
-								source: 'P000001',
-								stored: label,
-							},
-						],
+					senses: labels.map((label, i) => ({
 						gloss: 'g',
 						label,
+						annotation: `a${i + 1}`,
 						units: [],
 					})),
 					units: [],
 				},
 			],
+			annotations: labels.map((label, i) => ({
+				...item(i + 1, 'P000001'),
+				kind: 'print-error' as const,
+				printed: String.fromCodePoint(label.charCodeAt(0) + 1),
+			})),
 		});
 		const owing3 = { A00002: ['P000001', 'P000001', 'P000001'] };
 
@@ -879,40 +918,6 @@ describe('checkContract (gate 10)', () => {
 			expect(t.failures).toEqual([
 				'A00002: patch P000001 applied with an annotation and wrote 2 annotations; it owes 3',
 			]);
-		});
-
-		// L67: an `annotate` naming a lettered child owes one annotation,
-		// and the gate finds it on the child, where the build put it.
-		it('counts an annotate whose note sits on lettered child d', () => {
-			const kept = {
-				date: '2026-10-16',
-				evidence: 'print sets a ) that closes nothing',
-				field: 'units[0]' as const,
-				kind: 'kept' as const,
-				printed: ').',
-				source: 'P000001',
-				stored: ').',
-			};
-			const entry: Entry = {
-				...contractEntry('A00002', 'אבא'),
-				senses: [
-					{
-						gloss: 'g',
-						senses: ['a', 'b', 'c', 'd'].map((label) => ({
-							...(label === 'd' ? { annotations: [kept] } : {}),
-							gloss: 'g',
-							label,
-							units: label === 'd' ? ['v. x).'] : [],
-						})),
-						units: [],
-					},
-				],
-			};
-			expect(run(entry, { A00002: ['P000001'] })).toEqual({
-				failures: [],
-				pass: 3,
-				total: 3,
-			});
 		});
 	});
 });

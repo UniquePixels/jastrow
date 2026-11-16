@@ -55,17 +55,7 @@
 						"<cite ref=\"Sanhedrin 103b:17\">Ib.</cite> <he>מַרְחֶקֶת וכ׳</he> estranges those who are near (related) &c.; a. fr."
 					],
 					"label": "1",
-					"annotations": [
-						{
-							"field": "label",
-							"kind": "print-error",
-							"printed": "",
-							"stored": "1",
-							"evidence": "a —2) follows the unlabelled first sense",
-							"source": "P000456",
-							"date": "2026-10-14"
-						}
-					]
+					"annotation": "a1"
 				},
 				{
 					"gloss": " <i>to keep aloof, stay away</i>. ",
@@ -95,6 +85,15 @@
 				}
 			],
 			"stem": "Nithpa."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000456"
 		}
 	]
 }

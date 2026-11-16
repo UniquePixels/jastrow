@@ -19,17 +19,7 @@
 				"<cite ref=\"Shemot Rabbah 27\">Ex. R. s. 27</cite> <he>על מנת לפוֹלְחָהּ</he> will you take this field with the condition that you will till it?; a. e."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000164",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>to work for, serve</i>, v. <cite ref=\"Q00217\"><he>פּוֹלֵחַ</he></cite>.",
@@ -42,6 +32,15 @@
 				"<cite ref=\"Tosefta Avodah Zarah 1:4\">Tosef. Ab. Zar. I, 4</cite> <he>אינו אסור אלא לפוֹלְחִין בלבד</he> it is forbidden to deal with those only who worship (on the Calendæ), contrad. to <he>עושין</he> who observe it as a holiday; (<cite ref=\"Avodah Zarah 8a\">Ab. Zar. 8ᵃ</cite> <he>לעובריה</he>; Y. ib. I, 39ᶜ top <he>לפלחין בה</he>, Chald.)."
 			],
 			"label": "3"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000164"
 		}
 	]
 }

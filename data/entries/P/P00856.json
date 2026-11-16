@@ -100,17 +100,7 @@
 						"<cite ref=\"Bereishit Rabbah 90:5\">Ib.</cite> <he>דברים שהן מַעֲמִידִין</he> substances which conserve, v. <cite ref=\"S00792\"><he>קִטְמִית</he></cite>; a. fr."
 					],
 					"label": "1",
-					"annotations": [
-						{
-							"field": "label",
-							"kind": "print-error",
-							"printed": "",
-							"stored": "1",
-							"evidence": "a —2) follows the unlabelled first sense",
-							"source": "P000161",
-							"date": "2026-10-14"
-						}
-					]
+					"annotation": "a1"
 				},
 				{
 					"gloss": " <i>to change the standing of; to enlarge; to reduce</i>. ",
@@ -167,6 +157,15 @@
 				}
 			],
 			"stem": "Pi."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000161"
 		}
 	]
 }

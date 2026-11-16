@@ -24,17 +24,7 @@
 				"<cite ref=\"Yalkut Shimoni on Torah 133:29\">Ib.</cite> Deut. 824 <he>ד׳ לסדומיים</he> he joined the Sodomites."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000554",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>to join, glue, affix</i>. ",
@@ -105,6 +95,15 @@
 				}
 			],
 			"stem": "Hithpa."
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000554"
 		}
 	]
 }

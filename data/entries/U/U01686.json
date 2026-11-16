@@ -5,21 +5,10 @@
 	"headwords": [
 		{
 			"text": "שַׁעַר",
-			"homograph": 1,
-			"annotations": [
-				{
-					"field": "homograph",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "I",
-					"evidence": "Jastrow's text names שַׁעַר I: U01689 \"= h. שַׁעַר I, 2, market price\" and U00991 \"v. שַׁעַר I\" (market prices), both U01686's sense 2; print sets no numeral (1612b, maintainer scan read 2026-10-25)",
-					"source": "P000936",
-					"date": "2026-10-25"
-				}
-			]
+			"homograph": 1
 		}
 	],
-	"display": "{0} I",
+	"display": "{0} <annotate id=\"a1\">I</annotate>",
 	"page": {
 		"number": 1612,
 		"column": "b"
@@ -51,6 +40,15 @@
 				"<cite ref=\"Bava Batra 89a:9\">B. Bath. 89ᵃ</cite> <he>לש׳</he> for the regulation of market prices, v. <cite ref=\"A00343\"><he>אֲגַרְדְּמִיס</he></cite>; Y. ib. V, end, 15ᵇ <he>שִׁיעוּרִין</he>, a. <he>שִׁיעוּרַיָּיא</he>."
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-25",
+			"source": "P000936"
 		}
 	]
 }

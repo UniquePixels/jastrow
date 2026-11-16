@@ -30,17 +30,7 @@
 				"<cite ref=\"Shir HaShirim Rabbah 2:4:1\">Cant. R. to II, 4</cite> <he>טקסים של מעלה</he> (read … <he>ס</he>) the heavenly array; a. v. fr."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000144",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " (fem.) <i>garrison</i>. ",
@@ -50,6 +40,15 @@
 				"<cite ref=\"Pesikta Rabbati 17:1\">Pesik. R. s. 17</cite>, a. e., v. supra."
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000144"
 		}
 	]
 }

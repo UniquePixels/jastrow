@@ -3,13 +3,13 @@
  * each a tally. Gate 1 (body round-trips), 4 (schema) and 9
  * (composition failures) live with the composer and the CLI. */
 
-import { entryAnnotations } from '../../entry/annotations.ts';
 import type { Entry } from '../../entry/schema.ts';
 import {
 	checkEntry,
 	schemaValidator,
 	validateCorpus,
 } from '../../entry/validate.ts';
+import { withoutAnnotateTags } from '../../lib/annotate.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { SUPERSCRIPT_DIGIT } from '../../lib/hebrew.ts';
 import { tokenize } from '../../lib/html.ts';
@@ -305,15 +305,20 @@ function checkHeadwordLine(
 	if (entry.display === undefined) {
 		return;
 	}
+	// The template past its annotate tags (ruling 11-15 annotation
+	// section): a tag points a slot or numeral at an annotation the
+	// import placed, and is neither notation nor part of a supplied
+	// layout.
+	const display = withoutAnnotateTags(entry.display);
 	const source = lineNotation(composed);
-	const written = writtenNotation(entry.display);
+	const written = writtenNotation(display);
 	if (composed.display !== undefined) {
 		// What could actually go wrong with a supplied template is that
 		// the run failed to carry it through to the entry.
 		mark(
 			t,
-			entry.display === composed.display,
-			`${composed.rid}: the patch supplied ${JSON.stringify(composed.display)} but the entry carries ${JSON.stringify(entry.display)}`,
+			display === composed.display,
+			`${composed.rid}: the patch supplied ${JSON.stringify(composed.display)} but the entry carries ${JSON.stringify(display)}`,
 		);
 		// The slots read in FORM ORDER. §3.1 rule 1 sorts them before
 		// counting, so it sees a set and a permutation passes it; the
@@ -324,7 +329,7 @@ function checkHeadwordLine(
 		// own templates are always in order, because the forms are
 		// flattened in the line's order, so this binds a supplied
 		// template to the same shape.
-		const slots = [...entry.display.matchAll(SLOT)].map((m) =>
+		const slots = [...display.matchAll(SLOT)].map((m) =>
 			Number(m[1] ?? Number.NaN),
 		);
 		mark(
@@ -628,14 +633,17 @@ function checkPages(
 	return t;
 }
 
-/** The annotation half of gate 10, both ways (ANNOTATIONS.md §2, "What
- * it cannot check"): every annotation on the entry names, as `source`,
- * a patch that applied to this rid carrying an `annotation`, and every
- * such patch wrote exactly as many annotations on it as it owes: one,
- * or for a `relabel` one per label it changed (`annotationsOwed`),
- * which is how many times `applied` lists it. The contract alone
- * cannot ask either question — `admin/entry/` cannot read the patch
- * records — and this is the one place that holds both sides.
+/** The annotation half of gate 10, both ways (ruling `11-15
+ * annotation section`): every item of the entry's `annotations` names,
+ * as `source`, a patch that applied to this rid carrying an
+ * `annotation` — the import writes a `source` on every one, so one
+ * without is a problem here — and every such patch wrote exactly as
+ * many annotations on it as it owes: one, or for a `relabel` one per
+ * label it changed (`annotationsOwed`), which is how many times
+ * `applied` lists it. The contract does not ask either question:
+ * `admin/entry/` cannot read the patch records, and the committed tree
+ * runs ahead of its patches once the admin tool edits it. This is the
+ * one place that holds both sides.
  *
  * `applied` is the apply engine's own list (`ComposeResult.annotated`),
  * not something read back off the entries, so a patch whose draft the
@@ -652,11 +660,18 @@ function annotationProvenance(
 		owed.set(id, (owed.get(id) ?? 0) + 1);
 	}
 	const allowed = new Set(applied);
-	for (const { annotation, path } of entryAnnotations(entry)) {
-		wrote.set(annotation.source, (wrote.get(annotation.source) ?? 0) + 1);
-		if (!allowed.has(annotation.source)) {
+	for (const [i, { id, source }] of (entry.annotations ?? []).entries()) {
+		const path = `annotations[${i}]`;
+		if (source === undefined) {
 			problems.push(
-				`${entry.id}: ${path}: source ${annotation.source} is no patch applied to ${entry.id} with an annotation`,
+				`${entry.id}: ${path}: ${id} has no source; the import writes one on every annotation`,
+			);
+			continue;
+		}
+		wrote.set(source, (wrote.get(source) ?? 0) + 1);
+		if (!allowed.has(source)) {
+			problems.push(
+				`${entry.id}: ${path}: source ${source} is no patch applied to ${entry.id} with an annotation`,
 			);
 		}
 	}

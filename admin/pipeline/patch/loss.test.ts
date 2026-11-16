@@ -98,6 +98,14 @@ describe('lossPool', () => {
 	it('holds refs after every text field', () => {
 		expect(lossPool(entry('d', { refs: ['R 1'] }))).toBe('אב1)dR 1');
 	});
+
+	it('reads a tagged display as its untagged twin (11-15 annotation section)', () => {
+		// The tag's letters are never pool text: `annotate`, `id` and the
+		// id itself would read as codepoints a patch could lose.
+		expect(
+			lossPool(entry('d', { display: '{0} <annotate id="a1">I</annotate>' })),
+		).toBe(lossPool(entry('d', { display: '{0} I' })));
+	});
 });
 
 /** A reviewed `replace` record on `entry`'s one sense, `extra` merged

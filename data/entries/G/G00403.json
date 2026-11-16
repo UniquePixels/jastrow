@@ -23,17 +23,7 @@
 				"<cite ref=\"Berakhot 58b:11\">ib. 58ᵇ</cite> <he>ככבא דשביט</he>."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000131",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>a blast of wind</i>, [also imagined as <i>a spirit</i> (cmp. <cite ref=\"T00615\"><he>רוּחַ</he></cite>)]. ",
@@ -41,6 +31,15 @@
 				"<cite ref=\"Bava Metzia 107b:3\">B. Mets. 107ᵇ</cite>.—(<cite ref=\"Mishnah Mikvaot 9:5\">Mikv. IX, 5</cite> Ar., v. <cite ref=\"G00654\"><he>זַקָּק</he></cite>.]"
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000131"
 		}
 	]
 }

@@ -5,18 +5,7 @@
 	"headwords": [
 		{
 			"text": "סַגִּי",
-			"homograph": 1,
-			"annotations": [
-				{
-					"field": "homograph",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "I",
-					"evidence": "O00249 `סוּגּוּ` (much, very) reads `v. סַגִּי I`; O00124 `סַגִּי, סַגִּיא II` (impossible) is the II, and O00123 `סַגִּי, סַגִּיא, סַגִּיאָה` is the only bare member of the family, the one the headword report's X10 names for O00124's I",
-					"source": "P000870",
-					"date": "2026-10-22"
-				}
-			]
+			"homograph": 1
 		},
 		{
 			"text": "סַגִּיא"
@@ -25,7 +14,7 @@
 			"text": "סַגִּיאָה"
 		}
 	],
-	"display": "{0} I, {1}, {2}",
+	"display": "{0} <annotate id=\"a1\">I</annotate>, {1}, {2}",
 	"page": {
 		"number": 954,
 		"column": "a"
@@ -66,6 +55,15 @@
 				"<cite ref=\"Jerusalem Talmud Yoma 4:4:7\">Y. Yoma IV, 41ᵈ</cite> top <he>חסר ס׳</he> it loses much (v. <cite ref=\"B01337\"><he>בְּרָרָא</he></cite>); <cite ref=\"Bamidbar Rabbah 12:21\">Num. R. s. 12</cite> a. fr.—Y. B. Mets. l. c. <he>אתון רחמין … סוּגּוּ</he> you love gold; very much; <cite ref=\"Yoma 2a:8\">ib.</cite> <cite ref=\"O00249\"><he>סוּגּוּן</he></cite>.—[<cite ref=\"Yalkut Shimoni on Nach 935:20\">Yalk. Prov. 935</cite> <he>סגיי סוגייא</he>, read: <he>סייגין סייגא</he>, v. <cite ref=\"O00243\"><he>סוּג</he></cite> I ch.]"
 			],
 			"label": "3"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-22",
+			"source": "P000870"
 		}
 	]
 }

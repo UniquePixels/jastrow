@@ -23,17 +23,7 @@
 				"<cite ref=\"Aramaic Targum to Psalms 33:22\">Targ. Ps. XXXIII, 22</cite>; a. fr."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000142",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " (mostly in pl. constr. <cite ref=\"I00113\"><he>טוּבֵי</he></cite>) <i>happines</i>, used like <cite ref=\"U01961\"><he>אַשְׁרֵי</he></cite>, <i>happy!, blessed!</i> <cite ref=\"Targum Jonathan on I Kings 10:8\">Targ. I Kings X, 8</cite>. ",
@@ -56,6 +46,15 @@
 				"<cite ref=\"Jerusalem Talmud Peah 1:1:22\">Y. Peah I, 15ᶜ</cite>; <cite ref=\"Jerusalem Talmud Kiddushin 1:7:6\">Y. Kidd. I, 61ᵇ</cite> top <he>פריטין ט׳</he> a higher price."
 			],
 			"label": "3"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000142"
 		}
 	]
 }

@@ -5,18 +5,7 @@
 	"headwords": [
 		{
 			"text": "אִסְטַלִּי",
-			"homograph": 1,
-			"annotations": [
-				{
-					"field": "homograph",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "I",
-					"evidence": "A02360 `אִסְטוֹלִי` reads `v. אִסְטְלִי I, II`, naming both words; A02379 `אִסְטְלִי, אִסְטוֹלִי, אִיסְ׳ II` is the II and A02378 `אִסְטַלִּי` (resting place) the only bare member; the maintainer read print as setting no numeral beside it",
-					"source": "P000917",
-					"date": "2026-10-18"
-				}
-			]
+			"homograph": 1
 		},
 		{
 			"text": "אִסְטוֹלִי"
@@ -26,7 +15,7 @@
 			"partial": true
 		}
 	],
-	"display": "{0} I, {1}, {2}",
+	"display": "{0} <annotate id=\"a1\">I</annotate>, {1}, {2}",
 	"page": {
 		"number": 90,
 		"column": "b"
@@ -40,6 +29,15 @@
 			"units": [
 				"<cite ref=\"Bamidbar Rabbah 23\">Num. R. s. 23</cite> <he>העמד להם א׳</he> put up for them (the unintentional murderers fleeing to the place of refuge) resting stations <he>ובכל א … יות וכ׳</he> (read <cite ref=\"A02381\"><he>אסטלית</he></cite> or <cite ref=\"A02375\"><he>אסטל</he></cite>) and let there be an inscription over each of them &c. Tanḥ. Masé 11; ed. Bub. 8; <cite ref=\"A01217\"><he>אִיטְלִיסִיּוֹת</he></cite>, <cite ref=\"A01092\"><he>אִיטְלֵיס</he></cite>.—Y’lamd. to Deut. III, 9 <he>עמון ומואב עשו אִיסְטְלִים</he> Am. a. Moab erected resting stations for the passing Israelites (quot. in Ar. s. v. <cite ref=\"A03124\"><he>ארך</he></cite> 5)."
 			]
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-18",
+			"source": "P000917"
 		}
 	]
 }

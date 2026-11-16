@@ -26,17 +26,7 @@
 				"<cite ref=\"Tosefta Kilaim 1:1\">Tosef. Kil. I, 1</cite> [read:] <he>השבת והג׳</he> anise and <i>gof’nin</i>."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000111",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>late grapes</i>. ",
@@ -45,6 +35,15 @@
 				"<cite ref=\"Berakhot 40b:22\">Ber. 40ᵇ</cite> <he>שלהי גופני</he> the late fruits of the grape-vine. [Y. ib. 21ᵈ top explains <he>גופנן</he> with <cite ref=\"U01482\"><he>שמירה</he></cite> (read <cite ref=\"U00456\"><he>שׁוּמָּרָה</he></cite>) <i>dill;</i> Maim. a. l.: a species of vegetables similar to <cite ref=\"U00196\"><he>שבת</he></cite>, v. supra.]"
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000111"
 		}
 	]
 }

@@ -31,7 +31,7 @@
 		},
 		"display": {
 			"type": "string",
-			"description": "How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). It never carries Sefaria's superscript: print sets none (ruling 11-13 url words). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
+			"description": "How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). It never carries Sefaria's superscript: print sets none (ruling 11-13 url words). Its only markup is <annotate id> around a {n} or a homograph numeral, pointing to the entry's annotations (ruling 11-15 annotation section). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
 			"minLength": 1
 		},
 		"page": {
@@ -102,73 +102,58 @@
 				"additionalProperties": false,
 				"description": "A binyan section of a written entry. Sibling to the entry's own senses, so both can be present on one entry."
 			}
-		}
-	},
-	"additionalProperties": false,
-	"$defs": {
-		"annotation": {
-			"type": "object",
-			"required": [
-				"field",
-				"kind",
-				"printed",
-				"stored",
-				"evidence",
-				"source",
-				"date"
-			],
-			"properties": {
-				"field": {
-					"type": "string",
-					"description": "Which field of its object: text or homograph on a form; gloss, label or units[n] on a sense.",
-					"pattern": "^(?:gloss|homograph|label|text|units\\[(?:0|[1-9]\\d*)\\])$"
-				},
-				"kind": {
-					"enum": ["illegible", "kept", "print-error"],
-					"description": "print-error (case 2, corrected), kept (case 3, kept as printed, so printed equals stored) or illegible (case 4, our best reading)."
-				},
-				"printed": {
-					"type": "string",
-					"description": "Print's reading of the field; '' where print sets nothing. A homograph is written as print writes it (I), a label as its token without ) (5)."
-				},
-				"stored": {
-					"type": "string",
-					"description": "What the field holds. For gloss and units[n], the substring the note is about."
-				},
-				"evidence": {
-					"type": "string",
-					"description": "Case 2: the proof. Case 3: the readings. Case 4: why.",
-					"minLength": 1
-				},
-				"source": {
-					"type": "string",
-					"description": "The patch that wrote it.",
-					"pattern": "^P\\d{6}$"
-				},
-				"date": {
-					"type": "string",
-					"description": "YYYY-MM-DD of the print read or the ruling.",
-					"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
-				}
-			},
-			"additionalProperties": false,
-			"description": "One departure from print, or one print reading checked and kept, on the object whose field it describes (admin/entry/ANNOTATIONS.md §2; ruling 10-13 correction policy). printed is print's reading ('' where print sets nothing), stored what the field holds (for gloss and units[n], the substring the note is about). kind: print-error (case 2), kept (case 3: printed equals stored), illegible (case 4). source is the patch that wrote it. What the schema cannot express — the field resolves on its object, stored agrees with the field, kept iff printed equals stored, one annotation per field, a real calendar date — admin/entry/annotations.ts enforces."
 		},
 		"annotations": {
 			"type": "array",
 			"items": {
 				"$ref": "#/$defs/annotation"
 			},
-			"description": "Absent when there are none, never [].",
+			"description": "The entry's annotations, one list the text points to by id (ruling 11-15 annotation section). Absent when there are none, never [].",
 			"minItems": 1
+		}
+	},
+	"additionalProperties": false,
+	"$defs": {
+		"annotation": {
+			"type": "object",
+			"required": ["id", "kind", "printed", "date"],
+			"properties": {
+				"id": {
+					"type": "string",
+					"description": "Local to the entry: a1, a2, … in the order the import places them: headword forms by index (text before homograph), then senses in document order (depth first), then stems, and within one object, draft order. The text points to it: an <annotate id> tag in display, a gloss or a unit, or a sense annotation.",
+					"pattern": "^a[1-9]\\d*$"
+				},
+				"kind": {
+					"enum": ["illegible", "kept", "print-error"],
+					"description": "print-error (a departure from print, corrected), kept (an oddity print sets, kept as printed) or illegible (print cannot be read; our best reading)."
+				},
+				"printed": {
+					"type": "string",
+					"description": "Print's original value, shown to the reader; '' where print sets nothing. A homograph is written as print writes it (I), a label as its token without ) (5)."
+				},
+				"note": {
+					"type": "string",
+					"description": "The sentence the reader sees.",
+					"minLength": 1
+				},
+				"date": {
+					"type": "string",
+					"description": "YYYY-MM-DD of the print read or the ruling.",
+					"pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+				},
+				"source": {
+					"type": "string",
+					"description": "The patch that wrote it: a reverse lookup, and the link to follow if that patch changes. Absent on an annotation made in the admin tool until a backport writes its patch.",
+					"pattern": "^P\\d{6}$"
+				}
+			},
+			"additionalProperties": false,
+			"description": "Where the entry departs from print, or keeps an oddity print sets, and why (ruling 11-15 annotation section). The patch holds the technical record; this is the reader's. The text points to it by id. That every id is referenced exactly once and every reference names an annotation the entry holds, admin/entry/annotations.ts enforces."
 		},
 		"formObject": {
 			"type": "object",
 			"required": ["text"],
 			"properties": {
-				"annotations": {
-					"$ref": "#/$defs/annotations"
-				},
 				"text": {
 					"type": "string",
 					"description": "The form as clean Hebrew: meaning only. Everything print sets around the forms lives in the entry’s display.",
@@ -201,12 +186,14 @@
 			"type": "object",
 			"required": ["gloss", "units"],
 			"properties": {
-				"annotations": {
-					"$ref": "#/$defs/annotations"
-				},
 				"label": {
 					"type": "string",
 					"minLength": 1
+				},
+				"annotation": {
+					"type": "string",
+					"description": "The id of the entry annotation this sense's label points to. A label is a bare token and cannot hold an <annotate> tag (ruling 11-15 annotation section).",
+					"pattern": "^a[1-9]\\d*$"
 				},
 				"reconstructed": {
 					"type": "boolean",

@@ -25,17 +25,7 @@
 				"<cite ref=\"Mishnah Bava Batra 1:2\">B. Bath. I, 2</cite> (<cite ref=\"Mishnah Bava Batra 1:2\">2</cite>) <he>כונס … ועושה ח׳ מבחוץ</he> he moves back on his own ground and builds, and makes the border-mark outside. Ib. 4ᵃ <he>מאי ח׳ וכ׳</he> wherein consists the border-mark? Answ. He bends the pegs on top outward."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000137",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>rough sore, contusion</i>.—Pl. <he>חָזִיּוֹת</he>. ",
@@ -43,6 +33,15 @@
 				"<cite ref=\"Jerusalem Talmud Berakhot 9:2:5\">Y. Ber. IX, 13ᶜ</cite> bot. (emended in ed. Lehm. <cite ref=\"K01365\"><he>כתית</he></cite>, as <cite ref=\"Shabbat 77b\">Sabb. 77ᵇ</cite>). Cmp. <cite ref=\"H00522\"><he>חֲזָזִית</he></cite>."
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000137"
 		}
 	]
 }

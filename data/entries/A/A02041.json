@@ -5,21 +5,10 @@
 	"headwords": [
 		{
 			"text": "אֲמָנָה",
-			"homograph": 1,
-			"annotations": [
-				{
-					"field": "homograph",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "I",
-					"evidence": "Jastrow's text names `אֲמָנָה I`: H01410 `מח׳ אמנה, v. אֲמָנָה I`. Print sets no numeral beside it (maintainer print read of the 1903 scan, 2026-10-06, docs/headword-worklist.md first list, row A02042).",
-					"source": "P000344",
-					"date": "2026-10-14"
-				}
-			]
+			"homograph": 1
 		}
 	],
-	"display": "{0} I",
+	"display": "{0} <annotate id=\"a1\">I</annotate>",
 	"page": {
 		"number": 77,
 		"column": "b"
@@ -50,6 +39,15 @@
 				"<cite ref=\"Sotah 48b:19\">Sot. 48ᵇ</cite> <he>אנשי א׳</he> men of faith, trusting in God; <cite ref=\"Sotah 48b:19\">ib.</cite> <he>קטני א׳</he> wanting in faith; <cite ref=\"Bereishit Rabbah 32:6\">Gen. R. s. 32</cite> <he>מחוסר א׳</he> same; a. fr. Cmp. <cite ref=\"A02001\"><he>אֱמוּנָה</he></cite>, <cite ref=\"E00017\"><he>הַאֲמָנָה</he></cite>."
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000344"
 		}
 	]
 }

@@ -32,17 +32,7 @@
 				"<cite ref=\"Jerusalem Talmud Bava Metzia 2:5:3\">Y. B. Mets. II, 8ᶜ</cite> top <he>מא׳ כל הדין עלמא</he> than all profit this world can offer."
 			],
 			"label": "1",
-			"annotations": [
-				{
-					"field": "label",
-					"kind": "print-error",
-					"printed": "",
-					"stored": "1",
-					"evidence": "a —2) follows the unlabelled first sense",
-					"source": "P000079",
-					"date": "2026-10-14"
-				}
-			]
+			"annotation": "a1"
 		},
 		{
 			"gloss": " <i>that which deserves reward, meritorious deed</i>. ",
@@ -50,6 +40,15 @@
 				"<cite ref=\"Berakhot 6b:11\">Ber. 6ᵇ</cite> <he>א׳ דפירקא ריהטא</he> the merit in attending a lecture lies in running [to it] (anxiety to hear it). [<cite ref=\"A00336\"><he>אֲגַר</he></cite>, <cite ref=\"A00339\"><he>אַגְרָא</he></cite> <i>staff, pole</i>, v. <cite ref=\"A00244\"><he>אגד</he></cite>.]"
 			],
 			"label": "2"
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "print-error",
+			"printed": "",
+			"date": "2026-10-14",
+			"source": "P000079"
 		}
 	]
 }

@@ -4,21 +4,10 @@
 	"sefariaHeadword": "כַּלְקִירָא",
 	"headwords": [
 		{
-			"text": "כַּלְקִידָא",
-			"annotations": [
-				{
-					"field": "text",
-					"kind": "illegible",
-					"printed": "כַּלְקִירָא",
-					"stored": "כַּלְקִידָא",
-					"evidence": "the maintainer's print read 2026-10-22: \"This is another example of a scan error missing the decender.  I am certain dalet is correct, but lets annotate with the evidence.\" K00753 reads `כלקורא, read: כַּלְקִידָא` (linked here); K00780 stands before K00781 `כַּלְקִיס`, where `כלקידא` sorts, and K00782, after it, keeps the `כלקירא` spelling in its own place. 645b.",
-					"source": "P000831",
-					"date": "2026-10-22"
-				}
-			]
+			"text": "כַּלְקִידָא"
 		}
 	],
-	"display": "{0}",
+	"display": "<annotate id=\"a1\">{0}</annotate>",
 	"page": {
 		"number": 645,
 		"column": "b"
@@ -27,6 +16,15 @@
 		{
 			"gloss": ", v. <cite ref=\"K00753\"><he>כַּלְכִּיד</he></cite>",
 			"units": []
+		}
+	],
+	"annotations": [
+		{
+			"id": "a1",
+			"kind": "illegible",
+			"printed": "כַּלְקִירָא",
+			"date": "2026-10-22",
+			"source": "P000831"
 		}
 	]
 }
