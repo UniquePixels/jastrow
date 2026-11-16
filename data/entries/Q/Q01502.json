@@ -85,6 +85,7 @@
 			"id": "a1",
 			"kind": "print-error",
 			"printed": "2",
+			"note": "Print numbers this sense 2) a second time; we number it 3.",
 			"date": "2026-10-14",
 			"source": "P000575"
 		},
@@ -92,6 +93,7 @@
 			"id": "a2",
 			"kind": "print-error",
 			"printed": "3",
+			"note": "Print numbers this sense 3); print repeats 2) above it, so we number it 4.",
 			"date": "2026-10-14",
 			"source": "P000576"
 		}

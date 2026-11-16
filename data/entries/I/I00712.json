@@ -115,6 +115,7 @@
 			"id": "a1",
 			"kind": "print-error",
 			"printed": "3",
+			"note": "Print numbers this sense 3) a second time; we number it 4.",
 			"date": "2026-10-14",
 			"source": "P000567"
 		},
@@ -122,6 +123,7 @@
 			"id": "a2",
 			"kind": "print-error",
 			"printed": "4",
+			"note": "Print numbers this sense 4); print repeats 3) above it, so we number it 5.",
 			"date": "2026-10-14",
 			"source": "P000568"
 		}

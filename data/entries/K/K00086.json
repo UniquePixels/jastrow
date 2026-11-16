@@ -79,6 +79,7 @@
 			"id": "a1",
 			"kind": "print-error",
 			"printed": "6",
+			"note": "Print numbers this sense 6) a second time; we number it 7.",
 			"date": "2026-10-14",
 			"source": "P000569"
 		}

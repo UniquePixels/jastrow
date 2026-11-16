@@ -225,6 +225,7 @@
 			"id": "a1",
 			"kind": "print-error",
 			"printed": "f",
+			"note": "Print skips e) in this lettering, so each later letter moves back one: print’s f) g) h) are e) f) g) here.",
 			"date": "2026-10-13",
 			"source": "P000812"
 		},
@@ -232,6 +233,7 @@
 			"id": "a2",
 			"kind": "print-error",
 			"printed": "g",
+			"note": "Print skips e) in this lettering, so each later letter moves back one: print’s f) g) h) are e) f) g) here.",
 			"date": "2026-10-13",
 			"source": "P000812"
 		},
@@ -239,6 +241,7 @@
 			"id": "a3",
 			"kind": "print-error",
 			"printed": "h",
+			"note": "Print skips e) in this lettering, so each later letter moves back one: print’s f) g) h) are e) f) g) here.",
 			"date": "2026-10-13",
 			"source": "P000812"
 		}
