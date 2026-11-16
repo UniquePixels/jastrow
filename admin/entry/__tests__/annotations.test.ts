@@ -20,7 +20,14 @@ const PATH = 'A/A00001.json';
 /** One annotation in one positional call, so each table row stays one
  * line. */
 function a(id: string, kind: Annotation['kind'] = 'print-error'): Annotation {
-	return { id, kind, printed: '', date: '2026-11-15', source: 'P000001' };
+	return {
+		id,
+		kind,
+		printed: '',
+		note: 'n',
+		date: '2026-11-15',
+		source: 'P000001',
+	};
 }
 
 /** The entry every case plants into, valid as it stands: a homograph

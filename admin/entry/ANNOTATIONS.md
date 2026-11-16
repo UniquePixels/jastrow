@@ -60,7 +60,7 @@ interface Annotation {
   id: string;       // local to the entry: a1, a2, …
   kind: 'illegible' | 'kept' | 'print-error';
   printed: string;  // print's value, shown to the reader; '' where print sets nothing
-  note?: string;    // the sentence the reader sees
+  note: string;     // the sentence the reader sees
   date: string;     // YYYY-MM-DD of the print read or ruling
   source?: string;  // the patch that wrote it, P + 6 digits
 }
@@ -96,7 +96,7 @@ and within one object, draft order.
 about annotations:
 
 - the schema: the id pattern, the `kind` enum, `source` as `P` and six
-  digits, `date` as `YYYY-MM-DD`, a `note` non-empty when present, the
+  digits, `date` as `YYYY-MM-DD`, a non-empty `note`, the
   list never empty, no other key. The markup check also holds every
   `<annotate>` tag to its one shape and to closing;
 - the references (`checkAnnotations`, `admin/entry/annotations.ts`):
@@ -124,7 +124,7 @@ data:validate`.
 ## 3. How the import fills it
 
 From the reviewed patch records, so there is no second source of truth.
-A reviewed patch gains an optional `annotation: {kind, printed, note?,
+A reviewed patch gains an optional `annotation: {kind, printed, note,
 evidence, date}`. `evidence` stays in the patch. `note`, `kind`,
 `printed` and `date` reach the entry. The import adds the `id`, places
 the tag or pointer the text carries, and sets `source` to the patch id.

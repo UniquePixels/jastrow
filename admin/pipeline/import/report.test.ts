@@ -200,6 +200,7 @@ describe('countAnnotations', () => {
 		id: `a${n}`,
 		kind,
 		printed: kind === 'kept' ? '1' : '',
+		note: 'n',
 		date: '2026-10-13',
 		source: 'P000001',
 	});

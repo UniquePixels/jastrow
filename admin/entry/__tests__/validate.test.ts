@@ -107,7 +107,13 @@ describe('validateEntries', () => {
 			...A(),
 			display: '<annotate id="a1">{0}</annotate>',
 			annotations: [
-				{ id: 'a1', kind: 'print-error', printed: 'אד', date: '2026-11-15' },
+				{
+					id: 'a1',
+					kind: 'print-error',
+					printed: 'אד',
+					note: 'n',
+					date: '2026-11-15',
+				},
 			],
 		};
 		expect(validateEntries(tree(tagged, B()))).toEqual([]);
@@ -427,7 +433,13 @@ describe('validateEntry: an I set by correction (10-13)', () => {
 		display,
 		headwords: [{ homograph: 1, text: 'אב' }],
 		annotations: [
-			{ id: 'a1', kind: 'print-error', printed: '', date: '2026-10-14' },
+			{
+				id: 'a1',
+				kind: 'print-error',
+				printed: '',
+				note: 'n',
+				date: '2026-10-14',
+			},
 		],
 	});
 
@@ -523,6 +535,7 @@ const FULL: Entry = {
 			id: 'a1',
 			kind: 'kept',
 			printed: 'אבה',
+			note: 'n',
 			date: '2026-10-13',
 			source: 'P000001',
 		},

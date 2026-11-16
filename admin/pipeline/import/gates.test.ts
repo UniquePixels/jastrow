@@ -796,6 +796,7 @@ describe('checkContract (gate 10)', () => {
 			id: `a${n}`,
 			kind: 'kept',
 			printed: 'g',
+			note: 'n',
 			date: '2026-10-13',
 			...(source === undefined ? {} : { source }),
 		});
