@@ -50,6 +50,10 @@ interface TextPlace {
 	found: string;
 }
 
+/** A label draft's place: the sense's label. A symbol, not a string,
+ * so it cannot be mistaken for a problem's reason. */
+const LABEL = Symbol('label');
+
 /** An entry annotation from what the patch carried and the id it
  * takes, in the ruling's key order — the order the file is read in. */
 function annotationOf(note: AnnotationNote, id: string): Annotation {
@@ -115,9 +119,9 @@ function resolveSenseDraft(
 	sense: Sense,
 	draft: SenseAnnotationDraft,
 	resolve: RefResolver,
-): 'label' | TextPlace | string {
+): typeof LABEL | TextPlace | string {
 	if (draft.field === 'label') {
-		return sense.label === undefined ? 'the sense has no label' : 'label';
+		return sense.label === undefined ? 'the sense has no label' : LABEL;
 	}
 	const found = translatedFind(draft.find, resolve);
 	if (found === undefined) {
@@ -233,10 +237,10 @@ interface SensePlacing {
 function placeSenseDraft(
 	sense: Sense,
 	draft: SenseAnnotationDraft,
-	place: 'label' | TextPlace,
+	place: typeof LABEL | TextPlace,
 	{ numbering, tags }: SensePlacing,
 ): string | undefined {
-	if (place === 'label') {
+	if (place === LABEL) {
 		if (sense.annotation !== undefined) {
 			return `the label already points to ${sense.annotation}`;
 		}
@@ -270,7 +274,7 @@ function placeSenseDrafts(
 	for (const draft of drafts) {
 		const place = resolveSenseDraft(sense, draft, resolve);
 		const problem =
-			typeof place === 'string' && place !== 'label'
+			typeof place === 'string'
 				? place
 				: placeSenseDraft(sense, draft, place, { numbering, tags });
 		if (problem !== undefined) {
