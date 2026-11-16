@@ -268,6 +268,7 @@ describe('finishEntry: drafts become one annotations list', () => {
 		date: '2026-10-13',
 		kind: 'print-error',
 		printed: 'p',
+		note: 'n',
 		source: 'P000005',
 	} as const;
 	const labelDraft = (patch: string = NOTE.source): SenseAnnotationDraft => ({
@@ -306,6 +307,7 @@ describe('finishEntry: drafts become one annotations list', () => {
 				id: 'a1',
 				kind: 'print-error',
 				printed: '',
+				note: 'n',
 				date: NOTE.date,
 				source: NOTE.source,
 			},
@@ -314,6 +316,7 @@ describe('finishEntry: drafts become one annotations list', () => {
 			'id',
 			'kind',
 			'printed',
+			'note',
 			'date',
 			'source',
 		]);

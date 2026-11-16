@@ -29,6 +29,7 @@ const NOTE: Record<string, string> = {
 	date: '2026-10-13',
 	evidence: 'a 2) follows an unlabelled first sense',
 	kind: 'print-error',
+	note: 'Print sets no 1) here; we number this sense 1 because the next sense is numbered 2).',
 	printed: '',
 };
 const KEPT: Record<string, string> = {
@@ -226,13 +227,28 @@ describe('the annotation field: parsePatch', () => {
 		],
 		[
 			'no evidence: it stays required on the patch',
-			{ date: NOTE['date'], kind: 'print-error', printed: '' },
+			{
+				date: NOTE['date'],
+				kind: 'print-error',
+				note: NOTE['note'],
+				printed: '',
+			},
 			'annotation.evidence must be a non-empty string',
+		],
+		[
+			"no note: the reader's sentence is required",
+			{
+				date: NOTE['date'],
+				evidence: NOTE['evidence'],
+				kind: 'print-error',
+				printed: '',
+			},
+			'annotation.note must be a non-empty string',
 		],
 		[
 			'an empty note',
 			{ ...NOTE, note: '' },
-			'annotation.note must be a non-empty string when present',
+			'annotation.note must be a non-empty string',
 		],
 		[
 			'a date that is no calendar day',

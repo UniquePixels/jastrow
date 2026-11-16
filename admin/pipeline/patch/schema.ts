@@ -233,7 +233,7 @@ interface PatchAnnotation {
 	date: string;
 	evidence: string;
 	kind: Annotation['kind'];
-	note?: string;
+	note: string;
 	printed: string;
 }
 
@@ -1417,7 +1417,7 @@ const ANNOTATION_KINDS: ReadonlySet<string> = new Set([
 
 /** The shape of a present `annotation`: an object of
  * `ANNOTATION_KEYS` only, a known kind, a string `printed`, a
- * non-empty `evidence`, a non-empty `note` when present, and a
+ * non-empty `evidence`, a non-empty `note`, and a
  * calendar `date`. */
 function annotationShapeReasons(annotation: unknown): string[] {
 	if (
@@ -1443,8 +1443,8 @@ function annotationShapeReasons(annotation: unknown): string[] {
 	if (!nonEmptyString(a['evidence'])) {
 		reasons.push('annotation.evidence must be a non-empty string');
 	}
-	if (a['note'] !== undefined && !nonEmptyString(a['note'])) {
-		reasons.push('annotation.note must be a non-empty string when present');
+	if (!nonEmptyString(a['note'])) {
+		reasons.push('annotation.note must be a non-empty string');
 	}
 	if (typeof a['date'] !== 'string' || !isIsoDate(a['date'])) {
 		reasons.push('annotation.date must be an ISO date (YYYY-MM-DD)');
@@ -1886,7 +1886,7 @@ function annotationNote(
 	return {
 		date,
 		kind,
-		...(note === undefined ? {} : { note }),
+		note,
 		printed,
 		source: patch.id,
 	};

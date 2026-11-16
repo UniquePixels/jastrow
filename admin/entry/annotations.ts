@@ -5,7 +5,7 @@
  *
  * The schema (`data/schema/entry.schema.json`, `$defs.annotation`)
  * holds the shape: the id pattern, the enum, `source` as `P` + 6
- * digits, `date` as `YYYY-MM-DD`, a `note` non-empty when present, and
+ * digits, `date` as `YYYY-MM-DD`, a non-empty `note`, and
  * a list never empty. `validate.ts` runs the schema first, and its
  * markup check holds every `<annotate>` tag to its one shape and to
  * closing. This module checks the references, and nothing else:

@@ -65,6 +65,7 @@
 			"id": "a1",
 			"kind": "print-error",
 			"printed": "",
+			"note": "Print sets no numeral on this headword; we add I because Jastrow cites it elsewhere as חוּל I.",
 			"date": "2026-10-15",
 			"source": "P000584"
 		}

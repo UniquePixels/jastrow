@@ -67,12 +67,10 @@ const AnnotationSchema = Type.Object(
 			description:
 				"Print's original value, shown to the reader; '' where print sets nothing. A homograph is written as print writes it (I), a label as its token without ) (5).",
 		}),
-		note: Type.Optional(
-			Type.String({
-				description: 'The sentence the reader sees.',
-				minLength: 1,
-			}),
-		),
+		note: Type.String({
+			description: 'The sentence the reader sees.',
+			minLength: 1,
+		}),
 		date: Type.String({
 			description: 'YYYY-MM-DD of the print read or the ruling.',
 			pattern: String.raw`^\d{4}-\d{2}-\d{2}$`,

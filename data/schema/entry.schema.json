@@ -116,7 +116,7 @@
 	"$defs": {
 		"annotation": {
 			"type": "object",
-			"required": ["id", "kind", "printed", "date"],
+			"required": ["id", "kind", "printed", "note", "date"],
 			"properties": {
 				"id": {
 					"type": "string",

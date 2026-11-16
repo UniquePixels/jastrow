@@ -61,7 +61,7 @@ function annotationOf(note: AnnotationNote, id: string): Annotation {
 		id,
 		kind: note.kind,
 		printed: note.printed,
-		...(note.note === undefined ? {} : { note: note.note }),
+		note: note.note,
 		date: note.date,
 		source: note.source,
 	};

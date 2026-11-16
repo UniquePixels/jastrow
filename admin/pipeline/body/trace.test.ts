@@ -488,6 +488,7 @@ describe('annotation drafts ride to the built sense', () => {
 		evidence: 'print sets a doubled 3)',
 		kind: 'print-error',
 		printed: '3',
+		note: 'n',
 	} as const;
 	/** What a draft carries: the note without its `evidence`, which
 	 * stays in the patch (ruling `11-15 annotation section`). */
@@ -583,6 +584,7 @@ describe('a relabel: the declared run splits and relabels (L59)', () => {
 		evidence: 'print skips e) (1081a); the run determines it',
 		kind: 'print-error',
 		printed: '',
+		note: 'n',
 	} as const;
 	/** What a draft carries: the note without its `evidence`, which
 	 * stays in the patch (ruling `11-15 annotation section`). */
@@ -693,6 +695,7 @@ const CHILD_KEPT = {
 	date: '2026-10-16',
 	kind: 'kept',
 	printed: 'זִיבָה).',
+	note: 'n',
 	source: 'P000901',
 } as const;
 

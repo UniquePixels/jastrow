@@ -63,6 +63,7 @@
 			"id": "a1",
 			"kind": "kept",
 			"printed": ").",
+			"note": "Print sets this closing parenthesis with no opening one; we keep it as printed.",
 			"date": "2026-10-16",
 			"source": "P000826"
 		}

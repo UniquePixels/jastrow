@@ -17,7 +17,7 @@ import type { Annotation } from '../entry/schema.ts';
 interface AnnotationNote {
 	date: string;
 	kind: Annotation['kind'];
-	note?: string;
+	note: string;
 	printed: string;
 	source: string;
 }

@@ -688,6 +688,7 @@ describe('relabel', () => {
 		evidence: 'print skips e)',
 		kind: 'print-error',
 		printed: '',
+		note: 'n',
 	} as const;
 	const relabelEntry = (over: Partial<SourceSense> = {}): SourceEntry => ({
 		content: {
@@ -719,6 +720,7 @@ describe('relabel', () => {
 				annotation: {
 					date: NOTE.date,
 					kind: NOTE.kind,
+					note: NOTE.note,
 					printed: NOTE.printed,
 					source: 'P000001',
 				},
@@ -1447,6 +1449,7 @@ describe('validateCorpus: ops that keep the text may share a target (L67)', () =
 			evidence: 'e',
 			kind: 'kept',
 			printed: 'a)',
+			note: 'n',
 		},
 		id: 'P000002',
 		op: 'annotate',
