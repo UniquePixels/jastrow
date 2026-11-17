@@ -33,7 +33,7 @@ const AnnotationSchema = Type.Object(
 	{
 		id: Type.String({
 			description:
-				'Local to the entry: a1, a2, … in the order the import places them: headword forms by index (text before homograph), then senses in document order (depth first), then stems, and within one object, draft order. The text points to it: an <annotate id> tag in display, a gloss or a unit, or a sense annotation.',
+				"Unique within the entry: a1, a2, … The text points to it with an <annotate id> tag in display, a gloss or a unit, or with a sense's annotation.",
 			pattern: ANNOTATION_ID,
 		}),
 		kind: Type.Enum(['illegible', 'kept', 'print-error'], {
@@ -55,7 +55,7 @@ const AnnotationSchema = Type.Object(
 		source: Type.Optional(
 			Type.String({
 				description:
-					'The patch that wrote it: a reverse lookup, and the link to follow if that patch changes. Absent on an annotation made in the admin tool until a backport writes its patch.',
+					'The id of the patch that wrote it. Absent on an annotation no patch wrote.',
 				pattern: String.raw`^P\d{6}$`,
 			}),
 		),
@@ -63,7 +63,7 @@ const AnnotationSchema = Type.Object(
 	{
 		additionalProperties: false,
 		description:
-			"Where the entry departs from print, or keeps an oddity print sets, and why (ruling 11-15 annotation section). The patch holds the technical record; this is the reader's. The text points to it by id. That every id is referenced exactly once and every reference names an annotation the entry holds, admin/validation/annotations.ts enforces.",
+			'Where the entry departs from print, or keeps an oddity print sets, and why. The text points to it by id; every annotation is referenced exactly once.',
 	},
 );
 
@@ -71,39 +71,39 @@ const FormObjectSchema = Type.Object(
 	{
 		text: Type.String({
 			description:
-				'The form as clean Hebrew: meaning only. Everything print sets around the forms lives in the entry’s display.',
+				"The form as Hebrew text alone. The notation print sets around it is in the entry's display.",
 			minLength: 1,
 		}),
 		homograph: Type.Optional(
 			Type.Integer({
 				description:
-					"The Roman numeral beside this form, as a number. Part of the name, and always shown in display. Print sets it, or (ruling 10-13 correction policy) Jastrow's own text names it and a homograph annotation says so.",
+					'The Roman numeral beside this form, as a number. Shown in display when the entry has one.',
 				minimum: 1,
 			}),
 		),
 		reconstructed: Type.Optional(
 			Type.Literal(true, {
 				description:
-					'Print stars this form as a reconstructed word (headword design §3.1 rule 3). Only ever true.',
+					'Print stars this form as a reconstructed word. Only ever true.',
 			}),
 		),
 		gender: Type.Optional(
 			Type.Enum(['f', 'm'], {
 				description:
-					"This form's gender label, as print sets it beside the form (headword design §4). An entry carries at most one of a per-form gender on EVERY headword or a grammar.gender, never both, and neither is inherited (ruling HW-gender). This schema cannot express it; admin/validation/validate.ts enforces it.",
+					"This form's gender label, as print sets it beside the form. An entry may have a gender on every headword or a grammar.gender, never both.",
 			}),
 		),
 		partial: Type.Optional(
 			Type.Literal(true, {
 				description:
-					'This form is shown exactly as printed and is never a lookup key (headword design §2): an ending after an ellipsis, or a phrase holding an abbreviated word. Only ever true.',
+					'This form is shown as printed and is never a lookup key: an ending after an ellipsis, or a phrase holding an abbreviated word. Only ever true.',
 			}),
 		),
 	},
 	{
 		additionalProperties: false,
 		description:
-			'One headword form. It holds only meaning; how print sets the forms around each other is the entry’s display (headword design §2, §3.1).',
+			"One headword form. How print sets the forms around each other is the entry's display.",
 	},
 );
 
@@ -113,19 +113,19 @@ const SenseSchema = Type.Object(
 		annotation: Type.Optional(
 			Type.String({
 				description:
-					"The id of the entry annotation this sense's label points to. A label is a bare token and cannot hold an <annotate> tag (ruling 11-15 annotation section). Only on a sense with a label: admin/validation/annotations.ts refuses it on one without.",
+					"The id of the annotation this sense's label points to. Only on a sense with a label.",
 				pattern: ANNOTATION_ID,
 			}),
 		),
 		reconstructed: Type.Optional(
 			Type.Literal(true, {
 				description:
-					"Print stars this sense's number (*2)), as it stars a reconstructed headword form (ruling 10-04 sense star). Only ever true, and only beside a label. The dash print sets before a later sense is not stored.",
+					"Print stars this sense's number (*2)). Only ever true, and only beside a label.",
 			}),
 		),
 		gloss: Type.String({
 			description:
-				"The sense's own head text. On the entry's senses[0] it is the lead text, usually the whole definition (ruling 10-04 lead text).",
+				"The sense's head text. On the entry's senses[0] it is the lead text, usually the whole definition.",
 		}),
 		units: Type.Array(Type.String(), {
 			description: "The sense's numbered or lettered parts.",
@@ -137,8 +137,7 @@ const SenseSchema = Type.Object(
 	{
 		additionalProperties: false,
 		dependentRequired: { reconstructed: ['label'] },
-		description:
-			'One sense of a written entry. Every label is an explicit string, so a reader that drops an empty lead renumbers nothing (ruling 10-04 lead text).',
+		description: 'One sense of an entry.',
 	},
 );
 
@@ -155,8 +154,7 @@ const StemSchema = Type.Object(
 	},
 	{
 		additionalProperties: false,
-		description:
-			"A binyan section of a written entry. Sibling to the entry's own senses, so both can be present on one entry.",
+		description: "A binyan section of an entry, beside the entry's own senses.",
 	},
 );
 
@@ -164,28 +162,25 @@ const StemSchema = Type.Object(
 const EntryBodySchema = Type.Object(
 	{
 		schemaVersion: Type.Literal(SCHEMA_VERSION, {
-			description:
-				'The entry-file format version. 2 is the headword-design §2 shape, ruled 2026-09-21; 3 drops the superscript disambiguator and formerNames (ruling 11-13 url words). Stamped on every file so a reader can tell the versions apart without inferring it from which keys are present.',
+			description: 'The entry-file format version.',
 		}),
 		id: Type.String({
-			description:
-				'The rid, which the entry is addressed by. The name is not stored: it is derived from headwords[0], so it cannot drift from the headword (URL names spec §5.1).',
+			description: 'The rid, the id the entry is addressed by.',
 			pattern: RID.source,
 		}),
 		sefariaHeadword: Type.String({
-			description:
-				"Sefaria's headword for this rid, byte for byte (URL names spec §5.1, U3). Import is the only writer.",
+			description: "Sefaria's headword for this rid, byte for byte.",
 			minLength: 1,
 		}),
 		headwords: Type.Array(Type.Ref('#/$defs/formObject'), {
 			description:
-				'Every form print sets on the headword line, in its order. headwords[0] is the primary form: the name, the search key and every link derive from it (headword design §2).',
+				'Every form print sets on the headword line, in order. headwords[0] is the primary form.',
 			minItems: 1,
 		}),
 		display: Type.Optional(
 			Type.String({
 				description:
-					"How print laid the headword line out: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew (headword design §2, §3.1). It never carries Sefaria's superscript: print sets none (ruling 11-13 url words). Its only markup is <annotate id> around a {n} or a homograph numeral, pointing to the entry's annotations (ruling 11-15 annotation section). Optional and never defaulted — where the source cannot settle the layout the key is absent and the row is flagged (§3).",
+					'How print lays out the headword line: a template whose {n} inserts headwords[n].text and whose every other character is literal notation, never Hebrew. Its only markup is <annotate id> around a {n} or a homograph numeral. Absent where the layout is not settled.',
 				minLength: 1,
 			}),
 		),
@@ -197,8 +192,7 @@ const EntryBodySchema = Type.Object(
 				},
 				{
 					additionalProperties: false,
-					description:
-						'Where print sets this entry: page, and column a or b. The entry file is the record (ruling 11-05 page index).',
+					description: 'Where print sets this entry: page, and column a or b.',
 				},
 			),
 		),
@@ -209,8 +203,7 @@ const EntryBodySchema = Type.Object(
 					number: Type.Optional(Type.Enum(['pl', 'du'])),
 					pos: Type.Optional(
 						Type.String({
-							description:
-								'Part of speech. Declared, with no producer: no entry carries it (docs/ideas.md, Schema).',
+							description: 'Part of speech. No entry carries it.',
 						}),
 					),
 				},
@@ -222,7 +215,7 @@ const EntryBodySchema = Type.Object(
 		annotations: Type.Optional(
 			Type.Array(Type.Ref('#/$defs/annotation'), {
 				description:
-					"The entry's annotations, one list the text points to by id (ruling 11-15 annotation section). Absent when there are none, never [].",
+					"The entry's annotations, which the text points to by id. Absent when there are none, never [].",
 				minItems: 1,
 			}),
 		),
@@ -241,7 +234,7 @@ const EntrySchema = Type.Object(EntryBodySchema.properties, {
 	$id: 'https://jastrow.app/schema/entry.schema.json',
 	title: 'Jastrow v2 entry',
 	description:
-		'One entry of Jastrow’s dictionary at schemaVersion 3 (headword design §2). Generated from admin/validation/schema.ts by bun schema:build; never edit this file by hand.',
+		"One entry of Jastrow's dictionary. Generated from admin/validation/schema.ts by bun schema:build; never edit this file by hand.",
 	additionalProperties: false,
 	// biome-ignore lint/style/useNamingConvention: a JSON Schema keyword, named by the spec.
 	$defs: {
