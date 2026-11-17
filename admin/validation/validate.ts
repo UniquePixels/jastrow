@@ -1,4 +1,4 @@
-// biome-ignore-all lint/style/noExcessiveLinesPerFile: one schema contract checked field by field; a split would spread one decision over several files.
+// biome-ignore-all lint/style/noExcessiveLinesPerFile: the entry checks and the functions that run them; splitting would make them harder to read and maintain.
 /**
  * Entry validation: the checks every file under `data/entries/` must
  * pass. `validateEntry` checks one file on its own, `validateCorpus`
