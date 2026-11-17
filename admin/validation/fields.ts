@@ -1,14 +1,17 @@
 /**
- * The text fields of an entry, walked once (ruling `11-15 annotation
- * section`): each with a readable path, its text, and what markup it
- * may carry. The contract's markup check (`validate.ts`) and its
- * annotation clause (`annotations.ts`) read the same walk, so a field
- * one of them sees the other cannot miss. A module of its own because
- * `validate.ts` imports `annotations.ts`.
+ * The text fields of an entry, each with its path and the markup it
+ * may carry.
  */
 import type { Entry, Sense } from './schema.ts';
 
-/** The HTML fields of a sense tree, with a readable path to each. */
+/**
+ * Yields the gloss and units of every sense of a sense tree, depth
+ * first.
+ *
+ * @param senses - The senses to walk.
+ * @param at - The path of `senses` within the entry.
+ * @returns Each field's path and text.
+ */
 function* senseTexts(
 	senses: readonly Sense[],
 	at: string,
@@ -22,7 +25,13 @@ function* senseTexts(
 	}
 }
 
-/** Every field that may carry markup. */
+/**
+ * Yields every field of an entry that may carry the full markup
+ * vocabulary: sense glosses and units, and stem labels and forms.
+ *
+ * @param entry - The entry to walk.
+ * @returns Each field's path and text.
+ */
 function* markupFields(entry: Entry): Generator<[string, string]> {
 	yield* senseTexts(entry.senses, 'senses');
 	for (const [i, stem] of (entry.stems ?? []).entries()) {
@@ -34,7 +43,14 @@ function* markupFields(entry: Entry): Generator<[string, string]> {
 	}
 }
 
-/** The sense labels of a sense tree (`1`, `a`, …), with their paths. */
+/**
+ * Yields the label of every labelled sense of a sense tree, depth
+ * first.
+ *
+ * @param senses - The senses to walk.
+ * @param at - The path of `senses` within the entry.
+ * @returns Each label's path and text.
+ */
 function* senseLabels(
 	senses: readonly Sense[],
 	at: string,
@@ -47,9 +63,13 @@ function* senseLabels(
 	}
 }
 
-/** Every field that must carry none: the headword forms and
- * `sefariaHeadword` are identifiers that `url-path.ts` and the
- * compiler read as text; sense labels are numbering. */
+/**
+ * Yields every field of an entry that may carry no markup:
+ * `sefariaHeadword`, headword texts and sense labels.
+ *
+ * @param entry - The entry to walk.
+ * @returns Each field's path and text.
+ */
 function* plainFields(entry: Entry): Generator<[string, string]> {
 	yield ['sefariaHeadword', entry.sefariaHeadword];
 	for (const [i, form] of entry.headwords.entries()) {
@@ -61,36 +81,30 @@ function* plainFields(entry: Entry): Generator<[string, string]> {
 	}
 }
 
-/** What markup a field may carry: `none` (an identifier or a label),
- * `annotate` (`display`, which carries the annotate tag and nothing
- * else) or `vocabulary` (the whole `VOCABULARY` of `validate.ts`). */
+/**
+ * The markup a field may carry: none, the `annotate` tag alone, or the
+ * full vocabulary.
+ */
 type FieldMarkup = 'annotate' | 'none' | 'vocabulary';
 
-/** One text field of an entry: a readable path to it (`senses[0].units[1]`),
- * its text, and what markup it may carry. */
+/**
+ * A text field of an entry: its path, its text and the markup it may
+ * carry.
+ */
 interface EntryField {
 	markup: FieldMarkup;
 	path: string;
 	text: string;
 }
 
-/** Every text field of an entry, nested senses and stems included:
- * the plain identifier and label fields first, then `display`, which
- * may carry the annotate tag alone, then every field that may carry
- * the whole vocabulary. The validator's markup checks read through this,
- * so a reader that walks it — compile, when it is written — sees the
- * same fields the contract checked.
+/**
+ * Yields every text field of an entry: the plain fields, then
+ * `display`, then the markup fields. Annotations and non-text values
+ * (ids, enums, numbers) are not fields.
  *
- * Codes are not text and are not visited: `id`, `schemaVersion`,
- * `grammar`, `page` and a form's `gender`, `homograph`,
- * `reconstructed` and `partial`.
- *
- * Nor are the entry's `annotations` (ruling `11-15 annotation
- * section`). An annotation is shown to the reader beside the text it
- * is pointed to from, not in it: its strings are plain, its `printed`
- * is print's value and may be `''`. The text carries the pointers,
- * and `annotations.ts` checks them; `checkNfc`, which reads every
- * stored string, covers the annotations' spelling. */
+ * @param entry - The entry to walk.
+ * @returns Each field.
+ */
 function* entryFields(entry: Entry): Generator<EntryField> {
 	for (const [path, text] of plainFields(entry)) {
 		yield { markup: 'none', path, text };

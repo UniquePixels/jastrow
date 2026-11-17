@@ -1,55 +1,32 @@
 /**
- * The entry schema: what a file under `data/entries/` holds, whoever
- * wrote it, written once (ruling `11-05 schema source`).
- *
- * Every constant below is a TypeBox schema, which is JSON Schema as it
- * stands: TypeBox's validator checks entries against `EntrySchema`
- * itself, and `schema-build.ts` writes it out as
- * `data/schema/entry.schema.json` for editors (IntelliSense on an
- * entry file) and any reader that is
- * not TypeScript. The types (`Entry`, `Sense`, …) are derived from the
- * same constants, so the schema and the types cannot disagree.
- *
- * A field's `description` is its documentation: it is the hover text
- * an editor shows on an entry file. What a schema cannot express —
- * gender in one place, an annotation referenced exactly once,
- * NFC, a cite naming an entry that exists — `validate.ts` and
- * `annotations.ts` enforce.
+ * The entry schema: the shape of a file under `data/entries/`, as
+ * TypeBox schemas, and the types derived from them. `schema-build.ts`
+ * writes it to `data/schema/entry.schema.json`.
  */
 import Type from 'typebox';
 
-/** The entry-file format this schema describes. Version 2 is the
- * headword-design §2 shape: `headwords[]` and an optional `display`
- * in place of `headword`/`altHeadwords`, and `sefariaHeadword` in
- * place of `slug`. Version 3 drops a form's `disambiguator` and the
- * entry's `formerNames` (ruling `11-13 url words`). */
+/** The entry-file format version this schema describes. */
 const SCHEMA_VERSION = 3;
 
-/** Fields that are copied from elsewhere VERBATIM and must keep the
- * bytes they were copied from, whatever spelling those are.
- *
- * `sefariaHeadword` is Sefaria's own headword, stored so the Sefaria
- * URL route keeps working after our headword is corrected (URL names
- * spec §5.1, U3). It is a foreign key, not our text: normalizing it
- * would make it a spelling Sefaria does not use. So the import's NFC
- * write (`normalizeForWrite`) leaves it alone, and the contract's NFC
- * check (`validate.ts`) does not ask it to be NFC. One list, read by
- * both, so the writer and the check cannot disagree about which field
- * is exempt. */
+/**
+ * Fields that hold bytes copied from another source. They are exempt
+ * from NFC normalization on write and from the NFC check.
+ */
 const VERBATIM_FIELDS: ReadonlySet<string> = new Set(['sefariaHeadword']);
 
-/** `{0}`, `{12}` — a form's slot in a `display` template: the
- * `{n}` the `display` description below names, as the pattern every
- * reader of a template matches it with. The schema states the format
- * in words and cannot check it; `headword-rules.ts` does. Carries the
- * `g` flag, so read it with `matchAll` or `replace`, never `.test()`. */
+/**
+ * A form's placeholder in a `display` template (`{0}`); group 1 is the
+ * form index. Global: use it with `matchAll` or `replace`, not `test`.
+ */
 const PLACEHOLDER = /\{(\d+)\}/gu;
 
-/** A non-empty string, the shape of most text fields. */
+/** A rid, the id of an entry (`A00001`). */
+const RID = /^[A-Z]\d{5}$/u;
+
+/** A non-empty string. */
 const Text = Type.String({ minLength: 1 });
 
-/** An annotation's id, local to its entry: `a` and a number from 1
- * (`a1`, `a2`, …). The shape `admin/lib/annotate.ts`'s tag carries. */
+/** The pattern of an annotation id: `a1`, `a2`, … */
 const ANNOTATION_ID: string = String.raw`^a[1-9]\d*$`;
 
 const AnnotationSchema = Type.Object(
@@ -86,7 +63,7 @@ const AnnotationSchema = Type.Object(
 	{
 		additionalProperties: false,
 		description:
-			"Where the entry departs from print, or keeps an oddity print sets, and why (ruling 11-15 annotation section). The patch holds the technical record; this is the reader's. The text points to it by id. That every id is referenced exactly once and every reference names an annotation the entry holds, admin/entry/annotations.ts enforces.",
+			"Where the entry departs from print, or keeps an oddity print sets, and why (ruling 11-15 annotation section). The patch holds the technical record; this is the reader's. The text points to it by id. That every id is referenced exactly once and every reference names an annotation the entry holds, admin/validation/annotations.ts enforces.",
 	},
 );
 
@@ -113,7 +90,7 @@ const FormObjectSchema = Type.Object(
 		gender: Type.Optional(
 			Type.Enum(['f', 'm'], {
 				description:
-					"This form's gender label, as print sets it beside the form (headword design §4). An entry carries at most one of a per-form gender on EVERY headword or a grammar.gender, never both, and neither is inherited (ruling HW-gender). This schema cannot express it; admin/entry/validate.ts enforces it.",
+					"This form's gender label, as print sets it beside the form (headword design §4). An entry carries at most one of a per-form gender on EVERY headword or a grammar.gender, never both, and neither is inherited (ruling HW-gender). This schema cannot express it; admin/validation/validate.ts enforces it.",
 			}),
 		),
 		partial: Type.Optional(
@@ -136,7 +113,7 @@ const SenseSchema = Type.Object(
 		annotation: Type.Optional(
 			Type.String({
 				description:
-					"The id of the entry annotation this sense's label points to. A label is a bare token and cannot hold an <annotate> tag (ruling 11-15 annotation section). Only on a sense with a label: admin/entry/annotations.ts refuses it on one without.",
+					"The id of the entry annotation this sense's label points to. A label is a bare token and cannot hold an <annotate> tag (ruling 11-15 annotation section). Only on a sense with a label: admin/validation/annotations.ts refuses it on one without.",
 				pattern: ANNOTATION_ID,
 			}),
 		),
@@ -183,7 +160,7 @@ const StemSchema = Type.Object(
 	},
 );
 
-/** An entry's own fields; `EntrySchema` adds the definitions. */
+/** The entry's own fields, without the shared definitions. */
 const EntryBodySchema = Type.Object(
 	{
 		schemaVersion: Type.Literal(SCHEMA_VERSION, {
@@ -193,7 +170,7 @@ const EntryBodySchema = Type.Object(
 		id: Type.String({
 			description:
 				'The rid, which the entry is addressed by. The name is not stored: it is derived from headwords[0], so it cannot drift from the headword (URL names spec §5.1).',
-			pattern: String.raw`^[A-Z]\d{5}$`,
+			pattern: RID.source,
 		}),
 		sefariaHeadword: Type.String({
 			description:
@@ -253,10 +230,10 @@ const EntryBodySchema = Type.Object(
 	{ additionalProperties: false },
 );
 
-/** The whole contract: one entry file. A reference is a JSON pointer
- * (`#/$defs/sense`), the form every JSON Schema reader resolves —
- * VS Code's included, which does not follow TypeBox's name-only
- * `Type.Cyclic` references. */
+/**
+ * The entry schema: the entry's fields and the `$defs` its references
+ * resolve to.
+ */
 const EntrySchema = Type.Object(EntryBodySchema.properties, {
 	// biome-ignore lint/style/useNamingConvention: a JSON Schema keyword, named by the spec.
 	$schema: 'https://json-schema.org/draft/2020-12/schema',
@@ -264,7 +241,7 @@ const EntrySchema = Type.Object(EntryBodySchema.properties, {
 	$id: 'https://jastrow.app/schema/entry.schema.json',
 	title: 'Jastrow v2 entry',
 	description:
-		'One entry of Jastrow’s dictionary at schemaVersion 2 (headword design §2). Generated from admin/entry/schema.ts by bun schema:build; never edit this file by hand.',
+		'One entry of Jastrow’s dictionary at schemaVersion 3 (headword design §2). Generated from admin/validation/schema.ts by bun schema:build; never edit this file by hand.',
 	additionalProperties: false,
 	// biome-ignore lint/style/useNamingConvention: a JSON Schema keyword, named by the spec.
 	$defs: {
@@ -274,9 +251,10 @@ const EntrySchema = Type.Object(EntryBodySchema.properties, {
 	},
 });
 
-/** The same definitions keyed by the pointer each `Type.Ref` names,
- * which is how TypeBox resolves a reference's type. Types only: the
- * schema above is the runtime form. */
+/**
+ * The definitions keyed by the pointer each `Type.Ref` names, for
+ * deriving the types.
+ */
 type Pointers = {
 	'#/$defs/annotation': typeof AnnotationSchema;
 	'#/$defs/formObject': typeof FormObjectSchema;
@@ -284,7 +262,7 @@ type Pointers = {
 	entry: typeof EntryBodySchema;
 };
 
-/** The type a definition validates to. */
+/** The static type of one definition. */
 type Of<Key extends keyof Pointers> = Type.Static<Type.TCyclic<Pointers, Key>>;
 
 type Entry = Of<'entry'>;
@@ -294,4 +272,4 @@ type Sense = Of<'#/$defs/sense'>;
 type Stem = NonNullable<Entry['stems']>[number];
 
 export type { Annotation, Entry, FormObject, Sense, Stem };
-export { EntrySchema, PLACEHOLDER, SCHEMA_VERSION, VERBATIM_FIELDS };
+export { EntrySchema, PLACEHOLDER, RID, SCHEMA_VERSION, VERBATIM_FIELDS };

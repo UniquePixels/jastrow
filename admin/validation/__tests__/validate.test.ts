@@ -1,33 +1,32 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: a table-driven suite; the cases and the builders they share read as one unit.
 /**
- * Controls for `validate.ts`. `bun data:validate` passing on the
- * committed tree is a null result; these show each check CAN fire, one
- * planted defect at a time, and that it names the defect it found.
+ * Tests for `validate.ts`: each case plants one defect and expects the
+ * check to report it.
  */
 import { describe, expect, it } from 'bun:test';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { entryFields } from '../fields.ts';
-import { type Entry, SCHEMA_VERSION } from '../schema.ts';
+import { type Entry, RID, SCHEMA_VERSION } from '../schema.ts';
 import {
 	type EntryFile,
 	loadEntryFiles,
 	markupProblems,
-	RID,
 	validateCorpus,
 	validateEntries,
 	validateEntry,
 } from '../validate.ts';
 
-/** Shin with qamats and shin dot, marks in the wrong order: canonical
- * order puts qamats (class 18) before the shin dot (class 24), so this
- * spelling is not its own NFC form while looking identical to it — the
- * shape a paste from another editor arrives in. Built from escapes,
- * never a pasted literal, which an editor may normalize silently. */
+/**
+ * Shin, shin dot, qamats: a spelling that is not NFC. Written as
+ * escapes so an editor cannot normalize it.
+ */
 const NOT_NFC = '\u05E9\u05C1\u05B8';
 const NFC = NOT_NFC.normalize('NFC');
 
-/** `headword` and `sefariaHeadword` are both the given word, so a
- * planted defect in either is the only thing the tree disagrees on. */
+/**
+ * Builds a valid entry whose headword and `sefariaHeadword` are the
+ * same word.
+ */
 function entry(id: string, headword: string, gloss: string): Entry {
 	return {
 		schemaVersion: SCHEMA_VERSION,
@@ -594,10 +593,10 @@ function childPath(at: string, key: string, array: boolean): string {
 	return at === '' ? key : `${at}.${key}`;
 }
 
-/** Strings that are codes or keys, not text: the rid, the schema's
- * enums and the page column. And every string of an annotation, which
- * the reader is shown beside the text rather than in it
- * (`entryFields`' docstring). */
+/**
+ * Strings that are not text fields: the rid, enum values, the page
+ * column and every string of an annotation.
+ */
 const NOT_TEXT =
 	/^(id|grammar\..*|page\..*|headwords\[\d+\]\.gender|annotations\[\d+\]\..*)$/u;
 

@@ -1,16 +1,9 @@
 /**
- * `bun data:validate` — the entry contract over files on disk.
+ * `bun data:validate`: validates entry files, prints one problem per
+ * line and exits non-zero on any.
  *
- * With no arguments it validates the whole of `data/entries/`: every
- * file's own checks, then the corpus checks.
- * This is CI's Validate job, and the check a hand edit meets.
- *
- * With file arguments it runs only each file's own checks
- * (`validateEntry`). The corpus checks — unique names and cite
- * targets — are about the tree, not a file, so they need the
- * whole of it: run without arguments for those.
- *
- * Prints every problem, one per line, and exits non-zero on any.
+ * With no arguments it validates all of `data/entries/`, corpus checks
+ * included. With file arguments it runs only each file's own checks.
  *
  * Run: bun data:validate [data/entries/A/A00001.json ...]
  */
@@ -19,15 +12,23 @@ import process from 'node:process';
 import { paths } from '../paths.ts';
 import { loadEntryFiles, validateEntries, validateEntry } from './validate.ts';
 
-/** A file argument as `validateEntry` wants its path: relative to
- * `data/entries/`, so the home-path check compares like with like.
- * Resolved first, so `./data/entries/…` and absolute paths work too. */
+/**
+ * Converts a file argument to the path `validateEntry` expects.
+ *
+ * @param file - A path, absolute or relative to the working directory.
+ * @returns The path relative to `data/entries/`.
+ */
 function entryRelative(file: string): string {
 	return relative(paths.entries, resolve(file));
 }
 
-/** Each named file's own checks. A file that does not parse is a
- * problem, not a thrown error, so one bad file does not hide the rest. */
+/**
+ * Runs the single-file checks on each named file.
+ *
+ * @param files - The file arguments.
+ * @returns The problems found, including one per file that does not
+ * parse.
+ */
 async function validateFiles(files: readonly string[]): Promise<string[]> {
 	const perFile = await Promise.all(
 		files.map(async (file): Promise<string[]> => {
@@ -44,7 +45,11 @@ async function validateFiles(files: readonly string[]): Promise<string[]> {
 	return perFile.flat();
 }
 
-/** The whole tree: every file's own checks, then the corpus checks. */
+/**
+ * Validates all of `data/entries/`.
+ *
+ * @returns The number of files checked and the problems found.
+ */
 async function validateTree(): Promise<{
 	checked: number;
 	problems: string[];
@@ -54,6 +59,11 @@ async function validateTree(): Promise<{
 	return { checked: files.length, problems };
 }
 
+/**
+ * Validates the files named on the command line, or the whole tree,
+ * prints the problems and a summary, and sets a non-zero exit code if
+ * there are problems or no files were checked.
+ */
 async function main(): Promise<void> {
 	const args = process.argv.slice(2);
 	const { checked, problems } =

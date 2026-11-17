@@ -9,7 +9,7 @@ prove five of them, and retires `implied` from the contract.
 ## The ruling
 
 Ruling `10-13 correction policy` ([`docs/decisions.md`](../../../../../../docs/decisions.md)
-§9, [`admin/entry/ANNOTATIONS.md`](../../../../../entry/ANNOTATIONS.md))
+§9, `admin/entry/ANNOTATIONS.md`)
 amends `10-06 implied I`. An I print does not set is a print error
 whose intended value is determined (case 2) only where Jastrow's own
 text names `X I`: a cross-reference, a `v. X I`, an etymology `(X I)`.

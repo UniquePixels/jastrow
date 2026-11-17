@@ -10,8 +10,8 @@
  * passes here is a case the corpus run will meet.
  */
 import { describe, expect, it } from 'bun:test';
-import { headwordShapeProblems } from '../entry/headword-rules.ts';
-import type { Entry } from '../entry/schema.ts';
+import { headwordShapeProblems } from '../validation/headword-rules.ts';
+import type { Entry } from '../validation/schema.ts';
 import { parseHeadwordLine } from './headwords.ts';
 
 /** The three things a case asserts, in one shape: what print laid out,

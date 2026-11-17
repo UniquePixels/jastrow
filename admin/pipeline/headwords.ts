@@ -40,7 +40,7 @@
  * which reproduces every worked example in the §2 table but one
  * (A02823, whose line print sets without a comma).
  */
-import type { FormObject } from '../entry/schema.ts';
+
 import { findDuplicates } from '../lib/find-duplicates.ts';
 import {
 	isLexical,
@@ -48,6 +48,7 @@ import {
 	toComparisonForm,
 } from '../lib/hebrew.ts';
 import { romanToInt } from '../lib/roman.ts';
+import type { FormObject } from '../validation/schema.ts';
 
 /** Jastrow's abbreviation mark: a word ending in a geresh is written
  * short (`פּ׳` for *Pappa*). Gershayim (U+05F4) is NOT this mark — it

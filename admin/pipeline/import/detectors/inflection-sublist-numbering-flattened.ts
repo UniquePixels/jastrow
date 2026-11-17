@@ -22,7 +22,7 @@
  * senses later moves no URL.
  */
 
-import type { Entry, Sense } from '../../../entry/schema.ts';
+import type { Entry, Sense } from '../../../validation/schema.ts';
 import { textOf } from '../gates.ts';
 import { type ClassRow, entryRow } from './row.ts';
 import { fieldsOf } from './senses.ts';

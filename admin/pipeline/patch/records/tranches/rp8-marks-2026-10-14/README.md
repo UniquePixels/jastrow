@@ -7,7 +7,7 @@ carried into the data the annotation ruling 10-13 owes it.
 ## The ruling
 
 Ruling `10-13 correction policy` ([`docs/decisions.md`](../../../../../../docs/decisions.md)
-§9, [`admin/entry/ANNOTATIONS.md`](../../../../../entry/ANNOTATIONS.md))
+§9, `admin/entry/ANNOTATIONS.md`)
 checked RP8 and kept it. A `2)` after an unlabelled first sense
 determines the `1)`, so an implied `1)` is case 2: a print error whose
 intended value is determined, corrected and annotated. The labels

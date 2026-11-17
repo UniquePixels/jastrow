@@ -14,7 +14,7 @@ saying what was written.
 ## The ruling
 
 Ruling `10-13 correction policy` ([`docs/decisions.md`](../../../../../../docs/decisions.md)
-§9, [`admin/entry/ANNOTATIONS.md`](../../../../../entry/ANNOTATIONS.md)):
+§9, `admin/entry/ANNOTATIONS.md`):
 a transcription error where print is right (case 1) is corrected with
 no annotation, its evidence in the patch rationale; a print error whose
 intended value is determined (case 2) is corrected and annotated

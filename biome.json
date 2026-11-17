@@ -267,8 +267,8 @@
 			"includes": [
 				"admin/pipeline/**/*.ts",
 				"!admin/pipeline/**/*.test.ts",
-				"admin/entry/**/*.ts",
-				"!admin/entry/**/*.test.ts",
+				"admin/validation/**/*.ts",
+				"!admin/validation/**/*.test.ts",
 				"admin/lib/**/*.ts",
 				"!admin/lib/**/*.test.ts",
 				"admin/paths.ts"

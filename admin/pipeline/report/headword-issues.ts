@@ -21,7 +21,6 @@
  * sorting).
  */
 import { dirname, relative } from 'node:path';
-import type { Entry, FormObject } from '../../entry/schema.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import {
 	HEBREW_MARK,
@@ -30,6 +29,7 @@ import {
 	withoutMarks,
 } from '../../lib/hebrew.ts';
 import { buildEntryPaths } from '../../lib/url-path.ts';
+import type { Entry, FormObject } from '../../validation/schema.ts';
 import { isHeadwordReviewKind } from '../headwords.ts';
 import {
 	DESIGN_PATH,

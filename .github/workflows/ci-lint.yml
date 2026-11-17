@@ -35,12 +35,12 @@ jobs:
           # (`transform:invariants` is an alias).
           - name: Test
             command: bun qa:test
-          # The entry contract (admin/entry/) over every file under
+          # The entry contract (admin/validation/) over every file under
           # data/entries/ and the page index: the check a hand edit meets.
           - name: Validate
             command: bun data:validate
           # data/schema/entry.schema.json is generated from
-          # admin/entry/schema.ts (ruling 11-05 schema source); this fails
+          # admin/validation/schema.ts (ruling 11-05 schema source); this fails
           # when the committed file is stale.
           - name: Schema
             command: bun schema:check

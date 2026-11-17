@@ -7,7 +7,7 @@ ledger L64; plan group 6b, "Cross-reference numerals".
 ## The ruling
 
 Ruling `10-13 correction policy` ([`docs/decisions.md`](../../../../../../docs/decisions.md)
-§9, [`admin/entry/ANNOTATIONS.md`](../../../../../entry/ANNOTATIONS.md))
+§9, `admin/entry/ANNOTATIONS.md`)
 case 1: a transcription error where print is right is corrected with
 no annotation. Here the cite's visible text is Jastrow's (`v. בַּר I`)
 and names a homograph numeral; Sefaria's linker aimed the link at a

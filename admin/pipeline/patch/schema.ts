@@ -33,9 +33,9 @@
  * gating) is `apply.ts`, which composes these functions.
  */
 import { createHash } from 'node:crypto';
-import type { Annotation } from '../../entry/schema.ts';
 import { serialize, tokenize } from '../../lib/html.ts';
 import { isIsoDate } from '../../lib/iso-date.ts';
+import type { Annotation } from '../../validation/schema.ts';
 import { declaredRunReason } from '../body/lettered.ts';
 import { parseHeadwordLine } from '../headwords.ts';
 import type {

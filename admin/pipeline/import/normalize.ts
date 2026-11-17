@@ -19,7 +19,7 @@
  * is (below), not a gate downstream of it.
  *
  * The one gate that reads its OUTPUT is gate 10, `contract`: the
- * entry contract (`admin/entry/`) over exactly what is about to be
+ * entry contract (`admin/validation/`) over exactly what is about to be
  * written. Its NFC clause is the other half of this module — it holds
  * a file this step never saw, a hand edit, to the same property.
  *
@@ -49,7 +49,7 @@
  * Idempotent: NFC is a fixed point, so a second run rewrites nothing.
  */
 
-import { VERBATIM_FIELDS } from '../../entry/schema.ts';
+import { VERBATIM_FIELDS } from '../../validation/schema.ts';
 
 /** What one normalization pass changed. `strings` counts the values
  * rewritten, not the values visited. */
@@ -67,7 +67,7 @@ function normalizeString(value: string, count: NormalizeCount): string {
 }
 
 /** Walk any JSON value, normalizing every string it holds — except
- * under `VERBATIM_FIELDS` (the entry contract's list, `admin/entry/
+ * under `VERBATIM_FIELDS` (the entry contract's list, `admin/validation/
  * schema.ts`). Gate 7 asserts `sefariaHeadword` byte for byte against
  * the snapshot BEFORE this step runs, so nothing downstream would
  * catch a normalization of it. The snapshot holds no non-NFC headword

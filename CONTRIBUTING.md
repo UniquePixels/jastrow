@@ -84,7 +84,7 @@ All commits must include a sign-off line (`git commit -s`).
   default level is `info` is either promoted to `warn` or turned off in
   `biome.json` (which cannot hold comments, so the three that are off
   are explained here). `useExpect`: test helpers such as `expectLine`
-  in `admin/entry/__tests__/headwords.test.ts` wrap `expect` on purpose, for
+  in `admin/pipeline/headwords.test.ts` wrap `expect` on purpose, for
   Sonar's duplication gate. `useDestructuring`: `senses[0]` named by
   index is deliberate — the position is the point. `useNamedCaptureGroup`:
   naming a group means rewriting every `match[n]` consumer in rule code
@@ -105,7 +105,7 @@ All commits must include a sign-off line (`git commit -s`).
 `Test` job runs the same set, and never reads the source data in
 `data/sources/sefaria/`. Neither checks entry data: `bun data:validate` checks
 every file under `data/entries/` against the entry contract
-(`admin/entry/`), and CI's `Validate` job runs it.
+(`admin/validation/`), and CI's `Validate` job runs it.
 
 Two checks of rule *code* need the whole source snapshot and take
 several minutes, so they run on your machine rather than in CI:

@@ -14,14 +14,14 @@
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import process from 'node:process';
-import type { Entry } from '../entry/schema.ts';
+import { paths } from '../paths.ts';
+import type { Entry } from '../validation/schema.ts';
 import {
 	ENTRY_FILE_GLOB,
 	type EntryValidator,
 	schemaErrors,
 	schemaValidator,
-} from '../entry/validate.ts';
-import { paths } from '../paths.ts';
+} from '../validation/validate.ts';
 import type { PassName } from './body/repairs.ts';
 import { evaluateRoundTrip } from './body/round-trip.ts';
 import { readSourceEntries } from './body/source.ts';

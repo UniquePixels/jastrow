@@ -14,9 +14,8 @@
  * list, a committed report or the patch application could differ
  * between machines.
  *
- * Here rather than in the pipeline because `admin/entry/` imports
- * nothing else in the repo, so the pipeline and `scripts/` can both
- * import from it.
+ * In `admin/lib/` so validation, the pipeline and `scripts/` can all
+ * import it.
  */
 
 /** `left` against `right` by UTF-16 code unit. Pass it straight to a

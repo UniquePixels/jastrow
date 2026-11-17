@@ -2,7 +2,7 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"$id": "https://jastrow.app/schema/entry.schema.json",
 	"title": "Jastrow v2 entry",
-	"description": "One entry of Jastrow’s dictionary at schemaVersion 2 (headword design §2). Generated from admin/entry/schema.ts by bun schema:build; never edit this file by hand.",
+	"description": "One entry of Jastrow’s dictionary at schemaVersion 3 (headword design §2). Generated from admin/validation/schema.ts by bun schema:build; never edit this file by hand.",
 	"type": "object",
 	"required": ["schemaVersion", "id", "sefariaHeadword", "headwords", "senses"],
 	"properties": {
@@ -148,7 +148,7 @@
 				}
 			},
 			"additionalProperties": false,
-			"description": "Where the entry departs from print, or keeps an oddity print sets, and why (ruling 11-15 annotation section). The patch holds the technical record; this is the reader's. The text points to it by id. That every id is referenced exactly once and every reference names an annotation the entry holds, admin/entry/annotations.ts enforces."
+			"description": "Where the entry departs from print, or keeps an oddity print sets, and why (ruling 11-15 annotation section). The patch holds the technical record; this is the reader's. The text points to it by id. That every id is referenced exactly once and every reference names an annotation the entry holds, admin/validation/annotations.ts enforces."
 		},
 		"formObject": {
 			"type": "object",
@@ -171,7 +171,7 @@
 				},
 				"gender": {
 					"enum": ["f", "m"],
-					"description": "This form's gender label, as print sets it beside the form (headword design §4). An entry carries at most one of a per-form gender on EVERY headword or a grammar.gender, never both, and neither is inherited (ruling HW-gender). This schema cannot express it; admin/entry/validate.ts enforces it."
+					"description": "This form's gender label, as print sets it beside the form (headword design §4). An entry carries at most one of a per-form gender on EVERY headword or a grammar.gender, never both, and neither is inherited (ruling HW-gender). This schema cannot express it; admin/validation/validate.ts enforces it."
 				},
 				"partial": {
 					"type": "boolean",
@@ -192,7 +192,7 @@
 				},
 				"annotation": {
 					"type": "string",
-					"description": "The id of the entry annotation this sense's label points to. A label is a bare token and cannot hold an <annotate> tag (ruling 11-15 annotation section). Only on a sense with a label: admin/entry/annotations.ts refuses it on one without.",
+					"description": "The id of the entry annotation this sense's label points to. A label is a bare token and cannot hold an <annotate> tag (ruling 11-15 annotation section). Only on a sense with a label: admin/validation/annotations.ts refuses it on one without.",
 					"pattern": "^a[1-9]\\d*$"
 				},
 				"reconstructed": {

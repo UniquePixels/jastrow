@@ -9,7 +9,7 @@ L46.
 ## The ruling
 
 Ruling `10-13 correction policy` ([`docs/decisions.md`](../../../../../../docs/decisions.md)
-§9, [`admin/entry/ANNOTATIONS.md`](../../../../../entry/ANNOTATIONS.md))
+§9, `admin/entry/ANNOTATIONS.md`)
 sorts every edit into four cases. A transcription error where print is
 right (case 1) is corrected with no annotation. A print error whose
 intended value is determined (case 2) is corrected and annotated. For

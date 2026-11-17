@@ -14,7 +14,7 @@
  * hand-built. The unit tier stays a fast tier.
  */
 import { afterAll, describe, expect, it } from 'bun:test';
-import { loadEntryFiles } from '../entry/validate.ts';
+import { loadEntryFiles } from '../validation/validate.ts';
 import { mark } from './import/gates.ts';
 import { actionOf, classifyRows, PUBLICATION } from './import/publication.ts';
 import type { Report, ReportRow } from './import/report.ts';
