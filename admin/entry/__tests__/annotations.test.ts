@@ -3,7 +3,8 @@
  * (`annotations.ts`; ruling `11-15 annotation section`, clause 3). The
  * contract checks the references and nothing else: every id is
  * referenced exactly once, every reference names an annotation the
- * entry holds, and an id names one annotation. Each case plants one
+ * entry holds, an id names one annotation, and a label pointer stands
+ * on a sense with a label. Each case plants one
  * defect into an entry that is otherwise valid and names the problem
  * it must raise.
  *
@@ -195,6 +196,17 @@ describe('annotations: the reference half', () => {
 		expect(validateEntry(entry, PATH)).toEqual([
 			'A00001: stems[0].senses[0].senses[0].annotation: points to a5, which annotations does not hold',
 			'A00001: annotations[3]: a4 is referenced 0 times; it must be referenced once',
+		]);
+	});
+
+	it('refuses a label pointer on a sense with no label', () => {
+		const entry = base();
+		const parent = entry.stems?.[0]?.senses[0];
+		if (parent !== undefined) {
+			parent.senses = [{ gloss: 'n', annotation: 'a4', units: [] }];
+		}
+		expect(validateEntry(entry, PATH)).toEqual([
+			'A00001: stems[0].senses[0].senses[0].annotation: points to a4 from a sense with no label; the pointer annotates the label',
 		]);
 	});
 });
