@@ -136,7 +136,7 @@ const SenseSchema = Type.Object(
 		annotation: Type.Optional(
 			Type.String({
 				description:
-					"The id of the entry annotation this sense's label points to. A label is a bare token and cannot hold an <annotate> tag (ruling 11-15 annotation section).",
+					"The id of the entry annotation this sense's label points to. A label is a bare token and cannot hold an <annotate> tag (ruling 11-15 annotation section). Only on a sense with a label: admin/entry/annotations.ts refuses it on one without.",
 				pattern: ANNOTATION_ID,
 			}),
 		),

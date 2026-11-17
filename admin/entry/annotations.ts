@@ -12,7 +12,9 @@
  *
  * - every reference names an annotation the entry holds;
  * - every id is referenced exactly once;
- * - an id names one annotation.
+ * - an id names one annotation;
+ * - a sense's `annotation` pointer stands on a sense with a `label`,
+ *   the one thing it can annotate (the maintainer, 2026-11-16).
  *
  * A reference is an `<annotate id>` tag in any field that may carry
  * markup (`entryFields`, read by `annotateIds`, `admin/lib/annotate.ts`)
@@ -34,20 +36,37 @@ import type { Entry, Sense } from './schema.ts';
  * carries it, and the id it names. */
 type Reference = readonly [path: string, id: string];
 
+/** A sense that carries a label pointer, and the readable path to its
+ * `annotation` field. */
+type Pointer = readonly [path: string, sense: Sense & { annotation: string }];
+
 /** Every label pointer a sense tree carries, depth first. */
-function* pointers(senses: readonly Sense[], at: string): Generator<Reference> {
+function* senseTreePointers(
+	senses: readonly Sense[],
+	at: string,
+): Generator<Pointer> {
 	for (const [i, sense] of senses.entries()) {
-		if (sense.annotation !== undefined) {
-			yield [`${at}[${i}].annotation`, sense.annotation];
+		const { annotation } = sense;
+		if (annotation !== undefined) {
+			yield [`${at}[${i}].annotation`, { ...sense, annotation }];
 		}
-		yield* pointers(sense.senses ?? [], `${at}[${i}].senses`);
+		yield* senseTreePointers(sense.senses ?? [], `${at}[${i}].senses`);
+	}
+}
+
+/** Every label pointer an entry carries, the entry's senses before
+ * each stem's. */
+function* pointers(entry: Entry): Generator<Pointer> {
+	yield* senseTreePointers(entry.senses, 'senses');
+	for (const [i, stem] of (entry.stems ?? []).entries()) {
+		yield* senseTreePointers(stem.senses, `stems[${i}].senses`);
 	}
 }
 
 /** Every reference an entry carries: the tag ids of every field that
  * may carry markup (`entryFields`, so a tag the markup check accepts
  * is a tag counted here, wherever it stands), then every sense's
- * label pointer, the entry's senses before each stem's. */
+ * label pointer. */
 function* references(entry: Entry): Generator<Reference> {
 	for (const { markup, path, text } of entryFields(entry)) {
 		if (markup !== 'none') {
@@ -56,9 +75,20 @@ function* references(entry: Entry): Generator<Reference> {
 			}
 		}
 	}
-	yield* pointers(entry.senses, 'senses');
-	for (const [i, stem] of (entry.stems ?? []).entries()) {
-		yield* pointers(stem.senses, `stems[${i}].senses`);
+	for (const [path, sense] of pointers(entry)) {
+		yield [path, sense.annotation];
+	}
+}
+
+/** A label pointer annotates the label, so it stands only on a sense
+ * that has one. */
+function checkPointerLabels(entry: Entry, problems: string[]): void {
+	for (const [path, sense] of pointers(entry)) {
+		if (sense.label === undefined) {
+			problems.push(
+				`${entry.id}: ${path}: points to ${sense.annotation} from a sense with no label; the pointer annotates the label`,
+			);
+		}
 	}
 }
 
@@ -78,6 +108,7 @@ function checkAnnotations(entry: Entry, problems: string[]): void {
 			);
 		}
 	}
+	checkPointerLabels(entry, problems);
 	const counts = new Map<string, number>();
 	for (const [path, id] of references(entry)) {
 		if (held.has(id)) {

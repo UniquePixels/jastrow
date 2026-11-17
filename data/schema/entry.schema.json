@@ -192,7 +192,7 @@
 				},
 				"annotation": {
 					"type": "string",
-					"description": "The id of the entry annotation this sense's label points to. A label is a bare token and cannot hold an <annotate> tag (ruling 11-15 annotation section).",
+					"description": "The id of the entry annotation this sense's label points to. A label is a bare token and cannot hold an <annotate> tag (ruling 11-15 annotation section). Only on a sense with a label: admin/entry/annotations.ts refuses it on one without.",
 					"pattern": "^a[1-9]\\d*$"
 				},
 				"reconstructed": {

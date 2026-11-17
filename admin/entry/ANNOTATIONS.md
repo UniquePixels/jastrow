@@ -81,7 +81,8 @@ finds its ids and reads past it):
   (` I`);
 - inline in a `gloss` or a `units[n]`;
 - as a sense's `annotation: "aN"` pointer, where the mark is the
-  label. A label is a bare token and cannot hold a tag.
+  label. A label is a bare token and cannot hold a tag. The pointer
+  annotates the label, so it stands only on a sense that has one.
 
 `headwords[n].text` and `label` stay plain. Where print sets nothing,
 the tag wraps what was added.
@@ -101,8 +102,8 @@ about annotations:
   `<annotate>` tag to its one shape and to closing;
 - the references (`checkAnnotations`, `admin/entry/annotations.ts`):
   every id names one annotation, every tag or pointer names an
-  annotation the entry holds, and every annotation is referenced
-  exactly once. A tag counts in any field that may carry markup
+  annotation the entry holds, every annotation is referenced
+  exactly once, and a pointer stands on a sense with a `label`. A tag counts in any field that may carry markup
   (`entryFields`, `admin/entry/fields.ts`), stems included.
 
 The contract does **not** compare an annotation with its patch, its
