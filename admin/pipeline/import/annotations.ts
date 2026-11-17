@@ -10,16 +10,16 @@
  * has parsed the line and translated every sense, since a text draft
  * is located in the translated text.
  *
- * The contract (`admin/entry/annotations.ts`) checks only that the
+ * The contract (`admin/validation/annotations.ts`) checks only that the
  * references agree. What the import writes it checks here: each draft
  * finds exactly one place, and `kind: 'kept'` holds exactly where
  * `printed` equals what the tag wraps (the form's text, the numeral,
  * the label, or the found text).
  */
 
-import type { Annotation, Entry, Sense } from '../../entry/schema.ts';
 import { annotateTag } from '../../lib/annotate.ts';
 import { intToRoman } from '../../lib/roman.ts';
+import type { Annotation, Entry, Sense } from '../../validation/schema.ts';
 import { countOccurrences } from '../patch/schema.ts';
 import type {
 	AnnotationNote,

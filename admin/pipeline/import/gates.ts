@@ -3,18 +3,18 @@
  * each a tally. Gate 1 (body round-trips), 4 (schema) and 9
  * (composition failures) live with the composer and the CLI. */
 
-import type { Entry } from '../../entry/schema.ts';
-import {
-	checkEntry,
-	schemaValidator,
-	validateCorpus,
-} from '../../entry/validate.ts';
 import { withoutAnnotateTags } from '../../lib/annotate.ts';
 import { compareByCodeUnit } from '../../lib/compare-by-code-unit.ts';
 import { SUPERSCRIPT_DIGIT } from '../../lib/hebrew.ts';
 import { tokenize } from '../../lib/html.ts';
 import { intToRoman } from '../../lib/roman.ts';
 import { findEmptyUrlWords } from '../../lib/url-path.ts';
+import type { Entry } from '../../validation/schema.ts';
+import {
+	checkEntry,
+	schemaValidator,
+	validateCorpus,
+} from '../../validation/validate.ts';
 import type { PagePlacement } from '../page-index.ts';
 import { lossMismatch } from '../patch/loss.ts';
 import type { SemanticPatch } from '../patch/schema.ts';
@@ -23,7 +23,7 @@ import { findRid } from './cite.ts';
 
 /** A gate result: a count against a fixed total, plus the failing
  * lines. An import concept, not an entry one — it stayed here when the
- * entry shapes moved to the entry contract (`admin/entry/schema.ts`). */
+ * entry shapes moved to the entry contract (`admin/validation/schema.ts`). */
 interface Tally {
 	failures: string[];
 	pass: number;
@@ -136,7 +136,7 @@ function cutSlots(display: string): string {
  * field holds one, so the source's are counted against nothing. The
  * template side skips them as well, so a superscript in `display` is
  * not caught here: rule 3's `checkNoSuperscriptInDisplay`
- * (`admin/entry/headword-rules.ts`) refuses one.
+ * (`admin/validation/headword-rules.ts`) refuses one.
  *
  * **So is print's ` or ` between two spellings** (ruling 10-25 display
  * or), a separator the template supplies like `, `; it is cut in
@@ -641,7 +641,7 @@ function checkPages(
  * many annotations on it as it owes: one, or for a `relabel` one per
  * label it changed (`annotationsOwed`), which is how many times
  * `applied` lists it. The contract does not ask either question:
- * `admin/entry/` cannot read the patch records, and the committed tree
+ * `admin/validation/` cannot read the patch records, and the committed tree
  * runs ahead of its patches once the admin tool edits it. This is the
  * one place that holds both sides.
  *
@@ -686,7 +686,7 @@ function annotationProvenance(
 	return problems;
 }
 
-/** Gate 10: the entry contract (`admin/entry/`) over exactly what the
+/** Gate 10: the entry contract (`admin/validation/`) over exactly what the
  * run is about to write — the NORMALIZED entries, each at the path
  * `pathOf` will write it to. One mark per entry for its own checks,
  * plus ONE mark for the corpus checks (addresses, `sefariaHeadword`, cite

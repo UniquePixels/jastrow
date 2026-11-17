@@ -89,10 +89,10 @@ from-scratch rebuild.
 This module names no path outside itself except through
 [`paths.ts`](paths.ts) and, for the entry tree,
 [`admin/paths.ts`](../paths.ts). Its one code dependency outside itself is the
-entry contract, [`admin/entry/`](../entry/README.md), which its files
+entry contract, `admin/validation/`, which its files
 import directly ([`DESIGN.md`](DESIGN.md) §1, "The boundary"). To
 run the same pipeline over another lexicon: point those constants at
-your files, write your entry schema in `admin/entry/schema.ts`, and run the two
+your files, write your entry schema in `admin/validation/schema.ts`, and run the two
 commands above. Nothing in `docs/` is needed to run it.
 
 What will not transfer: the transform rules and the patch records
@@ -167,7 +167,7 @@ general), patches (one entry's judged fix), or review detectors
 (detect only) — per [`DESIGN.md`](DESIGN.md) §6. Gated by the thirteen
 blessing gates of [`DESIGN.md`](DESIGN.md) §9; a red gate refuses to
 write. Gate 10 holds what the run would write to the entry contract
-in [`admin/entry/`](../entry/README.md) — the same check
+in `admin/validation/` — the same check
 `bun data:validate` runs over the committed tree in CI. `import.ts` is re-runnable: it never chokes on the data it is
 given, and it never silently overwrites hand edits in entry data.
 
@@ -229,8 +229,8 @@ the filters.
 ## Compile — not this module (`admin/compile/`, not yet built)
 
 Compile is not a stage of this module. It will be its own module,
-`admin/compile/`, beside this one and `admin/entry/`, and may import
-only `admin/entry/` — nothing here (ruling `10-04 compile home`,
+`admin/compile/`, beside this one and `admin/validation/`, and may import
+only `admin/validation/` — nothing here (ruling `10-04 compile home`,
 [`docs/decisions.md`](../../docs/decisions.md)), and none of it is
 written yet. It will consume entry data and, on every deploy,
 validate, transform and emit the serving artifacts — entry shards,

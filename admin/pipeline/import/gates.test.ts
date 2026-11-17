@@ -5,7 +5,7 @@ import {
 	type Entry,
 	type FormObject,
 	SCHEMA_VERSION,
-} from '../../entry/schema.ts';
+} from '../../validation/schema.ts';
 import type { BodyEntry, BodySense, SourceEntry } from '../types.ts';
 import {
 	checkAddresses,

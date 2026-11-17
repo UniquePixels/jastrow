@@ -2,7 +2,7 @@
 
 This is the audit that ruling `10-13 correction policy`
 ([`decisions.md`](../decisions.md) §9) requires and
-[`admin/entry/ANNOTATIONS.md`](../../admin/entry/ANNOTATIONS.md) §4 sized:
+`admin/entry/ANNOTATIONS.md` §4 sized:
 every population the ruling touches, row by row, with the disposition
 under the ruling's four cases and the patch a data PR writes for it.
 It is a hand-written audit, not a generated report, and it changes

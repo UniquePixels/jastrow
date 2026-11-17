@@ -48,7 +48,7 @@ const DATA_REF = /data-ref="(?<value>[^"]+)"/u;
 
 /** The legacy quote-blind tag end: one past the first `>` at or after
  * `start`, or `null` when the string holds no `>` at all. `OrNull` because
- * `admin/entry/html.ts` has a `legacyTagEnd` with the same reading that
+ * `admin/lib/html.ts` has a `legacyTagEnd` with the same reading that
  * answers -1 instead; the two are not interchangeable. This is what the
  * old `[^>]*` regex read, and it is what `findTagEnd` falls back to once a
  * quoted value proves damaged. */

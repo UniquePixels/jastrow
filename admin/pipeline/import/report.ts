@@ -1,7 +1,7 @@
 // biome-ignore-all lint/style/noExcessiveLinesPerFile: the report shape and its two renderings; splitting them lets a field drift from the document that shows it.
 /** The import report (migrate spec §4.2; consolidation spec §3.1): every gate as a tally, structured rows, rule counts, patch outcomes, and the evidence doc the maintainer blesses. */
 
-import type { Annotation, Entry } from '../../entry/schema.ts';
+import type { Annotation, Entry } from '../../validation/schema.ts';
 import { isHeadwordReviewKind } from '../headwords.ts';
 import type { DriftOutcome } from '../patch/drift.ts';
 import { IMPORT_REPORT_PATH } from '../paths.ts';

@@ -1,16 +1,6 @@
 /**
- * Controls for the annotation clause of the entry contract
- * (`annotations.ts`; ruling `11-15 annotation section`, clause 3). The
- * contract checks the references and nothing else: every id is
- * referenced exactly once, every reference names an annotation the
- * entry holds, an id names one annotation, and a label pointer stands
- * on a sense with a label. Each case plants one
- * defect into an entry that is otherwise valid and names the problem
- * it must raise.
- *
- * Every case runs through `validateEntry`, so the schema half (shape,
- * enums, patterns) and the reference half are held as one contract,
- * the way a hand edit meets it.
+ * Tests for `checkAnnotations`, run through `validateEntry`: each case
+ * plants one defect in a valid entry and expects the problem it raises.
  */
 import { describe, expect, it } from 'bun:test';
 import { type Annotation, type Entry, SCHEMA_VERSION } from '../schema.ts';
@@ -18,8 +8,7 @@ import { validateEntry } from '../validate.ts';
 
 const PATH = 'A/A00001.json';
 
-/** One annotation in one positional call, so each table row stays one
- * line. */
+/** Builds an annotation with the given id and kind. */
 function a(id: string, kind: Annotation['kind'] = 'print-error'): Annotation {
 	return {
 		id,
@@ -31,10 +20,14 @@ function a(id: string, kind: Annotation['kind'] = 'print-error'): Annotation {
 	};
 }
 
-/** The entry every case plants into, valid as it stands: a homograph
- * tag in `display` (a1), a gloss tag (a2), a unit tag inside a cite
- * (a3) and a label pointer on a stem's nested sense (a4). `over`
- * replaces whole top-level keys. */
+/**
+ * Builds a valid entry with four annotations: a tag in `display` (a1),
+ * in a gloss (a2) and in a unit (a3), and a pointer on a stem's nested
+ * sense (a4).
+ *
+ * @param over - Top-level keys to replace.
+ * @returns The entry.
+ */
 function base(over: Partial<Entry> = {}): Entry {
 	return {
 		schemaVersion: SCHEMA_VERSION,

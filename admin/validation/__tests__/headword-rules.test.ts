@@ -1,14 +1,12 @@
 /**
- * Controls for the §3.1 rules. `validate.test.ts` plants one defect
- * per rule through the whole tree check; these read the rules
- * directly, and cover the two things that check cannot see — rule 4's
- * halt, and the shapes rules 1–3 must ACCEPT.
+ * Tests for the headword rules, called directly: rule 4, and the
+ * shapes rules 1 to 3 must accept.
  */
 import { describe, expect, it } from 'bun:test';
 import { headwordShapeProblems, textDefects } from '../headword-rules.ts';
 import type { Entry, FormObject } from '../schema.ts';
 
-/** An entry as the rules read it: the id, the forms and the template. */
+/** Builds the part of an entry the rules read: id, forms and template. */
 function shaped(
 	headwords: Entry['headwords'],
 	display?: string,

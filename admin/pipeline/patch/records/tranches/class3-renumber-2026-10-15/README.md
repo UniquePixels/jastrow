@@ -8,7 +8,7 @@ a renumbered sense (S01849), and records U01512's `a) … 2)` as kept.
 ## The ruling
 
 Ruling `10-13 correction policy` ([`docs/decisions.md`](../../../../../../docs/decisions.md)
-§9, [`admin/entry/ANNOTATIONS.md`](../../../../../entry/ANNOTATIONS.md))
+§9, `admin/entry/ANNOTATIONS.md`)
 makes a doubled sense number case 2: a print error whose intended value
 the run determines. Each run is renumbered, every label after the
 doubled one becoming the one before it plus 1, and each changed label

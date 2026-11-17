@@ -1,7 +1,7 @@
 # Admin Helpers
 
 Code any admin module may use: the entry contract
-([`admin/entry/`](../entry/README.md)), the
+(`admin/validation/`), the
 [pipeline](../pipeline/README.md), and later compile and the admin
 tool (`admin/ui/`). A helper belongs here when it is not about
 entries or about one module's job (ruling `11-06 admin layout`,

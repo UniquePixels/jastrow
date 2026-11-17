@@ -36,8 +36,7 @@ are at
 ## The `annotation` field
 
 Since PR #172 a reviewed patch may carry an `annotation` (rulings
-`10-13 correction policy` and `11-15 annotation section`,
-[`admin/entry/ANNOTATIONS.md`](../../../../entry/ANNOTATIONS.md) §3): print's reading where the patch departs from it, or the record
+`10-13 correction policy` and `11-15 annotation section`): print's reading where the patch departs from it, or the record
 that print was read and kept.
 
 ```json

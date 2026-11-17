@@ -1,46 +1,28 @@
 /**
- * The annotation clause of the entry contract (ruling `11-15
- * annotation section`, clause 3): an entry's `annotations` list and
- * the text that points to it agree.
- *
- * The schema (`data/schema/entry.schema.json`, `$defs.annotation`)
- * holds the shape: the id pattern, the enum, `source` as `P` + 6
- * digits, `date` as `YYYY-MM-DD`, a non-empty `note`, and
- * a list never empty. `validate.ts` runs the schema first, and its
- * markup check holds every `<annotate>` tag to its one shape and to
- * closing. This module checks the references, and nothing else:
- *
- * - every reference names an annotation the entry holds;
- * - every id is referenced exactly once;
- * - an id names one annotation;
- * - a sense's `annotation` pointer stands on a sense with a `label`,
- *   the one thing it can annotate (the maintainer, 2026-11-16).
- *
- * A reference is an `<annotate id>` tag in any field that may carry
- * markup (`entryFields`, read by `annotateIds`, `admin/lib/annotate.ts`)
- * — `display`, a `gloss` or a `units[n]` where the import writes them,
- * but a hand edit's tag in a stem field counts too — or a sense's
- * `annotation` pointer, stems included.
- *
- * It does not compare an annotation with its patch, its `date` or
- * `kind` with anything, or `printed` with the tagged text (the
- * maintainer: "I want to avoid a bunch of checking/comparing in the
- * validate portion here"). The import checks what it writes; a hand
- * edit is judged by its editor and later by the backport.
+ * Checks that an entry's `annotations` list and the references to it
+ * agree.
  */
 import { annotateIds } from '../lib/annotate.ts';
 import { entryFields } from './fields.ts';
 import type { Entry, Sense } from './schema.ts';
 
-/** One reference to an annotation: a readable path to the field that
- * carries it, and the id it names. */
+/**
+ * A reference to an annotation: the path of the field carrying it, and
+ * the id it names.
+ */
 type Reference = readonly [path: string, id: string];
 
-/** A sense that carries a label pointer, and the readable path to its
- * `annotation` field. */
+/** A sense carrying an `annotation` pointer, and the path of that field. */
 type Pointer = readonly [path: string, sense: Sense & { annotation: string }];
 
-/** Every label pointer a sense tree carries, depth first. */
+/**
+ * Yields every sense of a sense tree that carries an `annotation`
+ * pointer, depth first.
+ *
+ * @param senses - The senses to walk.
+ * @param at - The path of `senses` within the entry.
+ * @returns Each pointer's path and sense.
+ */
 function* senseTreePointers(
 	senses: readonly Sense[],
 	at: string,
@@ -54,8 +36,13 @@ function* senseTreePointers(
 	}
 }
 
-/** Every label pointer an entry carries, the entry's senses before
- * each stem's. */
+/**
+ * Yields every `annotation` pointer of an entry: its own senses first,
+ * then each stem's.
+ *
+ * @param entry - The entry to walk.
+ * @returns Each pointer's path and sense.
+ */
 function* pointers(entry: Entry): Generator<Pointer> {
 	yield* senseTreePointers(entry.senses, 'senses');
 	for (const [i, stem] of (entry.stems ?? []).entries()) {
@@ -63,10 +50,14 @@ function* pointers(entry: Entry): Generator<Pointer> {
 	}
 }
 
-/** Every reference an entry carries: the tag ids of every field that
- * may carry markup (`entryFields`, so a tag the markup check accepts
- * is a tag counted here, wherever it stands), then every sense's
- * label pointer. */
+/**
+ * Yields every reference to an annotation in an entry: each
+ * `<annotate>` tag in a field that may carry markup, then each sense
+ * pointer.
+ *
+ * @param entry - The entry to walk.
+ * @returns Each reference's path and the id it names.
+ */
 function* references(entry: Entry): Generator<Reference> {
 	for (const { markup, path, text } of entryFields(entry)) {
 		if (markup !== 'none') {
@@ -80,8 +71,12 @@ function* references(entry: Entry): Generator<Reference> {
 	}
 }
 
-/** A label pointer annotates the label, so it stands only on a sense
- * that has one. */
+/**
+ * Reports each `annotation` pointer on a sense that has no `label`.
+ *
+ * @param entry - The entry to check.
+ * @param problems - The list problems are appended to.
+ */
 function checkPointerLabels(entry: Entry, problems: string[]): void {
 	for (const [path, sense] of pointers(entry)) {
 		if (sense.label === undefined) {
@@ -92,9 +87,14 @@ function checkPointerLabels(entry: Entry, problems: string[]): void {
 	}
 }
 
-/** The annotation clause over one entry (see the module docstring),
- * every problem as `<id>: <path>: <problem>`. Called by `checkEntry`
- * after the schema passed. */
+/**
+ * Checks an entry's annotations: each id names one annotation, each
+ * reference names an annotation the entry holds, each pointer is on a
+ * labelled sense, and each annotation is referenced exactly once.
+ *
+ * @param entry - A schema-valid entry.
+ * @param problems - The list problems are appended to.
+ */
 function checkAnnotations(entry: Entry, problems: string[]): void {
 	const list = entry.annotations ?? [];
 	const held = new Map<string, number>();

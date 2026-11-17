@@ -60,7 +60,7 @@ exception: other admin modules name it too, so it is declared in
 [`admin/paths.ts`](../paths.ts) and read from there (ruling
 `11-06 shared paths`).
 
-**Two outward dependencies: `admin/entry/` and `admin/lib/`.** The
+**Two outward dependencies: `admin/validation/` and `admin/lib/`.** The
 entry contract — the entry types, the headword parser and its six
 rules, URL words and the validator — is its
 own module beside this one (ruling `09-30 entry contract`), because the
@@ -70,7 +70,7 @@ it may depend on nothing here. `admin/lib/` holds the helpers every
 admin module shares: the HTML tokenizer and `compareByCodeUnit`
 (ruling `11-06 admin layout`). These directions are kept by review,
 not by a lint rule. Where the entries live is `paths.entries` in
-`admin/paths.ts`; the schema is code, `admin/entry/schema.ts`.
+`admin/paths.ts`; the schema is code, `admin/validation/schema.ts`.
 
 `DESIGN_PATH` points at this file. `report/headword-issues.ts`
 computes a relative link to it from the report's own directory rather
@@ -104,7 +104,7 @@ whose table predates the module. Where each is described:
   headword issues), no entry data. `--strict` works on either and
   promotes a drifted patch precondition from a report row to a
   refusal.
-- `bun data:validate` — the entry contract (`admin/entry/`) over every
+- `bun data:validate` — the entry contract (`admin/validation/`) over every
   file under `data/entries/`; with file arguments,
   each named file's own checks only. CI's Validate job. Exits non-zero
   on any problem.
@@ -124,7 +124,7 @@ Everything assigned to compile — the route map, the browse index,
 abbreviation detection, reference-index derivation, pointer
 classification, entry shards, search artifacts — is unbuilt, and none
 of it is this module's concern. Compile will be its own module,
-`admin/compile/`, which may import only `admin/entry/` and
+`admin/compile/`, which may import only `admin/validation/` and
 `admin/lib/`; `app/` may import nothing under `admin/` (rulings
 `10-04 compile home`, `11-06 admin layout`).
 
@@ -234,8 +234,7 @@ annotation naming the cites. A sole bare candidate before the II is no
 proof; the headword report's X10 shape names the candidates, and an
 unproven one goes to the reviewed-kept list. 10-06's hidden `implied`
 I left the contract in PR #174 (5 proven Is displayed and annotated, 9
-withdrawn). See that ruling and
-[`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md).
+withdrawn). See that ruling.
 
 `display` is an optional template whose `{n}` inserts
 `headwords[n].text` and whose every other character is literal
@@ -253,7 +252,7 @@ items; the shape no longer corresponds 1:1 to the source's split
 strings, so gate 2 was redefined instead (§9).
 
 Six shape rules are checked by `headwordShapeProblems`
-(`admin/entry/headword-rules.ts`, wired into `admin/entry/validate.ts`):
+(`admin/validation/headword-rules.ts`, wired into `admin/validation/validate.ts`):
 
 1. every form index appears in `display` exactly once (`checkSlots`);
 2. `display` holds no Hebrew (`checkNoHebrew`);
@@ -269,7 +268,7 @@ Six shape rules are checked by `headwordShapeProblems`
 6. every comparison normalizes to NFC first.
 
 Rule 4 **halts**: `headwordShapeProblems` in
-`admin/entry/headword-rules.ts` reports every `textDefects` finding as
+`admin/validation/headword-rules.ts` reports every `textDefects` finding as
 an error, since the last two entries carrying a literal `=` in
 `headwords[].text` (A01175, A01345) were repaired by reviewed patches.
 The switch that once held it to a report is gone. A new one from
@@ -278,7 +277,7 @@ upstream is a `headword-unparsed` row and a red gate 10.
 `gender` on a form and `grammar.gender` on the entry are mutually
 exclusive, a form gender goes on every headword or none, and neither
 is inherited (ruling HW-gender). The schema states the rule in its
-description; `validateEntry` (`admin/entry/validate.ts`) enforces it.
+description; `validateEntry` (`admin/validation/validate.ts`) enforces it.
 
 ### Senses, stems, the gloss head
 
@@ -381,7 +380,7 @@ producer, and is absent from every entry. **UNBUILT.**
 ### The markup vocabulary
 
 Stored markup is six tags and nothing else: `b`, `cite`, `he`, `i`,
-`sub`, `sup` (`admin/entry/validate.ts`'s `VOCABULARY`). `markup.ts` keeps
+`sub`, `sup` (`admin/validation/validate.ts`'s `VOCABULARY`). `markup.ts` keeps
 four of the source's six tags and translates the other two —
 `span[dir=rtl]` becomes `<he>`, `a` becomes `<cite ref="…">`. Text
 bytes are never touched by the translation. A `cite` carries exactly
@@ -425,8 +424,7 @@ Deviations from print are recorded in the entry's one `annotations`
 list (ruling `11-15 annotation section`, amending `10-13 correction
 policy`), and the text points to each with an `<annotate>` tag or a
 sense's `annotation` pointer. The reviewed patch that makes the
-deviation writes it (§5 "Patch ops"); see
-[`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md). Committed
+deviation writes it (§5 "Patch ops"). Committed
 entries carry them since PR #174, and the import blessing counts them
 by kind; the remaining data PRs are review ledger plan group 6b.
 
@@ -705,8 +703,7 @@ the two ops that leave the text untouched and so cannot invalidate
 each other's anchor; J00403's P000820 and P000826 share one.
 
 **`annotation`** (rulings `10-13 correction policy` and `11-15
-annotation section`,
-[`admin/entry/ANNOTATIONS.md`](../entry/ANNOTATIONS.md) §3) is an
+annotation section`) is an
 optional `{kind, printed, note?, evidence, date}` on a reviewed patch:
 print's reading where the patch departs from it (case 2 `print-error`,
 case 4 `illegible`) or keeps it (case 3 `kept`, `annotate` only). The
@@ -1172,7 +1169,7 @@ is a bug: combining-mark order varies in the source.
 with the same word are not a collision; the number tells them apart.
 `findEmptyUrlWords` (`admin/lib/url-path.ts`) backs **both** the import
 gate (`import/gates.ts`'s `checkAddresses`) and the entry contract
-(`admin/entry/validate.ts`'s `checkUrlWords`), so a hand edit and a run
+(`admin/validation/validate.ts`'s `checkUrlWords`), so a hand edit and a run
 cannot disagree about what an empty word is.
 
 **Links resolve by the link key, not the URL word.** An internal target is
@@ -1285,7 +1282,7 @@ is why `transform/no-lost-text.ts` exists. Nor the source label: a
 star the body never built is equal on both sides.
 
 **4. `schema`** (TypeBox's validator, compiled once from
-`EntrySchema` in `admin/entry/schema.ts` by the entry contract's
+`EntrySchema` in `admin/validation/schema.ts` by the entry contract's
 `schemaValidator` — the same compiled validator gate 10 uses).
 *Proves:* every finished entry satisfies the schema.
 *Cannot see:* anything the schema does not constrain. The module does
@@ -1339,7 +1336,7 @@ recording a problem.
 **10. `contract`** (`import/gates.ts`, `checkContract`, over the
 **normalized** entries — exactly what the write would put on disk —
 each at the path `writeAll` would give it). The entry contract
-(`admin/entry/validate.ts`, ruling `09-30 entry contract`): one mark
+(`admin/validation/validate.ts`, ruling `09-30 entry contract`): one mark
 per entry for `validateEntry` — schema, home path, the six headword
 rules, the annotation clause, the closed tag vocabulary and balance
 per field, no markup in a plain field, every stored string in NFC —
@@ -1584,7 +1581,7 @@ checks and never rewrites.
 
 ### What a hand edit meets
 
-The entry contract (`admin/entry/validate.ts`) is the only check a
+The entry contract (`admin/validation/validate.ts`) is the only check a
 hand edit meets — and the import meets the same one, as gate 10, so a
 file cannot pass one and fail the other. CI's Validate job runs it
 (`bun data:validate`) over the committed tree; the admin tool, when it
@@ -1736,7 +1733,7 @@ so cannot be inferred from reading the code that is there.
 29. **No `display` template is ever invented.** A line the source
     cannot settle is written with `display` unset and the row flagged.
     A flagged row is a ticket, not a guess
-    (`admin/entry/headword-rules.ts:262-267`; `import/publication.ts:80`).
+    (`admin/validation/headword-rules.ts:262-267`; `import/publication.ts:80`).
     A reviewed patch may correct a **placement** but not the notation
     (`import/gates.ts:244-260`), except a separator: a comma, or print's
     ` or ` between two spellings (ruling `10-25 display or`).
@@ -1754,7 +1751,7 @@ so cannot be inferred from reading the code that is there.
     no-vowel-inference ruling, not a comment there.
 33. **A `partial` form is never a lookup key**, except at index 0 when
     it is the entry's only name
-    (`admin/entry/headword-rules.ts:212-235`).
+    (`admin/validation/headword-rules.ts:212-235`).
 34. **`display` may hold no Hebrew**, and a form's `text` may hold no
     comma, parenthesis, `?`, `=`, `…` or Latin letter — both checked by
     `headwordShapeProblems`, and both halt — in the entry contract,
