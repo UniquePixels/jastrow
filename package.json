@@ -31,6 +31,6 @@
 	},
 	"comment": "chart.js is pinned to match the CDN <script> in index.html and the @biomejs/biome pin matches .mise.toml — bump them together. Chromium for the PDF builder is NOT installed on `bun install`; run `bun run setup:pdf` for that.",
 	"optionalDependencies": {
-		"@anthropic-ai/sdk": "^0.102.0"
+		"@anthropic-ai/sdk": "^0.137.0"
 	}
 }
